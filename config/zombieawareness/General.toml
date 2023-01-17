@@ -51,7 +51,7 @@
 	senseMaxStrength = 300
 	#Days before all of the mods features will be activated
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	daysBeforeFeaturesActivate = 0.0
+	daysBeforeFeaturesActivate = 4.9E-324
 	#Block breaks cause sound senses to spawn
 	blockBreakEvent_Active = true
 	#Block mining before it breaks cause sound senses to spawn

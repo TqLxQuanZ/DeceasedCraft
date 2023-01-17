@@ -1,0 +1,13 @@
+
+[General]
+	#If enabled your console will fill with spam showing the various types of data you will need to fine tune this config
+	showConsoleIDS = false
+	#If selected the rest of the config is pointless. Default: true
+	noMobsBurn = true
+	#Prevent a whole mods' mobs from burning just by specifying the modid. Comma separated and quoted list
+	#Default: "iceandfire"
+	mods = ["iceandfire"]
+	#Prevent specific mods' mobs from burning just by specifying their full id for example modid:mobname.  Comma separated and quoted list
+	#Default: "minecraft:zombie","minecraft:skeleton"
+	mobs = ["minecraft:zombie", "minecraft:skeleton", "minecraft:stray"]
+

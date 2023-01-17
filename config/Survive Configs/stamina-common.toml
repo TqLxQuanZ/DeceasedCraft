@@ -1,0 +1,81 @@
+#
+############################################
+#Disabling this will disable this mods stamina system and energy management system
+#-------------------------------------------
+#Default: true
+#-------------------------------------------
+"Boolean: Enable Stamina" = true
+#
+############################################
+#Disabling this will allow the weight of certain armor pieces to affect your stamina
+#-------------------------------------------
+#Default: true
+#-------------------------------------------
+"Boolean: Enable Armor Weights" = true
+#
+############################################
+#Adds stamina exhaustion from interacting with blocks
+#This will only count if the block's interaction is successful i.e opening a chest
+#Stamina exhaustion unlike food exhaustion counts up to 10
+#-------------------------------------------
+#Default: 1.0
+#-------------------------------------------
+#Range: 0.0 ~ 4.0
+"Float: Stamina Exhaustion From Interacting With Blocks" = 1.0
+#
+############################################
+#Adds stamina exhaustion from interacting with items
+#This will only count if the block's interaction is successful i.e drawing a bow
+#Stamina exhaustion unlike food exhaustion counts up to 10
+#-------------------------------------------
+#Default: 1.0
+#-------------------------------------------
+#Range: 0.0 ~ 4.0
+"Float: Stamina Exhaustion From Interacting With Items" = 1.0
+#
+############################################
+#Adds stamina exhaustion from breaking harvestable blocks
+#This will only count if the player uses the incorrect tool to break the block
+#Stamina exhaustion unlike food exhaustion counts up to 10
+#-------------------------------------------
+#Default: 1.5
+#-------------------------------------------
+#Range: 0.0 ~ 4.0
+"Float: Stamina Exhaustion From Breaking Harvestable Blocks" = 1.5
+#
+############################################
+#Adds stamina exhaustion from breaking non harvestable blocks
+#This will only count if the player uses the correct tool to break the block
+#Stamina exhaustion unlike food exhaustion counts up to 10
+#-------------------------------------------
+#Default: 0.125
+#-------------------------------------------
+#Range: 0.0 ~ 4.0
+"Float: Stamina Exhaustion From Breaking Non-Harvestable Blocks" = 0.125
+#
+############################################
+#How often in ticks does the player recover stamina
+#This recovers 1 point of stamina after the amount of set ticks passes
+#-------------------------------------------
+#Default: 300
+#-------------------------------------------
+#Range: 0 ~ 10000
+"Integer: Stamina Recovery Ticks" = 300
+#
+############################################
+#The maximum weight (kg) of armor that the player can carry without losing stamina
+#-------------------------------------------
+#Default: 21.0
+#-------------------------------------------
+#Range: 0.0 ~ 10000.0
+"Float: Maximum Armor Carry Weight" = 21.0
+#
+############################################
+#The maximum stamina the player has
+#If you want to modify this, you'll need to first restart the world then kill all the players in your world to have the changes applied to all the players
+#-------------------------------------------
+#Default: 20.0
+#-------------------------------------------
+#Range: 0.0 ~ 100.0
+"Float: Maximum Stamina" = 20.0
+

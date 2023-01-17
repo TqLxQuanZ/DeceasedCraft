@@ -1,0 +1,50 @@
+#
+############################################
+#Disabling this will disable this mods temperature system
+#-------------------------------------------
+#Default: true
+#-------------------------------------------
+"Boolean: Enable" = true
+#
+############################################
+#Disabling this will prevent players from sleeping if they have hyperthermia or hypothermia
+#-------------------------------------------
+#Default: true
+#-------------------------------------------
+"Boolean: Hypothermia/Hyperthermia Allows Sleep" = true
+#
+############################################
+#This determines the mode used when deciding the temperature
+#NORMAL Mode: calculates the average temperature of each block around the player
+#BLEND Mode: calculates the average temperature similar to that of NORMAL, but blends the temperature of the target positions with the player's. The blend ratio is determined by your distance from the block
+#-------------------------------------------
+#Default: BLEND
+#-------------------------------------------
+#Allowed Values: BLEND, NORMAL
+"Enum: Temperature Mode" = "BLEND"
+#
+############################################
+#This is a timer used to decide when a player should get affected by the elements when their temperature hits the extreme
+#-------------------------------------------
+#Default: 20
+#-------------------------------------------
+#Range: 0 ~ 1980
+"Integer: Hypo/Hyperthermia Grace Timer" = 20
+#
+############################################
+#The speed at which the players temperature will change from their current temperature to the target temperature.
+#Setting it to 1 makes the players temperature change instantly to its target
+#-------------------------------------------
+#Default: 0.001
+#-------------------------------------------
+#Range: 1.0E-4 ~ 1.0
+"Double: Temperature Update Speed" = 0.001
+#
+############################################
+#This is intended for users who want to use the older temperature system
+#This feature will be removed in a later version of the mod
+#-------------------------------------------
+#Default: false
+#-------------------------------------------
+"Boolean: Use Legacy Temperature System" = false
+

@@ -1,0 +1,110 @@
+
+[Hunger]
+	#
+	############################################
+	#The amount of hunger exaustion added to the player regardless of what the player is doing
+	#-------------------------------------------
+	#Default: 0.1125
+	#-------------------------------------------
+	#Range: 0.0 ~ 4.0
+	"Float: Idle Hunger Exhaustion" = 0.1125
+	#
+	############################################
+	#The amount of time in ticks before hunger exaustion is added to the player regardless of what the player is doing. Set to -1 to disable
+	#-------------------------------------------
+	#Default: 120
+	#-------------------------------------------
+	#Range: -1 ~ 1000
+	"Integer: Idle Hunger Tick Rate" = 120
+
+[Sleep]
+	#
+	############################################
+	#Disabling this will disable this mods sleep management system
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Enable Sleep" = true
+	#
+	############################################
+	#Disabling this will prevent the player from sleeping during the day even if they have the tiredness effect
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Can Sleep During Day" = true
+	#
+	############################################
+	#The amount of ticks after the player has not slept before The tiredness effect starts to manifest
+	#-------------------------------------------
+	#Default: 24000
+	#-------------------------------------------
+	#Range: 0 ~ 240000
+	"Integer: Initial Tired Time" = 24000
+	#
+	############################################
+	#The amount of ticks after the Initial Tired Time before the amplifier of the tiredness effects increases
+	#-------------------------------------------
+	#Default: 12000
+	#-------------------------------------------
+	#Range: 0 ~ 240000
+	"Integer: Tired Time Step" = 12000
+	#
+	############################################
+	#The maximum amount of sleep time can stack up to. This also determines the maximum amplifier for the tiredness effect
+	#-------------------------------------------
+	#Default: 20
+	#-------------------------------------------
+	#Range: 0 ~ 255
+	"Integer: Tired Time Stacks" = 20
+
+[Nutrition]
+	#
+	############################################
+	#Disabling this will disable this mods nutrition system
+	#The nutrition system might be pretty buggy, so proceed with caution
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Enable Nutrition (Beta)" = false
+
+[Micellaneous]
+	#
+	############################################
+	#Enable Debug mode to have some informational stuff print on your console
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Debug Mode" = false
+	#
+	############################################
+	#For hardcore servers that do not need a little bit of magic to make life easier
+	#Be warned, this is not for the faint of heart.
+	#A lot of the mechanics in this mod become a lot more unreasonable without enchantments
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Disable All Enchantments" = false
+
+[Other]
+	#
+	############################################
+	#If you have the origins mod, specify the names of races to add heat resistance to. Comma separated list
+	#-------------------------------------------
+	#Default: origins:blazeborn
+	#-------------------------------------------
+	"String: Origins Heat Resistant Races" = "origins:blazeborn"
+	#
+	############################################
+	#If you have the origins mod, specify the names of races to add cold bloodedness to. Comma separated list
+	#-------------------------------------------
+	#Default: origins:merling
+	#-------------------------------------------
+	"String: Origins Cold Blooded Races" = "origins:merling"
+	#
+	############################################
+	#If you have the origins mod, specify the names of origins to add the "Air from Canteen" power to. Comma separated list
+	#-------------------------------------------
+	#Default: origins:merling
+	#-------------------------------------------
+	"String: Air From Canteen Power" = "origins:merling"
+
