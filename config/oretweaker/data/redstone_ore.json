@@ -1,0 +1,42 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:redstone_ore",
+      "fillers": [
+        "STONE_ORE_REPLACEABLES"
+      ],
+      "distribution": "UNIFORM",
+      "minY": -64,
+      "maxY": 15,
+      "maxVeinSize": 4,
+      "spawnRate": 8.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "OVERWORLD"
+        ]
+      },
+      "replace": true
+    },
+    {
+      "ore": "minecraft:redstone_ore",
+      "fillers": [
+        "STONE_ORE_REPLACEABLES"
+      ],
+      "distribution": "TRIANGLE",
+      "minY": -96,
+      "maxY": -32,
+      "maxVeinSize": 8,
+      "spawnRate": 8.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "OVERWORLD"
+        ]
+      },
+      "replace": true
+    }
+  ]
+}

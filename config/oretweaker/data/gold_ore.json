@@ -1,0 +1,63 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:gold_ore",
+      "fillers": [
+        "STONE_ORE_REPLACEABLES"
+      ],
+      "distribution": "UNIFORM",
+      "minY": 32,
+      "maxY": 256,
+      "maxVeinSize": 9,
+      "spawnRate": 50.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "minecraft:badlands",
+          "minecraft:eroded_badlands",
+          "minecraft:wooded_badlands"
+        ]
+      },
+      "replace": true
+    },
+    {
+      "ore": "minecraft:gold_ore",
+      "fillers": [
+        "STONE_ORE_REPLACEABLES"
+      ],
+      "distribution": "TRIANGLE",
+      "minY": -64,
+      "maxY": 32,
+      "maxVeinSize": 9,
+      "spawnRate": 4.0,
+      "discardChanceOnAirExposure": 0.5,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "OVERWORLD"
+        ]
+      },
+      "replace": true
+    },
+    {
+      "ore": "minecraft:gold_ore",
+      "fillers": [
+        "STONE_ORE_REPLACEABLES"
+      ],
+      "distribution": "UNIFORM",
+      "minY": -64,
+      "maxY": -48,
+      "maxVeinSize": 9,
+      "spawnRate": 0.5,
+      "discardChanceOnAirExposure": 0.5,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "OVERWORLD"
+        ]
+      },
+      "replace": true
+    }
+  ]
+}

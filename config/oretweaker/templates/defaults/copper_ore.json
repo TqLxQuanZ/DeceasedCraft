@@ -1,0 +1,42 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:copper_ore",
+      "fillers": [
+        "STONE_ORE_REPLACEABLES"
+      ],
+      "distribution": "TRIANGLE",
+      "minY": -16,
+      "maxY": 112,
+      "maxVeinSize": 10,
+      "spawnRate": 16.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "OVERWORLD"
+        ]
+      },
+      "replace": true
+    },
+    {
+      "ore": "minecraft:copper_ore",
+      "fillers": [
+        "STONE_ORE_REPLACEABLES"
+      ],
+      "distribution": "TRIANGLE",
+      "minY": -16,
+      "maxY": 112,
+      "maxVeinSize": 20,
+      "spawnRate": 16.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "minecraft:dripstone_caves"
+        ]
+      },
+      "replace": true
+    }
+  ]
+}

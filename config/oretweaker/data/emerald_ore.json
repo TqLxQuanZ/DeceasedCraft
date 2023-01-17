@@ -1,0 +1,23 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:emerald_ore",
+      "fillers": [
+        "STONE_ORE_REPLACEABLES"
+      ],
+      "distribution": "TRIANGLE",
+      "minY": -16,
+      "maxY": 480,
+      "maxVeinSize": 3,
+      "spawnRate": 100.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "MOUNTAIN"
+        ]
+      },
+      "replace": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:clay",
+      "fillers": [
+        "BASE_STONE_OVERWORLD"
+      ],
+      "distribution": "UNIFORM",
+      "minY": 0,
+      "maxY": 256,
+      "maxVeinSize": 33,
+      "spawnRate": 46.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "minecraft:lush_caves"
+        ]
+      },
+      "replace": true
+    }
+  ]
+}

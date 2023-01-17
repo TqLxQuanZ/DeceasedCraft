@@ -1,0 +1,23 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:dirt",
+      "fillers": [
+        "BASE_STONE_OVERWORLD"
+      ],
+      "distribution": "UNIFORM",
+      "minY": 0,
+      "maxY": 160,
+      "maxVeinSize": 33,
+      "spawnRate": 7.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "OVERWORLD"
+        ]
+      },
+      "replace": true
+    }
+  ]
+}

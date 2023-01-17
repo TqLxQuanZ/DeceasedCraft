@@ -1,0 +1,18 @@
+
+#Ore Tweaker - Settings File
+[SETTINGS]
+	#Enables debug mode
+	debug = false
+
+[TEMPLATES]
+	#Attempts to generate default templates if not present
+	generate_templates = false
+	#Attempts to generate default settings if not present
+	generate_default_settings = false
+
+[GENERATOR]
+	#Disables large veins from generating
+	disable_large_veins = false
+	#Attempts to auto generate deepslate variants if present
+	auto_generate_deepslate_variants = true
+

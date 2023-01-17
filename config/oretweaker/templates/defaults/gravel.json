@@ -1,0 +1,42 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:gravel",
+      "fillers": [
+        "BASE_STONE_OVERWORLD"
+      ],
+      "distribution": "UNIFORM",
+      "minY": -64,
+      "maxY": 256,
+      "maxVeinSize": 33,
+      "spawnRate": 14.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "OVERWORLD"
+        ]
+      },
+      "replace": true
+    },
+    {
+      "ore": "minecraft:gravel",
+      "fillers": [
+        "minecraft:netherrack"
+      ],
+      "distribution": "UNIFORM",
+      "minY": 5,
+      "maxY": 41,
+      "maxVeinSize": 33,
+      "spawnRate": 2.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "NETHER"
+        ]
+      },
+      "replace": true
+    }
+  ]
+}

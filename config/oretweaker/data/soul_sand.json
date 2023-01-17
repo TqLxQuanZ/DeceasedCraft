@@ -1,0 +1,23 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:soul_sand",
+      "fillers": [
+        "minecraft:netherrack"
+      ],
+      "distribution": "UNIFORM",
+      "minY": 0,
+      "maxY": 31,
+      "maxVeinSize": 12,
+      "spawnRate": 12.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "NETHER"
+        ]
+      },
+      "replace": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:diorite",
+      "fillers": [
+        "BASE_STONE_OVERWORLD"
+      ],
+      "distribution": "UNIFORM",
+      "minY": 64,
+      "maxY": 128,
+      "maxVeinSize": 64,
+      "spawnRate": 0.16666667,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "OVERWORLD"
+        ]
+      },
+      "replace": true
+    },
+    {
+      "ore": "minecraft:diorite",
+      "fillers": [
+        "BASE_STONE_OVERWORLD"
+      ],
+      "distribution": "UNIFORM",
+      "minY": 0,
+      "maxY": 60,
+      "maxVeinSize": 64,
+      "spawnRate": 2.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "OVERWORLD"
+        ]
+      },
+      "replace": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:infested_stone",
+      "fillers": [
+        "BASE_STONE_OVERWORLD"
+      ],
+      "distribution": "UNIFORM",
+      "minY": -64,
+      "maxY": 63,
+      "maxVeinSize": 9,
+      "spawnRate": 7.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "MOUNTAIN"
+        ]
+      },
+      "replace": true
+    },
+    {
+      "ore": "minecraft:infested_deepslate",
+      "fillers": [
+        "DEEPSLATE_ORE_REPLACEABLES"
+      ],
+      "distribution": "UNIFORM",
+      "minY": -64,
+      "maxY": 63,
+      "maxVeinSize": 9,
+      "spawnRate": 7.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "MOUNTAIN"
+        ]
+      },
+      "replace": true
+    }
+  ]
+}
