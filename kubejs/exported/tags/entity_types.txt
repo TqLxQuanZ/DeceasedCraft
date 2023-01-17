@@ -1,0 +1,200 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jan 17, 2023, 10:21:58 PM
+
+#minecraft:axolotl_always_hostiles
+- minecraft:drowned
+- minecraft:guardian
+- minecraft:elder_guardian
+
+#minecraft:freeze_immune_entity_types
+- minecraft:stray
+- minecraft:polar_bear
+- minecraft:snow_golem
+- minecraft:wither
+- savage_and_ravage:iceologer
+- rottencreatures:frostbitten
+
+#immersiveengineering:shaderbag/blacklist
+- minecraft:wither
+- minecraft:iron_golem
+
+#forge:plant_tramplers
+- minecraft:goat
+- minecraft:rabbit
+- minecraft:ravager
+- minecraft:slime
+- minecraft:magma_cube
+
+#armorunder:flinged_stings
+- minecraft:egg
+- minecraft:llama_spit
+- minecraft:shulker_bullet
+- minecraft:snowball
+
+#artifacts:creepers
+- minecraft:creeper
+- creeperoverhaul:jungle_creeper?
+- creeperoverhaul:bamboo_creeper?
+- creeperoverhaul:desert_creeper?
+- creeperoverhaul:badlands_creeper?
+- creeperoverhaul:hills_creeper?
+- creeperoverhaul:savannah_creeper?
+- creeperoverhaul:mushroom_creeper?
+- creeperoverhaul:swamp_creeper?
+- creeperoverhaul:dripstone_creeper?
+- creeperoverhaul:cave_creeper?
+- creeperoverhaul:dark_oak_creeper?
+- creeperoverhaul:spruce_creeper?
+- creeperoverhaul:beach_creeper?
+- creeperoverhaul:snowy_creeper?
+
+#forge:milkable_goats
+- minecraft:goat
+
+#zombiemobs:zombie_animals
+- zombiemobs:zombie_dolphin
+- zombiemobs:zombie_cat
+- zombiemobs:zombie_wolf
+- zombiemobs:zombie_horsee
+- zombiemobs:zombie_mule
+- zombiemobs:zombie_donkey
+- zombiemobs:zombie_pig
+- zombiemobs:zombie_fox
+- zombiemobs:zombie_squid
+- zombiemobs:zombie_chicken
+- zombiemobs:zombie_ocelot
+- zombiemobs:zombie_goat
+- zombiemobs:zombie_panda
+- zombiemobs:zombie_mooshroom
+- zombiemobs:zombie_turtle
+- zombiemobs:zombie_sheep
+- zombiemobs:zombie_cow
+- zombiemobs:zombie_bear
+- zombiemobs:zombie_llama
+
+#forge:honey_hunters
+- minecraft:player
+
+#savage_and_ravage:creeper_immune
+- minecraft:painting
+- minecraft:item_frame
+- minecraft:glow_item_frame
+- minecraft:falling_block
+- minecraft:leash_knot
+- minecraft:armor_stand
+
+#forge:fishes
+- minecraft:cod
+- minecraft:salmon
+- minecraft:pufferfish
+- minecraft:tropical_fish
+
+#forge:boats
+- minecraft:boat
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+- savage_and_ravage:griefer
+- savage_and_ravage:executioner
+- savage_and_ravage:iceologer
+- savage_and_ravage:trickster
+
+#forge:milkable_sheep
+- minecraft:sheep
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit
+- minecraft:endermite
+- minecraft:silverfish
+- minecraft:fox
+
+#industrialforegoing:mob_imprisonment_tool_blacklist
+- artifacts:mimic
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:salmon
+- minecraft:cod
+- minecraft:squid
+- minecraft:glow_squid
+
+#forge:milkable_other
+
+#forge:milkable
+- minecraft:cow
+- minecraft:mooshroom
+- minecraft:goat
+
+#forge:birds
+- minecraft:parrot
+
+#armorunder:seen_as_bees
+- minecraft:bee
+- #minecraft:beehive_inhabitors?
+- gardencalypso:bee?
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- savage_and_ravage:spore_cloud
+- savage_and_ravage:confusion_bolt
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+- savage_and_ravage:skeleton_villager
+
+#ftbquests:no_loot_crates
+
+#untamedwilds:cage_trap_blacklist
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+- savage_and_ravage:mischief_arrow
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider
+- minecraft:blaze
+- minecraft:magma_cube
+
+#armorunder:llamas
+- minecraft:llama
+- minecraft:trader_llama
+- #vanillafoodpantry:llamas?
+
+#forge:milkable_shroom_cows
+- minecraft:mooshroom
+
+#armorunder:wandering_traders
+- minecraft:wandering_trader
+
+#ftbchunks:entity_interact_whitelist
+
+#armorunder:stinging_critters
+- minecraft:bee
+- minecraft:pufferfish
+- #armorunder:seen_as_bees
+- alexsmobs:rattlesnake?
+
+#forge:milkable_dairy_cows
+- minecraft:cow
+
+#armorunder:sting_flinging_critters
+- #armorunder:llamas
+- minecraft:shulker
