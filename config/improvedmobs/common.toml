@@ -93,13 +93,13 @@
 	Sound = false
 	#Chance for a mob to be able to break blocks
 	#Range: 0.0 ~ 1.0
-	"Breaker Chance" = 0.2
+	"Breaker Chance" = 1.0
 	#Initial cooldown for block breaking mobs
 	#Range: > 0
 	"Breaker Initial Cooldown" = 15
 	#Cooldown for breaking blocks
 	#Range: > 0
-	"Breaker Cooldown" = 10
+	"Breaker Cooldown" = 3
 	#If mobs should break blocks when not chasing a target
 	"Idle Break" = false
 	#Chance for a mob to be able to steal items from inventory blocks
