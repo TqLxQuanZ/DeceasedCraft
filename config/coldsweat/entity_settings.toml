@@ -1,0 +1,7 @@
+
+["Mount Settings"]
+	#List of entities that will insulate the player when riding them
+	#Format: ["entity-id", insulation-amount]
+	#(1 is complete insulation, 0 is no insulation)
+	"Insulated Entities" = []
+

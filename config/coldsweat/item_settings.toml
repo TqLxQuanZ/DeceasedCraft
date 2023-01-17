@@ -1,0 +1,34 @@
+
+["Fuel Items"]
+	#Defines items that can use as fuel
+	#Format: [["item-id-1", amount-1], ["item-id-2", amount-2], ...etc]
+	Boiler = [["minecraft:coal", 37], ["minecraft:charcoal", 37], ["minecraft:coal_block", 333], ["minecraft:magma_block", 333], ["minecraft:lava_bucket", 1000]]
+	Icebox = [["minecraft:snowball", 37], ["minecraft:clay", 37], ["minecraft:snow_block", 333], ["minecraft:water_bucket", 333], ["minecraft:ice", 333], ["minecraft:packed_ice", 1000]]
+	#Negative values indicate cold fuel
+	Hearth = [["minecraft:coal", 37], ["minecraft:charcoal", 37], ["minecraft:coal_block", 333], ["minecraft:magma_block", 333], ["minecraft:lava_bucket", 1000], ["minecraft:snowball", -37], ["minecraft:clay", -37], ["minecraft:snow_block", -333], ["minecraft:water_bucket", -333], ["minecraft:ice", -333], ["minecraft:packed_ice", -1000]]
+
+["Soulspring Lamp"]
+	#Defines the items that the Soulspring Lamp can use as fuel and their values
+	#Format: ["item-id-1", "item-id-2", ...etc]
+	"Fuel Items" = ["minecraft:warped_stem", "minecraft:warped_hyphae", "minecraft:stripped_warped_stem", "minecraft:stripped_warped_hyphae", "minecraft:crimson_stem", "minecraft:crimson_hyphae", "minecraft:stripped_crimson_stem", "minecraft:stripped_crimson_hyphae"]
+	#Defines the dimensions that the Soulspring Lamp can be used in
+	#Format: ["dimension-id-1", "dimension-id-2", ...etc]
+	"Valid Dimensions" = ["minecraft:the_nether"]
+
+[Insulation]
+	#Defines the items that can be used for insulating armor in the Sewing Table
+	#Format: [["item-id-1"], ["item-id-2"], ...etc]
+	"Insulation Ingredients" = ["minecraft:leather_helmet", "minecraft:leather_chestplate", "minecraft:leather_leggings", "minecraft:leather_boots"]
+	#Defines the items that provide insulation when worn
+	#Format: [["item-id-1", amount-1], ["item-id-2", amount-2], ...etc]
+	"Insulated Armor" = [["minecraft:leather_helmet", 4], ["minecraft:leather_chestplate", 7], ["minecraft:leather_leggings", 5], ["minecraft:leather_boots", 4]]
+
+[Consumables]
+	#Defines items that affect the player's temperature when consumed
+	#Format: [[item-id-1, amount-1], [item-id-2, amount-2], ...etc]
+	#Negative values are cold foods, positive values are hot foods
+	"Temperature-Affecting Foods" = []
+	#Defines the amount a player's body temperature will change by when using a waterskin
+	#Range: > 0
+	"Waterskin Strength" = 50
+
