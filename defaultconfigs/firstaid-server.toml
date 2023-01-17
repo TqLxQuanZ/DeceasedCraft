@@ -1,0 +1,161 @@
+
+#Server to Client synced configuration settings
+["Damage System"]
+	#Max health of the Head
+	#Range: 2 ~ 12
+	maxHealthHead = 4
+	#Max health of the Left Arm
+	#Range: 2 ~ 12
+	maxHealthLeft_Arm = 4
+	#Max health of the Left Leg
+	#Range: 2 ~ 12
+	maxHealthLeft_Leg = 4
+	#Max health of the Left Foot
+	#Range: 2 ~ 12
+	maxHealthLeft_Foot = 4
+	#Max health of the Body
+	#Range: 2 ~ 12
+	maxHealthBody = 6
+	#Max health of the Right Arm
+	#Range: 2 ~ 12
+	maxHealthRight_Arm = 4
+	#Max health of the Right Leg
+	#Range: 2 ~ 12
+	maxHealthRight_Leg = 4
+	#Max health of the Right Foot
+	#Range: 2 ~ 12
+	maxHealthRight_Foot = 4
+	#True if the head can cause death if health drops to 0
+	causeDeathHead = true
+	#True if the body can cause death if health drops to 0
+	causeDeathBody = true
+
+["Locational Armor"]
+
+	["Locational Armor".Armor]
+		#The multiplier for local armor for every armor of slot Head
+		#Range: 1.0 ~ 16.0
+		multiplierHead = 6.0
+		#The multiplier for local armor for every armor of slot Chest
+		#Range: 1.0 ~ 16.0
+		multiplierChest = 2.5
+		#The multiplier for local armor for every armor of slot Legs
+		#Range: 1.0 ~ 16.0
+		multiplierLegs = 3.0
+		#The multiplier for local armor for every armor of slot Feet
+		#Range: 1.0 ~ 16.0
+		multiplierFeet = 6.0
+		#The static offset applied to any armor piece with a value greater than zero of slot Head
+		#Range: 0.0 ~ 4.0
+		offsetHead = 1.0
+		#The static offset applied to any armor piece with a value greater than zero of slot Chest
+		#Range: 0.0 ~ 4.0
+		offsetChest = 0.0
+		#The static offset applied to any armor piece with a value greater than zero of slot Legs
+		#Range: 0.0 ~ 4.0
+		offsetLegs = 0.0
+		#The static offset applied to any armor piece with a value greater than zero of slot Feet
+		#Range: 0.0 ~ 4.0
+		offsetFeet = 0.0
+
+	["Locational Armor".Toughness]
+		#The multiplier for local armor for every armor of slot Head
+		#Range: 1.0 ~ 16.0
+		multiplierHead = 4.0
+		#The multiplier for local armor for every armor of slot Chest
+		#Range: 1.0 ~ 16.0
+		multiplierChest = 3.0
+		#The multiplier for local armor for every armor of slot Legs
+		#Range: 1.0 ~ 16.0
+		multiplierLegs = 3.0
+		#The multiplier for local armor for every armor of slot Feet
+		#Range: 1.0 ~ 16.0
+		multiplierFeet = 3.5
+		#The static offset applied to any armor piece with a value greater than zero of slot Head
+		#Range: 0.0 ~ 4.0
+		offsetHead = 0.0
+		#The static offset applied to any armor piece with a value greater than zero of slot Chest
+		#Range: 0.0 ~ 4.0
+		offsetChest = 0.0
+		#The static offset applied to any armor piece with a value greater than zero of slot Legs
+		#Range: 0.0 ~ 4.0
+		offsetLegs = 0.0
+		#The static offset applied to any armor piece with a value greater than zero of slot Feet
+		#Range: 0.0 ~ 4.0
+		offsetFeet = 0.0
+
+["Internal Healing"]
+
+	["Internal Healing".bandage]
+		#The total heals this item does when applied. 1 heal = half a heart
+		#Range: 1 ~ 127
+		totalsHeals = 4
+		#The time it takes for a single heal to trigger. Total time this item is active = this * totalHeals
+		#Range: 1 ~ 32767
+		secondsPerHeal = 18
+		#The time it takes in the GUI to apply the item in milliseconds
+		#Range: 0 ~ 16000
+		applyTime = 2500
+
+	["Internal Healing".plaster]
+		#The total heals this item does when applied. 1 heal = half a heart
+		#Range: 1 ~ 127
+		totalsHeals = 2
+		#The time it takes for a single heal to trigger. Total time this item is active = this * totalHeals
+		#Range: 1 ~ 32767
+		secondsPerHeal = 22
+		#The time it takes in the GUI to apply the item in milliseconds
+		#Range: 0 ~ 16000
+		applyTime = 3000
+
+["External Healing"]
+	#Allow vanilla's natural regeneration. Requires "allowOtherHealingItems" to be true
+	#**WARNING** This sets the gamerule "naturalRegeneration" for all of your worlds internally, so it persists even if you remove the mod
+	allowNaturalRegeneration = true
+	#If false, healing potions and other healing items will have no effect
+	allowOtherHealingItems = true
+	#Specifies how much percent of the max health should be restored when sleeping
+	#Range: 0.0 ~ 1.0
+	sleepHealPercentage = 0.07
+	#The value external regen will be multiplied with. Has no effect if "allowOtherHealingItems" is disabled
+	#Range: 0.0 ~ 20.0
+	otherRegenMultiplier = 0.75
+	#The value vanilla's natural regeneration will be multiplied with. Has no effect if "allowNaturalRegeneration" is disabled
+	#Range: 0.0 ~ 20.0
+	naturalRegenMultiplier = 0.1
+	#Specifies how the vanilla resistance potion effect should reduce damage.
+	#By default, one level of resistance reduces 20% of damage. Changing this value to e.g. 10 will reduce the reduction to 10% damage reduction per level
+	#Range: 1 ~ 40
+	resistanceReductionPercentPerLevel = 20
+
+[misc]
+	#If true, max health is scaled to your hearts, and the config entries get multiplier to match the max health
+	scaleMaxHealth = true
+	#If true, max health will be capped at 6 hearts and absorption at 2 hearts per limb. If false, the health cap will be much higher (64 hearts normal and 16 absorption)
+	capMaxHealth = true
+	#Specifies how the vanilla health is calculated. Affects the vanilla visual health bar, as well as the value other mods get to see when they query the player health.
+	#AVERAGE_ALL simply takes all limbs and calculates the average of it.
+	#AVERAGE_CRITICAL takes all critical limbs and calculates the average of it.
+	#MIN_CRITICAl takes the smallest health value of all critical limb.
+	#Does not have any effect if all critical limbs have been disabled.
+	#Allowed Values: AVERAGE_ALL, AVERAGE_CRITICAL, MIN_CRITICAL, CRITICAL_50_PERCENT_OTHER_50_PERCENT
+	vanillaHealthCalculation = "AVERAGE_ALL"
+	#If enabled, the default random damage distribution will be changed to leave critical limbs at 1hp if possible.
+	#When there is too much damage, the damage will still kill the player. Other distributions that defined are not affected by this.
+	useFriendlyRandomDistribution = false
+	#If set to LOCAL_ENCHANTMENTS, only the enchantments for the armor for the body part that is currently being damaged is taken into account. The strength of the armor is multiplied by 4 (default value, can be changed by enchantmentMultiplier), so it matches the vanilla default
+	#If set to GLOBAL_ENCHANTMENTS, the enchantments of all armor pieces are taken into account for all body parts that have any kind of armor.
+	#Allowed Values: GLOBAL_ENCHANTMENTS, LOCAL_ENCHANTMENTS
+	armorEnchantmentMode = "LOCAL_ENCHANTMENTS"
+
+["Enchantment Handling"]
+	#Specifies the default modifier. This is only used if armorEnchantmentMode is LOCAL_ENCHANTMENTS, as this is used scale up the values to somewhat match what vanilla balances around (as vanilla balances around global enchantments)
+	#Range: 1 ~ 4
+	enchantmentMultiplier = 4
+	#Specifies the overrides for the the modifier. This is only used if armorEnchantmentMode is LOCAL_ENCHANTMENTS. This can be used to set another multiplier for special enchantments
+	#This list specifies the resource location of the enchantment. Must be fully specified and cannot use wildcard. Example: minecraft:feather_falling. First entry here will be matched to first multiplier, second entry to second multiplier and so on
+	resourceLocations = ["minecraft:feather_falling"]
+	#Specifies the overrides for the the modifier. This is only used if armorEnchantmentMode is LOCAL_ENCHANTMENTS. This can be used to set another multiplier for special enchantments
+	#This list specifies the multiplier of the corresponding resource location. See resourceLocations comment. Must be between 1 and 4
+	overrideMultiplier = [2]
+
