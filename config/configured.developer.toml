@@ -1,0 +1,16 @@
+#Broadcasts messages to all developers about changes applied to server configs
+broadcastLogs = true
+#A list of UUIDs of players who are developers for this server. The players will
+#additionally need to have operator permissions. Developers will have the ability to
+#edit server configs on your dedicated server. Only add players you trust.
+developers = []
+#Developer mode. This enables the ability to edit server configs on dedicated servers.
+#You will have to restart your server for developer mode to be updated.
+############# READ ME ################################################################
+#You should only enable this mode only if you are developing the server. It is       #
+#recommended that this mode is turned off if your server is public or have players on#
+#your server you don't trust, as leaving this mode enabled is considered insecure in #
+#those scenarios.                                                                    #
+######################################################################################
+enabled = false
+

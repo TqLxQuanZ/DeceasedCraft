@@ -1,0 +1,78 @@
+
+#Please be advised that certain thirst-related options are world-specific and are located in <Path to your world folder>/serverconfig/toughasnails-server.toml.
+[general]
+	#The threshold at which exhaustion causes a reduction in hydration and the thirst bar.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	exhaustion_threshold = 8.0
+
+[drink_options]
+	#Thirst restored from drinking with hands.
+	#Range: 0 ~ 20
+	hand_drinking_thirst = 1
+	#Hydration restored from drinking with hands.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	hand_drinking_hydration = 0.1
+
+[biome_options]
+
+	#The types of water found in biomes from Vanilla and other mods.
+	[[biome_options.biome_water_entries]]
+		location = "minecraft:swamp"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "minecraft:mushroom_fields"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:bayou"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:bog"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:fungal_jungle"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:highland_moor"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:marsh"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:muskeg"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:ominous_woods"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:volcanic_plains"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:volcano"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:wasteland"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:wetland"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:wooded_wasteland"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:rainbow_hills"
+		type = "PURIFIED"
+

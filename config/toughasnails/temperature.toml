@@ -1,0 +1,65 @@
+
+#Please be advised that certain temperature-related options are world-specific and are located in <Path to your world folder>/serverconfig/toughasnails-server.toml.
+[general]
+	#Number of ticks to delay changing the player's temperature after their temperature changes.
+	#Range: > 0
+	temperature_change_delay = 500
+	#Number of ticks to delay changing the player's temperature after their temperature changes when wearing armor.
+	#Range: > 0
+	armor_temperature_change_delay = 50
+	#Number of ticks to delay changing the player's temperature after their temperature changes when holding an item.
+	#Range: > 0
+	handheld_temperature_change_delay = 375
+	#Number of ticks to delay changing the player's temperature after their temperature changes when affected by a player-based temperature modifier.
+	#Range: > 0
+	player_temperature_change_delay = 125
+	#Number of ticks to delay changing the player's temperature after their temperature changes when rebounding from an extreme temperature.
+	#Range: > 0
+	extremity_rebound_temperature_change_delay = 250
+	#Number of ticks to delay taking damage when icy or hot.
+	#Range: > 0
+	extremity_damage_delay = 500
+	#Number of ticks for the duration of Climate Clemency.
+	#Range: > 0
+	climate_clemency_duration = 6000
+	#Whether or not Climate Clemency should be granted when respawning.
+	climate_clemency_respawning = false
+
+[altitude]
+	#Y level to drop the temperature at when above
+	#Range: -64 ~ 1024
+	temperature_drop_altitude = 1024
+	#Y level to rise the temperature at when below
+	#Range: -64 ~ 1024
+	temperature_rise_altitude = -64
+	#Y level above which environmental modifiers are applied
+	#Range: -64 ~ 256
+	environmental_modifier_altitude = 50
+
+[blocks]
+	#The proximity which constitutes near a heat or cool source
+	#Range: 1 ~ 16
+	near_heat_cool_proximity = 7
+
+[immersion]
+	#Amount to change the temperature by when on fire.
+	#Range: -4 ~ 4
+	on_fire_temperature_change = 2
+	#Amount to change the temperature by when in powdered snow.
+	#Range: -4 ~ 4
+	powdered_snow_temperature_change = -2
+	#Amount to change the temperature by when wet.
+	#Range: -4 ~ 4
+	wet_temperature_change = -1
+	#Amount to change the temperature by when snowing.
+	#Range: -4 ~ 4
+	snow_temperature_change = -1
+
+[time]
+	#Amount to change the temperature at night when the original temperature is not hot.
+	#Range: -4 ~ 4
+	night_temperature_change = -1
+	#Amount to change the temperature at night when the original temperature is hot.
+	#Range: -4 ~ 4
+	night_hot_temperature_change = -2
+

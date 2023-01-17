@@ -1,0 +1,67 @@
+
+#Server only configuration settings
+[Debuffs]
+
+	[Debuffs.Head]
+
+		[Debuffs.Head.blindness]
+			#Enables/Disables this debuff
+			enabled = true
+			#How much damage the user must have taken for the debuff to apply at the mapped length. Must be sorted so the **highest** value comes first. 2 = 1 heart
+			damageTaken = [2.0, 1.0]
+			#How long the debuff should stay. If the first condition from the damageTaken config is met, the first value in this list will be taken
+			debuffLength = [160, 80]
+
+		[Debuffs.Head.nausea]
+			#Enables/Disables this debuff
+			enabled = true
+			#How much damage the user must have taken for the debuff to apply at the mapped length. Must be sorted so the **highest** value comes first. 2 = 1 heart
+			damageTaken = [3.0, 2.0]
+			#How long the debuff should stay. If the first condition from the damageTaken config is met, the first value in this list will be taken
+			debuffLength = [320, 240]
+
+	[Debuffs.Body]
+
+		[Debuffs.Body.nausea]
+			#Enables/Disables this debuff
+			enabled = true
+			#How much damage the user must have taken for the debuff to apply at the mapped length. Must be sorted so the **highest** value comes first. 2 = 1 heart
+			damageTaken = [4.0, 2.0]
+			#How long the debuff should stay. If the first condition from the damageTaken config is met, the first value in this list will be taken
+			debuffLength = [320, 160]
+
+		[Debuffs.Body.weakness]
+			#Enables/Disables this debuff
+			enabled = true
+			#How much health the user must have left for the debuff to apply at the mapped length. Must be sorted so the **lowest** value comes first
+			healthPercentageLeft = [0.25, 0.5]
+			#How strong the potion effect should stay. If the first condition from the healthPercentageLeft config is met, the first value in this list will be taken
+			debuffStrength = [2, 1]
+
+	[Debuffs.Arms]
+
+		[Debuffs.Arms.miningFatigue]
+			#Enables/Disables this debuff
+			enabled = true
+			#How much health the user must have left for the debuff to apply at the mapped length. Must be sorted so the **lowest** value comes first
+			healthPercentageLeft = [0.25, 0.5, 0.75]
+			#How strong the potion effect should stay. If the first condition from the healthPercentageLeft config is met, the first value in this list will be taken
+			debuffStrength = [3, 2, 1]
+
+	[Debuffs."Legs and Feet"]
+
+		[Debuffs."Legs and Feet".slowness]
+			#Enables/Disables this debuff
+			enabled = true
+			#How much health the user must have left for the debuff to apply at the mapped length. Must be sorted so the **lowest** value comes first
+			healthPercentageLeft = [0.35, 0.6, 0.8]
+			#How strong the potion effect should stay. If the first condition from the healthPercentageLeft config is met, the first value in this list will be taken
+			debuffStrength = [3, 2, 1]
+
+[misc]
+	#If true, many damage distributions will be more realistic, but this will also cause them to be harder\nIf enabled, e.g. drowing will only damage your body instead of your body and head last
+	hardMode = false
+	#Enabled additional debug logs - May slow down the game and will increase log file size
+	#Only enable for special purposes
+	debug = false
+
