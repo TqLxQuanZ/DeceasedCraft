@@ -89,10 +89,10 @@
 	["Internal Healing".bandage]
 		#The total heals this item does when applied. 1 heal = half a heart
 		#Range: 1 ~ 127
-		totalsHeals = 4
+		totalsHeals = 2
 		#The time it takes for a single heal to trigger. Total time this item is active = this * totalHeals
 		#Range: 1 ~ 32767
-		secondsPerHeal = 18
+		secondsPerHeal = 4
 		#The time it takes in the GUI to apply the item in milliseconds
 		#Range: 0 ~ 16000
 		applyTime = 2500
@@ -100,13 +100,13 @@
 	["Internal Healing".plaster]
 		#The total heals this item does when applied. 1 heal = half a heart
 		#Range: 1 ~ 127
-		totalsHeals = 2
+		totalsHeals = 1
 		#The time it takes for a single heal to trigger. Total time this item is active = this * totalHeals
 		#Range: 1 ~ 32767
-		secondsPerHeal = 22
+		secondsPerHeal = 4
 		#The time it takes in the GUI to apply the item in milliseconds
 		#Range: 0 ~ 16000
-		applyTime = 3000
+		applyTime = 1400
 
 ["External Healing"]
 	#Allow vanilla's natural regeneration. Requires "allowOtherHealingItems" to be true
@@ -116,10 +116,10 @@
 	allowOtherHealingItems = true
 	#Specifies how much percent of the max health should be restored when sleeping
 	#Range: 0.0 ~ 1.0
-	sleepHealPercentage = 0.07
+	sleepHealPercentage = 0.2
 	#The value external regen will be multiplied with. Has no effect if "allowOtherHealingItems" is disabled
 	#Range: 0.0 ~ 20.0
-	otherRegenMultiplier = 0.75
+	otherRegenMultiplier = 0.5
 	#The value vanilla's natural regeneration will be multiplied with. Has no effect if "allowNaturalRegeneration" is disabled
 	#Range: 0.0 ~ 20.0
 	naturalRegenMultiplier = 0.1
