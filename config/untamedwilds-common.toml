@@ -18,7 +18,7 @@
 	masterspawner = true
 	#If a mob were to be unable to spawn on the ground (due to terrain collisions), check again N blocks above the floor, where N is this value. Set to 0 to disable, higher values will mean mobs spawning on top of taller trees
 	#Range: 0 ~ 256
-	treeSpawnBias = 4
+	treeSpawnBias = 0
 	#Prevent mobs and burrows from spawning in the defined dimensions.
 	dimensionBlacklist = []
 

@@ -11,11 +11,11 @@
 	#Example ["0-0.01","10-0.1","30-0"]
 	#So the difficulty increases by 0.01 every 2400 ticks (->0.1 per mc day since a mc day has 24000 ticks) till it reaches a difficulty of 10.
 	#Then it increases by 1 per mc day till it reaches 30 and then stops.
-	"Difficulty Increase" = ["0-0.1", "250-0"]
+	"Difficulty Increase" = ["0-0.05", "500-0"]
 	#Wether difficulty should only increase with at least one online players or not
 	"Ignore Players" = false
 	#If true will increase difficulty by the amount of time skipped. Else will only increase difficulty once.
-	"Punish Time Skip" = true
+	"Punish Time Skip" = false
 	#Disable/Enable friendly fire for owned pets.
 	FriendlyFire = false
 	#Blacklist for pet you should't be able to give armor to. Pets from mods, which have custom armor already should be included here (for balancing reasons).
@@ -86,11 +86,11 @@
 	#Whitelist for blocks, which can be actively broken. 
 	#Usage: <registry name;classname;tag;namespace> put "!" infront to exclude blocks
 	#Note: If you include common blocks (like grass blocks) the pathfinding can have undesirable results.
-	"Block Break Whitelist" = ["forge:glass", "forge:glass_panes", "minecraft:fence_gates", "forge:fence_gates", "minecraft:wooden_doors"]
+	"Block Break Whitelist" = ["minecraft:obsidian"]
 	#Treat Block Whitelist as Blocklist
-	"Breaklist as Blacklist" = false
+	"Breaklist as Blacklist" = true
 	#Use the block breaking sound instead of a knocking sound
-	Sound = false
+	Sound = true
 	#Chance for a mob to be able to break blocks
 	#Range: 0.0 ~ 1.0
 	"Breaker Chance" = 1.0
@@ -147,13 +147,13 @@
 	"Entity Item Use Blacklist" = ["minecraft:drowned;TRIDENT", "minecraft:illusioner;BOW", "minecraft:piglin;CROSSBOW", "minecraft:pillager;CROSSBOW", "minecraft:skeleton;BOW", "minecraft:snow_golem;minecraft:snowball", "minecraft:stray;BOW", "minecraft:wither_skeleton;BOW"]
 	#Base chance that a mob can have one piece of armor
 	#Range: 0.0 ~ 1.0
-	"Equipment Chance" = 0.1
+	"Equipment Chance" = 0.0
 	#Base chance for each additional armor pieces
 	#Range: 0.0 ~ 1.0
-	"Additional Equipment Chance" = 0.3
+	"Additional Equipment Chance" = 0.0
 	#Adds additional x*difficulty% to base equip chance
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Equipment Addition" = 0.3
+	"Equipment Addition" = 0.0
 	#Chance for mobs to have a weapon
 	#Range: 0.0 ~ 1.0
 	"Weapon Chance" = 0.05
@@ -184,7 +184,7 @@
 	"Health Increase Multiplier" = 1.0
 	#Health will be multiplied by at maximum this. Set to 0 means no limit
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Max Health Increase" = 5.0
+	"Max Health Increase" = 0.0
 	#Round health to the nearest x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Round HP" = 0.5
