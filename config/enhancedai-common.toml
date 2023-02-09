@@ -1,0 +1,558 @@
+"Enable Base" = true
+"Enable Animal" = true
+"Enable Blaze" = true
+"Enable Creeper" = true
+"Enable Drowned" = true
+"Enable Ghast" = true
+"Enable Enderman" = true
+"Enable Skeleton" = true
+"Enable Spider" = true
+"Enable Villager" = true
+"Enable Witch" = true
+"Enable Zombie" = true
+
+[Base]
+	#Change how mobs target players
+	"Enable Targeting" = true
+	#Mobs will run away from exploding creepers / TNT
+	"Enable Avoid Explosions" = true
+	#Prevent players from abusing some game mechanics to stop mobs
+	"Enable Anti-Cheese" = true
+	#Makes mobs be able to move in more ways, like climbing or swim.
+	"Enable Movement" = true
+	"Enable Attacking" = true
+
+	[Base.Base]
+		#How far away from any player monsters will instantly despawn? Vanilla is 128
+		#Range: 0 ~ 128
+		"Monsters Despawning Distance" = 96
+		#How far away from any player monsters will be able to randomly despawn? Vanilla is 32
+		#Range: 0 ~ 128
+		"Min Monsters Despawning Distance" = 48
+
+	#Change how mobs target players
+	[Base.Targeting]
+		#Mobs will no longer take random time to target a player.
+		"Instant Target" = true
+		#Mobs will be able to find better paths to the target. Note that this might hit performance a bit.
+		"Better Path Finding" = true
+
+		#How far away can the mobs see the player. This overrides the vanilla value (16 for most mobs). Setting 'Max' to 0 will leave the follow range as vanilla. I recommend using mods like Mobs Properties Randomness to have more control over the attribute.
+		[Base.Targeting."Follow Range Override"]
+			#Range: 0.0 ~ 128.0
+			Minimum = 32.0
+			#Range: 0.0 ~ 128.0
+			Maximum = 64.0
+
+		#How far away can the mobs see the player even through walls. Setting 'Max' to 0 will make mobs not able to see through walls. I recommend using mods like Mobs Properties Randomness to have more control over the attribute; the attribute name is 'enhancedai:generic.xray_follow_range'.
+		[Base.Targeting."XRay Range Override"]
+			#Range: 0.0 ~ 128.0
+			Minimum = 16.0
+			#Range: 0.0 ~ 128.0
+			Maximum = 32.0
+
+		#Entities in here will not have the TargetAI changed
+		[Base.Targeting."Entity Blacklist"]
+			Blacklist = ["minecraft:enderman"]
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+
+	#Mobs will run away from exploding creepers / TNT
+	[Base."Avoid Explosions"]
+		#Speed multiplier when the mob runs from explosions and it's within 7 blocks from him.
+		#Range: 0.0 ~ 10.0
+		"Flee speed Multiplier Near" = 1.4
+		#Speed multiplier when the mob runs from explosions and it's farther than 7 blocks from him.
+		#Range: 0.0 ~ 10.0
+		"Flee speed Multiplier Far" = 1.2
+
+		#Entities that shouldn't get the Avoid Explosions AI
+		[Base."Avoid Explosions"."Entity Blacklist"]
+			Blacklist = []
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+
+	#Prevent players from abusing some game mechanics to stop mobs
+	[Base.Anti-Cheese]
+		#If true, 'Enemies' will no longer be able to be Boated and Minecarted.
+		"Prevent Boating & Minecarting" = true
+
+	#Makes mobs be able to move in more ways, like climbing or swim.
+	[Base.Movement]
+		#If true, mobs will be able to climb (up and down)
+		"Allow Climbing" = false
+		#If true, mobs try to find climbable blocks to reach the target
+		"Target Ladders" = false
+		#How faster mobs can swim. Setting to 0 will leave the swim speed as vanilla. I recommend using mods like Mobs Properties Randomness to have more control over the attribute.
+		#Range: 0.0 ~ 4.0
+		"Swim Speed Multiplier" = 2.5
+
+	[Base.Attacking]
+		#If true melee monsters (zombies, etc) will attack based off the forge:attack_range attribute. Increasing it will make mobs attack for farther away. Be aware that the attack doesn't check if there are block between the target and the mob so might result in mobs attacking through walls with high values
+		"Melee Attacks Attribute Based" = false
+
+[Animal]
+
+	#Make animals fight back and no longer flee when attacked
+	[Animal."Animal Attacking"]
+		#If true, when attacked, animals will call other animals for help and attack back. Animals have a slightly bigger range to attack. Attack damage can't be changed via config due to limitation so use mods like Mobs Properties Randomness to increase the damage. Base damage is 4.0
+		"Animals Fight back" = true
+		#If true, when attacked, animals will no longer flee.
+		"Animals No Longer Flee" = true
+		#Movement speed multiplier when attacking.
+		#Range: 0.0 ~ 4.0
+		"Movement Speed Multiplier" = 1.35
+
+		#Entities that shouldn't be affected by this feature
+		[Animal."Animal Attacking"."Entity Blacklist"]
+			Blacklist = []
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+
+[Blaze]
+	#Make blazes fire faster/more fireballs
+	"Enable Blaze Attack" = true
+
+	#Make blazes fire faster/more fireballs
+	[Blaze."Blaze Attack"]
+
+		#How many ticks pass between shooting fireballs. Vanilla is 6
+		[Blaze."Blaze Attack"."Time Between Fireballs"]
+			#Range: 1.0 ~ 300.0
+			Minimum = 4.0
+			#Range: 1.0 ~ 300.0
+			Maximum = 10.0
+
+		#How many fireballs blazes shoot. Vanilla is 3
+		[Blaze."Blaze Attack"."Fireballs shot"]
+			#Range: 1.0 ~ 64.0
+			Minimum = 3.0
+			#Range: 1.0 ~ 64.0
+			Maximum = 8.0
+
+		#Time (in ticks) taken by the blaze to recharge (before setting himself on fire). Vanilla is 100
+		[Blaze."Blaze Attack"."Recharge time"]
+			#Range: 1.0 ~ 600.0
+			Minimum = 60.0
+			#Range: 1.0 ~ 600.0
+			Maximum = 100.0
+
+		#Time (in ticks) taken by the blaze to charge (while on fire before shooting fireballs). Vanilla is 60
+		[Blaze."Blaze Attack"."Charge time"]
+			#Range: 1.0 ~ 600.0
+			Minimum = 30.0
+			#Range: 1.0 ~ 600.0
+			Maximum = 60.0
+
+		#How many fireballs are shot per shot. Vanilla is 1
+		[Blaze."Blaze Attack"."Fireballs Per Shot"]
+			#Range: 1.0 ~ 8.0
+			Minimum = 1.0
+			#Range: 1.0 ~ 8.0
+			Maximum = 2.0
+
+		#The higher the more spread up shots will be. Setting both to -1 will use the vanilla behaviour
+		[Blaze."Blaze Attack".Inaccuracy]
+			#Range: -1.0 ~ 32.0
+			Minimum = 2.0
+			#Range: -1.0 ~ 32.0
+			Maximum = 14.0
+
+		#Entities that shouldn't get the new Blaze Attack AI
+		[Blaze."Blaze Attack"."Entity Blacklist"]
+			Blacklist = []
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+
+[Creeper]
+	#Various changes to Creepers exploding. Ignoring Walls, Walking Fuse and smarter exploding based off explosion size
+	"Enable Creeper Swell" = true
+
+	#Various changes to Creepers exploding. Ignoring Walls, Walking Fuse and smarter exploding based off explosion size
+	[Creeper."Creeper Swell"]
+		#Percentage chance for a Creeper to not stand still while exploding.
+		#Range: 0.0 ~ 1.0
+		"Walking Fuse Chance" = 0.1
+		#Percentage chance for a Creeper to ignore walls while targeting a player. This means that a creeper will be able to explode if it's in the correct range from a player even if there's a wall between.
+		#Range: 0.0 ~ 1.0
+		"Ignore Walls Chance" = 0.1
+		#Breaching creepers will try to open an hole in the wall to let mobs in.
+		#Range: 0.0 ~ 1.0
+		"Breach Chance" = 0.075
+		#Launching creepers will try ignite and throw themselves at the player.
+		#Range: 0.0 ~ 1.0
+		"Launch Chance" = 0.05
+		#If true creepers will ignite if damaged by an explosion.
+		"TNT Like" = false
+
+		[Creeper."Creeper Swell"."Creeper Cena"]
+			#AND HIS NAME IS ...
+			#Range: 0.0 ~ 1.0
+			"Cena Chance" = 0.02
+			#If true, Creeper Cena explosion will generate fire
+			"Cena generates fire" = false
+			#Explosion power of Creeper Cena
+			#Range: 0.0 ~ 12.0
+			"Cena explosion power" = 6.0
+
+[Drowned]
+	#Makes drowned swim speed based off swim speed attribute instead of movement speed.
+	"Enable Drowned Swimming" = true
+
+	#Makes drowned swim speed based off swim speed attribute instead of movement speed.
+	[Drowned."Drowned Swimming"]
+		#Multiplier for the swim speed of Drowneds. Note that the swim speed is also affected by the Movement Feature. Set to 0 to disable the multiplier.
+		#Range: 0.0 ~ 4.0
+		"Swim Speed Multiplier" = 0.3
+
+		#Entities that shouldn't get the Swim Control from drowneds
+		[Drowned."Drowned Swimming"."Entity Blacklist"]
+			Blacklist = []
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+
+[Ghast]
+	#Various changes to ghast shooting.
+	"Enable Ghast Shoot" = true
+
+	#Various changes to ghast shooting.
+	[Ghast."Ghast Shoot"]
+		#Chance for a Ghast to try and shoot the target even if can't see it. If enabled and the Ghast can't see the target, he will shoot 4 times as fast to breach.
+		#Range: 0.0 ~ 1.0
+		"Shoot when not seen" = 0.3
+
+		#How many ticks pass between shooting fireballs. Vanilla is 40
+		[Ghast."Ghast Shoot"."Attack Cooldown"]
+			#Range: 1.0 ~ 300.0
+			Minimum = 40.0
+			#Range: 1.0 ~ 300.0
+			Maximum = 50.0
+
+		#How many fireballs ghast shoot in rapid succession. Vanilla is 1
+		[Ghast."Ghast Shoot"."Fireballs shot"]
+			#Range: 1.0 ~ 16.0
+			Minimum = 1.0
+			#Range: 1.0 ~ 16.0
+			Maximum = 3.0
+
+		#Entities that shouldn't get the new Ghast Fireballing AI
+		[Ghast."Ghast Shoot"."Entity Blacklist"]
+			Blacklist = []
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+
+[Enderman]
+	#Endermen teleport the player near him when can't reach him for a while.
+	"Enable [Experimental] Get Over Here" = false
+
+	#Endermen teleport the player near him when can't reach him for a while.
+	[Enderman."[Experimental] Get Over Here"]
+		#Chance for a enderman to get the Get Over Here AI
+		#Range: 0.0 ~ 1.0
+		"Get Over Here Chance" = 0.15
+
+[Skeleton]
+	#Skeletons are more precise when shooting and strafing is removed, can hit a target from up to 64 blocks and try to stay away from the target.
+	"Enable Skeleton Shoot" = true
+	#Skeletons try to stay away from the target.
+	"Enable Skeleton Flee" = true
+
+	#Skeletons are more precise when shooting and strafing is removed, can hit a target from up to 64 blocks and try to stay away from the target.
+	[Skeleton."Skeleton Shoot"]
+		#Chance for a Skeleton to spawn with the ability to strafe (like vanilla)
+		#Range: 0.0 ~ 1.0
+		"Strafe chance" = 0.333
+		#How much inaccuracy does the arrow fired by skeletons have. Vanilla skeletons have 10/6/2 inaccuracy in easy/normal/hard difficulty.
+		#Range: 0.0 ~ 30.0
+		"Arrow Inaccuracy" = 2.0
+		#Chance for a Skeleton to spawn as a spammer, which spams arrows instead of fully charging the bow
+		#Range: 0.0 ~ 1.0
+		"Spammer chance" = 0.07
+
+		#The range from where a skeleton will shoot a player
+		[Skeleton."Skeleton Shoot"."Shooting Range"]
+			#Range: 1.0 ~ 64.0
+			Minimum = 24.0
+			#Range: 1.0 ~ 64.0
+			Maximum = 32.0
+
+		#Entities that shouldn't get the enhanced Shoot AI
+		[Skeleton."Skeleton Shoot"."Entity Blacklist"]
+			Blacklist = ["quark:forgotten"]
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+
+	#Skeletons try to stay away from the target.
+	[Skeleton."Skeleton Flee"]
+		#Chance for a Skeleton to spawn with the ability to avoid the player
+		#Range: 0.0 ~ 1.0
+		"Avoid Player chance" = 0.5
+		#Chance for a Skeleton to be able to shoot while running from a player
+		#Range: 0.0 ~ 1.0
+		"Attack When Avoiding Chance" = 0.5
+		#Distance from a player that will make the skeleton run away.
+		#Range: 0.0 ~ 32.0
+		"Flee Distance" = 16.0
+		#Distance from a player that counts as near and will make the skeleton run away faster.
+		#Range: 0.0 ~ 32.0
+		"Flee Distance Near" = 8.0
+		#Speed multiplier when the skeleton avoids the player and it's farther than 'Flee Distance Far' blocks from him.
+		#Range: 0.0 ~ 4.0
+		"Flee speed Multiplier Far" = 1.3
+		#Speed multiplier when the skeleton avoids the player and it's within 'Flee Distance Near' blocks from him.
+		#Range: 0.0 ~ 4.0
+		"Flee speed Multiplier Near" = 1.6
+
+		#Entities that shouldn't get the enhanced Shoot AI
+		[Skeleton."Skeleton Flee"."Entity Blacklist"]
+			Blacklist = ["quark:forgotten"]
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+
+[Spider]
+	#Makes spiders throw a web at a player, slowing them.
+	"Enable Throwing Web" = true
+	#Various small changes to Spiders.
+	"Enable Miscellaneous" = true
+
+	#Makes spiders throw a web at a player, slowing them.
+	[Spider."Throwing Web"]
+		#Chance for a Spider to spawn with the ability to throw webs at the target.
+		#Range: 0.0 ~ 1.0
+		"Web Throw Chance" = 0.1
+		#After how many ticks will the web projectile's cobweb be destroyed?
+		#Range: 0 ~ 6000
+		"Destroy Web After" = 100
+		#Damage when the projectiles hits a mob. The damage is set for normal difficulty. Hard difficulty gets +50% damage and Easy gets (-50% + 1) damage.
+		#Range: 0.0 ~ 128.0
+		"Web Damage" = 5.0
+
+		#Every how many ticks do spiders throw the projectile
+		[Spider."Throwing Web"."Projectile cooldown"]
+			#Range: 1.0 ~ 1200.0
+			Minimum = 40.0
+			#Range: 1.0 ~ 1200.0
+			Maximum = 60.0
+
+		#Distance Required for the spider to throw webs. Setting 'Minimum' to 0 will make the spider throw webs even when attacking the player.
+		[Spider."Throwing Web"."Distance Required"]
+			#Range: 0.0 ~ 64.0
+			Minimum = 2.5
+			#Range: 0.0 ~ 64.0
+			Maximum = 64.0
+
+		[Spider."Throwing Web".Slowness]
+			#How many ticks of slowness are applied to the target hit by the web?
+			#Range: 0 ~ 6000
+			"Slowness Tick" = 120
+			#How many levels of slowness are applied to the target hit by the web?
+			#Range: 0 ~ 128
+			"Slowness Amplifier" = 2
+			#Should multiple hits on a target with slowness increase the level of Slowness? (This works with any type of slowness)
+			"Stack Slowness Amplifier" = true
+			#How many max levels of slowness can be applied to the target?
+			#Range: 0 ~ 128
+			"Max Slowness Amplifier" = 6
+
+		#Entities that shouldn't get the Throwing Web AI
+		[Spider."Throwing Web"."Entity Blacklist"]
+			Blacklist = []
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+
+	#Various small changes to Spiders.
+	[Spider.Miscellaneous]
+		#Percentage reduction of the fall damage taken by spiders.
+		#Range: 0.0 ~ 1.0
+		"Fall Damage Reduction" = 0.9
+
+		#Entities that shouldn't be affected by this feature
+		[Spider.Miscellaneous."Entity Blacklist"]
+			Blacklist = []
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+
+[Villager]
+
+	#Make villagers fight back
+	[Villager."Villager Attacking"]
+		#If true, when attacked, villagers will call other villagers for help and attack back. Attack damage can't be changed via config due to limitation so use mods like Mobs Properties Randomness to increase the damage. Base damage is 4.0
+		"Villagers Fight back" = true
+		#Movement speed multiplier when attacking.
+		#Range: 0.0 ~ 4.0
+		"Movement Speed Multiplier" = 0.8
+
+		#Entities that shouldn't be affected by this feature
+		[Villager."Villager Attacking"."Entity Blacklist"]
+			Blacklist = []
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+
+[Witch]
+	#Witches throw potions farther, faster and more potion types. Also no longer chase player if they can't see him.
+	"Enable Witch Potion Throwing" = true
+	#Witches flee from the target.
+	"Enable Witch Flee Target" = true
+	#Witches drink more potions.
+	"Enable Thirsty Witches" = true
+	#Witches summon Villagers and cast a lightning bolt upon them.
+	"Enable Dark Arts Witches" = true
+
+	#Witches throw potions farther, faster and more potion types. Also no longer chase player if they can't see him.
+	[Witch."Witch Potion Throwing"]
+		#A list of potions that the witch can throw at enemies. Format is effect_id,duration,amplifier. The potions are applied in order and witches will not throw the same potion if the target has already the effect.
+		"Bad Potions List" = ["minecraft:weakness,900,0", "minecraft:slowness,1200,1", "minecraft:hunger,600,0", "minecraft:mining_fatigue,600,0", "minecraft:poison,900,0", "minecraft:blindness,120,0", "minecraft:instant_damage,1,0"]
+		#A list of potions that the witch can throw at allies (in raids). Format is effect_id,duration,amplifier. The potions are applied in order and witches will not throw the same potion if the target has already the effect.
+		"Good Potions List" = ["minecraft:regeneration,900,0", "minecraft:speed,1800,0", "minecraft:strength,1800,0", "minecraft:instant_health,1,0"]
+		#Chance for the potions thrown by the Witch to be lingering.
+		#Range: 0.0 ~ 1.0
+		"Lingering Chance" = 0.15
+		#Chance for the Witch to throw another random potion right after she threw one.
+		#Range: 0.0 ~ 1.0
+		"Another Throw Chance" = 0.2
+		#If true, witches will throw a potion of slow falling at their feet when they're falling for more than 8 blocks.
+		"Use Slow Falling" = true
+		#When below this health percentage Witches will throw Invisibility potions at their feet.
+		#Range: 0.0 ~ 1.0
+		"Health Threshold Invisibility" = 0.5
+
+		#Speed at which Witches throw potions
+		[Witch."Witch Potion Throwing"."Throw Speed"]
+			#Range: 10.0 ~ 2.147483647E9
+			Minimum = 50.0
+			#Range: 10.0 ~ 2.147483647E9
+			Maximum = 70.0
+
+		#Range at which Witches throw potions
+		[Witch."Witch Potion Throwing"."Throw Range"]
+			#Range: 8.0 ~ 64.0
+			Minimum = 16.0
+			#Range: 8.0 ~ 64.0
+			Maximum = 32.0
+
+		#Entities that shouldn't get the new Witch ranged attack AI
+		[Witch."Witch Potion Throwing"."Entity Blacklist"]
+			Blacklist = []
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+
+	#Witches flee from the target.
+	[Witch."Witch Flee Target"]
+		#Chance for a Witch to spawn with the ability to avoid the player
+		#Range: 0.0 ~ 1.0
+		"Avoid Player chance" = 1.0
+		#Chance for a Witch to be able to throw potions while running from a player
+		#Range: 0.0 ~ 1.0
+		"Attack When Avoiding Chance" = 0.5
+		#Distance from a player that will make the Witch run away.
+		#Range: 0.0 ~ 32.0
+		"Flee Distance Far" = 16.0
+		#Distance from a player that counts as near and will make the Witch run away faster.
+		#Range: 0.0 ~ 32.0
+		"Flee Distance Near" = 8.0
+		#Speed multiplier when the Witch avoids the player and it's farther than 'Flee Distance Near' blocks from him.
+		#Range: 0.0 ~ 4.0
+		"Flee speed Multiplier Far" = 1.1
+		#Speed multiplier when the Witch avoids the player and it's within 'Flee Distance Near' blocks from him.
+		#Range: 0.0 ~ 4.0
+		"Flee speed Multiplier Near" = 1.25
+
+	#Witches drink more potions.
+	[Witch."Thirsty Witches"]
+		#A list of potions that the witch will drink as soon as the player is targeted. Note that witches can still drink other potions in different situations, refer to other config options. Format is effect_id,duration,amplifier. The potions are applied in order and witches will not throw the same potion if the target has already the effect.
+		"Potions on Target List" = ["minecraft:speed,3600,1", "minecraft:resistance,3600,0", "minecraft:absorption,1800,0", "minecraft:regeneration,900,0"]
+		#Chance for a witch to drink a healing potion when not full health. Defaults to Vanilla
+		#Range: 0.0 ~ 1.0
+		"Healing Chance" = 0.05
+		#Below this percentage health, witches will drink strong healing potions instead of normal ones.
+		#Range: 0.0 ~ 1.0
+		"Strong healing Threshold" = 0.4
+		#Chance for a witch to drink a water breathing potion when in water and air meter is at half. Vanilla is 15% and doesn't check the air meter.
+		#Range: 0.0 ~ 1.0
+		"Water Breathing Chance" = 1.0
+		#Chance for a witch to drink a fire resistance potion when on fire. Vanilla is 15%.
+		#Range: 0.0 ~ 1.0
+		"Fire Resistance" = 1.0
+		#Chance for a witch to drink milk when they have a negative effect.
+		#Range: 0.0 ~ 1.0
+		"Drink Milk Chance" = 0.1
+
+	#Witches summon Villagers and cast a lightning bolt upon them.
+	[Witch."Dark Arts Witches"]
+		#Chance for a witch to get the Dark Art AI (as soon as they have a target and are less than 10 blocks away from the target will summon a Villager and cast a lightning bolt on them
+		#Range: 0.0 ~ 1.0
+		"Dark Art Chance" = 0.333
+
+[Zombie]
+	#Zombies can mine blocks to reach the target. Uses offhand item to mine
+	"Enable Digger Zombie" = true
+	#Let zombies use ender pearls. Either put ender pearls in main or off hand and when far enough from the player they will throw it.
+	"Enable Pearler Zombie" = true
+	#Let zombies use Fishing Rods, reeling players in. Either put a Fishing Rod in main or off hand and when near enough from the player they will throw it.
+	"Enable Fisher Zombie" = true
+
+	#Zombies can mine blocks to reach the target. Uses offhand item to mine
+	[Zombie."Digger Zombie"]
+		#Chance for a Zombie to spawn with the digger ability
+		#Range: 0.0 ~ 1.0
+		"Digger Chance" = 0.1
+		#Zombies with Digger AI will mine only if they have any tool in the off-hand
+		"Digger Tool Only" = false
+		#Zombies with Digger AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable regardless of proper tool or not.
+		"Digger Proper Tool Only" = false
+		#Zombies with Digger AI will spawn with a Wooden Pickaxe.
+		"Equip Wooden Pick" = false
+		#The maximum Y coordinate at which Zombies can mine.
+		#Range: -128 ~ 512
+		"Max Y Dig" = 318
+		#The maximum distance from the target at which the zombie can mine. Set to 0 to always mine.
+		#Range: 0 ~ 128
+		"Max Distance" = 2
+		#Multiplier for digger zombies mining speed. E.g. with this set to 2, zombies will take twice the time to mine a block.
+		#Range: 0.0 ~ 128.0
+		"Digger Speed Multiplier" = 1.0
+		#Zombies with Digger AI will not be able to break tile entities
+		"Blacklist Tile Entities" = false
+
+		#Blocks in here will not be minable by zombies (or will be the only minable in case it's whitelist)
+		[Zombie."Digger Zombie"."Block Blacklist"]
+			Blacklist = []
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+
+		#Entities that shouldn't get the Digger AI
+		[Zombie."Digger Zombie"."Entity Blacklist"]
+			Blacklist = []
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+
+	#Let zombies use ender pearls. Either put ender pearls in main or off hand and when far enough from the player they will throw it.
+	[Zombie."Pearler Zombie"]
+		#Chance for a Zombie to spawn with an ender pearl in the off hand. I highly recommend using something like Mobs Properties Randomness to have more control over mobs equipment.
+		#Range: 0.0 ~ 1.0
+		"Equip Ender Pearl Chance" = 0.05
+		#How many ender pearls will Zombies spawn with.
+		#Range: 1 ~ 16
+		"Ender Pearl Amount" = 2
+		#Inaccuracy when throwing the ender pearl.
+		#Range: 1 ~ 128
+		Inaccuracy = 4
+
+		#Entities that shouldn't get the Pearler AI
+		[Zombie."Pearler Zombie"."Entity Blacklist"]
+			Blacklist = []
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+
+	#Let zombies use Fishing Rods, reeling players in. Either put a Fishing Rod in main or off hand and when near enough from the player they will throw it.
+	[Zombie."Fisher Zombie"]
+		#Chance for a Zombie to spawn with a Fishing Rod in the off hand. I highly recommend using something like Mobs Properties Randomness to have more control over mobs equipment.
+		#Range: 0.0 ~ 1.0
+		"Equip Fishing Rod Chance" = 0.07
+
+		#Entities that shouldn't get the Fisher AI
+		[Zombie."Fisher Zombie"."Entity Blacklist"]
+			Blacklist = []
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+
