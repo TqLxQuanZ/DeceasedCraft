@@ -1,5 +1,64 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.recipe.SmithingRecipeManager;
+import mods.jei.JEI;
+
+#------------------ Not used --------------------------
+#----------------------------------------------------
+#----------------------------------------------------
+
+craftingTable.remove(<item:minecraft:golden_helmet>);
+craftingTable.remove(<item:minecraft:golden_chestplate>);
+craftingTable.remove(<item:minecraft:golden_leggings>);
+craftingTable.remove(<item:minecraft:golden_boots>);
+JEI.hideIngredient(<item:minecraft:golden_helmet>);
+JEI.hideIngredient(<item:minecraft:golden_chestplate>);
+JEI.hideIngredient(<item:minecraft:golden_leggings>);
+JEI.hideIngredient(<item:minecraft:golden_boots>);
+
+craftingTable.remove(<item:savage_and_ravage:griefer_helmet>);
+craftingTable.remove(<item:savage_and_ravage:griefer_chestplate>);
+craftingTable.remove(<item:savage_and_ravage:griefer_leggings>);
+craftingTable.remove(<item:savage_and_ravage:griefer_boots>);
+JEI.hideIngredient(<item:savage_and_ravage:griefer_helmet>);
+JEI.hideIngredient(<item:savage_and_ravage:griefer_chestplate>);
+JEI.hideIngredient(<item:savage_and_ravage:griefer_leggings>);
+JEI.hideIngredient(<item:savage_and_ravage:griefer_boots>);
+
+craftingTable.remove(<item:survive:wool_hat>);
+craftingTable.remove(<item:survive:wool_jacket>);
+craftingTable.remove(<item:survive:wool_pants>);
+craftingTable.remove(<item:survive:wool_boots>);
+JEI.hideIngredient(<item:survive:wool_hat>);
+JEI.hideIngredient(<item:survive:wool_jacket>);
+JEI.hideIngredient(<item:survive:wool_pants>);
+JEI.hideIngredient(<item:survive:wool_boots>);
+
+craftingTable.remove(<item:survive:stiffened_honey_helmet>);
+craftingTable.remove(<item:survive:stiffened_honey_chestplate>);
+craftingTable.remove(<item:survive:stiffened_honey_leggings>);
+craftingTable.remove(<item:survive:stiffened_honey_boots>);
+JEI.hideIngredient(<item:survive:stiffened_honey_helmet>);
+JEI.hideIngredient(<item:survive:stiffened_honey_chestplate>);
+JEI.hideIngredient(<item:survive:stiffened_honey_leggings>);
+JEI.hideIngredient(<item:survive:stiffened_honey_boots>);
+
+craftingTable.remove(<item:theoneprobe:iron_helmet_probe>);
+JEI.hideIngredient(<item:theoneprobe:iron_helmet_probe>);
+
+craftingTable.remove(<item:theoneprobe:gold_helmet_probe>);
+JEI.hideIngredient(<item:theoneprobe:gold_helmet_probe>);
+
+craftingTable.remove(<item:theoneprobe:diamond_helmet_probe>);
+JEI.hideIngredient(<item:theoneprobe:diamond_helmet_probe>);
+
+craftingTable.remove(<item:minecraft:turtle_helmet>);
+JEI.hideIngredient(<item:minecraft:turtle_helmet>);
+
+craftingTable.remove(<item:create_sa:slime_helmet>);
+JEI.hideIngredient(<item:create_sa:slime_helmet>);
+
+craftingTable.remove(<item:create_sa:slime_boots>);
+JEI.hideIngredient(<item:create_sa:slime_boots>);
 
 #------------------ Tier 1 --------------------------
 #----------------------------------------------------
@@ -173,6 +232,10 @@ craftingTable.remove(<item:immersiveengineering:armor_steel_feet>);
     [[<tag:items:forge:plates/steel>, <item:minecraft:iron_boots>.anyDamage(), <tag:items:forge:plates/steel>],
     [<tag:items:forge:plates/steel>, <item:minecraft:air>, <tag:items:forge:plates/steel>]]);
 
+craftingTable.remove(<item:create_sa:brass_jetpack_chestplate>);
+craftingTable.remove(<item:create_sa:andesite_jetpack_chestplate>);
+craftingTable.remove(<item:create_sa:copper_jetpack_chestplate>);
+
 <recipetype:create:mechanical_crafting>.addRecipe("t4_brass_jetpack_chestplate", <item:create_sa:brass_jetpack_chestplate>,
     [[<item:minecraft:air>, <item:create:shaft>, <item:create:belt_connector>, <item:create:shaft>, <item:minecraft:air>],
     [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:create_sa:brass_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
@@ -220,6 +283,7 @@ craftingTable.remove(<item:minecraft:diamond_boots>);
 
 <recipetype:create:mechanical_crafting>.remove(<item:create_sa:brass_exoskeleton_chestplate>);
 <recipetype:create:mechanical_crafting>.remove(<item:create_sa:andesite_exoskeleton_chestplate>);
+<recipetype:create:mechanical_crafting>.remove(<item:create_sa:copper_exoskeleton_chestplate>);
 craftingTable.remove(<item:create_sa:copper_exoskeleton_chestplate>);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t5_brass_exoskeleton_chestplate", <item:create_sa:brass_exoskeleton_chestplate>,
