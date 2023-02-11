@@ -1,1 +1,20 @@
-[]
+[
+	{
+		"mob": "minecraft:blaze",
+		"persecond": 0.5,
+		"attempts": 15,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 3,
+		  "groupdistance": 5
+		},
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "mindist": 5,
+		  "maxdist": 100,
+		  "minheight": 45,
+		  "maxheight": 200,
+		  "maxthis": 20
+		}
+	  }
+]

@@ -1,11 +1,23 @@
 [
-	{
+    {
         "mob": ["minecraft:creeper",
                 "minecraft:enderman",
                 "minecraft:skeleton",
                 "minecraft:witch",
                 "minecraft:stray",
-                "minecraft:phantom"],
+                "minecraft:phantom",
+                "savage_and_ravage:skeleton_villager"],
         "result": "deny"
+    },
+    {
+        "mob": "minecraft:blaze",
+        "dimension": "minecraft:overworld",
+        "biome": ["biomesoplenty:volcanic_plains", "biomesoplenty:volcano"],
+        "result": "allow"
+    },
+    {
+      "mob": "minecraft:blaze",
+      "dimension": "minecraft:overworld",
+      "result": "deny"
     }
 ]
