@@ -619,10 +619,10 @@
 					"Is Blacklist" = false
 
 	[world.new_stone_types]
-		"Enable Limestone" = true
-		"Enable Jasper" = true
-		"Enable Shale" = true
-		"Enable Myalite" = true
+		"Enable Limestone" = false
+		"Enable Jasper" = false
+		"Enable Shale" = false
+		"Enable Myalite" = false
 
 		[world.new_stone_types.limestone]
 
@@ -850,7 +850,7 @@
 					"Is Blacklist" = false
 
 				[world.blossom_trees.blue.biome_config.biomes]
-					Biomes = []
+					Biomes = [ "biomesoplenty:wasteland" ]
 					"Is Blacklist" = true
 
 		[world.blossom_trees.lavender]
@@ -872,7 +872,7 @@
 					"Is Blacklist" = false
 
 				[world.blossom_trees.lavender.biome_config.biomes]
-					Biomes = []
+					Biomes = [ "biomesoplenty:wasteland" ]
 					"Is Blacklist" = true
 
 		[world.blossom_trees.orange]
@@ -894,7 +894,7 @@
 					"Is Blacklist" = false
 
 				[world.blossom_trees.orange.biome_config.biomes]
-					Biomes = []
+					Biomes = [ "biomesoplenty:wasteland" ]
 					"Is Blacklist" = true
 
 		[world.blossom_trees.pink]
@@ -916,7 +916,7 @@
 					"Is Blacklist" = false
 
 				[world.blossom_trees.pink.biome_config.biomes]
-					Biomes = []
+					Biomes = [ "biomesoplenty:wasteland" ]
 					"Is Blacklist" = true
 
 		[world.blossom_trees.yellow]
@@ -938,7 +938,7 @@
 					"Is Blacklist" = false
 
 				[world.blossom_trees.yellow.biome_config.biomes]
-					Biomes = []
+					Biomes = [ "biomesoplenty:wasteland" ]
 					"Is Blacklist" = true
 
 		[world.blossom_trees.red]
@@ -960,7 +960,7 @@
 					"Is Blacklist" = false
 
 				[world.blossom_trees.red.biome_config.biomes]
-					Biomes = []
+					Biomes = [ "biomesoplenty:wasteland" ]
 					"Is Blacklist" = true
 
 	[world.big_stone_clusters]

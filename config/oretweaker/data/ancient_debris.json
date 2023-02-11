@@ -3,38 +3,17 @@
     {
       "ore": "minecraft:ancient_debris",
       "fillers": [
-        "BASE_STONE_NETHER"
+        "STONE_ORE_REPLACEABLES"
       ],
       "distribution": "TRIANGLE",
-      "minY": 8,
-      "maxY": 24,
+      "minY": -64,
+      "maxY": 10,
       "maxVeinSize": 3,
       "spawnRate": 1.0,
       "discardChanceOnAirExposure": 1.0,
       "biomeFilters": {
         "biomeBlacklist": [],
-        "biomeWhitelist": [
-          "NETHER"
-        ]
-      },
-      "replace": true
-    },
-    {
-      "ore": "minecraft:ancient_debris",
-      "fillers": [
-        "BASE_STONE_NETHER"
-      ],
-      "distribution": "UNIFORM",
-      "minY": 8,
-      "maxY": 118,
-      "maxVeinSize": 2,
-      "spawnRate": 1.0,
-      "discardChanceOnAirExposure": 1.0,
-      "biomeFilters": {
-        "biomeBlacklist": [],
-        "biomeWhitelist": [
-          "NETHER"
-        ]
+        "biomeWhitelist": [ "biomesoplenty:wasteland" ]
       },
       "replace": true
     }

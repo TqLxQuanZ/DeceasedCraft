@@ -39,11 +39,13 @@
     {
         "mob": "minecraft:zombie",
         "dimension": "minecraft:overworld",
+        "incontrol": true,
         "mintime": 0,
         "maxtime": 24000,
         "minlight": 0,
         "maxlight": 9,
         "incity": true,
+        "seesky": true,
         "result": "allow"
     },
     {
