@@ -23,3 +23,8 @@ furnace.remove(<item:immersiveengineering:ingot_aluminum>);
 <recipetype:cgm:workbench>.remove(<item:additionalguns:casing_short>);
 <recipetype:cgm:workbench>.remove(<item:additionalguns:casing_small>);
 <recipetype:cgm:workbench>.remove(<item:additionalguns:casing_special>);
+
+// Remove default paper crafting
+craftingTable.removeByName("minecraft:paper");
+craftingTable.removeByName("quark:tweaks/crafting/utility/bent/paper");
+<recipetype:create:pressing>.removeByName("create:pressing/sugar_cane");
