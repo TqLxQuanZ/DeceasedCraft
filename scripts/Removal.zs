@@ -28,3 +28,6 @@ furnace.remove(<item:immersiveengineering:ingot_aluminum>);
 craftingTable.removeByName("minecraft:paper");
 craftingTable.removeByName("quark:tweaks/crafting/utility/bent/paper");
 <recipetype:create:pressing>.removeByName("create:pressing/sugar_cane");
+
+// Remove eye of ender
+craftingTable.removeByName("minecraft:ender_eye");
