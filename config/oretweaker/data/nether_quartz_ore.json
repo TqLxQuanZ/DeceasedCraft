@@ -3,38 +3,17 @@
     {
       "ore": "minecraft:nether_quartz_ore",
       "fillers": [
-        "minecraft:netherrack"
+        "STONE_ORE_REPLACEABLES"
       ],
       "distribution": "UNIFORM",
-      "minY": 10,
-      "maxY": 116,
-      "maxVeinSize": 14,
+      "minY": -40,
+      "maxY": 100,
+      "maxVeinSize": 18,
       "spawnRate": 16.0,
       "discardChanceOnAirExposure": 0.0,
       "biomeFilters": {
         "biomeBlacklist": [],
-        "biomeWhitelist": [
-          "NETHER"
-        ]
-      },
-      "replace": true
-    },
-    {
-      "ore": "minecraft:nether_quartz_ore",
-      "fillers": [
-        "minecraft:netherrack"
-      ],
-      "distribution": "UNIFORM",
-      "minY": 10,
-      "maxY": 116,
-      "maxVeinSize": 14,
-      "spawnRate": 32.0,
-      "discardChanceOnAirExposure": 0.0,
-      "biomeFilters": {
-        "biomeBlacklist": [],
-        "biomeWhitelist": [
-          "NETHER"
-        ]
+        "biomeWhitelist": [ "biomesoplenty:volcanic_plains", "biomesoplenty:volcano" ]
       },
       "replace": true
     }
