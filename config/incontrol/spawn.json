@@ -1,6 +1,7 @@
 [
     {
-        "mob": ["minecraft:creeper",
+        "mob": [
+                "minecraft:creeper",
                 "minecraft:enderman",
                 "minecraft:skeleton",
                 "minecraft:witch",
@@ -10,6 +11,32 @@
         "result": "deny"
     },
     {
+      "mob": [
+        "zombiemobs:zombie_bear",
+        "zombiemobs:zombie_cat",
+        "zombiemobs:zombie_chicken",
+        "zombiemobs:zombie_cow",
+        "zombiemobs:zombie_dolphin",
+        "zombiemobs:zombie_donkey",
+        "zombiemobs:zombie_fox",
+        "zombiemobs:zombie_goat",
+        "zombiemobs:zombie_horsee",
+        "zombiemobs:zombie_llama",
+        "zombiemobs:zombie_mooshroom",
+        "zombiemobs:zombie_mule",
+        "zombiemobs:zombie_ocelot",
+        "zombiemobs:zombie_panda",
+        "zombiemobs:zombie_pig",
+        "zombiemobs:zombie_sheep",
+        "zombiemobs:zombie_squid",
+        "zombiemobs:zombie_turtle",
+        "zombiemobs:zombie_wolf"],
+      "dimension": "minecraft:overworld",
+      "minlight": 9,
+      "maxlight": 15,
+      "result": "deny"
+    },
+    {
         "mob": "minecraft:zombie",
         "dimension": "minecraft:overworld",
         "mintime": 0,
@@ -17,8 +44,14 @@
         "minlight": 0,
         "maxlight": 9,
         "incity": true,
-        "seesky": true,
         "result": "allow"
+    },
+    {
+        "mob": "minecraft:zombie",
+        "dimension": "minecraft:overworld",
+        "minlight": 10,
+        "maxlight": 15,
+        "result": "deny"
     },
     {
         "mob": "minecraft:blaze",
