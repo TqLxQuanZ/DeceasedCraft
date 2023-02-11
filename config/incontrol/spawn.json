@@ -10,8 +10,23 @@
         "result": "deny"
     },
     {
+        "mob": "minecraft:zombie",
+        "dimension": "minecraft:overworld",
+        "mintime": 0,
+        "maxtime": 24000,
+        "minlight": 0,
+        "maxlight": 9,
+        "incity": true,
+        "seesky": true,
+        "result": "allow"
+    },
+    {
         "mob": "minecraft:blaze",
         "dimension": "minecraft:overworld",
+        "mintime": 0,
+        "maxtime": 12000,
+        "minlight": 0,
+        "maxlight": 9, 
         "biome": ["biomesoplenty:volcanic_plains", "biomesoplenty:volcano"],
         "result": "allow"
     },
