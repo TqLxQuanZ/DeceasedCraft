@@ -190,3 +190,60 @@ craftingTable.addShaped("rotation_speed_controller", <item:create:rotation_speed
 <recipetype:immersiveengineering:crusher>.addRecipe("ie_deepslate_nickel_ore_crusher", <item:immersiveengineering:deepslate_ore_nickel>, 512, <item:immersiveengineering:dust_nickel> * 2, <item:immersiveengineering:dust_nickel> % 20);
 
 // Arc Furnace from IE
+// Iron
+<recipetype:immersiveengineering:arc_furnace>.removeByName("immersiveengineering:arcfurnace/ore_iron");
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_iron_ore", <item:minecraft:iron_ore>, [<item:minecraft:air>], 512, 100, [<item:minecraft:iron_ingot> * 2], <item:immersiveengineering:slag> );
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_deepslate_iron_ore", <item:minecraft:deepslate_iron_ore>, [<item:minecraft:air>], 512, 200, [<item:minecraft:iron_ingot> * 3], <item:immersiveengineering:slag> );
+
+// Gold
+<recipetype:immersiveengineering:arc_furnace>.removeByName("immersiveengineering:arcfurnace/ore_gold");
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_gold_ore", <item:minecraft:gold_ore>, [<item:minecraft:air>], 512, 100, [<item:minecraft:gold_ingot> * 2], <item:immersiveengineering:slag> );
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_deepslate_gold_ore", <item:minecraft:deepslate_gold_ore>, [<item:minecraft:air>], 512, 200, [<item:minecraft:gold_ingot> * 3], <item:immersiveengineering:slag> );
+
+// Copper
+<recipetype:immersiveengineering:arc_furnace>.removeByName("immersiveengineering:arcfurnace/ore_copper");
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_copper_ore", <item:minecraft:copper_ore>, [<item:minecraft:air>], 512, 100, [<item:minecraft:copper_ingot> * 2], <item:immersiveengineering:slag> );
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_deepslate_copper_ore", <item:minecraft:deepslate_copper_ore>, [<item:minecraft:air>], 512, 200, [<item:minecraft:copper_ingot> * 3], <item:immersiveengineering:slag> );
+
+// Zinc
+<recipetype:immersiveengineering:arc_furnace>.removeByName("immersiveengineering:arcfurnace/ore_zinc");
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_zinc_ore", <item:create:zinc_ore>, [<item:minecraft:air>], 512, 100, [<item:create:zinc_ingot> * 2], <item:immersiveengineering:slag> );
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_deepslate_zinc_ore", <item:create:deepslate_zinc_ore>, [<item:minecraft:air>], 512, 200, [<item:create:zinc_ingot> * 3], <item:immersiveengineering:slag> );
+
+// Silver
+<recipetype:immersiveengineering:arc_furnace>.removeByName("immersiveengineering:arcfurnace/ore_silver");
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_silver_ore", <item:immersiveengineering:ore_silver>, [<item:minecraft:air>], 512, 100, [<item:immersiveengineering:ingot_silver> * 2], <item:immersiveengineering:slag> );
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_deepslate_silver_ore", <item:immersiveengineering:deepslate_ore_silver>, [<item:minecraft:air>], 512, 200, [<item:immersiveengineering:ingot_silver> * 3], <item:immersiveengineering:slag> );
+
+// Aluminum
+<recipetype:immersiveengineering:arc_furnace>.removeByName("immersiveengineering:arcfurnace/ore_aluminum");
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_aluminum_ore", <item:immersiveengineering:ore_aluminum>, [<item:minecraft:air>], 512, 100, [<item:immersiveengineering:ingot_aluminum> * 2], <item:immersiveengineering:slag> );
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_deepslate_aluminum_ore", <item:immersiveengineering:deepslate_ore_aluminum>, [<item:minecraft:air>], 512, 200, [<item:immersiveengineering:ingot_aluminum> * 3], <item:immersiveengineering:slag> );
+
+// Lead
+<recipetype:immersiveengineering:arc_furnace>.removeByName("immersiveengineering:arcfurnace/ore_lead");
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_lead_ore", <item:immersiveengineering:ore_lead>, [<item:minecraft:air>], 512, 100, [<item:immersiveengineering:ingot_lead> * 2], <item:immersiveengineering:slag> );
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_deepslate_lead_ore", <item:immersiveengineering:deepslate_ore_lead>, [<item:minecraft:air>], 512, 200, [<item:immersiveengineering:ingot_lead> * 3], <item:immersiveengineering:slag> );
+
+// Nickel
+<recipetype:immersiveengineering:arc_furnace>.removeByName("immersiveengineering:arcfurnace/ore_nickel");
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_nickel_ore", <item:immersiveengineering:ore_nickel>, [<item:minecraft:air>], 512, 100, [<item:immersiveengineering:ingot_nickel> * 2], <item:immersiveengineering:slag> );
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_deepslate_nickel_ore", <item:immersiveengineering:deepslate_ore_nickel>, [<item:minecraft:air>], 512, 200, [<item:immersiveengineering:ingot_nickel> * 3], <item:immersiveengineering:slag> );
+
+// Uranium
+<recipetype:immersiveengineering:arc_furnace>.removeByName("immersiveengineering:arcfurnace/ore_uranium");
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_uranium_ore", <item:immersiveengineering:ore_uranium>, [<item:minecraft:air>], 512, 100, [<item:immersiveengineering:ingot_uranium> * 2], <item:immersiveengineering:slag> );
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_deepslate_uranium_ore", <item:immersiveengineering:deepslate_ore_uranium>, [<item:minecraft:air>], 512, 200, [<item:immersiveengineering:ingot_uranium> * 3], <item:immersiveengineering:slag> );
+
+
+// Train station from Create
+craftingTable.removeByName("create:crafting/kinetics/track_station");
+craftingTable.addShaped("track_station", <item:create:track_station>,
+    [[<item:create:railway_casing>, <item:minecraft:compass>, <item:create:railway_casing>],
+    [<item:create:railway_casing>, <item:create_sa:steam_engine>, <item:create:railway_casing>],
+    [<item:create:railway_casing>, <item:create_sa:heat_engine>, <item:create:railway_casing>]]);
+
+// Gas station fuels
+<tag:fluids:car:gas_station>.add(<fluid:immersivepetroleum:gasoline>);
+<tag:fluids:car:gas_station>.add(<fluid:immersivepetroleum:diesel>);
+<tag:fluids:car:gas_station>.add(<fluid:immersiveengineering:biodiesel>);

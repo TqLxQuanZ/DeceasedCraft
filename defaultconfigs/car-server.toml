@@ -1,0 +1,188 @@
+
+[machines]
+
+	[machines.backmix_reactor]
+		#Range: 100 ~ 32767
+		energy_storage = 10000
+		#Range: 1 ~ 32767
+		energy_usage = 10
+		#Range: 1000 ~ 32767
+		fluid_storage = 3000
+		#Range: 10 ~ 32767
+		generating_time = 200
+		#Range: 1 ~ 32767
+		mix_generation = 100
+		#Range: 1 ~ 32767
+		methanol_usage = 50
+		#Range: 1 ~ 32767
+		canola_usage = 50
+
+	[machines.blast_furnace]
+		#Range: 1000 ~ 32767
+		energy_storage = 10000
+		#Range: 1000 ~ 32767
+		fluid_storage = 3000
+
+	[machines.oil_mill]
+		#Range: 1000 ~ 32767
+		energy_storage = 10000
+		#Range: 1000 ~ 32767
+		fluid_storage = 3000
+
+	[machines.cable]
+		#Range: 64 ~ 32767
+		transfer_rate = 256
+
+	[machines.dynamo]
+		#Range: 100 ~ 32767
+		energy_storage = 1000
+		#Range: 1 ~ 32767
+		energy_generation = 25
+
+	[machines.fluid_extractor]
+		#Range: 5 ~ 32767
+		drain_speed = 25
+
+	[machines.gas_station]
+		#Range: 1 ~ 32767
+		transfer_rate = 5
+		#If it starts with '#' it is a tag
+		valid_fuels = ["#car:gas_station"]
+
+	[machines.generator]
+		#Range: 1000 ~ 32767
+		energy_storage = 30000
+		#Range: 1000 ~ 32767
+		fluid_storage = 3000
+		#Range: 1 ~ 32767
+		energy_generation = 500
+		#If it starts with '#' it is a tag
+		valid_fuels = ["#car:generator"]
+
+	[machines.split_tank]
+		#Range: 1000 ~ 32767
+		fluid_storage = 3000
+		#Range: 10 ~ 32767
+		generating_time = 800
+		#Range: 1 ~ 32767
+		mix_usage = 100
+		#Range: 1 ~ 32767
+		glycerin_generation = 10
+		#Range: 1 ~ 32767
+		bio_diesel_generation = 100
+
+[items]
+
+	[items.repair_kit]
+		#Range: 0.10000000149011612 ~ 100.0
+		repair_amount = 5.0
+
+	[items.canister]
+		#Range: 1 ~ 1000
+		max_fuel = 100
+
+[car]
+	#Whether the cars should collide with other entities (except cars)
+	collide_with_entities = false
+	#Whether the cars should damage other entities on collision
+	damage_entities = true
+	#Whether animals flee from the car when the horn is activted
+	horn_flee = true
+	#True if starting the car should use battery
+	use_battery = true
+	#The speed modifier for cars on non road blocks
+	#Range: 0.001 ~ 10.0
+	offroad_speed_modifier = 1.0
+	#The speed modifier for cars on road blocks
+	#On road blocks are defined in the config section 'road_blocks'
+	#Range: 0.001 ~ 10.0
+	onroad_speed_modifier = 1.0
+
+	[car.road_blocks]
+		#If it starts with '#' it is a tag
+		blocks = ["#car:drivable_blocks", "immersivepetroleum:asphalt", "immersivepetroleum:asphalt_slab", "immersivepetroleum:asphalt_stair"]
+
+	[car.parts]
+
+		[car.parts.small_tank]
+			#Range: 100 ~ 100000
+			max_fuel = 500
+
+		[car.parts.medium_tank]
+			#Range: 100 ~ 100000
+			max_fuel = 1000
+
+		[car.parts.large_tank]
+			#Range: 100 ~ 100000
+			max_fuel = 1500
+
+		[car.parts.engine_6_cylinder]
+			#Range: 0.001 ~ 10.0
+			fuel_efficiency = 0.25
+			#Range: 0.001 ~ 10.0
+			acceleration = 0.04
+			#Range: 0.001 ~ 10.0
+			max_speed = 0.75
+			#Range: 0.001 ~ 10.0
+			max_reverse_speed = 0.2
+
+		[car.parts.engine_3_cylinder]
+			#Range: 0.001 ~ 10.0
+			fuel_efficiency = 0.5
+			#Range: 0.001 ~ 10.0
+			acceleration = 0.035
+			#Range: 0.001 ~ 10.0
+			max_speed = 0.65
+			#Range: 0.001 ~ 10.0
+			max_reverse_speed = 0.2
+
+		[car.parts.engine_truck]
+			#Range: 0.001 ~ 10.0
+			fuel_efficiency = 0.7
+			#Range: 0.001 ~ 10.0
+			acceleration = 0.032
+			#Range: 0.001 ~ 10.0
+			max_speed = 0.6
+			#Range: 0.001 ~ 10.0
+			max_reverse_speed = 0.15
+
+		[car.parts.body_big_wood]
+			#Range: 0.001 ~ 10.0
+			fuel_efficiency = 0.7
+			#Range: 0.001 ~ 10.0
+			acceleration = 0.95
+			#Range: 0.001 ~ 10.0
+			max_speed = 0.85
+
+		[car.parts.body_wood]
+			#Range: 0.001 ~ 10.0
+			fuel_efficiency = 0.8
+			#Range: 0.001 ~ 10.0
+			acceleration = 1.0
+			#Range: 0.001 ~ 10.0
+			max_speed = 0.9
+
+		[car.parts.body_sport]
+			#Range: 0.001 ~ 10.0
+			fuel_efficiency = 0.9
+			#Range: 0.001 ~ 10.0
+			acceleration = 1.0
+			#Range: 0.001 ~ 10.0
+			max_speed = 1.0
+
+		[car.parts.body_suv]
+			#Range: 0.001 ~ 10.0
+			fuel_efficiency = 0.6
+			#Range: 0.001 ~ 10.0
+			acceleration = 0.8
+			#Range: 0.001 ~ 10.0
+			max_speed = 0.7
+
+		[car.parts.body_transporter]
+			#Range: 0.001 ~ 10.0
+			fuel_efficiency = 0.6
+			#Range: 0.001 ~ 10.0
+			acceleration = 0.8
+			#Range: 0.001 ~ 10.0
+			max_speed = 0.765
+
