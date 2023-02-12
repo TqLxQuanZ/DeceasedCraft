@@ -62,6 +62,7 @@
         "maxtime": 12000,
         "minlight": 0,
         "maxlight": 7, 
+        "seesky": true,
         "biome": ["biomesoplenty:volcanic_plains", "biomesoplenty:volcano"],
         "result": "allow"
     },
