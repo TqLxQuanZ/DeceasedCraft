@@ -7,7 +7,7 @@ import crafttweaker.api.recipe.Replacer;
 <recipetype:create:mixing>.addRecipe("steel", <constant:create:heat_condition:superheated>, [<item:immersiveengineering:ingot_steel>], [<tag:items:forge:dusts/coal_coke>, <tag:items:forge:ingots/iron>], [], 200);
 
 // Coke dust
-<recipetype:create:milling>.addRecipe("coke_dust", [<item:immersiveengineering:dust_coke>], <tag:items:forge:ingots/iron>, 200);
+<recipetype:create:milling>.addRecipe("coke_dust", [<item:immersiveengineering:dust_coke>], <item:immersiveengineering:coal_coke>, 200);
 
 
 // Diamond reinforced iron
