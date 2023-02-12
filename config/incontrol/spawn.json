@@ -32,7 +32,7 @@
         "zombiemobs:zombie_turtle",
         "zombiemobs:zombie_wolf"],
       "dimension": "minecraft:overworld",
-      "minlight": 9,
+      "minlight": 8,
       "maxlight": 15,
       "result": "deny"
     },
@@ -43,7 +43,7 @@
         "mintime": 0,
         "maxtime": 24000,
         "minlight": 0,
-        "maxlight": 9,
+        "maxlight": 7,
         "incity": true,
         "seesky": true,
         "result": "allow"
@@ -51,7 +51,7 @@
     {
         "mob": "minecraft:zombie",
         "dimension": "minecraft:overworld",
-        "minlight": 10,
+        "minlight": 8,
         "maxlight": 15,
         "result": "deny"
     },
@@ -61,7 +61,7 @@
         "mintime": 0,
         "maxtime": 12000,
         "minlight": 0,
-        "maxlight": 9, 
+        "maxlight": 7, 
         "biome": ["biomesoplenty:volcanic_plains", "biomesoplenty:volcano"],
         "result": "allow"
     },

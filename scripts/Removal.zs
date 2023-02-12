@@ -31,3 +31,4 @@ craftingTable.removeByName("quark:tweaks/crafting/utility/bent/paper");
 
 // Remove eye of ender
 craftingTable.removeByName("minecraft:ender_eye");
+JEI.hideIngredient(<item:minecraft:ender_eye>);
