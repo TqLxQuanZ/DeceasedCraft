@@ -32,3 +32,10 @@ craftingTable.removeByName("quark:tweaks/crafting/utility/bent/paper");
 // Remove eye of ender
 craftingTable.removeByName("minecraft:ender_eye");
 JEI.hideIngredient(<item:minecraft:ender_eye>);
+
+// Remove cars all fluid type, since only diesel from IE will be used.
+JEI.hideIngredient(<item:car:canola_oil_bucket>);
+JEI.hideIngredient(<item:car:methanol_bucket>);
+JEI.hideIngredient(<item:car:canola_methanol_mix_bucket>);
+JEI.hideIngredient(<item:car:glycerin_bucket>);
+JEI.hideIngredient(<item:car:bio_diesel_bucket>);

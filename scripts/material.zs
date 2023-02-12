@@ -3,6 +3,13 @@ import crafttweaker.api.item.IItemStack;
 import mods.jei.JEI;
 import crafttweaker.api.recipe.Replacer;
 
+// Steel for mixing
+<recipetype:create:mixing>.addRecipe("steel", <constant:create:heat_condition:superheated>, [<item:immersiveengineering:ingot_steel>], [<tag:items:forge:dusts/coal_coke>, <tag:items:forge:ingots/iron>], [], 200);
+
+// Coke dust
+<recipetype:create:milling>.addRecipe("coke_dust", [<item:immersiveengineering:dust_coke>], <tag:items:forge:ingots/iron>, 200);
+
+
 // Diamond reinforced iron
 craftingTable.remove(<item:plane:diamond_reinforced_iron>);
 <recipetype:create:mixing>.addRecipe("diamond_reinforced_iron", <constant:create:heat_condition:heated>, [<item:plane:diamond_reinforced_iron>], [<item:minecraft:diamond>, <tag:items:forge:ingots/iron>], [], 200);
@@ -131,7 +138,6 @@ craftingTable.addShaped("rotation_speed_controller", <item:create:rotation_speed
 <recipetype:create:crushing>.addRecipe("deepslate_nickel_ore_block", [<item:create:crushed_nickel_ore>, <item:create:crushed_nickel_ore> % 75, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:immersiveengineering:deepslate_ore_nickel>, 450 );
 
 
-
 // Crusher from IE
 // Iron
 <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/ore_iron");
@@ -247,3 +253,30 @@ craftingTable.addShaped("track_station", <item:create:track_station>,
 <tag:fluids:car:gas_station>.add(<fluid:immersivepetroleum:gasoline>);
 <tag:fluids:car:gas_station>.add(<fluid:immersivepetroleum:diesel>);
 <tag:fluids:car:gas_station>.add(<fluid:immersiveengineering:biodiesel>);
+
+// Plates should be only crafted via pressing
+craftingTable.removeByName("immersiveengineering:crafting/plate_iron_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_steel_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_silver_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_electrum_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_uranium_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_copper_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_lead_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_nickel_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_gold_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_constantan_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_aluminum_hammering");
+
+// Blaze Burner
+craftingTable.removeByName("create:crafting/kinetics/empty_blaze_burner");
+craftingTable.addShaped("blazeburner", <item:create:empty_blaze_burner>,
+    [[<item:minecraft:air>, <item:minecraft:iron_bars>, <item:minecraft:air>],
+    [<item:minecraft:iron_bars>, <item:minecraft:bricks>, <item:minecraft:iron_bars>],
+    [<item:minecraft:air>, <item:minecraft:iron_bars>, <item:minecraft:air>]]);
+
+// Blast Bricks
+craftingTable.removeByName("immersiveengineering:crafting/blastbrick");
+craftingTable.addShaped("blastbrick", <item:immersiveengineering:blastbrick>,
+    [[<item:minecraft:magma_block>, <item:minecraft:brick>, <item:minecraft:magma_block>],
+    [<item:minecraft:brick>, <item:minecraft:magma_block>, <item:minecraft:brick>],
+    [<item:minecraft:magma_block>, <item:minecraft:brick>, <item:minecraft:magma_block>]]);
