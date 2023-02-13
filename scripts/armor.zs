@@ -60,6 +60,14 @@ JEI.hideIngredient(<item:create_sa:slime_helmet>);
 craftingTable.remove(<item:create_sa:slime_boots>);
 JEI.hideIngredient(<item:create_sa:slime_boots>);
 
+// Diving Helmet
+craftingTable.remove(<item:create:diving_helmet>);
+<recipetype:create:mechanical_crafting>.addRecipe("diving_helmet", <item:create:diving_helmet>,
+    [[<tag:items:forge:plates/copper>, <item:create:fluid_pipe>, <item:survive:charcoal_filter>, <item:create:fluid_pipe>, <tag:items:forge:plates/copper>],
+    [<tag:items:forge:plates/copper>, <item:create:cogwheel>, <item:create_sa:hydraulic_engine>, <item:create:cogwheel>, <tag:items:forge:plates/copper>],
+    [<tag:items:forge:plates/copper>, <item:minecraft:air>, <tag:items:forge:glass>, <item:minecraft:air>, <tag:items:forge:plates/copper>]]);
+
+
 #------------------ Tier 1 --------------------------
 #----------------------------------------------------
 #----------------------------------------------------
@@ -301,7 +309,7 @@ craftingTable.remove(<item:create_sa:copper_exoskeleton_chestplate>);
 <recipetype:create:mechanical_crafting>.addRecipe("t5_copper_exoskeleton_chestplate", <item:create_sa:copper_exoskeleton_chestplate>,
     [[<item:minecraft:air>, <item:create:shaft>, <item:create:belt_connector>, <item:create:shaft>, <item:minecraft:air>],
     [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:create_sa:copper_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
-    [<tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>, <item:create_sa:heat_engine>, <tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>],
+    [<tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>, <item:create_sa:hydraulic_engine>, <tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>],
     [<item:minecraft:air>, <tag:items:forge:plates/plastic>, <item:create:belt_connector>, <tag:items:forge:plates/plastic>, <item:minecraft:air>]]);
 
 #------------------ Tier 6 --------------------------

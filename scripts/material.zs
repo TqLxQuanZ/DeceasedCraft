@@ -12,7 +12,8 @@ import crafttweaker.api.recipe.Replacer;
 
 // Diamond reinforced iron
 craftingTable.remove(<item:plane:diamond_reinforced_iron>);
-<recipetype:create:mixing>.addRecipe("diamond_reinforced_iron", <constant:create:heat_condition:heated>, [<item:plane:diamond_reinforced_iron>], [<item:minecraft:diamond>, <tag:items:forge:ingots/iron>], [], 200);
+<recipetype:create:mixing>.addRecipe("mixing_diamond_reinforced_iron", <constant:create:heat_condition:heated>, [<item:plane:diamond_reinforced_iron>], [<item:minecraft:diamond>, <tag:items:forge:ingots/iron>], [], 200);
+<recipetype:immersiveengineering:alloy>.addRecipe("alloy_diamond_reinforced_iron", <item:minecraft:iron_ingot>, <tag:items:forge:gems/diamond>, 200, <item:plane:diamond_reinforced_iron>);
 
 // Electron Tube (Vacuum Tube)
 craftingTable.removeByName("create:crafting/materials/electron_tube");
@@ -266,17 +267,3 @@ craftingTable.removeByName("immersiveengineering:crafting/plate_nickel_hammering
 craftingTable.removeByName("immersiveengineering:crafting/plate_gold_hammering");
 craftingTable.removeByName("immersiveengineering:crafting/plate_constantan_hammering");
 craftingTable.removeByName("immersiveengineering:crafting/plate_aluminum_hammering");
-
-// Blaze Burner
-craftingTable.removeByName("create:crafting/kinetics/empty_blaze_burner");
-craftingTable.addShaped("blazeburner", <item:create:empty_blaze_burner>,
-    [[<item:minecraft:air>, <item:minecraft:iron_bars>, <item:minecraft:air>],
-    [<item:minecraft:iron_bars>, <item:minecraft:bricks>, <item:minecraft:iron_bars>],
-    [<item:minecraft:air>, <item:minecraft:iron_bars>, <item:minecraft:air>]]);
-
-// Blast Bricks
-craftingTable.removeByName("immersiveengineering:crafting/blastbrick");
-craftingTable.addShaped("blastbrick", <item:immersiveengineering:blastbrick>,
-    [[<item:minecraft:magma_block>, <item:minecraft:brick>, <item:minecraft:magma_block>],
-    [<item:minecraft:brick>, <item:minecraft:magma_block>, <item:minecraft:brick>],
-    [<item:minecraft:magma_block>, <item:minecraft:brick>, <item:minecraft:magma_block>]]);
