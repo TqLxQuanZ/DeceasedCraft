@@ -15,7 +15,6 @@ craftingTable.removeByName("car:engine_piston");
                                                       .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
 													  );
 
-
 // 3 Cylinder Engine
 craftingTable.removeByName("car:engine_3_cylinder");
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("engine_3_cylinder")

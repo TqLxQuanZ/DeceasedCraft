@@ -130,6 +130,7 @@ craftingTable.removeByName("car:fluid_pipe");
 craftingTable.removeByName("car:dynamo");
 craftingTable.removeByName("car:crank");
 
+JEI.hideIngredient(<item:car:iron_stick>);
 JEI.hideIngredient(<item:car:oilmill>);
 JEI.hideIngredient(<item:car:blastfurnace>);
 JEI.hideIngredient(<item:car:backmix_reactor>);
