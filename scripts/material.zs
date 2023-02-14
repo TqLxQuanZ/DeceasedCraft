@@ -26,7 +26,7 @@ JEI.hideIngredient(<item:create:electron_tube>);
 <recipetype:immersiveengineering:blueprint>.addRecipe("electron_tube", "components", [<tag:items:forge:glass>, <item:create:polished_rose_quartz>, <tag:items:forge:plates/nickel>, <tag:items:forge:wires/electrum>], <item:immersiveengineering:electron_tube> * 3);
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("vacuum_tube")
-                                                      .transitionTo(<item:create:incomplete_precision_mechanism>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_electron_tube>)
                                                       .require(<item:create:polished_rose_quartz>)
                                                       .loops(1)
                                                       .addOutput(<item:immersiveengineering:electron_tube> * 3, 1)
@@ -38,23 +38,23 @@ JEI.hideIngredient(<item:create:electron_tube>);
 // Electronic Component
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("electronic_component")
-                                                      .transitionTo(<item:create:incomplete_precision_mechanism>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_component_electronic>)
                                                       .require(<tag:items:forge:treated_wood_slab>)
                                                       .loops(1)
                                                       .addOutput(<item:immersiveengineering:component_electronic>, 1)
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:immersiveengineering:electron_tube>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:wires/electrum>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:immersiveengineering:electron_tube>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:dusts/redstone>))
 													  );
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("advanced_electronic_component")
-                                                      .transitionTo(<item:create:incomplete_precision_mechanism>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_component_electronic_adv>)
                                                       .require(<tag:items:forge:plates/plastic>)
                                                       .loops(1)
                                                       .addOutput(<item:immersiveengineering:component_electronic_adv>, 1)
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:immersiveengineering:electron_tube>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:immersiveengineering:electron_tube>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:wires/aluminum>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:immersiveengineering:electron_tube>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:immersiveengineering:electron_tube>))
 													  );
 
 Replacer.forMods(["create", "createaddition"]).suppressWarnings().replace(<item:create:electron_tube>, <item:immersiveengineering:component_electronic>).execute();
@@ -69,6 +69,156 @@ craftingTable.removeByName("create:crafting/kinetics/rotation_speed_controller")
 craftingTable.addShaped("rotation_speed_controller", <item:create:rotation_speed_controller>,
     [[<item:minecraft:air>, <item:create:precision_mechanism>, <item:minecraft:air>],
     [<item:create:brass_casing>, <item:immersiveengineering:component_electronic>, <item:create:brass_casing>]]);
+
+// Others
+
+// Train station from Create
+craftingTable.removeByName("create:crafting/kinetics/track_station");
+craftingTable.addShaped("track_station", <item:create:track_station>,
+    [[<item:create:railway_casing>, <item:minecraft:compass>, <item:create:railway_casing>],
+    [<item:create:railway_casing>, <item:create_sa:steam_engine>, <item:create:railway_casing>],
+    [<item:create:railway_casing>, <item:create_sa:heat_engine>, <item:create:railway_casing>]]);
+
+// Gas station fuels
+<tag:fluids:car:gas_station>.add(<fluid:immersivepetroleum:gasoline>);
+<tag:fluids:car:gas_station>.add(<fluid:immersivepetroleum:diesel>);
+<tag:fluids:car:gas_station>.add(<fluid:immersiveengineering:biodiesel>);
+
+// Plates should be only crafted via pressing
+craftingTable.removeByName("immersiveengineering:crafting/plate_iron_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_steel_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_silver_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_electrum_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_uranium_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_copper_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_lead_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_nickel_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_gold_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_constantan_hammering");
+craftingTable.removeByName("immersiveengineering:crafting/plate_aluminum_hammering");
+
+// Cars
+// Engine Piston
+craftingTable.removeByName("car:engine_piston");
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("engine_piston")
+                                                      .transitionTo(<item:contenttweaker:incomplete_engine_piston>)
+                                                      .require(<item:minecraft:piston>)
+                                                      .loops(1)
+                                                      .addOutput(<item:car:engine_piston>, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:rods/steel>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:rods/steel>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/steel>))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+													  );
+
+
+// 3 Cylinder Engine
+craftingTable.removeByName("car:engine_3_cylinder");
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("engine_3_cylinder")
+                                                      .transitionTo(<item:contenttweaker:incomplete_engine_3_cylinder>)
+                                                      .require(<item:immersiveengineering:storage_aluminum>)
+                                                      .loops(3)
+                                                      .addOutput(<item:car:engine_3_cylinder>, 1)
+                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:immersivepetroleum:lubricant> * 250))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:car:engine_piston>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:create:precision_mechanism>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/steel>))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+													  );
+
+// 6 Cylinder Engine
+craftingTable.removeByName("car:engine_6_cylinder");
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("engine_6_cylinder")
+                                                      .transitionTo(<item:contenttweaker:incomplete_engine_6_cylinder>)
+                                                      .require(<item:car:engine_3_cylinder>)
+                                                      .loops(3)
+                                                      .addOutput(<item:car:engine_6_cylinder>, 1)
+                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:immersivepetroleum:lubricant> * 250))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:car:engine_piston>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:create:precision_mechanism>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/steel>))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+													  );
+          
+// Truck Engine    
+craftingTable.removeByName("car:engine_truck");         
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("engine_truck")
+                                                      .transitionTo(<item:contenttweaker:incomplete_engine_truck>)
+                                                      .require(<item:car:engine_6_cylinder>)
+                                                      .loops(3)
+                                                      .addOutput(<item:car:engine_truck>, 1)
+                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:immersivepetroleum:lubricant> * 250))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:car:engine_piston>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:create:precision_mechanism>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/steel>))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+													  );                              
+
+// Wheels
+craftingTable.removeByName("car:wheel");
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("wheel")
+                                                      .transitionTo(<item:contenttweaker:incomplete_wheel>)
+                                                      .require(<item:immersiveengineering:storage_aluminum>)
+                                                      .loops(3)
+                                                      .addOutput(<item:car:wheel>, 1)
+                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:contenttweaker:rubber>))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+													  );
+
+// Big Wheels
+craftingTable.removeByName("car:big_wheel");
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("big_wheel")
+                                                      .transitionTo(<item:contenttweaker:incomplete_big_wheel>)
+                                                      .require(<item:car:wheel>)
+                                                      .loops(3)
+                                                      .addOutput(<item:car:big_wheel>, 1)
+                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:contenttweaker:rubber>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:ingots/aluminum>))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+													  );
+                                                      
+// Small tank
+craftingTable.removeByName("car:small_tank");
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("small_tank")
+                                                      .transitionTo(<item:contenttweaker:incomplete_small_tank>)
+                                                      .require(<item:immersiveengineering:storage_aluminum>)
+                                                      .loops(1)
+                                                      .addOutput(<item:car:small_tank>, 1)
+                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+													  );
+
+// Medium tank
+craftingTable.removeByName("car:medium_tank");
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("medium_tank")
+                                                      .transitionTo(<item:contenttweaker:incomplete_medium_tank>)
+                                                      .require(<item:car:small_tank>)
+                                                      .loops(1)
+                                                      .addOutput(<item:car:medium_tank>, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:immersiveengineering:storage_aluminum>))
+                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+													  );  
+// Large tank
+craftingTable.removeByName("car:large_tank");
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("large_tank")
+                                                      .transitionTo(<item:contenttweaker:incomplete_large_tank>)
+                                                      .require(<item:car:medium_tank>)
+                                                      .loops(1)
+                                                      .addOutput(<item:car:large_tank>, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:immersiveengineering:storage_aluminum>))
+                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+													  );
+
 
 // Crusher from Create
 // Copper
@@ -242,28 +392,3 @@ craftingTable.addShaped("rotation_speed_controller", <item:create:rotation_speed
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_uranium_ore", <item:immersiveengineering:ore_uranium>, [<item:minecraft:air>], 512, 100, [<item:immersiveengineering:ingot_uranium> * 2], <item:immersiveengineering:slag> );
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_deepslate_uranium_ore", <item:immersiveengineering:deepslate_ore_uranium>, [<item:minecraft:air>], 512, 200, [<item:immersiveengineering:ingot_uranium> * 3], <item:immersiveengineering:slag> );
 
-
-// Train station from Create
-craftingTable.removeByName("create:crafting/kinetics/track_station");
-craftingTable.addShaped("track_station", <item:create:track_station>,
-    [[<item:create:railway_casing>, <item:minecraft:compass>, <item:create:railway_casing>],
-    [<item:create:railway_casing>, <item:create_sa:steam_engine>, <item:create:railway_casing>],
-    [<item:create:railway_casing>, <item:create_sa:heat_engine>, <item:create:railway_casing>]]);
-
-// Gas station fuels
-<tag:fluids:car:gas_station>.add(<fluid:immersivepetroleum:gasoline>);
-<tag:fluids:car:gas_station>.add(<fluid:immersivepetroleum:diesel>);
-<tag:fluids:car:gas_station>.add(<fluid:immersiveengineering:biodiesel>);
-
-// Plates should be only crafted via pressing
-craftingTable.removeByName("immersiveengineering:crafting/plate_iron_hammering");
-craftingTable.removeByName("immersiveengineering:crafting/plate_steel_hammering");
-craftingTable.removeByName("immersiveengineering:crafting/plate_silver_hammering");
-craftingTable.removeByName("immersiveengineering:crafting/plate_electrum_hammering");
-craftingTable.removeByName("immersiveengineering:crafting/plate_uranium_hammering");
-craftingTable.removeByName("immersiveengineering:crafting/plate_copper_hammering");
-craftingTable.removeByName("immersiveengineering:crafting/plate_lead_hammering");
-craftingTable.removeByName("immersiveengineering:crafting/plate_nickel_hammering");
-craftingTable.removeByName("immersiveengineering:crafting/plate_gold_hammering");
-craftingTable.removeByName("immersiveengineering:crafting/plate_constantan_hammering");
-craftingTable.removeByName("immersiveengineering:crafting/plate_aluminum_hammering");

@@ -247,19 +247,19 @@ craftingTable.remove(<item:create_sa:copper_jetpack_chestplate>);
 <recipetype:create:mechanical_crafting>.addRecipe("t4_brass_jetpack_chestplate", <item:create_sa:brass_jetpack_chestplate>,
     [[<item:minecraft:air>, <item:create:shaft>, <item:create:belt_connector>, <item:create:shaft>, <item:minecraft:air>],
     [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:create_sa:brass_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
-    [<tag:items:forge:plates/brass>, <tag:items:forge:plates/brass>, <item:create_sa:steam_engine>, <tag:items:forge:plates/brass>, <tag:items:forge:plates/brass>],
+    [<tag:items:forge:plates/brass>, <item:immersiveengineering:component_electronic>, <item:create_sa:steam_engine>, <item:immersiveengineering:component_electronic>, <tag:items:forge:plates/brass>],
     [<item:minecraft:air>, <item:create:propeller>, <item:create:belt_connector>, <item:create:propeller>, <item:minecraft:air>]]);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t4_andesite_jetpack_chestplate", <item:create_sa:andesite_jetpack_chestplate>,
     [[<item:minecraft:air>, <item:create:shaft>, <item:create:belt_connector>, <item:create:shaft>, <item:minecraft:air>],
     [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:create_sa:zinc_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
-    [<tag:items:forge:plates/zinc>, <tag:items:forge:plates/zinc>, <item:create_sa:heat_engine>, <tag:items:forge:plates/zinc>, <tag:items:forge:plates/zinc>],
+    [<tag:items:forge:plates/zinc>, <item:immersiveengineering:component_electronic>, <item:create_sa:heat_engine>, <item:immersiveengineering:component_electronic>, <tag:items:forge:plates/zinc>],
     [<item:minecraft:air>, <item:create:propeller>, <item:create:belt_connector>, <item:create:propeller>, <item:minecraft:air>]]);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t4_copper_jetpack_chestplate", <item:create_sa:copper_jetpack_chestplate>,
     [[<item:minecraft:air>, <item:create:shaft>, <item:create:belt_connector>, <item:create:shaft>, <item:minecraft:air>],
     [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:create_sa:copper_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
-    [<tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>, <item:create_sa:heat_engine>, <tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>],
+    [<tag:items:forge:plates/copper>, <item:immersiveengineering:component_electronic>, <item:create_sa:heat_engine>, <item:immersiveengineering:component_electronic>, <tag:items:forge:plates/copper>],
     [<item:minecraft:air>, <item:create:propeller>, <item:create:belt_connector>, <item:create:propeller>, <item:minecraft:air>]]);
 
 #------------------ Tier 5 --------------------------
@@ -297,19 +297,19 @@ craftingTable.remove(<item:create_sa:copper_exoskeleton_chestplate>);
 <recipetype:create:mechanical_crafting>.addRecipe("t5_brass_exoskeleton_chestplate", <item:create_sa:brass_exoskeleton_chestplate>,
     [[<item:minecraft:air>, <item:create:shaft>, <item:create:belt_connector>, <item:create:shaft>, <item:minecraft:air>],
     [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:create_sa:brass_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
-    [<tag:items:forge:plates/brass>, <tag:items:forge:plates/brass>, <item:create_sa:steam_engine>, <tag:items:forge:plates/brass>, <tag:items:forge:plates/brass>],
+    [<tag:items:forge:plates/brass>, <item:immersiveengineering:component_electronic_adv>, <item:create_sa:steam_engine>, <item:immersiveengineering:component_electronic_adv>, <tag:items:forge:plates/brass>],
     [<item:minecraft:air>, <tag:items:forge:plates/plastic>, <item:create:belt_connector>, <tag:items:forge:plates/plastic>, <item:minecraft:air>]]);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t5_andesite_exoskeleton_chestplate", <item:create_sa:andesite_exoskeleton_chestplate>,
     [[<item:minecraft:air>, <item:create:shaft>, <item:create:belt_connector>, <item:create:shaft>, <item:minecraft:air>],
     [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:create_sa:zinc_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
-    [<tag:items:forge:plates/zinc>, <tag:items:forge:plates/zinc>, <item:create_sa:heat_engine>, <tag:items:forge:plates/zinc>, <tag:items:forge:plates/zinc>],
+    [<tag:items:forge:plates/zinc>, <item:immersiveengineering:component_electronic_adv>, <item:create_sa:heat_engine>, <item:immersiveengineering:component_electronic_adv>, <tag:items:forge:plates/zinc>],
     [<item:minecraft:air>, <tag:items:forge:plates/plastic>, <item:create:belt_connector>, <tag:items:forge:plates/plastic>, <item:minecraft:air>]]);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t5_copper_exoskeleton_chestplate", <item:create_sa:copper_exoskeleton_chestplate>,
     [[<item:minecraft:air>, <item:create:shaft>, <item:create:belt_connector>, <item:create:shaft>, <item:minecraft:air>],
     [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:create_sa:copper_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
-    [<tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>, <item:create_sa:hydraulic_engine>, <tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>],
+    [<tag:items:forge:plates/copper>, <item:immersiveengineering:component_electronic_adv>, <item:create_sa:hydraulic_engine>, <item:immersiveengineering:component_electronic_adv>, <tag:items:forge:plates/copper>],
     [<item:minecraft:air>, <tag:items:forge:plates/plastic>, <item:create:belt_connector>, <tag:items:forge:plates/plastic>, <item:minecraft:air>]]);
 
 #------------------ Tier 6 --------------------------
