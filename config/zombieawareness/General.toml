@@ -15,16 +15,16 @@
 	seeThroughWalls = false
 	#Effects how far monsters will sense scents from
 	#Range: > -2147483648
-	scentStrength = 60
+	scentStrength = 64
 	#Effects how far monsters will sense sound sources from
 	#Range: > -2147483648
-	soundStrength = 60
+	soundStrength = 128
 	#max rate of spawning sound sources in milliseconds
 	#Range: > -2147483648
 	frequentSoundThreshold = 1000
 	#Range of extra random speed to give a zombie for extra spawns and zombie duplications, eg: 0 = no boost, 1 = up to double speed (works for my extra spawned mobs only)
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	zombieRandSpeedBoost = 0.3
+	zombieRandSpeedBoost = 0.6
 	#The amount of delay in game ticks between processing mobs with enhanced AI, less is more frequent [performance sensitive]
 	#Range: > -2147483648
 	tickRateAILoop = 5
