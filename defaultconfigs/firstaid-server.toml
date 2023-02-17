@@ -89,7 +89,7 @@
 	["Internal Healing".bandage]
 		#The total heals this item does when applied. 1 heal = half a heart
 		#Range: 1 ~ 127
-		totalsHeals = 2
+		totalsHeals = 4
 		#The time it takes for a single heal to trigger. Total time this item is active = this * totalHeals
 		#Range: 1 ~ 32767
 		secondsPerHeal = 4
@@ -100,7 +100,7 @@
 	["Internal Healing".plaster]
 		#The total heals this item does when applied. 1 heal = half a heart
 		#Range: 1 ~ 127
-		totalsHeals = 1
+		totalsHeals = 2
 		#The time it takes for a single heal to trigger. Total time this item is active = this * totalHeals
 		#Range: 1 ~ 32767
 		secondsPerHeal = 4

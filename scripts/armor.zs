@@ -15,15 +15,6 @@ JEI.hideIngredient(<item:minecraft:golden_chestplate>);
 JEI.hideIngredient(<item:minecraft:golden_leggings>);
 JEI.hideIngredient(<item:minecraft:golden_boots>);
 
-craftingTable.remove(<item:savage_and_ravage:griefer_helmet>);
-craftingTable.remove(<item:savage_and_ravage:griefer_chestplate>);
-craftingTable.remove(<item:savage_and_ravage:griefer_leggings>);
-craftingTable.remove(<item:savage_and_ravage:griefer_boots>);
-JEI.hideIngredient(<item:savage_and_ravage:griefer_helmet>);
-JEI.hideIngredient(<item:savage_and_ravage:griefer_chestplate>);
-JEI.hideIngredient(<item:savage_and_ravage:griefer_leggings>);
-JEI.hideIngredient(<item:savage_and_ravage:griefer_boots>);
-
 craftingTable.remove(<item:survive:wool_hat>);
 craftingTable.remove(<item:survive:wool_jacket>);
 craftingTable.remove(<item:survive:wool_pants>);
