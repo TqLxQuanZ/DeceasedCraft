@@ -1,7 +1,7 @@
 [
 	{
 		"timeout": 120,
-		"biome": "biomesoplenty:wasteland",
+		"biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
 		"lackhelmet": "create:diving_helmet",
 		"potion": "minecraft:poison,120,2"
 	}

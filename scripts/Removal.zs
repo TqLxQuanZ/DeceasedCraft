@@ -11,6 +11,8 @@ JEI.hideMod("mapperbase");
 blastFurnace.remove(<item:immersiveengineering:ingot_aluminum>);
 furnace.remove(<item:immersiveengineering:ingot_aluminum>);
 
+
+// Mrcrayfish guns
 <recipetype:cgm:workbench>.remove(<item:additionalguns:bullet_heavy>);
 <recipetype:cgm:workbench>.remove(<item:additionalguns:bullet_long>);
 <recipetype:cgm:workbench>.remove(<item:additionalguns:bullet_medium>);
@@ -23,6 +25,26 @@ furnace.remove(<item:immersiveengineering:ingot_aluminum>);
 <recipetype:cgm:workbench>.remove(<item:additionalguns:casing_short>);
 <recipetype:cgm:workbench>.remove(<item:additionalguns:casing_small>);
 <recipetype:cgm:workbench>.remove(<item:additionalguns:casing_special>);
+<recipetype:cgm:workbench>.remove(<item:cgm:basic_bullet>);
+<recipetype:cgm:workbench>.remove(<item:cgm:advanced_bullet>);
+<recipetype:cgm:workbench>.remove(<item:cgm:shell>);
+<recipetype:cgm:workbench>.remove(<item:cgm:missile>);
+<recipetype:cgm:workbench>.remove(<item:cgm:grenade>);
+<recipetype:cgm:workbench>.remove(<item:cgm:stun_grenade>);
+<recipetype:cgm:workbench>.remove(<item:cgm:pistol>);
+<recipetype:cgm:workbench>.remove(<item:cgm:rifle>);
+<recipetype:cgm:workbench>.remove(<item:cgm:shotgun>);
+<recipetype:cgm:workbench>.remove(<item:cgm:mini_gun>);
+<recipetype:cgm:workbench>.remove(<item:cgm:assault_rifle>);
+<recipetype:cgm:workbench>.remove(<item:cgm:machine_pistol>);
+<recipetype:cgm:workbench>.remove(<item:cgm:heavy_rifle>);
+
+
+// Turrets
+<recipetype:immersiveengineering:blueprint>.removeByName("immersiveengineering:blueprint/bullet_homing");
+<recipetype:immersiveengineering:blueprint>.removeByName("immersiveengineering:blueprint/bullet_wolfpack");
+JEI.hideIngredient(<item:immersiveengineering:homing>);
+JEI.hideIngredient(<item:immersiveengineering:wolfpack>);
 
 // Remove default paper crafting
 craftingTable.removeByName("minecraft:paper");

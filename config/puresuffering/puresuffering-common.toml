@@ -15,19 +15,19 @@
 		dayDifficultyIncreaseDelay = 100
 		#How many days should pass when the Night Invasion Difficulty increases?
 		#Range: > 0
-		nightDifficultyIncreaseDelay = 100
+		nightDifficultyIncreaseDelay = 40
 		#How many days should pass when the Fixed Invasion Difficulty increases?
 		#Range: > 0
 		fixedDifficultyIncreaseDelay = 100
 		#Max Day Invasions that can occur.
 		#Range: > 0
-		maxDayInvasions = 5
+		maxDayInvasions = 1
 		#Max Night Invasions that can occur.
 		#Range: > 0
-		maxNightInvasions = 5
+		maxNightInvasions = 9999999
 		#Max Fixed Invasions that can occur.
 		#Range: > 0
-		maxFixedInvasions = 5
+		maxFixedInvasions = 1
 		#Should a thread be added for every dimension's Invasion Spawner instead of just 1 for all?
 		#NOTE: This can boost performance on multi-threaded CPUs!
 		multiThreadedInvasions = false
@@ -37,40 +37,40 @@
 		tieredInvasions = true
 		#List of Invasions that can't occur.
 		#Ex: 'puresuffering:solar_eclipse', 'puresuffering:phantom_zone' (must be surrounded by quotation marks)
-		invasionBlacklist = []
+		invasionBlacklist = ['puresuffering:arachnophobia', 'puresuffering:mega_raid', 'puresuffering:pest', 'puresuffering:phantom_zone', 'puresuffering:undead', 'puresuffering:lunar_eclipse', 'puresuffering:super_storm']
 		#List of Invasions that can be primary invasions.
 		#NOTE: The Invasion's Priority cannot be labeled as Secondary Only!
 		#Ex: 'puresuffering:solar_eclipse', 'puresuffering:phantom_zone' (must be surrounded by quotation marks)
-		primaryWhitelist = []
+		primaryWhitelist = ['puresuffering:zombie']
 
 	[Gameplay.Balancing]
 		#How often should Day Invasions occur.
 		#Range: 1 ~ 100
-		dayInvasionRarity = 0
+		dayInvasionRarity = 1
 		#How often should Night Invasions occur.
 		#Range: 1 ~ 100
-		nightInvasionRarity = 5
+		nightInvasionRarity = 7
 		#How often should Fixed Invasions occur.
 		#Range: 1 ~ 100
-		fixedInvasionRarity = 5
+		fixedInvasionRarity = 1
 		#Can Day Invasions have a random chance to be canceled?
 		canDayInvasionsBeCanceled = true
 		#Can Night Invasions have a random chance to be canceled?
-		canNightInvasionsBeCanceled = true
+		canNightInvasionsBeCanceled = false
 		#Can Fixed Invasions have a random chance to be canceled?
 		canFixedInvasionsBeCanceled = true
 		#Chance for Day Invasions to be canceled.
 		#NOTE: Multiplied by Day Difficulty Increase Delay.
 		#Range: 0.0 ~ 10.0
-		dayCancelChanceMultiplier = 2.5
+		dayCancelChanceMultiplier = 10.0
 		#Chance for Night Invasions to be canceled.
 		#NOTE: Multiplied by Night Difficulty Increase Delay.
 		#Range: 0.0 ~ 10.0
-		nightCancelChanceMultiplier = 2.5
+		nightCancelChanceMultiplier = 0.0
 		#Chance for Fixed Invasions to be canceled.
 		#NOTE: Multiplied by Fixed Difficulty Increase Delay.
 		#Range: 0.0 ~ 10.0
-		fixedCancelChanceMultiplier = 2.5
+		fixedCancelChanceMultiplier = 10.0
 
 	[Gameplay.Modifications]
 		#Should neutral invasion mobs agro the player when spawned?

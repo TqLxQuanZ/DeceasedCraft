@@ -29,6 +29,41 @@ val rubber = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
     .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("rubber");
+    
+val incomplete_bullet = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_bullet");
+    
+val mold_bullet_casing_small = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("mold_bullet_casing_small");
+    
+val mold_bullet_casing_short = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("mold_bullet_casing_short");
+
+val mold_bullet_casing_medium = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("mold_bullet_casing_medium");
+
+val mold_bullet_casing_long = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("mold_bullet_casing_long");
+
+val mold_bullet_casing_heavy = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("mold_bullet_casing_heavy");
+
+val mold_bullet_casing_special = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("mold_bullet_casing_special");
 
 // Cars
 val incomplete_engine_piston = <factory:item>.typed<Basic>()
