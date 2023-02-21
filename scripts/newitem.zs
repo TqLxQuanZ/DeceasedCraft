@@ -30,6 +30,26 @@ val rubber = <factory:item>.typed<Basic>()
     .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("rubber");
     
+val silica_dust = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("silica_dust");
+    
+val mold_basic_processor = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("mold_basic_processor");
+
+val mold_improved_processor = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("mold_improved_processor");
+    
+val mold_advanced_processor = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("mold_advanced_processor");
+
 val incomplete_bullet = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
     .rarity(<constant:minecraft:item/rarity:common>)

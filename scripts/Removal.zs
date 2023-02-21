@@ -11,6 +11,16 @@ JEI.hideMod("mapperbase");
 blastFurnace.remove(<item:immersiveengineering:ingot_aluminum>);
 furnace.remove(<item:immersiveengineering:ingot_aluminum>);
 
+// Silicon
+furnace.removeByName("refinedstorage:silicon");
+
+// Processor
+craftingTable.removeByName("refinedstorage:raw_basic_processor");
+craftingTable.removeByName("refinedstorage:raw_improved_processor");    
+craftingTable.removeByName("refinedstorage:raw_advanced_processor");      
+furnace.removeByName("refinedstorage:basic_processor");
+furnace.removeByName("refinedstorage:improved_processor");
+furnace.removeByName("refinedstorage:advanced_processor");
 
 // Mrcrayfish guns
 <recipetype:cgm:workbench>.remove(<item:additionalguns:bullet_heavy>);
