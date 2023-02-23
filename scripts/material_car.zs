@@ -3,6 +3,21 @@ import mods.jei.JEI;
 
 // Cars
 // Engine Piston
+craftingTable.removeByName("car:battery");
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("battery")
+                                                      .transitionTo(<item:contenttweaker:incomplete_battery>)
+                                                      .require(<item:immersiveengineering:storage_lead>)
+                                                      .loops(2)
+                                                      .addOutput(<item:car:battery>, 1)
+                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:immersiveengineering:redstone_acid> * 500))
+                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:water> * 500))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:wires/electrum>))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+													  );
+
+// Cars
+// Engine Piston
 craftingTable.removeByName("car:engine_piston");
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("engine_piston")
                                                       .transitionTo(<item:contenttweaker:incomplete_engine_piston>)

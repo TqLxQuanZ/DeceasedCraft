@@ -263,22 +263,22 @@ craftingTable.remove(<item:minecraft:diamond_leggings>);
 craftingTable.remove(<item:minecraft:diamond_boots>);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t5_diamond_helmet", <item:minecraft:diamond_helmet>,
-    [[<tag:items:forge:wires/steel>, <item:plane:diamond_reinforced_iron>, <tag:items:forge:wires/steel>],
-    [<item:plane:diamond_reinforced_iron>, <item:immersiveengineering:armor_steel_head>.anyDamage(), <item:plane:diamond_reinforced_iron>]]);
+    [[<tag:items:forge:wires/steel>, <item:createaddition:diamond_grit>, <tag:items:forge:wires/steel>],
+    [<item:createaddition:diamond_grit>, <item:immersiveengineering:armor_steel_head>.anyDamage(), <item:createaddition:diamond_grit>]]);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t5_diamond_chestplate", <item:minecraft:diamond_chestplate>,
-    [[<item:plane:diamond_reinforced_iron>, <item:minecraft:air>, <item:plane:diamond_reinforced_iron>],
+    [[<item:createaddition:diamond_grit>, <item:minecraft:air>, <item:createaddition:diamond_grit>],
     [<tag:items:forge:wires/steel>, <item:immersiveengineering:armor_steel_chest>.anyDamage(), <tag:items:forge:wires/steel>],
-    [<item:plane:diamond_reinforced_iron>, <item:plane:diamond_reinforced_iron>, <item:plane:diamond_reinforced_iron>]]);
+    [<item:createaddition:diamond_grit>, <item:createaddition:diamond_grit>, <item:createaddition:diamond_grit>]]);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t5_diamond_leggings", <item:minecraft:diamond_leggings>,
-    [[<tag:items:forge:wires/steel>, <item:plane:diamond_reinforced_iron>, <tag:items:forge:wires/steel>],
-    [<item:plane:diamond_reinforced_iron>, <item:immersiveengineering:armor_steel_legs>.anyDamage(), <item:plane:diamond_reinforced_iron>],
-    [<item:plane:diamond_reinforced_iron>, <item:minecraft:air>, <item:plane:diamond_reinforced_iron>]]);
+    [[<tag:items:forge:wires/steel>, <item:createaddition:diamond_grit>, <tag:items:forge:wires/steel>],
+    [<item:createaddition:diamond_grit>, <item:immersiveengineering:armor_steel_legs>.anyDamage(), <item:createaddition:diamond_grit>],
+    [<item:createaddition:diamond_grit>, <item:minecraft:air>, <item:createaddition:diamond_grit>]]);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t5_diamond_boots", <item:minecraft:diamond_boots>,
-    [[<item:plane:diamond_reinforced_iron>, <item:immersiveengineering:armor_steel_feet>.anyDamage(), <item:plane:diamond_reinforced_iron>],
-    [<item:plane:diamond_reinforced_iron>, <item:minecraft:air>, <item:plane:diamond_reinforced_iron>]]);
+    [[<item:createaddition:diamond_grit>, <item:immersiveengineering:armor_steel_feet>.anyDamage(), <item:createaddition:diamond_grit>],
+    [<item:createaddition:diamond_grit>, <item:minecraft:air>, <item:createaddition:diamond_grit>]]);
 
 <recipetype:create:mechanical_crafting>.remove(<item:create_sa:brass_exoskeleton_chestplate>);
 <recipetype:create:mechanical_crafting>.remove(<item:create_sa:andesite_exoskeleton_chestplate>);

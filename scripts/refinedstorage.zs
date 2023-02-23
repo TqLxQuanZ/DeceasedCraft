@@ -5,7 +5,7 @@ import mods.jei.JEI;
 import mods.create.MixingManager;
 
 // Cable
-craftingTable.addShaped("cable", <item:refinedstorage:cable>,
+craftingTable.addShaped("cable", <item:refinedstorage:cable> * 16,
     [[<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>],
     [<tag:items:forge:glass>, <item:createaddition:copper_spool>, <tag:items:forge:glass>],
 	[<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>]]);
@@ -44,7 +44,7 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 
 // Processors
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("basic_processor")
-                                                      .transitionTo(<item:contenttweaker:incomplete_electron_tube>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
                                                       .require(<item:immersiveengineering:circuit_board>)
                                                       .loops(1)
                                                       .addOutput(<item:refinedstorage:basic_processor>, 1)
@@ -55,7 +55,7 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 													  );
                                               
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("improved_processor")
-                                                      .transitionTo(<item:contenttweaker:incomplete_electron_tube>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
                                                       .require(<item:immersiveengineering:circuit_board>)
                                                       .loops(1)
                                                       .addOutput(<item:refinedstorage:improved_processor>, 1)
@@ -66,7 +66,7 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 													  );
                                                     
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("advanced_processor")
-                                                      .transitionTo(<item:contenttweaker:incomplete_electron_tube>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
                                                       .require(<item:immersiveengineering:circuit_board>)
                                                       .loops(1)
                                                       .addOutput(<item:refinedstorage:advanced_processor>, 1)
@@ -78,9 +78,9 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("1k_storage_part")
-                                                      .transitionTo(<item:contenttweaker:incomplete_electron_tube>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
                                                       .require(<item:immersiveengineering:circuit_board>)
-                                                      .loops(4)
+                                                      .loops(3)
                                                       .addOutput(<item:refinedstorage:1k_storage_part>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/aluminum>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:refinedstorage:silicon>))
@@ -90,9 +90,9 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 													  );
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("4k_storage_part")
-                                                      .transitionTo(<item:contenttweaker:incomplete_electron_tube>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
                                                       .require(<item:immersiveengineering:circuit_board>)
-                                                      .loops(4)
+                                                      .loops(3)
                                                       .addOutput(<item:refinedstorage:4k_storage_part>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/aluminum>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:refinedstorage:1k_storage_part>))
@@ -103,9 +103,9 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 													  
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("16k_storage_part")
-                                                      .transitionTo(<item:contenttweaker:incomplete_electron_tube>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
                                                       .require(<item:immersiveengineering:circuit_board>)
-                                                      .loops(4)
+                                                      .loops(3)
                                                       .addOutput(<item:refinedstorage:16k_storage_part>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/aluminum>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:refinedstorage:4k_storage_part>))
@@ -116,9 +116,9 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("64k_storage_part")
-                                                      .transitionTo(<item:contenttweaker:incomplete_electron_tube>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
                                                       .require(<item:immersiveengineering:circuit_board>)
-                                                      .loops(4)
+                                                      .loops(3)
                                                       .addOutput(<item:refinedstorage:64k_storage_part>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/aluminum>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:refinedstorage:16k_storage_part>))
@@ -129,9 +129,9 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("64k_fluid_storage_part")
-                                                      .transitionTo(<item:contenttweaker:incomplete_electron_tube>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
                                                       .require(<item:immersiveengineering:circuit_board>)
-                                                      .loops(4)
+                                                      .loops(3)
                                                       .addOutput(<item:refinedstorage:64k_fluid_storage_part>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/aluminum>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:refinedstorage:silicon>))
@@ -142,9 +142,9 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 													  );
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("256k_fluid_storage_part")
-                                                      .transitionTo(<item:contenttweaker:incomplete_electron_tube>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
                                                       .require(<item:immersiveengineering:circuit_board>)
-                                                      .loops(4)
+                                                      .loops(3)
                                                       .addOutput(<item:refinedstorage:256k_fluid_storage_part>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/aluminum>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:refinedstorage:64k_fluid_storage_part>))
@@ -155,9 +155,9 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 													  
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("1024k_fluid_storage_part")
-                                                      .transitionTo(<item:contenttweaker:incomplete_electron_tube>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
                                                       .require(<item:immersiveengineering:circuit_board>)
-                                                      .loops(4)
+                                                      .loops(3)
                                                       .addOutput(<item:refinedstorage:1024k_fluid_storage_part>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/aluminum>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:refinedstorage:256k_fluid_storage_part>))
@@ -168,9 +168,9 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("4096k_fluid_storage_part")
-                                                      .transitionTo(<item:contenttweaker:incomplete_electron_tube>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
                                                       .require(<item:immersiveengineering:circuit_board>)
-                                                      .loops(4)
+                                                      .loops(3)
                                                       .addOutput(<item:refinedstorage:4096k_fluid_storage_part>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/aluminum>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:refinedstorage:1024k_fluid_storage_part>))

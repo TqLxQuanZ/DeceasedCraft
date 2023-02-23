@@ -9,10 +9,8 @@ import crafttweaker.api.recipe.Replacer;
 // Coke dust
 <recipetype:create:milling>.addRecipe("coke_dust", [<item:immersiveengineering:dust_coke>], <item:immersiveengineering:coal_coke>, 512);
 
-// Diamond reinforced iron
-craftingTable.remove(<item:plane:diamond_reinforced_iron>);
-<recipetype:create:mixing>.addRecipe("mixing_diamond_reinforced_iron", <constant:create:heat_condition:heated>, [<item:plane:diamond_reinforced_iron>], [<item:minecraft:diamond>, <tag:items:forge:ingots/iron>], [], 256);
-<recipetype:immersiveengineering:alloy>.addRecipe("alloy_diamond_reinforced_iron", <item:minecraft:iron_ingot>, <tag:items:forge:gems/diamond>, 200, <item:plane:diamond_reinforced_iron>);
+// Diamond Grit
+<recipetype:immersiveengineering:crusher>.addRecipe("diamond_grit", <tag:items:forge:gems/diamond>, 850, <item:createaddition:diamond_grit> );
 
 // Electron Tube (Vacuum Tube)
 craftingTable.removeByName("create:crafting/materials/electron_tube");

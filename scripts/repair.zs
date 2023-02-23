@@ -18,7 +18,7 @@ val DiamondSet = [
     <item:minecraft:diamond_sword>,
     <item:minecraft:diamond_shovel>
 ] as IItemStack[];
-val DiamondIngredient = <item:plane:diamond_reinforced_iron>;
+val DiamondIngredient = <item:createaddition:diamond_grit>;
 val DisabledDiamondIngredient = <item:minecraft:diamond>;
 
 val NetheriteSet = [

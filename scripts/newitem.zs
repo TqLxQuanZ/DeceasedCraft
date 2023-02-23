@@ -30,11 +30,24 @@ val rubber = <factory:item>.typed<Basic>()
     .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("rubber");
     
+// refinedstorage
+
 val silica_dust = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
     .rarity(<constant:minecraft:item/rarity:common>)
     .build("silica_dust");
-    
+
+val incomplete_processor = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_processor");
+
+val incomplete_storage_part = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_storage_part");
+
+// Molds
 val mold_basic_processor = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
     .rarity(<constant:minecraft:item/rarity:common>)
@@ -86,6 +99,12 @@ val mold_bullet_casing_special = <factory:item>.typed<Basic>()
     .build("mold_bullet_casing_special");
 
 // Cars
+val incomplete_battery = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+	.durability(10)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_battery");
+
 val incomplete_engine_piston = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
 	.durability(4)
