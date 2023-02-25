@@ -6,6 +6,13 @@ import contenttweaker.object.vanilla.property.StandardItemProperties;
 val deceasedCreativeTab = <factory:creative_tab>.create("deceasedTab", <item:minecraft:zombie_head>);
 val deceasedTab = <tab:deceasedTab>;
 
+// Misc
+val incomplete_small_redstone_battery = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+	.durability(5)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_small_redstone_battery");
+
 // IE
 val incomplete_electron_tube = <factory:item>.typed<Basic>()
     .tab(deceasedTab)

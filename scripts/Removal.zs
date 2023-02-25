@@ -3,6 +3,40 @@ import crafttweaker.api.recipe.BlastFurnaceRecipeManager;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 import mods.jei.JEI;
 
+// Marbled Arsenal
+furnace.remove(<item:marbleds_arsenal:steel>);
+JEI.hideIngredient(<item:marbleds_arsenal:steel>);
+
+craftingTable.remove(<item:marbleds_arsenal:cloth>);
+JEI.hideIngredient(<item:marbleds_arsenal:cloth>);
+
+craftingTable.remove(<item:marbleds_arsenal:barrel>);
+JEI.hideIngredient(<item:marbleds_arsenal:barrel>);
+
+craftingTable.remove(<item:marbleds_arsenal:tire_stack>);
+JEI.hideIngredient(<item:marbleds_arsenal:tire_stack>);
+
+craftingTable.remove(<item:marbleds_arsenal:nails>);
+JEI.hideIngredient(<item:marbleds_arsenal:nails>);
+
+craftingTable.remove(<item:marbleds_arsenal:wood_planks>);
+JEI.hideIngredient(<item:marbleds_arsenal:wood_planks>);
+
+craftingTable.remove(<item:marbleds_arsenal:barbed_baseball_hat>);
+JEI.hideIngredient(<item:marbleds_arsenal:barbed_baseball_hat>);
+
+craftingTable.remove(<item:marbleds_arsenal:riot_shield>);
+JEI.hideIngredient(<item:marbleds_arsenal:riot_shield>);
+
+craftingTable.remove(<item:marbleds_arsenal:riot_armor_helmet>);
+JEI.hideIngredient(<item:marbleds_arsenal:riot_armor_helmet>);
+craftingTable.remove(<item:marbleds_arsenal:riot_armor_chestplate>);
+JEI.hideIngredient(<item:marbleds_arsenal:riot_armor_chestplate>);
+craftingTable.remove(<item:marbleds_arsenal:riot_armor_leggings>);
+JEI.hideIngredient(<item:marbleds_arsenal:riot_armor_leggings>);
+craftingTable.remove(<item:marbleds_arsenal:riot_armor_boots>);
+JEI.hideIngredient(<item:marbleds_arsenal:riot_armor_boots>);
+
 // Create Addition extra items
 // Rods
 <recipetype:createaddition:rolling>.remove(<item:createaddition:iron_rod>);

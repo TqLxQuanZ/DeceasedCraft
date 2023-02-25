@@ -1,0 +1,85 @@
+
+["Horde Event"]
+	#Set to false to completely disable the horde event and anything relating to it.
+	enableHordeEvent = true
+	#Amount of mobs to spawn per wave.
+	spawnAmount = 25
+	#Multiplier by which the spawn amount increases by each time the event naturally spawns. (Set to 1 to disable scaling.)
+	hordeSpawnMultiplier = 1.05
+	#Time in ticks the event lasts for
+	hordeSpawnDuration = 6000
+	#Time in ticks between spawns for the horde spawn event.
+	hordeSpawnInterval = 1000
+	#What time of day does the horde event start? eg 18000 is midnight with default day length.
+	hordeStartTime = 18000
+	#Amount of days between horde spawns
+	hordeSpawnDays = 10
+	#Amount of days a horde event can be randomly extended by
+	hordeSpawnVariation = 0
+	#Max cap for the number of entities that can exist from the horde at once.
+	hordeSpawnMax = 150
+	#Length of a day (use only if you have another day that changes the length of the day/night cycle) Default is 24000
+	dayLength = 24000
+	#Set to true to enable the horde spawning on the first day. (Game day 0)
+	spawnFirstDay = false
+	#Set to false to disable the use of beds during a horde event.
+	canSleepDuringHorde = false
+	#How much should the size of each horde scale down by when multiple players are near each other?
+	hordeMultiplayerScaling = 0.8
+	#Do the daylight cycle (and active horde events get paused while there are no players online.).
+	pauseEventServer = true
+	#A list of entities to spawn followed by the spawn weight then the day they first appear on then the last day. Higher weight is more common. Leave the last value to 0 to set no max day, entities can have nbt attached to them.(e.g. minecraft:zombie{ActiveEffects:[{Id:12,Amplifier:0,Duration:10000}]}-20-0-0)
+	spawnList = ["minecraft:zombie-30-0-20", "minecraft:zombie_villager-3-0-20", "minecraft:husk-30-30-0", "minecraft:drowned{HandItems:[{id:trident,Count:1}]}-1-30-0"]
+
+[Infection]
+	#Set to false to completely disable mob infection and anything related to it.
+	enableMobInfection = true
+	#Can villagers be infected.
+	infectVillagers = true
+	#Chance out of 100 for a villager to get infected
+	villagerInfectChance = 85
+	#Can players be infected.
+	infectPlayers = true
+	#Whether later levels of infected should slightly slow movement speed? 
+	infectSlowness = true
+	#Whether later levels of infected should depleet hunger quicker? 
+	infectHunger = true
+	#Chance out of 100 for a player to get infected
+	playerInfectChance = 75
+	#How long do each of the 4 effect phases last for before the next phase is activated?
+	ticksForEffectStage = 6000
+	#Mobs in this list can cause the infection effect.)
+	infectionEntities = ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:drowned", "minecraft:zombie_horse", "hordes:zombie_player", "hordes:drowned_player"]
+	#A list of items which can cure infection when 'consumed' or used on an entity can accept nbt tags. eg.minecraft:golden_apple, minecraft:potion{Potion: "minecraft:strong_regeneration"}
+	cureItemList = ["minecraft:golden_apple", "minecraft:enchanted_golden_apple"]
+	#A list of entities that can be infected, followed by the chance out of 100 to infect, then the entity to convert them to, entities can have nbt attached to them.(e.g. minecraft:villager-85-minecraft:zombie_villager{ActiveEffects:[{Id:12,Amplifier:0,Duration:10000}]}), note: players and villagers have special code accociated with them, and should not be in this list
+	customConversionList = ["minecraft:horse-65-minecraft:zombie_horse"]
+	#Do entities on the infectionEntities list automatically target entities on the infectionConversionList
+	infectionEntitiesAggroConversions = true
+
+[Misc]
+	#Whether to use zombie players as graves all the time. (Even if infection is disabled)
+	zombieGraves = false
+	#Whether to always spawn a drowned if a player dies underwater. (Even if infection or zombieGraves are disabled)
+	drownedGraves = false
+	#Whether to spawn drowned players when a player dies underwater instead of a zombie player. (Whether the zombie is spawned from infection or zombieGraves being true)
+	drownedPlayers = true
+	#Whether zombie players and drowned players should be immune to fire damage
+	zombiePlayersFireImmune = false
+	#Whether zombie players and drowned players burn in sunlight.
+	zombiePlayersBurn = false
+	#Whether zombies and drowneds burn in sunlight.
+	zombiesBurn = false
+	#Whether skeletons and strays burn in sunlight.
+	skeletonsBurn = false
+	#Whether zombie villagers have vanilla curing mechanics or not
+	zombieVillagersCanBeCured = false
+	#Whether zombie horses are aggressive or not.
+	aggressiveZombieHorses = true
+	#Whether zombie horses burn in sunlight.
+	zombieHorsesBurn = false
+	#Whether skeleton horses burn in sunlight.
+	skeletonHorsesBurn = false
+	#Whether unmounted horses are scared of zombies.
+	zombiesScareHorses = true
+

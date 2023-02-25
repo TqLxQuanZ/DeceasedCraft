@@ -6,34 +6,34 @@
                 "minecraft:skeleton",
                 "minecraft:witch",
                 "minecraft:stray",
-                "minecraft:phantom",
-                "savage_and_ravage:skeleton_villager"],
+                "minecraft:phantom"],
         "result": "deny"
     },
     {
-      "mob": [
-        "zombiemobs:zombie_bear",
-        "zombiemobs:zombie_cat",
-        "zombiemobs:zombie_chicken",
-        "zombiemobs:zombie_cow",
-        "zombiemobs:zombie_dolphin",
-        "zombiemobs:zombie_donkey",
-        "zombiemobs:zombie_fox",
-        "zombiemobs:zombie_goat",
-        "zombiemobs:zombie_horsee",
-        "zombiemobs:zombie_llama",
-        "zombiemobs:zombie_mooshroom",
-        "zombiemobs:zombie_mule",
-        "zombiemobs:zombie_ocelot",
-        "zombiemobs:zombie_panda",
-        "zombiemobs:zombie_pig",
-        "zombiemobs:zombie_sheep",
-        "zombiemobs:zombie_squid",
-        "zombiemobs:zombie_turtle",
-        "zombiemobs:zombie_wolf"],
+      "mod": "zombiemobs",
       "dimension": "minecraft:overworld",
       "minlight": 8,
       "maxlight": 15,
+      "result": "deny"
+    },
+    {
+      "mod": "zombiemobs",
+      "dimension": "minecraft:overworld",
+      "mincount": {
+        "mod": "zombiemobs",
+        "amount": 10,
+        "perchunk": true
+      },
+      "result": "deny"
+    },
+    {
+      "mod": "rottencreatures",
+      "dimension": "minecraft:overworld",
+      "mincount": {
+        "mod": "rottencreatures",
+        "amount": 15,
+        "perchunk": true
+      },
       "result": "deny"
     },
     {
@@ -44,7 +44,6 @@
         "maxtime": 24000,
         "minlight": 0,
         "maxlight": 7,
-        "incity": true,
         "seesky": true,
         "result": "allow"
     },
@@ -53,6 +52,16 @@
         "dimension": "minecraft:overworld",
         "minlight": 8,
         "maxlight": 15,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:zombie",
+        "dimension": "minecraft:overworld",
+        "mincount": {
+          "mob": "minecraft:zombie",
+          "amount": 30,
+          "perchunk": true
+        },
         "result": "deny"
     },
     {
@@ -69,6 +78,29 @@
     {
       "mob": "minecraft:blaze",
       "dimension": "minecraft:overworld",
+      "mincount": {
+        "mob": "minecraft:blaze",
+        "amount": 20,
+        "perchunk": true
+      },
+      "result": "deny"
+    },
+    {
+      "mob": "minecraft:blaze",
+      "dimension": "minecraft:overworld",
+      "result": "deny"
+    },
+    {
+      "mob": "minecraft:spider",
+      "dimension": "minecraft:overworld", 
+      "seesky": true,
+      "result": "deny"
+    },
+    {
+      "mob": "minecraft:spider",
+      "dimension": "minecraft:overworld", 
+      "minlight": 8,
+      "maxlight": 15,
       "result": "deny"
     }
 ]

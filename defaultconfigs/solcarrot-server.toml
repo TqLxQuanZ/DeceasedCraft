@@ -11,7 +11,7 @@
 
 [filtering]
 	#Foods in this list won't affect the player's health nor show up in the food book.
-	blacklist = []
+	blacklist = ["marbleds_arsenal:canned_beans", "marbleds_arsenal:canned_fish", "marbleds_arsenal:instant_health_syringe", "marbleds_arsenal:resistance_syringe", "marbleds_arsenal:nightvision_syringe"]
 	#When this list contains anything, the blacklist is ignored and instead only foods from here count.
 	whitelist = []
 	#The minimum hunger value foods need to provide in order to count for milestones, in half drumsticks.
@@ -20,7 +20,7 @@
 
 [miscellaneous]
 	#Whether or not to reset the food list on death, effectively losing all bonus hearts.
-	resetOnDeath = false
+	resetOnDeath = true
 	#If true, eating foods outside of survival mode (e.g. creative/adventure) is not tracked and thus does not contribute towards progression.
 	limitProgressionToSurvival = false
 

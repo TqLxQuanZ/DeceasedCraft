@@ -30,6 +30,17 @@ val NetheriteSet = [
 val NetheriteIngredient = <item:minecraft:netherite_scrap>;
 val DisabledNetheriteIngredient = <item:minecraft:netherite_ingot>;
 
+val SteelSet = [
+    <item:marbleds_arsenal:crowbar>,
+    <item:marbleds_arsenal:fire_axe>,
+    <item:marbleds_arsenal:police_baton>,
+    <item:marbleds_arsenal:machete>,
+    <item:marbleds_arsenal:pipe>,
+    <item:marbleds_arsenal:dagger>,
+    <item:marbleds_arsenal:frying_pan>
+] as IItemStack[];
+val SteelIngredient = <item:immersiveengineering:ingot_steel>;
+
 val AllEquipments = [
 	PolishedQuartzSet,
 	DiamondSet,
@@ -77,6 +88,20 @@ CTEventManager.register<crafttweaker.api.event.AnvilUpdateEvent>((event) => {
                 if DisabledIngredients[i].matches(event.right) {
                     event.cancel();
                 }
+            }
+        }
+    }
+});
+
+// Steels
+CTEventManager.register<crafttweaker.api.event.AnvilUpdateEvent>((event) => {
+    for Item in SteelSet
+    {
+        if Item.anyDamage().matches(event.left) {
+            if SteelIngredient.matches(event.right) {
+                event.levelCost = 1;
+                event.materialCost = event.right.amount > 1 ? 2 : event.right.amount;
+                event.output = event.left.withDamage(event.left.damage - (event.materialCost * (event.left.maxDamage / 2)));
             }
         }
     }

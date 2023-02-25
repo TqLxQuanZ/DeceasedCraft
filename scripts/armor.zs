@@ -51,12 +51,40 @@ JEI.hideIngredient(<item:create_sa:slime_helmet>);
 craftingTable.remove(<item:create_sa:slime_boots>);
 JEI.hideIngredient(<item:create_sa:slime_boots>);
 
+// Special
+
 // Diving Helmet
 craftingTable.remove(<item:create:diving_helmet>);
 <recipetype:create:mechanical_crafting>.addRecipe("diving_helmet", <item:create:diving_helmet>,
     [[<tag:items:forge:plates/copper>, <item:create:fluid_pipe>, <item:survive:charcoal_filter>, <item:create:fluid_pipe>, <tag:items:forge:plates/copper>],
     [<tag:items:forge:plates/copper>, <item:create:cogwheel>, <item:create_sa:hydraulic_engine>, <item:create:cogwheel>, <tag:items:forge:plates/copper>],
     [<tag:items:forge:plates/copper>, <item:minecraft:air>, <tag:items:forge:glass>, <item:minecraft:air>, <tag:items:forge:plates/copper>]]);
+
+// Gas Mask
+<recipetype:create:mechanical_crafting>.addRecipe("gas_mask_helmet", <item:marbleds_arsenal:gas_mask_helmet>,
+    [[<item:minecraft:air>, <tag:items:forge:plates/plastic>, <item:survive:charcoal_filter>, <tag:items:forge:plates/plastic>, <item:minecraft:air>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/lead>, <tag:items:forge:glass>, <tag:items:forge:plates/lead>, <tag:items:forge:plates/plastic>],
+    [<item:contenttweaker:rubber>, <tag:items:forge:plates/lead>, <item:minecraft:air>, <tag:items:forge:plates/lead>, <item:contenttweaker:rubber>]]);
+
+// Hazmat Suit
+<recipetype:create:mechanical_crafting>.addRecipe("hazmat_helmet", <item:marbleds_arsenal:hazmat_suit_helmet>,
+    [[<item:contenttweaker:rubber>, <tag:items:forge:plates/plastic>, <item:survive:charcoal_filter>, <tag:items:forge:plates/plastic>, <item:contenttweaker:rubber>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/lead>, <tag:items:forge:glass>, <tag:items:forge:plates/lead>, <tag:items:forge:plates/plastic>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/lead>, <item:minecraft:air>, <tag:items:forge:plates/lead>, <tag:items:forge:plates/plastic>]]);
+
+<recipetype:create:mechanical_crafting>.addRecipe("hazmat_chestplate", <item:marbleds_arsenal:hazmat_suit_chestplate>,
+    [[<tag:items:forge:plates/plastic>, <item:minecraft:air>, <tag:items:forge:plates/plastic>],
+    [<tag:items:forge:plates/lead>, <tag:items:forge:plates/lead>, <tag:items:forge:plates/lead>],
+    [<item:contenttweaker:rubber>, <tag:items:forge:plates/lead>, <item:contenttweaker:rubber>]]);
+
+<recipetype:create:mechanical_crafting>.addRecipe("hazmat_leggings", <item:marbleds_arsenal:hazmat_suit_leggings>,
+    [[<item:contenttweaker:rubber>, <tag:items:forge:plates/lead>, <item:contenttweaker:rubber>],
+    [<tag:items:forge:plates/lead>, <item:minecraft:air>, <tag:items:forge:plates/lead>],
+    [<tag:items:forge:plates/plastic>, <item:minecraft:air>, <tag:items:forge:plates/plastic>]]);
+
+<recipetype:create:mechanical_crafting>.addRecipe("hazmat_boots", <item:marbleds_arsenal:hazmat_suit_boots>,
+    [[<tag:items:forge:plates/lead>, <tag:items:forge:plates/plastic>, <tag:items:forge:plates/lead>],
+    [<item:contenttweaker:rubber>, <item:minecraft:air>, <item:contenttweaker:rubber>]]);
 
 
 #------------------ Tier 1 --------------------------
