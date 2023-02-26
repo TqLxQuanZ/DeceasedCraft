@@ -13,6 +13,11 @@ val incomplete_small_redstone_battery = <factory:item>.typed<Basic>()
     .rarity(<constant:minecraft:item/rarity:common>)
     .build("incomplete_small_redstone_battery");
 
+val incomplete_ender_pearl = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_ender_pearl");
+
 // IE
 val incomplete_electron_tube = <factory:item>.typed<Basic>()
     .tab(deceasedTab)

@@ -59,3 +59,14 @@ craftingTable.addShaped("concrete_barrier", <item:marbleds_arsenal:concrete_barr
     [[<item:minecraft:air>, <item:minecraft:light_gray_concrete>, <item:minecraft:air>],
     [<tag:items:forge:dyes/black>, <tag:items:forge:ingots/steel>, <tag:items:forge:dyes/yellow>],
 	[<item:minecraft:light_gray_concrete>, <item:minecraft:light_gray_concrete>, <item:minecraft:light_gray_concrete>]]);
+
+// Ender Pearl
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("ender_pearl")
+                                                      .transitionTo(<item:contenttweaker:incomplete_ender_pearl>)
+                                                      .require(<tag:items:forge:dusts/obsidian>)
+                                                      .loops(4)
+                                                      .addOutput(<item:minecraft:ender_pearl>, 1)
+                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:lava> * 25))
+                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:water> * 25))
+                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+													  );

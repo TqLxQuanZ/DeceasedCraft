@@ -30,6 +30,9 @@ craftingTable.addShapeless("empty_syringe", <item:marbleds_arsenal:empty_syringe
 // Diamond Grit
 <recipetype:immersiveengineering:crusher>.addRecipe("diamond_grit", <tag:items:forge:gems/diamond>, 850, <item:createaddition:diamond_grit> );
 
+// Obsidian Powder
+<recipetype:immersiveengineering:crusher>.addRecipe("obsidian_powder", <tag:items:forge:obsidian>, 1700, <item:create:powdered_obsidian> * 2, <item:minecraft:obsidian> % 50 );
+
 // Electron Tube (Vacuum Tube)
 craftingTable.removeByName("create:crafting/materials/electron_tube");
 JEI.hideIngredient(<item:create:electron_tube>);

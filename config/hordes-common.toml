@@ -45,7 +45,7 @@
 	#Whether later levels of infected should depleet hunger quicker? 
 	infectHunger = true
 	#Chance out of 100 for a player to get infected
-	playerInfectChance = 75
+	playerInfectChance = 10
 	#How long do each of the 4 effect phases last for before the next phase is activated?
 	ticksForEffectStage = 6000
 	#Mobs in this list can cause the infection effect.)
