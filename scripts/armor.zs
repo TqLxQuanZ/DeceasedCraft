@@ -15,24 +15,6 @@ JEI.hideIngredient(<item:minecraft:golden_chestplate>);
 JEI.hideIngredient(<item:minecraft:golden_leggings>);
 JEI.hideIngredient(<item:minecraft:golden_boots>);
 
-craftingTable.remove(<item:survive:wool_hat>);
-craftingTable.remove(<item:survive:wool_jacket>);
-craftingTable.remove(<item:survive:wool_pants>);
-craftingTable.remove(<item:survive:wool_boots>);
-JEI.hideIngredient(<item:survive:wool_hat>);
-JEI.hideIngredient(<item:survive:wool_jacket>);
-JEI.hideIngredient(<item:survive:wool_pants>);
-JEI.hideIngredient(<item:survive:wool_boots>);
-
-craftingTable.remove(<item:survive:stiffened_honey_helmet>);
-craftingTable.remove(<item:survive:stiffened_honey_chestplate>);
-craftingTable.remove(<item:survive:stiffened_honey_leggings>);
-craftingTable.remove(<item:survive:stiffened_honey_boots>);
-JEI.hideIngredient(<item:survive:stiffened_honey_helmet>);
-JEI.hideIngredient(<item:survive:stiffened_honey_chestplate>);
-JEI.hideIngredient(<item:survive:stiffened_honey_leggings>);
-JEI.hideIngredient(<item:survive:stiffened_honey_boots>);
-
 craftingTable.remove(<item:theoneprobe:iron_helmet_probe>);
 JEI.hideIngredient(<item:theoneprobe:iron_helmet_probe>);
 
@@ -56,19 +38,19 @@ JEI.hideIngredient(<item:create_sa:slime_boots>);
 // Diving Helmet
 craftingTable.remove(<item:create:diving_helmet>);
 <recipetype:create:mechanical_crafting>.addRecipe("diving_helmet", <item:create:diving_helmet>,
-    [[<tag:items:forge:plates/copper>, <item:create:fluid_pipe>, <item:survive:charcoal_filter>, <item:create:fluid_pipe>, <tag:items:forge:plates/copper>],
+    [[<tag:items:forge:plates/copper>, <item:create:fluid_pipe>, <item:create:filter>, <item:create:fluid_pipe>, <tag:items:forge:plates/copper>],
     [<tag:items:forge:plates/copper>, <item:create:cogwheel>, <item:create_sa:hydraulic_engine>, <item:create:cogwheel>, <tag:items:forge:plates/copper>],
     [<tag:items:forge:plates/copper>, <item:minecraft:air>, <tag:items:forge:glass>, <item:minecraft:air>, <tag:items:forge:plates/copper>]]);
 
 // Gas Mask
 <recipetype:create:mechanical_crafting>.addRecipe("gas_mask_helmet", <item:marbleds_arsenal:gas_mask_helmet>,
-    [[<item:minecraft:air>, <tag:items:forge:plates/plastic>, <item:survive:charcoal_filter>, <tag:items:forge:plates/plastic>, <item:minecraft:air>],
+    [[<item:minecraft:air>, <tag:items:forge:plates/plastic>, <item:create:filter>, <tag:items:forge:plates/plastic>, <item:minecraft:air>],
     [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/lead>, <tag:items:forge:glass>, <tag:items:forge:plates/lead>, <tag:items:forge:plates/plastic>],
     [<item:contenttweaker:rubber>, <tag:items:forge:plates/lead>, <item:minecraft:air>, <tag:items:forge:plates/lead>, <item:contenttweaker:rubber>]]);
 
 // Hazmat Suit
 <recipetype:create:mechanical_crafting>.addRecipe("hazmat_helmet", <item:marbleds_arsenal:hazmat_suit_helmet>,
-    [[<item:contenttweaker:rubber>, <tag:items:forge:plates/plastic>, <item:survive:charcoal_filter>, <tag:items:forge:plates/plastic>, <item:contenttweaker:rubber>],
+    [[<item:contenttweaker:rubber>, <tag:items:forge:plates/plastic>, <item:create:filter>, <tag:items:forge:plates/plastic>, <item:contenttweaker:rubber>],
     [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/lead>, <tag:items:forge:glass>, <tag:items:forge:plates/lead>, <tag:items:forge:plates/plastic>],
     [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/lead>, <item:minecraft:air>, <tag:items:forge:plates/lead>, <tag:items:forge:plates/plastic>]]);
 

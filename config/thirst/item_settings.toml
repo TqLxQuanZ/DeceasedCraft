@@ -1,0 +1,17 @@
+
+[Drinks]
+	#Defines items that will recover thirst when drunk
+	#Format: [["item-id-1", hydration-amount, quenching-amount], ["item-id-2", hydration-amount, quenching-amount], ...etc]
+	drinks = [["minecraft:potion", 6, 8], ["thirst:terracotta_water_bowl", 4, 5], ["farmersrespite:green_tea", 10, 14], ["farmersrespite:yellow_tea", 10, 14], ["farmersrespite:black_tea", 10, 14], ["farmersrespite:rose_hip_tea", 12, 22], ["farmersrespite:dandelion_tea", 12, 22], ["create:builders_tea", 12, 22], ["farmersdelight:apple_cider", 8, 13], ["farmersdelight:melon_juice", 8, 13], ["brewinandchewin:beer", 10, 14], ["brewinandchewin:vodka", 10, 14], ["brewinandchewin:rice_wine", 10, 14], ["brewinandchewin:mead", 10, 14], ["brewinandchewin:egg_nog", 10, 14], ["brewinandchewin:glittering_grenadine", 10, 14], ["brewinandchewin:bloody_mary", 12, 22], ["brewinandchewin:salty_folly", 12, 22], ["brewinandchewin:pale_jane", 12, 22], ["brewinandchewin:saccharine_rum", 12, 22], ["brewinandchewin:strongroot_ale", 12, 22], ["brewinandchewin:dread_nog", 12, 22], ["brewinandchewin:kombucha", 14, 22], ["brewinandchewin:red_rum", 14, 22], ["brewinandchewin:steel_toe_stout", 14, 22]]
+
+[Foods]
+	#Defines items that will recover thirst when eaten
+	#Format: [["item-id-1", hydration-amount, quenching-amount], ["item-id-2", hydration-amount, quenching-amount], ...etc]
+	foods = [["minecraft:apple", 2, 3], ["minecraft:golden_apple", 2, 3], ["minecraft:enchanted_golden_apple", 2, 3], ["minecraft:melon_slice", 4, 5], ["minecraft:carrot", 1, 2], ["minecraft:mushroom_stew", 2, 3], ["minecraft:rabbit_stew", 2, 3], ["minecraft:beetroot_soup", 5, 7], ["minecraft:beetroot", 1, 2], ["minecraft:sweet_berries", 1, 2], ["minecraft:glow_berries", 1, 2], ["farmersdelight:pumpkin_slice", 2, 1], ["farmersdelight:cabbage_leaf", 1, 2], ["farmersdelight:melon_popsicle", 7, 9], ["farmersdelight:fruit_salad", 6, 8], ["farmersdelight:tomato_sauce", 4, 5], ["farmersdelight:mixed_salad", 4, 5], ["farmersdelight:beef_stew", 4, 5], ["farmersdelight:chicken_soup", 4, 5], ["farmersdelight:vegetable_soup", 4, 5], ["farmersdelight:fish_stew", 4, 5], ["farmersdelight:pumpkin_soup", 4, 5], ["farmersdelight:baked_cod_stew", 4, 5], ["farmersdelight:noodle_soup", 4, 5]]
+
+[Blacklist]
+	#A mod may have added thirst compatibility to an item via code. If you want to edit the thirst values
+	#of that item, add an entry in one of the first two lists. If instead you want to remove thirst support for that item, add an entry in this list
+	#Format: ["examplemod:example_item_1", "examplemod:example_item_2"]
+	itemsBlacklist = []
+

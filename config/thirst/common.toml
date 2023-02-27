@@ -1,0 +1,57 @@
+
+[General]
+	#Whether players can drink by shift-right-clicking water with an empty hand
+	canDrinkByHand = true
+	#How much the player is hydrated when drinking by hand
+	handDrinkingHydration = 3
+	#How much the player thirst is quenched when drinking by hand
+	handDrinkingQuenched = 2
+	#How much faster is hydration depletion relative to hunger (1 means they will deplete at the same speed)
+	thirstDepletionModifier = 1.2
+
+[World]
+	#Y level above which water has 1 more level of purification by default (i.e Mountains)
+	mountainsY = 100
+	#Y level below which water has 1 more level of purification by default (i.e Caves) (for aquatic biomes, this number will be decreased by 32)
+	cavesY = 48
+	#How many levels of purification does running water have compared to still water
+	runningWaterPurificationAmount = 1
+
+["Purity-related Effects"]
+	#Whether player should gain hydration even if they recieved a purity-related debuff
+	quenchThirstWhenDebuffed = true
+	#% of getting poisoned after drinking dirty water
+	dirtyPoisonPercentage = 30
+	#% of getting sick (hunger and nausea) after drinking dirty water
+	dirtyNauseaPercentage = 100
+	#% of getting poisoned after drinking slightly dirty water
+	slightlyDirtyPoisonPercentage = 10
+	#% of getting sick (hunger and nausea) after drinking slightly dirty water
+	slightlyDirtyNauseaPercentage = 50
+	#% of getting poisoned after drinking acceptable water
+	acceptablePoisonPercentage = 0
+	#% of getting sick (hunger and nausea) after drinking acceptable water
+	acceptableNauseaPercentage = 5
+	#% of getting poisoned after drinking purified water
+	purifiedPoisonPercentage = 0
+	#% of getting sick (hunger and nausea) after drinking purified water
+	purifiedNauseaPercentage = 0
+
+["Purification levels"]
+	#How many levels of purification are added after purifying on a campfire
+	campfirePurificationLevels = 1
+	#How many levels of purification are added after boiling in a kettle
+	furnacePurificationLevels = 2
+
+["Fermentation levels"]
+	#Purification level below which fermented liquids will grow bacteria and get less purified
+	fermentationMoldingThreshold = 3
+	#Decrement of purification levels if water isn't purified enough when fermenting
+	fermentationMoldingHarshness = 2
+
+["Create compatibility"]
+	#Purification levels gained by filtering water through a Sand Filter
+	sandFilterFiltrationAmount = 1
+	#Millibuckets of water filtered per game tick with a Sand Filter
+	sandFilterMbPerTick = 10
+
