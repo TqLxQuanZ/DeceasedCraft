@@ -1,0 +1,217 @@
+{
+	id: "45F77A8E43F9ED2B"
+	group: ""
+	order_index: 0
+	filename: "chapter_1"
+	title: "Chapter: Survival"
+	icon: "minecraft:zombie_head"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Warm me up"
+			icon: "cold_sweat:boiler"
+			x: -14.75d
+			y: 2.5d
+			description: ["Obtain a boiler to get yourself warm when winter comes."]
+			dependencies: ["0ECF9BD806718584"]
+			progression_mode: "linear"
+			id: "40F0383D38357596"
+			tasks: [{
+				id: "575601FA69EFBDBD"
+				type: "item"
+				item: "cold_sweat:boiler"
+			}]
+		}
+		{
+			title: "What's the current temperature?"
+			icon: "cold_sweat:thermometer"
+			x: -16.5d
+			y: 4.0d
+			shape: "hexagon"
+			description: ["Obtain a thermometer to check the current biome and surrounding temperature."]
+			dependencies: ["0E39D9CB81AD62AA"]
+			size: 1.5d
+			progression_mode: "linear"
+			id: "0ECF9BD806718584"
+			tasks: [{
+				id: "52C47DD83529893F"
+				type: "item"
+				item: "cold_sweat:thermometer"
+			}]
+			rewards: [{
+				id: "4439A7B7A6D5F926"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "Calm me down"
+			icon: "cold_sweat:icebox"
+			x: -14.75d
+			y: 5.5d
+			description: ["Obtain an icebox to deal with the upcoming summer."]
+			dependencies: ["0ECF9BD806718584"]
+			progression_mode: "linear"
+			id: "1103247BD5316FAE"
+			tasks: [{
+				id: "18DAFD9FF8AD646D"
+				type: "item"
+				item: "cold_sweat:icebox"
+			}]
+		}
+		{
+			title: "Insulating Armor"
+			icon: "cold_sweat:sewing_table"
+			x: -16.5d
+			y: 6.5d
+			description: ["Obtain a sewing table for insulating your armors with leather armor."]
+			dependencies: ["0ECF9BD806718584"]
+			dependency_requirement: "one_completed"
+			progression_mode: "linear"
+			id: "6D09D0FC40082C0E"
+			tasks: [{
+				id: "64FFBAFC5434D56D"
+				type: "item"
+				item: "cold_sweat:sewing_table"
+			}]
+			rewards: [{
+				id: "5DF5942D8EA77BAB"
+				type: "item"
+				item: "minecraft:leather"
+				count: 4
+			}]
+		}
+		{
+			title: "Best of both worlds"
+			icon: "cold_sweat:hearth"
+			x: -13.5d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["0ECF9BD806718584"]
+			size: 1.5d
+			progression_mode: "linear"
+			id: "0B850D8AF2552F83"
+			tasks: [{
+				id: "0143BA16EDEDF12F"
+				type: "item"
+				item: "cold_sweat:hearth"
+			}]
+		}
+		{
+			title: "The Beginning"
+			icon: "minecraft:zombie_head"
+			x: -21.0d
+			y: 4.0d
+			description: [""]
+			size: 2.0d
+			id: "0E39D9CB81AD62AA"
+			tasks: [{
+				id: "72F6F859E7F6B5B8"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Better Foods, Better Health"
+			icon: "minecraft:cooked_beef"
+			x: -25.5d
+			y: 3.75d
+			shape: "square"
+			description: [
+				"Eat various of foods to increase your Max HP."
+				"Max HP bonus are lost when you're dead."
+			]
+			size: 1.5d
+			can_repeat: true
+			progression_mode: "flexible"
+			id: "030EDE9A94F537B5"
+			tasks: [{
+				id: "46164DDC4974F130"
+				type: "checkmark"
+				title: "Foods"
+			}]
+			rewards: [{
+				id: "4AFBA06FC196E6CD"
+				type: "item"
+				item: "solcarrot:food_book"
+			}]
+		}
+		{
+			title: "Parkour!"
+			icon: "minecraft:player_head"
+			x: -25.5d
+			y: 6.0d
+			shape: "square"
+			description: ["There are various way to get yourself out of dangerous situation, ParCool is one of it, make sure do perform all sort of ParCool to give yourself maximum conveniences!"]
+			size: 1.5d
+			can_repeat: true
+			progression_mode: "flexible"
+			id: "07B42E396E51A597"
+			tasks: [{
+				id: "4778D852A37EBA20"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7BD28FADBC5FCD9A"
+				type: "item"
+				item: "parcool:parcool_guide"
+			}]
+		}
+		{
+			title: "Veteran Engineer"
+			icon: "immersiveengineering:manual"
+			x: -25.5d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"You're a veteran engineer, therefore possessing absurd amount of knowledge when it comes to technology related information."
+				"Always read your manual if you forget something again! Or use W to ponder!"
+			]
+			size: 1.5d
+			can_repeat: true
+			progression_mode: "flexible"
+			id: "3FFD3BC48E8A6C65"
+			tasks: [{
+				id: "045A6B953D672794"
+				type: "checkmark"
+				title: "PhD of Engineering"
+			}]
+			rewards: [{
+				id: "6DF4EAA66D458424"
+				type: "item"
+				item: "immersiveengineering:manual"
+			}]
+		}
+		{
+			x: -16.5d
+			y: 8.5d
+			id: "6A29644DD8421933"
+			tasks: [{
+				id: "55C5026C126024E4"
+				type: "item"
+				item: "firstaid:bandage"
+			}]
+		}
+		{
+			x: -15.0d
+			y: 8.5d
+			id: "6AD30C57F5648FF3"
+			tasks: [{
+				id: "4214EB5B897FD756"
+				type: "item"
+				item: "firstaid:plaster"
+			}]
+		}
+		{
+			x: -16.5d
+			y: 10.0d
+			id: "7E2C1F85C10A8E0D"
+			tasks: [{
+				id: "3F5BA4113F098FD6"
+				type: "item"
+				item: "firstaid:morphine"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

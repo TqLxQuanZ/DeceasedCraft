@@ -3,7 +3,7 @@
 	#Set to false to completely disable the horde event and anything relating to it.
 	enableHordeEvent = true
 	#Amount of mobs to spawn per wave.
-	spawnAmount = 25
+	spawnAmount = 15
 	#Multiplier by which the spawn amount increases by each time the event naturally spawns. (Set to 1 to disable scaling.)
 	hordeSpawnMultiplier = 1.05
 	#Time in ticks the event lasts for
@@ -15,7 +15,7 @@
 	#Amount of days between horde spawns
 	hordeSpawnDays = 10
 	#Amount of days a horde event can be randomly extended by
-	hordeSpawnVariation = 0
+	hordeSpawnVariation = 5
 	#Max cap for the number of entities that can exist from the horde at once.
 	hordeSpawnMax = 150
 	#Length of a day (use only if you have another day that changes the length of the day/night cycle) Default is 24000

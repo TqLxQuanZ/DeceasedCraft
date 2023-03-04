@@ -1,0 +1,786 @@
+{
+	id: "2D96787FBE47226A"
+	group: ""
+	order_index: 1
+	filename: "chapter_2_combat"
+	title: "Chapter: Combat"
+	icon: {
+		id: "cgm:mini_gun"
+		Count: 1b
+		tag: {
+			AmmoCount: 100
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Combat"
+			icon: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -11.0d
+			y: 5.0d
+			description: ["One does not simply survive the apocalypse without any weapons. This chapter provides the progression of obtaining bullets, melee weapons and guns."]
+			size: 2.0d
+			id: "70C3799E5D5D54F3"
+			tasks: [{
+				id: "3E61A22D9F0CDFBF"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "The Shape of Bullet"
+			icon: {
+				id: "immersiveengineering:blueprint"
+				Count: 1b
+				tag: {
+					blueprint: "molds"
+				}
+			}
+			x: 0.0d
+			y: -1.5d
+			shape: "hexagon"
+			description: ["Obtain an engineer's blueprint from engineer villager's house or trade from someone with engineer profession."]
+			dependencies: ["33FC7547AD30DEC7"]
+			size: 1.5d
+			id: "7F5CD6053CEA4064"
+			tasks: [{
+				id: "115DF6FEE8FD0CF2"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "molds"
+					}
+				}
+			}]
+		}
+		{
+			title: "Short But Lethal"
+			x: 3.5d
+			y: -5.5d
+			description: ["Obtain a short bullet casing mold."]
+			dependencies: ["7F5CD6053CEA4064"]
+			id: "11B7ADB82ED992BF"
+			tasks: [{
+				id: "0789C0FEF1EC552B"
+				type: "item"
+				item: "contenttweaker:mold_bullet_casing_short"
+			}]
+		}
+		{
+			title: "Small But Quick"
+			x: 3.5d
+			y: -4.0d
+			description: ["Obtain a small bullet casing mold."]
+			dependencies: ["7F5CD6053CEA4064"]
+			id: "5DC373FF8C98855F"
+			tasks: [{
+				id: "778ABD5DDB3B0BEA"
+				type: "item"
+				item: "contenttweaker:mold_bullet_casing_small"
+			}]
+		}
+		{
+			title: "Medium But Strong"
+			x: 3.5d
+			y: -2.5d
+			description: ["Obtain a medium bullet casing mold."]
+			dependencies: ["7F5CD6053CEA4064"]
+			id: "22FB8255689A2DB8"
+			tasks: [{
+				id: "7C219F49A07A9AEB"
+				type: "item"
+				item: "contenttweaker:mold_bullet_casing_medium"
+			}]
+		}
+		{
+			title: "Marksman"
+			x: 3.5d
+			y: 2.0d
+			description: ["Obtain a long bullet casing mold."]
+			dependencies: ["7F5CD6053CEA4064"]
+			id: "7BBD81550532F0A6"
+			tasks: [{
+				id: "587F79F64C730677"
+				type: "item"
+				item: "contenttweaker:mold_bullet_casing_long"
+			}]
+		}
+		{
+			title: "Heavy and Violent"
+			x: 3.5d
+			y: -1.0d
+			description: ["Obtain a heavy bullet casing mold."]
+			dependencies: ["7F5CD6053CEA4064"]
+			id: "0CC884FA092AB9A9"
+			tasks: [{
+				id: "2F32DAE44929B069"
+				type: "item"
+				item: "contenttweaker:mold_bullet_casing_heavy"
+			}]
+		}
+		{
+			title: "Specs Op"
+			x: 3.5d
+			y: 0.5d
+			description: ["Obtain a special bullet casing mold."]
+			dependencies: ["7F5CD6053CEA4064"]
+			id: "679272B95086DC83"
+			tasks: [{
+				id: "6295FE06FF238D22"
+				type: "item"
+				item: "contenttweaker:mold_bullet_casing_special"
+			}]
+		}
+		{
+			title: "Container with death - II"
+			icon: "additionalguns:casing_small"
+			x: 5.0d
+			y: -4.0d
+			description: ["Obtain small bullet casing and possibly automate it."]
+			dependencies: ["5DC373FF8C98855F"]
+			id: "4E0B869BB21EB949"
+			tasks: [{
+				id: "4764CAC7D6E583B8"
+				type: "item"
+				item: "additionalguns:casing_small"
+			}]
+		}
+		{
+			title: "Container with death - I"
+			icon: "additionalguns:casing_short"
+			x: 5.0d
+			y: -5.5d
+			description: ["Obtain short bullet casing and possibly automate it."]
+			dependencies: ["11B7ADB82ED992BF"]
+			id: "1B70117B9B8070C2"
+			tasks: [{
+				id: "6AA7F59DB2D78F58"
+				type: "item"
+				item: "additionalguns:casing_short"
+			}]
+		}
+		{
+			title: "Container with death - III"
+			x: 5.0d
+			y: -2.5d
+			description: ["Obtain medium bullet casing and possibly automate it."]
+			dependencies: ["22FB8255689A2DB8"]
+			id: "0AA2606CEBE58CA0"
+			tasks: [{
+				id: "12B1D66E4E176FB3"
+				type: "item"
+				item: "additionalguns:casing_medium"
+			}]
+		}
+		{
+			title: "Container with death - IV"
+			x: 5.0d
+			y: -1.0d
+			description: ["Obtain heavy bullet casing and possibly automate it."]
+			dependencies: ["0CC884FA092AB9A9"]
+			id: "2A982276708FC304"
+			tasks: [{
+				id: "045B271FA6FF536E"
+				type: "item"
+				item: "additionalguns:casing_heavy"
+			}]
+		}
+		{
+			title: "Container with death - V"
+			x: 5.0d
+			y: 0.5d
+			description: ["Obtain special bullet casing and possibly automate it."]
+			dependencies: ["679272B95086DC83"]
+			id: "1A85FC536700F742"
+			tasks: [{
+				id: "120D76B8AF9D767A"
+				type: "item"
+				item: "additionalguns:casing_special"
+			}]
+		}
+		{
+			title: "Container with death - VI"
+			x: 5.0d
+			y: 2.0d
+			description: ["Obtain long bullet casing and possibly automate it."]
+			dependencies: ["7BBD81550532F0A6"]
+			id: "60BD6F13E06265F9"
+			tasks: [{
+				id: "339EB8024C1377D4"
+				type: "item"
+				item: "additionalguns:casing_long"
+			}]
+		}
+		{
+			title: "Harbinger of Death - I"
+			icon: "additionalguns:bullet_short"
+			x: 6.5d
+			y: -5.5d
+			description: ["Craft a short bullet and possibly automate it."]
+			dependencies: ["1B70117B9B8070C2"]
+			id: "44E7027F6D6EC53D"
+			tasks: [{
+				id: "2F9869BD4073E1DB"
+				type: "item"
+				item: "additionalguns:bullet_short"
+			}]
+		}
+		{
+			title: "Harbinger of Death - II"
+			icon: "additionalguns:bullet_small"
+			x: 6.5d
+			y: -4.0d
+			description: ["Craft a small bullet and possibly automate it."]
+			dependencies: ["4E0B869BB21EB949"]
+			id: "42854FF262957FF9"
+			tasks: [{
+				id: "03FC3BFB2425773A"
+				type: "item"
+				item: "additionalguns:bullet_small"
+			}]
+		}
+		{
+			title: "Harbinger of Death - III"
+			icon: "additionalguns:bullet_medium"
+			x: 6.5d
+			y: -2.5d
+			description: ["Craft a medium bullet and possibly automate it."]
+			dependencies: ["0AA2606CEBE58CA0"]
+			id: "60998F7140E7D664"
+			tasks: [{
+				id: "0230CB4CC6E65FD1"
+				type: "item"
+				item: "additionalguns:bullet_medium"
+			}]
+		}
+		{
+			title: "Harbinger of Death - IV"
+			icon: "additionalguns:bullet_heavy"
+			x: 6.5d
+			y: -1.0d
+			description: ["Craft a heavy bullet and possibly automate it."]
+			dependencies: ["2A982276708FC304"]
+			id: "717A877C72593BBD"
+			tasks: [{
+				id: "278FA0E1DE4C9F3A"
+				type: "item"
+				item: "additionalguns:bullet_heavy"
+			}]
+		}
+		{
+			title: "Harbinger of Death - V"
+			icon: "additionalguns:bullet_special"
+			x: 6.5d
+			y: 0.5d
+			description: ["Craft a special bullet and possibly automate it."]
+			dependencies: ["1A85FC536700F742"]
+			id: "5E61A8181DFD0B93"
+			tasks: [{
+				id: "345EF4CAE7534398"
+				type: "item"
+				item: "additionalguns:bullet_special"
+			}]
+		}
+		{
+			title: "Harbinger of Death - VI"
+			icon: "additionalguns:bullet_long"
+			x: 6.5d
+			y: 2.0d
+			description: ["Craft a long bullet and possibly automate it."]
+			dependencies: ["60BD6F13E06265F9"]
+			id: "3F4F2FB2A40D5EA7"
+			tasks: [{
+				id: "48088E8D324777B5"
+				type: "item"
+				item: "additionalguns:bullet_long"
+			}]
+		}
+		{
+			title: "Table and Presser"
+			icon: "immersiveengineering:workbench"
+			x: -3.75d
+			y: -1.5d
+			description: ["One does not make bullet immediately, you'll need to have an electronic function Metal Press and an engineer workbench for the molds."]
+			dependencies: ["70C3799E5D5D54F3"]
+			dependency_requirement: "all_started"
+			size: 1.5d
+			id: "33FC7547AD30DEC7"
+			tasks: [{
+				id: "190EB120CEB58ED4"
+				type: "checkmark"
+				title: "Checkmark"
+			}]
+		}
+		{
+			title: "Usable"
+			icon: {
+				id: "minecraft:stone_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.75d
+			y: 12.75d
+			shape: "hexagon"
+			description: ["Obtain a stone sword for the sake of killing enemies."]
+			dependencies: ["70C3799E5D5D54F3"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "60C5BD48DDED283C"
+			tasks: [{
+				id: "6E4EB99368E0BB3C"
+				type: "item"
+				item: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E29540BCB14B35A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Decent - I"
+			icon: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 5.5d
+			y: 12.75d
+			description: ["Obtain an iron sword for the sake of killing enemmies."]
+			dependencies: ["60C5BD48DDED283C"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "4645CBD33799EB57"
+			tasks: [{
+				id: "467D2B33568CC88C"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "For Training"
+			icon: {
+				id: "minecraft:wooden_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -6.0d
+			y: 12.75d
+			description: ["Obtain a wooden sword."]
+			dependencies: ["60C5BD48DDED283C"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "4BF0644D6EFC2385"
+			tasks: [{
+				id: "33E0D36CF4335E86"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Better Damage But Slow - I"
+			icon: {
+				id: "create_sa:copper_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 8.75d
+			description: ["Obtain a copper sword."]
+			dependencies: ["60C5BD48DDED283C"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "21AFFACA71032389"
+			tasks: [{
+				id: "450D050A353DCB87"
+				type: "item"
+				item: {
+					id: "create_sa:copper_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Fast But Lower Damage - I"
+			icon: {
+				id: "create_sa:zinc_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 17.25d
+			description: ["Obtain a zinc sword."]
+			dependencies: ["60C5BD48DDED283C"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "0274F6F88DBF231E"
+			tasks: [{
+				id: "0DDF354DB987CDF3"
+				type: "item"
+				item: {
+					id: "create_sa:zinc_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Fast But Lower Damage - II"
+			x: 4.5d
+			y: 15.0d
+			description: ["Obtain a brass sword."]
+			dependencies: ["0274F6F88DBF231E"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "7DA391B0F34FDD4E"
+			tasks: [{
+				id: "36A8667CF0A521F5"
+				type: "item"
+				item: {
+					id: "create_sa:brass_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Fast But Lower Damage - III"
+			x: 4.5d
+			y: 17.25d
+			description: ["Obtain a dagger."]
+			dependencies: ["0274F6F88DBF231E"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "6320B69E8E31F842"
+			tasks: [{
+				id: "4143925379FA98A2"
+				type: "item"
+				item: {
+					id: "marbleds_arsenal:dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Fast But Decent Damage - V"
+			x: 8.25d
+			y: 17.25d
+			description: ["Obtain a quartz sword."]
+			dependencies: [
+				"7DA391B0F34FDD4E"
+				"6320B69E8E31F842"
+				"7C712B7EE74CB896"
+			]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "412B87EF9464A054"
+			tasks: [{
+				id: "72E25D85A53EBC18"
+				type: "item"
+				item: {
+					id: "create_sa:rose_quartz_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Decent - II"
+			x: 9.75d
+			y: 10.5d
+			description: ["Obtain a diamond sword."]
+			dependencies: ["4645CBD33799EB57"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "7AB49D213E95BC4E"
+			tasks: [{
+				id: "40C65E494B169304"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Better Damage But Slow - II"
+			icon: {
+				id: "immersiveengineering:sword_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.5d
+			y: 10.75d
+			description: ["Obtain a steel sword."]
+			dependencies: ["21AFFACA71032389"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "4BCF04D9AD600BCD"
+			tasks: [{
+				id: "4903EA5489586B5A"
+				type: "item"
+				item: {
+					id: "immersiveengineering:sword_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Better Damage But Slow - III"
+			icon: {
+				id: "marbleds_arsenal:fire_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.5d
+			y: 8.75d
+			description: ["Obtain a fire axe."]
+			dependencies: ["21AFFACA71032389"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "77560568DDAE8549"
+			tasks: [{
+				id: "787DCF88F32AA170"
+				type: "item"
+				item: {
+					id: "marbleds_arsenal:fire_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Better Damage But Slow - V"
+			x: 8.5d
+			y: 8.75d
+			description: ["Obtain a netherite sword."]
+			dependencies: [
+				"4BCF04D9AD600BCD"
+				"77560568DDAE8549"
+				"0D1718A032A19355"
+			]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "770487878F659649"
+			tasks: [{
+				id: "2D5F69E201954D8F"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Better Damage But Slow - IV"
+			icon: {
+				id: "marbleds_arsenal:pipe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.5d
+			y: 6.5d
+			description: ["Obtain a pipe as weapon."]
+			dependencies: ["21AFFACA71032389"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "0D1718A032A19355"
+			tasks: [{
+				id: "399B2CAD4C5A3E98"
+				type: "item"
+				item: {
+					id: "marbleds_arsenal:pipe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Decent - IV"
+			x: 11.25d
+			y: 14.25d
+			description: ["Obtain a crowbar as weapon."]
+			dependencies: ["4645CBD33799EB57"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "2863113310C42AD7"
+			tasks: [{
+				id: "6859A9FCFC63F271"
+				type: "item"
+				item: {
+					id: "marbleds_arsenal:crowbar"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Decent - V"
+			x: 9.75d
+			y: 15.75d
+			description: ["Obtain a frying pan and BONK."]
+			dependencies: ["4645CBD33799EB57"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "4B10190F74E9F86F"
+			tasks: [{
+				id: "59FAFE05E26E7FE1"
+				type: "item"
+				item: {
+					id: "marbleds_arsenal:frying_pan"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Not Too Shabby"
+			icon: {
+				id: "marbleds_arsenal:baseball_bat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.75d
+			y: 15.0d
+			description: ["Obtain a baseball bat."]
+			dependencies: ["60C5BD48DDED283C"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "1FBCC4B57ED1031A"
+			tasks: [{
+				id: "2BEADA28E1610213"
+				type: "item"
+				item: {
+					id: "marbleds_arsenal:baseball_bat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Decent - III"
+			icon: {
+				id: "marbleds_arsenal:machete"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 11.25d
+			y: 12.0d
+			description: ["Obtain a machete as weapon."]
+			dependencies: ["4645CBD33799EB57"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "3800EECD47AB0E0C"
+			tasks: [{
+				id: "7D4F7D8A70BD6A14"
+				type: "item"
+				item: {
+					id: "marbleds_arsenal:machete"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Fast But Lower Damage - IV"
+			x: 4.5d
+			y: 19.5d
+			description: ["Obtain a police baton and start whooping."]
+			dependencies: ["0274F6F88DBF231E"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "7C712B7EE74CB896"
+			tasks: [{
+				id: "28929D8FA321D815"
+				type: "item"
+				item: {
+					id: "marbleds_arsenal:police_baton"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}
