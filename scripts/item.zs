@@ -70,3 +70,21 @@ craftingTable.addShaped("concrete_barrier", <item:marbleds_arsenal:concrete_barr
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:water> * 25))
                                                       .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
 													  );
+
+
+// Golden Apple
+craftingTable.removeByName("minecraft:golden_apple");
+<tag:fluids:forge:seedoil>.add(<fluid:createaddition:seed_oil>);
+<tag:fluids:forge:seedoil>.add(<fluid:immersiveengineering:plantoil>);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("golden_apple")
+                                                      .transitionTo(<item:minecraft:apple>)
+                                                      .require(<item:minecraft:apple>)
+                                                      .loops(4)
+                                                      .addOutput(<item:minecraft:golden_apple>, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:rotten_flesh>))
+                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:water> * 25))
+                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:create:honey> * 25))
+                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<tag:fluids:forge:seedoil> * 25))
+                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:sliceanddice:fertilizer> * 25))
+                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+													  );

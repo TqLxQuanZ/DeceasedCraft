@@ -19,7 +19,7 @@ craftingTable.addShapeless("canned_fish", <item:marbleds_arsenal:canned_fish>,
 
 craftingTable.remove(<item:marbleds_arsenal:empty_syringe>);
 craftingTable.addShapeless("empty_syringe", <item:marbleds_arsenal:empty_syringe>,
-    [<tag:items:forge:empty_bottles>, <tag:items:forge:glass_panes>, <tag:items:forge:plates/plastic>]);
+    [<item:minecraft:glass_bottle>, <tag:items:forge:glass_panes>, <tag:items:forge:plates/plastic>]);
 
 // Steel for mixing
 <recipetype:create:mixing>.addRecipe("steel", <constant:create:heat_condition:superheated>, [<item:immersiveengineering:ingot_steel>], [<tag:items:forge:dusts/coal_coke>, <tag:items:forge:ingots/iron>], [], 512);
