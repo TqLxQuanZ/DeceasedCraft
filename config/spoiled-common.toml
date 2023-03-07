@@ -11,7 +11,7 @@
 	#Range: > 1
 	spoilRate = 30
 	#When enabled Spoiled initializes spoiling for all vanilla food [default: true]
-	initializeSpoiling = true
+	initializeSpoiling = false
 	#When enabled enables a special recipe to merge spoiling food together [default: false]
 	mergeSpoilingFood = true
 	#When enabled Spoiled makes every edible item spoil into the specified Spoil Item (This overwrites json spoiling completely) [default: false]

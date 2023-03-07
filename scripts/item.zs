@@ -85,6 +85,18 @@ craftingTable.removeByName("minecraft:golden_apple");
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:water> * 25))
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:create:honey> * 25))
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<tag:fluids:forge:seedoil> * 25))
-                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:sliceanddice:fertilizer> * 25))
                                                       .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
 													  );
+
+// Fridge
+craftingTable.removeByName("cfm:fridge_light");
+craftingTable.removeByName("cfm:fridge_dark");
+craftingTable.addShaped("fridge_light", <item:cfm:fridge_light>,
+    [[<tag:items:forge:dyes/white>, <tag:items:forge:chests>, <tag:items:forge:ingots/steel>],
+    [<tag:items:forge:ingots/steel>, <item:immersiveengineering:component_electronic>, <tag:items:forge:ingots/steel>],
+	[<tag:items:forge:ingots/steel>, <item:cold_sweat:icebox>, <tag:items:forge:ingots/steel>]]);
+    
+craftingTable.addShaped("fridge_dark", <item:cfm:fridge_dark>,
+    [[<tag:items:forge:dyes/black>, <tag:items:forge:chests>, <tag:items:forge:ingots/steel>],
+    [<tag:items:forge:ingots/steel>, <item:immersiveengineering:component_electronic>, <tag:items:forge:ingots/steel>],
+	[<tag:items:forge:ingots/steel>, <item:cold_sweat:icebox>, <tag:items:forge:ingots/steel>]]);

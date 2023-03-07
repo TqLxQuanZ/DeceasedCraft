@@ -1,6 +1,62 @@
 import mods.spoiled.SpoilingManager;
 var spoilManager = <recipetype:spoiled:spoil_recipe>;
 
+// Raw Meats
+for ingredient in <tag:items:forge:raw_meats>
+{
+	spoilManager.addSpoiling(ingredient.registryName.getPath(), ingredient.getDefaultInstance(), <item:minecraft:rotten_flesh>, 24000);
+}
+
+// Cooked meats
+for ingredient in <tag:items:forge:cooked_meats>
+{
+	spoilManager.addSpoiling(ingredient.registryName.getPath(), ingredient.getDefaultInstance(), <item:minecraft:rotten_flesh>, 3 * 24000);
+}
+
+// Raw fish
+for ingredient in <tag:items:forge:raw_fishes>
+{
+	spoilManager.addSpoiling(ingredient.registryName.getPath(), ingredient.getDefaultInstance(), <item:minecraft:rotten_flesh>, 12000);
+}
+
+// Cooked fish
+for ingredient in <tag:items:forge:cooked_fishes>
+{
+	spoilManager.addSpoiling(ingredient.registryName.getPath(), ingredient.getDefaultInstance(), <item:minecraft:rotten_flesh>, 3 * 24000);
+}
+
+// Bread
+for ingredient in <tag:items:forge:bread>
+{
+	spoilManager.addSpoiling(ingredient.registryName.getPath(), ingredient.getDefaultInstance(), <item:minecraft:rotten_flesh>, 5 * 24000);
+}
+
+// Vanilla
+spoilManager.addSpoiling("mushroom_stew", <item:minecraft:mushroom_stew>, <item:minecraft:rotten_flesh>, 24000);
+spoilManager.addSpoiling("rabbit_stew", <item:minecraft:rabbit_stew>, <item:minecraft:rotten_flesh>, 24000);
+spoilManager.addSpoiling("beetroot_soup", <item:minecraft:beetroot_soup>, <item:minecraft:rotten_flesh>, 2 * 24000);
+spoilManager.addSpoiling("apple", <item:minecraft:apple>, <item:minecraft:rotten_flesh>, 7 * 24000);
+spoilManager.addSpoiling("cookie", <item:minecraft:cookie>, <item:minecraft:rotten_flesh>, 3 * 24000);
+spoilManager.addSpoiling("melon", <item:minecraft:melon_slice>, <item:minecraft:rotten_flesh>, 2 * 24000);
+spoilManager.addSpoiling("carrot", <item:minecraft:carrot>, <item:minecraft:rotten_flesh>, 7 * 24000);
+spoilManager.addSpoiling("potato", <item:minecraft:potato>, <item:minecraft:rotten_flesh>, 21 * 24000);
+spoilManager.addSpoiling("beetroot", <item:minecraft:beetroot>, <item:minecraft:rotten_flesh>, 17 * 24000);
+spoilManager.addSpoiling("pumpkin_pie", <item:minecraft:pumpkin_pie>, <item:minecraft:rotten_flesh>, 2 * 24000);
+spoilManager.addSpoiling("sweet_berries", <item:minecraft:sweet_berries>, <item:minecraft:rotten_flesh>, 2 * 24000);
+spoilManager.addSpoiling("glow_berries", <item:minecraft:glow_berries>, <item:minecraft:rotten_flesh>, 2 * 24000);
+
+// Quark
+spoilManager.addSpoiling("crab_leg", <item:quark:crab_leg>, <item:minecraft:rotten_flesh>, 24000);
+spoilManager.addSpoiling("frog_leg", <item:quark:frog_leg>, <item:minecraft:rotten_flesh>, 24000);
+spoilManager.addSpoiling("cooked_crab_leg", <item:quark:cooked_crab_leg>, <item:minecraft:rotten_flesh>, 3 * 24000);
+spoilManager.addSpoiling("cooked_frog_leg", <item:quark:cooked_frog_leg>, <item:minecraft:rotten_flesh>, 3 * 24000);
+
+// Misc
+spoilManager.addSpoiling("turtle_soup", <item:untamedwilds:food_turtle_soup>, <item:minecraft:rotten_flesh>, 3 * 24000);
+spoilManager.addSpoiling("aardvark_cucumber", <item:untamedwilds:food_aardvark_cucumber>, <item:minecraft:rotten_flesh>, 3 * 24000);
+spoilManager.addSpoiling("sweet_roll", <item:create:sweet_roll>, <item:minecraft:rotten_flesh>, 7 * 24000);
+
+// Farmers' Delight
 spoilManager.addSpoiling("cabbage", <item:farmersdelight:cabbage>, <item:minecraft:rotten_flesh>, 5 * 24000);
 spoilManager.addSpoiling("tomato", <item:farmersdelight:tomato>, <item:minecraft:rotten_flesh>, 4 * 24000);
 spoilManager.addSpoiling("onion", <item:farmersdelight:onion>, <item:minecraft:rotten_flesh>, 7 * 24000);
@@ -16,10 +72,6 @@ spoilManager.addSpoiling("chicken_cuts", <item:farmersdelight:chicken_cuts>, <it
 spoilManager.addSpoiling("cooked_chicken_cuts", <item:farmersdelight:cooked_chicken_cuts>, <item:minecraft:rotten_flesh>, 2 * 24000);
 spoilManager.addSpoiling("bacon", <item:farmersdelight:bacon>, <item:minecraft:rotten_flesh>, 3 * 24000);
 spoilManager.addSpoiling("cooked_bacon", <item:farmersdelight:cooked_bacon>, <item:minecraft:rotten_flesh>, 4 * 24000);
-spoilManager.addSpoiling("cod_slice", <item:farmersdelight:cod_slice>, <item:minecraft:rotten_flesh>, 3 * 24000);
-spoilManager.addSpoiling("cooked_cod_slice", <item:farmersdelight:cooked_cod_slice>, <item:minecraft:rotten_flesh>, 6 * 24000);
-spoilManager.addSpoiling("salmon_slice", <item:farmersdelight:salmon_slice>, <item:minecraft:rotten_flesh>, 3 * 24000);
-spoilManager.addSpoiling("cooked_salmon_slice", <item:farmersdelight:cooked_salmon_slice>, <item:minecraft:rotten_flesh>, 6 * 24000);
 spoilManager.addSpoiling("mutton_chops", <item:farmersdelight:mutton_chops>, <item:minecraft:rotten_flesh>, 4 * 24000);
 spoilManager.addSpoiling("cooked_mutton_chops", <item:farmersdelight:cooked_mutton_chops>, <item:minecraft:rotten_flesh>, 8 * 24000);
 spoilManager.addSpoiling("ham", <item:farmersdelight:ham>, <item:minecraft:rotten_flesh>, 6 * 24000);

@@ -3,6 +3,9 @@ import crafttweaker.api.item.IItemStack;
 import mods.jei.JEI;
 import crafttweaker.api.recipe.Replacer;
 
+// Fats
+<tag:items:minecraft:animal_fat>.add(<item:untamedwilds:material_fat>);
+
 // MArbled Arsenal
 craftingTable.remove(<item:marbleds_arsenal:empty_can>);
 craftingTable.addShaped("empty_can", <item:marbleds_arsenal:empty_can>,
