@@ -10,18 +10,23 @@
 ["Soulspring Lamp"]
 	#Defines the items that the Soulspring Lamp can use as fuel and their values
 	#Format: ["item-id-1", "item-id-2", ...etc]
-	"Fuel Items" = ["minecraft:warped_stem", "minecraft:warped_hyphae", "minecraft:stripped_warped_stem", "minecraft:stripped_warped_hyphae", "minecraft:crimson_stem", "minecraft:crimson_hyphae", "minecraft:stripped_crimson_stem", "minecraft:stripped_crimson_hyphae"]
+	"Fuel Items" = [["minecraft:warped_stem", 1], ["minecraft:warped_hyphae", 1], ["minecraft:stripped_warped_stem", 1], ["minecraft:stripped_warped_hyphae", 1], ["minecraft:crimson_stem", 1], ["minecraft:crimson_hyphae", 1], ["minecraft:stripped_crimson_stem", 1], ["minecraft:stripped_crimson_hyphae", 1]]
 	#Defines the dimensions that the Soulspring Lamp can be used in
 	#Format: ["dimension-id-1", "dimension-id-2", ...etc]
 	"Valid Dimensions" = ["minecraft:the_nether"]
 
 [Insulation]
 	#Defines the items that can be used for insulating armor in the Sewing Table
-	#Format: [["item-id-1"], ["item-id-2"], ...etc]
-	"Insulation Ingredients" = ["minecraft:leather_helmet", "minecraft:leather_chestplate", "minecraft:leather_leggings", "minecraft:leather_boots"]
+	#Format: [["item-id-1", cold-1, hot-1], ["item-id-2", cold-2, hot-2], ...etc]
+	#"item-id": The item's ID (i.e. "minecraft:iron_ingot"). Accepts tags with "#" (i.e. "#minecraft:wool").
+	#"cold": The amount of cold insulation the item provides.
+	#"hot": The amount of heat insulation the item provides.
+	"Insulation Ingredients" = [["farmersdelight:canvas", 0.75, 0.75], ["minecraft:leather", 1.5, 1.5], ["#forge:tough_hides", 2.25, 2.25], ["immersiveengineering:ersatz_leather", 3, 3], ["minecraft:dried_kelp", 1, 0], ["#minecraft:wool", 2, 0], ["immersiveengineering:hemp_fabric", 3, 0], ["cold_sweat:goat_fur", 4, 0], ["minecraft:wheat", 0, 1], ["minecraft:honeycomb", 0, 2], ["cold_sweat:hoglin_hide", 0, 3], ["minecraft:slime_ball", 0, 4]]
 	#Defines the items that provide insulation when worn
 	#Format: [["item-id-1", amount-1], ["item-id-2", amount-2], ...etc]
-	"Insulated Armor" = [["minecraft:leather_helmet", 4], ["minecraft:leather_chestplate", 7], ["minecraft:leather_leggings", 5], ["minecraft:leather_boots", 4]]
+	"Insulated Armor" = [["minecraft:leather_helmet", 4, 4], ["minecraft:leather_chestplate", 6, 6], ["minecraft:leather_leggings", 5, 5], ["minecraft:leather_boots", 4, 4], ["marbleds_arsenal:hazmat_suit_helmet", 6, 6], ["marbleds_arsenal:hazmat_suit_chestplate", 8, 8], ["marbleds_arsenal:hazmat_suit_leggings", 7, 7], ["marbleds_arsenal:hazmat_suit_boots", 6, 6]]
+	#Defines how many insulation slots armor pieces have
+	"Insulation Slots" = [4, 6, 5, 4]
 
 [Consumables]
 	#Defines items that affect the player's temperature when consumed

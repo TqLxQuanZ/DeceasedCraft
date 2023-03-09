@@ -39,9 +39,6 @@
     {
         "mob": "minecraft:zombie",
         "dimension": "minecraft:overworld",
-        "incontrol": true,
-        "mintime": 0,
-        "maxtime": 24000,
         "minlight": 0,
         "maxlight": 7,
         "seesky": true,
@@ -59,7 +56,7 @@
         "dimension": "minecraft:overworld",
         "mincount": {
           "mob": "minecraft:zombie",
-          "amount": 30,
+          "amount": 50,
           "perchunk": true
         },
         "result": "deny"

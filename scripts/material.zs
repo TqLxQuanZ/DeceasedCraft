@@ -3,6 +3,22 @@ import crafttweaker.api.item.IItemStack;
 import mods.jei.JEI;
 import crafttweaker.api.recipe.Replacer;
 
+// Hides
+// Bears
+<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bear_ashen>);
+<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bear_black>);
+<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bear_brown>);
+<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bear_white>);
+
+// Cats
+<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_jaguar>);
+<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_leopard>);
+<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_lion>);
+<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_panther>);
+<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_puma>);
+<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_snow_leopard>);
+<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_tiger>);
+
 // Fats
 <tag:items:minecraft:animal_fat>.add(<item:untamedwilds:material_fat>);
 

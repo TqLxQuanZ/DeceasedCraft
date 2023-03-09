@@ -1,7 +1,17 @@
 
-["Mount Settings"]
+["Entity Settings"]
 	#List of entities that will insulate the player when riding them
-	#Format: ["entity-id", insulation-amount]
+	#Format: ["entity_id", insulation]
 	#(1 is complete insulation, 0 is no insulation)
 	"Insulated Entities" = []
+	#Defines how often a goat will try to grow its fur, the growth cooldown after shearing, and the chance of it succeeding
+	#Format: [ticks, cooldown, chance]
+	"Goat Fur Growth Timings" = [1200, 2400, 0.2]
+	#Defines the items that can be used to tame a chameleon
+	#Format: ["item_id", chance]
+	"Chameleon Tame Items" = [["minecraft:spider_eye", 0.3]]
+
+["Mob Spawning"]
+	#Defines the biomes that Chameleons can spawn in
+	"Chameleon Spawn Biomes" = [["minecraft:jungle", 8], ["minecraft:sparse_jungle", 8], ["minecraft:bamboo_jungle", 8], ["minecraft:desert", 8], ["minecraft:desert_hills", 8], ["minecraft:desert_lakes", 8], ["biomesoplenty:rainforest", 16], ["biomesoplenty:rocky_rainforest", 16], ["biomesoplenty:fungal_jungle", 16], ["biomesoplenty:lush_desert", 8], ["biomesoplenty:tropics", 16], ["biomesoplenty:outback", 8], ["biomesoplenty:lush_desert", 8]]
 
