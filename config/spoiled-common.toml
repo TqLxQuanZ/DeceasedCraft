@@ -4,7 +4,7 @@
 	#Determines the spoilrate in specific containers [Syntax: tileentity:spoil_rate]
 	#Examples: "minecraft:shulker_box,0" would make shulker boxes not spoil food
 	#"cookingforblockheads:fridge,0.2" would make a cooking for blockheads fridge spoil at 20% of the usual spoilrate
-	containerModifier = ["minecraft:shulker_box,0", "cfm:fridge_light,0.2", "cfm:fridge_dark,0.2"]
+	containerModifier = ["minecraft:shulker_box,0", "cfm:fridge_light,0.2", "cfm:fridge_dark,0.2", "cfm:white_cooler,0.2", "cfm:orange_cooler,0.2", "cfm:magenta_cooler,0.2", "cfm:light_blue_cooler,0.2", "cfm:yellow_cooler,0.2", "cfm:lime_cooler,0.2", "cfm:pink_cooler,0.2", "cfm:gray_cooler,0.2", "cfm:light_gray_cooler,0.2", "cfm:cyan_cooler,0.2", "cfm:purple_cooler,0.2", "cfm:blue_cooler,0.2", "cfm:brown_cooler,0.2", "cfm:green_cooler,0.2", "cfm:red_cooler,0.2", "cfm:black_cooler,0.2"]
 	#Defines the default total amount of spoiling updates for each food item 
 	#(For example, a defaultSpoilTime of 40 means any default food item will have 40 total updates before it spoils. 
 	#This can be altered when custom food spoiling is set using a datapack) [default: 30]
