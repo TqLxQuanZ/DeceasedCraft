@@ -16,7 +16,7 @@
 	#List of boots that the mobs can have together with their rarity
 	randomBoots = [".3=null" ]
 	#List of effects that a mob can have. Note that multiple effects are possible
-	randomEffects = [".5=minecraft:regeneration,1", ".1=minecraft:speed,1", ".1=minecraft:resistance,1"]
+	randomEffects = [".9=minecraft:regeneration,1", ".5=minecraft:speed,1", ".5=minecraft:resistance,1", ".3=minecraft:speed,2", ".3=minecraft:resistance,2", ".1=minecraft:speed,3", ".1=minecraft:resistance,3"]
 	#List of console commands to execute the first time a building is entered
 	commandFirstTime = []
 	#List of console commands to execute every time a building is entered
@@ -39,7 +39,7 @@
 	spawnMaxNearby = 12
 	#The minimum distance between the player and newly spawned mobs
 	#Range: 0.0 ~ 16.0
-	minSpawnDistance = 2.0
+	minSpawnDistance = 4.0
 	#The minimum health bonus that the mob will get
 	#Range: 0.009999999776482582 ~ 10000.0
 	minHealthBonus = 1.0

@@ -134,6 +134,8 @@ JEI.hideIngredient(<item:refinedstorage:quartz_enriched_iron_block>);
 
 
 // Turrets
+craftingTable.removeByName("immersiveengineering:crafting/empty_shell");
+<recipetype:immersiveengineering:bottling_machine>.removeByName("immersiveengineering:bottling/empty_shell");
 <recipetype:immersiveengineering:blueprint>.removeByName("immersiveengineering:blueprint/bullet_homing");
 <recipetype:immersiveengineering:blueprint>.removeByName("immersiveengineering:blueprint/bullet_wolfpack");
 JEI.hideIngredient(<item:immersiveengineering:homing>);

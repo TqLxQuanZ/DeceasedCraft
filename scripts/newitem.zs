@@ -110,6 +110,11 @@ val mold_bullet_casing_special = <factory:item>.typed<Basic>()
     .rarity(<constant:minecraft:item/rarity:common>)
     .build("mold_bullet_casing_special");
 
+val mold_bullet_casing_shell = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("mold_bullet_casing_shell");
+
 // Cars
 val incomplete_battery = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
