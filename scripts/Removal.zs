@@ -45,6 +45,16 @@ JEI.hideIngredient(<item:createaddition:iron_rod>);
 <recipetype:createaddition:rolling>.remove(<item:createaddition:copper_wire>);
 JEI.hideIngredient(<item:createaddition:copper_wire>);
 
+// Experience Tools
+JEI.hideIngredient(<item:create_sa:experience_pickaxe>);
+craftingTable.removeByName("create_sa:experience_pickaxe_recipe");
+JEI.hideIngredient(<item:create_sa:experience_shovel>);
+craftingTable.removeByName("create_sa:experience_shovel_recipe");
+JEI.hideIngredient(<item:create_sa:experience_axe>);
+craftingTable.removeByName("create_sa:experience_axe_recipe");
+JEI.hideIngredient(<item:create_sa:experience_sword>);
+craftingTable.removeByName("create_sa:experience_sword_recipe");
+
 // IE Rods
 craftingTable.removeByName("immersiveengineering:crafting/stick_iron");
 craftingTable.removeByName("immersiveengineering:crafting/stick_steel");
