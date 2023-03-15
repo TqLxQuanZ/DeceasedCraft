@@ -21,7 +21,7 @@
 	#"item-id": The item's ID (i.e. "minecraft:iron_ingot"). Accepts tags with "#" (i.e. "#minecraft:wool").
 	#"cold": The amount of cold insulation the item provides.
 	#"hot": The amount of heat insulation the item provides.
-	"Insulation Ingredients" = [["farmersdelight:canvas", 0.75, 0.75], ["minecraft:leather", 1.5, 1.5], ["#forge:tough_hides", 2.25, 2.25], ["immersiveengineering:ersatz_leather", 3, 3], ["minecraft:dried_kelp", 1, 0], ["#minecraft:wool", 2, 0], ["immersiveengineering:hemp_fabric", 3, 0], ["cold_sweat:goat_fur", 4, 0], ["minecraft:wheat", 0, 1], ["minecraft:honeycomb", 0, 2], ["cold_sweat:hoglin_hide", 0, 3], ["minecraft:slime_ball", 0, 4]]
+	"Insulation Ingredients" = [["farmersdelight:canvas", 0.5, 0.5], ["minecraft:leather", 1.0, 1.0], ["#forge:tough_hides", 1.5, 1.5], ["immersiveengineering:ersatz_leather", 2, 2], ["minecraft:dried_kelp", 1, 0], ["#minecraft:wool", 2, 0], ["immersiveengineering:hemp_fabric", 3, 0], ["cold_sweat:goat_fur", 4, 0], ["minecraft:wheat", 0, 1], ["minecraft:honeycomb", 0, 2], ["cold_sweat:hoglin_hide", 0, 3], ["minecraft:slime_ball", 0, 4]]
 	#Defines the items that provide insulation when worn
 	#Format: [["item-id-1", amount-1], ["item-id-2", amount-2], ...etc]
 	"Insulated Armor" = [["minecraft:leather_helmet", 4, 4], ["minecraft:leather_chestplate", 6, 6], ["minecraft:leather_leggings", 5, 5], ["minecraft:leather_boots", 4, 4], ["marbleds_arsenal:hazmat_suit_helmet", 6, 6], ["marbleds_arsenal:hazmat_suit_chestplate", 8, 8], ["marbleds_arsenal:hazmat_suit_leggings", 7, 7], ["marbleds_arsenal:hazmat_suit_boots", 6, 6]]
