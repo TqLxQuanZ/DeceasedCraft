@@ -6,7 +6,8 @@
                 "minecraft:skeleton",
                 "minecraft:witch",
                 "minecraft:stray",
-                "minecraft:phantom"],
+                "minecraft:phantom",
+                "cold_sweat:chameleon"],
         "result": "deny"
     },
     {
@@ -69,7 +70,7 @@
         "minlight": 0,
         "maxlight": 7, 
         "seesky": true,
-        "biome": ["biomesoplenty:volcanic_plains", "biomesoplenty:volcano"],
+        "biome": ["biomesoplenty:volcanic_plains", "biomesoplenty:volcano", "wythers:volcano", "wythers:volcanic_crater", "wythers:volcanic_chamber"],
         "result": "allow"
     },
     {

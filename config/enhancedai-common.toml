@@ -495,7 +495,7 @@
 	[Zombie."Digger Zombie"]
 		#Chance for a Zombie to spawn with the digger ability
 		#Range: 0.0 ~ 1.0
-		"Digger Chance" = 0.15
+		"Digger Chance" = 0.25
 		#Zombies with Digger AI will mine only if they have any tool in the off-hand
 		"Digger Tool Only" = false
 		#Zombies with Digger AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable regardless of proper tool or not.
@@ -504,13 +504,13 @@
 		"Equip Wooden Pick" = false
 		#The maximum Y coordinate at which Zombies can mine.
 		#Range: -128 ~ 512
-		"Max Y Dig" = 318
+		"Max Y Dig" = 512
 		#The maximum distance from the target at which the zombie can mine. Set to 0 to always mine.
 		#Range: 0 ~ 128
-		"Max Distance" = 2
+		"Max Distance" = 0
 		#Multiplier for digger zombies mining speed. E.g. with this set to 2, zombies will take twice the time to mine a block.
 		#Range: 0.0 ~ 128.0
-		"Digger Speed Multiplier" = 1.0
+		"Digger Speed Multiplier" = 0.5
 		#Zombies with Digger AI will not be able to break tile entities
 		"Blacklist Tile Entities" = false
 
