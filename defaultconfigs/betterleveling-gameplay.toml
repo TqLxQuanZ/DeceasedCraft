@@ -1,0 +1,16 @@
+
+#Settings related to gameplay
+[gameplay]
+	#Define how much levels the player needs to unlock his FIRST specialization
+	#Range: > 0
+	firstSpecCost = 5
+	#If all progress should be lost on death
+	resetOnDeath = true
+	#Define the amount of XP refunded when decreasing skill level
+	#Range: 0.0 ~ 1.0
+	xpRefundFactor = 0.5
+	#If enabled, bound machines will be usable only by their owner
+	lockBoundMachines = false
+	#If right-click harvesting should be enabled.
+	rightClickHarvest = true
+

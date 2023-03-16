@@ -510,7 +510,7 @@
 		"Max Distance" = 0
 		#Multiplier for digger zombies mining speed. E.g. with this set to 2, zombies will take twice the time to mine a block.
 		#Range: 0.0 ~ 128.0
-		"Digger Speed Multiplier" = 0.5
+		"Digger Speed Multiplier" = 0.25
 		#Zombies with Digger AI will not be able to break tile entities
 		"Blacklist Tile Entities" = false
 
