@@ -167,8 +167,11 @@ JEI.hideIngredient(<item:car:canola_methanol_mix_bucket>);
 JEI.hideIngredient(<item:car:glycerin_bucket>);
 JEI.hideIngredient(<item:car:bio_diesel_bucket>);
 
-// Others
+// Simple Planes
+craftingTable.removeByName("simpleplanes:folding");
+JEI.hideIngredient(<item:simpleplanes:folding>);
 
+// Others
 craftingTable.removeByName("car:iron_stick");
 craftingTable.removeByName("car:oilmill");
 craftingTable.removeByName("car:blastfurnace");
