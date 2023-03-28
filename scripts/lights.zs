@@ -9,6 +9,7 @@ import crafttweaker.api.tag.MCTag;
 <tag:blocks:lostcities:lights>.add(<block:minecraft:glowstone>);
 <tag:blocks:lostcities:lights>.add(<block:minecraft:campfire>);
 <tag:blocks:lostcities:lights>.add(<block:simplylight:rodlamp>);
+<tag:blocks:lostcities:lights>.add(<block:simplylight:wall_lamp>);
 <tag:blocks:lostcities:lights>.add(<block:simplylight:lightbulb>);
 <tag:blocks:lostcities:lights>.add(<block:simplylight:illuminant_block_on>);
 <tag:blocks:lostcities:lights>.add(<block:simplylight:illuminant_panel>);

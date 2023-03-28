@@ -126,3 +126,26 @@ villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 15, <item:marbled
 villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 15, <item:marbleds_arsenal:machete>, 6, 20, 0.2);
 villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 15, <item:marbleds_arsenal:fire_axe>, 6, 20, 0.2);
 villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 64, <item:additionalguns:m1911>, 3, 40, 0.2);
+
+// Wandering Trader
+villagerTrades.removeAllWanderingTrades(1);
+villagerTrades.removeAllWanderingTrades(2);
+
+// Tier 1
+villagerTrades.addWanderingTrade(1, 1, <item:minecraft:gunpowder> * 2, 64, 10);
+villagerTrades.addWanderingTrade(1, 1, <item:farmersdelight:mutton_wrap> * 2, 16, 10);
+villagerTrades.addWanderingTrade(1, 1, <item:farmersdelight:bacon_sandwich> * 2, 16, 10);
+villagerTrades.addWanderingTrade(1, 1, <item:firstaid:bandage> * 3, 16, 10);
+villagerTrades.addWanderingTrade(1, 3, <item:immersiveengineering:stick_steel>, 2, 10);
+villagerTrades.addWanderingTrade(1, 4, <item:immersiveengineering:stick_aluminum>, 2, 10);
+villagerTrades.addWanderingTrade(1, 4, <item:immersiveengineering:ingot_steel>, 3, 10);
+villagerTrades.addWanderingTrade(1, 4, <item:additionalguns:casing_small> * 16, 8, 10);
+villagerTrades.addWanderingTrade(1, 4, <item:additionalguns:casing_short> * 16, 8, 10);
+
+// Tier 2
+villagerTrades.addWanderingTrade(2, 6, <item:additionalguns:casing_medium> * 16, 8, 10);
+villagerTrades.addWanderingTrade(2, 8, <item:additionalguns:casing_long> * 8, 4, 10);
+villagerTrades.addWanderingTrade(2, 6, <item:additionalguns:casing_heavy> * 16, 8, 10);
+villagerTrades.addWanderingTrade(2, 6, <item:additionalguns:casing_special> * 16, 8, 10);
+villagerTrades.addWanderingTrade(2, 24, <item:create:precision_mechanism>, 2, 30);
+villagerTrades.addWanderingTrade(2, 6, <item:contenttweaker:rubber>, 4, 30);

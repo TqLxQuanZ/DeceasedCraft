@@ -13,5 +13,12 @@
 
 ["Mob Spawning"]
 	#Defines the biomes that Chameleons can spawn in
+	#Format: [["biome_id", weight], ["biome_id", weight], etc...]
 	"Chameleon Spawn Biomes" = [["minecraft:jungle", 8], ["minecraft:sparse_jungle", 8], ["minecraft:bamboo_jungle", 8], ["minecraft:desert", 8], ["minecraft:desert_hills", 8], ["minecraft:desert_lakes", 8], ["biomesoplenty:rainforest", 16], ["biomesoplenty:rocky_rainforest", 16], ["biomesoplenty:fungal_jungle", 16], ["biomesoplenty:lush_desert", 8], ["biomesoplenty:tropics", 16], ["biomesoplenty:outback", 8], ["biomesoplenty:lush_desert", 8]]
+	#Defines additional biomes that goats can spawn in
+	#Format: [["biome_id", weight], ["biome_id", weight], etc...]
+	#Not affected by the "Increase Goat Spawns" option
+	"Goat Spawn Biomes" = [["minecraft:meadow", 4], ["minecraft:windswept_hills", 8], ["minecraft:windswept_forest", 8], ["minecraft:windswept_gravelly_hills", 8], ["minecraft:grove", 8], ["minecraft:stony_peaks", 8], ["biomesoplenty:boreal_forest", 8], ["biomesoplenty:jade_cliffs", 8], ["biomesoplenty:crag", 3]]
+	#If true, goats will spawn more frequently in the world
+	"Increase Goat Spawns" = true
 
