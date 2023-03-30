@@ -5,7 +5,7 @@
 #Setting this to 10000 will completely prevent artifacts from spawning
 #When set to 0, every container that can contain artifacts will contain an artifact
 #Range: 0.0 ~ 10000.0
-artifact_rarity = 1.0
+artifact_rarity = 10000.0
 
 [campsite]
 	#Probability that a campsite has a mimic instead of a chest
