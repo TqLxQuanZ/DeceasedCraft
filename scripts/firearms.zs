@@ -10,7 +10,7 @@ import crafttweaker.api.item.IItemStack;
 <recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_shell", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_shell>, 2400, <item:immersiveengineering:empty_shell> * 4);
 
 // Small Bullet Copper
-<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_small", "bullet", [<item:additionalguns:casing_small>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/copper>], <item:additionalguns:bullet_small>);
+<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_small", "bullet", [<item:additionalguns:casing_small>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/copper>], <item:additionalguns:bullet_small> * 2);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("small_bullet")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:additionalguns:casing_small>)
@@ -21,7 +21,7 @@ import crafttweaker.api.item.IItemStack;
 													  );
 						
 // Short Bullet Iron							
-<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_short", "bullet", [<item:additionalguns:casing_short>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/iron>], <item:additionalguns:bullet_short>);
+<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_short", "bullet", [<item:additionalguns:casing_short>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/iron>], <item:additionalguns:bullet_short> * 2);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("short_bullet")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:additionalguns:casing_short>)
@@ -32,7 +32,7 @@ import crafttweaker.api.item.IItemStack;
 													  );
 
 // Medium Bullet Silver
-<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_medium", "bullet", [<item:additionalguns:casing_medium>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/silver>], <item:additionalguns:bullet_medium>);
+<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_medium", "bullet", [<item:additionalguns:casing_medium>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/silver>], <item:additionalguns:bullet_medium> * 2);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("medium_bullet")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:additionalguns:casing_medium>)
@@ -43,7 +43,7 @@ import crafttweaker.api.item.IItemStack;
 													  );
 
 // Heavy Bullet Steel
-<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_heavy", "bullet", [<item:additionalguns:casing_heavy>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/steel>], <item:additionalguns:bullet_heavy>);
+<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_heavy", "bullet", [<item:additionalguns:casing_heavy>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/steel>], <item:additionalguns:bullet_heavy> * 2);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("heavy_bullet")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:additionalguns:casing_heavy>)
@@ -54,7 +54,7 @@ import crafttweaker.api.item.IItemStack;
 													  );
 
 // Special Bullet Lead
-<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_special", "bullet", [<item:additionalguns:casing_special>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>], <item:additionalguns:bullet_special>);
+<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_special", "bullet", [<item:additionalguns:casing_special>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>], <item:additionalguns:bullet_special> * 2);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("special_bullet")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:additionalguns:casing_special>)
@@ -65,7 +65,7 @@ import crafttweaker.api.item.IItemStack;
 													  );
 
 // Long Bullet Uranium
-<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_long", "bullet", [<item:additionalguns:casing_long>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/uranium>], <item:additionalguns:bullet_long>);
+<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_long", "bullet", [<item:additionalguns:casing_long>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/uranium>], <item:additionalguns:bullet_long> * 2);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("long_bullet")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:additionalguns:casing_long>)
@@ -76,7 +76,7 @@ import crafttweaker.api.item.IItemStack;
 													  );
 
 // Shell Uranium + Steel
-<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_shell", "bullet", [<item:immersiveengineering:empty_shell>, <tag:items:forge:gunpowder> * 2, <tag:items:forge:nuggets/uranium> * 2, <tag:items:forge:nuggets/steel> * 2], <item:cgm:shell>);
+<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_shell", "bullet", [<item:immersiveengineering:empty_shell>, <tag:items:forge:gunpowder> * 2, <tag:items:forge:nuggets/uranium> * 2, <tag:items:forge:nuggets/steel> * 2], <item:cgm:shell> * 2);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("shell")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:immersiveengineering:empty_shell>)

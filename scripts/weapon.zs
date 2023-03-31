@@ -77,6 +77,13 @@ craftingTable.addShaped("frying_pan", <item:marbleds_arsenal:frying_pan>,
     [[<tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
     [<tag:items:forge:rods/steel>, <tag:items:forge:plates/steel>]]);
 
+// Flamerang
+smithing.removeByName("quark:tools/smithing/flamerang_smithing");
+craftingTable.addShaped("flamerang", <item:quark:flamerang>,
+    [[<item:minecraft:netherite_scrap>, <tag:items:minecraft:planks>, <item:quark:diamond_heart>],
+    [<item:minecraft:air>, <item:minecraft:air>, <tag:items:minecraft:planks>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:netherite_scrap>]]);
+
 // Tier 5
 
 smithing.removeByName("minecraft:netherite_sword_smithing");

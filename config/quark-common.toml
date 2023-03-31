@@ -308,9 +308,9 @@
 		#Set this to true to use the recipe without the Heart of Diamond, even if the Heart of Diamond is enabled.
 		"Never Use Heart Of Diamond" = false
 		#Set this to true to disable the short cooldown between throwing Pickarangs.
-		"No Cooldown" = false
+		"No Cooldown" = true
 		#Set this to true to disable the short cooldown between throwing Flamarangs.
-		"Netherite No Cooldown" = false
+		"Netherite No Cooldown" = true
 
 	[tools.pathfinder_maps]
 		#In this section you can add custom Pathfinder Maps. This works for both vanilla and modded biomes.
@@ -850,7 +850,7 @@
 					"Is Blacklist" = false
 
 				[world.blossom_trees.blue.biome_config.biomes]
-					Biomes = ["biomesoplenty:wasteland"]
+					Biomes = ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"]
 					"Is Blacklist" = true
 
 		[world.blossom_trees.lavender]
@@ -872,7 +872,7 @@
 					"Is Blacklist" = false
 
 				[world.blossom_trees.lavender.biome_config.biomes]
-					Biomes = ["biomesoplenty:wasteland"]
+					Biomes = ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"]
 					"Is Blacklist" = true
 
 		[world.blossom_trees.orange]
@@ -894,7 +894,7 @@
 					"Is Blacklist" = false
 
 				[world.blossom_trees.orange.biome_config.biomes]
-					Biomes = ["biomesoplenty:wasteland"]
+					Biomes = ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"]
 					"Is Blacklist" = true
 
 		[world.blossom_trees.pink]
@@ -916,7 +916,7 @@
 					"Is Blacklist" = false
 
 				[world.blossom_trees.pink.biome_config.biomes]
-					Biomes = ["biomesoplenty:wasteland"]
+					Biomes = ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"]
 					"Is Blacklist" = true
 
 		[world.blossom_trees.yellow]
@@ -938,7 +938,7 @@
 					"Is Blacklist" = false
 
 				[world.blossom_trees.yellow.biome_config.biomes]
-					Biomes = ["biomesoplenty:wasteland"]
+					Biomes = ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"]
 					"Is Blacklist" = true
 
 		[world.blossom_trees.red]
@@ -960,7 +960,7 @@
 					"Is Blacklist" = false
 
 				[world.blossom_trees.red.biome_config.biomes]
-					Biomes = ["biomesoplenty:wasteland"]
+					Biomes = ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"]
 					"Is Blacklist" = true
 
 	[world.big_stone_clusters]
