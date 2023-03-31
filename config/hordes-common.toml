@@ -37,7 +37,7 @@
 	#Can villagers be infected.
 	infectVillagers = true
 	#Chance out of 100 for a villager to get infected
-	villagerInfectChance = 15
+	villagerInfectChance = 5
 	#Can players be infected.
 	infectPlayers = true
 	#Whether later levels of infected should slightly slow movement speed? 
@@ -49,11 +49,11 @@
 	#How long do each of the 4 effect phases last for before the next phase is activated?
 	ticksForEffectStage = 6000
 	#Mobs in this list can cause the infection effect.)
-	infectionEntities = ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:drowned", "minecraft:zombie_horse", "hordes:zombie_player", "hordes:drowned_player"]
+	infectionEntities = ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:drowned", "minecraft:zombie_horse", "hordes:zombie_player", "hordes:drowned_player", "zombiemobs:zombie_cat", "zombiemobs:zombie_chicken", "zombiemobs:zombie_cow", "zombiemobs:zombie_dolphin", "zombiemobs:zombie_donkey", "zombiemobs:zombie_fox", "zombiemobs:zombie_goat", "minecraft:llama-50-zombiemobs:zombie_llama", "minecraft:mooshroom-50-zombiemobs:zombie_mooshroom", "minecraft:ocelot-50-zombiemobs:zombie_ocelot", "zombiemobs:zombie_panda", "zombiemobs:zombie_pig", "zombiemobs:zombie_sheep", "zombiemobs:zombie_squid", "zombiemobs:zombie_turtle", "zombiemobs:zombie_wolf"]
 	#A list of items which can cure infection when 'consumed' or used on an entity can accept nbt tags. eg.minecraft:golden_apple, minecraft:potion{Potion: "minecraft:strong_regeneration"}
 	cureItemList = ["minecraft:golden_apple", "minecraft:enchanted_golden_apple"]
 	#A list of entities that can be infected, followed by the chance out of 100 to infect, then the entity to convert them to, entities can have nbt attached to them.(e.g. minecraft:villager-85-minecraft:zombie_villager{ActiveEffects:[{Id:12,Amplifier:0,Duration:10000}]}), note: players and villagers have special code accociated with them, and should not be in this list
-	customConversionList = ["minecraft:horse-65-minecraft:zombie_horse"]
+	customConversionList = ["minecraft:horse-50-minecraft:zombie_horse", "minecraft:cat-50-zombiemobs:zombie_cat", "minecraft:chicken-50-zombiemobs:zombie_chicken", "minecraft:cow-50-zombiemobs:zombie_cow", "minecraft:dolphin-50-zombiemobs:zombie_dolphin", "minecraft:donkey-50-zombiemobs:zombie_donkey", "minecraft:fox-50-zombiemobs:zombie_fox", "minecraft:goat-50-zombiemobs:zombie_goat", "minecraft:llama-50-zombiemobs:zombie_llama", "minecraft:mooshroom-50-zombiemobs:zombie_mooshroom", "minecraft:ocelot-50-zombiemobs:zombie_ocelot", "minecraft:panda-50-zombiemobs:zombie_panda", "minecraft:pig-50-zombiemobs:zombie_pig", "minecraft:sheep-50-zombiemobs:zombie_sheep", "minecraft:squid-50-zombiemobs:zombie_squid", "minecraft:turtle-50-zombiemobs:zombie_turtle", "minecraft:wolf-50-zombiemobs:zombie_wolf"]
 	#Do entities on the infectionEntities list automatically target entities on the infectionConversionList
 	infectionEntitiesAggroConversions = true
 

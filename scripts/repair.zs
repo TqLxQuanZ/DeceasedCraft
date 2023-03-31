@@ -70,7 +70,7 @@ CTEventManager.register<crafttweaker.api.event.AnvilUpdateEvent>((event) => {
         {
             if  Item.anyDamage().matches(event.left) {
                 if AllIngredients[i].matches(event.right) {
-                    event.levelCost = 1;
+                    event.levelCost = 0;
                     event.materialCost = event.right.amount > 1 ? 5 : event.right.amount;
                     event.output = event.left.withDamage(event.left.damage - (event.materialCost * (event.left.maxDamage / 5)));
                 }
@@ -99,7 +99,7 @@ CTEventManager.register<crafttweaker.api.event.AnvilUpdateEvent>((event) => {
     {
         if Item.anyDamage().matches(event.left) {
             if SteelIngredient.matches(event.right) {
-                event.levelCost = 1;
+                event.levelCost = 0;
                 event.materialCost = event.right.amount > 1 ? 2 : event.right.amount;
                 event.output = event.left.withDamage(event.left.damage - (event.materialCost * (event.left.maxDamage / 2)));
             }

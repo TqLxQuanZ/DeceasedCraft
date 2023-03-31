@@ -2,7 +2,7 @@
 #General settings
 [general]
 	#A list of buildings that are safe(r)
-	excludedBuildings = []
+	excludedBuildings = ["multi_communitycenter_3", "multi_communitycenter_4", "multi_communitycenter_6", "multi_convenientstore_0", "multi_convenientstore_2", "multi_cafe_0", "multi_cafe_1", "multi_cafe_2", "multi_cafe_3", "multi_gallery_2"]
 	#List of mobs that can spawn in buildings together with their rarity
 	mobs = [".5=minecraft:zombie"]
 	#List of weapons that the mobs can have together with their rarity
@@ -26,7 +26,7 @@
 	#This message is given when the player tries to open a chest in a haunted building
 	messageUnsafeBuilding = "The building isn't safe enough!"
 	#This message is given when the player enters a haunted building for the first time
-	messageBuildingHaunted = "Something isn't right..."
+	messageBuildingHaunted = "You hear zombies are spawning in this building..."
 	#This message is given when the player clears a building
 	messageBuildingCleared = "You don't see any hordes in this area anymore."
 	#This message is given when the player is halfway clearing a building
@@ -54,7 +54,7 @@
 	maxDamageBonus = 1.0
 	#The chance that a building is haunted
 	#Range: 0.0 ~ 1.0
-	hauntedChance = 0.20
+	hauntedChance = 0.10
 	#The minimum amount of mobs that are spawned by a haunted building
 	#Range: 1 ~ 10000
 	minMobs = 10

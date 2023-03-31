@@ -5,5 +5,25 @@
 		"random" : 0.15,
 		"item": "flashlight:smallredstonebattery",
 		"itemcount": "1/1/2"
+	},
+	{
+		"mob": "minecraft:zombie",
+		"player": true,
+		"random" : 0.1,
+		"item": "additionalguns:bullet_small",
+		"itemcount": "1/1/2"
+	},
+	{
+		"mob": "minecraft:zombie",
+		"player": true,
+		"random" : 0.1,
+		"item": "additionalguns:bullet_short",
+		"itemcount": "1/1/2"
+	},
+	{
+		"mod": "zombiemobs",
+		"random" : 0.85,
+		"item": "minecraft:rotten_flesh",
+		"itemcount": "1/1/2"
 	}
 ]

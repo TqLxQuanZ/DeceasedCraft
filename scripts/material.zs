@@ -2,6 +2,10 @@ import mods.create.MixingManager;
 import crafttweaker.api.item.IItemStack;
 import mods.jei.JEI;
 import crafttweaker.api.recipe.Replacer;
+import crafttweaker.api.recipe.FurnaceRecipeManager;
+
+// Rotten Flesh to Leather
+furnace.addRecipe("leather", <item:minecraft:leather>, <item:minecraft:rotten_flesh>, 1.0, 15);
 
 // Hides
 // Bears

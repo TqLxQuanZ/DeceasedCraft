@@ -3,6 +3,10 @@ import crafttweaker.api.recipe.BlastFurnaceRecipeManager;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 import mods.jei.JEI;
 
+// Artifacts
+JEI.hideIngredient(<item:artifacts:everlasting_beef>);
+JEI.hideIngredient(<item:artifacts:eternal_steak>);
+
 // Marbled Arsenal
 furnace.remove(<item:marbleds_arsenal:steel>);
 JEI.hideIngredient(<item:marbleds_arsenal:steel>);

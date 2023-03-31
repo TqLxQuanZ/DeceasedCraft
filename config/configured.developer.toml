@@ -1,5 +1,5 @@
 #Broadcasts messages to all developers about changes applied to server configs
-broadcastLogs = true
+broadcastLogs = false
 #A list of UUIDs of players who are developers for this server. The players will
 #additionally need to have operator permissions. Developers will have the ability to
 #edit server configs on your dedicated server. Only add players you trust.
