@@ -11,28 +11,33 @@
 		{
 			title: "Warm me up"
 			icon: "cold_sweat:boiler"
-			x: -14.75d
-			y: 2.5d
+			x: -12.5d
+			y: -4.0d
 			description: ["Obtain a boiler to get yourself warm when winter comes."]
 			dependencies: ["0ECF9BD806718584"]
-			progression_mode: "linear"
+			progression_mode: "flexible"
 			id: "40F0383D38357596"
 			tasks: [{
 				id: "575601FA69EFBDBD"
 				type: "item"
 				item: "cold_sweat:boiler"
 			}]
+			rewards: [{
+				id: "0270FC9B249C21CF"
+				type: "xp"
+				xp: 30
+			}]
 		}
 		{
-			title: "What's the current temperature?"
+			title: "What Temp is it?"
 			icon: "cold_sweat:thermometer"
-			x: -16.5d
-			y: 4.0d
+			x: -14.5d
+			y: -2.5d
 			shape: "hexagon"
 			description: ["Obtain a thermometer to check the current biome and surrounding temperature."]
 			dependencies: ["0E39D9CB81AD62AA"]
 			size: 1.5d
-			progression_mode: "linear"
+			progression_mode: "flexible"
 			id: "0ECF9BD806718584"
 			tasks: [{
 				id: "52C47DD83529893F"
@@ -42,33 +47,39 @@
 			rewards: [{
 				id: "4439A7B7A6D5F926"
 				type: "xp"
-				xp: 30
+				xp: 20
 			}]
 		}
 		{
 			title: "Calm me down"
 			icon: "cold_sweat:icebox"
-			x: -14.75d
-			y: 5.5d
+			x: -12.5d
+			y: -1.0d
 			description: ["Obtain an icebox to deal with the upcoming summer."]
 			dependencies: ["0ECF9BD806718584"]
-			progression_mode: "linear"
+			progression_mode: "flexible"
 			id: "1103247BD5316FAE"
 			tasks: [{
 				id: "18DAFD9FF8AD646D"
 				type: "item"
 				item: "cold_sweat:icebox"
 			}]
+			rewards: [{
+				id: "3DECDB9ACC52B98E"
+				type: "xp"
+				xp: 30
+			}]
 		}
 		{
 			title: "Insulating Armor"
 			icon: "cold_sweat:sewing_table"
-			x: -16.5d
-			y: 6.5d
-			description: ["Obtain a sewing table for insulating your armors with leather armor."]
+			x: -14.5d
+			y: -7.5d
+			description: ["Obtain a sewing table for insulating your armors with different type of materials."]
 			dependencies: ["0ECF9BD806718584"]
 			dependency_requirement: "one_completed"
-			progression_mode: "linear"
+			size: 1.5d
+			progression_mode: "flexible"
 			id: "6D09D0FC40082C0E"
 			tasks: [{
 				id: "64FFBAFC5434D56D"
@@ -78,24 +89,29 @@
 			rewards: [{
 				id: "5DF5942D8EA77BAB"
 				type: "item"
-				item: "minecraft:leather"
+				item: "farmersdelight:canvas"
 				count: 4
 			}]
 		}
 		{
 			title: "Best of both worlds"
 			icon: "cold_sweat:hearth"
-			x: -13.5d
-			y: 4.0d
+			x: -11.0d
+			y: -2.5d
 			shape: "gear"
 			dependencies: ["0ECF9BD806718584"]
 			size: 1.5d
-			progression_mode: "linear"
+			progression_mode: "flexible"
 			id: "0B850D8AF2552F83"
 			tasks: [{
 				id: "0143BA16EDEDF12F"
 				type: "item"
 				item: "cold_sweat:hearth"
+			}]
+			rewards: [{
+				id: "4A9102777F689E5A"
+				type: "xp"
+				xp: 50
 			}]
 		}
 		{
@@ -103,19 +119,23 @@
 			icon: "minecraft:zombie_head"
 			x: -21.0d
 			y: 4.0d
-			description: [""]
+			description: [
+				"You ran out of supplies inside the bunker and figured out the cure, but there is no resources for you to craft it."
+				"It is time to go out exploring the aftermath of zombie apocalypse, establish your own proper base and survive out there."
+			]
 			size: 2.0d
+			progression_mode: "flexible"
 			id: "0E39D9CB81AD62AA"
 			tasks: [{
-				id: "72F6F859E7F6B5B8"
+				id: "57D3FB10D7EDD1E4"
 				type: "checkmark"
 			}]
 		}
 		{
 			title: "Better Foods, Better Health"
 			icon: "minecraft:cooked_beef"
-			x: -25.5d
-			y: 3.75d
+			x: -27.0d
+			y: 1.5d
 			shape: "square"
 			description: [
 				"Eat various of foods to increase your Max HP."
@@ -139,8 +159,8 @@
 		{
 			title: "Parkour!"
 			icon: "minecraft:player_head"
-			x: -25.5d
-			y: 6.0d
+			x: -27.0d
+			y: 3.75d
 			shape: "square"
 			description: ["There are various way to get yourself out of dangerous situation, ParCool is one of it, make sure do perform all sort of ParCool to give yourself maximum conveniences!"]
 			size: 1.5d
@@ -160,8 +180,8 @@
 		{
 			title: "Veteran Engineer"
 			icon: "immersiveengineering:manual"
-			x: -25.5d
-			y: 1.5d
+			x: -31.5d
+			y: 3.75d
 			shape: "square"
 			description: [
 				"You're a veteran engineer, therefore possessing absurd amount of knowledge when it comes to technology related information."
@@ -183,33 +203,1063 @@
 			}]
 		}
 		{
-			x: -16.5d
-			y: 8.5d
+			title: "I Need Healing - II"
+			x: -19.0d
+			y: 12.0d
+			description: ["Craft or obtain a bandage to heal your wounds."]
+			dependencies: ["6AD30C57F5648FF3"]
+			progression_mode: "flexible"
 			id: "6A29644DD8421933"
 			tasks: [{
 				id: "55C5026C126024E4"
 				type: "item"
 				item: "firstaid:bandage"
 			}]
+			rewards: [{
+				id: "6D3DE36211B9035D"
+				type: "xp"
+				xp: 30
+			}]
 		}
 		{
-			x: -15.0d
-			y: 8.5d
+			title: "I Need Healing - I"
+			x: -21.0d
+			y: 10.0d
+			description: ["Craft or obtain a plaster to heal your wounds."]
+			dependencies: ["0E39D9CB81AD62AA"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
 			id: "6AD30C57F5648FF3"
 			tasks: [{
 				id: "4214EB5B897FD756"
 				type: "item"
 				item: "firstaid:plaster"
 			}]
+			rewards: [{
+				id: "6F3118AABC37EFCC"
+				type: "xp"
+				xp: 20
+			}]
 		}
 		{
-			x: -16.5d
-			y: 10.0d
+			title: "Drugs"
+			x: -23.0d
+			y: 12.0d
+			description: ["Obtain a morphine to supress your debuffs."]
+			dependencies: ["6AD30C57F5648FF3"]
+			progression_mode: "flexible"
 			id: "7E2C1F85C10A8E0D"
 			tasks: [{
 				id: "3F5BA4113F098FD6"
 				type: "item"
 				item: "firstaid:morphine"
+			}]
+			rewards: [{
+				id: "4B5C8B5241F433E6"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "The Division"
+			x: -12.5d
+			y: 4.0d
+			description: ["Obtain a chainmail chestplate and start considering which armor to go with for your future."]
+			dependencies: ["4454FB66E86DAF5C"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "09DC528AA26ABE8F"
+			tasks: [{
+				id: "35F0A36B44DF0F54"
+				type: "item"
+				item: {
+					id: "minecraft:chainmail_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "59931DF7FEF22B59"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Harder"
+			x: -10.5d
+			y: 5.0d
+			description: ["Obtain or craft an iron chestplate."]
+			dependencies: ["09DC528AA26ABE8F"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "35BA38DB2EE8C07F"
+			tasks: [{
+				id: "1F4CF871A6A03234"
+				type: "item"
+				item: {
+					id: "minecraft:iron_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5A38EF603DB5FAFD"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Harder - III"
+			x: -6.5d
+			y: 5.0d
+			description: ["Obtain or craft a diamond chestplate."]
+			dependencies: ["4B4C1BC44B04A80B"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "22DAF6D1E2B589AD"
+			tasks: [{
+				id: "4B8F5C0D2972EDA2"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "35E3B31A1EFB9694"
+				type: "xp"
+				xp: 800
+			}]
+		}
+		{
+			title: "Harder - IV"
+			x: -4.5d
+			y: 5.0d
+			description: ["Obtain or craft a netherite chestplate."]
+			dependencies: ["22DAF6D1E2B589AD"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "7775CFA36DF58D80"
+			tasks: [{
+				id: "0B5CBF17E95753E7"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3CAC0CB383D1E292"
+				type: "xp"
+				xp: 1200
+			}]
+		}
+		{
+			title: "Harder - II"
+			x: -8.5d
+			y: 5.0d
+			description: ["Obtain or craft a steel chestplate."]
+			dependencies: ["35BA38DB2EE8C07F"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "4B4C1BC44B04A80B"
+			tasks: [{
+				id: "3A9EAE5FDC69374C"
+				type: "item"
+				item: {
+					id: "immersiveengineering:armor_steel_chest"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "04053CEB1B00CB00"
+				type: "xp"
+				xp: 400
+			}]
+		}
+		{
+			title: "Basic of Basic"
+			x: -14.5d
+			y: 4.0d
+			description: ["Obtain a leather chestplate to protect yourself."]
+			dependencies: ["0E39D9CB81AD62AA"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "4454FB66E86DAF5C"
+			tasks: [{
+				id: "0558492778821FF7"
+				type: "item"
+				item: {
+					id: "minecraft:leather_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4CFA17F2AB4AEA6F"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "Faster"
+			x: -10.5d
+			y: 1.0d
+			description: ["Obtain or craft a zinc chestplate."]
+			dependencies: ["09DC528AA26ABE8F"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "69569006DEAEEB26"
+			tasks: [{
+				id: "327BAE3B01691FDA"
+				type: "item"
+				item: {
+					id: "create_sa:zinc_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4A57FA2F4D984BAD"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Stronger"
+			x: -10.5d
+			y: 3.0d
+			description: ["Obtain or craft a copper chestplate."]
+			dependencies: ["09DC528AA26ABE8F"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "407BC1119E17C3A6"
+			tasks: [{
+				id: "441B2C9A608CA865"
+				type: "item"
+				item: {
+					id: "create_sa:copper_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "382E7C9D9953C037"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Better"
+			x: -10.5d
+			y: 7.0d
+			description: ["Obtain or craft a brass chestplate."]
+			dependencies: ["09DC528AA26ABE8F"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "319921E5FDF985DF"
+			tasks: [{
+				id: "417C01A9A0E7D106"
+				type: "item"
+				item: {
+					id: "create_sa:brass_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F15FDEF5054A852"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Better - II"
+			x: -8.5d
+			y: 8.0d
+			description: ["Obtain or craft a brass jetpack."]
+			dependencies: ["319921E5FDF985DF"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "67144BB2127BAB0D"
+			tasks: [{
+				id: "7E5DF5FCEE074A32"
+				type: "item"
+				item: {
+					id: "create_sa:brass_jetpack_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5FAAE35629ECDF17"
+				type: "xp"
+				xp: 600
+			}]
+		}
+		{
+			title: "Better - III"
+			x: -6.5d
+			y: 7.0d
+			description: ["Obtain or craft a brass exoskeleton."]
+			dependencies: ["319921E5FDF985DF"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "4BE44F3FBCE3A8D3"
+			tasks: [{
+				id: "3AB366B4A3A292F1"
+				type: "item"
+				item: {
+					id: "create_sa:brass_exoskeleton_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1AF17AF06DD7433D"
+				type: "xp"
+				xp: 1200
+			}]
+		}
+		{
+			title: "Stronger - III"
+			x: -6.5d
+			y: 3.0d
+			description: ["Obtain or craft a copper exoskeleton."]
+			dependencies: ["407BC1119E17C3A6"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "00442983249FADE3"
+			tasks: [{
+				id: "669A66238285A55B"
+				type: "item"
+				item: {
+					id: "create_sa:copper_exoskeleton_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C78C4F495D75AB0"
+				type: "xp"
+				xp: 1200
+			}]
+		}
+		{
+			title: "Stronger - II"
+			x: -8.5d
+			y: 2.0d
+			description: ["Obtain or craft a copper jetpack."]
+			dependencies: ["407BC1119E17C3A6"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "6171FCCE55F34550"
+			tasks: [{
+				id: "3098056AC2EB526A"
+				type: "item"
+				item: {
+					id: "create_sa:copper_jetpack_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "22F928A358DFF197"
+				type: "xp"
+				xp: 600
+			}]
+		}
+		{
+			title: "Faster - II"
+			x: -8.5d
+			y: 0.0d
+			description: ["Obtain or craft a zinc jetpack."]
+			dependencies: ["69569006DEAEEB26"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "65FF2A6E0982A22E"
+			tasks: [{
+				id: "6E5B9953F76F5FA1"
+				type: "item"
+				item: {
+					id: "create_sa:andesite_jetpack_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "66D3618011BFA0C6"
+				type: "xp"
+				xp: 600
+			}]
+		}
+		{
+			title: "Faster - III"
+			x: -6.5d
+			y: 1.0d
+			description: ["Obtain or craft a zinc exoskeleton."]
+			dependencies: ["69569006DEAEEB26"]
+			progression_mode: "flexible"
+			id: "3FF7A4875BD7B3FF"
+			tasks: [{
+				id: "23C3EED2CA2F267F"
+				type: "item"
+				item: {
+					id: "create_sa:andesite_exoskeleton_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "00CE1C23FB06F0E1"
+				type: "xp"
+				xp: 1200
+			}]
+		}
+		{
+			title: "I Need Brewing"
+			x: -21.0d
+			y: 12.0d
+			description: ["Obtain a brewing stand and start working on more advance potions."]
+			dependencies: ["6AD30C57F5648FF3"]
+			progression_mode: "flexible"
+			id: "6FB7A77B393E65B5"
+			tasks: [{
+				id: "2FE3CAC3B16F7D72"
+				type: "item"
+				item: "minecraft:brewing_stand"
+			}]
+			rewards: [{
+				id: "25833A892AE67A5C"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "Deadly Prevention - I"
+			x: -13.0d
+			y: 2.0d
+			description: ["Obtain or craft a gas mask to prevent the harmful effect from the wasteland."]
+			dependencies: ["4454FB66E86DAF5C"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "3B5CECBE99134A61"
+			tasks: [{
+				id: "3802784B7FE3D999"
+				type: "item"
+				item: {
+					id: "marbleds_arsenal:gas_mask_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "071B4DB8E2101327"
+				type: "xp"
+				xp: 400
+			}]
+		}
+		{
+			title: "Deadly Prevention - II"
+			x: -13.0d
+			y: 6.0d
+			description: ["Obtain or craft a hazmat helmet to prevent the harmful effect from the wasteland."]
+			dependencies: ["4454FB66E86DAF5C"]
+			progression_mode: "flexible"
+			id: "0B929B8E5ED7ACC0"
+			tasks: [{
+				id: "797E9E0FCF308627"
+				type: "item"
+				item: {
+					id: "marbleds_arsenal:hazmat_suit_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "756C51AA27A247FA"
+				type: "xp"
+				xp: 400
+			}]
+		}
+		{
+			title: "That Hits The Spot - I"
+			x: -12.5d
+			y: -7.5d
+			description: ["Obtain a canvas to insulate yourself from both cold and hot environment."]
+			dependencies: ["6D09D0FC40082C0E"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "31B67FE45DCD97BF"
+			tasks: [{
+				id: "6DE3469CC173FD67"
+				type: "item"
+				item: "farmersdelight:canvas"
+			}]
+			rewards: [{
+				id: "34DF719D76A0D8D1"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "That Hits The Spot - II"
+			x: -11.0d
+			y: -7.5d
+			description: ["Obtain a leather to insulate yourself from both cold and hot environment."]
+			dependencies: ["31B67FE45DCD97BF"]
+			progression_mode: "flexible"
+			id: "7D4A2114B3C0BC8C"
+			tasks: [{
+				id: "6846FDDFA83DB25D"
+				type: "item"
+				item: "minecraft:leather"
+			}]
+			rewards: [{
+				id: "3F00DE423753FDB8"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "That Hits The Spot - III"
+			x: -9.5d
+			y: -7.5d
+			description: ["Obtain any tiger/bear hides to insulate yourself from both cold and hot environment."]
+			dependencies: ["7D4A2114B3C0BC8C"]
+			progression_mode: "flexible"
+			id: "79AD3CAC8C46F7CA"
+			tasks: [{
+				id: "4DEF59BF0DB2DF95"
+				type: "item"
+				item: "untamedwilds:hide_bear_black"
+			}]
+			rewards: [{
+				id: "02B4F3908901A3B9"
+				type: "xp"
+				xp: 40
+			}]
+		}
+		{
+			title: "That Hits The Spot - IV"
+			x: -8.0d
+			y: -7.5d
+			description: ["Obtain an ersatz leather to insulate yourself from both cold and hot environment."]
+			dependencies: ["79AD3CAC8C46F7CA"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "66A5D0E80ED3139E"
+			tasks: [{
+				id: "4F03EA98656543FC"
+				type: "item"
+				item: "immersiveengineering:ersatz_leather"
+			}]
+			rewards: [{
+				id: "1286E50D20C6C951"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			title: "Too Hot - I"
+			x: -12.5d
+			y: -6.0d
+			description: ["Obtain a wheat to insulate yourself from hot environment."]
+			dependencies: ["6D09D0FC40082C0E"]
+			progression_mode: "flexible"
+			id: "4E531BEB54C852AB"
+			tasks: [{
+				id: "61B177712C00505D"
+				type: "item"
+				item: "minecraft:wheat"
+			}]
+			rewards: [{
+				id: "3841789132860490"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "Too Hot - II"
+			x: -11.0d
+			y: -6.0d
+			description: ["Obtain a honey comb to insulate yourself from hot environment."]
+			dependencies: ["4E531BEB54C852AB"]
+			progression_mode: "flexible"
+			id: "507D2E6660BE32A5"
+			tasks: [{
+				id: "057F89BFF874325D"
+				type: "item"
+				item: "minecraft:honeycomb"
+			}]
+			rewards: [{
+				id: "107ECB642A99F29D"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "Too Hot - III"
+			x: -9.5d
+			y: -6.0d
+			description: ["Obtain a hoglin hide to insulate yourself from hot environment."]
+			dependencies: ["507D2E6660BE32A5"]
+			progression_mode: "flexible"
+			id: "52721EF7743F31F0"
+			tasks: [{
+				id: "10BDC153D5FDC702"
+				type: "item"
+				item: "cold_sweat:hoglin_hide"
+			}]
+			rewards: [{
+				id: "437CE0347137E419"
+				type: "xp"
+				xp: 40
+			}]
+		}
+		{
+			title: "Too Hot - IV"
+			x: -8.0d
+			y: -6.0d
+			description: ["Obtain a slime ball to insulate yourself from hot environment."]
+			dependencies: ["52721EF7743F31F0"]
+			progression_mode: "flexible"
+			id: "7583E2FC526DEEE4"
+			tasks: [{
+				id: "075300E3F2F380D2"
+				type: "item"
+				item: "minecraft:slime_ball"
+			}]
+			rewards: [{
+				id: "3C83B213D8EC1BCD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Too Cold - I"
+			x: -12.5d
+			y: -9.0d
+			description: ["Obtain a dried kelp to insulate yourself from coldness."]
+			dependencies: ["6D09D0FC40082C0E"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "7428268308957A20"
+			tasks: [{
+				id: "616DD870EF73B0F2"
+				type: "item"
+				item: "minecraft:dried_kelp"
+			}]
+			rewards: [{
+				id: "22A2A3A26D23E47B"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "Too Cold - II"
+			x: -11.0d
+			y: -9.0d
+			description: ["Obtain a wool to insulate yourself from coldness."]
+			dependencies: ["7428268308957A20"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "77B024C0018D1CAD"
+			tasks: [{
+				id: "410C5D3438022CC1"
+				type: "item"
+				item: "minecraft:white_wool"
+			}]
+			rewards: [{
+				id: "03C360EA83F5CA2A"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "Too Cold - III"
+			x: -9.5d
+			y: -9.0d
+			description: ["Obtain a tough fabric to insulate yourself from coldness."]
+			dependencies: ["77B024C0018D1CAD"]
+			progression_mode: "flexible"
+			id: "58197952A086E130"
+			tasks: [{
+				id: "741CFD09F1EF7B50"
+				type: "item"
+				item: "immersiveengineering:hemp_fabric"
+			}]
+			rewards: [{
+				id: "6E7294747CFD96A3"
+				type: "xp"
+				xp: 40
+			}]
+		}
+		{
+			title: "Too Cold - IV"
+			x: -8.0d
+			y: -9.0d
+			description: ["Obtain a goat fur to insulate yourself from coldness."]
+			dependencies: ["58197952A086E130"]
+			progression_mode: "flexible"
+			id: "3A4395529CCEB038"
+			tasks: [{
+				id: "19930F790E9F6E67"
+				type: "item"
+				item: "cold_sweat:goat_fur"
+			}]
+			rewards: [{
+				id: "6359B0998894D470"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Pilot"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "simpleplanes:planes_book"
+				}
+			}
+			x: -31.5d
+			y: 1.5d
+			shape: "square"
+			size: 1.5d
+			can_repeat: true
+			id: "39F82E91EF5D1E48"
+			tasks: [{
+				id: "4677D24F59BF8675"
+				type: "checkmark"
+				title: "Pilot"
+			}]
+			rewards: [{
+				id: "506A7441B826AF36"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "simpleplanes:planes_book"
+					}
+				}
+			}]
+		}
+		{
+			title: "Be Like Water"
+			x: -21.0d
+			y: -2.25d
+			description: ["Obtain a bottle to get your water, but they seems to be dirty."]
+			dependencies: ["0E39D9CB81AD62AA"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "66312FE7394C89A1"
+			tasks: [{
+				id: "6155468144302A5C"
+				type: "item"
+				item: "minecraft:glass_bottle"
+			}]
+			rewards: [{
+				id: "3C11A8E400C1C88D"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "Let Him Cook - II"
+			x: -21.0d
+			y: -5.0d
+			description: ["Obtain a furnace to purify your water bottle."]
+			dependencies: ["66312FE7394C89A1"]
+			progression_mode: "flexible"
+			id: "444A3A8D2F961A51"
+			tasks: [{
+				id: "2D555822D2EEE945"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "6246D575BD81AB91"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "Let Him Cook - I"
+			x: -23.0d
+			y: -4.5d
+			description: ["Craft a campfire to purify your water."]
+			dependencies: ["66312FE7394C89A1"]
+			progression_mode: "flexible"
+			id: "509217323E594CB7"
+			tasks: [{
+				id: "2A6DB5DD125BB71D"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+			rewards: [{
+				id: "76D79FD2A688D3C7"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "Desperate Measure"
+			x: -24.75d
+			y: 1.5d
+			shape: "square"
+			description: ["Obtain a golden apple to cure your infection if you ever had one. Otherwise find somewhere to end yourself before the others did."]
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "2E94AD6C6573EE85"
+			tasks: [{
+				id: "33E0D4299767EEFF"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+			rewards: [{
+				id: "66CA23A5337F1DBD"
+				type: "xp"
+				xp: 600
+			}]
+		}
+		{
+			title: "Specialist"
+			icon: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -24.75d
+			y: 3.75d
+			shape: "square"
+			description: [
+				"Press J to obtain a specialized skill tree for helping you through out the journey."
+				"The other skills can still be learned, but only as twice as slow."
+			]
+			size: 1.5d
+			id: "09DB2A67033171FC"
+			tasks: [{
+				id: "3910A66AD1E76B0B"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0FCF428A1931A549"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Let Him Cook - III"
+			x: -19.0d
+			y: -4.5d
+			description: [
+				"Filter out the water with a sand filter and transfer it to a spout for clean water."
+				"NOTE: Water does not get clean if it gets pump out as a water source, only spout with glass bottle works."
+			]
+			dependencies: ["66312FE7394C89A1"]
+			progression_mode: "flexible"
+			id: "5A13CEAC38BB9ADA"
+			tasks: [{
+				id: "2A6E89709AF63F00"
+				type: "item"
+				item: "create:sand_filter"
+			}]
+			rewards: [{
+				id: "3068AE3D944A64A9"
+				type: "xp"
+				xp: 400
+			}]
+		}
+		{
+			title: "Burning Passion"
+			icon: "minecraft:blaze_powder"
+			x: -24.75d
+			y: 6.0d
+			shape: "square"
+			description: ["Not long after the apocalypse started, there are mentions of spotting blazing rods floating around in volcanic areas from radio."]
+			size: 1.5d
+			id: "23C3071C8EEAFEFB"
+			tasks: [{
+				id: "2A08DAB7C0674A3C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6F487CFD96118717"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Adaptation"
+			icon: "artifacts:villager_hat"
+			x: -27.0d
+			y: 6.0d
+			shape: "square"
+			description: ["Some of the villagers out there are still surviving against the zombie apocalypse, they even changed their stocks."]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "6AC8F0D30412DA22"
+			tasks: [{
+				id: "12EDA0ABAE8E9BAC"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0B8FE9F51F3782DF"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Fallout"
+			x: -31.5d
+			y: 6.0d
+			shape: "square"
+			description: ["Visit the military and industrial area in the wasteland, which previously has been nuked."]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "53A31741CCC3375B"
+			tasks: [{
+				id: "5121F1C0AF5074BD"
+				type: "biome"
+				title: "Fallout"
+				icon: "biomesoplenty:dead_sapling"
+				biome: "biomesoplenty:wasteland"
+			}]
+			rewards: [{
+				id: "537043D80DA58175"
+				type: "xp"
+				xp: 1200
 			}]
 		}
 	]

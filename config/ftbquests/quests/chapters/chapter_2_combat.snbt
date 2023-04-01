@@ -27,10 +27,16 @@
 			y: 5.0d
 			description: ["One does not simply survive the apocalypse without any weapons. This chapter provides the progression of obtaining bullets, melee weapons and guns."]
 			size: 2.0d
+			progression_mode: "flexible"
 			id: "70C3799E5D5D54F3"
 			tasks: [{
-				id: "3E61A22D9F0CDFBF"
+				id: "3FDD2BEC5C412BBF"
 				type: "checkmark"
+			}]
+			rewards: [{
+				id: "40DE784894B4D44E"
+				type: "xp"
+				xp: 10
 			}]
 		}
 		{
@@ -45,9 +51,10 @@
 			x: 0.0d
 			y: -1.5d
 			shape: "hexagon"
-			description: ["Obtain an engineer's blueprint from engineer villager's house or trade from someone with engineer profession."]
+			description: ["Obtain an engineer's mold blueprint from a car service center or warehouse."]
 			dependencies: ["33FC7547AD30DEC7"]
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "7F5CD6053CEA4064"
 			tasks: [{
 				id: "115DF6FEE8FD0CF2"
@@ -60,6 +67,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "029A93E37C8F7BFC"
+				type: "xp"
+				xp: 500
+			}]
 		}
 		{
 			title: "Short But Lethal"
@@ -67,11 +79,17 @@
 			y: -5.5d
 			description: ["Obtain a short bullet casing mold."]
 			dependencies: ["7F5CD6053CEA4064"]
+			progression_mode: "flexible"
 			id: "11B7ADB82ED992BF"
 			tasks: [{
 				id: "0789C0FEF1EC552B"
 				type: "item"
 				item: "contenttweaker:mold_bullet_casing_short"
+			}]
+			rewards: [{
+				id: "24CD8CEB7033DC5E"
+				type: "xp"
+				xp: 150
 			}]
 		}
 		{
@@ -80,11 +98,17 @@
 			y: -4.0d
 			description: ["Obtain a small bullet casing mold."]
 			dependencies: ["7F5CD6053CEA4064"]
+			progression_mode: "flexible"
 			id: "5DC373FF8C98855F"
 			tasks: [{
 				id: "778ABD5DDB3B0BEA"
 				type: "item"
 				item: "contenttweaker:mold_bullet_casing_small"
+			}]
+			rewards: [{
+				id: "4E3D160B94800818"
+				type: "xp"
+				xp: 150
 			}]
 		}
 		{
@@ -93,11 +117,17 @@
 			y: -2.5d
 			description: ["Obtain a medium bullet casing mold."]
 			dependencies: ["7F5CD6053CEA4064"]
+			progression_mode: "flexible"
 			id: "22FB8255689A2DB8"
 			tasks: [{
 				id: "7C219F49A07A9AEB"
 				type: "item"
 				item: "contenttweaker:mold_bullet_casing_medium"
+			}]
+			rewards: [{
+				id: "2496EEB65079982D"
+				type: "xp"
+				xp: 150
 			}]
 		}
 		{
@@ -106,11 +136,17 @@
 			y: 2.0d
 			description: ["Obtain a long bullet casing mold."]
 			dependencies: ["7F5CD6053CEA4064"]
+			progression_mode: "flexible"
 			id: "7BBD81550532F0A6"
 			tasks: [{
 				id: "587F79F64C730677"
 				type: "item"
 				item: "contenttweaker:mold_bullet_casing_long"
+			}]
+			rewards: [{
+				id: "5487977815422E72"
+				type: "xp"
+				xp: 150
 			}]
 		}
 		{
@@ -119,11 +155,17 @@
 			y: -1.0d
 			description: ["Obtain a heavy bullet casing mold."]
 			dependencies: ["7F5CD6053CEA4064"]
+			progression_mode: "flexible"
 			id: "0CC884FA092AB9A9"
 			tasks: [{
 				id: "2F32DAE44929B069"
 				type: "item"
 				item: "contenttweaker:mold_bullet_casing_heavy"
+			}]
+			rewards: [{
+				id: "0D1E164CCDD043C3"
+				type: "xp"
+				xp: 150
 			}]
 		}
 		{
@@ -132,11 +174,17 @@
 			y: 0.5d
 			description: ["Obtain a special bullet casing mold."]
 			dependencies: ["7F5CD6053CEA4064"]
+			progression_mode: "flexible"
 			id: "679272B95086DC83"
 			tasks: [{
 				id: "6295FE06FF238D22"
 				type: "item"
 				item: "contenttweaker:mold_bullet_casing_special"
+			}]
+			rewards: [{
+				id: "738AE5D937F84519"
+				type: "xp"
+				xp: 150
 			}]
 		}
 		{
@@ -146,11 +194,17 @@
 			y: -4.0d
 			description: ["Obtain small bullet casing and possibly automate it."]
 			dependencies: ["5DC373FF8C98855F"]
+			progression_mode: "flexible"
 			id: "4E0B869BB21EB949"
 			tasks: [{
 				id: "4764CAC7D6E583B8"
 				type: "item"
 				item: "additionalguns:casing_small"
+			}]
+			rewards: [{
+				id: "50894E5D9BAE07FE"
+				type: "xp"
+				xp: 200
 			}]
 		}
 		{
@@ -160,11 +214,17 @@
 			y: -5.5d
 			description: ["Obtain short bullet casing and possibly automate it."]
 			dependencies: ["11B7ADB82ED992BF"]
+			progression_mode: "flexible"
 			id: "1B70117B9B8070C2"
 			tasks: [{
 				id: "6AA7F59DB2D78F58"
 				type: "item"
 				item: "additionalguns:casing_short"
+			}]
+			rewards: [{
+				id: "3358D1D64B2A2C8F"
+				type: "xp"
+				xp: 200
 			}]
 		}
 		{
@@ -173,11 +233,17 @@
 			y: -2.5d
 			description: ["Obtain medium bullet casing and possibly automate it."]
 			dependencies: ["22FB8255689A2DB8"]
+			progression_mode: "flexible"
 			id: "0AA2606CEBE58CA0"
 			tasks: [{
 				id: "12B1D66E4E176FB3"
 				type: "item"
 				item: "additionalguns:casing_medium"
+			}]
+			rewards: [{
+				id: "4C5FAD1A267AF452"
+				type: "xp"
+				xp: 200
 			}]
 		}
 		{
@@ -186,11 +252,17 @@
 			y: -1.0d
 			description: ["Obtain heavy bullet casing and possibly automate it."]
 			dependencies: ["0CC884FA092AB9A9"]
+			progression_mode: "flexible"
 			id: "2A982276708FC304"
 			tasks: [{
 				id: "045B271FA6FF536E"
 				type: "item"
 				item: "additionalguns:casing_heavy"
+			}]
+			rewards: [{
+				id: "07BC3DE7D1CB0731"
+				type: "xp"
+				xp: 200
 			}]
 		}
 		{
@@ -199,11 +271,17 @@
 			y: 0.5d
 			description: ["Obtain special bullet casing and possibly automate it."]
 			dependencies: ["679272B95086DC83"]
+			progression_mode: "flexible"
 			id: "1A85FC536700F742"
 			tasks: [{
 				id: "120D76B8AF9D767A"
 				type: "item"
 				item: "additionalguns:casing_special"
+			}]
+			rewards: [{
+				id: "60F6D81C93C77566"
+				type: "xp"
+				xp: 200
 			}]
 		}
 		{
@@ -212,95 +290,137 @@
 			y: 2.0d
 			description: ["Obtain long bullet casing and possibly automate it."]
 			dependencies: ["7BBD81550532F0A6"]
+			progression_mode: "flexible"
 			id: "60BD6F13E06265F9"
 			tasks: [{
 				id: "339EB8024C1377D4"
 				type: "item"
 				item: "additionalguns:casing_long"
 			}]
+			rewards: [{
+				id: "04CB04A0A2B66C6C"
+				type: "xp"
+				xp: 200
+			}]
 		}
 		{
-			title: "Harbinger of Death - I"
+			title: "I Am Death - I"
 			icon: "additionalguns:bullet_short"
 			x: 6.5d
 			y: -5.5d
 			description: ["Craft a short bullet and possibly automate it."]
 			dependencies: ["1B70117B9B8070C2"]
+			progression_mode: "flexible"
 			id: "44E7027F6D6EC53D"
 			tasks: [{
 				id: "2F9869BD4073E1DB"
 				type: "item"
 				item: "additionalguns:bullet_short"
 			}]
+			rewards: [{
+				id: "41E27035E16EC422"
+				type: "xp"
+				xp: 500
+			}]
 		}
 		{
-			title: "Harbinger of Death - II"
+			title: "I Am Death - II"
 			icon: "additionalguns:bullet_small"
 			x: 6.5d
 			y: -4.0d
 			description: ["Craft a small bullet and possibly automate it."]
 			dependencies: ["4E0B869BB21EB949"]
+			progression_mode: "flexible"
 			id: "42854FF262957FF9"
 			tasks: [{
 				id: "03FC3BFB2425773A"
 				type: "item"
 				item: "additionalguns:bullet_small"
 			}]
+			rewards: [{
+				id: "0BEFCC98BE497DB8"
+				type: "xp"
+				xp: 500
+			}]
 		}
 		{
-			title: "Harbinger of Death - III"
+			title: "I Am Death - III"
 			icon: "additionalguns:bullet_medium"
 			x: 6.5d
 			y: -2.5d
 			description: ["Craft a medium bullet and possibly automate it."]
 			dependencies: ["0AA2606CEBE58CA0"]
+			progression_mode: "flexible"
 			id: "60998F7140E7D664"
 			tasks: [{
 				id: "0230CB4CC6E65FD1"
 				type: "item"
 				item: "additionalguns:bullet_medium"
 			}]
+			rewards: [{
+				id: "6E3DB15D0029635E"
+				type: "xp"
+				xp: 500
+			}]
 		}
 		{
-			title: "Harbinger of Death - IV"
+			title: "I Am Death - IV"
 			icon: "additionalguns:bullet_heavy"
 			x: 6.5d
 			y: -1.0d
 			description: ["Craft a heavy bullet and possibly automate it."]
 			dependencies: ["2A982276708FC304"]
+			progression_mode: "flexible"
 			id: "717A877C72593BBD"
 			tasks: [{
 				id: "278FA0E1DE4C9F3A"
 				type: "item"
 				item: "additionalguns:bullet_heavy"
 			}]
+			rewards: [{
+				id: "1B86D58C10CAB01A"
+				type: "xp"
+				xp: 500
+			}]
 		}
 		{
-			title: "Harbinger of Death - V"
+			title: "I Am Death - V"
 			icon: "additionalguns:bullet_special"
 			x: 6.5d
 			y: 0.5d
 			description: ["Craft a special bullet and possibly automate it."]
 			dependencies: ["1A85FC536700F742"]
+			progression_mode: "flexible"
 			id: "5E61A8181DFD0B93"
 			tasks: [{
 				id: "345EF4CAE7534398"
 				type: "item"
 				item: "additionalguns:bullet_special"
 			}]
+			rewards: [{
+				id: "03C857998EF06BC3"
+				type: "xp"
+				xp: 500
+			}]
 		}
 		{
-			title: "Harbinger of Death - VI"
+			title: "I Am Death - VI"
 			icon: "additionalguns:bullet_long"
 			x: 6.5d
 			y: 2.0d
 			description: ["Craft a long bullet and possibly automate it."]
 			dependencies: ["60BD6F13E06265F9"]
+			progression_mode: "flexible"
 			id: "3F4F2FB2A40D5EA7"
 			tasks: [{
 				id: "48088E8D324777B5"
 				type: "item"
 				item: "additionalguns:bullet_long"
+			}]
+			rewards: [{
+				id: "513CFD439A77922A"
+				type: "xp"
+				xp: 500
 			}]
 		}
 		{
@@ -308,10 +428,11 @@
 			icon: "immersiveengineering:workbench"
 			x: -3.75d
 			y: -1.5d
-			description: ["One does not make bullet immediately, you'll need to have an electronic function Metal Press and an engineer workbench for the molds."]
+			description: ["One does not make bullet immediately, you'll need to have an electronic function Metal Press and a mold."]
 			dependencies: ["70C3799E5D5D54F3"]
 			dependency_requirement: "all_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "33FC7547AD30DEC7"
 			tasks: [{
 				id: "190EB120CEB58ED4"
@@ -335,6 +456,7 @@
 			dependencies: ["70C3799E5D5D54F3"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "60C5BD48DDED283C"
 			tasks: [{
 				id: "6E4EB99368E0BB3C"
@@ -350,7 +472,7 @@
 			rewards: [{
 				id: "6E29540BCB14B35A"
 				type: "xp"
-				xp: 100
+				xp: 20
 			}]
 		}
 		{
@@ -368,6 +490,7 @@
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "4645CBD33799EB57"
 			tasks: [{
 				id: "467D2B33568CC88C"
@@ -379,6 +502,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "641D99EC06D424EB"
+				type: "xp"
+				xp: 400
 			}]
 		}
 		{
@@ -396,6 +524,7 @@
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "4BF0644D6EFC2385"
 			tasks: [{
 				id: "33E0D36CF4335E86"
@@ -407,6 +536,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "07E0BF1164630B97"
+				type: "xp"
+				xp: 20
 			}]
 		}
 		{
@@ -424,6 +558,7 @@
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "21AFFACA71032389"
 			tasks: [{
 				id: "450D050A353DCB87"
@@ -435,6 +570,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "3F3D93E316075F1E"
+				type: "xp"
+				xp: 200
 			}]
 		}
 		{
@@ -452,6 +592,7 @@
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "0274F6F88DBF231E"
 			tasks: [{
 				id: "0DDF354DB987CDF3"
@@ -464,6 +605,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7F3638C92ED983CB"
+				type: "xp"
+				xp: 200
+			}]
 		}
 		{
 			title: "Fast But Lower Damage - II"
@@ -473,6 +619,7 @@
 			dependencies: ["0274F6F88DBF231E"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "7DA391B0F34FDD4E"
 			tasks: [{
 				id: "36A8667CF0A521F5"
@@ -485,6 +632,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1718C934A22443EE"
+				type: "xp"
+				xp: 400
+			}]
 		}
 		{
 			title: "Fast But Lower Damage - III"
@@ -494,6 +646,7 @@
 			dependencies: ["0274F6F88DBF231E"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "6320B69E8E31F842"
 			tasks: [{
 				id: "4143925379FA98A2"
@@ -505,6 +658,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "70508B66E08D2D77"
+				type: "xp"
+				xp: 400
 			}]
 		}
 		{
@@ -519,6 +677,7 @@
 			]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "412B87EF9464A054"
 			tasks: [{
 				id: "72E25D85A53EBC18"
@@ -531,6 +690,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7370BB1EA41F89DD"
+				type: "xp"
+				xp: 1200
+			}]
 		}
 		{
 			title: "Decent - II"
@@ -540,6 +704,7 @@
 			dependencies: ["4645CBD33799EB57"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "7AB49D213E95BC4E"
 			tasks: [{
 				id: "40C65E494B169304"
@@ -551,6 +716,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "6FA409C8C52C7CBF"
+				type: "xp"
+				xp: 800
 			}]
 		}
 		{
@@ -568,6 +738,7 @@
 			dependencies: ["21AFFACA71032389"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "4BCF04D9AD600BCD"
 			tasks: [{
 				id: "4903EA5489586B5A"
@@ -579,6 +750,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "63C24A41345200AF"
+				type: "xp"
+				xp: 400
 			}]
 		}
 		{
@@ -596,6 +772,7 @@
 			dependencies: ["21AFFACA71032389"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "77560568DDAE8549"
 			tasks: [{
 				id: "787DCF88F32AA170"
@@ -607,6 +784,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "7AA570E8F282B90A"
+				type: "xp"
+				xp: 400
 			}]
 		}
 		{
@@ -621,6 +803,7 @@
 			]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "770487878F659649"
 			tasks: [{
 				id: "2D5F69E201954D8F"
@@ -632,6 +815,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "6A617ED3FA54DA00"
+				type: "xp"
+				xp: 1200
 			}]
 		}
 		{
@@ -649,6 +837,7 @@
 			dependencies: ["21AFFACA71032389"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "0D1718A032A19355"
 			tasks: [{
 				id: "399B2CAD4C5A3E98"
@@ -661,6 +850,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4E6434A147153003"
+				type: "xp"
+				xp: 400
+			}]
 		}
 		{
 			title: "Decent - IV"
@@ -670,6 +864,7 @@
 			dependencies: ["4645CBD33799EB57"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "2863113310C42AD7"
 			tasks: [{
 				id: "6859A9FCFC63F271"
@@ -682,6 +877,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6B802D578B78D311"
+				type: "xp"
+				xp: 800
+			}]
 		}
 		{
 			title: "Decent - V"
@@ -691,6 +891,7 @@
 			dependencies: ["4645CBD33799EB57"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "4B10190F74E9F86F"
 			tasks: [{
 				id: "59FAFE05E26E7FE1"
@@ -702,6 +903,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "3C10505244523A13"
+				type: "xp"
+				xp: 800
 			}]
 		}
 		{
@@ -719,6 +925,7 @@
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "1FBCC4B57ED1031A"
 			tasks: [{
 				id: "2BEADA28E1610213"
@@ -730,6 +937,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "112FC09560ED2BB1"
+				type: "xp"
+				xp: 40
 			}]
 		}
 		{
@@ -747,6 +959,7 @@
 			dependencies: ["4645CBD33799EB57"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "3800EECD47AB0E0C"
 			tasks: [{
 				id: "7D4F7D8A70BD6A14"
@@ -759,6 +972,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4190722235480C00"
+				type: "xp"
+				xp: 800
+			}]
 		}
 		{
 			title: "Fast But Lower Damage - IV"
@@ -768,6 +986,7 @@
 			dependencies: ["0274F6F88DBF231E"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "7C712B7EE74CB896"
 			tasks: [{
 				id: "28929D8FA321D815"
@@ -779,6 +998,305 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "73AA670A2996F204"
+				type: "xp"
+				xp: 400
+			}]
+		}
+		{
+			title: "More Efficient"
+			x: 0.0d
+			y: -4.0d
+			shape: "hexagon"
+			description: ["Obtain a bullet blueprint from the military base for more efficiency when comes to crafting bullet."]
+			dependencies: ["33FC7547AD30DEC7"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "551F73DAD1FB1FAD"
+			tasks: [{
+				id: "2A9C37EE6E4B3E15"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "bullet"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A38C0DE0E61EE9E"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			title: "It's Just Basic Ingredients"
+			x: -21.0d
+			y: 5.0d
+			description: ["Obtain a workbench for crafting guns."]
+			dependencies: ["70C3799E5D5D54F3"]
+			size: 2.0d
+			progression_mode: "flexible"
+			id: "4696002ED9979138"
+			tasks: [{
+				id: "53F3EA3B0B2A4BE6"
+				type: "item"
+				item: "cgm:workbench"
+			}]
+			rewards: [{
+				id: "0ECD66445FA814CD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Ingredient - II"
+			x: -23.5d
+			y: 9.5d
+			dependencies: ["4696002ED9979138"]
+			progression_mode: "flexible"
+			id: "7AE6E581C9B5D3F9"
+			tasks: [{
+				id: "6814437CF8C9383D"
+				type: "item"
+				item: "immersiveengineering:gunpart_barrel"
+			}]
+			rewards: [{
+				id: "5C932D68CC46CB51"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Ingredient - IX"
+			x: -25.0d
+			y: 1.0d
+			dependencies: ["4696002ED9979138"]
+			progression_mode: "flexible"
+			id: "14B19E2F80C984C2"
+			tasks: [{
+				id: "3EA39715D83726FB"
+				type: "item"
+				item: "immersiveengineering:stick_iron"
+			}]
+			rewards: [{
+				id: "6E81B727996D8095"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Ingredient - VIII"
+			x: -26.5d
+			y: 2.0d
+			dependencies: ["4696002ED9979138"]
+			progression_mode: "flexible"
+			id: "07D2A9C36C5CB114"
+			tasks: [{
+				id: "7FA7225893CDF34F"
+				type: "item"
+				item: "immersiveengineering:stick_steel"
+			}]
+			rewards: [{
+				id: "4D741B38C3CC603E"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Ingredient - VII"
+			x: -27.5d
+			y: 3.5d
+			dependencies: ["4696002ED9979138"]
+			progression_mode: "flexible"
+			id: "3D6BB32D255354B4"
+			tasks: [{
+				id: "0AEA757C3C0A477D"
+				type: "item"
+				item: "immersiveengineering:stick_aluminum"
+			}]
+			rewards: [{
+				id: "487F8D4982CF6149"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Ingredient - VI"
+			x: -28.0d
+			y: 5.0d
+			dependencies: ["4696002ED9979138"]
+			progression_mode: "flexible"
+			id: "249736C9B9729BFD"
+			tasks: [{
+				id: "6D49FAA72EA259B1"
+				type: "item"
+				item: "immersiveengineering:plate_iron"
+			}]
+			rewards: [{
+				id: "604F0703887814DD"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Ingredient - V"
+			x: -27.5d
+			y: 6.5d
+			dependencies: ["4696002ED9979138"]
+			progression_mode: "flexible"
+			id: "6DD7B4F6DEAFCDD5"
+			tasks: [{
+				id: "751B3E08B6A09B55"
+				type: "item"
+				item: "immersiveengineering:plate_steel"
+			}]
+			rewards: [{
+				id: "022D702011A9619B"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Ingredient - IV"
+			x: -26.5d
+			y: 8.0d
+			dependencies: ["4696002ED9979138"]
+			progression_mode: "flexible"
+			id: "251C371456B675FF"
+			tasks: [{
+				id: "6D83DDB78F861E5E"
+				type: "item"
+				item: "immersiveengineering:plate_aluminum"
+			}]
+			rewards: [{
+				id: "5AF32FF75DEDF5F5"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Ingredient - III"
+			x: -25.0d
+			y: 9.0d
+			dependencies: ["4696002ED9979138"]
+			progression_mode: "flexible"
+			id: "6B7F8A18AF86F871"
+			tasks: [{
+				id: "1B8FFC75B9258A3C"
+				type: "item"
+				item: "immersiveengineering:component_steel"
+			}]
+			rewards: [{
+				id: "46824837AF91968B"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Ingredients - X"
+			x: -23.5d
+			y: 0.5d
+			dependencies: ["4696002ED9979138"]
+			progression_mode: "flexible"
+			id: "325C9BD0C5F08077"
+			tasks: [{
+				id: "0BBDA6318EE07053"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+			rewards: [{
+				id: "397F599A50AD59DE"
+				type: "xp"
+				xp: 400
+			}]
+		}
+		{
+			title: "Ingredient - I"
+			x: -22.0d
+			y: 9.5d
+			dependencies: ["4696002ED9979138"]
+			progression_mode: "flexible"
+			id: "2CB3E945DE6A2F2C"
+			tasks: [{
+				id: "36FFF646AA3A6587"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+			rewards: [{
+				id: "43A34D9D3961AA16"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Ingredient - XI"
+			x: -22.0d
+			y: 0.5d
+			dependencies: ["4696002ED9979138"]
+			progression_mode: "flexible"
+			id: "7A3D306DC1915257"
+			tasks: [{
+				id: "042D89607D302016"
+				type: "item"
+				item: "contenttweaker:rubber"
+			}]
+			rewards: [{
+				id: "65B017556EC95D04"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Whoosh - I"
+			x: 0.0d
+			y: 11.0d
+			description: ["Obtain or craft a pickarang."]
+			progression_mode: "flexible"
+			id: "2FEFCC03AF6BD162"
+			tasks: [{
+				id: "6E2C9EA0FFF1473A"
+				type: "item"
+				item: {
+					id: "quark:pickarang"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F89801B91363CAF"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			title: "Whoosh - II"
+			x: 0.0d
+			y: 14.5d
+			description: ["Obtain or craft a flamarang."]
+			progression_mode: "flexible"
+			id: "22306FFEBCE7A493"
+			tasks: [{
+				id: "7B7226F54BCECDB6"
+				type: "item"
+				item: {
+					id: "quark:flamerang"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "705CE4203495331C"
+				type: "xp"
+				xp: 500
 			}]
 		}
 	]
