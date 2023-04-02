@@ -4,8 +4,14 @@ import mods.jei.JEI;
 import crafttweaker.api.recipe.Replacer;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 
+// Underroot
+<tag:items:forge:seeds>.add(<item:bunker_down:underroot_stage_1>);
+
+// Wool to string
+craftingTable.addShapeless("string", <item:minecraft:string> * 3, [<tag:items:minecraft:wool>]);
+
 // Rotten Flesh to Leather
-furnace.addRecipe("leather", <item:minecraft:leather>, <item:minecraft:rotten_flesh>, 1.0, 15);
+furnace.addRecipe("leather", <item:minecraft:leather>, <item:minecraft:rotten_flesh>, 1.0, 100);
 
 // Hides
 // Bears

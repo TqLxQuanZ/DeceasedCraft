@@ -134,7 +134,7 @@
 		{
 			title: "Better Foods, Better Health"
 			icon: "minecraft:cooked_beef"
-			x: -27.0d
+			x: -32.5d
 			y: 1.5d
 			shape: "square"
 			description: [
@@ -159,7 +159,7 @@
 		{
 			title: "Parkour!"
 			icon: "minecraft:player_head"
-			x: -27.0d
+			x: -32.5d
 			y: 3.75d
 			shape: "square"
 			description: ["There are various way to get yourself out of dangerous situation, ParCool is one of it, make sure do perform all sort of ParCool to give yourself maximum conveniences!"]
@@ -180,7 +180,7 @@
 		{
 			title: "Veteran Engineer"
 			icon: "immersiveengineering:manual"
-			x: -31.5d
+			x: -37.0d
 			y: 3.75d
 			shape: "square"
 			description: [
@@ -1047,7 +1047,7 @@
 					"patchouli:book": "simpleplanes:planes_book"
 				}
 			}
-			x: -31.5d
+			x: -37.0d
 			y: 1.5d
 			shape: "square"
 			size: 1.5d
@@ -1131,7 +1131,7 @@
 		}
 		{
 			title: "Desperate Measure"
-			x: -24.75d
+			x: -30.25d
 			y: 1.5d
 			shape: "square"
 			description: ["Obtain a golden apple to cure your infection if you ever had one. Otherwise find somewhere to end yourself before the others did."]
@@ -1158,7 +1158,7 @@
 					Damage: 0
 				}
 			}
-			x: -24.75d
+			x: -30.25d
 			y: 3.75d
 			shape: "square"
 			description: [
@@ -1202,7 +1202,7 @@
 		{
 			title: "Burning Passion"
 			icon: "minecraft:blaze_powder"
-			x: -24.75d
+			x: -30.25d
 			y: 6.0d
 			shape: "square"
 			description: ["Not long after the apocalypse started, there are mentions of spotting blazing rods floating around in volcanic areas from radio."]
@@ -1221,7 +1221,7 @@
 		{
 			title: "Adaptation"
 			icon: "artifacts:villager_hat"
-			x: -27.0d
+			x: -32.5d
 			y: 6.0d
 			shape: "square"
 			description: ["Some of the villagers out there are still surviving against the zombie apocalypse, they even changed their stocks."]
@@ -1241,7 +1241,7 @@
 		}
 		{
 			title: "Fallout"
-			x: -31.5d
+			x: -37.0d
 			y: 6.0d
 			shape: "square"
 			description: ["Visit the military and industrial area in the wasteland, which previously has been nuked."]
@@ -1260,6 +1260,81 @@
 				id: "537043D80DA58175"
 				type: "xp"
 				xp: 1200
+			}]
+		}
+		{
+			title: "Start from Seeds"
+			x: -25.0d
+			y: 4.0d
+			description: ["Plant the under root seeds for obtain log and strings."]
+			dependencies: ["0E39D9CB81AD62AA"]
+			progression_mode: "flexible"
+			id: "7642A41DF9FBD171"
+			tasks: [{
+				id: "28817F7EAB278351"
+				type: "item"
+				item: "bunker_down:underroot_stage_1"
+			}]
+			rewards: [{
+				id: "2C4F15E8841326DB"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			x: -27.0d
+			y: 3.0d
+			dependencies: ["7642A41DF9FBD171"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "72316A3053D9D709"
+			tasks: [{
+				id: "27D258FCB5481E21"
+				type: "item"
+				item: "minecraft:oak_log"
+			}]
+			rewards: [{
+				id: "72192A43FEA0D15B"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			x: -27.0d
+			y: 5.0d
+			dependencies: ["7642A41DF9FBD171"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "49E3CCC7FBFFB0E2"
+			tasks: [{
+				id: "659350C224DDF18F"
+				type: "item"
+				item: "minecraft:string"
+			}]
+			rewards: [{
+				id: "31C837685BE53FE2"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "Smelt It Up"
+			x: -25.0d
+			y: 2.0d
+			description: ["Cook the rotten flesh and turn it into useful leather."]
+			dependencies: ["7642A41DF9FBD171"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "0D0938F03C7ED823"
+			tasks: [{
+				id: "3D3301339D84C8A9"
+				type: "item"
+				item: "minecraft:leather"
+			}]
+			rewards: [{
+				id: "3EA95462523122C0"
+				type: "xp"
+				xp: 30
 			}]
 		}
 	]

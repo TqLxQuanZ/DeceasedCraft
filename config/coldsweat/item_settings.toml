@@ -10,7 +10,7 @@
 ["Soulspring Lamp"]
 	#Defines the items that the Soulspring Lamp can use as fuel and their values
 	#Format: ["item-id-1", "item-id-2", ...etc]
-	"Fuel Items" = [["minecraft:warped_stem", 1], ["minecraft:warped_hyphae", 1], ["minecraft:stripped_warped_stem", 1], ["minecraft:stripped_warped_hyphae", 1], ["minecraft:crimson_stem", 1], ["minecraft:crimson_hyphae", 1], ["minecraft:stripped_crimson_stem", 1], ["minecraft:stripped_crimson_hyphae", 1]]
+	"Fuel Items" = [["minecraft:stripped_warped_hyphae", 1], ["minecraft:crimson_stem", 1], ["minecraft:warped_hyphae", 1], ["minecraft:stripped_crimson_stem", 1], ["minecraft:stripped_warped_stem", 1], ["minecraft:warped_stem", 1], ["minecraft:crimson_hyphae", 1], ["minecraft:stripped_crimson_hyphae", 1]]
 	#Defines the dimensions that the Soulspring Lamp can be used in
 	#Format: ["dimension-id-1", "dimension-id-2", ...etc]
 	"Valid Dimensions" = ["minecraft:the_nether"]
@@ -21,12 +21,12 @@
 	#"item-id": The item's ID (i.e. "minecraft:iron_ingot"). Accepts tags with "#" (i.e. "#minecraft:wool").
 	#"cold": The amount of cold insulation the item provides.
 	#"hot": The amount of heat insulation the item provides.
-	"Insulation Ingredients" = [["farmersdelight:canvas", 0.5, 0.5], ["minecraft:leather", 1.0, 1.0], ["#forge:tough_hides", 1.5, 1.5], ["immersiveengineering:ersatz_leather", 2, 2], ["minecraft:dried_kelp", 1, 0], ["#minecraft:wool", 2, 0], ["immersiveengineering:hemp_fabric", 3, 0], ["cold_sweat:goat_fur", 4, 0], ["minecraft:wheat", 0, 1], ["minecraft:honeycomb", 0, 2], ["cold_sweat:hoglin_hide", 0, 3], ["minecraft:slime_ball", 0, 4]]
+	"Insulation Ingredients" = [["minecraft:lime_wool", 2.0, 0.0], ["minecraft:red_wool", 2.0, 0.0], ["untamedwilds:hide_bigcat_jaguar", 1.5, 1.5], ["minecraft:blue_wool", 2.0, 0.0], ["untamedwilds:hide_bear_white", 1.5, 1.5], ["minecraft:purple_wool", 2.0, 0.0], ["untamedwilds:hide_bigcat_puma", 1.5, 1.5], ["minecraft:brown_wool", 2.0, 0.0], ["untamedwilds:hide_bear_black", 1.5, 1.5], ["farmersdelight:canvas", 0.5, 0.5], ["minecraft:magenta_wool", 2.0, 0.0], ["untamedwilds:hide_bigcat_lion", 1.5, 1.5], ["untamedwilds:hide_bigcat_snow_leopard", 1.5, 1.5], ["minecraft:gray_wool", 2.0, 0.0], ["minecraft:dried_kelp", 1.0, 0.0], ["cold_sweat:hoglin_hide", 0.0, 3.0], ["cold_sweat:goat_fur", 4.0, 0.0], ["minecraft:orange_wool", 2.0, 0.0], ["untamedwilds:hide_bigcat_leopard", 1.5, 1.5], ["minecraft:light_blue_wool", 2.0, 0.0], ["untamedwilds:hide_bigcat_tiger", 1.5, 1.5], ["minecraft:white_wool", 2.0, 0.0], ["immersiveengineering:hemp_fabric", 3.0, 0.0], ["minecraft:green_wool", 2.0, 0.0], ["minecraft:yellow_wool", 2.0, 0.0], ["minecraft:slime_ball", 0.0, 4.0], ["minecraft:honeycomb", 0.0, 2.0], ["untamedwilds:hide_bear_brown", 1.5, 1.5], ["minecraft:pink_wool", 2.0, 0.0], ["minecraft:black_wool", 2.0, 0.0], ["minecraft:leather", 1.0, 1.0], ["untamedwilds:hide_bear_ashen", 1.5, 1.5], ["untamedwilds:hide_bigcat_panther", 1.5, 1.5], ["minecraft:wheat", 0.0, 1.0], ["immersiveengineering:ersatz_leather", 2.0, 2.0], ["minecraft:light_gray_wool", 2.0, 0.0], ["minecraft:cyan_wool", 2.0, 0.0]]
 	#Defines how many insulation slots armor pieces have
 	"Insulation Slots" = [4, 6, 5, 4]
 	#Defines the items that provide insulation when worn
 	#Format: [["item_id", amount], ["item_id", amount], ...etc]
-	"Insulating Armor" = [["minecraft:leather_helmet", 4, 4], ["minecraft:leather_chestplate", 6, 6], ["minecraft:leather_leggings", 5, 5], ["minecraft:leather_boots", 4, 4]]
+	"Insulating Armor" = [["minecraft:leather_helmet", 4.0, 4.0], ["minecraft:leather_boots", 4.0, 4.0], ["minecraft:leather_leggings", 5.0, 5.0], ["minecraft:leather_chestplate", 6.0, 6.0]]
 
 [Consumables]
 	#Defines items that affect the player's temperature when consumed

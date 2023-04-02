@@ -21,9 +21,33 @@
 		"itemcount": "1/1/2"
 	},
 	{
+		"mob": "minecraft:zombie",
+		"random" : 0.6,
+		"item": "minecraft:bone",
+		"itemcount": "2/2/3"
+	},
+	{
+		"mob": "minecraft:zombie",
+		"random" : 0.015,
+		"item": "flashlight:flashlight",
+		"itemcount": "1/1/1"
+	},
+	{
+		"mob": "minecraft:zombie",
+		"random" : 0.15,
+		"item": "createaddition:iron_wire",
+		"itemcount": "1/1/2"
+	},
+	{
 		"mod": "zombiemobs",
 		"random" : 0.85,
 		"item": "minecraft:rotten_flesh",
 		"itemcount": "1/1/2"
+	},
+	{
+		"mod": "zombiemobs",
+		"random" : 0.85,
+		"item": "minecraft:bone",
+		"itemcount": "2/2/3"
 	}
 ]

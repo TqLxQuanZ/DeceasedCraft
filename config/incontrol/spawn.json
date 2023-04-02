@@ -7,22 +7,29 @@
                 "minecraft:witch",
                 "minecraft:stray",
                 "minecraft:phantom",
+                "zombiemobs:zombie_llama",
                 "cold_sweat:chameleon"],
         "result": "deny"
     },
     {
       "mod": "zombiemobs",
       "dimension": "minecraft:overworld",
-      "minlight": 8,
+      "minlight": 6,
       "maxlight": 15,
       "result": "deny"
     },
     {
       "mod": "zombiemobs",
       "dimension": "minecraft:overworld",
+      "result": "default",
+      "speedmultiply": 0.5
+    },
+    {
+      "mod": "zombiemobs",
+      "dimension": "minecraft:overworld",
       "mincount": {
         "mod": "zombiemobs",
-        "amount": 10,
+        "amount": 3,
         "perchunk": true
       },
       "result": "deny"
@@ -32,7 +39,7 @@
       "dimension": "minecraft:overworld",
       "mincount": {
         "mod": "rottencreatures",
-        "amount": 15,
+        "amount": 10,
         "perchunk": true
       },
       "result": "deny"
@@ -41,25 +48,25 @@
         "mob": "minecraft:zombie",
         "dimension": "minecraft:overworld",
         "minlight": 0,
-        "maxlight": 7,
+        "maxlight": 5,
         "seesky": true,
         "result": "allow"
     },
     {
         "mob": "minecraft:zombie",
         "dimension": "minecraft:overworld",
-        "minlight": 8,
-        "maxlight": 15,
-        "result": "default"
+        "mincount": {
+          "mob": "minecraft:zombie",
+          "amount": 15,
+          "perchunk": true
+        },
+        "result": "deny"
     },
     {
         "mob": "minecraft:zombie",
         "dimension": "minecraft:overworld",
-        "mincount": {
-          "mob": "minecraft:zombie",
-          "amount": 50,
-          "perchunk": true
-        },
+        "minlight": 6,
+        "maxlight": 15,
         "result": "deny"
     },
     {
@@ -68,7 +75,7 @@
         "mintime": 0,
         "maxtime": 12000,
         "minlight": 0,
-        "maxlight": 7, 
+        "maxlight": 5, 
         "seesky": true,
         "biome": ["biomesoplenty:volcanic_plains", "biomesoplenty:volcano", "wythers:volcano", "wythers:volcanic_crater", "wythers:volcanic_chamber"],
         "result": "allow"
@@ -97,7 +104,7 @@
     {
       "mob": "minecraft:spider",
       "dimension": "minecraft:overworld", 
-      "minlight": 8,
+      "minlight": 6,
       "maxlight": 15,
       "result": "deny"
     }

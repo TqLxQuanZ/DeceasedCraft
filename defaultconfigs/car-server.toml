@@ -96,7 +96,7 @@
 	#The speed modifier for cars on road blocks
 	#On road blocks are defined in the config section 'road_blocks'
 	#Range: 0.001 ~ 10.0
-	onroad_speed_modifier = 1.0
+	onroad_speed_modifier = 2.0
 
 	[car.road_blocks]
 		#If it starts with '#' it is a tag
