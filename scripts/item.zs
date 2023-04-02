@@ -27,25 +27,7 @@ craftingTable.addShaped("backpack", <item:backpacked:backpack>,
     [<item:minecraft:string>, <tag:items:forge:ingots/iron>, <item:minecraft:string>],
 	[<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>]]);
 
-craftingTable.remove(<item:flashlight:smallredstonebattery>);
-<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("small_redstone_battery")
-                                                      .transitionTo(<item:contenttweaker:incomplete_small_redstone_battery>)
-                                                      .require(<tag:items:forge:plates/nickel>)
-                                                      .loops(1)
-                                                      .addOutput(<item:flashlight:smallredstonebattery> * 3, 1)
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:ingots/copper>))
-                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:immersiveengineering:redstone_acid> * 125))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/aluminum>))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
-                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
-													  );
-                                                      
-craftingTable.remove(<item:flashlight:flashlight>);
-craftingTable.addShaped("flashlight", <item:flashlight:flashlight>,
-    [[<item:immersiveengineering:toolupgrade_shield_flash>, <tag:items:forge:plates/plastic>, <item:minecraft:air>],
-    [<tag:items:forge:plates/plastic>, <tag:items:forge:ingots/aluminum>, <tag:items:minecraft:buttons>],
-	[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:plates/plastic>]]);
-
+                    
 // Marbled's Arsenal
 
 craftingTable.remove(<item:marbleds_arsenal:plank_barricades>);

@@ -37,7 +37,7 @@
 	#Can villagers be infected.
 	infectVillagers = true
 	#Chance out of 100 for a villager to get infected
-	villagerInfectChance = 3
+	villagerInfectChance = 2
 	#Can players be infected.
 	infectPlayers = true
 	#Whether later levels of infected should slightly slow movement speed? 
@@ -45,9 +45,9 @@
 	#Whether later levels of infected should depleet hunger quicker? 
 	infectHunger = true
 	#Chance out of 100 for a player to get infected
-	playerInfectChance = 3
+	playerInfectChance = 2
 	#How long do each of the 4 effect phases last for before the next phase is activated?
-	ticksForEffectStage = 24000
+	ticksForEffectStage = 18000
 	#Mobs in this list can cause the infection effect.)
 	infectionEntities = ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:drowned", "minecraft:zombie_horse", "hordes:zombie_player", "hordes:drowned_player", "zombiemobs:zombie_cat", "zombiemobs:zombie_chicken", "zombiemobs:zombie_cow", "zombiemobs:zombie_dolphin", "zombiemobs:zombie_donkey", "zombiemobs:zombie_fox", "zombiemobs:zombie_goat", "minecraft:llama-50-zombiemobs:zombie_llama", "minecraft:mooshroom-50-zombiemobs:zombie_mooshroom", "minecraft:ocelot-50-zombiemobs:zombie_ocelot", "zombiemobs:zombie_panda", "zombiemobs:zombie_pig", "zombiemobs:zombie_sheep", "zombiemobs:zombie_squid", "zombiemobs:zombie_turtle", "zombiemobs:zombie_wolf"]
 	#A list of items which can cure infection when 'consumed' or used on an entity can accept nbt tags. eg.minecraft:golden_apple, minecraft:potion{Potion: "minecraft:strong_regeneration"}

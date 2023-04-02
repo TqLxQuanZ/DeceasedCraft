@@ -1,6 +1,9 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.entity.attribute.AttributeOperation;
 
+// Fire Axe
+<item:marbleds_arsenal:fire_axe>.maxDamage = 500;
+
 // Crowbar - 3 damage, 1.8 attack speed
 <item:marbleds_arsenal:crowbar>.maxDamage = 1050;
 <item:marbleds_arsenal:crowbar>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);

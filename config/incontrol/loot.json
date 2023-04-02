@@ -2,13 +2,6 @@
 	{
 		"mob": ["minecraft:zombie", "minecraft:husk"],
 		"player": true,
-		"random" : 0.05,
-		"item": "flashlight:smallredstonebattery",
-		"itemcount": "1/1/2"
-	},
-	{
-		"mob": ["minecraft:zombie", "minecraft:husk"],
-		"player": true,
 		"random" : 0.1,
 		"item": "additionalguns:bullet_small",
 		"itemcount": "1/1/2"
@@ -22,37 +15,37 @@
 	},
 	{
 		"mob": ["minecraft:zombie", "minecraft:husk"],
-		"random" : 0.6,
+		"random" : 0.5,
 		"item": "minecraft:bone",
 		"itemcount": "2/2/3"
 	},
 	{
 		"mob": ["minecraft:zombie", "minecraft:husk"],
-		"random" : 0.015,
-		"item": "flashlight:flashlight",
-		"itemcount": "1/1/1"
-	},
-	{
-		"mob": ["minecraft:zombie", "minecraft:husk"],
-		"random" : 0.15,
+		"random" : 0.05,
 		"item": "createaddition:iron_wire",
 		"itemcount": "1/1/2"
 	},
 	{
 		"mob": ["minecraft:zombie", "minecraft:husk"],
-		"random" : 0.0015,
+		"random" : 0.0001,
 		"item": "additionalguns:usp",
 		"itemcount": "1/1/1"
 	},
 	{
 		"mod": "zombiemobs",
-		"random" : 0.85,
+		"random" : 0.3,
 		"item": "minecraft:rotten_flesh",
 		"itemcount": "1/1/2"
 	},
 	{
 		"mod": "zombiemobs",
-		"random" : 0.85,
+		"random" : 0.75,
+		"item": "hardcore_torches:animal_fat",
+		"itemcount": "1/1/2"
+	},
+	{
+		"mod": "zombiemobs",
+		"random" : 0.4,
 		"item": "minecraft:bone",
 		"itemcount": "2/2/3"
 	}

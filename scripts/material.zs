@@ -3,6 +3,11 @@ import crafttweaker.api.item.IItemStack;
 import mods.jei.JEI;
 import crafttweaker.api.recipe.Replacer;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
+import crafttweaker.api.misc.Composter;
+
+// Composter
+composter.setValue(<item:bunker_down:underroot_stage_1>, 0.5);
+composter.setValue(<item:minecraft:rotten_flesh>, 0.5);
 
 // Underroot
 <tag:items:forge:seeds>.add(<item:bunker_down:underroot_stage_1>);

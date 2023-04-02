@@ -1339,11 +1339,17 @@
 			x: -14.5d
 			y: 0.0d
 			description: ["Obtain or craft a waterskin to balance your body temperature."]
+			dependencies: ["0ECF9BD806718584"]
 			id: "3890D6E35528C1F6"
 			tasks: [{
 				id: "24E7C72DFE8A9E3C"
 				type: "item"
 				item: "cold_sweat:waterskin"
+			}]
+			rewards: [{
+				id: "199AAC9783BCA331"
+				type: "xp"
+				xp: 30
 			}]
 		}
 	]
