@@ -1,42 +1,48 @@
 [
 	{
-		"mob": "minecraft:zombie",
+		"mob": ["minecraft:zombie", "minecraft:husk"],
 		"player": true,
-		"random" : 0.15,
+		"random" : 0.05,
 		"item": "flashlight:smallredstonebattery",
 		"itemcount": "1/1/2"
 	},
 	{
-		"mob": "minecraft:zombie",
+		"mob": ["minecraft:zombie", "minecraft:husk"],
 		"player": true,
 		"random" : 0.1,
 		"item": "additionalguns:bullet_small",
 		"itemcount": "1/1/2"
 	},
 	{
-		"mob": "minecraft:zombie",
+		"mob": ["minecraft:zombie", "minecraft:husk"],
 		"player": true,
 		"random" : 0.1,
 		"item": "additionalguns:bullet_short",
 		"itemcount": "1/1/2"
 	},
 	{
-		"mob": "minecraft:zombie",
+		"mob": ["minecraft:zombie", "minecraft:husk"],
 		"random" : 0.6,
 		"item": "minecraft:bone",
 		"itemcount": "2/2/3"
 	},
 	{
-		"mob": "minecraft:zombie",
+		"mob": ["minecraft:zombie", "minecraft:husk"],
 		"random" : 0.015,
 		"item": "flashlight:flashlight",
 		"itemcount": "1/1/1"
 	},
 	{
-		"mob": "minecraft:zombie",
+		"mob": ["minecraft:zombie", "minecraft:husk"],
 		"random" : 0.15,
 		"item": "createaddition:iron_wire",
 		"itemcount": "1/1/2"
+	},
+	{
+		"mob": ["minecraft:zombie", "minecraft:husk"],
+		"random" : 0.0015,
+		"item": "additionalguns:usp",
+		"itemcount": "1/1/1"
 	},
 	{
 		"mod": "zombiemobs",

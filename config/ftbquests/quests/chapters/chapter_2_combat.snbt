@@ -1299,6 +1299,46 @@
 				xp: 500
 			}]
 		}
+		{
+			title: "Alternative Choices - I"
+			x: 1.5d
+			y: 11.0d
+			description: ["Sometimes, non-combat tools might more suitable for you."]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "5C06F2D75E376877"
+			tasks: [{
+				id: "0665684153CFD4FC"
+				type: "item"
+				item: {
+					id: "minecraft:iron_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Alternative Choices - II"
+			x: 1.5d
+			y: 14.5d
+			description: ["Sometimes, non-combat tools might be more suitable for you."]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "644DF4C6DECDEE37"
+			tasks: [{
+				id: "028ECA0398E82E6F"
+				type: "item"
+				item: {
+					id: "minecraft:iron_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

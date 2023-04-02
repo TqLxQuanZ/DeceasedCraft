@@ -123,13 +123,10 @@
 				"You ran out of supplies inside the bunker and figured out the cure, but there is no resources for you to craft it."
 				"It is time to go out exploring the aftermath of zombie apocalypse, establish your own proper base and survive out there."
 			]
+			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
 			id: "0E39D9CB81AD62AA"
-			tasks: [{
-				id: "57D3FB10D7EDD1E4"
-				type: "checkmark"
-			}]
 		}
 		{
 			title: "Better Foods, Better Health"
@@ -1335,6 +1332,18 @@
 				id: "3EA95462523122C0"
 				type: "xp"
 				xp: 30
+			}]
+		}
+		{
+			title: "Waterskin"
+			x: -14.5d
+			y: 0.0d
+			description: ["Obtain or craft a waterskin to balance your body temperature."]
+			id: "3890D6E35528C1F6"
+			tasks: [{
+				id: "24E7C72DFE8A9E3C"
+				type: "item"
+				item: "cold_sweat:waterskin"
 			}]
 		}
 	]
