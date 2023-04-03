@@ -52,6 +52,11 @@
 				type: "item"
 				item: "car:car_workshop"
 			}]
+			rewards: [{
+				id: "3F4F0120E8639D36"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Car Body"
@@ -67,6 +72,11 @@
 				type: "item"
 				item: "car:yellow_transporter_body"
 			}]
+			rewards: [{
+				id: "7D4D273BF39A3B9B"
+				type: "xp"
+				xp: 800
+			}]
 		}
 		{
 			title: "Engine"
@@ -80,6 +90,11 @@
 				id: "1C6162E83CD7D7A0"
 				type: "item"
 				item: "car:engine_3_cylinder"
+			}]
+			rewards: [{
+				id: "4706F191201EAB68"
+				type: "xp"
+				xp: 2000
 			}]
 		}
 		{
@@ -95,6 +110,11 @@
 				type: "item"
 				item: "car:wheel"
 			}]
+			rewards: [{
+				id: "428E6DAF09154DEC"
+				type: "xp"
+				xp: 400
+			}]
 		}
 		{
 			title: "Tank"
@@ -108,6 +128,11 @@
 				id: "50200765FD68D312"
 				type: "item"
 				item: "car:large_tank"
+			}]
+			rewards: [{
+				id: "72E68918A4ECFE96"
+				type: "xp"
+				xp: 1200
 			}]
 		}
 		{
@@ -123,6 +148,11 @@
 				type: "item"
 				item: "car:yellow_container"
 			}]
+			rewards: [{
+				id: "74EC4C9E35BF288B"
+				type: "xp"
+				xp: 1200
+			}]
 		}
 		{
 			title: "License"
@@ -137,6 +167,11 @@
 				id: "1170F0F708D53708"
 				type: "item"
 				item: "car:iron_license_plate_holder"
+			}]
+			rewards: [{
+				id: "2F2AFCDEB42CC9E8"
+				type: "xp"
+				xp: 400
 			}]
 		}
 		{
@@ -155,6 +190,11 @@
 				type: "item"
 				item: "simpleplanes:plane_workbench"
 			}]
+			rewards: [{
+				id: "75C103674EC714C1"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Plank"
@@ -170,6 +210,11 @@
 				type: "item"
 				item: "minecraft:oak_planks"
 			}]
+			rewards: [{
+				id: "20AC24B37FAF04EF"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			title: "You Spin Me Right Round"
@@ -183,6 +228,11 @@
 				id: "6F0CF26B1AEED746"
 				type: "item"
 				item: "simpleplanes:propeller"
+			}]
+			rewards: [{
+				id: "46B830BC0301133E"
+				type: "xp"
+				xp: 800
 			}]
 		}
 		{
@@ -198,6 +248,11 @@
 				type: "item"
 				item: "simpleplanes:furnace_engine"
 			}]
+			rewards: [{
+				id: "35067113AF346A99"
+				type: "xp"
+				xp: 800
+			}]
 		}
 		{
 			title: "Extras"
@@ -212,6 +267,11 @@
 				id: "38C94FA164C33C61"
 				type: "item"
 				item: "simpleplanes:armor"
+			}]
+			rewards: [{
+				id: "6E5CC0BCB7B1C205"
+				type: "xp"
+				xp: 300
 			}]
 		}
 		{
@@ -230,6 +290,11 @@
 				type: "item"
 				item: "create_sa:steam_engine"
 			}]
+			rewards: [{
+				id: "1EDDC3FAF8B87A17"
+				type: "xp"
+				xp: 600
+			}]
 		}
 		{
 			x: -8.0d
@@ -243,6 +308,11 @@
 				id: "64DF824BB2573B75"
 				type: "item"
 				item: "create:track"
+			}]
+			rewards: [{
+				id: "2BF8B09D24475D13"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -258,6 +328,11 @@
 				type: "item"
 				item: "create:track_station"
 			}]
+			rewards: [{
+				id: "2AB92861781F6A53"
+				type: "xp"
+				xp: 500
+			}]
 		}
 		{
 			x: -10.5d
@@ -271,6 +346,11 @@
 				id: "0B8547B4012E8E99"
 				type: "item"
 				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "7B994858DE9C6FED"
+				type: "xp"
+				xp: 100
 			}]
 		}
 	]

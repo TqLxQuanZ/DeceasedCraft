@@ -4,11 +4,16 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 // Fire Axe
 <item:marbleds_arsenal:fire_axe>.maxDamage = 500;
 
-// Crowbar - 3 damage, 1.8 attack speed
+// Dagger
+<item:marbleds_arsenal:dagger>.maxDamage = 500;
+<item:marbleds_arsenal:dagger>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:marbleds_arsenal:dagger>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 3, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+
+// Crowbar - 4 damage, 1.8 attack speed
 <item:marbleds_arsenal:crowbar>.maxDamage = 1050;
 <item:marbleds_arsenal:crowbar>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:marbleds_arsenal:crowbar>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:marbleds_arsenal:crowbar>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:marbleds_arsenal:crowbar>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 3, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:marbleds_arsenal:crowbar>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 
 // Pipe - 5 damage, 1.4 attack speed
