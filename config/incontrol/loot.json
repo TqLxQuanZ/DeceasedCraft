@@ -1,32 +1,32 @@
 [
 	{
-		"mob": ["minecraft:zombie", "minecraft:husk"],
+		"mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
 		"player": true,
 		"random" : 0.1,
 		"item": "additionalguns:bullet_small",
 		"itemcount": "1/1/2"
 	},
 	{
-		"mob": ["minecraft:zombie", "minecraft:husk"],
+		"mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
 		"player": true,
 		"random" : 0.1,
 		"item": "additionalguns:bullet_short",
 		"itemcount": "1/1/2"
 	},
 	{
-		"mob": ["minecraft:zombie", "minecraft:husk"],
+		"mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
 		"random" : 0.5,
 		"item": "minecraft:bone",
 		"itemcount": "2/2/3"
 	},
 	{
-		"mob": ["minecraft:zombie", "minecraft:husk"],
+		"mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
 		"random" : 0.05,
 		"item": "createaddition:iron_wire",
 		"itemcount": "1/1/2"
 	},
 	{
-		"mob": ["minecraft:zombie", "minecraft:husk"],
+		"mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
 		"random" : 0.0001,
 		"item": "additionalguns:usp",
 		"itemcount": "1/1/1"
