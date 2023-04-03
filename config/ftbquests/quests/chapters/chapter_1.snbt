@@ -131,8 +131,8 @@
 		{
 			title: "Better Foods, Better Health"
 			icon: "minecraft:cooked_beef"
-			x: -32.5d
-			y: 1.5d
+			x: -32.25d
+			y: 8.25d
 			shape: "square"
 			description: [
 				"Eat various of foods to increase your Max HP."
@@ -156,7 +156,7 @@
 		{
 			title: "Parkour!"
 			icon: "minecraft:player_head"
-			x: -32.5d
+			x: -32.25d
 			y: 3.75d
 			shape: "square"
 			description: ["There are various way to get yourself out of dangerous situation, ParCool is one of it, make sure do perform all sort of ParCool to give yourself maximum conveniences!"]
@@ -177,8 +177,8 @@
 		{
 			title: "Veteran Engineer"
 			icon: "immersiveengineering:manual"
-			x: -37.0d
-			y: 3.75d
+			x: -36.75d
+			y: 6.0d
 			shape: "square"
 			description: [
 				"You're a veteran engineer, therefore possessing absurd amount of knowledge when it comes to technology related information."
@@ -1044,8 +1044,8 @@
 					"patchouli:book": "simpleplanes:planes_book"
 				}
 			}
-			x: -37.0d
-			y: 1.5d
+			x: -36.75d
+			y: 3.75d
 			shape: "square"
 			size: 1.5d
 			can_repeat: true
@@ -1128,8 +1128,8 @@
 		}
 		{
 			title: "Desperate Measure"
-			x: -30.25d
-			y: 1.5d
+			x: -32.25d
+			y: -0.75d
 			shape: "square"
 			description: ["Obtain a golden apple to cure your infection if you ever had one. Otherwise find somewhere to end yourself before the others did."]
 			size: 1.5d
@@ -1155,7 +1155,7 @@
 					Damage: 0
 				}
 			}
-			x: -30.25d
+			x: -30.0d
 			y: 3.75d
 			shape: "square"
 			description: [
@@ -1199,7 +1199,7 @@
 		{
 			title: "Burning Passion"
 			icon: "minecraft:blaze_powder"
-			x: -30.25d
+			x: -30.0d
 			y: 6.0d
 			shape: "square"
 			description: ["Not long after the apocalypse started, there are mentions of spotting blazing rods floating around in volcanic areas from radio."]
@@ -1218,7 +1218,7 @@
 		{
 			title: "Adaptation"
 			icon: "artifacts:villager_hat"
-			x: -32.5d
+			x: -32.25d
 			y: 6.0d
 			shape: "square"
 			description: ["Some of the villagers out there are still surviving against the zombie apocalypse, they even changed their stocks."]
@@ -1238,8 +1238,8 @@
 		}
 		{
 			title: "Fallout"
-			x: -37.0d
-			y: 6.0d
+			x: -30.0d
+			y: 8.25d
 			shape: "square"
 			description: ["Visit the military and industrial area in the wasteland, which previously has been nuked."]
 			dependency_requirement: "one_started"
@@ -1350,6 +1350,30 @@
 				id: "199AAC9783BCA331"
 				type: "xp"
 				xp: 30
+			}]
+		}
+		{
+			title: "Unavoidable Infection"
+			icon: "minecraft:zombie_head"
+			x: -30.0d
+			y: -0.75d
+			shape: "square"
+			description: [
+				"It is known that all the zombies have the ability to infect their victim whenever getting hit by them."
+				"Be caution when approaching them."
+			]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "7903466341771D44"
+			tasks: [{
+				id: "567A6E5F09AF8F5A"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "746207ACF3AEE11D"
+				type: "xp"
+				xp: 20
 			}]
 		}
 	]
