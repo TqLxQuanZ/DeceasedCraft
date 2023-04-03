@@ -1376,6 +1376,38 @@
 				xp: 20
 			}]
 		}
+		{
+			title: "Encyclopedia of Life"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "untamedwilds:encyclopedia_of_life"
+				}
+			}
+			x: -36.75d
+			y: 8.25d
+			shape: "square"
+			description: ["It is important to know what's out there when surviving in the wilderness."]
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "5AD6FE029629DD2D"
+			tasks: [{
+				id: "1DA025C61B2F7CF2"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "22E7DCD55C6735AB"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "untamedwilds:encyclopedia_of_life"
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

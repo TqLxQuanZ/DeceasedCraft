@@ -13,7 +13,7 @@ composter.setValue(<item:minecraft:rotten_flesh>, 0.5);
 <tag:items:forge:seeds>.add(<item:bunker_down:underroot_stage_1>);
 
 // Wool to string
-craftingTable.addShapeless("string", <item:minecraft:string> * 3, [<tag:items:minecraft:wool>]);
+craftingTable.addShapeless("string", <item:minecraft:string> * 2, [<tag:items:minecraft:wool>]);
 
 // Rotten Flesh to Leather
 furnace.addRecipe("leather", <item:minecraft:leather>, <item:minecraft:rotten_flesh>, 1.0, 100);

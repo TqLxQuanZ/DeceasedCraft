@@ -55,6 +55,20 @@
     {
         "mob": "minecraft:zombie",
         "dimension": "minecraft:overworld",
+        "spawner": true,
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:zombie",
+        "dimension": "minecraft:overworld",
+        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+        "result": "default",
+        "speedmultiply": 0.8,
+        "healthmultiply": 1.5
+    },
+    {
+        "mob": "minecraft:zombie",
+        "dimension": "minecraft:overworld",
         "mincount": {
           "mob": "minecraft:zombie",
           "amount": 15,

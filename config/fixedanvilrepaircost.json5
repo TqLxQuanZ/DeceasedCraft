@@ -1,7 +1,7 @@
 {
 	// The amount of level it costs to repair an item on an anvil. A value of 0 keeps vanilla behaviour.
 	// min: 0, max: 100
-	"repairCostLevelAmount": 0,
+	"repairCostLevelAmount": 1,
 	// The amount of material it costs to repair an item on an anvil. A value of 0 keeps vanilla behaviour.
 	// min: 0, max: 64
 	"repairCostMaterialAmount": 1,

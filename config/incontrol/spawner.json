@@ -34,5 +34,19 @@
 		  "minheight": 45,
 		  "maxheight": 200
 		}
-	  }
+	  },
+	  {
+		  "mob": "minecraft:wandering_trader",
+		  "persecond": 0.005,
+		  "attempts": 1,
+		  "conditions": {
+			"dimension": "minecraft:overworld",
+			"norestrictions": true,
+			"mindist": 10,
+			"maxdist": 30,
+			"minheight": 45,
+			"maxheight": 200,
+			"maxthis": 1
+		  }
+	}
 ]

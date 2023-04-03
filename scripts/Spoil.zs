@@ -44,6 +44,7 @@ spoilManager.addSpoiling("beetroot", <item:minecraft:beetroot>, <item:minecraft:
 spoilManager.addSpoiling("pumpkin_pie", <item:minecraft:pumpkin_pie>, <item:minecraft:rotten_flesh>, 2 * 12000);
 spoilManager.addSpoiling("sweet_berries", <item:minecraft:sweet_berries>, <item:minecraft:rotten_flesh>, 2 * 12000);
 spoilManager.addSpoiling("glow_berries", <item:minecraft:glow_berries>, <item:minecraft:rotten_flesh>, 2 * 12000);
+spoilManager.addSpoiling("egg", <item:minecraft:egg>, <item:minecraft:rotten_flesh>, 7 * 12000);
 
 // Quark
 spoilManager.addSpoiling("crab_leg", <item:quark:crab_leg>, <item:minecraft:rotten_flesh>, 12000);

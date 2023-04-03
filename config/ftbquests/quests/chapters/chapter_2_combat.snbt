@@ -309,7 +309,11 @@
 			x: 6.5d
 			y: -5.5d
 			description: ["Craft a short bullet and possibly automate it."]
-			dependencies: ["1B70117B9B8070C2"]
+			dependencies: [
+				"1B70117B9B8070C2"
+				"0A9F60367F6DDB90"
+			]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "44E7027F6D6EC53D"
 			tasks: [{
@@ -329,7 +333,11 @@
 			x: 6.5d
 			y: -4.0d
 			description: ["Craft a small bullet and possibly automate it."]
-			dependencies: ["4E0B869BB21EB949"]
+			dependencies: [
+				"4E0B869BB21EB949"
+				"0A9F60367F6DDB90"
+			]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "42854FF262957FF9"
 			tasks: [{
@@ -349,7 +357,11 @@
 			x: 6.5d
 			y: -2.5d
 			description: ["Craft a medium bullet and possibly automate it."]
-			dependencies: ["0AA2606CEBE58CA0"]
+			dependencies: [
+				"0AA2606CEBE58CA0"
+				"0A9F60367F6DDB90"
+			]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "60998F7140E7D664"
 			tasks: [{
@@ -369,7 +381,11 @@
 			x: 6.5d
 			y: -1.0d
 			description: ["Craft a heavy bullet and possibly automate it."]
-			dependencies: ["2A982276708FC304"]
+			dependencies: [
+				"2A982276708FC304"
+				"0A9F60367F6DDB90"
+			]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "717A877C72593BBD"
 			tasks: [{
@@ -389,7 +405,11 @@
 			x: 6.5d
 			y: 0.5d
 			description: ["Craft a special bullet and possibly automate it."]
-			dependencies: ["1A85FC536700F742"]
+			dependencies: [
+				"1A85FC536700F742"
+				"0A9F60367F6DDB90"
+			]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "5E61A8181DFD0B93"
 			tasks: [{
@@ -409,7 +429,11 @@
 			x: 6.5d
 			y: 2.0d
 			description: ["Craft a long bullet and possibly automate it."]
-			dependencies: ["60BD6F13E06265F9"]
+			dependencies: [
+				"60BD6F13E06265F9"
+				"0A9F60367F6DDB90"
+			]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "3F4F2FB2A40D5EA7"
 			tasks: [{
@@ -1301,9 +1325,10 @@
 		}
 		{
 			title: "Alternative Choices - I"
-			x: 1.5d
-			y: 11.0d
-			description: ["Sometimes, non-combat tools might more suitable for you."]
+			x: -4.5d
+			y: 10.0d
+			description: ["Sometimes, non-combat tools might be more suitable for you."]
+			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "5C06F2D75E376877"
@@ -1326,9 +1351,10 @@
 		}
 		{
 			title: "Alternative Choices - II"
-			x: 1.5d
-			y: 14.5d
+			x: -3.0d
+			y: 10.0d
 			description: ["Sometimes, non-combat tools might be more suitable for you."]
+			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "644DF4C6DECDEE37"
@@ -1347,6 +1373,29 @@
 				id: "7B515A1A311966A3"
 				type: "xp"
 				xp: 200
+			}]
+		}
+		{
+			title: "It's Just Business"
+			icon: "minecraft:emerald"
+			x: 10.0d
+			y: -2.5d
+			shape: "square"
+			description: ["Attempt to trade with weapon smith or wandering trader for bullets."]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "0A9F60367F6DDB90"
+			tasks: [{
+				id: "73553FA92095D9D4"
+				type: "stat"
+				title: "It's Just Business"
+				stat: "minecraft:traded_with_villager"
+				value: 1
+			}]
+			rewards: [{
+				id: "3EDFD76BF3371A9F"
+				type: "xp"
+				xp: 400
 			}]
 		}
 	]
