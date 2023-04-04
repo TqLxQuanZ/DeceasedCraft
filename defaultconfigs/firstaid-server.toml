@@ -116,7 +116,7 @@
 	allowOtherHealingItems = true
 	#Specifies how much percent of the max health should be restored when sleeping
 	#Range: 0.0 ~ 1.0
-	sleepHealPercentage = 0.2
+	sleepHealPercentage = 0.3
 	#The value external regen will be multiplied with. Has no effect if "allowOtherHealingItems" is disabled
 	#Range: 0.0 ~ 20.0
 	otherRegenMultiplier = 0.5

@@ -1370,7 +1370,9 @@
 			y: 6.5d
 			shape: "square"
 			description: ["It is important to know what's out there when surviving in the wilderness."]
+			dependency_requirement: "one_started"
 			size: 1.5d
+			can_repeat: true
 			progression_mode: "flexible"
 			id: "5AD6FE029629DD2D"
 			tasks: [{

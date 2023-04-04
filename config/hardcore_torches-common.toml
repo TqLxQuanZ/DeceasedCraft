@@ -35,7 +35,7 @@
 	#Overrides torchesExtinguishWhenBroken. Torches will be fully expended when broken (burnt torch or stick).
 	torchesBurnWhenDropped = true
 	#Fully expended torches will drop as sticks rather than burnt torches.
-	burntStick = true
+	burntStick = false
 	#Torches will be affected when in the rain. Will smolder or become unlit depending on torchesSmolder.
 	torchesRain = true
 	#If a torch is in the rain and torchesRain = true, then it will smolder and burn fuel at 1/3rd the normal rate instead of becoming unlit.
