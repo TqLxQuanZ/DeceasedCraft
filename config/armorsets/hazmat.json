@@ -1,0 +1,44 @@
+{
+  "armorSetName": "hazmat",
+  "head": {
+    "itemKey": "marbleds_arsenal:hazmat_suit_helmet"
+  },
+  "chest": {
+    "itemKey": "marbleds_arsenal:hazmat_suit_chestplate"
+  },
+  "legs": {
+    "itemKey": "marbleds_arsenal:hazmat_suit_leggings"
+  },
+  "boots": {
+    "itemKey": "marbleds_arsenal:hazmat_suit_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "immersivepetroleum:anti_fire",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 100,
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:poison",
+      "interactionType": "immunity",
+      "description": "Poison Immunity"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:blindness",
+      "interactionType": "immunity",
+      "description": "Blindness Immunity"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:fire_resistance",
+      "interactionType": "immunity",
+      "description": "Fire Immunity"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}
