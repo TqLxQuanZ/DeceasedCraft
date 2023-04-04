@@ -131,8 +131,8 @@
 		{
 			title: "Better Foods, Better Health"
 			icon: "minecraft:cooked_beef"
-			x: -32.25d
-			y: 8.25d
+			x: -39.25d
+			y: 6.5d
 			shape: "square"
 			description: [
 				"Eat various of foods to increase your Max HP."
@@ -156,8 +156,8 @@
 		{
 			title: "Parkour!"
 			icon: "minecraft:player_head"
-			x: -32.25d
-			y: 3.75d
+			x: -39.25d
+			y: 2.0d
 			shape: "square"
 			description: ["There are various way to get yourself out of dangerous situation, ParCool is one of it, make sure do perform all sort of ParCool to give yourself maximum conveniences!"]
 			size: 1.5d
@@ -177,8 +177,8 @@
 		{
 			title: "Veteran Engineer"
 			icon: "immersiveengineering:manual"
-			x: -36.75d
-			y: 6.0d
+			x: -41.5d
+			y: 4.25d
 			shape: "square"
 			description: [
 				"You're a veteran engineer, therefore possessing absurd amount of knowledge when it comes to technology related information."
@@ -724,25 +724,6 @@
 			}]
 		}
 		{
-			title: "I Need Brewing"
-			x: -21.0d
-			y: 12.0d
-			description: ["Obtain a brewing stand and start working on more advance potions."]
-			dependencies: ["6AD30C57F5648FF3"]
-			progression_mode: "flexible"
-			id: "6FB7A77B393E65B5"
-			tasks: [{
-				id: "2FE3CAC3B16F7D72"
-				type: "item"
-				item: "minecraft:brewing_stand"
-			}]
-			rewards: [{
-				id: "25833A892AE67A5C"
-				type: "xp"
-				xp: 50
-			}]
-		}
-		{
 			title: "Deadly Prevention - I"
 			x: -13.0d
 			y: 2.0d
@@ -1044,8 +1025,8 @@
 					"patchouli:book": "simpleplanes:planes_book"
 				}
 			}
-			x: -36.75d
-			y: 3.75d
+			x: -41.5d
+			y: 2.0d
 			shape: "square"
 			size: 1.5d
 			can_repeat: true
@@ -1128,8 +1109,8 @@
 		}
 		{
 			title: "Desperate Measure"
-			x: -32.25d
-			y: -0.75d
+			x: -33.0d
+			y: 5.25d
 			shape: "square"
 			description: ["Obtain a golden apple to cure your infection if you ever had one. Otherwise find somewhere to end yourself before the others did."]
 			size: 1.5d
@@ -1155,8 +1136,8 @@
 					Damage: 0
 				}
 			}
-			x: -30.0d
-			y: 3.75d
+			x: -35.25d
+			y: 5.25d
 			shape: "square"
 			description: [
 				"Press J to obtain a specialized skill tree for helping you through out the journey."
@@ -1199,8 +1180,8 @@
 		{
 			title: "Burning Passion"
 			icon: "minecraft:blaze_powder"
-			x: -30.0d
-			y: 6.0d
+			x: -35.25d
+			y: 3.0d
 			shape: "square"
 			description: ["Not long after the apocalypse started, there are mentions of spotting blazing rods floating around in volcanic areas from radio."]
 			size: 1.5d
@@ -1218,8 +1199,8 @@
 		{
 			title: "Adaptation"
 			icon: "artifacts:villager_hat"
-			x: -32.25d
-			y: 6.0d
+			x: -39.25d
+			y: 4.25d
 			shape: "square"
 			description: ["Some of the villagers out there are still surviving against the zombie apocalypse, they even changed their stocks."]
 			dependency_requirement: "one_started"
@@ -1238,8 +1219,8 @@
 		}
 		{
 			title: "Fallout"
-			x: -30.0d
-			y: 8.25d
+			x: -33.0d
+			y: 3.0d
 			shape: "square"
 			description: ["Visit the military and industrial area in the wasteland, which previously has been nuked."]
 			dependency_requirement: "one_started"
@@ -1355,8 +1336,8 @@
 		{
 			title: "Unavoidable Infection"
 			icon: "minecraft:zombie_head"
-			x: -30.0d
-			y: -0.75d
+			x: -30.75d
+			y: 5.25d
 			shape: "square"
 			description: [
 				"It is known that all the zombies have the ability to infect their victim whenever getting hit by them."
@@ -1385,8 +1366,8 @@
 					"patchouli:book": "untamedwilds:encyclopedia_of_life"
 				}
 			}
-			x: -36.75d
-			y: 8.25d
+			x: -41.5d
+			y: 6.5d
 			shape: "square"
 			description: ["It is important to know what's out there when surviving in the wilderness."]
 			size: 1.5d
@@ -1406,6 +1387,36 @@
 						"patchouli:book": "untamedwilds:encyclopedia_of_life"
 					}
 				}
+			}]
+		}
+		{
+			title: "Guide To Nowhere"
+			icon: {
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+			x: -30.75d
+			y: 3.0d
+			shape: "square"
+			description: ["Obtain a nature compass to look for a suitable place to live or seek for the resources."]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "1716D8327CDC0B88"
+			tasks: [{
+				id: "2B31FC83841B1B66"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5478C175BB4620EF"
+				type: "xp"
+				xp: 300
 			}]
 		}
 	]

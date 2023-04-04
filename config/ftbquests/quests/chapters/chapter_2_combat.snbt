@@ -312,6 +312,7 @@
 			dependencies: [
 				"1B70117B9B8070C2"
 				"0A9F60367F6DDB90"
+				"6845C82525B963E5"
 			]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -336,6 +337,7 @@
 			dependencies: [
 				"4E0B869BB21EB949"
 				"0A9F60367F6DDB90"
+				"6845C82525B963E5"
 			]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -360,6 +362,7 @@
 			dependencies: [
 				"0AA2606CEBE58CA0"
 				"0A9F60367F6DDB90"
+				"6845C82525B963E5"
 			]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -384,6 +387,7 @@
 			dependencies: [
 				"2A982276708FC304"
 				"0A9F60367F6DDB90"
+				"6845C82525B963E5"
 			]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -408,6 +412,7 @@
 			dependencies: [
 				"1A85FC536700F742"
 				"0A9F60367F6DDB90"
+				"6845C82525B963E5"
 			]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -432,6 +437,7 @@
 			dependencies: [
 				"60BD6F13E06265F9"
 				"0A9F60367F6DDB90"
+				"6845C82525B963E5"
 			]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1378,11 +1384,12 @@
 		{
 			title: "It's Just Business"
 			icon: "minecraft:emerald"
-			x: 10.0d
-			y: -2.5d
+			x: 10.5d
+			y: -3.0d
 			shape: "square"
 			description: ["Attempt to trade with weapon smith or wandering trader for bullets."]
 			dependency_requirement: "one_started"
+			size: 1.5d
 			progression_mode: "flexible"
 			id: "0A9F60367F6DDB90"
 			tasks: [{
@@ -1396,6 +1403,31 @@
 				id: "3EDFD76BF3371A9F"
 				type: "xp"
 				xp: 400
+			}]
+		}
+		{
+			title: "That Came Out Of Nowhere"
+			icon: "minecraft:zombie_head"
+			x: 10.5d
+			y: -0.75d
+			shape: "square"
+			description: ["Killing zombies might provide ammunitions."]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "6845C82525B963E5"
+			tasks: [{
+				id: "595D2D3361466CA4"
+				type: "kill"
+				title: "Bullets?"
+				icon: "minecraft:zombie_head"
+				entity: "minecraft:zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7FE4820666308F14"
+				type: "xp"
+				xp: 100
 			}]
 		}
 	]

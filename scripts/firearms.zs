@@ -76,14 +76,13 @@ import crafttweaker.api.item.IItemStack;
 													  );
 
 // Shell Uranium + Steel
-<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_shell", "bullet", [<item:immersiveengineering:empty_shell>, <tag:items:forge:gunpowder> * 2, <tag:items:forge:nuggets/uranium> * 2, <tag:items:forge:nuggets/steel> * 2], <item:cgm:shell> * 2);
+<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_shell", "bullet", [<item:immersiveengineering:empty_shell>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/steel>], <item:cgm:shell> * 2);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("shell")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:immersiveengineering:empty_shell>)
-                                                      .loops(2)
+                                                      .loops(1)
                                                       .addOutput(<item:cgm:shell>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/uranium>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/steel>))
 													  );
 
