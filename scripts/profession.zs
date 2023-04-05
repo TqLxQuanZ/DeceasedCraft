@@ -133,12 +133,12 @@ villagerTrades.removeAllWanderingTrades(2);
 
 // Tier 1
 villagerTrades.addWanderingTrade(1, 1, <item:minecraft:gunpowder> * 2, 64, 10);
-villagerTrades.addWanderingTrade(1, 1, <item:farmersdelight:mutton_wrap> * 2, 16, 10);
-villagerTrades.addWanderingTrade(1, 1, <item:farmersdelight:bacon_sandwich> * 2, 16, 10);
-villagerTrades.addWanderingTrade(1, 1, <item:firstaid:bandage> * 3, 16, 10);
-villagerTrades.addWanderingTrade(1, 3, <item:immersiveengineering:stick_steel>, 2, 10);
-villagerTrades.addWanderingTrade(1, 4, <item:immersiveengineering:stick_aluminum>, 2, 10);
-villagerTrades.addWanderingTrade(1, 4, <item:immersiveengineering:ingot_steel>, 3, 10);
+villagerTrades.addWanderingTrade(1, 1, <item:farmersdelight:mutton_wrap> * 2, 8, 10);
+villagerTrades.addWanderingTrade(1, 1, <item:farmersdelight:bacon_sandwich> * 2, 8, 10);
+villagerTrades.addWanderingTrade(1, 1, <item:firstaid:bandage> * 3, 8, 10);
+villagerTrades.addWanderingTrade(1, 3, <item:immersiveengineering:stick_steel>, 3, 10);
+villagerTrades.addWanderingTrade(1, 4, <item:immersiveengineering:ingot_aluminum>, 3, 10);
+villagerTrades.addWanderingTrade(1, 3, <item:immersiveengineering:ingot_steel>, 3, 10);
 villagerTrades.addWanderingTrade(1, 4, <item:additionalguns:bullet_small> * 12, 8, 10);
 villagerTrades.addWanderingTrade(1, 4, <item:additionalguns:bullet_short> * 12, 8, 10);
 

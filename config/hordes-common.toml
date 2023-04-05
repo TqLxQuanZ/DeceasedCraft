@@ -13,9 +13,9 @@
 	#What time of day does the horde event start? eg 18000 is midnight with default day length.
 	hordeStartTime = 18000
 	#Amount of days between horde spawns
-	hordeSpawnDays = 10
+	hordeSpawnDays = 7
 	#Amount of days a horde event can be randomly extended by
-	hordeSpawnVariation = 5
+	hordeSpawnVariation = 1
 	#Max cap for the number of entities that can exist from the horde at once.
 	hordeSpawnMax = 150
 	#Length of a day (use only if you have another day that changes the length of the day/night cycle) Default is 24000
