@@ -3,6 +3,11 @@ import crafttweaker.api.recipe.BlastFurnaceRecipeManager;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 import mods.jei.JEI;
 
+// Molds
+craftingTable.removeByName("immersiveengineering:crafting/blueprint_molds");
+craftingTable.removeByName("immersiveengineering:crafting/blueprint_components");
+craftingTable.removeByName("immersiveengineering:crafting/blueprint_bullets");
+
 // Artifacts
 JEI.hideIngredient(<item:artifacts:everlasting_beef>);
 JEI.hideIngredient(<item:artifacts:eternal_steak>);
@@ -149,7 +154,6 @@ JEI.hideIngredient(<item:refinedstorage:quartz_enriched_iron_block>);
 
 // Turrets
 craftingTable.removeByName("immersiveengineering:crafting/empty_shell");
-craftingTable.removeByName("immersiveengineering:crafting/blueprint_molds");
 <recipetype:immersiveengineering:bottling_machine>.removeByName("immersiveengineering:bottling/empty_shell");
 <recipetype:immersiveengineering:blueprint>.removeByName("immersiveengineering:blueprint/bullet_homing");
 <recipetype:immersiveengineering:blueprint>.removeByName("immersiveengineering:blueprint/bullet_wolfpack");
