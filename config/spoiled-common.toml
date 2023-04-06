@@ -9,7 +9,7 @@
 	#(For example, a defaultSpoilTime of 40 means any default food item will have 40 total updates before it spoils. 
 	#This can be altered when custom food spoiling is set using a datapack) [default: 30]
 	#Range: > 1
-	spoilRate = 30
+	spoilRate = 50
 	#When enabled Spoiled initializes spoiling for all vanilla food [default: true]
 	initializeSpoiling = false
 	#When enabled enables a special recipe to merge spoiling food together [default: false]

@@ -21,6 +21,13 @@
     {
       "mod": "zombiemobs",
       "dimension": "minecraft:overworld",
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "result": "default",
+      "healthmultiply": 2.0
+    },
+    {
+      "mod": "zombiemobs",
+      "dimension": "minecraft:overworld",
       "result": "default",
       "speedmultiply": 0.5
     },
@@ -64,7 +71,15 @@
         "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
         "result": "default",
         "speedmultiply": 0.8,
-        "healthmultiply": 1.5
+        "healthmultiply": 2.0
+    },
+    {
+        "mob": "minecraft:zombie",
+        "dimension": "minecraft:overworld",
+        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+        "incity": true,
+        "result": "default",
+        "healthmultiply": 3.0
     },
     {
         "mob": "minecraft:zombie",

@@ -79,7 +79,12 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:create_sa:zinc_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 4, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:create_sa:zinc_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 
-// Diamond Sword - 7 dmg, 1.6 attack speed
+// Diamond Sword - 9 dmg, 1.8 attack speed
+<item:minecraft:diamond_sword>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:minecraft:diamond_sword>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:minecraft:diamond_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 8, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:minecraft:diamond_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+
 // Steel Sword - 8 dmg, 1.4 attack speed
 <item:immersiveengineering:sword_steel>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:immersiveengineering:sword_steel>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
