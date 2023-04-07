@@ -241,9 +241,9 @@ craftingTable.remove(<item:immersiveengineering:armor_steel_feet>);
     [[<tag:items:forge:plates/steel>, <item:minecraft:iron_boots>.anyDamage(), <tag:items:forge:plates/steel>],
     [<tag:items:forge:plates/steel>, <item:minecraft:air>, <tag:items:forge:plates/steel>]]);
 
-craftingTable.remove(<item:create_sa:brass_jetpack_chestplate>);
-craftingTable.remove(<item:create_sa:andesite_jetpack_chestplate>);
-craftingTable.remove(<item:create_sa:copper_jetpack_chestplate>);
+<recipetype:create:mechanical_crafting>.remove(<item:create_sa:brass_jetpack_chestplate>);
+<recipetype:create:mechanical_crafting>.remove(<item:create_sa:andesite_jetpack_chestplate>);
+<recipetype:create:mechanical_crafting>.remove(<item:create_sa:copper_jetpack_chestplate>);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t4_brass_jetpack_chestplate", <item:create_sa:brass_jetpack_chestplate>,
     [[<item:minecraft:air>, <item:create:shaft>, <item:create:belt_connector>, <item:create:shaft>, <item:minecraft:air>],
@@ -293,7 +293,6 @@ craftingTable.remove(<item:minecraft:diamond_boots>);
 <recipetype:create:mechanical_crafting>.remove(<item:create_sa:brass_exoskeleton_chestplate>);
 <recipetype:create:mechanical_crafting>.remove(<item:create_sa:andesite_exoskeleton_chestplate>);
 <recipetype:create:mechanical_crafting>.remove(<item:create_sa:copper_exoskeleton_chestplate>);
-craftingTable.remove(<item:create_sa:copper_exoskeleton_chestplate>);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t5_brass_exoskeleton_chestplate", <item:create_sa:brass_exoskeleton_chestplate>,
     [[<item:minecraft:air>, <item:create:shaft>, <item:create:belt_connector>, <item:create:shaft>, <item:minecraft:air>],
