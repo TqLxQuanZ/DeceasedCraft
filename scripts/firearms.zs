@@ -10,84 +10,90 @@ import crafttweaker.api.item.IItemStack;
 <recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_shell", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_shell>, 2400, <item:immersiveengineering:empty_shell> * 4);
 
 // Small Bullet Copper
-<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_small", "bullet", [<item:additionalguns:casing_small>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/copper>], <item:additionalguns:bullet_small> * 2);
+craftingTable.addShapeless("bullet_small", <item:additionalguns:bullet_small>,
+    [<item:additionalguns:casing_small>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/copper>]);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("small_bullet")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:additionalguns:casing_small>)
                                                       .loops(1)
-                                                      .addOutput(<item:additionalguns:bullet_small>, 1)
+                                                      .addOutput(<item:additionalguns:bullet_small>, 2)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/copper>))
 													  );
 						
-// Short Bullet Iron							
-<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_short", "bullet", [<item:additionalguns:casing_short>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/iron>], <item:additionalguns:bullet_short> * 2);
+// Short Bullet Iron
+craftingTable.addShapeless("bullet_short", <item:additionalguns:bullet_short>,
+    [<item:additionalguns:casing_short>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/iron>]);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("short_bullet")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:additionalguns:casing_short>)
                                                       .loops(1)
-                                                      .addOutput(<item:additionalguns:bullet_short>, 1)
+                                                      .addOutput(<item:additionalguns:bullet_short>, 2)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/iron>))
 													  );
 
 // Medium Bullet Silver
-<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_medium", "bullet", [<item:additionalguns:casing_medium>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/silver>], <item:additionalguns:bullet_medium> * 2);
+craftingTable.addShapeless("bullet_medium", <item:additionalguns:bullet_medium>,
+    [<item:additionalguns:casing_medium>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/silver>]);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("medium_bullet")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:additionalguns:casing_medium>)
                                                       .loops(1)
-                                                      .addOutput(<item:additionalguns:bullet_medium>, 1)
+                                                      .addOutput(<item:additionalguns:bullet_medium>, 2)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/silver>))
 													  );
 
 // Heavy Bullet Steel
-<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_heavy", "bullet", [<item:additionalguns:casing_heavy>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/steel>], <item:additionalguns:bullet_heavy> * 2);
+craftingTable.addShapeless("bullet_heavy", <item:additionalguns:bullet_heavy>,
+    [<item:additionalguns:casing_heavy>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/steel>]);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("heavy_bullet")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:additionalguns:casing_heavy>)
                                                       .loops(1)
-                                                      .addOutput(<item:additionalguns:bullet_heavy>, 1)
+                                                      .addOutput(<item:additionalguns:bullet_heavy>, 2)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/steel>))
 													  );
 
 // Special Bullet Lead
-<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_special", "bullet", [<item:additionalguns:casing_special>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>], <item:additionalguns:bullet_special> * 2);
+craftingTable.addShapeless("bullet_special", <item:additionalguns:bullet_special>,
+    [<item:additionalguns:casing_special>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("special_bullet")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:additionalguns:casing_special>)
                                                       .loops(1)
-                                                      .addOutput(<item:additionalguns:bullet_special>, 1)
+                                                      .addOutput(<item:additionalguns:bullet_special>, 2)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
 													  );
 
 // Long Bullet Uranium
-<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_long", "bullet", [<item:additionalguns:casing_long>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/uranium>], <item:additionalguns:bullet_long> * 2);
+craftingTable.addShapeless("bullet_long", <item:additionalguns:bullet_long>,
+    [<item:additionalguns:casing_long>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/uranium>]);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("long_bullet")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:additionalguns:casing_long>)
                                                       .loops(1)
-                                                      .addOutput(<item:additionalguns:bullet_long>, 1)
+                                                      .addOutput(<item:additionalguns:bullet_long>, 2)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/uranium>))
 													  );
 
-// Shell Uranium + Steel
-<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/bullet_shell", "bullet", [<item:immersiveengineering:empty_shell>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/steel>], <item:cgm:shell> * 2);
+// Shell Brass
+craftingTable.addShapeless("cgm_shell", <item:cgm:shell>,
+    [<item:immersiveengineering:empty_shell>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/brass>]);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("shell")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:immersiveengineering:empty_shell>)
                                                       .loops(1)
                                                       .addOutput(<item:cgm:shell>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/steel>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/brass>))
 													  );
 
 // Missile
-<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/missile", "bullet", [<tag:items:forge:plates/steel> * 3, <item:minecraft:tnt>], <item:cgm:missile>);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("missile")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<tag:items:forge:plates/steel>)
@@ -99,23 +105,25 @@ import crafttweaker.api.item.IItemStack;
 													  );
                                                       
 // Grenade
-<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/grenade", "bullet", [<tag:items:forge:nuggets/iron> * 2, <tag:items:forge:gunpowder> * 2, <tag:items:forge:plates/plastic> ], <item:cgm:grenade>);
+craftingTable.addShapeless("grenade", <item:cgm:grenade>,
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:gunpowder>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/iron>, <tag:items:forge:nuggets/iron>]);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("grenade")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<tag:items:forge:plates/plastic>)
                                                       .loops(2)
-                                                      .addOutput(<item:cgm:grenade>, 1)
+                                                      .addOutput(<item:cgm:grenade>, 2)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/iron>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:blaze_powder>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
 													  );
                                                       
 // Stun Grenade
-<recipetype:immersiveengineering:blueprint>.addRecipe("blueprint/stun_grenade", "bullet", [<tag:items:forge:nuggets/iron> * 2, <item:minecraft:blaze_powder> * 2, <tag:items:forge:plates/plastic> ], <item:cgm:stun_grenade>);
+craftingTable.addShapeless("stun_grenade", <item:cgm:stun_grenade>,
+    [<tag:items:forge:plates/plastic>, <item:minecraft:blaze_powder>, <item:minecraft:blaze_powder>, <tag:items:forge:nuggets/iron>, <tag:items:forge:nuggets/iron>]);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("stun_grenade")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<tag:items:forge:plates/plastic>)
                                                       .loops(2)
-                                                      .addOutput(<item:cgm:stun_grenade>, 1)
+                                                      .addOutput(<item:cgm:stun_grenade>, 2)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/iron>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:blaze_powder>))
 													  );

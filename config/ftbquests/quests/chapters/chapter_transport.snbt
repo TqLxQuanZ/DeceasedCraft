@@ -337,7 +337,7 @@
 		{
 			x: -10.5d
 			y: 4.0d
-			description: ["A train does not move without any power source, add chest or containers with coal inside it."]
+			description: ["A train does not move without any power source, it needs fuel."]
 			dependencies: ["4F409A5069158D18"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -345,7 +345,7 @@
 			tasks: [{
 				id: "0B8547B4012E8E99"
 				type: "item"
-				item: "minecraft:chest"
+				item: "minecraft:coal"
 			}]
 			rewards: [{
 				id: "7B994858DE9C6FED"

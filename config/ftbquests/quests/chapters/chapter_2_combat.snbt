@@ -40,45 +40,12 @@
 			}]
 		}
 		{
-			title: "The Shape of Bullet"
-			icon: {
-				id: "immersiveengineering:blueprint"
-				Count: 1b
-				tag: {
-					blueprint: "molds"
-				}
-			}
-			x: 0.0d
-			y: -1.5d
-			shape: "hexagon"
-			description: ["Obtain an engineer's mold blueprint from a car service center or warehouse."]
-			dependencies: ["33FC7547AD30DEC7"]
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "7F5CD6053CEA4064"
-			tasks: [{
-				id: "115DF6FEE8FD0CF2"
-				type: "item"
-				item: {
-					id: "immersiveengineering:blueprint"
-					Count: 1b
-					tag: {
-						blueprint: "molds"
-					}
-				}
-			}]
-			rewards: [{
-				id: "029A93E37C8F7BFC"
-				type: "xp"
-				xp: 500
-			}]
-		}
-		{
 			title: "Short But Lethal"
-			x: 3.5d
+			x: -0.5d
 			y: -5.5d
 			description: ["Obtain a short bullet casing mold."]
-			dependencies: ["7F5CD6053CEA4064"]
+			dependencies: ["07CB2FD8F993FEC0"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "11B7ADB82ED992BF"
 			tasks: [{
@@ -94,10 +61,11 @@
 		}
 		{
 			title: "Small But Quick"
-			x: 3.5d
+			x: -0.5d
 			y: -4.0d
 			description: ["Obtain a small bullet casing mold."]
-			dependencies: ["7F5CD6053CEA4064"]
+			dependencies: ["07CB2FD8F993FEC0"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "5DC373FF8C98855F"
 			tasks: [{
@@ -113,10 +81,11 @@
 		}
 		{
 			title: "Medium But Strong"
-			x: 3.5d
+			x: -0.5d
 			y: -2.5d
 			description: ["Obtain a medium bullet casing mold."]
-			dependencies: ["7F5CD6053CEA4064"]
+			dependencies: ["07CB2FD8F993FEC0"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "22FB8255689A2DB8"
 			tasks: [{
@@ -132,10 +101,11 @@
 		}
 		{
 			title: "Marksman"
-			x: 3.5d
+			x: -0.5d
 			y: 2.0d
 			description: ["Obtain a long bullet casing mold."]
-			dependencies: ["7F5CD6053CEA4064"]
+			dependencies: ["07CB2FD8F993FEC0"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "7BBD81550532F0A6"
 			tasks: [{
@@ -151,10 +121,11 @@
 		}
 		{
 			title: "Heavy and Violent"
-			x: 3.5d
+			x: -0.5d
 			y: -1.0d
 			description: ["Obtain a heavy bullet casing mold."]
-			dependencies: ["7F5CD6053CEA4064"]
+			dependencies: ["07CB2FD8F993FEC0"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "0CC884FA092AB9A9"
 			tasks: [{
@@ -170,10 +141,11 @@
 		}
 		{
 			title: "Specs Op"
-			x: 3.5d
+			x: -0.5d
 			y: 0.5d
 			description: ["Obtain a special bullet casing mold."]
-			dependencies: ["7F5CD6053CEA4064"]
+			dependencies: ["07CB2FD8F993FEC0"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "679272B95086DC83"
 			tasks: [{
@@ -190,7 +162,7 @@
 		{
 			title: "Container with death - II"
 			icon: "additionalguns:casing_small"
-			x: 5.0d
+			x: 1.0d
 			y: -4.0d
 			description: ["Obtain small bullet casing and possibly automate it."]
 			dependencies: ["5DC373FF8C98855F"]
@@ -210,7 +182,7 @@
 		{
 			title: "Container with death - I"
 			icon: "additionalguns:casing_short"
-			x: 5.0d
+			x: 1.0d
 			y: -5.5d
 			description: ["Obtain short bullet casing and possibly automate it."]
 			dependencies: ["11B7ADB82ED992BF"]
@@ -229,7 +201,7 @@
 		}
 		{
 			title: "Container with death - III"
-			x: 5.0d
+			x: 1.0d
 			y: -2.5d
 			description: ["Obtain medium bullet casing and possibly automate it."]
 			dependencies: ["22FB8255689A2DB8"]
@@ -248,7 +220,7 @@
 		}
 		{
 			title: "Container with death - IV"
-			x: 5.0d
+			x: 1.0d
 			y: -1.0d
 			description: ["Obtain heavy bullet casing and possibly automate it."]
 			dependencies: ["0CC884FA092AB9A9"]
@@ -267,7 +239,7 @@
 		}
 		{
 			title: "Container with death - V"
-			x: 5.0d
+			x: 1.0d
 			y: 0.5d
 			description: ["Obtain special bullet casing and possibly automate it."]
 			dependencies: ["679272B95086DC83"]
@@ -286,7 +258,7 @@
 		}
 		{
 			title: "Container with death - VI"
-			x: 5.0d
+			x: 1.0d
 			y: 2.0d
 			description: ["Obtain long bullet casing and possibly automate it."]
 			dependencies: ["7BBD81550532F0A6"]
@@ -306,7 +278,7 @@
 		{
 			title: "I Am Death - I"
 			icon: "additionalguns:bullet_short"
-			x: 6.5d
+			x: 2.5d
 			y: -5.5d
 			description: ["Craft a short bullet and possibly automate it."]
 			dependencies: [
@@ -331,7 +303,7 @@
 		{
 			title: "I Am Death - II"
 			icon: "additionalguns:bullet_small"
-			x: 6.5d
+			x: 2.5d
 			y: -4.0d
 			description: ["Craft a small bullet and possibly automate it."]
 			dependencies: [
@@ -356,7 +328,7 @@
 		{
 			title: "I Am Death - III"
 			icon: "additionalguns:bullet_medium"
-			x: 6.5d
+			x: 2.5d
 			y: -2.5d
 			description: ["Craft a medium bullet and possibly automate it."]
 			dependencies: [
@@ -381,7 +353,7 @@
 		{
 			title: "I Am Death - IV"
 			icon: "additionalguns:bullet_heavy"
-			x: 6.5d
+			x: 2.5d
 			y: -1.0d
 			description: ["Craft a heavy bullet and possibly automate it."]
 			dependencies: [
@@ -406,7 +378,7 @@
 		{
 			title: "I Am Death - V"
 			icon: "additionalguns:bullet_special"
-			x: 6.5d
+			x: 2.5d
 			y: 0.5d
 			description: ["Craft a special bullet and possibly automate it."]
 			dependencies: [
@@ -431,7 +403,7 @@
 		{
 			title: "I Am Death - VI"
 			icon: "additionalguns:bullet_long"
-			x: 6.5d
+			x: 2.5d
 			y: 2.0d
 			description: ["Craft a long bullet and possibly automate it."]
 			dependencies: [
@@ -451,23 +423,6 @@
 				id: "513CFD439A77922A"
 				type: "xp"
 				xp: 500
-			}]
-		}
-		{
-			title: "Table and Presser"
-			icon: "immersiveengineering:workbench"
-			x: -3.75d
-			y: -1.5d
-			description: ["One does not make bullet immediately, you'll need to have an electronic function Metal Press and a mold."]
-			dependencies: ["70C3799E5D5D54F3"]
-			dependency_requirement: "all_started"
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "33FC7547AD30DEC7"
-			tasks: [{
-				id: "190EB120CEB58ED4"
-				type: "checkmark"
-				title: "Checkmark"
 			}]
 		}
 		{
@@ -1036,34 +991,6 @@
 			}]
 		}
 		{
-			title: "More Efficient"
-			x: 0.0d
-			y: -4.0d
-			shape: "hexagon"
-			description: ["Obtain a bullet blueprint from the military base for more efficiency when comes to crafting bullet."]
-			dependencies: ["33FC7547AD30DEC7"]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "551F73DAD1FB1FAD"
-			tasks: [{
-				id: "2A9C37EE6E4B3E15"
-				type: "item"
-				item: {
-					id: "immersiveengineering:blueprint"
-					Count: 1b
-					tag: {
-						blueprint: "bullet"
-					}
-				}
-			}]
-			rewards: [{
-				id: "2A38C0DE0E61EE9E"
-				type: "xp"
-				xp: 1000
-			}]
-		}
-		{
 			title: "It's Just Basic Ingredients"
 			x: -21.0d
 			y: 5.0d
@@ -1384,7 +1311,7 @@
 		{
 			title: "It's Just Business"
 			icon: "minecraft:emerald"
-			x: 10.5d
+			x: 6.5d
 			y: -3.0d
 			shape: "square"
 			description: ["Attempt to trade with weapon smith or wandering trader for bullets."]
@@ -1408,7 +1335,7 @@
 		{
 			title: "That Came Out Of Nowhere"
 			icon: "minecraft:zombie_head"
-			x: 10.5d
+			x: 6.5d
 			y: -0.75d
 			shape: "square"
 			description: ["Killing zombies might provide ammunitions."]
@@ -1428,6 +1355,30 @@
 				id: "7FE4820666308F14"
 				type: "xp"
 				xp: 100
+			}]
+		}
+		{
+			title: "Fallout"
+			x: -3.0d
+			y: -2.0d
+			shape: "hexagon"
+			description: ["Visit the military and industrial area in the wasteland, which previously has been nuked to obtain rare resources and items."]
+			dependencies: ["70C3799E5D5D54F3"]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			progression_mode: "flexible"
+			id: "07CB2FD8F993FEC0"
+			tasks: [{
+				id: "3167F28D138DF72D"
+				type: "biome"
+				title: "Fallout"
+				icon: "biomesoplenty:dead_sapling"
+				biome: "biomesoplenty:wasteland"
+			}]
+			rewards: [{
+				id: "5B613489CF296566"
+				type: "xp"
+				xp: 1200
 			}]
 		}
 	]

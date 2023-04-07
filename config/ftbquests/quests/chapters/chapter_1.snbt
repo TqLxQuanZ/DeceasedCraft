@@ -1180,7 +1180,7 @@
 		{
 			title: "Burning Passion"
 			icon: "minecraft:blaze_powder"
-			x: -35.25d
+			x: -33.0d
 			y: 3.0d
 			shape: "square"
 			description: ["Not long after the apocalypse started, there are mentions of spotting blazing rods floating around in volcanic areas from radio."]
@@ -1215,29 +1215,6 @@
 				id: "0B8FE9F51F3782DF"
 				type: "xp"
 				xp: 10
-			}]
-		}
-		{
-			title: "Fallout"
-			x: -33.0d
-			y: 3.0d
-			shape: "square"
-			description: ["Visit the military and industrial area in the wasteland, which previously has been nuked."]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "53A31741CCC3375B"
-			tasks: [{
-				id: "5121F1C0AF5074BD"
-				type: "biome"
-				title: "Fallout"
-				icon: "biomesoplenty:dead_sapling"
-				biome: "biomesoplenty:wasteland"
-			}]
-			rewards: [{
-				id: "537043D80DA58175"
-				type: "xp"
-				xp: 1200
 			}]
 		}
 		{
