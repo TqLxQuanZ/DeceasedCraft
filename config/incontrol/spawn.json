@@ -7,23 +7,16 @@
                 "minecraft:witch",
                 "minecraft:stray",
                 "minecraft:phantom",
-                "zombiemobs:zombie_llama",
                 "cold_sweat:chameleon"],
         "result": "deny"
     },
     {
       "mod": "zombiemobs",
       "dimension": "minecraft:overworld",
-      "minlight": 6,
-      "maxlight": 15,
-      "result": "deny"
-    },
-    {
-      "mod": "zombiemobs",
-      "dimension": "minecraft:overworld",
       "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
       "result": "default",
-      "healthmultiply": 2.0
+      "healthmultiply": 1.5,
+      "speedmultiply": 1.0
     },
     {
       "mod": "zombiemobs",
@@ -42,6 +35,25 @@
       "result": "deny"
     },
     {
+      "mod": "zombiemobs",
+      "dimension": "minecraft:overworld",
+      "minlight": 6,
+      "maxlight": 15,
+      "result": "deny"
+    },
+    {
+      "mob": "zombiemobs:zombie_llama",
+      "minlight": 0,
+      "maxlight": 5,
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "seesky": true,
+      "result": "allow"
+    },
+    {
+      "mob": "zombiemobs:zombie_llama",
+      "result": "deny"
+    },
+    {
       "mod": "rottencreatures",
       "dimension": "minecraft:overworld",
       "mincount": {
@@ -52,34 +64,27 @@
       "result": "deny"
     },
     {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+        "result": "default",
+        "incity": true,
+        "healthmultiply": 2.25,
+        "damagemultiply": 1.2
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+        "result": "default",
+        "speedmultiply": 0.8,
+        "healthmultiply": 1.5
+    },
+    {
         "mob": "minecraft:zombie",
         "dimension": "minecraft:overworld",
         "minlight": 0,
         "maxlight": 5,
         "seesky": true,
         "result": "allow"
-    },
-    {
-        "mob": "minecraft:zombie",
-        "dimension": "minecraft:overworld",
-        "spawner": true,
-        "result": "allow"
-    },
-    {
-        "mob": "minecraft:zombie",
-        "dimension": "minecraft:overworld",
-        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
-        "result": "default",
-        "speedmultiply": 0.8,
-        "healthmultiply": 2.0
-    },
-    {
-        "mob": "minecraft:zombie",
-        "dimension": "minecraft:overworld",
-        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
-        "incity": true,
-        "result": "default",
-        "healthmultiply": 3.0
     },
     {
         "mob": "minecraft:zombie",
@@ -104,7 +109,7 @@
         "mintime": 0,
         "maxtime": 12000,
         "minlight": 0,
-        "maxlight": 5, 
+        "maxlight": 7, 
         "seesky": true,
         "biome": ["biomesoplenty:volcanic_plains", "biomesoplenty:volcano", "wythers:volcano", "wythers:volcanic_crater", "wythers:volcanic_chamber"],
         "result": "allow"
