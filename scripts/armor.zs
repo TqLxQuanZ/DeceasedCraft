@@ -292,7 +292,7 @@ craftingTable.remove(<item:minecraft:diamond_boots>);
 
 <recipetype:create:mechanical_crafting>.remove(<item:create_sa:brass_exoskeleton_chestplate>);
 <recipetype:create:mechanical_crafting>.remove(<item:create_sa:andesite_exoskeleton_chestplate>);
-<recipetype:create:mechanical_crafting>.remove(<item:create_sa:copper_exoskeleton_chestplate>);
+craftingTable.remove(<item:create_sa:copper_exoskeleton_chestplate>);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t5_brass_exoskeleton_chestplate", <item:create_sa:brass_exoskeleton_chestplate>,
     [[<item:minecraft:air>, <item:create:shaft>, <item:create:belt_connector>, <item:create:shaft>, <item:minecraft:air>],

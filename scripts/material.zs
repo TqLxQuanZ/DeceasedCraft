@@ -34,6 +34,14 @@ furnace.addRecipe("leather", <item:minecraft:leather>, <item:minecraft:rotten_fl
 <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_snow_leopard>);
 <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_tiger>);
 
+// Seed oil
+<recipetype:create:compacting>.removeByName("createaddition:compacting/seed_oil");
+<recipetype:create:compacting>.addRecipe("seed_oil", <constant:create:heat_condition:none>, [<fluid:createaddition:seed_oil> * 30], [<tag:items:forge:seeds> * 2], [], 100);
+
+// Bioethanol
+<recipetype:create:mixing>.removeByName("createaddition:mixing/bioethanol");
+<recipetype:create:mixing>.addRecipe("bioethanol", <constant:create:heat_condition:none>, [<fluid:createaddition:bioethanol> * 60], [<item:createaddition:biomass>, <item:minecraft:sugar>], [], 100);
+
 // Fats
 <tag:items:minecraft:animal_fat>.add(<item:untamedwilds:material_fat>);
 
