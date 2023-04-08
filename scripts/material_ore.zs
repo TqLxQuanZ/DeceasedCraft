@@ -114,7 +114,6 @@ import crafttweaker.api.item.IItemStack;
 <recipetype:immersiveengineering:crusher>.addRecipe("ie_asurine_stones_crusher", <tag:items:create:stone_types/asurine>, 256, <item:create:crushed_zinc_ore>);
 <recipetype:immersiveengineering:crusher>.addRecipe("ie_asurine_crusher", <item:create:asurine>, 256, <item:create:crushed_zinc_ore>);
 
-<recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/raw_ore_zinc");
 <recipetype:immersiveengineering:crusher>.addRecipe("ie_raw_zinc_crusher", <item:create:raw_zinc>, 256, <item:create:crushed_zinc_ore>, <item:create:crushed_zinc_ore> % 50);
 <recipetype:immersiveengineering:crusher>.addRecipe("ie_zinc_ore_crusher", <item:create:zinc_ore>, 256, <item:create:crushed_zinc_ore> * 2, <item:create:crushed_zinc_ore> % 20);
 <recipetype:immersiveengineering:crusher>.addRecipe("ie_deepslate_zinc_ore_crusher", <item:create:deepslate_zinc_ore>, 312, <item:create:crushed_zinc_ore> * 2, <item:create:crushed_zinc_ore> % 50);
