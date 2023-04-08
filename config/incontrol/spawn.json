@@ -37,10 +37,12 @@
       "maxlight": 5,
       "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
       "seesky": true,
+      "onjoin": true,
       "result": "allow"
     },
     {
       "mob": "zombiemobs:zombie_llama",
+      "onjoin": true,
       "result": "deny"
     },
     {
