@@ -495,7 +495,7 @@
 	[Zombie."Digger Zombie"]
 		#Chance for a Zombie to spawn with the digger ability
 		#Range: 0.0 ~ 1.0
-		"Digger Chance" = 0.1
+		"Digger Chance" = 0.15
 		#Zombies with Digger AI will mine only if they have any tool in the off-hand
 		"Digger Tool Only" = false
 		#Zombies with Digger AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable regardless of proper tool or not.
