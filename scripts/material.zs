@@ -5,6 +5,10 @@ import crafttweaker.api.recipe.Replacer;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 import crafttweaker.api.misc.Composter;
 
+// TNT Barrel
+<recipetype:immersiveengineering:crusher>.addRecipe("tnt_barrel_crusher", <item:rottencreatures:tnt_barrel>, 512, <item:minecraft:gunpowder> * 8, <item:minecraft:oak_planks> % 50 );
+<recipetype:create:crushing>.addRecipe("tnt_barrel_crushing", [<item:minecraft:gunpowder> * 8, <item:minecraft:oak_planks> % 50], <item:rottencreatures:tnt_barrel>, 256 );
+
 // Poison Potato for Potion of Harming
 <recipetype:create:mixing>.addRecipe("poison_potato_healing", <constant:create:heat_condition:heated>, [<fluid:create:potion>.withTag({Potion:"minecraft:harming"}) * 1000], [<item:minecraft:poisonous_potato>], [<fluid:create:potion>.withTag({Potion:"minecraft:healing"}) * 1000], 100);
 

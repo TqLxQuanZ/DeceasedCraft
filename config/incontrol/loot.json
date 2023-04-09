@@ -48,5 +48,24 @@
 		"random" : 0.4,
 		"item": "minecraft:bone",
 		"itemcount": "2/2/3"
+	},
+	{
+		"mob": "rottencreatures:dead_beard",
+		"item": "quark:gunpowder_sack",
+		"itemcount": "2/2/3"
+	},
+	{
+		"mob": "rottencreatures:dead_beard",
+		"player": true,
+		"random" : 0.1,
+		"item": "additionalguns:mammoth",
+		"itemcount": "1/1/1"
+	},
+	{
+		"mob": "rottencreatures:dead_beard",
+		"player": true,
+		"random" : 0.1,
+		"item": "additionalguns:val",
+		"itemcount": "1/1/1"
 	}
 ]
