@@ -32,6 +32,7 @@ villagerTrades.addTrade(<profession:minecraft:armorer>, 3, <item:minecraft:diamo
 // Tier 4
 villagerTrades.removeTradesSelling(<profession:minecraft:armorer>, 4, <item:minecraft:diamond_leggings>);
 villagerTrades.removeTradesSelling(<profession:minecraft:armorer>, 4, <item:minecraft:diamond_boots>);
+villagerTrades.addTrade(<profession:minecraft:armorer>, 4, 4, <item:immersiveengineering:ingot_steel>, 16, 5, 0.2);
 villagerTrades.addTrade(<profession:minecraft:armorer>, 4, 16, <item:immersiveengineering:armor_steel_legs>, 3, 8, 0.2);
 villagerTrades.addTrade(<profession:minecraft:armorer>, 4, 12, <item:immersiveengineering:armor_steel_feet>, 3, 6, 0.2);
 

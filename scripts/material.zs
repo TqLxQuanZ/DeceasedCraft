@@ -5,6 +5,9 @@ import crafttweaker.api.recipe.Replacer;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 import crafttweaker.api.misc.Composter;
 
+// Poison Potato for Potion of Harming
+<recipetype:create:mixing>.addRecipe("poison_potato_healing", <constant:create:heat_condition:heated>, [<fluid:create:potion>.withTag({Potion:"minecraft:harming"}) * 1000], [<item:minecraft:poisonous_potato>], [<fluid:create:potion>.withTag({Potion:"minecraft:healing"}) * 1000], 100);
+
 // Composter
 composter.setValue(<item:bunker_down:underroot_stage_1>, 0.5);
 composter.setValue(<item:minecraft:rotten_flesh>, 0.5);
@@ -36,7 +39,7 @@ furnace.addRecipe("leather", <item:minecraft:leather>, <item:minecraft:rotten_fl
 
 // Seed oil
 <recipetype:create:compacting>.removeByName("createaddition:compacting/seed_oil");
-<recipetype:create:compacting>.addRecipe("seed_oil", <constant:create:heat_condition:none>, [<fluid:createaddition:seed_oil> * 30], [<tag:items:forge:seeds> * 2], [], 100);
+<recipetype:create:compacting>.addRecipe("seed_oil", <constant:create:heat_condition:none>, [<fluid:createaddition:seed_oil> * 50], [<tag:items:forge:seeds> * 2], [], 100);
 
 // Bioethanol
 <recipetype:create:mixing>.removeByName("createaddition:mixing/bioethanol");

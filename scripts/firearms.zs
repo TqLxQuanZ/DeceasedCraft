@@ -16,7 +16,7 @@ craftingTable.addShapeless("bullet_small", <item:additionalguns:bullet_small>,
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:additionalguns:casing_small>)
                                                       .loops(1)
-                                                      .addOutput(<item:additionalguns:bullet_small>, 2)
+                                                      .addOutput(<item:additionalguns:bullet_small> * 2, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/copper>))
 													  );
@@ -28,7 +28,7 @@ craftingTable.addShapeless("bullet_short", <item:additionalguns:bullet_short>,
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:additionalguns:casing_short>)
                                                       .loops(1)
-                                                      .addOutput(<item:additionalguns:bullet_short>, 2)
+                                                      .addOutput(<item:additionalguns:bullet_short> * 2, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/iron>))
 													  );
@@ -40,7 +40,7 @@ craftingTable.addShapeless("bullet_medium", <item:additionalguns:bullet_medium>,
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:additionalguns:casing_medium>)
                                                       .loops(1)
-                                                      .addOutput(<item:additionalguns:bullet_medium>, 2)
+                                                      .addOutput(<item:additionalguns:bullet_medium> * 2, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/silver>))
 													  );
@@ -52,7 +52,7 @@ craftingTable.addShapeless("bullet_heavy", <item:additionalguns:bullet_heavy>,
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:additionalguns:casing_heavy>)
                                                       .loops(1)
-                                                      .addOutput(<item:additionalguns:bullet_heavy>, 2)
+                                                      .addOutput(<item:additionalguns:bullet_heavy> * 2, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/steel>))
 													  );
@@ -64,7 +64,7 @@ craftingTable.addShapeless("bullet_special", <item:additionalguns:bullet_special
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:additionalguns:casing_special>)
                                                       .loops(1)
-                                                      .addOutput(<item:additionalguns:bullet_special>, 2)
+                                                      .addOutput(<item:additionalguns:bullet_special> * 2, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
 													  );
@@ -76,7 +76,7 @@ craftingTable.addShapeless("bullet_long", <item:additionalguns:bullet_long>,
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:additionalguns:casing_long>)
                                                       .loops(1)
-                                                      .addOutput(<item:additionalguns:bullet_long>, 2)
+                                                      .addOutput(<item:additionalguns:bullet_long> * 2, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/uranium>))
 													  );
@@ -111,7 +111,7 @@ craftingTable.addShapeless("grenade", <item:cgm:grenade>,
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<tag:items:forge:plates/plastic>)
                                                       .loops(2)
-                                                      .addOutput(<item:cgm:grenade>, 2)
+                                                      .addOutput(<item:cgm:grenade> * 2, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/iron>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
 													  );
@@ -123,7 +123,7 @@ craftingTable.addShapeless("stun_grenade", <item:cgm:stun_grenade>,
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<tag:items:forge:plates/plastic>)
                                                       .loops(2)
-                                                      .addOutput(<item:cgm:stun_grenade>, 2)
+                                                      .addOutput(<item:cgm:stun_grenade> * 2, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/iron>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:blaze_powder>))
 													  );

@@ -24,9 +24,10 @@ craftingTable.addShaped("storage_housing", <item:refinedstorage:storage_housing>
 // Silica Dust
 // Sandstone Stone
 <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/sandstone");
+<recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/ore_quartz");
 <recipetype:immersiveengineering:crusher>.addRecipe("silica_dust_sandstone", <tag:items:forge:sandstone>, 3200, <item:minecraft:sand> * 2, <item:immersiveengineering:dust_saltpeter> % 50, <item:contenttweaker:silica_dust> % 25);
 <recipetype:immersiveengineering:crusher>.addRecipe("silica_dust_quartz", <tag:items:forge:gems/quartz>, 3200, <item:contenttweaker:silica_dust>, <item:contenttweaker:silica_dust> % 25);
-<recipetype:immersiveengineering:crusher>.addRecipe("silica_dust_quartz_ore", <item:minecraft:nether_quartz_ore>, 4800, <item:contenttweaker:silica_dust> * 2);
+<recipetype:immersiveengineering:crusher>.addRecipe("silica_dust_quartz_ore", <item:minecraft:nether_quartz_ore>, 4800, <item:minecraft:quartz> * 3, <item:contenttweaker:silica_dust> * 2, <item:immersiveengineering:dust_sulfur> % 25);
 
 // Silicon
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("silicon", <item:contenttweaker:silica_dust>, [<item:immersiveengineering:coal_coke>], 100, 51200, [<item:refinedstorage:silicon>], <item:immersiveengineering:slag>);
