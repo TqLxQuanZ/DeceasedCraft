@@ -6,8 +6,7 @@
                 "minecraft:skeleton",
                 "minecraft:witch",
                 "minecraft:stray",
-                "minecraft:phantom",
-                "cold_sweat:chameleon"],
+                "minecraft:phantom"],
         "result": "deny"
     },
     {
@@ -88,7 +87,7 @@
       "result": "deny"
     },
     {
-        "mob": "minecraft:zombie",
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "dimension": "minecraft:overworld",
         "minlight": 6,
         "maxlight": 15,
@@ -97,14 +96,16 @@
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
-        "result": "default",
         "incity": true,
+        "onjoin": true,
+        "result": "default",
         "healthmultiply": 2.25,
         "damagemultiply": 1.2
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+        "onjoin": true,
         "result": "default",
         "speedmultiply": 0.8,
         "healthmultiply": 1.5
