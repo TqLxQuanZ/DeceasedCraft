@@ -67,5 +67,8 @@
 		"random" : 0.2,
 		"item": "additionalguns:val",
 		"itemcount": "1/1/1"
+	},
+	{
+		"remove": ["immersiveengineering:shader_bag_common", "immersiveengineering:shader_bag_uncommon", "immersiveengineering:shader_bag_rare", "immersiveengineering:shader_bag_epic", "immersiveengineering:shader_bag_ie_masterwork"]
 	}
 ]

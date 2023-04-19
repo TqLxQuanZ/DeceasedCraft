@@ -17,6 +17,16 @@
       "result": "deny"
     },
     {
+        "mod": "zombiemobs",
+        "dimension": "minecraft:overworld",
+        "mincount": {
+          "mod": "zombiemobs",
+          "amount": 10,
+          "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
       "mod": "zombiemobs",
       "dimension": "minecraft:overworld",
       "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
@@ -95,6 +105,16 @@
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
+        "mincount": {
+          "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+          "amount": 40,
+          "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
         "incity": true,
         "onjoin": true,
@@ -117,16 +137,6 @@
         "maxlight": 5,
         "seesky": true,
         "result": "allow"
-    },
-    {
-        "mob": "minecraft:zombie",
-        "dimension": "minecraft:overworld",
-        "mincount": {
-          "mob": "minecraft:zombie",
-          "amount": 15,
-          "perchunk": true
-        },
-        "result": "deny"
     },
     {
         "mob": "minecraft:blaze",
