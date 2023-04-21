@@ -18,6 +18,27 @@ val incomplete_ender_pearl = <factory:item>.typed<Basic>()
     .rarity(<constant:minecraft:item/rarity:common>)
     .build("incomplete_ender_pearl");
 
+val polyethylene = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
+    .build("polyethylene");
+
+val resistant_fiber = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:rare>)
+    .build("resistant_fiber");
+
+val resistant_fabric = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:rare>)
+    .build("resistant_fabric");
+
+val rubber = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
+    .build("rubber");
+    
+
 // IE
 val incomplete_electron_tube = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
@@ -36,11 +57,6 @@ val incomplete_component_electronic_adv = <factory:item>.typed<Basic>()
 	.durability(3)
     .rarity(<constant:minecraft:item/rarity:common>)
     .build("incomplete_component_electronic_adv");
-
-val rubber = <factory:item>.typed<Basic>()
-    .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:uncommon>)
-    .build("rubber");
     
 // refinedstorage
 

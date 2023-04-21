@@ -3,6 +3,54 @@ import crafttweaker.api.recipe.BlastFurnaceRecipeManager;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 import mods.jei.JEI;
 
+// Apocalypse Arsenal
+craftingTable.remove(<item:apocalypticarsenal:head_cutter>);
+craftingTable.remove(<item:apocalypticarsenal:rock>);
+craftingTable.remove(<item:apocalypticarsenal:table_leg>);
+craftingTable.remove(<item:apocalypticarsenal:tennis_racket>);
+craftingTable.remove(<item:apocalypticarsenal:drill>);
+//craftingTable.remove(<item:apocalypticarsenal:fire_extinguisher>);
+//craftingTable.remove(<item:apocalypticarsenal:wooden_hammer>);
+//craftingTable.remove(<item:apocalypticarsenal:premium_hammer>);
+//craftingTable.remove(<item:apocalypticarsenal:hammer_pickaxe>);
+
+//JEI.hideIngredient(<item:apocalypticarsenal:fire_extinguisher>);
+JEI.hideIngredient(<item:apocalypticarsenal:head_cutter>);
+JEI.hideIngredient(<item:apocalypticarsenal:rock>);
+JEI.hideIngredient(<item:apocalypticarsenal:table_leg>);
+
+//JEI.hideIngredient(<item:apocalypticarsenal:wooden_hammer>);
+//JEI.hideIngredient(<item:apocalypticarsenal:premium_hammer>);
+//JEI.hideIngredient(<item:apocalypticarsenal:tennis_racket>);
+//JEI.hideIngredient(<item:apocalypticarsenal:hammer_pickaxe>);
+//JEI.hideIngredient(<item:apocalypticarsenal:drill>);
+
+// Fluids
+<tag:fluids:minecraft:water>.remove(<fluid:create:honey>);
+<tag:fluids:minecraft:water>.remove(<fluid:create:chocolate>);
+<tag:fluids:minecraft:water>.remove(<fluid:createaddition:seed_oil>);
+<tag:fluids:minecraft:water>.remove(<fluid:car:bio_diesel>);
+<tag:fluids:minecraft:water>.remove(<fluid:car:bio_diesel_flowing>);
+<tag:fluids:minecraft:water>.remove(<fluid:car:canola_oil>);
+<tag:fluids:minecraft:water>.remove(<fluid:car:canola_oil_flowing>);
+<tag:fluids:minecraft:water>.remove(<fluid:car:glycerin>);
+<tag:fluids:minecraft:water>.remove(<fluid:car:glycerin_flowing>);
+<tag:fluids:minecraft:water>.remove(<fluid:car:methanol>);
+<tag:fluids:minecraft:water>.remove(<fluid:car:methanol_flowing>);
+<tag:fluids:minecraft:water>.remove(<fluid:car:canola_methanol_mix>);
+<tag:fluids:minecraft:water>.remove(<fluid:car:canola_methanol_mix_flowing>);
+
+JEI.hideIngredient(<fluid:car:bio_diesel>);
+JEI.hideIngredient(<fluid:car:bio_diesel_flowing>);
+JEI.hideIngredient(<fluid:car:canola_oil>);
+JEI.hideIngredient(<fluid:car:canola_oil_flowing>);
+JEI.hideIngredient(<fluid:car:glycerin>);
+JEI.hideIngredient(<fluid:car:glycerin_flowing>);
+JEI.hideIngredient(<fluid:car:methanol>);
+JEI.hideIngredient(<fluid:car:methanol_flowing>);
+JEI.hideIngredient(<fluid:car:canola_methanol_mix>);
+JEI.hideIngredient(<fluid:car:canola_methanol_mix_flowing>);
+
 // Molds
 craftingTable.removeByName("immersiveengineering:crafting/blueprint_molds");
 craftingTable.removeByName("immersiveengineering:crafting/blueprint_components");

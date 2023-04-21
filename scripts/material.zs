@@ -5,6 +5,13 @@ import crafttweaker.api.recipe.Replacer;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 import crafttweaker.api.misc.Composter;
 
+// Resistant Fabric
+craftingTable.addShapeless("resistant_fabric", <item:contenttweaker:resistant_fabric>,
+    [<item:contenttweaker:resistant_fiber>, <item:contenttweaker:resistant_fiber>, <item:contenttweaker:resistant_fiber>, <item:contenttweaker:resistant_fiber>]);
+
+// Resistant Fiber
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_resistant_fiber", <item:contenttweaker:polyethylene>, [<item:minecraft:air>], 200, 102400, [<item:contenttweaker:resistant_fiber>], <item:minecraft:air> );
+
 // TNT Barrel
 <recipetype:immersiveengineering:crusher>.addRecipe("tnt_barrel_crusher", <item:rottencreatures:tnt_barrel>, 512, <item:minecraft:gunpowder> * 8, <item:minecraft:oak_planks> % 50 );
 <recipetype:create:crushing>.addRecipe("tnt_barrel_crushing", [<item:minecraft:gunpowder> * 8, <item:minecraft:oak_planks> % 50], <item:rottencreatures:tnt_barrel>, 256 );
