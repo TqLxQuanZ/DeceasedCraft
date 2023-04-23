@@ -1,5 +1,44 @@
 import crafttweaker.api.item.IItemStack;
 
+// Corundum
+
+<tag:items:forge:corundum/block>.add(<item:quark:red_corundum>);
+<tag:items:forge:corundum/block>.add(<item:quark:waxed_red_corundum>);
+<tag:items:forge:corundum/cluster>.add(<item:quark:red_corundum_cluster>);
+
+<tag:items:forge:corundum/block>.add(<item:quark:orange_corundum>);
+<tag:items:forge:corundum/block>.add(<item:quark:waxed_orange_corundum>);
+<tag:items:forge:corundum/cluster>.add(<item:quark:orange_corundum_cluster>);
+
+<tag:items:forge:corundum/block>.add(<item:quark:green_corundum>);
+<tag:items:forge:corundum/block>.add(<item:quark:waxed_green_corundum>);
+<tag:items:forge:corundum/cluster>.add(<item:quark:green_corundum_cluster>);
+
+<tag:items:forge:corundum/block>.add(<item:quark:yellow_corundum>);
+<tag:items:forge:corundum/block>.add(<item:quark:waxed_yellow_corundum>);
+<tag:items:forge:corundum/cluster>.add(<item:quark:yellow_corundum_cluster>);
+
+<tag:items:forge:corundum/block>.add(<item:quark:violet_corundum>);
+<tag:items:forge:corundum/block>.add(<item:quark:waxed_violet_corundum>);
+<tag:items:forge:corundum/cluster>.add(<item:quark:violet_corundum_cluster>);
+
+<tag:items:forge:corundum/block>.add(<item:quark:blue_corundum>);
+<tag:items:forge:corundum/block>.add(<item:quark:waxed_blue_corundum>);
+<tag:items:forge:corundum/cluster>.add(<item:quark:blue_corundum_cluster>);
+
+<tag:items:forge:corundum/block>.add(<item:quark:indigo_corundum>);
+<tag:items:forge:corundum/block>.add(<item:quark:waxed_indigo_corundum>);
+<tag:items:forge:corundum/cluster>.add(<item:quark:indigo_corundum_cluster>);
+
+<tag:items:forge:corundum/block>.add(<item:quark:black_corundum>);
+<tag:items:forge:corundum/block>.add(<item:quark:waxed_black_corundum>);
+<tag:items:forge:corundum/cluster>.add(<item:quark:black_corundum_cluster>);
+
+<tag:items:forge:corundum/block>.add(<item:quark:white_corundum>);
+<tag:items:forge:corundum/block>.add(<item:quark:waxed_white_corundum>);
+<tag:items:forge:corundum/cluster>.add(<item:quark:white_corundum_cluster>);
+
+
 // Crusher from Create
 // Copper
 <recipetype:create:crushing>.remove(<item:create:crushed_copper_ore>);
@@ -61,6 +100,9 @@ import crafttweaker.api.item.IItemStack;
 <recipetype:create:crushing>.addRecipe("raw_aluminum_ore", [<item:create:crushed_aluminum_ore>, <item:create:crushed_aluminum_ore> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/aluminum>, 250 );
 <recipetype:create:crushing>.addRecipe("aluminum_ore_block", [<item:create:crushed_aluminum_ore>, <item:create:crushed_aluminum_ore> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:immersiveengineering:ore_aluminum>, 350 );
 <recipetype:create:crushing>.addRecipe("deepslate_aluminum_ore_block", [<item:create:crushed_aluminum_ore> * 2, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:immersiveengineering:deepslate_ore_aluminum>, 450 );
+
+<recipetype:create:crushing>.addRecipe("corundum_aluminum_ore", [<item:create:crushed_aluminum_ore>, <item:create:crushed_iron_ore> % 20, <item:create:experience_nugget> % 75], <tag:items:forge:corundum/block>, 600 );
+<recipetype:create:crushing>.addRecipe("corundum_aluminum_cluster", [<item:create:crushed_aluminum_ore> % 75, <item:create:experience_nugget> % 75], <tag:items:forge:corundum/cluster>, 600 );
 
 // Uranium
 <recipetype:create:crushing>.removeByName("create:crushing/raw_uranium_ore");
@@ -138,6 +180,9 @@ import crafttweaker.api.item.IItemStack;
 <recipetype:immersiveengineering:crusher>.addRecipe("ie_raw_aluminum_crusher", <item:immersiveengineering:raw_aluminum>, 256, <item:immersiveengineering:dust_aluminum>, <item:immersiveengineering:dust_aluminum> % 50);
 <recipetype:immersiveengineering:crusher>.addRecipe("ie_aluminum_ore_crusher", <item:immersiveengineering:ore_aluminum>, 256, <item:immersiveengineering:dust_aluminum> * 2, <item:immersiveengineering:dust_lead> % 20);
 <recipetype:immersiveengineering:crusher>.addRecipe("ie_deepslate_aluminum_ore_crusher", <item:immersiveengineering:deepslate_ore_aluminum>, 512, <item:immersiveengineering:dust_aluminum> * 2, <item:immersiveengineering:dust_aluminum> % 50);
+
+<recipetype:immersiveengineering:crusher>.addRecipe("ie_corundum_aluminum_crusher", <tag:items:forge:corundum/block>, 512, <item:immersiveengineering:dust_aluminum>, <item:immersiveengineering:dust_aluminum> % 25, <item:immersiveengineering:dust_iron> % 25);
+<recipetype:immersiveengineering:crusher>.addRecipe("ie_corundum_cluster_aluminum_ore_crusher", <tag:items:forge:corundum/cluster>, 512, <item:immersiveengineering:dust_aluminum>, <item:immersiveengineering:dust_iron> % 20);
 
 // Uranium
 <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/ore_uranium");
