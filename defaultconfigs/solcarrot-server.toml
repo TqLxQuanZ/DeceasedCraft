@@ -7,11 +7,60 @@
 	#Range: 0 ~ 1000
 	heartsPerMilestone = 1
 	#A list of numbers of unique foods you need to eat to unlock each milestone, in ascending order. Naturally, adding more milestones lets you earn more hearts.
-	milestones = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130]
+	milestones = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130, 135, 140, 145, 150]
 
 [filtering]
 	#Foods in this list won't affect the player's health nor show up in the food book.
-	blacklist = ["marbleds_arsenal:canned_beans", "marbleds_arsenal:canned_fish", "marbleds_arsenal:instant_health_syringe", "marbleds_arsenal:resistance_syringe", "marbleds_arsenal:nightvision_syringe", "artifacts:eternal_steak", "artifacts:everlasting_beef"]
+	blacklist = ["arsenals_of_the_apocalypse:apple_juice",
+				"arsenals_of_the_apocalypse:beer",
+				"arsenals_of_the_apocalypse:tomato",
+				"arsenals_of_the_apocalypse:butter",
+				"arsenals_of_the_apocalypse:canteen_41",
+				"arsenals_of_the_apocalypse:canteen_42",
+				"arsenals_of_the_apocalypse:canteen_43",
+				"arsenals_of_the_apocalypse:canteen_44",
+				"arsenals_of_the_apocalypse:chicken_wing",
+				"arsenals_of_the_apocalypse:cooked_chicken_wing",
+				"arsenals_of_the_apocalypse:corn",
+				"arsenals_of_the_apocalypse:chocolate_bar",
+				"arsenals_of_the_apocalypse:coffee",
+				"arsenals_of_the_apocalypse:cheese",
+				"arsenals_of_the_apocalypse:coke",
+				"arsenals_of_the_apocalypse:contaminated_water",
+				"arsenals_of_the_apocalypse:cooked_canned_chille",
+				"arsenals_of_the_apocalypse:cooked_canned_food",
+				"arsenals_of_the_apocalypse:cooked_canned_soup",
+				"arsenals_of_the_apocalypse:cooked_canned_beens",
+				"arsenals_of_the_apocalypse:open_canned_chili",
+				"arsenals_of_the_apocalypse:open_canned_strawberry",
+				"arsenals_of_the_apocalypse:open_canned_corn",
+				"arsenals_of_the_apocalypse:open_canned_soup",
+				"arsenals_of_the_apocalypse:open_canned_food",
+				"arsenals_of_the_apocalypse:open_canned_beens",
+				"arsenals_of_the_apocalypse:open_dogs_food",
+				"arsenals_of_the_apocalypse:wine",
+				"arsenals_of_the_apocalypse:whisky",
+				"arsenals_of_the_apocalypse:vodka",
+				"arsenals_of_the_apocalypse:orange",
+				"arsenals_of_the_apocalypse:orange_juice",
+				"arsenals_of_the_apocalypse:peach_juice",
+				"arsenals_of_the_apocalypse:porpsi",
+				"arsenals_of_the_apocalypse:tomato",
+				"arsenals_of_the_apocalypse:large_soda",
+				"arsenals_of_the_apocalypse:grape_juice",
+				"arsenals_of_the_apocalypse:milk",
+				"arsenals_of_the_apocalypse:lettuce",
+				"arsenals_of_the_apocalypse:fried_egg",
+				"arsenals_of_the_apocalypse:fries",
+				"arsenals_of_the_apocalypse:hamburger",
+				"arsenals_of_the_apocalypse:donut",
+				"arsenals_of_the_apocalypse:dead_rat",
+				"arsenals_of_the_apocalypse:dead_cockroach",
+				"arsenals_of_the_apocalypse:cooked_rat",
+				"arsenals_of_the_apocalypse:cooked_cockroach",
+				"arsenals_of_the_apocalypse:cream_cracker",
+				"artifacts:eternal_steak",
+				"artifacts:everlasting_beef"]
 	#When this list contains anything, the blacklist is ignored and instead only foods from here count.
 	whitelist = []
 	#The minimum hunger value foods need to provide in order to count for milestones, in half drumsticks.

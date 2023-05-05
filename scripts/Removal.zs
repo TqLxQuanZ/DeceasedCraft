@@ -3,28 +3,6 @@ import crafttweaker.api.recipe.BlastFurnaceRecipeManager;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 import mods.jei.JEI;
 
-// Apocalypse Arsenal
-craftingTable.remove(<item:apocalypticarsenal:head_cutter>);
-craftingTable.remove(<item:apocalypticarsenal:rock>);
-craftingTable.remove(<item:apocalypticarsenal:table_leg>);
-craftingTable.remove(<item:apocalypticarsenal:tennis_racket>);
-craftingTable.remove(<item:apocalypticarsenal:drill>);
-//craftingTable.remove(<item:apocalypticarsenal:fire_extinguisher>);
-//craftingTable.remove(<item:apocalypticarsenal:wooden_hammer>);
-//craftingTable.remove(<item:apocalypticarsenal:premium_hammer>);
-//craftingTable.remove(<item:apocalypticarsenal:hammer_pickaxe>);
-
-//JEI.hideIngredient(<item:apocalypticarsenal:fire_extinguisher>);
-JEI.hideIngredient(<item:apocalypticarsenal:head_cutter>);
-JEI.hideIngredient(<item:apocalypticarsenal:rock>);
-JEI.hideIngredient(<item:apocalypticarsenal:table_leg>);
-
-//JEI.hideIngredient(<item:apocalypticarsenal:wooden_hammer>);
-//JEI.hideIngredient(<item:apocalypticarsenal:premium_hammer>);
-//JEI.hideIngredient(<item:apocalypticarsenal:tennis_racket>);
-//JEI.hideIngredient(<item:apocalypticarsenal:hammer_pickaxe>);
-//JEI.hideIngredient(<item:apocalypticarsenal:drill>);
-
 // Fluids
 <tag:fluids:minecraft:water>.remove(<fluid:create:honey>);
 <tag:fluids:minecraft:water>.remove(<fluid:create:chocolate>);

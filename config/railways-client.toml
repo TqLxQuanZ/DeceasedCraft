@@ -1,0 +1,10 @@
+
+#General settings
+[general]
+	#Journeymap train overlay old marker removal check time (in ticks)
+	#Range: 10 ~ 1200
+	journeymapObsolescenceCheckTicks = 200
+	#Journeymap train overlay update time (in ticks)
+	#Range: 1 ~ 600
+	journeymapUpdateTicks = 1
+

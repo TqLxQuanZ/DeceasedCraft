@@ -145,75 +145,6 @@ craftingTable.addShapedMirrored("t3_iron_boots", <constant:minecraft:mirroraxis:
     [[<tag:items:forge:plates/iron>, <item:minecraft:chainmail_boots>.anyDamage(), <tag:items:forge:plates/iron>],
     [<tag:items:forge:plates/iron>, <item:minecraft:air>, <tag:items:forge:plates/iron>]]);
 	
-craftingTable.remove(<item:create_sa:copper_helmet>);
-craftingTable.remove(<item:create_sa:copper_chestplate>);
-craftingTable.remove(<item:create_sa:copper_leggings>);
-craftingTable.remove(<item:create_sa:copper_boots>);
-
-craftingTable.addShapedMirrored("t3_copper_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:create_sa:copper_helmet>,
-    [[<tag:items:forge:string>, <tag:items:forge:plates/copper>, <tag:items:forge:string>],
-    [<tag:items:forge:plates/copper>, <item:minecraft:chainmail_helmet>.anyDamage(), <tag:items:forge:plates/copper>]]);
-
-craftingTable.addShaped("t3_copper_chestplate", <item:create_sa:copper_chestplate>,
-    [[<tag:items:forge:plates/copper>, <item:minecraft:air>, <tag:items:forge:plates/copper>],
-    [<tag:items:forge:string>, <item:minecraft:chainmail_chestplate>.anyDamage(), <tag:items:forge:string>],
-    [<tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>, <tag:items:forge:plates/copper>]]);
-
-craftingTable.addShaped("t3_copper_leggings", <item:create_sa:copper_leggings>,
-    [[<tag:items:forge:string>, <tag:items:forge:plates/copper>, <tag:items:forge:string>],
-    [<tag:items:forge:plates/copper>, <item:minecraft:chainmail_leggings>.anyDamage(), <tag:items:forge:plates/copper>],
-    [<tag:items:forge:plates/copper>, <item:minecraft:air>, <tag:items:forge:plates/copper>]]);
-
-craftingTable.addShapedMirrored("t3_copper_boots", <constant:minecraft:mirroraxis:horizontal>, <item:create_sa:copper_boots>,
-    [[<tag:items:forge:plates/copper>, <item:minecraft:chainmail_boots>.anyDamage(), <tag:items:forge:plates/copper>],
-    [<tag:items:forge:plates/copper>, <item:minecraft:air>, <tag:items:forge:plates/copper>]]);
-	
-craftingTable.remove(<item:create_sa:zinc_helmet>);
-craftingTable.remove(<item:create_sa:zinc_chestplate>);
-craftingTable.remove(<item:create_sa:zinc_leggings>);
-craftingTable.remove(<item:create_sa:zinc_boots>);
-
-craftingTable.addShapedMirrored("t3_zinc_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:create_sa:zinc_helmet>,
-    [[<tag:items:forge:string>, <tag:items:forge:plates/zinc>, <tag:items:forge:string>],
-    [<tag:items:forge:plates/zinc>, <item:minecraft:chainmail_helmet>.anyDamage(), <tag:items:forge:plates/zinc>]]);
-
-craftingTable.addShaped("t3_zinc_chestplate", <item:create_sa:zinc_chestplate>,
-    [[<tag:items:forge:plates/zinc>, <item:minecraft:air>, <tag:items:forge:plates/zinc>],
-    [<tag:items:forge:string>, <item:minecraft:chainmail_chestplate>.anyDamage(), <tag:items:forge:string>],
-    [<tag:items:forge:plates/zinc>, <tag:items:forge:plates/zinc>, <tag:items:forge:plates/zinc>]]);
-
-craftingTable.addShaped("t3_zinc_leggings", <item:create_sa:zinc_leggings>,
-    [[<tag:items:forge:string>, <tag:items:forge:plates/zinc>, <tag:items:forge:string>],
-    [<tag:items:forge:plates/zinc>, <item:minecraft:chainmail_leggings>.anyDamage(), <tag:items:forge:plates/zinc>],
-    [<tag:items:forge:plates/zinc>, <item:minecraft:air>, <tag:items:forge:plates/zinc>]]);
-
-craftingTable.addShapedMirrored("t3_zinc_boots", <constant:minecraft:mirroraxis:horizontal>, <item:create_sa:zinc_boots>,
-    [[<tag:items:forge:plates/zinc>, <item:minecraft:chainmail_boots>.anyDamage(), <tag:items:forge:plates/zinc>],
-    [<tag:items:forge:plates/zinc>, <item:minecraft:air>, <tag:items:forge:plates/zinc>]]);
-	
-craftingTable.remove(<item:create_sa:brass_helmet>);
-craftingTable.remove(<item:create_sa:brass_chestplate>);
-craftingTable.remove(<item:create_sa:brass_leggings>);
-craftingTable.remove(<item:create_sa:brass_boots>);
-
-craftingTable.addShapedMirrored("t3_brass_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:create_sa:brass_helmet>,
-    [[<tag:items:forge:string>, <tag:items:forge:plates/brass>, <tag:items:forge:string>],
-    [<tag:items:forge:plates/brass>, <item:minecraft:chainmail_helmet>.anyDamage(), <tag:items:forge:plates/brass>]]);
-
-craftingTable.addShaped("t3_brass_chestplate", <item:create_sa:brass_chestplate>,
-    [[<tag:items:forge:plates/brass>, <item:minecraft:air>, <tag:items:forge:plates/brass>],
-    [<tag:items:forge:string>, <item:minecraft:chainmail_chestplate>.anyDamage(), <tag:items:forge:string>],
-    [<tag:items:forge:plates/brass>, <tag:items:forge:plates/brass>, <tag:items:forge:plates/brass>]]);
-
-craftingTable.addShaped("t3_brass_leggings", <item:create_sa:brass_leggings>,
-    [[<tag:items:forge:string>, <tag:items:forge:plates/brass>, <tag:items:forge:string>],
-    [<tag:items:forge:plates/brass>, <item:minecraft:chainmail_leggings>.anyDamage(), <tag:items:forge:plates/brass>],
-    [<tag:items:forge:plates/brass>, <item:minecraft:air>, <tag:items:forge:plates/brass>]]);
-
-craftingTable.addShapedMirrored("t3_brass_boots", <constant:minecraft:mirroraxis:horizontal>, <item:create_sa:brass_boots>,
-    [[<tag:items:forge:plates/brass>, <item:minecraft:chainmail_boots>.anyDamage(), <tag:items:forge:plates/brass>],
-    [<tag:items:forge:plates/brass>, <item:minecraft:air>, <tag:items:forge:plates/brass>]]);
-
 #------------------ Tier 4 --------------------------
 #----------------------------------------------------
 #----------------------------------------------------
@@ -247,19 +178,19 @@ craftingTable.remove(<item:immersiveengineering:armor_steel_feet>);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t4_brass_jetpack_chestplate", <item:create_sa:brass_jetpack_chestplate>,
     [[<item:minecraft:air>, <item:create:shaft>, <item:create:belt_connector>, <item:create:shaft>, <item:minecraft:air>],
-    [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:create_sa:brass_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
+    [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:minecraft:chainmail_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
     [<tag:items:forge:plates/brass>, <item:immersiveengineering:component_electronic>, <item:create_sa:steam_engine>, <item:immersiveengineering:component_electronic>, <tag:items:forge:plates/brass>],
     [<item:minecraft:air>, <item:create:propeller>, <item:create:belt_connector>, <item:create:propeller>, <item:minecraft:air>]]);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t4_andesite_jetpack_chestplate", <item:create_sa:andesite_jetpack_chestplate>,
     [[<item:minecraft:air>, <item:create:shaft>, <item:create:belt_connector>, <item:create:shaft>, <item:minecraft:air>],
-    [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:create_sa:zinc_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
+    [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:minecraft:chainmail_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
     [<tag:items:forge:plates/zinc>, <item:immersiveengineering:component_electronic>, <item:create_sa:heat_engine>, <item:immersiveengineering:component_electronic>, <tag:items:forge:plates/zinc>],
     [<item:minecraft:air>, <item:create:propeller>, <item:create:belt_connector>, <item:create:propeller>, <item:minecraft:air>]]);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t4_copper_jetpack_chestplate", <item:create_sa:copper_jetpack_chestplate>,
     [[<item:minecraft:air>, <item:create:shaft>, <item:create:belt_connector>, <item:create:shaft>, <item:minecraft:air>],
-    [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:create_sa:copper_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
+    [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:minecraft:chainmail_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
     [<tag:items:forge:plates/copper>, <item:immersiveengineering:component_electronic>, <item:create_sa:heat_engine>, <item:immersiveengineering:component_electronic>, <tag:items:forge:plates/copper>],
     [<item:minecraft:air>, <item:create:propeller>, <item:create:belt_connector>, <item:create:propeller>, <item:minecraft:air>]]);
 
@@ -271,24 +202,10 @@ craftingTable.remove(<item:minecraft:diamond_helmet>);
 craftingTable.remove(<item:minecraft:diamond_chestplate>);
 craftingTable.remove(<item:minecraft:diamond_leggings>);
 craftingTable.remove(<item:minecraft:diamond_boots>);
-
-<recipetype:create:mechanical_crafting>.addRecipe("t5_diamond_helmet", <item:minecraft:diamond_helmet>,
-    [[<tag:items:forge:wires/steel>, <item:createaddition:diamond_grit>, <tag:items:forge:wires/steel>],
-    [<item:createaddition:diamond_grit>, <item:immersiveengineering:armor_steel_head>.anyDamage(), <item:createaddition:diamond_grit>]]);
-
-<recipetype:create:mechanical_crafting>.addRecipe("t5_diamond_chestplate", <item:minecraft:diamond_chestplate>,
-    [[<item:createaddition:diamond_grit>, <item:minecraft:air>, <item:createaddition:diamond_grit>],
-    [<tag:items:forge:wires/steel>, <item:immersiveengineering:armor_steel_chest>.anyDamage(), <tag:items:forge:wires/steel>],
-    [<item:createaddition:diamond_grit>, <item:createaddition:diamond_grit>, <item:createaddition:diamond_grit>]]);
-
-<recipetype:create:mechanical_crafting>.addRecipe("t5_diamond_leggings", <item:minecraft:diamond_leggings>,
-    [[<tag:items:forge:wires/steel>, <item:createaddition:diamond_grit>, <tag:items:forge:wires/steel>],
-    [<item:createaddition:diamond_grit>, <item:immersiveengineering:armor_steel_legs>.anyDamage(), <item:createaddition:diamond_grit>],
-    [<item:createaddition:diamond_grit>, <item:minecraft:air>, <item:createaddition:diamond_grit>]]);
-
-<recipetype:create:mechanical_crafting>.addRecipe("t5_diamond_boots", <item:minecraft:diamond_boots>,
-    [[<item:createaddition:diamond_grit>, <item:immersiveengineering:armor_steel_feet>.anyDamage(), <item:createaddition:diamond_grit>],
-    [<item:createaddition:diamond_grit>, <item:minecraft:air>, <item:createaddition:diamond_grit>]]);
+JEI.hideIngredient(<item:minecraft:diamond_helmet>);
+JEI.hideIngredient(<item:minecraft:diamond_chestplate>);
+JEI.hideIngredient(<item:minecraft:diamond_leggings>);
+JEI.hideIngredient(<item:minecraft:diamond_boots>);
 
 <recipetype:create:mechanical_crafting>.remove(<item:create_sa:brass_exoskeleton_chestplate>);
 <recipetype:create:mechanical_crafting>.remove(<item:create_sa:andesite_exoskeleton_chestplate>);
@@ -296,19 +213,19 @@ craftingTable.remove(<item:create_sa:copper_exoskeleton_chestplate>);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t5_brass_exoskeleton_chestplate", <item:create_sa:brass_exoskeleton_chestplate>,
     [[<item:minecraft:air>, <item:create:shaft>, <item:create:belt_connector>, <item:create:shaft>, <item:minecraft:air>],
-    [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:create_sa:brass_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
+    [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:minecraft:chainmail_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
     [<tag:items:forge:plates/brass>, <item:immersiveengineering:component_electronic_adv>, <item:create_sa:steam_engine>, <item:immersiveengineering:component_electronic_adv>, <tag:items:forge:plates/brass>],
     [<item:minecraft:air>, <tag:items:forge:plates/plastic>, <item:create:belt_connector>, <tag:items:forge:plates/plastic>, <item:minecraft:air>]]);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t5_andesite_exoskeleton_chestplate", <item:create_sa:andesite_exoskeleton_chestplate>,
     [[<item:minecraft:air>, <item:create:shaft>, <item:create:belt_connector>, <item:create:shaft>, <item:minecraft:air>],
-    [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:create_sa:zinc_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
+    [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:minecraft:chainmail_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
     [<tag:items:forge:plates/zinc>, <item:immersiveengineering:component_electronic_adv>, <item:create_sa:heat_engine>, <item:immersiveengineering:component_electronic_adv>, <tag:items:forge:plates/zinc>],
     [<item:minecraft:air>, <tag:items:forge:plates/plastic>, <item:create:belt_connector>, <tag:items:forge:plates/plastic>, <item:minecraft:air>]]);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t5_copper_exoskeleton_chestplate", <item:create_sa:copper_exoskeleton_chestplate>,
     [[<item:minecraft:air>, <item:create:shaft>, <item:create:belt_connector>, <item:create:shaft>, <item:minecraft:air>],
-    [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:create_sa:copper_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
+    [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:minecraft:chainmail_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
     [<tag:items:forge:plates/copper>, <item:immersiveengineering:component_electronic_adv>, <item:create_sa:hydraulic_engine>, <item:immersiveengineering:component_electronic_adv>, <tag:items:forge:plates/copper>],
     [<item:minecraft:air>, <tag:items:forge:plates/plastic>, <item:create:belt_connector>, <tag:items:forge:plates/plastic>, <item:minecraft:air>]]);
 

@@ -59,7 +59,7 @@
 	#Do players who die to infection spawn a zombie?
 	infectionSpawnsZombiePlayers = true
 	#What factor should the infection potion effect timer be multiplied by for each cured infection? (Resets on death, set to 1 to disable scaling)
-	effectStageTickReduction = 0.95
+	effectStageTickReduction = 1.0
 
 [Misc]
 	#Whether to use zombie players as graves all the time. (Even if infection is disabled)

@@ -23,6 +23,11 @@ val polyethylene = <factory:item>.typed<Basic>()
     .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("polyethylene");
 
+val high_carbon_steel_alloy = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:epic>)
+    .build("high_carbon_steel_alloy");
+
 val resistant_fiber = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
     .rarity(<constant:minecraft:item/rarity:rare>)

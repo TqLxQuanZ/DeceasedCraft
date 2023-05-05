@@ -5,6 +5,9 @@ import crafttweaker.api.recipe.Replacer;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 import crafttweaker.api.misc.Composter;
 
+// High Carbon Steel Alloy
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_high_carbon_steel_alloy", <tag:items:forge:ingots/steel>, [<item:contenttweaker:polyethylene>], 600, 102400, [<item:contenttweaker:high_carbon_steel_alloy>], <item:minecraft:air> );
+
 // Resistant Fabric
 craftingTable.addShapeless("resistant_fabric", <item:contenttweaker:resistant_fabric>,
     [<item:contenttweaker:resistant_fiber>, <item:contenttweaker:resistant_fiber>, <item:contenttweaker:resistant_fiber>, <item:contenttweaker:resistant_fiber>]);
@@ -77,11 +80,22 @@ craftingTable.remove(<item:marbleds_arsenal:empty_syringe>);
 craftingTable.addShapeless("empty_syringe", <item:marbleds_arsenal:empty_syringe>,
     [<item:minecraft:glass_bottle>, <tag:items:forge:glass_panes>, <tag:items:forge:plates/plastic>]);
 
+// Gold Wire
+craftingTable.addShapeless("ie_gold_wire", <item:createaddition:gold_wire>,
+    [<tag:items:forge:plates/gold>, <item:immersiveengineering:wirecutter>.transformDamage(1)]);
+
+// Iron Wire
+craftingTable.addShapeless("ie_iron_wire", <item:createaddition:iron_wire>,
+    [<tag:items:forge:plates/iron>, <item:immersiveengineering:wirecutter>.transformDamage(1)]);
+
 // Steel for mixing
 <recipetype:create:mixing>.addRecipe("steel_ingot", <constant:create:heat_condition:superheated>, [<item:immersiveengineering:ingot_steel>], [<tag:items:forge:dusts/coal_coke>, <tag:items:forge:ingots/iron>], [], 256);
 
 // Coke dust
 <recipetype:create:milling>.addRecipe("coke_dust", [<item:immersiveengineering:dust_coke>], <item:immersiveengineering:coal_coke>, 256);
+
+// Wheat Flour
+<recipetype:immersiveengineering:crusher>.addRecipe("ie_flour", <tag:items:forge:crops/wheat>, 256, <item:create:wheat_flour> * 2, <item:create:wheat_flour> * 2 % 50, <item:minecraft:wheat_seeds> % 50 );
 
 // Diamond Grit
 <recipetype:immersiveengineering:crusher>.addRecipe("diamond_grit", <tag:items:forge:gems/diamond>, 850, <item:createaddition:diamond_grit> );
