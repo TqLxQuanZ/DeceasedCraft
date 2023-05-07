@@ -1,0 +1,36 @@
+{
+  "armorSetName": "Military Riot",
+  "head": {
+    "itemKey": "arsenals_of_the_apocalypse:military_riot_armor_helmet"
+  },
+  "chest": {
+    "itemKey": "arsenals_of_the_apocalypse:military_riot_armor_chestplate"
+  },
+  "legs": {
+    "itemKey": "arsenals_of_the_apocalypse:military_riot_armor_leggings"
+  },
+  "boots": {
+    "itemKey": "arsenals_of_the_apocalypse:military_riot_armor_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.4,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "12ab6d86-61d1-4a80-998c-46a0e3716357",
+      "description": "Grants 0.4 Attack Speed",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "value": 1.0,
+      "interactionType": "attack",
+      "interactionDuration": 100.0,
+      "description": "Apply Slowness Effect When Dealt Damage"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

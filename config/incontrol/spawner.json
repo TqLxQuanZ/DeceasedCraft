@@ -20,7 +20,7 @@
 	{
 		"mob": "minecraft:blaze",
 		"persecond": 0.5,
-		"attempts": 20,
+		"attempts": 25,
 		"amount": {
 		  "minimum": 1,
 		  "maximum": 3,
@@ -34,33 +34,51 @@
 		  "minheight": 45,
 		  "maxheight": 200
 		}
-	  },
-	  {
-		  "mob": "rottencreatures:dead_beard",
-		  "persecond": 0.01,
-		  "attempts": 5,
-		  "conditions": {
-			"dimension": "minecraft:overworld",
-			"norestrictions": true,
-			"mindist": 30,
-			"maxdist": 150,
-			"minheight": 45,
-			"maxheight": 200,
-			"maxlocal": 2
-		  }
-	  },
-	  {
-		  "mob": "minecraft:wandering_trader",
-		  "persecond": 0.001,
-		  "attempts": 1,
-		  "conditions": {
-			"dimension": "minecraft:overworld",
-			"norestrictions": true,
-			"mindist": 10,
-			"maxdist": 30,
-			"minheight": 45,
-			"maxheight": 200,
-			"maxlocal": 1
-		  }
+	},
+	{
+		"mob": "minecraft:hoglin",
+		"persecond": 0.5,
+		"attempts": 20,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 3,
+		  "groupdistance": 1
+		},
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 10,
+		  "maxdist": 150,
+		  "minheight": 0,
+		  "maxheight": 200
+		}
+	},
+	{
+		"mob": "rottencreatures:dead_beard",
+		"persecond": 0.01,
+		"attempts": 5,
+		"conditions": {
+		"dimension": "minecraft:overworld",
+		"norestrictions": true,
+		"mindist": 30,
+		"maxdist": 150,
+		"minheight": 45,
+		"maxheight": 200,
+		"maxlocal": 2
+		}
+	},
+	{
+		"mob": "minecraft:wandering_trader",
+		"persecond": 0.001,
+		"attempts": 1,
+		"conditions": {
+		"dimension": "minecraft:overworld",
+		"norestrictions": true,
+		"mindist": 10,
+		"maxdist": 30,
+		"minheight": 45,
+		"maxheight": 200,
+		"maxlocal": 1
+		}
 	}
 ]

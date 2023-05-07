@@ -1,0 +1,38 @@
+{
+  "armorSetName": "UN",
+  "head": {
+    "itemKey": "arsenals_of_the_apocalypse:un_armor_helmet"
+  },
+  "chest": {
+    "itemKey": "arsenals_of_the_apocalypse:un_armor_chestplate"
+  },
+  "legs": {
+    "itemKey": "arsenals_of_the_apocalypse:un_armor_leggings"
+  },
+  "boots": {
+    "itemKey": "arsenals_of_the_apocalypse:un_armor_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1.0,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "e50ce33b-8a51-40b9-9c27-2c3f908bc0a9",
+      "description": "Grants 1.0 Melee Damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.4,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "7fade7aa-0fe5-4016-97ba-8c0821f15612",
+      "description": "Grants 0.4 Attack Speed",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

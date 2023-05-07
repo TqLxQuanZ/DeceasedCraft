@@ -1,0 +1,28 @@
+{
+  "armorSetName": "Football",
+  "head": {
+    "itemKey": "arsenals_of_the_apocalypse:blue_football_armor_helmet"
+  },
+  "chest": {
+    "itemKey": "arsenals_of_the_apocalypse:blue_football_armor_chestplate"
+  },
+  "legs": {
+    "itemKey": "arsenals_of_the_apocalypse:blue_football_armor_leggings"
+  },
+  "boots": {
+    "itemKey": "arsenals_of_the_apocalypse:blue_football_armor_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.02,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "1c6f9cf9-bad3-4350-9347-ccfcc88a2f3d",
+      "description": "Grants 20% Movement Speed",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

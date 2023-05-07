@@ -420,13 +420,37 @@
       "dimension": "minecraft:overworld",
       "mincount": {
         "mob": "minecraft:blaze",
-        "amount": 20,
+        "amount": 5,
         "perchunk": true
       },
       "result": "deny"
     },
     {
       "mob": "minecraft:blaze",
+      "dimension": "minecraft:overworld",
+      "result": "deny"
+    },
+    {
+        "mob": "minecraft:hoglin",
+        "dimension": "minecraft:overworld",
+        "minlight": 0,
+        "maxlight": 7, 
+        "seesky": true,
+        "biome": ["biomesoplenty:volcanic_plains", "biomesoplenty:volcano", "wythers:volcano", "wythers:volcanic_crater", "wythers:volcanic_chamber"],
+        "result": "allow"
+    },
+    {
+      "mob": "minecraft:hoglin",
+      "dimension": "minecraft:overworld",
+      "mincount": {
+        "mob": "minecraft:hoglin",
+        "amount": 3,
+        "perchunk": true
+      },
+      "result": "deny"
+    },
+    {
+      "mob": "minecraft:hoglin",
       "dimension": "minecraft:overworld",
       "result": "deny"
     },

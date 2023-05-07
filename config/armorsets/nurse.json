@@ -1,0 +1,27 @@
+{
+  "armorSetName": "Nurse",
+  "head": {
+    "itemKey": "arsenals_of_the_apocalypse:nurse_helmet"
+  },
+  "chest": {
+    "itemKey": "arsenals_of_the_apocalypse:nurse_chestplate"
+  },
+  "legs": {
+    "itemKey": "arsenals_of_the_apocalypse:nurse_leggings"
+  },
+  "boots": {
+    "itemKey": "arsenals_of_the_apocalypse:nurse_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:health_boost",
+      "value": 2.0,
+      "interactionType": "self",
+      "interactionDuration": 100.0,
+      "description": "Grants Max Health",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

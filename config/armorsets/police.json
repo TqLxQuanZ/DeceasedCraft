@@ -1,0 +1,28 @@
+{
+  "armorSetName": "Police",
+  "head": {
+    "itemKey": "arsenals_of_the_apocalypse:police_helmet"
+  },
+  "chest": {
+    "itemKey": "arsenals_of_the_apocalypse:police_chestplate"
+  },
+  "legs": {
+    "itemKey": "arsenals_of_the_apocalypse:police_leggings"
+  },
+  "boots": {
+    "itemKey": "arsenals_of_the_apocalypse:police_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1.0,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "a60dba90-0f74-4c18-824c-5334a7bb8a61",
+      "description": "Grants 1.0 Melee Damage",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

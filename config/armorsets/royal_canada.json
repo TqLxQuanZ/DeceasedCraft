@@ -1,0 +1,38 @@
+{
+  "armorSetName": "Royal Canada Police Officer",
+  "head": {
+    "itemKey": "arsenals_of_the_apocalypse:royal_canada_police_officer_helmet"
+  },
+  "chest": {
+    "itemKey": "arsenals_of_the_apocalypse:royal_canada_police_officer_chestplate"
+  },
+  "legs": {
+    "itemKey": "arsenals_of_the_apocalypse:royal_canada_police_officer_leggings"
+  },
+  "boots": {
+    "itemKey": "arsenals_of_the_apocalypse:royal_canada_police_officer_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.75,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "d65b6ad9-1bcc-459f-af41-b5687e04ad57",
+      "description": "Grants 0.75 Melee Damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.3,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "6a83251d-d295-48f7-8b6b-01a565b8818f",
+      "description": "Grants 0.3 Attack Speed",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

@@ -1,0 +1,42 @@
+{
+  "armorSetName": "Officer Beret",
+  "head": {
+    "itemKey": "arsenals_of_the_apocalypse:officer_beret_helmet"
+  },
+  "chest": {
+    "itemKey": "arsenals_of_the_apocalypse:officer_beret_chestplate"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.5,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "fff99c09-7bd6-445a-88ad-4d40d1aa70cf",
+      "description": "Grants 0.5 Melee Damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.25,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "a0896f60-946a-42ab-b87c-6c908c745ffd",
+      "description": "Grants 0.25 Attack Speed",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_knockback",
+      "value": 0.25,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "c37558d0-b8e1-4a1b-886e-0532f3b6eee5",
+      "description": "Grants 0.25 Knockback Strength",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

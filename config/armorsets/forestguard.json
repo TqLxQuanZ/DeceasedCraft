@@ -1,0 +1,28 @@
+{
+  "armorSetName": "Forest Guard",
+  "head": {
+    "itemKey": "arsenals_of_the_apocalypse:forestguard_helmet"
+  },
+  "chest": {
+    "itemKey": "arsenals_of_the_apocalypse:forestguard_chestplate"
+  },
+  "legs": {
+    "itemKey": "arsenals_of_the_apocalypse:forestguard_leggings"
+  },
+  "boots": {
+    "itemKey": "arsenals_of_the_apocalypse:forestguard_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.35,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "766b4e0a-13f3-4e4f-8a2c-49b4f41da5b9",
+      "description": "Grants 0.35 Attack Speed",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

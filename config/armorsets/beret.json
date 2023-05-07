@@ -1,0 +1,42 @@
+{
+  "armorSetName": "Beret",
+  "head": {
+    "itemKey": "arsenals_of_the_apocalypse:beret_helmet"
+  },
+  "chest": {
+    "itemKey": "arsenals_of_the_apocalypse:beret_chestplate"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.5,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "b11b2306-6d1c-4637-a88e-8989629d395e",
+      "description": "Grants 0.5 Melee Damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.25,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "80e9d88e-f319-4d5b-abe3-3f7bb5eee824",
+      "description": "Grants 0.25 Attack Speed",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_knockback",
+      "value": 0.25,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "06e3e700-12e8-49d7-b853-4af35c5da5fc",
+      "description": "Grants 0.25 Knockback Strength",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

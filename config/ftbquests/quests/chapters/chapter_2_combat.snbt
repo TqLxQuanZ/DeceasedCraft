@@ -992,8 +992,8 @@
 		}
 		{
 			title: "It's Just Basic Ingredients"
-			x: -21.0d
-			y: 5.0d
+			x: -11.0d
+			y: -2.0d
 			description: ["Obtain a workbench for crafting guns."]
 			dependencies: ["70C3799E5D5D54F3"]
 			size: 2.0d
@@ -1012,8 +1012,8 @@
 		}
 		{
 			title: "Ingredient - II"
-			x: -23.5d
-			y: 9.5d
+			x: -7.0d
+			y: -4.5d
 			dependencies: ["4696002ED9979138"]
 			progression_mode: "flexible"
 			id: "7AE6E581C9B5D3F9"
@@ -1030,8 +1030,8 @@
 		}
 		{
 			title: "Ingredient - IX"
-			x: -25.0d
-			y: 1.0d
+			x: -12.5d
+			y: -7.0d
 			dependencies: ["4696002ED9979138"]
 			progression_mode: "flexible"
 			id: "14B19E2F80C984C2"
@@ -1048,8 +1048,8 @@
 		}
 		{
 			title: "Ingredient - VIII"
-			x: -26.5d
-			y: 2.0d
+			x: -14.5d
+			y: -5.5d
 			dependencies: ["4696002ED9979138"]
 			progression_mode: "flexible"
 			id: "07D2A9C36C5CB114"
@@ -1066,8 +1066,8 @@
 		}
 		{
 			title: "Ingredient - VII"
-			x: -27.5d
-			y: 3.5d
+			x: -13.5d
+			y: -6.5d
 			dependencies: ["4696002ED9979138"]
 			progression_mode: "flexible"
 			id: "3D6BB32D255354B4"
@@ -1084,8 +1084,8 @@
 		}
 		{
 			title: "Ingredient - VI"
-			x: -28.0d
-			y: 5.0d
+			x: -15.5d
+			y: -4.5d
 			dependencies: ["4696002ED9979138"]
 			progression_mode: "flexible"
 			id: "249736C9B9729BFD"
@@ -1102,8 +1102,8 @@
 		}
 		{
 			title: "Ingredient - V"
-			x: -27.5d
-			y: 6.5d
+			x: -16.0d
+			y: -3.0d
 			dependencies: ["4696002ED9979138"]
 			progression_mode: "flexible"
 			id: "6DD7B4F6DEAFCDD5"
@@ -1120,8 +1120,8 @@
 		}
 		{
 			title: "Ingredient - IV"
-			x: -26.5d
-			y: 8.0d
+			x: -8.5d
+			y: -6.5d
 			dependencies: ["4696002ED9979138"]
 			progression_mode: "flexible"
 			id: "251C371456B675FF"
@@ -1138,8 +1138,8 @@
 		}
 		{
 			title: "Ingredient - III"
-			x: -25.0d
-			y: 9.0d
+			x: -7.5d
+			y: -5.5d
 			dependencies: ["4696002ED9979138"]
 			progression_mode: "flexible"
 			id: "6B7F8A18AF86F871"
@@ -1156,8 +1156,8 @@
 		}
 		{
 			title: "Ingredients - X"
-			x: -23.5d
-			y: 0.5d
+			x: -11.0d
+			y: -7.5d
 			dependencies: ["4696002ED9979138"]
 			progression_mode: "flexible"
 			id: "325C9BD0C5F08077"
@@ -1174,8 +1174,8 @@
 		}
 		{
 			title: "Ingredient - I"
-			x: -22.0d
-			y: 9.5d
+			x: -6.5d
+			y: -3.0d
 			dependencies: ["4696002ED9979138"]
 			progression_mode: "flexible"
 			id: "2CB3E945DE6A2F2C"
@@ -1192,8 +1192,8 @@
 		}
 		{
 			title: "Ingredient - XI"
-			x: -22.0d
-			y: 0.5d
+			x: -9.5d
+			y: -7.0d
 			dependencies: ["4696002ED9979138"]
 			progression_mode: "flexible"
 			id: "7A3D306DC1915257"
@@ -1379,6 +1379,366 @@
 				id: "5B613489CF296566"
 				type: "xp"
 				xp: 1200
+			}]
+		}
+		{
+			title: "Swing Hard - I"
+			x: -29.5d
+			y: 5.0d
+			shape: "hexagon"
+			description: ["Obtain a baseball bat."]
+			dependencies: ["2FC6C2EAD08E268C"]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			progression_mode: "flexible"
+			id: "000A365F13CD2A32"
+			tasks: [{
+				id: "4AFE41DE10BA53E0"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:baseball_bat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "50EF92D14652404F"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "The Basic of Basic"
+			x: -27.0d
+			y: 5.0d
+			description: ["Obtain a plank for crafting weapons."]
+			dependencies: ["70C3799E5D5D54F3"]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			progression_mode: "flexible"
+			id: "2FC6C2EAD08E268C"
+			tasks: [{
+				id: "4B99999433E81695"
+				type: "item"
+				item: "minecraft:oak_planks"
+			}]
+			rewards: [{
+				id: "34FD8479AD0F6463"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Swing Hard - II"
+			x: -31.0d
+			y: 0.5d
+			description: ["Obtain or craft a wrapped baseball bat."]
+			dependencies: ["000A365F13CD2A32"]
+			dependency_requirement: "one_started"
+			hide_text_until_complete: true
+			progression_mode: "flexible"
+			id: "491B68D87E68D1E5"
+			tasks: [{
+				id: "68009AB2CB96221C"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:wrapped_baseball_bat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "168C12BB964BE66F"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "Swing Hard - III"
+			x: -32.5d
+			y: 1.5d
+			description: ["Obtain or craft a spiked baseball bat."]
+			dependencies: ["000A365F13CD2A32"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "51B51525140B486E"
+			tasks: [{
+				id: "257A6534F2E83905"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:spiked_baseball_bat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "01DEF7AE693C8830"
+				type: "xp"
+				xp: 150
+			}]
+		}
+		{
+			title: "Swing Hard - IV"
+			x: -33.5d
+			y: 3.0d
+			description: ["Obtain or craft a wired baseball bat."]
+			dependencies: ["000A365F13CD2A32"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "2D7CD2189981BF49"
+			tasks: [{
+				id: "30ACB1FEAFA3C7E9"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:wired_baseball_bat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "695AD6CAF2163BDA"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Swing Hard - V"
+			x: -34.0d
+			y: 5.0d
+			description: ["Obtain or craft an electric baseball bat."]
+			dependencies: ["000A365F13CD2A32"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "55684319ED130E3F"
+			tasks: [{
+				id: "073F60CBBF12CC59"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:electrical_baseball_bat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1591D6C9EACB5CBA"
+				type: "xp"
+				xp: 250
+			}]
+		}
+		{
+			title: "Swing Hard - VI"
+			x: -33.5d
+			y: 7.0d
+			description: ["Obtain or craft a saw baseball bat."]
+			dependencies: ["000A365F13CD2A32"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "72CD21DED648E7DE"
+			tasks: [{
+				id: "229C6DC56629814E"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:saw_baseball_bat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "477A1D7D21E5D56B"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			title: "Swing Hard - VII"
+			x: -33.0d
+			y: 8.5d
+			description: ["Obtain or craft an iron baseball bat."]
+			dependencies: ["000A365F13CD2A32"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "697FFDAA9E4CC4F5"
+			tasks: [{
+				id: "01BCAA94F2A64717"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:iron_baseball_bat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "227AFDF6BAD4C73D"
+				type: "xp"
+				xp: 400
+			}]
+		}
+		{
+			x: -31.5d
+			y: 9.5d
+			description: ["Obtain or craft a spiked iron baseball bat."]
+			dependencies: ["000A365F13CD2A32"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "7B6EC23BF9FEF28E"
+			tasks: [{
+				id: "3B1415B5F0892EEE"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:spiked_iron_baseball_bat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "722556818E441138"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			title: "Where's the flour?"
+			x: -27.0d
+			y: 0.5d
+			description: ["Obtain or craft a rolling pin."]
+			dependencies: ["2FC6C2EAD08E268C"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "6DF6602BAC661166"
+			tasks: [{
+				id: "08532A75DDEF1E5C"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:rolling_pin"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7191CEA191822C3D"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			title: "It's not much but honest work"
+			x: -28.5d
+			y: 0.5d
+			description: ["Obtain or craft an improvised knife."]
+			dependencies: ["2FC6C2EAD08E268C"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "3246241EE0A8ADF6"
+			tasks: [{
+				id: "4805E00700B33D8C"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:improvised_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1DFE58E27C2E1B72"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			title: "Hookey"
+			x: -28.5d
+			y: 9.5d
+			description: ["Obtain or craft a hockey stick."]
+			dependencies: ["2FC6C2EAD08E268C"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "45C6666E301AFAE8"
+			tasks: [{
+				id: "1AE0F84CD2F1389D"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:hookey_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5870E84EB1408BB3"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			title: "Primitive Style - I"
+			x: -27.0d
+			y: 9.5d
+			description: ["Obtain or craft a club"]
+			dependencies: ["2FC6C2EAD08E268C"]
+			progression_mode: "flexible"
+			id: "4B03786A2B018C09"
+			tasks: [{
+				id: "440C5A4CCD646B7A"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:club"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "20114DC4BDF16DF2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Primitive Style - II"
+			x: -25.5d
+			y: 9.5d
+			description: ["Obtain or craft an electric club."]
+			dependencies: ["2FC6C2EAD08E268C"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "4B167523DA7A3E70"
+			tasks: [{
+				id: "6DE3A6CD7A3A3194"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:electric_club"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "04645D7A1217E62C"
+				type: "xp"
+				xp: 300
 			}]
 		}
 	]

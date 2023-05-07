@@ -1,0 +1,28 @@
+{
+  "armorSetName": "Anarchy",
+  "head": {
+    "itemKey": "arsenals_of_the_apocalypse:anarchy_helmet"
+  },
+  "chest": {
+    "itemKey": "arsenals_of_the_apocalypse:anarchy_chestplate"
+  },
+  "legs": {
+    "itemKey": "arsenals_of_the_apocalypse:anarchy_leggings"
+  },
+  "boots": {
+    "itemKey": "arsenals_of_the_apocalypse:anarchy_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.01,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "c87cdfb0-a4ae-4016-bb8d-9709caecf3cb",
+      "description": "Grants 10% Movement Speed",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

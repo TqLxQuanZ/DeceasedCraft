@@ -1,0 +1,28 @@
+{
+  "armorSetName": "Army",
+  "head": {
+    "itemKey": "arsenals_of_the_apocalypse:russian_army_helmet"
+  },
+  "chest": {
+    "itemKey": "arsenals_of_the_apocalypse:russian_army_chestplate"
+  },
+  "legs": {
+    "itemKey": "arsenals_of_the_apocalypse:russian_army_leggings"
+  },
+  "boots": {
+    "itemKey": "arsenals_of_the_apocalypse:russian_army_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 2.0,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "bb8eefcb-daae-4d68-9581-80600375e772",
+      "description": "Grants 2.0 Melee Damage",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

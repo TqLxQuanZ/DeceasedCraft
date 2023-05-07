@@ -9,17 +9,17 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 
  
 <item:arsenals_of_the_apocalypse:spiked_baseball_bat>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:spiked_baseball_bat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:spiked_baseball_bat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 5.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:spiked_baseball_bat>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:spiked_baseball_bat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:spiked_baseball_bat>.maxDamage = 130;
+<item:arsenals_of_the_apocalypse:spiked_baseball_bat>.maxDamage = 150;
 
  
 <item:arsenals_of_the_apocalypse:wrapped_baseball_bat>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:wrapped_baseball_bat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:wrapped_baseball_bat>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:wrapped_baseball_bat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:wrapped_baseball_bat>.maxDamage = 160;
+<item:arsenals_of_the_apocalypse:wrapped_baseball_bat>.maxDamage = 200;
 
  
 <item:arsenals_of_the_apocalypse:wired_baseball_bat>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -33,25 +33,25 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:arsenals_of_the_apocalypse:saw_baseball_bat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 7.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:saw_baseball_bat>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:saw_baseball_bat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:saw_baseball_bat>.maxDamage = 200;
+<item:arsenals_of_the_apocalypse:saw_baseball_bat>.maxDamage = 451;
 
  
-<item:arsenals_of_the_apocalypse:wired_baseball_bat>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:wired_baseball_bat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:wired_baseball_bat>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:wired_baseball_bat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:wired_baseball_bat>.maxDamage = 250;
+<item:arsenals_of_the_apocalypse:electrical_baseball_bat>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:electrical_baseball_bat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:electrical_baseball_bat>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:electrical_baseball_bat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:electrical_baseball_bat>.maxDamage = 304;
 
  
 <item:arsenals_of_the_apocalypse:iron_baseball_bat>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:iron_baseball_bat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 5.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:iron_baseball_bat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:iron_baseball_bat>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:iron_baseball_bat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:iron_baseball_bat>.maxDamage = 752;
 
  
 <item:arsenals_of_the_apocalypse:spiked_iron_baseball_bat>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:spiked_iron_baseball_bat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:spiked_iron_baseball_bat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 7.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:spiked_iron_baseball_bat>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:spiked_iron_baseball_bat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:spiked_iron_baseball_bat>.maxDamage = 784;
@@ -71,39 +71,39 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:arsenals_of_the_apocalypse:sledge_hammer>.maxDamage = 356;
 
  
-<item:arsenals_of_the_apocalypse:screwdriver>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:screwdriver>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:screwdriver>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:screwdriver>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:screwdriver>.maxDamage = 240;
+<item:immersiveengineering:screwdriver>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:immersiveengineering:screwdriver>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:immersiveengineering:screwdriver>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:immersiveengineering:screwdriver>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:immersiveengineering:screwdriver>.maxDamage = 240;
 
  
 <item:arsenals_of_the_apocalypse:fire_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:fire_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 8.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:fire_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:fire_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:fire_axe>.maxDamage = 641;
+<item:arsenals_of_the_apocalypse:fire_axe>.maxDamage = 894;
 
  
 <item:arsenals_of_the_apocalypse:emergency_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:emergency_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 8.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:emergency_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:emergency_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:emergency_axe>.maxDamage = 641;
+<item:arsenals_of_the_apocalypse:emergency_axe>.maxDamage = 894;
 
  
 <item:arsenals_of_the_apocalypse:wooden_fire_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:wooden_fire_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 8.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:wooden_fire_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:wooden_fire_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:wooden_fire_axe>.maxDamage = 346;
+<item:arsenals_of_the_apocalypse:wooden_fire_axe>.maxDamage = 485;
 
  
 <item:arsenals_of_the_apocalypse:construction_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:construction_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 8.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:construction_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:construction_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:construction_axe>.maxDamage = 641;
+<item:arsenals_of_the_apocalypse:construction_axe>.maxDamage = 894;
 
  
 <item:arsenals_of_the_apocalypse:hand_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -117,14 +117,14 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:arsenals_of_the_apocalypse:lumber_jack_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 8.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:lumber_jack_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:lumber_jack_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:lumber_jack_axe>.maxDamage = 641;
+<item:arsenals_of_the_apocalypse:lumber_jack_axe>.maxDamage = 231;
 
  
 <item:arsenals_of_the_apocalypse:red_lumberjack_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:red_lumberjack_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 8.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:red_lumberjack_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:red_lumberjack_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:red_lumberjack_axe>.maxDamage = 641;
+<item:arsenals_of_the_apocalypse:red_lumberjack_axe>.maxDamage = 231;
 
  
 <item:arsenals_of_the_apocalypse:tourist_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -144,29 +144,29 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:arsenals_of_the_apocalypse:ice_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:ice_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 5.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:ice_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:ice_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.6, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:ice_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.4, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:ice_axe>.maxDamage = 392;
 
  
 <item:arsenals_of_the_apocalypse:gardening_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:gardening_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:gardening_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:gardening_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:gardening_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.4, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:gardening_axe>.maxDamage = 378;
+<item:arsenals_of_the_apocalypse:gardening_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.6, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:gardening_axe>.maxDamage = 421;
 
  
 <item:arsenals_of_the_apocalypse:combat_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:combat_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 9.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:combat_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:combat_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.8, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:combat_axe>.maxDamage = 820;
+<item:arsenals_of_the_apocalypse:combat_axe>.maxDamage = 2651;
 
  
 <item:arsenals_of_the_apocalypse:electrical_combat_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:electrical_combat_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 10.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:electrical_combat_axe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:electrical_combat_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.8, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:electrical_combat_axe>.maxDamage = 861;
+<item:arsenals_of_the_apocalypse:electrical_combat_axe>.maxDamage = 2885;
 
  
 <item:arsenals_of_the_apocalypse:pipe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -193,19 +193,19 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:arsenals_of_the_apocalypse:hawkbill_machete>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:hawkbill_machete>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 8.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:hawkbill_machete>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:hawkbill_machete>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:hawkbill_machete>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:hawkbill_machete>.maxDamage = 524;
 
  
 <item:arsenals_of_the_apocalypse:bowie_machete>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:bowie_machete>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 7.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:bowie_machete>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:bowie_machete>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:bowie_machete>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:bowie_machete>.maxDamage = 843;
+<item:arsenals_of_the_apocalypse:bowie_machete>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:bowie_machete>.maxDamage = 524;
 
  
 <item:arsenals_of_the_apocalypse:heavy_machete>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:heavy_machete>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 9.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:heavy_machete>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 8.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:heavy_machete>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:heavy_machete>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.4, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:heavy_machete>.maxDamage = 796;
@@ -215,14 +215,14 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:arsenals_of_the_apocalypse:tactical_machete>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 10.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:tactical_machete>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:tactical_machete>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:tactical_machete>.maxDamage = 1651;
+<item:arsenals_of_the_apocalypse:tactical_machete>.maxDamage = 2651;
 
  
 <item:arsenals_of_the_apocalypse:kukri_machete>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:kukri_machete>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 8.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:kukri_machete>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:kukri_machete>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.4, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:kukri_machete>.maxDamage = 796;
+<item:arsenals_of_the_apocalypse:kukri_machete>.maxDamage = 1510;
 
  
 <item:arsenals_of_the_apocalypse:taiga_1_survival_machete>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -236,21 +236,21 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:arsenals_of_the_apocalypse:combat_survival_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 5.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:combat_survival_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:combat_survival_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:combat_survival_knife>.maxDamage = 365;
+<item:arsenals_of_the_apocalypse:combat_survival_knife>.maxDamage = 452;
 
  
 <item:arsenals_of_the_apocalypse:combat_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:combat_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:combat_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:combat_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:combat_knife>.maxDamage = 423;
+<item:arsenals_of_the_apocalypse:combat_knife>.maxDamage = 687;
 
  
 <item:arsenals_of_the_apocalypse:kitchen_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:kitchen_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:kitchen_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:kitchen_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:kitchen_knife>.maxDamage = 195;
+<item:arsenals_of_the_apocalypse:kitchen_knife>.maxDamage = 345;
 
  
 <item:arsenals_of_the_apocalypse:improvised_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -271,21 +271,21 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:arsenals_of_the_apocalypse:knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 5.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:knife>.maxDamage = 267;
+<item:arsenals_of_the_apocalypse:knife>.maxDamage = 345;
 
  
 <item:arsenals_of_the_apocalypse:military_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:military_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:military_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:military_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -0.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:military_knife>.maxDamage = 1243;
+<item:arsenals_of_the_apocalypse:military_knife>.maxDamage = 895;
 
  
 <item:arsenals_of_the_apocalypse:hunting_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:hunting_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:hunting_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:hunting_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:hunting_knife>.maxDamage = 214;
+<item:arsenals_of_the_apocalypse:hunting_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -0.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:hunting_knife>.maxDamage = 294;
 
  
 <item:arsenals_of_the_apocalypse:english_punch_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -305,15 +305,15 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:arsenals_of_the_apocalypse:butterfly_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:butterfly_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:butterfly_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:butterfly_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:butterfly_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -0.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:butterfly_knife>.maxDamage = 362;
 
  
-<item:arsenals_of_the_apocalypse:military_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:military_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 7.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:military_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:military_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:military_knife>.maxDamage = 730;
+<item:arsenals_of_the_apocalypse:tactical_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:tactical_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 7.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:tactical_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:tactical_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:tactical_knife>.maxDamage = 1243;
 
  
 <item:arsenals_of_the_apocalypse:long_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -331,10 +331,10 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 
  
 <item:arsenals_of_the_apocalypse:bread_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:bread_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:bread_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:bread_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:bread_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:bread_knife>.maxDamage = 45;
+<item:arsenals_of_the_apocalypse:bread_knife>.maxDamage = 123;
 
  
 <item:arsenals_of_the_apocalypse:chefs_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -366,10 +366,10 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 
  
 <item:arsenals_of_the_apocalypse:premiun_hammer>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:premiun_hammer>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:premiun_hammer>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 5.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:premiun_hammer>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:premiun_hammer>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:premiun_hammer>.maxDamage = 451;
+<item:arsenals_of_the_apocalypse:premiun_hammer>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:premiun_hammer>.maxDamage = 546;
 
  
 <item:arsenals_of_the_apocalypse:meat_hammer>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -387,9 +387,9 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 
  
 <item:arsenals_of_the_apocalypse:ballpeen_hammer>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:ballpeen_hammer>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:ballpeen_hammer>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 5.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:ballpeen_hammer>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:ballpeen_hammer>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:ballpeen_hammer>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:ballpeen_hammer>.maxDamage = 522;
 
  
@@ -408,10 +408,10 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 
  
 <item:arsenals_of_the_apocalypse:scissorst>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:scissorst>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:scissorst>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:scissorst>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:scissorst>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:scissorst>.maxDamage = 89;
+<item:arsenals_of_the_apocalypse:scissorst>.maxDamage = 254;
 
  
 <item:arsenals_of_the_apocalypse:crowbar>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -607,7 +607,7 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:arsenals_of_the_apocalypse:knife_spear>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 5.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:knife_spear>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:knife_spear>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.8, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:knife_spear>.maxDamage = 143;
+<item:arsenals_of_the_apocalypse:knife_spear>.maxDamage = 341;
 
  
 <item:arsenals_of_the_apocalypse:tennis_racket>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -635,7 +635,7 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:arsenals_of_the_apocalypse:garden_fork>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 5.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:garden_fork>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:garden_fork>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:garden_fork>.maxDamage = 534;
+<item:arsenals_of_the_apocalypse:garden_fork>.maxDamage = 343;
 
  
 <item:arsenals_of_the_apocalypse:dumbbell>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -649,7 +649,7 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:arsenals_of_the_apocalypse:bayonet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:bayonet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:bayonet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.8, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:bayonet>.maxDamage = 143;
+<item:arsenals_of_the_apocalypse:bayonet>.maxDamage = 451;
 
  
 <item:arsenals_of_the_apocalypse:razor>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -880,6 +880,34 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:arsenals_of_the_apocalypse:spear>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:spear>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:arsenals_of_the_apocalypse:spear>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:arsenals_of_the_apocalypse:spear>.maxDamage = 689;
+<item:arsenals_of_the_apocalypse:spear>.maxDamage = 489;
 
  
+<item:arsenals_of_the_apocalypse:guitar>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:guitar>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 5.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:guitar>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:guitar>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.7, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:guitar>.maxDamage = 78;
+
+ 
+<item:arsenals_of_the_apocalypse:bass>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:bass>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 5.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:bass>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:bass>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.7, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:bass>.maxDamage = 78;
+
+ 
+<item:arsenals_of_the_apocalypse:kitchen_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:kitchen_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:kitchen_knife>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:kitchen_knife>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:kitchen_knife>.maxDamage = 195;
+
+ 
+<item:arsenals_of_the_apocalypse:scythe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:scythe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 5.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:scythe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:scythe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:arsenals_of_the_apocalypse:scythe>.maxDamage = 623;
+
+<item:arsenals_of_the_apocalypse:road_sign_shield>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);

@@ -1,0 +1,32 @@
+{
+  "armorSetName": "Civilian",
+  "head": {
+    "itemKey": "arsenals_of_the_apocalypse:civilian_helmet"
+  },
+  "chest": {
+    "itemKey": "arsenals_of_the_apocalypse:civilian_chestplate"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.25,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "f1976e1c-3538-4b7d-81c3-6a08db5d4c9e",
+      "description": "Grants 0.25 Attack Speed",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.25,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "734380eb-74fd-47a7-870f-41e586e95eeb",
+      "description": "Grants 0.25 Melee Damage",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}
