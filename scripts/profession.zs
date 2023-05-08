@@ -82,6 +82,7 @@ villagerTrades.addTrade(<profession:minecraft:leatherworker>, 3, 6, <item:immers
 
 // Tier 5
 villagerTrades.removeTradesSelling(<profession:minecraft:leatherworker>, 5, <item:minecraft:leather_helmet>);
+villagerTrades.addTrade(<profession:minecraft:leatherworker>, 5, 6, <item:cold_sweat:hoglin_hide>, 5, 10, 0.05);
 villagerTrades.addTrade(<profession:minecraft:leatherworker>, 5, 6, <item:cold_sweat:goat_fur>, 5, 10, 0.05);
 villagerTrades.addTrade(<profession:minecraft:leatherworker>, 5, 6, <item:immersiveengineering:ersatz_leather>, 5, 10, 0.05);
 villagerTrades.addTrade(<profession:minecraft:leatherworker>, 5, 6, <item:minecraft:slime_ball>, 5, 10, 0.05);
@@ -115,18 +116,18 @@ villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 3, 6, <item:addition
 // Tier 4
 villagerTrades.removeTradesSelling(<profession:minecraft:weaponsmith>, 4, <item:minecraft:diamond_axe>);
 villagerTrades.removeTrade(<profession:minecraft:weaponsmith>, 4, <item:minecraft:diamond>, <item:minecraft:emerald>, <item:minecraft:air>);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 4, 6, <item:marbleds_arsenal:police_baton>, 6, 20, 0.2);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 4, 6, <item:marbleds_arsenal:crowbar>, 6, 20, 0.2);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 4, 6, <item:marbleds_arsenal:pipe>, 6, 20, 0.2);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 4, 6, <item:marbleds_arsenal:frying_pan>, 6, 20, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 4, 21, <item:arsenals_of_the_apocalypse:crowbar>, 3, 20, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 4, 26, <item:arsenals_of_the_apocalypse:machete>, 3, 20, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 4, 24, <item:arsenals_of_the_apocalypse:fire_axe>, 3, 20, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 4, 20, <item:arsenals_of_the_apocalypse:spiked_iron_baseball_bat>, 3, 20, 0.2);
 
 // Tier 5
 villagerTrades.removeTradesSelling(<profession:minecraft:weaponsmith>, 5, <item:minecraft:diamond_sword>);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 17, <item:immersiveengineering:sword_steel>, 5, 20, 0.2);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 15, <item:marbleds_arsenal:dagger>, 6, 20, 0.2);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 15, <item:marbleds_arsenal:machete>, 6, 20, 0.2);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 15, <item:marbleds_arsenal:fire_axe>, 6, 20, 0.2);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 64, <item:additionalguns:m1911>, 3, 40, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 34, <item:arsenals_of_the_apocalypse:military_knife>, 3, 20, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 60, <item:arsenals_of_the_apocalypse:tatical_mace>, 3, 20, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 3, <item:arsenals_of_the_apocalypse:shuriken>, 64, 5, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 15, <item:arsenals_of_the_apocalypse:combat_knife>, 3, 20, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 64, <item:additionalguns:m1911>, 2, 40, 0.2);
 
 // Wandering Trader
 villagerTrades.removeAllWanderingTrades(1);

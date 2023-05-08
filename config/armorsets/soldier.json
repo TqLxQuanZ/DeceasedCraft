@@ -1,0 +1,47 @@
+{
+  "armorSetName": "Soldier",
+  "head": {
+    "itemKey": "arsenals_of_the_apocalypse:soldier_helmet"
+  },
+  "chest": {
+    "itemKey": "arsenals_of_the_apocalypse:soldier_chestplate"
+  },
+  "legs": {
+    "itemKey": "arsenals_of_the_apocalypse:soldier_leggings"
+  },
+  "boots": {
+    "itemKey": "arsenals_of_the_apocalypse:soldier_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 2.0,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "395b34be-438d-43db-bdee-6f8c4b5b2081",
+      "description": "Grants 2.0 Melee Damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.4,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "1b6676cf-8403-4f4f-bf13-951f9d48014c",
+      "description": "Grants 0.4 Attack Speed",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 100.0,
+      "description": "Grants 10% Damage Resistance",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

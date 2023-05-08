@@ -434,8 +434,8 @@
 					Damage: 0
 				}
 			}
-			x: -3.75d
-			y: 12.75d
+			x: 8.75d
+			y: 10.75d
 			shape: "hexagon"
 			description: ["Obtain a stone sword for the sake of killing enemies."]
 			dependencies: ["70C3799E5D5D54F3"]
@@ -469,8 +469,8 @@
 					Damage: 0
 				}
 			}
-			x: 5.5d
-			y: 12.75d
+			x: 18.0d
+			y: 10.75d
 			description: ["Obtain an iron sword for the sake of killing enemmies."]
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
@@ -503,8 +503,8 @@
 					Damage: 0
 				}
 			}
-			x: -6.0d
-			y: 12.75d
+			x: 6.5d
+			y: 10.75d
 			description: ["Obtain a wooden sword."]
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
@@ -537,8 +537,8 @@
 					Damage: 0
 				}
 			}
-			x: 0.0d
-			y: 8.75d
+			x: 12.5d
+			y: 6.75d
 			description: ["Obtain a copper sword."]
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
@@ -571,8 +571,8 @@
 					Damage: 0
 				}
 			}
-			x: 0.0d
-			y: 17.25d
+			x: 12.5d
+			y: 15.25d
 			description: ["Obtain a zinc sword."]
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
@@ -598,8 +598,8 @@
 		}
 		{
 			title: "Fast But Lower Damage - II"
-			x: 4.5d
-			y: 15.0d
+			x: 17.0d
+			y: 13.0d
 			description: ["Obtain a brass sword."]
 			dependencies: ["0274F6F88DBF231E"]
 			dependency_requirement: "one_started"
@@ -625,8 +625,8 @@
 		}
 		{
 			title: "Fast But Lower Damage - III"
-			x: 4.5d
-			y: 17.25d
+			x: 17.0d
+			y: 15.25d
 			description: ["Obtain a dagger."]
 			dependencies: ["0274F6F88DBF231E"]
 			dependency_requirement: "one_started"
@@ -652,8 +652,8 @@
 		}
 		{
 			title: "Fast But Decent Damage - V"
-			x: 8.25d
-			y: 17.25d
+			x: 20.75d
+			y: 15.25d
 			description: ["Obtain a quartz sword."]
 			dependencies: [
 				"7DA391B0F34FDD4E"
@@ -683,8 +683,8 @@
 		}
 		{
 			title: "Decent - II"
-			x: 9.75d
-			y: 10.5d
+			x: 22.25d
+			y: 8.5d
 			description: ["Obtain a diamond sword."]
 			dependencies: ["4645CBD33799EB57"]
 			dependency_requirement: "one_started"
@@ -717,8 +717,8 @@
 					Damage: 0
 				}
 			}
-			x: 4.5d
-			y: 10.75d
+			x: 17.0d
+			y: 8.75d
 			description: ["Obtain a steel sword."]
 			dependencies: ["21AFFACA71032389"]
 			dependency_requirement: "one_started"
@@ -751,8 +751,8 @@
 					Damage: 0
 				}
 			}
-			x: 4.5d
-			y: 8.75d
+			x: 17.0d
+			y: 6.75d
 			description: ["Obtain a fire axe."]
 			dependencies: ["21AFFACA71032389"]
 			dependency_requirement: "one_started"
@@ -778,8 +778,8 @@
 		}
 		{
 			title: "Better Damage But Slow - V"
-			x: 8.5d
-			y: 8.75d
+			x: 21.0d
+			y: 6.75d
 			description: ["Obtain a netherite sword."]
 			dependencies: [
 				"4BCF04D9AD600BCD"
@@ -816,8 +816,8 @@
 					Damage: 0
 				}
 			}
-			x: 4.5d
-			y: 6.5d
+			x: 17.0d
+			y: 4.5d
 			description: ["Obtain a pipe as weapon."]
 			dependencies: ["21AFFACA71032389"]
 			dependency_requirement: "one_started"
@@ -843,8 +843,8 @@
 		}
 		{
 			title: "Decent - IV"
-			x: 11.25d
-			y: 14.25d
+			x: 23.75d
+			y: 12.25d
 			description: ["Obtain a crowbar as weapon."]
 			dependencies: ["4645CBD33799EB57"]
 			dependency_requirement: "one_started"
@@ -870,8 +870,8 @@
 		}
 		{
 			title: "Decent - V"
-			x: 9.75d
-			y: 15.75d
+			x: 22.25d
+			y: 13.75d
 			description: ["Obtain a frying pan and BONK."]
 			dependencies: ["4645CBD33799EB57"]
 			dependency_requirement: "one_started"
@@ -904,8 +904,8 @@
 					Damage: 0
 				}
 			}
-			x: -3.75d
-			y: 15.0d
+			x: 8.75d
+			y: 13.0d
 			description: ["Obtain a baseball bat."]
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
@@ -938,8 +938,8 @@
 					Damage: 0
 				}
 			}
-			x: 11.25d
-			y: 12.0d
+			x: 23.75d
+			y: 10.0d
 			description: ["Obtain a machete as weapon."]
 			dependencies: ["4645CBD33799EB57"]
 			dependency_requirement: "one_started"
@@ -965,8 +965,8 @@
 		}
 		{
 			title: "Fast But Lower Damage - IV"
-			x: 4.5d
-			y: 19.5d
+			x: 17.0d
+			y: 17.5d
 			description: ["Obtain a police baton and start whooping."]
 			dependencies: ["0274F6F88DBF231E"]
 			dependency_requirement: "one_started"
@@ -1210,8 +1210,8 @@
 		}
 		{
 			title: "Whoosh - I"
-			x: 0.0d
-			y: 11.0d
+			x: 12.5d
+			y: 9.0d
 			description: ["Obtain or craft a pickarang."]
 			progression_mode: "flexible"
 			id: "2FEFCC03AF6BD162"
@@ -1234,8 +1234,8 @@
 		}
 		{
 			title: "Whoosh - II"
-			x: 0.0d
-			y: 14.5d
+			x: 12.5d
+			y: 12.5d
 			description: ["Obtain or craft a flamarang."]
 			progression_mode: "flexible"
 			id: "22306FFEBCE7A493"
@@ -1258,8 +1258,8 @@
 		}
 		{
 			title: "Alternative Choices - I"
-			x: -4.5d
-			y: 10.0d
+			x: 8.0d
+			y: 8.0d
 			description: ["Sometimes, non-combat tools might be more suitable for you."]
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
@@ -1284,8 +1284,8 @@
 		}
 		{
 			title: "Alternative Choices - II"
-			x: -3.0d
-			y: 10.0d
+			x: 9.5d
+			y: 8.0d
 			description: ["Sometimes, non-combat tools might be more suitable for you."]
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
@@ -1739,6 +1739,56 @@
 				id: "04645D7A1217E62C"
 				type: "xp"
 				xp: 300
+			}]
+		}
+		{
+			title: "Melee Revolution"
+			x: -11.0d
+			y: 21.0d
+			description: ["Obtain a steel ingot for crafting more various type of weapons."]
+			dependencies: ["70C3799E5D5D54F3"]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			progression_mode: "flexible"
+			id: "470B8F2C28F780CC"
+			tasks: [{
+				id: "5C7F76471E4D016B"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+			}]
+		}
+		{
+			title: "Stronger Than Netherite"
+			x: -0.5d
+			y: 21.0d
+			description: ["Obtain a high-carbon steel alloy for late game weapons."]
+			dependencies: ["470B8F2C28F780CC"]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			progression_mode: "flexible"
+			id: "1E2A7DC56202A285"
+			tasks: [{
+				id: "6C8F7A557B11E726"
+				type: "item"
+				item: "contenttweaker:high_carbon_steel_alloy"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 21.0d
+			shape: "gear"
+			dependency_requirement: "one_started"
+			id: "5B0FBDDEC6CEBA33"
+			tasks: [{
+				id: "0D930235988C820F"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:tactical_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

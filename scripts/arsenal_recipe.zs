@@ -216,12 +216,6 @@ craftingTable.remove(<item:arsenals_of_the_apocalypse:switch_knife>);
 craftingTable.addShapedMirrored("switch_knife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:switch_knife>,
     [[<item:minecraft:air>, <tag:items:forge:nuggets/steel>],
     [<item:contenttweaker:rubber>, <item:minecraft:air>]]);
-
-craftingTable.remove(<item:arsenals_of_the_apocalypse:english_punch_knife>);
-craftingTable.addShapedMirrored("english_punch_knife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:english_punch_knife>,
-    [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:ingots/steel>],
-    [<item:minecraft:air>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
-    [<item:contenttweaker:rubber>, <item:minecraft:air>, <item:minecraft:air>]]);
     
 craftingTable.remove(<item:arsenals_of_the_apocalypse:long_knife>);
 craftingTable.addShapedMirrored("long_knife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:long_knife>,
@@ -544,11 +538,10 @@ craftingTable.addShaped("rose_quartz_sword", <item:create_sa:rose_quartz_sword>,
     [<item:minecraft:air>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
     [<tag:items:forge:plates/aluminum>, <tag:items:forge:rods/aluminum>, <tag:items:forge:plates/aluminum>]]);
 
-    smithing.removeByName("minecraft:netherite_shovel_smithing");
-<recipetype:create:mechanical_crafting>.addRecipe("netherite_shovel", <item:minecraft:netherite_shovel>,
+smithing.removeByName("minecraft:netherite_shovel_smithing");
+craftingTable.addShaped("netherite_shovel", <item:minecraft:netherite_shovel>,
     [[<item:minecraft:netherite_scrap>],
 	[<tag:items:forge:ingots/steel>],
-    [<tag:items:forge:rods/aluminum>],
     [<tag:items:forge:rods/aluminum>]]);
     
 // Netherite Pickaxe
@@ -597,5 +590,11 @@ craftingTable.addShaped("rose_quartz_pickaxe", <item:create_sa:rose_quartz_picka
 	[<tag:items:forge:rods/aluminum>],
     [<tag:items:forge:rods/aluminum>]]);
 
+// Netherite Knife
+smithing.removeByName("farmersdelight:netherite_knife_smithing");
+craftingTable.addShaped("netherite_knife", <item:farmersdelight:netherite_knife>,
+    [[<item:minecraft:netherite_scrap>],
+	[<tag:items:forge:rods/wooden>]]);
+    
 // Quality Tool Handle
 Replacer.forMods(["createaddition"]).suppressWarnings().replace(<item:create_sa:zinc_handle>, <tag:items:forge:rods/aluminum>).execute();

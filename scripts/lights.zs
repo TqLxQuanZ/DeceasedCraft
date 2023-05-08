@@ -14,6 +14,7 @@ import crafttweaker.api.tag.MCTag;
 <tag:blocks:lostcities:lights>.add(<block:simplylight:illuminant_block_on>);
 <tag:blocks:lostcities:lights>.add(<block:simplylight:illuminant_yellow_block_on>);
 <tag:blocks:lostcities:lights>.add(<block:simplylight:illuminant_panel>);
+<tag:blocks:lostcities:lights>.add(<block:simplylight:edge_light_top>);
 <tag:blocks:lostcities:lights>.add(<block:quark:paper_lantern_sakura>);
 <tag:blocks:lostcities:lights>.add(<block:quark:paper_lantern>);
 <tag:blocks:lostcities:lights>.add(<block:bunker_down:ceiling_lamp>);

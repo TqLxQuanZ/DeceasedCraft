@@ -27,6 +27,12 @@
     },
     {
       "type": "effect",
+      "name": "minecraft:nausea",
+      "interactionType": "immunity",
+      "description": "Grants Nausea Immunity"
+    },
+    {
+      "type": "effect",
       "name": "minecraft:hunger",
       "interactionType": "immunity",
       "description": "Grants Hunger Immunity"

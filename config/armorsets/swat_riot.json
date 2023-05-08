@@ -1,0 +1,46 @@
+{
+  "armorSetName": "S.W.A.T Riot",
+  "head": {
+    "itemKey": "arsenals_of_the_apocalypse:swatriotcontrol_helmet"
+  },
+  "chest": {
+    "itemKey": "arsenals_of_the_apocalypse:swatriotcontrol_chestplate"
+  },
+  "legs": {
+    "itemKey": "arsenals_of_the_apocalypse:swatriotcontrol_leggings"
+  },
+  "boots": {
+    "itemKey": "arsenals_of_the_apocalypse:swatriotcontrol_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1.0,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "af05cd0e-4720-45fb-9cf5-ba1c42f76885",
+      "description": "Grants 1.0 Melee Damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.5,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "0e13ec18-026b-40ab-8c45-226e773c41db",
+      "description": "Grants 0.5 Attack Speed",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "value": 1.0,
+      "interactionType": "attack",
+      "interactionDuration": 200.0,
+      "description": "Apply Slowness Effect When Dealt Damage"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

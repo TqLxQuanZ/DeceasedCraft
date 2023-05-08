@@ -62,24 +62,6 @@ furnace.addRecipe("leather", <item:minecraft:leather>, <item:minecraft:rotten_fl
 // Fats
 <tag:items:minecraft:animal_fat>.add(<item:untamedwilds:material_fat>);
 
-// MArbled Arsenal
-craftingTable.remove(<item:marbleds_arsenal:empty_can>);
-craftingTable.addShaped("empty_can", <item:marbleds_arsenal:empty_can>,
-    [[<tag:items:forge:plates/aluminum>, <item:minecraft:air>, <tag:items:forge:plates/aluminum>],
-	[<item:minecraft:air>, <tag:items:forge:plates/aluminum>, <item:minecraft:air>]]);
-
-craftingTable.remove(<item:marbleds_arsenal:canned_fish>);
-craftingTable.addShapeless("canned_fish", <item:marbleds_arsenal:canned_fish>,
-    [<item:marbleds_arsenal:empty_can>, <tag:items:forge:cooked_fishes>]);
-
-craftingTable.remove(<item:marbleds_arsenal:canned_fish>);
-craftingTable.addShapeless("canned_fish", <item:marbleds_arsenal:canned_fish>,
-    [<item:marbleds_arsenal:empty_can>, <tag:items:forge:cooked_fishes>]);
-
-craftingTable.remove(<item:marbleds_arsenal:empty_syringe>);
-craftingTable.addShapeless("empty_syringe", <item:marbleds_arsenal:empty_syringe>,
-    [<item:minecraft:glass_bottle>, <tag:items:forge:glass_panes>, <tag:items:forge:plates/plastic>]);
-
 // Gold Wire
 craftingTable.addShapeless("ie_gold_wire", <item:createaddition:gold_wire>,
     [<tag:items:forge:plates/gold>, <item:immersiveengineering:wirecutter>.transformDamage(1)]);

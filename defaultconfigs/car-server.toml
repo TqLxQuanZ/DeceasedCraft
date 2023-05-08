@@ -79,7 +79,7 @@
 
 	[items.canister]
 		#Range: 1 ~ 1000
-		max_fuel = 100
+		max_fuel = 300
 
 [car]
 	#Whether the cars should collide with other entities (except cars)
@@ -168,7 +168,7 @@
 			#Range: 0.001 ~ 10.0
 			acceleration = 1.0
 			#Range: 0.001 ~ 10.0
-			max_speed = 1.0
+			max_speed = 1.1
 
 		[car.parts.body_suv]
 			#Range: 0.001 ~ 10.0

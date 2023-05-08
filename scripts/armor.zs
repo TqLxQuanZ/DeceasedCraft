@@ -766,22 +766,22 @@ craftingTable.remove(<item:arsenals_of_the_apocalypse:u_sarmy_leggings>);
 craftingTable.remove(<item:arsenals_of_the_apocalypse:u_sarmy_boots>);
 
 craftingTable.addShapedMirrored("t3_u_sarmy_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:u_sarmy_helmet>,
-    [[<tag:items:forge:string>, <tag:items:forge:dyes/green>, <tag:items:forge:string>],
+    [[<tag:items:forge:wires/steel>, <tag:items:forge:dyes/green>, <tag:items:forge:wires/steel>],
     [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_head>, <item:immersiveengineering:hemp_fabric>]]);
 
 craftingTable.addShaped("t3_u_sarmy_chestplate", <item:arsenals_of_the_apocalypse:u_sarmy_chestplate>,
     [[<item:immersiveengineering:hemp_fabric>, <item:minecraft:air>, <item:immersiveengineering:hemp_fabric>],
-    [<tag:items:forge:string>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:string>],
+    [<tag:items:forge:wires/steel>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:wires/steel>],
     [<item:immersiveengineering:hemp_fabric>, <tag:items:forge:dyes/green>, <item:immersiveengineering:hemp_fabric>]]);
 
 craftingTable.addShaped("t3_u_sarmy_leggings", <item:arsenals_of_the_apocalypse:u_sarmy_leggings>,
-    [[<tag:items:forge:string>, <tag:items:forge:dyes/green>, <tag:items:forge:string>],
+    [[<tag:items:forge:wires/steel>, <tag:items:forge:dyes/green>, <tag:items:forge:wires/steel>],
     [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_legs>, <item:immersiveengineering:hemp_fabric>],
     [<item:immersiveengineering:hemp_fabric>, <item:minecraft:air>, <item:immersiveengineering:hemp_fabric>]]);
 
 craftingTable.addShapedMirrored("t3_u_sarmy_boots", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:u_sarmy_boots>,
     [[<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_feet>, <item:immersiveengineering:hemp_fabric>],
-    [<tag:items:forge:string>, <tag:items:forge:dyes/green>, <tag:items:forge:string>]]);
+    [<tag:items:forge:wires/steel>, <tag:items:forge:dyes/green>, <tag:items:forge:wires/steel>]]);
 
 // Canadian Set - +2.0 ATK Damage
 
@@ -791,22 +791,22 @@ craftingTable.remove(<item:arsenals_of_the_apocalypse:canadian_army_leggings>);
 craftingTable.remove(<item:arsenals_of_the_apocalypse:canadian_army_boots>);
 
 craftingTable.addShapedMirrored("t3_canadian_army_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:canadian_army_helmet>,
-    [[<tag:items:forge:string>, <tag:items:forge:dyes/brown>, <tag:items:forge:string>],
+    [[<tag:items:forge:wires/steel>, <tag:items:forge:dyes/brown>, <tag:items:forge:wires/steel>],
     [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_head>, <item:immersiveengineering:hemp_fabric>]]);
 
 craftingTable.addShaped("t3_canadian_army_chestplate", <item:arsenals_of_the_apocalypse:canadian_army_chestplate>,
     [[<item:immersiveengineering:hemp_fabric>, <item:minecraft:air>, <item:immersiveengineering:hemp_fabric>],
-    [<tag:items:forge:string>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:string>],
+    [<tag:items:forge:wires/steel>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:wires/steel>],
     [<item:immersiveengineering:hemp_fabric>, <tag:items:forge:dyes/brown>, <item:immersiveengineering:hemp_fabric>]]);
 
 craftingTable.addShaped("t3_canadian_army_leggings", <item:arsenals_of_the_apocalypse:canadian_army_leggings>,
-    [[<tag:items:forge:string>, <tag:items:forge:dyes/brown>, <tag:items:forge:string>],
+    [[<tag:items:forge:wires/steel>, <tag:items:forge:dyes/brown>, <tag:items:forge:wires/steel>],
     [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_legs>, <item:immersiveengineering:hemp_fabric>],
     [<item:immersiveengineering:hemp_fabric>, <item:minecraft:air>, <item:immersiveengineering:hemp_fabric>]]);
 
 craftingTable.addShapedMirrored("t3_canadian_army_boots", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:canadian_army_boots>,
     [[<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_feet>, <item:immersiveengineering:hemp_fabric>],
-    [<tag:items:forge:string>, <tag:items:forge:dyes/brown>, <tag:items:forge:string>]]);
+    [<tag:items:forge:wires/steel>, <tag:items:forge:dyes/brown>, <tag:items:forge:wires/steel>]]);
 
 // Mexican Set - +2.0 ATK Damage
 
@@ -816,22 +816,22 @@ craftingTable.remove(<item:arsenals_of_the_apocalypse:mexican_army_leggings>);
 craftingTable.remove(<item:arsenals_of_the_apocalypse:mexican_army_boots>);
 
 craftingTable.addShapedMirrored("t3_mexican_army_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:mexican_army_helmet>,
-    [[<tag:items:forge:string>, <tag:items:forge:dyes/lime>, <tag:items:forge:string>],
+    [[<tag:items:forge:wires/steel>, <tag:items:forge:dyes/lime>, <tag:items:forge:wires/steel>],
     [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_head>, <item:immersiveengineering:hemp_fabric>]]);
 
 craftingTable.addShaped("t3_mexican_army_chestplate", <item:arsenals_of_the_apocalypse:mexican_army_chestplate>,
     [[<item:immersiveengineering:hemp_fabric>, <item:minecraft:air>, <item:immersiveengineering:hemp_fabric>],
-    [<tag:items:forge:string>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:string>],
+    [<tag:items:forge:wires/steel>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:wires/steel>],
     [<item:immersiveengineering:hemp_fabric>, <tag:items:forge:dyes/lime>, <item:immersiveengineering:hemp_fabric>]]);
 
 craftingTable.addShaped("t3_mexican_army_leggings", <item:arsenals_of_the_apocalypse:mexican_army_leggings>,
-    [[<tag:items:forge:string>, <tag:items:forge:dyes/lime>, <tag:items:forge:string>],
+    [[<tag:items:forge:wires/steel>, <tag:items:forge:dyes/lime>, <tag:items:forge:wires/steel>],
     [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_legs>, <item:immersiveengineering:hemp_fabric>],
     [<item:immersiveengineering:hemp_fabric>, <item:minecraft:air>, <item:immersiveengineering:hemp_fabric>]]);
 
 craftingTable.addShapedMirrored("t3_mexican_army_boots", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:mexican_army_boots>,
     [[<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_feet>, <item:immersiveengineering:hemp_fabric>],
-    [<tag:items:forge:string>, <tag:items:forge:dyes/lime>, <tag:items:forge:string>]]);
+    [<tag:items:forge:wires/steel>, <tag:items:forge:dyes/lime>, <tag:items:forge:wires/steel>]]);
 
 // Russian Set - +2.0 ATK Damage
 
@@ -841,22 +841,22 @@ craftingTable.remove(<item:arsenals_of_the_apocalypse:russian_army_leggings>);
 craftingTable.remove(<item:arsenals_of_the_apocalypse:russian_army_boots>);
 
 craftingTable.addShapedMirrored("t3_russian_army_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:russian_army_helmet>,
-    [[<tag:items:forge:string>, <tag:items:forge:dyes/gray>, <tag:items:forge:string>],
+    [[<tag:items:forge:wires/steel>, <tag:items:forge:dyes/gray>, <tag:items:forge:wires/steel>],
     [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_head>, <item:immersiveengineering:hemp_fabric>]]);
 
 craftingTable.addShaped("t3_russian_army_chestplate", <item:arsenals_of_the_apocalypse:russian_army_chestplate>,
     [[<item:immersiveengineering:hemp_fabric>, <item:minecraft:air>, <item:immersiveengineering:hemp_fabric>],
-    [<tag:items:forge:string>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:string>],
+    [<tag:items:forge:wires/steel>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:wires/steel>],
     [<item:immersiveengineering:hemp_fabric>, <tag:items:forge:dyes/gray>, <item:immersiveengineering:hemp_fabric>]]);
 
 craftingTable.addShaped("t3_russian_army_leggings", <item:arsenals_of_the_apocalypse:russian_army_leggings>,
-    [[<tag:items:forge:string>, <tag:items:forge:dyes/gray>, <tag:items:forge:string>],
+    [[<tag:items:forge:wires/steel>, <tag:items:forge:dyes/gray>, <tag:items:forge:wires/steel>],
     [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_legs>, <item:immersiveengineering:hemp_fabric>],
     [<item:immersiveengineering:hemp_fabric>, <item:minecraft:air>, <item:immersiveengineering:hemp_fabric>]]);
 
 craftingTable.addShapedMirrored("t3_russian_army_boots", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:russian_army_boots>,
     [[<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_feet>, <item:immersiveengineering:hemp_fabric>],
-    [<tag:items:forge:string>, <tag:items:forge:dyes/gray>, <tag:items:forge:string>]]);
+    [<tag:items:forge:wires/steel>, <tag:items:forge:dyes/gray>, <tag:items:forge:wires/steel>]]);
 
 // Chinese Set - +2.0 ATK Damage
 
@@ -866,22 +866,22 @@ craftingTable.remove(<item:arsenals_of_the_apocalypse:chinese_army_leggings>);
 craftingTable.remove(<item:arsenals_of_the_apocalypse:chinese_army_boots>);
 
 craftingTable.addShapedMirrored("t3_chinese_army_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:chinese_army_helmet>,
-    [[<tag:items:forge:string>, <tag:items:forge:dyes/white>, <tag:items:forge:string>],
+    [[<tag:items:forge:wires/steel>, <tag:items:forge:dyes/white>, <tag:items:forge:wires/steel>],
     [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_head>, <item:immersiveengineering:hemp_fabric>]]);
 
 craftingTable.addShaped("t3_chinese_army_chestplate", <item:arsenals_of_the_apocalypse:chinese_army_chestplate>,
     [[<item:immersiveengineering:hemp_fabric>, <item:minecraft:air>, <item:immersiveengineering:hemp_fabric>],
-    [<tag:items:forge:string>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:string>],
+    [<tag:items:forge:wires/steel>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:wires/steel>],
     [<item:immersiveengineering:hemp_fabric>, <tag:items:forge:dyes/white>, <item:immersiveengineering:hemp_fabric>]]);
 
 craftingTable.addShaped("t3_chinese_army_leggings", <item:arsenals_of_the_apocalypse:chinese_army_leggings>,
-    [[<tag:items:forge:string>, <tag:items:forge:dyes/white>, <tag:items:forge:string>],
+    [[<tag:items:forge:wires/steel>, <tag:items:forge:dyes/white>, <tag:items:forge:wires/steel>],
     [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_legs>, <item:immersiveengineering:hemp_fabric>],
     [<item:immersiveengineering:hemp_fabric>, <item:minecraft:air>, <item:immersiveengineering:hemp_fabric>]]);
 
 craftingTable.addShapedMirrored("t3_chinese_army_boots", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:chinese_army_boots>,
     [[<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_feet>, <item:immersiveengineering:hemp_fabric>],
-    [<tag:items:forge:string>, <tag:items:forge:dyes/white>, <tag:items:forge:string>]]);
+    [<tag:items:forge:wires/steel>, <tag:items:forge:dyes/white>, <tag:items:forge:wires/steel>]]);
 
 // UN Set - + 1.0 ATK Damage, 0.4 ATK Speed
 
@@ -891,22 +891,22 @@ craftingTable.remove(<item:arsenals_of_the_apocalypse:un_armor_leggings>);
 craftingTable.remove(<item:arsenals_of_the_apocalypse:un_armor_boots>);
 
 craftingTable.addShapedMirrored("t3_un_armor_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:un_armor_helmet>,
-    [[<tag:items:forge:string>, <tag:items:forge:dyes/light_blue>, <tag:items:forge:string>],
+    [[<tag:items:forge:wires/steel>, <tag:items:forge:dyes/light_blue>, <tag:items:forge:wires/steel>],
     [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_head>, <item:immersiveengineering:hemp_fabric>]]);
 
 craftingTable.addShaped("t3_un_armor_chestplate", <item:arsenals_of_the_apocalypse:un_armor_chestplate>,
     [[<item:immersiveengineering:hemp_fabric>, <item:minecraft:air>, <item:immersiveengineering:hemp_fabric>],
-    [<tag:items:forge:string>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:string>],
+    [<tag:items:forge:wires/steel>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:wires/steel>],
     [<item:immersiveengineering:hemp_fabric>, <tag:items:forge:dyes/light_blue>, <item:immersiveengineering:hemp_fabric>]]);
 
 craftingTable.addShaped("t3_un_armor_leggings", <item:arsenals_of_the_apocalypse:un_armor_leggings>,
-    [[<tag:items:forge:string>, <tag:items:forge:dyes/light_blue>, <tag:items:forge:string>],
+    [[<tag:items:forge:wires/steel>, <tag:items:forge:dyes/light_blue>, <tag:items:forge:wires/steel>],
     [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_legs>, <item:immersiveengineering:hemp_fabric>],
     [<item:immersiveengineering:hemp_fabric>, <item:minecraft:air>, <item:immersiveengineering:hemp_fabric>]]);
 
 craftingTable.addShapedMirrored("t3_un_armor_boots", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:un_armor_boots>,
     [[<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_feet>, <item:immersiveengineering:hemp_fabric>],
-    [<tag:items:forge:string>, <tag:items:forge:dyes/light_blue>, <tag:items:forge:string>]]);
+    [<tag:items:forge:wires/steel>, <tag:items:forge:dyes/light_blue>, <tag:items:forge:wires/steel>]]);
 
 // Military Riot Armor - +0.4 ATK Speed, +Slow enemy when melee hit
 
@@ -1088,19 +1088,184 @@ smithing.remove(<item:minecraft:netherite_leggings>);
 smithing.remove(<item:minecraft:netherite_boots>);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t4_netherite_helmet", <item:minecraft:netherite_helmet>,
-    [[<tag:items:forge:wires/steel>, <tag:items:forge:plates/plastic>, <tag:items:forge:wires/steel>],
-    [<item:minecraft:netherite_scrap>, <item:minecraft:diamond_helmet>.anyDamage(), <item:minecraft:netherite_scrap>]]);
+    [[<item:contenttweaker:resistant_fiber>, <item:contenttweaker:rubber>, <item:contenttweaker:resistant_fiber>],
+    [<item:minecraft:netherite_scrap>, <item:immersiveengineering:armor_steel_head>.anyDamage(), <item:minecraft:netherite_scrap>]]);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t4_netherite_chestplate", <item:minecraft:netherite_chestplate>,
     [[<item:minecraft:netherite_scrap>, <item:minecraft:air>, <item:minecraft:netherite_scrap>],
-    [<tag:items:forge:wires/steel>, <item:minecraft:diamond_chestplate>.anyDamage(), <tag:items:forge:wires/steel>],
-    [<tag:items:forge:plates/plastic>, <item:minecraft:netherite_scrap>, <tag:items:forge:plates/plastic>]]);
+    [<item:contenttweaker:resistant_fiber>, <item:immersiveengineering:armor_steel_chest>.anyDamage(), <item:contenttweaker:resistant_fiber>],
+    [<item:contenttweaker:rubber>, <item:minecraft:netherite_scrap>, <item:contenttweaker:rubber>]]);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t4_netherite_leggings", <item:minecraft:netherite_leggings>,
-    [[<tag:items:forge:wires/steel>, <item:minecraft:netherite_scrap>, <tag:items:forge:wires/steel>],
-    [<tag:items:forge:plates/plastic>, <item:minecraft:diamond_leggings>.anyDamage(), <tag:items:forge:plates/plastic>],
+    [[<item:contenttweaker:resistant_fiber>, <item:minecraft:netherite_scrap>, <item:contenttweaker:resistant_fiber>],
+    [<item:contenttweaker:rubber>, <item:immersiveengineering:armor_steel_legs>.anyDamage(), <item:contenttweaker:rubber>],
     [<item:minecraft:netherite_scrap>, <item:minecraft:air>, <item:minecraft:netherite_scrap>]]);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t4_netherite_boots", <item:minecraft:netherite_boots>,
-    [[<item:minecraft:netherite_scrap>, <item:minecraft:diamond_boots>.anyDamage(), <item:minecraft:netherite_scrap>],
-    [<item:minecraft:netherite_scrap>, <tag:items:forge:plates/plastic>, <item:minecraft:netherite_scrap>]]);
+    [[<item:minecraft:netherite_scrap>, <item:immersiveengineering:armor_steel_feet>.anyDamage(), <item:minecraft:netherite_scrap>],
+    [<item:minecraft:netherite_scrap>, <item:contenttweaker:rubber>, <item:minecraft:netherite_scrap>]]);
+
+// SWAT Set - +3 ATK Damage, +0.5 ATK Speed
+craftingTable.remove(<item:arsenals_of_the_apocalypse:swat_helmet>);
+craftingTable.remove(<item:arsenals_of_the_apocalypse:swat_chestplate>);
+craftingTable.remove(<item:arsenals_of_the_apocalypse:swat_leggings>);
+craftingTable.remove(<item:arsenals_of_the_apocalypse:swat_boots>);
+
+<recipetype:create:mechanical_crafting>.addRecipe("t4_swat_helmet", <item:arsenals_of_the_apocalypse:swat_helmet>,
+    [[<item:contenttweaker:resistant_fiber>, <item:contenttweaker:rubber>, <item:contenttweaker:resistant_fiber>],
+    [<item:contenttweaker:resistant_fabric>, <item:minecraft:netherite_helmet>.anyDamage(), <item:contenttweaker:resistant_fabric>]]);
+
+<recipetype:create:mechanical_crafting>.addRecipe("t4_swat_chestplate", <item:arsenals_of_the_apocalypse:swat_chestplate>,
+    [[<item:contenttweaker:resistant_fabric>, <item:minecraft:air>, <item:contenttweaker:resistant_fabric>],
+    [<item:contenttweaker:resistant_fiber>, <item:minecraft:netherite_chestplate>.anyDamage(), <item:contenttweaker:resistant_fiber>],
+    [<item:contenttweaker:rubber>, <item:contenttweaker:resistant_fabric>, <item:contenttweaker:rubber>]]);
+
+<recipetype:create:mechanical_crafting>.addRecipe("t4_swat_leggings", <item:arsenals_of_the_apocalypse:swat_leggings>,
+    [[<item:contenttweaker:resistant_fiber>, <item:contenttweaker:resistant_fabric>, <item:contenttweaker:resistant_fiber>],
+    [<item:contenttweaker:rubber>, <item:minecraft:netherite_leggings>.anyDamage(), <item:contenttweaker:rubber>],
+    [<item:contenttweaker:resistant_fabric>, <item:minecraft:air>, <item:contenttweaker:resistant_fabric>]]);
+
+<recipetype:create:mechanical_crafting>.addRecipe("t4_swat_boots", <item:arsenals_of_the_apocalypse:swat_boots>,
+    [[<item:contenttweaker:resistant_fabric>, <item:minecraft:netherite_boots>.anyDamage(), <item:contenttweaker:resistant_fabric>],
+    [<item:contenttweaker:rubber>, <item:contenttweaker:rubber>, <item:contenttweaker:rubber>]]);
+
+    
+// Swat Riot Armor - +1.0 ATK Damage, +0.5 ATK Speed, +Slow enemy when melee hit
+craftingTable.remove(<item:arsenals_of_the_apocalypse:swatriotcontrol_helmet>);
+craftingTable.remove(<item:arsenals_of_the_apocalypse:swatriotcontrol_chestplate>);
+craftingTable.remove(<item:arsenals_of_the_apocalypse:swatriotcontrol_leggings>);
+craftingTable.remove(<item:arsenals_of_the_apocalypse:swatriotcontrol_boots>);
+
+<recipetype:create:mechanical_crafting>.addRecipe("t4_swatriot_helmet", <item:arsenals_of_the_apocalypse:swatriotcontrol_helmet>,
+    [[<item:immersiveengineering:hemp_fabric>, <item:contenttweaker:resistant_fabric>, <item:immersiveengineering:hemp_fabric>],
+    [<item:contenttweaker:resistant_fabric>, <item:minecraft:netherite_helmet>.anyDamage(), <item:contenttweaker:resistant_fabric>]]);
+
+<recipetype:create:mechanical_crafting>.remove(<item:arsenals_of_the_apocalypse:swatriotcontrol_chestplate>);
+<recipetype:create:mechanical_crafting>.addRecipe("t4_swatriot_chestplate", <item:arsenals_of_the_apocalypse:swatriotcontrol_chestplate>,
+    [[<item:contenttweaker:resistant_fabric>, <item:minecraft:air>, <item:contenttweaker:resistant_fabric>],
+    [<item:immersiveengineering:hemp_fabric>, <item:minecraft:netherite_chestplate>.anyDamage(), <item:immersiveengineering:hemp_fabric>],
+    [<item:contenttweaker:resistant_fabric>, <item:immersiveengineering:hemp_fabric>, <item:contenttweaker:resistant_fabric>]]);
+
+<recipetype:create:mechanical_crafting>.remove(<item:arsenals_of_the_apocalypse:swatriotcontrol_leggings>);
+<recipetype:create:mechanical_crafting>.addRecipe("t4_swatriot_leggings", <item:arsenals_of_the_apocalypse:swatriotcontrol_leggings>,
+    [[<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fabric>],
+    [<item:contenttweaker:resistant_fabric>, <item:minecraft:netherite_leggings>.anyDamage(), <item:contenttweaker:resistant_fabric>],
+    [<item:contenttweaker:resistant_fabric>, <item:minecraft:air>, <item:contenttweaker:resistant_fabric>]]);
+
+<recipetype:create:mechanical_crafting>.remove(<item:arsenals_of_the_apocalypse:swatriotcontrol_boots>);
+<recipetype:create:mechanical_crafting>.addRecipe("t4_swatriot_boots", <item:arsenals_of_the_apocalypse:swatriotcontrol_boots>,
+    [[<item:immersiveengineering:hemp_fabric>, <item:minecraft:netherite_boots>.anyDamage(), <item:immersiveengineering:hemp_fabric>],
+    [<item:contenttweaker:resistant_fabric>, <item:minecraft:air>, <item:contenttweaker:resistant_fabric>]]);
+
+    
+// Juggernaut Set - +Grants slowness 2 and resistance 3
+craftingTable.remove(<item:arsenals_of_the_apocalypse:juggernaut_helmet>);
+craftingTable.remove(<item:arsenals_of_the_apocalypse:juggernaut_chestplate>);
+craftingTable.remove(<item:arsenals_of_the_apocalypse:juggernaut_leggings>);
+craftingTable.remove(<item:arsenals_of_the_apocalypse:juggernaut_boots>);
+
+<recipetype:create:mechanical_crafting>.addRecipe("t4_juggernaut_helmet", <item:arsenals_of_the_apocalypse:juggernaut_helmet>,
+    [[<item:immersiveengineering:hemp_fabric>, <tag:items:forge:plates/steel>, <item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/steel>, <item:immersiveengineering:hemp_fabric>],
+    [<item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/steel>, <item:minecraft:netherite_helmet>.anyDamage(), <tag:items:forge:plates/steel>, <item:contenttweaker:resistant_fabric>]]);
+
+<recipetype:create:mechanical_crafting>.remove(<item:arsenals_of_the_apocalypse:juggernaut_chestplate>);
+<recipetype:create:mechanical_crafting>.addRecipe("t4_juggernaut_chestplate", <item:arsenals_of_the_apocalypse:juggernaut_chestplate>,
+    [[<item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/steel>, <item:minecraft:air>, <tag:items:forge:plates/steel>, <item:contenttweaker:resistant_fabric>],
+    [<item:immersiveengineering:hemp_fabric>, <tag:items:forge:plates/steel>, <item:minecraft:netherite_chestplate>.anyDamage(), <tag:items:forge:plates/steel>, <item:immersiveengineering:hemp_fabric>],
+    [<item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/steel>, <item:immersiveengineering:hemp_fabric>, <tag:items:forge:plates/steel>, <item:contenttweaker:resistant_fabric>]]);
+
+<recipetype:create:mechanical_crafting>.remove(<item:arsenals_of_the_apocalypse:juggernaut_leggings>);
+<recipetype:create:mechanical_crafting>.addRecipe("t4_juggernaut_leggings", <item:arsenals_of_the_apocalypse:juggernaut_leggings>,
+    [[<item:immersiveengineering:hemp_fabric>, <tag:items:forge:plates/steel>, <item:immersiveengineering:hemp_fabric>, <tag:items:forge:plates/steel>, <item:immersiveengineering:hemp_fabric>],
+    [<item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/steel>, <item:minecraft:netherite_leggings>.anyDamage(), <tag:items:forge:plates/steel>, <item:contenttweaker:resistant_fabric>],
+    [<item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/steel>, <item:minecraft:air>, <tag:items:forge:plates/steel>, <item:contenttweaker:resistant_fabric>]]);
+
+<recipetype:create:mechanical_crafting>.remove(<item:arsenals_of_the_apocalypse:juggernaut_boots>);
+<recipetype:create:mechanical_crafting>.addRecipe("t4_juggernaut_boots", <item:arsenals_of_the_apocalypse:juggernaut_boots>,
+    [[<item:immersiveengineering:hemp_fabric>, <tag:items:forge:plates/steel>, <item:minecraft:netherite_boots>.anyDamage(), <tag:items:forge:plates/steel>, <item:immersiveengineering:hemp_fabric>],
+    [<item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/steel>, <item:minecraft:air>, <tag:items:forge:plates/steel>, <item:contenttweaker:resistant_fabric>]]);
+
+    
+// Bombsquad Set - +Grants slowness 3 and resistance 4
+craftingTable.remove(<item:arsenals_of_the_apocalypse:bombsquad_helmet>);
+craftingTable.remove(<item:arsenals_of_the_apocalypse:bombsquad_chestplate>);
+craftingTable.remove(<item:arsenals_of_the_apocalypse:bombsquad_leggings>);
+craftingTable.remove(<item:arsenals_of_the_apocalypse:bombsquad_boots>);
+
+<recipetype:create:mechanical_crafting>.addRecipe("t4_bombsquad_helmet", <item:arsenals_of_the_apocalypse:bombsquad_helmet>,
+    [[<item:immersiveengineering:hemp_fabric>, <tag:items:forge:plates/lead>, <item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/lead>, <item:immersiveengineering:hemp_fabric>],
+    [<item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/lead>, <item:minecraft:netherite_helmet>.anyDamage(), <tag:items:forge:plates/lead>, <item:contenttweaker:resistant_fabric>]]);
+
+<recipetype:create:mechanical_crafting>.remove(<item:arsenals_of_the_apocalypse:bombsquad_chestplate>);
+<recipetype:create:mechanical_crafting>.addRecipe("t4_bombsquad_chestplate", <item:arsenals_of_the_apocalypse:bombsquad_chestplate>,
+    [[<item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/lead>, <item:minecraft:air>, <tag:items:forge:plates/lead>, <item:contenttweaker:resistant_fabric>],
+    [<item:immersiveengineering:hemp_fabric>, <tag:items:forge:plates/lead>, <item:minecraft:netherite_chestplate>.anyDamage(), <tag:items:forge:plates/lead>, <item:immersiveengineering:hemp_fabric>],
+    [<item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/lead>, <item:immersiveengineering:hemp_fabric>, <tag:items:forge:plates/lead>, <item:contenttweaker:resistant_fabric>]]);
+
+<recipetype:create:mechanical_crafting>.remove(<item:arsenals_of_the_apocalypse:bombsquad_leggings>);
+<recipetype:create:mechanical_crafting>.addRecipe("t4_bombsquad_leggings", <item:arsenals_of_the_apocalypse:bombsquad_leggings>,
+    [[<item:immersiveengineering:hemp_fabric>, <tag:items:forge:plates/lead>, <item:immersiveengineering:hemp_fabric>, <tag:items:forge:plates/lead>, <item:immersiveengineering:hemp_fabric>],
+    [<item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/lead>, <item:minecraft:netherite_leggings>.anyDamage(), <tag:items:forge:plates/lead>, <item:contenttweaker:resistant_fabric>],
+    [<item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/lead>, <item:minecraft:air>, <tag:items:forge:plates/lead>, <item:contenttweaker:resistant_fabric>]]);
+
+<recipetype:create:mechanical_crafting>.remove(<item:arsenals_of_the_apocalypse:bombsquad_boots>);
+<recipetype:create:mechanical_crafting>.addRecipe("t4_bombsquad_boots", <item:arsenals_of_the_apocalypse:bombsquad_boots>,
+    [[<item:immersiveengineering:hemp_fabric>, <tag:items:forge:plates/lead>, <item:minecraft:netherite_boots>.anyDamage(), <tag:items:forge:plates/lead>, <item:immersiveengineering:hemp_fabric>],
+    [<item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/lead>, <item:minecraft:air>, <tag:items:forge:plates/lead>, <item:contenttweaker:resistant_fabric>]]);
+
+// Spec Ops Set - +2.0 ATK Damage +0.4 ATK Speed, +20% Movement Speed, +0.5 Knockback Strength
+craftingTable.remove(<item:arsenals_of_the_apocalypse:spec_ops_helmet>);
+craftingTable.remove(<item:arsenals_of_the_apocalypse:spec_ops_chestplate>);
+craftingTable.remove(<item:arsenals_of_the_apocalypse:spec_ops_leggings>);
+craftingTable.remove(<item:arsenals_of_the_apocalypse:spec_ops_boots>);
+
+<recipetype:create:mechanical_crafting>.addRecipe("t4_spec_ops_helmet", <item:arsenals_of_the_apocalypse:spec_ops_helmet>,
+    [[<item:minecraft:air>, <item:contenttweaker:rubber>, <item:contenttweaker:resistant_fabric>, <item:contenttweaker:rubber>, <item:minecraft:air>],
+    [<item:contenttweaker:resistant_fabric>, <item:immersiveengineering:component_electronic_adv>, <item:minecraft:netherite_helmet>.anyDamage(), <item:immersiveengineering:component_electronic_adv>, <item:contenttweaker:resistant_fabric>],
+    [<item:contenttweaker:resistant_fabric>, <tag:items:forge:wires/electrum>, <tag:items:forge:glass_panes>, <tag:items:forge:wires/electrum>, <item:contenttweaker:resistant_fabric>]]);
+
+<recipetype:create:mechanical_crafting>.remove(<item:arsenals_of_the_apocalypse:spec_ops_chestplate>);
+<recipetype:create:mechanical_crafting>.addRecipe("t4_spec_ops_chestplate", <item:arsenals_of_the_apocalypse:spec_ops_chestplate>,
+    [[<item:contenttweaker:resistant_fabric>, <item:contenttweaker:rubber>, <item:minecraft:air>, <item:contenttweaker:rubber>, <item:contenttweaker:resistant_fabric>],
+    [<item:contenttweaker:rubber>, <tag:items:forge:plates/brass>, <item:minecraft:netherite_chestplate>.anyDamage(), <tag:items:forge:plates/brass>, <item:contenttweaker:rubber>],
+    [<item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/brass>, <item:contenttweaker:rubber>, <tag:items:forge:plates/brass>, <item:contenttweaker:resistant_fabric>]]);
+
+<recipetype:create:mechanical_crafting>.remove(<item:arsenals_of_the_apocalypse:spec_ops_leggings>);
+<recipetype:create:mechanical_crafting>.addRecipe("t4_spec_ops_leggings", <item:arsenals_of_the_apocalypse:spec_ops_leggings>,
+    [[<item:contenttweaker:rubber>, <tag:items:forge:plates/brass>, <item:contenttweaker:rubber>, <tag:items:forge:plates/brass>, <item:contenttweaker:rubber>],
+    [<item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/brass>, <item:minecraft:netherite_leggings>.anyDamage(), <tag:items:forge:plates/brass>, <item:contenttweaker:resistant_fabric>],
+    [<item:contenttweaker:resistant_fabric>, <item:contenttweaker:rubber>, <item:minecraft:air>, <item:contenttweaker:rubber>, <item:contenttweaker:resistant_fabric>]]);
+
+<recipetype:create:mechanical_crafting>.remove(<item:arsenals_of_the_apocalypse:spec_ops_boots>);
+<recipetype:create:mechanical_crafting>.addRecipe("t4_spec_ops_boots", <item:arsenals_of_the_apocalypse:spec_ops_boots>,
+    [[<item:contenttweaker:rubber>, <tag:items:forge:plates/brass>, <item:minecraft:netherite_boots>.anyDamage(), <tag:items:forge:plates/brass>, <item:contenttweaker:rubber>],
+    [<item:contenttweaker:resistant_fabric>, <item:contenttweaker:rubber>, <item:minecraft:air>, <item:contenttweaker:rubber>, <item:contenttweaker:resistant_fabric>]]);
+
+// Soldier Set - +2 ATK Damage, +0.4 ATK Speed, Resistance LVL 1
+// Gas Mask - Grant access to wasteland
+craftingTable.remove(<item:arsenals_of_the_apocalypse:soldier_helmet>);
+craftingTable.remove(<item:arsenals_of_the_apocalypse:soldier_chestplate>);
+craftingTable.remove(<item:arsenals_of_the_apocalypse:soldier_leggings>);
+craftingTable.remove(<item:arsenals_of_the_apocalypse:soldier_boots>);
+
+<recipetype:create:mechanical_crafting>.addRecipe("t4_soldier_helmet", <item:arsenals_of_the_apocalypse:soldier_helmet>,
+    [[<item:minecraft:air>, <item:contenttweaker:rubber>, <item:create:filter>, <item:contenttweaker:rubber>, <item:minecraft:air>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/lead>, <item:minecraft:netherite_helmet>.anyDamage(), <tag:items:forge:plates/lead>, <tag:items:forge:plates/plastic>],
+    [<item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/lead>, <tag:items:forge:glass_panes>, <tag:items:forge:plates/lead>, <item:contenttweaker:resistant_fabric>]]);
+
+<recipetype:create:mechanical_crafting>.remove(<item:arsenals_of_the_apocalypse:soldier_chestplate>);
+<recipetype:create:mechanical_crafting>.addRecipe("t4_soldier_chestplate", <item:arsenals_of_the_apocalypse:soldier_chestplate>,
+    [[<item:contenttweaker:resistant_fabric>, <item:contenttweaker:rubber>, <item:minecraft:air>, <item:contenttweaker:rubber>, <item:contenttweaker:resistant_fabric>],
+    [<item:contenttweaker:rubber>, <tag:items:forge:plates/lead>, <item:minecraft:netherite_chestplate>.anyDamage(), <tag:items:forge:plates/lead>, <item:contenttweaker:rubber>],
+    [<item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/lead>, <item:contenttweaker:rubber>, <tag:items:forge:plates/lead>, <item:contenttweaker:resistant_fabric>]]);
+
+<recipetype:create:mechanical_crafting>.remove(<item:arsenals_of_the_apocalypse:soldier_leggings>);
+<recipetype:create:mechanical_crafting>.addRecipe("t4_soldier_leggings", <item:arsenals_of_the_apocalypse:soldier_leggings>,
+    [[<item:contenttweaker:rubber>, <tag:items:forge:plates/lead>, <item:contenttweaker:rubber>, <tag:items:forge:plates/lead>, <item:contenttweaker:rubber>],
+    [<item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/lead>, <item:minecraft:netherite_leggings>.anyDamage(), <tag:items:forge:plates/lead>, <item:contenttweaker:resistant_fabric>],
+    [<item:contenttweaker:resistant_fabric>, <item:contenttweaker:rubber>, <item:minecraft:air>, <item:contenttweaker:rubber>, <item:contenttweaker:resistant_fabric>]]);
+
+<recipetype:create:mechanical_crafting>.remove(<item:arsenals_of_the_apocalypse:soldier_boots>);
+<recipetype:create:mechanical_crafting>.addRecipe("t4_soldier_boots", <item:arsenals_of_the_apocalypse:soldier_boots>,
+    [[<item:contenttweaker:rubber>, <tag:items:forge:plates/lead>, <item:minecraft:netherite_boots>.anyDamage(), <tag:items:forge:plates/lead>, <item:contenttweaker:rubber>],
+    [<item:contenttweaker:resistant_fabric>, <item:contenttweaker:rubber>, <item:minecraft:air>, <item:contenttweaker:rubber>, <item:contenttweaker:resistant_fabric>]]);
