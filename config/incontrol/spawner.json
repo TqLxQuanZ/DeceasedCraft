@@ -45,26 +45,26 @@
 		  "groupdistance": 1
 		},
 		"conditions": {
-		  "dimension": "minecraft:overworld",
-		  "norestrictions": true,
-		  "mindist": 10,
-		  "maxdist": 150,
-		  "minheight": 0,
-		  "maxheight": 200
+			"dimension": "minecraft:overworld",
+			"norestrictions": true,
+			"mindist": 10,
+			"maxdist": 150,
+			"minheight": 0,
+			"maxheight": 200
 		}
 	},
 	{
 		"mob": "rottencreatures:dead_beard",
-		"persecond": 0.01,
+		"persecond": 0.1,
 		"attempts": 5,
 		"conditions": {
-		"dimension": "minecraft:overworld",
-		"norestrictions": true,
-		"mindist": 30,
-		"maxdist": 150,
-		"minheight": 45,
-		"maxheight": 200,
-		"maxlocal": 2
+			"dimension": "minecraft:overworld",
+			"norestrictions": true,
+			"mindist": 30,
+			"maxdist": 150,
+			"minheight": 45,
+			"maxheight": 200,
+			"maxlocal": 2
 		}
 	},
 	{
@@ -73,12 +73,12 @@
 		"attempts": 1,
 		"conditions": {
 		"dimension": "minecraft:overworld",
-		"norestrictions": true,
-		"mindist": 10,
-		"maxdist": 30,
-		"minheight": 45,
-		"maxheight": 200,
-		"maxlocal": 1
+			"norestrictions": true,
+			"mindist": 10,
+			"maxdist": 30,
+			"minheight": 45,
+			"maxheight": 200,
+			"maxlocal": 1
 		}
 	}
 ]

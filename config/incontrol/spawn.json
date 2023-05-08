@@ -55,16 +55,6 @@
       "result": "deny"
     },
     {
-      "mob": "rottencreatures:dead_beard",
-      "minlight": 0,
-      "maxlight": 5,
-      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
-      "seesky": true,
-      "onjoin": true,
-      "result": "allow",
-      "healthmultiply": 10.0
-    },
-    {
       "mob": ["rottencreatures:skeleton_lackey", "rottencreatures:zombie_lackey"],
       "onjoin": true,
       "result": "default",

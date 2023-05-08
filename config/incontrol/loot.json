@@ -51,6 +51,20 @@
 	{
 		"mob": "rottencreatures:dead_beard",
 		"player": true,
+		"random" : 0.3,
+		"item": "contenttweaker:resistant_fabric",
+		"itemcount": "1/1/1"
+	},
+	{
+		"mob": "rottencreatures:dead_beard",
+		"player": true,
+		"random" : 0.2,
+		"item": "contenttweaker:high_carbon_steel_alloy",
+		"itemcount": "1/1/1"
+	},
+	{
+		"mob": "rottencreatures:dead_beard",
+		"player": true,
 		"random" : 0.2,
 		"item": "additionalguns:mammoth",
 		"itemcount": "1/1/1"
