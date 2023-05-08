@@ -17,7 +17,7 @@
 		{
 			title: "Combat"
 			icon: {
-				id: "minecraft:iron_sword"
+				id: "minecraft:wooden_sword"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -426,7 +426,7 @@
 			}]
 		}
 		{
-			title: "Usable"
+			title: "Vanilla Style"
 			icon: {
 				id: "minecraft:stone_sword"
 				Count: 1b
@@ -434,8 +434,8 @@
 					Damage: 0
 				}
 			}
-			x: 8.75d
-			y: 10.75d
+			x: -3.5d
+			y: 11.25d
 			shape: "hexagon"
 			description: ["Obtain a stone sword for the sake of killing enemies."]
 			dependencies: ["70C3799E5D5D54F3"]
@@ -461,7 +461,7 @@
 			}]
 		}
 		{
-			title: "Decent - I"
+			title: "Better Damage But Slow - I"
 			icon: {
 				id: "minecraft:iron_sword"
 				Count: 1b
@@ -469,8 +469,8 @@
 					Damage: 0
 				}
 			}
-			x: 18.0d
-			y: 10.75d
+			x: 0.0d
+			y: 10.0d
 			description: ["Obtain an iron sword for the sake of killing enemmies."]
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
@@ -491,75 +491,7 @@
 			rewards: [{
 				id: "641D99EC06D424EB"
 				type: "xp"
-				xp: 400
-			}]
-		}
-		{
-			title: "For Training"
-			icon: {
-				id: "minecraft:wooden_sword"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 6.5d
-			y: 10.75d
-			description: ["Obtain a wooden sword."]
-			dependencies: ["60C5BD48DDED283C"]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "4BF0644D6EFC2385"
-			tasks: [{
-				id: "33E0D36CF4335E86"
-				type: "item"
-				item: {
-					id: "minecraft:wooden_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "07E0BF1164630B97"
-				type: "xp"
-				xp: 20
-			}]
-		}
-		{
-			title: "Better Damage But Slow - I"
-			icon: {
-				id: "create_sa:copper_sword"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 12.5d
-			y: 6.75d
-			description: ["Obtain a copper sword."]
-			dependencies: ["60C5BD48DDED283C"]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "21AFFACA71032389"
-			tasks: [{
-				id: "450D050A353DCB87"
-				type: "item"
-				item: {
-					id: "create_sa:copper_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "3F3D93E316075F1E"
-				type: "xp"
-				xp: 200
+				xp: 100
 			}]
 		}
 		{
@@ -571,8 +503,8 @@
 					Damage: 0
 				}
 			}
-			x: 12.5d
-			y: 15.25d
+			x: 0.0d
+			y: 13.0d
 			description: ["Obtain a zinc sword."]
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
@@ -593,12 +525,12 @@
 			rewards: [{
 				id: "7F3638C92ED983CB"
 				type: "xp"
-				xp: 200
+				xp: 100
 			}]
 		}
 		{
 			title: "Fast But Lower Damage - II"
-			x: 17.0d
+			x: 3.0d
 			y: 13.0d
 			description: ["Obtain a brass sword."]
 			dependencies: ["0274F6F88DBF231E"]
@@ -620,46 +552,15 @@
 			rewards: [{
 				id: "1718C934A22443EE"
 				type: "xp"
-				xp: 400
+				xp: 200
 			}]
 		}
 		{
 			title: "Fast But Lower Damage - III"
-			x: 17.0d
-			y: 15.25d
-			description: ["Obtain a dagger."]
-			dependencies: ["0274F6F88DBF231E"]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "6320B69E8E31F842"
-			tasks: [{
-				id: "4143925379FA98A2"
-				type: "item"
-				item: {
-					id: "marbleds_arsenal:dagger"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "70508B66E08D2D77"
-				type: "xp"
-				xp: 400
-			}]
-		}
-		{
-			title: "Fast But Decent Damage - V"
-			x: 20.75d
-			y: 15.25d
+			x: 6.0d
+			y: 13.0d
 			description: ["Obtain a quartz sword."]
-			dependencies: [
-				"7DA391B0F34FDD4E"
-				"6320B69E8E31F842"
-				"7C712B7EE74CB896"
-			]
+			dependencies: ["7DA391B0F34FDD4E"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -678,34 +579,7 @@
 			rewards: [{
 				id: "7370BB1EA41F89DD"
 				type: "xp"
-				xp: 1200
-			}]
-		}
-		{
-			title: "Decent - II"
-			x: 22.25d
-			y: 8.5d
-			description: ["Obtain a diamond sword."]
-			dependencies: ["4645CBD33799EB57"]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "7AB49D213E95BC4E"
-			tasks: [{
-				id: "40C65E494B169304"
-				type: "item"
-				item: {
-					id: "minecraft:diamond_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "6FA409C8C52C7CBF"
-				type: "xp"
-				xp: 800
+				xp: 600
 			}]
 		}
 		{
@@ -717,10 +591,10 @@
 					Damage: 0
 				}
 			}
-			x: 17.0d
-			y: 8.75d
+			x: 3.0d
+			y: 10.0d
 			description: ["Obtain a steel sword."]
-			dependencies: ["21AFFACA71032389"]
+			dependencies: ["4645CBD33799EB57"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -739,53 +613,15 @@
 			rewards: [{
 				id: "63C24A41345200AF"
 				type: "xp"
-				xp: 400
+				xp: 200
 			}]
 		}
 		{
 			title: "Better Damage But Slow - III"
-			icon: {
-				id: "marbleds_arsenal:fire_axe"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 17.0d
-			y: 6.75d
-			description: ["Obtain a fire axe."]
-			dependencies: ["21AFFACA71032389"]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "77560568DDAE8549"
-			tasks: [{
-				id: "787DCF88F32AA170"
-				type: "item"
-				item: {
-					id: "marbleds_arsenal:fire_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "7AA570E8F282B90A"
-				type: "xp"
-				xp: 400
-			}]
-		}
-		{
-			title: "Better Damage But Slow - V"
-			x: 21.0d
-			y: 6.75d
+			x: 6.0d
+			y: 10.0d
 			description: ["Obtain a netherite sword."]
-			dependencies: [
-				"4BCF04D9AD600BCD"
-				"77560568DDAE8549"
-				"0D1718A032A19355"
-			]
+			dependencies: ["4BCF04D9AD600BCD"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -804,190 +640,7 @@
 			rewards: [{
 				id: "6A617ED3FA54DA00"
 				type: "xp"
-				xp: 1200
-			}]
-		}
-		{
-			title: "Better Damage But Slow - IV"
-			icon: {
-				id: "marbleds_arsenal:pipe"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 17.0d
-			y: 4.5d
-			description: ["Obtain a pipe as weapon."]
-			dependencies: ["21AFFACA71032389"]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "0D1718A032A19355"
-			tasks: [{
-				id: "399B2CAD4C5A3E98"
-				type: "item"
-				item: {
-					id: "marbleds_arsenal:pipe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "4E6434A147153003"
-				type: "xp"
-				xp: 400
-			}]
-		}
-		{
-			title: "Decent - IV"
-			x: 23.75d
-			y: 12.25d
-			description: ["Obtain a crowbar as weapon."]
-			dependencies: ["4645CBD33799EB57"]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "2863113310C42AD7"
-			tasks: [{
-				id: "6859A9FCFC63F271"
-				type: "item"
-				item: {
-					id: "marbleds_arsenal:crowbar"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "6B802D578B78D311"
-				type: "xp"
-				xp: 800
-			}]
-		}
-		{
-			title: "Decent - V"
-			x: 22.25d
-			y: 13.75d
-			description: ["Obtain a frying pan and BONK."]
-			dependencies: ["4645CBD33799EB57"]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "4B10190F74E9F86F"
-			tasks: [{
-				id: "59FAFE05E26E7FE1"
-				type: "item"
-				item: {
-					id: "marbleds_arsenal:frying_pan"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "3C10505244523A13"
-				type: "xp"
-				xp: 800
-			}]
-		}
-		{
-			title: "Not Too Shabby"
-			icon: {
-				id: "marbleds_arsenal:baseball_bat"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 8.75d
-			y: 13.0d
-			description: ["Obtain a baseball bat."]
-			dependencies: ["60C5BD48DDED283C"]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "1FBCC4B57ED1031A"
-			tasks: [{
-				id: "2BEADA28E1610213"
-				type: "item"
-				item: {
-					id: "marbleds_arsenal:baseball_bat"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "112FC09560ED2BB1"
-				type: "xp"
-				xp: 40
-			}]
-		}
-		{
-			title: "Decent - III"
-			icon: {
-				id: "marbleds_arsenal:machete"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 23.75d
-			y: 10.0d
-			description: ["Obtain a machete as weapon."]
-			dependencies: ["4645CBD33799EB57"]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "3800EECD47AB0E0C"
-			tasks: [{
-				id: "7D4F7D8A70BD6A14"
-				type: "item"
-				item: {
-					id: "marbleds_arsenal:machete"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "4190722235480C00"
-				type: "xp"
-				xp: 800
-			}]
-		}
-		{
-			title: "Fast But Lower Damage - IV"
-			x: 17.0d
-			y: 17.5d
-			description: ["Obtain a police baton and start whooping."]
-			dependencies: ["0274F6F88DBF231E"]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "7C712B7EE74CB896"
-			tasks: [{
-				id: "28929D8FA321D815"
-				type: "item"
-				item: {
-					id: "marbleds_arsenal:police_baton"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "73AA670A2996F204"
-				type: "xp"
-				xp: 400
+				xp: 600
 			}]
 		}
 		{
@@ -1210,8 +863,8 @@
 		}
 		{
 			title: "Whoosh - I"
-			x: 12.5d
-			y: 9.0d
+			x: -13.0d
+			y: 8.5d
 			description: ["Obtain or craft a pickarang."]
 			progression_mode: "flexible"
 			id: "2FEFCC03AF6BD162"
@@ -1234,8 +887,8 @@
 		}
 		{
 			title: "Whoosh - II"
-			x: 12.5d
-			y: 12.5d
+			x: -9.0d
+			y: 8.5d
 			description: ["Obtain or craft a flamarang."]
 			progression_mode: "flexible"
 			id: "22306FFEBCE7A493"
@@ -1254,58 +907,6 @@
 				id: "705CE4203495331C"
 				type: "xp"
 				xp: 500
-			}]
-		}
-		{
-			title: "Alternative Choices - I"
-			x: 8.0d
-			y: 8.0d
-			description: ["Sometimes, non-combat tools might be more suitable for you."]
-			dependencies: ["60C5BD48DDED283C"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "5C06F2D75E376877"
-			tasks: [{
-				id: "0665684153CFD4FC"
-				type: "item"
-				item: {
-					id: "minecraft:iron_shovel"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "77ACF521C566D622"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Alternative Choices - II"
-			x: 9.5d
-			y: 8.0d
-			description: ["Sometimes, non-combat tools might be more suitable for you."]
-			dependencies: ["60C5BD48DDED283C"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "644DF4C6DECDEE37"
-			tasks: [{
-				id: "028ECA0398E82E6F"
-				type: "item"
-				item: {
-					id: "minecraft:iron_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "7B515A1A311966A3"
-				type: "xp"
-				xp: 200
 			}]
 		}
 		{
@@ -1756,10 +1357,15 @@
 				type: "item"
 				item: "immersiveengineering:ingot_steel"
 			}]
+			rewards: [{
+				id: "533D5B4A9F45C75B"
+				type: "xp"
+				xp: 200
+			}]
 		}
 		{
 			title: "Stronger Than Netherite"
-			x: -0.5d
+			x: -3.5d
 			y: 21.0d
 			description: ["Obtain a high-carbon steel alloy for late game weapons."]
 			dependencies: ["470B8F2C28F780CC"]
@@ -1772,12 +1378,20 @@
 				type: "item"
 				item: "contenttweaker:high_carbon_steel_alloy"
 			}]
+			rewards: [{
+				id: "567B4ABB353984ED"
+				type: "xp"
+				xp: 500
+			}]
 		}
 		{
-			x: 7.0d
+			title: "Tactical - IV"
+			x: 0.5d
 			y: 21.0d
-			shape: "gear"
+			description: ["Obtain or craft a tactical sword."]
+			dependencies: ["1E2A7DC56202A285"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "5B0FBDDEC6CEBA33"
 			tasks: [{
 				id: "0D930235988C820F"
@@ -1789,6 +1403,989 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [
+				{
+					id: "11CBB6B7850626F4"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "3273C79F9607ED32"
+					type: "item"
+					item: "minecraft:emerald_block"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Tactical - I"
+			x: -3.5d
+			y: 17.5d
+			description: ["Obtain or craft a tactical knife."]
+			dependencies: ["1E2A7DC56202A285"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "65BF2071855FE4D8"
+			tasks: [{
+				id: "30E247ACD0E1B40E"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:tactical_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7B6001D7764021D0"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "7B7A6E5986F74A1C"
+					type: "item"
+					item: "minecraft:emerald_block"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Tactical - II"
+			x: -1.5d
+			y: 18.0d
+			dependencies: ["1E2A7DC56202A285"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "3AB1DDCC77E89B8B"
+			tasks: [{
+				id: "12F6517EBAAD344C"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:tatical_mace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0C22306068CE0268"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "2F56513FBB2935F2"
+					type: "item"
+					item: "minecraft:emerald_block"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Tactical - III"
+			x: 0.0d
+			y: 19.5d
+			description: ["Obtain or craft a tactical machete."]
+			dependencies: ["1E2A7DC56202A285"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "7787E34C13E06E04"
+			tasks: [{
+				id: "54A5CDF8CCE9458E"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:tactical_machete"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3ED6234F8E20B688"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "662E7C19B1CC125E"
+					type: "item"
+					item: "minecraft:emerald_block"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Tactical - V"
+			x: 0.0d
+			y: 22.5d
+			description: ["Obtain or craft a combat axe."]
+			dependencies: ["1E2A7DC56202A285"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "70FCD71A34BB0C33"
+			tasks: [{
+				id: "37BB40250E26E44C"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:combat_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3B84091B1476FF92"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "37B158DCA6A89A79"
+					type: "item"
+					item: "minecraft:emerald_block"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Tactical - Z"
+			x: -3.5d
+			y: 24.5d
+			description: ["Obtain or craft a katana."]
+			dependencies: ["1E2A7DC56202A285"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "4F45678D5A5BA81F"
+			tasks: [{
+				id: "79975981C0E29C67"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:katana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "52877D6908E60994"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					id: "50C727ED9895CCFD"
+					type: "item"
+					item: "minecraft:emerald_block"
+					count: 6
+				}
+			]
+		}
+		{
+			title: "Tactical - VI"
+			x: -1.5d
+			y: 24.0d
+			description: ["Obtain or craft a military shovel and use as a spear."]
+			dependencies: ["1E2A7DC56202A285"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "65D7C99260C01E31"
+			tasks: [{
+				id: "55749ED3C5DB5B0B"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:military_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7450DCED2C521369"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "27DF5011202CAEC8"
+					type: "item"
+					item: "minecraft:emerald_block"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Slasher"
+			x: -11.0d
+			y: 29.0d
+			description: ["Obtain or craft a knife."]
+			dependencies: ["470B8F2C28F780CC"]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			optional: true
+			progression_mode: "flexible"
+			id: "469669EBA16B362B"
+			tasks: [{
+				id: "5BE9E8896D878067"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "47A14AD5EC45518B"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Here Comes Johnny"
+			x: -18.5d
+			y: 21.0d
+			description: ["Obtain or craft a steel axe."]
+			dependencies: ["470B8F2C28F780CC"]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			progression_mode: "flexible"
+			id: "4F224A21616D1DA3"
+			tasks: [{
+				id: "3A3E20663634CE03"
+				type: "item"
+				item: {
+					id: "immersiveengineering:axe_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C98208D73AFEB84"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Slasher - I"
+			x: -7.5d
+			y: 29.0d
+			dependencies: ["469669EBA16B362B"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "226696B7A20FFE79"
+			tasks: [{
+				id: "408FD8823B68ACF1"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:combat_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6D7616980D8A79BA"
+				type: "xp"
+				xp: 150
+			}]
+		}
+		{
+			title: "Slasher - II"
+			x: -8.0d
+			y: 31.0d
+			description: ["Obtain or craft a hunting knife."]
+			dependencies: ["469669EBA16B362B"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "0EC756A476AC26EE"
+			tasks: [{
+				id: "3414FC7F44339109"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:expedition_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3FDC2DE2DBA327DA"
+				type: "xp"
+				xp: 150
+			}]
+		}
+		{
+			title: "Slasher - III"
+			x: -10.0d
+			y: 32.5d
+			description: ["Obtain or craft a switchknife."]
+			dependencies: ["469669EBA16B362B"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "49164DD087289EAC"
+			tasks: [{
+				id: "7C79D21C01A7863D"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:switch_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "51B74B1B6B175A02"
+				type: "xp"
+				xp: 150
+			}]
+		}
+		{
+			title: "Poker - I"
+			x: -14.5d
+			y: 29.0d
+			description: ["Obtain or craft a butterfly knife."]
+			dependencies: ["469669EBA16B362B"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "6161124B4EAC740A"
+			tasks: [{
+				id: "4261A5EB4E8F9BD4"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:butterfly_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3CD8E0C2952B9A81"
+				type: "xp"
+				xp: 150
+			}]
+		}
+		{
+			title: "Poker - II"
+			x: -14.0d
+			y: 31.0d
+			description: ["Obtain or craft a long knife."]
+			dependencies: ["469669EBA16B362B"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "717B941C38B79563"
+			tasks: [{
+				id: "36BA6C1C65A82074"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:long_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0BD0AB2BDDC27D14"
+				type: "xp"
+				xp: 150
+			}]
+		}
+		{
+			title: "Poker - III"
+			x: -12.0d
+			y: 32.5d
+			description: ["Obtain or craft a stiletto knife."]
+			dependencies: ["469669EBA16B362B"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "6E5EBE1FAFECC77A"
+			tasks: [{
+				id: "5A978E54AF7C5931"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:stilettoknife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6752C749B1A08571"
+				type: "xp"
+				xp: 150
+			}]
+		}
+		{
+			title: "Psycho Killer"
+			x: -19.0d
+			y: 29.0d
+			description: ["Obtain or craft a machete."]
+			dependencies: ["470B8F2C28F780CC"]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			progression_mode: "flexible"
+			id: "4A16A8178FD93EEF"
+			tasks: [{
+				id: "1FB75BD679B74B92"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:machete"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "51ABCE66FFF1DF40"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Chopper - I"
+			x: -18.5d
+			y: 18.0d
+			description: ["Obtain or craft a fire axe."]
+			dependencies: ["4F224A21616D1DA3"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "0ECB77F4EDA40339"
+			tasks: [{
+				id: "79576EE454FED679"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:fire_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D82A41557ECA5E8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Chopper - II"
+			x: -20.5d
+			y: 18.5d
+			description: ["Obtain or craft a construction axe."]
+			dependencies: ["4F224A21616D1DA3"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "05ACFDBBBEFD5425"
+			tasks: [{
+				id: "584A0B9F3F930336"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:construction_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "70DF4381CEE80A12"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Chopper - III"
+			x: -22.0d
+			y: 20.5d
+			description: ["Obtain or craft a hand axe."]
+			dependencies: ["4F224A21616D1DA3"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "2CFA63E0FE76815B"
+			tasks: [{
+				id: "5FDB3BC259B6BD2C"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:hand_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5E554FA349B242DC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Chopper - IV"
+			x: -22.0d
+			y: 22.0d
+			description: ["Obtain or craft a lumberjack axe."]
+			dependencies: ["4F224A21616D1DA3"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "73B3C151533A8C47"
+			tasks: [{
+				id: "5983F0901BAAF104"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:lumber_jack_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5CFE320F9919F922"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Chopper - V"
+			x: -20.5d
+			y: 23.5d
+			description: ["Obtain or craft a gardening axe."]
+			dependencies: ["4F224A21616D1DA3"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "706BD548404C0F81"
+			tasks: [{
+				id: "00F5A2001CFB61F9"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:gardening_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5401A25A89699D3D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Chopper - VI"
+			x: -18.5d
+			y: 24.0d
+			description: ["Obtain or craft an ice axe."]
+			dependencies: ["4F224A21616D1DA3"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "1332A5E74AB888EE"
+			tasks: [{
+				id: "20B8E46C7A5563D0"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:ice_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "75E51A5DC0D7EA80"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Safe and Lethal"
+			x: -3.0d
+			y: 29.0d
+			description: ["Obtain or craft a spear."]
+			dependencies: ["470B8F2C28F780CC"]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			progression_mode: "flexible"
+			id: "551AF18E7B486D39"
+			tasks: [{
+				id: "604C96AB9188100D"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Psycho Killer - I"
+			x: -21.5d
+			y: 26.5d
+			description: ["Obtain or craft a hawkbill machete."]
+			dependencies: ["4A16A8178FD93EEF"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "12BE3B4348269E37"
+			tasks: [{
+				id: "51B1B72BC8E49D5C"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:hawkbill_machete"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "76990AAA18D7604D"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Psycho Killer - II"
+			x: -22.5d
+			y: 29.0d
+			description: ["Obtain or craft a bowie machete."]
+			dependencies: ["4A16A8178FD93EEF"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "655EAC2897460FB3"
+			tasks: [{
+				id: "0FDA504CC9872D88"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:bowie_machete"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "35BF4010BE99FB37"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Psycho Killer - III"
+			x: -21.5d
+			y: 31.5d
+			description: ["Obtain or craft a heavy machete."]
+			dependencies: ["4A16A8178FD93EEF"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "15304D7A65F9C6B5"
+			tasks: [{
+				id: "5D962DAF9E39E5FD"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:heavy_machete"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7E317927F52A40B3"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Psycho Killer - IV"
+			x: -19.0d
+			y: 32.5d
+			description: ["Obtain or craft a kukri machete."]
+			dependencies: ["4A16A8178FD93EEF"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "0F6CB1A164546BE4"
+			tasks: [{
+				id: "59AD7F3432FF6DEA"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:kukri_machete"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C23B7DC4671285F"
+				type: "xp"
+				xp: 400
+			}]
+		}
+		{
+			title: "It ain't stupid if it works - I"
+			x: 0.5d
+			y: 29.0d
+			description: ["Obtain or craft a snow shovel."]
+			dependencies: ["551AF18E7B486D39"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "21A94DF2AE4651E0"
+			tasks: [{
+				id: "0AD2E141EF1A03B4"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:snow_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2421A54888E937CD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "It ain't stupid if it works - II"
+			x: 0.0d
+			y: 31.5d
+			description: ["Obtain or craft a construction shovel."]
+			dependencies: ["551AF18E7B486D39"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "6C62096F4A9690B6"
+			tasks: [{
+				id: "30CEC8FC6CA08EF8"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:construction_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A549BB183920DE9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "It ain't stupid if it works - III"
+			x: -3.0d
+			y: 32.5d
+			description: ["Obtain or craft a garden fork."]
+			dependencies: ["551AF18E7B486D39"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "01B71D2E5BE45C3B"
+			tasks: [{
+				id: "0873D9D0D0B8BC86"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:garden_fork"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5803F59CB7470475"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Primitive Hunter - I"
+			x: -20.5d
+			y: 11.5d
+			description: ["Craft a spike to protect your base."]
+			dependencies: ["70C3799E5D5D54F3"]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			progression_mode: "flexible"
+			id: "245A84CC796DBD98"
+			tasks: [{
+				id: "1E54CC7DB92F69CC"
+				type: "item"
+				item: "arsenals_of_the_apocalypse:spikeswall"
+			}]
+			rewards: [{
+				id: "4C045C418B315380"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Primitive Hunter - II"
+			x: -24.5d
+			y: 11.5d
+			description: ["Craft glass spike to protect your base."]
+			dependencies: ["245A84CC796DBD98"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "054BF0252B617D3D"
+			tasks: [{
+				id: "55278BB60220D35C"
+				type: "item"
+				item: "arsenals_of_the_apocalypse:glass_spikes"
+			}]
+			rewards: [{
+				id: "634675C186BDD958"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "Primitive Hunter - III"
+			x: -20.5d
+			y: 15.5d
+			description: ["Craft a spike barrier to protect your base."]
+			dependencies: ["245A84CC796DBD98"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "1D915A900E4657B1"
+			tasks: [{
+				id: "193D1B4BF9B741F6"
+				type: "item"
+				item: "arsenals_of_the_apocalypse:spike_barrier"
+			}]
+			rewards: [{
+				id: "07F33A868C7B99F1"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "Modern Hunter - I"
+			x: -24.5d
+			y: 15.5d
+			description: ["Craft a bear trap to hunt animals or kill enemies."]
+			dependencies: ["245A84CC796DBD98"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "3D5034941203E7E3"
+			tasks: [{
+				id: "19DC6451BF20630F"
+				type: "item"
+				item: "arsenals_of_the_apocalypse:bear_trap"
+			}]
+			rewards: [{
+				id: "3E7772EA67DC5101"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "Modern Hunter - II"
+			x: -24.5d
+			y: 18.0d
+			description: ["Craft barbed wires to protect your base."]
+			dependencies: ["3D5034941203E7E3"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "51F670E03163959E"
+			tasks: [{
+				id: "4B1A5A60A3B8AB8F"
+				type: "item"
+				item: "arsenals_of_the_apocalypse:barbed_wire"
+			}]
+			rewards: [{
+				id: "1A93DC9E68FAA937"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Modern Hunter - III"
+			x: -27.5d
+			y: 18.0d
+			description: ["Craft landmine to destroy your foes."]
+			dependencies: ["3D5034941203E7E3"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "1E0D737C429BB201"
+			tasks: [{
+				id: "0DC29615F57C3808"
+				type: "item"
+				item: "arsenals_of_the_apocalypse:land_mine"
+			}]
+			rewards: [{
+				id: "44EC474651E2D9A3"
+				type: "xp"
+				xp: 400
+			}]
+		}
+		{
+			title: "Modern Hunter - IV"
+			x: -27.5d
+			y: 15.5d
+			description: ["Craft tripwire bomb to give unexpected surprise to your foes."]
+			dependencies: ["3D5034941203E7E3"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "5B6EE3F78F26386F"
+			tasks: [{
+				id: "68A57FD9BD22CD9B"
+				type: "item"
+				item: "arsenals_of_the_apocalypse:tripwire_bomb"
+			}]
+			rewards: [{
+				id: "2A91B95C4F3973F9"
+				type: "xp"
+				xp: 400
+			}]
+		}
+		{
+			title: "Diffuser"
+			x: -29.5d
+			y: 16.5d
+			description: ["The bomb has been defused."]
+			dependencies: [
+				"1E0D737C429BB201"
+				"5B6EE3F78F26386F"
+			]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "6802ACA0A9C4DB91"
+			tasks: [{
+				id: "4074EDDFDB3F22CE"
+				type: "item"
+				item: {
+					id: "arsenals_of_the_apocalypse:bomb_defusing_kit"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "46672ACA5C5C4523"
+				type: "xp"
+				xp: 200
 			}]
 		}
 	]

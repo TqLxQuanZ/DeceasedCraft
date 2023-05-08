@@ -201,8 +201,8 @@
 		}
 		{
 			title: "I Need Healing - II"
-			x: -19.0d
-			y: 12.0d
+			x: -11.5d
+			y: 2.0d
 			description: ["Craft or obtain a bandage to heal your wounds."]
 			dependencies: ["6AD30C57F5648FF3"]
 			progression_mode: "flexible"
@@ -220,8 +220,8 @@
 		}
 		{
 			title: "I Need Healing - I"
-			x: -21.0d
-			y: 10.0d
+			x: -14.5d
+			y: 4.0d
 			description: ["Craft or obtain a plaster to heal your wounds."]
 			dependencies: ["0E39D9CB81AD62AA"]
 			dependency_requirement: "one_started"
@@ -241,8 +241,8 @@
 		}
 		{
 			title: "Drugs"
-			x: -23.0d
-			y: 12.0d
+			x: -11.5d
+			y: 6.0d
 			description: ["Obtain a morphine to supress your debuffs."]
 			dependencies: ["6AD30C57F5648FF3"]
 			progression_mode: "flexible"
@@ -256,532 +256,6 @@
 				id: "4B5C8B5241F433E6"
 				type: "xp"
 				xp: 50
-			}]
-		}
-		{
-			title: "The Division"
-			x: -12.5d
-			y: 4.0d
-			description: ["Obtain a chainmail chestplate and start considering which armor to go with for your future."]
-			dependencies: ["4454FB66E86DAF5C"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "09DC528AA26ABE8F"
-			tasks: [{
-				id: "35F0A36B44DF0F54"
-				type: "item"
-				item: {
-					id: "minecraft:chainmail_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "59931DF7FEF22B59"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			title: "Harder"
-			x: -10.5d
-			y: 5.0d
-			description: ["Obtain or craft an iron chestplate."]
-			dependencies: ["09DC528AA26ABE8F"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "35BA38DB2EE8C07F"
-			tasks: [{
-				id: "1F4CF871A6A03234"
-				type: "item"
-				item: {
-					id: "minecraft:iron_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "5A38EF603DB5FAFD"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Harder - III"
-			x: -6.5d
-			y: 5.0d
-			description: ["Obtain or craft a diamond chestplate."]
-			dependencies: ["4B4C1BC44B04A80B"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "22DAF6D1E2B589AD"
-			tasks: [{
-				id: "4B8F5C0D2972EDA2"
-				type: "item"
-				item: {
-					id: "minecraft:diamond_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "35E3B31A1EFB9694"
-				type: "xp"
-				xp: 800
-			}]
-		}
-		{
-			title: "Harder - IV"
-			x: -4.5d
-			y: 5.0d
-			description: ["Obtain or craft a netherite chestplate."]
-			dependencies: ["22DAF6D1E2B589AD"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "7775CFA36DF58D80"
-			tasks: [{
-				id: "0B5CBF17E95753E7"
-				type: "item"
-				item: {
-					id: "minecraft:netherite_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "3CAC0CB383D1E292"
-				type: "xp"
-				xp: 1200
-			}]
-		}
-		{
-			title: "Harder - II"
-			x: -8.5d
-			y: 5.0d
-			description: ["Obtain or craft a steel chestplate."]
-			dependencies: ["35BA38DB2EE8C07F"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "4B4C1BC44B04A80B"
-			tasks: [{
-				id: "3A9EAE5FDC69374C"
-				type: "item"
-				item: {
-					id: "immersiveengineering:armor_steel_chest"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "04053CEB1B00CB00"
-				type: "xp"
-				xp: 400
-			}]
-		}
-		{
-			title: "Basic of Basic"
-			x: -14.5d
-			y: 4.0d
-			description: ["Obtain a leather chestplate to protect yourself."]
-			dependencies: ["0E39D9CB81AD62AA"]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "4454FB66E86DAF5C"
-			tasks: [{
-				id: "0558492778821FF7"
-				type: "item"
-				item: {
-					id: "minecraft:leather_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "4CFA17F2AB4AEA6F"
-				type: "xp"
-				xp: 20
-			}]
-		}
-		{
-			title: "Faster"
-			x: -10.5d
-			y: 1.0d
-			description: ["Obtain or craft a zinc chestplate."]
-			dependencies: ["09DC528AA26ABE8F"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "69569006DEAEEB26"
-			tasks: [{
-				id: "327BAE3B01691FDA"
-				type: "item"
-				item: {
-					id: "create_sa:zinc_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "4A57FA2F4D984BAD"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Stronger"
-			x: -10.5d
-			y: 3.0d
-			description: ["Obtain or craft a copper chestplate."]
-			dependencies: ["09DC528AA26ABE8F"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "407BC1119E17C3A6"
-			tasks: [{
-				id: "441B2C9A608CA865"
-				type: "item"
-				item: {
-					id: "create_sa:copper_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "382E7C9D9953C037"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Better"
-			x: -10.5d
-			y: 7.0d
-			description: ["Obtain or craft a brass chestplate."]
-			dependencies: ["09DC528AA26ABE8F"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "319921E5FDF985DF"
-			tasks: [{
-				id: "417C01A9A0E7D106"
-				type: "item"
-				item: {
-					id: "create_sa:brass_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "0F15FDEF5054A852"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Better - II"
-			x: -8.5d
-			y: 8.0d
-			description: ["Obtain or craft a brass jetpack."]
-			dependencies: ["319921E5FDF985DF"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "67144BB2127BAB0D"
-			tasks: [{
-				id: "7E5DF5FCEE074A32"
-				type: "item"
-				item: {
-					id: "create_sa:brass_jetpack_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "5FAAE35629ECDF17"
-				type: "xp"
-				xp: 600
-			}]
-		}
-		{
-			title: "Better - III"
-			x: -6.5d
-			y: 7.0d
-			description: ["Obtain or craft a brass exoskeleton."]
-			dependencies: ["319921E5FDF985DF"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "4BE44F3FBCE3A8D3"
-			tasks: [{
-				id: "3AB366B4A3A292F1"
-				type: "item"
-				item: {
-					id: "create_sa:brass_exoskeleton_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "1AF17AF06DD7433D"
-				type: "xp"
-				xp: 1200
-			}]
-		}
-		{
-			title: "Stronger - III"
-			x: -6.5d
-			y: 3.0d
-			description: ["Obtain or craft a copper exoskeleton."]
-			dependencies: ["407BC1119E17C3A6"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "00442983249FADE3"
-			tasks: [{
-				id: "669A66238285A55B"
-				type: "item"
-				item: {
-					id: "create_sa:copper_exoskeleton_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "5C78C4F495D75AB0"
-				type: "xp"
-				xp: 1200
-			}]
-		}
-		{
-			title: "Stronger - II"
-			x: -8.5d
-			y: 2.0d
-			description: ["Obtain or craft a copper jetpack."]
-			dependencies: ["407BC1119E17C3A6"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "6171FCCE55F34550"
-			tasks: [{
-				id: "3098056AC2EB526A"
-				type: "item"
-				item: {
-					id: "create_sa:copper_jetpack_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "22F928A358DFF197"
-				type: "xp"
-				xp: 600
-			}]
-		}
-		{
-			title: "Faster - II"
-			x: -8.5d
-			y: 0.0d
-			description: ["Obtain or craft a zinc jetpack."]
-			dependencies: ["69569006DEAEEB26"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "65FF2A6E0982A22E"
-			tasks: [{
-				id: "6E5B9953F76F5FA1"
-				type: "item"
-				item: {
-					id: "create_sa:andesite_jetpack_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "66D3618011BFA0C6"
-				type: "xp"
-				xp: 600
-			}]
-		}
-		{
-			title: "Faster - III"
-			x: -6.5d
-			y: 1.0d
-			description: ["Obtain or craft a zinc exoskeleton."]
-			dependencies: ["69569006DEAEEB26"]
-			progression_mode: "flexible"
-			id: "3FF7A4875BD7B3FF"
-			tasks: [{
-				id: "23C3EED2CA2F267F"
-				type: "item"
-				item: {
-					id: "create_sa:andesite_exoskeleton_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "00CE1C23FB06F0E1"
-				type: "xp"
-				xp: 1200
-			}]
-		}
-		{
-			title: "Deadly Prevention - I"
-			x: -13.0d
-			y: 2.0d
-			description: ["Obtain or craft a gas mask to prevent the harmful effect from the wasteland."]
-			dependencies: ["4454FB66E86DAF5C"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "3B5CECBE99134A61"
-			tasks: [{
-				id: "3802784B7FE3D999"
-				type: "item"
-				item: {
-					id: "marbleds_arsenal:gas_mask_helmet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "071B4DB8E2101327"
-				type: "xp"
-				xp: 400
-			}]
-		}
-		{
-			title: "Deadly Prevention - II"
-			x: -13.0d
-			y: 6.0d
-			description: ["Obtain or craft a hazmat helmet to prevent the harmful effect from the wasteland."]
-			dependencies: ["4454FB66E86DAF5C"]
-			progression_mode: "flexible"
-			id: "0B929B8E5ED7ACC0"
-			tasks: [{
-				id: "797E9E0FCF308627"
-				type: "item"
-				item: {
-					id: "marbleds_arsenal:hazmat_suit_helmet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "756C51AA27A247FA"
-				type: "xp"
-				xp: 400
 			}]
 		}
 		{
@@ -815,7 +289,14 @@
 			tasks: [{
 				id: "6846FDDFA83DB25D"
 				type: "item"
-				item: "minecraft:leather"
+				title: "Any #forge:tough_hides"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:tough_hides"
+					}
+				}
 			}]
 			rewards: [{
 				id: "3F00DE423753FDB8"
@@ -834,7 +315,7 @@
 			tasks: [{
 				id: "4DEF59BF0DB2DF95"
 				type: "item"
-				item: "untamedwilds:hide_bear_black"
+				item: "cold_sweat:chameleon_molt"
 			}]
 			rewards: [{
 				id: "02B4F3908901A3B9"
@@ -873,7 +354,7 @@
 			tasks: [{
 				id: "61B177712C00505D"
 				type: "item"
-				item: "minecraft:wheat"
+				item: "farmersdelight:straw"
 			}]
 			rewards: [{
 				id: "3841789132860490"
@@ -1240,6 +721,7 @@
 		{
 			x: -27.0d
 			y: 3.0d
+			subtitle: "Obtain logs by any means."
 			dependencies: ["7642A41DF9FBD171"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1258,6 +740,7 @@
 		{
 			x: -27.0d
 			y: 5.0d
+			description: ["Obtain string by any means, possibly from under root."]
 			dependencies: ["7642A41DF9FBD171"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1277,7 +760,7 @@
 			title: "Smelt It Up"
 			x: -25.0d
 			y: 2.0d
-			description: ["Cook the rotten flesh and turn it into useful leather."]
+			description: ["Burn the rotten flesh and turn it into useful leather."]
 			dependencies: ["7642A41DF9FBD171"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
