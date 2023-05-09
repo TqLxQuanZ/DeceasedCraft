@@ -734,6 +734,7 @@
 		}
 		{
 			title: "Start from Seeds"
+			icon: "immersiveengineering:seed"
 			x: -25.0d
 			y: 4.0d
 			description: ["Plant the under root seeds for obtain log and strings."]
@@ -744,7 +745,7 @@
 			tasks: [{
 				id: "28817F7EAB278351"
 				type: "item"
-				item: "bunker_down:underroot_stage_1"
+				item: "immersiveengineering:seed"
 			}]
 			rewards: [{
 				id: "2C4F15E8841326DB"
@@ -754,26 +755,7 @@
 		}
 		{
 			x: -27.0d
-			y: 3.0d
-			subtitle: "Obtain logs by any means."
-			dependencies: ["7642A41DF9FBD171"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "72316A3053D9D709"
-			tasks: [{
-				id: "27D258FCB5481E21"
-				type: "item"
-				item: "minecraft:oak_log"
-			}]
-			rewards: [{
-				id: "72192A43FEA0D15B"
-				type: "xp"
-				xp: 30
-			}]
-		}
-		{
-			x: -27.0d
-			y: 5.0d
+			y: 4.0d
 			description: ["Obtain string by any means, possibly from under root."]
 			dependencies: ["7642A41DF9FBD171"]
 			dependency_requirement: "one_started"

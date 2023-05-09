@@ -3,12 +3,6 @@
 [gamerules]
 	#Whether advancements should be announced in chat
 	announce_advancements = true
-	#No comment
-	#Range: > 0
-	bunker_spawn_point_x = 0
-	#No comment
-	#Range: > 0
-	bunker_spawn_point_z = 0
 	#Whether command blocks should notify admins when they perform commands
 	command_block_output = false
 	#Whether the server should skip checking player speed when the player is wearing elytra. Often helps with jittering due to lag in multiplayer
@@ -43,10 +37,6 @@
 	do_weather_cycle = true
 	#Whether the player should take damage when drowning
 	drowning_damage = true
-	#No comment
-	enable_spawn_bunker = true
-	#No comment
-	enable_surface_hatch = true
 	#Whether the player should take fall damage
 	fall_damage = true
 	#Whether the player should take damage in fire, lava, campfires, or on magma blocks
@@ -81,17 +71,11 @@
 	send_command_feedback = true
 	#Whether death messages are put into chat when a player dies. Also affects whether a message is sent to the pet's owner when the pet dies
 	show_death_messages = true
-	#No comment
-	#Range: > 0
-	spawn_bunker_starting_height = 32
 	#The number of blocks outward from the world spawn coordinates that a player spawns in when first joining a server or when dying without a personal spawnpoint
 	#Range: > 0
 	spawn_radius = 5000
 	#Whether players in spectator mode can generate chunks
 	spectators_generate_chunks = true
-	#No comment
-	#Range: > 0
-	underroot_growable_height = 70
 	#Makes angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgiveDeadPlayers is disabled
 	universal_anger = false
 	#No comment
