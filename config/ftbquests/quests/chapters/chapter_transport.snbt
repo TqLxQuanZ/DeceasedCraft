@@ -84,6 +84,7 @@
 			y: -8.5d
 			description: ["Obtain or craft any car engine for assembling the car."]
 			dependencies: ["5E3803A71B462A08"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "2C788A1B6F13DFF3"
 			tasks: [{
@@ -103,6 +104,7 @@
 			y: -6.0d
 			description: ["Obtain or craft any car wheels for assembling the car."]
 			dependencies: ["5E3803A71B462A08"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "129CA2092C7F22F2"
 			tasks: [{
@@ -122,6 +124,7 @@
 			y: -8.5d
 			description: ["Obtain or craft a tank for storing your car fuel."]
 			dependencies: ["5E3803A71B462A08"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "772F32A4217A3928"
 			tasks: [{
@@ -141,6 +144,7 @@
 			y: -7.5d
 			description: ["Obtain or craft any container to store your items or fluids."]
 			dependencies: ["5E3803A71B462A08"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "73D09DF3B85526B3"
 			tasks: [{
@@ -222,6 +226,7 @@
 			y: 1.5d
 			description: ["Obtain or craft a propeller to assemble your plane."]
 			dependencies: ["1E24E20439B9F754"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "5322301D7FB56EC8"
 			tasks: [{
@@ -241,6 +246,7 @@
 			y: 4.0d
 			description: ["Obtain or craft a furnace engine for assembling your plane."]
 			dependencies: ["1E24E20439B9F754"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "522C1B8043477A0E"
 			tasks: [{

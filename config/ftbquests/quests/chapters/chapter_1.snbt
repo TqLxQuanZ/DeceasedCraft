@@ -14,7 +14,9 @@
 			x: -12.5d
 			y: -4.0d
 			description: ["Obtain a boiler to get yourself warm when winter comes."]
+			hide_dependency_lines: false
 			dependencies: ["0ECF9BD806718584"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "40F0383D38357596"
 			tasks: [{
@@ -36,6 +38,7 @@
 			shape: "hexagon"
 			description: ["Obtain a thermometer to check the current biome and surrounding temperature."]
 			dependencies: ["0E39D9CB81AD62AA"]
+			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
 			id: "0ECF9BD806718584"
@@ -57,6 +60,7 @@
 			y: -1.0d
 			description: ["Obtain an icebox to deal with the upcoming summer."]
 			dependencies: ["0ECF9BD806718584"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "1103247BD5316FAE"
 			tasks: [{
@@ -77,7 +81,7 @@
 			y: -7.5d
 			description: ["Obtain a sewing table for insulating your armors with different type of materials."]
 			dependencies: ["0ECF9BD806718584"]
-			dependency_requirement: "one_completed"
+			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
 			id: "6D09D0FC40082C0E"
@@ -214,6 +218,7 @@
 			y: 2.0d
 			description: ["Craft or obtain a bandage to heal your wounds."]
 			dependencies: ["6AD30C57F5648FF3"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "6A29644DD8421933"
 			tasks: [{
@@ -254,6 +259,7 @@
 			y: 6.0d
 			description: ["Obtain a morphine to supress your debuffs."]
 			dependencies: ["6AD30C57F5648FF3"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "7E2C1F85C10A8E0D"
 			tasks: [{
@@ -293,6 +299,7 @@
 			y: -7.5d
 			description: ["Obtain a leather to insulate yourself from both cold and hot environment."]
 			dependencies: ["31B67FE45DCD97BF"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "7D4A2114B3C0BC8C"
 			tasks: [{
@@ -319,6 +326,7 @@
 			y: -7.5d
 			description: ["Obtain any tiger/bear hides to insulate yourself from both cold and hot environment."]
 			dependencies: ["7D4A2114B3C0BC8C"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "79AD3CAC8C46F7CA"
 			tasks: [{
@@ -358,6 +366,7 @@
 			y: -6.0d
 			description: ["Obtain a wheat to insulate yourself from hot environment."]
 			dependencies: ["6D09D0FC40082C0E"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "4E531BEB54C852AB"
 			tasks: [{
@@ -377,6 +386,7 @@
 			y: -6.0d
 			description: ["Obtain a honey comb to insulate yourself from hot environment."]
 			dependencies: ["4E531BEB54C852AB"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "507D2E6660BE32A5"
 			tasks: [{
@@ -396,6 +406,7 @@
 			y: -6.0d
 			description: ["Obtain a hoglin hide to insulate yourself from hot environment."]
 			dependencies: ["507D2E6660BE32A5"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "52721EF7743F31F0"
 			tasks: [{
@@ -415,6 +426,7 @@
 			y: -6.0d
 			description: ["Obtain a slime ball to insulate yourself from hot environment."]
 			dependencies: ["52721EF7743F31F0"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "7583E2FC526DEEE4"
 			tasks: [{
@@ -474,6 +486,7 @@
 			y: -9.0d
 			description: ["Obtain a tough fabric to insulate yourself from coldness."]
 			dependencies: ["77B024C0018D1CAD"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "58197952A086E130"
 			tasks: [{
@@ -493,6 +506,7 @@
 			y: -9.0d
 			description: ["Obtain a goat fur to insulate yourself from coldness."]
 			dependencies: ["58197952A086E130"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "3A4395529CCEB038"
 			tasks: [{
@@ -565,6 +579,7 @@
 			y: -5.0d
 			description: ["Obtain a furnace to purify your water bottle."]
 			dependencies: ["66312FE7394C89A1"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "444A3A8D2F961A51"
 			tasks: [{
@@ -584,6 +599,7 @@
 			y: -4.5d
 			description: ["Craft a campfire to purify your water."]
 			dependencies: ["66312FE7394C89A1"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "509217323E594CB7"
 			tasks: [{
@@ -662,6 +678,7 @@
 				"NOTE: Water does not get clean if it gets pump out as a water source, only spout with glass bottle works."
 			]
 			dependencies: ["66312FE7394C89A1"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "5A13CEAC38BB9ADA"
 			tasks: [{
@@ -721,6 +738,7 @@
 			y: 4.0d
 			description: ["Plant the under root seeds for obtain log and strings."]
 			dependencies: ["0E39D9CB81AD62AA"]
+			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "7642A41DF9FBD171"
 			tasks: [{
@@ -798,6 +816,8 @@
 			y: 0.0d
 			description: ["Obtain or craft a waterskin to balance your body temperature."]
 			dependencies: ["0ECF9BD806718584"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "3890D6E35528C1F6"
 			tasks: [{
 				id: "24E7C72DFE8A9E3C"

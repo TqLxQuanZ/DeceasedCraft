@@ -328,3 +328,13 @@ craftingTable.addShaped("sedexbox", <item:arsenals_of_the_apocalypse:sedexbox>,
 craftingTable.remove(<item:arsenals_of_the_apocalypse:bomb_defusing_kit>);
 craftingTable.addShapeless("bomb_defusing_kit", <item:arsenals_of_the_apocalypse:bomb_defusing_kit>,
     [<item:immersiveengineering:screwdriver>, <item:immersiveengineering:wirecutter>]);
+
+// Everlasting Torch
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("everlasting_torches")
+                                                      .transitionTo(<item:minecraft:stick>)
+                                                      .require(<tag:items:forge:rods/wooden>)
+                                                      .loops(1)
+                                                      .addOutput(<item:minecraft:torch> * 3, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:minecraft:wool>))
+                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:immersiveengineering:creosote> * 100))
+													  );
