@@ -86,7 +86,7 @@
 	spawn_bunker_starting_height = 32
 	#The number of blocks outward from the world spawn coordinates that a player spawns in when first joining a server or when dying without a personal spawnpoint
 	#Range: > 0
-	spawn_radius = 10
+	spawn_radius = 5000
 	#Whether players in spectator mode can generate chunks
 	spectators_generate_chunks = true
 	#No comment
