@@ -944,7 +944,10 @@
 			title: "Biohazard"
 			x: 21.5d
 			y: -1.5d
-			description: ["Obtain or craft a biohazard chestplate. Biohazard set provides immunity to poison, hunger, nausea and blindness."]
+			description: [
+				"Obtain or craft a biohazard chestplate. Biohazard set provides immunity to poison, hunger, nausea and blindness."
+				"Helmet provides the protection of entering wasteland."
+			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
