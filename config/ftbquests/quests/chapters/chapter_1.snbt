@@ -127,6 +127,15 @@
 			size: 2.0d
 			progression_mode: "flexible"
 			id: "0E39D9CB81AD62AA"
+			tasks: [{
+				id: "0474DAA3B8660BD2"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "50B455153BABC45C"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			title: "Better Foods, Better Health"
