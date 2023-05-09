@@ -827,8 +827,6 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:arsenals_of_the_apocalypse:officer_beret_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:chest>]);
 <item:arsenals_of_the_apocalypse:officer_beret_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 7.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
 <item:arsenals_of_the_apocalypse:officer_beret_chestplate>.maxDamage = 580;
-<item:arsenals_of_the_apocalypse:officer_beret_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:chest>]);
-<item:arsenals_of_the_apocalypse:officer_beret_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
 
  
 <item:arsenals_of_the_apocalypse:officer_beret_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
@@ -913,6 +911,20 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:create_sa:brass_jetpack_chestplate>.maxDamage = 460;
 <item:create_sa:brass_jetpack_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:chest>]);
 <item:create_sa:brass_jetpack_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+
+ 
+<item:arsenals_of_the_apocalypse:helicopter_pilot_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:chest>]);
+<item:arsenals_of_the_apocalypse:helicopter_pilot_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 7.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:arsenals_of_the_apocalypse:helicopter_pilot_chestplate>.maxDamage = 580;
+<item:arsenals_of_the_apocalypse:helicopter_pilot_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:chest>]);
+<item:arsenals_of_the_apocalypse:helicopter_pilot_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+
+ 
+<item:arsenals_of_the_apocalypse:helicopter_pilot_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:arsenals_of_the_apocalypse:helicopter_pilot_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:arsenals_of_the_apocalypse:helicopter_pilot_helmet>.maxDamage = 231;
+<item:arsenals_of_the_apocalypse:helicopter_pilot_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:head>]);
+<item:arsenals_of_the_apocalypse:helicopter_pilot_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
 
  
 #--------------------------- Tier 4 ------------------------------
@@ -1085,28 +1097,28 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 
  
 <item:arsenals_of_the_apocalypse:bombsquad_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
-<item:arsenals_of_the_apocalypse:bombsquad_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 8.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:arsenals_of_the_apocalypse:bombsquad_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
 <item:arsenals_of_the_apocalypse:bombsquad_helmet>.maxDamage = 607;
 <item:arsenals_of_the_apocalypse:bombsquad_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:head>]);
 <item:arsenals_of_the_apocalypse:bombsquad_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
 
  
 <item:arsenals_of_the_apocalypse:bombsquad_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:chest>]);
-<item:arsenals_of_the_apocalypse:bombsquad_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 10.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:arsenals_of_the_apocalypse:bombsquad_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 8.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
 <item:arsenals_of_the_apocalypse:bombsquad_chestplate>.maxDamage = 792;
 <item:arsenals_of_the_apocalypse:bombsquad_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:chest>]);
 <item:arsenals_of_the_apocalypse:bombsquad_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
 
  
 <item:arsenals_of_the_apocalypse:bombsquad_leggings>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:legs>]);
-<item:arsenals_of_the_apocalypse:bombsquad_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 9.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:arsenals_of_the_apocalypse:bombsquad_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 7.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
 <item:arsenals_of_the_apocalypse:bombsquad_leggings>.maxDamage = 755;
 <item:arsenals_of_the_apocalypse:bombsquad_leggings>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:legs>]);
 <item:arsenals_of_the_apocalypse:bombsquad_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
 
  
 <item:arsenals_of_the_apocalypse:bombsquad_boots>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:feet>]);
-<item:arsenals_of_the_apocalypse:bombsquad_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 8.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+<item:arsenals_of_the_apocalypse:bombsquad_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
 <item:arsenals_of_the_apocalypse:bombsquad_boots>.maxDamage = 681;
 <item:arsenals_of_the_apocalypse:bombsquad_boots>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:feet>]);
 <item:arsenals_of_the_apocalypse:bombsquad_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);

@@ -2035,6 +2035,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4A0095568D03B69D"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Psycho Killer - I"
@@ -2386,6 +2391,21 @@
 				id: "46672ACA5C5C4523"
 				type: "xp"
 				xp: 200
+			}]
+		}
+		{
+			title: "Modern Hunter - V"
+			x: -22.5d
+			y: 17.0d
+			description: ["Obtain or craft a razorwire, it can be connected with electricity."]
+			dependencies: ["3D5034941203E7E3"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "49DBF16FBCF0066F"
+			tasks: [{
+				id: "6F673F9BCDCA40F1"
+				type: "item"
+				item: "immersiveengineering:razor_wire"
 			}]
 		}
 	]

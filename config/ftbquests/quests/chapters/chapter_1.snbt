@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Warm me up"
+			title: "Warm Me Up"
 			icon: "cold_sweat:boiler"
 			x: -12.5d
 			y: -4.0d
@@ -51,7 +51,7 @@
 			}]
 		}
 		{
-			title: "Calm me down"
+			title: "Calm Me Down"
 			icon: "cold_sweat:icebox"
 			x: -12.5d
 			y: -1.0d
@@ -94,7 +94,7 @@
 			}]
 		}
 		{
-			title: "Best of both worlds"
+			title: "Best Of Both Worlds"
 			icon: "cold_sweat:hearth"
 			x: -11.0d
 			y: -2.5d
@@ -131,8 +131,8 @@
 		{
 			title: "Better Foods, Better Health"
 			icon: "minecraft:cooked_beef"
-			x: -39.25d
-			y: 6.5d
+			x: -29.75d
+			y: 6.0d
 			shape: "square"
 			description: [
 				"Eat various of foods to increase your Max HP."
@@ -156,8 +156,8 @@
 		{
 			title: "Parkour!"
 			icon: "minecraft:player_head"
-			x: -39.25d
-			y: 2.0d
+			x: -29.75d
+			y: 1.5d
 			shape: "square"
 			description: ["There are various way to get yourself out of dangerous situation, ParCool is one of it, make sure do perform all sort of ParCool to give yourself maximum conveniences!"]
 			size: 1.5d
@@ -177,8 +177,8 @@
 		{
 			title: "Veteran Engineer"
 			icon: "immersiveengineering:manual"
-			x: -41.5d
-			y: 4.25d
+			x: -32.0d
+			y: 3.75d
 			shape: "square"
 			description: [
 				"You're a veteran engineer, therefore possessing absurd amount of knowledge when it comes to technology related information."
@@ -506,8 +506,8 @@
 					"patchouli:book": "simpleplanes:planes_book"
 				}
 			}
-			x: -41.5d
-			y: 2.0d
+			x: -32.0d
+			y: 1.5d
 			shape: "square"
 			size: 1.5d
 			can_repeat: true
@@ -590,8 +590,8 @@
 		}
 		{
 			title: "Desperate Measure"
-			x: -33.0d
-			y: 5.25d
+			x: -21.25d
+			y: 9.75d
 			shape: "square"
 			description: ["Obtain a golden apple to cure your infection if you ever had one. Otherwise find somewhere to end yourself before the others did."]
 			size: 1.5d
@@ -602,11 +602,18 @@
 				type: "item"
 				item: "minecraft:golden_apple"
 			}]
-			rewards: [{
-				id: "66CA23A5337F1DBD"
-				type: "xp"
-				xp: 600
-			}]
+			rewards: [
+				{
+					id: "66CA23A5337F1DBD"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "0398DCA88033BAD8"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+			]
 		}
 		{
 			title: "Specialist"
@@ -617,8 +624,8 @@
 					Damage: 0
 				}
 			}
-			x: -35.25d
-			y: 5.25d
+			x: -23.5d
+			y: 9.75d
 			shape: "square"
 			description: [
 				"Press J to obtain a specialized skill tree for helping you through out the journey."
@@ -662,8 +669,8 @@
 		{
 			title: "Burning Passion"
 			icon: "minecraft:blaze_powder"
-			x: -33.0d
-			y: 3.0d
+			x: -21.25d
+			y: 7.5d
 			shape: "square"
 			description: ["Not long after the apocalypse started, there are mentions of spotting blazing rods floating around in volcanic areas from radio."]
 			size: 1.5d
@@ -681,8 +688,8 @@
 		{
 			title: "Adaptation"
 			icon: "artifacts:villager_hat"
-			x: -39.25d
-			y: 4.25d
+			x: -29.75d
+			y: 3.75d
 			shape: "square"
 			description: ["Some of the villagers out there are still surviving against the zombie apocalypse, they even changed their stocks."]
 			dependency_requirement: "one_started"
@@ -797,8 +804,8 @@
 		{
 			title: "Unavoidable Infection"
 			icon: "minecraft:zombie_head"
-			x: -30.75d
-			y: 5.25d
+			x: -19.0d
+			y: 9.75d
 			shape: "square"
 			description: [
 				"It is known that all the zombies have the ability to infect their victim whenever getting hit by them."
@@ -827,8 +834,8 @@
 					"patchouli:book": "untamedwilds:encyclopedia_of_life"
 				}
 			}
-			x: -41.5d
-			y: 6.5d
+			x: -32.0d
+			y: 6.0d
 			shape: "square"
 			description: ["It is important to know what's out there when surviving in the wilderness."]
 			dependency_requirement: "one_started"
@@ -859,8 +866,8 @@
 				Count: 1b
 				tag: { }
 			}
-			x: -30.75d
-			y: 3.0d
+			x: -19.0d
+			y: 7.5d
 			shape: "square"
 			description: ["Obtain a nature compass to look for a suitable place to live or seek for the resources."]
 			dependency_requirement: "one_started"
