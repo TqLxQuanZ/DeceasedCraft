@@ -23,11 +23,7 @@ craftingTable.addShapeless("resistant_fabric", <item:contenttweaker:resistant_fa
 <recipetype:create:mixing>.addRecipe("poison_potato_healing", <constant:create:heat_condition:heated>, [<fluid:create:potion>.withTag({Potion:"minecraft:harming"}) * 1000], [<item:minecraft:poisonous_potato>], [<fluid:create:potion>.withTag({Potion:"minecraft:healing"}) * 1000], 100);
 
 // Composter
-composter.setValue(<item:bunker_down:underroot_stage_1>, 0.5);
 composter.setValue(<item:minecraft:rotten_flesh>, 0.5);
-
-// Underroot
-<tag:items:forge:seeds>.add(<item:bunker_down:underroot_stage_1>);
 
 // Wool to string
 craftingTable.addShapeless("string", <item:minecraft:string> * 2, [<tag:items:minecraft:wool>]);
