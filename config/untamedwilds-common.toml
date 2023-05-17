@@ -2,12 +2,10 @@
 [modcompat]
 	#Controls whether to check for Serene Seasons for compatibility (Mobs will only breed during specific seasons).
 	serene_seasons = true
-	#Controls whether to check for YUNG's Better Caves (Reduces the rate at which Underground mobs are placed).
-	better_caves = true
-	#Controls whether to check for Patchouli compatibility (For the purpose of granting the Root advancement).
-	patchouli = true
 
 [mobcontrol]
+	#Defines whether baby mobs occasionally spawn from nests without player intervention.
+	tickingNests = true
 	#Chance, defined as once every N tries, where N is this value, for a new mob to be generated when a burrow spawns a new mob.
 	#Range: 0 ~ 100
 	burrowRepopulationChance = 10
@@ -61,17 +59,17 @@
 	freqalgae = 1
 	#Prevent spawns of Algae in these biomes
 	algae_blacklist = ["minecraft:frozen_ocean", "minecraft:deep_frozen_ocean"]
-	#Probability that an Underground block in a cave will attempt to spawn a mob (0 to disable). If YUNG's Better Caves is installed, this value is further reduced to 0.33x
-	#Range: 0.0 ~ 1.0
+	#Frequency of Underground mobs, N attempts to spawn a mob will be made on each chunk (0 to disable)
+	#Range: > 0
 	probunderground = 4.0E-4
 	#Frequency of Ocean Mobs, 1 in N chunks will generate with Ocean Mobs (0 to disable)
 	#Range: > 0
 	freqocean = 16
-	#Controls whether to use Burrows to spawn Critters, instead of having them clog up the Spawns
+	#Controls whether to use Burrows to spawn Critters, if disabled, Critters will spawn in the world like normal mobs.
 	burrows = true
 	#Controls whether to add Tree Orchids (NOT YET IMPLEMENTED)
 	tree_orchid = true
-	#Prevent flora and other blocks (but not Burrows) from generating in the defined dimensions.
+	#Prevent flora and other blocks (besides Burrows) from generating in the defined dimensions.
 	dimensionFeatureBlacklist = []
 
 [gamerules]
@@ -88,11 +86,10 @@
 	random_species = false
 	#Should 'Grazing' mobs destroy Tall Grass and/or turn Grass into dirt blocks (like Vanilla Sheep do).
 	grazer_griefing = true
-	#If a mob was not able to spawn in a certain position due to existing blocks, try again with this vertical offset. A value of 0 will disable it (you should never see a mob on top of a tree), a value too high will lead to fall damage.
-	#Range: 0 ~ 128
-	spawn_height_bias = 4
 	#If set to false, prevents mobs from dropping eggs
 	mobs_drop_eggs = false
+	#If set to true, invalid mob variants will not be corrected on load
+	uncapped_mob_variant = false
 	#Should mobs with Rare skins generate in the wild (if defined through assets)
 	wild_rare_skins = true
 	#Whether breeding requires a Male and a Female to produce offspring/eggs. (Warning: may lead to uncontrolled spawns of eggs)
@@ -103,6 +100,8 @@
 	contact_agression = true
 	#Disable this option to have tamed mobs respawn in their home with half a Heart if they were to 'die' (IMPORTANT: This gamerule is NOT fully functional and using it as a free get-out-of-jail card is bound to be disappointing, use at your own risk).
 	hardcore_death = true
+	#Defines whether animals should actively target and hunt Undead mobs. Disabling this option should make mobs less prone to dying due to angering a Zombie horde
+	attack_undead = true
 	#Should mobs potentially destroy the terrain? Keep in mind 'mobGriefing' is still required
 	mob_griefing = false
 	#Adds additional restrictions to mob breeding, including Biome/Temperature requirements and Overcrowding.
