@@ -39,11 +39,7 @@ JEI.hideIngredient(<item:artifacts:everlasting_beef>);
 JEI.hideIngredient(<item:artifacts:eternal_steak>);
 
 // Create Addition extra items
-// Rods
-<recipetype:createaddition:rolling>.remove(<item:createaddition:iron_rod>);
 JEI.hideIngredient(<item:createaddition:iron_rod>);
-
-<recipetype:createaddition:rolling>.remove(<item:createaddition:copper_wire>);
 JEI.hideIngredient(<item:createaddition:copper_wire>);
 
 // Experience Tools

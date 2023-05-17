@@ -55,38 +55,6 @@
       "result": "deny"
     },
     {
-      "mob": ["rottencreatures:skeleton_lackey", "rottencreatures:zombie_lackey"],
-      "onjoin": true,
-      "result": "default",
-      "healthmultiply": 7.0,
-      "damagemultiply": 1.5
-    },
-    {
-      "mob": "rottencreatures:dead_beard",
-      "minlight": 0,
-      "maxlight": 5,
-      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
-      "seesky": true,
-      "onjoin": true,
-      "result": "allow",
-      "healthmultiply": 20.0,
-      "damagemultiply": 2.0
-    },
-    {
-      "mob": "rottencreatures:dead_beard",
-      "result": "deny"
-    },
-    {
-      "mod": "rottencreatures",
-      "dimension": "minecraft:overworld",
-      "mincount": {
-        "mod": "rottencreatures",
-        "amount": 10,
-        "perchunk": true
-      },
-      "result": "deny"
-    },
-    {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "dimension": "minecraft:overworld",
         "minlight": 6,

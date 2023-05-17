@@ -6,7 +6,7 @@
 	noMobsBurn = true
 	#Prevent a whole mods' mobs from burning just by specifying the modid. Comma separated and quoted list
 	#Default: "iceandfire"
-	mods = ["iceandfire", "zombiemobs", "rottencreatures"]
+	mods = ["iceandfire", "zombiemobs"]
 	#Prevent specific mods' mobs from burning just by specifying their full id for example modid:mobname.  Comma separated and quoted list
 	#Default: "minecraft:zombie","minecraft:skeleton"
 	mobs = ["minecraft:zombie", "minecraft:skeleton", "minecraft:stray"]

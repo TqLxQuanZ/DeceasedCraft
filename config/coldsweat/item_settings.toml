@@ -23,7 +23,7 @@
 	#"hot": The amount of heat insulation the item provides.
 	"Insulation Ingredients" = [["minecraft:leather", 1.0, 0.0], ["farmersdelight:straw", 0.0, 1.0], ["#minecraft:wool", 2.0, 0.0], ["minecraft:honeycomb", 0.0, 2.0], ["immersiveengineering:hemp_fabric", 3.0, 0.0], ["cold_sweat:hoglin_hide", 0.0, 3.0], ["cold_sweat:goat_fur", 4.0, 0.0], ["minecraft:slime_ball", 0.0, 4.0]]
 	#Defines insulation items that have the special "chameleon molt" effect
-	#Format: [["item_id", insulation], ["item_id", insulation], ...etc]
+	#Format: [["item_id", insulation, adaptSpeed], ["item_id", insulation, adaptSpeed], ...etc]
 	#"item_id": The item's ID (i.e. "minecraft:iron_ingot"). Accepts tags with "#" (i.e. "#minecraft:wool").
 	#"insulation": The amount of insulation the item provides. Will adjust to hot/cold based on the environment.
 	#"adaptSpeed": The speed at which the item adapts to the current temperature. Higher values mean faster adaptation (from 0 to 1).
