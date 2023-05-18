@@ -1,0 +1,244 @@
+{
+  "style": "c70cities:dummycity_style",
+  "inherit": "citystyle_config",
+  "streetblocks": {
+    "border": "v",
+    "wall": "_",
+    "street": "H",
+    "streetbase": "G",
+    "streetvariant": "="
+  },
+  "parkblocks": {
+    "elevation": "G"
+  },
+  "corridorblocks": {
+    "roof": " ",
+    "glass": " "
+  },
+  "railblocks": {
+    "railmain": " "
+  },
+  "sphereblocks": {
+    "glass": " ",
+    "border": " ",
+    "inner": " "
+  },
+  "selectors": {
+    "buildings": [
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_restaurant2"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_restaurant2_90"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_restaurant2_180"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_restaurant2_270"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_gasstation1"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_gasstation1_90"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_gasstation1_180"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_gasstation1_270"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_residential1"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_residential1_90"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_residential1_180"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_residential1_270"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_residential2"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_residential2_90"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_residential2_180"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_residential2_270"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_residential3"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_residential3_90"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_residential3_180"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_residential3_270"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_residential4"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_residential4_90"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_residential4_180"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_residential4_270"
+      }
+    ],
+    "multibuildings": [
+      {
+        "factor": 0.4,
+        "value": "c70cities:multi_residential1"
+      },
+      {
+        "factor": 0.4,
+        "value": "c70cities:multi_residential2"
+      },
+      {
+        "factor": 0.1,
+        "value": "c70cities:multi_flatapartment"
+      },
+      {
+        "factor": 0.4,
+        "value": "c70cities:multi_cafe"
+      },
+      {
+        "factor": 0.2,
+        "value": "c70cities:multi_convenientstore"
+      },
+      {
+        "factor": 0.2,
+        "value": "c70cities:multi_communitycenter"
+      }
+    ],
+    "bridges": [
+      {
+        "factor": 1.0,
+        "value": "c70cities:bridge_1"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:bridge_2"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:bridge_3"
+      }
+    ],
+    "fronts": [
+      {
+        "factor": 1.0,
+        "value": "c70cities:front_1"
+      }
+    ],
+    "stairs": [
+      {
+        "factor": 1.0,
+        "value": "c70cities:stair_1"
+      }
+    ],
+    "fountains": [
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_1"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_2"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_3"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_4"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_5"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_6"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_7"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_8"
+      }
+    ],
+    "parks": [
+      {
+        "factor": 1.0,
+        "value": "c70cities:park_1"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:park_1"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:park_2"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:park_3"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:park_4"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:park_5"
+      }
+    ],
+    "raildungeons": [
+      {
+        "factor": 1.0,
+        "value": "rail_dungeon1"
+      }
+    ]
+  }
+}

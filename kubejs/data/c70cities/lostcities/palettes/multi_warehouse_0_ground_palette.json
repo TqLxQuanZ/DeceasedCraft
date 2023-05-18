@@ -1,0 +1,129 @@
+{
+  "name": "multi_warehouse_0_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:dead_bush"
+    },
+    {
+      "char": "f",
+      "block": "biomesoplenty:dead_grass"
+    },
+    {
+      "char": "g",
+      "block": "biomesoplenty:dead_planks"
+    },
+    {
+      "char": "h",
+      "block": "biomesoplenty:fir_planks"
+    },
+    {
+      "char": "i",
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:moss_carpet"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:moss_block"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:cracked_stone_bricks"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:ancient_debris"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:mossy_stone_bricks"
+    },
+    {
+      "char": "p",
+      "block": "immersiveengineering:storage_aluminum"
+    },
+    {
+      "char": "q",
+      "block": "immersiveengineering:storage_lead"
+    },
+    {
+      "char": "r",
+      "block": "immersiveengineering:storage_steel"
+    },
+    {
+      "char": "s",
+      "block": "create:mechanical_arm",
+      "tag": {
+        "id": "create:mechanical_arm"
+      }
+    },
+    {
+      "char": "t",
+      "block": "minecraft:brick_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:bricks"
+    },
+    {
+      "char": "w",
+      "block": "immersiveengineering:blastbrick_reinforced"
+    },
+    {
+      "char": "x",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "y",
+      "block": "embellishcraft:smooth_larvikite_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "A",
+      "block": "biomesoplenty:stripped_dead_log[axis=z]"
+    },
+    {
+      "char": "B",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "C",
+      "block": "biomesoplenty:fir_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:chain[waterlogged=false,axis=y]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "E",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

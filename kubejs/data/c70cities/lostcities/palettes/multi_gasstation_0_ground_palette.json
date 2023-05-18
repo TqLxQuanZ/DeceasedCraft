@@ -1,0 +1,165 @@
+{
+  "name": "multi_gasstation_0_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "d",
+      "block": "simplylight:illuminant_yellow_block_on"
+    },
+    {
+      "char": "e",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "f",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "g",
+      "block": "simplylight:illuminant_yellow_block"
+    },
+    {
+      "char": "h",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "i",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:smooth_marble_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "l",
+      "block": "car:line_side_long_left_yellow[facing=west]"
+    },
+    {
+      "char": "m",
+      "block": "car:line_side_long_left_yellow[facing=north]"
+    },
+    {
+      "char": "n",
+      "block": "car:gas_station[facing=west]",
+      "tag": {
+        "fluid": {
+          "FluidName": "immersivepetroleum:gasoline",
+          "Amount": 4000
+        }
+      }
+    },
+    {
+      "char": "o",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "q",
+      "block": "car:line_side_long_left_yellow[facing=south]"
+    },
+    {
+      "char": "r",
+      "block": "car:line_side_long_left_yellow[facing=east]"
+    },
+    {
+      "char": "s",
+      "block": "embellishcraft:birch_plain_door[hinge=left,half=lower,facing=north,open=false]"
+    },
+    {
+      "char": "t",
+      "block": "embellishcraft:birch_plain_door[hinge=right,half=lower,facing=north,open=false]"
+    },
+    {
+      "char": "u",
+      "block": "cfm:birch_kitchen_sink_light[facing=north]"
+    },
+    {
+      "char": "w",
+      "block": "embellishcraft:birch_plain_door[hinge=right,half=lower,facing=south,open=false]"
+    },
+    {
+      "char": "x",
+      "block": "create:vertical_framed_glass"
+    },
+    {
+      "char": "y",
+      "block": "cfm:freezer_light[facing=north,open=false]"
+    },
+    {
+      "char": "A",
+      "block": "car:gas_station_top[facing=west]"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=west,open=false]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=east,open=false]"
+    },
+    {
+      "char": "D",
+      "block": "embellishcraft:birch_plain_door[hinge=left,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "E",
+      "block": "embellishcraft:birch_plain_door[hinge=right,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "F",
+      "block": "embellishcraft:birch_plain_door[hinge=right,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "I",
+      "block": "cfm:fridge_light[facing=north,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:red_terracotta"
+    },
+    {
+      "char": "K",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:chain[waterlogged=false,axis=y]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "M",
+      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "N",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "O",
+      "block": "embellishcraft:gray_corrugated_metal_plate_slab[waterlogged=false,type=bottom]"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "filler": "G",
+  "rubber": " ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "minfloors": 2,
+  "mincellars": 1,
+  "maxcellars": 2,
+  "parts": [
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "part": "c70cities:building_policeoffice1_base2"
+    },
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "part": "c70cities:building_policeoffice1_base1"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": true,
+      "part": "c70cities:building_policeoffice1_ground"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:building_policeoffice1_floor2"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:building_policeoffice1_floor1"
+    },
+    {
+      "top": true,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:building_policeoffice1_top"
+    }
+  ]
+}

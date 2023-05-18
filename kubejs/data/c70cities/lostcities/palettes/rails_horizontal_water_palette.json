@@ -1,0 +1,74 @@
+{
+  "name": "rails_horizontal_water_palette",
+  "palette": [
+    {
+      "char": "!",
+      "block": "minecraft:diamond_block",
+      "mob": "easymobs"
+    },
+    {
+      "char": "~",
+      "block": "minecraft:command_block"
+    },
+    {
+      "char": "G",
+      "block": "minecraft:grass_block"
+    },
+    {
+      "char": "H",
+      "block": "immersivepetroleum:asphalt"
+    },
+    {
+      "char": "=",
+      "block": "immersiveengineering:concrete"
+    },
+    {
+      "char": "_",
+      "block": "embellishcraft:gneiss_large_bricks_wall"
+    },
+    {
+      "char": "v",
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "char": "z",
+      "block": "biomesoplenty:dried_salt"
+    },
+    {
+      "char": " ",
+      "block": "minecraft:air"
+    },
+    {
+      "char": "a",
+      "block": "minecraft:sea_lantern"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "d",
+      "block": "create:track[waterlogged=false,shape=xo]"
+    },
+    {
+      "char": "e",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "f",
+      "block": "create:vertical_framed_glass"
+    },
+    {
+      "char": "g",
+      "block": "create:horizontal_framed_glass"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:smooth_stone"
+    }
+  ]
+}

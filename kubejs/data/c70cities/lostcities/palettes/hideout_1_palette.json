@@ -1,0 +1,157 @@
+{
+  "name": "hideout_1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:grass"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:tall_grass[half=lower]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:red_bed[part=head,facing=north,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "i",
+      "block": "minecraft:mossy_stone_bricks"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:water_cauldron"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:red_bed[part=foot,facing=north,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "l",
+      "block": "minecraft:crafting_table"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:furnace[lit=false,facing=east]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:cracked_stone_bricks"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:barrel[facing=west,open=false]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:blast_furnace[lit=false,facing=east]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:dark_oak_door[hinge=left,half=lower,facing=north,open=false]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=north,open=false]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:stone_button[face=floor,facing=west]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:stone_button[face=floor,facing=north]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:stone_button[face=floor,facing=east]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:tall_grass[half=upper]"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:chain[waterlogged=false,axis=z]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "C",
+      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:bell[facing=east]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:potted_dead_bush"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:glass"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    }
+  ]
+}

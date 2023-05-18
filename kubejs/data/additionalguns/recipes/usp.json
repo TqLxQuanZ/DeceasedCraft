@@ -1,0 +1,28 @@
+{
+"type": "cgm:workbench",
+"materials": [
+{
+  "item": "immersiveengineering:gunpart_barrel",
+  "count": 1
+},
+{
+  "item": "immersiveengineering:component_steel",
+  "count": 3
+},
+{
+  "tag": "forge:rods/iron",
+  "count": 2
+},
+{
+  "tag": "forge:plates/iron",
+  "count": 4
+},
+{
+  "tag": "forge:treated_wood",
+  "count": 1
+}
+],
+"result": {
+ "item": "additionalguns:usp"
+}
+}

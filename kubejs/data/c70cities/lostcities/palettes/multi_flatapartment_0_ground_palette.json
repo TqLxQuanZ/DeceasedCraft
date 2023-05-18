@@ -1,0 +1,91 @@
+{
+  "name": "multi_flatapartment_0_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:repeating_command_block[conditional=false,facing=east]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "summon car:car ~-0.5 ~1 ~"
+      }
+    },
+    {
+      "char": "c",
+      "block": "minecraft:chain_command_block[conditional=false,facing=up]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "d",
+      "block": "cfm:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "e",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "f",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:quartz_pillar[axis=y]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:stone_button[face=floor,facing=north]"
+    },
+    {
+      "char": "i",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "j",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:stone_button[face=floor,facing=east]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:stone_button[face=floor,facing=south]"
+    },
+    {
+      "char": "m",
+      "block": "simplylight:lamp_post[waterlogged=false,position=bottom]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "o",
+      "block": "simplylight:lamp_post[waterlogged=false,position=middle]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "q",
+      "block": "simplylight:lamp_post[waterlogged=false,position=top]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+    }
+  ]
+}

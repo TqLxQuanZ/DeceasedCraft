@@ -1,0 +1,25 @@
+{
+  "name": "multi_factory_1_top_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:polished_deepslate_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:polished_deepslate_wall[waterlogged=false,up=false]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:campfire[waterlogged=false,lit=true,facing=west]"
+    },
+    {
+      "char": "d",
+      "block": "embellishcraft:red_corrugated_metal_plate_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:red_corrugated_metal_plate_wall[waterlogged=false,up=false]"
+    }
+  ]
+}

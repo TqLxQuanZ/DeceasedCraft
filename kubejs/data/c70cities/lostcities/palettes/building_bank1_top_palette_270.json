@@ -1,0 +1,107 @@
+{
+  "name": "building_bank1_top_palette_270",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:smooth_marble_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:smooth_marble_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "f",
+      "block": "embellishcraft:smooth_marble_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:light_gray_stained_glass"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:gray_stained_glass"
+    },
+    {
+      "char": "i",
+      "block": "cfm:cyan_kitchen_counter[facing=south,type=left_corner_inverted]"
+    },
+    {
+      "char": "j",
+      "block": "cfm:cyan_kitchen_counter[facing=west,type=default]"
+    },
+    {
+      "char": "k",
+      "block": "cfm:cyan_kitchen_drawer[facing=east,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "l",
+      "block": "cfm:white_sofa[waterlogged=false,facing=north,type=single]"
+    },
+    {
+      "char": "m",
+      "block": "cfm:cyan_kitchen_drawer[facing=north,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "n",
+      "block": "cfm:cyan_kitchen_counter[facing=north,type=default]"
+    },
+    {
+      "char": "o",
+      "block": "cfm:light_gray_sofa[waterlogged=false,facing=south,type=single]"
+    },
+    {
+      "char": "p",
+      "block": "cfm:cyan_kitchen_counter[facing=south,type=right_corner_inverted]"
+    },
+    {
+      "char": "q",
+      "block": "cfm:cyan_kitchen_counter[facing=east,type=default]"
+    },
+    {
+      "char": "r",
+      "block": "quark:acacia_bookshelf"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:stripped_dark_oak_log[axis=y]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:oak_leaves"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:stripped_dark_oak_log[axis=z]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:potted_blue_orchid"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:potted_lily_of_the_valley"
+    },
+    {
+      "char": "A",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+    }
+  ]
+}

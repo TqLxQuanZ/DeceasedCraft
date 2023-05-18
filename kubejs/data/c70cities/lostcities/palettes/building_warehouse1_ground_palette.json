@@ -1,0 +1,142 @@
+{
+  "name": "building_warehouse1_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "e",
+      "block": "biomesoplenty:dead_grass"
+    },
+    {
+      "char": "f",
+      "block": "biomesoplenty:fir_planks"
+    },
+    {
+      "char": "g",
+      "block": "biomesoplenty:dead_planks"
+    },
+    {
+      "char": "h",
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:gray_wool"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:ancient_debris"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "m",
+      "block": "create:mechanical_arm",
+      "tag": {
+        "id": "create:mechanical_arm"
+      }
+    },
+    {
+      "char": "n",
+      "block": "minecraft:light_gray_wool"
+    },
+    {
+      "char": "o",
+      "block": "embellishcraft:rusty_wall_ladder[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "p",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "r",
+      "block": "quark:iron_rod[facing=up]"
+    },
+    {
+      "char": "s",
+      "block": "create:framed_glass_door[hinge=right,half=lower,facing=south,open=false]"
+    },
+    {
+      "char": "t",
+      "block": "create:framed_glass_door[hinge=left,half=lower,facing=south,open=false]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:dead_bush"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,facing=north,open=false]"
+    },
+    {
+      "char": "x",
+      "block": "create:framed_glass_door[hinge=right,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "y",
+      "block": "create:framed_glass_door[hinge=left,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "A",
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "B",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "C",
+      "block": "biomesoplenty:stripped_dead_log[axis=x]"
+    },
+    {
+      "char": "D",
+      "block": "embellishcraft:terracotta_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "E",
+      "block": "biomesoplenty:stripped_dead_log[axis=z]"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:chain[waterlogged=false,axis=y]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "I",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    }
+  ]
+}

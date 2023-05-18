@@ -568,7 +568,7 @@ craftingTable.addShaped("netherite_hoe", <item:minecraft:netherite_hoe>,
 // Gilded Quartz
 // Rose Quartz Pickaxe
 <recipetype:create:mechanical_crafting>.removeByName("create_sa:rose_quartz_pickaxe_recipe");
-craftingTable.addShaped("rose_quartz_pickaxe", <item:create_sa:rose_quartz_pickaxe>,
+<recipetype:create:mechanical_crafting>.addRecipe("rose_quartz_pickaxe", <item:create_sa:rose_quartz_pickaxe>,
     [[<item:minecraft:air>, <tag:items:forge:plates/aluminum>, <item:minecraft:air>],
     [<item:create:polished_rose_quartz>, <tag:items:forge:ingots/steel>, <item:create:polished_rose_quartz>],
 	[<item:create:polished_rose_quartz>, <tag:items:forge:rods/aluminum>, <item:create:polished_rose_quartz>],

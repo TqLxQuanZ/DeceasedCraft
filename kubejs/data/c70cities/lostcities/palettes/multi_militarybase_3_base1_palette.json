@@ -1,0 +1,92 @@
+{
+  "name": "multi_militarybase_3_base1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:moist_paving"
+    },
+    {
+      "char": "d",
+      "block": "create:cut_tuff_bricks"
+    },
+    {
+      "char": "e",
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "f",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "quark:acacia_post[waterlogged=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "h",
+      "block": "immersiveengineering:concrete_sheet"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:iron_door[hinge=left,half=lower,facing=north,open=false]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:iron_door[hinge=right,half=lower,facing=north,open=false]"
+    },
+    {
+      "char": "k",
+      "block": "cfm:andesite_table[waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:iron_door[hinge=left,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:iron_door[hinge=right,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "o",
+      "block": "arsenals_of_the_apocalypse:medical_storage[facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "p",
+      "block": "arsenals_of_the_apocalypse:medical_storage[facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "q",
+      "block": "arsenals_of_the_apocalypse:medical_storage[facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "r",
+      "block": "embellishcraft:light_gray_pillow[waterlogged=false,part=head,facing=south,occupied=false]"
+    },
+    {
+      "char": "s",
+      "block": "create:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "u",
+      "block": "embellishcraft:damaged_paving_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

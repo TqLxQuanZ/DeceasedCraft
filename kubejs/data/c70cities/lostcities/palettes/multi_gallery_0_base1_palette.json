@@ -1,0 +1,93 @@
+{
+  "name": "multi_gallery_0_base1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:gneiss_bricks"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:white_concrete"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:sand"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:water"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:coarse_dirt"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:podzol"
+    },
+    {
+      "char": "k",
+      "block": "create:vertical_framed_glass"
+    },
+    {
+      "char": "l",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "n",
+      "block": "quark:nether_brick_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:ender_chest[waterlogged=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "p",
+      "block": "quark:purpur_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "q",
+      "block": "cfm:andesite_chair[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:wither_rose"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:polished_andesite_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "t",
+      "block": "simplylight:illuminant_block"
+    },
+    {
+      "char": "u",
+      "block": "simplylight:illuminant_block_on"
+    }
+  ]
+}

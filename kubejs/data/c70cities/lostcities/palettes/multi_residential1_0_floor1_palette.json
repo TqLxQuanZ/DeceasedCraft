@@ -1,0 +1,25 @@
+{
+  "name": "multi_residential1_0_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "another_furniture:dark_oak_planter_box[attached=true,facing=north,type=right]"
+    },
+    {
+      "char": "b",
+      "block": "another_furniture:dark_oak_planter_box[attached=true,facing=north,type=middle]"
+    },
+    {
+      "char": "c",
+      "block": "another_furniture:dark_oak_planter_box[attached=true,facing=north,type=left]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:dark_oak_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:dark_oak_slab[waterlogged=false,type=bottom]"
+    }
+  ]
+}

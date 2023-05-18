@@ -1,0 +1,53 @@
+{
+  "name": "multi_communitycenter_5_base1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "c",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "d",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "f",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "g",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "h",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "j",
+      "block": "quark:stripped_oak_post[waterlogged=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "k",
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

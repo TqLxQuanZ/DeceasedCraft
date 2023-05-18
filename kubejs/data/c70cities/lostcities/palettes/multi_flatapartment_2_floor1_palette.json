@@ -1,0 +1,191 @@
+{
+  "name": "multi_flatapartment_2_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:polished_marble"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:polished_marble_wall[waterlogged=false,up=false]"
+    },
+    {
+      "char": "f",
+      "block": "embellishcraft:spruce_plain_door[hinge=right,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "g",
+      "block": "cfm:stripped_spruce_chair[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:white_couch[waterlogged=false,shape=straight,facing=north]"
+    },
+    {
+      "char": "j",
+      "block": "cfm:stripped_spruce_table[waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "cfm:spruce_kitchen_sink_light[facing=south]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+    },
+    {
+      "char": "m",
+      "block": "another_furniture:spruce_drawer[facing=east,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "n",
+      "block": "embellishcraft:white_couch[waterlogged=false,shape=straight,facing=east]"
+    },
+    {
+      "char": "o",
+      "block": "another_furniture:spruce_drawer[facing=north,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "p",
+      "block": "embellishcraft:spruce_plain_door[hinge=right,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "q",
+      "block": "embellishcraft:spruce_plain_door[hinge=left,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "r",
+      "block": "cfm:stripped_spruce_bedside_cabinet[waterlogged=false,facing=east,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:white_bed[part=foot,facing=south,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "t",
+      "block": "minecraft:white_bed[part=foot,facing=east,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "u",
+      "block": "minecraft:white_bed[part=head,facing=east,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "w",
+      "block": "cfm:stripped_spruce_bedside_cabinet[waterlogged=false,facing=south,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:white_bed[part=head,facing=south,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "y",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "A",
+      "block": "cfm:white_kitchen_counter[facing=north,type=default]"
+    },
+    {
+      "char": "B",
+      "block": "cfm:white_kitchen_sink[facing=north]"
+    },
+    {
+      "char": "C",
+      "block": "cfm:white_kitchen_drawer[facing=north,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "D",
+      "block": "cfm:spruce_kitchen_sink_light[facing=north]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+    },
+    {
+      "char": "F",
+      "block": "embellishcraft:spruce_plain_door[hinge=left,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "I",
+      "block": "create:spruce_window_pane[waterlogged=false]"
+    },
+    {
+      "char": "J",
+      "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=north,open=false]"
+    },
+    {
+      "char": "L",
+      "block": "quark:spruce_bookshelf"
+    },
+    {
+      "char": "M",
+      "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "N",
+      "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
+    },
+    {
+      "char": "P",
+      "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "R",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "S",
+      "block": "embellishcraft:polished_marble_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "T",
+      "block": "embellishcraft:smooth_marble_slab[waterlogged=false,type=bottom]"
+    }
+  ]
+}

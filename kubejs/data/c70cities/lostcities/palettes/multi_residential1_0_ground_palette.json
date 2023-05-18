@@ -1,0 +1,283 @@
+{
+  "name": "multi_residential1_0_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:bricks"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "d",
+      "block": "create:polished_cut_calcite_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:iron_bars[waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "create:polished_cut_calcite_wall[waterlogged=false,up=false]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:stone_button[face=floor,facing=east]"
+    },
+    {
+      "char": "h",
+      "block": "cfm:rock_path[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "biomesoplenty:redwood_button[face=wall,facing=north]"
+    },
+    {
+      "char": "j",
+      "block": "create:belt[casing=false,part=start,facing=south,slope=horizontal]"
+    },
+    {
+      "char": "k",
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "l",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:coal_block"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=inner_left,facing=west]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "s",
+      "block": "create:belt[casing=false,part=middle,facing=south,slope=horizontal]"
+    },
+    {
+      "char": "t",
+      "block": "biomesoplenty:dead_wall_sign[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:blast_furnace[lit=false,facing=east]"
+    },
+    {
+      "char": "x",
+      "block": "embellishcraft:red_couch[waterlogged=false,shape=straight,facing=east]"
+    },
+    {
+      "char": "y",
+      "block": "create:belt[casing=false,part=end,facing=south,slope=horizontal]"
+    },
+    {
+      "char": "A",
+      "block": "create:stressometer[facing=up,axis_along_first=false]"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=inner_right,facing=west]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+    },
+    {
+      "char": "D",
+      "block": "create:millstone"
+    },
+    {
+      "char": "E",
+      "block": "biomesoplenty:redwood_button[face=wall,facing=south]"
+    },
+    {
+      "char": "F",
+      "block": "create:fluid_tank[top=false,shape=window]"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:iron_door[hinge=left,half=lower,facing=north,open=false]"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:iron_door[hinge=right,half=lower,facing=north,open=false]"
+    },
+    {
+      "char": "K",
+      "block": "quark:dark_oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "L",
+      "block": "farmersdelight:basket[waterlogged=false,facing=up]"
+    },
+    {
+      "char": "M",
+      "block": "cfm:dark_oak_kitchen_counter[facing=north,type=default]"
+    },
+    {
+      "char": "N",
+      "block": "cfm:dark_oak_kitchen_sink_light[facing=north]"
+    },
+    {
+      "char": "O",
+      "block": "farmersdelight:stove[lit=false,facing=west]"
+    },
+    {
+      "char": "P",
+      "block": "farmersdelight:straw_bale[axis=y]"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:furnace[lit=false,facing=west]"
+    },
+    {
+      "char": "R",
+      "block": "farmersdelight:rice_bag"
+    },
+    {
+      "char": "S",
+      "block": "cfm:freezer_light[facing=east,open=false]"
+    },
+    {
+      "char": "T",
+      "block": "minecraft:white_carpet"
+    },
+    {
+      "char": "U",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "V",
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+    },
+    {
+      "char": "W",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=west,open=false]"
+    },
+    {
+      "char": "X",
+      "block": "minecraft:gray_stained_glass"
+    },
+    {
+      "char": "Y",
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "Z",
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+    },
+    {
+      "char": "0",
+      "block": "create:fluid_tank[top=true,shape=window]"
+    },
+    {
+      "char": "1",
+      "block": "minecraft:iron_door[hinge=left,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "2",
+      "block": "minecraft:iron_door[hinge=right,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "3",
+      "block": "another_furniture:dark_oak_shelf[waterlogged=false,facing=east,type=right]"
+    },
+    {
+      "char": "4",
+      "block": "another_furniture:dark_oak_shelf[waterlogged=false,facing=east,type=middle]"
+    },
+    {
+      "char": "5",
+      "block": "farmersdelight:cooking_pot[waterlogged=false,facing=west,support=none]"
+    },
+    {
+      "char": "6",
+      "block": "another_furniture:dark_oak_shelf[waterlogged=false,facing=east,type=left]"
+    },
+    {
+      "char": "7",
+      "block": "cfm:fridge_light[facing=east,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "8",
+      "block": "create:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "9",
+      "block": "create:spout",
+      "tag": {
+        "id": "create:spout"
+      }
+    },
+    {
+      "char": "@",
+      "block": "minecraft:gray_carpet"
+    },
+    {
+      "char": "#",
+      "block": "create:hand_crank[waterlogged=false,facing=west]",
+      "tag": {
+        "id": "create:hand_crank"
+      }
+    },
+    {
+      "char": "$",
+      "block": "create:deployer[facing=down,axis_along_first=true]",
+      "tag": {
+        "id": "create:deployer"
+      }
+    },
+    {
+      "char": "%",
+      "block": "create:mechanical_press[facing=west]",
+      "tag": {
+        "id": "create:mechanical_press"
+      }
+    },
+    {
+      "char": "^",
+      "block": "minecraft:stone_button[face=wall,facing=south]"
+    },
+    {
+      "char": "&",
+      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
+    },
+    {
+      "char": "*",
+      "block": "biomesoplenty:stripped_fir_log[axis=z]"
+    },
+    {
+      "char": "(",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    }
+  ]
+}

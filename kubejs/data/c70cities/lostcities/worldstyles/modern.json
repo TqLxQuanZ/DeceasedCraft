@@ -1,0 +1,262 @@
+{
+  "outsidestyle": "outside",
+  "scattered": {
+    "areasize": 6,
+    "chance": 0.4,
+    "weightnone": 1,
+    "list": [
+      {
+        "name": "c70cities:cabin_1",
+        "weight": 10,
+        "maxheightdiff": 2,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach",
+            "biomesoplenty:wasteland",
+            "biomesoplenty:wooded_wasteland"
+          ]
+        }
+      },
+      {
+        "name": "c70cities:cabin_2",
+        "weight": 10,
+        "maxheightdiff": 2,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach",
+            "biomesoplenty:wasteland",
+            "biomesoplenty:wooded_wasteland"
+          ]
+        }
+      },
+      {
+        "name": "c70cities:cabin_5",
+        "weight": 10,
+        "maxheightdiff": 2,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach",
+            "biomesoplenty:wasteland",
+            "biomesoplenty:wooded_wasteland"
+          ]
+        }
+      },
+      {
+        "name": "c70cities:foodtruck_1",
+        "weight": 15,
+        "maxheightdiff": 2,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach",
+            "biomesoplenty:wasteland",
+            "biomesoplenty:wooded_wasteland"
+          ]
+        }
+      },
+      {
+        "name": "c70cities:treehouse_1",
+        "weight": 15,
+        "maxheightdiff": 2,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach",
+            "biomesoplenty:wasteland",
+            "biomesoplenty:wooded_wasteland"
+          ]
+        }
+      },
+      {
+        "name": "c70cities:hideout_1",
+        "weight": 10,
+        "maxheightdiff": 2,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach",
+            "biomesoplenty:wasteland",
+            "biomesoplenty:wooded_wasteland"
+          ]
+        }
+      },
+      {
+        "name": "c70cities:villager_1",
+        "weight": 5,
+        "maxheightdiff": 2,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach",
+            "biomesoplenty:wasteland",
+            "biomesoplenty:wooded_wasteland"
+          ]
+        }
+      },
+      {
+        "name": "c70cities:cabin_3",
+        "weight": 10,
+        "maxheightdiff": 2,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach",
+            "biomesoplenty:wasteland",
+            "biomesoplenty:wooded_wasteland"
+          ]
+        }
+      },
+      {
+        "name": "c70cities:cabin_4",
+        "weight": 10,
+        "maxheightdiff": 2,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach",
+            "biomesoplenty:wasteland",
+            "biomesoplenty:wooded_wasteland"
+          ]
+        }
+      },
+      {
+        "name": "c70cities:campsite_1",
+        "weight": 10,
+        "maxheightdiff": 2,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach",
+            "biomesoplenty:wasteland",
+            "biomesoplenty:wooded_wasteland"
+          ]
+        }
+      }
+    ]
+  },
+  "citybiomemultipliers": [
+    {
+      "multiplier": 0.0,
+      "biomes": {
+        "excluding": [
+          "biomesoplenty:mediterranean_forest",
+          "biomesoplenty:mystic_grove",
+          "biomesoplenty:cherry_blossom_grove",
+          "biomesoplenty:bamboo_grove",
+          "biomesoplenty:clover_patch",
+          "biomesoplenty:pumpkin_patch",
+          "biomesoplenty:fir_clearing",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:scrubland",
+          "biomesoplenty:grassland",
+          "biomesoplenty:woodland",
+          "biomesoplenty:pasture",
+          "biomesoplenty:prairie",
+          "biomesoplenty:dryland",
+          "biomesoplenty:lavender_forest",
+          "minecraft:plains",
+          "minecraft:sunflower_plains",
+          "minecraft:savanna",
+          "wythers:cold_plains",
+          "wythers:autumnal_plains",
+          "wythers:tropical_grassland",
+          "wythers:spring_flower_fields",
+          "wythers:forest_edge",
+          "wythers:dry_tropical_grassland",
+          "wythers:dry_savanna",
+          "wythers:subtropical_grassland",
+          "wythers:humid_tropical_grassland",
+          "minecraft:snowy_plains",
+          "minecraft:snowy_taiga",
+          "minecraft:grove",
+          "biomesoplenty:field",
+          "biomesoplenty:lavender_field",
+          "biomesoplenty:wasteland",
+          "biomesoplenty:wooded_wasteland",
+          "biomesoplenty:forested_field",
+          "minecraft:stony_shore"
+        ]
+      }
+    }
+  ],
+  "citystyles": [
+    {
+      "factor": 0.001,
+      "citystyle": "c70cities:dummycity",
+      "biomes": {}
+    },
+    {
+      "factor": 900000.0,
+      "citystyle": "c70cities:standardcity",
+      "biomes": {
+        "if_any": [
+          "biomesoplenty:mediterranean_forest",
+          "biomesoplenty:mystic_grove",
+          "biomesoplenty:cherry_blossom_grove",
+          "biomesoplenty:bamboo_grove",
+          "biomesoplenty:clover_patch",
+          "biomesoplenty:pumpkin_patch",
+          "biomesoplenty:fir_clearing",
+          "biomesoplenty:shrubland",
+          "biomesoplenty:scrubland",
+          "biomesoplenty:grassland",
+          "biomesoplenty:woodland",
+          "biomesoplenty:pasture",
+          "biomesoplenty:prairie",
+          "biomesoplenty:dryland",
+          "biomesoplenty:lavender_forest",
+          "biomesoplenty:forested_field",
+          "wythers:forest_edge",
+          "minecraft:stony_shore"
+        ]
+      }
+    },
+    {
+      "factor": 900000.0,
+      "citystyle": "c70cities:residential",
+      "biomes": {
+        "if_any": [
+          "minecraft:plains",
+          "minecraft:sunflower_plains",
+          "minecraft:savanna",
+          "minecraft:snowy_plains",
+          "minecraft:snowy_taiga",
+          "minecraft:grove",
+          "wythers:cold_plains",
+          "wythers:autumnal_plains",
+          "wythers:subtropical_grassland",
+          "wythers:tropical_grassland",
+          "wythers:humid_tropical_grassland",
+          "wythers:dry_tropical_grassland",
+          "wythers:dry_savanna",
+          "wythers:spring_flower_fields",
+          "biomesoplenty:field",
+          "biomesoplenty:lavender_field"
+        ]
+      }
+    },
+    {
+      "factor": 900000.0,
+      "citystyle": "c70cities:deadzone",
+      "biomes": {
+        "if_any": [
+          "biomesoplenty:wasteland",
+          "biomesoplenty:wooded_wasteland"
+        ]
+      }
+    }
+  ]
+}

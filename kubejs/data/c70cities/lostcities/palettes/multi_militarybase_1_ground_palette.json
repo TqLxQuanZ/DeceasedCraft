@@ -1,0 +1,116 @@
+{
+  "name": "multi_militarybase_1_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:dead_fire_coral_block"
+    },
+    {
+      "char": "c",
+      "block": "create:layered_tuff"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "e",
+      "block": "immersiveengineering:razor_wire[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "f",
+      "block": "create:layered_limestone"
+    },
+    {
+      "char": "g",
+      "block": "cfm:cyan_kitchen_counter[facing=north,type=left_corner]"
+    },
+    {
+      "char": "h",
+      "block": "cfm:cyan_kitchen_drawer[facing=north,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "i",
+      "block": "cfm:cyan_kitchen_counter[facing=north,type=default]"
+    },
+    {
+      "char": "j",
+      "block": "cfm:cyan_kitchen_counter[facing=west,type=default]"
+    },
+    {
+      "char": "k",
+      "block": "cfm:stripped_oak_chair[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "l",
+      "block": "cfm:cyan_kitchen_drawer[facing=west,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:dispenser[facing=east]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:stonecutter[facing=east]"
+    },
+    {
+      "char": "o",
+      "block": "immersiveengineering:radiator"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "q",
+      "block": "immersiveengineering:metal_barrel"
+    },
+    {
+      "char": "r",
+      "block": "create:polished_cut_limestone"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:gray_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:chain[waterlogged=false,axis=y]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "u",
+      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:iron_bars[waterlogged=false]"
+    },
+    {
+      "char": "x",
+      "block": "quark:acacia_post[waterlogged=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "y",
+      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:redstone_torch[lit=true]"
+    },
+    {
+      "char": "B",
+      "block": "immersiveengineering:razor_wire[waterlogged=false,facing=north]"
+    }
+  ]
+}

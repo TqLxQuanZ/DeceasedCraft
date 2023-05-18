@@ -1,0 +1,102 @@
+{
+  "name": "highway_bridge_palette",
+  "palette": [
+    {
+      "char": "!",
+      "block": "minecraft:diamond_block",
+      "mob": "easymobs"
+    },
+    {
+      "char": "~",
+      "block": "minecraft:command_block"
+    },
+    {
+      "char": "G",
+      "block": "minecraft:grass_block"
+    },
+    {
+      "char": "H",
+      "block": "immersivepetroleum:asphalt"
+    },
+    {
+      "char": "=",
+      "block": "immersiveengineering:concrete"
+    },
+    {
+      "char": "_",
+      "block": "embellishcraft:gneiss_large_bricks_wall"
+    },
+    {
+      "char": "v",
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "char": "z",
+      "block": "biomesoplenty:dried_salt"
+    },
+    {
+      "char": " ",
+      "block": "minecraft:air"
+    },
+    {
+      "char": "a",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+    },
+    {
+      "char": "d",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "g",
+      "block": "immersiveengineering:concrete_quarter"
+    },
+    {
+      "char": "h",
+      "block": "quark:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "j",
+      "block": "quark:iron_rod[facing=up]"
+    },
+    {
+      "char": "k",
+      "block": "quark:iron_rod[facing=down]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:iron_bars[waterlogged=false]"
+    },
+    {
+      "char": "m",
+      "block": "simplylight:illuminant_block_on"
+    },
+    {
+      "char": "n",
+      "block": "immersiveengineering:connector_lv[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "o",
+      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=bottom]"
+    }
+  ]
+}

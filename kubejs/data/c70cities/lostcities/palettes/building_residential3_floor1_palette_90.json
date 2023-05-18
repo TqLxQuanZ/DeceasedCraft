@@ -1,0 +1,67 @@
+{
+  "name": "building_residential3_floor1_palette_90",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:cut_calcite"
+    },
+    {
+      "char": "b",
+      "block": "create:dark_oak_window_pane[waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:bricks"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:chain[waterlogged=false,axis=y]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "f",
+      "block": "quark:dark_oak_bookshelf"
+    },
+    {
+      "char": "g",
+      "block": "create:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:dark_oak_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "i",
+      "block": "hardcore_torches:unlit_lantern[waterlogged=false,hanging=true]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:dark_oak_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:dark_oak_planks"
+    },
+    {
+      "char": "m",
+      "block": "farmersdelight:dark_oak_cabinet[facing=west,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    }
+  ]
+}

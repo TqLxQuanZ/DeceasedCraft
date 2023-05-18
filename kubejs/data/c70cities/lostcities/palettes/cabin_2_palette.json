@@ -1,0 +1,148 @@
+{
+  "name": "cabin_2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cracked_stone_bricks"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:mossy_stone_bricks"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:hay_block[axis=y]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:grass"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:fern"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:oak_sapling"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:campfire[waterlogged=false,lit=true,facing=east]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "cold_sweat:boiler[lit=false,facing=north]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "p",
+      "block": "cold_sweat:icebox[facing=west]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:dark_oak_door[hinge=left,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:crafting_table"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:pink_tulip"
+    },
+    {
+      "char": "t",
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=west,type=left]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:white_tulip"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:red_bed[part=foot,facing=south,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "x",
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=west,type=right]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:red_bed[part=head,facing=south,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "A",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:mossy_stone_brick_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:cobblestone_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:lantern[waterlogged=false,hanging=true]"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:granite"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:polished_granite"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:glass"
+    }
+  ]
+}

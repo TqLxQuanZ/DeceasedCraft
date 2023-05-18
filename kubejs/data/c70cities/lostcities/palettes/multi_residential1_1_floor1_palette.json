@@ -1,0 +1,55 @@
+{
+  "name": "multi_residential1_1_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:cut_calcite"
+    },
+    {
+      "char": "b",
+      "block": "create:dark_oak_window_pane[waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:potted_warped_fungus"
+    },
+    {
+      "char": "d",
+      "block": "create:cuckoo_clock[facing=south]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:dark_oak_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:chain[waterlogged=false,axis=y]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "g",
+      "block": "minecraft:dark_oak_planks"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:dark_oak_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "i",
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "j",
+      "block": "farmersdelight:dark_oak_cabinet[facing=south,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    }
+  ]
+}

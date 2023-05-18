@@ -1,0 +1,116 @@
+{
+  "style": "c70cities:deadzone_style",
+  "inherit": "citystyle_config",
+  "streetblocks": {
+    "border": "v",
+    "wall": "_",
+    "street": "H",
+    "streetbase": "z",
+    "streetvariant": "="
+  },
+  "parkblocks": {
+    "elevation": "z"
+  },
+  "corridorblocks": {
+    "roof": " ",
+    "glass": " "
+  },
+  "railblocks": {
+    "railmain": " "
+  },
+  "sphereblocks": {
+    "glass": " ",
+    "border": " ",
+    "inner": " "
+  },
+  "selectors": {
+    "buildings": [
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_warehouse1"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_warehouse1_90"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_warehouse1_180"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_warehouse1_270"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_factory1"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_factory1_90"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_factory1_180"
+      },
+      {
+        "factor": 0.05,
+        "value": "c70cities:building_factory1_270"
+      }
+    ],
+    "multibuildings": [
+      {
+        "factor": 0.4,
+        "value": "c70cities:multi_warehouse"
+      },
+      {
+        "factor": 0.4,
+        "value": "c70cities:multi_factory"
+      },
+      {
+        "factor": 0.5,
+        "value": "c70cities:multi_militarybase"
+      },
+      {
+        "factor": 0.3,
+        "value": "c70cities:multi_gasstation"
+      }
+    ],
+    "bridges": [
+      {
+        "factor": 1.0,
+        "value": "c70cities:bridge_deadzone_1"
+      }
+    ],
+    "fronts": [
+      {
+        "factor": 1.0,
+        "value": "c70cities:front_deadzone_1"
+      }
+    ],
+    "stairs": [
+      {
+        "factor": 1.0,
+        "value": "c70cities:stair_deadzone_1"
+      }
+    ],
+    "fountains": [
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_deadzone_1"
+      }
+    ],
+    "parks": [
+      {
+        "factor": 1.0,
+        "value": "c70cities:park_deadzone_1"
+      }
+    ],
+    "raildungeons": [
+      {
+        "factor": 1.0,
+        "value": "rail_dungeon1"
+      }
+    ]
+  }
+}

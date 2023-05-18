@@ -1,0 +1,230 @@
+{
+  "name": "multi_communitycenter_8_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:polished_paving"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:white_concrete"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate"
+    },
+    {
+      "char": "f",
+      "block": "quark:stripped_oak_post[waterlogged=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+    },
+    {
+      "char": "h",
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:birch_door[hinge=right,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "k",
+      "block": "create:cut_calcite"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:stripped_dark_oak_log[axis=y]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:dark_oak_planks"
+    },
+    {
+      "char": "o",
+      "block": "cfm:birch_kitchen_sink_light[facing=south]"
+    },
+    {
+      "char": "p",
+      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "q",
+      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "r",
+      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "s",
+      "block": "quark:dark_oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "u",
+      "block": "cfm:andesite_table[waterlogged=false]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:iron_door[hinge=left,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "B",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "C",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:dark_oak_door[hinge=left,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:iron_door[hinge=right,half=lower,facing=north,open=false]"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:tall_grass[half=lower]"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:large_fern[half=lower]"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:birch_door[hinge=right,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,facing=west,open=true]"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "P",
+      "block": "create:birch_window"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:iron_door[hinge=left,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:heavy_weighted_pressure_plate"
+    },
+    {
+      "char": "S",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+    },
+    {
+      "char": "T",
+      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "U",
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=east,type=right]"
+    },
+    {
+      "char": "V",
+      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "W",
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=east,type=left]"
+    },
+    {
+      "char": "X",
+      "block": "minecraft:iron_door[hinge=right,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "Y",
+      "block": "minecraft:tall_grass[half=upper]"
+    },
+    {
+      "char": "Z",
+      "block": "minecraft:large_fern[half=upper]"
+    },
+    {
+      "char": "0",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "1",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "2",
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+    },
+    {
+      "char": "3",
+      "block": "create:dark_oak_window_pane[waterlogged=false]"
+    },
+    {
+      "char": "4",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "5",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "6",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "7",
+      "block": "minecraft:dark_oak_slab[waterlogged=false,type=bottom]"
+    }
+  ]
+}

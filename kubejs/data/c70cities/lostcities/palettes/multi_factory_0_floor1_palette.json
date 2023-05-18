@@ -1,0 +1,62 @@
+{
+  "name": "multi_factory_0_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate"
+    },
+    {
+      "char": "b",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:cauldron"
+    },
+    {
+      "char": "f",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "g",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "h",
+      "block": "embellishcraft:gray_corrugated_metal_plate"
+    },
+    {
+      "char": "i",
+      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=top,shape=straight,facing=north]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:chain[waterlogged=false,axis=y]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:gray_corrugated_metal_plate_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "l",
+      "block": "quark:dirty_glass"
+    },
+    {
+      "char": "m",
+      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=top,shape=straight,facing=south]"
+    }
+  ]
+}

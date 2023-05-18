@@ -1,0 +1,45 @@
+{
+  "name": "multi_residential2_1_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:soul_lantern[waterlogged=false,hanging=false]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:brewing_stand"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:warped_button[face=floor,facing=south]"
+    },
+    {
+      "char": "g",
+      "block": "create:cut_calcite"
+    },
+    {
+      "char": "h",
+      "block": "create:dark_oak_window_pane[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    }
+  ]
+}

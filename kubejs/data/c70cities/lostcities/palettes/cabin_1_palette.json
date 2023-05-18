@@ -1,0 +1,201 @@
+{
+  "name": "cabin_1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:dirt_path"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:stripped_birch_log[axis=y]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:fern"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:grass"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:birch_sapling"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:dandelion"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:oak_sapling"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:polished_deepslate_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "j",
+      "block": "another_furniture:birch_planter_box[attached=true,facing=north,type=right]"
+    },
+    {
+      "char": "k",
+      "block": "another_furniture:birch_planter_box[attached=true,facing=north,type=middle]"
+    },
+    {
+      "char": "l",
+      "block": "another_furniture:birch_planter_box[attached=true,facing=north,type=left]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:tall_grass[half=lower]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:stripped_birch_log[axis=x]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:dead_bush"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:cornflower"
+    },
+    {
+      "char": "q",
+      "block": "embellishcraft:birch_suspended_stairs[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:campfire[waterlogged=false,lit=true,facing=north]"
+    },
+    {
+      "char": "s",
+      "block": "another_furniture:birch_bench[type_2=left,waterlogged=false,type_1=left,facing=west]"
+    },
+    {
+      "char": "t",
+      "block": "another_furniture:birch_bench[type_2=right,waterlogged=false,type_1=right,facing=west]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:tall_grass[half=upper]"
+    },
+    {
+      "char": "y",
+      "block": "quark:birch_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "A",
+      "block": "cfm:stripped_birch_blinds[waterlogged=false,facing=north,open=false]"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:crafting_table"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:fletching_table"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:brown_bed[part=head,facing=north,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "E",
+      "block": "another_furniture:birch_drawer[facing=west,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:brown_bed[part=foot,facing=north,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "I",
+      "block": "another_furniture:birch_table[waterlogged=false,update=true,facing=west]"
+    },
+    {
+      "char": "J",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
+    },
+    {
+      "char": "K",
+      "block": "create:framed_glass_door[hinge=left,half=lower,facing=north,open=false]"
+    },
+    {
+      "char": "L",
+      "block": "quark:polished_deepslate_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "M",
+      "block": "quark:polished_deepslate_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:brown_candle[waterlogged=false,lit=false]"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:glow_lichen[waterlogged=false,up=false]"
+    },
+    {
+      "char": "P",
+      "block": "create:framed_glass_door[hinge=left,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "T",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=north,open=true]"
+    },
+    {
+      "char": "U",
+      "block": "minecraft:glow_lichen[waterlogged=false,up=true]"
+    },
+    {
+      "char": "V",
+      "block": "minecraft:chain[waterlogged=false,axis=y]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "W",
+      "block": "minecraft:polished_deepslate_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "X",
+      "block": "minecraft:polished_deepslate_wall[waterlogged=false,up=false]"
+    }
+  ]
+}

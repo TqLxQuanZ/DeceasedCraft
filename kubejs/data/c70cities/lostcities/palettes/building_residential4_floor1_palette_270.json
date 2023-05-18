@@ -1,0 +1,120 @@
+{
+  "name": "building_residential4_floor1_palette_270",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "c",
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:bricks"
+    },
+    {
+      "char": "e",
+      "block": "create:cut_calcite"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:oak_button[face=floor,facing=south]"
+    },
+    {
+      "char": "h",
+      "block": "createaddition:accumulator[facing=west]"
+    },
+    {
+      "char": "i",
+      "block": "create:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "j",
+      "block": "quark:gold_button[face=floor,facing=south]"
+    },
+    {
+      "char": "k",
+      "block": "create:framed_glass_door[hinge=right,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "l",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=inner_left,facing=west]"
+    },
+    {
+      "char": "s",
+      "block": "create:dark_oak_window_pane[waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=west]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "w",
+      "block": "hardcore_torches:unlit_lantern[waterlogged=false,hanging=true]"
+    },
+    {
+      "char": "x",
+      "block": "create:hand_crank[waterlogged=false,facing=north]",
+      "tag": {
+        "id": "create:hand_crank"
+      }
+    },
+    {
+      "char": "y",
+      "block": "create:mechanical_press[facing=north]",
+      "tag": {
+        "id": "create:mechanical_press"
+      }
+    },
+    {
+      "char": "A",
+      "block": "minecraft:dark_oak_planks"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=south]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=inner_left,facing=north]"
+    }
+  ]
+}

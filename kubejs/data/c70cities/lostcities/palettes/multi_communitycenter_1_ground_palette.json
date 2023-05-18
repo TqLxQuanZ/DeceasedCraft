@@ -1,0 +1,190 @@
+{
+  "name": "multi_communitycenter_1_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:polished_paving"
+    },
+    {
+      "char": "b",
+      "block": "create:cut_calcite"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:red_carpet"
+    },
+    {
+      "char": "e",
+      "block": "another_furniture:dark_oak_chair[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "f",
+      "block": "another_furniture:dark_oak_chair[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "g",
+      "block": "another_furniture:white_stool[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "another_furniture:dark_oak_chair[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "i",
+      "block": "another_furniture:dark_oak_table[waterlogged=false,update=false,facing=east]"
+    },
+    {
+      "char": "j",
+      "block": "another_furniture:dark_oak_table[waterlogged=false,update=false,facing=west]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:white_concrete"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:gray_wool"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:stripped_birch_log[axis=z]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:heavy_weighted_pressure_plate"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:stripped_dark_oak_log[axis=y]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "t",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "u",
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "w",
+      "block": "car:sign_post[waterlogged=false]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:light_gray_carpet"
+    },
+    {
+      "char": "y",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "B",
+      "block": "hardcore_torches:unlit_lantern[waterlogged=false,hanging=true]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:lantern[waterlogged=false,hanging=true]"
+    },
+    {
+      "char": "D",
+      "block": "create:dark_oak_window"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:soul_lantern[waterlogged=false,hanging=false]"
+    },
+    {
+      "char": "F",
+      "block": "hardcore_torches:burnt_torch"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:soul_torch"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:end_rod[facing=up]"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:brewing_stand"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:redstone_torch[lit=true]"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:moss_block"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:chain[waterlogged=false,axis=y]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "P",
+      "block": "minecraft:dark_oak_leaves"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:fern"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:dead_bush"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "T",
+      "block": "create:vertical_framed_glass"
+    },
+    {
+      "char": "U",
+      "block": "minecraft:grass"
+    },
+    {
+      "char": "V",
+      "block": "create:cut_calcite_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "W",
+      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

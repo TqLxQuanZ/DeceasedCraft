@@ -1,0 +1,165 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 9, 2023, 1:50:57 PM
+
+#forge:gasoline_additives
+- immersivepetroleum:gasoline_additives
+
+#forge:lubricant
+- immersivepetroleum:lubricant
+
+#forge:diesel_sulfur
+- immersivepetroleum:diesel_sulfur
+
+#car:gas_station
+- car:bio_diesel
+
+#forge:crude_oil
+- immersivepetroleum:crudeoil
+
+#forge:benzene
+- immersivepetroleum:benzene
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- car:canola_oil
+- car:canola_oil_flowing
+- car:methanol
+- car:methanol_flowing
+- car:canola_methanol_mix
+- car:canola_methanol_mix_flowing
+- car:glycerin
+- car:glycerin_flowing
+- car:bio_diesel
+- car:bio_diesel_flowing
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#forge:biodiesel
+- immersiveengineering:biodiesel
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:herbicide
+- immersiveengineering:herbicide
+
+#forge:biofuel
+- createaddition:flowing_bioethanol
+- createaddition:bioethanol
+
+#forge:plantoil
+- immersiveengineering:plantoil
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#forge:naphtha_cracked
+- immersivepetroleum:naphtha_cracked
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#biomesoplenty:blood
+- biomesoplenty:blood
+- biomesoplenty:flowing_blood
+
+#forge:ethanol
+- immersiveengineering:ethanol
+- createaddition:flowing_bioethanol
+- createaddition:bioethanol
+
+#create:bottomless/deny
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:redstone_acid
+- immersiveengineering:redstone_acid
+
+#create:bottomless/allow
+- minecraft:water
+- minecraft:lava
+
+#forge:concrete
+- immersiveengineering:concrete
+
+#forge:potion
+- immersiveengineering:potion
+
+#immersivepetroleum:burnable_in_flarestack
+- #forge:lubricant
+- #forge:diesel
+- #forge:diesel_sulfur
+- #forge:gasoline
+- #forge:naphtha
+- #forge:naphtha_cracked
+- #forge:benzene
+- #forge:propylene
+- #forge:ethylene
+- #forge:lubricant_cracked
+- #forge:kerosene
+- #forge:gasoline_additives
+- #forge:plantoil
+- #forge:creosote
+- #forge:ethanol
+
+#forge:lubricant_cracked
+- immersivepetroleum:lubricant_cracked
+
+#forge:gasoline
+- immersivepetroleum:gasoline
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#forge:diesel
+- immersivepetroleum:diesel
+- immersivepetroleum:diesel_sulfur
+
+#immersiveengineering:drill_fuel
+- #forge:diesel
+- #forge:kerosene
+- #forge:diesel_sulfur
+- #forge:biodiesel
+
+#forge:kerosene
+- immersivepetroleum:kerosene
+
+#forge:ethylene
+- immersivepetroleum:ethylene
+
+#forge:naphtha
+- immersivepetroleum:naphtha
+
+#car:blinding
+- car:methanol
+- car:methanol_flowing
+
+#car:generator
+- car:bio_diesel
+
+#forge:honey
+- create:flowing_honey
+- create:honey
+
+#forge:creosote
+- immersiveengineering:creosote
+
+#forge:propylene
+- immersivepetroleum:propylene
+
+#forge:phenolic_resin
+- immersiveengineering:phenolic_resin
+
+#forge:acetaldehyde
+- immersiveengineering:acetaldehyde
+
+#forge:napalm
+- immersivepetroleum:napalm

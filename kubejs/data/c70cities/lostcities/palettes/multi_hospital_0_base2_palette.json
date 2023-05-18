@@ -1,0 +1,98 @@
+{
+  "name": "multi_hospital_0_base2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:basalt_large_bricks"
+    },
+    {
+      "char": "f",
+      "block": "cfm:stone_chair[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "g",
+      "block": "cfm:stone_chair[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:white_concrete"
+    },
+    {
+      "char": "i",
+      "block": "cfm:stone_chair[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "j",
+      "block": "cfm:stone_chair[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "n",
+      "block": "arsenals_of_the_apocalypse:medical_storage[facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:heavy_weighted_pressure_plate"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:daylight_detector"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:brewing_stand"
+    },
+    {
+      "char": "r",
+      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "s",
+      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "t",
+      "block": "quark:iron_button[face=wall,facing=east]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:comparator[facing=west]"
+    },
+    {
+      "char": "w",
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

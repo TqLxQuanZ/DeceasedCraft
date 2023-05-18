@@ -1,0 +1,49 @@
+{
+  "name": "fountain_5_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=double]"
+    },
+    {
+      "char": "b",
+      "block": "create:cut_limestone_brick_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "d",
+      "block": "create:cut_limestone_bricks"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:oak_sapling"
+    },
+    {
+      "char": "f",
+      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=west,type=right]"
+    },
+    {
+      "char": "g",
+      "block": "quark:acacia_hedge[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=west,type=left]"
+    },
+    {
+      "char": "i",
+      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=east,type=left]"
+    },
+    {
+      "char": "j",
+      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=east,type=right]"
+    },
+    {
+      "char": "k",
+      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=east,type=middle]"
+    }
+  ]
+}

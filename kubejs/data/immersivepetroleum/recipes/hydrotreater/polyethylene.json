@@ -1,0 +1,17 @@
+{
+  "type": "immersivepetroleum:hydrotreater",
+  "time": 60,
+  "energy": 1024,
+  "result": {
+    "fluid": "minecraft:water",
+    "amount": 25
+  },
+  "input": {
+    "tag": "forge:ethylene",
+    "amount": 60
+  },
+  "secondary_result": {
+    "item": "contenttweaker:polyethylene",
+    "chance": "1.0"
+  }
+}

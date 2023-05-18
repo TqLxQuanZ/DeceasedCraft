@@ -1,0 +1,170 @@
+{
+  "name": "multi_hospital_0_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "quark:quartz_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "c",
+      "block": "cfm:gray_picket_fence[waterlogged=false]"
+    },
+    {
+      "char": "d",
+      "block": "create:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "f",
+      "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:polished_andesite_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "l",
+      "block": "quark:black_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "m",
+      "block": "embellishcraft:smooth_basalt"
+    },
+    {
+      "char": "n",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "embellishcraft:white_couch[waterlogged=false,shape=straight,facing=north]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+    },
+    {
+      "char": "q",
+      "block": "cfm:stripped_oak_coffee_table[waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "s",
+      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "t",
+      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "u",
+      "block": "simplylight:illuminant_block_on"
+    },
+    {
+      "char": "w",
+      "block": "simplylight:illuminant_block"
+    },
+    {
+      "char": "x",
+      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "y",
+      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "A",
+      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:chain[waterlogged=false,axis=y]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "C",
+      "block": "minecraft:iron_door[hinge=left,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "D",
+      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "E",
+      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "F",
+      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "I",
+      "block": "quark:iron_button[face=wall,facing=east]"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:iron_door[hinge=left,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "K",
+      "block": "embellishcraft:white_pillow[waterlogged=false,part=head,facing=east,occupied=false]"
+    },
+    {
+      "char": "L",
+      "block": "quark:quartz_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "M",
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:lantern[waterlogged=false,hanging=true]"
+    },
+    {
+      "char": "P",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "Q",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:smooth_quartz"
+    }
+  ]
+}

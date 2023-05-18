@@ -1,0 +1,82 @@
+{
+  "name": "building_office1_base2_palette_90",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:smooth_basalt"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "c",
+      "block": "simplylight:illuminant_block"
+    },
+    {
+      "char": "d",
+      "block": "refinedstorage:disk_drive"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:iron_door[hinge=left,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:iron_door[hinge=right,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "i",
+      "block": "quark:iron_ladder[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:gray_terracotta"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:iron_door[hinge=left,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:iron_door[hinge=right,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "m",
+      "block": "refinedstorage:storage_monitor"
+    },
+    {
+      "char": "n",
+      "block": "refinedstorage:network_receiver"
+    },
+    {
+      "char": "o",
+      "block": "refinedstorage:wireless_transmitter"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:chain[waterlogged=false,axis=y]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "r",
+      "block": "simplylight:illuminant_block_on"
+    }
+  ]
+}

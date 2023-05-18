@@ -1,0 +1,155 @@
+{
+  "name": "building_carservice1_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "immersiveengineering:concrete_quarter"
+    },
+    {
+      "char": "c",
+      "block": "immersiveengineering:slab_concrete[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "d",
+      "block": "immersiveengineering:concrete_three_quarter"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "f",
+      "block": "embellishcraft:polished_marble"
+    },
+    {
+      "char": "g",
+      "block": "car:car_workshop_outter[position=8]"
+    },
+    {
+      "char": "h",
+      "block": "car:car_workshop_outter[position=1]"
+    },
+    {
+      "char": "i",
+      "block": "car:car_workshop_outter[position=7]"
+    },
+    {
+      "char": "j",
+      "block": "car:car_workshop"
+    },
+    {
+      "char": "k",
+      "block": "car:car_workshop_outter[position=3]"
+    },
+    {
+      "char": "l",
+      "block": "car:car_workshop_outter[position=5]"
+    },
+    {
+      "char": "m",
+      "block": "car:car_workshop_outter[position=4]"
+    },
+    {
+      "char": "n",
+      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "o",
+      "block": "quark:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "p",
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    {
+      "char": "q",
+      "block": "car:gas_station[facing=south]",
+      "tag": {
+        "fluid": {
+          "FluidName": "immersivepetroleum:gasoline",
+          "Amount": 4000
+        }
+      }
+    },
+    {
+      "char": "r",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,facing=south,open=false]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:anvil[facing=north]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:observer[facing=west]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:gray_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "x",
+      "block": "create:crushing_wheel[axis=y]",
+      "tag": {
+        "id": "create:crushing_wheel"
+      }
+    },
+    {
+      "char": "y",
+      "block": "cfm:cyan_kitchen_counter[facing=east,type=default]"
+    },
+    {
+      "char": "A",
+      "block": "cfm:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "B",
+      "block": "embellishcraft:gray_couch[waterlogged=false,shape=straight,facing=south]"
+    },
+    {
+      "char": "C",
+      "block": "cfm:stone_table[waterlogged=false]"
+    },
+    {
+      "char": "D",
+      "block": "embellishcraft:steel_rungs[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "I",
+      "block": "car:gas_station_top[facing=south]"
+    },
+    {
+      "char": "J",
+      "block": "immersiveengineering:connector_lv[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "K",
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

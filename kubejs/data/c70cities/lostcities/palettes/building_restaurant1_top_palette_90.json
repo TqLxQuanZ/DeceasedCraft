@@ -1,0 +1,172 @@
+{
+  "name": "building_restaurant1_top_palette_90",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:polished_marble"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "d",
+      "block": "quark:spruce_ladder[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:gray_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "char": "h",
+      "block": "embellishcraft:smooth_marble_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:light_gray_stained_glass"
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:spruce_fancy_door[hinge=left,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:spruce_fancy_door[hinge=right,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "m",
+      "block": "cfm:stripped_spruce_table[waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "cfm:brown_kitchen_counter[facing=north,type=default]"
+    },
+    {
+      "char": "o",
+      "block": "cfm:freezer_light[facing=west,open=false]"
+    },
+    {
+      "char": "p",
+      "block": "farmersdelight:spruce_cabinet[facing=south,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=top,facing=east,open=false]"
+    },
+    {
+      "char": "r",
+      "block": "farmersdelight:stove[lit=false,facing=south]"
+    },
+    {
+      "char": "s",
+      "block": "cfm:brown_kitchen_counter[facing=east,type=default]"
+    },
+    {
+      "char": "t",
+      "block": "cfm:gray_kitchen_sink[facing=east]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "w",
+      "block": "embellishcraft:gray_couch[waterlogged=false,shape=straight,facing=south]"
+    },
+    {
+      "char": "x",
+      "block": "embellishcraft:gray_couch[waterlogged=false,shape=straight,facing=north]"
+    },
+    {
+      "char": "y",
+      "block": "cfm:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "A",
+      "block": "create:dark_oak_window_pane[waterlogged=false]"
+    },
+    {
+      "char": "B",
+      "block": "cfm:stripped_spruce_coffee_table[waterlogged=false]"
+    },
+    {
+      "char": "C",
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "D",
+      "block": "embellishcraft:spruce_fancy_door[hinge=left,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "E",
+      "block": "embellishcraft:spruce_fancy_door[hinge=right,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:potted_red_tulip"
+    },
+    {
+      "char": "I",
+      "block": "cfm:fridge_light[facing=west,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "J",
+      "block": "farmersdelight:cooking_pot[waterlogged=false,facing=south,support=none]"
+    },
+    {
+      "char": "K",
+      "block": "another_furniture:service_bell[waterlogged=false]"
+    },
+    {
+      "char": "L",
+      "block": "farmersdelight:cutting_board[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:potted_white_tulip"
+    },
+    {
+      "char": "N",
+      "block": "cfm:spruce_blinds[waterlogged=false,facing=east,open=true]"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "P",
+      "block": "minecraft:lantern[waterlogged=false,hanging=true]"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:spruce_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:chain[waterlogged=false,axis=y]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    }
+  ]
+}

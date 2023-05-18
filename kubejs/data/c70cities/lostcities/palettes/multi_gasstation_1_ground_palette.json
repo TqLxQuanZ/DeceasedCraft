@@ -1,0 +1,197 @@
+{
+  "name": "multi_gasstation_1_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:repeating_command_block[conditional=false,facing=east]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "summon car:car ~-0.5 ~1 ~"
+      }
+    },
+    {
+      "char": "c",
+      "block": "minecraft:chain_command_block[conditional=false,facing=up]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "e",
+      "block": "car:line_side_long_left_yellow[facing=south]"
+    },
+    {
+      "char": "f",
+      "block": "car:line_side_long_left_yellow[facing=east]"
+    },
+    {
+      "char": "g",
+      "block": "embellishcraft:smooth_marble_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "h",
+      "block": "create:vertical_framed_glass"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "k",
+      "block": "create:framed_glass_door[hinge=right,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "l",
+      "block": "quark:birch_bookshelf"
+    },
+    {
+      "char": "m",
+      "block": "create:framed_glass_door[hinge=left,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "n",
+      "block": "create:birch_window"
+    },
+    {
+      "char": "o",
+      "block": "car:line_side_long_left_yellow[facing=west]"
+    },
+    {
+      "char": "p",
+      "block": "car:line_side_long_left_yellow[facing=north]"
+    },
+    {
+      "char": "q",
+      "block": "car:gas_station[facing=west]",
+      "tag": {
+        "fluid": {
+          "FluidName": "immersivepetroleum:gasoline",
+          "Amount": 4000
+        }
+      }
+    },
+    {
+      "char": "r",
+      "block": "farmersdelight:oak_cabinet[facing=west,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "s",
+      "block": "cfm:red_kitchen_counter[facing=south,type=default]"
+    },
+    {
+      "char": "t",
+      "block": "cfm:red_kitchen_drawer[facing=north,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "w",
+      "block": "cfm:red_kitchen_counter[facing=east,type=default]"
+    },
+    {
+      "char": "x",
+      "block": "cfm:stripped_birch_chair[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "y",
+      "block": "embellishcraft:birch_plain_door[hinge=left,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "B",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "C",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "D",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "E",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "F",
+      "block": "create:framed_glass_door[hinge=right,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "I",
+      "block": "create:framed_glass_door[hinge=left,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "J",
+      "block": "car:gas_station_top[facing=west]"
+    },
+    {
+      "char": "K",
+      "block": "another_furniture:service_bell[waterlogged=false]"
+    },
+    {
+      "char": "L",
+      "block": "quark:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "M",
+      "block": "embellishcraft:birch_plain_door[hinge=left,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "N",
+      "block": "another_furniture:birch_shelf[waterlogged=false,facing=north,type=right]"
+    },
+    {
+      "char": "O",
+      "block": "another_furniture:birch_shelf[waterlogged=false,facing=north,type=left]"
+    },
+    {
+      "char": "P",
+      "block": "minecraft:red_terracotta"
+    },
+    {
+      "char": "Q",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "R",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:chain[waterlogged=false,axis=y]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "T",
+      "block": "embellishcraft:gray_corrugated_metal_plate_slab[waterlogged=false,type=bottom]"
+    }
+  ]
+}

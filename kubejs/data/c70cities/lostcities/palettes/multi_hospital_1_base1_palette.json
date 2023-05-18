@@ -1,0 +1,115 @@
+{
+  "name": "multi_hospital_1_base1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:polished_marble"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "j",
+      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "k",
+      "block": "cfm:stone_table[waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "n",
+      "block": "cfm:cyan_kitchen_drawer[facing=south,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "o",
+      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "p",
+      "block": "quark:quartz_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "q",
+      "block": "quark:quartz_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:rail[waterlogged=false,shape=north_south]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "w",
+      "block": "embellishcraft:white_pillow[waterlogged=false,part=head,facing=west,occupied=false]"
+    },
+    {
+      "char": "x",
+      "block": "arsenals_of_the_apocalypse:medical_storage[facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "y",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:redstone_torch[lit=true]"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

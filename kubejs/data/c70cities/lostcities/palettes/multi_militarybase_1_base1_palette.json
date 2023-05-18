@@ -1,0 +1,66 @@
+{
+  "name": "multi_militarybase_1_base1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "create:cut_tuff_bricks"
+    },
+    {
+      "char": "c",
+      "block": "quark:polished_limestone"
+    },
+    {
+      "char": "d",
+      "block": "embellishcraft:moist_paving"
+    },
+    {
+      "char": "e",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "quark:acacia_post[waterlogged=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "g",
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "h",
+      "block": "cfm:andesite_table[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "quark:gunpowder_sack"
+    },
+    {
+      "char": "j",
+      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "l",
+      "block": "marbleds_arsenal:concrete_barrier"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:target"
+    },
+    {
+      "char": "n",
+      "block": "embellishcraft:light_gray_pillow[waterlogged=false,part=head,facing=south,occupied=false]"
+    },
+    {
+      "char": "o",
+      "block": "embellishcraft:damaged_paving_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "name": "building_hotel1_floor2_palette_180",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "d",
+      "block": "embellishcraft:smooth_slate_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:smooth_slate"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:gray_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "embellishcraft:smooth_slate_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "h",
+      "block": "cfm:stripped_oak_chair[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=east]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=inner_left,facing=west]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:barrel[facing=north,open=false]"
+    },
+    {
+      "char": "m",
+      "block": "cfm:stripped_oak_chair[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "n",
+      "block": "quark:iron_rod[facing=up]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "p",
+      "block": "cfm:cyan_kitchen_counter[facing=north,type=default]"
+    },
+    {
+      "char": "q",
+      "block": "cfm:cyan_kitchen_drawer[facing=north,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:gray_terracotta"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=south,open=false]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:furnace[lit=false,facing=east]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:iron_bars[waterlogged=false]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:brown_bed[part=head,facing=south,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "y",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=east]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=south]"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:brown_bed[part=foot,facing=south,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "C",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=north]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=west]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:water_cauldron"
+    },
+    {
+      "char": "I",
+      "block": "immersiveengineering:concrete_quarter"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:stone_pressure_plate"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:flower_pot"
+    },
+    {
+      "char": "M",
+      "block": "cfm:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:lantern[waterlogged=false,hanging=true]"
+    },
+    {
+      "char": "P",
+      "block": "minecraft:chain[waterlogged=false,axis=y]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:quartz_block"
+    }
+  ]
+}

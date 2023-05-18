@@ -1,0 +1,32 @@
+{
+"type": "cgm:workbench",
+"materials": [
+{
+  "item": "immersiveengineering:gunpart_barrel",
+  "count": 4
+},
+{
+  "item": "immersiveengineering:component_steel",
+  "count": 7
+},
+{
+  "tag": "forge:rods/aluminum",
+  "count": 8
+},
+{
+  "tag": "forge:plates/steel",
+  "count": 10
+},
+{
+  "item": "contenttweaker:rubber",
+  "count": 5
+},
+{
+  "item": "create:precision_mechanism",
+  "count": 5
+}
+],
+"result": {
+ "item": "cgm:bazooka"
+}
+}

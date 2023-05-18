@@ -1,0 +1,37 @@
+{
+  "name": "stair_1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "e",
+      "block": "quark:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:water"
+    },
+    {
+      "char": "g",
+      "block": "quark:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

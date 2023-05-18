@@ -1,0 +1,77 @@
+{
+  "name": "fountain_6_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:gneiss_paving_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "b",
+      "block": "quark:andesite_bricks_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:oak_log[axis=y]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "f",
+      "block": "embellishcraft:gneiss_large_bricks"
+    },
+    {
+      "char": "g",
+      "block": "embellishcraft:gneiss_large_bricks_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+    },
+    {
+      "char": "h",
+      "block": "embellishcraft:gneiss_large_bricks_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:oak_leaves"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:oak_sapling"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:grass"
+    },
+    {
+      "char": "l",
+      "block": "quark:oak_post[waterlogged=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "m",
+      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=north,type=left]"
+    },
+    {
+      "char": "n",
+      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=north,type=right]"
+    },
+    {
+      "char": "o",
+      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=south,type=right]"
+    },
+    {
+      "char": "p",
+      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=south,type=left]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:fern"
+    },
+    {
+      "char": "r",
+      "block": "quark:paper_lantern_sakura"
+    }
+  ]
+}

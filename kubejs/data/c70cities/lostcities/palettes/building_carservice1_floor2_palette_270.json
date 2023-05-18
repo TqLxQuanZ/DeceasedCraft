@@ -1,0 +1,163 @@
+{
+  "name": "building_carservice1_floor2_palette_270",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "c",
+      "block": "quark:limestone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "f",
+      "block": "quark:limestone"
+    },
+    {
+      "char": "g",
+      "block": "embellishcraft:gray_corrugated_metal_plate_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "h",
+      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:steel_rungs[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "l",
+      "block": "create:rotation_speed_controller[axis=x]"
+    },
+    {
+      "char": "m",
+      "block": "immersiveengineering:razor_wire[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:iron_bars[waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "create:depot"
+    },
+    {
+      "char": "p",
+      "block": "cfm:cyan_kitchen_counter[facing=east,type=default]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:gray_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:crafting_table"
+    },
+    {
+      "char": "t",
+      "block": "embellishcraft:steel_terrace_table[waterlogged=false]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:stone_button[face=wall,facing=north]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:coal_block"
+    },
+    {
+      "char": "x",
+      "block": "quark:dark_oak_post[waterlogged=false,chain_up=false,axis=x]"
+    },
+    {
+      "char": "y",
+      "block": "quark:iron_rod[facing=up]"
+    },
+    {
+      "char": "A",
+      "block": "quark:dark_oak_post[waterlogged=false,chain_up=false,axis=z]"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:redstone_torch[lit=true]"
+    },
+    {
+      "char": "D",
+      "block": "immersiveengineering:connector_lv[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "E",
+      "block": "immersiveengineering:concrete_sheet"
+    },
+    {
+      "char": "F",
+      "block": "embellishcraft:gray_corrugated_metal_plate_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:lever[face=wall,facing=east]"
+    },
+    {
+      "char": "J",
+      "block": "immersiveengineering:concrete_quarter"
+    },
+    {
+      "char": "K",
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "L",
+      "block": "create:mechanical_press[facing=west]",
+      "tag": {
+        "id": "create:mechanical_press"
+      }
+    },
+    {
+      "char": "M",
+      "block": "create:deployer[facing=down,axis_along_first=false]",
+      "tag": {
+        "id": "create:deployer"
+      }
+    },
+    {
+      "char": "N",
+      "block": "create:hand_crank[waterlogged=false,facing=west]",
+      "tag": {
+        "id": "create:hand_crank"
+      }
+    },
+    {
+      "char": "O",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    }
+  ]
+}

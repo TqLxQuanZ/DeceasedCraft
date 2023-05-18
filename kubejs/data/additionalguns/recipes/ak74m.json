@@ -1,0 +1,32 @@
+{
+"type": "cgm:workbench",
+"materials": [
+{
+  "item": "immersiveengineering:gunpart_barrel",
+  "count": 2
+},
+{
+  "item": "immersiveengineering:component_steel",
+  "count": 4
+},
+{
+  "tag": "forge:rods/steel",
+  "count": 4
+},
+{
+  "tag": "forge:plates/steel",
+  "count": 8
+},
+{
+  "tag": "forge:treated_wood",
+  "count": 2
+},
+{
+  "item": "create:precision_mechanism",
+  "count": 2
+}
+],
+"result": {
+ "item": "additionalguns:ak74m"
+}
+}

@@ -1,0 +1,130 @@
+{
+  "name": "station_open_palette",
+  "palette": [
+    {
+      "char": "!",
+      "block": "minecraft:diamond_block",
+      "mob": "easymobs"
+    },
+    {
+      "char": "~",
+      "block": "minecraft:command_block"
+    },
+    {
+      "char": "G",
+      "block": "minecraft:grass_block"
+    },
+    {
+      "char": "H",
+      "block": "immersivepetroleum:asphalt"
+    },
+    {
+      "char": "=",
+      "block": "immersiveengineering:concrete"
+    },
+    {
+      "char": "_",
+      "block": "embellishcraft:gneiss_large_bricks_wall"
+    },
+    {
+      "char": "v",
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "char": "z",
+      "block": "biomesoplenty:dried_salt"
+    },
+    {
+      "char": " ",
+      "block": "minecraft:air"
+    },
+    {
+      "char": "a",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:polished_marble"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "e",
+      "block": "create:track[waterlogged=false,shape=xo]"
+    },
+    {
+      "char": "f",
+      "block": "quark:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=left]"
+    },
+    {
+      "char": "h",
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=right]"
+    },
+    {
+      "char": "i",
+      "block": "create:railway_casing"
+    },
+    {
+      "char": "j",
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=right]"
+    },
+    {
+      "char": "k",
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=left]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "create:controls[waterlogged=false,facing=east,open=false]"
+    },
+    {
+      "char": "o",
+      "block": "create:white_seat[waterlogged=false]"
+    },
+    {
+      "char": "p",
+      "block": "create:controls[waterlogged=false,facing=west,open=false]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "s",
+      "block": "create:mechanical_plough[facing=north]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:spruce_slab[waterlogged=false,type=double]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "w",
+      "block": "create:mechanical_plough[facing=south]"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "multi_hospital_1_base2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:white_concrete"
+    },
+    {
+      "char": "e",
+      "block": "cfm:stone_chair[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "f",
+      "block": "cfm:stone_chair[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "g",
+      "block": "car:sign_post[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:gray_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:redstone_torch[lit=true]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:potted_wither_rose"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:heavy_weighted_pressure_plate"
+    },
+    {
+      "char": "m",
+      "block": "arsenals_of_the_apocalypse:medical_storage[facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:repeater[facing=west]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:brewing_stand"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

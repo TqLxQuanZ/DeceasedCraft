@@ -1,0 +1,86 @@
+{
+  "name": "building_office2_top_palette_270",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:smooth_basalt"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:polished_marble"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:gray_stained_glass"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "f",
+      "block": "embellishcraft:steel_rungs[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "g",
+      "block": "cfm:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:gray_terracotta"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=inner_left,facing=east]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=west]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:anvil[facing=west]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:heavy_weighted_pressure_plate"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:chain[waterlogged=false,axis=y]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "s",
+      "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
+    }
+  ]
+}

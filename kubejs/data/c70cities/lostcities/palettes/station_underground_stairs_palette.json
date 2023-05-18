@@ -1,0 +1,118 @@
+{
+  "name": "station_underground_stairs_palette",
+  "palette": [
+    {
+      "char": "!",
+      "block": "minecraft:diamond_block",
+      "mob": "easymobs"
+    },
+    {
+      "char": "~",
+      "block": "minecraft:command_block"
+    },
+    {
+      "char": "G",
+      "block": "minecraft:grass_block"
+    },
+    {
+      "char": "H",
+      "block": "immersivepetroleum:asphalt"
+    },
+    {
+      "char": "=",
+      "block": "immersiveengineering:concrete"
+    },
+    {
+      "char": "_",
+      "block": "embellishcraft:gneiss_large_bricks_wall"
+    },
+    {
+      "char": "v",
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "char": "z",
+      "block": "biomesoplenty:dried_salt"
+    },
+    {
+      "char": " ",
+      "block": "minecraft:air"
+    },
+    {
+      "char": "a",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:glowstone"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "d",
+      "block": "embellishcraft:polished_marble"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "f",
+      "block": "create:track[waterlogged=false,shape=xo]"
+    },
+    {
+      "char": "g",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=north,type=left]"
+    },
+    {
+      "char": "i",
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=north,type=middle]"
+    },
+    {
+      "char": "j",
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=north,type=right]"
+    },
+    {
+      "char": "k",
+      "block": "create:polished_cut_dripstone_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:iron_bars[waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=south,type=right]"
+    },
+    {
+      "char": "o",
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=south,type=middle]"
+    },
+    {
+      "char": "p",
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=south,type=left]"
+    },
+    {
+      "char": "q",
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:smooth_stone"
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "style": "c70cities:standardcity_style",
+  "inherit": "citystyle_config",
+  "streetblocks": {
+    "border": "v",
+    "wall": "_",
+    "street": "H",
+    "streetbase": "G",
+    "streetvariant": "="
+  },
+  "parkblocks": {
+    "elevation": "G"
+  },
+  "corridorblocks": {
+    "roof": " ",
+    "glass": " "
+  },
+  "railblocks": {
+    "railmain": " "
+  },
+  "sphereblocks": {
+    "glass": " ",
+    "border": " ",
+    "inner": " "
+  },
+  "selectors": {
+    "buildings": [
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office1"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office1_90"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office1_180"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office1_270"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office2"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office2_90"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office2_180"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office2_270"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office3"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office3_90"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office3_180"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office3_270"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office4"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office4_90"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office4_180"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office4_270"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office5"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office5_90"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office5_180"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_office5_270"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_apartment1"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_apartment1_90"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_apartment1_180"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_apartment1_270"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_policeoffice1"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_policeoffice1_90"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_policeoffice1_180"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_policeoffice1_270"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_hotel1"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_hotel1_90"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_hotel1_180"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_hotel1_270"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_hotel2"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_hotel2_90"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_hotel2_180"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_hotel2_270"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_hotel3"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_hotel3_90"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_hotel3_180"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_hotel3_270"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_bank1"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_bank1_90"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_bank1_180"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_bank1_270"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_restaurant1"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_restaurant1_90"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_restaurant1_180"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_restaurant1_270"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_restaurant2"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_restaurant2_90"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_restaurant2_180"
+      },
+      {
+        "factor": 0.025,
+        "value": "c70cities:building_restaurant2_270"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_carservice1"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_carservice1_90"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_carservice1_180"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_carservice1_270"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_gasstation1"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_gasstation1_90"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_gasstation1_180"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_gasstation1_270"
+      }
+    ],
+    "multibuildings": [
+      {
+        "factor": 0.6,
+        "value": "c70cities:multi_flatapartment"
+      },
+      {
+        "factor": 0.3,
+        "value": "c70cities:multi_gasstation"
+      },
+      {
+        "factor": 0.4,
+        "value": "c70cities:multi_gallery"
+      },
+      {
+        "factor": 0.4,
+        "value": "c70cities:multi_cafe"
+      },
+      {
+        "factor": 0.4,
+        "value": "c70cities:multi_convenientstore"
+      },
+      {
+        "factor": 0.3,
+        "value": "c70cities:multi_hospital"
+      },
+      {
+        "factor": 0.3,
+        "value": "c70cities:multi_communitycenter"
+      }
+    ],
+    "bridges": [
+      {
+        "factor": 1.0,
+        "value": "c70cities:bridge_1"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:bridge_2"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:bridge_3"
+      }
+    ],
+    "fronts": [
+      {
+        "factor": 1.0,
+        "value": "c70cities:front_1"
+      }
+    ],
+    "stairs": [
+      {
+        "factor": 1.0,
+        "value": "c70cities:stair_1"
+      }
+    ],
+    "fountains": [
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_1"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_2"
+      },
+      {
+        "factor": 0.1,
+        "value": "c70cities:fountain_3"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_4"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_5"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_6"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_7"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_8"
+      }
+    ],
+    "parks": [
+      {
+        "factor": 1.0,
+        "value": "c70cities:park_1"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:park_2"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:park_3"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:park_4"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:park_5"
+      }
+    ],
+    "raildungeons": [
+      {
+        "factor": 1.0,
+        "value": "rail_dungeon1"
+      }
+    ]
+  }
+}

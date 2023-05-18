@@ -1,0 +1,2240 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 9, 2023, 1:50:56 PM
+
+#c:climate_wet
+- wythers:snowy_fen
+- wythers:snowy_bog
+- wythers:berry_bog
+- wythers:fen
+- wythers:old_growth_taiga_swamp
+- wythers:phantasmal_swamp
+- wythers:ancient_oak_swamp
+- wythers:birch_swamp
+- wythers:autumnal_swamp
+- wythers:marsh
+- wythers:bayou
+- wythers:waterlily_swamp
+- wythers:ancient_mossy_swamp
+- wythers:flowering_pantanal
+- wythers:pantanal
+- wythers:dripleaf_swamp
+- wythers:bamboo_swamp
+- wythers:bamboo_jungle_swamp
+- wythers:flooded_jungle
+- wythers:flooded_rainforest
+- wythers:flooded_savanna
+- wythers:flooded_temperate_rainforest
+- wythers:tangled_forest
+- wythers:desert_lakes
+- wythers:salt_lakes_pink
+- wythers:salt_lakes_white
+- wythers:salt_lakes_turquoise
+- wythers:mud_pools
+- wythers:humid_tropical_grassland
+- wythers:lush_dripstone_caves
+- wythers:lush_fungous_dripstone_caves
+- wythers:lush_shroom_caves
+- wythers:mediterranean_island_thermal_springs
+- wythers:pantanal
+- wythers:salt_lakes_pink
+- wythers:salt_lakes_turquoise
+- wythers:salt_lakes_white
+- wythers:sparse_bamboo_jungle
+- wythers:sparse_eucalyptus_jungle
+- wythers:sparse_eucalyptus_woodland
+- wythers:thermal_taiga
+- wythers:thermal_taiga_crags
+- wythers:tepui
+- wythers:windswept_jungle
+
+#minecraft:has_structure/nether_fortress
+- #minecraft:is_nether
+
+#forge:is_slope
+- wythers:andesite_crags
+- wythers:aspen_crags
+- wythers:cool_stony_canyons
+- wythers:forested_highlands
+- wythers:granite_canyon
+- wythers:highland_tropical_rainforest
+- wythers:huangshan_highlands
+- wythers:jungle_canyon
+- wythers:jade_highlands
+- wythers:maple_mountains
+- wythers:red_rock_canyon
+- wythers:snowy_canyon
+- wythers:stony_canyon
+- wythers:tropical_forest_canyon
+- minecraft:savanna_plateau
+- minecraft:wooded_badlands
+- minecraft:meadow
+- minecraft:grove
+- minecraft:snowy_slopes
+
+#wythers:is_australia
+- wythers:ayers_rock
+- wythers:outback
+- wythers:outback_desert
+- wythers:kwongan_heath
+- wythers:billabong
+- wythers:eucalyptus_woodland
+- wythers:sparse_eucalyptus_woodland
+- wythers:eucalyptus_salubris_woodland
+- wythers:eucalyptus_jungle
+- wythers:sparse_eucalyptus_jungle
+
+#minecraft:is_river
+- minecraft:river
+- minecraft:frozen_river
+- wythers:savanna_river
+- wythers:jungle_river
+- wythers:flooded_savanna
+- wythers:badlands_river
+- wythers:billabong
+- wythers:black_river
+- wythers:desert_river
+- wythers:deep_desert_river
+- wythers:gravelly_river
+- wythers:icy_river
+- wythers:jungle_river
+- wythers:lantern_river
+- wythers:savanna_river
+
+#wythers:is_dark_forest
+- minecraft:dark_forest
+- wythers:forbidden_forest
+- wythers:phantasmal_forest
+- wythers:deep_dark_forest
+- wythers:ancient_emerald_beech_forest
+- wythers:ancient_golden_beech_forest
+- wythers:ancient_copper_beech_forest
+- wythers:ancient_moss_forest
+
+#minecraft:has_structure/mineshaft
+- #minecraft:is_ocean
+- #minecraft:is_river
+- #minecraft:is_beach
+- #minecraft:is_mountain
+- #minecraft:is_hill
+- #minecraft:is_taiga
+- #minecraft:is_jungle
+- #minecraft:is_forest
+- minecraft:stony_shore
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:windswept_savanna
+- minecraft:desert
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:swamp
+- minecraft:savanna_plateau
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+- biomesoplenty:cold_desert?
+- biomesoplenty:dryland?
+- biomesoplenty:glowing_grotto?
+- biomesoplenty:grassland?
+- biomesoplenty:lavender_field?
+- biomesoplenty:lush_desert?
+- biomesoplenty:lush_savanna?
+- biomesoplenty:pasture?
+- biomesoplenty:prairie?
+- biomesoplenty:rocky_shrubland?
+- biomesoplenty:scrubland?
+- biomesoplenty:shrubland?
+- biomesoplenty:snowy_coniferous_forest?
+- biomesoplenty:snowy_fir_clearing?
+- biomesoplenty:snowy_maple_woods?
+- biomesoplenty:spider_nest?
+- biomesoplenty:volcanic_plains?
+- biomesoplenty:volcano?
+- biomesoplenty:wasteland?
+- biomesoplenty:wooded_wasteland?
+
+#betterwitchhuts:has_structure/has_witch_circle
+- minecraft:swamp
+- #forge:is_swamp?
+- #c:swamp?
+
+#minecraft:has_structure/jungle_temple
+- minecraft:bamboo_jungle
+- minecraft:jungle
+- biomesoplenty:rainforest?
+- biomesoplenty:floodplain?
+- minecraft:bamboo_jungle
+- minecraft:jungle
+- wythers:tropical_rainforest
+- wythers:sparse_bamboo_jungle
+
+#c:mushroom
+- wythers:fungous_dripstone_caves
+- wythers:lush_fungous_dripstone_caves
+- wythers:lush_shroom_caves
+- wythers:mushroom_caves
+- wythers:mushroom_island
+
+#c:tree_coniferous
+- wythers:huangshan_highlands
+
+#bettermineshafts:has_structure/has_mineshaft_ice
+- minecraft:ice_spikes
+- minecraft:frozen_peaks
+
+#minecraft:is_jungle
+- minecraft:bamboo_jungle
+- minecraft:jungle
+- minecraft:sparse_jungle
+- biomesoplenty:floodplain?
+- biomesoplenty:fungal_jungle?
+- biomesoplenty:rainforest?
+- biomesoplenty:rocky_rainforest?
+- wythers:tropical_rainforest
+- wythers:eucalyptus_jungle
+- wythers:eucalyptus_jungle_canyon
+- wythers:sparse_bamboo_jungle
+- wythers:jungle_island
+- wythers:bamboo_swamp
+- wythers:bamboo_jungle_swamp
+- wythers:bamboo_jungle_canyon
+- wythers:bamboo_jungle_highlands
+- wythers:dry_tropical_grassland
+- wythers:highland_tropical_rainforest
+- wythers:mushroom_island
+- wythers:flooded_jungle
+- wythers:flooded_rainforest
+- wythers:pantanal
+- wythers:sandy_jungle
+- wythers:sparse_bamboo_jungle
+- wythers:sparse_eucalyptus_jungle
+- wythers:sparse_eucalyptus_woodland
+- wythers:windswept_jungle
+
+#forge:is_hot/nether
+- minecraft:nether_wastes
+- minecraft:soul_sand_valley
+- minecraft:crimson_forest
+- minecraft:warped_forest
+- minecraft:basalt_deltas
+
+#minecraft:is_ocean
+- #minecraft:is_deep_ocean
+- minecraft:frozen_ocean
+- minecraft:ocean
+- minecraft:cold_ocean
+- minecraft:lukewarm_ocean
+- minecraft:warm_ocean
+- wythers:icy_ocean
+
+#rottencreatures:frostbitten_blacklist
+
+#c:caves
+- wythers:calcite_caverns
+- wythers:fungous_dripstone_caves
+- wythers:lichenous_caves
+- wythers:lichenous_dripstone_caves
+- wythers:lush_dripstone_caves
+- wythers:lush_fungous_dripstone_caves
+- wythers:lush_shroom_caves
+- wythers:mossy_caves
+- wythers:mossy_dripstone_caves
+- wythers:mushroom_caves
+- wythers:volcanic_chamber
+
+#c:floral
+- wythers:autumnal_flower_forest
+- wythers:spring_flower_fields
+- wythers:spring_flower_forest
+- wythers:flowering_pantanal
+
+#forge:is_hot/overworld
+- wythers:flooded_savanna
+- wythers:badlands_river
+- wythers:billabong
+- wythers:desert_beach
+- wythers:desert_island
+- wythers:desert_lakes
+- wythers:desert_pinnacles
+- wythers:desert_river
+- wythers:danakil_desert
+- wythers:deep_desert_river
+- wythers:guelta
+- wythers:jacaranda_savanna
+- wythers:jungle_river
+- wythers:jungle_canyon
+- wythers:jungle_island
+- wythers:kwongan_heath
+- wythers:pantanal
+- wythers:red_desert
+- wythers:red_rock_canyon
+- wythers:sandy_jungle
+- wythers:salt_lakes_pink
+- wythers:salt_lakes_turquoise
+- wythers:salt_lakes_white
+- wythers:savanna_river
+- wythers:savanna_basaltic_incursions
+- wythers:sparse_bamboo_jungle
+- wythers:sparse_eucalyptus_jungle
+- wythers:sparse_eucalyptus_woodland
+- wythers:scrubland
+- wythers:scrub_forest
+- wythers:subtropical_forest
+- wythers:subtropical_forest_edge
+- wythers:subtropical_grassland
+- wythers:tibesti_mountains
+- wythers:mud_pools
+- wythers:tropical_beach
+- wythers:tropical_forest
+- wythers:tropical_forest_canyon
+- wythers:tropical_forest_river
+- wythers:tropical_grassland
+- wythers:tropical_island
+- wythers:tropical_rainforest
+- wythers:tropical_volcano
+- wythers:volcanic_chamber
+- wythers:volcanic_crater
+- wythers:volcano
+- wythers:windswept_jungle
+- wythers:wooded_savanna
+- wythers:wooded_desert
+- minecraft:desert
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:stony_peaks
+- minecraft:warm_ocean
+- minecraft:windswept_savanna
+- minecraft:eroded_badlands
+- minecraft:bamboo_jungle
+
+#forge:is_cold
+- minecraft:taiga
+- minecraft:the_end
+- minecraft:frozen_ocean
+- minecraft:frozen_river
+- minecraft:snowy_plains
+- minecraft:snowy_beach
+- minecraft:snowy_taiga
+- minecraft:old_growth_pine_taiga
+- minecraft:grove
+- minecraft:snowy_slopes
+- minecraft:jagged_peaks
+- minecraft:frozen_peaks
+- minecraft:small_end_islands
+- minecraft:end_midlands
+- minecraft:end_highlands
+- minecraft:end_barrens
+- minecraft:cold_ocean
+- minecraft:deep_cold_ocean
+- minecraft:deep_frozen_ocean
+- minecraft:ice_spikes
+
+#forge:is_sparse/overworld
+- wythers:dry_savanna
+- wythers:savanna_badlands
+- wythers:chaparral
+- wythers:dry_tropical_grassland
+- wythers:autumnal_plains
+- wythers:cold_plains
+- wythers:cool_plains
+- wythers:forest_edge
+- wythers:humid_tropical_grassland
+- wythers:kwongan_heath
+- wythers:scrubland
+- wythers:scrub_forest
+- wythers:subtropical_grassland
+- wythers:tundra
+- wythers:tropical_grassland
+- wythers:tropical_island
+- wythers:wooded_desert
+- minecraft:windswept_forest
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:wooded_badlands
+- minecraft:snowy_slopes
+- minecraft:jagged_peaks
+- minecraft:frozen_peaks
+- minecraft:windswept_gravelly_hills
+- minecraft:windswept_savanna
+- minecraft:eroded_badlands
+- minecraft:dripstone_caves
+
+#forge:is_overworld
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:snowy_plains
+- minecraft:ice_spikes
+- minecraft:desert
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_pine_taiga
+- minecraft:old_growth_spruce_taiga
+- minecraft:taiga
+- minecraft:snowy_taiga
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_hills
+- minecraft:windswept_gravelly_hills
+- minecraft:windswept_forest
+- minecraft:windswept_savanna
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:bamboo_jungle
+- minecraft:badlands
+- minecraft:eroded_badlands
+- minecraft:wooded_badlands
+- minecraft:meadow
+- minecraft:grove
+- minecraft:snowy_slopes
+- minecraft:frozen_peaks
+- minecraft:jagged_peaks
+- minecraft:stony_peaks
+- minecraft:mushroom_fields
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+- minecraft:ocean
+- minecraft:plains
+- minecraft:desert
+- minecraft:windswept_hills
+- minecraft:forest
+- minecraft:taiga
+- minecraft:swamp
+- minecraft:river
+- minecraft:frozen_ocean
+- minecraft:frozen_river
+- minecraft:snowy_plains
+- minecraft:mushroom_fields
+- minecraft:beach
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:deep_ocean
+- minecraft:stony_shore
+- minecraft:snowy_beach
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:snowy_taiga
+- minecraft:old_growth_pine_taiga
+- minecraft:windswept_forest
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:badlands
+- minecraft:wooded_badlands
+- minecraft:meadow
+- minecraft:grove
+- minecraft:snowy_slopes
+- minecraft:jagged_peaks
+- minecraft:frozen_peaks
+- minecraft:stony_peaks
+- minecraft:warm_ocean
+- minecraft:lukewarm_ocean
+- minecraft:cold_ocean
+- minecraft:deep_lukewarm_ocean
+- minecraft:deep_cold_ocean
+- minecraft:deep_frozen_ocean
+- minecraft:sunflower_plains
+- minecraft:windswept_gravelly_hills
+- minecraft:flower_forest
+- minecraft:ice_spikes
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_spruce_taiga
+- minecraft:windswept_savanna
+- minecraft:eroded_badlands
+- minecraft:bamboo_jungle
+- minecraft:lush_caves
+- minecraft:dripstone_caves
+
+#minecraft:has_structure/buried_treasure
+- #minecraft:is_beach
+- #minecraft:is_beach
+- wythers:tropical_island
+- wythers:jungle_island
+- wythers:mushroom_island
+- wythers:desert_island
+
+#minecraft:has_structure/ocean_ruin_cold
+- minecraft:frozen_ocean
+- minecraft:cold_ocean
+- minecraft:ocean
+- minecraft:deep_frozen_ocean
+- minecraft:deep_cold_ocean
+- minecraft:deep_ocean
+
+#forge:is_desert
+- minecraft:desert
+
+#forge:without_monster_spawns
+- minecraft:mushroom_fields
+
+#minecraft:has_structure/stronghold
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:snowy_plains
+- minecraft:ice_spikes
+- minecraft:desert
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_pine_taiga
+- minecraft:old_growth_spruce_taiga
+- minecraft:taiga
+- minecraft:snowy_taiga
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_hills
+- minecraft:windswept_gravelly_hills
+- minecraft:windswept_forest
+- minecraft:windswept_savanna
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:bamboo_jungle
+- minecraft:badlands
+- minecraft:eroded_badlands
+- minecraft:wooded_badlands
+- minecraft:meadow
+- minecraft:grove
+- minecraft:snowy_slopes
+- minecraft:frozen_peaks
+- minecraft:jagged_peaks
+- minecraft:stony_peaks
+- minecraft:mushroom_fields
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+- biomesoplenty:bamboo_grove?
+- biomesoplenty:bog?
+- biomesoplenty:boreal_forest?
+- biomesoplenty:cherry_blossom_grove?
+- biomesoplenty:cold_desert?
+- biomesoplenty:coniferous_forest?
+- biomesoplenty:crag?
+- biomesoplenty:dead_forest?
+- biomesoplenty:dryland?
+- biomesoplenty:field?
+- biomesoplenty:fir_clearing?
+- biomesoplenty:floodplain?
+- biomesoplenty:fungal_jungle?
+- biomesoplenty:glowing_grotto?
+- biomesoplenty:grassland?
+- biomesoplenty:highland?
+- biomesoplenty:jade_cliffs?
+- biomesoplenty:lavender_field?
+- biomesoplenty:lush_desert?
+- biomesoplenty:lush_savanna?
+- biomesoplenty:maple_woods?
+- biomesoplenty:mediterranean_forest?
+- biomesoplenty:mystic_grove?
+- biomesoplenty:old_growth_dead_forest?
+- biomesoplenty:ominous_woods?
+- biomesoplenty:orchard?
+- biomesoplenty:pasture?
+- biomesoplenty:prairie?
+- biomesoplenty:pumpkin_patch?
+- biomesoplenty:rainforest?
+- biomesoplenty:redwood_forest?
+- biomesoplenty:rocky_rainforest?
+- biomesoplenty:rocky_shrubland?
+- biomesoplenty:scrubland?
+- biomesoplenty:seasonal_forest?
+- biomesoplenty:shrubland?
+- biomesoplenty:snowy_coniferous_forest?
+- biomesoplenty:snowy_fir_clearing?
+- biomesoplenty:snowy_maple_woods?
+- biomesoplenty:spider_nest?
+- biomesoplenty:tundra?
+- biomesoplenty:volcanic_plains?
+- biomesoplenty:volcano?
+- biomesoplenty:wasteland?
+- biomesoplenty:wooded_wasteland?
+- biomesoplenty:woodland?
+
+#minecraft:has_structure/mineshaft_mesa
+- #minecraft:is_badlands
+- #minecraft:is_badlands
+
+#c:underground
+- wythers:deep_underground
+- wythers:underground
+
+#forge:is_peak
+- wythers:cool_stony_peaks
+- wythers:icy_volcano
+- wythers:snowy_peaks
+- wythers:tropical_volcano
+- minecraft:jagged_peaks
+- minecraft:frozen_peaks
+- minecraft:stony_peaks
+
+#forge:is_extreme_hills
+- minecraft:windswept_hills
+- minecraft:windswept_gravelly_hills
+- minecraft:windswept_forest
+
+#minecraft:has_structure/shipwreck
+- #minecraft:is_ocean
+- #minecraft:is_ocean
+
+#c:snowy_plains
+- wythers:ice_cap
+
+#forge:is_wet/overworld
+- wythers:snowy_fen
+- wythers:snowy_bog
+- wythers:berry_bog
+- wythers:fen
+- wythers:old_growth_taiga_swamp
+- wythers:phantasmal_swamp
+- wythers:ancient_oak_swamp
+- wythers:birch_swamp
+- wythers:autumnal_swamp
+- wythers:marsh
+- wythers:bayou
+- wythers:waterlily_swamp
+- wythers:ancient_mossy_swamp
+- wythers:flowering_pantanal
+- wythers:pantanal
+- wythers:dripleaf_swamp
+- wythers:bamboo_swamp
+- wythers:bamboo_jungle_swamp
+- wythers:flooded_jungle
+- wythers:flooded_rainforest
+- wythers:flooded_savanna
+- wythers:flooded_temperate_rainforest
+- wythers:tangled_forest
+- wythers:desert_lakes
+- wythers:salt_lakes_pink
+- wythers:salt_lakes_white
+- wythers:salt_lakes_turquoise
+- wythers:mud_pools
+- wythers:humid_tropical_grassland
+- wythers:lush_dripstone_caves
+- wythers:lush_fungous_dripstone_caves
+- wythers:lush_shroom_caves
+- wythers:mediterranean_island_thermal_springs
+- wythers:pantanal
+- wythers:salt_lakes_pink
+- wythers:salt_lakes_turquoise
+- wythers:salt_lakes_white
+- wythers:sparse_bamboo_jungle
+- wythers:sparse_eucalyptus_jungle
+- wythers:sparse_eucalyptus_woodland
+- wythers:thermal_taiga
+- wythers:thermal_taiga_crags
+- wythers:tepui
+- wythers:windswept_jungle
+- minecraft:swamp
+- minecraft:jungle
+- minecraft:bamboo_jungle
+- minecraft:lush_caves
+
+#minecraft:is_savanna
+- wythers:chaparral
+- wythers:dry_tropical_grassland
+- wythers:flooded_savanna
+- wythers:savanna_basaltic_incursions
+- wythers:wooded_savanna
+- wythers:dry_savanna
+- wythers:savanna_badlands
+- wythers:dry_tropical_forest
+- wythers:eucalyptus_salubris_woodland
+- wythers:eucalyptus_woodland
+- wythers:giant_sequoia_forest
+- wythers:humid_tropical_grassland
+- wythers:jacaranda_savanna
+- wythers:savanna_badlands
+- wythers:savanna_badlands
+- wythers:savanna_basaltic_incursions
+- wythers:scrubland
+- wythers:scrub_forest
+- wythers:tsingy_forest
+- wythers:tropical_forest
+- wythers:tropical_grassland
+- wythers:wooded_savanna
+
+#c:vegetation_dense
+- wythers:ancient_copper_beech_forest
+- wythers:ancient_emerald_beech_forest
+- wythers:ancient_golden_beech_forest
+- wythers:ancient_moss_forest
+- wythers:ancient_oak_swamp
+- wythers:deep_dark_forest
+- wythers:eucalyptus_deanei_forest
+- wythers:forbidden_forest
+- wythers:flooded_temperate_rainforest
+- wythers:phantasmal_forest
+- wythers:tropical_rainforest
+- wythers:eucalyptus_jungle
+- wythers:eucalyptus_jungle_canyon
+- wythers:flooded_jungle
+- wythers:flooded_rainforest
+- wythers:windswept_jungle
+- wythers:wistman_woods
+
+#forge:is_hot
+- minecraft:desert
+- minecraft:nether_wastes
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:stony_peaks
+- minecraft:warm_ocean
+- minecraft:windswept_savanna
+- minecraft:eroded_badlands
+- minecraft:bamboo_jungle
+- minecraft:soul_sand_valley
+- minecraft:crimson_forest
+- minecraft:warped_forest
+- minecraft:basalt_deltas
+
+#minecraft:has_structure/igloo
+- minecraft:snowy_taiga
+- minecraft:snowy_plains
+- minecraft:snowy_slopes
+- biomesoplenty:cold_desert?
+- biomesoplenty:snowy_coniferous_forest?
+- biomesoplenty:snowy_fir_clearing?
+- biomesoplenty:snowy_maple_woods?
+
+#c:wasteland
+- wythers:danakil_desert
+- wythers:frigid_island
+- wythers:salt_lakes_pink
+- wythers:salt_lakes_turquoise
+- wythers:salt_lakes_white
+- wythers:snowy_tundra
+- wythers:tepui
+- wythers:tibesti_mountains
+- wythers:mud_pools
+- wythers:tropical_volcano
+
+#rottencreatures:swampy_whitelist
+- #minecraft:has_structure/ruined_portal_swamp?
+
+#minecraft:has_structure/shipwreck_beached
+- #minecraft:is_beach
+- #minecraft:is_beach
+
+#minecraft:is_hill
+- minecraft:windswept_hills
+- minecraft:windswept_forest
+- minecraft:windswept_gravelly_hills
+- biomesoplenty:highland?
+- wythers:andesite_crags
+- wythers:aspen_crags
+- wythers:tepui
+
+#bettermineshafts:has_structure/has_mineshaft_dripstone
+- minecraft:dripstone_caves
+
+#forge:is_wet
+- minecraft:swamp
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:sparse_jungle
+- minecraft:bamboo_jungle
+- minecraft:lush_caves
+
+#forge:is_cold/end
+- minecraft:the_end
+- minecraft:small_end_islands
+- minecraft:end_midlands
+- minecraft:end_highlands
+- minecraft:end_barrens
+
+#c:dead
+- wythers:savanna_basaltic_incursions
+
+#c:deep_ocean
+- wythers:deep_icy_ocean
+
+#c:swamp
+- wythers:berry_bog
+- wythers:fen
+- wythers:flooded_temperate_rainforest
+- wythers:old_growth_taiga_swamp
+- wythers:phantasmal_swamp
+- wythers:ancient_oak_swamp
+- wythers:birch_swamp
+- wythers:autumnal_swamp
+- wythers:marsh
+- wythers:bayou
+- wythers:waterlily_swamp
+- wythers:ancient_mossy_swamp
+- wythers:dripleaf_swamp
+- wythers:bamboo_swamp
+- wythers:bamboo_jungle_swamp
+- wythers:flooded_jungle
+- wythers:flooded_rainforest
+- wythers:tangled_forest
+- wythers:flooded_savanna
+- wythers:mud_pools
+
+#forge:is_plains
+- wythers:tropical_grassland
+- wythers:humid_tropical_grassland
+- wythers:subtropical_grassland
+- wythers:cold_plains
+- wythers:cool_plains
+- wythers:autumnal_plains
+- wythers:harvest_fields
+- wythers:highland_plains
+- wythers:lapacho_plains
+- wythers:spring_flower_fields
+- wythers:subtropical_grassland
+- wythers:tundra
+- wythers:tropical_island
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:plains
+- minecraft:snowy_plains
+- minecraft:meadow
+- minecraft:sunflower_plains
+
+#betterdungeons:has_structure/has_small_dungeon
+- #minecraft:is_mountain
+- #minecraft:is_badlands
+- #minecraft:is_hill
+- #minecraft:is_taiga
+- #minecraft:is_jungle
+- #minecraft:is_forest
+- minecraft:stony_shore
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:desert
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:swamp
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+
+#rottencreatures:mummy_whitelist
+- #minecraft:has_structure/desert_pyramid?
+
+#forge:is_outer_end
+- minecraft:end_highlands
+- minecraft:end_midlands
+- minecraft:small_end_islands
+- minecraft:end_barrens
+
+#forge:is_mountain
+- wythers:crimson_tundra
+- wythers:highlands
+- wythers:icy_crags
+- wythers:taiga_crags
+- wythers:temperate_rainforest_crags
+- wythers:tibesti_mountains
+- wythers:windswept_jungle
+
+#rottencreatures:undead_miner_blacklist
+- minecraft:mushroom_fields
+
+#minecraft:has_structure/ocean_monument
+- #minecraft:is_deep_ocean
+
+#rottencreatures:glacial_hunter_blacklist
+
+#forge:is_sandy
+- wythers:cactus_desert
+- wythers:outback
+- wythers:outback_desert
+- wythers:badlands_desert
+- wythers:desert_island
+- wythers:desert_pinnacles
+- wythers:deep_desert
+- wythers:guelta
+- wythers:red_desert
+- wythers:sandy_jungle
+- wythers:wooded_desert
+- minecraft:desert
+- minecraft:badlands
+- minecraft:wooded_badlands
+
+#forge:is_beach
+- minecraft:beach
+- minecraft:stony_shore
+- minecraft:snowy_beach
+
+#minecraft:has_structure/ruined_portal_jungle
+- #minecraft:is_jungle
+- #minecraft:is_jungle
+
+#bettermineshafts:has_structure/has_mineshaft_spruce_snowy
+- minecraft:snowy_taiga
+- minecraft:snowy_plains
+- minecraft:snowy_slopes
+- minecraft:jagged_peaks
+
+#c:climate_cold
+- wythers:snowy_bog
+- wythers:snowy_canyon
+- wythers:snowy_fen
+- wythers:snowy_peaks
+- wythers:snowy_thermal_taiga
+- wythers:snowy_tundra
+- wythers:cold_island
+- wythers:cold_plains
+- wythers:cold_stony_shore
+- wythers:deep_snowy_taiga
+- wythers:frigid_island
+- wythers:frozen_island
+- wythers:glacial_cliffs
+- wythers:highlands
+- wythers:ice_cap
+- wythers:icy_crags
+- wythers:icy_ocean
+- wythers:icy_river
+- wythers:icy_shore
+- wythers:icy_volcano
+- wythers:tundra
+
+#quark:stoneling_pathfinding
+- quark:glimmering_weald
+
+#minecraft:has_structure/desert_pyramid
+- minecraft:desert
+- minecraft:desert
+- wythers:deep_desert
+- wythers:desert_lakes
+- wythers:wooded_desert
+- wythers:cactus_desert
+
+#minecraft:has_structure/ruined_portal_ocean
+- #minecraft:is_ocean
+- #minecraft:is_ocean
+
+#forge:is_rare
+- minecraft:mushroom_fields
+- minecraft:sparse_jungle
+- minecraft:savanna_plateau
+- minecraft:sunflower_plains
+- minecraft:windswept_gravelly_hills
+- minecraft:flower_forest
+- minecraft:ice_spikes
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_spruce_taiga
+- minecraft:windswept_savanna
+- minecraft:eroded_badlands
+- minecraft:bamboo_jungle
+
+#forge:is_plateau
+- wythers:tepui
+- minecraft:savanna_plateau
+- minecraft:wooded_badlands
+- minecraft:meadow
+
+#minecraft:is_deep_ocean
+- minecraft:deep_frozen_ocean
+- minecraft:deep_cold_ocean
+- minecraft:deep_ocean
+- minecraft:deep_lukewarm_ocean
+- wythers:deep_icy_ocean
+
+#rottencreatures:swampy_blacklist
+
+#minecraft:is_nether
+- minecraft:nether_wastes
+- minecraft:basalt_deltas
+- minecraft:soul_sand_valley
+- minecraft:crimson_forest
+- minecraft:warped_forest
+- biomesoplenty:crystalline_chasm?
+- biomesoplenty:erupting_inferno?
+- biomesoplenty:undergrowth?
+- biomesoplenty:visceral_heap?
+- biomesoplenty:withered_abyss?
+
+#forge:is_lush
+- wythers:lush_dripstone_caves
+- wythers:lush_fungous_dripstone_caves
+- wythers:lush_shroom_caves
+- minecraft:lush_caves
+
+#forge:is_dry/overworld
+- wythers:ayers_rock
+- wythers:outback
+- wythers:outback_desert
+- wythers:badlands_canyon
+- wythers:badlands_desert
+- wythers:cactus_desert
+- wythers:desert_beach
+- wythers:desert_island
+- wythers:desert_pinnacles
+- wythers:deep_desert
+- wythers:guelta
+- wythers:jacaranda_savanna
+- wythers:kwongan_heath
+- wythers:red_desert
+- wythers:red_rock_canyon
+- wythers:savanna_basaltic_incursions
+- wythers:scrubland
+- wythers:scrub_forest
+- wythers:tropical_volcano
+- wythers:volcanic_chamber
+- wythers:volcanic_crater
+- wythers:volcano
+- wythers:wooded_desert
+- minecraft:desert
+- minecraft:badlands
+- minecraft:wooded_badlands
+- minecraft:windswept_savanna
+- minecraft:eroded_badlands
+
+#bettermineshafts:has_structure/has_mineshaft_mushroom
+- minecraft:mushroom_fields
+
+#c:climate_hot
+- wythers:flooded_savanna
+- wythers:badlands_river
+- wythers:billabong
+- wythers:desert_beach
+- wythers:desert_island
+- wythers:desert_lakes
+- wythers:desert_pinnacles
+- wythers:desert_river
+- wythers:danakil_desert
+- wythers:deep_desert_river
+- wythers:guelta
+- wythers:jacaranda_savanna
+- wythers:jungle_river
+- wythers:jungle_canyon
+- wythers:jungle_island
+- wythers:kwongan_heath
+- wythers:pantanal
+- wythers:red_desert
+- wythers:red_rock_canyon
+- wythers:sandy_jungle
+- wythers:salt_lakes_pink
+- wythers:salt_lakes_turquoise
+- wythers:salt_lakes_white
+- wythers:savanna_river
+- wythers:savanna_basaltic_incursions
+- wythers:sparse_bamboo_jungle
+- wythers:sparse_eucalyptus_jungle
+- wythers:sparse_eucalyptus_woodland
+- wythers:scrubland
+- wythers:scrub_forest
+- wythers:subtropical_forest
+- wythers:subtropical_forest_edge
+- wythers:subtropical_grassland
+- wythers:tibesti_mountains
+- wythers:mud_pools
+- wythers:tropical_beach
+- wythers:tropical_forest
+- wythers:tropical_forest_canyon
+- wythers:tropical_forest_river
+- wythers:tropical_grassland
+- wythers:tropical_island
+- wythers:tropical_rainforest
+- wythers:tropical_volcano
+- wythers:volcanic_chamber
+- wythers:volcanic_crater
+- wythers:volcano
+- wythers:windswept_jungle
+- wythers:wooded_savanna
+- wythers:wooded_desert
+
+#c:desert
+- wythers:cactus_desert
+- wythers:desert_beach
+- wythers:desert_island
+- wythers:desert_pinnacles
+- wythers:deep_desert
+- wythers:guelta
+- wythers:wooded_desert
+
+#bettermineshafts:has_structure/has_mineshaft_red_desert
+- #minecraft:is_badlands
+
+#minecraft:has_structure/woodland_mansion
+- minecraft:dark_forest
+- biomesoplenty:dead_forest?
+- biomesoplenty:ominous_woods?
+- biomesoplenty:woodland?
+
+#rottencreatures:glacial_hunter_whitelist
+- minecraft:ice_spikes
+- #minecraft:has_structure/igloo?
+
+#forge:is_void
+- minecraft:the_void
+
+#rottencreatures:mummy_blacklist
+
+#forge:is_savanna
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+
+#forge:is_dry
+- minecraft:desert
+- minecraft:nether_wastes
+- minecraft:the_end
+- minecraft:badlands
+- minecraft:wooded_badlands
+- minecraft:small_end_islands
+- minecraft:end_midlands
+- minecraft:end_highlands
+- minecraft:end_barrens
+- minecraft:windswept_savanna
+- minecraft:eroded_badlands
+- minecraft:soul_sand_valley
+- minecraft:crimson_forest
+- minecraft:warped_forest
+- minecraft:basalt_deltas
+
+#wythers:is_asia
+- minecraft:bamboo_jungle
+- wythers:sakura_forest
+- wythers:sparse_bamboo_jungle
+- wythers:bamboo_jungle_highlands
+- wythers:huangshan_highlands
+- wythers:waterlily_swamp
+- wythers:bamboo_swamp
+- wythers:bamboo_jungle_swamp
+
+#c:mountain_peak
+- wythers:cool_stony_peaks
+- wythers:crimson_tundra
+- wythers:highlands
+- wythers:icy_crags
+- wythers:icy_volcano
+- wythers:snowy_peaks
+- wythers:taiga_crags
+- wythers:temperate_rainforest_crags
+- wythers:thermal_taiga_crags
+- wythers:tibesti_mountains
+- wythers:tropical_volcano
+- wythers:windswept_jungle
+
+#minecraft:has_structure/ocean_ruin_warm
+- minecraft:lukewarm_ocean
+- minecraft:warm_ocean
+- minecraft:deep_lukewarm_ocean
+
+#c:shallow_ocean
+- wythers:icy_ocean
+
+#forge:is_icy
+- minecraft:snowy_plains
+- minecraft:ice_spikes
+
+#forge:is_mushroom
+- wythers:fungous_dripstone_caves
+- wythers:lush_fungous_dripstone_caves
+- wythers:lush_shroom_caves
+- wythers:mushroom_caves
+- wythers:mushroom_island
+- wythers:thermal_taiga_crags
+- minecraft:mushroom_fields
+- minecraft:mushroom_fields
+
+#betterdungeons:has_structure/has_spider_dungeon
+- #minecraft:is_mountain
+- #minecraft:is_badlands
+- #minecraft:is_hill
+- #minecraft:is_taiga
+- #minecraft:is_jungle
+- #minecraft:is_forest
+- minecraft:stony_shore
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:desert
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:swamp
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+
+#c:flower_forests
+- wythers:autumnal_flower_forest
+- wythers:spring_flower_forest
+- wythers:flowering_pantanal
+
+#c:tree_deciduous
+- wythers:ancient_copper_beech_forest
+- wythers:ancient_emerald_beech_forest
+- wythers:ancient_golden_beech_forest
+- wythers:ancient_moss_forest
+- wythers:autumnal_birch_forest
+- wythers:autumnal_forest
+- wythers:autumnal_flower_forest
+- wythers:cool_forest
+- wythers:cool_forest_edge
+- wythers:eucalyptus_deanei_forest
+- wythers:flowering_pantanal
+- wythers:forbidden_forest
+- wythers:warm_birch_forest
+- wythers:waterlily_swamp
+- wythers:windswept_jungle
+- wythers:wistman_woods
+
+#minecraft:has_structure/village_desert
+- minecraft:desert
+- biomesoplenty:lush_desert?
+
+#betterwitchhuts:has_structure/has_better_witch_hut
+- minecraft:swamp
+- #forge:is_swamp?
+- #c:swamp?
+
+#minecraft:is_forest
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:old_growth_birch_forest
+- minecraft:dark_forest
+- minecraft:grove
+- biomesoplenty:bamboo_grove?
+- biomesoplenty:boreal_forest?
+- biomesoplenty:cherry_blossom_grove?
+- biomesoplenty:mediterranean_forest?
+- biomesoplenty:mystic_grove?
+- biomesoplenty:orchard?
+- biomesoplenty:pumpkin_patch?
+- biomesoplenty:redwood_forest?
+- biomesoplenty:seasonal_forest?
+- biomesoplenty:woodland?
+- wythers:ancient_copper_beech_forest
+- wythers:ancient_emerald_beech_forest
+- wythers:ancient_golden_beech_forest
+- wythers:ancient_moss_forest
+- wythers:autumnal_birch_forest
+- wythers:autumnal_forest
+- wythers:autumnal_flower_forest
+- wythers:cool_forest
+- wythers:cool_forest_edge
+- wythers:deep_dark_forest
+- wythers:eucalyptus_deanei_forest
+- wythers:flowering_pantanal
+- wythers:forbidden_forest
+- wythers:phantasmal_forest
+- wythers:sakura_forest
+- wythers:spring_flower_forest
+- wythers:subtropical_forest
+- wythers:subtropical_forest_edge
+- wythers:warm_birch_forest
+- wythers:wistman_woods
+
+#minecraft:is_overworld
+- wythers:ancient_copper_beech_forest
+- wythers:ancient_emerald_beech_forest
+- wythers:ancient_golden_beech_forest
+- wythers:ancient_mossy_swamp
+- wythers:ancient_moss_forest
+- wythers:ancient_oak_swamp
+- wythers:ancient_taiga
+- wythers:andesite_crags
+- wythers:aspen_crags
+- wythers:autumnal_birch_forest
+- wythers:autumnal_crags
+- wythers:autumnal_flower_forest
+- wythers:autumnal_forest
+- wythers:autumnal_forest_edge
+- wythers:autumnal_plains
+- wythers:autumnal_swamp
+- wythers:ayers_rock
+- wythers:badlands_canyon
+- wythers:badlands_desert
+- wythers:badlands_river
+- wythers:bamboo_jungle_canyon
+- wythers:bamboo_jungle_highlands
+- wythers:bamboo_jungle_swamp
+- wythers:bamboo_swamp
+- wythers:bayou
+- wythers:berry_bog
+- wythers:billabong
+- wythers:birch_swamp
+- wythers:birch_taiga
+- wythers:black_beach
+- wythers:black_river
+- wythers:boreal_forest_red
+- wythers:boreal_forest_yellow
+- wythers:cactus_desert
+- wythers:calcite_caverns
+- wythers:calcite_coast
+- wythers:chaparral
+- wythers:coastal_mangroves
+- wythers:cold_island
+- wythers:cold_plains
+- wythers:cold_stony_shore
+- wythers:cool_forest
+- wythers:cool_forest_edge
+- wythers:cool_plains
+- wythers:cool_stony_canyons
+- wythers:cool_stony_peaks
+- wythers:crimson_tundra
+- wythers:danakil_desert
+- wythers:deepslate_shore
+- wythers:deep_dark_forest
+- wythers:deep_desert
+- wythers:deep_desert_river
+- wythers:deep_icy_ocean
+- wythers:deep_snowy_taiga
+- wythers:deep_underground
+- wythers:desert_beach
+- wythers:desert_island
+- wythers:desert_lakes
+- wythers:desert_pinnacles
+- wythers:desert_river
+- wythers:dripleaf_swamp
+- wythers:dry_savanna
+- wythers:dry_tropical_forest
+- wythers:dry_tropical_grassland
+- wythers:eucalyptus_deanei_forest
+- wythers:eucalyptus_jungle
+- wythers:eucalyptus_jungle_canyon
+- wythers:eucalyptus_salubris_woodland
+- wythers:eucalyptus_woodland
+- wythers:fen
+- wythers:flooded_jungle
+- wythers:flooded_rainforest
+- wythers:flooded_savanna
+- wythers:flooded_temperate_rainforest
+- wythers:flowering_pantanal
+- wythers:forbidden_forest
+- wythers:forested_highlands
+- wythers:forest_edge
+- wythers:frigid_island
+- wythers:frozen_island
+- wythers:fungous_dripstone_caves
+- wythers:giant_sequoia_forest
+- wythers:glacial_cliffs
+- wythers:granite_canyon
+- wythers:gravelly_beach
+- wythers:gravelly_river
+- wythers:guelta
+- wythers:harvest_fields
+- wythers:highlands
+- wythers:highland_plains
+- wythers:highland_tropical_rainforest
+- wythers:huangshan_highlands
+- wythers:humid_tropical_grassland
+- wythers:ice_cap
+- wythers:icy_crags
+- wythers:icy_ocean
+- wythers:icy_river
+- wythers:icy_shore
+- wythers:icy_volcano
+- wythers:jacaranda_savanna
+- wythers:jade_highlands
+- wythers:jungle_canyon
+- wythers:jungle_island
+- wythers:jungle_river
+- wythers:kwongan_heath
+- wythers:lantern_river
+- wythers:lapacho_plains
+- wythers:larch_taiga
+- wythers:lichenous_caves
+- wythers:lichenous_dripstone_caves
+- wythers:lush_dripstone_caves
+- wythers:lush_fungous_dripstone_caves
+- wythers:lush_shroom_caves
+- wythers:maple_mountains
+- wythers:marsh
+- wythers:mediterranean_island
+- wythers:mediterranean_island_thermal_springs
+- wythers:mossy_caves
+- wythers:mossy_dripstone_caves
+- wythers:mud_pools
+- wythers:mushroom_caves
+- wythers:mushroom_island
+- wythers:old_growth_taiga_crags
+- wythers:old_growth_taiga_swamp
+- wythers:outback
+- wythers:outback_desert
+- wythers:pantanal
+- wythers:phantasmal_forest
+- wythers:phantasmal_swamp
+- wythers:pine_barrens
+- wythers:red_desert
+- wythers:red_rock_canyon
+- wythers:sakura_forest
+- wythers:salt_lakes_pink
+- wythers:salt_lakes_turquoise
+- wythers:salt_lakes_white
+- wythers:sandy_jungle
+- wythers:sand_dunes
+- wythers:savanna_badlands
+- wythers:savanna_basaltic_incursions
+- wythers:savanna_river
+- wythers:scrubland
+- wythers:scrub_forest
+- wythers:snowy_bog
+- wythers:snowy_canyon
+- wythers:snowy_fen
+- wythers:snowy_peaks
+- wythers:snowy_thermal_taiga
+- wythers:snowy_tundra
+- wythers:sparse_bamboo_jungle
+- wythers:sparse_eucalyptus_jungle
+- wythers:sparse_eucalyptus_woodland
+- wythers:spring_flower_fields
+- wythers:spring_flower_forest
+- wythers:stony_canyon
+- wythers:subtropical_forest
+- wythers:subtropical_forest_edge
+- wythers:subtropical_grassland
+- wythers:taiga_crags
+- wythers:tangled_forest
+- wythers:temperate_island
+- wythers:temperate_rainforest
+- wythers:temperate_rainforest_crags
+- wythers:tepui
+- wythers:thermal_taiga
+- wythers:thermal_taiga_crags
+- wythers:tibesti_mountains
+- wythers:tropical_beach
+- wythers:tropical_forest
+- wythers:tropical_forest_canyon
+- wythers:tropical_forest_river
+- wythers:tropical_grassland
+- wythers:tropical_island
+- wythers:tropical_rainforest
+- wythers:tropical_volcano
+- wythers:tsingy_forest
+- wythers:tundra
+- wythers:underground
+- wythers:volcanic_chamber
+- wythers:volcanic_crater
+- wythers:volcano
+- wythers:warm_birch_forest
+- wythers:warm_stony_shore
+- wythers:waterlily_swamp
+- wythers:windswept_jungle
+- wythers:wistman_woods
+- wythers:wooded_desert
+- wythers:wooded_savanna
+
+#c:icy
+- wythers:glacial_cliffs
+- wythers:ice_cap
+- wythers:snowy_bog
+
+#minecraft:has_structure/village_savanna
+- minecraft:savanna
+- biomesoplenty:dryland?
+- minecraft:savanna
+- wythers:dry_savanna
+- wythers:wooded_savanna
+
+#c:stony_shores
+- wythers:calcite_coast
+- wythers:cold_stony_shore
+- wythers:deepslate_shore
+- wythers:icy_shore
+- wythers:warm_stony_shore
+
+#rottencreatures:dead_beard_blacklist
+
+#c:mountain_slope
+- wythers:andesite_crags
+- wythers:aspen_crags
+- wythers:cool_stony_canyons
+- wythers:forested_highlands
+- wythers:granite_canyon
+- wythers:highland_tropical_rainforest
+- wythers:huangshan_highlands
+- wythers:jungle_canyon
+- wythers:jade_highlands
+- wythers:maple_mountains
+- wythers:red_rock_canyon
+- wythers:snowy_canyon
+- wythers:stony_canyon
+- wythers:tropical_forest_canyon
+
+#minecraft:has_structure/village_taiga
+- minecraft:taiga
+- biomesoplenty:coniferous_forest?
+- biomesoplenty:dead_forest?
+- biomesoplenty:field?
+- biomesoplenty:maple_woods?
+- biomesoplenty:tundra?
+
+#betterdungeons:has_structure/has_zombie_dungeon
+- #minecraft:is_mountain
+- #minecraft:is_badlands
+- #minecraft:is_hill
+- #minecraft:is_taiga
+- #minecraft:is_jungle
+- #minecraft:is_forest
+- minecraft:stony_shore
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:desert
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:swamp
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+
+#rottencreatures:undead_miner_whitelist
+- #minecraft:has_structure/stronghold?
+
+#betterstrongholds:has_structure/has_better_stronghold
+- #minecraft:is_mountain
+- #minecraft:is_badlands
+- #minecraft:is_hill
+- #minecraft:is_taiga
+- #minecraft:is_jungle
+- #minecraft:is_forest
+- minecraft:stony_shore
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:desert
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:swamp
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+
+#minecraft:is_plains
+- minecraft:plains
+- wythers:tropical_grassland
+- wythers:humid_tropical_grassland
+- wythers:subtropical_grassland
+- wythers:cold_plains
+
+#minecraft:has_structure/village_plains
+- minecraft:plains
+- minecraft:meadow
+- biomesoplenty:grassland?
+- biomesoplenty:mediterranean_forest?
+- biomesoplenty:prairie?
+- biomesoplenty:shrubland?
+- minecraft:plains
+- minecraft:meadow
+- wythers:autumnal_plains
+- wythers:cool_plains
+- wythers:cold_plains
+- wythers:highland_plains
+- wythers:subtropical_grassland
+
+#forge:is_end
+- minecraft:the_end
+- #forge:is_outer_end
+- minecraft:the_end
+- minecraft:small_end_islands
+- minecraft:end_midlands
+- minecraft:end_highlands
+- minecraft:end_barrens
+
+#forge:is_coniferous
+- wythers:birch_taiga
+- wythers:boreal_forest_red
+- wythers:boreal_forest_yellow
+- wythers:cold_island
+- wythers:deep_snowy_taiga
+- wythers:fen
+- wythers:forested_highlands
+- wythers:jade_highlands
+- wythers:larch_taiga
+- wythers:maple_mountains
+- wythers:flooded_temperate_rainforest
+- wythers:old_growth_taiga_crags
+- wythers:old_growth_taiga_swamp
+- wythers:pine_barrens
+- wythers:taiga_crags
+- wythers:temperate_rainforest
+- wythers:temperate_rainforest_crags
+- wythers:thermal_taiga
+- wythers:thermal_taiga_crags
+- minecraft:taiga
+- minecraft:snowy_taiga
+- minecraft:old_growth_pine_taiga
+- minecraft:grove
+
+#rottencreatures:frostbitten_whitelist
+- minecraft:ice_spikes
+- #minecraft:has_structure/igloo?
+
+#rottencreatures:burned_blacklist
+
+#betterdungeons:has_structure/has_skeleton_dungeon
+- #minecraft:is_mountain
+- #minecraft:is_badlands
+- #minecraft:is_hill
+- #minecraft:is_taiga
+- #minecraft:is_jungle
+- #minecraft:is_forest
+- minecraft:stony_shore
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:desert
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:swamp
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+
+#minecraft:has_structure/ruined_portal_desert
+- minecraft:desert
+- biomesoplenty:cold_desert?
+- biomesoplenty:dryland?
+- biomesoplenty:lush_desert?
+- biomesoplenty:lush_savanna?
+- biomesoplenty:volcanic_plains?
+- biomesoplenty:wasteland?
+- biomesoplenty:wooded_wasteland?
+- minecraft:desert
+- wythers:deep_desert
+- wythers:cactus_desert
+- wythers:desert_lakes
+- wythers:desert_pinnacles
+
+#forge:is_snowy
+- wythers:snowy_bog
+- wythers:snowy_canyon
+- wythers:snowy_fen
+- wythers:snowy_peaks
+- wythers:snowy_thermal_taiga
+- wythers:snowy_tundra
+- wythers:crimson_tundra
+- wythers:deep_snowy_taiga
+- wythers:frozen_island
+- wythers:glacial_cliffs
+- wythers:highlands
+- wythers:ice_cap
+- wythers:icy_crags
+- wythers:icy_shore
+- wythers:icy_volcano
+- minecraft:frozen_ocean
+- minecraft:frozen_river
+- minecraft:snowy_plains
+- minecraft:snowy_beach
+- minecraft:snowy_taiga
+- minecraft:grove
+- minecraft:snowy_slopes
+- minecraft:jagged_peaks
+- minecraft:frozen_peaks
+- minecraft:ice_spikes
+
+#forge:is_dense
+- minecraft:jungle
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_spruce_taiga
+
+#minecraft:has_structure/ruined_portal_swamp
+- minecraft:swamp
+- biomesoplenty:bayou?
+- biomesoplenty:bog?
+- biomesoplenty:marsh?
+- biomesoplenty:wetland?
+- minecraft:swamp
+
+#bettermineshafts:has_structure/has_mineshaft_acacia
+- minecraft:savanna
+- minecraft:savanna_plateau
+
+#bettermineshafts:has_structure/has_mineshaft_mesa
+- #minecraft:is_badlands
+
+#minecraft:has_structure/swamp_hut
+- minecraft:swamp
+- biomesoplenty:bog?
+- biomesoplenty:bayou?
+- biomesoplenty:marsh?
+- biomesoplenty:wetland?
+
+#bettermineshafts:has_structure/has_mineshaft_desert
+- minecraft:desert
+
+#rottencreatures:dead_beard_whitelist
+- #minecraft:has_structure/shipwreck_beached?
+
+#bettermineshafts:has_structure/has_mineshaft_forest
+- #minecraft:is_forest
+
+#minecraft:is_swamp
+- minecraft:swamp
+- wythers:snowy_fen
+- wythers:snowy_bog
+- wythers:berry_bog
+- wythers:fen
+- wythers:thermal_taiga
+- wythers:flooded_temperate_rainforest
+- wythers:old_growth_taiga_swamp
+- wythers:phantasmal_swamp
+- wythers:ancient_oak_swamp
+- wythers:birch_swamp
+- wythers:autumnal_swamp
+- wythers:marsh
+- wythers:bayou
+- wythers:waterlily_swamp
+- wythers:ancient_mossy_swamp
+- wythers:flowering_pantanal
+- wythers:pantanal
+- wythers:dripleaf_swamp
+- wythers:bamboo_swamp
+- wythers:bamboo_jungle_swamp
+- wythers:flooded_jungle
+- wythers:flooded_rainforest
+- wythers:tangled_forest
+- wythers:flooded_savanna
+- wythers:desert_lakes
+- wythers:salt_lakes_pink
+- wythers:salt_lakes_white
+- wythers:salt_lakes_turquoise
+- wythers:mud_pools
+
+#forge:is_water
+- wythers:desert_lakes
+- wythers:danakil_desert
+- wythers:deep_icy_ocean
+- wythers:salt_lakes_pink
+- wythers:salt_lakes_turquoise
+- wythers:salt_lakes_white
+- wythers:snowy_thermal_taiga
+- wythers:thermal_taiga
+- wythers:thermal_taiga_crags
+- wythers:mud_pools
+- #minecraft:is_ocean
+- #minecraft:is_river
+
+#minecraft:has_structure/ruined_portal_nether
+- #minecraft:is_nether
+
+#c:climate_dry
+- wythers:ayers_rock
+- wythers:outback
+- wythers:outback_desert
+- wythers:badlands_canyon
+- wythers:badlands_desert
+- wythers:cactus_desert
+- wythers:desert_beach
+- wythers:desert_island
+- wythers:desert_pinnacles
+- wythers:deep_desert
+- wythers:guelta
+- wythers:jacaranda_savanna
+- wythers:kwongan_heath
+- wythers:red_desert
+- wythers:red_rock_canyon
+- wythers:savanna_basaltic_incursions
+- wythers:scrubland
+- wythers:scrub_forest
+- wythers:tropical_volcano
+- wythers:volcanic_chamber
+- wythers:volcanic_crater
+- wythers:volcano
+- wythers:wooded_desert
+
+#forge:is_underground
+- wythers:calcite_caverns
+- wythers:deep_underground
+- wythers:fungous_dripstone_caves
+- wythers:lichenous_caves
+- wythers:lichenous_dripstone_caves
+- wythers:lush_dripstone_caves
+- wythers:lush_fungous_dripstone_caves
+- wythers:lush_shroom_caves
+- wythers:mossy_caves
+- wythers:mossy_dripstone_caves
+- wythers:mushroom_caves
+- wythers:underground
+- wythers:volcanic_chamber
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+- minecraft:lush_caves
+- minecraft:dripstone_caves
+
+#forge:is_dry/nether
+- minecraft:nether_wastes
+- minecraft:soul_sand_valley
+- minecraft:crimson_forest
+- minecraft:warped_forest
+- minecraft:basalt_deltas
+
+#minecraft:is_beach
+- minecraft:beach
+- minecraft:snowy_beach
+- biomesoplenty:dune_beach?
+- wythers:tropical_beach
+- wythers:coastal_mangroves
+- wythers:sand_dunes
+- wythers:gravelly_beach
+- wythers:black_beach
+- wythers:desert_beach
+- wythers:icy_shore
+- wythers:sand_dunes
+- wythers:tropical_beach
+
+#minecraft:has_structure/ruined_portal_standard
+- #minecraft:is_beach
+- #minecraft:is_river
+- #minecraft:is_taiga
+- #minecraft:is_forest
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
+- biomesoplenty:dryland?
+- biomesoplenty:scrubland?
+- biomesoplenty:grassland?
+- biomesoplenty:lavender_field?
+- biomesoplenty:pasture?
+- biomesoplenty:prairie?
+- biomesoplenty:rocky_shrubland?
+- biomesoplenty:shrubland?
+- biomesoplenty:rainbow_hills?
+- biomesoplenty:snowy_coniferous_forest?
+- biomesoplenty:snowy_fir_clearing?
+- biomesoplenty:snowy_maple_woods?
+- #minecraft:is_beach
+- #minecraft:is_river
+- #minecraft:is_taiga
+- #minecraft:is_forest
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
+
+#minecraft:has_structure/pillager_outpost
+- minecraft:desert
+- minecraft:plains
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:taiga
+- #minecraft:is_mountain
+- minecraft:grove
+- biomesoplenty:lush_desert?
+- biomesoplenty:grassland?
+- biomesoplenty:mediterranean_forest?
+- biomesoplenty:prairie?
+- biomesoplenty:shrubland?
+- biomesoplenty:dryland?
+- biomesoplenty:cold_desert?
+- biomesoplenty:snowy_coniferous_forest?
+- biomesoplenty:coniferous_forest?
+- biomesoplenty:dead_forest?
+- biomesoplenty:field?
+- biomesoplenty:maple_woods?
+- biomesoplenty:tundra?
+
+#c:mesa
+- wythers:ayers_rock
+- wythers:outback
+- wythers:outback_desert
+- wythers:badlands_canyon
+- wythers:badlands_desert
+- wythers:kwongan_heath
+
+#minecraft:is_taiga
+- minecraft:taiga
+- minecraft:snowy_taiga
+- minecraft:old_growth_pine_taiga
+- minecraft:old_growth_spruce_taiga
+- biomesoplenty:bog?
+- biomesoplenty:coniferous_forest?
+- biomesoplenty:dead_forest?
+- biomesoplenty:field?
+- biomesoplenty:fir_clearing?
+- biomesoplenty:maple_woods?
+- biomesoplenty:old_growth_dead_forest?
+- biomesoplenty:ominous_woods?
+- biomesoplenty:tundra?
+- wythers:birch_taiga
+- wythers:boreal_forest_red
+- wythers:boreal_forest_yellow
+- wythers:cold_island
+- wythers:deep_snowy_taiga
+- wythers:fen
+- wythers:forested_highlands
+- wythers:jade_highlands
+- wythers:larch_taiga
+- wythers:maple_mountains
+- wythers:flooded_temperate_rainforest
+- wythers:old_growth_taiga_crags
+- wythers:old_growth_taiga_swamp
+- wythers:pine_barrens
+- wythers:taiga_crags
+- wythers:temperate_rainforest
+- wythers:temperate_rainforest_crags
+- wythers:thermal_taiga
+- wythers:thermal_taiga_crags
+
+#forge:is_sparse
+- minecraft:windswept_forest
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:wooded_badlands
+- minecraft:snowy_slopes
+- minecraft:jagged_peaks
+- minecraft:frozen_peaks
+- minecraft:windswept_gravelly_hills
+- minecraft:windswept_savanna
+- minecraft:eroded_badlands
+- minecraft:dripstone_caves
+
+#forge:is_swamp
+- wythers:berry_bog
+- wythers:fen
+- wythers:flooded_temperate_rainforest
+- wythers:old_growth_taiga_swamp
+- wythers:phantasmal_swamp
+- wythers:ancient_oak_swamp
+- wythers:birch_swamp
+- wythers:autumnal_swamp
+- wythers:marsh
+- wythers:bayou
+- wythers:waterlily_swamp
+- wythers:ancient_mossy_swamp
+- wythers:dripleaf_swamp
+- wythers:bamboo_swamp
+- wythers:bamboo_jungle_swamp
+- wythers:flooded_jungle
+- wythers:flooded_rainforest
+- wythers:tangled_forest
+- wythers:flooded_savanna
+- wythers:mud_pools
+- minecraft:swamp
+- minecraft:swamp
+
+#forge:is_wasteland
+- wythers:danakil_desert
+- wythers:frigid_island
+- wythers:salt_lakes_pink
+- wythers:salt_lakes_turquoise
+- wythers:salt_lakes_white
+- wythers:savanna_basaltic_incursions
+- wythers:snowy_tundra
+- wythers:tepui
+- wythers:tibesti_mountains
+- wythers:mud_pools
+- wythers:tropical_volcano
+- wythers:volcanic_crater
+- wythers:volcano
+- minecraft:snowy_plains
+
+#minecraft:is_mountain
+- minecraft:meadow
+- minecraft:frozen_peaks
+- minecraft:jagged_peaks
+- minecraft:stony_peaks
+- minecraft:snowy_slopes
+- biomesoplenty:crag?
+- biomesoplenty:jade_cliffs?
+- wythers:cool_stony_peaks
+- wythers:cool_plains
+- wythers:crimson_tundra
+- wythers:highlands
+- wythers:highland_plains
+- wythers:huangshan_highlands
+- wythers:maple_mountains
+- wythers:tropical_volcano
+- wythers:volcano
+- #forge:is_peak
+- #forge:is_slope
+
+#c:plains
+- wythers:tropical_grassland
+- wythers:humid_tropical_grassland
+- wythers:subtropical_grassland
+- wythers:cold_plains
+- wythers:cool_plains
+- wythers:autumnal_plains
+- wythers:harvest_fields
+- wythers:highland_plains
+- wythers:lapacho_plains
+- wythers:subtropical_grassland
+- wythers:tundra
+
+#minecraft:has_structure/village_snowy
+- minecraft:snowy_plains
+- biomesoplenty:cold_desert?
+- biomesoplenty:snowy_coniferous_forest?
+
+#bettermineshafts:has_structure/has_mineshaft_oak
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:swamp
+- minecraft:meadow
+
+#c:snowy
+- wythers:snowy_bog
+- wythers:snowy_canyon
+- wythers:snowy_fen
+- wythers:snowy_peaks
+- wythers:snowy_thermal_taiga
+- wythers:snowy_tundra
+- wythers:crimson_tundra
+- wythers:deep_snowy_taiga
+- wythers:highlands
+- wythers:icy_crags
+- wythers:icy_shore
+- wythers:icy_volcano
+
+#bettermineshafts:has_structure/has_mineshaft_spruce
+- #minecraft:is_taiga
+
+#minecraft:is_badlands
+- minecraft:badlands
+- minecraft:eroded_badlands
+- minecraft:wooded_badlands
+- wythers:ayers_rock
+- wythers:outback
+- wythers:outback_desert
+- wythers:badlands_canyon
+- wythers:badlands_desert
+- wythers:kwongan_heath
+- wythers:red_desert
+- wythers:red_rock_canyon
+- wythers:savanna_badlands
+
+#forge:is_dry/end
+- minecraft:the_end
+- minecraft:small_end_islands
+- minecraft:end_midlands
+- minecraft:end_highlands
+- minecraft:end_barrens
+
+#c:climate_temperate
+- wythers:ancient_copper_beech_forest
+- wythers:ancient_emerald_beech_forest
+- wythers:ancient_golden_beech_forest
+- wythers:ancient_moss_forest
+- wythers:berry_bog
+- wythers:fen
+- wythers:flooded_temperate_rainforest
+- wythers:old_growth_taiga_swamp
+- wythers:phantasmal_swamp
+- wythers:ancient_oak_swamp
+- wythers:birch_swamp
+- wythers:autumnal_swamp
+- wythers:marsh
+- wythers:bayou
+- wythers:waterlily_swamp
+- wythers:ancient_mossy_swamp
+- wythers:flowering_pantanal
+- wythers:pantanal
+- wythers:dripleaf_swamp
+- wythers:flooded_jungle
+- wythers:flooded_rainforest
+- wythers:tangled_forest
+- wythers:salt_lakes_pink
+- wythers:salt_lakes_white
+- wythers:salt_lakes_turquoise
+- wythers:mud_pools
+- wythers:andesite_crags
+- wythers:aspen_crags
+- wythers:autumnal_birch_forest
+- wythers:autumnal_forest
+- wythers:autumnal_flower_forest
+- wythers:autumnal_plains
+- wythers:birch_taiga
+- wythers:boreal_forest_red
+- wythers:boreal_forest_yellow
+- wythers:cool_forest
+- wythers:cool_forest_edge
+- wythers:deepslate_shore
+- wythers:flowering_pantanal
+- wythers:forbidden_forest
+- wythers:forest_edge
+- wythers:harvest_fields
+- wythers:highland_plains
+- wythers:lantern_river
+- wythers:mediterranean_island
+- wythers:mediterranean_island_thermal_springs
+- wythers:phantasmal_forest
+- wythers:sakura_forest
+- wythers:spring_flower_fields
+- wythers:spring_flower_forest
+- wythers:temperate_rainforest
+- wythers:temperate_rainforest_crags
+- wythers:warm_birch_forest
+- wythers:wistman_woods
+
+#c:aquatic
+- wythers:desert_lakes
+- wythers:danakil_desert
+- wythers:salt_lakes_pink
+- wythers:salt_lakes_turquoise
+- wythers:salt_lakes_white
+- wythers:thermal_taiga
+- wythers:thermal_taiga_crags
+- wythers:mud_pools
+
+#minecraft:has_structure/nether_fossil
+- minecraft:soul_sand_valley
+
+#c:vegetation_sparse
+- wythers:dry_savanna
+- wythers:savanna_badlands
+- wythers:chaparral
+- wythers:dry_tropical_grassland
+- wythers:autumnal_plains
+- wythers:cold_plains
+- wythers:cool_plains
+- wythers:forest_edge
+- wythers:humid_tropical_grassland
+- wythers:kwongan_heath
+- wythers:scrubland
+- wythers:scrub_forest
+- wythers:subtropical_grassland
+- wythers:tundra
+- wythers:tropical_grassland
+- wythers:tropical_island
+- wythers:wooded_desert
+
+#forge:is_cold/overworld
+- wythers:snowy_bog
+- wythers:snowy_canyon
+- wythers:snowy_fen
+- wythers:snowy_peaks
+- wythers:snowy_thermal_taiga
+- wythers:snowy_tundra
+- wythers:cold_island
+- wythers:cold_plains
+- wythers:cold_stony_shore
+- wythers:deep_snowy_taiga
+- wythers:frigid_island
+- wythers:frozen_island
+- wythers:glacial_cliffs
+- wythers:highlands
+- wythers:ice_cap
+- wythers:icy_crags
+- wythers:icy_ocean
+- wythers:icy_river
+- wythers:icy_shore
+- wythers:icy_volcano
+- wythers:tundra
+- minecraft:taiga
+- minecraft:frozen_ocean
+- minecraft:frozen_river
+- minecraft:snowy_plains
+- minecraft:snowy_beach
+- minecraft:snowy_taiga
+- minecraft:old_growth_pine_taiga
+- minecraft:grove
+- minecraft:snowy_slopes
+- minecraft:jagged_peaks
+- minecraft:frozen_peaks
+- minecraft:cold_ocean
+- minecraft:deep_cold_ocean
+- minecraft:deep_frozen_ocean
+- minecraft:ice_spikes
+
+#rottencreatures:burned_whitelist
+- minecraft:nether_wastes
+
+#wythers:is_america
+- minecraft:badlands
+- minecraft:wooded_badlands
+- minecraft:eroded_badlands
+- wythers:badlands_river
+- wythers:badlands_desert
+- wythers:giant_sequoia_forest
+
+#minecraft:has_structure/end_city
+- minecraft:end_highlands
+- minecraft:end_midlands
+
+#bettermineshafts:has_structure/has_mineshaft_lush
+- minecraft:lush_caves
+
+#forge:is_dense/overworld
+- wythers:ancient_copper_beech_forest
+- wythers:ancient_emerald_beech_forest
+- wythers:ancient_golden_beech_forest
+- wythers:ancient_moss_forest
+- wythers:ancient_oak_swamp
+- wythers:deep_dark_forest
+- wythers:eucalyptus_deanei_forest
+- wythers:forbidden_forest
+- wythers:flooded_temperate_rainforest
+- wythers:phantasmal_forest
+- wythers:tropical_rainforest
+- wythers:eucalyptus_jungle
+- wythers:eucalyptus_jungle_canyon
+- wythers:flooded_jungle
+- wythers:flooded_rainforest
+- wythers:windswept_jungle
+- wythers:wistman_woods
+- minecraft:jungle
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_spruce_taiga
+
+#bettermineshafts:has_structure/has_mineshaft_jungle
+- #minecraft:is_jungle
+
+#minecraft:has_structure/bastion_remnant
+- minecraft:crimson_forest
+- minecraft:nether_wastes
+- minecraft:soul_sand_valley
+- minecraft:warped_forest
+- biomesoplenty:crystalline_chasm?
+- biomesoplenty:erupting_inferno?
+- biomesoplenty:undergrowth?
+- biomesoplenty:visceral_heap?
+- biomesoplenty:withered_abyss?
+
+#forge:is_spooky
+- wythers:ancient_moss_forest
+- wythers:ancient_oak_swamp
+- wythers:deep_dark_forest
+- wythers:forbidden_forest
+- wythers:phantasmal_forest
+- wythers:phantasmal_swamp
+- minecraft:dark_forest
+
+#minecraft:has_structure/ruined_portal_mountain
+- #minecraft:is_badlands
+- #minecraft:is_hill
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- minecraft:stony_shore
+- #minecraft:is_mountain
+- #minecraft:is_badlands
+- #minecraft:is_hill
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- minecraft:stony_shore
+- #minecraft:is_mountain
+- #minecraft:is_badlands
+- #minecraft:is_hill
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- minecraft:stony_shore
+- #minecraft:is_mountain

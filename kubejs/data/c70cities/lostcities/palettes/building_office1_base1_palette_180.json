@@ -1,0 +1,34 @@
+{
+  "name": "building_office1_base1_palette_180",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "quark:iron_ladder[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "f",
+      "block": "cfm:cyan_kitchen_drawer[facing=west,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:quartz_block"
+    }
+  ]
+}

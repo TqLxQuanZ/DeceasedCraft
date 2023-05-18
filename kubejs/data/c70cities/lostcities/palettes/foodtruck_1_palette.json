@@ -1,0 +1,280 @@
+{
+  "name": "foodtruck_1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_sandstone"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:dirt_path"
+    },
+    {
+      "char": "d",
+      "block": "embellishcraft:sandstone_paving_stones"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:grass"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:fern"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:dead_bush"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:tall_grass[half=lower]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:polished_deepslate_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:andesite_button[face=wall,facing=west]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:coal_block"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:andesite_button[face=wall,facing=east]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:chain[waterlogged=false,axis=z]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "n",
+      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:campfire[waterlogged=false,lit=true,facing=east]"
+    },
+    {
+      "char": "p",
+      "block": "car:sign_post[waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "embellishcraft:steel_large_suspended_stairs[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:oak_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "s",
+      "block": "cfm:cyan_grill[waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "another_furniture:oak_bench[type_2=single,waterlogged=false,type_1=single,facing=west]"
+    },
+    {
+      "char": "u",
+      "block": "cfm:cyan_cooler[waterlogged=false,facing=east,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:polished_andesite_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "x",
+      "block": "cfm:andesite_coffee_table[waterlogged=false]"
+    },
+    {
+      "char": "y",
+      "block": "another_furniture:oak_bench[type_2=single,waterlogged=false,type_1=single,facing=north]"
+    },
+    {
+      "char": "A",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:tall_grass[half=upper]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:blast_furnace[lit=false,facing=north]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:grindstone[face=wall,facing=south]"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "K",
+      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:gray_wool"
+    },
+    {
+      "char": "N",
+      "block": "cfm:diorite_chair[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "O",
+      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "P",
+      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "Q",
+      "block": "embellishcraft:white_couch[waterlogged=false,shape=straight,facing=south]"
+    },
+    {
+      "char": "R",
+      "block": "another_furniture:oak_drawer[facing=north,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "T",
+      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "U",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "V",
+      "block": "cfm:cyan_kitchen_drawer[facing=north,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "W",
+      "block": "create:framed_glass_door[hinge=left,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "X",
+      "block": "quark:quartz_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "Y",
+      "block": "quark:quartz_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "Z",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "0",
+      "block": "minecraft:white_bed[part=foot,facing=south,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "1",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "2",
+      "block": "minecraft:white_bed[part=head,facing=south,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "3",
+      "block": "quark:quartz_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "4",
+      "block": "minecraft:polished_andesite_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "5",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
+    },
+    {
+      "char": "6",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+    },
+    {
+      "char": "7",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "8",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=west,open=true]"
+    },
+    {
+      "char": "9",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
+    },
+    {
+      "char": "@",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+    },
+    {
+      "char": "#",
+      "block": "create:framed_glass_door[hinge=left,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "$",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+    },
+    {
+      "char": "%",
+      "block": "immersiveengineering:concrete_sheet"
+    },
+    {
+      "char": "^",
+      "block": "immersiveengineering:concrete_quarter"
+    },
+    {
+      "char": "&",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+    },
+    {
+      "char": "*",
+      "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "name": "building_policeoffice1_base1_palette_90",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "b",
+      "block": "quark:iron_ladder[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:polished_marble"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:light_gray_bed[part=head,facing=south,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "e",
+      "block": "minecraft:light_gray_bed[part=foot,facing=south,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "f",
+      "block": "embellishcraft:smooth_basalt"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:light_gray_bed[part=foot,facing=north,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "h",
+      "block": "minecraft:light_gray_bed[part=head,facing=north,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "i",
+      "block": "minecraft:iron_bars[waterlogged=false]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:cauldron"
+    },
+    {
+      "char": "n",
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:quartz_block"
+    }
+  ]
+}

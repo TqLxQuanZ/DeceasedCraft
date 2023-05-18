@@ -1,0 +1,161 @@
+{
+  "name": "building_hotel1_floor3_palette_270",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "d",
+      "block": "embellishcraft:smooth_slate_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:smooth_slate"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:gray_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "embellishcraft:smooth_slate_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "h",
+      "block": "cfm:stripped_oak_chair[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=north]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=inner_left,facing=south]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:crafting_table"
+    },
+    {
+      "char": "m",
+      "block": "cfm:stripped_oak_chair[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "n",
+      "block": "quark:iron_rod[facing=up]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:gray_terracotta"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:furnace[lit=false,facing=north]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:iron_bars[waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:light_gray_bed[part=head,facing=east,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "u",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_left,facing=east]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_left,facing=south]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:light_gray_bed[part=foot,facing=east,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "A",
+      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_left,facing=north]"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_left,facing=west]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:cauldron"
+    },
+    {
+      "char": "E",
+      "block": "immersiveengineering:concrete_quarter"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:brewing_stand"
+    },
+    {
+      "char": "J",
+      "block": "cfm:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:lantern[waterlogged=false,hanging=true]"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:chain[waterlogged=false,axis=y]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "N",
+      "block": "minecraft:quartz_block"
+    }
+  ]
+}

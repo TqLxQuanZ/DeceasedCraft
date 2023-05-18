@@ -1,0 +1,71 @@
+{
+  "name": "multi_convenientstore_0_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:repeating_command_block[conditional=false,facing=east]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "summon car:car ~-0.5 ~1 ~"
+      }
+    },
+    {
+      "char": "c",
+      "block": "minecraft:chain_command_block[conditional=false,facing=up]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "d",
+      "block": "minecraft:fern"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:oak_sapling"
+    },
+    {
+      "char": "g",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "h",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "i",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "j",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "k",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "name": "multi_hospital_3_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "c",
+      "block": "simplylight:illuminant_block_on"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "f",
+      "block": "quark:polished_limestone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "g",
+      "block": "quark:quartz_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "char": "i",
+      "block": "cfm:stone_coffee_table[waterlogged=false]"
+    },
+    {
+      "char": "j",
+      "block": "quark:oak_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:white_bed[part=foot,facing=east,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "l",
+      "block": "minecraft:white_bed[part=head,facing=east,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "m",
+      "block": "minecraft:white_bed[part=head,facing=west,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "n",
+      "block": "minecraft:white_bed[part=foot,facing=west,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "o",
+      "block": "cfm:cyan_kitchen_drawer[facing=south,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "p",
+      "block": "cfm:cyan_kitchen_drawer[facing=east,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "s",
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=east,type=left]"
+    },
+    {
+      "char": "t",
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=east,type=right]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "w",
+      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "x",
+      "block": "quark:black_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:oak_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

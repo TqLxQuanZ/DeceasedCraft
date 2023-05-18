@@ -1,0 +1,78 @@
+{
+  "name": "building_office5_floor2_palette_90",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "b",
+      "block": "create:dark_oak_window_pane[waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "f",
+      "block": "immersiveengineering:metal_ladder_none[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:gray_terracotta"
+    },
+    {
+      "char": "h",
+      "block": "cfm:cyan_kitchen_drawer[facing=east,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:furnace[lit=false,facing=west]"
+    },
+    {
+      "char": "j",
+      "block": "quark:dark_oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+    },
+    {
+      "char": "m",
+      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "n",
+      "block": "embellishcraft:plate[waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:heavy_weighted_pressure_plate"
+    },
+    {
+      "char": "p",
+      "block": "immersiveengineering:concrete_quarter"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "name": "multi_hospital_1_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "quark:black_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "d",
+      "block": "simplylight:illuminant_block_on"
+    },
+    {
+      "char": "e",
+      "block": "quark:quartz_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "g",
+      "block": "quark:polished_limestone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "h",
+      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:chain[waterlogged=false,axis=y]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "j",
+      "block": "simplylight:illuminant_block"
+    },
+    {
+      "char": "k",
+      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "l",
+      "block": "cfm:cyan_kitchen_drawer[facing=south,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "m",
+      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:iron_door[hinge=left,half=lower,facing=north,open=false]"
+    },
+    {
+      "char": "p",
+      "block": "cfm:freezer_light[facing=west,open=false]"
+    },
+    {
+      "char": "q",
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:crafting_table"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:iron_door[hinge=right,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "t",
+      "block": "cfm:oak_kitchen_sink_light[facing=west]"
+    },
+    {
+      "char": "u",
+      "block": "quark:oak_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "w",
+      "block": "embellishcraft:light_gray_couch[waterlogged=false,shape=straight,facing=east]"
+    },
+    {
+      "char": "x",
+      "block": "cfm:cyan_kitchen_counter[facing=north,type=default]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:iron_door[hinge=left,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "A",
+      "block": "cfm:cyan_kitchen_counter[facing=south,type=default]"
+    },
+    {
+      "char": "B",
+      "block": "embellishcraft:light_gray_couch[waterlogged=false,shape=straight,facing=south]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "D",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:iron_door[hinge=left,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "F",
+      "block": "cfm:fridge_light[facing=west,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:iron_door[hinge=right,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "J",
+      "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "K",
+      "block": "quark:potted_sunflower"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:iron_door[hinge=left,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:heavy_weighted_pressure_plate"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:potted_cactus"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:redstone_torch[lit=true]"
+    },
+    {
+      "char": "P",
+      "block": "minecraft:red_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:smooth_quartz"
+    }
+  ]
+}

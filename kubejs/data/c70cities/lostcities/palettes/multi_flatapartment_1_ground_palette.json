@@ -1,0 +1,107 @@
+{
+  "name": "multi_flatapartment_1_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "cfm:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:quartz_pillar[axis=y]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stone_button[face=floor,facing=north]"
+    },
+    {
+      "char": "e",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "f",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "g",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "h",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "i",
+      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:stone_button[face=floor,facing=east]"
+    },
+    {
+      "char": "k",
+      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "l",
+      "block": "another_furniture:spruce_drawer[facing=south,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "n",
+      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:stone_button[face=floor,facing=west]"
+    },
+    {
+      "char": "p",
+      "block": "another_furniture:spruce_drawer[facing=west,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:stone_button[face=floor,facing=south]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    }
+  ]
+}

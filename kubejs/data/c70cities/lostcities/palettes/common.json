@@ -1,0 +1,42 @@
+{
+  "name": "common",
+  "palette": [
+    {
+      "char": "!",
+      "block": "minecraft:spawner",
+      "mob": "easymobs"
+    },
+    {
+      "char": "~",
+      "block": "minecraft:air"
+    },
+    {
+      "char": "G",
+      "block": "minecraft:grass_block"
+    },
+    {
+      "char": "H",
+      "block": "immersivepetroleum:asphalt"
+    },
+    {
+      "char": "=",
+      "block": "immersiveengineering:concrete"
+    },
+    {
+      "char": "_",
+      "block": "embellishcraft:gneiss_large_bricks_wall"
+    },
+    {
+      "char": "v",
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "char": "z",
+      "block": "biomesoplenty:dried_salt"
+    },
+    {
+      "char": " ",
+      "block": "minecraft:air"
+    }
+  ]
+}

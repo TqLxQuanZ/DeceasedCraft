@@ -1,0 +1,134 @@
+{
+  "name": "multi_gallery_0_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:jungle_planks"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:soul_lantern[waterlogged=false,hanging=true]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:fern"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:orange_tulip"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:pink_tulip"
+    },
+    {
+      "char": "i",
+      "block": "quark:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "char": "k",
+      "block": "immersiveengineering:concrete_sheet"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:smooth_basalt_wall[waterlogged=false,up=false]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:white_tulip"
+    },
+    {
+      "char": "n",
+      "block": "create:dark_oak_window_pane[waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:red_tulip"
+    },
+    {
+      "char": "r",
+      "block": "embellishcraft:light_gray_couch[waterlogged=false,shape=straight,facing=west]"
+    },
+    {
+      "char": "s",
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=right]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:lily_of_the_valley"
+    },
+    {
+      "char": "u",
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=left]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:oak_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "x",
+      "block": "simplylight:lightbulb[waterlogged=false,facing=up]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:nether_quartz_ore"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:nether_gold_ore"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:oak_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:chain[waterlogged=false,axis=y]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
+      }
+    },
+    {
+      "char": "D",
+      "block": "cfm:gray_picket_fence[waterlogged=false]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:spruce_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:spruce_planks"
+    }
+  ]
+}

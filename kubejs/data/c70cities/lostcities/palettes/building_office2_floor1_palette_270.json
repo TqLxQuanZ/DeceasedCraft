@@ -1,0 +1,86 @@
+{
+  "name": "building_office2_floor1_palette_270",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:smooth_basalt"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:polished_marble"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:gray_stained_glass"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "f",
+      "block": "embellishcraft:steel_rungs[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "g",
+      "block": "cfm:cyan_kitchen_counter[facing=east,type=default]"
+    },
+    {
+      "char": "h",
+      "block": "cfm:cyan_kitchen_drawer[facing=east,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+    },
+    {
+      "char": "l",
+      "block": "quark:iron_rod[facing=up]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "n",
+      "block": "cfm:gray_kitchen_counter[facing=west,type=default]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "q",
+      "block": "immersiveengineering:concrete_quarter"
+    },
+    {
+      "char": "r",
+      "block": "cfm:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "t",
+      "block": "embellishcraft:smooth_marble_wall[waterlogged=false,up=false]"
+    }
+  ]
+}
