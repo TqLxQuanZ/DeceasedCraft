@@ -900,6 +900,31 @@
 				xp: 300
 			}]
 		}
+		{
+			title: "Fallout"
+			icon: "biomesoplenty:dead_sapling"
+			x: -23.5d
+			y: 7.5d
+			shape: "square"
+			description: [
+				"There have been reports about wasteland is releasing toxic gases that could instantly kill anybody of attempting to enter."
+				"Acquiring and equipping gas mask is advised, or hazmat helmets."
+			]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "0F6B3FE7304CB884"
+			tasks: [{
+				id: "3DF997A3A300B436"
+				type: "checkmark"
+				title: "Fallout"
+			}]
+			rewards: [{
+				id: "75FD8A6E0AEF88FA"
+				type: "xp"
+				xp: 10
+			}]
+		}
 	]
 	quest_links: [ ]
 }
