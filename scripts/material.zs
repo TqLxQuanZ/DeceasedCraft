@@ -56,11 +56,11 @@ furnace.addRecipe("leather", <item:minecraft:leather>, <item:minecraft:rotten_fl
 
 // Gold Wire
 craftingTable.addShapeless("ie_gold_wire", <item:createaddition:gold_wire>,
-    [<tag:items:forge:plates/gold>, <item:immersiveengineering:wirecutter>.transformDamage(1)]);
+    [<tag:items:forge:plates/gold>, <item:immersiveengineering:wirecutter>.anyDamage().transformDamage(1)]);
 
 // Iron Wire
 craftingTable.addShapeless("ie_iron_wire", <item:createaddition:iron_wire>,
-    [<tag:items:forge:plates/iron>, <item:immersiveengineering:wirecutter>.transformDamage(1)]);
+    [<tag:items:forge:plates/iron>, <item:immersiveengineering:wirecutter>.anyDamage().transformDamage(1)]);
 
 // Steel for mixing
 <recipetype:create:mixing>.addRecipe("steel_ingot", <constant:create:heat_condition:superheated>, [<item:immersiveengineering:ingot_steel>], [<tag:items:forge:dusts/coal_coke>, <tag:items:forge:ingots/iron>], [], 256);
