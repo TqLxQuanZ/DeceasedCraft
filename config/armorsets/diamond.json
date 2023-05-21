@@ -1,0 +1,29 @@
+{
+  "armorSetName": "diamond",
+  "head": {
+    "itemKey": "minecraft:diamond_helmet"
+  },
+  "chest": {
+    "itemKey": "minecraft:diamond_chestplate"
+  },
+  "legs": {
+    "itemKey": "minecraft:diamond_leggings"
+  },
+  "boots": {
+    "itemKey": "minecraft:diamond_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 4.0,
+      "modifierUUID": "d5a7dc88-9405-4398-b1e5-250b4c6dd218",
+      "description": "+2 hearts",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

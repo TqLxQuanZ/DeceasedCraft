@@ -1,0 +1,45 @@
+#Displays areas that the Hearth affecting when the F3 debug menu is open
+"Hearth Debug" = true
+
+["Temperature display preferences"]
+	#Sets all temperatures to be displayed in Celsius
+	Celsius = true
+	#(Visually) offsets the temperature for personalization (default: 0, so a Plains biome is 75 °F or 21 °C)
+	#Range: > 0
+	"Temperature Offset" = 0
+
+["Position of the 'Steve Head' temperature gauge above the hotbar"]
+
+	["Position of the 'Steve Head' temperature gauge above the hotbar".Temp]
+		#The x position of the gauge relative to its normal position
+		#Range: > -2147483648
+		" Icon X Offset" = 0
+		#The y position of the gauge relative to its normal position
+		#Range: > -2147483648
+		" Icon Y Offset" = 0
+
+["Position of the temperature number below the icon"]
+
+	["Position of the temperature number below the icon".Temp]
+		#The x position of the temperature gauge relative to default
+		#Range: > -2147483648
+		" Readout X Offset" = 0
+		#The y position of the temperature gauge relative to default
+		#Range: > -2147483648
+		" Readout Y Offset" = 0
+
+["Position of the world temperature gauge beside the hotbar"]
+
+	["Position of the world temperature gauge beside the hotbar".Temp]
+		#The x position of the temperature gauge relative to default
+		#Range: > -2147483648
+		" Gauge X Offset" = 0
+		#The y position of the temperature gauge relative to default
+		#Range: > -2147483648
+		" Gauge Y Offset" = 0
+
+["UI Options"]
+	"Custom hotbar layout" = true
+	#Controls whether the temperature icon shakes when in critical condition
+	"Icon Bobbing" = true
+

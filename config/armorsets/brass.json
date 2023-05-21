@@ -1,0 +1,23 @@
+{
+  "armorSetName": "brass",
+  "head": {
+    "itemKey": "create_sa:brass_helmet"
+  },
+  "legs": {
+    "itemKey": "create_sa:brass_leggings"
+  },
+  "boots": {
+    "itemKey": "create_sa:brass_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:speed",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

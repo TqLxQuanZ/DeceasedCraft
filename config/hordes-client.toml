@@ -1,0 +1,21 @@
+
+["Horde Event"]
+	#How do players get notified of a horde event. 0: Off, 1: Chat, 2:Action Bar, 3:Title
+	eventNotifyMode = 2
+	#How long in ticks does the horde notification appear? (Only applies to modes 2 and 3)
+	eventNotifyDuration = 60
+	#Play a sound when a horde wave spawns.
+	hordeSpawnSound = true
+	#Colour of horde notification messages in the rgb format.
+	hordeMessageColour = [135, 0, 0]
+	#Colour tint for zombie players.
+	zombiePlayerColour = [121, 156, 101]
+	#Colour tint for drowned players.
+	drownedPlayerColour = [144, 255, 255]
+
+[Infection]
+	#Play a sound when the player beomes infected.
+	playerInfectSound = true
+	#Tint the player's screen and display other visual effects if they are infected.
+	playerInfectionVisuals = true
+

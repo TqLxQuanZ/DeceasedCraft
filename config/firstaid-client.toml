@@ -1,0 +1,43 @@
+
+#Client only configuration settings
+[Overlay]
+	#The mode how to show the mc vanilla health bar.
+	#NORMAL shows the vanilla health value that calculated the way vanillaHealthCalculation is specified (server config)
+	#HIGHLIGHT_CRITICAL_PATH show the vanilla health value and highlights the health value of the most damaged critical limb (by default head or body) using the hardcore-styled hearts for them and the normal hearts for the rest of the health. Only works if vanillaHealthCalculation is set to AVERAGE_ALL
+	#HIDE just doesn't display the vanilla health bar at all.
+	#Allowed Values: NORMAL, HIGHLIGHT_CRITICAL_PATH, HIDE
+	vanillaHealthBarMode = "HIGHLIGHT_CRITICAL_PATH"
+	#The design to use to visualize the health
+	#Allowed Values: OFF, NUMBERS, HEARTS, PLAYER_MODEL, PLAYER_MODEL_4_COLORS
+	overlayMode = "PLAYER_MODEL"
+	#The relative point of the overlay
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_RIGHT, BOTTOM_LEFT
+	overlayPosition = "BOTTOM_LEFT"
+	#Determines how first aid should display armor on item tooltips.
+	#REPLACE replaces the vanilla description with the one fitting first aid
+	#APPEND will add the first aid values at the bottom
+	#NONE will show the old vanilla values. Be advised this is purly visual, interally, the first aid value will always be used
+	#Allowed Values: REPLACE, APPEND, NONE
+	armorTooltipMode = "APPEND"
+	#The offset on the x axis
+	#Range: -32768 ~ 32767
+	xOffset = 0
+	#The offset on the y axis
+	#Range: -32768 ~ 32767
+	yOffset = -1
+	#Determines the transparency of the overlay. 200 = Maximum transparency, 0 = Fully opaque
+	#Range: 0 ~ 200
+	alpha = 50
+	#Specifies how many ticks (20 ticks = 1 second) the overlay should be visible after health changed (healing/damaging)
+	#If set to -1, the HUD is always visible
+	#Range: -1 ~ 600
+	visibleDurationTicks = -1
+	#If set to true, the overlay will flash for a short moment if the health changed. Only affects PLAYER_MODEL overlay
+	flash = true
+
+[Misc]
+	#Set to true to enable the debuff sounds. Only matters when debuffs are enabled
+	enableSoundSystem = true
+	#Disables the funny easter eggs on certain events if false
+	enableEasterEggs = false
+

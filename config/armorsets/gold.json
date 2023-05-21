@@ -1,0 +1,26 @@
+{
+  "armorSetName": "gold",
+  "head": {
+    "itemKey": "minecraft:golden_helmet"
+  },
+  "chest": {
+    "itemKey": "minecraft:golden_chestplate"
+  },
+  "legs": {
+    "itemKey": "minecraft:golden_leggings"
+  },
+  "boots": {
+    "itemKey": "minecraft:golden_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:haste",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}
