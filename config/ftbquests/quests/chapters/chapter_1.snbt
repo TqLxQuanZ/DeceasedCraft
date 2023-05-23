@@ -1,307 +1,300 @@
 {
-	id: "45F77A8E43F9ED2B"
-	group: ""
-	order_index: 0
-	filename: "chapter_1"
-	title: "Chapter: Survival"
-	icon: "minecraft:zombie_head"
-	default_quest_shape: ""
+	quest_links: [ ]
 	default_hide_dependency_lines: false
+	group: ""
+	id: "45F77A8E43F9ED2B"
+	filename: "chapter_1"
+	default_quest_shape: ""
+	icon: "minecraft:zombie_head"
+	title: "Chapter: Survival"
+	order_index: 0
 	quests: [
 		{
-			title: "Warm Me Up"
-			icon: "cold_sweat:boiler"
-			x: -12.5d
-			y: -4.0d
-			description: ["Obtain a boiler to get yourself warm when winter comes."]
-			hide_dependency_lines: false
-			dependencies: ["0ECF9BD806718584"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "40F0383D38357596"
 			tasks: [{
 				id: "575601FA69EFBDBD"
 				type: "item"
 				item: "cold_sweat:boiler"
 			}]
+			description: ["Obtain a boiler to get yourself warm when winter comes."]
 			rewards: [{
 				id: "0270FC9B249C21CF"
 				type: "xp"
 				xp: 30
 			}]
+			id: "40F0383D38357596"
+			icon: "cold_sweat:boiler"
+			x: -12.5d
+			y: -4.0d
+			title: "Warm Me Up"
+			progression_mode: "flexible"
+			dependency_requirement: "one_started"
+			dependencies: ["0ECF9BD806718584"]
+			hide_dependency_lines: false
 		}
 		{
-			title: "What Temp is it?"
-			icon: "cold_sweat:thermometer"
-			x: -14.5d
-			y: -2.5d
-			shape: "hexagon"
-			description: ["Obtain a thermometer to check the current biome and surrounding temperature."]
-			dependencies: ["0E39D9CB81AD62AA"]
-			dependency_requirement: "one_started"
 			size: 1.5d
-			progression_mode: "flexible"
-			id: "0ECF9BD806718584"
+			x: -14.5d
+			icon: "cold_sweat:thermometer"
 			tasks: [{
 				id: "52C47DD83529893F"
 				type: "item"
 				item: "cold_sweat:thermometer"
 			}]
+			description: ["Obtain a thermometer to check the current biome and surrounding temperature."]
 			rewards: [{
 				id: "4439A7B7A6D5F926"
 				type: "xp"
 				xp: 20
 			}]
+			id: "0ECF9BD806718584"
+			shape: "hexagon"
+			y: -2.5d
+			title: "What Temp is it?"
+			progression_mode: "flexible"
+			dependencies: ["0E39D9CB81AD62AA"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "Calm Me Down"
-			icon: "cold_sweat:icebox"
-			x: -12.5d
-			y: -1.0d
-			description: ["Obtain an icebox to deal with the upcoming summer."]
-			dependencies: ["0ECF9BD806718584"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "1103247BD5316FAE"
 			tasks: [{
 				id: "18DAFD9FF8AD646D"
 				type: "item"
 				item: "cold_sweat:icebox"
 			}]
+			description: ["Obtain an icebox to deal with the upcoming summer."]
 			rewards: [{
 				id: "3DECDB9ACC52B98E"
 				type: "xp"
 				xp: 30
 			}]
-		}
-		{
-			title: "Insulating Armor"
-			icon: "cold_sweat:sewing_table"
-			x: -14.5d
-			y: -7.5d
-			description: ["Obtain a sewing table for insulating your armors with different type of materials."]
+			id: "1103247BD5316FAE"
+			icon: "cold_sweat:icebox"
+			x: -12.5d
+			y: -1.0d
+			title: "Calm Me Down"
+			progression_mode: "flexible"
 			dependencies: ["0ECF9BD806718584"]
 			dependency_requirement: "one_started"
+		}
+		{
 			size: 1.5d
-			progression_mode: "flexible"
-			id: "6D09D0FC40082C0E"
-			tasks: [{
-				id: "64FFBAFC5434D56D"
-				type: "item"
-				item: "cold_sweat:sewing_table"
-			}]
+			description: ["Obtain a sewing table for insulating your armors with different type of materials."]
 			rewards: [{
 				id: "5DF5942D8EA77BAB"
 				type: "item"
 				item: "farmersdelight:canvas"
 				count: 4
 			}]
+			id: "6D09D0FC40082C0E"
+			icon: "cold_sweat:sewing_table"
+			x: -14.5d
+			y: -7.5d
+			title: "Insulating Armor"
+			progression_mode: "flexible"
+			dependencies: ["0ECF9BD806718584"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "64FFBAFC5434D56D"
+				type: "item"
+				item: "cold_sweat:sewing_table"
+			}]
 		}
 		{
-			title: "Best Of Both Worlds"
-			icon: "cold_sweat:hearth"
-			x: -11.0d
-			y: -2.5d
-			shape: "gear"
-			dependencies: ["0ECF9BD806718584"]
 			size: 1.5d
-			progression_mode: "flexible"
-			id: "0B850D8AF2552F83"
-			tasks: [{
-				id: "0143BA16EDEDF12F"
-				type: "item"
-				item: "cold_sweat:hearth"
-			}]
 			rewards: [{
 				id: "4A9102777F689E5A"
 				type: "xp"
 				xp: 50
 			}]
+			id: "0B850D8AF2552F83"
+			icon: "cold_sweat:hearth"
+			x: -11.0d
+			y: -2.5d
+			shape: "gear"
+			title: "Best Of Both Worlds"
+			progression_mode: "flexible"
+			dependencies: ["0ECF9BD806718584"]
+			tasks: [{
+				id: "0143BA16EDEDF12F"
+				type: "item"
+				item: "cold_sweat:hearth"
+			}]
 		}
 		{
-			title: "The Beginning"
-			icon: "minecraft:zombie_head"
-			x: -21.0d
-			y: 4.0d
+			size: 2.0d
 			description: [
 				"You ran out of supplies inside the bunker and figured out the cure, but there is no resources for you to craft it."
 				"It is time to go out exploring the aftermath of zombie apocalypse, establish your own proper base and survive out there."
 			]
-			dependency_requirement: "one_started"
-			size: 2.0d
-			progression_mode: "flexible"
-			id: "0E39D9CB81AD62AA"
-			tasks: [{
-				id: "0474DAA3B8660BD2"
-				type: "checkmark"
-			}]
 			rewards: [{
 				id: "50B455153BABC45C"
 				type: "xp"
 				xp: 10
 			}]
+			id: "0E39D9CB81AD62AA"
+			icon: "minecraft:zombie_head"
+			x: -21.0d
+			y: 4.0d
+			title: "The Beginning"
+			progression_mode: "flexible"
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "0474DAA3B8660BD2"
+				type: "checkmark"
+			}]
 		}
 		{
-			title: "Better Foods, Better Health"
-			icon: "minecraft:cooked_beef"
-			x: -29.75d
-			y: 6.0d
-			shape: "square"
+			size: 1.5d
 			description: [
 				"Eat various of foods to increase your Max HP."
 				"Max HP bonus are lost when you're dead."
 			]
-			size: 1.5d
-			can_repeat: true
-			progression_mode: "flexible"
 			id: "030EDE9A94F537B5"
-			tasks: [{
-				id: "46164DDC4974F130"
-				type: "checkmark"
-				title: "Foods"
-			}]
+			icon: "minecraft:cooked_beef"
+			x: -29.75d
+			y: 6.0d
+			shape: "square"
+			title: "Better Foods, Better Health"
+			progression_mode: "flexible"
 			rewards: [{
 				id: "4AFBA06FC196E6CD"
 				type: "item"
 				item: "solcarrot:food_book"
 			}]
+			tasks: [{
+				id: "46164DDC4974F130"
+				type: "checkmark"
+				title: "Foods"
+			}]
+			can_repeat: true
 		}
 		{
-			title: "Parkour!"
+			size: 1.5d
+			description: ["There are various way to get yourself out of dangerous situation, ParCool is one of it, make sure do perform all sort of ParCool to give yourself maximum conveniences!"]
+			id: "07B42E396E51A597"
 			icon: "minecraft:player_head"
 			x: -29.75d
 			y: 1.5d
 			shape: "square"
-			description: ["There are various way to get yourself out of dangerous situation, ParCool is one of it, make sure do perform all sort of ParCool to give yourself maximum conveniences!"]
-			size: 1.5d
-			can_repeat: true
+			title: "Parkour!"
 			progression_mode: "flexible"
-			id: "07B42E396E51A597"
-			tasks: [{
-				id: "4778D852A37EBA20"
-				type: "checkmark"
-			}]
 			rewards: [{
 				id: "7BD28FADBC5FCD9A"
 				type: "item"
 				item: "parcool:parcool_guide"
 			}]
+			tasks: [{
+				id: "4778D852A37EBA20"
+				type: "checkmark"
+			}]
+			can_repeat: true
 		}
 		{
-			title: "Veteran Engineer"
-			icon: "immersiveengineering:manual"
-			x: -32.0d
-			y: 3.75d
-			shape: "square"
+			size: 1.5d
 			description: [
 				"You're a veteran engineer, therefore possessing absurd amount of knowledge when it comes to technology related information."
 				"Always read your manual if you forget something again! Or use W to ponder!"
 			]
-			size: 1.5d
-			can_repeat: true
-			progression_mode: "flexible"
 			id: "3FFD3BC48E8A6C65"
-			tasks: [{
-				id: "045A6B953D672794"
-				type: "checkmark"
-				title: "PhD of Engineering"
-			}]
+			icon: "immersiveengineering:manual"
+			x: -32.0d
+			y: 3.75d
+			shape: "square"
+			title: "Veteran Engineer"
+			progression_mode: "flexible"
 			rewards: [{
 				id: "6DF4EAA66D458424"
 				type: "item"
 				item: "immersiveengineering:manual"
 			}]
+			tasks: [{
+				id: "045A6B953D672794"
+				type: "checkmark"
+				title: "PhD of Engineering"
+			}]
+			can_repeat: true
 		}
 		{
-			title: "I Need Healing - II"
-			x: -11.5d
-			y: 2.0d
-			description: ["Craft or obtain a bandage to heal your wounds."]
-			dependencies: ["6AD30C57F5648FF3"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "6A29644DD8421933"
 			tasks: [{
 				id: "55C5026C126024E4"
 				type: "item"
 				item: "firstaid:bandage"
 			}]
+			description: ["Craft or obtain a bandage to heal your wounds."]
 			rewards: [{
 				id: "6D3DE36211B9035D"
 				type: "xp"
 				xp: 30
 			}]
+			id: "6A29644DD8421933"
+			x: -11.5d
+			y: 2.0d
+			title: "I Need Healing - II"
+			progression_mode: "flexible"
+			dependencies: ["6AD30C57F5648FF3"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "I Need Healing - I"
-			x: -14.5d
-			y: 4.0d
-			description: ["Craft or obtain a plaster to heal your wounds."]
-			dependencies: ["0E39D9CB81AD62AA"]
-			dependency_requirement: "one_started"
 			size: 1.5d
-			progression_mode: "flexible"
-			id: "6AD30C57F5648FF3"
-			tasks: [{
-				id: "4214EB5B897FD756"
-				type: "item"
-				item: "firstaid:plaster"
-			}]
+			description: ["Craft or obtain a plaster to heal your wounds."]
 			rewards: [{
 				id: "6F3118AABC37EFCC"
 				type: "xp"
 				xp: 20
 			}]
+			id: "6AD30C57F5648FF3"
+			x: -14.5d
+			y: 4.0d
+			title: "I Need Healing - I"
+			progression_mode: "flexible"
+			dependencies: ["0E39D9CB81AD62AA"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "4214EB5B897FD756"
+				type: "item"
+				item: "firstaid:plaster"
+			}]
 		}
 		{
-			title: "Drugs"
-			x: -11.5d
-			y: 6.0d
-			description: ["Obtain a morphine to supress your debuffs."]
-			dependencies: ["6AD30C57F5648FF3"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "7E2C1F85C10A8E0D"
 			tasks: [{
 				id: "3F5BA4113F098FD6"
 				type: "item"
 				item: "firstaid:morphine"
 			}]
+			description: ["Obtain a morphine to supress your debuffs."]
 			rewards: [{
 				id: "4B5C8B5241F433E6"
 				type: "xp"
 				xp: 50
 			}]
+			id: "7E2C1F85C10A8E0D"
+			x: -11.5d
+			y: 6.0d
+			title: "Drugs"
+			progression_mode: "flexible"
+			dependencies: ["6AD30C57F5648FF3"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "That Hits The Spot - I"
-			x: -12.5d
-			y: -7.5d
-			description: ["Obtain a canvas to insulate yourself from both cold and hot environment."]
-			dependencies: ["6D09D0FC40082C0E"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "31B67FE45DCD97BF"
 			tasks: [{
 				id: "6DE3469CC173FD67"
 				type: "item"
 				item: "farmersdelight:canvas"
 			}]
+			description: ["Obtain a canvas to insulate yourself from both cold and hot environment."]
 			rewards: [{
 				id: "34DF719D76A0D8D1"
 				type: "xp"
 				xp: 20
 			}]
+			id: "31B67FE45DCD97BF"
+			x: -12.5d
+			y: -7.5d
+			title: "That Hits The Spot - I"
+			progression_mode: "flexible"
+			dependencies: ["6D09D0FC40082C0E"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "That Hits The Spot - II"
-			x: -11.0d
-			y: -7.5d
-			description: ["Obtain a leather to insulate yourself from both cold and hot environment."]
-			dependencies: ["31B67FE45DCD97BF"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "7D4A2114B3C0BC8C"
 			tasks: [{
 				id: "6846FDDFA83DB25D"
 				type: "item"
@@ -314,214 +307,226 @@
 					}
 				}
 			}]
+			description: ["Obtain any tiger/bear hides to insulate yourself from both cold and hot environment."]
 			rewards: [{
 				id: "3F00DE423753FDB8"
 				type: "xp"
 				xp: 30
 			}]
+			id: "7D4A2114B3C0BC8C"
+			x: -11.0d
+			y: -7.5d
+			title: "That Hits The Spot - II"
+			progression_mode: "flexible"
+			dependencies: ["31B67FE45DCD97BF"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "That Hits The Spot - III"
-			x: -9.5d
-			y: -7.5d
-			description: ["Obtain any tiger/bear hides to insulate yourself from both cold and hot environment."]
-			dependencies: ["7D4A2114B3C0BC8C"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "79AD3CAC8C46F7CA"
 			tasks: [{
 				id: "4DEF59BF0DB2DF95"
 				type: "item"
-				item: "cold_sweat:chameleon_molt"
+				item: "immersiveengineering:ersatz_leather"
 			}]
+			description: ["Obtain an ersatz leather to insulate yourself from both cold and hot environment."]
 			rewards: [{
 				id: "02B4F3908901A3B9"
 				type: "xp"
 				xp: 40
 			}]
+			id: "79AD3CAC8C46F7CA"
+			x: -9.5d
+			y: -7.5d
+			title: "That Hits The Spot - III"
+			progression_mode: "flexible"
+			dependencies: ["7D4A2114B3C0BC8C"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "That Hits The Spot - IV"
-			x: -8.0d
-			y: -7.5d
-			description: ["Obtain an ersatz leather to insulate yourself from both cold and hot environment."]
-			dependencies: ["79AD3CAC8C46F7CA"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "66A5D0E80ED3139E"
 			tasks: [{
 				id: "4F03EA98656543FC"
 				type: "item"
-				item: "immersiveengineering:ersatz_leather"
+				item: "mutationcraft_origins:hidden_hide"
 			}]
+			description: [
+				"- Obtain an bedridden/hidden hide to insulate yourself from both cold and hot environment."
+				"- Obtainable from wasteland enemies."
+			]
 			rewards: [{
 				id: "1286E50D20C6C951"
 				type: "xp"
 				xp: 500
 			}]
+			id: "66A5D0E80ED3139E"
+			x: -8.0d
+			y: -7.5d
+			title: "Questionable Choice"
+			progression_mode: "flexible"
+			dependencies: ["79AD3CAC8C46F7CA"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "Too Hot - I"
-			x: -12.5d
-			y: -6.0d
-			description: ["Obtain a wheat to insulate yourself from hot environment."]
-			dependencies: ["6D09D0FC40082C0E"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "4E531BEB54C852AB"
 			tasks: [{
 				id: "61B177712C00505D"
 				type: "item"
 				item: "farmersdelight:straw"
 			}]
+			description: ["Obtain a wheat to insulate yourself from hot environment."]
 			rewards: [{
 				id: "3841789132860490"
 				type: "xp"
 				xp: 20
 			}]
+			id: "4E531BEB54C852AB"
+			x: -12.5d
+			y: -6.0d
+			title: "Too Hot - I"
+			progression_mode: "flexible"
+			dependencies: ["6D09D0FC40082C0E"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "Too Hot - II"
-			x: -11.0d
-			y: -6.0d
-			description: ["Obtain a honey comb to insulate yourself from hot environment."]
-			dependencies: ["4E531BEB54C852AB"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "507D2E6660BE32A5"
 			tasks: [{
 				id: "057F89BFF874325D"
 				type: "item"
 				item: "minecraft:honeycomb"
 			}]
+			description: ["Obtain a honey comb to insulate yourself from hot environment."]
 			rewards: [{
 				id: "107ECB642A99F29D"
 				type: "xp"
 				xp: 30
 			}]
+			id: "507D2E6660BE32A5"
+			x: -11.0d
+			y: -6.0d
+			title: "Too Hot - II"
+			progression_mode: "flexible"
+			dependencies: ["4E531BEB54C852AB"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "Too Hot - III"
-			x: -9.5d
-			y: -6.0d
-			description: ["Obtain a hoglin hide to insulate yourself from hot environment."]
-			dependencies: ["507D2E6660BE32A5"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "52721EF7743F31F0"
 			tasks: [{
 				id: "10BDC153D5FDC702"
 				type: "item"
 				item: "cold_sweat:hoglin_hide"
 			}]
+			description: ["Obtain a hoglin hide to insulate yourself from hot environment."]
 			rewards: [{
 				id: "437CE0347137E419"
 				type: "xp"
 				xp: 40
 			}]
+			id: "52721EF7743F31F0"
+			x: -9.5d
+			y: -6.0d
+			title: "Too Hot - III"
+			progression_mode: "flexible"
+			dependencies: ["507D2E6660BE32A5"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "Too Hot - IV"
-			x: -8.0d
-			y: -6.0d
-			description: ["Obtain a slime ball to insulate yourself from hot environment."]
-			dependencies: ["52721EF7743F31F0"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "7583E2FC526DEEE4"
 			tasks: [{
 				id: "075300E3F2F380D2"
 				type: "item"
 				item: "minecraft:slime_ball"
 			}]
+			description: ["Obtain a slime ball to insulate yourself from hot environment."]
 			rewards: [{
 				id: "3C83B213D8EC1BCD"
 				type: "xp"
 				xp: 100
 			}]
+			id: "7583E2FC526DEEE4"
+			x: -8.0d
+			y: -6.0d
+			title: "Too Hot - IV"
+			progression_mode: "flexible"
+			dependencies: ["52721EF7743F31F0"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "Too Cold - I"
-			x: -12.5d
-			y: -9.0d
-			description: ["Obtain a dried kelp to insulate yourself from coldness."]
-			dependencies: ["6D09D0FC40082C0E"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "7428268308957A20"
 			tasks: [{
 				id: "616DD870EF73B0F2"
 				type: "item"
 				item: "minecraft:dried_kelp"
 			}]
+			description: ["Obtain a dried kelp to insulate yourself from coldness."]
 			rewards: [{
 				id: "22A2A3A26D23E47B"
 				type: "xp"
 				xp: 20
 			}]
+			id: "7428268308957A20"
+			x: -12.5d
+			y: -9.0d
+			title: "Too Cold - I"
+			progression_mode: "flexible"
+			dependencies: ["6D09D0FC40082C0E"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "Too Cold - II"
-			x: -11.0d
-			y: -9.0d
-			description: ["Obtain a wool to insulate yourself from coldness."]
-			dependencies: ["7428268308957A20"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "77B024C0018D1CAD"
 			tasks: [{
 				id: "410C5D3438022CC1"
 				type: "item"
 				item: "minecraft:white_wool"
 			}]
+			description: ["Obtain a wool to insulate yourself from coldness."]
 			rewards: [{
 				id: "03C360EA83F5CA2A"
 				type: "xp"
 				xp: 30
 			}]
+			id: "77B024C0018D1CAD"
+			x: -11.0d
+			y: -9.0d
+			title: "Too Cold - II"
+			progression_mode: "flexible"
+			dependencies: ["7428268308957A20"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "Too Cold - III"
-			x: -9.5d
-			y: -9.0d
-			description: ["Obtain a tough fabric to insulate yourself from coldness."]
-			dependencies: ["77B024C0018D1CAD"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "58197952A086E130"
 			tasks: [{
 				id: "741CFD09F1EF7B50"
 				type: "item"
 				item: "immersiveengineering:hemp_fabric"
 			}]
+			description: ["Obtain a tough fabric to insulate yourself from coldness."]
 			rewards: [{
 				id: "6E7294747CFD96A3"
 				type: "xp"
 				xp: 40
 			}]
+			id: "58197952A086E130"
+			x: -9.5d
+			y: -9.0d
+			title: "Too Cold - III"
+			progression_mode: "flexible"
+			dependencies: ["77B024C0018D1CAD"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "Too Cold - IV"
-			x: -8.0d
-			y: -9.0d
-			description: ["Obtain a goat fur to insulate yourself from coldness."]
-			dependencies: ["58197952A086E130"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "3A4395529CCEB038"
 			tasks: [{
 				id: "19930F790E9F6E67"
 				type: "item"
 				item: "cold_sweat:goat_fur"
 			}]
+			description: ["Obtain a goat fur to insulate yourself from coldness."]
 			rewards: [{
 				id: "6359B0998894D470"
 				type: "xp"
 				xp: 100
 			}]
+			id: "3A4395529CCEB038"
+			x: -8.0d
+			y: -9.0d
+			title: "Too Cold - IV"
+			progression_mode: "flexible"
+			dependencies: ["58197952A086E130"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "Pilot"
+			size: 1.5d
+			id: "39F82E91EF5D1E48"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -532,14 +537,7 @@
 			x: -32.0d
 			y: 1.5d
 			shape: "square"
-			size: 1.5d
-			can_repeat: true
-			id: "39F82E91EF5D1E48"
-			tasks: [{
-				id: "4677D24F59BF8675"
-				type: "checkmark"
-				title: "Pilot"
-			}]
+			title: "Pilot"
 			rewards: [{
 				id: "506A7441B826AF36"
 				type: "item"
@@ -551,82 +549,77 @@
 					}
 				}
 			}]
+			tasks: [{
+				id: "4677D24F59BF8675"
+				type: "checkmark"
+				title: "Pilot"
+			}]
+			can_repeat: true
 		}
 		{
-			title: "Be Like Water"
-			x: -21.0d
-			y: -2.25d
-			description: ["Obtain a bottle to get your water, but they seems to be dirty."]
-			dependencies: ["0E39D9CB81AD62AA"]
-			dependency_requirement: "one_started"
 			size: 1.5d
-			progression_mode: "flexible"
-			id: "66312FE7394C89A1"
-			tasks: [{
-				id: "6155468144302A5C"
-				type: "item"
-				item: "minecraft:glass_bottle"
-			}]
+			description: ["Obtain a bottle to get your water, but they seems to be dirty."]
 			rewards: [{
 				id: "3C11A8E400C1C88D"
 				type: "xp"
 				xp: 20
 			}]
+			id: "66312FE7394C89A1"
+			x: -21.0d
+			y: -2.25d
+			title: "Be Like Water"
+			progression_mode: "flexible"
+			dependencies: ["0E39D9CB81AD62AA"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "6155468144302A5C"
+				type: "item"
+				item: "minecraft:glass_bottle"
+			}]
 		}
 		{
-			title: "Let Him Cook - II"
-			x: -21.0d
-			y: -5.0d
-			description: ["Obtain a furnace to purify your water bottle."]
-			dependencies: ["66312FE7394C89A1"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "444A3A8D2F961A51"
 			tasks: [{
 				id: "2D555822D2EEE945"
 				type: "item"
 				item: "minecraft:furnace"
 			}]
+			description: ["Obtain a furnace to purify your water bottle."]
 			rewards: [{
 				id: "6246D575BD81AB91"
 				type: "xp"
 				xp: 30
 			}]
-		}
-		{
-			title: "Let Him Cook - I"
-			x: -23.0d
-			y: -4.5d
-			description: ["Craft a campfire to purify your water."]
+			id: "444A3A8D2F961A51"
+			x: -21.0d
+			y: -5.0d
+			title: "Let Him Cook - II"
+			progression_mode: "flexible"
 			dependencies: ["66312FE7394C89A1"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "509217323E594CB7"
+		}
+		{
 			tasks: [{
 				id: "2A6DB5DD125BB71D"
 				type: "item"
 				item: "minecraft:campfire"
 			}]
+			description: ["Craft a campfire to purify your water."]
 			rewards: [{
 				id: "76D79FD2A688D3C7"
 				type: "xp"
 				xp: 30
 			}]
+			id: "509217323E594CB7"
+			x: -23.0d
+			y: -4.5d
+			title: "Let Him Cook - I"
+			progression_mode: "flexible"
+			dependencies: ["66312FE7394C89A1"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "Desperate Measure"
-			x: -21.25d
-			y: 9.75d
-			shape: "square"
-			description: ["Obtain a golden apple to cure your infection if you ever had one. Otherwise find somewhere to end yourself before the others did."]
 			size: 1.5d
-			progression_mode: "flexible"
-			id: "2E94AD6C6573EE85"
-			tasks: [{
-				id: "33E0D4299767EEFF"
-				type: "item"
-				item: "minecraft:golden_apple"
-			}]
+			description: ["Obtain a golden apple to cure your infection if you ever had one. Otherwise find somewhere to end yourself before the others did."]
 			rewards: [
 				{
 					id: "66CA23A5337F1DBD"
@@ -639,9 +632,26 @@
 					item: "minecraft:golden_apple"
 				}
 			]
+			id: "2E94AD6C6573EE85"
+			x: -21.25d
+			y: 9.75d
+			shape: "square"
+			title: "Desperate Measure"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "33E0D4299767EEFF"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
 		}
 		{
-			title: "Specialist"
+			size: 1.5d
+			description: [
+				"Press J to obtain a specialized skill tree for helping you through out the journey."
+				"The other skills can still be learned, but only as twice as slow."
+				"Skills will be all lost when you die."
+			]
+			id: "09DB2A67033171FC"
 			icon: {
 				id: "minecraft:iron_sword"
 				Count: 1b
@@ -652,192 +662,187 @@
 			x: -23.5d
 			y: 9.75d
 			shape: "square"
-			description: [
-				"Press J to obtain a specialized skill tree for helping you through out the journey."
-				"The other skills can still be learned, but only as twice as slow."
-				"Skills will be all lost when you die."
-			]
-			size: 1.5d
-			id: "09DB2A67033171FC"
-			tasks: [{
-				id: "3910A66AD1E76B0B"
-				type: "checkmark"
-			}]
+			title: "Specialist"
 			rewards: [{
 				id: "0FCF428A1931A549"
 				type: "xp"
 				xp: 10
 			}]
+			tasks: [{
+				id: "3910A66AD1E76B0B"
+				type: "checkmark"
+			}]
 		}
 		{
-			title: "Let Him Cook - III"
-			x: -19.0d
-			y: -4.5d
-			description: [
-				"Filter out the water with a sand filter and transfer it to a spout for clean water."
-				"NOTE: Water does not get clean if it gets pump out as a water source, only spout with glass bottle works."
-			]
-			dependencies: ["66312FE7394C89A1"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "5A13CEAC38BB9ADA"
 			tasks: [{
 				id: "2A6E89709AF63F00"
 				type: "item"
 				item: "create:sand_filter"
 			}]
+			description: [
+				"Filter out the water with a sand filter and transfer it to a spout for clean water."
+				"NOTE: Water does not get clean if it gets pump out as a water source, only spout with glass bottle works."
+			]
 			rewards: [{
 				id: "3068AE3D944A64A9"
 				type: "xp"
 				xp: 400
 			}]
+			id: "5A13CEAC38BB9ADA"
+			x: -19.0d
+			y: -4.5d
+			title: "Let Him Cook - III"
+			progression_mode: "flexible"
+			dependencies: ["66312FE7394C89A1"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "Burning Passion"
+			size: 1.5d
+			description: ["Not long after the apocalypse started, there are mentions of spotting blazing rods floating around in volcanic areas from radio."]
+			id: "23C3071C8EEAFEFB"
 			icon: "minecraft:blaze_powder"
 			x: -21.25d
 			y: 7.5d
 			shape: "square"
-			description: ["Not long after the apocalypse started, there are mentions of spotting blazing rods floating around in volcanic areas from radio."]
-			size: 1.5d
-			id: "23C3071C8EEAFEFB"
-			tasks: [{
-				id: "2A08DAB7C0674A3C"
-				type: "checkmark"
-			}]
+			title: "Burning Passion"
 			rewards: [{
 				id: "6F487CFD96118717"
 				type: "xp"
 				xp: 10
 			}]
+			tasks: [{
+				id: "2A08DAB7C0674A3C"
+				type: "checkmark"
+			}]
 		}
 		{
-			title: "Adaptation"
+			size: 1.5d
+			description: ["Some of the villagers out there are still surviving against the zombie apocalypse, they even changed their stocks."]
+			id: "6AC8F0D30412DA22"
 			icon: "artifacts:villager_hat"
 			x: -29.75d
 			y: 3.75d
 			shape: "square"
-			description: ["Some of the villagers out there are still surviving against the zombie apocalypse, they even changed their stocks."]
-			dependency_requirement: "one_started"
-			size: 1.5d
+			title: "Adaptation"
 			progression_mode: "flexible"
-			id: "6AC8F0D30412DA22"
-			tasks: [{
-				id: "12EDA0ABAE8E9BAC"
-				type: "checkmark"
-			}]
+			dependency_requirement: "one_started"
 			rewards: [{
 				id: "0B8FE9F51F3782DF"
 				type: "xp"
 				xp: 10
 			}]
+			tasks: [{
+				id: "12EDA0ABAE8E9BAC"
+				type: "checkmark"
+			}]
 		}
 		{
-			title: "Start from Seeds"
-			icon: "immersiveengineering:seed"
-			x: -25.0d
-			y: 4.0d
-			description: ["Plant the under root seeds for obtain log and strings."]
-			dependencies: ["0E39D9CB81AD62AA"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "7642A41DF9FBD171"
 			tasks: [{
 				id: "28817F7EAB278351"
 				type: "item"
 				item: "immersiveengineering:seed"
 			}]
+			description: ["Plant the under root seeds for obtain log and strings."]
 			rewards: [{
 				id: "2C4F15E8841326DB"
 				type: "xp"
 				xp: 20
 			}]
+			id: "7642A41DF9FBD171"
+			icon: "immersiveengineering:seed"
+			x: -25.0d
+			y: 4.0d
+			title: "Start from Seeds"
+			progression_mode: "flexible"
+			dependencies: ["0E39D9CB81AD62AA"]
+			dependency_requirement: "one_started"
 		}
 		{
-			x: -27.0d
-			y: 4.0d
-			description: ["Obtain string by any means, possibly from under root."]
-			dependencies: ["7642A41DF9FBD171"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "49E3CCC7FBFFB0E2"
 			tasks: [{
 				id: "659350C224DDF18F"
 				type: "item"
 				item: "minecraft:string"
 			}]
+			description: ["Obtain string by any means, possibly from under root."]
+			id: "49E3CCC7FBFFB0E2"
+			x: -27.0d
+			y: 4.0d
 			rewards: [{
 				id: "31C837685BE53FE2"
 				type: "xp"
 				xp: 30
 			}]
-		}
-		{
-			title: "Smelt It Up"
-			x: -25.0d
-			y: 2.0d
-			description: ["Burn the rotten flesh and turn it into useful leather."]
+			progression_mode: "flexible"
 			dependencies: ["7642A41DF9FBD171"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "0D0938F03C7ED823"
+		}
+		{
 			tasks: [{
 				id: "3D3301339D84C8A9"
 				type: "item"
 				item: "minecraft:leather"
 			}]
+			description: ["Burn the rotten flesh and turn it into useful leather."]
 			rewards: [{
 				id: "3EA95462523122C0"
 				type: "xp"
 				xp: 30
 			}]
+			id: "0D0938F03C7ED823"
+			x: -25.0d
+			y: 2.0d
+			title: "Smelt It Up"
+			progression_mode: "flexible"
+			dependencies: ["7642A41DF9FBD171"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "Waterskin"
-			x: -14.5d
-			y: 0.0d
-			description: ["Obtain or craft a waterskin to balance your body temperature."]
-			dependencies: ["0ECF9BD806718584"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "3890D6E35528C1F6"
 			tasks: [{
 				id: "24E7C72DFE8A9E3C"
 				type: "item"
 				item: "cold_sweat:waterskin"
 			}]
+			description: ["Obtain or craft a waterskin to balance your body temperature."]
 			rewards: [{
 				id: "199AAC9783BCA331"
 				type: "xp"
 				xp: 30
 			}]
+			id: "3890D6E35528C1F6"
+			x: -14.5d
+			y: 0.0d
+			title: "Waterskin"
+			progression_mode: "flexible"
+			dependencies: ["0ECF9BD806718584"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "Unavoidable Infection"
-			icon: "minecraft:zombie_head"
-			x: -19.0d
-			y: 9.75d
-			shape: "square"
+			size: 1.5d
 			description: [
 				"It is known that all the zombies have the ability to infect their victim whenever getting hit by them."
 				"Be caution when approaching them."
 			]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
 			id: "7903466341771D44"
-			tasks: [{
-				id: "567A6E5F09AF8F5A"
-				type: "checkmark"
-			}]
+			icon: "minecraft:zombie_head"
+			x: -19.0d
+			y: 9.75d
+			shape: "square"
+			title: "Unavoidable Infection"
+			progression_mode: "flexible"
+			dependency_requirement: "one_started"
 			rewards: [{
 				id: "746207ACF3AEE11D"
 				type: "xp"
 				xp: 20
 			}]
+			tasks: [{
+				id: "567A6E5F09AF8F5A"
+				type: "checkmark"
+			}]
 		}
 		{
-			title: "Encyclopedia of Life"
+			size: 1.5d
+			x: -32.0d
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -845,19 +850,11 @@
 					"patchouli:book": "untamedwilds:encyclopedia_of_life"
 				}
 			}
-			x: -32.0d
-			y: 6.0d
-			shape: "square"
-			description: ["It is important to know what's out there when surviving in the wilderness."]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			can_repeat: true
-			progression_mode: "flexible"
-			id: "5AD6FE029629DD2D"
 			tasks: [{
 				id: "1DA025C61B2F7CF2"
 				type: "checkmark"
 			}]
+			description: ["It is important to know what's out there when surviving in the wilderness."]
 			rewards: [{
 				id: "22E7DCD55C6735AB"
 				type: "item"
@@ -869,9 +866,18 @@
 					}
 				}
 			}]
+			id: "5AD6FE029629DD2D"
+			shape: "square"
+			y: 6.0d
+			title: "Encyclopedia of Life"
+			progression_mode: "flexible"
+			dependency_requirement: "one_started"
+			can_repeat: true
 		}
 		{
-			title: "Guide To Nowhere"
+			size: 1.5d
+			description: ["Obtain a nature compass to look for a suitable place to live or seek for the resources."]
+			id: "1716D8327CDC0B88"
 			icon: {
 				id: "naturescompass:naturescompass"
 				Count: 1b
@@ -880,11 +886,14 @@
 			x: -19.0d
 			y: 7.5d
 			shape: "square"
-			description: ["Obtain a nature compass to look for a suitable place to live or seek for the resources."]
-			dependency_requirement: "one_started"
-			size: 1.5d
+			title: "Guide To Nowhere"
 			progression_mode: "flexible"
-			id: "1716D8327CDC0B88"
+			dependency_requirement: "one_started"
+			rewards: [{
+				id: "5478C175BB4620EF"
+				type: "xp"
+				xp: 300
+			}]
 			tasks: [{
 				id: "2B31FC83841B1B66"
 				type: "item"
@@ -894,37 +903,32 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "5478C175BB4620EF"
-				type: "xp"
-				xp: 300
-			}]
 		}
 		{
-			title: "Fallout"
+			size: 1.5d
+			description: [
+				"- There have been reports about wasteland is releasing toxic gases that could instantly kill anybody whose attempt to enter."
+				"- Acquiring and equipping gas mask is advised, or hazmat helmets."
+				"- There are dangerous monsters sighted inside the wasteland, including the industrial area. It is advised to bring firearms as melees don't work against most of them."
+			]
+			id: "0F6B3FE7304CB884"
 			icon: "biomesoplenty:dead_sapling"
 			x: -23.5d
 			y: 7.5d
 			shape: "square"
-			description: [
-				"There have been reports about wasteland is releasing toxic gases that could instantly kill anybody whose attempt to enter."
-				"Acquiring and equipping gas mask is advised, or hazmat helmets."
-			]
-			dependency_requirement: "one_started"
-			size: 1.5d
+			title: "Fallout"
 			progression_mode: "flexible"
-			id: "0F6B3FE7304CB884"
-			tasks: [{
-				id: "3DF997A3A300B436"
-				type: "checkmark"
-				title: "Fallout"
-			}]
+			dependency_requirement: "one_started"
 			rewards: [{
 				id: "75FD8A6E0AEF88FA"
 				type: "xp"
 				xp: 10
 			}]
+			tasks: [{
+				id: "3DF997A3A300B436"
+				type: "checkmark"
+				title: "Fallout"
+			}]
 		}
 	]
-	quest_links: [ ]
 }

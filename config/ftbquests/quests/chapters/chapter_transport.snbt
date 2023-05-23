@@ -1,9 +1,10 @@
 {
-	id: "2AB51EED6E71C05F"
+	quest_links: [ ]
+	default_hide_dependency_lines: false
 	group: ""
-	order_index: 3
+	id: "2AB51EED6E71C05F"
 	filename: "chapter_transport"
-	title: "Chapter: Transport"
+	default_quest_shape: ""
 	icon: {
 		id: "simpleplanes:plane"
 		Count: 1b
@@ -13,352 +14,351 @@
 			}
 		}
 	}
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	title: "Chapter: Transport"
+	order_index: 3
 	quests: [
 		{
-			title: "Transportation"
-			icon: "create:deployer"
-			x: -4.5d
-			y: -1.0d
-			description: ["Transportation is a necessity to travel across the world, so it is important to learn how to craft engines."]
 			size: 2.0d
-			progression_mode: "flexible"
-			id: "3E06C7D4EDB10115"
-			tasks: [{
-				id: "2BE4C076A401C9CE"
-				type: "checkmark"
-				title: "Transportation"
-			}]
+			description: ["Transportation is a necessity to travel across the world, so it is important to learn how to craft engines."]
 			rewards: [{
 				id: "7676B180C3F3CA48"
 				type: "xp"
 				xp: 10
 			}]
+			id: "3E06C7D4EDB10115"
+			icon: "create:deployer"
+			x: -4.5d
+			y: -1.0d
+			title: "Transportation"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "2BE4C076A401C9CE"
+				type: "checkmark"
+				title: "Transportation"
+			}]
 		}
 		{
-			title: "A Car"
-			x: -4.5d
-			y: -5.0d
-			shape: "hexagon"
-			description: ["Obtain a car workshop and its part, then as car workshop as the center within 3x3, the rest will be car workshop part."]
-			dependencies: ["3E06C7D4EDB10115"]
-			dependency_requirement: "one_started"
 			size: 1.5d
-			progression_mode: "flexible"
-			id: "5E3803A71B462A08"
-			tasks: [{
-				id: "0BC220930F357AA5"
-				type: "item"
-				item: "car:car_workshop"
-			}]
+			description: ["Obtain a car workshop and its part, then as car workshop as the center within 3x3, the rest will be car workshop part."]
 			rewards: [{
 				id: "3F4F0120E8639D36"
 				type: "xp"
 				xp: 100
 			}]
+			id: "5E3803A71B462A08"
+			x: -4.5d
+			y: -5.0d
+			shape: "hexagon"
+			title: "A Car"
+			progression_mode: "flexible"
+			dependencies: ["3E06C7D4EDB10115"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "0BC220930F357AA5"
+				type: "item"
+				item: "car:car_workshop"
+			}]
 		}
 		{
-			title: "Car Body"
-			x: -2.0d
-			y: -7.5d
-			description: ["Obtain any car body for assembling the car."]
-			dependencies: ["5E3803A71B462A08"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "5DD89F786A632009"
 			tasks: [{
 				id: "2C15A93EC55C2FB1"
 				type: "item"
 				item: "car:yellow_transporter_body"
 			}]
+			description: ["Obtain any car body for assembling the car."]
 			rewards: [{
 				id: "7D4D273BF39A3B9B"
 				type: "xp"
 				xp: 800
 			}]
-		}
-		{
-			title: "Engine"
-			x: -3.5d
-			y: -8.5d
-			description: ["Obtain or craft any car engine for assembling the car."]
+			id: "5DD89F786A632009"
+			x: -2.0d
+			y: -7.5d
+			title: "Car Body"
+			progression_mode: "flexible"
 			dependencies: ["5E3803A71B462A08"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "2C788A1B6F13DFF3"
+		}
+		{
 			tasks: [{
 				id: "1C6162E83CD7D7A0"
 				type: "item"
 				item: "car:engine_3_cylinder"
 			}]
+			description: ["Obtain or craft any car engine for assembling the car."]
 			rewards: [{
 				id: "4706F191201EAB68"
 				type: "xp"
 				xp: 2000
 			}]
-		}
-		{
-			title: "Wheels"
-			x: -1.5d
-			y: -6.0d
-			description: ["Obtain or craft any car wheels for assembling the car."]
+			id: "2C788A1B6F13DFF3"
+			x: -3.5d
+			y: -8.5d
+			title: "Engine"
+			progression_mode: "flexible"
 			dependencies: ["5E3803A71B462A08"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "129CA2092C7F22F2"
+		}
+		{
 			tasks: [{
 				id: "63186D8446654808"
 				type: "item"
 				item: "car:wheel"
 			}]
+			description: ["Obtain or craft any car wheels for assembling the car."]
 			rewards: [{
 				id: "428E6DAF09154DEC"
 				type: "xp"
 				xp: 400
 			}]
-		}
-		{
-			title: "Tank"
-			x: -5.5d
-			y: -8.5d
-			description: ["Obtain or craft a tank for storing your car fuel."]
+			id: "129CA2092C7F22F2"
+			x: -1.5d
+			y: -6.0d
+			title: "Wheels"
+			progression_mode: "flexible"
 			dependencies: ["5E3803A71B462A08"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "772F32A4217A3928"
+		}
+		{
 			tasks: [{
 				id: "50200765FD68D312"
 				type: "item"
 				item: "car:large_tank"
 			}]
+			description: ["Obtain or craft a tank for storing your car fuel."]
 			rewards: [{
 				id: "72E68918A4ECFE96"
 				type: "xp"
 				xp: 1200
 			}]
-		}
-		{
-			title: "Container"
-			x: -7.0d
-			y: -7.5d
-			description: ["Obtain or craft any container to store your items or fluids."]
+			id: "772F32A4217A3928"
+			x: -5.5d
+			y: -8.5d
+			title: "Tank"
+			progression_mode: "flexible"
 			dependencies: ["5E3803A71B462A08"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "73D09DF3B85526B3"
+		}
+		{
 			tasks: [{
 				id: "2304BD80CD8871CD"
 				type: "item"
 				item: "car:yellow_container"
 			}]
+			description: ["Obtain or craft any container to store your items or fluids."]
 			rewards: [{
 				id: "74EC4C9E35BF288B"
 				type: "xp"
 				xp: 1200
 			}]
-		}
-		{
-			title: "License"
-			x: -7.5d
-			y: -6.0d
-			description: ["Please do not drive if you don't have a license."]
+			id: "73D09DF3B85526B3"
+			x: -7.0d
+			y: -7.5d
+			title: "Container"
+			progression_mode: "flexible"
 			dependencies: ["5E3803A71B462A08"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "7C3F4C7F5A581E91"
+		}
+		{
 			tasks: [{
 				id: "1170F0F708D53708"
 				type: "item"
 				item: "car:iron_license_plate_holder"
 			}]
+			description: ["Please do not drive if you don't have a license."]
 			rewards: [{
 				id: "2F2AFCDEB42CC9E8"
 				type: "xp"
 				xp: 400
 			}]
+			id: "7C3F4C7F5A581E91"
+			x: -7.5d
+			y: -6.0d
+			title: "License"
+			progression_mode: "flexible"
+			dependencies: ["5E3803A71B462A08"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "A Plane"
-			x: -1.0d
-			y: 1.5d
-			shape: "hexagon"
-			description: ["Obtain or craft a plane workbench for assembling a plane."]
-			dependencies: ["3E06C7D4EDB10115"]
-			dependency_requirement: "one_started"
 			size: 1.5d
-			progression_mode: "flexible"
-			id: "1E24E20439B9F754"
-			tasks: [{
-				id: "3A8C2758DF212721"
-				type: "item"
-				item: "simpleplanes:plane_workbench"
-			}]
+			description: ["Obtain or craft a plane workbench for assembling a plane."]
 			rewards: [{
 				id: "75C103674EC714C1"
 				type: "xp"
 				xp: 100
 			}]
+			id: "1E24E20439B9F754"
+			x: -1.0d
+			y: 1.5d
+			shape: "hexagon"
+			title: "A Plane"
+			progression_mode: "flexible"
+			dependencies: ["3E06C7D4EDB10115"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "3A8C2758DF212721"
+				type: "item"
+				item: "simpleplanes:plane_workbench"
+			}]
 		}
 		{
-			title: "Plank"
-			x: 1.5d
-			y: -0.5d
-			description: ["Obtain or craft planks for assembling the plane body."]
-			dependencies: ["1E24E20439B9F754"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "43663D3CB6FCBF2F"
 			tasks: [{
 				id: "2E4DD21765AACFEE"
 				type: "item"
 				item: "minecraft:oak_planks"
 			}]
+			description: ["Obtain or craft planks for assembling the plane body."]
 			rewards: [{
 				id: "20AC24B37FAF04EF"
 				type: "xp"
 				xp: 10
 			}]
-		}
-		{
-			title: "You Spin Me Right Round"
+			id: "43663D3CB6FCBF2F"
 			x: 1.5d
-			y: 1.5d
-			description: ["Obtain or craft a propeller to assemble your plane."]
+			y: -0.5d
+			title: "Plank"
+			progression_mode: "flexible"
 			dependencies: ["1E24E20439B9F754"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "5322301D7FB56EC8"
+		}
+		{
 			tasks: [{
 				id: "6F0CF26B1AEED746"
 				type: "item"
 				item: "simpleplanes:propeller"
 			}]
+			description: ["Obtain or craft a propeller to assemble your plane."]
 			rewards: [{
 				id: "46B830BC0301133E"
 				type: "xp"
 				xp: 800
 			}]
-		}
-		{
-			title: "Furnace Engine"
+			id: "5322301D7FB56EC8"
 			x: 1.5d
-			y: 4.0d
-			description: ["Obtain or craft a furnace engine for assembling your plane."]
+			y: 1.5d
+			title: "You Spin Me Right Round"
+			progression_mode: "flexible"
 			dependencies: ["1E24E20439B9F754"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "522C1B8043477A0E"
+		}
+		{
 			tasks: [{
 				id: "61BCDF7984019A63"
 				type: "item"
 				item: "simpleplanes:furnace_engine"
 			}]
+			description: ["Obtain or craft a furnace engine for assembling your plane."]
 			rewards: [{
 				id: "35067113AF346A99"
 				type: "xp"
 				xp: 800
 			}]
-		}
-		{
-			title: "Extras"
-			x: -1.0d
+			id: "522C1B8043477A0E"
+			x: 1.5d
 			y: 4.0d
-			description: ["Obtain or craft any addons for your plane."]
+			title: "Furnace Engine"
+			progression_mode: "flexible"
 			dependencies: ["1E24E20439B9F754"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "022A110F4A2DCCFF"
+		}
+		{
 			tasks: [{
 				id: "38C94FA164C33C61"
 				type: "item"
 				item: "simpleplanes:armor"
 			}]
+			description: ["Obtain or craft any addons for your plane."]
 			rewards: [{
 				id: "6E5CC0BCB7B1C205"
 				type: "xp"
 				xp: 300
 			}]
+			id: "022A110F4A2DCCFF"
+			x: -1.0d
+			y: 4.0d
+			title: "Extras"
+			progression_mode: "flexible"
+			dependencies: ["1E24E20439B9F754"]
+			dependency_requirement: "one_started"
 		}
 		{
-			title: "A Train"
-			x: -8.0d
-			y: 1.5d
-			shape: "hexagon"
-			description: ["Obtain or craft a steam engine for train station."]
-			dependencies: ["3E06C7D4EDB10115"]
-			dependency_requirement: "one_started"
 			size: 1.5d
-			progression_mode: "flexible"
-			id: "4F409A5069158D18"
-			tasks: [{
-				id: "31C8AD4065B39D1B"
-				type: "item"
-				item: "create_sa:steam_engine"
-			}]
+			description: ["Obtain or craft a steam engine for train station."]
 			rewards: [{
 				id: "1EDDC3FAF8B87A17"
 				type: "xp"
 				xp: 600
 			}]
+			id: "4F409A5069158D18"
+			x: -8.0d
+			y: 1.5d
+			shape: "hexagon"
+			title: "A Train"
+			progression_mode: "flexible"
+			dependencies: ["3E06C7D4EDB10115"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "31C8AD4065B39D1B"
+				type: "item"
+				item: "create_sa:steam_engine"
+			}]
 		}
 		{
-			x: -8.0d
-			y: 4.0d
-			description: ["Obtain or craft a train track, or use pre-existing tracks found in cities."]
-			dependencies: ["4F409A5069158D18"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "358DC7C7A1EF9AD4"
 			tasks: [{
 				id: "64DF824BB2573B75"
 				type: "item"
 				item: "create:track"
 			}]
+			description: ["Obtain or craft a train track, or use pre-existing tracks found in cities."]
+			id: "358DC7C7A1EF9AD4"
+			x: -8.0d
+			y: 4.0d
 			rewards: [{
 				id: "2BF8B09D24475D13"
 				type: "xp"
 				xp: 100
 			}]
-		}
-		{
-			x: -10.5d
-			y: 1.5d
-			description: ["Start assemble your train."]
+			progression_mode: "flexible"
 			dependencies: ["4F409A5069158D18"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "2A3F96302E68B66A"
+		}
+		{
 			tasks: [{
 				id: "1829D91C33FF85AD"
 				type: "item"
 				item: "create:track_station"
 			}]
+			description: ["Start assemble your train."]
+			id: "2A3F96302E68B66A"
+			x: -10.5d
+			y: 1.5d
 			rewards: [{
 				id: "2AB92861781F6A53"
 				type: "xp"
 				xp: 500
 			}]
-		}
-		{
-			x: -10.5d
-			y: 4.0d
-			description: ["A train does not move without any power source, it needs fuel."]
+			progression_mode: "flexible"
 			dependencies: ["4F409A5069158D18"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "691FB0F87421B8D7"
+		}
+		{
 			tasks: [{
 				id: "0B8547B4012E8E99"
 				type: "item"
 				item: "minecraft:coal"
 			}]
+			description: ["A train does not move without any power source, it needs fuel."]
+			id: "691FB0F87421B8D7"
+			x: -10.5d
+			y: 4.0d
 			rewards: [{
 				id: "7B994858DE9C6FED"
 				type: "xp"
 				xp: 100
 			}]
+			progression_mode: "flexible"
+			dependencies: ["4F409A5069158D18"]
+			dependency_requirement: "one_started"
 		}
 	]
-	quest_links: [ ]
 }

@@ -3,6 +3,10 @@ import crafttweaker.api.recipe.BlastFurnaceRecipeManager;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 import mods.jei.JEI;
 
+// Removing mutationcraft
+craftingTable.removeByModid("mutationcraft_origins");
+JEI.hideMod("mutationcraft_origins");
+
 // Fluids
 <tag:fluids:minecraft:water>.remove(<fluid:create:honey>);
 <tag:fluids:minecraft:water>.remove(<fluid:create:chocolate>);
