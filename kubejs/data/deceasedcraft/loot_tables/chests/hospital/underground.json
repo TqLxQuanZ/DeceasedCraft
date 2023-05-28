@@ -58,14 +58,14 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 5,
           "name": "firstaid:morphine",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 3
+                "max": 2
               },
               "add": true
             }
@@ -85,29 +85,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "firstaid:bandage",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 4
-              },
-              "add": true
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "firstaid:plaster",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 5
+                "min": 1,
+                "max": 3
               },
               "add": true
             }
@@ -129,7 +113,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.4
             }
           ]
         },
@@ -140,7 +124,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.4
             }
           ]
         }

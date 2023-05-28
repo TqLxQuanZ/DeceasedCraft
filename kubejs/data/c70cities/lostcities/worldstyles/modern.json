@@ -194,12 +194,7 @@
   ],
   "citystyles": [
     {
-      "factor": 0.001,
-      "citystyle": "c70cities:dummycity",
-      "biomes": {}
-    },
-    {
-      "factor": 900000.0,
+      "factor": 99999.0,
       "citystyle": "c70cities:standardcity",
       "biomes": {
         "if_any": [
@@ -225,7 +220,7 @@
       }
     },
     {
-      "factor": 900000.0,
+      "factor": 99999.0,
       "citystyle": "c70cities:residential",
       "biomes": {
         "if_any": [
@@ -249,7 +244,7 @@
       }
     },
     {
-      "factor": 900000.0,
+      "factor": 99999.0,
       "citystyle": "c70cities:deadzone",
       "biomes": {
         "if_any": [
@@ -257,6 +252,11 @@
           "biomesoplenty:wooded_wasteland"
         ]
       }
+    },
+    {
+      "factor": 1.0,
+      "citystyle": "c70cities:dummycity",
+      "biomes": {}
     }
   ]
 }

@@ -61,6 +61,7 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 5,
           "name": "minecraft:torch",
           "functions": [
             {
@@ -70,6 +71,20 @@
                 "max": 6
               },
               "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "firstaid:plaster",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
             }
           ]
         }
