@@ -100,30 +100,33 @@
 		}
 		{
 			size: 1.5d
+			x: -11.0d
+			icon: "cold_sweat:hearth"
+			tasks: [{
+				id: "0143BA16EDEDF12F"
+				type: "item"
+				item: "cold_sweat:hearth"
+			}]
+			description: ["Craft or obtain a hearth to ensure your environment is at the best condition for habitant."]
 			rewards: [{
 				id: "4A9102777F689E5A"
 				type: "xp"
 				xp: 50
 			}]
 			id: "0B850D8AF2552F83"
-			icon: "cold_sweat:hearth"
-			x: -11.0d
-			y: -2.5d
 			shape: "gear"
+			y: -2.5d
 			title: "Best Of Both Worlds"
 			progression_mode: "flexible"
 			dependencies: ["0ECF9BD806718584"]
-			tasks: [{
-				id: "0143BA16EDEDF12F"
-				type: "item"
-				item: "cold_sweat:hearth"
-			}]
+			dependency_requirement: "one_started"
 		}
 		{
 			size: 2.0d
 			description: [
-				"You ran out of supplies inside the bunker and figured out the cure, but there is no resources for you to craft it."
-				"It is time to go out exploring the aftermath of zombie apocalypse, establish your own proper base and survive out there."
+				"- You ran out of supplies and figured out the cure, but there is no resources for you to craft it."
+				"- It is time to go out exploring the aftermath of zombie apocalypse, establish your own proper base and survive out there."
+				"- There is a grace period of 1 day without zombies spawning, please do make use of that time!"
 			]
 			rewards: [{
 				id: "50B455153BABC45C"
@@ -742,7 +745,7 @@
 				type: "item"
 				item: "immersiveengineering:seed"
 			}]
-			description: ["Plant the under root seeds for obtain log and strings."]
+			description: ["Gather hemp seeds from grass and plant them, as they could provide useful materials."]
 			rewards: [{
 				id: "2C4F15E8841326DB"
 				type: "xp"
@@ -763,7 +766,7 @@
 				type: "item"
 				item: "minecraft:string"
 			}]
-			description: ["Obtain string by any means, possibly from under root."]
+			description: ["Obtain string by any means, as it is the primary material for crafting armors."]
 			id: "49E3CCC7FBFFB0E2"
 			x: -27.0d
 			y: 4.0d
@@ -928,6 +931,31 @@
 				id: "3DF997A3A300B436"
 				type: "checkmark"
 				title: "Fallout"
+			}]
+		}
+		{
+			size: 1.5d
+			description: [
+				"- As long as there's city, there will be bountiful of loots."
+				"- But keep in mind, there are some buildings do consist of zombies despite the grace period."
+				"- Zombies inside building are much stronger and faster compare to the outside world."
+			]
+			id: "06E0BE2AB65764B5"
+			icon: "another_furniture:oak_bench"
+			x: -25.5d
+			y: 7.5d
+			shape: "square"
+			rewards: [{
+				id: "3C4C2C93B3E724E1"
+				type: "xp"
+				xp: 30
+			}]
+			progression_mode: "flexible"
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "60C3A4AEA343A248"
+				type: "checkmark"
+				title: "City"
 			}]
 		}
 	]

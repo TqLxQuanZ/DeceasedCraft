@@ -2409,5 +2409,20 @@
 			dependencies: ["3D5034941203E7E3"]
 			dependency_requirement: "one_started"
 		}
+		{
+			tasks: [{
+				id: "5B7EBABF3262A665"
+				type: "item"
+				item: "createaddition:barbed_wire"
+			}]
+			description: ["Obtain or craft a cheaper barb wire using iron wires."]
+			id: "4D3DAD625F86707D"
+			x: -26.0d
+			y: 14.0d
+			title: "Modern Hunter - VI"
+			progression_mode: "flexible"
+			dependencies: ["3D5034941203E7E3"]
+			dependency_requirement: "one_started"
+		}
 	]
 }

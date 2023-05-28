@@ -10,6 +10,17 @@
         "result": "deny"
     },
     {
+      "mod": "arsenals_of_the_apocalypse",
+      "dimension": "minecraft:overworld",
+      "maxcount": 6,
+      "result": "deny"
+    },
+    {
+      "phase": "after_day1",
+      "mod": "zombiemobs",
+      "result": "deny"
+    },
+    {
       "mod": "zombiemobs",
       "dimension": "minecraft:overworld",
       "minlight": 6,
@@ -52,6 +63,11 @@
     {
       "mob": "zombiemobs:zombie_llama",
       "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "phase": "after_day1",
+      "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned", "minecraft:zombie_villager", "minecraft:spider"],
       "result": "deny"
     },
     {

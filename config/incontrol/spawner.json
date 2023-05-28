@@ -6,13 +6,13 @@
 		"amount": {
 		  "minimum": 1,
 		  "maximum": 3,
-		  "groupdistance": 4
+		  "groupdistance": 2
 		},
 		"conditions": {
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
-		  "mindist": 25,
-		  "maxdist": 125,
+		  "mindist": 40,
+		  "maxdist": 150,
 		  "minheight": 45,
 		  "maxheight": 200
 		}
@@ -29,7 +29,7 @@
 		"conditions": {
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
-		  "mindist": 10,
+		  "mindist": 20,
 		  "maxdist": 150,
 		  "minheight": 45,
 		  "maxheight": 200
