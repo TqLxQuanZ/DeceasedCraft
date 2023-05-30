@@ -17,12 +17,25 @@
 	quests: [
 		{
 			size: 2.0d
-			description: ["One does not simply survive the apocalypse without any weapons. This chapter provides the progression of obtaining bullets, melee weapons and guns."]
-			rewards: [{
-				id: "40DE784894B4D44E"
-				type: "xp"
-				xp: 10
-			}]
+			description: ["Surviving the apocalypse requires equipping oneself with weapons. This chapter outlines the progression of obtaining bullets, melee weapons, and guns for your arsenal."]
+			rewards: [
+				{
+					id: "40DE784894B4D44E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "029436080880C6AA"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			id: "70C3799E5D5D54F3"
 			icon: {
 				id: "minecraft:wooden_sword"
@@ -35,6 +48,7 @@
 			y: 5.0d
 			title: "Combat"
 			progression_mode: "flexible"
+			dependency_requirement: "one_started"
 			tasks: [{
 				id: "3FDD2BEC5C412BBF"
 				type: "checkmark"
@@ -447,7 +461,7 @@
 					}
 				}
 			}]
-			description: ["Obtain a stone sword for the sake of killing enemies."]
+			description: ["Obtain a stone sword."]
 			rewards: [{
 				id: "6E29540BCB14B35A"
 				type: "xp"
@@ -463,7 +477,7 @@
 		}
 		{
 			size: 1.5d
-			description: ["Obtain an iron sword for the sake of killing enemmies."]
+			description: ["Obtain an iron sword."]
 			rewards: [{
 				id: "641D99EC06D424EB"
 				type: "xp"
@@ -646,7 +660,7 @@
 		}
 		{
 			size: 2.0d
-			description: ["Obtain a workbench for crafting guns."]
+			description: ["Obtain a workbench for assembling guns."]
 			rewards: [{
 				id: "0ECD66445FA814CD"
 				type: "xp"
@@ -912,7 +926,7 @@
 		}
 		{
 			size: 1.5d
-			description: ["Attempt to trade with weapon smith or wandering trader for bullets."]
+			description: ["Attempt to trade with a weapon smith or a wandering trader to acquire bullets for your ammunition needs. These traders may offer valuable supplies in exchange for other items or resources."]
 			id: "0A9F60367F6DDB90"
 			icon: "minecraft:emerald"
 			x: 6.5d
@@ -936,7 +950,7 @@
 		}
 		{
 			size: 1.5d
-			description: ["Killing zombies might provide ammunitions."]
+			description: ["Engaging and eliminating zombies can potentially yield valuable ammunition as a reward. Consider engaging in combat with zombies as a means to acquire additional ammunition for your weapons."]
 			id: "6845C82525B963E5"
 			icon: "minecraft:zombie_head"
 			x: 6.5d
@@ -961,7 +975,7 @@
 		}
 		{
 			size: 2.0d
-			description: ["Visit the military and industrial area in the wasteland, which previously has been nuked to obtain rare resources and items."]
+			description: ["Explore the military and industrial areas in the wasteland, despite being previously nuked, as they hold the potential to yield rare resources and valuable items. Exercise caution while navigating these hazardous zones."]
 			rewards: [{
 				id: "5B613489CF296566"
 				type: "xp"
@@ -1013,7 +1027,7 @@
 		}
 		{
 			size: 2.0d
-			description: ["Obtain a plank for crafting weapons."]
+			description: ["Acquire a plank, as it serves as a foundational material for crafting various types of wooden weapons."]
 			rewards: [{
 				id: "34FD8479AD0F6463"
 				type: "xp"
@@ -1345,7 +1359,7 @@
 		}
 		{
 			size: 2.0d
-			description: ["Obtain a steel ingot for crafting more various type of weapons."]
+			description: ["Acquire a steel ingot to expand your options for crafting a wider variety of weapons."]
 			rewards: [{
 				id: "533D5B4A9F45C75B"
 				type: "xp"
@@ -1366,7 +1380,7 @@
 		}
 		{
 			size: 2.0d
-			description: ["Obtain a high-carbon steel alloy for late game weapons."]
+			description: ["Acquire a high-carbon steel alloy, a valuable material for crafting advanced weapons suitable for the late stages of the game."]
 			rewards: [{
 				id: "567B4ABB353984ED"
 				type: "xp"

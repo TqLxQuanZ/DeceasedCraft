@@ -15,7 +15,7 @@
 				type: "item"
 				item: "cold_sweat:boiler"
 			}]
-			description: ["Obtain a boiler to get yourself warm when winter comes."]
+			description: ["Secure a boiler to ensure warmth during the winter season."]
 			rewards: [{
 				id: "0270FC9B249C21CF"
 				type: "xp"
@@ -40,7 +40,10 @@
 				type: "item"
 				item: "cold_sweat:thermometer"
 			}]
-			description: ["Obtain a thermometer to check the current biome and surrounding temperature."]
+			description: [
+				"- Retrieve a thermometer to measure the present temperature of the environment, including the biome and its surroundings."
+				"- You have a grace period of 5 minutes during which you are immune to changes in temperature."
+			]
 			rewards: [{
 				id: "4439A7B7A6D5F926"
 				type: "xp"
@@ -60,7 +63,7 @@
 				type: "item"
 				item: "cold_sweat:icebox"
 			}]
-			description: ["Obtain an icebox to deal with the upcoming summer."]
+			description: ["Procure an icebox to effectively cope with the impending summer heat."]
 			rewards: [{
 				id: "3DECDB9ACC52B98E"
 				type: "xp"
@@ -77,7 +80,7 @@
 		}
 		{
 			size: 1.5d
-			description: ["Obtain a sewing table for insulating your armors with different type of materials."]
+			description: ["Acquire a sewing table to insulate your armors using various materials."]
 			rewards: [{
 				id: "5DF5942D8EA77BAB"
 				type: "item"
@@ -107,7 +110,7 @@
 				type: "item"
 				item: "cold_sweat:hearth"
 			}]
-			description: ["Craft or obtain a hearth to ensure your environment is at the best condition for habitant."]
+			description: ["Craft or acquire a hearth to create an optimal living environment."]
 			rewards: [{
 				id: "4A9102777F689E5A"
 				type: "xp"
@@ -124,15 +127,21 @@
 		{
 			size: 2.0d
 			description: [
-				"- You ran out of supplies and figured out the cure, but there is no resources for you to craft it."
-				"- It is time to go out exploring the aftermath of zombie apocalypse, establish your own proper base and survive out there."
-				"- There is a grace period of 1 day without zombies spawning, please do make use of that time!"
+				"- Despite identifying the cure, limited resources hinder its creation in the post-apocalyptic world. Venture out, establish a secure base, and survive amidst the aftermath of the zombie apocalypse."
+				"- During a grace period of one day without zombies showing up, it is crucial to make the most of this time to ensure your safety and preparedness."
 			]
-			rewards: [{
-				id: "50B455153BABC45C"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "50B455153BABC45C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5A00704A2061129E"
+					type: "item"
+					item: "immersiveengineering:seed"
+				}
+			]
 			id: "0E39D9CB81AD62AA"
 			icon: "minecraft:zombie_head"
 			x: -21.0d
@@ -147,73 +156,76 @@
 		}
 		{
 			size: 1.5d
-			description: [
-				"Eat various of foods to increase your Max HP."
-				"Max HP bonus are lost when you're dead."
-			]
-			id: "030EDE9A94F537B5"
-			icon: "minecraft:cooked_beef"
 			x: -29.75d
-			y: 6.0d
-			shape: "square"
-			title: "Better Foods, Better Health"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "4AFBA06FC196E6CD"
-				type: "item"
-				item: "solcarrot:food_book"
-			}]
+			icon: "minecraft:cooked_beef"
+			optional: true
 			tasks: [{
 				id: "46164DDC4974F130"
 				type: "checkmark"
 				title: "Foods"
 			}]
+			description: [
+				"- Consume a diverse range of foods to enhance your maximum HP (health points)."
+				"- The maximum HP bonus is lost upon death, resetting your health status."
+			]
+			rewards: [{
+				id: "4AFBA06FC196E6CD"
+				type: "item"
+				item: "solcarrot:food_book"
+			}]
+			id: "030EDE9A94F537B5"
+			shape: "square"
+			y: 6.0d
+			title: "Better Foods, Better Health"
+			progression_mode: "flexible"
 			can_repeat: true
 		}
 		{
 			size: 1.5d
-			description: ["There are various way to get yourself out of dangerous situation, ParCool is one of it, make sure do perform all sort of ParCool to give yourself maximum conveniences!"]
-			id: "07B42E396E51A597"
-			icon: "minecraft:player_head"
 			x: -29.75d
-			y: 1.5d
-			shape: "square"
-			title: "Parkour!"
-			progression_mode: "flexible"
+			icon: "minecraft:player_head"
+			optional: true
+			tasks: [{
+				id: "4778D852A37EBA20"
+				type: "checkmark"
+			}]
+			description: ["There are various methods to extricate yourself from dangerous situations, and ParCool is one of them. Ensure that you execute different ParCool techniques to provide yourself with maximum convenience and advantages in challenging circumstances."]
 			rewards: [{
 				id: "7BD28FADBC5FCD9A"
 				type: "item"
 				item: "parcool:parcool_guide"
 			}]
-			tasks: [{
-				id: "4778D852A37EBA20"
-				type: "checkmark"
-			}]
+			id: "07B42E396E51A597"
+			shape: "square"
+			y: 1.5d
+			title: "Parkour!"
+			progression_mode: "flexible"
 			can_repeat: true
 		}
 		{
 			size: 1.5d
-			description: [
-				"You're a veteran engineer, therefore possessing absurd amount of knowledge when it comes to technology related information."
-				"Always read your manual if you forget something again! Or use W to ponder!"
-			]
-			id: "3FFD3BC48E8A6C65"
-			icon: "immersiveengineering:manual"
 			x: -32.0d
-			y: 3.75d
-			shape: "square"
-			title: "Veteran Engineer"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "6DF4EAA66D458424"
-				type: "item"
-				item: "immersiveengineering:manual"
-			}]
+			icon: "immersiveengineering:manual"
+			optional: true
 			tasks: [{
 				id: "045A6B953D672794"
 				type: "checkmark"
 				title: "PhD of Engineering"
 			}]
+			description: [
+				"As a veteran engineer, you possess extensive knowledge in various technological domains, allowing me to provide information and insights on a wide range of tech-related topics."
+				""
+			]
+			rewards: [{
+				id: "6DF4EAA66D458424"
+				type: "item"
+				item: "immersiveengineering:manual"
+			}]
+			id: "3FFD3BC48E8A6C65"
+			shape: "square"
+			y: 3.75d
+			title: "Veteran Engineer"
+			progression_mode: "flexible"
 			can_repeat: true
 		}
 		{
@@ -222,12 +234,20 @@
 				type: "item"
 				item: "firstaid:bandage"
 			}]
-			description: ["Craft or obtain a bandage to heal your wounds."]
-			rewards: [{
-				id: "6D3DE36211B9035D"
-				type: "xp"
-				xp: 30
-			}]
+			description: ["Craft or acquire a bandage to facilitate the healing of your wounds."]
+			rewards: [
+				{
+					id: "6D3DE36211B9035D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6FE8A5A3499B5127"
+					type: "item"
+					item: "firstaid:bandage"
+					count: 2
+				}
+			]
 			id: "6A29644DD8421933"
 			x: -11.5d
 			y: 2.0d
@@ -238,12 +258,20 @@
 		}
 		{
 			size: 1.5d
-			description: ["Craft or obtain a plaster to heal your wounds."]
-			rewards: [{
-				id: "6F3118AABC37EFCC"
-				type: "xp"
-				xp: 20
-			}]
+			description: ["Craft or acquire a plaster to treat and heal your wounds effectively."]
+			rewards: [
+				{
+					id: "6F3118AABC37EFCC"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6CDAC67818C90C97"
+					type: "item"
+					item: "firstaid:plaster"
+					count: 2
+				}
+			]
 			id: "6AD30C57F5648FF3"
 			x: -14.5d
 			y: 4.0d
@@ -263,7 +291,7 @@
 				type: "item"
 				item: "firstaid:morphine"
 			}]
-			description: ["Obtain a morphine to supress your debuffs."]
+			description: ["Acquire morphine to alleviate and suppress any debuffs you may be experiencing."]
 			rewards: [{
 				id: "4B5C8B5241F433E6"
 				type: "xp"
@@ -283,7 +311,7 @@
 				type: "item"
 				item: "farmersdelight:canvas"
 			}]
-			description: ["Obtain a canvas to insulate yourself from both cold and hot environment."]
+			description: ["Acquire a canvas to provide insulation in both cold and hot environments, ensuring comfort and protection."]
 			rewards: [{
 				id: "34DF719D76A0D8D1"
 				type: "xp"
@@ -310,7 +338,7 @@
 					}
 				}
 			}]
-			description: ["Obtain any tiger/bear hides to insulate yourself from both cold and hot environment."]
+			description: ["Acquire any tiger/bear hides to provide insulation in both cold and hot environments, ensuring comfort and protection."]
 			rewards: [{
 				id: "3F00DE423753FDB8"
 				type: "xp"
@@ -330,7 +358,7 @@
 				type: "item"
 				item: "immersiveengineering:ersatz_leather"
 			}]
-			description: ["Obtain an ersatz leather to insulate yourself from both cold and hot environment."]
+			description: ["Acquire an ersatz leather to provide insulation in both cold and hot environments, ensuring comfort and protection."]
 			rewards: [{
 				id: "02B4F3908901A3B9"
 				type: "xp"
@@ -351,8 +379,8 @@
 				item: "mutationcraft_origins:hidden_hide"
 			}]
 			description: [
-				"- Obtain an bedridden/hidden hide to insulate yourself from both cold and hot environment."
-				"- Obtainable from wasteland enemies."
+				"- Acquire hidden hides to provide insulation in both cold and hot environments, ensuring comfort and protection."
+				"- Obtainable from wasteland creatures."
 			]
 			rewards: [{
 				id: "1286E50D20C6C951"
@@ -453,7 +481,7 @@
 				type: "item"
 				item: "minecraft:dried_kelp"
 			}]
-			description: ["Obtain a dried kelp to insulate yourself from coldness."]
+			description: ["Obtain dried kelp to provide insulation against cold temperatures."]
 			rewards: [{
 				id: "22A2A3A26D23E47B"
 				type: "xp"
@@ -473,7 +501,7 @@
 				type: "item"
 				item: "minecraft:white_wool"
 			}]
-			description: ["Obtain a wool to insulate yourself from coldness."]
+			description: ["Obtain wool to provide insulation against cold temperatures."]
 			rewards: [{
 				id: "03C360EA83F5CA2A"
 				type: "xp"
@@ -493,7 +521,7 @@
 				type: "item"
 				item: "immersiveengineering:hemp_fabric"
 			}]
-			description: ["Obtain a tough fabric to insulate yourself from coldness."]
+			description: ["Obtain tough fabric to provide insulation against cold temperatures."]
 			rewards: [{
 				id: "6E7294747CFD96A3"
 				type: "xp"
@@ -513,7 +541,7 @@
 				type: "item"
 				item: "cold_sweat:goat_fur"
 			}]
-			description: ["Obtain a goat fur to insulate yourself from coldness."]
+			description: ["Obtain goat fur to provide insulation against cold temperatures."]
 			rewards: [{
 				id: "6359B0998894D470"
 				type: "xp"
@@ -529,6 +557,7 @@
 		}
 		{
 			size: 1.5d
+			description: ["With your advanced knowledge of aircraft assembly and crafting, utilize it to construct an airplane for efficient transportation and travel purposes."]
 			id: "39F82E91EF5D1E48"
 			icon: {
 				id: "patchouli:guide_book"
@@ -558,6 +587,7 @@
 				title: "Pilot"
 			}]
 			can_repeat: true
+			optional: true
 		}
 		{
 			size: 1.5d
@@ -586,7 +616,7 @@
 				type: "item"
 				item: "minecraft:furnace"
 			}]
-			description: ["Obtain a furnace to purify your water bottle."]
+			description: ["Acquire a furnace to purify your water bottles, ensuring clean and safe drinking water."]
 			rewards: [{
 				id: "6246D575BD81AB91"
 				type: "xp"
@@ -606,7 +636,7 @@
 				type: "item"
 				item: "minecraft:campfire"
 			}]
-			description: ["Craft a campfire to purify your water."]
+			description: ["Acquire a campfire to purify your water, ensuring it is safe and clean for consumption."]
 			rewards: [{
 				id: "76D79FD2A688D3C7"
 				type: "xp"
@@ -622,7 +652,7 @@
 		}
 		{
 			size: 1.5d
-			description: ["Obtain a golden apple to cure your infection if you ever had one. Otherwise find somewhere to end yourself before the others did."]
+			description: ["Obtain a golden apple, as it has the ability to cure infections if you ever contract one. "]
 			rewards: [
 				{
 					id: "66CA23A5337F1DBD"
@@ -649,11 +679,7 @@
 		}
 		{
 			size: 1.5d
-			description: [
-				"Press J to obtain a specialized skill tree for helping you through out the journey."
-				"The other skills can still be learned, but only as twice as slow."
-				"Skills will be all lost when you die."
-			]
+			description: ["Pressing J grants access to a specialized skill tree that assists you throughout your journey. Other skills can still be learned but at a slower pace. It's important to note that skills will be lost upon death."]
 			id: "09DB2A67033171FC"
 			icon: {
 				id: "minecraft:iron_sword"
@@ -666,11 +692,25 @@
 			y: 9.75d
 			shape: "square"
 			title: "Specialist"
-			rewards: [{
-				id: "0FCF428A1931A549"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "0FCF428A1931A549"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "626EA152E66434BF"
+					type: "item"
+					item: {
+						id: "arsenals_of_the_apocalypse:baseball_bat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			dependency_requirement: "one_started"
 			tasks: [{
 				id: "3910A66AD1E76B0B"
 				type: "checkmark"
@@ -683,8 +723,8 @@
 				item: "create:sand_filter"
 			}]
 			description: [
-				"Filter out the water with a sand filter and transfer it to a spout for clean water."
-				"NOTE: Water does not get clean if it gets pump out as a water source, only spout with glass bottle works."
+				"Filter the water using a sand filter and transfer it to a spout to obtain clean and purified water."
+				"NOTE: Water does not become clean if pumped out directly from a water source. However, using a spout with a glass bottle attached can effectively filter and provide clean water. Pump is necessary as well."
 			]
 			rewards: [{
 				id: "3068AE3D944A64A9"
@@ -701,18 +741,25 @@
 		}
 		{
 			size: 1.5d
-			description: ["Not long after the apocalypse started, there are mentions of spotting blazing rods floating around in volcanic areas from radio."]
+			description: ["Shortly after the onset of the apocalypse, reports emerged on the radio about sightings of floating blazing rods in volcanic regions."]
 			id: "23C3071C8EEAFEFB"
 			icon: "minecraft:blaze_powder"
 			x: -21.25d
 			y: 7.5d
 			shape: "square"
 			title: "Burning Passion"
-			rewards: [{
-				id: "6F487CFD96118717"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "6F487CFD96118717"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1A7CBCF61E55E81D"
+					type: "item"
+					item: "hardcore_torches:lit_lantern"
+				}
+			]
 			tasks: [{
 				id: "2A08DAB7C0674A3C"
 				type: "checkmark"
@@ -720,7 +767,7 @@
 		}
 		{
 			size: 1.5d
-			description: ["Some of the villagers out there are still surviving against the zombie apocalypse, they even changed their stocks."]
+			description: ["Some villagers have managed to survive the zombie apocalypse and have adapted by altering their stocks and resources to suit the new circumstances."]
 			id: "6AC8F0D30412DA22"
 			icon: "artifacts:villager_hat"
 			x: -29.75d
@@ -745,7 +792,7 @@
 				type: "item"
 				item: "immersiveengineering:seed"
 			}]
-			description: ["Gather hemp seeds from grass and plant them, as they could provide useful materials."]
+			description: ["Collect hemp seeds from grass and plant them to cultivate hemp plants, which can provide valuable materials for various purposes."]
 			rewards: [{
 				id: "2C4F15E8841326DB"
 				type: "xp"
@@ -766,7 +813,7 @@
 				type: "item"
 				item: "minecraft:string"
 			}]
-			description: ["Obtain string by any means, as it is the primary material for crafting armors."]
+			description: ["Acquire string through various means, as it serves as the primary material for crafting armor."]
 			id: "49E3CCC7FBFFB0E2"
 			x: -27.0d
 			y: 4.0d
@@ -785,7 +832,7 @@
 				type: "item"
 				item: "minecraft:leather"
 			}]
-			description: ["Burn the rotten flesh and turn it into useful leather."]
+			description: ["Incinerate the rotten flesh to transform it into valuable leather, repurposing it for practical use."]
 			rewards: [{
 				id: "3EA95462523122C0"
 				type: "xp"
@@ -805,7 +852,7 @@
 				type: "item"
 				item: "cold_sweat:waterskin"
 			}]
-			description: ["Obtain or craft a waterskin to balance your body temperature."]
+			description: ["Acquire or create a waterskin to help regulate your body temperature."]
 			rewards: [{
 				id: "199AAC9783BCA331"
 				type: "xp"
@@ -822,8 +869,8 @@
 		{
 			size: 1.5d
 			description: [
-				"It is known that all the zombies have the ability to infect their victim whenever getting hit by them."
-				"Be caution when approaching them."
+				"- It is known that all zombies have the ability to infect their victims upon making contact with them during an attack."
+				"- Be caution when approaching them."
 			]
 			id: "7903466341771D44"
 			icon: "minecraft:zombie_head"
@@ -833,11 +880,18 @@
 			title: "Unavoidable Infection"
 			progression_mode: "flexible"
 			dependency_requirement: "one_started"
-			rewards: [{
-				id: "746207ACF3AEE11D"
-				type: "xp"
-				xp: 20
-			}]
+			rewards: [
+				{
+					id: "746207ACF3AEE11D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "62CE75BBA6B89E72"
+					type: "item"
+					item: "firstaid:plaster"
+				}
+			]
 			tasks: [{
 				id: "567A6E5F09AF8F5A"
 				type: "checkmark"
@@ -853,11 +907,12 @@
 					"patchouli:book": "untamedwilds:encyclopedia_of_life"
 				}
 			}
+			optional: true
 			tasks: [{
 				id: "1DA025C61B2F7CF2"
 				type: "checkmark"
 			}]
-			description: ["It is important to know what's out there when surviving in the wilderness."]
+			description: ["When surviving in the wilderness, it is crucial to have knowledge of your surroundings and understand what resources and potential threats exist in the environment."]
 			rewards: [{
 				id: "22E7DCD55C6735AB"
 				type: "item"
@@ -879,7 +934,7 @@
 		}
 		{
 			size: 1.5d
-			description: ["Obtain a nature compass to look for a suitable place to live or seek for the resources."]
+			description: ["Acquire a nature compass to aid in finding a suitable location to establish a living space or search for vital resources in the wilderness."]
 			id: "1716D8327CDC0B88"
 			icon: {
 				id: "naturescompass:naturescompass"
@@ -910,9 +965,9 @@
 		{
 			size: 1.5d
 			description: [
-				"- There have been reports about wasteland is releasing toxic gases that could instantly kill anybody whose attempt to enter."
-				"- Acquiring and equipping gas mask is advised, or hazmat helmets."
-				"- There are dangerous monsters sighted inside the wasteland, including the industrial area. It is advised to bring firearms as melees don't work against most of them."
+				"- Reports suggest that the wasteland is emitting toxic gases capable of instantly killing anyone who attempts to enter. Extreme caution should be exercised and appropriate protective measures taken to avoid exposure to these lethal gases."
+				""
+				"- Equip gas masks or hazmat helmets for protection against toxic gases in the wasteland. Beware of dangerous monsters, including the industrial area; firearms are advised as melee weapons may be ineffective."
 			]
 			id: "0F6B3FE7304CB884"
 			icon: "biomesoplenty:dead_sapling"
@@ -922,11 +977,18 @@
 			title: "Fallout"
 			progression_mode: "flexible"
 			dependency_requirement: "one_started"
-			rewards: [{
-				id: "75FD8A6E0AEF88FA"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "75FD8A6E0AEF88FA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2468CE41DEF8B74D"
+					type: "item"
+					item: "farmersdelight:melon_popsicle"
+				}
+			]
 			tasks: [{
 				id: "3DF997A3A300B436"
 				type: "checkmark"
@@ -937,19 +999,28 @@
 			size: 1.5d
 			description: [
 				"- As long as there's city, there will be bountiful of loots."
-				"- But keep in mind, there are some buildings do consist of zombies despite the grace period."
-				"- Zombies inside building are much stronger and faster compare to the outside world."
+				""
+				"However, it's important to note that even during the grace period, certain buildings may still contain zombies, so caution should be exercised when exploring such locations."
+				""
+				"- Zombies found within buildings often exhibit increased strength and speed compared to those encountered in the open world. Exercise heightened caution when dealing with these more formidable adversaries."
 			]
 			id: "06E0BE2AB65764B5"
 			icon: "another_furniture:oak_bench"
 			x: -25.5d
 			y: 7.5d
 			shape: "square"
-			rewards: [{
-				id: "3C4C2C93B3E724E1"
-				type: "xp"
-				xp: 30
-			}]
+			rewards: [
+				{
+					id: "3C4C2C93B3E724E1"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4CDAF63B63BAE83F"
+					type: "item"
+					item: "farmersdelight:apple_cider"
+				}
+			]
 			progression_mode: "flexible"
 			dependency_requirement: "one_started"
 			tasks: [{
