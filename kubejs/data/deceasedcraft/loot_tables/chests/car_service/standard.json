@@ -60,12 +60,23 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 5,
           "name": "immersiveengineering:blueprint",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{blueprint:components}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "immersiveengineering:blueprint",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{blueprint:molds}"
             }
           ]
         }

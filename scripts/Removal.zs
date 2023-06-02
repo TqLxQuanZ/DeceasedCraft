@@ -7,6 +7,9 @@ import mods.jei.JEI;
 craftingTable.removeByModid("mutationcraft_origins");
 JEI.hideMod("mutationcraft_origins");
 
+// Jetpack
+craftingTable.removeByName("create_sa:copper_propeler_recipe");
+
 // Fluids
 <tag:fluids:minecraft:water>.remove(<fluid:create:honey>);
 <tag:fluids:minecraft:water>.remove(<fluid:create:chocolate>);

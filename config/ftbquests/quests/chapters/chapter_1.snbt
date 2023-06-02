@@ -156,7 +156,7 @@
 		}
 		{
 			size: 1.5d
-			x: -29.75d
+			x: -27.75d
 			icon: "minecraft:cooked_beef"
 			optional: true
 			tasks: [{
@@ -175,14 +175,14 @@
 			}]
 			id: "030EDE9A94F537B5"
 			shape: "square"
-			y: 6.0d
+			y: 0.75d
 			title: "Better Foods, Better Health"
 			progression_mode: "flexible"
 			can_repeat: true
 		}
 		{
 			size: 1.5d
-			x: -29.75d
+			x: -27.75d
 			icon: "minecraft:player_head"
 			optional: true
 			tasks: [{
@@ -197,14 +197,14 @@
 			}]
 			id: "07B42E396E51A597"
 			shape: "square"
-			y: 1.5d
+			y: -1.5d
 			title: "Parkour!"
 			progression_mode: "flexible"
 			can_repeat: true
 		}
 		{
 			size: 1.5d
-			x: -32.0d
+			x: -30.0d
 			icon: "immersiveengineering:manual"
 			optional: true
 			tasks: [{
@@ -223,7 +223,7 @@
 			}]
 			id: "3FFD3BC48E8A6C65"
 			shape: "square"
-			y: 3.75d
+			y: 0.75d
 			title: "Veteran Engineer"
 			progression_mode: "flexible"
 			can_repeat: true
@@ -249,8 +249,8 @@
 				}
 			]
 			id: "6A29644DD8421933"
-			x: -11.5d
-			y: 2.0d
+			x: -16.5d
+			y: 10.5d
 			title: "I Need Healing - II"
 			progression_mode: "flexible"
 			dependencies: ["6AD30C57F5648FF3"]
@@ -273,8 +273,8 @@
 				}
 			]
 			id: "6AD30C57F5648FF3"
-			x: -14.5d
-			y: 4.0d
+			x: -16.5d
+			y: 7.5d
 			title: "I Need Healing - I"
 			progression_mode: "flexible"
 			dependencies: ["0E39D9CB81AD62AA"]
@@ -298,8 +298,8 @@
 				xp: 50
 			}]
 			id: "7E2C1F85C10A8E0D"
-			x: -11.5d
-			y: 6.0d
+			x: -13.5d
+			y: 7.5d
 			title: "Drugs"
 			progression_mode: "flexible"
 			dependencies: ["6AD30C57F5648FF3"]
@@ -566,8 +566,8 @@
 					"patchouli:book": "simpleplanes:planes_book"
 				}
 			}
-			x: -32.0d
-			y: 1.5d
+			x: -30.0d
+			y: -1.5d
 			shape: "square"
 			title: "Pilot"
 			rewards: [{
@@ -666,8 +666,8 @@
 				}
 			]
 			id: "2E94AD6C6573EE85"
-			x: -21.25d
-			y: 9.75d
+			x: -21.75d
+			y: -8.75d
 			shape: "square"
 			title: "Desperate Measure"
 			progression_mode: "flexible"
@@ -688,8 +688,8 @@
 					Damage: 0
 				}
 			}
-			x: -23.5d
-			y: 9.75d
+			x: -27.75d
+			y: 3.0d
 			shape: "square"
 			title: "Specialist"
 			rewards: [
@@ -744,8 +744,8 @@
 			description: ["Shortly after the onset of the apocalypse, reports emerged on the radio about sightings of floating blazing rods in volcanic regions."]
 			id: "23C3071C8EEAFEFB"
 			icon: "minecraft:blaze_powder"
-			x: -21.25d
-			y: 7.5d
+			x: -21.75d
+			y: -11.0d
 			shape: "square"
 			title: "Burning Passion"
 			rewards: [
@@ -770,8 +770,8 @@
 			description: ["Some villagers have managed to survive the zombie apocalypse and have adapted by altering their stocks and resources to suit the new circumstances."]
 			id: "6AC8F0D30412DA22"
 			icon: "artifacts:villager_hat"
-			x: -29.75d
-			y: 3.75d
+			x: -17.25d
+			y: -11.0d
 			shape: "square"
 			title: "Adaptation"
 			progression_mode: "flexible"
@@ -787,11 +787,7 @@
 			}]
 		}
 		{
-			tasks: [{
-				id: "28817F7EAB278351"
-				type: "item"
-				item: "immersiveengineering:seed"
-			}]
+			size: 1.5d
 			description: ["Collect hemp seeds from grass and plant them to cultivate hemp plants, which can provide valuable materials for various purposes."]
 			rewards: [{
 				id: "2C4F15E8841326DB"
@@ -801,11 +797,16 @@
 			id: "7642A41DF9FBD171"
 			icon: "immersiveengineering:seed"
 			x: -25.0d
-			y: 4.0d
+			y: 7.5d
 			title: "Start from Seeds"
 			progression_mode: "flexible"
 			dependencies: ["0E39D9CB81AD62AA"]
 			dependency_requirement: "one_started"
+			tasks: [{
+				id: "28817F7EAB278351"
+				type: "item"
+				item: "immersiveengineering:seed"
+			}]
 		}
 		{
 			tasks: [{
@@ -815,8 +816,8 @@
 			}]
 			description: ["Acquire string through various means, as it serves as the primary material for crafting armor."]
 			id: "49E3CCC7FBFFB0E2"
-			x: -27.0d
-			y: 4.0d
+			x: -28.0d
+			y: 7.5d
 			rewards: [{
 				id: "31C837685BE53FE2"
 				type: "xp"
@@ -840,7 +841,7 @@
 			}]
 			id: "0D0938F03C7ED823"
 			x: -25.0d
-			y: 2.0d
+			y: 10.5d
 			title: "Smelt It Up"
 			progression_mode: "flexible"
 			dependencies: ["7642A41DF9FBD171"]
@@ -874,8 +875,8 @@
 			]
 			id: "7903466341771D44"
 			icon: "minecraft:zombie_head"
-			x: -19.0d
-			y: 9.75d
+			x: -19.5d
+			y: -8.75d
 			shape: "square"
 			title: "Unavoidable Infection"
 			progression_mode: "flexible"
@@ -899,7 +900,7 @@
 		}
 		{
 			size: 1.5d
-			x: -32.0d
+			x: -30.0d
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -926,7 +927,7 @@
 			}]
 			id: "5AD6FE029629DD2D"
 			shape: "square"
-			y: 6.0d
+			y: 3.0d
 			title: "Encyclopedia of Life"
 			progression_mode: "flexible"
 			dependency_requirement: "one_started"
@@ -941,8 +942,8 @@
 				Count: 1b
 				tag: { }
 			}
-			x: -19.0d
-			y: 7.5d
+			x: -19.5d
+			y: -11.0d
 			shape: "square"
 			title: "Guide To Nowhere"
 			progression_mode: "flexible"
@@ -971,8 +972,8 @@
 			]
 			id: "0F6B3FE7304CB884"
 			icon: "biomesoplenty:dead_sapling"
-			x: -23.5d
-			y: 7.5d
+			x: -24.0d
+			y: -11.0d
 			shape: "square"
 			title: "Fallout"
 			progression_mode: "flexible"
@@ -1006,8 +1007,8 @@
 			]
 			id: "06E0BE2AB65764B5"
 			icon: "another_furniture:oak_bench"
-			x: -25.5d
-			y: 7.5d
+			x: -24.0d
+			y: -8.75d
 			shape: "square"
 			rewards: [
 				{
@@ -1027,6 +1028,22 @@
 				id: "60C3A4AEA343A248"
 				type: "checkmark"
 				title: "City"
+			}]
+		}
+		{
+			size: 3.0d
+			description: ["All the chapters inside the quest book is completely optional, it act as a guide for players who don't know what are they doing."]
+			id: "55F6301B24228DBC"
+			icon: "minecraft:paper"
+			x: -29.0d
+			y: -10.0d
+			shape: "square"
+			title: "READ ME HERE"
+			progression_mode: "flexible"
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "49943D2004D61EBF"
+				type: "checkmark"
 			}]
 		}
 	]

@@ -309,7 +309,10 @@
 				type: "item"
 				item: "create:track"
 			}]
-			description: ["Obtain or craft a train track, or use pre-existing tracks found in cities."]
+			description: [
+				"Obtain or craft a train track, or use pre-existing tracks found in cities."
+				"Try to connect the existing railway system for fast travel."
+			]
 			id: "358DC7C7A1EF9AD4"
 			x: -8.0d
 			y: 4.0d

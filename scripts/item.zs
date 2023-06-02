@@ -338,3 +338,34 @@ craftingTable.addShapeless("bomb_defusing_kit", <item:arsenals_of_the_apocalypse
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:minecraft:wool>))
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:immersiveengineering:creosote> * 100))
 													  );
+
+// Mold Tags
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_small>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_short>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_medium>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_long>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_heavy>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_special>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_shell>);
+
+// Bullet Tags
+<tag:items:forge:bullets>.add(<item:additionalguns:bullet_small>);
+<tag:items:forge:bullets>.add(<item:additionalguns:bullet_short>);
+<tag:items:forge:bullets>.add(<item:additionalguns:bullet_medium>);
+<tag:items:forge:bullets>.add(<item:additionalguns:bullet_long>);
+<tag:items:forge:bullets>.add(<item:additionalguns:bullet_heavy>);
+<tag:items:forge:bullets>.add(<item:additionalguns:bullet_special>);
+
+// Bullet Casing Tags
+<tag:items:forge:bullet_casing>.add(<item:additionalguns:casing_small>);
+<tag:items:forge:bullet_casing>.add(<item:additionalguns:casing_short>);
+<tag:items:forge:bullet_casing>.add(<item:additionalguns:casing_medium>);
+<tag:items:forge:bullet_casing>.add(<item:additionalguns:casing_long>);
+<tag:items:forge:bullet_casing>.add(<item:additionalguns:casing_heavy>);
+<tag:items:forge:bullet_casing>.add(<item:additionalguns:casing_special>);
+
+// Turret Cartridge
+<tag:items:forge:turret_cartridge>.add(<item:immersiveengineering:armor_piercing>);
+<tag:items:forge:turret_cartridge>.add(<item:immersiveengineering:casull>);
+<tag:items:forge:turret_cartridge>.add(<item:immersiveengineering:buckshot>);
+<tag:items:forge:turret_cartridge>.add(<item:immersiveengineering:silver>);

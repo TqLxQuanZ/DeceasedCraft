@@ -975,7 +975,10 @@
 		}
 		{
 			size: 2.0d
-			description: ["Explore the military and industrial areas in the wasteland, despite being previously nuked, as they hold the potential to yield rare resources and valuable items. Exercise caution while navigating these hazardous zones."]
+			description: [
+				"- Explore the military and industrial areas in the wasteland, despite being previously nuked, as they hold the potential to yield rare resources and valuable items. Exercise caution while navigating these hazardous zones."
+				"- Gasmask or protective equipment is required."
+			]
 			rewards: [{
 				id: "5B613489CF296566"
 				type: "xp"

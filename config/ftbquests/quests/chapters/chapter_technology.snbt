@@ -1,0 +1,1608 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: ""
+	id: "0A202673818EDB2F"
+	filename: "chapter_technology"
+	default_quest_shape: ""
+	icon: {
+		id: "immersiveengineering:hammer"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	title: "Chapter: Technology"
+	order_index: 4
+	quests: [
+		{
+			size: 2.0d
+			description: ["Mining serves as the foundation for various endeavors, regardless of the specific resources being extracted. However, the true significance lies in the technological advancements that can be achieved through the utilization of those resources. Mining provides the raw materials necessary for progress and innovation in various fields of technology."]
+			id: "466757B8DF031720"
+			icon: {
+				id: "minecraft:stone_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -8.0d
+			y: -1.0d
+			title: "Mining"
+			rewards: [{
+				id: "46A0124C24D020B4"
+				type: "item"
+				item: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "358973FF645BBE89"
+				type: "checkmark"
+				title: "Mining"
+			}]
+		}
+		{
+			tasks: [{
+				id: "60996ADDCE3435A3"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+			description: ["- The initial step in torch production involves collecting clay from rivers or shallow water areas."]
+			rewards: [{
+				id: "3141484E9BDB0122"
+				type: "item"
+				item: "minecraft:clay"
+				count: 5
+			}]
+			id: "6F079BBECE8C111B"
+			x: -18.0d
+			y: -3.0d
+			title: "Clay"
+			progression_mode: "flexible"
+			dependencies: ["6612730BDFF53890"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "5B0D1AF23150B1ED"
+				type: "item"
+				item: "minecraft:brick"
+			}]
+			description: ["The second step in torch production involves smelting clay to obtain bricks."]
+			id: "5AA63D56AB710A7F"
+			x: -18.0d
+			y: -1.0d
+			rewards: [{
+				id: "411EE4D1C4CBCA89"
+				type: "item"
+				item: "minecraft:brick"
+				count: 5
+			}]
+			dependencies: ["6612730BDFF53890"]
+		}
+		{
+			tasks: [{
+				id: "24CCF6ADE3BD2DA2"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+			}]
+			description: ["To craft a coke brick, combine clay, bricks, and sandstone. This mixture can be molded and fired to create a durable coke brick."]
+			id: "741530820143AA41"
+			x: -20.5d
+			y: -1.0d
+			rewards: [{
+				id: "6A12457EAA2B4E1B"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 5
+			}]
+			progression_mode: "flexible"
+			dependencies: [
+				"6F079BBECE8C111B"
+				"5AA63D56AB710A7F"
+				"78C829F10EEBBE6B"
+			]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "6C56801861F07E20"
+				type: "item"
+				title: "Any #forge:sandstone"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:sandstone"
+					}
+				}
+			}]
+			description: ["The third step of torch production involves gathering sandstone. They are often discovered below sands."]
+			rewards: [{
+				id: "29F619636C849734"
+				type: "item"
+				item: "minecraft:sandstone"
+				count: 5
+			}]
+			id: "78C829F10EEBBE6B"
+			x: -18.0d
+			y: 1.0d
+			title: "Sandstone"
+			progression_mode: "flexible"
+			dependencies: ["6612730BDFF53890"]
+			dependency_requirement: "one_started"
+		}
+		{
+			size: 1.5d
+			description: ["To overcome the limitations of lit torches, it's crucial to find a method for producing everlasting light sources that are resistant to water."]
+			rewards: [{
+				id: "13CD63FD0DE236A3"
+				type: "item"
+				item: "hardcore_torches:lit_torch"
+				count: 8
+			}]
+			id: "6612730BDFF53890"
+			icon: "minecraft:torch"
+			x: -15.0d
+			y: -1.0d
+			title: "Light Source"
+			progression_mode: "flexible"
+			dependencies: ["466757B8DF031720"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "210E6C86500FAFAB"
+				type: "checkmark"
+			}]
+		}
+		{
+			tasks: [{
+				id: "1BCC6655BFFE6F16"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_cokeoven"
+				criterion: ""
+			}]
+			description: ["To establish the coke oven, check the Engineer's Manual, Workbenches n Furnaces, Coke Oven section."]
+			rewards: [{
+				id: "5CA74E8E54131AA4"
+				type: "item"
+				item: "immersiveengineering:coal_coke"
+				count: 12
+			}]
+			id: "25F1420B1EFCE4C8"
+			x: -23.0d
+			y: -1.0d
+			title: "Coke Oven"
+			progression_mode: "flexible"
+			dependencies: ["741530820143AA41"]
+			dependency_requirement: "one_started"
+		}
+		{
+			size: 1.5d
+			description: [
+				"- In the modern era, the invention of steel stands as one of the most significant advancements. Steel opens up a world of possibilities in terms of weaponry, armor, and construction."
+				"In the modern era, the invention of steel - Its strength, durability, and versatility have revolutionized various industries, allowing for the creation of more efficient and effective weapons, resilient armor, and sturdy structures. "
+			]
+			rewards: [{
+				id: "3FFBEBB6933DFFD6"
+				type: "xp"
+				xp: 50
+			}]
+			id: "221733BEC59E9FF3"
+			icon: "immersiveengineering:ingot_steel"
+			x: -8.0d
+			y: 6.0d
+			title: "Revolutionary Material"
+			progression_mode: "flexible"
+			dependencies: ["466757B8DF031720"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "03BBF15A77AE46C7"
+				type: "checkmark"
+			}]
+		}
+		{
+			tasks: [{
+				id: "6472B1117E9834C4"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
+			description: ["Currently, the concept of the Nether, as described in certain contexts, does not exist. In order to obtain netherrack, one would need to explore the world extensively to locate portal ruins. The origin and appearance of these ruins have yet to be explained."]
+			rewards: [{
+				id: "0682694E51C38DBA"
+				type: "item"
+				item: "minecraft:nether_brick"
+				count: 5
+			}]
+			id: "679E48153E7169DC"
+			x: -10.5d
+			y: 8.5d
+			title: "Netherrack"
+			progression_mode: "flexible"
+			dependencies: ["221733BEC59E9FF3"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "26E64C8AC542606E"
+				type: "item"
+				item: "minecraft:magma_block"
+			}]
+			description: ["Magma blocks can typically be found in underwater areas, near portal ruins, or in volcanic regions. These blocks emit heat and can cause damage to players upon contact, Beware!"]
+			rewards: [{
+				id: "54CF769DA9FA68EF"
+				type: "item"
+				item: "minecraft:magma_block"
+				count: 5
+			}]
+			id: "0EC4C506BF171BFC"
+			x: -8.0d
+			y: 8.5d
+			title: "Magma Block"
+			progression_mode: "flexible"
+			dependencies: ["221733BEC59E9FF3"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "74E07DBC7984E369"
+				type: "item"
+				item: "minecraft:brick"
+			}]
+			description: ["Smelts clays to obtain bricks."]
+			id: "649DEE56CA9BA557"
+			x: -5.5d
+			y: 8.5d
+			rewards: [{
+				id: "0AE7CAC9BA9DEC6E"
+				type: "item"
+				item: "minecraft:brick"
+				count: 5
+			}]
+			progression_mode: "flexible"
+			dependencies: ["221733BEC59E9FF3"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "72FE92169E2BAAAC"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+			}]
+			description: ["To craft blast bricks, you will need nether bricks, regular bricks, and magma blocks."]
+			rewards: [{
+				id: "5DA1C0E602475321"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 5
+			}]
+			id: "7BC68C0C002AFC23"
+			x: -8.0d
+			y: 11.0d
+			title: "Blast Brick"
+			progression_mode: "flexible"
+			dependencies: [
+				"679E48153E7169DC"
+				"649DEE56CA9BA557"
+				"0EC4C506BF171BFC"
+			]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "79EBE9F5A769E1C7"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_blastfurnace"
+				criterion: ""
+			}]
+			description: ["To establish a blast furnace, check the Engineer's Manual, Workbenches n Furnace, Blast Furnace section."]
+			rewards: [{
+				id: "15CB16FA631D9D18"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 12
+			}]
+			id: "18E4A805DA2DF920"
+			icon: "immersiveengineering:blast_furnace"
+			x: -8.0d
+			y: 13.5d
+			title: "Blast Furnace"
+			progression_mode: "flexible"
+			dependencies: [
+				"7BC68C0C002AFC23"
+				"1FF38FBC37E42590"
+			]
+			dependency_requirement: "one_started"
+		}
+		{
+			size: 1.5d
+			description: [
+				"- Iron is an indispensable resource for survival and advancement."
+				"- It is widely available throughout the underground, making it easily accessible for mining and extraction"
+			]
+			rewards: [{
+				id: "42E05F2291213EFA"
+				type: "item"
+				item: "minecraft:iron_ore"
+				count: 5
+			}]
+			id: "6DBC6D8CE90FAB00"
+			x: -3.0d
+			y: 6.0d
+			title: "Iron Ores"
+			progression_mode: "flexible"
+			dependencies: ["466757B8DF031720"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "54F60658C6CB135B"
+				type: "item"
+				item: "minecraft:iron_ore"
+			}]
+		}
+		{
+			size: 1.5d
+			description: [
+				"- Another type of technology that relies heavily on stress is known for its ability to convert stress into a measurable unit or even convert it back into electricity once it reaches a certain threshold."
+				"- This innovative technology utilizes stress as a resource, harnessing its potential to power various devices or systems."
+			]
+			id: "3C967600A1CE62F4"
+			x: -1.5d
+			y: -1.0d
+			rewards: [{
+				id: "6ACFE1014C7C7B06"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 12
+			}]
+			progression_mode: "flexible"
+			dependencies: ["466757B8DF031720"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "0F85059DDD89A40B"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			size: 1.5d
+			description: ["To obtain iron ingots, you can smelt iron ore in a furnace."]
+			rewards: [{
+				id: "2783CAA05C45ABA7"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 6
+			}]
+			id: "1FF38FBC37E42590"
+			x: -3.0d
+			y: 9.0d
+			title: "Cook It"
+			progression_mode: "flexible"
+			dependencies: ["6DBC6D8CE90FAB00"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "0602474245C8CA89"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			size: 1.5d
+			description: [
+				"- Smelt a steel ingot using blast furnace with an iron ingot."
+				"- Blast Furnace requires fuel!"
+				"- Steel can be also found through certain services building, or wasteland."
+			]
+			id: "6EF1A34390FD3C1A"
+			x: 1.5d
+			y: 13.5d
+			rewards: [{
+				id: "1D544B53D59F6C2F"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+				count: 8
+			}]
+			progression_mode: "flexible"
+			dependencies: ["18E4A805DA2DF920"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "45C55C28E09274EB"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+			}]
+		}
+		{
+			tasks: [{
+				id: "48E8D647257A23F6"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			description: [
+				"- Obtain or craft a mechanical press."
+				"- Mechanical Press can be found in certain residential building, or car services building."
+			]
+			id: "32644F3E6795B2EA"
+			x: 3.5d
+			y: -1.0d
+			rewards: [{
+				id: "14C534FBDE2B068E"
+				type: "item"
+				item: "create:mechanical_press"
+				count: 3
+			}]
+			progression_mode: "flexible"
+			dependencies: ["0C7D31404A74BA99"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "69D923ECA9965092"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+			description: ["Everything machine needs a casing! Craft an andesite casing by placing a stripped log on the floor, then right click it with andesite alloy!"]
+			id: "0C7D31404A74BA99"
+			x: 1.0d
+			y: -1.0d
+			rewards: [{
+				id: "4E7A6790C9E63115"
+				type: "item"
+				item: "create:andesite_casing"
+				count: 16
+			}]
+			progression_mode: "flexible"
+			dependencies: ["3C967600A1CE62F4"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "4EA3B40E7C103D90"
+				type: "item"
+				title: "Any #forge:plates"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:plates"
+					}
+				}
+			}]
+			description: ["By compressing various materials into sheets or plates, they can be made highly versatile and useful in many applications."]
+			rewards: [{
+				id: "469901569E858AF9"
+				type: "item"
+				item: "immersiveengineering:plate_iron"
+				count: 5
+			}]
+			id: "3F2E7B8A6EB678BF"
+			x: 3.5d
+			y: 5.5d
+			title: "Plates"
+			progression_mode: "flexible"
+			dependencies: ["32644F3E6795B2EA"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "5D170AA663B62523"
+				type: "item"
+				item: "immersiveengineering:component_iron"
+			}]
+			description: ["Obtain or craft an iron mechanical component."]
+			id: "608627F5CC7794FF"
+			x: 6.0d
+			y: 5.5d
+			rewards: [{
+				id: "4445BAE6D48F3DE5"
+				type: "item"
+				item: "immersiveengineering:component_iron"
+				count: 5
+			}]
+			progression_mode: "flexible"
+			dependencies: ["3F2E7B8A6EB678BF"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "0AC1688BB51A0B35"
+				type: "item"
+				item: "immersiveengineering:light_engineering"
+			}]
+			description: [
+				"- Obtain or craft a light engineering block used for complex machine building."
+				"- Some light engineering block can be found in certain residential building, or wasteland."
+			]
+			id: "7F55475F391163E6"
+			x: 8.5d
+			y: 5.5d
+			rewards: [{
+				id: "6F7F0F4E79D93008"
+				type: "item"
+				item: "immersiveengineering:light_engineering"
+				count: 5
+			}]
+			dependencies: ["608627F5CC7794FF"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "008E2E82E9042BC4"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+			description: [
+				"- Quality woods come with a price."
+				"- Craft treated wood planks using creosote oil."
+			]
+			id: "00403FE68540601F"
+			x: -26.0d
+			y: 0.5d
+			rewards: [{
+				id: "29A41602B5D32B29"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 32
+			}]
+			progression_mode: "flexible"
+			dependencies: ["25F1420B1EFCE4C8"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "49740789C1E0B200"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+			description: ["- Obtain a bucket of creosote oil by process coal or logs into charcoal/coal coke."]
+			id: "2B65D23C27219F1F"
+			x: -26.0d
+			y: -2.5d
+			rewards: [{
+				id: "4644A1781B9EEC98"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+			progression_mode: "flexible"
+			dependencies: ["25F1420B1EFCE4C8"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "0B0893D6F3784835"
+				type: "item"
+				item: "immersiveengineering:component_steel"
+			}]
+			description: ["Obtain or craft a steel mechanical component."]
+			id: "0E92D5E03492C2F0"
+			x: 6.0d
+			y: 9.0d
+			rewards: [{
+				id: "70542E8F96697B42"
+				type: "item"
+				item: "immersiveengineering:component_steel"
+				count: 5
+			}]
+			progression_mode: "flexible"
+			dependencies: [
+				"6EF1A34390FD3C1A"
+				"1FF38FBC37E42590"
+				"3F2E7B8A6EB678BF"
+			]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "5E47D148C03066BF"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
+			}]
+			description: [
+				"- Obtain or craft a heavy engineering block used for complex machine building."
+				"- Some heavy engineering block can be found in certain residential building, or wasteland."
+			]
+			id: "42C55FD5726D23BD"
+			x: 8.5d
+			y: 9.0d
+			rewards: [{
+				id: "1FA080D05180B586"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
+				count: 5
+			}]
+			progression_mode: "flexible"
+			dependencies: ["0E92D5E03492C2F0"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "63A62E73F04DF807"
+				type: "item"
+				item: "immersiveengineering:steel_scaffolding_standard"
+			}]
+			description: [
+				"- Craft Steel Scaffold for preparation of establish complex machines."
+				"- Steel scaffold can be found in certain city structure, or wasteland."
+			]
+			id: "13176364D1E87936"
+			x: 8.5d
+			y: 13.5d
+			progression_mode: "flexible"
+			dependencies: ["6EF1A34390FD3C1A"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "7A1263C218DAFFF3"
+				type: "item"
+				item: "immersiveengineering:rs_engineering"
+			}]
+			id: "6FA0B3F8D01E534A"
+			x: 8.5d
+			y: 2.0d
+			rewards: [{
+				id: "37ECCE5ABB440061"
+				type: "item"
+				item: "immersiveengineering:rs_engineering"
+				count: 5
+			}]
+			progression_mode: "flexible"
+			dependencies: ["3F2E7B8A6EB678BF"]
+			dependency_requirement: "one_started"
+		}
+		{
+			size: 2.0d
+			description: [
+				"- Establish an advance metal press that allows mold to be used."
+				""
+			]
+			rewards: [{
+				id: "3913FAC688B3355F"
+				type: "xp"
+				xp: 1000
+			}]
+			id: "7DC0007559C3B894"
+			x: 13.5d
+			y: 7.5d
+			title: "Establish Metal Press"
+			progression_mode: "flexible"
+			dependencies: [
+				"6FA0B3F8D01E534A"
+				"42C55FD5726D23BD"
+				"7F55475F391163E6"
+				"13176364D1E87936"
+			]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "0FE81F3D2080FD43"
+				type: "advancement"
+				advancement: "immersiveengineering:multiblocks/mb_metalpress"
+				criterion: ""
+			}]
+		}
+		{
+			size: 2.0d
+			description: [
+				"- Establish a Crusher to obtain more ore yields."
+				"- Crusher also allows certain materials to be returned."
+				""
+			]
+			rewards: [{
+				id: "076529FC52A1AD01"
+				type: "xp"
+				xp: 1000
+			}]
+			id: "05C82A38531A1D2D"
+			x: 17.0d
+			y: 6.0d
+			title: "Establish Crusher"
+			progression_mode: "flexible"
+			dependencies: ["7DC0007559C3B894"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "04AEA7988A54A424"
+				type: "advancement"
+				advancement: "immersiveengineering:multiblocks/mb_crusher"
+				criterion: ""
+			}]
+		}
+		{
+			size: 2.0d
+			description: [
+				"- Obtain or craft deployer using vacuum tube."
+				"- Deployer can be often seen in various car services building, even in residential building."
+				"- Deployer offers maximum efficiency in terms of crafting/producing items, it also provides the possibility of making complex item along with the other mechanical tools."
+			]
+			id: "39379D86C5BE24CA"
+			x: 22.0d
+			y: -1.0d
+			rewards: [{
+				id: "58365AB22E252C2F"
+				type: "item"
+				item: "create:deployer"
+				count: 5
+			}]
+			progression_mode: "flexible"
+			dependencies: ["4DB0CE5F3A23663C"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "07A18DDF6848A594"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			tasks: [{
+				id: "19DE8911208ADE64"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "components"
+					}
+				}
+			}]
+			description: [
+				"- Seek for engineer's blueprint specialized for crafting components."
+				"- Blueprint can be found in car services building, or wasteland buildings."
+			]
+			rewards: [{
+				id: "2E7F9D1AA2B00DCE"
+				type: "xp"
+				xp: 300
+			}]
+			id: "7FE314C9C66A6520"
+			x: 13.5d
+			y: -1.0d
+			title: "Component Blueprint"
+			progression_mode: "flexible"
+			dependencies: ["32644F3E6795B2EA"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "409E96716E86452E"
+				type: "item"
+				item: "immersiveengineering:electron_tube"
+			}]
+			description: ["- Craft vacuum tube from the blueprint, or possibly already automate it with existing deployer."]
+			id: "2D0874CDA4299630"
+			x: 16.0d
+			y: -1.0d
+			rewards: [{
+				id: "54B0E700ACD728C2"
+				type: "item"
+				item: "immersiveengineering:electron_tube"
+				count: 7
+			}]
+			progression_mode: "flexible"
+			dependencies: ["7FE314C9C66A6520"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "28CFB12920717B0A"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			description: [
+				"- Obtain or craft a mechanical mixer."
+				"- Mechanical mixer can be found rarely in some buildings."
+			]
+			id: "62844EA40630A6FD"
+			x: 3.5d
+			y: -3.5d
+			rewards: [{
+				id: "34400ABCE6EE97DC"
+				type: "item"
+				item: "create:mechanical_mixer"
+				count: 3
+			}]
+			progression_mode: "flexible"
+			dependencies: ["0C7D31404A74BA99"]
+			dependency_requirement: "one_started"
+		}
+		{
+			size: 2.0d
+			description: [
+				"- Establish an Arc Furnace to obtain more ore yields."
+				"- Arc Furnace also allows the smelting of bauxite possible, opening to more possibilities."
+			]
+			rewards: [{
+				id: "16C084FA8A07C395"
+				type: "xp"
+				xp: 1000
+			}]
+			id: "10CED21604567CE1"
+			x: 17.0d
+			y: 3.0d
+			title: "Establish Arc Furnace"
+			progression_mode: "flexible"
+			dependencies: ["7DC0007559C3B894"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "704E81BF8452728A"
+				type: "advancement"
+				advancement: "immersiveengineering:multiblocks/mb_arcfurnace"
+				criterion: ""
+			}]
+		}
+		{
+			tasks: [{
+				id: "4390650CA270BEBF"
+				type: "item"
+				item: "immersiveengineering:ingot_aluminum"
+			}]
+			description: ["Smelt bauxite ores into aluminum ingot."]
+			id: "45D801CB3DE15F0E"
+			x: 22.5d
+			y: 3.0d
+			rewards: [{
+				id: "6605710CBAA8A099"
+				type: "xp"
+				xp: 1000
+			}]
+			progression_mode: "flexible"
+			dependencies: ["44D5C7DEC835795B"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "1DB41C3DC620A770"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "electrode"
+					}
+				}
+			}]
+			description: ["- Obtain the graphite electrode blueprint from engineer villager house, or inside wasteland warehouses."]
+			rewards: [{
+				id: "3B411C2B3B548179"
+				type: "xp"
+				xp: 1000
+			}]
+			id: "44D5C7DEC835795B"
+			x: 20.0d
+			y: 3.0d
+			title: "Graphite Electrode Blueprint"
+			progression_mode: "flexible"
+			dependencies: ["10CED21604567CE1"]
+			dependency_requirement: "one_started"
+		}
+		{
+			size: 1.5d
+			description: ["- Obtain or craft electronic component to open up more options of automation and quality tools."]
+			rewards: [{
+				id: "78DEF34EB6236F0A"
+				type: "item"
+				item: "immersiveengineering:component_electronic"
+				count: 5
+			}]
+			id: "4DB0CE5F3A23663C"
+			x: 18.5d
+			y: -1.0d
+			title: "Modern Age"
+			progression_mode: "flexible"
+			dependencies: ["2D0874CDA4299630"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "5DD58DF1240F78B2"
+				type: "item"
+				item: "immersiveengineering:component_electronic"
+			}]
+		}
+		{
+			tasks: [{
+				id: "691A827BBB33C918"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "molds"
+					}
+				}
+			}]
+			description: ["- Obtain mold blueprint from car service building or wasteland's factory buildings."]
+			rewards: [{
+				id: "3427752857A51EC4"
+				type: "xp"
+				xp: 500
+			}]
+			id: "0DE95DCF36F5A263"
+			x: 13.5d
+			y: 4.0d
+			title: "Mold Blueprint"
+			progression_mode: "flexible"
+			dependencies: ["7DC0007559C3B894"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "6A7133B48432213E"
+				type: "item"
+				item: "minecraft:torch"
+			}]
+			description: ["- Craft everlasting torches with creosote oils."]
+			rewards: [{
+				id: "5DF6868788003461"
+				type: "item"
+				item: "minecraft:torch"
+				count: 32
+			}]
+			id: "6CDACDFBD540127B"
+			x: -28.5d
+			y: -2.5d
+			title: "Torches!"
+			progression_mode: "flexible"
+			dependencies: ["2B65D23C27219F1F"]
+			dependency_requirement: "one_started"
+		}
+		{
+			size: 2.0d
+			description: [
+				"- Obtain or craft a mechanical crafter for more advanced recipes."
+				"- Mechanical Crafter can be often seen in various car services building, even in residential building."
+			]
+			id: "4B2256A1A93D6B68"
+			x: 22.0d
+			y: -4.0d
+			rewards: [{
+				id: "7B9D8B80E87B17EA"
+				type: "item"
+				item: "create:mechanical_crafter"
+				count: 5
+			}]
+			progression_mode: "flexible"
+			dependencies: ["4DB0CE5F3A23663C"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "2E9FA2C0BE9476E2"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			tasks: [{
+				id: "34A868556F1B5E60"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+			description: [
+				"- Obtain brass ingot from zinc ingots and copper ingots by mixing them together."
+				"- Arc Furnace can do this too!"
+			]
+			id: "3908A84D71E223DA"
+			x: 7.5d
+			y: -4.5d
+			rewards: [{
+				id: "42CF63566C85A7EB"
+				type: "item"
+				item: "create:brass_ingot"
+				count: 16
+			}]
+			progression_mode: "flexible"
+			dependencies: [
+				"675ED502FBA43BE1"
+				"65F8A5181B93FB5B"
+			]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "6736573008B679A4"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			description: [
+				"- Obtain blaze burner."
+				"- Blaze Burner can be often found in kitchen, more commonly in residential buildings."
+			]
+			id: "675ED502FBA43BE1"
+			x: 5.5d
+			y: -3.5d
+			rewards: [{
+				id: "256C17A545C71B39"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			progression_mode: "flexible"
+			dependencies: ["62844EA40630A6FD"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "645B265E2514AD41"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+			}]
+			description: [
+				"- Obtain kiln brick as an alternative option for making alloys."
+				"- Check Alloy Kiln for more information inside Engineer's Manual, Workbenches and Furnaces."
+			]
+			id: "65F8A5181B93FB5B"
+			x: 5.5d
+			y: -5.5d
+			rewards: [{
+				id: "0366DC5B6A8A93E4"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 3
+			}]
+			progression_mode: "flexible"
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "2AFB2430746FF53E"
+				type: "item"
+				title: "Any #forge:bullet_molds"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:bullet_molds"
+					}
+				}
+			}]
+			description: ["Obtain any bullet mold from wasteland factory."]
+			rewards: [{
+				id: "7CF47C6E72B15ADF"
+				type: "xp"
+				xp: 1000
+			}]
+			id: "1B8579AAA8787984"
+			x: 9.0d
+			y: -2.5d
+			shape: "gear"
+			title: "Bullet Molds"
+			progression_mode: "flexible"
+			dependencies: ["3908A84D71E223DA"]
+			dependency_requirement: "one_started"
+		}
+		{
+			size: 2.0d
+			description: [
+				"NOTE: The chapter here will not cover any power generation or stress unit generation, you'll have to figure it out on your own as those are too big of a topic."
+				"NOTE: Most object of how it works can be accessed via Ponder (W) for Create, as for Immersive Engineering, please read the manual book."
+				"NOTE: The guideline here brings you to the quickest path or easy to read path to gain access of your modern weapons."
+			]
+			id: "26B25735E53C386A"
+			icon: "minecraft:barrier"
+			x: -8.0d
+			y: -5.0d
+			rewards: [{
+				id: "588319C9BCBAFF78"
+				type: "xp"
+				xp: 100
+			}]
+			progression_mode: "flexible"
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "0E5DE8615F155F18"
+				type: "checkmark"
+				title: "Power Generation"
+			}]
+		}
+		{
+			tasks: [{
+				id: "0CFB18862691D08F"
+				type: "item"
+				title: "Any #forge:bullet_casing"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:bullet_casing"
+					}
+				}
+			}]
+			description: ["- Press the brass ingots with Metal Press along with Bullet Mold to produce bullet casings."]
+			rewards: [{
+				id: "64DC087F2BE11520"
+				type: "xp"
+				xp: 1000
+			}]
+			id: "50906AC9B6D24489"
+			x: 11.0d
+			y: -2.5d
+			shape: "gear"
+			title: "Bullet Casings"
+			progression_mode: "flexible"
+			dependencies: ["1B8579AAA8787984"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "3ED3789E975704E5"
+				type: "item"
+				title: "Any #forge:bullets"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:bullets"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7E924156E3E5698F"
+				type: "xp"
+				xp: 1000
+			}]
+			id: "7EEE4CC6A5917FEF"
+			x: 13.0d
+			y: -2.5d
+			shape: "gear"
+			title: "Bullets"
+			progression_mode: "flexible"
+			dependencies: ["50906AC9B6D24489"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "4B42B5A1D09667EE"
+				type: "item"
+				item: "immersiveengineering:empty_casing"
+			}]
+			description: ["- Craft empty casing for producing ammunition to revolver or turret."]
+			id: "72F0657C9EB99B19"
+			x: 9.0d
+			y: -6.5d
+			shape: "gear"
+			rewards: [{
+				id: "79BE0E78960B67C8"
+				type: "xp"
+				xp: 1000
+			}]
+			progression_mode: "flexible"
+			dependencies: ["3908A84D71E223DA"]
+			dependency_requirement: "one_started"
+		}
+		{
+			size: 1.3d
+			description: ["- Obtain or craft a gun turret to protect your base from horde."]
+			rewards: [{
+				id: "14770C1AE8D16EEC"
+				type: "item"
+				item: "immersiveengineering:turret_gun"
+				count: 3
+			}]
+			id: "5DE6F95A8986626A"
+			x: 14.0d
+			y: -6.5d
+			shape: "gear"
+			title: "Tower Defense - I"
+			progression_mode: "flexible"
+			dependencies: [
+				"3B0710527D27BA30"
+				"7FA1F3BC28233F67"
+			]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "62E32C73B393C439"
+				type: "item"
+				item: "immersiveengineering:turret_gun"
+			}]
+		}
+		{
+			tasks: [{
+				id: "214FE7AC8C47ECD8"
+				type: "item"
+				title: "Any #forge:turret_cartridge"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:turret_cartridge"
+					}
+				}
+			}]
+			description: ["- Produce any ammunition for the gun turret to fire."]
+			rewards: [{
+				id: "45D5927966CCB9E4"
+				type: "xp"
+				xp: 1000
+			}]
+			id: "7FA1F3BC28233F67"
+			x: 11.0d
+			y: -6.5d
+			shape: "gear"
+			title: "Ammunitions"
+			progression_mode: "flexible"
+			dependencies: ["72F0657C9EB99B19"]
+			dependency_requirement: "one_started"
+		}
+		{
+			size: 1.3d
+			description: ["- Craft tesla coil to protect your base from horde invasion."]
+			rewards: [{
+				id: "31CCFB0EA4946012"
+				type: "item"
+				item: "immersiveengineering:tesla_coil"
+				count: 3
+			}]
+			id: "1AC148339A4B304F"
+			x: 14.0d
+			y: -5.0d
+			shape: "gear"
+			title: "Tower Defense - II"
+			progression_mode: "flexible"
+			dependencies: ["3B0710527D27BA30"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "14B853A302D376B5"
+				type: "item"
+				item: "immersiveengineering:tesla_coil"
+			}]
+		}
+		{
+			size: 1.3d
+			description: ["- Craft Chemthrower Turret to light the enemies up."]
+			rewards: [{
+				id: "0B17C16A5016E09B"
+				type: "item"
+				item: "immersiveengineering:turret_chem"
+				count: 3
+			}]
+			id: "2ACC82D05EE8F01B"
+			x: 14.0d
+			y: -8.0d
+			shape: "gear"
+			title: "Tower Defense - III"
+			progression_mode: "flexible"
+			dependencies: ["3B0710527D27BA30"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "26735B6267F6D5EA"
+				type: "item"
+				item: "immersiveengineering:turret_chem"
+			}]
+		}
+		{
+			size: 1.5d
+			description: ["- Produce advance electronic component for certain equipments and defense related objects."]
+			id: "3B0710527D27BA30"
+			x: 16.0d
+			y: -6.5d
+			rewards: [{
+				id: "1F0DB7A12787B212"
+				type: "item"
+				item: "immersiveengineering:component_electronic_adv"
+				count: 3
+			}]
+			progression_mode: "flexible"
+			dependencies: ["2D0874CDA4299630"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "44C52D9AD0141589"
+				type: "item"
+				item: "immersiveengineering:component_electronic_adv"
+			}]
+		}
+		{
+			size: 2.0d
+			description: ["- Establish mixer to produce liquid concrete for derrick to function."]
+			rewards: [{
+				id: "5FAA9FD265F5C066"
+				type: "item"
+				item: "immersiveengineering:fluid_pipe"
+				count: 32
+			}]
+			id: "5771276C1A3B3B9D"
+			x: 17.0d
+			y: 14.0d
+			title: "Establish Mixer"
+			progression_mode: "flexible"
+			dependencies: ["7DC0007559C3B894"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "32A93C4E8225C8E8"
+				type: "advancement"
+				advancement: "immersiveengineering:multiblocks/mb_fermenter"
+				criterion: ""
+			}]
+		}
+		{
+			size: 2.0d
+			description: ["- Establish a derrick above an oil reservoir after secured the production of liquid concrete."]
+			rewards: [
+				{
+					id: "6BE8508F150C2BEE"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "79B6BB7F142E1821"
+					type: "item"
+					item: "immersiveengineering:metal_barrel"
+					count: 6
+				}
+			]
+			id: "0DDEF7E997A0CC90"
+			x: 20.0d
+			y: 14.0d
+			title: "Establish Derrick"
+			progression_mode: "flexible"
+			dependencies: [
+				"5771276C1A3B3B9D"
+				"16AFD673D858F887"
+			]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "1072A517666F137E"
+				type: "advancement"
+				advancement: "immersivepetroleum:main/mb_derrick"
+				criterion: ""
+			}]
+		}
+		{
+			size: 2.0d
+			description: ["- Establish Pumpjack after Derrick finished drilling."]
+			rewards: [{
+				id: "2FE461169E0D6729"
+				type: "xp"
+				xp: 2000
+			}]
+			id: "5DD3F9AB69BBAB11"
+			x: 23.0d
+			y: 17.0d
+			title: "Establish Pumpjack"
+			progression_mode: "flexible"
+			dependencies: ["0DDEF7E997A0CC90"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "0244759D9E1CBA72"
+				type: "item"
+				item: "immersivepetroleum:pumpjack"
+			}]
+		}
+		{
+			size: 2.0d
+			description: ["- Establish Distillation Tower to process oils."]
+			rewards: [
+				{
+					id: "46242CF2E5574AD5"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					id: "4339DBF86301A010"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 64
+				}
+			]
+			id: "180EDC8D0CB63D36"
+			x: 30.0d
+			y: 14.0d
+			title: "Establish Distillation Tower"
+			progression_mode: "flexible"
+			dependencies: ["27681F0A88453160"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "13EE691DFF2AF1C0"
+				type: "advancement"
+				advancement: "immersivepetroleum:main/mb_distillationtower"
+				criterion: ""
+			}]
+		}
+		{
+			size: 2.0d
+			description: ["Craft a seismic survey tool to seek for oil reservoir."]
+			id: "16AFD673D858F887"
+			x: 17.0d
+			y: 17.0d
+			rewards: [{
+				id: "183281DEF9486B15"
+				type: "item"
+				item: "immersiveengineering:buckshot"
+				count: 12
+			}]
+			progression_mode: "flexible"
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "6EEE846049D190B6"
+				type: "item"
+				item: "immersivepetroleum:seismic_survey"
+			}]
+		}
+		{
+			size: 2.0d
+			description: ["Establish Oil Tank to store the oil."]
+			rewards: [{
+				id: "7807CCC7E8332310"
+				type: "xp"
+				xp: 2000
+			}]
+			id: "27681F0A88453160"
+			x: 26.0d
+			y: 14.0d
+			title: "Establish Oil Tank"
+			progression_mode: "flexible"
+			dependencies: [
+				"5DD3F9AB69BBAB11"
+				"0DDEF7E997A0CC90"
+			]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "1BB724656188C891"
+				type: "advancement"
+				advancement: "immersivepetroleum:main/mb_oiltank"
+				criterion: ""
+			}]
+		}
+		{
+			size: 2.0d
+			description: ["Establish Refinery to process phenolic resin to get plastic."]
+			rewards: [{
+				id: "26432E92BF4E9668"
+				type: "xp"
+				xp: 1000
+			}]
+			id: "3AB145C15C3ED5EB"
+			x: 17.0d
+			y: 9.0d
+			title: "Establish Refinery"
+			progression_mode: "flexible"
+			dependencies: ["7DC0007559C3B894"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "5550A3255A885C23"
+				type: "advancement"
+				advancement: "immersiveengineering:multiblocks/mb_refinery"
+				criterion: ""
+			}]
+		}
+		{
+			tasks: [{
+				id: "04504458661DAFE7"
+				type: "item"
+				item: "immersiveengineering:plate_duroplast"
+			}]
+			description: ["Obtain plastic from refinery."]
+			id: "76C282B413F15402"
+			x: 20.0d
+			y: 9.0d
+			rewards: [{
+				id: "2B73997D06B21484"
+				type: "item"
+				item: "immersiveengineering:plate_duroplast"
+				count: 12
+			}]
+			progression_mode: "flexible"
+			dependencies: ["3AB145C15C3ED5EB"]
+			dependency_requirement: "one_started"
+		}
+		{
+			size: 2.0d
+			description: ["Establish High Pressure Refinery to process the liquid into products, or refined liquids."]
+			rewards: [{
+				id: "6739A5D287E2CF05"
+				type: "xp"
+				xp: 4000
+			}]
+			id: "7B913F9BCBF89D7F"
+			x: 33.5d
+			y: 14.0d
+			title: "Establish High Pressure Refinery"
+			progression_mode: "flexible"
+			dependencies: ["180EDC8D0CB63D36"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "2ECD8410BD38F08A"
+				type: "advancement"
+				advancement: "immersivepetroleum:main/mb_hydrotreater"
+				criterion: ""
+			}]
+		}
+		{
+			tasks: [{
+				id: "381028E92259D2AD"
+				type: "item"
+				item: "contenttweaker:polyethylene"
+			}]
+			description: [
+				"- Obtain polyethylene from processing ethylene."
+				"- Polyethylene can be processed inside Arc Furnace to become high resistant material."
+				"- Polyethylene can be processed with Steel Ingot inside Arc Furnace to produce toughest material."
+			]
+			id: "11B026939B6916F3"
+			x: 36.0d
+			y: 15.0d
+			rewards: [{
+				id: "3A96C4288177787E"
+				type: "item"
+				item: "contenttweaker:polyethylene"
+				count: 12
+			}]
+			progression_mode: "flexible"
+			dependencies: ["7B913F9BCBF89D7F"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "6EB35079F8EDCC32"
+				type: "item"
+				item: "contenttweaker:rubber"
+			}]
+			description: ["Obtain rubber from processing ethylene and propylene together."]
+			id: "0E7E75D17A8E4BB3"
+			x: 36.0d
+			y: 13.0d
+			rewards: [{
+				id: "053AE73B2B8DAC96"
+				type: "item"
+				item: "contenttweaker:rubber"
+				count: 12
+			}]
+			progression_mode: "flexible"
+			dependencies: ["7B913F9BCBF89D7F"]
+			dependency_requirement: "one_started"
+		}
+		{
+			size: 2.0d
+			description: ["Few guns are available to craft now."]
+			rewards: [{
+				id: "275E4F15004A816C"
+				type: "xp"
+				xp: 500
+			}]
+			id: "06E2C8716FB2FA2B"
+			icon: {
+				id: "cgm:pistol"
+				Count: 1b
+				tag: {
+					AmmoCount: 16
+				}
+			}
+			x: 13.5d
+			y: 14.0d
+			title: "Modern Weapons - I"
+			progression_mode: "flexible"
+			dependencies: ["7DC0007559C3B894"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "52B7E371447A4E80"
+				type: "checkmark"
+			}]
+		}
+		{
+			size: 2.0d
+			description: ["All guns should be available now if you reached here."]
+			rewards: [{
+				id: "191CD2414D94B113"
+				type: "xp"
+				xp: 4000
+			}]
+			id: "714649E139F8EC70"
+			icon: {
+				id: "cgm:bazooka"
+				Count: 1b
+				tag: {
+					AmmoCount: 1
+				}
+			}
+			x: 36.0d
+			y: 3.0d
+			title: "Modern Weapons - II"
+			progression_mode: "flexible"
+			dependencies: [
+				"0E7E75D17A8E4BB3"
+				"45D801CB3DE15F0E"
+			]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "5DC08069CAF566C0"
+				type: "checkmark"
+			}]
+		}
+	]
+}
