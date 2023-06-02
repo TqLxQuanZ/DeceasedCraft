@@ -2,7 +2,7 @@
 #Increase melee damage
 [strength]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 20
 	#Range: > 1
 	costPerLevel = 40
 	#Range: 0.0 ~ 1.7976931348623157E308
@@ -12,7 +12,7 @@
 #Increase critical chance
 [criticalstrike]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 20
 	#Range: > 1
 	costPerLevel = 50
 	#Range: 0.0 ~ 1.0
@@ -76,11 +76,11 @@
 #Chance to gather extra crops on harvest
 [harvestproficiency]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 20
 	#Range: > 1
 	costPerLevel = 50
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.075
+	bonusPerLevel = 0.05
 	#Range: 0.0 ~ 1.7976931348623157E308
 	potentialLootBound = 1.0
 	prerequisites = "green_thumb:4"
@@ -100,7 +100,7 @@
 #Chance to drop extra meat from animals
 [meatgathering]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 20
 	#Range: > 1
 	costPerLevel = 50
 	#Range: 0.0 ~ 1.7976931348623157E308
@@ -142,11 +142,11 @@
 #Chance to increase yield from ores
 [prospecting]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 20
 	#Range: > 1
 	costPerLevel = 50
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.075
+	bonusPerLevel = 0.05
 	#Range: 0.0 ~ 1.7976931348623157E308
 	potentialLootBound = 1.0
 	prerequisites = "stonecutting:4"
@@ -180,11 +180,11 @@
 #Decrease fall damage taken
 [softlanding]
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 20
 	#Range: > 1
 	costPerLevel = 20
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.035
+	bonusPerLevel = 0.02
 	prerequisites = ""
 
 #Increase movement speed while sprinting
