@@ -86,6 +86,7 @@ craftingTable.addShaped("fridge_dark", <item:cfm:fridge_dark>,
 
 // Can
 <recipetype:create:pressing>.addRecipe("can_press", [<item:arsenals_of_the_apocalypse:can>], <tag:items:forge:plates/aluminum>, 256);
+craftingTable.addShapeless("unpack_gunpowder_can", <item:minecraft:gunpowder> * 4, [<item:arsenals_of_the_apocalypse:gunpowder_can>]);
 
 // Canned Beetroot
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("canned_beetroot")
