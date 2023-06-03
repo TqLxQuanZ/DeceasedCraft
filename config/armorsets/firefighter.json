@@ -1,0 +1,27 @@
+{
+  "armorSetName": "Fire Fighter",
+  "head": {
+    "itemKey": "arsenals_of_the_apocalypse:fire_figther_helmet"
+  },
+  "chest": {
+    "itemKey": "arsenals_of_the_apocalypse:fire_figther_chestplate"
+  },
+  "legs": {
+    "itemKey": "arsenals_of_the_apocalypse:fire_figther_leggings"
+  },
+  "boots": {
+    "itemKey": "arsenals_of_the_apocalypse:fire_figther_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:fire_resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 100.0,
+      "description": "Grants Fire Resistance",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

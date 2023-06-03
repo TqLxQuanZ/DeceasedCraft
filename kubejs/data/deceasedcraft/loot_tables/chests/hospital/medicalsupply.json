@@ -99,12 +99,24 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "arsenals_of_the_apocalypse:hazmat_suit_helmet"
+          "name": "arsenals_of_the_apocalypse:hazmat_suit_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "arsenals_of_the_apocalypse:gas_mask_helmet"
+          "name": "arsenals_of_the_apocalypse:gas_mask_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         }
       ]
     }
