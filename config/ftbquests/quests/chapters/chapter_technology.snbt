@@ -1072,7 +1072,7 @@
 			description: [
 				"NOTE: The chapter here will not cover any power generation or stress unit generation, you'll have to figure it out on your own as those are too big of a topic."
 				"NOTE: Most object of how it works can be accessed via Ponder (W) for Create, as for Immersive Engineering, please read the manual book."
-				"NOTE: The guideline here brings you to the quickest path or easy to read path to gain access of your modern weapons."
+				"NOTE: The guideline here brings you to the quickest path or easy to read path to gain access of your modern weapons and armor."
 			]
 			id: "26B25735E53C386A"
 			icon: "minecraft:barrier"
@@ -1132,6 +1132,10 @@
 					}
 				}
 			}]
+			description: [
+				"- Obtain bullets and start shooting zombies."
+				"- Bullet can also be found through various buildings, or possibly zombies."
+			]
 			rewards: [{
 				id: "7E924156E3E5698F"
 				type: "xp"
@@ -1597,11 +1601,104 @@
 			dependencies: [
 				"0E7E75D17A8E4BB3"
 				"45D801CB3DE15F0E"
+				"2EDE7DC73385DE10"
 			]
 			dependency_requirement: "one_started"
+			tasks: [
+				{
+					id: "05C484A304138695"
+					type: "item"
+					item: "immersiveengineering:ingot_aluminum"
+				}
+				{
+					id: "20E5E93C50DEE5BB"
+					type: "item"
+					item: "create:precision_mechanism"
+				}
+				{
+					id: "626E3889CB63A820"
+					type: "item"
+					item: "contenttweaker:rubber"
+				}
+			]
+		}
+		{
 			tasks: [{
-				id: "5DC08069CAF566C0"
-				type: "checkmark"
+				id: "7493441E5AD23ABE"
+				type: "item"
+				item: "contenttweaker:resistant_fiber"
+			}]
+			description: ["- Obtain high-resistance fiber from smelting Polyethylene inside Arc Furnace."]
+			id: "7A52C4331635B6B0"
+			x: 38.0d
+			y: 14.0d
+			rewards: [{
+				id: "129E2D1C2F5F8E41"
+				type: "item"
+				item: "contenttweaker:resistant_fiber"
+				count: 5
+			}]
+			progression_mode: "flexible"
+			dependencies: ["11B026939B6916F3"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "022D740F0A8BD8D2"
+				type: "item"
+				item: "contenttweaker:high_carbon_steel_alloy"
+			}]
+			description: [
+				"- Obtain a high carbon steel alloy from merging Polyethylene with Steel Ingot inside Arc Furnace."
+				"- Carbon Steel Alloy also can be found in wasteland buildings."
+			]
+			rewards: [{
+				id: "263CF781DEFC90EB"
+				type: "item"
+				item: "contenttweaker:high_carbon_steel_alloy"
+				count: 2
+			}]
+			id: "1E77B8614098F8A9"
+			x: 38.0d
+			y: 16.0d
+			title: "High Carbon Steel Alloy"
+			progression_mode: "flexible"
+			dependencies: ["11B026939B6916F3"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "66624820911687C9"
+				type: "item"
+				item: "contenttweaker:resistant_fabric"
+			}]
+			description: ["- Combine 4 resistant fiber into a fabric for high grade armors."]
+			id: "2662272B9106DB94"
+			x: 40.0d
+			y: 14.0d
+			rewards: [{
+				id: "66DBE6FFBFDEE32A"
+				type: "item"
+				item: "contenttweaker:resistant_fabric"
+				count: 3
+			}]
+			progression_mode: "flexible"
+			dependencies: ["7A52C4331635B6B0"]
+			dependency_requirement: "one_started"
+		}
+		{
+			size: 1.5d
+			description: ["- Obtain or craft precision mechanism to access more gun crafting possibilities, as well as cars and automation tools."]
+			id: "2EDE7DC73385DE10"
+			x: 25.5d
+			y: -1.0d
+			progression_mode: "flexible"
+			dependencies: ["39379D86C5BE24CA"]
+			dependency_requirement: "one_started"
+			tasks: [{
+				id: "2BFEE9B5147DD8F7"
+				type: "item"
+				item: "create:precision_mechanism"
 			}]
 		}
 	]
