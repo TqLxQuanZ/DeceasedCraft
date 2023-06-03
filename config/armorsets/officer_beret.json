@@ -36,6 +36,12 @@
       "modifierUUID": "c37558d0-b8e1-4a1b-886e-0532f3b6eee5",
       "description": "Grants 1.0 Knockback Strength",
       "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "interactionType": "immunity",
+      "description": "Grants Weakness Immunity"
     }
   ],
   "hideGeneratedTooltip": false

@@ -1,8 +1,5 @@
 {
   "armorSetName": "Spec Ops",
-  "head": {
-    "itemKey": "arsenals_of_the_apocalypse:spec_ops_helmet"
-  },
   "chest": {
     "itemKey": "arsenals_of_the_apocalypse:spec_ops_chestplate"
   },
@@ -52,6 +49,12 @@
       "modifierUUID": "0e2f25e1-e2d7-420f-ab01-31382cedbedf",
       "description": "Grants 0.5 Knockback Strength",
       "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "interactionType": "immunity",
+      "description": "Grants Weakness Immunity"
     }
   ],
   "hideGeneratedTooltip": false

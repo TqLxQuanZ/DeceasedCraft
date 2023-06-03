@@ -44,7 +44,7 @@
 			#Enables/Disables this debuff
 			enabled = true
 			#How much health the user must have left for the debuff to apply at the mapped length. Must be sorted so the **lowest** value comes first
-			healthPercentageLeft = [0.15, 0.25, 0.4]
+			healthPercentageLeft = [0.15, 0.25, 0.5]
 			#How strong the potion effect should stay. If the first condition from the healthPercentageLeft config is met, the first value in this list will be taken
 			debuffStrength = [3, 2, 1]
 
@@ -54,7 +54,7 @@
 			#Enables/Disables this debuff
 			enabled = true
 			#How much health the user must have left for the debuff to apply at the mapped length. Must be sorted so the **lowest** value comes first
-			healthPercentageLeft = [0.15, 0.25, 0.4]
+			healthPercentageLeft = [0.15, 0.25, 0.5]
 			#How strong the potion effect should stay. If the first condition from the healthPercentageLeft config is met, the first value in this list will be taken
 			debuffStrength = [3, 2, 1]
 

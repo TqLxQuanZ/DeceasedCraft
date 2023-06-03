@@ -18,3 +18,4 @@ import crafttweaker.api.tag.MCTag;
 <tag:blocks:lostcities:lights>.add(<block:quark:paper_lantern_sakura>);
 <tag:blocks:lostcities:lights>.add(<block:quark:paper_lantern>);
 <tag:blocks:lostcities:lights>.add(<block:quark:blaze_lantern>);
+<tag:blocks:lostcities:lights>.add(<block:immersiveengineering:lantern>);

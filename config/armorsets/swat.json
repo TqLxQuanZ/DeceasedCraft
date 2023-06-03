@@ -32,6 +32,12 @@
       "modifierUUID": "87ceec89-e098-4b18-8fa3-310104e3defd",
       "description": "Grants 0.5 Attack Speed",
       "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "interactionType": "immunity",
+      "description": "Grants Weakness Immunity"
     }
   ],
   "hideGeneratedTooltip": false
