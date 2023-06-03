@@ -23,8 +23,8 @@
 			}]
 			id: "40F0383D38357596"
 			icon: "cold_sweat:boiler"
-			x: -12.5d
-			y: -4.0d
+			x: -9.5d
+			y: 2.5d
 			title: "Warm Me Up"
 			progression_mode: "flexible"
 			dependency_requirement: "one_started"
@@ -33,7 +33,7 @@
 		}
 		{
 			size: 1.5d
-			x: -14.5d
+			x: -11.5d
 			icon: "cold_sweat:thermometer"
 			tasks: [{
 				id: "52C47DD83529893F"
@@ -51,7 +51,7 @@
 			}]
 			id: "0ECF9BD806718584"
 			shape: "hexagon"
-			y: -2.5d
+			y: 4.0d
 			title: "What Temp is it?"
 			progression_mode: "flexible"
 			dependencies: ["0E39D9CB81AD62AA"]
@@ -71,8 +71,8 @@
 			}]
 			id: "1103247BD5316FAE"
 			icon: "cold_sweat:icebox"
-			x: -12.5d
-			y: -1.0d
+			x: -9.5d
+			y: 5.5d
 			title: "Calm Me Down"
 			progression_mode: "flexible"
 			dependencies: ["0ECF9BD806718584"]
@@ -89,8 +89,8 @@
 			}]
 			id: "6D09D0FC40082C0E"
 			icon: "cold_sweat:sewing_table"
-			x: -14.5d
-			y: -7.5d
+			x: -11.5d
+			y: -1.5d
 			title: "Insulating Armor"
 			progression_mode: "flexible"
 			dependencies: ["0ECF9BD806718584"]
@@ -103,7 +103,7 @@
 		}
 		{
 			size: 1.5d
-			x: -11.0d
+			x: -8.0d
 			icon: "cold_sweat:hearth"
 			tasks: [{
 				id: "0143BA16EDEDF12F"
@@ -118,7 +118,7 @@
 			}]
 			id: "0B850D8AF2552F83"
 			shape: "gear"
-			y: -2.5d
+			y: 4.0d
 			title: "Best Of Both Worlds"
 			progression_mode: "flexible"
 			dependencies: ["0ECF9BD806718584"]
@@ -156,7 +156,7 @@
 		}
 		{
 			size: 1.5d
-			x: -27.75d
+			x: -26.25d
 			icon: "minecraft:cooked_beef"
 			optional: true
 			tasks: [{
@@ -175,14 +175,14 @@
 			}]
 			id: "030EDE9A94F537B5"
 			shape: "square"
-			y: 0.75d
+			y: -9.75d
 			title: "Better Foods, Better Health"
 			progression_mode: "flexible"
 			can_repeat: true
 		}
 		{
 			size: 1.5d
-			x: -27.75d
+			x: -26.25d
 			icon: "minecraft:player_head"
 			optional: true
 			tasks: [{
@@ -197,14 +197,14 @@
 			}]
 			id: "07B42E396E51A597"
 			shape: "square"
-			y: -1.5d
+			y: -12.0d
 			title: "Parkour!"
 			progression_mode: "flexible"
 			can_repeat: true
 		}
 		{
 			size: 1.5d
-			x: -30.0d
+			x: -28.5d
 			icon: "immersiveengineering:manual"
 			optional: true
 			tasks: [{
@@ -223,7 +223,7 @@
 			}]
 			id: "3FFD3BC48E8A6C65"
 			shape: "square"
-			y: 0.75d
+			y: -9.75d
 			title: "Veteran Engineer"
 			progression_mode: "flexible"
 			can_repeat: true
@@ -318,8 +318,8 @@
 				xp: 20
 			}]
 			id: "31B67FE45DCD97BF"
-			x: -12.5d
-			y: -7.5d
+			x: -9.5d
+			y: -1.5d
 			title: "That Hits The Spot - I"
 			progression_mode: "flexible"
 			dependencies: ["6D09D0FC40082C0E"]
@@ -345,8 +345,8 @@
 				xp: 30
 			}]
 			id: "7D4A2114B3C0BC8C"
-			x: -11.0d
-			y: -7.5d
+			x: -8.0d
+			y: -1.5d
 			title: "That Hits The Spot - II"
 			progression_mode: "flexible"
 			dependencies: ["31B67FE45DCD97BF"]
@@ -365,8 +365,8 @@
 				xp: 40
 			}]
 			id: "79AD3CAC8C46F7CA"
-			x: -9.5d
-			y: -7.5d
+			x: -6.5d
+			y: -1.5d
 			title: "That Hits The Spot - III"
 			progression_mode: "flexible"
 			dependencies: ["7D4A2114B3C0BC8C"]
@@ -388,8 +388,8 @@
 				xp: 500
 			}]
 			id: "66A5D0E80ED3139E"
-			x: -8.0d
-			y: -7.5d
+			x: -5.0d
+			y: -1.5d
 			title: "Questionable Choice"
 			progression_mode: "flexible"
 			dependencies: ["79AD3CAC8C46F7CA"]
@@ -408,8 +408,8 @@
 				xp: 20
 			}]
 			id: "4E531BEB54C852AB"
-			x: -12.5d
-			y: -6.0d
+			x: -9.5d
+			y: 0.0d
 			title: "Too Hot - I"
 			progression_mode: "flexible"
 			dependencies: ["6D09D0FC40082C0E"]
@@ -428,8 +428,8 @@
 				xp: 30
 			}]
 			id: "507D2E6660BE32A5"
-			x: -11.0d
-			y: -6.0d
+			x: -8.0d
+			y: 0.0d
 			title: "Too Hot - II"
 			progression_mode: "flexible"
 			dependencies: ["4E531BEB54C852AB"]
@@ -448,8 +448,8 @@
 				xp: 40
 			}]
 			id: "52721EF7743F31F0"
-			x: -9.5d
-			y: -6.0d
+			x: -6.5d
+			y: 0.0d
 			title: "Too Hot - III"
 			progression_mode: "flexible"
 			dependencies: ["507D2E6660BE32A5"]
@@ -468,8 +468,8 @@
 				xp: 100
 			}]
 			id: "7583E2FC526DEEE4"
-			x: -8.0d
-			y: -6.0d
+			x: -5.0d
+			y: 0.0d
 			title: "Too Hot - IV"
 			progression_mode: "flexible"
 			dependencies: ["52721EF7743F31F0"]
@@ -488,8 +488,8 @@
 				xp: 20
 			}]
 			id: "7428268308957A20"
-			x: -12.5d
-			y: -9.0d
+			x: -9.5d
+			y: -3.0d
 			title: "Too Cold - I"
 			progression_mode: "flexible"
 			dependencies: ["6D09D0FC40082C0E"]
@@ -508,8 +508,8 @@
 				xp: 30
 			}]
 			id: "77B024C0018D1CAD"
-			x: -11.0d
-			y: -9.0d
+			x: -8.0d
+			y: -3.0d
 			title: "Too Cold - II"
 			progression_mode: "flexible"
 			dependencies: ["7428268308957A20"]
@@ -528,8 +528,8 @@
 				xp: 40
 			}]
 			id: "58197952A086E130"
-			x: -9.5d
-			y: -9.0d
+			x: -6.5d
+			y: -3.0d
 			title: "Too Cold - III"
 			progression_mode: "flexible"
 			dependencies: ["77B024C0018D1CAD"]
@@ -548,8 +548,8 @@
 				xp: 100
 			}]
 			id: "3A4395529CCEB038"
-			x: -8.0d
-			y: -9.0d
+			x: -5.0d
+			y: -3.0d
 			title: "Too Cold - IV"
 			progression_mode: "flexible"
 			dependencies: ["58197952A086E130"]
@@ -566,8 +566,8 @@
 					"patchouli:book": "simpleplanes:planes_book"
 				}
 			}
-			x: -30.0d
-			y: -1.5d
+			x: -28.5d
+			y: -12.0d
 			shape: "square"
 			title: "Pilot"
 			rewards: [{
@@ -667,7 +667,7 @@
 			]
 			id: "2E94AD6C6573EE85"
 			x: -21.75d
-			y: -8.75d
+			y: -8.25d
 			shape: "square"
 			title: "Desperate Measure"
 			progression_mode: "flexible"
@@ -688,8 +688,8 @@
 					Damage: 0
 				}
 			}
-			x: -27.75d
-			y: 3.0d
+			x: -26.25d
+			y: -7.5d
 			shape: "square"
 			title: "Specialist"
 			rewards: [
@@ -860,8 +860,8 @@
 				xp: 30
 			}]
 			id: "3890D6E35528C1F6"
-			x: -14.5d
-			y: 0.0d
+			x: -11.5d
+			y: 6.5d
 			title: "Waterskin"
 			progression_mode: "flexible"
 			dependencies: ["0ECF9BD806718584"]
@@ -872,11 +872,12 @@
 			description: [
 				"- It is known that all zombies have the ability to infect their victims upon making contact with them during an attack."
 				"- Be caution when approaching them."
+				"- Certain armor can prevent the infection to happen."
 			]
 			id: "7903466341771D44"
 			icon: "minecraft:zombie_head"
 			x: -19.5d
-			y: -8.75d
+			y: -8.25d
 			shape: "square"
 			title: "Unavoidable Infection"
 			progression_mode: "flexible"
@@ -900,7 +901,7 @@
 		}
 		{
 			size: 1.5d
-			x: -30.0d
+			x: -28.5d
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -927,7 +928,7 @@
 			}]
 			id: "5AD6FE029629DD2D"
 			shape: "square"
-			y: 3.0d
+			y: -7.5d
 			title: "Encyclopedia of Life"
 			progression_mode: "flexible"
 			dependency_requirement: "one_started"
@@ -1008,7 +1009,7 @@
 			id: "06E0BE2AB65764B5"
 			icon: "another_furniture:oak_bench"
 			x: -24.0d
-			y: -8.75d
+			y: -8.25d
 			shape: "square"
 			rewards: [
 				{
@@ -1035,14 +1036,40 @@
 			description: ["All the chapters inside the quest book is completely optional, it act as a guide for players who don't know what are they doing."]
 			id: "55F6301B24228DBC"
 			icon: "minecraft:paper"
-			x: -29.0d
-			y: -10.0d
+			x: -21.0d
+			y: -15.0d
 			shape: "square"
 			title: "READ ME HERE"
 			progression_mode: "flexible"
 			dependency_requirement: "one_started"
 			tasks: [{
 				id: "49943D2004D61EBF"
+				type: "checkmark"
+			}]
+		}
+		{
+			size: 1.5d
+			description: [
+				"- All food spoils over time, emphasizing the importance of preserving it to ensure your survival."
+				"- Look for coolers or fridges in buildings to store your food, or consider crafting them if you have the necessary materials."
+				"- By properly storing your food, you can extend its shelf life and maintain a reliable source of sustenance in the challenging post-apocalyptic world."
+			]
+			id: "006CC8932263DC38"
+			icon: "minecraft:rotten_flesh"
+			x: -17.25d
+			y: -8.25d
+			shape: "square"
+			title: "Food Spoils!"
+			progression_mode: "flexible"
+			dependency_requirement: "one_started"
+			rewards: [{
+				id: "3FDB13B315DB1352"
+				type: "item"
+				item: "minecraft:apple"
+				count: 3
+			}]
+			tasks: [{
+				id: "739B7465B93FCF77"
 				type: "checkmark"
 			}]
 		}
