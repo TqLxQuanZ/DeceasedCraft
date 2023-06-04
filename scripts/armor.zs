@@ -169,6 +169,8 @@ craftingTable.addShapedMirrored("t1_desertghillie_boots", <constant:minecraft:mi
     [[<tag:items:forge:sand>, <item:minecraft:leather_boots>, <tag:items:forge:sand>],
     [<tag:items:forge:string>, <item:minecraft:air>, <tag:items:forge:string>]]);
 
+<tag:items:forge:ghilliesuits>.add(<item:arsenals_of_the_apocalypse:desertghillie_chestplate>);
+
 // Snow Ghillie Set - + Blend with Environment by default
 
 craftingTable.remove(<item:arsenals_of_the_apocalypse:snowghillie_helmet>);
@@ -194,6 +196,8 @@ craftingTable.addShapedMirrored("t1_snowghillie_boots", <constant:minecraft:mirr
     [[<item:minecraft:snow_block>, <item:minecraft:leather_boots>, <item:minecraft:snow_block>],
     [<tag:items:forge:string>, <item:minecraft:air>, <tag:items:forge:string>]]);
     
+<tag:items:forge:ghilliesuits>.add(<item:arsenals_of_the_apocalypse:snowghillie_chestplate>);
+
 // Ghillie Set - + Blend with Environment by default
 
 craftingTable.remove(<item:arsenals_of_the_apocalypse:ghilliesuit_helmet>);
@@ -202,23 +206,25 @@ craftingTable.remove(<item:arsenals_of_the_apocalypse:ghilliesuit_leggings>);
 craftingTable.remove(<item:arsenals_of_the_apocalypse:ghilliesuit_boots>);
 
 craftingTable.addShapedMirrored("t1_ghilliesuit_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:ghilliesuit_helmet>,
-    [[<tag:items:forge:string>, <item:minecraft:snow_block>, <tag:items:forge:string>],
-    [<item:minecraft:snow_block>, <item:minecraft:leather_helmet>, <item:minecraft:snow_block>]]);
+    [[<tag:items:forge:string>, <tag:items:minecraft:leaves>, <tag:items:forge:string>],
+    [<tag:items:minecraft:leaves>, <item:minecraft:leather_helmet>, <tag:items:minecraft:leaves>]]);
 
 craftingTable.addShaped("t1_ghilliesuit_chestplate", <item:arsenals_of_the_apocalypse:ghilliesuit_chestplate>,
-    [[<item:minecraft:snow_block>, <item:minecraft:air>, <item:minecraft:snow_block>],
+    [[<tag:items:minecraft:leaves>, <item:minecraft:air>, <tag:items:minecraft:leaves>],
     [<tag:items:forge:string>, <item:minecraft:leather_chestplate>, <tag:items:forge:string>],
-    [<item:minecraft:snow_block>, <item:minecraft:snow_block>, <item:minecraft:snow_block>]]);
+    [<tag:items:minecraft:leaves>, <tag:items:minecraft:leaves>, <tag:items:minecraft:leaves>]]);
 
 craftingTable.addShaped("t1_ghilliesuit_leggings", <item:arsenals_of_the_apocalypse:ghilliesuit_leggings>,
-    [[<tag:items:forge:string>, <item:minecraft:snow_block>, <tag:items:forge:string>],
-    [<item:minecraft:snow_block>, <item:minecraft:leather_leggings>, <item:minecraft:snow_block>],
-    [<item:minecraft:snow_block>, <item:minecraft:air>, <item:minecraft:snow_block>]]);
+    [[<tag:items:forge:string>, <tag:items:minecraft:leaves>, <tag:items:forge:string>],
+    [<tag:items:minecraft:leaves>, <item:minecraft:leather_leggings>, <tag:items:minecraft:leaves>],
+    [<tag:items:minecraft:leaves>, <item:minecraft:air>, <tag:items:minecraft:leaves>]]);
 
 craftingTable.addShapedMirrored("t1_ghilliesuit_boots", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:ghilliesuit_boots>,
-    [[<item:minecraft:snow_block>, <item:minecraft:leather_boots>, <item:minecraft:snow_block>],
+    [[<tag:items:minecraft:leaves>, <item:minecraft:leather_boots>, <tag:items:minecraft:leaves>],
     [<tag:items:forge:string>, <item:minecraft:air>, <tag:items:forge:string>]]);
-    
+
+<tag:items:forge:ghilliesuits>.add(<item:arsenals_of_the_apocalypse:ghilliesuit_chestplate>);
+
 // Anarchy Set - + 0.01 MS Speed
 
 craftingTable.remove(<item:arsenals_of_the_apocalypse:anarchy_helmet>);
@@ -377,6 +383,8 @@ craftingTable.addShapedMirrored("t2_iron_boots", <constant:minecraft:mirroraxis:
     [[<tag:items:forge:plates/iron>, <item:minecraft:chainmail_boots>.anyDamage(), <tag:items:forge:plates/iron>],
     [<tag:items:forge:plates/iron>, <item:minecraft:air>, <tag:items:forge:plates/iron>]]);
 
+<tag:items:forge:vanilla_chestplate>.add(<item:minecraft:iron_chestplate>);
+
 // Copper Set
 
 craftingTable.remove(<item:create_sa:copper_helmet>);
@@ -401,6 +409,8 @@ craftingTable.addShaped("t2_copper_leggings", <item:create_sa:copper_leggings>,
 craftingTable.addShapedMirrored("t2_copper_boots", <constant:minecraft:mirroraxis:horizontal>, <item:create_sa:copper_boots>,
     [[<tag:items:forge:plates/copper>, <item:minecraft:chainmail_boots>.anyDamage(), <tag:items:forge:plates/copper>],
     [<tag:items:forge:plates/copper>, <item:minecraft:air>, <tag:items:forge:plates/copper>]]);
+
+<tag:items:forge:vanilla_chestplate>.add(<item:create_sa:copper_chestplate>);
 
 // Zinc Set
 
@@ -427,6 +437,7 @@ craftingTable.addShapedMirrored("t2_zinc_boots", <constant:minecraft:mirroraxis:
     [[<tag:items:forge:plates/zinc>, <item:minecraft:chainmail_boots>.anyDamage(), <tag:items:forge:plates/zinc>],
     [<tag:items:forge:plates/zinc>, <item:minecraft:air>, <tag:items:forge:plates/zinc>]]);
 
+<tag:items:forge:vanilla_chestplate>.add(<item:create_sa:zinc_chestplate>);
 
 // Construction Set - + Haste LVL 1 Effect
 
@@ -478,6 +489,8 @@ craftingTable.addShapedMirrored("t2_yellow_football_armor_boots", <constant:mine
     [[<tag:items:forge:plates/zinc>, <item:minecraft:chainmail_boots>, <item:immersiveengineering:hemp_fabric>],
     [<tag:items:forge:string>, <tag:items:forge:dyes/yellow>, <tag:items:forge:string>]]);
 
+<tag:items:forge:football_chestplate>.add(<item:arsenals_of_the_apocalypse:yellow_football_armor_chestplate>);
+
 // Red Football Set - +0.02 Movement Speed
 
 craftingTable.remove(<item:arsenals_of_the_apocalypse:red_football_armor_helmet>);
@@ -503,6 +516,8 @@ craftingTable.addShapedMirrored("t2_red_football_armor_boots", <constant:minecra
     [[<tag:items:forge:plates/zinc>, <item:minecraft:chainmail_boots>, <item:immersiveengineering:hemp_fabric>],
     [<tag:items:forge:string>, <tag:items:forge:dyes/red>, <tag:items:forge:string>]]);
     
+<tag:items:forge:football_chestplate>.add(<item:arsenals_of_the_apocalypse:red_football_armor_chestplate>);
+
 // blue Football Set - +0.02 Movement Speed
 
 craftingTable.remove(<item:arsenals_of_the_apocalypse:blue_football_armor_helmet>);
@@ -528,6 +543,7 @@ craftingTable.addShapedMirrored("t2_blue_football_armor_boots", <constant:minecr
     [[<tag:items:forge:plates/zinc>, <item:minecraft:chainmail_boots>, <item:immersiveengineering:hemp_fabric>],
     [<tag:items:forge:string>, <tag:items:forge:dyes/blue>, <tag:items:forge:string>]]);
     
+<tag:items:forge:football_chestplate>.add(<item:arsenals_of_the_apocalypse:blue_football_armor_chestplate>);
 // black Football Set - +0.02 Movement Speed
 
 craftingTable.remove(<item:arsenals_of_the_apocalypse:black_football_armor_helmet>);
@@ -553,6 +569,7 @@ craftingTable.addShapedMirrored("t2_black_football_armor_boots", <constant:minec
     [[<tag:items:forge:plates/zinc>, <item:minecraft:chainmail_boots>, <item:immersiveengineering:hemp_fabric>],
     [<tag:items:forge:string>, <tag:items:forge:dyes/black>, <tag:items:forge:string>]]);
 
+<tag:items:forge:football_chestplate>.add(<item:arsenals_of_the_apocalypse:black_football_armor_chestplate>);
 // General Army Set - + 1.5 ATK Damage
 
 craftingTable.remove(<item:arsenals_of_the_apocalypse:army_helmet>);
@@ -656,6 +673,9 @@ craftingTable.remove(<item:create_sa:copper_exoskeleton_chestplate>);
     [<tag:items:forge:plates/plastic>, <item:create:cogwheel>, <item:minecraft:chainmail_chestplate>.anyDamage(), <item:create:cogwheel>, <tag:items:forge:plates/plastic>],
     [<tag:items:forge:plates/copper>, <item:immersiveengineering:component_electronic_adv>, <item:create_sa:hydraulic_engine>, <item:immersiveengineering:component_electronic_adv>, <tag:items:forge:plates/copper>],
     [<item:minecraft:air>, <tag:items:forge:plates/plastic>, <item:create:belt_connector>, <tag:items:forge:plates/plastic>, <item:minecraft:air>]]);
+
+<tag:items:forge:t1_exoskeleton>.add(<item:create_sa:andesite_exoskeleton_chestplate>);
+<tag:items:forge:t1_exoskeleton>.add(<item:create_sa:copper_exoskeleton_chestplate>);
 
 // Standard Set - + 0.5 dmg, + 0.3 ATK Speed
 
@@ -783,6 +803,8 @@ craftingTable.addShapedMirrored("t3_u_sarmy_boots", <constant:minecraft:mirrorax
     [[<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_feet>, <item:immersiveengineering:hemp_fabric>],
     [<tag:items:forge:wires/steel>, <tag:items:forge:dyes/green>, <tag:items:forge:wires/steel>]]);
 
+<tag:items:forge:army_chestplate>.add(<item:arsenals_of_the_apocalypse:u_sarmy_chestplate>);
+
 // Canadian Set - +2.0 ATK Damage
 
 craftingTable.remove(<item:arsenals_of_the_apocalypse:canadian_army_helmet>);
@@ -807,6 +829,8 @@ craftingTable.addShaped("t3_canadian_army_leggings", <item:arsenals_of_the_apoca
 craftingTable.addShapedMirrored("t3_canadian_army_boots", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:canadian_army_boots>,
     [[<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_feet>, <item:immersiveengineering:hemp_fabric>],
     [<tag:items:forge:wires/steel>, <tag:items:forge:dyes/brown>, <tag:items:forge:wires/steel>]]);
+
+<tag:items:forge:army_chestplate>.add(<item:arsenals_of_the_apocalypse:canadian_army_chestplate>);
 
 // Mexican Set - +2.0 ATK Damage
 
@@ -833,6 +857,8 @@ craftingTable.addShapedMirrored("t3_mexican_army_boots", <constant:minecraft:mir
     [[<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_feet>, <item:immersiveengineering:hemp_fabric>],
     [<tag:items:forge:wires/steel>, <tag:items:forge:dyes/lime>, <tag:items:forge:wires/steel>]]);
 
+<tag:items:forge:army_chestplate>.add(<item:arsenals_of_the_apocalypse:mexican_army_chestplate>);
+
 // Russian Set - +2.0 ATK Damage
 
 craftingTable.remove(<item:arsenals_of_the_apocalypse:russian_army_helmet>);
@@ -857,6 +883,8 @@ craftingTable.addShaped("t3_russian_army_leggings", <item:arsenals_of_the_apocal
 craftingTable.addShapedMirrored("t3_russian_army_boots", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:russian_army_boots>,
     [[<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_feet>, <item:immersiveengineering:hemp_fabric>],
     [<tag:items:forge:wires/steel>, <tag:items:forge:dyes/gray>, <tag:items:forge:wires/steel>]]);
+
+<tag:items:forge:army_chestplate>.add(<item:arsenals_of_the_apocalypse:russian_army_chestplate>);
 
 // Chinese Set - +2.0 ATK Damage
 
@@ -883,6 +911,8 @@ craftingTable.addShapedMirrored("t3_chinese_army_boots", <constant:minecraft:mir
     [[<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_feet>, <item:immersiveengineering:hemp_fabric>],
     [<tag:items:forge:wires/steel>, <tag:items:forge:dyes/white>, <tag:items:forge:wires/steel>]]);
 
+<tag:items:forge:army_chestplate>.add(<item:arsenals_of_the_apocalypse:chinese_army_chestplate>);
+
 // UN Set - + 1.0 ATK Damage, 0.4 ATK Speed
 
 craftingTable.remove(<item:arsenals_of_the_apocalypse:un_armor_helmet>);
@@ -907,6 +937,7 @@ craftingTable.addShaped("t3_un_armor_leggings", <item:arsenals_of_the_apocalypse
 craftingTable.addShapedMirrored("t3_un_armor_boots", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:un_armor_boots>,
     [[<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:armor_steel_feet>, <item:immersiveengineering:hemp_fabric>],
     [<tag:items:forge:wires/steel>, <tag:items:forge:dyes/light_blue>, <tag:items:forge:wires/steel>]]);
+
 
 // Military Riot Armor - +0.4 ATK Speed, +Slow enemy when melee hit
 

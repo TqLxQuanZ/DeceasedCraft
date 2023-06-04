@@ -285,16 +285,12 @@
 			tasks: [{
 				id: "6DF9A9B123D8EA0B"
 				type: "item"
+				title: "Any ghillie suit"
 				item: {
-					id: "arsenals_of_the_apocalypse:ghilliesuit_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "forge:ghilliesuits"
 					}
 				}
 			}]
@@ -424,61 +420,23 @@
 			dependency_requirement: "one_started"
 		}
 		{
-			tasks: [
-				{
-					id: "3B6A1CF4684D521E"
-					type: "item"
-					item: {
-						id: "minecraft:iron_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"cold_sweat:item_insulation": {
-								Insulation: [ ]
-							}
-						}
+			tasks: [{
+				id: "7EA6BC1EBAFB27AE"
+				type: "item"
+				title: "Any #forge:vanilla_chestplate"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:vanilla_chestplate"
 					}
 				}
-				{
-					id: "7EA6BC1EBAFB27AE"
-					type: "item"
-					item: {
-						id: "create_sa:copper_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"cold_sweat:item_insulation": {
-								Insulation: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "34CB750022758345"
-					type: "item"
-					item: {
-						id: "create_sa:zinc_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"cold_sweat:item_insulation": {
-								Insulation: [ ]
-							}
-						}
-					}
-				}
-			]
+			}]
 			description: ["Obtain or craft iron chestplate, copper chestplate, and zinc chestplate."]
 			rewards: [{
 				id: "39D2EB98C181A689"
 				type: "xp"
-				xp: 300
+				xp: 150
 			}]
 			id: "2979EB32CD7DC8C7"
 			x: 8.5d
@@ -523,16 +481,12 @@
 			tasks: [{
 				id: "7EB55CED7B5158FB"
 				type: "item"
+				title: "Any #forge:football_chestplate"
 				item: {
-					id: "arsenals_of_the_apocalypse:red_football_armor_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "forge:football_chestplate"
 					}
 				}
 			}]
@@ -788,93 +742,23 @@
 			dependency_requirement: "one_started"
 		}
 		{
-			tasks: [
-				{
-					id: "6BDEAEB8627343A9"
-					type: "item"
-					item: {
-						id: "arsenals_of_the_apocalypse:canadian_army_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"cold_sweat:item_insulation": {
-								Insulation: [ ]
-							}
-						}
+			tasks: [{
+				id: "6BDEAEB8627343A9"
+				type: "item"
+				title: "Any army chestplate"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:army_chestplate"
 					}
 				}
-				{
-					id: "71E5707E747D6B22"
-					type: "item"
-					item: {
-						id: "arsenals_of_the_apocalypse:mexican_army_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"cold_sweat:item_insulation": {
-								Insulation: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "1231188E7C8F00FD"
-					type: "item"
-					item: {
-						id: "arsenals_of_the_apocalypse:chinese_army_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"cold_sweat:item_insulation": {
-								Insulation: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "0F27D4117CC6C62D"
-					type: "item"
-					item: {
-						id: "arsenals_of_the_apocalypse:russian_army_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"cold_sweat:item_insulation": {
-								Insulation: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "67E903F82B9EBC45"
-					type: "item"
-					item: {
-						id: "arsenals_of_the_apocalypse:u_sarmy_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"cold_sweat:item_insulation": {
-								Insulation: [ ]
-							}
-						}
-					}
-				}
-			]
+			}]
 			description: ["Obtain or craft all the army chests. Army set provides melee damage."]
 			rewards: [{
 				id: "1C8F92C906D0E292"
 				type: "xp"
-				xp: 1600
+				xp: 500
 			}]
 			id: "25046E4A3DD04E7E"
 			x: 17.5d
@@ -1354,6 +1238,37 @@
 			progression_mode: "flexible"
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
+		}
+		{
+			size: 2.0d
+			description: [
+				"- In most cases, repairing items involves using a majority of their original resources to craft the item again, even though the Just Enough Items (JEI) mod may not display the specific recipe."
+				"- The armors from later on might not be the case, Tier 3 usually involves with Steel Plates."
+				"- While Tier 4 involves with high-resistant fabric."
+			]
+			id: "786F835291189409"
+			icon: {
+				id: "immersiveengineering:hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -5.0d
+			y: -3.5d
+			shape: "square"
+			title: "Repairing"
+			progression_mode: "flexible"
+			dependency_requirement: "one_started"
+			rewards: [{
+				id: "6CD6E91E9BB33E07"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0DBD3D21CEE91083"
+				type: "checkmark"
+			}]
 		}
 	]
 }
