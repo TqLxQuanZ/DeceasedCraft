@@ -29,7 +29,7 @@
         {
           "condition": "autoleveling:level_check",
           "min": 3,
-          "max": 9999
+          "max": 999
         },
         {
           "condition": "minecraft:random_chance",
@@ -49,7 +49,7 @@
         {
           "condition": "autoleveling:level_check",
           "min": 5,
-          "max": 9999
+          "max": 999
         },
         {
           "condition": "minecraft:random_chance",

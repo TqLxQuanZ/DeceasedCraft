@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+	  {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "additionalguns:bullet_medium",
+			"functions": [
+				{
+				  "function": "minecraft:set_count",
+				  "count": {
+					"min": 1,
+					"max": 4
+				  },
+				  "add": true
+				}
+			  ]
+		  }
+		],
+		"conditions": [
+		  {
+			"condition": "autoleveling:level_check",
+			"min": 8,
+			"max": 999
+		  },
+		  {
+			"condition": "minecraft:random_chance",
+			"chance": 0.2
+		  }
+		]
+	  }
+	]
+  }

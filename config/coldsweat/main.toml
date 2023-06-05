@@ -1,5 +1,3 @@
-#Show the config menu button in the Options menu
-"Enable In-Game Config" = true
 #Overrides all other config options for easy difficulty management
 #This value is changed by the in-game config. It does nothing otherwise.
 #Range: 1 ~ 5
@@ -33,8 +31,6 @@ Difficulty = 3
 ["Temperature Effects"]
 
 	["Temperature Effects".Hot]
-		#When set to true, the camera will sway randomly when the player is too hot
-		"Camera Sway" = true
 		#When set to true, the player's view distance will decrease when they are too hot
 		"Heatstroke Fog" = true
 

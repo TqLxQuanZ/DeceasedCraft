@@ -370,3 +370,9 @@ craftingTable.addShapeless("bomb_defusing_kit", <item:arsenals_of_the_apocalypse
 <tag:items:forge:turret_cartridge>.add(<item:immersiveengineering:casull>);
 <tag:items:forge:turret_cartridge>.add(<item:immersiveengineering:buckshot>);
 <tag:items:forge:turret_cartridge>.add(<item:immersiveengineering:silver>);
+
+// Modded Planks
+craftingTable.addShaped("biomes_o_plenty_chest", <item:minecraft:chest>,
+    [[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:air>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]]);
