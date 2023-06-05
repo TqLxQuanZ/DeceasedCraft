@@ -1,0 +1,18 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:ingots/constantan"
+	},
+	"result": {
+		"item": "immersiveposts:stick_constantan",
+		"count": 1
+	},
+	"conditions": [ {
+		"type": "forge:mod_loaded",
+		"modid": "immersiveengineering"
+    },
+	{
+		"type": "forge:mod_loaded",
+		"modid": "immersiveposts"
+    } ]
+}
