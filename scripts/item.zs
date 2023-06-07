@@ -34,9 +34,9 @@ craftingTable.addShaped("backpack", <item:backpacked:backpack>,
                                                       .require(<tag:items:forge:dusts/obsidian>)
                                                       .loops(4)
                                                       .addOutput(<item:minecraft:ender_pearl>, 1)
-                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:lava> * 25))
-                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:water> * 25))
                                                       .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:water> * 25))
+                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:lava> * 25))
 													  );
 
 
