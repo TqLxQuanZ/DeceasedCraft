@@ -45,7 +45,7 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 
 // Processors
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("basic_processor")
-                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_basic_processor>)
                                                       .require(<item:immersiveengineering:circuit_board>)
                                                       .loops(1)
                                                       .addOutput(<item:refinedstorage:basic_processor>, 1)
@@ -56,7 +56,7 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 													  );
                                               
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("improved_processor")
-                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_improved_processor>)
                                                       .require(<item:immersiveengineering:circuit_board>)
                                                       .loops(1)
                                                       .addOutput(<item:refinedstorage:improved_processor>, 1)
@@ -67,7 +67,7 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 													  );
                                                     
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("advanced_processor")
-                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_advanced_processor>)
                                                       .require(<item:immersiveengineering:circuit_board>)
                                                       .loops(1)
                                                       .addOutput(<item:refinedstorage:advanced_processor>, 1)
@@ -79,7 +79,7 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("1k_storage_part")
-                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_1k_storage_part>)
                                                       .require(<item:immersiveengineering:circuit_board>)
                                                       .loops(3)
                                                       .addOutput(<item:refinedstorage:1k_storage_part>, 1)
@@ -91,7 +91,7 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 													  );
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("4k_storage_part")
-                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_4k_storage_part>)
                                                       .require(<item:immersiveengineering:circuit_board>)
                                                       .loops(3)
                                                       .addOutput(<item:refinedstorage:4k_storage_part>, 1)
@@ -104,7 +104,7 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 													  
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("16k_storage_part")
-                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_16k_storage_part>)
                                                       .require(<item:immersiveengineering:circuit_board>)
                                                       .loops(3)
                                                       .addOutput(<item:refinedstorage:16k_storage_part>, 1)
@@ -117,7 +117,7 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("64k_storage_part")
-                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_64k_storage_part>)
                                                       .require(<item:immersiveengineering:circuit_board>)
                                                       .loops(3)
                                                       .addOutput(<item:refinedstorage:64k_storage_part>, 1)
@@ -130,7 +130,7 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("64k_fluid_storage_part")
-                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_64k_fluid_storage_part>)
                                                       .require(<item:immersiveengineering:circuit_board>)
                                                       .loops(3)
                                                       .addOutput(<item:refinedstorage:64k_fluid_storage_part>, 1)
@@ -143,7 +143,7 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 													  );
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("256k_fluid_storage_part")
-                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_256k_fluid_storage_part>)
                                                       .require(<item:immersiveengineering:circuit_board>)
                                                       .loops(3)
                                                       .addOutput(<item:refinedstorage:256k_fluid_storage_part>, 1)
@@ -156,7 +156,7 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 													  
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("1024k_fluid_storage_part")
-                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_1024k_fluid_storage_part>)
                                                       .require(<item:immersiveengineering:circuit_board>)
                                                       .loops(3)
                                                       .addOutput(<item:refinedstorage:1024k_fluid_storage_part>, 1)
@@ -169,7 +169,7 @@ Replacer.forMods(["refinedstorage"]).suppressWarnings().replace(<item:refinedsto
 
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("4096k_fluid_storage_part")
-                                                      .transitionTo(<item:contenttweaker:incomplete_processor>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_4096k_fluid_storage_part>)
                                                       .require(<item:immersiveengineering:circuit_board>)
                                                       .loops(3)
                                                       .addOutput(<item:refinedstorage:4096k_fluid_storage_part>, 1)

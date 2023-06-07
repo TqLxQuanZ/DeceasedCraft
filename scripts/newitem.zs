@@ -70,15 +70,61 @@ val silica_dust = <factory:item>.typed<Basic>()
     .rarity(<constant:minecraft:item/rarity:common>)
     .build("silica_dust");
 
-val incomplete_processor = <factory:item>.typed<Basic>()
+val incomplete_basic_processor = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
     .rarity(<constant:minecraft:item/rarity:common>)
-    .build("incomplete_processor");
+    .build("incomplete_basic_processor");
 
-val incomplete_storage_part = <factory:item>.typed<Basic>()
+val incomplete_improved_processor = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
     .rarity(<constant:minecraft:item/rarity:common>)
-    .build("incomplete_storage_part");
+    .build("incomplete_improved_processor");
+
+val incomplete_advanced_processor = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_advanced_processor");
+
+val incomplete_1k_storage_part = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_1k_storage_part");
+
+val incomplete_4k_storage_part = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_4k_storage_part");
+    
+val incomplete_16k_storage_part = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_16k_storage_part");
+    
+val incomplete_64k_storage_part = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_64k_storage_part");
+
+
+val incomplete_64k_fluid_storage_part = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_64k_fluid_storage_part");
+
+val incomplete_256k_fluid_storage_part = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_256k_fluid_storage_part");
+
+val incomplete_1024k_fluid_storage_part = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_1024k_fluid_storage_part");
+
+val incomplete_4096k_fluid_storage_part = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_4096k_fluid_storage_part");
 
 // Molds
 val mold_basic_processor = <factory:item>.typed<Basic>()
