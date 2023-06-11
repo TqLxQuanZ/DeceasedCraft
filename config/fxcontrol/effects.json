@@ -4,5 +4,12 @@
 		"biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
 		"lackhelmet": ["arsenals_of_the_apocalypse:gas_mask_helmet", "arsenals_of_the_apocalypse:hazmat_suit_helmet", "arsenals_of_the_apocalypse:biohazard_helmet", "arsenals_of_the_apocalypse:soldier_helmet"],
 		"potion": "minecraft:instant_damage,1,1"
+	},
+	{
+		"timeout": 60,
+		"biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+		"lackhelmet": ["arsenals_of_the_apocalypse:gas_mask_helmet", "arsenals_of_the_apocalypse:hazmat_suit_helmet", "arsenals_of_the_apocalypse:biohazard_helmet", "arsenals_of_the_apocalypse:soldier_helmet"],
+		"potion": "minecraft:nausea,140,0",
+		"message": "Do not enter the wasteland without any gas mask!"
 	}
 ]
