@@ -1693,6 +1693,12 @@
 			id: "2EDE7DC73385DE10"
 			x: 25.5d
 			y: -1.0d
+			rewards: [{
+				id: "7AF97CB361E84D4C"
+				type: "item"
+				item: "create:precision_mechanism"
+				count: 3
+			}]
 			progression_mode: "flexible"
 			dependencies: ["39379D86C5BE24CA"]
 			dependency_requirement: "one_started"
