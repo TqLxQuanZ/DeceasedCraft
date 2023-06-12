@@ -63,27 +63,27 @@
     },
     {
       "char": "p",
-      "block": "minecraft:iron_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "minecraft:iron_door[facing=east,half=lower,open=false,hinge=left]"
     },
     {
       "char": "q",
-      "block": "minecraft:iron_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "minecraft:iron_door[facing=east,half=lower,open=false,hinge=right]"
     },
     {
       "char": "r",
-      "block": "cfm:gray_kitchen_counter[facing=south,type=default]"
+      "block": "cfm:gray_kitchen_counter[type=default,facing=south]"
     },
     {
       "char": "s",
-      "block": "cfm:gray_kitchen_counter[facing=west,type=right_corner_inverted]"
+      "block": "cfm:gray_kitchen_counter[type=right_corner_inverted,facing=west]"
     },
     {
       "char": "t",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
     },
     {
       "char": "u",
-      "block": "cfm:gray_kitchen_counter[facing=west,type=default]"
+      "block": "cfm:gray_kitchen_counter[type=default,facing=west]"
     },
     {
       "char": "w",
@@ -91,11 +91,11 @@
     },
     {
       "char": "x",
-      "block": "minecraft:iron_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "minecraft:iron_door[facing=east,half=upper,open=false,hinge=left]"
     },
     {
       "char": "y",
-      "block": "minecraft:iron_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "minecraft:iron_door[facing=east,half=upper,open=false,hinge=right]"
     },
     {
       "char": "A",

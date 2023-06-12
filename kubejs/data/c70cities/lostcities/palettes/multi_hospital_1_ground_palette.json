@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "minecraft:stone_button[face=wall,facing=west]"
+      "block": "minecraft:stone_button[facing=west,face=wall]"
     },
     {
       "char": "l",
@@ -55,7 +55,7 @@
     },
     {
       "char": "n",
-      "block": "minecraft:stone_button[face=wall,facing=east]"
+      "block": "minecraft:stone_button[facing=east,face=wall]"
     },
     {
       "char": "o",
@@ -63,11 +63,11 @@
     },
     {
       "char": "p",
-      "block": "minecraft:oak_trapdoor[waterlogged=false,half=top,facing=east,open=false]"
+      "block": "minecraft:oak_trapdoor[facing=east,waterlogged=false,half=top,open=false]"
     },
     {
       "char": "q",
-      "block": "cfm:cyan_kitchen_counter[facing=west,type=default]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=west]"
     },
     {
       "char": "r",
@@ -99,7 +99,7 @@
     },
     {
       "char": "A",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,shape=straight,half=top,facing=east]"
     },
     {
       "char": "B",
@@ -107,7 +107,7 @@
     },
     {
       "char": "C",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,shape=straight,half=top,facing=west]"
     },
     {
       "char": "D",

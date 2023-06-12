@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "minecraft:iron_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "minecraft:iron_door[facing=east,half=lower,open=false,hinge=left]"
     },
     {
       "char": "i",
@@ -39,11 +39,11 @@
     },
     {
       "char": "j",
-      "block": "cfm:cyan_kitchen_counter[facing=south,type=default]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=south]"
     },
     {
       "char": "k",
-      "block": "cfm:cyan_kitchen_drawer[facing=south,open=false]",
+      "block": "cfm:cyan_kitchen_drawer[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -56,15 +56,15 @@
     },
     {
       "char": "n",
-      "block": "cfm:white_sofa[waterlogged=false,facing=east,type=left]"
+      "block": "cfm:white_sofa[waterlogged=false,type=left,facing=east]"
     },
     {
       "char": "o",
-      "block": "cfm:white_sofa[waterlogged=false,facing=west,type=single]"
+      "block": "cfm:white_sofa[waterlogged=false,type=single,facing=west]"
     },
     {
       "char": "p",
-      "block": "cfm:white_sofa[waterlogged=false,facing=east,type=right]"
+      "block": "cfm:white_sofa[waterlogged=false,type=right,facing=east]"
     },
     {
       "char": "q",
@@ -80,7 +80,7 @@
     },
     {
       "char": "t",
-      "block": "embellishcraft:sturdy_steel_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "embellishcraft:sturdy_steel_door[facing=east,half=lower,open=false,hinge=left]"
     },
     {
       "char": "u",
@@ -92,7 +92,7 @@
     },
     {
       "char": "x",
-      "block": "minecraft:iron_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "minecraft:iron_door[facing=east,half=upper,open=false,hinge=left]"
     },
     {
       "char": "y",
@@ -104,27 +104,27 @@
     },
     {
       "char": "B",
-      "block": "embellishcraft:sturdy_steel_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:sturdy_steel_door[facing=east,half=upper,open=false,hinge=left]"
     },
     {
       "char": "C",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
     },
     {
       "char": "D",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
     },
     {
       "char": "E",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
     },
     {
       "char": "F",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
     },
     {
       "char": "I",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,shape=straight,half=top,facing=east]"
     },
     {
       "char": "J",
@@ -132,11 +132,11 @@
     },
     {
       "char": "K",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,shape=straight,half=top,facing=south]"
     },
     {
       "char": "L",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,shape=straight,half=top,facing=north]"
     },
     {
       "char": "M",
@@ -148,7 +148,7 @@
     },
     {
       "char": "O",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,shape=straight,half=top,facing=west]"
     }
   ]
 }

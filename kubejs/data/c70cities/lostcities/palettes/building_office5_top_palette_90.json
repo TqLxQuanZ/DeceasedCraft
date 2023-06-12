@@ -3,7 +3,7 @@
   "palette": [
     {
       "char": "a",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
     },
     {
       "char": "b",
@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "cfm:cyan_kitchen_drawer[facing=west,open=false]",
+      "block": "cfm:cyan_kitchen_drawer[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -72,11 +72,11 @@
     },
     {
       "char": "r",
-      "block": "cfm:light_gray_sofa[waterlogged=false,facing=north,type=single]"
+      "block": "cfm:light_gray_sofa[waterlogged=false,type=single,facing=north]"
     },
     {
       "char": "s",
-      "block": "cfm:cyan_kitchen_drawer[facing=south,open=false]",
+      "block": "cfm:cyan_kitchen_drawer[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -121,7 +121,7 @@
     },
     {
       "char": "F",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,facing=west,open=false]"
+      "block": "minecraft:iron_trapdoor[facing=west,waterlogged=false,half=top,open=false]"
     },
     {
       "char": "I",

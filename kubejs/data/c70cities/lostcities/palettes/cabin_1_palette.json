@@ -39,15 +39,15 @@
     },
     {
       "char": "j",
-      "block": "another_furniture:birch_planter_box[attached=true,facing=north,type=right]"
+      "block": "another_furniture:birch_planter_box[type=right,facing=north,attached=true]"
     },
     {
       "char": "k",
-      "block": "another_furniture:birch_planter_box[attached=true,facing=north,type=middle]"
+      "block": "another_furniture:birch_planter_box[type=middle,facing=north,attached=true]"
     },
     {
       "char": "l",
-      "block": "another_furniture:birch_planter_box[attached=true,facing=north,type=left]"
+      "block": "another_furniture:birch_planter_box[type=left,facing=north,attached=true]"
     },
     {
       "char": "m",
@@ -75,19 +75,19 @@
     },
     {
       "char": "s",
-      "block": "another_furniture:birch_bench[type_2=left,waterlogged=false,type_1=left,facing=west]"
+      "block": "another_furniture:birch_bench[type_2=left,waterlogged=false,facing=west,type_1=left]"
     },
     {
       "char": "t",
-      "block": "another_furniture:birch_bench[type_2=right,waterlogged=false,type_1=right,facing=west]"
+      "block": "another_furniture:birch_bench[type_2=right,waterlogged=false,facing=west,type_1=right]"
     },
     {
       "char": "u",
-      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
     },
     {
       "char": "w",
-      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
     },
     {
       "char": "x",
@@ -99,7 +99,7 @@
     },
     {
       "char": "A",
-      "block": "cfm:stripped_birch_blinds[waterlogged=false,facing=north,open=false]"
+      "block": "cfm:stripped_birch_blinds[waterlogged=false,open=false,facing=north]"
     },
     {
       "char": "B",
@@ -111,19 +111,19 @@
     },
     {
       "char": "D",
-      "block": "minecraft:brown_bed[part=head,facing=north,occupied=false]",
+      "block": "minecraft:brown_bed[part=head,occupied=false,facing=north]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "E",
-      "block": "another_furniture:birch_drawer[facing=west,open=false]",
+      "block": "another_furniture:birch_drawer[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "F",
-      "block": "minecraft:brown_bed[part=foot,facing=north,occupied=false]",
+      "block": "minecraft:brown_bed[part=foot,occupied=false,facing=north]",
       "tag": {
         "id": "minecraft:bed"
       }
@@ -134,11 +134,11 @@
     },
     {
       "char": "J",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
+      "block": "create:framed_glass_trapdoor[facing=north,waterlogged=false,half=bottom,open=true]"
     },
     {
       "char": "K",
-      "block": "create:framed_glass_door[hinge=left,half=lower,facing=north,open=false]"
+      "block": "create:framed_glass_door[facing=north,half=lower,open=false,hinge=left]"
     },
     {
       "char": "L",
@@ -158,15 +158,15 @@
     },
     {
       "char": "P",
-      "block": "create:framed_glass_door[hinge=left,half=upper,facing=north,open=false]"
+      "block": "create:framed_glass_door[facing=north,half=upper,open=false,hinge=left]"
     },
     {
       "char": "Q",
-      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,shape=straight,half=top,facing=west]"
     },
     {
       "char": "R",
-      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,shape=straight,half=top,facing=east]"
     },
     {
       "char": "S",
@@ -174,7 +174,7 @@
     },
     {
       "char": "T",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=north,open=true]"
+      "block": "create:framed_glass_trapdoor[facing=north,waterlogged=false,half=top,open=true]"
     },
     {
       "char": "U",

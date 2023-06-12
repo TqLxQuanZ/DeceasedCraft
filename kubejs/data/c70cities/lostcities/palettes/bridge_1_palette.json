@@ -68,11 +68,11 @@
     },
     {
       "char": "h",
-      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=east,open=false]"
+      "block": "minecraft:spruce_trapdoor[facing=east,waterlogged=false,half=bottom,open=false]"
     },
     {
       "char": "i",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,axis=y,chain_up=false]"
     },
     {
       "char": "j",
@@ -96,15 +96,15 @@
     },
     {
       "char": "o",
-      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=top,facing=south,open=false]"
+      "block": "minecraft:spruce_trapdoor[facing=south,waterlogged=false,half=top,open=false]"
     },
     {
       "char": "p",
-      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=north,open=false]"
+      "block": "minecraft:spruce_trapdoor[facing=north,waterlogged=false,half=bottom,open=false]"
     },
     {
       "char": "q",
-      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
+      "block": "minecraft:spruce_trapdoor[facing=south,waterlogged=false,half=bottom,open=false]"
     }
   ]
 }

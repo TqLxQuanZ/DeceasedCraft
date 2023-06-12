@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
     },
     {
       "char": "i",
@@ -39,11 +39,11 @@
     },
     {
       "char": "j",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
     },
     {
       "char": "k",
-      "block": "cfm:cyan_kitchen_drawer[facing=north,open=false]",
+      "block": "cfm:cyan_kitchen_drawer[open=false,facing=north]",
       "loot": "chestloot"
     },
     {

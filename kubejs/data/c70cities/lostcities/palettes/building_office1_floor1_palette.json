@@ -35,11 +35,11 @@
     },
     {
       "char": "i",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
     },
     {
       "char": "j",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
     },
     {
       "char": "k",
@@ -47,28 +47,28 @@
     },
     {
       "char": "l",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
     },
     {
       "char": "m",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
     },
     {
       "char": "n",
-      "block": "cfm:cyan_kitchen_drawer[facing=south,open=false]",
+      "block": "cfm:cyan_kitchen_drawer[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "o",
-      "block": "minecraft:dark_oak_door[hinge=left,half=lower,facing=north,open=false]"
+      "block": "minecraft:dark_oak_door[facing=north,half=lower,open=false,hinge=left]"
     },
     {
       "char": "p",
-      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=north,open=false]"
+      "block": "minecraft:dark_oak_door[facing=north,half=lower,open=false,hinge=right]"
     },
     {
       "char": "q",
-      "block": "minecraft:dark_oak_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "minecraft:dark_oak_door[facing=east,half=lower,open=false,hinge=left]"
     },
     {
       "char": "r",
@@ -76,7 +76,7 @@
     },
     {
       "char": "s",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=north]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=inner_right,half=bottom,facing=north]"
     },
     {
       "char": "t",
@@ -84,7 +84,7 @@
     },
     {
       "char": "u",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
     },
     {
       "char": "w",
@@ -92,16 +92,16 @@
     },
     {
       "char": "x",
-      "block": "cfm:cyan_kitchen_drawer[facing=east,open=false]",
+      "block": "cfm:cyan_kitchen_drawer[open=false,facing=east]",
       "loot": "chestloot"
     },
     {
       "char": "y",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=inner_left,facing=south]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=inner_left,half=bottom,facing=south]"
     },
     {
       "char": "A",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
     },
     {
       "char": "B",
@@ -109,15 +109,15 @@
     },
     {
       "char": "C",
-      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=north,open=false]"
+      "block": "minecraft:dark_oak_door[facing=north,half=upper,open=false,hinge=left]"
     },
     {
       "char": "D",
-      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=north,open=false]"
+      "block": "minecraft:dark_oak_door[facing=north,half=upper,open=false,hinge=right]"
     },
     {
       "char": "E",
-      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "minecraft:dark_oak_door[facing=east,half=upper,open=false,hinge=left]"
     },
     {
       "char": "F",
@@ -129,7 +129,7 @@
     },
     {
       "char": "J",
-      "block": "quark:iron_button[face=floor,facing=west]"
+      "block": "quark:iron_button[facing=west,face=floor]"
     },
     {
       "char": "K",

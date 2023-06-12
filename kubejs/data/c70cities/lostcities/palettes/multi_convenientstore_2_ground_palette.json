@@ -7,7 +7,7 @@
     },
     {
       "char": "b",
-      "block": "minecraft:repeating_command_block[conditional=false,facing=east]",
+      "block": "minecraft:repeating_command_block[facing=east,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
@@ -16,7 +16,7 @@
     },
     {
       "char": "c",
-      "block": "minecraft:chain_command_block[conditional=false,facing=up]",
+      "block": "minecraft:chain_command_block[facing=up,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
@@ -89,7 +89,7 @@
     },
     {
       "char": "t",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,shape=straight,half=top,facing=east]"
     }
   ]
 }

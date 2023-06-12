@@ -7,7 +7,7 @@
     },
     {
       "char": "b",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
     },
     {
       "char": "c",
@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
     },
     {
       "char": "e",
@@ -23,15 +23,15 @@
     },
     {
       "char": "f",
-      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:quartz_stairs[waterlogged=true,shape=straight,half=bottom,facing=north]"
     },
     {
       "char": "g",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
     },
     {
       "char": "h",
-      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:quartz_stairs[waterlogged=true,shape=straight,half=bottom,facing=west]"
     },
     {
       "char": "i",
@@ -39,15 +39,15 @@
     },
     {
       "char": "j",
-      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:quartz_stairs[waterlogged=true,shape=straight,half=bottom,facing=east]"
     },
     {
       "char": "k",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
     },
     {
       "char": "l",
-      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=true,shape=straight,half=bottom,facing=south]"
     },
     {
       "char": "m",
@@ -92,23 +92,23 @@
     },
     {
       "char": "w",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,facing=south,open=false]"
+      "block": "minecraft:iron_trapdoor[facing=south,waterlogged=false,half=top,open=false]"
     },
     {
       "char": "x",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,facing=east,open=false]"
+      "block": "minecraft:iron_trapdoor[facing=east,waterlogged=false,half=top,open=false]"
     },
     {
       "char": "y",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,facing=west,open=false]"
+      "block": "minecraft:iron_trapdoor[facing=west,waterlogged=false,half=top,open=false]"
     },
     {
       "char": "A",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,facing=north,open=false]"
+      "block": "minecraft:iron_trapdoor[facing=north,waterlogged=false,half=top,open=false]"
     },
     {
       "char": "B",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=north,open=false]"
+      "block": "minecraft:iron_trapdoor[facing=north,waterlogged=false,half=bottom,open=false]"
     },
     {
       "char": "C",
@@ -116,15 +116,15 @@
     },
     {
       "char": "D",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=west,open=false]"
+      "block": "minecraft:iron_trapdoor[facing=west,waterlogged=false,half=bottom,open=false]"
     },
     {
       "char": "E",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=east,open=false]"
+      "block": "minecraft:iron_trapdoor[facing=east,waterlogged=false,half=bottom,open=false]"
     },
     {
       "char": "F",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
+      "block": "minecraft:iron_trapdoor[facing=south,waterlogged=false,half=bottom,open=false]"
     }
   ]
 }

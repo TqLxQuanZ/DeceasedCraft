@@ -43,40 +43,40 @@
     },
     {
       "char": "k",
-      "block": "minecraft:white_bed[part=foot,facing=east,occupied=false]",
+      "block": "minecraft:white_bed[part=foot,occupied=false,facing=east]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "l",
-      "block": "minecraft:white_bed[part=head,facing=east,occupied=false]",
+      "block": "minecraft:white_bed[part=head,occupied=false,facing=east]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "m",
-      "block": "minecraft:white_bed[part=head,facing=west,occupied=false]",
+      "block": "minecraft:white_bed[part=head,occupied=false,facing=west]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "n",
-      "block": "minecraft:white_bed[part=foot,facing=west,occupied=false]",
+      "block": "minecraft:white_bed[part=foot,occupied=false,facing=west]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "o",
-      "block": "cfm:cyan_kitchen_drawer[facing=south,open=false]",
+      "block": "cfm:cyan_kitchen_drawer[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "p",
-      "block": "cfm:cyan_kitchen_drawer[facing=east,open=false]",
+      "block": "cfm:cyan_kitchen_drawer[open=false,facing=east]",
       "loot": "chestloot"
     },
     {
@@ -89,11 +89,11 @@
     },
     {
       "char": "s",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=east,type=left]"
+      "block": "cfm:oak_park_bench[waterlogged=false,type=left,facing=east]"
     },
     {
       "char": "t",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=east,type=right]"
+      "block": "cfm:oak_park_bench[waterlogged=false,type=right,facing=east]"
     },
     {
       "char": "u",

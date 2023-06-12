@@ -3,7 +3,7 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
     },
     {
       "char": "b",
@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
     },
     {
       "char": "e",
@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "minecraft:warped_button[face=floor,facing=south]"
+      "block": "minecraft:warped_button[facing=south,face=floor]"
     },
     {
       "char": "g",
@@ -35,11 +35,11 @@
     },
     {
       "char": "i",
-      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,shape=straight,half=top,facing=west]"
     },
     {
       "char": "j",
-      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,shape=straight,half=top,facing=east]"
     }
   ]
 }

@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "minecraft:stone_button[face=floor,facing=north]"
+      "block": "minecraft:stone_button[facing=north,face=floor]"
     },
     {
       "char": "f",
@@ -39,11 +39,11 @@
     },
     {
       "char": "j",
-      "block": "minecraft:stone_button[face=floor,facing=east]"
+      "block": "minecraft:stone_button[facing=east,face=floor]"
     },
     {
       "char": "k",
-      "block": "minecraft:stone_button[face=floor,facing=south]"
+      "block": "minecraft:stone_button[facing=south,face=floor]"
     },
     {
       "char": "l",

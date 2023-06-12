@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=west,type=right]"
+      "block": "cfm:stripped_birch_park_bench[waterlogged=false,type=right,facing=west]"
     },
     {
       "char": "g",
@@ -31,19 +31,19 @@
     },
     {
       "char": "h",
-      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=west,type=left]"
+      "block": "cfm:stripped_birch_park_bench[waterlogged=false,type=left,facing=west]"
     },
     {
       "char": "i",
-      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=east,type=left]"
+      "block": "cfm:stripped_birch_park_bench[waterlogged=false,type=left,facing=east]"
     },
     {
       "char": "j",
-      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=east,type=right]"
+      "block": "cfm:stripped_birch_park_bench[waterlogged=false,type=right,facing=east]"
     },
     {
       "char": "k",
-      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=east,type=middle]"
+      "block": "cfm:stripped_birch_park_bench[waterlogged=false,type=middle,facing=east]"
     }
   ]
 }

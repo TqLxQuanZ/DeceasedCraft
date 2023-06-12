@@ -77,7 +77,7 @@
     },
     {
       "char": "r",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,facing=north,open=false]"
+      "block": "minecraft:iron_trapdoor[facing=north,waterlogged=false,half=top,open=false]"
     },
     {
       "char": "s",
@@ -105,7 +105,7 @@
     },
     {
       "char": "y",
-      "block": "cfm:cyan_kitchen_counter[facing=west,type=default]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=west]"
     },
     {
       "char": "A",

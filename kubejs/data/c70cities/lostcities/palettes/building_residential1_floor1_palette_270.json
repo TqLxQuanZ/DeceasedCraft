@@ -27,16 +27,16 @@
     },
     {
       "char": "g",
-      "block": "farmersdelight:dark_oak_cabinet[facing=south,open=false]",
+      "block": "farmersdelight:dark_oak_cabinet[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "h",
-      "block": "another_furniture:light_gray_lamp[waterlogged=false,lit=false,facing=up]"
+      "block": "another_furniture:light_gray_lamp[lit=false,waterlogged=false,facing=up]"
     },
     {
       "char": "i",
-      "block": "create:cut_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "create:cut_calcite_stairs[waterlogged=false,shape=straight,half=top,facing=west]"
     },
     {
       "char": "j",
@@ -44,7 +44,7 @@
     },
     {
       "char": "k",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,axis=y,chain_up=false]"
     }
   ]
 }

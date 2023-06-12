@@ -63,7 +63,7 @@
     },
     {
       "char": "p",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
     },
     {
       "char": "q",
@@ -79,7 +79,7 @@
     },
     {
       "char": "t",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[facing=east,half=lower,open=false,hinge=left]"
     },
     {
       "char": "u",
@@ -91,7 +91,7 @@
     },
     {
       "char": "x",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[facing=east,half=lower,open=false,hinge=right]"
     },
     {
       "char": "y",
@@ -112,7 +112,7 @@
     },
     {
       "char": "C",
-      "block": "minecraft:iron_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "minecraft:iron_door[facing=east,half=lower,open=false,hinge=left]"
     },
     {
       "char": "D",
@@ -120,23 +120,23 @@
     },
     {
       "char": "E",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[facing=east,half=upper,open=false,hinge=left]"
     },
     {
       "char": "F",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[facing=east,half=upper,open=false,hinge=right]"
     },
     {
       "char": "I",
-      "block": "quark:iron_button[face=wall,facing=east]"
+      "block": "quark:iron_button[facing=east,face=wall]"
     },
     {
       "char": "J",
-      "block": "minecraft:iron_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "minecraft:iron_door[facing=east,half=upper,open=false,hinge=left]"
     },
     {
       "char": "K",
-      "block": "embellishcraft:white_pillow[waterlogged=false,part=head,facing=east,occupied=false]"
+      "block": "embellishcraft:white_pillow[waterlogged=false,part=head,occupied=false,facing=east]"
     },
     {
       "char": "L",
@@ -148,7 +148,7 @@
     },
     {
       "char": "N",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
     },
     {
       "char": "O",

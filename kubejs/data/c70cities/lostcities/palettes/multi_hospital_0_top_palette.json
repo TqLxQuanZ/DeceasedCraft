@@ -67,11 +67,11 @@
     },
     {
       "char": "q",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[facing=east,half=lower,open=false,hinge=left]"
     },
     {
       "char": "r",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[facing=east,half=lower,open=false,hinge=right]"
     },
     {
       "char": "s",
@@ -83,11 +83,11 @@
     },
     {
       "char": "u",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[facing=east,half=upper,open=false,hinge=left]"
     },
     {
       "char": "w",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[facing=east,half=upper,open=false,hinge=right]"
     },
     {
       "char": "x",
@@ -100,7 +100,7 @@
     },
     {
       "char": "y",
-      "block": "quark:iron_button[face=wall,facing=east]"
+      "block": "quark:iron_button[facing=east,face=wall]"
     },
     {
       "char": "A",
@@ -109,7 +109,7 @@
     },
     {
       "char": "B",
-      "block": "embellishcraft:white_pillow[waterlogged=false,part=head,facing=west,occupied=false]"
+      "block": "embellishcraft:white_pillow[waterlogged=false,part=head,occupied=false,facing=west]"
     },
     {
       "char": "C",

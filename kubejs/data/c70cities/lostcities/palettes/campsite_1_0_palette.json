@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "biomesoplenty:magic_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+      "block": "biomesoplenty:magic_trapdoor[facing=south,waterlogged=false,half=bottom,open=true]"
     },
     {
       "char": "i",
@@ -39,87 +39,92 @@
     },
     {
       "char": "j",
-      "block": "biomesoplenty:magic_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "minecraft:chest",
+      "loot": "chestloot"
     },
     {
       "char": "k",
-      "block": "biomesoplenty:magic_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "biomesoplenty:magic_door[facing=south,half=lower,open=false,hinge=right]"
     },
     {
       "char": "l",
-      "block": "biomesoplenty:palm_planks"
+      "block": "biomesoplenty:magic_door[facing=south,half=lower,open=false,hinge=left]"
     },
     {
       "char": "m",
-      "block": "minecraft:oxeye_daisy"
+      "block": "biomesoplenty:palm_planks"
     },
     {
       "char": "n",
-      "block": "biomesoplenty:palm_door[hinge=right,half=lower,facing=west,open=false]"
+      "block": "minecraft:oxeye_daisy"
     },
     {
       "char": "o",
-      "block": "minecraft:brown_carpet"
+      "block": "biomesoplenty:palm_door[facing=west,half=lower,open=false,hinge=right]"
     },
     {
       "char": "p",
-      "block": "biomesoplenty:palm_trapdoor[waterlogged=false,half=bottom,facing=west,open=true]"
+      "block": "minecraft:brown_carpet"
     },
     {
       "char": "q",
-      "block": "biomesoplenty:palm_door[hinge=left,half=lower,facing=west,open=false]"
+      "block": "biomesoplenty:palm_trapdoor[facing=west,waterlogged=false,half=bottom,open=true]"
     },
     {
       "char": "r",
-      "block": "another_furniture:birch_bench[type_2=single,waterlogged=false,type_1=single,facing=south]"
+      "block": "biomesoplenty:palm_door[facing=west,half=lower,open=false,hinge=left]"
     },
     {
       "char": "s",
-      "block": "cfm:stripped_birch_coffee_table[waterlogged=false]"
+      "block": "another_furniture:birch_bench[type_2=single,waterlogged=false,facing=south,type_1=single]"
     },
     {
       "char": "t",
-      "block": "another_furniture:birch_bench[type_2=single,waterlogged=false,type_1=single,facing=west]"
+      "block": "cfm:stripped_birch_coffee_table[waterlogged=false]"
     },
     {
       "char": "u",
-      "block": "another_furniture:birch_bench[type_2=single,waterlogged=false,type_1=single,facing=north]"
+      "block": "another_furniture:birch_bench[type_2=single,waterlogged=false,facing=west,type_1=single]"
     },
     {
       "char": "w",
-      "block": "minecraft:tall_grass[half=upper]"
+      "block": "another_furniture:birch_bench[type_2=single,waterlogged=false,facing=north,type_1=single]"
     },
     {
       "char": "x",
-      "block": "biomesoplenty:magic_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:tall_grass[half=upper]"
     },
     {
       "char": "y",
-      "block": "biomesoplenty:magic_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "biomesoplenty:magic_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
     },
     {
       "char": "A",
-      "block": "biomesoplenty:magic_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "biomesoplenty:magic_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
     },
     {
       "char": "B",
-      "block": "biomesoplenty:magic_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "biomesoplenty:magic_door[facing=south,half=upper,open=false,hinge=right]"
     },
     {
       "char": "C",
-      "block": "biomesoplenty:palm_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "biomesoplenty:magic_door[facing=south,half=upper,open=false,hinge=left]"
     },
     {
       "char": "D",
-      "block": "biomesoplenty:palm_door[hinge=right,half=upper,facing=west,open=false]"
+      "block": "biomesoplenty:palm_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
     },
     {
       "char": "E",
-      "block": "biomesoplenty:palm_door[hinge=left,half=upper,facing=west,open=false]"
+      "block": "biomesoplenty:palm_door[facing=west,half=upper,open=false,hinge=right]"
     },
     {
       "char": "F",
-      "block": "biomesoplenty:palm_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "biomesoplenty:palm_door[facing=west,half=upper,open=false,hinge=left]"
+    },
+    {
+      "char": "I",
+      "block": "biomesoplenty:palm_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
     }
   ]
 }

@@ -55,23 +55,23 @@
     },
     {
       "char": "n",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=right]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=right,facing=south]"
     },
     {
       "char": "o",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=left]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=left,facing=south]"
     },
     {
       "char": "p",
-      "block": "quark:stripped_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_oak_post[waterlogged=false,axis=y,chain_up=false]"
     },
     {
       "char": "q",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[facing=east,half=lower,open=false,hinge=left]"
     },
     {
       "char": "r",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[facing=east,half=lower,open=false,hinge=right]"
     },
     {
       "char": "s",
@@ -79,11 +79,11 @@
     },
     {
       "char": "t",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=left]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=left,facing=north]"
     },
     {
       "char": "u",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=right]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=right,facing=north]"
     },
     {
       "char": "w",
@@ -91,11 +91,11 @@
     },
     {
       "char": "x",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[facing=east,half=upper,open=false,hinge=left]"
     },
     {
       "char": "y",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[facing=east,half=upper,open=false,hinge=right]"
     },
     {
       "char": "A",

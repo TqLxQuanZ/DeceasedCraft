@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=left]"
+      "block": "cfm:oak_park_bench[waterlogged=false,type=left,facing=west]"
     },
     {
       "char": "n",
@@ -143,7 +143,7 @@
     },
     {
       "char": "N",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
     },
     {
       "char": "O",

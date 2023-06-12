@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "quark:stripped_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_oak_post[waterlogged=false,axis=y,chain_up=false]"
     },
     {
       "char": "l",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "embellishcraft:oak_plain_door[hinge=left,half=lower,facing=north,open=false]"
+      "block": "embellishcraft:oak_plain_door[facing=north,half=lower,open=false,hinge=left]"
     },
     {
       "char": "n",
@@ -84,11 +84,11 @@
     },
     {
       "char": "s",
-      "block": "embellishcraft:oak_plain_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:oak_plain_door[facing=south,half=lower,open=false,hinge=right]"
     },
     {
       "char": "t",
-      "block": "minecraft:oak_fence_gate[facing=east,open=false]"
+      "block": "minecraft:oak_fence_gate[open=false,facing=east]"
     },
     {
       "char": "u",
@@ -100,11 +100,11 @@
     },
     {
       "char": "x",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=right]"
+      "block": "cfm:oak_park_bench[waterlogged=false,type=right,facing=west]"
     },
     {
       "char": "y",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=left]"
+      "block": "cfm:oak_park_bench[waterlogged=false,type=left,facing=west]"
     },
     {
       "char": "A",
@@ -116,7 +116,7 @@
     },
     {
       "char": "C",
-      "block": "embellishcraft:oak_plain_door[hinge=left,half=upper,facing=north,open=false]"
+      "block": "embellishcraft:oak_plain_door[facing=north,half=upper,open=false,hinge=left]"
     },
     {
       "char": "D",
@@ -131,7 +131,7 @@
     },
     {
       "char": "F",
-      "block": "embellishcraft:oak_plain_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:oak_plain_door[facing=south,half=upper,open=false,hinge=right]"
     },
     {
       "char": "I",
@@ -170,7 +170,7 @@
     },
     {
       "char": "Q",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
     },
     {
       "char": "R",
@@ -178,7 +178,7 @@
     },
     {
       "char": "S",
-      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:stone_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
     },
     {
       "char": "T",

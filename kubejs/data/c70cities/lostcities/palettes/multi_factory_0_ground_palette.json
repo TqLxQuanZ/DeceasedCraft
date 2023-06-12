@@ -24,7 +24,7 @@
     },
     {
       "char": "f",
-      "block": "minecraft:barrel[facing=south,open=false]"
+      "block": "minecraft:barrel[open=false,facing=south]"
     },
     {
       "char": "g",
@@ -36,7 +36,7 @@
     },
     {
       "char": "i",
-      "block": "embellishcraft:steel_door[hinge=right,half=lower,facing=west,open=false]"
+      "block": "embellishcraft:steel_door[facing=west,half=lower,open=false,hinge=right]"
     },
     {
       "char": "j",
@@ -44,11 +44,11 @@
     },
     {
       "char": "k",
-      "block": "biomesoplenty:dead_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "biomesoplenty:dead_door[facing=east,half=lower,open=false,hinge=right]"
     },
     {
       "char": "l",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=top,facing=east]"
     },
     {
       "char": "m",
@@ -60,11 +60,11 @@
     },
     {
       "char": "o",
-      "block": "cfm:cyan_kitchen_counter[facing=west,type=default]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=west]"
     },
     {
       "char": "p",
-      "block": "biomesoplenty:dead_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "biomesoplenty:dead_door[facing=east,half=lower,open=false,hinge=left]"
     },
     {
       "char": "q",
@@ -92,15 +92,15 @@
     },
     {
       "char": "x",
-      "block": "cfm:cyan_kitchen_counter[facing=south,type=default]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=south]"
     },
     {
       "char": "y",
-      "block": "minecraft:grindstone[face=floor,facing=south]"
+      "block": "minecraft:grindstone[facing=south,face=floor]"
     },
     {
       "char": "A",
-      "block": "embellishcraft:steel_door[hinge=right,half=lower,facing=north,open=false]"
+      "block": "embellishcraft:steel_door[facing=north,half=lower,open=false,hinge=right]"
     },
     {
       "char": "B",
@@ -116,15 +116,15 @@
     },
     {
       "char": "E",
-      "block": "embellishcraft:steel_door[hinge=right,half=upper,facing=west,open=false]"
+      "block": "embellishcraft:steel_door[facing=west,half=upper,open=false,hinge=right]"
     },
     {
       "char": "F",
-      "block": "biomesoplenty:dead_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "biomesoplenty:dead_door[facing=east,half=upper,open=false,hinge=right]"
     },
     {
       "char": "I",
-      "block": "biomesoplenty:dead_trapdoor[waterlogged=false,half=bottom,facing=west,open=true]"
+      "block": "biomesoplenty:dead_trapdoor[facing=west,waterlogged=false,half=bottom,open=true]"
     },
     {
       "char": "J",
@@ -136,7 +136,7 @@
     },
     {
       "char": "L",
-      "block": "biomesoplenty:dead_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "biomesoplenty:dead_door[facing=east,half=upper,open=false,hinge=left]"
     },
     {
       "char": "M",
@@ -148,7 +148,7 @@
     },
     {
       "char": "O",
-      "block": "embellishcraft:steel_door[hinge=right,half=upper,facing=north,open=false]"
+      "block": "embellishcraft:steel_door[facing=north,half=upper,open=false,hinge=right]"
     },
     {
       "char": "P",
@@ -156,7 +156,7 @@
     },
     {
       "char": "Q",
-      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,shape=straight,half=top,facing=west]"
     },
     {
       "char": "R",
@@ -164,7 +164,7 @@
     },
     {
       "char": "S",
-      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,shape=straight,half=top,facing=east]"
     },
     {
       "char": "T",

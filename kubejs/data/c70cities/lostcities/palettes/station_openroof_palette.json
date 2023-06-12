@@ -72,19 +72,19 @@
     },
     {
       "char": "i",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=left]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=left,facing=north]"
     },
     {
       "char": "j",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=right]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=right,facing=north]"
     },
     {
       "char": "k",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=right]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=right,facing=south]"
     },
     {
       "char": "l",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=left]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=left,facing=south]"
     },
     {
       "char": "m",
@@ -100,7 +100,7 @@
     },
     {
       "char": "p",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
     },
     {
       "char": "q",
@@ -108,7 +108,7 @@
     },
     {
       "char": "r",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
     },
     {
       "char": "s",

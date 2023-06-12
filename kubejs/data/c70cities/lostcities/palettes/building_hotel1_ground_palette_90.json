@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
     },
     {
       "char": "k",
@@ -67,27 +67,27 @@
     },
     {
       "char": "q",
-      "block": "minecraft:iron_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "minecraft:iron_door[facing=south,half=lower,open=false,hinge=right]"
     },
     {
       "char": "r",
-      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "minecraft:dark_oak_door[facing=east,half=lower,open=false,hinge=right]"
     },
     {
       "char": "s",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
     },
     {
       "char": "t",
-      "block": "minecraft:iron_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "minecraft:iron_door[facing=south,half=lower,open=false,hinge=left]"
     },
     {
       "char": "u",
-      "block": "cfm:gray_kitchen_counter[facing=east,type=default]"
+      "block": "cfm:gray_kitchen_counter[type=default,facing=east]"
     },
     {
       "char": "w",
-      "block": "cfm:gray_kitchen_counter[facing=south,type=right_corner_inverted]"
+      "block": "cfm:gray_kitchen_counter[type=right_corner_inverted,facing=south]"
     },
     {
       "char": "x",
@@ -95,11 +95,11 @@
     },
     {
       "char": "y",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
     },
     {
       "char": "A",
-      "block": "cfm:gray_kitchen_counter[facing=south,type=default]"
+      "block": "cfm:gray_kitchen_counter[type=default,facing=south]"
     },
     {
       "char": "B",
@@ -107,15 +107,15 @@
     },
     {
       "char": "C",
-      "block": "minecraft:iron_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "minecraft:iron_door[facing=south,half=upper,open=false,hinge=right]"
     },
     {
       "char": "D",
-      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "minecraft:dark_oak_door[facing=east,half=upper,open=false,hinge=right]"
     },
     {
       "char": "E",
-      "block": "minecraft:iron_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "minecraft:iron_door[facing=south,half=upper,open=false,hinge=left]"
     },
     {
       "char": "F",

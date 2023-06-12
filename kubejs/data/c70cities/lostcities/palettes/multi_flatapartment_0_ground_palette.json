@@ -7,7 +7,7 @@
     },
     {
       "char": "b",
-      "block": "minecraft:repeating_command_block[conditional=false,facing=east]",
+      "block": "minecraft:repeating_command_block[facing=east,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
@@ -16,7 +16,7 @@
     },
     {
       "char": "c",
-      "block": "minecraft:chain_command_block[conditional=false,facing=up]",
+      "block": "minecraft:chain_command_block[facing=up,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
@@ -41,7 +41,7 @@
     },
     {
       "char": "h",
-      "block": "minecraft:stone_button[face=floor,facing=north]"
+      "block": "minecraft:stone_button[facing=north,face=floor]"
     },
     {
       "char": "i",
@@ -53,11 +53,11 @@
     },
     {
       "char": "k",
-      "block": "minecraft:stone_button[face=floor,facing=east]"
+      "block": "minecraft:stone_button[facing=east,face=floor]"
     },
     {
       "char": "l",
-      "block": "minecraft:stone_button[face=floor,facing=south]"
+      "block": "minecraft:stone_button[facing=south,face=floor]"
     },
     {
       "char": "m",

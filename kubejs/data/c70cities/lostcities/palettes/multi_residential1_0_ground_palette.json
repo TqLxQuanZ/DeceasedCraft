@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "minecraft:stone_button[face=floor,facing=east]"
+      "block": "minecraft:stone_button[facing=east,face=floor]"
     },
     {
       "char": "h",
@@ -35,11 +35,11 @@
     },
     {
       "char": "i",
-      "block": "biomesoplenty:redwood_button[face=wall,facing=north]"
+      "block": "biomesoplenty:redwood_button[facing=north,face=wall]"
     },
     {
       "char": "j",
-      "block": "create:belt[casing=false,part=start,facing=south,slope=horizontal]"
+      "block": "create:belt[slope=horizontal,part=start,facing=south,casing=false]"
     },
     {
       "char": "k",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
     },
     {
       "char": "n",
@@ -63,19 +63,19 @@
     },
     {
       "char": "p",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=inner_left,facing=west]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,shape=inner_left,half=top,facing=west]"
     },
     {
       "char": "q",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,shape=straight,half=top,facing=south]"
     },
     {
       "char": "r",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,shape=straight,half=top,facing=west]"
     },
     {
       "char": "s",
-      "block": "create:belt[casing=false,part=middle,facing=south,slope=horizontal]"
+      "block": "create:belt[slope=horizontal,part=middle,facing=south,casing=false]"
     },
     {
       "char": "t",
@@ -96,7 +96,7 @@
     },
     {
       "char": "y",
-      "block": "create:belt[casing=false,part=end,facing=south,slope=horizontal]"
+      "block": "create:belt[slope=horizontal,part=end,facing=south,casing=false]"
     },
     {
       "char": "A",
@@ -104,11 +104,11 @@
     },
     {
       "char": "B",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=inner_right,facing=west]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,shape=inner_right,half=top,facing=west]"
     },
     {
       "char": "C",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,shape=straight,half=top,facing=north]"
     },
     {
       "char": "D",
@@ -116,7 +116,7 @@
     },
     {
       "char": "E",
-      "block": "biomesoplenty:redwood_button[face=wall,facing=south]"
+      "block": "biomesoplenty:redwood_button[facing=south,face=wall]"
     },
     {
       "char": "F",
@@ -124,11 +124,11 @@
     },
     {
       "char": "I",
-      "block": "minecraft:iron_door[hinge=left,half=lower,facing=north,open=false]"
+      "block": "minecraft:iron_door[facing=north,half=lower,open=false,hinge=left]"
     },
     {
       "char": "J",
-      "block": "minecraft:iron_door[hinge=right,half=lower,facing=north,open=false]"
+      "block": "minecraft:iron_door[facing=north,half=lower,open=false,hinge=right]"
     },
     {
       "char": "K",
@@ -140,7 +140,7 @@
     },
     {
       "char": "M",
-      "block": "cfm:dark_oak_kitchen_counter[facing=north,type=default]"
+      "block": "cfm:dark_oak_kitchen_counter[type=default,facing=north]"
     },
     {
       "char": "N",
@@ -164,7 +164,7 @@
     },
     {
       "char": "S",
-      "block": "cfm:freezer_light[facing=east,open=false]"
+      "block": "cfm:freezer_light[open=false,facing=east]"
     },
     {
       "char": "T",
@@ -176,11 +176,11 @@
     },
     {
       "char": "V",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
     },
     {
       "char": "W",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=west,open=false]"
+      "block": "minecraft:iron_trapdoor[facing=west,waterlogged=false,half=bottom,open=false]"
     },
     {
       "char": "X",
@@ -188,11 +188,11 @@
     },
     {
       "char": "Y",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
     },
     {
       "char": "Z",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
     },
     {
       "char": "0",
@@ -200,31 +200,31 @@
     },
     {
       "char": "1",
-      "block": "minecraft:iron_door[hinge=left,half=upper,facing=north,open=false]"
+      "block": "minecraft:iron_door[facing=north,half=upper,open=false,hinge=left]"
     },
     {
       "char": "2",
-      "block": "minecraft:iron_door[hinge=right,half=upper,facing=north,open=false]"
+      "block": "minecraft:iron_door[facing=north,half=upper,open=false,hinge=right]"
     },
     {
       "char": "3",
-      "block": "another_furniture:dark_oak_shelf[waterlogged=false,facing=east,type=right]"
+      "block": "another_furniture:dark_oak_shelf[waterlogged=false,type=right,facing=east]"
     },
     {
       "char": "4",
-      "block": "another_furniture:dark_oak_shelf[waterlogged=false,facing=east,type=middle]"
+      "block": "another_furniture:dark_oak_shelf[waterlogged=false,type=middle,facing=east]"
     },
     {
       "char": "5",
-      "block": "farmersdelight:cooking_pot[waterlogged=false,facing=west,support=none]"
+      "block": "farmersdelight:cooking_pot[waterlogged=false,support=none,facing=west]"
     },
     {
       "char": "6",
-      "block": "another_furniture:dark_oak_shelf[waterlogged=false,facing=east,type=left]"
+      "block": "another_furniture:dark_oak_shelf[waterlogged=false,type=left,facing=east]"
     },
     {
       "char": "7",
-      "block": "cfm:fridge_light[facing=east,open=false]",
+      "block": "cfm:fridge_light[open=false,facing=east]",
       "loot": "chestloot"
     },
     {
@@ -265,7 +265,7 @@
     },
     {
       "char": "^",
-      "block": "minecraft:stone_button[face=wall,facing=south]"
+      "block": "minecraft:stone_button[facing=south,face=wall]"
     },
     {
       "char": "&",

@@ -43,14 +43,14 @@
     },
     {
       "char": "k",
-      "block": "minecraft:white_bed[part=head,facing=north,occupied=false]",
+      "block": "minecraft:white_bed[part=head,occupied=false,facing=north]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "l",
-      "block": "minecraft:white_bed[part=foot,facing=north,occupied=false]",
+      "block": "minecraft:white_bed[part=foot,occupied=false,facing=north]",
       "tag": {
         "id": "minecraft:bed"
       }
@@ -69,16 +69,16 @@
     },
     {
       "char": "p",
-      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=west,open=false]"
+      "block": "minecraft:dark_oak_door[facing=west,half=lower,open=false,hinge=right]"
     },
     {
       "char": "q",
-      "block": "another_furniture:oak_drawer[facing=west,open=false]",
+      "block": "another_furniture:oak_drawer[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "r",
-      "block": "minecraft:dark_oak_door[hinge=left,half=lower,facing=west,open=false]"
+      "block": "minecraft:dark_oak_door[facing=west,half=lower,open=false,hinge=left]"
     },
     {
       "char": "s",
@@ -90,7 +90,7 @@
     },
     {
       "char": "u",
-      "block": "minecraft:spruce_fence_gate[facing=south,open=false]"
+      "block": "minecraft:spruce_fence_gate[open=false,facing=south]"
     },
     {
       "char": "w",
@@ -98,7 +98,7 @@
     },
     {
       "char": "x",
-      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=west,open=false]"
+      "block": "minecraft:dark_oak_door[facing=west,half=upper,open=false,hinge=right]"
     },
     {
       "char": "y",
@@ -106,7 +106,7 @@
     },
     {
       "char": "A",
-      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=west,open=false]"
+      "block": "minecraft:dark_oak_door[facing=west,half=upper,open=false,hinge=left]"
     },
     {
       "char": "B",
@@ -114,7 +114,7 @@
     },
     {
       "char": "C",
-      "block": "minecraft:stone_brick_stairs[waterlogged=true,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:stone_brick_stairs[waterlogged=true,shape=straight,half=bottom,facing=north]"
     }
   ]
 }

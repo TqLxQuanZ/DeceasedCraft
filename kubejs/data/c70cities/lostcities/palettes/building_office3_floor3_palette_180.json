@@ -35,15 +35,15 @@
     },
     {
       "char": "i",
-      "block": "cfm:gray_kitchen_counter[facing=west,type=default]"
+      "block": "cfm:gray_kitchen_counter[type=default,facing=west]"
     },
     {
       "char": "j",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
     },
     {
       "char": "k",
-      "block": "cfm:gray_kitchen_counter[facing=south,type=left_corner_inverted]"
+      "block": "cfm:gray_kitchen_counter[type=left_corner_inverted,facing=south]"
     },
     {
       "char": "l",

@@ -15,14 +15,14 @@
     },
     {
       "char": "d",
-      "block": "minecraft:light_gray_bed[part=head,facing=east,occupied=false]",
+      "block": "minecraft:light_gray_bed[part=head,occupied=false,facing=east]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "e",
-      "block": "minecraft:light_gray_bed[part=foot,facing=east,occupied=false]",
+      "block": "minecraft:light_gray_bed[part=foot,occupied=false,facing=east]",
       "tag": {
         "id": "minecraft:bed"
       }
@@ -33,14 +33,14 @@
     },
     {
       "char": "g",
-      "block": "minecraft:light_gray_bed[part=foot,facing=west,occupied=false]",
+      "block": "minecraft:light_gray_bed[part=foot,occupied=false,facing=west]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "h",
-      "block": "minecraft:light_gray_bed[part=head,facing=west,occupied=false]",
+      "block": "minecraft:light_gray_bed[part=head,occupied=false,facing=west]",
       "tag": {
         "id": "minecraft:bed"
       }
@@ -55,11 +55,11 @@
     },
     {
       "char": "k",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
     },
     {
       "char": "l",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
     },
     {
       "char": "m",
@@ -67,7 +67,7 @@
     },
     {
       "char": "n",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
     },
     {
       "char": "o",

@@ -51,11 +51,11 @@
     },
     {
       "char": "m",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=top,facing=east]"
     },
     {
       "char": "n",
-      "block": "minecraft:barrel[facing=west,open=false]"
+      "block": "minecraft:barrel[open=false,facing=west]"
     },
     {
       "char": "o",
@@ -63,7 +63,7 @@
     },
     {
       "char": "p",
-      "block": "biomesoplenty:dead_door[hinge=right,half=lower,facing=west,open=false]"
+      "block": "biomesoplenty:dead_door[facing=west,half=lower,open=false,hinge=right]"
     },
     {
       "char": "q",
@@ -71,15 +71,15 @@
     },
     {
       "char": "r",
-      "block": "minecraft:stone_button[face=floor,facing=south]"
+      "block": "minecraft:stone_button[facing=south,face=floor]"
     },
     {
       "char": "s",
-      "block": "create:belt[casing=true,part=start,facing=west,slope=horizontal]"
+      "block": "create:belt[slope=horizontal,part=start,facing=west,casing=true]"
     },
     {
       "char": "t",
-      "block": "minecraft:spruce_button[face=floor,facing=east]"
+      "block": "minecraft:spruce_button[facing=east,face=floor]"
     },
     {
       "char": "u",
@@ -87,7 +87,7 @@
     },
     {
       "char": "w",
-      "block": "create:belt[casing=true,part=middle,facing=west,slope=horizontal]"
+      "block": "create:belt[slope=horizontal,part=middle,facing=west,casing=true]"
     },
     {
       "char": "x",
@@ -95,31 +95,31 @@
     },
     {
       "char": "y",
-      "block": "minecraft:spruce_button[face=floor,facing=south]"
+      "block": "minecraft:spruce_button[facing=south,face=floor]"
     },
     {
       "char": "A",
-      "block": "minecraft:stone_button[face=floor,facing=west]"
+      "block": "minecraft:stone_button[facing=west,face=floor]"
     },
     {
       "char": "B",
-      "block": "minecraft:stone_button[face=floor,facing=east]"
+      "block": "minecraft:stone_button[facing=east,face=floor]"
     },
     {
       "char": "C",
-      "block": "create:belt[casing=true,part=end,facing=west,slope=horizontal]"
+      "block": "create:belt[slope=horizontal,part=end,facing=west,casing=true]"
     },
     {
       "char": "D",
-      "block": "create:belt[casing=true,part=end,facing=north,slope=horizontal]"
+      "block": "create:belt[slope=horizontal,part=end,facing=north,casing=true]"
     },
     {
       "char": "E",
-      "block": "create:belt[casing=true,part=middle,facing=north,slope=horizontal]"
+      "block": "create:belt[slope=horizontal,part=middle,facing=north,casing=true]"
     },
     {
       "char": "F",
-      "block": "create:belt[casing=true,part=start,facing=north,slope=horizontal]"
+      "block": "create:belt[slope=horizontal,part=start,facing=north,casing=true]"
     },
     {
       "char": "I",
@@ -151,7 +151,7 @@
     },
     {
       "char": "P",
-      "block": "biomesoplenty:dead_trapdoor[waterlogged=false,half=bottom,facing=west,open=true]"
+      "block": "biomesoplenty:dead_trapdoor[facing=west,waterlogged=false,half=bottom,open=true]"
     },
     {
       "char": "Q",
@@ -159,7 +159,7 @@
     },
     {
       "char": "R",
-      "block": "biomesoplenty:dead_door[hinge=right,half=upper,facing=west,open=false]"
+      "block": "biomesoplenty:dead_door[facing=west,half=upper,open=false,hinge=right]"
     },
     {
       "char": "S",
@@ -221,7 +221,7 @@
     },
     {
       "char": "4",
-      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,shape=straight,half=top,facing=north]"
     },
     {
       "char": "5",
@@ -229,7 +229,7 @@
     },
     {
       "char": "6",
-      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,shape=straight,half=top,facing=south]"
     },
     {
       "char": "7",
@@ -285,7 +285,7 @@
     },
     {
       "char": "(",
-      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,shape=straight,half=top,facing=east]"
     },
     {
       "char": ")",
@@ -298,7 +298,7 @@
     },
     {
       "char": "+",
-      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,shape=straight,half=top,facing=west]"
     }
   ]
 }

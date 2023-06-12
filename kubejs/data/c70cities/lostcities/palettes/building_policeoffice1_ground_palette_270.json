@@ -43,11 +43,11 @@
     },
     {
       "char": "k",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
     },
     {
       "char": "l",
-      "block": "cfm:cyan_kitchen_counter[facing=east,type=default]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=east]"
     },
     {
       "char": "m",
@@ -55,19 +55,19 @@
     },
     {
       "char": "n",
-      "block": "minecraft:iron_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "minecraft:iron_door[facing=south,half=lower,open=false,hinge=left]"
     },
     {
       "char": "o",
-      "block": "minecraft:iron_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "minecraft:iron_door[facing=south,half=lower,open=false,hinge=right]"
     },
     {
       "char": "p",
-      "block": "minecraft:iron_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "minecraft:iron_door[facing=east,half=lower,open=false,hinge=left]"
     },
     {
       "char": "q",
-      "block": "minecraft:iron_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "minecraft:iron_door[facing=east,half=lower,open=false,hinge=right]"
     },
     {
       "char": "r",
@@ -104,19 +104,19 @@
     },
     {
       "char": "B",
-      "block": "minecraft:iron_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "minecraft:iron_door[facing=south,half=upper,open=false,hinge=left]"
     },
     {
       "char": "C",
-      "block": "minecraft:iron_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "minecraft:iron_door[facing=south,half=upper,open=false,hinge=right]"
     },
     {
       "char": "D",
-      "block": "minecraft:iron_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "minecraft:iron_door[facing=east,half=upper,open=false,hinge=left]"
     },
     {
       "char": "E",
-      "block": "minecraft:iron_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "minecraft:iron_door[facing=east,half=upper,open=false,hinge=right]"
     },
     {
       "char": "F",

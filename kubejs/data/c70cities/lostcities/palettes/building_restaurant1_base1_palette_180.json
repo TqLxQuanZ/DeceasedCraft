@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "minecraft:barrel[facing=up,open=false]"
+      "block": "minecraft:barrel[open=false,facing=up]"
     },
     {
       "char": "g",
@@ -67,7 +67,7 @@
     },
     {
       "char": "q",
-      "block": "minecraft:barrel[facing=south,open=false]"
+      "block": "minecraft:barrel[open=false,facing=south]"
     },
     {
       "char": "r",

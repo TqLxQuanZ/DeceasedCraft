@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "minecraft:red_bed[part=head,facing=north,occupied=false]",
+      "block": "minecraft:red_bed[part=head,occupied=false,facing=north]",
       "tag": {
         "id": "minecraft:bed"
       }
@@ -46,7 +46,7 @@
     },
     {
       "char": "k",
-      "block": "minecraft:red_bed[part=foot,facing=north,occupied=false]",
+      "block": "minecraft:red_bed[part=foot,occupied=false,facing=north]",
       "tag": {
         "id": "minecraft:bed"
       }
@@ -74,7 +74,7 @@
     },
     {
       "char": "q",
-      "block": "minecraft:barrel[facing=west,open=false]"
+      "block": "minecraft:barrel[open=false,facing=west]"
     },
     {
       "char": "r",
@@ -82,19 +82,19 @@
     },
     {
       "char": "s",
-      "block": "minecraft:dark_oak_door[hinge=left,half=lower,facing=north,open=false]"
+      "block": "minecraft:dark_oak_door[facing=north,half=lower,open=false,hinge=left]"
     },
     {
       "char": "t",
-      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=north,open=false]"
+      "block": "minecraft:dark_oak_door[facing=north,half=lower,open=false,hinge=right]"
     },
     {
       "char": "u",
-      "block": "minecraft:stone_button[face=floor,facing=west]"
+      "block": "minecraft:stone_button[facing=west,face=floor]"
     },
     {
       "char": "w",
-      "block": "minecraft:stone_button[face=floor,facing=north]"
+      "block": "minecraft:stone_button[facing=north,face=floor]"
     },
     {
       "char": "x",
@@ -102,7 +102,7 @@
     },
     {
       "char": "y",
-      "block": "minecraft:stone_button[face=floor,facing=east]"
+      "block": "minecraft:stone_button[facing=east,face=floor]"
     },
     {
       "char": "A",
@@ -131,11 +131,11 @@
     },
     {
       "char": "F",
-      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=north,open=false]"
+      "block": "minecraft:dark_oak_door[facing=north,half=upper,open=false,hinge=left]"
     },
     {
       "char": "I",
-      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=north,open=false]"
+      "block": "minecraft:dark_oak_door[facing=north,half=upper,open=false,hinge=right]"
     },
     {
       "char": "J",

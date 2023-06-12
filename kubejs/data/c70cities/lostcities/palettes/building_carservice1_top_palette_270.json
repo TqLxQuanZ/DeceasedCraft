@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "cfm:cyan_kitchen_counter[facing=east,type=default]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=east]"
     },
     {
       "char": "l",
@@ -71,7 +71,7 @@
     },
     {
       "char": "r",
-      "block": "quark:iron_button[face=wall,facing=east]"
+      "block": "quark:iron_button[facing=east,face=wall]"
     },
     {
       "char": "s",
@@ -87,7 +87,7 @@
     },
     {
       "char": "w",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
     },
     {
       "char": "x",
@@ -96,7 +96,7 @@
     },
     {
       "char": "y",
-      "block": "quark:iron_button[face=wall,facing=west]"
+      "block": "quark:iron_button[facing=west,face=wall]"
     },
     {
       "char": "A",

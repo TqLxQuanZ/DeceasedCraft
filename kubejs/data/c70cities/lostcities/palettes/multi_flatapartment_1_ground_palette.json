@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:stone_button[face=floor,facing=north]"
+      "block": "minecraft:stone_button[facing=north,face=floor]"
     },
     {
       "char": "e",
@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "minecraft:stone_button[face=floor,facing=east]"
+      "block": "minecraft:stone_button[facing=east,face=floor]"
     },
     {
       "char": "k",
@@ -47,7 +47,7 @@
     },
     {
       "char": "l",
-      "block": "another_furniture:spruce_drawer[facing=south,open=false]",
+      "block": "another_furniture:spruce_drawer[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -60,11 +60,11 @@
     },
     {
       "char": "o",
-      "block": "minecraft:stone_button[face=floor,facing=west]"
+      "block": "minecraft:stone_button[facing=west,face=floor]"
     },
     {
       "char": "p",
-      "block": "another_furniture:spruce_drawer[facing=west,open=false]",
+      "block": "another_furniture:spruce_drawer[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -73,11 +73,11 @@
     },
     {
       "char": "r",
-      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:stone_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
     },
     {
       "char": "s",
-      "block": "minecraft:stone_button[face=floor,facing=south]"
+      "block": "minecraft:stone_button[facing=south,face=floor]"
     },
     {
       "char": "t",
@@ -101,7 +101,7 @@
     },
     {
       "char": "A",
-      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:stone_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
     }
   ]
 }

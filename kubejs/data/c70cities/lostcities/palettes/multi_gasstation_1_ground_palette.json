@@ -7,7 +7,7 @@
     },
     {
       "char": "b",
-      "block": "minecraft:repeating_command_block[conditional=false,facing=east]",
+      "block": "minecraft:repeating_command_block[facing=east,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
@@ -16,7 +16,7 @@
     },
     {
       "char": "c",
-      "block": "minecraft:chain_command_block[conditional=false,facing=up]",
+      "block": "minecraft:chain_command_block[facing=up,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
@@ -53,7 +53,7 @@
     },
     {
       "char": "k",
-      "block": "create:framed_glass_door[hinge=right,half=lower,facing=west,open=false]"
+      "block": "create:framed_glass_door[facing=west,half=lower,open=false,hinge=right]"
     },
     {
       "char": "l",
@@ -61,7 +61,7 @@
     },
     {
       "char": "m",
-      "block": "create:framed_glass_door[hinge=left,half=lower,facing=west,open=false]"
+      "block": "create:framed_glass_door[facing=west,half=lower,open=false,hinge=left]"
     },
     {
       "char": "n",
@@ -87,16 +87,16 @@
     },
     {
       "char": "r",
-      "block": "farmersdelight:oak_cabinet[facing=west,open=false]",
+      "block": "farmersdelight:oak_cabinet[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "s",
-      "block": "cfm:red_kitchen_counter[facing=south,type=default]"
+      "block": "cfm:red_kitchen_counter[type=default,facing=south]"
     },
     {
       "char": "t",
-      "block": "cfm:red_kitchen_drawer[facing=north,open=false]",
+      "block": "cfm:red_kitchen_drawer[open=false,facing=north]",
       "loot": "chestloot"
     },
     {
@@ -105,7 +105,7 @@
     },
     {
       "char": "w",
-      "block": "cfm:red_kitchen_counter[facing=east,type=default]"
+      "block": "cfm:red_kitchen_counter[type=default,facing=east]"
     },
     {
       "char": "x",
@@ -113,7 +113,7 @@
     },
     {
       "char": "y",
-      "block": "embellishcraft:birch_plain_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "embellishcraft:birch_plain_door[facing=east,half=lower,open=false,hinge=left]"
     },
     {
       "char": "A",
@@ -138,11 +138,11 @@
     },
     {
       "char": "F",
-      "block": "create:framed_glass_door[hinge=right,half=upper,facing=west,open=false]"
+      "block": "create:framed_glass_door[facing=west,half=upper,open=false,hinge=right]"
     },
     {
       "char": "I",
-      "block": "create:framed_glass_door[hinge=left,half=upper,facing=west,open=false]"
+      "block": "create:framed_glass_door[facing=west,half=upper,open=false,hinge=left]"
     },
     {
       "char": "J",
@@ -158,15 +158,15 @@
     },
     {
       "char": "M",
-      "block": "embellishcraft:birch_plain_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:birch_plain_door[facing=east,half=upper,open=false,hinge=left]"
     },
     {
       "char": "N",
-      "block": "another_furniture:birch_shelf[waterlogged=false,facing=north,type=right]"
+      "block": "another_furniture:birch_shelf[waterlogged=false,type=right,facing=north]"
     },
     {
       "char": "O",
-      "block": "another_furniture:birch_shelf[waterlogged=false,facing=north,type=left]"
+      "block": "another_furniture:birch_shelf[waterlogged=false,type=left,facing=north]"
     },
     {
       "char": "P",

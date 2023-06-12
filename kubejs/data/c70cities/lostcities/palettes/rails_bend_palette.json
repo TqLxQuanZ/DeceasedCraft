@@ -60,22 +60,30 @@
     },
     {
       "char": "f",
-      "block": "create:track[waterlogged=false,shape=xo]"
+      "block": "create:track[waterlogged=false,shape=pd]"
     },
     {
       "char": "g",
-      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+      "block": "create:track[waterlogged=false,shape=nd]"
     },
     {
       "char": "h",
-      "block": "minecraft:smooth_quartz"
+      "block": "create:track[waterlogged=false,shape=xo]"
     },
     {
       "char": "i",
-      "block": "minecraft:smooth_stone"
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
     },
     {
       "char": "j",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "l",
       "block": "minecraft:stone_brick_slab[waterlogged=false,type=top]"
     }
   ]

@@ -75,7 +75,7 @@
     },
     {
       "char": "s",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=right]"
+      "block": "cfm:oak_park_bench[waterlogged=false,type=right,facing=west]"
     },
     {
       "char": "t",
@@ -83,7 +83,7 @@
     },
     {
       "char": "u",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=left]"
+      "block": "cfm:oak_park_bench[waterlogged=false,type=left,facing=west]"
     },
     {
       "char": "w",
@@ -124,7 +124,7 @@
     },
     {
       "char": "F",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
     },
     {
       "char": "I",

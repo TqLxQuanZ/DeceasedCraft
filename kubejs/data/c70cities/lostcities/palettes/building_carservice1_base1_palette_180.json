@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "embellishcraft:marble_button[face=wall,facing=east]"
+      "block": "embellishcraft:marble_button[facing=east,face=wall]"
     },
     {
       "char": "f",
@@ -36,7 +36,7 @@
     },
     {
       "char": "i",
-      "block": "embellishcraft:smooth_basalt_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "embellishcraft:smooth_basalt_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
     },
     {
       "char": "j",
@@ -92,7 +92,7 @@
     },
     {
       "char": "x",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
     },
     {
       "char": "y",

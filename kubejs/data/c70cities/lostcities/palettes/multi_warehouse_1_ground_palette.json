@@ -83,7 +83,7 @@
     },
     {
       "char": "t",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
     },
     {
       "char": "u",
@@ -91,11 +91,11 @@
     },
     {
       "char": "w",
-      "block": "create:framed_glass_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "create:framed_glass_door[facing=south,half=lower,open=false,hinge=right]"
     },
     {
       "char": "x",
-      "block": "create:framed_glass_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "create:framed_glass_door[facing=south,half=lower,open=false,hinge=left]"
     },
     {
       "char": "y",
@@ -107,15 +107,15 @@
     },
     {
       "char": "B",
-      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,facing=north,open=false]"
+      "block": "minecraft:dark_oak_trapdoor[facing=north,waterlogged=false,half=bottom,open=false]"
     },
     {
       "char": "C",
-      "block": "create:framed_glass_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "create:framed_glass_door[facing=south,half=upper,open=false,hinge=right]"
     },
     {
       "char": "D",
-      "block": "create:framed_glass_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "create:framed_glass_door[facing=south,half=upper,open=false,hinge=left]"
     },
     {
       "char": "E",

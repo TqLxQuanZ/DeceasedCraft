@@ -52,7 +52,7 @@
     },
     {
       "char": "l",
-      "block": "cfm:cyan_kitchen_drawer[facing=south,open=false]",
+      "block": "cfm:cyan_kitchen_drawer[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -65,11 +65,11 @@
     },
     {
       "char": "o",
-      "block": "minecraft:iron_door[hinge=left,half=lower,facing=north,open=false]"
+      "block": "minecraft:iron_door[facing=north,half=lower,open=false,hinge=left]"
     },
     {
       "char": "p",
-      "block": "cfm:freezer_light[facing=west,open=false]"
+      "block": "cfm:freezer_light[open=false,facing=west]"
     },
     {
       "char": "q",
@@ -81,7 +81,7 @@
     },
     {
       "char": "s",
-      "block": "minecraft:iron_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "minecraft:iron_door[facing=east,half=lower,open=false,hinge=right]"
     },
     {
       "char": "t",
@@ -97,15 +97,15 @@
     },
     {
       "char": "x",
-      "block": "cfm:cyan_kitchen_counter[facing=north,type=default]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=north]"
     },
     {
       "char": "y",
-      "block": "minecraft:iron_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "minecraft:iron_door[facing=east,half=lower,open=false,hinge=left]"
     },
     {
       "char": "A",
-      "block": "cfm:cyan_kitchen_counter[facing=south,type=default]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=south]"
     },
     {
       "char": "B",
@@ -121,16 +121,16 @@
     },
     {
       "char": "E",
-      "block": "minecraft:iron_door[hinge=left,half=upper,facing=north,open=false]"
+      "block": "minecraft:iron_door[facing=north,half=upper,open=false,hinge=left]"
     },
     {
       "char": "F",
-      "block": "cfm:fridge_light[facing=west,open=false]",
+      "block": "cfm:fridge_light[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "I",
-      "block": "minecraft:iron_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "minecraft:iron_door[facing=east,half=upper,open=false,hinge=right]"
     },
     {
       "char": "J",
@@ -142,7 +142,7 @@
     },
     {
       "char": "L",
-      "block": "minecraft:iron_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "minecraft:iron_door[facing=east,half=upper,open=false,hinge=left]"
     },
     {
       "char": "M",

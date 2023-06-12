@@ -68,22 +68,26 @@
     },
     {
       "char": "h",
-      "block": "create:polished_cut_dripstone_wall[waterlogged=false,up=true]"
+      "block": "quark:oak_hedge[waterlogged=false]"
     },
     {
       "char": "i",
-      "block": "minecraft:cobweb"
+      "block": "create:polished_cut_dripstone_wall[waterlogged=false,up=true]"
     },
     {
       "char": "j",
-      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "k",
-      "block": "minecraft:smooth_quartz"
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
     },
     {
       "char": "l",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "m",
       "block": "minecraft:smooth_stone"
     }
   ]

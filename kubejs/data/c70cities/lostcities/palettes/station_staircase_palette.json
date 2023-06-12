@@ -56,11 +56,11 @@
     },
     {
       "char": "e",
-      "block": "create:display_board[waterlogged=false,facing=south,up=true]"
+      "block": "create:display_board[waterlogged=false,up=true,facing=south]"
     },
     {
       "char": "f",
-      "block": "create:display_board[waterlogged=false,facing=south,up=false]"
+      "block": "create:display_board[waterlogged=false,up=false,facing=south]"
     },
     {
       "char": "g",

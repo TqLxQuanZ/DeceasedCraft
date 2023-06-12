@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "minecraft:iron_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "minecraft:iron_door[facing=south,half=lower,open=false,hinge=left]"
     },
     {
       "char": "j",
@@ -56,7 +56,7 @@
     },
     {
       "char": "n",
-      "block": "cfm:cyan_kitchen_counter[facing=south,type=default]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=south]"
     },
     {
       "char": "o",
@@ -64,19 +64,19 @@
     },
     {
       "char": "p",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
     },
     {
       "char": "q",
-      "block": "minecraft:iron_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "minecraft:iron_door[facing=south,half=lower,open=false,hinge=right]"
     },
     {
       "char": "r",
-      "block": "minecraft:iron_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "minecraft:iron_door[facing=south,half=upper,open=false,hinge=left]"
     },
     {
       "char": "s",
-      "block": "minecraft:iron_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "minecraft:iron_door[facing=south,half=upper,open=false,hinge=right]"
     },
     {
       "char": "t",

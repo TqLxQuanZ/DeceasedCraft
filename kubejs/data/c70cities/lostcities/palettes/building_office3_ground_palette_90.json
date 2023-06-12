@@ -40,11 +40,11 @@
     },
     {
       "char": "j",
-      "block": "minecraft:dark_oak_door[hinge=left,half=lower,facing=north,open=false]"
+      "block": "minecraft:dark_oak_door[facing=north,half=lower,open=false,hinge=left]"
     },
     {
       "char": "k",
-      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=north,open=false]"
+      "block": "minecraft:dark_oak_door[facing=north,half=lower,open=false,hinge=right]"
     },
     {
       "char": "l",
@@ -52,11 +52,11 @@
     },
     {
       "char": "m",
-      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=north,open=false]"
+      "block": "minecraft:dark_oak_door[facing=north,half=upper,open=false,hinge=left]"
     },
     {
       "char": "n",
-      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=north,open=false]"
+      "block": "minecraft:dark_oak_door[facing=north,half=upper,open=false,hinge=right]"
     },
     {
       "char": "o",
