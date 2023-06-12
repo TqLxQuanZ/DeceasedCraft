@@ -31,7 +31,7 @@ craftingTable.addShaped("backpack", <item:backpacked:backpack>,
 // Ender Pearl
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("ender_pearl")
                                                       .transitionTo(<item:contenttweaker:incomplete_ender_pearl>)
-                                                      .require(<tag:items:forge:dusts/obsidian>)
+                                                      .require(<tag:items:forge:obsidian>)
                                                       .loops(4)
                                                       .addOutput(<item:minecraft:ender_pearl>, 1)
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:water> * 25))
