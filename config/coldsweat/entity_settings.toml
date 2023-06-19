@@ -7,9 +7,6 @@
 	#Defines how often a goat will try to grow its fur, the growth cooldown after shearing, and the chance of it succeeding
 	#Format: [ticks, cooldown, chance]
 	"Goat Fur Growth Timings" = [1200, 2400, 0.2]
-	#Defines the items that can be used to tame a chameleon
-	#Format: ["item_id", chance]
-	"Chameleon Tame Items" = [["minecraft:spider_eye", 0.3]]
 
 ["Mob Spawning"]
 	#Defines the biomes that Chameleons can spawn in
@@ -19,6 +16,4 @@
 	#Format: [["biome_id", weight], ["biome_id", weight], etc...]
 	#Not affected by the "Increase Goat Spawns" option
 	"Goat Spawn Biomes" = [["minecraft:meadow", 4], ["minecraft:windswept_hills", 8], ["minecraft:windswept_forest", 8], ["minecraft:windswept_gravelly_hills", 8], ["minecraft:grove", 8], ["minecraft:stony_peaks", 8], ["biomesoplenty:boreal_forest", 8], ["biomesoplenty:jade_cliffs", 8], ["biomesoplenty:crag", 3]]
-	#If true, goats will spawn more frequently in the world
-	"Increase Goat Spawns" = true
 

@@ -1,7 +1,10 @@
 {
   "armorSetName": "Soldier",
   "head": {
-    "itemKey": "arsenals_of_the_apocalypse:soldier_helmet"
+    "itemKey": "arsenals_of_the_apocalypse:soldier_helmet",
+    "mixAndMatch": [
+      "arsenals_of_the_apocalypse:spec_ops_helmet"
+    ]
   },
   "chest": {
     "itemKey": "arsenals_of_the_apocalypse:soldier_chestplate"
@@ -41,6 +44,13 @@
       "interactionDuration": 100.0,
       "description": "Grants 10% Damage Resistance",
       "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "interactionType": "immunity",
+      "description": "Grants Weakness Immunity",
+      "onlyImmuneToNewEffects": true
     }
   ],
   "hideGeneratedTooltip": false

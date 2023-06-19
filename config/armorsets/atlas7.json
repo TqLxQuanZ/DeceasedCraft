@@ -36,6 +36,13 @@
       "modifierUUID": "c8eab8c0-0088-446d-ad7b-98789131cf38",
       "description": "Grants 10% Movement Speed",
       "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "interactionType": "immunity",
+      "description": "Grants Weakness Immunity",
+      "onlyImmuneToNewEffects": true
     }
   ],
   "hideGeneratedTooltip": false

@@ -40,6 +40,20 @@
       "interactionType": "attack",
       "interactionDuration": 200.0,
       "description": "Apply Slowness Effect When Dealt Damage"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "interactionType": "immunity",
+      "description": "Grants Weakness Immunity",
+      "onlyImmuneToNewEffects": true
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "interactionType": "immunity",
+      "onlyImmuneToNewEffects": false,
+      "hideBonusDescription": true
     }
   ],
   "hideGeneratedTooltip": false

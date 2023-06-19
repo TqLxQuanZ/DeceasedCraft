@@ -1,11 +1,17 @@
 
 ["Fuel Items"]
-	#Defines items that can use as fuel
+	#Defines items that can be used as fuel
 	#Format: [["item-id-1", amount-1], ["item-id-2", amount-2], ...etc]
 	Boiler = [["minecraft:coal", 37], ["minecraft:charcoal", 37], ["minecraft:coal_block", 333], ["minecraft:magma_block", 333], ["minecraft:lava_bucket", 1000]]
 	Icebox = [["minecraft:snowball", 37], ["minecraft:clay", 37], ["minecraft:snow_block", 333], ["minecraft:water_bucket", 333], ["minecraft:ice", 333], ["minecraft:packed_ice", 1000]]
 	#Negative values indicate cold fuel
 	Hearth = [["minecraft:coal", 37], ["minecraft:charcoal", 37], ["minecraft:coal_block", 333], ["minecraft:magma_block", 333], ["minecraft:lava_bucket", 1000], ["minecraft:snowball", -37], ["minecraft:clay", -37], ["minecraft:snow_block", -333], ["minecraft:water_bucket", -333], ["minecraft:ice", -333], ["minecraft:packed_ice", -1000]]
+	#Potions containing any of these effects will not be allowed in the hearth
+	#Format: ["effect_id", "effect_id", ...etc]
+	"Blacklisted Potion Effects" = ["minecraft:instant_damage", "minecraft:poison", "minecraft:wither", "minecraft:weakness", "minecraft:mining_fatigue", "minecraft:slowness"]
+	#If true, potions can be used as fuel in the hearth
+	#This gives all players in range the potion effect
+	"Allow Potions in Hearth" = true
 
 ["Soulspring Lamp"]
 	#Defines the items that the Soulspring Lamp can use as fuel and their values

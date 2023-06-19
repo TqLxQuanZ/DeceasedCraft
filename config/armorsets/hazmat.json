@@ -1,0 +1,32 @@
+{
+  "armorSetName": "Hazmat",
+  "head": {
+    "itemKey": "arsenals_of_the_apocalypse:hazmat_suit_helmet"
+  },
+  "chest": {
+    "itemKey": "arsenals_of_the_apocalypse:hazmat_suit_chestplate"
+  },
+  "legs": {
+    "itemKey": "arsenals_of_the_apocalypse:hazmat_suit_leggings"
+  },
+  "boots": {
+    "itemKey": "arsenals_of_the_apocalypse:hazmat_suit_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:poison",
+      "interactionType": "immunity",
+      "description": "Grants Poison Immunity",
+      "onlyImmuneToNewEffects": true
+    },
+    {
+      "type": "effect",
+      "name": "hordes:infected",
+      "interactionType": "immunity",
+      "description": "Grants Infection Immunity",
+      "onlyImmuneToNewEffects": true
+    }
+  ],
+  "hideGeneratedTooltip": false
+}
