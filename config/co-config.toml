@@ -1,0 +1,38 @@
+
+[co-item]
+	#Enable enchantments on the standard crossbow
+	"Enable enchants on crossbow" = true
+	#Enable enchantments on the netherite crossbow
+	"Enable enchants on netherite crossbow" = true
+	#Allow explosive bolts to be fired from the standard crossbow
+	"Explosive bolts on non-netherite crossbow" = false
+	#Standard crossbow charge time, vanilla charge time is 25 ticks
+	#Range: > 1
+	"Crossbow charge-time modifier" = 40
+	#Netherite crossbow charge time, vanilla charge time is 25 ticks
+	#Range: > 1
+	"Netherite Crossbow charge-time modifier" = 60
+	#Multiplier for the projectile speed for projectiles shot from the standard crossbow
+	#Range: 1.0 ~ 3.4028234663852886E38
+	"Crossbow projectile speed multiplier" = 1.0
+	#Multiplier for the projectile speed for projectiles shot from the netherite crossbow
+	#Range: 1.0 ~ 3.4028234663852886E38
+	"Netherite Crossbow projectile speed multiplier" = 1.5
+	#Multiplier for the projectile rabge for projectiles shot from the standard crossbow
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Crossbow projectile range multiplier" = 1.0
+	#Multiplier for the projectile range for projectiles shot from the netherite crossbow
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Netherite Crossbow projectile range multiplier" = 1.5
+
+	[co-item.requires-game-restart]
+		#Range: > 1
+		"Crossbow durability" = 512
+		#Range: > 1
+		"Netherite Crossbow durability" = 1024
+
+[co-ench]
+	#Maximum level of multishot. Resulting projctiles: (<value> * 2) + 1. For vanilla values, set it to 1
+	#Range: > 1
+	"Modify multishot enchantment" = 3
+

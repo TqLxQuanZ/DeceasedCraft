@@ -565,6 +565,25 @@ craftingTable.addShaped("netherite_hoe", <item:minecraft:netherite_hoe>,
 	[<item:minecraft:air>, <tag:items:forge:rods/aluminum>],
     [<item:minecraft:air>, <tag:items:forge:rods/aluminum>]]);
 
+// Netherite Crossbow
+smithing.removeByName("crossbowverhaul:crossbow_netherite");
+craftingTable.addShaped("crossbow_netherite", <item:crossbowverhaul:crossbow_netherite>,
+    [[<item:minecraft:bow>, <item:minecraft:netherite_scrap>, <item:minecraft:netherite_scrap>],
+	[<item:minecraft:netherite_scrap>, <tag:items:minecraft:planks>, <item:minecraft:air>],
+    [<item:minecraft:netherite_scrap>, <item:minecraft:air>, <tag:items:minecraft:planks>]]);
+
+// Netherite Bolt
+smithing.removeByName("crossbowverhaul:bolt_netherite");
+craftingTable.addShapedMirrored("bolt_netherite", <constant:minecraft:mirroraxis:horizontal>, <item:crossbowverhaul:bolt_netherite>,
+    [[<item:minecraft:netherite_scrap>, <item:minecraft:air>],
+    [<item:minecraft:air>, <tag:items:forge:feathers>]]);
+
+// Explosive Bolt
+craftingTable.removeByName("crossbowverhaul:bolt_explosive");
+craftingTable.addShapedMirrored("bolt_explosive", <constant:minecraft:mirroraxis:horizontal>, <item:crossbowverhaul:bolt_explosive>,
+    [[<item:arsenals_of_the_apocalypse:gunpowder_can>, <item:minecraft:air>],
+    [<item:minecraft:air>, <tag:items:forge:feathers>]]);
+
 // Gilded Quartz
 // Rose Quartz Pickaxe
 <recipetype:create:mechanical_crafting>.removeByName("create_sa:rose_quartz_pickaxe_recipe");
