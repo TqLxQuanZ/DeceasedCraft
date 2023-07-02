@@ -23,7 +23,7 @@
     {
       "mod": "zombiemobs",
       "dimension": "minecraft:overworld",
-      "minlight": 6,
+      "minlight": 8,
       "maxlight": 15,
       "result": "deny"
     },
@@ -54,7 +54,7 @@
     {
       "mob": "zombiemobs:zombie_llama",
       "minlight": 0,
-      "maxlight": 5,
+      "maxlight": 7,
       "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
       "seesky": true,
       "onjoin": true,
@@ -73,7 +73,7 @@
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "dimension": "minecraft:overworld",
-        "minlight": 6,
+        "minlight": 8,
         "maxlight": 15,
         "result": "deny"
     },
@@ -417,7 +417,7 @@
         "mob": "minecraft:zombie",
         "dimension": "minecraft:overworld",
         "minlight": 0,
-        "maxlight": 5,
+        "maxlight": 7,
         "seesky": true,
         "result": "allow"
     },
@@ -480,7 +480,7 @@
     {
       "mob": "minecraft:spider",
       "dimension": "minecraft:overworld", 
-      "minlight": 6,
+      "minlight": 8,
       "maxlight": 15,
       "result": "deny"
     }
