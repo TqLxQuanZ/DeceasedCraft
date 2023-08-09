@@ -29,19 +29,19 @@ furnace.addRecipe("leather", <item:minecraft:leather>, <item:minecraft:rotten_fl
 
 // Hides
 // Bears
-<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bear_ashen>);
-<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bear_black>);
-<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bear_brown>);
-<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bear_white>);
+// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bear_ashen>);
+// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bear_black>);
+// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bear_brown>);
+// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bear_white>);
 
 // Cats
-<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_jaguar>);
-<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_leopard>);
-<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_lion>);
-<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_panther>);
-<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_puma>);
-<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_snow_leopard>);
-<tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_tiger>);
+// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_jaguar>);
+// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_leopard>);
+// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_lion>);
+// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_panther>);
+// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_puma>);
+// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_snow_leopard>);
+// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_tiger>);
 
 # Mutation
 <tag:items:forge:mutation_hides>.add(<item:mutationcraft_origins:bedridden_hide>);
@@ -55,9 +55,6 @@ furnace.addRecipe("leather", <item:minecraft:leather>, <item:minecraft:rotten_fl
 // Bioethanol
 <recipetype:create:mixing>.removeByName("createaddition:mixing/bioethanol");
 <recipetype:create:mixing>.addRecipe("bioethanol", <constant:create:heat_condition:none>, [<fluid:createaddition:bioethanol> * 60], [<item:createaddition:biomass>, <item:minecraft:sugar>], [], 100);
-
-// Fats
-<tag:items:minecraft:animal_fat>.add(<item:untamedwilds:material_fat>);
 
 // Gold Wire
 craftingTable.addShapeless("ie_gold_wire", <item:createaddition:gold_wire>,

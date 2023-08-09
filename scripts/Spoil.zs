@@ -53,8 +53,6 @@ spoilManager.addSpoiling("cooked_crab_leg", <item:quark:cooked_crab_leg>, <item:
 spoilManager.addSpoiling("cooked_frog_leg", <item:quark:cooked_frog_leg>, <item:minecraft:rotten_flesh>, 3 * 6000);
 
 // Misc
-spoilManager.addSpoiling("turtle_soup", <item:untamedwilds:food_turtle_soup>, <item:minecraft:rotten_flesh>, 3 * 6000);
-spoilManager.addSpoiling("aardvark_cucumber", <item:untamedwilds:food_aardvark_cucumber>, <item:minecraft:rotten_flesh>, 3 * 6000);
 spoilManager.addSpoiling("sweet_roll", <item:create:sweet_roll>, <item:minecraft:rotten_flesh>, 7 * 6000);
 
 // Critters

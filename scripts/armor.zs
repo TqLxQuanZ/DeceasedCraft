@@ -36,8 +36,8 @@ JEI.hideIngredient(<item:create_sa:slime_boots>);
 // Special
 
 // Diving Helmet
-craftingTable.remove(<item:create:diving_helmet>);
-<recipetype:create:mechanical_crafting>.addRecipe("diving_helmet", <item:create:diving_helmet>,
+craftingTable.remove(<item:create:copper_diving_helmet>);
+<recipetype:create:mechanical_crafting>.addRecipe("copper_diving_helmet", <item:create:copper_diving_helmet>,
     [[<tag:items:forge:plates/copper>, <item:create:fluid_pipe>, <item:create:filter>, <item:create:fluid_pipe>, <tag:items:forge:plates/copper>],
     [<tag:items:forge:plates/copper>, <item:create:cogwheel>, <item:create_sa:hydraulic_engine>, <item:create:cogwheel>, <tag:items:forge:plates/copper>],
     [<tag:items:forge:plates/copper>, <item:minecraft:air>, <tag:items:forge:glass>, <item:minecraft:air>, <tag:items:forge:plates/copper>]]);

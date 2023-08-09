@@ -77,7 +77,6 @@ villagerTrades.addTrade(<profession:minecraft:cleric>, 5, <item:minecraft:nether
 // Tier 3
 villagerTrades.removeTradesSelling(<profession:minecraft:leatherworker>, 3, <item:minecraft:leather_chestplate>);
 villagerTrades.addTrade(<profession:minecraft:leatherworker>, 3, 6, <item:cold_sweat:hoglin_hide>, 5, 10, 0.05);
-villagerTrades.addTrade(<profession:minecraft:leatherworker>, 3, 6, <item:untamedwilds:hide_bear_black>, 5, 10, 0.05);
 villagerTrades.addTrade(<profession:minecraft:leatherworker>, 3, 6, <item:immersiveengineering:hemp_fabric>, 5, 10, 0.05);
 
 // Tier 5

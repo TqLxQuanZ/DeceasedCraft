@@ -41,84 +41,84 @@ import crafttweaker.api.item.IItemStack;
 
 // Crusher from Create
 // Copper
-<recipetype:create:crushing>.remove(<item:create:crushed_copper_ore>);
-<recipetype:create:crushing>.addRecipe("veridium", [<item:create:crushed_copper_ore> % 50, <item:create:copper_nugget> % 80], <item:create:veridium>, 250 );
-<recipetype:create:crushing>.addRecipe("veridium_recycle", [<item:create:crushed_copper_ore> % 50, <item:create:copper_nugget> % 80], <tag:items:create:stone_types/veridium>, 250 );
+<recipetype:create:crushing>.remove(<item:create:crushed_raw_copper>);
+<recipetype:create:crushing>.addRecipe("veridium", [<item:create:crushed_raw_copper> % 50, <item:create:copper_nugget> % 80], <item:create:veridium>, 250 );
+<recipetype:create:crushing>.addRecipe("veridium_recycle", [<item:create:crushed_raw_copper> % 50, <item:create:copper_nugget> % 80], <tag:items:create:stone_types/veridium>, 250 );
 
-<recipetype:create:crushing>.addRecipe("raw_copper", [<item:create:crushed_copper_ore>, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/copper>, 250 );
-<recipetype:create:crushing>.addRecipe("raw_copper_block", [<item:create:crushed_copper_ore> * 9, (<item:create:experience_nugget> * 9) % 75], <tag:items:forge:storage_blocks/raw_copper>, 750 );
+<recipetype:create:crushing>.addRecipe("raw_copper", [<item:create:crushed_raw_copper>, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/copper>, 250 );
+<recipetype:create:crushing>.addRecipe("raw_copper_block", [<item:create:crushed_raw_copper> * 9, (<item:create:experience_nugget> * 9) % 75], <tag:items:forge:storage_blocks/raw_copper>, 750 );
 
-<recipetype:create:crushing>.addRecipe("copper_ore_block", [<item:create:crushed_copper_ore>, <item:create:crushed_copper_ore> % 25, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:minecraft:copper_ore>, 350 );
-<recipetype:create:crushing>.addRecipe("deepslate_copper_ore_block", [<item:create:crushed_copper_ore>, <item:create:crushed_copper_ore> % 75, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:minecraft:deepslate_copper_ore>, 450 );
+<recipetype:create:crushing>.addRecipe("copper_ore_block", [<item:create:crushed_raw_copper>, <item:create:crushed_raw_copper> % 25, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:minecraft:copper_ore>, 350 );
+<recipetype:create:crushing>.addRecipe("deepslate_copper_ore_block", [<item:create:crushed_raw_copper>, <item:create:crushed_raw_copper> % 75, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:minecraft:deepslate_copper_ore>, 450 );
 
 // Iron
 <recipetype:create:crushing>.removeByName("create:crushing/raw_iron");
 <recipetype:create:crushing>.removeByName("create:crushing/deepslate_iron_ore");
 <recipetype:create:crushing>.removeByName("create:crushing/iron_ore");
 
-<recipetype:create:crushing>.addRecipe("raw_iron_ore", [<item:create:crushed_iron_ore>, <item:create:crushed_iron_ore> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/iron>, 250 );
-<recipetype:create:crushing>.addRecipe("iron_ore_block", [<item:create:crushed_iron_ore>, <item:create:crushed_iron_ore> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:minecraft:iron_ore>, 350 );
-<recipetype:create:crushing>.addRecipe("deepslate_iron_ore_block", [<item:create:crushed_iron_ore> * 2, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:minecraft:deepslate_iron_ore>, 450 );
+<recipetype:create:crushing>.addRecipe("raw_iron_ore", [<item:create:crushed_raw_iron>, <item:create:crushed_raw_iron> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/iron>, 250 );
+<recipetype:create:crushing>.addRecipe("iron_ore_block", [<item:create:crushed_raw_iron>, <item:create:crushed_raw_iron> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:minecraft:iron_ore>, 350 );
+<recipetype:create:crushing>.addRecipe("deepslate_iron_ore_block", [<item:create:crushed_raw_iron> * 2, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:minecraft:deepslate_iron_ore>, 450 );
 
 // Gold
 <recipetype:create:crushing>.removeByName("create:crushing/raw_gold");
 <recipetype:create:crushing>.removeByName("create:crushing/deepslate_gold_ore");
 <recipetype:create:crushing>.removeByName("create:crushing/gold_ore");
 
-<recipetype:create:crushing>.addRecipe("raw_gold_ore", [<item:create:crushed_gold_ore>, <item:create:crushed_gold_ore> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/gold>, 250 );
-<recipetype:create:crushing>.addRecipe("gold_ore_block", [<item:create:crushed_gold_ore>, <item:create:crushed_gold_ore> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:minecraft:gold_ore>, 350 );
-<recipetype:create:crushing>.addRecipe("deepslate_gold_ore_block", [<item:create:crushed_gold_ore> * 2, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:minecraft:deepslate_gold_ore>, 450 );
+<recipetype:create:crushing>.addRecipe("raw_gold_ore", [<item:create:crushed_raw_gold>, <item:create:crushed_raw_gold> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/gold>, 250 );
+<recipetype:create:crushing>.addRecipe("gold_ore_block", [<item:create:crushed_raw_gold>, <item:create:crushed_raw_gold> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:minecraft:gold_ore>, 350 );
+<recipetype:create:crushing>.addRecipe("deepslate_gold_ore_block", [<item:create:crushed_raw_gold> * 2, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:minecraft:deepslate_gold_ore>, 450 );
 
 // Zinc
 <recipetype:create:crushing>.removeByName("create:crushing/raw_zinc");
 <recipetype:create:crushing>.removeByName("create:crushing/zinc_ore");
 
-<recipetype:create:crushing>.addRecipe("raw_zinc_ore", [<item:create:crushed_zinc_ore>, <item:create:crushed_zinc_ore> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/zinc>, 250 );
-<recipetype:create:crushing>.addRecipe("zinc_ore_block", [<item:create:crushed_zinc_ore>, <item:create:crushed_zinc_ore> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:create:zinc_ore>, 350 );
-<recipetype:create:crushing>.addRecipe("deepslate_zinc_ore_block", [<item:create:crushed_zinc_ore> * 2, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:create:deepslate_zinc_ore>, 450 );
+<recipetype:create:crushing>.addRecipe("raw_zinc_ore", [<item:create:crushed_raw_zinc>, <item:create:crushed_raw_zinc> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/zinc>, 250 );
+<recipetype:create:crushing>.addRecipe("zinc_ore_block", [<item:create:crushed_raw_zinc>, <item:create:crushed_raw_zinc> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:create:zinc_ore>, 350 );
+<recipetype:create:crushing>.addRecipe("deepslate_zinc_ore_block", [<item:create:crushed_raw_zinc> * 2, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:create:deepslate_zinc_ore>, 450 );
 
 // Silver
 <recipetype:create:crushing>.removeByName("create:crushing/raw_silver_ore");
 <recipetype:create:crushing>.removeByName("create:crushing/silver_ore");
 
-<recipetype:create:crushing>.addRecipe("raw_silver_ore", [<item:create:crushed_silver_ore>, <item:create:crushed_silver_ore> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/silver>, 250 );
-<recipetype:create:crushing>.addRecipe("silver_ore_block", [<item:create:crushed_silver_ore>, <item:create:crushed_silver_ore> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:immersiveengineering:ore_silver>, 350 );
-<recipetype:create:crushing>.addRecipe("deepslate_silver_ore_block", [<item:create:crushed_silver_ore> * 2, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:immersiveengineering:deepslate_ore_silver>, 450 );
+<recipetype:create:crushing>.addRecipe("raw_silver_ore", [<item:create:crushed_raw_silver>, <item:create:crushed_raw_silver> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/silver>, 250 );
+<recipetype:create:crushing>.addRecipe("silver_ore_block", [<item:create:crushed_raw_silver>, <item:create:crushed_raw_silver> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:immersiveengineering:ore_silver>, 350 );
+<recipetype:create:crushing>.addRecipe("deepslate_silver_ore_block", [<item:create:crushed_raw_silver> * 2, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:immersiveengineering:deepslate_ore_silver>, 450 );
 
 // Lead
 <recipetype:create:crushing>.removeByName("create:crushing/raw_lead_ore");
 <recipetype:create:crushing>.removeByName("create:crushing/lead_ore");
 
-<recipetype:create:crushing>.addRecipe("raw_lead_ore", [<item:create:crushed_lead_ore>, <item:create:crushed_lead_ore> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/lead>, 250 );
-<recipetype:create:crushing>.addRecipe("lead_ore_block", [<item:create:crushed_lead_ore>, <item:create:crushed_lead_ore> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:immersiveengineering:ore_lead>, 350 );
-<recipetype:create:crushing>.addRecipe("deepslate_lead_ore_block", [<item:create:crushed_lead_ore> * 2, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:immersiveengineering:deepslate_ore_lead>, 450 );
+<recipetype:create:crushing>.addRecipe("raw_lead_ore", [<item:create:crushed_raw_lead>, <item:create:crushed_raw_lead> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/lead>, 250 );
+<recipetype:create:crushing>.addRecipe("lead_ore_block", [<item:create:crushed_raw_lead>, <item:create:crushed_raw_lead> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:immersiveengineering:ore_lead>, 350 );
+<recipetype:create:crushing>.addRecipe("deepslate_lead_ore_block", [<item:create:crushed_raw_lead> * 2, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:immersiveengineering:deepslate_ore_lead>, 450 );
 
 // Aluminum
 <recipetype:create:crushing>.removeByName("create:crushing/raw_aluminum_ore");
 <recipetype:create:crushing>.removeByName("create:crushing/aluminum_ore");
 
-<recipetype:create:crushing>.addRecipe("raw_aluminum_ore", [<item:create:crushed_aluminum_ore>, <item:create:crushed_aluminum_ore> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/aluminum>, 250 );
-<recipetype:create:crushing>.addRecipe("aluminum_ore_block", [<item:create:crushed_aluminum_ore>, <item:create:crushed_aluminum_ore> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:immersiveengineering:ore_aluminum>, 350 );
-<recipetype:create:crushing>.addRecipe("deepslate_aluminum_ore_block", [<item:create:crushed_aluminum_ore> * 2, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:immersiveengineering:deepslate_ore_aluminum>, 450 );
+<recipetype:create:crushing>.addRecipe("raw_aluminum_ore", [<item:create:crushed_raw_aluminum>, <item:create:crushed_raw_aluminum> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/aluminum>, 250 );
+<recipetype:create:crushing>.addRecipe("aluminum_ore_block", [<item:create:crushed_raw_aluminum>, <item:create:crushed_raw_aluminum> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:immersiveengineering:ore_aluminum>, 350 );
+<recipetype:create:crushing>.addRecipe("deepslate_aluminum_ore_block", [<item:create:crushed_raw_aluminum> * 2, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:immersiveengineering:deepslate_ore_aluminum>, 450 );
 
-<recipetype:create:crushing>.addRecipe("corundum_aluminum_ore", [<item:create:crushed_aluminum_ore>, <item:create:crushed_iron_ore> % 20, <item:create:experience_nugget> % 75], <tag:items:forge:corundum/block>, 600 );
-<recipetype:create:crushing>.addRecipe("corundum_aluminum_cluster", [<item:create:crushed_aluminum_ore> % 75, <item:create:experience_nugget> % 75], <tag:items:forge:corundum/cluster>, 600 );
+<recipetype:create:crushing>.addRecipe("corundum_aluminum_ore", [<item:create:crushed_raw_aluminum>, <item:create:crushed_raw_iron> % 20, <item:create:experience_nugget> % 75], <tag:items:forge:corundum/block>, 600 );
+<recipetype:create:crushing>.addRecipe("corundum_aluminum_cluster", [<item:create:crushed_raw_aluminum> % 75, <item:create:experience_nugget> % 75], <tag:items:forge:corundum/cluster>, 600 );
 
 // Uranium
 <recipetype:create:crushing>.removeByName("create:crushing/raw_uranium_ore");
 <recipetype:create:crushing>.removeByName("create:crushing/uranium_ore");
 
-<recipetype:create:crushing>.addRecipe("raw_uranium_ore", [<item:create:crushed_uranium_ore>, <item:create:crushed_uranium_ore> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/uranium>, 250 );
-<recipetype:create:crushing>.addRecipe("uranium_ore_block", [<item:create:crushed_uranium_ore>, <item:create:crushed_uranium_ore> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:immersiveengineering:ore_uranium>, 350 );
-<recipetype:create:crushing>.addRecipe("deepslate_uranium_ore_block", [<item:create:crushed_uranium_ore> * 2, <item:minecraft:cobbled_deepslate> % 12], <item:immersiveengineering:deepslate_ore_uranium>, 450 );
+<recipetype:create:crushing>.addRecipe("raw_uranium_ore", [<item:create:crushed_raw_uranium>, <item:create:crushed_raw_uranium> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/uranium>, 250 );
+<recipetype:create:crushing>.addRecipe("uranium_ore_block", [<item:create:crushed_raw_uranium>, <item:create:crushed_raw_uranium> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:immersiveengineering:ore_uranium>, 350 );
+<recipetype:create:crushing>.addRecipe("deepslate_uranium_ore_block", [<item:create:crushed_raw_uranium> * 2, <item:minecraft:cobbled_deepslate> % 12], <item:immersiveengineering:deepslate_ore_uranium>, 450 );
 
 // Nickel
 <recipetype:create:crushing>.removeByName("create:crushing/raw_nickel_ore");
 <recipetype:create:crushing>.removeByName("create:crushing/nickel_ore");
 
-<recipetype:create:crushing>.addRecipe("raw_nickel_ore", [<item:create:crushed_nickel_ore>, <item:create:crushed_nickel_ore> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/nickel>, 250 );
-<recipetype:create:crushing>.addRecipe("nickel_ore_block", [<item:create:crushed_nickel_ore>, <item:create:crushed_nickel_ore> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:immersiveengineering:ore_nickel>, 350 );
-<recipetype:create:crushing>.addRecipe("deepslate_nickel_ore_block", [<item:create:crushed_nickel_ore> * 2, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:immersiveengineering:deepslate_ore_nickel>, 450 );
+<recipetype:create:crushing>.addRecipe("raw_nickel_ore", [<item:create:crushed_raw_nickel>, <item:create:crushed_raw_nickel> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/nickel>, 250 );
+<recipetype:create:crushing>.addRecipe("nickel_ore_block", [<item:create:crushed_raw_nickel>, <item:create:crushed_raw_nickel> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:immersiveengineering:ore_nickel>, 350 );
+<recipetype:create:crushing>.addRecipe("deepslate_nickel_ore_block", [<item:create:crushed_raw_nickel> * 2, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:immersiveengineering:deepslate_ore_nickel>, 450 );
 
 
 // Crusher from IE
@@ -153,12 +153,12 @@ import crafttweaker.api.item.IItemStack;
 <recipetype:immersiveengineering:crusher>.addRecipe("ie_deepslate_gold_ore_crusher", <item:minecraft:deepslate_gold_ore>, 512, <item:immersiveengineering:dust_gold> * 2, <item:immersiveengineering:dust_gold> % 50, <item:immersiveengineering:dust_gold> % 30);
 
 // Zinc
-<recipetype:immersiveengineering:crusher>.addRecipe("ie_asurine_stones_crusher", <tag:items:create:stone_types/asurine>, 256, <item:create:crushed_zinc_ore>);
-<recipetype:immersiveengineering:crusher>.addRecipe("ie_asurine_crusher", <item:create:asurine>, 256, <item:create:crushed_zinc_ore>);
+<recipetype:immersiveengineering:crusher>.addRecipe("ie_asurine_stones_crusher", <tag:items:create:stone_types/asurine>, 256, <item:create:crushed_raw_zinc>);
+<recipetype:immersiveengineering:crusher>.addRecipe("ie_asurine_crusher", <item:create:asurine>, 256, <item:create:crushed_raw_zinc>);
 
-<recipetype:immersiveengineering:crusher>.addRecipe("ie_raw_zinc_crusher", <item:create:raw_zinc>, 256, <item:create:crushed_zinc_ore>, <item:create:crushed_zinc_ore> % 50);
-<recipetype:immersiveengineering:crusher>.addRecipe("ie_zinc_ore_crusher", <item:create:zinc_ore>, 256, <item:create:crushed_zinc_ore> * 2, <item:create:crushed_zinc_ore> % 20);
-<recipetype:immersiveengineering:crusher>.addRecipe("ie_deepslate_zinc_ore_crusher", <item:create:deepslate_zinc_ore>, 312, <item:create:crushed_zinc_ore> * 2, <item:create:crushed_zinc_ore> % 50);
+<recipetype:immersiveengineering:crusher>.addRecipe("ie_raw_zinc_crusher", <item:create:raw_zinc>, 256, <item:create:crushed_raw_zinc>, <item:create:crushed_raw_zinc> % 50);
+<recipetype:immersiveengineering:crusher>.addRecipe("ie_zinc_ore_crusher", <item:create:zinc_ore>, 256, <item:create:crushed_raw_zinc> * 2, <item:create:crushed_raw_zinc> % 20);
+<recipetype:immersiveengineering:crusher>.addRecipe("ie_deepslate_zinc_ore_crusher", <item:create:deepslate_zinc_ore>, 312, <item:create:crushed_raw_zinc> * 2, <item:create:crushed_raw_zinc> % 50);
 
 // Silver
 <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/ore_silver");
