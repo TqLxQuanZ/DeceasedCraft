@@ -27,20 +27,20 @@
     },
     {
       "char": "g",
-      "block": "cfm:cyan_kitchen_counter[type=left_corner,facing=north]"
+      "block": "cfm:cyan_kitchen_counter[facing=north,type=left_corner]"
     },
     {
       "char": "h",
-      "block": "cfm:cyan_kitchen_drawer[open=false,facing=north]",
+      "block": "cfm:cyan_kitchen_drawer[facing=north,open=false]",
       "loot": "chestloot"
     },
     {
       "char": "i",
-      "block": "cfm:cyan_kitchen_counter[type=default,facing=north]"
+      "block": "cfm:cyan_kitchen_counter[facing=north,type=default]"
     },
     {
       "char": "j",
-      "block": "cfm:cyan_kitchen_counter[type=default,facing=west]"
+      "block": "cfm:cyan_kitchen_counter[facing=west,type=default]"
     },
     {
       "char": "k",
@@ -48,7 +48,7 @@
     },
     {
       "char": "l",
-      "block": "cfm:cyan_kitchen_drawer[open=false,facing=west]",
+      "block": "cfm:cyan_kitchen_drawer[facing=west,open=false]",
       "loot": "chestloot"
     },
     {
@@ -81,12 +81,7 @@
     },
     {
       "char": "t",
-      "block": "minecraft:chain[waterlogged=false,axis=y]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
-      }
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "u",
@@ -98,7 +93,7 @@
     },
     {
       "char": "x",
-      "block": "quark:acacia_post[waterlogged=false,axis=y,chain_up=false]"
+      "block": "quark:acacia_post[waterlogged=false,chain_up=false,axis=y]"
     },
     {
       "char": "y",

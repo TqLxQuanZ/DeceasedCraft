@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "biomesoplenty:redwood_door[facing=west,half=lower,open=false,hinge=right]"
+      "block": "biomesoplenty:redwood_door[hinge=right,half=lower,facing=west,open=false]"
     },
     {
       "char": "j",
@@ -43,11 +43,11 @@
     },
     {
       "char": "k",
-      "block": "biomesoplenty:redwood_trapdoor[facing=west,waterlogged=false,half=bottom,open=true]"
+      "block": "biomesoplenty:redwood_trapdoor[waterlogged=false,half=bottom,facing=west,open=true]"
     },
     {
       "char": "l",
-      "block": "biomesoplenty:redwood_door[facing=west,half=lower,open=false,hinge=left]"
+      "block": "biomesoplenty:redwood_door[hinge=left,half=lower,facing=west,open=false]"
     },
     {
       "char": "m",
@@ -55,11 +55,11 @@
     },
     {
       "char": "n",
-      "block": "biomesoplenty:willow_door[facing=north,half=lower,open=false,hinge=left]"
+      "block": "biomesoplenty:willow_door[hinge=left,half=lower,facing=north,open=false]"
     },
     {
       "char": "o",
-      "block": "biomesoplenty:willow_door[facing=north,half=lower,open=false,hinge=right]"
+      "block": "biomesoplenty:willow_door[hinge=right,half=lower,facing=north,open=false]"
     },
     {
       "char": "p",
@@ -76,7 +76,7 @@
     },
     {
       "char": "s",
-      "block": "biomesoplenty:willow_trapdoor[facing=north,waterlogged=false,half=bottom,open=true]"
+      "block": "biomesoplenty:willow_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
     },
     {
       "char": "t",
@@ -88,35 +88,35 @@
     },
     {
       "char": "w",
-      "block": "biomesoplenty:redwood_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
+      "block": "biomesoplenty:redwood_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
       "char": "x",
-      "block": "biomesoplenty:redwood_door[facing=west,half=upper,open=false,hinge=right]"
+      "block": "biomesoplenty:redwood_door[hinge=right,half=upper,facing=west,open=false]"
     },
     {
       "char": "y",
-      "block": "biomesoplenty:redwood_door[facing=west,half=upper,open=false,hinge=left]"
+      "block": "biomesoplenty:redwood_door[hinge=left,half=upper,facing=west,open=false]"
     },
     {
       "char": "A",
-      "block": "biomesoplenty:redwood_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
+      "block": "biomesoplenty:redwood_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "B",
-      "block": "biomesoplenty:willow_door[facing=north,half=upper,open=false,hinge=left]"
+      "block": "biomesoplenty:willow_door[hinge=left,half=upper,facing=north,open=false]"
     },
     {
       "char": "C",
-      "block": "biomesoplenty:willow_door[facing=north,half=upper,open=false,hinge=right]"
+      "block": "biomesoplenty:willow_door[hinge=right,half=upper,facing=north,open=false]"
     },
     {
       "char": "D",
-      "block": "biomesoplenty:willow_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
+      "block": "biomesoplenty:willow_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
       "char": "E",
-      "block": "biomesoplenty:willow_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
+      "block": "biomesoplenty:willow_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     }
   ]
 }

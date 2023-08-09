@@ -56,7 +56,7 @@
     },
     {
       "char": "n",
-      "block": "quark:nether_brick_chest[waterlogged=false,type=single,facing=west]",
+      "block": "quark:nether_brick_chest[waterlogged=false,facing=west,type=single]",
       "loot": "chestloot"
     },
     {
@@ -66,7 +66,7 @@
     },
     {
       "char": "p",
-      "block": "quark:purpur_chest[waterlogged=false,type=single,facing=west]",
+      "block": "quark:purpur_chest[waterlogged=false,facing=west,type=single]",
       "loot": "chestloot"
     },
     {

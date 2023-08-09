@@ -59,11 +59,11 @@
     },
     {
       "char": "o",
-      "block": "create:depot"
+      "block": "create:depot[waterlogged=false]"
     },
     {
       "char": "p",
-      "block": "cfm:cyan_kitchen_counter[type=default,facing=east]"
+      "block": "cfm:cyan_kitchen_counter[facing=east,type=default]"
     },
     {
       "char": "q",
@@ -84,7 +84,7 @@
     },
     {
       "char": "u",
-      "block": "minecraft:stone_button[facing=north,face=wall]"
+      "block": "minecraft:stone_button[face=wall,facing=north]"
     },
     {
       "char": "w",
@@ -92,7 +92,7 @@
     },
     {
       "char": "x",
-      "block": "quark:dark_oak_post[waterlogged=false,axis=x,chain_up=false]"
+      "block": "quark:dark_oak_post[waterlogged=false,chain_up=false,axis=x]"
     },
     {
       "char": "y",
@@ -100,7 +100,7 @@
     },
     {
       "char": "A",
-      "block": "quark:dark_oak_post[waterlogged=false,axis=z,chain_up=false]"
+      "block": "quark:dark_oak_post[waterlogged=false,chain_up=false,axis=z]"
     },
     {
       "char": "B",
@@ -124,7 +124,7 @@
     },
     {
       "char": "I",
-      "block": "minecraft:lever[facing=east,face=wall]"
+      "block": "minecraft:lever[face=wall,facing=east]"
     },
     {
       "char": "J",

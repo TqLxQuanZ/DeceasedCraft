@@ -11,7 +11,7 @@
     },
     {
       "char": "c",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,shape=straight,half=top,facing=north]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     },
     {
       "char": "d",
@@ -19,11 +19,11 @@
     },
     {
       "char": "e",
-      "block": "another_furniture:light_gray_sofa[waterlogged=false,type=left,facing=north]"
+      "block": "another_furniture:light_gray_sofa[waterlogged=false,facing=north,type=left]"
     },
     {
       "char": "f",
-      "block": "another_furniture:light_gray_sofa[waterlogged=false,type=right,facing=north]"
+      "block": "another_furniture:light_gray_sofa[waterlogged=false,facing=north,type=right]"
     },
     {
       "char": "g",
@@ -35,15 +35,15 @@
     },
     {
       "char": "i",
-      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=top,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
     },
     {
       "char": "j",
-      "block": "minecraft:dark_oak_trapdoor[facing=south,waterlogged=false,half=bottom,open=true]"
+      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
     },
     {
       "char": "k",
-      "block": "minecraft:dark_oak_trapdoor[facing=east,waterlogged=false,half=bottom,open=true]"
+      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
     },
     {
       "char": "l",
@@ -51,15 +51,15 @@
     },
     {
       "char": "m",
-      "block": "minecraft:dark_oak_trapdoor[facing=west,waterlogged=false,half=bottom,open=true]"
+      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,facing=west,open=true]"
     },
     {
       "char": "n",
-      "block": "another_furniture:light_gray_sofa[waterlogged=false,type=single,facing=east]"
+      "block": "another_furniture:light_gray_sofa[waterlogged=false,facing=east,type=single]"
     },
     {
       "char": "o",
-      "block": "embellishcraft:oak_plain_door[facing=north,half=lower,open=false,hinge=right]"
+      "block": "embellishcraft:oak_plain_door[hinge=right,half=lower,facing=north,open=false]"
     },
     {
       "char": "p",
@@ -75,11 +75,11 @@
     },
     {
       "char": "s",
-      "block": "minecraft:dark_oak_trapdoor[facing=north,waterlogged=false,half=bottom,open=true]"
+      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
     },
     {
       "char": "t",
-      "block": "create:framed_glass_door[facing=east,half=lower,open=false,hinge=right]"
+      "block": "create:framed_glass_door[hinge=right,half=lower,facing=east,open=false]"
     },
     {
       "char": "u",
@@ -91,19 +91,19 @@
     },
     {
       "char": "x",
-      "block": "create:framed_glass_door[facing=east,half=lower,open=false,hinge=left]"
+      "block": "create:framed_glass_door[hinge=left,half=lower,facing=east,open=false]"
     },
     {
       "char": "y",
-      "block": "another_furniture:light_gray_sofa[waterlogged=false,type=right,facing=south]"
+      "block": "another_furniture:light_gray_sofa[waterlogged=false,facing=south,type=right]"
     },
     {
       "char": "A",
-      "block": "another_furniture:light_gray_sofa[waterlogged=false,type=left,facing=south]"
+      "block": "another_furniture:light_gray_sofa[waterlogged=false,facing=south,type=left]"
     },
     {
       "char": "B",
-      "block": "minecraft:iron_door[facing=east,half=lower,open=false,hinge=right]"
+      "block": "minecraft:iron_door[hinge=right,half=lower,facing=east,open=false]"
     },
     {
       "char": "C",
@@ -115,15 +115,15 @@
     },
     {
       "char": "E",
-      "block": "minecraft:iron_door[facing=east,half=lower,open=false,hinge=left]"
+      "block": "minecraft:iron_door[hinge=left,half=lower,facing=east,open=false]"
     },
     {
       "char": "F",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "I",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "J",
@@ -135,27 +135,27 @@
     },
     {
       "char": "L",
-      "block": "minecraft:iron_trapdoor[facing=south,waterlogged=false,half=bottom,open=false]"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
     },
     {
       "char": "M",
-      "block": "embellishcraft:oak_plain_door[facing=north,half=upper,open=false,hinge=right]"
+      "block": "embellishcraft:oak_plain_door[hinge=right,half=upper,facing=north,open=false]"
     },
     {
       "char": "N",
-      "block": "create:framed_glass_door[facing=east,half=upper,open=false,hinge=right]"
+      "block": "create:framed_glass_door[hinge=right,half=upper,facing=east,open=false]"
     },
     {
       "char": "O",
-      "block": "create:framed_glass_door[facing=east,half=upper,open=false,hinge=left]"
+      "block": "create:framed_glass_door[hinge=left,half=upper,facing=east,open=false]"
     },
     {
       "char": "P",
-      "block": "minecraft:iron_door[facing=east,half=upper,open=false,hinge=right]"
+      "block": "minecraft:iron_door[hinge=right,half=upper,facing=east,open=false]"
     },
     {
       "char": "Q",
-      "block": "minecraft:birch_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
       "char": "R",
@@ -163,27 +163,27 @@
     },
     {
       "char": "S",
-      "block": "minecraft:iron_door[facing=east,half=upper,open=false,hinge=left]"
+      "block": "minecraft:iron_door[hinge=left,half=upper,facing=east,open=false]"
     },
     {
       "char": "T",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,shape=straight,half=top,facing=west]"
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
       "char": "U",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,shape=straight,half=top,facing=south]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
     },
     {
       "char": "V",
-      "block": "create:framed_glass_trapdoor[facing=east,waterlogged=false,half=bottom,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
     },
     {
       "char": "W",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,shape=straight,half=top,facing=west]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
       "char": "X",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
       "char": "Y",
@@ -191,15 +191,15 @@
     },
     {
       "char": "Z",
-      "block": "minecraft:birch_stairs[waterlogged=false,shape=straight,half=top,facing=west]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
       "char": "0",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,shape=straight,half=top,facing=north]"
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     },
     {
       "char": "1",
-      "block": "minecraft:birch_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
       "char": "2",
@@ -207,12 +207,7 @@
     },
     {
       "char": "3",
-      "block": "minecraft:chain[waterlogged=false,axis=y]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
-      }
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "4",
@@ -220,7 +215,7 @@
     },
     {
       "char": "5",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     }
   ]
 }

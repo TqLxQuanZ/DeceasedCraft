@@ -3,21 +3,11 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:repeating_command_block[facing=east,conditional=false]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "summon car:car ~-0.5 ~1 ~"
-      }
+      "block": "minecraft:repeating_command_block[conditional=false,facing=east]"
     },
     {
       "char": "b",
-      "block": "minecraft:chain_command_block[facing=up,conditional=false]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
-      }
+      "block": "minecraft:chain_command_block[conditional=false,facing=up]"
     },
     {
       "char": "c",
@@ -25,11 +15,11 @@
     },
     {
       "char": "d",
-      "block": "minecraft:stone_button[facing=west,face=floor]"
+      "block": "minecraft:stone_button[face=floor,facing=west]"
     },
     {
       "char": "e",
-      "block": "minecraft:stone_button[facing=east,face=floor]"
+      "block": "minecraft:stone_button[face=floor,facing=east]"
     },
     {
       "char": "f",

@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "minecraft:spruce_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
       "char": "j",
@@ -43,11 +43,11 @@
     },
     {
       "char": "k",
-      "block": "embellishcraft:spruce_fancy_door[facing=south,half=lower,open=false,hinge=left]"
+      "block": "embellishcraft:spruce_fancy_door[hinge=left,half=lower,facing=south,open=false]"
     },
     {
       "char": "l",
-      "block": "embellishcraft:spruce_fancy_door[facing=south,half=lower,open=false,hinge=right]"
+      "block": "embellishcraft:spruce_fancy_door[hinge=right,half=lower,facing=south,open=false]"
     },
     {
       "char": "m",
@@ -55,20 +55,20 @@
     },
     {
       "char": "n",
-      "block": "cfm:brown_kitchen_counter[type=default,facing=west]"
+      "block": "cfm:brown_kitchen_counter[facing=west,type=default]"
     },
     {
       "char": "o",
-      "block": "cfm:freezer_light[open=false,facing=south]"
+      "block": "cfm:freezer_light[facing=south,open=false]"
     },
     {
       "char": "p",
-      "block": "farmersdelight:spruce_cabinet[open=false,facing=east]",
+      "block": "farmersdelight:spruce_cabinet[facing=east,open=false]",
       "loot": "chestloot"
     },
     {
       "char": "q",
-      "block": "minecraft:oak_trapdoor[facing=north,waterlogged=false,half=top,open=false]"
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=top,facing=north,open=false]"
     },
     {
       "char": "r",
@@ -76,7 +76,7 @@
     },
     {
       "char": "s",
-      "block": "cfm:brown_kitchen_counter[type=default,facing=north]"
+      "block": "cfm:brown_kitchen_counter[facing=north,type=default]"
     },
     {
       "char": "t",
@@ -108,15 +108,15 @@
     },
     {
       "char": "C",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "D",
-      "block": "embellishcraft:spruce_fancy_door[facing=south,half=upper,open=false,hinge=left]"
+      "block": "embellishcraft:spruce_fancy_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
       "char": "E",
-      "block": "embellishcraft:spruce_fancy_door[facing=south,half=upper,open=false,hinge=right]"
+      "block": "embellishcraft:spruce_fancy_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
       "char": "F",
@@ -124,12 +124,12 @@
     },
     {
       "char": "I",
-      "block": "cfm:fridge_light[open=false,facing=south]",
+      "block": "cfm:fridge_light[facing=south,open=false]",
       "loot": "chestloot"
     },
     {
       "char": "J",
-      "block": "farmersdelight:cooking_pot[waterlogged=false,support=none,facing=east]"
+      "block": "farmersdelight:cooking_pot[waterlogged=false,facing=east,support=none]"
     },
     {
       "char": "K",
@@ -145,7 +145,7 @@
     },
     {
       "char": "N",
-      "block": "cfm:spruce_blinds[waterlogged=false,open=true,facing=north]"
+      "block": "cfm:spruce_blinds[waterlogged=false,facing=north,open=true]"
     },
     {
       "char": "O",
@@ -161,12 +161,7 @@
     },
     {
       "char": "R",
-      "block": "minecraft:chain[waterlogged=false,axis=y]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
-      }
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     }
   ]
 }

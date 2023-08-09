@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "biomesoplenty:magic_trapdoor[facing=south,waterlogged=false,half=bottom,open=true]"
+      "block": "biomesoplenty:magic_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
     },
     {
       "char": "i",
@@ -44,11 +44,11 @@
     },
     {
       "char": "k",
-      "block": "biomesoplenty:magic_door[facing=south,half=lower,open=false,hinge=right]"
+      "block": "biomesoplenty:magic_door[hinge=right,half=lower,facing=south,open=false]"
     },
     {
       "char": "l",
-      "block": "biomesoplenty:magic_door[facing=south,half=lower,open=false,hinge=left]"
+      "block": "biomesoplenty:magic_door[hinge=left,half=lower,facing=south,open=false]"
     },
     {
       "char": "m",
@@ -60,7 +60,7 @@
     },
     {
       "char": "o",
-      "block": "biomesoplenty:palm_door[facing=west,half=lower,open=false,hinge=right]"
+      "block": "biomesoplenty:palm_door[hinge=right,half=lower,facing=west,open=false]"
     },
     {
       "char": "p",
@@ -68,15 +68,15 @@
     },
     {
       "char": "q",
-      "block": "biomesoplenty:palm_trapdoor[facing=west,waterlogged=false,half=bottom,open=true]"
+      "block": "biomesoplenty:palm_trapdoor[waterlogged=false,half=bottom,facing=west,open=true]"
     },
     {
       "char": "r",
-      "block": "biomesoplenty:palm_door[facing=west,half=lower,open=false,hinge=left]"
+      "block": "biomesoplenty:palm_door[hinge=left,half=lower,facing=west,open=false]"
     },
     {
       "char": "s",
-      "block": "another_furniture:birch_bench[type_2=single,waterlogged=false,facing=south,type_1=single]"
+      "block": "another_furniture:birch_bench[type_2=single,waterlogged=false,type_1=single,facing=south]"
     },
     {
       "char": "t",
@@ -84,11 +84,11 @@
     },
     {
       "char": "u",
-      "block": "another_furniture:birch_bench[type_2=single,waterlogged=false,facing=west,type_1=single]"
+      "block": "another_furniture:birch_bench[type_2=single,waterlogged=false,type_1=single,facing=west]"
     },
     {
       "char": "w",
-      "block": "another_furniture:birch_bench[type_2=single,waterlogged=false,facing=north,type_1=single]"
+      "block": "another_furniture:birch_bench[type_2=single,waterlogged=false,type_1=single,facing=north]"
     },
     {
       "char": "x",
@@ -96,35 +96,35 @@
     },
     {
       "char": "y",
-      "block": "biomesoplenty:magic_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
+      "block": "biomesoplenty:magic_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
       "char": "A",
-      "block": "biomesoplenty:magic_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
+      "block": "biomesoplenty:magic_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
       "char": "B",
-      "block": "biomesoplenty:magic_door[facing=south,half=upper,open=false,hinge=right]"
+      "block": "biomesoplenty:magic_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
       "char": "C",
-      "block": "biomesoplenty:magic_door[facing=south,half=upper,open=false,hinge=left]"
+      "block": "biomesoplenty:magic_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
       "char": "D",
-      "block": "biomesoplenty:palm_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
+      "block": "biomesoplenty:palm_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
       "char": "E",
-      "block": "biomesoplenty:palm_door[facing=west,half=upper,open=false,hinge=right]"
+      "block": "biomesoplenty:palm_door[hinge=right,half=upper,facing=west,open=false]"
     },
     {
       "char": "F",
-      "block": "biomesoplenty:palm_door[facing=west,half=upper,open=false,hinge=left]"
+      "block": "biomesoplenty:palm_door[hinge=left,half=upper,facing=west,open=false]"
     },
     {
       "char": "I",
-      "block": "biomesoplenty:palm_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
+      "block": "biomesoplenty:palm_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     }
   ]
 }

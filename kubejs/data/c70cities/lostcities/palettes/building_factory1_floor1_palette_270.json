@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,shape=straight,half=top,facing=east]"
+      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=top,shape=straight,facing=east]"
     },
     {
       "char": "f",
@@ -27,16 +27,11 @@
     },
     {
       "char": "g",
-      "block": "minecraft:chain[waterlogged=false,axis=y]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
-      }
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "h",
-      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,shape=straight,half=top,facing=west]"
+      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
       "char": "i",

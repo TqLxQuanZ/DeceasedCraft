@@ -3,48 +3,39 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:repeating_command_block[facing=east,conditional=false]",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
-        "Command": "summon car:car ~-0.5 ~1 ~"
+        "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
       }
     },
     {
       "char": "b",
-      "block": "minecraft:chain_command_block[facing=up,conditional=false]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
-      }
-    },
-    {
-      "char": "c",
       "block": "car:line_side_long_left[facing=south]"
     },
     {
-      "char": "d",
+      "char": "c",
       "block": "car:line_side_long_left[facing=east]"
     },
     {
-      "char": "e",
+      "char": "d",
       "block": "car:line_side_long_left[facing=west]"
     },
     {
-      "char": "f",
+      "char": "e",
       "block": "car:line_side_long_left[facing=north]"
     },
     {
-      "char": "g",
+      "char": "f",
       "block": "minecraft:smooth_stone"
     },
     {
-      "char": "h",
+      "char": "g",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "i",
+      "char": "h",
       "block": "minecraft:stone"
     }
   ]

@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "quark:iron_button[facing=west,face=floor]"
+      "block": "quark:iron_button[face=floor,facing=west]"
     },
     {
       "char": "j",
@@ -79,7 +79,7 @@
     },
     {
       "char": "t",
-      "block": "another_furniture:birch_drawer[open=false,facing=west]",
+      "block": "another_furniture:birch_drawer[facing=west,open=false]",
       "loot": "chestloot"
     },
     {
@@ -88,23 +88,23 @@
     },
     {
       "char": "w",
-      "block": "cfm:oak_park_bench[waterlogged=false,type=right,facing=west]"
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=right]"
     },
     {
       "char": "x",
-      "block": "cfm:oak_park_bench[waterlogged=false,type=left,facing=west]"
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=left]"
     },
     {
       "char": "y",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,axis=y,chain_up=false]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
     },
     {
       "char": "A",
-      "block": "cfm:oak_park_bench[waterlogged=false,type=right,facing=south]"
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=south,type=right]"
     },
     {
       "char": "B",
-      "block": "cfm:oak_park_bench[waterlogged=false,type=left,facing=south]"
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=south,type=left]"
     },
     {
       "char": "C",
@@ -112,11 +112,11 @@
     },
     {
       "char": "D",
-      "block": "quark:gold_button[facing=south,face=floor]"
+      "block": "quark:gold_button[face=floor,facing=south]"
     },
     {
       "char": "E",
-      "block": "minecraft:stone_button[facing=south,face=floor]"
+      "block": "minecraft:stone_button[face=floor,facing=south]"
     },
     {
       "char": "F",
@@ -124,7 +124,7 @@
     },
     {
       "char": "I",
-      "block": "minecraft:iron_trapdoor[facing=west,waterlogged=false,half=bottom,open=false]"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=west,open=false]"
     },
     {
       "char": "J",

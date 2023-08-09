@@ -27,15 +27,15 @@
     },
     {
       "char": "g",
-      "block": "cfm:white_sofa[waterlogged=false,type=left,facing=east]"
+      "block": "cfm:white_sofa[waterlogged=false,facing=east,type=left]"
     },
     {
       "char": "h",
-      "block": "cfm:white_sofa[waterlogged=false,type=middle,facing=east]"
+      "block": "cfm:white_sofa[waterlogged=false,facing=east,type=middle]"
     },
     {
       "char": "i",
-      "block": "cfm:white_sofa[waterlogged=false,type=right,facing=east]"
+      "block": "cfm:white_sofa[waterlogged=false,facing=east,type=right]"
     },
     {
       "char": "j",
@@ -51,21 +51,21 @@
     },
     {
       "char": "m",
-      "block": "minecraft:white_bed[part=head,occupied=false,facing=west]",
+      "block": "minecraft:white_bed[part=head,facing=west,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "n",
-      "block": "minecraft:white_bed[part=foot,occupied=false,facing=west]",
+      "block": "minecraft:white_bed[part=foot,facing=west,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "o",
-      "block": "cfm:cyan_kitchen_drawer[open=false,facing=north]",
+      "block": "cfm:cyan_kitchen_drawer[facing=north,open=false]",
       "loot": "chestloot"
     },
     {
@@ -94,14 +94,14 @@
     },
     {
       "char": "w",
-      "block": "minecraft:white_bed[part=foot,occupied=false,facing=east]",
+      "block": "minecraft:white_bed[part=foot,facing=east,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "x",
-      "block": "minecraft:white_bed[part=head,occupied=false,facing=east]",
+      "block": "minecraft:white_bed[part=head,facing=east,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
@@ -112,7 +112,7 @@
     },
     {
       "char": "A",
-      "block": "embellishcraft:oak_plain_door[facing=west,half=lower,open=false,hinge=left]"
+      "block": "embellishcraft:oak_plain_door[hinge=left,half=lower,facing=west,open=false]"
     },
     {
       "char": "B",
@@ -120,11 +120,11 @@
     },
     {
       "char": "C",
-      "block": "embellishcraft:oak_plain_door[facing=south,half=lower,open=false,hinge=left]"
+      "block": "embellishcraft:oak_plain_door[hinge=left,half=lower,facing=south,open=false]"
     },
     {
       "char": "D",
-      "block": "embellishcraft:oak_plain_door[facing=east,half=lower,open=true,hinge=left]"
+      "block": "embellishcraft:oak_plain_door[hinge=left,half=lower,facing=east,open=true]"
     },
     {
       "char": "E",
@@ -132,7 +132,7 @@
     },
     {
       "char": "F",
-      "block": "embellishcraft:oak_plain_door[facing=north,half=lower,open=false,hinge=right]"
+      "block": "embellishcraft:oak_plain_door[hinge=right,half=lower,facing=north,open=false]"
     },
     {
       "char": "I",
@@ -148,11 +148,11 @@
     },
     {
       "char": "L",
-      "block": "minecraft:oak_button[facing=south,face=wall]"
+      "block": "minecraft:oak_button[face=wall,facing=south]"
     },
     {
       "char": "M",
-      "block": "minecraft:iron_trapdoor[facing=south,waterlogged=false,half=bottom,open=false]"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
     },
     {
       "char": "N",
@@ -160,7 +160,7 @@
     },
     {
       "char": "O",
-      "block": "embellishcraft:oak_plain_door[facing=west,half=upper,open=false,hinge=left]"
+      "block": "embellishcraft:oak_plain_door[hinge=left,half=upper,facing=west,open=false]"
     },
     {
       "char": "P",
@@ -168,11 +168,11 @@
     },
     {
       "char": "Q",
-      "block": "embellishcraft:oak_plain_door[facing=south,half=upper,open=false,hinge=left]"
+      "block": "embellishcraft:oak_plain_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
       "char": "R",
-      "block": "embellishcraft:oak_plain_door[facing=east,half=upper,open=true,hinge=left]"
+      "block": "embellishcraft:oak_plain_door[hinge=left,half=upper,facing=east,open=true]"
     },
     {
       "char": "S",
@@ -180,16 +180,11 @@
     },
     {
       "char": "T",
-      "block": "embellishcraft:oak_plain_door[facing=north,half=upper,open=false,hinge=right]"
+      "block": "embellishcraft:oak_plain_door[hinge=right,half=upper,facing=north,open=false]"
     },
     {
       "char": "U",
-      "block": "minecraft:chain[waterlogged=false,axis=y]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
-      }
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "V",

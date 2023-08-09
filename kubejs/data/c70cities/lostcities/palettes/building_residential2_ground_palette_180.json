@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "cfm:dark_oak_kitchen_counter[type=default,facing=south]"
+      "block": "cfm:dark_oak_kitchen_counter[facing=south,type=default]"
     },
     {
       "char": "l",
@@ -51,11 +51,11 @@
     },
     {
       "char": "m",
-      "block": "cfm:freezer_light[open=false,facing=south]"
+      "block": "cfm:freezer_light[facing=south,open=false]"
     },
     {
       "char": "n",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,axis=y,chain_up=false]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
     },
     {
       "char": "o",
@@ -91,15 +91,15 @@
     },
     {
       "char": "x",
-      "block": "minecraft:birch_door[facing=south,half=lower,open=false,hinge=right]"
+      "block": "minecraft:birch_door[hinge=right,half=lower,facing=south,open=false]"
     },
     {
       "char": "y",
-      "block": "minecraft:dark_oak_door[facing=east,half=lower,open=false,hinge=right]"
+      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=east,open=false]"
     },
     {
       "char": "A",
-      "block": "another_furniture:light_gray_sofa[waterlogged=false,type=right,facing=west]"
+      "block": "another_furniture:light_gray_sofa[waterlogged=false,facing=west,type=right]"
     },
     {
       "char": "B",
@@ -111,19 +111,19 @@
     },
     {
       "char": "D",
-      "block": "minecraft:dark_oak_door[facing=east,half=lower,open=false,hinge=left]"
+      "block": "minecraft:dark_oak_door[hinge=left,half=lower,facing=east,open=false]"
     },
     {
       "char": "E",
-      "block": "another_furniture:light_gray_sofa[waterlogged=false,type=left,facing=west]"
+      "block": "another_furniture:light_gray_sofa[waterlogged=false,facing=west,type=left]"
     },
     {
       "char": "F",
-      "block": "quark:polished_calcite_stairs[waterlogged=false,shape=straight,half=top,facing=north]"
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     },
     {
       "char": "I",
-      "block": "farmersdelight:cooking_pot[waterlogged=false,support=none,facing=north]"
+      "block": "farmersdelight:cooking_pot[waterlogged=false,facing=north,support=none]"
     },
     {
       "char": "J",
@@ -131,7 +131,7 @@
     },
     {
       "char": "K",
-      "block": "cfm:fridge_light[open=false,facing=south]",
+      "block": "cfm:fridge_light[facing=south,open=false]",
       "loot": "chestloot"
     },
     {
@@ -148,15 +148,15 @@
     },
     {
       "char": "O",
-      "block": "minecraft:birch_door[facing=south,half=upper,open=false,hinge=right]"
+      "block": "minecraft:birch_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
       "char": "P",
-      "block": "minecraft:dark_oak_door[facing=east,half=upper,open=false,hinge=right]"
+      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=east,open=false]"
     },
     {
       "char": "Q",
-      "block": "create:display_board[waterlogged=false,up=false,facing=east]"
+      "block": "create:display_board[waterlogged=false,facing=east,up=false]"
     },
     {
       "char": "R",
@@ -164,11 +164,11 @@
     },
     {
       "char": "S",
-      "block": "minecraft:dark_oak_door[facing=east,half=upper,open=false,hinge=left]"
+      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=east,open=false]"
     },
     {
       "char": "T",
-      "block": "minecraft:birch_trapdoor[facing=south,waterlogged=false,half=bottom,open=true]"
+      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
     },
     {
       "char": "U",
@@ -184,7 +184,7 @@
     },
     {
       "char": "X",
-      "block": "another_furniture:dark_oak_bench[type_2=right,waterlogged=false,facing=west,type_1=right]"
+      "block": "another_furniture:dark_oak_bench[type_2=right,waterlogged=false,type_1=right,facing=west]"
     },
     {
       "char": "Y",
@@ -192,11 +192,11 @@
     },
     {
       "char": "Z",
-      "block": "another_furniture:dark_oak_bench[type_2=left,waterlogged=false,facing=east,type_1=left]"
+      "block": "another_furniture:dark_oak_bench[type_2=left,waterlogged=false,type_1=left,facing=east]"
     },
     {
       "char": "0",
-      "block": "another_furniture:dark_oak_bench[type_2=left,waterlogged=false,facing=west,type_1=left]"
+      "block": "another_furniture:dark_oak_bench[type_2=left,waterlogged=false,type_1=left,facing=west]"
     },
     {
       "char": "1",
@@ -204,7 +204,7 @@
     },
     {
       "char": "2",
-      "block": "another_furniture:dark_oak_bench[type_2=right,waterlogged=false,facing=east,type_1=right]"
+      "block": "another_furniture:dark_oak_bench[type_2=right,waterlogged=false,type_1=right,facing=east]"
     },
     {
       "char": "3",

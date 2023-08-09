@@ -59,7 +59,7 @@
     },
     {
       "char": "o",
-      "block": "minecraft:dark_oak_door[facing=west,half=lower,open=false,hinge=right]"
+      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=west,open=false]"
     },
     {
       "char": "p",
@@ -67,7 +67,7 @@
     },
     {
       "char": "q",
-      "block": "minecraft:dark_oak_door[facing=west,half=lower,open=false,hinge=left]"
+      "block": "minecraft:dark_oak_door[hinge=left,half=lower,facing=west,open=false]"
     },
     {
       "char": "r",
@@ -79,7 +79,7 @@
     },
     {
       "char": "t",
-      "block": "another_furniture:oak_shelf[waterlogged=false,type=left,facing=west]"
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=west,type=left]"
     },
     {
       "char": "u",
@@ -87,18 +87,18 @@
     },
     {
       "char": "w",
-      "block": "minecraft:red_bed[part=foot,occupied=false,facing=south]",
+      "block": "minecraft:red_bed[part=foot,facing=south,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "x",
-      "block": "another_furniture:oak_shelf[waterlogged=false,type=right,facing=west]"
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=west,type=right]"
     },
     {
       "char": "y",
-      "block": "minecraft:red_bed[part=head,occupied=false,facing=south]",
+      "block": "minecraft:red_bed[part=head,facing=south,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
@@ -118,11 +118,11 @@
     },
     {
       "char": "D",
-      "block": "minecraft:dark_oak_door[facing=west,half=upper,open=false,hinge=right]"
+      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=west,open=false]"
     },
     {
       "char": "E",
-      "block": "minecraft:dark_oak_door[facing=west,half=upper,open=false,hinge=left]"
+      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=west,open=false]"
     },
     {
       "char": "F",

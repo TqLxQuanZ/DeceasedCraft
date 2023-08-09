@@ -55,23 +55,23 @@
     },
     {
       "char": "n",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=right,facing=south]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=right]"
     },
     {
       "char": "o",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=left,facing=south]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=left]"
     },
     {
       "char": "p",
-      "block": "quark:stripped_oak_post[waterlogged=false,axis=y,chain_up=false]"
+      "block": "quark:stripped_oak_post[waterlogged=false,chain_up=false,axis=y]"
     },
     {
       "char": "q",
-      "block": "embellishcraft:white_steel_door[facing=east,half=lower,open=false,hinge=left]"
+      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=east,open=false]"
     },
     {
       "char": "r",
-      "block": "embellishcraft:white_steel_door[facing=east,half=lower,open=false,hinge=right]"
+      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=east,open=false]"
     },
     {
       "char": "s",
@@ -79,11 +79,11 @@
     },
     {
       "char": "t",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=left,facing=north]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=left]"
     },
     {
       "char": "u",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=right,facing=north]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=right]"
     },
     {
       "char": "w",
@@ -91,11 +91,11 @@
     },
     {
       "char": "x",
-      "block": "embellishcraft:white_steel_door[facing=east,half=upper,open=false,hinge=left]"
+      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=east,open=false]"
     },
     {
       "char": "y",
-      "block": "embellishcraft:white_steel_door[facing=east,half=upper,open=false,hinge=right]"
+      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=east,open=false]"
     },
     {
       "char": "A",
@@ -111,12 +111,7 @@
     },
     {
       "char": "D",
-      "block": "minecraft:chain[waterlogged=false,axis=y]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
-      }
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "E",

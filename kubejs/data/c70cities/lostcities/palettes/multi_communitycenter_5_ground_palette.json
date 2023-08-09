@@ -67,11 +67,11 @@
     },
     {
       "char": "q",
-      "block": "create:framed_glass_trapdoor[facing=south,waterlogged=false,half=bottom,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
     },
     {
       "char": "r",
-      "block": "another_furniture:birch_drawer[open=false,facing=west]",
+      "block": "another_furniture:birch_drawer[facing=west,open=false]",
       "loot": "chestloot"
     },
     {
@@ -84,11 +84,11 @@
     },
     {
       "char": "u",
-      "block": "cfm:spruce_desk[waterlogged=false,type=single,facing=east]"
+      "block": "cfm:spruce_desk[waterlogged=false,facing=east,type=single]"
     },
     {
       "char": "w",
-      "block": "cfm:spruce_desk[waterlogged=false,type=left,facing=east]"
+      "block": "cfm:spruce_desk[waterlogged=false,facing=east,type=left]"
     },
     {
       "char": "x",
@@ -100,7 +100,7 @@
     },
     {
       "char": "A",
-      "block": "cfm:spruce_desk[waterlogged=false,type=right,facing=east]"
+      "block": "cfm:spruce_desk[waterlogged=false,facing=east,type=right]"
     },
     {
       "char": "B",
@@ -116,7 +116,7 @@
     },
     {
       "char": "E",
-      "block": "embellishcraft:spruce_plain_door[facing=west,half=lower,open=false,hinge=right]"
+      "block": "embellishcraft:spruce_plain_door[hinge=right,half=lower,facing=west,open=false]"
     },
     {
       "char": "F",
@@ -164,7 +164,7 @@
     },
     {
       "char": "S",
-      "block": "embellishcraft:spruce_plain_door[facing=west,half=upper,open=false,hinge=right]"
+      "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=west,open=false]"
     },
     {
       "char": "T",
@@ -180,7 +180,7 @@
     },
     {
       "char": "W",
-      "block": "minecraft:iron_trapdoor[facing=west,waterlogged=false,half=bottom,open=false]"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=west,open=false]"
     },
     {
       "char": "X",

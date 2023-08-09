@@ -64,7 +64,7 @@
     },
     {
       "char": "p",
-      "block": "embellishcraft:sturdy_steel_door[facing=south,half=lower,open=false,hinge=right]"
+      "block": "embellishcraft:sturdy_steel_door[hinge=right,half=lower,facing=south,open=false]"
     },
     {
       "char": "q",
@@ -100,15 +100,15 @@
     },
     {
       "char": "A",
-      "block": "embellishcraft:sturdy_steel_door[facing=south,half=upper,open=false,hinge=right]"
+      "block": "embellishcraft:sturdy_steel_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
       "char": "B",
-      "block": "minecraft:lever[facing=west,face=floor]"
+      "block": "minecraft:lever[face=floor,facing=west]"
     },
     {
       "char": "C",
-      "block": "minecraft:lever[facing=south,face=floor]"
+      "block": "minecraft:lever[face=floor,facing=south]"
     },
     {
       "char": "D",

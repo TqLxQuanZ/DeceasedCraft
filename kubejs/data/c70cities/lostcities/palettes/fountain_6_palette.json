@@ -27,11 +27,11 @@
     },
     {
       "char": "g",
-      "block": "embellishcraft:gneiss_large_bricks_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
+      "block": "embellishcraft:gneiss_large_bricks_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "h",
-      "block": "embellishcraft:gneiss_large_bricks_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
+      "block": "embellishcraft:gneiss_large_bricks_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
       "char": "i",
@@ -47,23 +47,23 @@
     },
     {
       "char": "l",
-      "block": "quark:oak_post[waterlogged=false,axis=y,chain_up=false]"
+      "block": "quark:oak_post[waterlogged=false,chain_up=false,axis=y]"
     },
     {
       "char": "m",
-      "block": "cfm:stripped_birch_park_bench[waterlogged=false,type=left,facing=north]"
+      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=north,type=left]"
     },
     {
       "char": "n",
-      "block": "cfm:stripped_birch_park_bench[waterlogged=false,type=right,facing=north]"
+      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=north,type=right]"
     },
     {
       "char": "o",
-      "block": "cfm:stripped_birch_park_bench[waterlogged=false,type=right,facing=south]"
+      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=south,type=right]"
     },
     {
       "char": "p",
-      "block": "cfm:stripped_birch_park_bench[waterlogged=false,type=left,facing=south]"
+      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=south,type=left]"
     },
     {
       "char": "q",

@@ -43,22 +43,22 @@
     },
     {
       "char": "k",
-      "block": "cfm:andesite_cabinet[waterlogged=false,open=false,facing=north]",
+      "block": "cfm:andesite_cabinet[waterlogged=false,facing=north,open=false]",
       "loot": "chestloot"
     },
     {
       "char": "l",
-      "block": "cfm:andesite_cabinet[waterlogged=false,open=false,facing=east]",
+      "block": "cfm:andesite_cabinet[waterlogged=false,facing=east,open=false]",
       "loot": "chestloot"
     },
     {
       "char": "m",
-      "block": "cfm:andesite_cabinet[waterlogged=false,open=false,facing=west]",
+      "block": "cfm:andesite_cabinet[waterlogged=false,facing=west,open=false]",
       "loot": "chestloot"
     },
     {
       "char": "n",
-      "block": "cfm:andesite_cabinet[waterlogged=false,open=false,facing=south]",
+      "block": "cfm:andesite_cabinet[waterlogged=false,facing=south,open=false]",
       "loot": "chestloot"
     },
     {
@@ -67,12 +67,7 @@
     },
     {
       "char": "p",
-      "block": "minecraft:chain[waterlogged=false,axis=y]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
-      }
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "q",

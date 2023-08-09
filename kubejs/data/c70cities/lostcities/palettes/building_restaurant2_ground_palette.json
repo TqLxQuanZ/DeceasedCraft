@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "quark:birch_post[waterlogged=false,axis=y,chain_up=false]"
+      "block": "quark:birch_post[waterlogged=false,chain_up=false,axis=y]"
     },
     {
       "char": "i",
@@ -39,15 +39,15 @@
     },
     {
       "char": "j",
-      "block": "another_furniture:oak_planter_box[type=right,facing=north,attached=true]"
+      "block": "another_furniture:oak_planter_box[attached=true,facing=north,type=right]"
     },
     {
       "char": "k",
-      "block": "another_furniture:oak_planter_box[type=middle,facing=north,attached=true]"
+      "block": "another_furniture:oak_planter_box[attached=true,facing=north,type=middle]"
     },
     {
       "char": "l",
-      "block": "another_furniture:oak_planter_box[type=left,facing=north,attached=true]"
+      "block": "another_furniture:oak_planter_box[attached=true,facing=north,type=left]"
     },
     {
       "char": "m",
@@ -59,7 +59,7 @@
     },
     {
       "char": "o",
-      "block": "another_furniture:birch_shelf[waterlogged=false,type=left,facing=west]"
+      "block": "another_furniture:birch_shelf[waterlogged=false,facing=west,type=left]"
     },
     {
       "char": "p",
@@ -67,15 +67,15 @@
     },
     {
       "char": "q",
-      "block": "another_furniture:birch_shelf[waterlogged=false,type=middle,facing=west]"
+      "block": "another_furniture:birch_shelf[waterlogged=false,facing=west,type=middle]"
     },
     {
       "char": "r",
-      "block": "minecraft:birch_door[facing=north,half=lower,open=false,hinge=right]"
+      "block": "minecraft:birch_door[hinge=right,half=lower,facing=north,open=false]"
     },
     {
       "char": "s",
-      "block": "another_furniture:birch_shelf[waterlogged=false,type=right,facing=west]"
+      "block": "another_furniture:birch_shelf[waterlogged=false,facing=west,type=right]"
     },
     {
       "char": "t",
@@ -83,39 +83,39 @@
     },
     {
       "char": "u",
-      "block": "cfm:stripped_birch_kitchen_counter[type=right_corner_inverted,facing=south]"
+      "block": "cfm:stripped_birch_kitchen_counter[facing=south,type=right_corner_inverted]"
     },
     {
       "char": "w",
-      "block": "cfm:stripped_birch_kitchen_counter[type=default,facing=south]"
+      "block": "cfm:stripped_birch_kitchen_counter[facing=south,type=default]"
     },
     {
       "char": "x",
-      "block": "another_furniture:birch_shutter[type=none,waterlogged=false,open=false,facing=south]"
+      "block": "another_furniture:birch_shutter[waterlogged=false,facing=south,type=none,open=false]"
     },
     {
       "char": "y",
-      "block": "another_furniture:birch_shelf[waterlogged=false,type=right,facing=east]"
+      "block": "another_furniture:birch_shelf[waterlogged=false,facing=east,type=right]"
     },
     {
       "char": "A",
-      "block": "cfm:stripped_birch_kitchen_counter[type=default,facing=east]"
+      "block": "cfm:stripped_birch_kitchen_counter[facing=east,type=default]"
     },
     {
       "char": "B",
-      "block": "cfm:cyan_kitchen_counter[type=default,facing=west]"
+      "block": "cfm:cyan_kitchen_counter[facing=west,type=default]"
     },
     {
       "char": "C",
-      "block": "cfm:cyan_kitchen_counter[type=default,facing=east]"
+      "block": "cfm:cyan_kitchen_counter[facing=east,type=default]"
     },
     {
       "char": "D",
-      "block": "another_furniture:birch_shelf[waterlogged=false,type=middle,facing=east]"
+      "block": "another_furniture:birch_shelf[waterlogged=false,facing=east,type=middle]"
     },
     {
       "char": "E",
-      "block": "minecraft:birch_door[facing=east,half=lower,open=false,hinge=left]"
+      "block": "minecraft:birch_door[hinge=left,half=lower,facing=east,open=false]"
     },
     {
       "char": "F",
@@ -123,27 +123,27 @@
     },
     {
       "char": "I",
-      "block": "minecraft:birch_door[facing=east,half=lower,open=false,hinge=right]"
+      "block": "minecraft:birch_door[hinge=right,half=lower,facing=east,open=false]"
     },
     {
       "char": "J",
-      "block": "cfm:stripped_birch_kitchen_counter[type=left_corner_inverted,facing=north]"
+      "block": "cfm:stripped_birch_kitchen_counter[facing=north,type=left_corner_inverted]"
     },
     {
       "char": "K",
-      "block": "cfm:stripped_birch_kitchen_counter[type=default,facing=north]"
+      "block": "cfm:stripped_birch_kitchen_counter[facing=north,type=default]"
     },
     {
       "char": "L",
-      "block": "another_furniture:birch_shutter[type=none,waterlogged=false,open=false,facing=north]"
+      "block": "another_furniture:birch_shutter[waterlogged=false,facing=north,type=none,open=false]"
     },
     {
       "char": "M",
-      "block": "cfm:freezer_light[open=false,facing=east]"
+      "block": "cfm:freezer_light[facing=east,open=false]"
     },
     {
       "char": "N",
-      "block": "another_furniture:birch_shelf[waterlogged=false,type=left,facing=east]"
+      "block": "another_furniture:birch_shelf[waterlogged=false,facing=east,type=left]"
     },
     {
       "char": "O",
@@ -155,15 +155,15 @@
     },
     {
       "char": "Q",
-      "block": "another_furniture:oak_planter_box[type=left,facing=south,attached=true]"
+      "block": "another_furniture:oak_planter_box[attached=true,facing=south,type=left]"
     },
     {
       "char": "R",
-      "block": "another_furniture:oak_planter_box[type=middle,facing=south,attached=true]"
+      "block": "another_furniture:oak_planter_box[attached=true,facing=south,type=middle]"
     },
     {
       "char": "S",
-      "block": "another_furniture:oak_planter_box[type=right,facing=south,attached=true]"
+      "block": "another_furniture:oak_planter_box[attached=true,facing=south,type=right]"
     },
     {
       "char": "T",
@@ -175,19 +175,19 @@
     },
     {
       "char": "V",
-      "block": "another_furniture:birch_shelf[waterlogged=false,type=left,facing=south]"
+      "block": "another_furniture:birch_shelf[waterlogged=false,facing=south,type=left]"
     },
     {
       "char": "W",
-      "block": "another_furniture:birch_shelf[waterlogged=false,type=right,facing=south]"
+      "block": "another_furniture:birch_shelf[waterlogged=false,facing=south,type=right]"
     },
     {
       "char": "X",
-      "block": "quark:stripped_birch_post[waterlogged=false,axis=y,chain_up=false]"
+      "block": "quark:stripped_birch_post[waterlogged=false,chain_up=false,axis=y]"
     },
     {
       "char": "Y",
-      "block": "minecraft:birch_door[facing=north,half=upper,open=false,hinge=right]"
+      "block": "minecraft:birch_door[hinge=right,half=upper,facing=north,open=false]"
     },
     {
       "char": "Z",
@@ -225,7 +225,7 @@
     },
     {
       "char": "3",
-      "block": "minecraft:birch_door[facing=east,half=upper,open=false,hinge=left]"
+      "block": "minecraft:birch_door[hinge=left,half=upper,facing=east,open=false]"
     },
     {
       "char": "4",
@@ -233,15 +233,15 @@
     },
     {
       "char": "5",
-      "block": "farmersdelight:cooking_pot[waterlogged=false,support=none,facing=west]"
+      "block": "farmersdelight:cooking_pot[waterlogged=false,facing=west,support=none]"
     },
     {
       "char": "6",
-      "block": "minecraft:birch_door[facing=east,half=upper,open=false,hinge=right]"
+      "block": "minecraft:birch_door[hinge=right,half=upper,facing=east,open=false]"
     },
     {
       "char": "7",
-      "block": "farmersdelight:skillet[support=false,facing=east]"
+      "block": "farmersdelight:skillet[facing=east,support=false]"
     },
     {
       "char": "8",
@@ -255,12 +255,12 @@
     },
     {
       "char": "9",
-      "block": "cfm:fridge_light[open=false,facing=east]",
+      "block": "cfm:fridge_light[facing=east,open=false]",
       "loot": "chestloot"
     },
     {
       "char": "@",
-      "block": "minecraft:birch_trapdoor[facing=north,waterlogged=false,half=bottom,open=true]"
+      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
     },
     {
       "char": "#",
@@ -268,15 +268,15 @@
     },
     {
       "char": "$",
-      "block": "another_furniture:birch_shelf[waterlogged=false,type=middle,facing=south]"
+      "block": "another_furniture:birch_shelf[waterlogged=false,facing=south,type=middle]"
     },
     {
       "char": "%",
-      "block": "minecraft:birch_trapdoor[facing=west,waterlogged=false,half=bottom,open=false]"
+      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,facing=west,open=false]"
     },
     {
       "char": "^",
-      "block": "minecraft:birch_trapdoor[facing=east,waterlogged=false,half=bottom,open=false]"
+      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,facing=east,open=false]"
     },
     {
       "char": "&",
@@ -284,15 +284,15 @@
     },
     {
       "char": "*",
-      "block": "another_furniture:birch_shelf[waterlogged=false,type=right,facing=north]"
+      "block": "another_furniture:birch_shelf[waterlogged=false,facing=north,type=right]"
     },
     {
       "char": "(",
-      "block": "another_furniture:birch_shelf[waterlogged=false,type=middle,facing=north]"
+      "block": "another_furniture:birch_shelf[waterlogged=false,facing=north,type=middle]"
     },
     {
       "char": ")",
-      "block": "another_furniture:birch_shelf[waterlogged=false,type=left,facing=north]"
+      "block": "another_furniture:birch_shelf[waterlogged=false,facing=north,type=left]"
     },
     {
       "char": "+",
@@ -304,12 +304,12 @@
     },
     {
       "char": "[",
-      "block": "farmersdelight:birch_cabinet[open=false,facing=south]",
+      "block": "farmersdelight:birch_cabinet[facing=south,open=false]",
       "loot": "chestloot"
     },
     {
       "char": "]",
-      "block": "farmersdelight:birch_cabinet[open=false,facing=north]",
+      "block": "farmersdelight:birch_cabinet[facing=north,open=false]",
       "loot": "chestloot"
     },
     {

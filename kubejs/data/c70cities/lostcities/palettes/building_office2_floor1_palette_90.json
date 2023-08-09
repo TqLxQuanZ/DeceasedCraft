@@ -27,24 +27,24 @@
     },
     {
       "char": "g",
-      "block": "cfm:cyan_kitchen_counter[type=default,facing=west]"
+      "block": "cfm:cyan_kitchen_counter[facing=west,type=default]"
     },
     {
       "char": "h",
-      "block": "cfm:cyan_kitchen_drawer[open=false,facing=west]",
+      "block": "cfm:cyan_kitchen_drawer[facing=west,open=false]",
       "loot": "chestloot"
     },
     {
       "char": "i",
-      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
       "char": "j",
-      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
       "char": "k",
-      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "l",
@@ -52,11 +52,11 @@
     },
     {
       "char": "m",
-      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
       "char": "n",
-      "block": "cfm:gray_kitchen_counter[type=default,facing=east]"
+      "block": "cfm:gray_kitchen_counter[facing=east,type=default]"
     },
     {
       "char": "o",

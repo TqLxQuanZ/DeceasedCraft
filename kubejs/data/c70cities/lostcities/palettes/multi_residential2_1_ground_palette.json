@@ -23,219 +23,210 @@
     },
     {
       "char": "f",
-      "block": "minecraft:repeating_command_block[facing=east,conditional=false]",
+      "block": "minecraft:command_block[conditional=false,facing=west]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
-        "Command": "summon car:car ~-0.5 ~1 ~"
+        "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
       }
     },
     {
       "char": "g",
-      "block": "minecraft:chain_command_block[facing=up,conditional=false]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
-      }
-    },
-    {
-      "char": "h",
       "block": "car:car_workshop_outter[position=8]"
     },
     {
-      "char": "i",
+      "char": "h",
       "block": "car:car_workshop_outter[position=1]"
     },
     {
-      "char": "j",
+      "char": "i",
       "block": "car:car_workshop_outter[position=2]"
     },
     {
-      "char": "k",
+      "char": "j",
       "block": "car:car_workshop_outter[position=7]"
     },
     {
-      "char": "l",
+      "char": "k",
       "block": "car:car_workshop"
     },
     {
-      "char": "m",
+      "char": "l",
       "block": "car:car_workshop_outter[position=3]"
     },
     {
-      "char": "n",
+      "char": "m",
       "block": "car:car_workshop_outter[position=6]"
     },
     {
-      "char": "o",
+      "char": "n",
       "block": "car:car_workshop_outter[position=5]"
     },
     {
-      "char": "p",
+      "char": "o",
       "block": "car:car_workshop_outter[position=4]"
     },
     {
-      "char": "q",
+      "char": "p",
       "block": "quark:dark_oak_hedge[waterlogged=false]"
     },
     {
-      "char": "r",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,axis=y,chain_up=false]"
+      "char": "q",
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
     },
     {
-      "char": "s",
+      "char": "r",
       "block": "minecraft:grass"
     },
     {
-      "char": "t",
+      "char": "s",
       "block": "minecraft:dead_bush"
     },
     {
-      "char": "u",
+      "char": "t",
       "block": "minecraft:iron_bars[waterlogged=false]"
     },
     {
-      "char": "w",
+      "char": "u",
       "block": "create:polished_cut_calcite_wall[waterlogged=false,up=false]"
     },
     {
-      "char": "x",
-      "block": "minecraft:stone_button[facing=east,face=floor]"
+      "char": "w",
+      "block": "minecraft:stone_button[face=floor,facing=east]"
     },
     {
-      "char": "y",
+      "char": "x",
       "block": "immersiveengineering:floodlight[waterlogged=false,facing=up]"
     },
     {
-      "char": "A",
+      "char": "y",
       "block": "immersiveengineering:light_engineering"
     },
     {
-      "char": "B",
+      "char": "A",
       "block": "immersiveengineering:heavy_engineering"
     },
     {
-      "char": "C",
+      "char": "B",
       "block": "cfm:andesite_table[waterlogged=false]"
     },
     {
-      "char": "D",
+      "char": "C",
       "block": "immersiveengineering:craftingtable[waterlogged=false,facing=east]"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "cfm:rock_path[waterlogged=false]"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "create:rotation_speed_controller[axis=x]"
     },
     {
-      "char": "I",
-      "block": "create:depot"
+      "char": "F",
+      "block": "create:depot[waterlogged=false]"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "immersiveengineering:thermoelectric_generator"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "create:polished_cut_calcite_wall[waterlogged=false,up=true]"
     },
     {
-      "char": "L",
+      "char": "K",
       "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=west]"
     },
     {
-      "char": "M",
+      "char": "L",
       "block": "immersiveengineering:lantern[waterlogged=false,facing=up]"
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "immersiveengineering:charging_station[facing=west]"
     },
     {
-      "char": "O",
+      "char": "N",
       "block": "immersiveengineering:breaker_switch[waterlogged=false,facing=east]"
     },
     {
+      "char": "O",
+      "block": "create:chute[waterlogged=false,shape=normal,facing=down]"
+    },
+    {
       "char": "P",
-      "block": "create:chute[shape=normal,facing=down]"
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
       "char": "Q",
-      "block": "minecraft:dark_oak_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
       "char": "R",
-      "block": "minecraft:dark_oak_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
-    },
-    {
-      "char": "S",
       "block": "create:hand_crank[waterlogged=false,facing=north]",
       "tag": {
         "id": "create:hand_crank"
       }
     },
     {
-      "char": "T",
+      "char": "S",
       "block": "create:deployer[facing=down,axis_along_first=false]",
       "tag": {
         "id": "create:deployer"
       }
     },
     {
-      "char": "U",
+      "char": "T",
       "block": "create:framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "V",
+      "char": "U",
       "block": "minecraft:stripped_birch_log[axis=z]"
     },
     {
-      "char": "W",
+      "char": "V",
       "block": "minecraft:stripped_dark_oak_log[axis=z]"
     },
     {
-      "char": "X",
+      "char": "W",
       "block": "minecraft:quartz_block"
     },
     {
-      "char": "Y",
+      "char": "X",
       "block": "minecraft:soul_sand"
     },
     {
-      "char": "Z",
-      "block": "cfm:stripped_dark_oak_desk[waterlogged=false,type=left,facing=east]"
+      "char": "Y",
+      "block": "cfm:stripped_dark_oak_desk[waterlogged=false,facing=east,type=left]"
     },
     {
-      "char": "0",
+      "char": "Z",
       "block": "minecraft:warped_stem[axis=z]"
     },
     {
-      "char": "1",
-      "block": "minecraft:warped_button[facing=south,face=floor]"
+      "char": "0",
+      "block": "minecraft:warped_button[face=floor,facing=south]"
     },
     {
-      "char": "2",
+      "char": "1",
       "block": "cfm:diorite_chair[waterlogged=false,facing=west]"
     },
     {
-      "char": "3",
-      "block": "cfm:stripped_dark_oak_desk[waterlogged=false,type=middle,facing=east]"
+      "char": "2",
+      "block": "cfm:stripped_dark_oak_desk[waterlogged=false,facing=east,type=middle]"
     },
     {
-      "char": "4",
-      "block": "cfm:stripped_dark_oak_desk_cabinet[waterlogged=false,type=right,open=false,facing=east]",
+      "char": "3",
+      "block": "cfm:stripped_dark_oak_desk_cabinet[waterlogged=false,facing=east,type=right,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "5",
+      "char": "4",
       "block": "create:cut_calcite"
     },
     {
-      "char": "6",
+      "char": "5",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
     }
   ]

@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "cfm:cyan_kitchen_drawer[open=false,facing=east]",
+      "block": "cfm:cyan_kitchen_drawer[facing=east,open=false]",
       "loot": "chestloot"
     },
     {
@@ -44,15 +44,15 @@
     },
     {
       "char": "k",
-      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
+      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
       "char": "l",
-      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
+      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
       "char": "m",
-      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
+      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
       "char": "n",

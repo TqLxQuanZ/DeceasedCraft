@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,axis=y,chain_up=false]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
     },
     {
       "char": "h",
@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "minecraft:dark_oak_trapdoor[facing=south,waterlogged=false,half=bottom,open=true]"
+      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
     },
     {
       "char": "j",
@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "create:framed_glass_trapdoor[facing=south,waterlogged=false,half=bottom,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
     },
     {
       "char": "l",
@@ -67,11 +67,11 @@
     },
     {
       "char": "q",
-      "block": "cfm:oak_park_bench[waterlogged=false,type=left,facing=north]"
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=north,type=left]"
     },
     {
       "char": "r",
-      "block": "cfm:oak_park_bench[waterlogged=false,type=right,facing=north]"
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=north,type=right]"
     },
     {
       "char": "s",

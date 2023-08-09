@@ -3,11 +3,11 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:stone_brick_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
       "char": "b",
-      "block": "minecraft:stone_brick_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
       "char": "c",
@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:stone_brick_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
       "char": "e",
@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "embellishcraft:diorite_large_bricks_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
+      "block": "embellishcraft:diorite_large_bricks_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
       "char": "h",
@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "create:cut_limestone_brick_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
+      "block": "create:cut_limestone_brick_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
       "char": "j",
@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "minecraft:stone_brick_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "l",
@@ -75,27 +75,27 @@
     },
     {
       "char": "s",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=left,facing=north]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=left]"
     },
     {
       "char": "t",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=right,facing=north]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=right]"
     },
     {
       "char": "u",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=right,facing=west]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=west,type=right]"
     },
     {
       "char": "w",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=left,facing=west]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=west,type=left]"
     },
     {
       "char": "x",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=right,facing=south]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=right]"
     },
     {
       "char": "y",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=left,facing=south]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=left]"
     },
     {
       "char": "A",

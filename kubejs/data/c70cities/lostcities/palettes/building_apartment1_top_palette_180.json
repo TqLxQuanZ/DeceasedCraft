@@ -15,23 +15,23 @@
     },
     {
       "char": "d",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
       "char": "e",
-      "block": "minecraft:birch_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
       "char": "f",
-      "block": "minecraft:birch_stairs[waterlogged=false,shape=inner_right,half=bottom,facing=east]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=east]"
     },
     {
       "char": "g",
-      "block": "minecraft:birch_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
       "char": "h",
-      "block": "minecraft:birch_stairs[waterlogged=false,shape=outer_left,half=bottom,facing=south]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,shape=outer_left,facing=south]"
     },
     {
       "char": "i",
@@ -39,11 +39,11 @@
     },
     {
       "char": "j",
-      "block": "minecraft:birch_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
       "char": "k",
-      "block": "minecraft:birch_stairs[waterlogged=false,shape=straight,half=top,facing=east]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
     },
     {
       "char": "l",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "minecraft:birch_stairs[waterlogged=false,shape=straight,half=top,facing=south]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
     },
     {
       "char": "n",
@@ -63,7 +63,7 @@
     },
     {
       "char": "p",
-      "block": "minecraft:birch_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "q",
@@ -71,11 +71,11 @@
     },
     {
       "char": "r",
-      "block": "minecraft:iron_door[facing=south,half=lower,open=false,hinge=left]"
+      "block": "minecraft:iron_door[hinge=left,half=lower,facing=south,open=false]"
     },
     {
       "char": "s",
-      "block": "minecraft:birch_stairs[waterlogged=false,shape=straight,half=top,facing=north]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     },
     {
       "char": "t",
@@ -87,11 +87,11 @@
     },
     {
       "char": "w",
-      "block": "minecraft:birch_stairs[waterlogged=false,shape=straight,half=top,facing=west]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
       "char": "x",
-      "block": "minecraft:iron_door[facing=south,half=upper,open=false,hinge=left]"
+      "block": "minecraft:iron_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
       "char": "y",

@@ -8,6 +8,8 @@
 	handDrinkingQuenched = 2
 	#How much faster is hydration depletion relative to hunger (1 means they will deplete at the same speed)
 	thirstDepletionModifier = 1.2
+	#Whether walking should consume water
+	walkingConsumeWater = false
 
 [World]
 	#Y level above which water has 1 more level of purification by default (i.e Mountains)
@@ -38,8 +40,6 @@
 	purifiedNauseaPercentage = 0
 
 ["Purification levels"]
-	#How many levels of purification are added after purifying on a campfire
-	campfirePurificationLevels = 1
 	#How many levels of purification are added after boiling in a kettle
 	furnacePurificationLevels = 2
 

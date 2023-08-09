@@ -35,15 +35,15 @@
     },
     {
       "char": "i",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=inner_right,half=bottom,facing=east]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=east]"
     },
     {
       "char": "j",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
       "char": "k",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=inner_left,half=bottom,facing=west]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=inner_left,facing=west]"
     },
     {
       "char": "l",
@@ -67,7 +67,7 @@
     },
     {
       "char": "q",
-      "block": "minecraft:dark_oak_door[facing=south,half=lower,open=false,hinge=right]"
+      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=south,open=false]"
     },
     {
       "char": "r",
@@ -79,7 +79,7 @@
     },
     {
       "char": "t",
-      "block": "minecraft:light_gray_bed[part=head,occupied=false,facing=south]",
+      "block": "minecraft:light_gray_bed[part=head,facing=south,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
@@ -91,26 +91,26 @@
     },
     {
       "char": "w",
-      "block": "minecraft:quartz_stairs[waterlogged=true,shape=inner_left,half=bottom,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_left,facing=south]"
     },
     {
       "char": "x",
-      "block": "minecraft:quartz_stairs[waterlogged=true,shape=inner_left,half=bottom,facing=west]"
+      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_left,facing=west]"
     },
     {
       "char": "y",
-      "block": "minecraft:light_gray_bed[part=foot,occupied=false,facing=south]",
+      "block": "minecraft:light_gray_bed[part=foot,facing=south,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "A",
-      "block": "minecraft:quartz_stairs[waterlogged=true,shape=inner_left,half=bottom,facing=east]"
+      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_left,facing=east]"
     },
     {
       "char": "B",
-      "block": "minecraft:quartz_stairs[waterlogged=true,shape=inner_left,half=bottom,facing=north]"
+      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_left,facing=north]"
     },
     {
       "char": "C",
@@ -126,7 +126,7 @@
     },
     {
       "char": "F",
-      "block": "minecraft:dark_oak_door[facing=south,half=upper,open=false,hinge=right]"
+      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
       "char": "I",
@@ -146,12 +146,7 @@
     },
     {
       "char": "M",
-      "block": "minecraft:chain[waterlogged=false,axis=y]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
-      }
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "N",

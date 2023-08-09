@@ -64,11 +64,11 @@
     },
     {
       "char": "g",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=left,facing=north]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=left]"
     },
     {
       "char": "h",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=right,facing=north]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=right]"
     },
     {
       "char": "i",
@@ -76,11 +76,11 @@
     },
     {
       "char": "j",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=right,facing=south]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=right]"
     },
     {
       "char": "k",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,type=left,facing=south]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=left]"
     },
     {
       "char": "l",
@@ -92,7 +92,7 @@
     },
     {
       "char": "n",
-      "block": "create:controls[waterlogged=false,open=false,facing=east]"
+      "block": "create:controls[waterlogged=false,facing=east,open=false]"
     },
     {
       "char": "o",
@@ -100,19 +100,19 @@
     },
     {
       "char": "p",
-      "block": "create:controls[waterlogged=false,open=false,facing=west]"
+      "block": "create:controls[waterlogged=false,facing=west,open=false]"
     },
     {
       "char": "q",
-      "block": "minecraft:spruce_stairs[waterlogged=false,shape=straight,half=top,facing=east]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
     },
     {
       "char": "r",
-      "block": "minecraft:spruce_stairs[waterlogged=false,shape=straight,half=top,facing=west]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
       "char": "s",
-      "block": "create:mechanical_plough[facing=north]"
+      "block": "create:mechanical_plough[waterlogged=false,facing=north]"
     },
     {
       "char": "t",
@@ -124,7 +124,7 @@
     },
     {
       "char": "w",
-      "block": "create:mechanical_plough[facing=south]"
+      "block": "create:mechanical_plough[waterlogged=false,facing=south]"
     }
   ]
 }

@@ -31,15 +31,15 @@
     },
     {
       "char": "h",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "i",
-      "block": "minecraft:iron_door[facing=south,half=lower,open=false,hinge=left]"
+      "block": "minecraft:iron_door[hinge=left,half=lower,facing=south,open=false]"
     },
     {
       "char": "j",
-      "block": "minecraft:iron_door[facing=south,half=lower,open=false,hinge=right]"
+      "block": "minecraft:iron_door[hinge=right,half=lower,facing=south,open=false]"
     },
     {
       "char": "k",
@@ -59,11 +59,11 @@
     },
     {
       "char": "o",
-      "block": "minecraft:iron_door[facing=south,half=upper,open=false,hinge=left]"
+      "block": "minecraft:iron_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
       "char": "p",
-      "block": "minecraft:iron_door[facing=south,half=upper,open=false,hinge=right]"
+      "block": "minecraft:iron_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
       "char": "q",

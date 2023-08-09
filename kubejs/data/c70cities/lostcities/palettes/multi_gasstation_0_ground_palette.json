@@ -65,11 +65,11 @@
     },
     {
       "char": "o",
-      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=top,facing=east]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
     },
     {
       "char": "p",
-      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=top,facing=west]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
       "char": "q",
@@ -81,11 +81,11 @@
     },
     {
       "char": "s",
-      "block": "embellishcraft:birch_plain_door[facing=north,half=lower,open=false,hinge=left]"
+      "block": "embellishcraft:birch_plain_door[hinge=left,half=lower,facing=north,open=false]"
     },
     {
       "char": "t",
-      "block": "embellishcraft:birch_plain_door[facing=north,half=lower,open=false,hinge=right]"
+      "block": "embellishcraft:birch_plain_door[hinge=right,half=lower,facing=north,open=false]"
     },
     {
       "char": "u",
@@ -93,7 +93,7 @@
     },
     {
       "char": "w",
-      "block": "embellishcraft:birch_plain_door[facing=south,half=lower,open=false,hinge=right]"
+      "block": "embellishcraft:birch_plain_door[hinge=right,half=lower,facing=south,open=false]"
     },
     {
       "char": "x",
@@ -101,7 +101,7 @@
     },
     {
       "char": "y",
-      "block": "cfm:freezer_light[open=false,facing=north]"
+      "block": "cfm:freezer_light[facing=north,open=false]"
     },
     {
       "char": "A",
@@ -109,27 +109,27 @@
     },
     {
       "char": "B",
-      "block": "minecraft:iron_trapdoor[facing=west,waterlogged=false,half=bottom,open=false]"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=west,open=false]"
     },
     {
       "char": "C",
-      "block": "minecraft:iron_trapdoor[facing=east,waterlogged=false,half=bottom,open=false]"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=east,open=false]"
     },
     {
       "char": "D",
-      "block": "embellishcraft:birch_plain_door[facing=north,half=upper,open=false,hinge=left]"
+      "block": "embellishcraft:birch_plain_door[hinge=left,half=upper,facing=north,open=false]"
     },
     {
       "char": "E",
-      "block": "embellishcraft:birch_plain_door[facing=north,half=upper,open=false,hinge=right]"
+      "block": "embellishcraft:birch_plain_door[hinge=right,half=upper,facing=north,open=false]"
     },
     {
       "char": "F",
-      "block": "embellishcraft:birch_plain_door[facing=south,half=upper,open=false,hinge=right]"
+      "block": "embellishcraft:birch_plain_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
       "char": "I",
-      "block": "cfm:fridge_light[open=false,facing=north]",
+      "block": "cfm:fridge_light[facing=north,open=false]",
       "loot": "chestloot"
     },
     {
@@ -142,12 +142,7 @@
     },
     {
       "char": "L",
-      "block": "minecraft:chain[waterlogged=false,axis=y]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
-      }
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "M",

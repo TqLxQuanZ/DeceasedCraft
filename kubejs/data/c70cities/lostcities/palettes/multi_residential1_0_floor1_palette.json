@@ -3,15 +3,15 @@
   "palette": [
     {
       "char": "a",
-      "block": "another_furniture:dark_oak_planter_box[type=right,facing=north,attached=true]"
+      "block": "another_furniture:dark_oak_planter_box[attached=true,facing=north,type=right]"
     },
     {
       "char": "b",
-      "block": "another_furniture:dark_oak_planter_box[type=middle,facing=north,attached=true]"
+      "block": "another_furniture:dark_oak_planter_box[attached=true,facing=north,type=middle]"
     },
     {
       "char": "c",
-      "block": "another_furniture:dark_oak_planter_box[type=left,facing=north,attached=true]"
+      "block": "another_furniture:dark_oak_planter_box[attached=true,facing=north,type=left]"
     },
     {
       "char": "d",

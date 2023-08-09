@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "minecraft:dark_oak_door[facing=south,half=lower,open=false,hinge=right]"
+      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=south,open=false]"
     },
     {
       "char": "h",
@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "minecraft:dark_oak_door[facing=east,half=lower,open=false,hinge=left]"
+      "block": "minecraft:dark_oak_door[hinge=left,half=lower,facing=east,open=false]"
     },
     {
       "char": "l",
@@ -51,18 +51,18 @@
     },
     {
       "char": "m",
-      "block": "minecraft:brown_bed[part=head,occupied=false,facing=south]",
+      "block": "minecraft:brown_bed[part=head,facing=south,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "n",
-      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
       "char": "o",
-      "block": "minecraft:brown_bed[part=foot,occupied=false,facing=south]",
+      "block": "minecraft:brown_bed[part=foot,facing=south,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
@@ -77,7 +77,7 @@
     },
     {
       "char": "r",
-      "block": "minecraft:dark_oak_door[facing=south,half=upper,open=false,hinge=right]"
+      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
       "char": "s",
@@ -85,7 +85,7 @@
     },
     {
       "char": "t",
-      "block": "minecraft:dark_oak_door[facing=east,half=upper,open=false,hinge=left]"
+      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=east,open=false]"
     },
     {
       "char": "u",

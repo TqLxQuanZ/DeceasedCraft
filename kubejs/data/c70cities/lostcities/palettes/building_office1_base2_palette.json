@@ -27,11 +27,11 @@
     },
     {
       "char": "g",
-      "block": "minecraft:iron_door[facing=north,half=lower,open=false,hinge=left]"
+      "block": "minecraft:iron_door[hinge=left,half=lower,facing=north,open=false]"
     },
     {
       "char": "h",
-      "block": "minecraft:iron_door[facing=north,half=lower,open=false,hinge=right]"
+      "block": "minecraft:iron_door[hinge=right,half=lower,facing=north,open=false]"
     },
     {
       "char": "i",
@@ -43,11 +43,11 @@
     },
     {
       "char": "k",
-      "block": "minecraft:iron_door[facing=north,half=upper,open=false,hinge=left]"
+      "block": "minecraft:iron_door[hinge=left,half=upper,facing=north,open=false]"
     },
     {
       "char": "l",
-      "block": "minecraft:iron_door[facing=north,half=upper,open=false,hinge=right]"
+      "block": "minecraft:iron_door[hinge=right,half=upper,facing=north,open=false]"
     },
     {
       "char": "m",
@@ -67,12 +67,7 @@
     },
     {
       "char": "q",
-      "block": "minecraft:chain[waterlogged=false,axis=y]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
-      }
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "r",

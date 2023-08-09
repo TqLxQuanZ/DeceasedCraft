@@ -27,11 +27,11 @@
     },
     {
       "char": "g",
-      "block": "minecraft:dark_oak_door[facing=north,half=lower,open=false,hinge=left]"
+      "block": "minecraft:dark_oak_door[hinge=left,half=lower,facing=north,open=false]"
     },
     {
       "char": "h",
-      "block": "minecraft:dark_oak_door[facing=north,half=lower,open=false,hinge=right]"
+      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=north,open=false]"
     },
     {
       "char": "i",
@@ -55,14 +55,14 @@
     },
     {
       "char": "n",
-      "block": "minecraft:brown_bed[part=head,occupied=false,facing=north]",
+      "block": "minecraft:brown_bed[part=head,facing=north,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "o",
-      "block": "minecraft:brown_bed[part=foot,occupied=false,facing=north]",
+      "block": "minecraft:brown_bed[part=foot,facing=north,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
@@ -73,11 +73,11 @@
     },
     {
       "char": "q",
-      "block": "minecraft:dark_oak_door[facing=north,half=upper,open=false,hinge=left]"
+      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=north,open=false]"
     },
     {
       "char": "r",
-      "block": "minecraft:dark_oak_door[facing=north,half=upper,open=false,hinge=right]"
+      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=north,open=false]"
     },
     {
       "char": "s",

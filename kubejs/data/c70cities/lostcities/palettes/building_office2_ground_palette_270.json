@@ -19,12 +19,12 @@
     },
     {
       "char": "e",
-      "block": "cfm:cyan_kitchen_drawer[open=false,facing=east]",
+      "block": "cfm:cyan_kitchen_drawer[facing=east,open=false]",
       "loot": "chestloot"
     },
     {
       "char": "f",
-      "block": "cfm:cyan_kitchen_counter[type=default,facing=east]"
+      "block": "cfm:cyan_kitchen_counter[facing=east,type=default]"
     },
     {
       "char": "g",
@@ -32,11 +32,11 @@
     },
     {
       "char": "h",
-      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
       "char": "i",
-      "block": "cfm:gray_kitchen_counter[type=default,facing=east]"
+      "block": "cfm:gray_kitchen_counter[facing=east,type=default]"
     },
     {
       "char": "j",
@@ -44,11 +44,11 @@
     },
     {
       "char": "k",
-      "block": "minecraft:iron_door[facing=south,half=lower,open=false,hinge=left]"
+      "block": "minecraft:iron_door[hinge=left,half=lower,facing=south,open=false]"
     },
     {
       "char": "l",
-      "block": "minecraft:iron_door[facing=south,half=lower,open=false,hinge=right]"
+      "block": "minecraft:iron_door[hinge=right,half=lower,facing=south,open=false]"
     },
     {
       "char": "m",
@@ -56,11 +56,11 @@
     },
     {
       "char": "n",
-      "block": "minecraft:quartz_stairs[waterlogged=false,shape=inner_left,half=bottom,facing=north]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=inner_left,facing=north]"
     },
     {
       "char": "o",
-      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
       "char": "p",
@@ -72,7 +72,7 @@
     },
     {
       "char": "r",
-      "block": "minecraft:quartz_stairs[waterlogged=false,shape=inner_right,half=bottom,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=south]"
     },
     {
       "char": "s",
@@ -80,11 +80,11 @@
     },
     {
       "char": "t",
-      "block": "minecraft:iron_door[facing=south,half=upper,open=false,hinge=left]"
+      "block": "minecraft:iron_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
       "char": "u",
-      "block": "minecraft:iron_door[facing=south,half=upper,open=false,hinge=right]"
+      "block": "minecraft:iron_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
       "char": "w",

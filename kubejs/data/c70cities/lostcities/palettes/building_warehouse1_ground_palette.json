@@ -71,7 +71,7 @@
     },
     {
       "char": "q",
-      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
       "char": "r",
@@ -79,11 +79,11 @@
     },
     {
       "char": "s",
-      "block": "create:framed_glass_door[facing=south,half=lower,open=false,hinge=right]"
+      "block": "create:framed_glass_door[hinge=right,half=lower,facing=south,open=false]"
     },
     {
       "char": "t",
-      "block": "create:framed_glass_door[facing=south,half=lower,open=false,hinge=left]"
+      "block": "create:framed_glass_door[hinge=left,half=lower,facing=south,open=false]"
     },
     {
       "char": "u",
@@ -91,15 +91,15 @@
     },
     {
       "char": "w",
-      "block": "minecraft:dark_oak_trapdoor[facing=north,waterlogged=false,half=bottom,open=false]"
+      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,facing=north,open=false]"
     },
     {
       "char": "x",
-      "block": "create:framed_glass_door[facing=south,half=upper,open=false,hinge=right]"
+      "block": "create:framed_glass_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
       "char": "y",
-      "block": "create:framed_glass_door[facing=south,half=upper,open=false,hinge=left]"
+      "block": "create:framed_glass_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
       "char": "A",
@@ -123,12 +123,7 @@
     },
     {
       "char": "F",
-      "block": "minecraft:chain[waterlogged=false,axis=y]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
-      }
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "I",

@@ -75,7 +75,7 @@
     },
     {
       "char": "s",
-      "block": "cfm:oak_park_bench[waterlogged=false,type=right,facing=west]"
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=right]"
     },
     {
       "char": "t",
@@ -83,7 +83,7 @@
     },
     {
       "char": "u",
-      "block": "cfm:oak_park_bench[waterlogged=false,type=left,facing=west]"
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=left]"
     },
     {
       "char": "w",
@@ -107,12 +107,7 @@
     },
     {
       "char": "C",
-      "block": "minecraft:chain[waterlogged=false,axis=y]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
-      }
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "D",
@@ -124,7 +119,7 @@
     },
     {
       "char": "F",
-      "block": "minecraft:spruce_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
       "char": "I",

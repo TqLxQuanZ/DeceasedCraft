@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "embellishcraft:basalt_button[facing=west,face=wall]"
+      "block": "embellishcraft:basalt_button[face=wall,facing=west]"
     },
     {
       "char": "l",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "embellishcraft:basalt_button[facing=east,face=wall]"
+      "block": "embellishcraft:basalt_button[face=wall,facing=east]"
     },
     {
       "char": "n",
@@ -64,7 +64,7 @@
     },
     {
       "char": "p",
-      "block": "embellishcraft:sturdy_steel_door[facing=south,half=lower,open=false,hinge=left]"
+      "block": "embellishcraft:sturdy_steel_door[hinge=left,half=lower,facing=south,open=false]"
     },
     {
       "char": "q",
@@ -72,7 +72,7 @@
     },
     {
       "char": "r",
-      "block": "minecraft:iron_door[facing=south,half=lower,open=false,hinge=right]"
+      "block": "minecraft:iron_door[hinge=right,half=lower,facing=south,open=false]"
     },
     {
       "char": "s",
@@ -124,11 +124,11 @@
     },
     {
       "char": "I",
-      "block": "quark:green_shingles_stairs[waterlogged=false,shape=straight,half=top,facing=east]"
+      "block": "quark:green_shingles_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
     },
     {
       "char": "J",
-      "block": "quark:green_shingles_stairs[waterlogged=false,shape=straight,half=top,facing=west]"
+      "block": "quark:green_shingles_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
       "char": "K",
@@ -144,15 +144,15 @@
     },
     {
       "char": "N",
-      "block": "embellishcraft:sturdy_steel_door[facing=south,half=upper,open=false,hinge=left]"
+      "block": "embellishcraft:sturdy_steel_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
       "char": "O",
-      "block": "minecraft:iron_door[facing=south,half=upper,open=false,hinge=right]"
+      "block": "minecraft:iron_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
       "char": "P",
-      "block": "quark:green_shingles_stairs[waterlogged=false,shape=outer_right,half=top,facing=north]"
+      "block": "quark:green_shingles_stairs[waterlogged=false,half=top,shape=outer_right,facing=north]"
     },
     {
       "char": "Q",
@@ -160,7 +160,7 @@
     },
     {
       "char": "R",
-      "block": "quark:green_shingles_stairs[waterlogged=false,shape=outer_left,half=top,facing=north]"
+      "block": "quark:green_shingles_stairs[waterlogged=false,half=top,shape=outer_left,facing=north]"
     },
     {
       "char": "S",

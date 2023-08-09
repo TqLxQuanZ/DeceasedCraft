@@ -23,12 +23,7 @@
     },
     {
       "char": "f",
-      "block": "minecraft:chain[waterlogged=false,axis=y]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
-      }
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "g",
@@ -40,11 +35,11 @@
     },
     {
       "char": "i",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,axis=y,chain_up=false]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
     },
     {
       "char": "j",
-      "block": "farmersdelight:dark_oak_cabinet[open=false,facing=south]",
+      "block": "farmersdelight:dark_oak_cabinet[facing=south,open=false]",
       "loot": "chestloot"
     },
     {

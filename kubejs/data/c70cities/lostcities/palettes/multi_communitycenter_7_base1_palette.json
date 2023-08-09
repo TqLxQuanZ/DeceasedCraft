@@ -3,90 +3,81 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:repeating_command_block[facing=east,conditional=false]",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
-        "Command": "summon car:car ~-0.5 ~1 ~"
+        "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
       }
     },
     {
       "char": "b",
-      "block": "minecraft:chain_command_block[facing=up,conditional=false]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "fill ~-1 ~ ~ ~ ~ ~ immersivepetroleum:asphalt"
-      }
+      "block": "minecraft:stone_button[face=floor,facing=east]"
     },
     {
       "char": "c",
-      "block": "minecraft:stone_button[facing=east,face=floor]"
+      "block": "minecraft:stone_button[face=floor,facing=west]"
     },
     {
       "char": "d",
-      "block": "minecraft:stone_button[facing=west,face=floor]"
-    },
-    {
-      "char": "e",
       "block": "minecraft:cobweb"
     },
     {
-      "char": "f",
+      "char": "e",
       "block": "minecraft:stone"
     },
     {
-      "char": "g",
+      "char": "f",
       "block": "car:line_side_long_left[facing=east]"
     },
     {
-      "char": "h",
+      "char": "g",
       "block": "car:line_side_long_left[facing=south]"
     },
     {
-      "char": "i",
+      "char": "h",
       "block": "minecraft:ender_chest[waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
-      "char": "j",
+      "char": "i",
       "block": "minecraft:chest",
       "loot": "chestloot"
     },
     {
-      "char": "k",
+      "char": "j",
       "block": "car:line_side_long_left[facing=north]"
     },
     {
-      "char": "l",
+      "char": "k",
       "block": "car:line_side_long_left[facing=west]"
     },
     {
-      "char": "m",
+      "char": "l",
       "block": "minecraft:smooth_stone"
     },
     {
-      "char": "n",
-      "block": "immersivepetroleum:asphalt_stair[waterlogged=false,shape=straight,half=bottom,facing=north]"
+      "char": "m",
+      "block": "immersivepetroleum:asphalt_stair[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
-      "char": "o",
+      "char": "n",
       "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "p",
+      "char": "o",
       "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
     },
     {
-      "char": "q",
+      "char": "p",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "r",
+      "char": "q",
       "block": "minecraft:iron_bars[waterlogged=false]"
     },
     {
-      "char": "s",
+      "char": "r",
       "block": "minecraft:stone_slab[waterlogged=false,type=top]"
     }
   ]

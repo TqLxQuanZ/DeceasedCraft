@@ -31,59 +31,59 @@
     },
     {
       "char": "h",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
       "char": "i",
-      "block": "cfm:cyan_kitchen_counter[type=left_corner_inverted,facing=west]"
+      "block": "cfm:cyan_kitchen_counter[facing=west,type=left_corner_inverted]"
     },
     {
       "char": "j",
-      "block": "cfm:cyan_kitchen_counter[type=default,facing=north]"
+      "block": "cfm:cyan_kitchen_counter[facing=north,type=default]"
     },
     {
       "char": "k",
-      "block": "cfm:cyan_kitchen_counter[type=left_corner_inverted,facing=north]"
+      "block": "cfm:cyan_kitchen_counter[facing=north,type=left_corner_inverted]"
     },
     {
       "char": "l",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=straight,half=bottom,facing=west]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
       "char": "m",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
       "char": "n",
-      "block": "cfm:cyan_kitchen_counter[type=default,facing=west]"
+      "block": "cfm:cyan_kitchen_counter[facing=west,type=default]"
     },
     {
       "char": "o",
-      "block": "cfm:cyan_kitchen_counter[type=default,facing=east]"
+      "block": "cfm:cyan_kitchen_counter[facing=east,type=default]"
     },
     {
       "char": "p",
-      "block": "cfm:cyan_kitchen_counter[type=left_corner_inverted,facing=south]"
+      "block": "cfm:cyan_kitchen_counter[facing=south,type=left_corner_inverted]"
     },
     {
       "char": "q",
-      "block": "cfm:cyan_kitchen_counter[type=default,facing=south]"
+      "block": "cfm:cyan_kitchen_counter[facing=south,type=default]"
     },
     {
       "char": "r",
-      "block": "cfm:cyan_kitchen_counter[type=right_corner_inverted,facing=south]"
+      "block": "cfm:cyan_kitchen_counter[facing=south,type=right_corner_inverted]"
     },
     {
       "char": "s",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "t",
-      "block": "minecraft:iron_door[facing=south,half=lower,open=false,hinge=left]"
+      "block": "minecraft:iron_door[hinge=left,half=lower,facing=south,open=false]"
     },
     {
       "char": "u",
-      "block": "minecraft:iron_door[facing=south,half=lower,open=false,hinge=right]"
+      "block": "minecraft:iron_door[hinge=right,half=lower,facing=south,open=false]"
     },
     {
       "char": "w",
@@ -103,11 +103,11 @@
     },
     {
       "char": "B",
-      "block": "minecraft:iron_door[facing=south,half=upper,open=false,hinge=left]"
+      "block": "minecraft:iron_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
       "char": "C",
-      "block": "minecraft:iron_door[facing=south,half=upper,open=false,hinge=right]"
+      "block": "minecraft:iron_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
       "char": "D",

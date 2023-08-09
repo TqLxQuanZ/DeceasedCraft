@@ -3,15 +3,15 @@
   "palette": [
     {
       "char": "a",
-      "block": "another_furniture:dark_oak_planter_box[type=right,facing=east,attached=true]"
+      "block": "another_furniture:dark_oak_planter_box[attached=true,facing=east,type=right]"
     },
     {
       "char": "b",
-      "block": "another_furniture:dark_oak_planter_box[type=middle,facing=east,attached=true]"
+      "block": "another_furniture:dark_oak_planter_box[attached=true,facing=east,type=middle]"
     },
     {
       "char": "c",
-      "block": "another_furniture:dark_oak_planter_box[type=left,facing=east,attached=true]"
+      "block": "another_furniture:dark_oak_planter_box[attached=true,facing=east,type=left]"
     },
     {
       "char": "d",
@@ -27,41 +27,41 @@
     },
     {
       "char": "g",
-      "block": "another_furniture:dark_oak_planter_box[type=left,facing=north,attached=true]"
+      "block": "another_furniture:dark_oak_planter_box[attached=true,facing=north,type=left]"
     },
     {
       "char": "h",
-      "block": "minecraft:light_gray_bed[part=head,occupied=false,facing=north]",
+      "block": "minecraft:light_gray_bed[part=head,facing=north,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "i",
-      "block": "minecraft:light_gray_bed[part=foot,occupied=false,facing=north]",
+      "block": "minecraft:light_gray_bed[part=foot,facing=north,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "j",
-      "block": "minecraft:dark_oak_trapdoor[facing=south,waterlogged=false,half=bottom,open=true]"
+      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
     },
     {
       "char": "k",
-      "block": "minecraft:dark_oak_trapdoor[facing=north,waterlogged=false,half=bottom,open=true]"
+      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
     },
     {
       "char": "l",
-      "block": "cfm:stripped_dark_oak_desk[waterlogged=false,type=left,facing=south]"
+      "block": "cfm:stripped_dark_oak_desk[waterlogged=false,facing=south,type=left]"
     },
     {
       "char": "m",
-      "block": "another_furniture:dark_oak_planter_box[type=right,facing=south,attached=true]"
+      "block": "another_furniture:dark_oak_planter_box[attached=true,facing=south,type=right]"
     },
     {
       "char": "n",
-      "block": "another_furniture:dark_oak_planter_box[type=middle,facing=north,attached=true]"
+      "block": "another_furniture:dark_oak_planter_box[attached=true,facing=north,type=middle]"
     },
     {
       "char": "o",
@@ -69,15 +69,15 @@
     },
     {
       "char": "p",
-      "block": "cfm:stripped_dark_oak_desk[waterlogged=false,type=middle,facing=south]"
+      "block": "cfm:stripped_dark_oak_desk[waterlogged=false,facing=south,type=middle]"
     },
     {
       "char": "q",
-      "block": "another_furniture:dark_oak_planter_box[type=middle,facing=south,attached=true]"
+      "block": "another_furniture:dark_oak_planter_box[attached=true,facing=south,type=middle]"
     },
     {
       "char": "r",
-      "block": "another_furniture:dark_oak_planter_box[type=right,facing=north,attached=true]"
+      "block": "another_furniture:dark_oak_planter_box[attached=true,facing=north,type=right]"
     },
     {
       "char": "s",
@@ -86,12 +86,12 @@
     },
     {
       "char": "t",
-      "block": "cfm:stripped_dark_oak_desk_cabinet[waterlogged=false,type=right,open=false,facing=south]",
+      "block": "cfm:stripped_dark_oak_desk_cabinet[waterlogged=false,facing=south,type=right,open=false]",
       "loot": "chestloot"
     },
     {
       "char": "u",
-      "block": "another_furniture:dark_oak_planter_box[type=left,facing=south,attached=true]"
+      "block": "another_furniture:dark_oak_planter_box[attached=true,facing=south,type=left]"
     },
     {
       "char": "w",
@@ -99,11 +99,11 @@
     },
     {
       "char": "x",
-      "block": "create:framed_glass_door[facing=west,half=lower,open=false,hinge=right]"
+      "block": "create:framed_glass_door[hinge=right,half=lower,facing=west,open=false]"
     },
     {
       "char": "y",
-      "block": "create:framed_glass_door[facing=west,half=lower,open=false,hinge=left]"
+      "block": "create:framed_glass_door[hinge=left,half=lower,facing=west,open=false]"
     },
     {
       "char": "A",
@@ -111,7 +111,7 @@
     },
     {
       "char": "B",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,axis=y,chain_up=false]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
     },
     {
       "char": "C",
@@ -131,11 +131,11 @@
     },
     {
       "char": "I",
-      "block": "create:framed_glass_door[facing=west,half=upper,open=false,hinge=right]"
+      "block": "create:framed_glass_door[hinge=right,half=upper,facing=west,open=false]"
     },
     {
       "char": "J",
-      "block": "create:framed_glass_door[facing=west,half=upper,open=false,hinge=left]"
+      "block": "create:framed_glass_door[hinge=left,half=upper,facing=west,open=false]"
     },
     {
       "char": "K",
@@ -143,7 +143,7 @@
     },
     {
       "char": "L",
-      "block": "minecraft:dark_oak_stairs[waterlogged=false,shape=straight,half=bottom,facing=east]"
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
       "char": "M",

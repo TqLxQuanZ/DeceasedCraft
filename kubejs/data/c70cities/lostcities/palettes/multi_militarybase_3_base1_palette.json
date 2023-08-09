@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "quark:acacia_post[waterlogged=false,axis=y,chain_up=false]"
+      "block": "quark:acacia_post[waterlogged=false,chain_up=false,axis=y]"
     },
     {
       "char": "h",
@@ -35,11 +35,11 @@
     },
     {
       "char": "i",
-      "block": "minecraft:iron_door[facing=north,half=lower,open=false,hinge=left]"
+      "block": "minecraft:iron_door[hinge=left,half=lower,facing=north,open=false]"
     },
     {
       "char": "j",
-      "block": "minecraft:iron_door[facing=north,half=lower,open=false,hinge=right]"
+      "block": "minecraft:iron_door[hinge=right,half=lower,facing=north,open=false]"
     },
     {
       "char": "k",
@@ -51,11 +51,11 @@
     },
     {
       "char": "m",
-      "block": "minecraft:iron_door[facing=north,half=upper,open=false,hinge=left]"
+      "block": "minecraft:iron_door[hinge=left,half=upper,facing=north,open=false]"
     },
     {
       "char": "n",
-      "block": "minecraft:iron_door[facing=north,half=upper,open=false,hinge=right]"
+      "block": "minecraft:iron_door[hinge=right,half=upper,facing=north,open=false]"
     },
     {
       "char": "o",
@@ -74,7 +74,7 @@
     },
     {
       "char": "r",
-      "block": "embellishcraft:light_gray_pillow[waterlogged=false,part=head,occupied=false,facing=south]"
+      "block": "embellishcraft:light_gray_pillow[waterlogged=false,part=head,facing=south,occupied=false]"
     },
     {
       "char": "s",

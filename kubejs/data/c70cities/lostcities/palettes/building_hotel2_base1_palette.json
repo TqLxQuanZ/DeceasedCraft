@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "h",
@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "minecraft:quartz_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
       "char": "j",
@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "cfm:freezer_light[open=false,facing=west]"
+      "block": "cfm:freezer_light[facing=west,open=false]"
     },
     {
       "char": "l",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "farmersdelight:spruce_cabinet[open=false,facing=east]",
+      "block": "farmersdelight:spruce_cabinet[facing=east,open=false]",
       "loot": "chestloot"
     },
     {
@@ -64,7 +64,7 @@
     },
     {
       "char": "p",
-      "block": "cfm:gray_kitchen_counter[type=default,facing=east]"
+      "block": "cfm:gray_kitchen_counter[facing=east,type=default]"
     },
     {
       "char": "q",
@@ -84,12 +84,12 @@
     },
     {
       "char": "u",
-      "block": "cfm:fridge_light[open=false,facing=west]",
+      "block": "cfm:fridge_light[facing=west,open=false]",
       "loot": "chestloot"
     },
     {
       "char": "w",
-      "block": "farmersdelight:cooking_pot[waterlogged=false,support=none,facing=east]"
+      "block": "farmersdelight:cooking_pot[waterlogged=false,facing=east,support=none]"
     },
     {
       "char": "x",

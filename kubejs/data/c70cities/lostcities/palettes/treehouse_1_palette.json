@@ -47,11 +47,11 @@
     },
     {
       "char": "l",
-      "block": "minecraft:oak_button[facing=north,face=floor]"
+      "block": "minecraft:oak_button[face=floor,facing=north]"
     },
     {
       "char": "m",
-      "block": "minecraft:oak_button[facing=west,face=floor]"
+      "block": "minecraft:oak_button[face=floor,facing=west]"
     },
     {
       "char": "n",
@@ -63,7 +63,7 @@
     },
     {
       "char": "p",
-      "block": "minecraft:oak_button[facing=east,face=floor]"
+      "block": "minecraft:oak_button[face=floor,facing=east]"
     },
     {
       "char": "q",
@@ -71,7 +71,7 @@
     },
     {
       "char": "r",
-      "block": "minecraft:stone_brick_stairs[waterlogged=false,shape=straight,half=top,facing=west]"
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
       "char": "s",
@@ -79,7 +79,7 @@
     },
     {
       "char": "t",
-      "block": "minecraft:stone_brick_stairs[waterlogged=false,shape=straight,half=top,facing=east]"
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
     },
     {
       "char": "u",
@@ -87,7 +87,7 @@
     },
     {
       "char": "w",
-      "block": "minecraft:oak_trapdoor[facing=north,waterlogged=false,half=bottom,open=true]"
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
     },
     {
       "char": "x",
@@ -99,7 +99,7 @@
     },
     {
       "char": "A",
-      "block": "minecraft:oak_trapdoor[facing=east,waterlogged=false,half=bottom,open=true]"
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
     },
     {
       "char": "B",
@@ -111,11 +111,11 @@
     },
     {
       "char": "D",
-      "block": "minecraft:oak_trapdoor[facing=south,waterlogged=false,half=bottom,open=true]"
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
     },
     {
       "char": "E",
-      "block": "minecraft:oak_trapdoor[facing=west,waterlogged=false,half=bottom,open=true]"
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=west,open=true]"
     },
     {
       "char": "F",
@@ -132,7 +132,7 @@
     },
     {
       "char": "K",
-      "block": "minecraft:stone_brick_stairs[waterlogged=false,shape=straight,half=bottom,facing=south]"
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
       "char": "L",
@@ -140,7 +140,7 @@
     },
     {
       "char": "M",
-      "block": "minecraft:stone_brick_stairs[waterlogged=false,shape=straight,half=bottom,facing=north]"
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "N",
@@ -152,14 +152,14 @@
     },
     {
       "char": "P",
-      "block": "minecraft:brown_bed[part=head,occupied=false,facing=north]",
+      "block": "minecraft:brown_bed[part=head,facing=north,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "Q",
-      "block": "minecraft:brown_bed[part=foot,occupied=false,facing=north]",
+      "block": "minecraft:brown_bed[part=foot,facing=north,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }

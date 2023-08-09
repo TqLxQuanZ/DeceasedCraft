@@ -35,41 +35,41 @@
     },
     {
       "char": "i",
-      "block": "cfm:cyan_kitchen_counter[type=left_corner_inverted,facing=south]"
+      "block": "cfm:cyan_kitchen_counter[facing=south,type=left_corner_inverted]"
     },
     {
       "char": "j",
-      "block": "cfm:cyan_kitchen_counter[type=default,facing=west]"
+      "block": "cfm:cyan_kitchen_counter[facing=west,type=default]"
     },
     {
       "char": "k",
-      "block": "cfm:cyan_kitchen_drawer[open=false,facing=east]",
+      "block": "cfm:cyan_kitchen_drawer[facing=east,open=false]",
       "loot": "chestloot"
     },
     {
       "char": "l",
-      "block": "cfm:white_sofa[waterlogged=false,type=single,facing=north]"
+      "block": "cfm:white_sofa[waterlogged=false,facing=north,type=single]"
     },
     {
       "char": "m",
-      "block": "cfm:cyan_kitchen_drawer[open=false,facing=north]",
+      "block": "cfm:cyan_kitchen_drawer[facing=north,open=false]",
       "loot": "chestloot"
     },
     {
       "char": "n",
-      "block": "cfm:cyan_kitchen_counter[type=default,facing=north]"
+      "block": "cfm:cyan_kitchen_counter[facing=north,type=default]"
     },
     {
       "char": "o",
-      "block": "cfm:light_gray_sofa[waterlogged=false,type=single,facing=south]"
+      "block": "cfm:light_gray_sofa[waterlogged=false,facing=south,type=single]"
     },
     {
       "char": "p",
-      "block": "cfm:cyan_kitchen_counter[type=right_corner_inverted,facing=south]"
+      "block": "cfm:cyan_kitchen_counter[facing=south,type=right_corner_inverted]"
     },
     {
       "char": "q",
-      "block": "cfm:cyan_kitchen_counter[type=default,facing=east]"
+      "block": "cfm:cyan_kitchen_counter[facing=east,type=default]"
     },
     {
       "char": "r",
@@ -77,7 +77,7 @@
     },
     {
       "char": "s",
-      "block": "minecraft:spruce_trapdoor[facing=east,waterlogged=false,half=bottom,open=true]"
+      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
     },
     {
       "char": "t",
