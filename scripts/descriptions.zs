@@ -17,3 +17,12 @@ JEI.addDescription(<item:additionalguns:bullet_medium>, "Bullets can be crafted 
 JEI.addDescription(<item:additionalguns:bullet_long>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using emeralds. Weaponsmiths also offer lower-tier bullets for sale.");
 JEI.addDescription(<item:additionalguns:bullet_heavy>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using emeralds. Weaponsmiths also offer lower-tier bullets for sale.");
 JEI.addDescription(<item:additionalguns:bullet_special>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using emeralds. Weaponsmiths also offer lower-tier bullets for sale.");
+
+// Golden Apple
+JEI.addDescription(<item:minecraft:golden_apple>, "Golden apples can be crafted using specific steps, obtained from hospital medical crates, or acquired by defeating a certain boss within the wasteland industrial area.");
+
+// Blaze Rods
+JEI.addDescription(<item:minecraft:blaze_rod>, "Blaze rods can often be found in volcanic areas, where they are frequently observed floating on the surface.");
+
+// Netherrack
+JEI.addDescription(<item:minecraft:netherrack>, "Netherrack is commonly located underground within volcanic regions.");
