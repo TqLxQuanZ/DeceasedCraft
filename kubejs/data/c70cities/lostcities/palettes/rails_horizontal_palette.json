@@ -56,18 +56,22 @@
     },
     {
       "char": "e",
-      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
-    },
-    {
-      "char": "f",
       "block": "minecraft:smooth_quartz"
     },
     {
+      "char": "f",
+      "block": "minecraft:glowstone"
+    },
+    {
       "char": "g",
-      "block": "minecraft:smooth_stone"
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
     },
     {
       "char": "h",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "i",
       "block": "minecraft:stone_brick_slab[waterlogged=false,type=top]"
     }
   ]

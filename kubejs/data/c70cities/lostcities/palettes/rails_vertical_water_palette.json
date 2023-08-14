@@ -48,19 +48,19 @@
     },
     {
       "char": "c",
-      "block": "create:vertical_framed_glass"
-    },
-    {
-      "char": "d",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "e",
+      "char": "d",
       "block": "create:track[waterlogged=false,shape=zo]"
     },
     {
-      "char": "f",
+      "char": "e",
       "block": "create:framed_glass"
+    },
+    {
+      "char": "f",
+      "block": "create:vertical_framed_glass"
     },
     {
       "char": "g",

@@ -40,35 +40,51 @@
     },
     {
       "char": "a",
-      "block": "minecraft:smooth_stone"
-    },
-    {
-      "char": "b",
       "block": "minecraft:cyan_terracotta"
     },
     {
-      "char": "c",
-      "block": "minecraft:iron_bars[waterlogged=false]"
+      "char": "b",
+      "block": "minecraft:quartz_block"
     },
     {
-      "char": "d",
+      "char": "c",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
     },
     {
+      "char": "d",
+      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
       "char": "e",
-      "block": "create:display_board[waterlogged=false,facing=south,up=true]"
+      "block": "minecraft:moss_block"
     },
     {
       "char": "f",
-      "block": "create:display_board[waterlogged=false,facing=south,up=false]"
+      "block": "minecraft:water"
     },
     {
       "char": "g",
-      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
     },
     {
       "char": "h",
-      "block": "minecraft:smooth_quartz"
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:cave_vines"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:cave_vines_plant"
+    },
+    {
+      "char": "k",
+      "block": "simplylight:illuminant_block_on"
+    },
+    {
+      "char": "l",
+      "block": "quark:polished_calcite"
     }
   ]
 }

@@ -72,19 +72,27 @@
     },
     {
       "char": "i",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
+      "block": "create:andesite_bars[waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+      "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
     },
     {
       "char": "k",
-      "block": "minecraft:gray_stained_glass"
+      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
     },
     {
       "char": "l",
+      "block": "minecraft:gray_stained_glass"
+    },
+    {
+      "char": "m",
       "block": "minecraft:light_gray_stained_glass"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:quartz_slab[waterlogged=false,type=double]"
     }
   ]
 }

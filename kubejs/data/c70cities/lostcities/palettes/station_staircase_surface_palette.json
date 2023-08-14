@@ -40,83 +40,83 @@
     },
     {
       "char": "a",
-      "block": "minecraft:smooth_stone"
-    },
-    {
-      "char": "b",
-      "block": "immersivepetroleum:asphalt_slab[waterlogged=true,type=bottom]"
-    },
-    {
-      "char": "c",
-      "block": "create:polished_cut_tuff"
-    },
-    {
-      "char": "d",
-      "block": "create:small_tuff_bricks"
-    },
-    {
-      "char": "e",
       "block": "minecraft:quartz_block"
     },
     {
-      "char": "f",
+      "char": "b",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "c",
       "block": "minecraft:smooth_quartz"
     },
     {
-      "char": "g",
+      "char": "d",
       "block": "minecraft:dark_oak_log[axis=z]"
     },
     {
-      "char": "h",
+      "char": "e",
       "block": "embellishcraft:smooth_marble"
     },
     {
-      "char": "i",
-      "block": "embellishcraft:polished_marble"
-    },
-    {
-      "char": "j",
+      "char": "f",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
     },
     {
+      "char": "g",
+      "block": "embellishcraft:polished_marble"
+    },
+    {
+      "char": "h",
+      "block": "immersivepetroleum:asphalt_slab[waterlogged=true,type=bottom]"
+    },
+    {
+      "char": "i",
+      "block": "create:polished_cut_tuff"
+    },
+    {
+      "char": "j",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
       "char": "k",
-      "block": "minecraft:lilac[half=lower]"
-    },
-    {
-      "char": "l",
-      "block": "minecraft:fern"
-    },
-    {
-      "char": "m",
-      "block": "quark:iron_rod[facing=up]"
-    },
-    {
-      "char": "n",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=right]"
-    },
-    {
-      "char": "o",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=left]"
-    },
-    {
-      "char": "p",
       "block": "minecraft:iron_bars[waterlogged=false]"
     },
     {
-      "char": "q",
-      "block": "minecraft:crafting_table"
-    },
-    {
-      "char": "r",
+      "char": "l",
       "block": "minecraft:dark_oak_leaves"
     },
     {
-      "char": "s",
+      "char": "m",
+      "block": "cfm:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "n",
       "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=left]"
     },
     {
-      "char": "t",
+      "char": "o",
       "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=right]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:lilac[half=lower]"
+    },
+    {
+      "char": "q",
+      "block": "quark:iron_rod[facing=up]"
+    },
+    {
+      "char": "r",
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=right]"
+    },
+    {
+      "char": "s",
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=left]"
+    },
+    {
+      "char": "t",
+      "block": "simplylight:edge_light_top[waterlogged=false]"
     },
     {
       "char": "u",
@@ -124,38 +124,34 @@
     },
     {
       "char": "w",
-      "block": "minecraft:soul_lantern[waterlogged=false,hanging=true]"
+      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
       "char": "x",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=west]"
-    },
-    {
-      "char": "y",
       "block": "minecraft:stone_slab[waterlogged=false,type=bottom]"
     },
     {
+      "char": "y",
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
       "char": "A",
-      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=west]"
     },
     {
       "char": "B",
-      "block": "simplylight:edge_light_top[waterlogged=false]"
+      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
       "char": "C",
-      "block": "minecraft:chain[waterlogged=false,axis=y]"
-    },
-    {
-      "char": "D",
       "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
     }
   ]

@@ -48,7 +48,7 @@
     },
     {
       "char": "c",
-      "block": "minecraft:cave_air"
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
     },
     {
       "char": "d",
@@ -56,19 +56,35 @@
     },
     {
       "char": "e",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:cave_air"
     },
     {
       "char": "f",
-      "block": "minecraft:smooth_stone"
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
     },
     {
       "char": "g",
-      "block": "minecraft:smooth_quartz"
+      "block": "minecraft:smooth_stone"
     },
     {
       "char": "h",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "i",
       "block": "create:track[waterlogged=false,shape=xo]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:stone_brick_slab[waterlogged=false,type=top]"
     }
   ]
 }

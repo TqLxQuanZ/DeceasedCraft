@@ -56,70 +56,162 @@
     },
     {
       "char": "e",
-      "block": "create:track[waterlogged=false,shape=xo]"
+      "block": "create:track_station[waterlogged=false]"
     },
     {
       "char": "f",
-      "block": "minecraft:iron_bars[waterlogged=false]"
-    },
-    {
-      "char": "g",
-      "block": "minecraft:quartz_block"
-    },
-    {
-      "char": "h",
-      "block": "quark:oak_hedge[waterlogged=false]"
-    },
-    {
-      "char": "i",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=left]"
-    },
-    {
-      "char": "j",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=right]"
-    },
-    {
-      "char": "k",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=right]"
-    },
-    {
-      "char": "l",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=left]"
-    },
-    {
-      "char": "m",
-      "block": "simplylight:wall_lamp[waterlogged=false,facing=down]"
-    },
-    {
-      "char": "n",
-      "block": "minecraft:redstone_wall_torch[lit=true,facing=north]"
-    },
-    {
-      "char": "o",
-      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
-    },
-    {
-      "char": "p",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
-    },
-    {
-      "char": "q",
       "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
     },
     {
+      "char": "g",
+      "block": "create:track[waterlogged=false,shape=xo]"
+    },
+    {
+      "char": "h",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:moss_block"
+    },
+    {
+      "char": "k",
+      "block": "quark:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=left]"
+    },
+    {
+      "char": "m",
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=middle]"
+    },
+    {
+      "char": "n",
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=right]"
+    },
+    {
+      "char": "o",
+      "block": "create:railway_casing"
+    },
+    {
+      "char": "p",
+      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=bottom,shape=straight,facing=south]"
+    },
+    {
+      "char": "q",
+      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=bottom,shape=straight,facing=north]"
+    },
+    {
       "char": "r",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=right]"
     },
     {
       "char": "s",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=middle]"
     },
     {
       "char": "t",
-      "block": "minecraft:gray_stained_glass"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=left]"
     },
     {
       "char": "u",
+      "block": "minecraft:iron_bars[waterlogged=false]"
+    },
+    {
+      "char": "w",
+      "block": "create:brass_bars[waterlogged=false]"
+    },
+    {
+      "char": "x",
+      "block": "create:train_door[hinge=left,half=lower,facing=north,open=true]"
+    },
+    {
+      "char": "y",
+      "block": "create:brass_casing"
+    },
+    {
+      "char": "A",
+      "block": "create:white_seat[waterlogged=false]"
+    },
+    {
+      "char": "B",
+      "block": "create:controls[waterlogged=false,facing=east,open=false]"
+    },
+    {
+      "char": "C",
+      "block": "cfm:white_sofa[waterlogged=false,facing=east,type=single]"
+    },
+    {
+      "char": "D",
+      "block": "cfm:white_sofa[waterlogged=false,facing=west,type=single]"
+    },
+    {
+      "char": "E",
+      "block": "create:controls[waterlogged=false,facing=west,open=false]"
+    },
+    {
+      "char": "F",
+      "block": "create:train_door[hinge=left,half=lower,facing=south,open=false]"
+    },
+    {
+      "char": "I",
+      "block": "create:train_door[hinge=left,half=upper,facing=north,open=true]"
+    },
+    {
+      "char": "J",
+      "block": "create:train_door[hinge=left,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "K",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:barrel[facing=south,open=false]"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:barrel[facing=north,open=false]"
+    },
+    {
+      "char": "N",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "O",
+      "block": "create:mechanical_plough[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "P",
+      "block": "create:mechanical_plough[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+    },
+    {
+      "char": "T",
+      "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "U",
+      "block": "minecraft:gray_stained_glass"
+    },
+    {
+      "char": "V",
       "block": "minecraft:light_gray_stained_glass"
     }
   ]

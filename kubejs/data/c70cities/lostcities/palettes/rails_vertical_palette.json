@@ -44,26 +44,34 @@
     },
     {
       "char": "b",
-      "block": "quark:black_framed_glass"
+      "block": "minecraft:glowstone"
     },
     {
       "char": "c",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "quark:black_framed_glass"
     },
     {
       "char": "d",
-      "block": "create:track[waterlogged=false,shape=zo]"
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
     },
     {
       "char": "e",
-      "block": "minecraft:smooth_quartz"
+      "block": "create:track[waterlogged=false,shape=zo]"
     },
     {
       "char": "f",
-      "block": "minecraft:smooth_stone"
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=bottom]"
     },
     {
       "char": "g",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "i",
       "block": "minecraft:stone_brick_slab[waterlogged=false,type=top]"
     }
   ]

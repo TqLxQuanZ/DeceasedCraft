@@ -68,47 +68,47 @@
     },
     {
       "char": "h",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=north,type=left]"
+      "block": "minecraft:moss_block"
     },
     {
       "char": "i",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=north,type=middle]"
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=north,type=left]"
     },
     {
       "char": "j",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=north,type=right]"
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=north,type=middle]"
     },
     {
       "char": "k",
-      "block": "create:polished_cut_dripstone_wall[waterlogged=false,up=true]"
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=north,type=right]"
     },
     {
       "char": "l",
-      "block": "minecraft:cobweb"
-    },
-    {
-      "char": "m",
-      "block": "minecraft:iron_bars[waterlogged=false]"
-    },
-    {
-      "char": "n",
       "block": "cfm:oak_park_bench[waterlogged=false,facing=south,type=right]"
     },
     {
-      "char": "o",
+      "char": "m",
       "block": "cfm:oak_park_bench[waterlogged=false,facing=south,type=middle]"
     },
     {
-      "char": "p",
+      "char": "n",
       "block": "cfm:oak_park_bench[waterlogged=false,facing=south,type=left]"
     },
     {
+      "char": "o",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
       "char": "q",
-      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+      "block": "minecraft:quartz_block"
     },
     {
       "char": "r",
-      "block": "minecraft:smooth_quartz"
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
     },
     {
       "char": "s",

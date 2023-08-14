@@ -48,15 +48,15 @@
     },
     {
       "char": "c",
-      "block": "quark:black_framed_glass"
-    },
-    {
-      "char": "d",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "e",
+      "char": "d",
       "block": "create:track[waterlogged=false,shape=zo]"
+    },
+    {
+      "char": "e",
+      "block": "quark:black_framed_glass"
     },
     {
       "char": "f",
@@ -68,11 +68,11 @@
     },
     {
       "char": "h",
-      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_quartz"
     },
     {
       "char": "i",
-      "block": "minecraft:smooth_quartz"
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
     },
     {
       "char": "j",

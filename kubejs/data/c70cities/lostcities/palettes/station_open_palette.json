@@ -60,19 +60,19 @@
     },
     {
       "char": "f",
-      "block": "quark:oak_hedge[waterlogged=false]"
+      "block": "create:andesite_bars[waterlogged=false]"
     },
     {
       "char": "g",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=left]"
+      "block": "quark:oak_hedge[waterlogged=false]"
     },
     {
       "char": "h",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=right]"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=left]"
     },
     {
       "char": "i",
-      "block": "create:railway_casing"
+      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=right]"
     },
     {
       "char": "j",
@@ -81,50 +81,6 @@
     {
       "char": "k",
       "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=left]"
-    },
-    {
-      "char": "l",
-      "block": "minecraft:spruce_planks"
-    },
-    {
-      "char": "m",
-      "block": "minecraft:glass_pane[waterlogged=false]"
-    },
-    {
-      "char": "n",
-      "block": "create:controls[waterlogged=false,facing=east,open=false]"
-    },
-    {
-      "char": "o",
-      "block": "create:white_seat[waterlogged=false]"
-    },
-    {
-      "char": "p",
-      "block": "create:controls[waterlogged=false,facing=west,open=false]"
-    },
-    {
-      "char": "q",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
-    },
-    {
-      "char": "r",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
-    },
-    {
-      "char": "s",
-      "block": "create:mechanical_plough[waterlogged=false,facing=north]"
-    },
-    {
-      "char": "t",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=double]"
-    },
-    {
-      "char": "u",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
-    },
-    {
-      "char": "w",
-      "block": "create:mechanical_plough[waterlogged=false,facing=south]"
     }
   ]
 }
