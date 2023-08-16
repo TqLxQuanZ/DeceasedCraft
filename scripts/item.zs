@@ -77,7 +77,7 @@ craftingTable.addShaped("fridge_dark", <item:cfm:fridge_dark>,
                                                       .transitionTo(<item:create:wheat_flour>)
                                                       .require(<tag:items:forge:material/cereal>)
                                                       .loops(1)
-                                                      .addOutput(<item:arsenals_of_the_apocalypse:cereal>, 1)
+                                                      .addOutput(<item:apocalypsenow:cereal>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:material/cereal>))
                                                       .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:create:honey> * 25))
@@ -85,15 +85,15 @@ craftingTable.addShaped("fridge_dark", <item:cfm:fridge_dark>,
 													  );
 
 // Can
-<recipetype:create:pressing>.addRecipe("can_press", [<item:arsenals_of_the_apocalypse:can>], <tag:items:forge:plates/aluminum>, 256);
-craftingTable.addShapeless("unpack_gunpowder_can", <item:minecraft:gunpowder> * 4, [<item:arsenals_of_the_apocalypse:gunpowder_can>]);
+<recipetype:create:pressing>.addRecipe("can_press", [<item:apocalypsenow:can>], <tag:items:forge:plates/aluminum>, 256);
+craftingTable.addShapeless("unpack_gunpowder_can", <item:minecraft:gunpowder> * 4, [<item:apocalypsenow:gunpowder_can>]);
 
 // Canned Beetroot
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("canned_beetroot")
-                                                      .transitionTo(<item:arsenals_of_the_apocalypse:can>)
-                                                      .require(<item:arsenals_of_the_apocalypse:can>)
+                                                      .transitionTo(<item:apocalypsenow:can>)
+                                                      .require(<item:apocalypsenow:can>)
                                                       .loops(1)
-                                                      .addOutput(<item:arsenals_of_the_apocalypse:canned_beet_root>, 1)
+                                                      .addOutput(<item:apocalypsenow:canned_beet_root>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:crops/beetroot>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:crops/beetroot>))
                                                       .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
@@ -101,10 +101,10 @@ craftingTable.addShapeless("unpack_gunpowder_can", <item:minecraft:gunpowder> * 
                                                       
 // Canned Carrot
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("canned_carrot")
-                                                      .transitionTo(<item:arsenals_of_the_apocalypse:can>)
-                                                      .require(<item:arsenals_of_the_apocalypse:can>)
+                                                      .transitionTo(<item:apocalypsenow:can>)
+                                                      .require(<item:apocalypsenow:can>)
                                                       .loops(1)
-                                                      .addOutput(<item:arsenals_of_the_apocalypse:canned_carrot>, 1)
+                                                      .addOutput(<item:apocalypsenow:canned_carrot>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:crops/carrot>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:crops/carrot>))
                                                       .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
@@ -112,20 +112,20 @@ craftingTable.addShapeless("unpack_gunpowder_can", <item:minecraft:gunpowder> * 
 
 // Canned Fish
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("canned_fish")
-                                                      .transitionTo(<item:arsenals_of_the_apocalypse:can>)
-                                                      .require(<item:arsenals_of_the_apocalypse:can>)
+                                                      .transitionTo(<item:apocalypsenow:can>)
+                                                      .require(<item:apocalypsenow:can>)
                                                       .loops(1)
-                                                      .addOutput(<item:arsenals_of_the_apocalypse:canned_fish>, 1)
+                                                      .addOutput(<item:apocalypsenow:canned_fish>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:minecraft:fishes>))
                                                       .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
 													  );
                                                       
 // Canned Melon
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("canned_melon")
-                                                      .transitionTo(<item:arsenals_of_the_apocalypse:can>)
-                                                      .require(<item:arsenals_of_the_apocalypse:can>)
+                                                      .transitionTo(<item:apocalypsenow:can>)
+                                                      .require(<item:apocalypsenow:can>)
                                                       .loops(1)
-                                                      .addOutput(<item:arsenals_of_the_apocalypse:canned_melon>, 1)
+                                                      .addOutput(<item:apocalypsenow:canned_melon>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:melon_slice>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:melon_slice>))
                                                       .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
@@ -133,10 +133,10 @@ craftingTable.addShapeless("unpack_gunpowder_can", <item:minecraft:gunpowder> * 
 
 // Canned Tomato
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("canned_tomato")
-                                                      .transitionTo(<item:arsenals_of_the_apocalypse:can>)
-                                                      .require(<item:arsenals_of_the_apocalypse:can>)
+                                                      .transitionTo(<item:apocalypsenow:can>)
+                                                      .require(<item:apocalypsenow:can>)
                                                       .loops(1)
-                                                      .addOutput(<item:arsenals_of_the_apocalypse:canned_tomatos>, 1)
+                                                      .addOutput(<item:apocalypsenow:canned_tomatos>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:crops/tomato>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:crops/tomato>))
                                                       .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
@@ -144,190 +144,190 @@ craftingTable.addShapeless("unpack_gunpowder_can", <item:minecraft:gunpowder> * 
 
 // Canned Pork
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("canned_pork")
-                                                      .transitionTo(<item:arsenals_of_the_apocalypse:can>)
-                                                      .require(<item:arsenals_of_the_apocalypse:can>)
+                                                      .transitionTo(<item:apocalypsenow:can>)
+                                                      .require(<item:apocalypsenow:can>)
                                                       .loops(1)
-                                                      .addOutput(<item:arsenals_of_the_apocalypse:canned_pork>, 1)
+                                                      .addOutput(<item:apocalypsenow:canned_pork>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:raw_pork>))
                                                       .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
 													  );
 
 // Canned Rabbit
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("canned_rabbit_soup")
-                                                      .transitionTo(<item:arsenals_of_the_apocalypse:can>)
-                                                      .require(<item:arsenals_of_the_apocalypse:can>)
+                                                      .transitionTo(<item:apocalypsenow:can>)
+                                                      .require(<item:apocalypsenow:can>)
                                                       .loops(1)
-                                                      .addOutput(<item:arsenals_of_the_apocalypse:canned_rabit_soup>, 1)
+                                                      .addOutput(<item:apocalypsenow:canned_rabit_soup>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:rabbit>))
                                                       .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
 													  );
 
 // Concrete Barrier
-craftingTable.remove(<item:arsenals_of_the_apocalypse:concrete_barrier>);
-craftingTable.addShapedMirrored("concrete_barrier", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:concrete_barrier> * 3,
+craftingTable.remove(<item:apocalypsenow:concret_barrier>);
+craftingTable.addShapedMirrored("concret_barrier", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:concret_barrier> * 3,
     [[<item:immersiveengineering:concrete>, <item:immersiveengineering:concrete>, <item:immersiveengineering:concrete>],
     [<item:immersiveengineering:concrete>, <item:immersiveengineering:concrete>, <item:immersiveengineering:concrete>]]);
 
-craftingTable.addShapedMirrored("concrete_bricks", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:concrete_bricks> * 4,
+craftingTable.addShapedMirrored("concrete_bricks", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:concrete_bricks> * 4,
     [[<item:immersiveengineering:concrete_tile>, <item:immersiveengineering:concrete_tile>],
     [<item:immersiveengineering:concrete_tile>, <item:immersiveengineering:concrete_tile>]]);
 
-craftingTable.addShapedMirrored("concrete_lined_barrier", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:lined_concrete_barrier> * 3,
+craftingTable.addShapedMirrored("concrete_lined_barrier", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:lined_concrete_barrier> * 3,
     [[<item:immersiveengineering:concrete>, <tag:items:forge:dyes/yellow>, <item:immersiveengineering:concrete>],
     [<item:immersiveengineering:concrete>, <item:immersiveengineering:concrete>, <item:immersiveengineering:concrete>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:cardboard_box>);
-craftingTable.addShaped("cardboard_box", <item:arsenals_of_the_apocalypse:cardboard_box>,
+craftingTable.remove(<item:apocalypsenow:cardboard_box>);
+craftingTable.addShaped("cardboard_box", <item:apocalypsenow:cardboard_box>,
     [[<item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>],
     [<item:minecraft:paper>, <item:minecraft:slime_ball>, <item:minecraft:paper>],
 	[<item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:nailbox>);
-craftingTable.addShapedMirrored("nail_box", <constant:minecraft:mirroraxis:vertical>, <item:arsenals_of_the_apocalypse:nailbox>,
+craftingTable.remove(<item:apocalypsenow:nailbox>);
+craftingTable.addShapedMirrored("nail_box", <constant:minecraft:mirroraxis:vertical>, <item:apocalypsenow:nailbox>,
     [[<tag:items:forge:nuggets/steel>],
     [<tag:items:forge:nuggets/steel>],
     [<tag:items:forge:nuggets/steel>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:iron_window>);
-craftingTable.addShapedMirrored("iron_window", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:iron_window> * 4,
+craftingTable.remove(<item:apocalypsenow:iron_window>);
+craftingTable.addShapedMirrored("iron_window", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:iron_window> * 4,
     [[<tag:items:forge:ingots/iron>, <tag:items:forge:glass_panes>, <tag:items:forge:ingots/iron>],
     [<tag:items:forge:glass_panes>, <tag:items:forge:glass_panes>, <tag:items:forge:glass_panes>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:barbed_wire>);
-craftingTable.addShaped("barbed_wire", <item:arsenals_of_the_apocalypse:barbed_wire> * 3,
+craftingTable.remove(<item:apocalypsenow:barbed_wire>);
+craftingTable.addShaped("barbed_wire", <item:apocalypsenow:barbed_wire> * 3,
     [[<item:minecraft:air>, <tag:items:forge:wires/steel>, <item:minecraft:air>],
     [<tag:items:forge:wires/steel>, <item:minecraft:air>, <tag:items:forge:wires/steel>],
 	[<item:minecraft:air>, <tag:items:forge:wires/steel>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:spikeswall>);
-craftingTable.addShaped("spikes_trap", <item:arsenals_of_the_apocalypse:spikeswall>,
+craftingTable.remove(<item:apocalypsenow:spikeswall>);
+craftingTable.addShaped("spikes_trap", <item:apocalypsenow:spikeswall>,
     [[<tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>],
     [<tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>],
-	[<item:arsenals_of_the_apocalypse:log_with_stone>, <item:arsenals_of_the_apocalypse:log_with_stone>, <item:arsenals_of_the_apocalypse:log_with_stone>]]);
+	[<item:apocalypsenow:log_with_stone>, <item:apocalypsenow:log_with_stone>, <item:apocalypsenow:log_with_stone>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:spike_barrier>);
-craftingTable.addShaped("spike_barrier", <item:arsenals_of_the_apocalypse:spike_barrier>,
-    [[<tag:items:forge:rods/wooden>, <item:arsenals_of_the_apocalypse:log_with_stone>, <tag:items:forge:rods/wooden>],
-    [<tag:items:forge:rods/wooden>, <item:arsenals_of_the_apocalypse:log_with_stone>, <tag:items:forge:rods/wooden>],
-	[<tag:items:forge:rods/wooden>, <item:arsenals_of_the_apocalypse:log_with_stone>, <tag:items:forge:rods/wooden>]]);
+craftingTable.remove(<item:apocalypsenow:spike_barrier>);
+craftingTable.addShaped("spike_barrier", <item:apocalypsenow:spike_barrier>,
+    [[<tag:items:forge:rods/wooden>, <item:apocalypsenow:log_with_stone>, <tag:items:forge:rods/wooden>],
+    [<tag:items:forge:rods/wooden>, <item:apocalypsenow:log_with_stone>, <tag:items:forge:rods/wooden>],
+	[<tag:items:forge:rods/wooden>, <item:apocalypsenow:log_with_stone>, <tag:items:forge:rods/wooden>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:nail_bomb>);
-craftingTable.addShaped("nail_bomb", <item:arsenals_of_the_apocalypse:nail_bomb>,
+craftingTable.remove(<item:apocalypsenow:nail_bomb>);
+craftingTable.addShaped("nail_bomb", <item:apocalypsenow:nail_bomb>,
     [[<item:minecraft:air>, <item:minecraft:stone_pressure_plate>, <item:minecraft:air>],
-    [<tag:items:forge:plates/iron>, <item:arsenals_of_the_apocalypse:nailbox>, <tag:items:forge:plates/iron>],
-	[<item:minecraft:air>, <item:arsenals_of_the_apocalypse:gunpowder_can>, <item:minecraft:air>]]);
+    [<tag:items:forge:plates/iron>, <item:apocalypsenow:nailbox>, <tag:items:forge:plates/iron>],
+	[<item:minecraft:air>, <item:apocalypsenow:gunpowder_can>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:improvisedbomb>);
-craftingTable.addShapedMirrored("improvised_bomb", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:improvisedbomb>,
+craftingTable.remove(<item:apocalypsenow:improvisedbomb>);
+craftingTable.addShapedMirrored("improvised_bomb", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:improvisedbomb>,
     [[<item:minecraft:air>, <item:minecraft:stone_pressure_plate>, <item:minecraft:air>],
-    [<tag:items:forge:plates/iron>, <item:arsenals_of_the_apocalypse:gunpowder_can>, <tag:items:forge:plates/iron>]]);
+    [<tag:items:forge:plates/iron>, <item:apocalypsenow:gunpowder_can>, <tag:items:forge:plates/iron>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:gunpowder_can>);
-craftingTable.addShapedMirrored("gunpowder_can", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:gunpowder_can>,
+craftingTable.remove(<item:apocalypsenow:gunpowder_can>);
+craftingTable.addShapedMirrored("gunpowder_can", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:gunpowder_can>,
     [[<item:minecraft:air>, <tag:items:forge:gunpowder>, <item:minecraft:air>],
-    [<tag:items:forge:gunpowder>, <item:arsenals_of_the_apocalypse:can>, <tag:items:forge:gunpowder>],
+    [<tag:items:forge:gunpowder>, <item:apocalypsenow:can>, <tag:items:forge:gunpowder>],
     [<item:minecraft:air>, <tag:items:forge:gunpowder>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:pipe_bomb>);
-craftingTable.addShapedMirrored("pipe_bomb", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:pipe_bomb>,
-    [[<item:arsenals_of_the_apocalypse:gunpowder_can>, <item:arsenals_of_the_apocalypse:pipe>, <item:arsenals_of_the_apocalypse:gunpowder_can>]]);
+craftingTable.remove(<item:apocalypsenow:pipe_bomb>);
+craftingTable.addShapedMirrored("pipe_bomb", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:pipe_bomb>,
+    [[<item:apocalypsenow:gunpowder_can>, <item:apocalypsenow:pipe>, <item:apocalypsenow:gunpowder_can>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:can_opener>);
-craftingTable.addShapedMirrored("can_opener", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:can_opener>,
+craftingTable.remove(<item:apocalypsenow:can_opener>);
+craftingTable.addShapedMirrored("can_opener", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:can_opener>,
     [[<tag:items:forge:nuggets/iron>, <tag:items:forge:ingots/iron>],
     [<item:minecraft:air>, <tag:items:forge:nuggets/iron>]]);
 
 // Chips
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("chips")
-                                                      .transitionTo(<item:arsenals_of_the_apocalypse:can>)
+                                                      .transitionTo(<item:apocalypsenow:can>)
                                                       .require(<tag:items:forge:crops/potato>)
                                                       .loops(1)
-                                                      .addOutput(<item:arsenals_of_the_apocalypse:chips>, 1)
+                                                      .addOutput(<item:apocalypsenow:chips>, 1)
                                                       .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
                                                       .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<tag:fluids:forge:seedoil> * 25))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/plastic>))
 													  );
                               
-craftingTable.remove(<item:arsenals_of_the_apocalypse:log_with_stone>);
-craftingTable.addShaped("reinforced_log", <item:arsenals_of_the_apocalypse:log_with_stone>,
+craftingTable.remove(<item:apocalypsenow:log_with_stone>);
+craftingTable.addShaped("reinforced_log", <item:apocalypsenow:log_with_stone>,
     [[<item:minecraft:air>, <item:minecraft:stone>, <item:minecraft:air>],
     [<item:minecraft:stone>, <tag:items:minecraft:logs>, <item:minecraft:stone>],
 	[<item:minecraft:air>, <item:minecraft:stone>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:land_mine>);
-craftingTable.addShaped("land_mine", <item:arsenals_of_the_apocalypse:land_mine>,
+craftingTable.remove(<item:apocalypsenow:land_mine>);
+craftingTable.addShaped("land_mine", <item:apocalypsenow:land_mine>,
     [[<item:minecraft:air>, <item:minecraft:heavy_weighted_pressure_plate>, <item:minecraft:air>],
-    [<tag:items:forge:plates/steel>, <item:arsenals_of_the_apocalypse:gunpowder_can>, <tag:items:forge:plates/steel>],
+    [<tag:items:forge:plates/steel>, <item:apocalypsenow:gunpowder_can>, <tag:items:forge:plates/steel>],
 	[<item:minecraft:air>, <tag:items:forge:plates/steel>, <item:minecraft:air>]]);
         
-craftingTable.remove(<item:arsenals_of_the_apocalypse:tripwire_bomb>);
-craftingTable.addShaped("tripwire_bomb", <item:arsenals_of_the_apocalypse:tripwire_bomb>,
+craftingTable.remove(<item:apocalypsenow:tripwire_bomb>);
+craftingTable.addShaped("tripwire_bomb", <item:apocalypsenow:tripwire_bomb>,
     [[<tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>],
     [<tag:items:forge:dusts/redstone>, <item:minecraft:tnt>, <tag:items:forge:dusts/redstone>],
 	[<tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:planks_a>);
-craftingTable.addShaped("planks_a", <item:arsenals_of_the_apocalypse:planks_a>,
+craftingTable.remove(<item:apocalypsenow:planks_a>);
+craftingTable.addShaped("planks_a", <item:apocalypsenow:planks_a>,
     [[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:arsenals_of_the_apocalypse:nailbox>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:apocalypsenow:nailbox>, <item:minecraft:air>],
 	[<item:minecraft:air>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:planks_a>);
-craftingTable.addShaped("planks_a", <item:arsenals_of_the_apocalypse:planks_a>,
+craftingTable.remove(<item:apocalypsenow:planks_a>);
+craftingTable.addShaped("planks_a", <item:apocalypsenow:planks_a>,
     [[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:arsenals_of_the_apocalypse:nailbox>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:apocalypsenow:nailbox>, <item:minecraft:air>],
 	[<item:minecraft:air>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:planksc>);
-craftingTable.addShaped("planks_b", <item:arsenals_of_the_apocalypse:planksc>,
+craftingTable.remove(<item:apocalypsenow:planksc>);
+craftingTable.addShaped("planks_b", <item:apocalypsenow:planksc>,
     [[<tag:items:minecraft:planks>, <item:minecraft:air>, <item:minecraft:air>],
-    [<tag:items:minecraft:planks>, <item:arsenals_of_the_apocalypse:nailbox>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:apocalypsenow:nailbox>, <tag:items:minecraft:planks>],
 	[<item:minecraft:air>, <item:minecraft:air>, <tag:items:minecraft:planks>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:planksb>);
-craftingTable.addShaped("planksb", <item:arsenals_of_the_apocalypse:planksb>,
+craftingTable.remove(<item:apocalypsenow:planksb>);
+craftingTable.addShaped("planksb", <item:apocalypsenow:planksb>,
     [[<item:minecraft:air>, <tag:items:minecraft:planks>, <item:minecraft:air>],
-    [<tag:items:minecraft:planks>, <item:arsenals_of_the_apocalypse:nailbox>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:apocalypsenow:nailbox>, <tag:items:minecraft:planks>],
 	[<item:minecraft:air>, <tag:items:minecraft:planks>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:metal_bars>);
-craftingTable.addShaped("metal_bars", <item:arsenals_of_the_apocalypse:metal_bars>,
+craftingTable.remove(<item:apocalypsenow:metal_bars>);
+craftingTable.addShaped("metal_bars", <item:apocalypsenow:metal_bars>,
     [[<tag:items:forge:rods/steel>, <tag:items:forge:rods/steel>, <tag:items:forge:rods/steel>]]);
 
 <tag:items:forge:modern_materials>.add(<tag:items:forge:ingots/aluminum>);
 <tag:items:forge:modern_materials>.add(<tag:items:forge:ingots/steel>);
 <tag:items:forge:modern_materials>.add(<tag:items:forge:plates/plastic>);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:traffic_barricade>);
-craftingTable.addShaped("traffic_barricade", <item:arsenals_of_the_apocalypse:traffic_barricade> * 3,
+craftingTable.remove(<item:apocalypsenow:traffic_barricade>);
+craftingTable.addShaped("traffic_barricade", <item:apocalypsenow:traffic_barricade> * 3,
     [[<tag:items:forge:modern_materials>, <tag:items:forge:modern_materials>, <tag:items:forge:modern_materials>],
     [<tag:items:forge:modern_materials>, <tag:items:forge:dyes/red>, <tag:items:forge:modern_materials>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:construction_barricade>);
-craftingTable.addShaped("construction_barricade", <item:arsenals_of_the_apocalypse:construction_barricade> * 3,
+craftingTable.remove(<item:apocalypsenow:construction_barricade>);
+craftingTable.addShaped("construction_barricade", <item:apocalypsenow:construction_barricade> * 3,
     [[<tag:items:forge:modern_materials>, <tag:items:forge:modern_materials>, <tag:items:forge:modern_materials>],
     [<tag:items:forge:modern_materials>, <tag:items:forge:dyes/yellow>, <tag:items:forge:modern_materials>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:medical_storage>);
-craftingTable.addShaped("medical_storage", <item:arsenals_of_the_apocalypse:medical_storage>,
+craftingTable.remove(<item:apocalypsenow:medical_storage>);
+craftingTable.addShaped("medical_storage", <item:apocalypsenow:medical_storage>,
     [[<item:minecraft:air>, <tag:items:forge:modern_materials>, <item:minecraft:air>],
     [<tag:items:forge:modern_materials>, <tag:items:forge:dyes/red>, <tag:items:forge:modern_materials>],
     [<item:minecraft:air>, <tag:items:forge:modern_materials>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:safe>);
-craftingTable.addShaped("safe", <item:arsenals_of_the_apocalypse:safe>,
+craftingTable.remove(<item:apocalypsenow:safe>);
+craftingTable.addShaped("safe", <item:apocalypsenow:safe>,
     [[<tag:items:forge:chests>, <item:create:cogwheel>],
     [<tag:items:forge:storage_blocks/iron>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:sedexbox>);
-craftingTable.addShaped("sedexbox", <item:arsenals_of_the_apocalypse:sedexbox>,
+craftingTable.remove(<item:apocalypsenow:sedexbox>);
+craftingTable.addShaped("sedexbox", <item:apocalypsenow:sedexbox>,
     [[<item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>],
     [<tag:items:forge:dyes/white>, <item:minecraft:slime_ball>, <item:minecraft:paper>],
 	[<item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:bomb_defusing_kit>);
-craftingTable.addShapeless("bomb_defusing_kit", <item:arsenals_of_the_apocalypse:bomb_defusing_kit>,
+craftingTable.remove(<item:apocalypsenow:bomb_defusing_kit>);
+craftingTable.addShapeless("bomb_defusing_kit", <item:apocalypsenow:bomb_defusing_kit>,
     [<item:immersiveengineering:screwdriver>, <item:immersiveengineering:wirecutter>]);
 
 // Everlasting Torch

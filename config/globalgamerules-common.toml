@@ -90,6 +90,43 @@
 	#No comment
 	#Range: > 0
 	zomobs_turn_chance = 0
+	#No comment
+	assimilated_roamer_develops = true
+	#No comment
+	do_walkers_effect = false
+	#No comment
+	do_walkers_spawn = false
+	#No comment
+	doblockseffect = false
+	#No comment
+	dohordesspawn = false
+	#No comment
+	doplayerbreaklegs = false
+	#No comment
+	dostructuresspawn = false
+	#No comment
+	dozombiesgetarmor = false
+	#No comment
+	enderman_teleport_to_you_with_entities = false
+	#No comment
+	enderman_teleports_over_you = false
+	#No comment
+	flamethrower_natural_spawn = false
+	#No comment
+	helicopter_natural_spawn = false
+	#No comment
+	human_stages_evolution = true
+	#No comment
+	miter_evolves_into_necroptor = true
+	#No comment
+	mobs_spawning_naturally = false
+	#No comment
+	necropter_evolves = true
+	#No comment
+	#Range: > 0
+	setspawningstage = 0
+	#No comment
+	sunray = true
 
 #Configs related to difficult changes
 [difficulty]
@@ -104,7 +141,7 @@
 	hardcore = false
 	#If a world's difficulty should be locked when loaded, if world already is locked it can't be changed
 	#If the global world difficulty is enabled it's set first
-	lock_difficulty = false
+	lock_difficulty = true
 
 #A collection of misc configs
 [misc]

@@ -115,17 +115,17 @@ villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 3, 6, <item:addition
 // Tier 4
 villagerTrades.removeTradesSelling(<profession:minecraft:weaponsmith>, 4, <item:minecraft:diamond_axe>);
 villagerTrades.removeTrade(<profession:minecraft:weaponsmith>, 4, <item:minecraft:diamond>, <item:minecraft:emerald>, <item:minecraft:air>);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 4, 21, <item:arsenals_of_the_apocalypse:crowbar>, 3, 20, 0.2);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 4, 26, <item:arsenals_of_the_apocalypse:machete>, 3, 20, 0.2);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 4, 24, <item:arsenals_of_the_apocalypse:fire_axe>, 3, 20, 0.2);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 4, 20, <item:arsenals_of_the_apocalypse:spiked_iron_baseball_bat>, 3, 20, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 4, 21, <item:apocalypsenow:crowbar>, 3, 20, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 4, 26, <item:apocalypsenow:machete>, 3, 20, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 4, 24, <item:apocalypsenow:fire_axe>, 3, 20, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 4, 20, <item:apocalypsenow:spiked_iron_baseball_bat>, 3, 20, 0.2);
 
 // Tier 5
 villagerTrades.removeTradesSelling(<profession:minecraft:weaponsmith>, 5, <item:minecraft:diamond_sword>);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 34, <item:arsenals_of_the_apocalypse:military_knife>, 3, 20, 0.2);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 60, <item:arsenals_of_the_apocalypse:tatical_mace>, 3, 20, 0.2);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 3, <item:arsenals_of_the_apocalypse:shuriken>, 64, 5, 0.2);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 15, <item:arsenals_of_the_apocalypse:combat_knife>, 3, 20, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 34, <item:apocalypsenow:military_knife>, 3, 20, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 60, <item:apocalypsenow:tatical_mace>, 3, 20, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 3, <item:apocalypsenow:shuriken>, 64, 5, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 15, <item:apocalypsenow:combat_knife>, 3, 20, 0.2);
 villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 64, <item:additionalguns:m1911>, 2, 40, 0.2);
 
 // Wandering Trader

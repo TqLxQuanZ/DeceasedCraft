@@ -1,24 +1,24 @@
 import mods.jei.JEI;
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:rusty_helmet>);
-craftingTable.remove(<item:arsenals_of_the_apocalypse:rusty_chestplate>);
-craftingTable.remove(<item:arsenals_of_the_apocalypse:rusty_leggings>);
-craftingTable.remove(<item:arsenals_of_the_apocalypse:rusty_boots>);
+craftingTable.remove(<item:apocalypsenow:rusty_helmet>);
+craftingTable.remove(<item:apocalypsenow:rusty_chestplate>);
+craftingTable.remove(<item:apocalypsenow:rusty_leggings>);
+craftingTable.remove(<item:apocalypsenow:rusty_boots>);
 
-JEI.hideIngredient(<item:arsenals_of_the_apocalypse:rusty_helmet>);
-JEI.hideIngredient(<item:arsenals_of_the_apocalypse:rusty_chestplate>);
-JEI.hideIngredient(<item:arsenals_of_the_apocalypse:rusty_leggings>);
-JEI.hideIngredient(<item:arsenals_of_the_apocalypse:rusty_boots>);
+JEI.hideIngredient(<item:apocalypsenow:rusty_helmet>);
+JEI.hideIngredient(<item:apocalypsenow:rusty_chestplate>);
+JEI.hideIngredient(<item:apocalypsenow:rusty_leggings>);
+JEI.hideIngredient(<item:apocalypsenow:rusty_boots>);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:divingsuit_helmet>);
-craftingTable.remove(<item:arsenals_of_the_apocalypse:divingsuit_chestplate>);
-craftingTable.remove(<item:arsenals_of_the_apocalypse:divingsuit_leggings>);
-craftingTable.remove(<item:arsenals_of_the_apocalypse:divingsuit_boots>);
+craftingTable.remove(<item:apocalypsenow:divingsuit_helmet>);
+craftingTable.remove(<item:apocalypsenow:divingsuit_chestplate>);
+craftingTable.remove(<item:apocalypsenow:divingsuit_leggings>);
+craftingTable.remove(<item:apocalypsenow:divingsuit_boots>);
 
-JEI.hideIngredient(<item:arsenals_of_the_apocalypse:divingsuit_helmet>);
-JEI.hideIngredient(<item:arsenals_of_the_apocalypse:divingsuit_chestplate>);
-JEI.hideIngredient(<item:arsenals_of_the_apocalypse:divingsuit_leggings>);
-JEI.hideIngredient(<item:arsenals_of_the_apocalypse:divingsuit_boots>);
+JEI.hideIngredient(<item:apocalypsenow:divingsuit_helmet>);
+JEI.hideIngredient(<item:apocalypsenow:divingsuit_chestplate>);
+JEI.hideIngredient(<item:apocalypsenow:divingsuit_leggings>);
+JEI.hideIngredient(<item:apocalypsenow:divingsuit_boots>);
 
 craftingTable.remove(<item:create_sa:brass_helmet>);
 craftingTable.remove(<item:create_sa:brass_chestplate>);

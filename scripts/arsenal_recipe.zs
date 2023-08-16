@@ -1,501 +1,496 @@
 import crafttweaker.api.recipe.Replacer;
 // Bats
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:baseball_bat>);
-craftingTable.addShapedMirrored("baseball_bat", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:baseball_bat>,
+craftingTable.remove(<item:apocalypsenow:baseball_bat>);
+craftingTable.addShapedMirrored("baseball_bat", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:baseball_bat>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:minecraft:planks>],
     [<item:minecraft:air>, <tag:items:minecraft:planks>, <item:minecraft:air>],
 	[<tag:items:minecraft:planks>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:wrapped_baseball_bat>);
-craftingTable.addShapeless("wrapped_baseball_bat", <item:arsenals_of_the_apocalypse:wrapped_baseball_bat>,
-    [<item:arsenals_of_the_apocalypse:baseball_bat>, <tag:items:forge:plates/iron>]);
+craftingTable.remove(<item:apocalypsenow:wrapped_baseball_bat>);
+craftingTable.addShapeless("wrapped_baseball_bat", <item:apocalypsenow:wrapped_baseball_bat>,
+    [<item:apocalypsenow:baseball_bat>, <tag:items:forge:plates/iron>]);
 	
-craftingTable.remove(<item:arsenals_of_the_apocalypse:saw_baseball_bat>);
-craftingTable.addShapeless("saw_baseball_bat", <item:arsenals_of_the_apocalypse:saw_baseball_bat>,
-    [<item:arsenals_of_the_apocalypse:baseball_bat>, <item:immersiveengineering:sawblade>]);
+craftingTable.remove(<item:apocalypsenow:saw_baseball_bat>);
+craftingTable.addShapeless("saw_baseball_bat", <item:apocalypsenow:saw_baseball_bat>,
+    [<item:apocalypsenow:baseball_bat>, <item:immersiveengineering:sawblade>]);
 	
-craftingTable.remove(<item:arsenals_of_the_apocalypse:electrical_baseball_bat>);
-craftingTable.addShapeless("electrical_baseball_bat", <item:arsenals_of_the_apocalypse:electrical_baseball_bat>,
-    [<item:arsenals_of_the_apocalypse:baseball_bat>, <item:immersiveengineering:component_electronic>, <tag:items:forge:wires/copper>, <item:car:battery>]);
+craftingTable.remove(<item:apocalypsenow:electrical_baseball_bat>);
+craftingTable.addShapeless("electrical_baseball_bat", <item:apocalypsenow:electrical_baseball_bat>,
+    [<item:apocalypsenow:baseball_bat>, <item:immersiveengineering:component_electronic>, <tag:items:forge:wires/copper>, <item:car:battery>]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:iron_baseball_bat>);
-craftingTable.addShapedMirrored("iron_baseball_bat", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:iron_baseball_bat>,
+craftingTable.remove(<item:apocalypsenow:iron_baseball_bat>);
+craftingTable.addShapedMirrored("iron_baseball_bat", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:iron_baseball_bat>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:ingots/iron>],
     [<item:minecraft:air>, <tag:items:forge:ingots/iron>, <item:minecraft:air>],
 	[<tag:items:forge:rods/iron>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:spiked_iron_baseball_bat>);
-craftingTable.addShapeless("spiked_iron_baseball_bat", <item:arsenals_of_the_apocalypse:spiked_iron_baseball_bat>,
-    [<item:arsenals_of_the_apocalypse:iron_baseball_bat>, <item:arsenals_of_the_apocalypse:nailbox>]);
+craftingTable.remove(<item:apocalypsenow:spiked_iron_baseball_bat>);
+craftingTable.addShapeless("spiked_iron_baseball_bat", <item:apocalypsenow:spiked_iron_baseball_bat>,
+    [<item:apocalypsenow:iron_baseball_bat>, <item:apocalypsenow:nailbox>]);
 	
 
 // Clubs
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:club>);
-craftingTable.addShapedMirrored("club", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:club>,
-    [[<item:minecraft:air>, <item:minecraft:air>, <item:arsenals_of_the_apocalypse:log_with_stone>],
-    [<item:minecraft:air>, <item:arsenals_of_the_apocalypse:log_with_stone>, <item:minecraft:air>],
+craftingTable.remove(<item:apocalypsenow:club>);
+craftingTable.addShapedMirrored("club", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:club>,
+    [[<item:minecraft:air>, <item:minecraft:air>, <item:apocalypsenow:log_with_stone>],
+    [<item:minecraft:air>, <item:apocalypsenow:log_with_stone>, <item:minecraft:air>],
 	[<tag:items:minecraft:planks>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:electric_club>);
-craftingTable.addShapeless("electric_club", <item:arsenals_of_the_apocalypse:electric_club>,
-    [<item:arsenals_of_the_apocalypse:club>, <item:immersiveengineering:component_electronic>, <tag:items:forge:wires/copper>, <item:car:battery>]);
+craftingTable.remove(<item:apocalypsenow:electric_club>);
+craftingTable.addShapeless("electric_club", <item:apocalypsenow:electric_club>,
+    [<item:apocalypsenow:club>, <item:immersiveengineering:component_electronic>, <tag:items:forge:wires/copper>, <item:car:battery>]);
 	
 // Hammer
-craftingTable.remove(<item:arsenals_of_the_apocalypse:sledge_hammer>);
-craftingTable.addShapedMirrored("sledge_hammer", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:sledge_hammer>,
+craftingTable.remove(<item:apocalypsenow:sledge_hammer>);
+craftingTable.addShapedMirrored("sledge_hammer", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:sledge_hammer>,
     [[<item:minecraft:air>, <tag:items:forge:storage_blocks/iron>, <item:minecraft:air>],
     [<item:minecraft:air>, <tag:items:minecraft:planks>, <item:minecraft:air>],
 	[<item:minecraft:air>, <tag:items:minecraft:planks>, <item:minecraft:air>]]);
 
 
 // Axes
-craftingTable.remove(<item:arsenals_of_the_apocalypse:fire_axe>);
-craftingTable.addShapedMirrored("fire_axe", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:fire_axe>,
+craftingTable.remove(<item:apocalypsenow:fire_axe>);
+craftingTable.addShapedMirrored("fire_axe", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:fire_axe>,
     [[<item:minecraft:air>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>],
     [<item:minecraft:air>, <tag:items:forge:rods/steel>, <tag:items:forge:ingots/steel>],
 	[<tag:items:forge:rods/steel>, <tag:items:forge:dyes/black>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:emergency_axe>);
-craftingTable.addShapedMirrored("emergency_axe", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:emergency_axe>,
+craftingTable.remove(<item:apocalypsenow:emergency_axe>);
+craftingTable.addShapedMirrored("emergency_axe", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:emergency_axe>,
     [[<item:minecraft:air>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>],
     [<item:minecraft:air>, <tag:items:forge:rods/steel>, <tag:items:forge:ingots/steel>],
 	[<tag:items:forge:rods/steel>, <tag:items:forge:dyes/gray>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:wooden_fire_axe>);
-craftingTable.addShapedMirrored("wooden_fire_axe", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:wooden_fire_axe>,
+craftingTable.remove(<item:apocalypsenow:wooden_fire_axe>);
+craftingTable.addShapedMirrored("wooden_fire_axe", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:wooden_fire_axe>,
     [[<item:minecraft:air>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>],
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <tag:items:forge:ingots/steel>],
 	[<tag:items:forge:rods/wooden>, <tag:items:forge:dyes/red>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:lumber_jack_axe>);
-craftingTable.addShapedMirrored("lumber_jack_axe", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:lumber_jack_axe>,
+craftingTable.remove(<item:apocalypsenow:lumber_jack_axe>);
+craftingTable.addShapedMirrored("lumber_jack_axe", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:lumber_jack_axe>,
     [[<item:minecraft:air>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>],
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <tag:items:forge:ingots/iron>],
 	[<tag:items:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:red_lumberjack_axe>);
-craftingTable.addShapedMirrored("red_lumberjack_axe", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:red_lumberjack_axe>,
+craftingTable.remove(<item:apocalypsenow:red_lumberjack_axe>);
+craftingTable.addShapedMirrored("red_lumberjack_axe", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:red_lumberjack_axe>,
     [[<item:minecraft:air>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>],
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <tag:items:forge:ingots/iron>],
 	[<tag:items:forge:rods/wooden>, <tag:items:forge:dyes/red>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:construction_axe>);
-craftingTable.addShapedMirrored("construction_axe", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:construction_axe>,
+craftingTable.remove(<item:apocalypsenow:construction_axe>);
+craftingTable.addShapedMirrored("construction_axe", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:construction_axe>,
     [[<item:minecraft:air>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>],
     [<item:minecraft:air>, <tag:items:forge:rods/steel>, <tag:items:forge:ingots/steel>],
 	[<tag:items:forge:rods/steel>, <tag:items:forge:dyes/yellow>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:hand_axe>);
-craftingTable.addShapedMirrored("hand_axe", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:hand_axe>,
+craftingTable.remove(<item:apocalypsenow:hand_axe>);
+craftingTable.addShapedMirrored("hand_axe", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:hand_axe>,
     [[<item:minecraft:air>, <tag:items:forge:ingots/steel>, <tag:items:forge:rods/steel>],
     [<tag:items:forge:ingots/steel>, <tag:items:forge:rods/steel>, <item:minecraft:air>],
 	[<tag:items:forge:rods/steel>, <tag:items:forge:dyes/yellow>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:gardening_axe>);
-craftingTable.addShapedMirrored("gardening_axe", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:gardening_axe>,
+craftingTable.remove(<item:apocalypsenow:gardening_axe>);
+craftingTable.addShapedMirrored("gardening_axe", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:gardening_axe>,
     [[<item:minecraft:air>, <tag:items:forge:ingots/steel>, <tag:items:forge:rods/steel>],
     [<tag:items:forge:ingots/steel>, <tag:items:forge:rods/steel>, <item:minecraft:air>],
 	[<tag:items:forge:rods/steel>, <tag:items:forge:dyes/green>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:ice_axe>);
-craftingTable.addShapedMirrored("ice_axe", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:ice_axe>,
+craftingTable.remove(<item:apocalypsenow:ice_axe>);
+craftingTable.addShapedMirrored("ice_axe", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:ice_axe>,
     [[<item:minecraft:air>, <tag:items:forge:ingots/steel>, <tag:items:forge:rods/steel>],
     [<item:minecraft:air>, <tag:items:forge:rods/steel>, <tag:items:forge:ingots/steel>],
 	[<tag:items:forge:rods/steel>, <tag:items:forge:dyes/gray>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:survival_axe>);
-craftingTable.addShapedMirrored("survival_axe", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:survival_axe>,
+craftingTable.remove(<item:apocalypsenow:survival_axe>);
+craftingTable.addShapedMirrored("survival_axe", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:survival_axe>,
     [[<item:minecraft:air>, <tag:items:forge:ingots/iron>, <tag:items:forge:rods/iron>],
     [<tag:items:forge:ingots/iron>, <tag:items:forge:rods/iron>, <item:minecraft:air>],
 	[<tag:items:forge:rods/iron>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:tourist_axe>);
-craftingTable.addShapedMirrored("tourist_axe", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:tourist_axe>,
+craftingTable.remove(<item:apocalypsenow:tourist_axe>);
+craftingTable.addShapedMirrored("tourist_axe", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:tourist_axe>,
     [[<item:minecraft:air>, <tag:items:forge:ingots/iron>, <tag:items:forge:rods/iron>],
     [<tag:items:forge:ingots/iron>, <tag:items:forge:rods/iron>, <item:minecraft:air>],
 	[<tag:items:forge:rods/iron>, <tag:items:forge:dyes/green>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:combat_axe>);
-craftingTable.addShapedMirrored("combat_axe", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:combat_axe>,
+craftingTable.remove(<item:apocalypsenow:combat_axe>);
+craftingTable.addShapedMirrored("combat_axe", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:combat_axe>,
     [[<item:minecraft:air>, <item:contenttweaker:high_carbon_steel_alloy>, <item:contenttweaker:high_carbon_steel_alloy>],
     [<item:minecraft:air>, <tag:items:forge:rods/steel>, <item:contenttweaker:high_carbon_steel_alloy>],
 	[<tag:items:forge:rods/steel>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:electrical_combat_axe>);
-craftingTable.addShapeless("electrical_combat_axe", <item:arsenals_of_the_apocalypse:electrical_combat_axe>,
-    [<item:arsenals_of_the_apocalypse:combat_axe>, <item:immersiveengineering:component_electronic>, <tag:items:forge:wires/copper>, <item:car:battery>]);
+craftingTable.remove(<item:apocalypsenow:electrical_combat_axe>);
+craftingTable.addShapeless("electrical_combat_axe", <item:apocalypsenow:electrical_combat_axe>,
+    [<item:apocalypsenow:combat_axe>, <item:immersiveengineering:component_electronic>, <tag:items:forge:wires/copper>, <item:car:battery>]);
 
 // Machete
-craftingTable.remove(<item:arsenals_of_the_apocalypse:machete>);
-craftingTable.addShapedMirrored("machete", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:machete>,
+craftingTable.remove(<item:apocalypsenow:machete>);
+craftingTable.addShapedMirrored("machete", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:machete>,
     [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>],
     [<item:minecraft:air>, <tag:items:forge:ingots/steel>],
 	[<item:minecraft:air>, <item:contenttweaker:rubber>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:serrated_machete>);
-craftingTable.addShapeless("serrated_machete", <item:arsenals_of_the_apocalypse:serrated_machete>,
-    [<item:arsenals_of_the_apocalypse:machete>, <tag:items:forge:stone>]);
+craftingTable.remove(<item:apocalypsenow:serrated_machete>);
+craftingTable.addShapeless("serrated_machete", <item:apocalypsenow:serrated_machete>,
+    [<item:apocalypsenow:machete>, <tag:items:forge:stone>]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:hawkbill_machete>);
-craftingTable.addShapedMirrored("hawkbill_machete", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:hawkbill_machete>,
+craftingTable.remove(<item:apocalypsenow:hawkbill_machete>);
+craftingTable.addShapedMirrored("hawkbill_machete", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:hawkbill_machete>,
     [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>],
     [<tag:items:forge:nuggets/steel>, <tag:items:forge:ingots/steel>],
 	[<item:minecraft:air>, <item:contenttweaker:rubber>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:bowie_machete>);
-craftingTable.addShapedMirrored("bowie_machete", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:bowie_machete>,
+craftingTable.remove(<item:apocalypsenow:bowie_machete>);
+craftingTable.addShapedMirrored("bowie_machete", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:bowie_machete>,
     [[<tag:items:forge:nuggets/steel>, <tag:items:forge:ingots/steel>],
     [<item:minecraft:air>, <tag:items:forge:ingots/steel>],
 	[<item:minecraft:air>, <item:contenttweaker:rubber>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:heavy_machete>);
-craftingTable.addShapeless("heavy_machete", <item:arsenals_of_the_apocalypse:heavy_machete>,
-    [<item:arsenals_of_the_apocalypse:machete>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>]);
+craftingTable.remove(<item:apocalypsenow:heavy_machete>);
+craftingTable.addShapeless("heavy_machete", <item:apocalypsenow:heavy_machete>,
+    [<item:apocalypsenow:machete>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:tactical_machete>);
-craftingTable.addShapedMirrored("tactical_machete", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:tactical_machete>,
+craftingTable.remove(<item:apocalypsenow:tactical_machete>);
+craftingTable.addShapedMirrored("tactical_machete", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:tactical_machete>,
     [[<item:contenttweaker:high_carbon_steel_alloy>, <item:contenttweaker:high_carbon_steel_alloy>],
     [<item:minecraft:air>, <item:contenttweaker:high_carbon_steel_alloy>],
 	[<item:minecraft:air>, <item:contenttweaker:rubber>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:kukri_machete>);
-craftingTable.addShapedMirrored("kukri_machete", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:kukri_machete>,
+craftingTable.remove(<item:apocalypsenow:kukri_machete>);
+craftingTable.addShapedMirrored("kukri_machete", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:kukri_machete>,
     [[<tag:items:forge:nuggets/steel>, <item:contenttweaker:high_carbon_steel_alloy>],
     [<item:minecraft:air>, <item:contenttweaker:high_carbon_steel_alloy>],
 	[<item:minecraft:air>, <item:contenttweaker:rubber>]]);
 
 // Knife
-craftingTable.remove(<item:arsenals_of_the_apocalypse:combat_knife>);
-craftingTable.addShapedMirrored("combat_knife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:combat_knife>,
+craftingTable.remove(<item:apocalypsenow:combat_knife>);
+craftingTable.addShapedMirrored("combat_knife", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:combat_knife>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:nuggets/steel>],
     [<item:minecraft:air>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
     [<item:contenttweaker:rubber>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:improvised_knife>);
-craftingTable.addShapedMirrored("improvised_knife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:improvised_knife>,
-    [[<item:minecraft:air>, <tag:items:forge:nuggets/iron>],
-    [<tag:items:forge:rods/wooden>, <item:minecraft:air>]]);
-
-craftingTable.remove(<item:arsenals_of_the_apocalypse:mk_knife>);
-craftingTable.addShapedMirrored("mk_knife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:mk_knife>,
+craftingTable.remove(<item:apocalypsenow:mk_knife>);
+craftingTable.addShapedMirrored("mk_knife", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:mk_knife>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:nuggets/iron>],
     [<item:minecraft:air>, <tag:items:forge:ingots/iron>, <item:minecraft:air>],
     [ <tag:items:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:kitchen_knife>);
-craftingTable.addShapedMirrored("kitchen_knife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:kitchen_knife>,
+craftingTable.remove(<item:apocalypsenow:kitchen_knife>);
+craftingTable.addShapedMirrored("kitchen_knife", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:kitchen_knife>,
     [[<item:minecraft:air>, <tag:items:forge:ingots/steel>],
     [<item:contenttweaker:rubber>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:knife>);
-craftingTable.addShapedMirrored("knife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:knife>,
+craftingTable.remove(<item:apocalypsenow:knife>);
+craftingTable.addShapedMirrored("knife", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:knife>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:nuggets/steel>],
     [<item:minecraft:air>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
     [<item:contenttweaker:rubber>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:military_knife>);
-craftingTable.addShapedMirrored("military_knife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:military_knife>,
+craftingTable.remove(<item:apocalypsenow:military_knife>);
+craftingTable.addShapedMirrored("military_knife", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:military_knife>,
     [[<item:minecraft:air>, <item:contenttweaker:high_carbon_steel_alloy>],
     [<item:contenttweaker:rubber>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:hunting_knife>);
-craftingTable.addShapedMirrored("hunting_knife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:hunting_knife>,
+craftingTable.remove(<item:apocalypsenow:hunting_knife>);
+craftingTable.addShapedMirrored("hunting_knife", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:hunting_knife>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:ingots/iron>],
     [<item:minecraft:air>, <tag:items:forge:nuggets/iron>, <item:minecraft:air>],
     [ <tag:items:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:english_punch_knife>);
-craftingTable.addShapedMirrored("english_punch_knife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:english_punch_knife>,
+craftingTable.remove(<item:apocalypsenow:english_punch_knife>);
+craftingTable.addShapedMirrored("english_punch_knife", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:english_punch_knife>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:nuggets/steel>],
     [<item:minecraft:air>, <tag:items:forge:nuggets/steel>, <item:minecraft:air>],
     [<item:contenttweaker:rubber>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:switch_knife>);
-craftingTable.addShapedMirrored("switch_knife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:switch_knife>,
+craftingTable.remove(<item:apocalypsenow:switch_knife>);
+craftingTable.addShapedMirrored("switch_knife", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:switch_knife>,
     [[<item:minecraft:air>, <tag:items:forge:nuggets/steel>],
     [<item:contenttweaker:rubber>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:long_knife>);
-craftingTable.addShapedMirrored("long_knife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:long_knife>,
+craftingTable.remove(<item:apocalypsenow:long_knife>);
+craftingTable.addShapedMirrored("long_knife", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:long_knife>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:nuggets/steel>],
     [<item:minecraft:air>, <tag:items:forge:rods/steel>, <item:minecraft:air>],
     [<item:contenttweaker:rubber>, <item:minecraft:air>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:throwableknife>);
-craftingTable.addShapedMirrored("throwableknife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:throwableknife>,
+craftingTable.remove(<item:apocalypsenow:throwableknife>);
+craftingTable.addShapedMirrored("throwableknife", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:throwableknife>,
     [[<item:minecraft:air>, <tag:items:forge:nuggets/steel>],
     [<tag:items:forge:nuggets/steel>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:letter_opener>);
-craftingTable.addShapedMirrored("letter_opener", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:letter_opener>,
+craftingTable.remove(<item:apocalypsenow:letter_opener>);
+craftingTable.addShapedMirrored("letter_opener", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:letter_opener>,
     [[<item:minecraft:air>, <tag:items:forge:nuggets/iron>],
     [<tag:items:forge:rods/wooden>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:bread_knife>);
-craftingTable.addShapedMirrored("bread_knife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:bread_knife>,
+craftingTable.remove(<item:apocalypsenow:bread_knife>);
+craftingTable.addShapedMirrored("bread_knife", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:bread_knife>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:nuggets/steel>],
     [<item:minecraft:air>, <tag:items:forge:nuggets/steel>, <item:minecraft:air>],
     [<tag:items:forge:nuggets/steel>, <item:minecraft:air>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:butterfly_knife>);
-craftingTable.addShapedMirrored("butterfly_knife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:butterfly_knife>,
+craftingTable.remove(<item:apocalypsenow:butterfly_knife>);
+craftingTable.addShapedMirrored("butterfly_knife", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:butterfly_knife>,
     [[<item:minecraft:air>,<tag:items:forge:nuggets/steel>, <item:minecraft:air>],
     [<item:minecraft:air>, <tag:items:forge:nuggets/steel>, <item:minecraft:air>],
     [<tag:items:forge:leather>, <item:minecraft:air>, <tag:items:forge:leather>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:stilettoknife>);
-craftingTable.addShapedMirrored("stilettoknife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:stilettoknife>,
+craftingTable.remove(<item:apocalypsenow:stilettoknife>);
+craftingTable.addShapedMirrored("stilettoknife", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:stilettoknife>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:nuggets/steel>],
     [<item:minecraft:air>, <tag:items:forge:rods/steel>, <item:minecraft:air>],
     [<tag:items:forge:nuggets/steel>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:expedition_knife>);
-craftingTable.addShapedMirrored("expedition_knife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:expedition_knife>,
+craftingTable.remove(<item:apocalypsenow:expedition_knife>);
+craftingTable.addShapedMirrored("expedition_knife", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:expedition_knife>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:ingots/steel>],
     [<item:minecraft:air>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
     [<tag:items:forge:rods/steel>, <item:minecraft:air>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:bayonet>);
-craftingTable.addShapedMirrored("bayonet", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:bayonet>,
+craftingTable.remove(<item:apocalypsenow:bayonet>);
+craftingTable.addShapedMirrored("bayonet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:bayonet>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:rods/steel>],
     [<item:minecraft:air>, <tag:items:forge:rods/steel>, <item:minecraft:air>],
     [<tag:items:forge:ingots/steel>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:tactical_knife>);
-craftingTable.addShapedMirrored("tactical_knife", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:tactical_knife>,
+craftingTable.remove(<item:apocalypsenow:tactical_knife>);
+craftingTable.addShapedMirrored("tactical_knife", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:tactical_knife>,
     [[<item:minecraft:air>, <item:minecraft:air>, <item:contenttweaker:high_carbon_steel_alloy>],
     [<item:minecraft:air>, <item:contenttweaker:high_carbon_steel_alloy>, <item:minecraft:air>],
     [<item:contenttweaker:rubber>, <item:minecraft:air>, <item:minecraft:air>]]);
 
 // Mace
-craftingTable.remove(<item:arsenals_of_the_apocalypse:mace>);
-craftingTable.addShapedMirrored("mace", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:mace>,
+craftingTable.remove(<item:apocalypsenow:mace>);
+craftingTable.addShapedMirrored("mace", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:mace>,
     [[<item:minecraft:air>, <tag:items:forge:nuggets/iron>, <tag:items:forge:ingots/iron>],
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <tag:items:forge:nuggets/iron>],
     [<tag:items:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:tatical_mace>);
-craftingTable.addShapedMirrored("tatical_mace", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:tatical_mace>,
+craftingTable.remove(<item:apocalypsenow:tatical_mace>);
+craftingTable.addShapedMirrored("tatical_mace", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:tatical_mace>,
     [[<item:minecraft:air>, <tag:items:forge:nuggets/steel>, <item:contenttweaker:high_carbon_steel_alloy>],
     [<item:minecraft:air>, <tag:items:forge:rods/steel>, <tag:items:forge:nuggets/steel>],
     [<tag:items:forge:rods/steel>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:electrical_tactical_mace>);
-craftingTable.addShapeless("electrical_tactical_mace", <item:arsenals_of_the_apocalypse:electrical_tactical_mace>,
-    [<item:arsenals_of_the_apocalypse:tatical_mace>, <item:immersiveengineering:component_electronic>, <tag:items:forge:wires/copper>, <item:car:battery>]);
+craftingTable.remove(<item:apocalypsenow:electrical_tactical_mace>);
+craftingTable.addShapeless("electrical_tactical_mace", <item:apocalypsenow:electrical_tactical_mace>,
+    [<item:apocalypsenow:tatical_mace>, <item:immersiveengineering:component_electronic>, <tag:items:forge:wires/copper>, <item:car:battery>]);
 
 // Hammer
-craftingTable.remove(<item:arsenals_of_the_apocalypse:meat_hammer>);
-craftingTable.addShapedMirrored("meat_hammer", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:meat_hammer>,
+craftingTable.remove(<item:apocalypsenow:meat_hammer>);
+craftingTable.addShapedMirrored("meat_hammer", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:meat_hammer>,
     [[<item:minecraft:air>, <tag:items:forge:ingots/steel>],
 	[<tag:items:forge:rods/wooden>, <item:minecraft:string>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:improvised_hammer>);
-craftingTable.addShapedMirrored("improvised_hammer", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:improvised_hammer>,
+craftingTable.remove(<item:apocalypsenow:improvised_hammer>);
+craftingTable.addShapedMirrored("improvised_hammer", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:improvised_hammer>,
     [[<item:minecraft:air>, <tag:items:forge:stone>],
 	[<tag:items:forge:rods/wooden>, <item:minecraft:string>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:premiun_hammer>);
-craftingTable.addShapedMirrored("premiun_hammer", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:premiun_hammer>,
+craftingTable.remove(<item:apocalypsenow:premium_hammer>);
+craftingTable.addShapedMirrored("premium_hammer", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:premium_hammer>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:ingots/steel>],
     [<item:minecraft:air>, <tag:items:forge:rods/steel>, <item:minecraft:air>],
     [<item:contenttweaker:rubber>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:ballpeen_hammer>);
-craftingTable.addShapedMirrored("ballpeen_hammer", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:ballpeen_hammer>,
+craftingTable.remove(<item:apocalypsenow:ballpeen_hammer>);
+craftingTable.addShapedMirrored("ballpeen_hammer", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:ballpeen_hammer>,
     [[<item:minecraft:air>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>],
     [<item:minecraft:air>, <tag:items:forge:rods/steel>, <item:minecraft:air>],
     [<item:contenttweaker:rubber>, <item:minecraft:air>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:rubber_hammer>);
-craftingTable.addShapedMirrored("rubber_hammer", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:rubber_hammer>,
+craftingTable.remove(<item:apocalypsenow:rubber_hammer>);
+craftingTable.addShapedMirrored("rubber_hammer", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:rubber_hammer>,
     [[<item:minecraft:air>, <item:minecraft:air>, <item:contenttweaker:rubber>],
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>],
     [<item:contenttweaker:rubber>, <item:minecraft:air>, <item:minecraft:air>]]);
 
 // Long Range
-craftingTable.remove(<item:arsenals_of_the_apocalypse:construction_shovel>);
-craftingTable.addShapedMirrored("construction_shovel", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:construction_shovel>,
+craftingTable.remove(<item:apocalypsenow:construction_shovel>);
+craftingTable.addShapedMirrored("construction_shovel", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:construction_shovel>,
     [[<item:minecraft:air>, <tag:items:forge:plates/steel>],
     [<tag:items:forge:dyes/red>, <tag:items:forge:rods/steel>],
 	[<item:minecraft:air>, <tag:items:forge:rods/steel>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:military_shovel>);
-craftingTable.addShapedMirrored("military_shovel", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:military_shovel>,
+craftingTable.remove(<item:apocalypsenow:military_shovel>);
+craftingTable.addShapedMirrored("military_shovel", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:military_shovel>,
     [[<item:minecraft:air>, <item:contenttweaker:high_carbon_steel_alloy>],
     [<item:minecraft:air>, <tag:items:forge:rods/steel>],
 	[<item:minecraft:air>, <tag:items:forge:rods/steel>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:snow_shovel>);
-craftingTable.addShapedMirrored("snow_shovel", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:snow_shovel>,
+craftingTable.remove(<item:apocalypsenow:snow_shovel>);
+craftingTable.addShapedMirrored("snow_shovel", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:snow_shovel>,
     [[<item:minecraft:air>, <tag:items:forge:plates/aluminum>],
     [<item:minecraft:air>, <tag:items:forge:rods/steel>],
 	[<item:minecraft:air>, <tag:items:forge:rods/steel>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:garden_fork>);
-craftingTable.addShapedMirrored("garden_fork", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:garden_fork>,
+craftingTable.remove(<item:apocalypsenow:garden_fork>);
+craftingTable.addShapedMirrored("garden_fork", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:garden_fork>,
     [[<tag:items:forge:nuggets/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:nuggets/steel>],
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>],
 	[<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:spear>);
-craftingTable.addShapedMirrored("spear", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:spear>,
+craftingTable.remove(<item:apocalypsenow:spear>);
+craftingTable.addShapedMirrored("spear", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:spear>,
     [[<item:minecraft:air>, <tag:items:forge:nuggets/steel>],
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>],
-	[<item:minecraft:air>, <item:arsenals_of_the_apocalypse:log_with_stone>]]);
+	[<item:minecraft:air>, <item:apocalypsenow:log_with_stone>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:knife_spear>);
-craftingTable.addShapedMirrored("knife_spear", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:knife_spear>,
+craftingTable.remove(<item:apocalypsenow:knife_spear>);
+craftingTable.addShapedMirrored("knife_spear", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:knife_spear>,
     [[<item:minecraft:air>, <tag:items:forge:nuggets/iron>],
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>],
-	[<item:minecraft:air>, <item:arsenals_of_the_apocalypse:log_with_stone>]]);
+	[<item:minecraft:air>, <item:apocalypsenow:log_with_stone>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:wooden_spear>);
-craftingTable.addShapedMirrored("wooden_spear", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:wooden_spear>,
+craftingTable.remove(<item:apocalypsenow:wooden_spear>);
+craftingTable.addShapedMirrored("wooden_spear", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:wooden_spear>,
     [[<item:minecraft:air>, <tag:items:forge:rods/wooden>],
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>],
-	[<item:minecraft:air>, <item:arsenals_of_the_apocalypse:log_with_stone>]]);
+	[<item:minecraft:air>, <item:apocalypsenow:log_with_stone>]]);
 // Misc
-craftingTable.remove(<item:arsenals_of_the_apocalypse:pipe>);
-craftingTable.addShapedMirrored("pipe", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:pipe>,
+craftingTable.remove(<item:apocalypsenow:pipe>);
+craftingTable.addShapedMirrored("pipe", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:pipe>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:ingots/steel>],
     [<item:minecraft:air>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
 	[<tag:items:forge:ingots/steel>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:night_stick>);
-craftingTable.addShapedMirrored("night_stick", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:night_stick>,
+craftingTable.remove(<item:apocalypsenow:night_stick>);
+craftingTable.addShapedMirrored("night_stick", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:night_stick>,
     [[<item:minecraft:air>, <tag:items:forge:rods/steel>],
 	[<tag:items:forge:rods/steel>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:scissors>);
-craftingTable.addShapedMirrored("scissors", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:scissors>,
+craftingTable.remove(<item:apocalypsenow:scissors>);
+craftingTable.addShapedMirrored("scissors", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:scissors>,
     [[<item:minecraft:air>, <tag:items:forge:nuggets/iron>],
 	[<tag:items:forge:rods/iron>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:scissorst>);
-craftingTable.addShapedMirrored("scissorst", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:scissorst>,
+craftingTable.remove(<item:apocalypsenow:scissorst>);
+craftingTable.addShapedMirrored("scissorst", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:scissorst>,
     [[<item:minecraft:air>, <tag:items:forge:nuggets/steel>],
 	[<tag:items:forge:rods/steel>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:crowbar>);
-craftingTable.addShapedMirrored("crowbar", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:crowbar>,
+craftingTable.remove(<item:apocalypsenow:crowbar>);
+craftingTable.addShapedMirrored("crowbar", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:crowbar>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:rods/steel>],
     [<item:minecraft:air>, <tag:items:forge:rods/steel>, <item:minecraft:air>],
     [<tag:items:forge:rods/steel>, <item:minecraft:air>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:red_crowbar>);
-craftingTable.addShapedMirrored("red_crowbar", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:red_crowbar>,
+craftingTable.remove(<item:apocalypsenow:red_crowbar>);
+craftingTable.addShapedMirrored("red_crowbar", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:red_crowbar>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:rods/steel>],
     [<item:minecraft:air>, <tag:items:forge:rods/steel>, <tag:items:forge:dyes/red>],
     [<tag:items:forge:rods/steel>, <item:minecraft:air>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:road_sign>);
-craftingTable.addShapedMirrored("road_sign", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:road_sign>,
+craftingTable.remove(<item:apocalypsenow:road_sign>);
+craftingTable.addShapedMirrored("road_sign", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:road_sign>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:plates/iron>],
     [<item:minecraft:air>, <tag:items:forge:rods/iron>, <item:minecraft:air>],
     [<tag:items:forge:rods/iron>, <item:minecraft:air>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:saw_pole>);
-craftingTable.addShapedMirrored("saw_pole", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:saw_pole>,
+craftingTable.remove(<item:apocalypsenow:saw_pole>);
+craftingTable.addShapedMirrored("saw_pole", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:saw_pole>,
     [[<item:minecraft:air>, <item:minecraft:air>, <item:immersiveengineering:sawblade>],
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>],
     [<tag:items:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:hookey_stick>);
-craftingTable.addShapedMirrored("hookey_stick", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:hookey_stick>,
+craftingTable.remove(<item:apocalypsenow:hookey_stick>);
+craftingTable.addShapedMirrored("hookey_stick", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:hookey_stick>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:minecraft:planks>],
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>],
     [<tag:items:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:golf_stick>);
-craftingTable.addShapedMirrored("golf_stick", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:golf_stick>,
+craftingTable.remove(<item:apocalypsenow:golf_stick>);
+craftingTable.addShapedMirrored("golf_stick", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:golf_stick>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:ingots/steel>],
     [<item:minecraft:air>, <tag:items:forge:rods/steel>, <item:minecraft:air>],
     [<tag:items:forge:rods/steel>, <item:minecraft:air>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:cleaver>);
-craftingTable.addShapedMirrored("cleaver", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:cleaver>,
+craftingTable.remove(<item:apocalypsenow:cleaver>);
+craftingTable.addShapedMirrored("cleaver", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:cleaver>,
     [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
     [<item:minecraft:air>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
     [<tag:items:forge:rods/wooden>, <tag:items:forge:leather>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:cleaver>);
-craftingTable.addShapedMirrored("cleaver", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:cleaver>,
+craftingTable.remove(<item:apocalypsenow:cleaver>);
+craftingTable.addShapedMirrored("cleaver", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:cleaver>,
     [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
     [<item:minecraft:air>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
     [<tag:items:forge:rods/wooden>, <tag:items:forge:leather>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:pipe_wrench>);
-craftingTable.addShapedMirrored("pipe_wrench", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:pipe_wrench>,
+craftingTable.remove(<item:apocalypsenow:pipe_wrench>);
+craftingTable.addShapedMirrored("pipe_wrench", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:pipe_wrench>,
     [[<tag:items:forge:ingots/steel>, <item:minecraft:air>],
     [<item:minecraft:air>, <tag:items:forge:rods/steel>],
     [<tag:items:forge:rods/steel>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:dagger>);
-craftingTable.addShapedMirrored("dagger", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:dagger>,
+craftingTable.remove(<item:apocalypsenow:dagger>);
+craftingTable.addShapedMirrored("dagger", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:dagger>,
     [[<tag:items:forge:nuggets/steel>, <item:contenttweaker:high_carbon_steel_alloy>],
     [<item:contenttweaker:rubber>, <tag:items:forge:nuggets/steel>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:sai>);
-craftingTable.addShapedMirrored("sai", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:sai>,
+craftingTable.remove(<item:apocalypsenow:sai>);
+craftingTable.addShapedMirrored("sai", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:sai>,
     [[<tag:items:forge:nuggets/iron>, <tag:items:forge:rods/iron>],
     [<tag:items:forge:rods/wooden>, <tag:items:forge:nuggets/iron>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:scythe>);
-craftingTable.addShapedMirrored("scythe", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:scythe>,
+craftingTable.remove(<item:apocalypsenow:scythe>);
+craftingTable.addShapedMirrored("scythe", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:scythe>,
     [[<tag:items:forge:nuggets/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>],
     [<tag:items:forge:nuggets/steel>, <tag:items:forge:rods/wooden>, <item:minecraft:air>],
     [<tag:items:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:gardening_scissors>);
-craftingTable.addShapedMirrored("gardening_scissors", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:gardening_scissors>,
+craftingTable.remove(<item:apocalypsenow:gardening_scissors>);
+craftingTable.addShapedMirrored("gardening_scissors", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:gardening_scissors>,
     [[<item:minecraft:air>, <tag:items:forge:nuggets/steel>, <item:minecraft:air>],
     [<item:minecraft:air>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
     [<tag:items:forge:rods/wooden>, <item:minecraft:air>, <tag:items:forge:rods/wooden>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:shuriken>);
-craftingTable.addShapedMirrored("shuriken", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:shuriken>,
+craftingTable.remove(<item:apocalypsenow:shuriken>);
+craftingTable.addShapedMirrored("shuriken", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:shuriken>,
     [[<item:minecraft:air>, <tag:items:forge:nuggets/steel>, <item:minecraft:air>],
     [<tag:items:forge:nuggets/steel>, <item:minecraft:air>, <tag:items:forge:nuggets/steel>],
     [<item:minecraft:air>, <tag:items:forge:nuggets/steel>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:shiv>);
-craftingTable.addShapedMirrored("shiv", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:shiv>,
+craftingTable.remove(<item:apocalypsenow:shiv>);
+craftingTable.addShapedMirrored("shiv", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:shiv>,
     [[<item:minecraft:air>, <tag:items:forge:nuggets/iron>],
     [<tag:items:forge:rods/iron>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:plunger>);
-craftingTable.addShapedMirrored("plunger", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:plunger>,
+craftingTable.remove(<item:apocalypsenow:plunger>);
+craftingTable.addShapedMirrored("plunger", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:plunger>,
     [[<tag:items:forge:plates/plastic>, <tag:items:forge:rods/wooden>],
     [<tag:items:forge:rods/wooden>, <tag:items:forge:plates/plastic>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:karambit>);
-craftingTable.addShapedMirrored("karambit", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:karambit>,
+craftingTable.remove(<item:apocalypsenow:karambit>);
+craftingTable.addShapedMirrored("karambit", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:karambit>,
     [[<tag:items:forge:nuggets/steel>, <item:minecraft:air>],
     [<item:minecraft:air>, <tag:items:forge:ingots/steel>],
     [<item:contenttweaker:rubber>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:gardening_spade>);
-craftingTable.addShapedMirrored("gardening_spade", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:gardening_spade>,
+craftingTable.remove(<item:apocalypsenow:gardening_spade>);
+craftingTable.addShapedMirrored("gardening_spade", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:gardening_spade>,
     [[<item:minecraft:air>, <tag:items:forge:plates/plastic>],
     [<item:contenttweaker:rubber>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:dumbbell>);
-craftingTable.addShapedMirrored("dumbbell", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:dumbbell>,
+craftingTable.remove(<item:apocalypsenow:dumbbell>);
+craftingTable.addShapedMirrored("dumbbell", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:dumbbell>,
     [[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:ingots/steel>],
     [<item:minecraft:air>, <tag:items:forge:rods/steel>, <item:minecraft:air>],
     [<tag:items:forge:ingots/steel>, <item:minecraft:air>, <item:minecraft:air>]]);
     
-craftingTable.remove(<item:arsenals_of_the_apocalypse:tactical_sword>);
-craftingTable.addShaped("tactical_sword", <item:arsenals_of_the_apocalypse:tactical_sword>,
+craftingTable.remove(<item:apocalypsenow:tactical_sword>);
+craftingTable.addShaped("tactical_sword", <item:apocalypsenow:tactical_sword>,
     [[<item:minecraft:air>, <item:contenttweaker:high_carbon_steel_alloy>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:contenttweaker:high_carbon_steel_alloy>, <item:minecraft:air>],
     [<tag:items:forge:plates/aluminum>, <tag:items:forge:rods/aluminum>, <tag:items:forge:plates/aluminum>]]);
 
-craftingTable.remove(<item:arsenals_of_the_apocalypse:katana>);
-<recipetype:create:mechanical_crafting>.addRecipe("katana", <item:arsenals_of_the_apocalypse:katana>,
+craftingTable.remove(<item:apocalypsenow:katana>);
+<recipetype:create:mechanical_crafting>.addRecipe("katana", <item:apocalypsenow:katana>,
     [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:blaze_powder>, <item:contenttweaker:high_carbon_steel_alloy>],
 	[<item:minecraft:air>, <item:minecraft:blaze_powder>, <item:contenttweaker:high_carbon_steel_alloy>, <item:minecraft:blaze_powder>],
     [<item:immersiveengineering:hemp_fabric>, <item:contenttweaker:high_carbon_steel_alloy>, <item:minecraft:blaze_powder>, <item:minecraft:air>],
@@ -581,7 +576,7 @@ craftingTable.addShapedMirrored("bolt_netherite", <constant:minecraft:mirroraxis
 // Explosive Bolt
 craftingTable.removeByName("crossbowverhaul:bolt_explosive");
 craftingTable.addShapedMirrored("bolt_explosive", <constant:minecraft:mirroraxis:horizontal>, <item:crossbowverhaul:bolt_explosive>,
-    [[<item:arsenals_of_the_apocalypse:gunpowder_can>, <item:minecraft:air>],
+    [[<item:apocalypsenow:gunpowder_can>, <item:minecraft:air>],
     [<item:minecraft:air>, <tag:items:forge:feathers>]]);
 
 // Gilded Quartz

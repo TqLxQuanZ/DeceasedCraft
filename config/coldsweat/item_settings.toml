@@ -40,6 +40,9 @@
 	#Defines how many insulation slots armor pieces have
 	#Format: [head, chest, legs, feet]
 	"Insulation Slots" = [4, 6, 5, 4]
+	#Defines wearable items that cannot be insulated
+	#Format: ["item_id", "item_id", ...etc]
+	"Insulation Blacklist" = []
 
 [Consumables]
 	#Defines items that affect the player's temperature when consumed

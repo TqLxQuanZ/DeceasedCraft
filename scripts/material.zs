@@ -43,10 +43,6 @@ furnace.addRecipe("leather", <item:minecraft:leather>, <item:minecraft:rotten_fl
 // <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_snow_leopard>);
 // <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_tiger>);
 
-# Mutation
-<tag:items:forge:mutation_hides>.add(<item:mutationcraft_origins:bedridden_hide>);
-<tag:items:forge:mutation_hides>.add(<item:mutationcraft_origins:hidden_hide>);
-
 
 // Seed oil
 <recipetype:create:compacting>.removeByName("createaddition:compacting/seed_oil");

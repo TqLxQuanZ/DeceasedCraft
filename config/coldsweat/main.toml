@@ -1,6 +1,6 @@
 #Overrides all other config options for easy difficulty management
 #This value is changed by the in-game config. It does nothing otherwise.
-#Range: 1 ~ 5
+#Range: 0 ~ 4
 Difficulty = 3
 
 ["Item settings"]
@@ -18,10 +18,10 @@ Difficulty = 3
 	"Prevent Sleep When in Danger" = true
 
 ["Details about how the player is affected by temperature"]
-	#Minimum habitable temperature (default: 0.42857142857142855)
+	#Defines the minimum habitable temperature
 	#Range: -Infinity ~ Infinity
 	"Minimum Habitable Temperature" = 0.42857142857142855
-	#Maximum habitable temperature (default: 1.619047619047619)
+	#Defines the maximum habitable temperature
 	#Range: -Infinity ~ Infinity
 	"Maximum Habitable Temperature" = 1.619047619047619
 	#Rate at which the player's body temperature changes (default: 1.0 (100%))
@@ -55,24 +55,15 @@ Difficulty = 3
 	#How strong the hearth is (default: 0.5)
 	#Range: 0.0 ~ 1.0
 	"Hearth Strength" = 0.5
+	#List of blocks that the hearth can spread through
+	#Use this list if the hearth isn't spreading through particular blocks that it should
+	"Hearth Spread Whitelist" = ["minecraft:iron_bars", "#minecraft:leaves"]
+	#List of blocks that the hearth cannot spread through
+	#Use this list if the hearth is spreading through particular blocks that it shouldn't
+	"Hearth Spread Blacklist" = []
 
 ["Cold Soul Fire"]
 	#Converts damage dealt by Soul Fire to cold damage (default: true)
 	#Does not affect the block's temperature
 	"Cold Soul Fire" = true
-
-["Block Temperatures"]
-	#Allows for adding simple BlockTemps without the use of Java mods
-	#Format (All temperatures are in Minecraft units):
-	#[["block-ids", <temperature>, <range (max 7)>, <*true/false: falloff>, <*max effect>, *<predicates>], [etc...], [etc...]]
-	#(* = optional) (1 °MC = 42 °F/ 23.33 °C)
-	#
-	#Arguments:
-	#block-ids: multiple IDs can be used by separating them with commas (i.e: "minecraft:torch,minecraft:wall_torch")
-	#temperature: the temperature of the block, in Minecraft units
-	#falloff: the block is less effective as distance increases
-	#max effect: the maximum temperature change this block can cause to a player (even with multiple blocks)
-	#predicates: the state that the block has to be in for the temperature to be applied (lit=true for a campfire, for example).
-	#Multiple predicates can be used by separating them with commas (i.e: "lit=true,waterlogged=false")
-	BlockTemps = [["minecraft:soul_fire", -0.2, 7, true, 0.8], ["minecraft:fire", 0.2, 7, true, 0.8], ["minecraft:magma_block", 0.15, 3, true, 0.6], ["minecraft:soul_campfire", -0.2, 3, true, 0.6, "lit=true"], ["minecraft:ice", -0.1, 4, true, 0.5], ["minecraft:packed_ice", -0.2, 4, true, 1.0], ["minecraft:blue_ice", -0.3, 4, true, 1.0]]
 

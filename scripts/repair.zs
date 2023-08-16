@@ -5,57 +5,54 @@ import crafttweaker.api.event.AnvilUpdateEvent;
 import crafttweaker.api.item.IItemStack;
 
 val FabricSet = [
-    <item:arsenals_of_the_apocalypse:police_helmet>,
-    <item:arsenals_of_the_apocalypse:police_chestplate>,
-    <item:arsenals_of_the_apocalypse:police_leggings>,
-    <item:arsenals_of_the_apocalypse:police_boots>,
-    <item:arsenals_of_the_apocalypse:anarchy_helmet>,
-    <item:arsenals_of_the_apocalypse:anarchy_chestplate>,
-    <item:arsenals_of_the_apocalypse:anarchy_leggings>,
-    <item:arsenals_of_the_apocalypse:anarchy_boots>,
-    <item:arsenals_of_the_apocalypse:forestguard_helmet>,
-    <item:arsenals_of_the_apocalypse:forestguard_chestplate>,
-    <item:arsenals_of_the_apocalypse:forestguard_leggings>,
-    <item:arsenals_of_the_apocalypse:forestguard_boots>,
-    <item:arsenals_of_the_apocalypse:un_armor_helmet>,
-    <item:arsenals_of_the_apocalypse:un_armor_chestplate>,
-    <item:arsenals_of_the_apocalypse:un_armor_leggings>,
-    <item:arsenals_of_the_apocalypse:un_armor_boots>,
-    <item:arsenals_of_the_apocalypse:civilian_helmet>,
-    <item:arsenals_of_the_apocalypse:civilian_chestplate>,
-    <item:arsenals_of_the_apocalypse:hunting_helmet>,
-    <item:arsenals_of_the_apocalypse:hunting_chestplate>,
-    <item:arsenals_of_the_apocalypse:construction_helmet>,
-    <item:arsenals_of_the_apocalypse:construction_chestplate>,
-    <item:arsenals_of_the_apocalypse:construction_leggings>,
-    <item:arsenals_of_the_apocalypse:construction_boots>,
-    <item:arsenals_of_the_apocalypse:army_helmet>,
-    <item:arsenals_of_the_apocalypse:army_chestplate>,
-    <item:arsenals_of_the_apocalypse:army_leggings>,
-    <item:arsenals_of_the_apocalypse:army_boots>,
-    <item:arsenals_of_the_apocalypse:royal_canada_police_officer_helmet>,
-    <item:arsenals_of_the_apocalypse:royal_canada_police_officer_chestplate>,
-    <item:arsenals_of_the_apocalypse:royal_canada_police_officer_leggings>,
-    <item:arsenals_of_the_apocalypse:royal_canada_police_officer_boots>,
-    <item:arsenals_of_the_apocalypse:standard_helmet>,
-    <item:arsenals_of_the_apocalypse:standard_chestplate>,
-    <item:arsenals_of_the_apocalypse:officer_helmet>
+    <item:apocalypsenow:police_helmet>,
+    <item:apocalypsenow:police_chestplate>,
+    <item:apocalypsenow:police_leggings>,
+    <item:apocalypsenow:police_boots>,
+    <item:apocalypsenow:anarchy_helmet>,
+    <item:apocalypsenow:anarchy_chestplate>,
+    <item:apocalypsenow:anarchy_leggings>,
+    <item:apocalypsenow:anarchy_boots>,
+    <item:apocalypsenow:forestguard_helmet>,
+    <item:apocalypsenow:forestguard_chestplate>,
+    <item:apocalypsenow:forestguard_leggings>,
+    <item:apocalypsenow:forestguard_boots>,
+    <item:apocalypsenow:un_armor_helmet>,
+    <item:apocalypsenow:un_armor_chestplate>,
+    <item:apocalypsenow:un_armor_leggings>,
+    <item:apocalypsenow:un_armor_boots>,
+    <item:apocalypsenow:civilian_body_vest_chestplate>,
+    <item:apocalypsenow:hunting_helmet>,
+    <item:apocalypsenow:hunting_chestplate>,
+    <item:apocalypsenow:construction_helmet>,
+    <item:apocalypsenow:construction_chestplate>,
+    <item:apocalypsenow:construction_leggings>,
+    <item:apocalypsenow:construction_boots>,
+    <item:apocalypsenow:army_helmet>,
+    <item:apocalypsenow:army_chestplate>,
+    <item:apocalypsenow:army_leggings>,
+    <item:apocalypsenow:army_boots>,
+    <item:apocalypsenow:royal_canada_police_officer_helmet>,
+    <item:apocalypsenow:royal_canada_police_officer_chestplate>,
+    <item:apocalypsenow:royal_canada_police_officer_leggings>,
+    <item:apocalypsenow:royal_canada_police_officer_boots>,
+    <item:apocalypsenow:officer_helmet>
 ] as IItemStack[];
 val FabricIngredient = <item:immersiveengineering:hemp_fabric>;
 
 val WoolSet = [
-    <item:arsenals_of_the_apocalypse:nurse_helmet>,
-    <item:arsenals_of_the_apocalypse:nurse_chestplate>,
-    <item:arsenals_of_the_apocalypse:nurse_leggings>,
-    <item:arsenals_of_the_apocalypse:nurse_boots>
+    <item:apocalypsenow:nurse_helmet>,
+    <item:apocalypsenow:nurse_chestplate>,
+    <item:apocalypsenow:nurse_leggings>,
+    <item:apocalypsenow:nurse_boots>
 ] as IItemStack[];
 val WoolIngredient = <tag:items:minecraft:wool>;
 
 val HoglinSet = [
-    <item:arsenals_of_the_apocalypse:fire_figther_helmet>,
-    <item:arsenals_of_the_apocalypse:fire_figther_chestplate>,
-    <item:arsenals_of_the_apocalypse:fire_figther_leggings>,
-    <item:arsenals_of_the_apocalypse:fire_figther_boots>
+    <item:apocalypsenow:fire_figther_helmet>,
+    <item:apocalypsenow:fire_figther_chestplate>,
+    <item:apocalypsenow:fire_figther_leggings>,
+    <item:apocalypsenow:fire_figther_boots>
 ] as IItemStack[];
 val HoglinIngredient = <item:cold_sweat:hoglin_hide>;
 
@@ -64,22 +61,22 @@ val ZincPlateSet = [
     <item:create_sa:zinc_chestplate>,
     <item:create_sa:zinc_leggings>,
     <item:create_sa:zinc_boots>,
-    <item:arsenals_of_the_apocalypse:yellow_football_armor_helmet>,
-    <item:arsenals_of_the_apocalypse:yellow_football_armor_chestplate>,
-    <item:arsenals_of_the_apocalypse:yellow_football_armor_leggings>,
-    <item:arsenals_of_the_apocalypse:yellow_football_armor_boots>,
-    <item:arsenals_of_the_apocalypse:red_football_armor_helmet>,
-    <item:arsenals_of_the_apocalypse:red_football_armor_chestplate>,
-    <item:arsenals_of_the_apocalypse:red_football_armor_leggings>,
-    <item:arsenals_of_the_apocalypse:red_football_armor_boots>,
-    <item:arsenals_of_the_apocalypse:blue_football_armor_helmet>,
-    <item:arsenals_of_the_apocalypse:blue_football_armor_chestplate>,
-    <item:arsenals_of_the_apocalypse:blue_football_armor_leggings>,
-    <item:arsenals_of_the_apocalypse:blue_football_armor_boots>,
-    <item:arsenals_of_the_apocalypse:black_football_armor_helmet>,
-    <item:arsenals_of_the_apocalypse:black_football_armor_chestplate>,
-    <item:arsenals_of_the_apocalypse:black_football_armor_leggings>,
-    <item:arsenals_of_the_apocalypse:black_football_armor_boots>
+    <item:apocalypsenow:yellow_football_armor_helmet>,
+    <item:apocalypsenow:yellow_football_armor_chestplate>,
+    <item:apocalypsenow:yellow_football_armor_leggings>,
+    <item:apocalypsenow:yellow_football_armor_boots>,
+    <item:apocalypsenow:red_football_armor_helmet>,
+    <item:apocalypsenow:red_football_armor_chestplate>,
+    <item:apocalypsenow:red_football_armor_leggings>,
+    <item:apocalypsenow:red_football_armor_boots>,
+    <item:apocalypsenow:blue_football_armor_helmet>,
+    <item:apocalypsenow:blue_football_armor_chestplate>,
+    <item:apocalypsenow:blue_football_armor_leggings>,
+    <item:apocalypsenow:blue_football_armor_boots>,
+    <item:apocalypsenow:black_football_armor_helmet>,
+    <item:apocalypsenow:black_football_armor_chestplate>,
+    <item:apocalypsenow:black_football_armor_leggings>,
+    <item:apocalypsenow:black_football_armor_boots>
 ] as IItemStack[];
 val ZincPlateIngredient = <tag:items:forge:plates/zinc>;
 
@@ -92,46 +89,46 @@ val CopperPlateSet = [
 val CopperPlateIngredient = <tag:items:forge:plates/copper>;
 
 val LeavesSet = [
-    <item:arsenals_of_the_apocalypse:ghilliesuit_helmet>,
-    <item:arsenals_of_the_apocalypse:ghilliesuit_chestplate>,
-    <item:arsenals_of_the_apocalypse:ghilliesuit_leggings>,
-    <item:arsenals_of_the_apocalypse:ghilliesuit_boots>
+    <item:apocalypsenow:ghilliesuit_helmet>,
+    <item:apocalypsenow:ghilliesuit_chestplate>,
+    <item:apocalypsenow:ghilliesuit_leggings>,
+    <item:apocalypsenow:ghilliesuit_boots>
 ] as IItemStack[];
 val LeavesIngredient = <tag:items:minecraft:leaves>;
 
 val SandSet = [
-    <item:arsenals_of_the_apocalypse:desertghillie_helmet>,
-    <item:arsenals_of_the_apocalypse:desertghillie_chestplate>,
-    <item:arsenals_of_the_apocalypse:desertghillie_leggings>,
-    <item:arsenals_of_the_apocalypse:desertghillie_boots>
+    <item:apocalypsenow:desertghillie_helmet>,
+    <item:apocalypsenow:desertghillie_chestplate>,
+    <item:apocalypsenow:desertghillie_leggings>,
+    <item:apocalypsenow:desertghillie_boots>
 ] as IItemStack[];
 val SandIngredient = <tag:items:forge:sand>;
 
 val SnowSet = [
-    <item:arsenals_of_the_apocalypse:snowghillie_helmet>,
-    <item:arsenals_of_the_apocalypse:snowghillie_chestplate>,
-    <item:arsenals_of_the_apocalypse:snowghillie_leggings>,
-    <item:arsenals_of_the_apocalypse:snowghillie_boots>
+    <item:apocalypsenow:snowghillie_helmet>,
+    <item:apocalypsenow:snowghillie_chestplate>,
+    <item:apocalypsenow:snowghillie_leggings>,
+    <item:apocalypsenow:snowghillie_boots>
 ] as IItemStack[];
 val SnowIngredient = <item:minecraft:snow>;
 
 val RubberSet = [
-    <item:arsenals_of_the_apocalypse:biohazard_helmet>,
-    <item:arsenals_of_the_apocalypse:biohazard_chestplate>,
-    <item:arsenals_of_the_apocalypse:biohazard_leggings>,
-    <item:arsenals_of_the_apocalypse:biohazard_boots>
+    <item:apocalypsenow:biohazard_helmet>,
+    <item:apocalypsenow:biohazard_chestplate>,
+    <item:apocalypsenow:biohazard_leggings>,
+    <item:apocalypsenow:biohazard_boots>
 ] as IItemStack[];
 val RubberIngredient = <item:contenttweaker:rubber>;
 
 val LeadSet = [
-    <item:arsenals_of_the_apocalypse:hazmat_suit_helmet>,
-    <item:arsenals_of_the_apocalypse:hazmat_suit_chestplate>,
-    <item:arsenals_of_the_apocalypse:hazmat_suit_leggings>,
-    <item:arsenals_of_the_apocalypse:hazmat_suit_boots>,
-    <item:arsenals_of_the_apocalypse:bombsquad_helmet>,
-    <item:arsenals_of_the_apocalypse:bombsquad_chestplate>,
-    <item:arsenals_of_the_apocalypse:bombsquad_leggings>,
-    <item:arsenals_of_the_apocalypse:bombsquad_boots>
+    <item:apocalypsenow:hazmat_suit_helmet>,
+    <item:apocalypsenow:hazmat_suit_chestplate>,
+    <item:apocalypsenow:hazmat_suit_leggings>,
+    <item:apocalypsenow:hazmat_suit_boots>,
+    <item:apocalypsenow:bombsquad_helmet>,
+    <item:apocalypsenow:bombsquad_chestplate>,
+    <item:apocalypsenow:bombsquad_leggings>,
+    <item:apocalypsenow:bombsquad_boots>
 ] as IItemStack[];
 val LeadIngredient = <tag:items:forge:plates/lead>;
 
@@ -143,66 +140,66 @@ val ExoskeletonSet = [
 val ExoskeletonIngredient = <tag:items:forge:plates/plastic>;
 
 val SteelPlateSet = [
-    <item:arsenals_of_the_apocalypse:u_sarmy_helmet>,
-    <item:arsenals_of_the_apocalypse:u_sarmy_chestplate>,
-    <item:arsenals_of_the_apocalypse:u_sarmy_leggings>,
-    <item:arsenals_of_the_apocalypse:u_sarmy_boots>,
-    <item:arsenals_of_the_apocalypse:canadian_army_helmet>,
-    <item:arsenals_of_the_apocalypse:canadian_army_chestplate>,
-    <item:arsenals_of_the_apocalypse:canadian_army_leggings>,
-    <item:arsenals_of_the_apocalypse:canadian_army_boots>,
-    <item:arsenals_of_the_apocalypse:mexican_army_helmet>,
-    <item:arsenals_of_the_apocalypse:mexican_army_chestplate>,
-    <item:arsenals_of_the_apocalypse:mexican_army_leggings>,
-    <item:arsenals_of_the_apocalypse:mexican_army_boots>,
-    <item:arsenals_of_the_apocalypse:chinese_army_helmet>,
-    <item:arsenals_of_the_apocalypse:chinese_army_chestplate>,
-    <item:arsenals_of_the_apocalypse:chinese_army_leggings>,
-    <item:arsenals_of_the_apocalypse:chinese_army_boots>,
-    <item:arsenals_of_the_apocalypse:russian_army_helmet>,
-    <item:arsenals_of_the_apocalypse:russian_army_chestplate>,
-    <item:arsenals_of_the_apocalypse:russian_army_leggings>,
-    <item:arsenals_of_the_apocalypse:russian_army_boots>,
-    <item:arsenals_of_the_apocalypse:military_pilot_headset_helmet>,
-    <item:arsenals_of_the_apocalypse:military_pilot_headset_chestplate>,
-    <item:arsenals_of_the_apocalypse:atlast_7_helmet>,
-    <item:arsenals_of_the_apocalypse:atlast_7_chestplate>,
-    <item:arsenals_of_the_apocalypse:military_beret_helmet>,
-    <item:arsenals_of_the_apocalypse:military_beret_chestplate>,
-    <item:arsenals_of_the_apocalypse:officer_beret_helmet>,
-    <item:arsenals_of_the_apocalypse:officer_beret_chestplate>,
-    <item:arsenals_of_the_apocalypse:juggernaut_helmet>,
-    <item:arsenals_of_the_apocalypse:juggernaut_chestplate>,
-    <item:arsenals_of_the_apocalypse:juggernaut_leggings>,
-    <item:arsenals_of_the_apocalypse:juggernaut_boots>,
+    <item:apocalypsenow:u_sarmy_helmet>,
+    <item:apocalypsenow:u_sarmy_chestplate>,
+    <item:apocalypsenow:u_sarmy_leggings>,
+    <item:apocalypsenow:u_sarmy_boots>,
+    <item:apocalypsenow:canadian_army_helmet>,
+    <item:apocalypsenow:canadian_army_chestplate>,
+    <item:apocalypsenow:canadian_army_leggings>,
+    <item:apocalypsenow:canadian_army_boots>,
+    <item:apocalypsenow:mexican_army_helmet>,
+    <item:apocalypsenow:mexican_army_chestplate>,
+    <item:apocalypsenow:mexican_army_leggings>,
+    <item:apocalypsenow:mexican_army_boots>,
+    <item:apocalypsenow:chinese_army_helmet>,
+    <item:apocalypsenow:chinese_army_chestplate>,
+    <item:apocalypsenow:chinese_army_leggings>,
+    <item:apocalypsenow:chinese_army_boots>,
+    <item:apocalypsenow:russian_army_helmet>,
+    <item:apocalypsenow:russian_army_chestplate>,
+    <item:apocalypsenow:russian_army_leggings>,
+    <item:apocalypsenow:russian_army_boots>,
+    <item:apocalypsenow:military_pilot_headset_helmet>,
+    <item:apocalypsenow:military_pilot_headset_chestplate>,
+    <item:apocalypsenow:atlast_7_helmet>,
+    <item:apocalypsenow:atlast_7_chestplate>,
+    <item:apocalypsenow:military_beret_helmet>,
+    <item:apocalypsenow:military_beret_chestplate>,
+    <item:apocalypsenow:officer_beret_helmet>,
+    <item:apocalypsenow:officer_beret_chestplate>,
+    <item:apocalypsenow:juggernaut_helmet>,
+    <item:apocalypsenow:juggernaut_chestplate>,
+    <item:apocalypsenow:juggernaut_leggings>,
+    <item:apocalypsenow:juggernaut_boots>,
 ] as IItemStack[];
 val SteelPlateIngredient = <tag:items:forge:plates/steel>;
 
 val ResistantFabricSet = [
-    <item:arsenals_of_the_apocalypse:military_riot_armor_helmet>,
-    <item:arsenals_of_the_apocalypse:military_riot_armor_chestplate>,
-    <item:arsenals_of_the_apocalypse:military_riot_armor_leggings>,
-    <item:arsenals_of_the_apocalypse:military_riot_armor_boots>,
-    <item:arsenals_of_the_apocalypse:military_urban_helmet>,
-    <item:arsenals_of_the_apocalypse:military_urban_chestplate>,
-    <item:arsenals_of_the_apocalypse:military_urban_leggings>,
-    <item:arsenals_of_the_apocalypse:military_urban_boots>,
-    <item:arsenals_of_the_apocalypse:swat_helmet>,
-    <item:arsenals_of_the_apocalypse:swat_chestplate>,
-    <item:arsenals_of_the_apocalypse:swat_leggings>,
-    <item:arsenals_of_the_apocalypse:swat_boots>,
-    <item:arsenals_of_the_apocalypse:swatriotcontrol_helmet>,
-    <item:arsenals_of_the_apocalypse:swatriotcontrol_chestplate>,
-    <item:arsenals_of_the_apocalypse:swatriotcontrol_leggings>,
-    <item:arsenals_of_the_apocalypse:swatriotcontrol_boots>,
-    <item:arsenals_of_the_apocalypse:spec_ops_helmet>,
-    <item:arsenals_of_the_apocalypse:spec_ops_chestplate>,
-    <item:arsenals_of_the_apocalypse:spec_ops_leggings>,
-    <item:arsenals_of_the_apocalypse:spec_ops_boots>,
-    <item:arsenals_of_the_apocalypse:soldier_helmet>,
-    <item:arsenals_of_the_apocalypse:soldier_chestplate>,
-    <item:arsenals_of_the_apocalypse:soldier_leggings>,
-    <item:arsenals_of_the_apocalypse:soldier_boots>
+    <item:apocalypsenow:military_riot_armor_helmet>,
+    <item:apocalypsenow:military_riot_armor_chestplate>,
+    <item:apocalypsenow:military_riot_armor_leggings>,
+    <item:apocalypsenow:military_riot_armor_boots>,
+    <item:apocalypsenow:military_urban_helmet>,
+    <item:apocalypsenow:military_urban_chestplate>,
+    <item:apocalypsenow:military_urban_leggings>,
+    <item:apocalypsenow:military_urban_boots>,
+    <item:apocalypsenow:swat_helmet>,
+    <item:apocalypsenow:swat_chestplate>,
+    <item:apocalypsenow:swat_leggings>,
+    <item:apocalypsenow:swat_boots>,
+    <item:apocalypsenow:swatriotcontrol_helmet>,
+    <item:apocalypsenow:swatriotcontrol_chestplate>,
+    <item:apocalypsenow:swatriotcontrol_leggings>,
+    <item:apocalypsenow:swatriotcontrol_boots>,
+    <item:apocalypsenow:spec_ops_helmet>,
+    <item:apocalypsenow:spec_ops_chestplate>,
+    <item:apocalypsenow:spec_ops_leggings>,
+    <item:apocalypsenow:spec_ops_boots>,
+    <item:apocalypsenow:soldier_helmet>,
+    <item:apocalypsenow:soldier_chestplate>,
+    <item:apocalypsenow:soldier_leggings>,
+    <item:apocalypsenow:soldier_boots>
 ] as IItemStack[];
 val ResistantFabricIngredient = <item:contenttweaker:resistant_fabric>;
 
@@ -224,69 +221,69 @@ val NetheriteIngredient = <item:minecraft:netherite_scrap>;
 val DisabledNetheriteIngredient = <item:minecraft:netherite_ingot>;
 
 val SteelIngotSet = [
-    <item:arsenals_of_the_apocalypse:fire_axe>,
-    <item:arsenals_of_the_apocalypse:emergency_axe>,
-    <item:arsenals_of_the_apocalypse:wooden_fire_axe>,
-    <item:arsenals_of_the_apocalypse:construction_axe>,
-    <item:arsenals_of_the_apocalypse:hand_axe>,
-    <item:arsenals_of_the_apocalypse:gardening_axe>,
-    <item:arsenals_of_the_apocalypse:ice_axe>,
-    <item:arsenals_of_the_apocalypse:machete>,
-    <item:arsenals_of_the_apocalypse:hawkbill_machete>,
-    <item:arsenals_of_the_apocalypse:bowie_machete>,
-    <item:arsenals_of_the_apocalypse:heavy_machete>,
-    <item:arsenals_of_the_apocalypse:combat_knife>,
-    <item:arsenals_of_the_apocalypse:kitchen_knife>,
-    <item:arsenals_of_the_apocalypse:knife>,
-    <item:arsenals_of_the_apocalypse:expedition_knife>,
-    <item:arsenals_of_the_apocalypse:bayonet>,
-    <item:arsenals_of_the_apocalypse:meat_hammer>,
-    <item:arsenals_of_the_apocalypse:premiun_hammer>,
-    <item:arsenals_of_the_apocalypse:ballpeen_hammer>,
-    <item:arsenals_of_the_apocalypse:construction_shovel>,
-    <item:arsenals_of_the_apocalypse:snow_shovel>,
-    <item:arsenals_of_the_apocalypse:garden_fork>,
-    <item:arsenals_of_the_apocalypse:pipe>,
-    <item:arsenals_of_the_apocalypse:night_stick>,
-    <item:arsenals_of_the_apocalypse:crowbar>,
-    <item:arsenals_of_the_apocalypse:red_crowbar>,
-    <item:arsenals_of_the_apocalypse:golf_stick>,
-    <item:arsenals_of_the_apocalypse:cleaver>,
-    <item:arsenals_of_the_apocalypse:pipe_wrench>,
-    <item:arsenals_of_the_apocalypse:scythe>,
-    <item:arsenals_of_the_apocalypse:gardening_scissors>,
-    <item:arsenals_of_the_apocalypse:karambit>,
-    <item:arsenals_of_the_apocalypse:dumbbell>
+    <item:apocalypsenow:fire_axe>,
+    <item:apocalypsenow:emergency_axe>,
+    <item:apocalypsenow:wooden_fire_axe>,
+    <item:apocalypsenow:construction_axe>,
+    <item:apocalypsenow:hand_axe>,
+    <item:apocalypsenow:gardening_axe>,
+    <item:apocalypsenow:ice_axe>,
+    <item:apocalypsenow:machete>,
+    <item:apocalypsenow:hawkbill_machete>,
+    <item:apocalypsenow:bowie_machete>,
+    <item:apocalypsenow:heavy_machete>,
+    <item:apocalypsenow:combat_knife>,
+    <item:apocalypsenow:kitchen_knife>,
+    <item:apocalypsenow:knife>,
+    <item:apocalypsenow:expedition_knife>,
+    <item:apocalypsenow:bayonet>,
+    <item:apocalypsenow:meat_hammer>,
+    <item:apocalypsenow:premium_hammer>,
+    <item:apocalypsenow:ballpeen_hammer>,
+    <item:apocalypsenow:construction_shovel>,
+    <item:apocalypsenow:snow_shovel>,
+    <item:apocalypsenow:garden_fork>,
+    <item:apocalypsenow:pipe>,
+    <item:apocalypsenow:night_stick>,
+    <item:apocalypsenow:crowbar>,
+    <item:apocalypsenow:red_crowbar>,
+    <item:apocalypsenow:golf_stick>,
+    <item:apocalypsenow:cleaver>,
+    <item:apocalypsenow:pipe_wrench>,
+    <item:apocalypsenow:scythe>,
+    <item:apocalypsenow:gardening_scissors>,
+    <item:apocalypsenow:karambit>,
+    <item:apocalypsenow:dumbbell>
 ] as IItemStack[];
 val SteelIngotIngredient = <item:immersiveengineering:ingot_steel>;
 
 val SteelNuggetSet = [
-    <item:arsenals_of_the_apocalypse:english_punch_knife>,
-    <item:arsenals_of_the_apocalypse:switch_knife>,
-    <item:arsenals_of_the_apocalypse:long_knife>,
-    <item:arsenals_of_the_apocalypse:throwableknife>,
-    <item:arsenals_of_the_apocalypse:bread_knife>,
-    <item:arsenals_of_the_apocalypse:butterfly_knife>,
-    <item:arsenals_of_the_apocalypse:stilettoknife>,
-    <item:arsenals_of_the_apocalypse:spear>,
-    <item:arsenals_of_the_apocalypse:scissorst>,
-    <item:arsenals_of_the_apocalypse:dagger>,
-    <item:arsenals_of_the_apocalypse:shuriken>
+    <item:apocalypsenow:english_punch_knife>,
+    <item:apocalypsenow:switch_knife>,
+    <item:apocalypsenow:long_knife>,
+    <item:apocalypsenow:throwableknife>,
+    <item:apocalypsenow:bread_knife>,
+    <item:apocalypsenow:butterfly_knife>,
+    <item:apocalypsenow:stilettoknife>,
+    <item:apocalypsenow:spear>,
+    <item:apocalypsenow:scissorst>,
+    <item:apocalypsenow:dagger>,
+    <item:apocalypsenow:shuriken>
 ] as IItemStack[];
 val SteelNuggetIngredient = <item:immersiveengineering:nugget_steel>;
 
 val CarbonSteelSet = [
-    <item:arsenals_of_the_apocalypse:combat_axe>,
-    <item:arsenals_of_the_apocalypse:electrical_combat_axe>,
-    <item:arsenals_of_the_apocalypse:tactical_machete>,
-    <item:arsenals_of_the_apocalypse:kukri_machete>,
-    <item:arsenals_of_the_apocalypse:military_knife>,
-    <item:arsenals_of_the_apocalypse:tactical_knife>,
-    <item:arsenals_of_the_apocalypse:tatical_mace>,
-    <item:arsenals_of_the_apocalypse:electrical_tactical_mace>,
-    <item:arsenals_of_the_apocalypse:military_shovel>,
-    <item:arsenals_of_the_apocalypse:tactical_sword>,
-    <item:arsenals_of_the_apocalypse:katana>
+    <item:apocalypsenow:combat_axe>,
+    <item:apocalypsenow:electrical_combat_axe>,
+    <item:apocalypsenow:tactical_machete>,
+    <item:apocalypsenow:kukri_machete>,
+    <item:apocalypsenow:military_knife>,
+    <item:apocalypsenow:tactical_knife>,
+    <item:apocalypsenow:tatical_mace>,
+    <item:apocalypsenow:electrical_tactical_mace>,
+    <item:apocalypsenow:military_shovel>,
+    <item:apocalypsenow:tactical_sword>,
+    <item:apocalypsenow:katana>
 ] as IItemStack[];
 val CarbonSteelIngredient = <item:contenttweaker:high_carbon_steel_alloy>;
 

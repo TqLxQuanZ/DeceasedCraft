@@ -10,7 +10,7 @@
         "result": "deny"
     },
     {
-      "mod": "arsenals_of_the_apocalypse",
+      "mod": "apocalypsenow",
       "dimension": "minecraft:overworld",
       "maxcount": 6,
       "result": "deny"
@@ -89,28 +89,6 @@
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
-        "biome": [
-					"minecraft:plains",
-					"minecraft:savanna",
-					"wythers:cold_plains",
-					"wythers:autumnal_plains",
-					"wythers:tropical_grassland",
-					"minecraft:sunflower_plains",
-					"minecraft:snowy_plains",
-					"minecraft:snowy_taiga",
-					"minecraft:grove",
-					"biomesoplenty:field",
-					"biomesoplenty:lavender_field",
-					"wythers:spring_flower_fields"],
-        "incity": true,
-        "onjoin": true,
-        "random": 0.10,
-        "result": "default",
-        "armorhelmet": "arsenals_of_the_apocalypse:civilian_helmet",
-        "armorchest": "arsenals_of_the_apocalypse:civilian_chestplate"
-    },
-    {
-        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "biome": ["biomesoplenty:mediterranean_forest",
                   "biomesoplenty:mystic_grove",
                   "biomesoplenty:cherry_blossom_grove",
@@ -131,10 +109,10 @@
         "onjoin": true,
         "random": 0.85,
         "result": "default",
-        "armorhelmet": "arsenals_of_the_apocalypse:nurse_helmet",
-        "armorchest": "arsenals_of_the_apocalypse:nurse_chestplate",
-        "armorlegs": "arsenals_of_the_apocalypse:nurse_leggings",
-        "armorboots": "arsenals_of_the_apocalypse:nurse_boots"
+        "armorhelmet": "apocalypsenow:nurse_helmet",
+        "armorchest": "apocalypsenow:nurse_chestplate",
+        "armorlegs": "apocalypsenow:nurse_leggings",
+        "armorboots": "apocalypsenow:nurse_boots"
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -158,10 +136,10 @@
         "onjoin": true,
         "random": 0.85,
         "result": "default",
-        "armorhelmet": "arsenals_of_the_apocalypse:police_helmet",
-        "armorchest": "arsenals_of_the_apocalypse:police_chestplate",
-        "armorlegs": "arsenals_of_the_apocalypse:police_leggings",
-        "armorboots": "arsenals_of_the_apocalypse:police_boots"
+        "armorhelmet": "apocalypsenow:police_helmet",
+        "armorchest": "apocalypsenow:police_chestplate",
+        "armorlegs": "apocalypsenow:police_leggings",
+        "armorboots": "apocalypsenow:police_boots"
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -185,10 +163,10 @@
         "onjoin": true,
         "random": 0.05,
         "result": "default",
-        "armorhelmet": "arsenals_of_the_apocalypse:police_helmet",
-        "armorchest": "arsenals_of_the_apocalypse:police_chestplate",
-        "armorlegs": "arsenals_of_the_apocalypse:police_leggings",
-        "armorboots": "arsenals_of_the_apocalypse:police_boots"
+        "armorhelmet": "apocalypsenow:police_helmet",
+        "armorchest": "apocalypsenow:police_chestplate",
+        "armorlegs": "apocalypsenow:police_leggings",
+        "armorboots": "apocalypsenow:police_boots"
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -212,10 +190,10 @@
         "onjoin": true,
         "random": 0.1,
         "result": "default",
-        "armorhelmet": "arsenals_of_the_apocalypse:fire_figther_helmet",
-        "armorchest": "arsenals_of_the_apocalypse:fire_figther_chestplate",
-        "armorlegs": "arsenals_of_the_apocalypse:fire_figther_leggings",
-        "armorboots": "arsenals_of_the_apocalypse:fire_figther_boots"
+        "armorhelmet": "apocalypsenow:fire_figther_helmet",
+        "armorchest": "apocalypsenow:fire_figther_chestplate",
+        "armorlegs": "apocalypsenow:fire_figther_leggings",
+        "armorboots": "apocalypsenow:fire_figther_boots"
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -236,10 +214,10 @@
         "onjoin": true,
         "random": 0.1,
         "result": "default",
-        "armorhelmet": "arsenals_of_the_apocalypse:red_football_armor_helmet",
-        "armorchest": "arsenals_of_the_apocalypse:red_football_armor_chestplate",
-        "armorlegs": "arsenals_of_the_apocalypse:red_football_armor_leggings",
-        "armorboots": "arsenals_of_the_apocalypse:red_football_armor_boots"
+        "armorhelmet": "apocalypsenow:red_football_armor_helmet",
+        "armorchest": "apocalypsenow:red_football_armor_chestplate",
+        "armorlegs": "apocalypsenow:red_football_armor_leggings",
+        "armorboots": "apocalypsenow:red_football_armor_boots"
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -260,10 +238,10 @@
         "onjoin": true,
         "random": 0.1,
         "result": "default",
-        "armorhelmet": "arsenals_of_the_apocalypse:blue_football_armor_helmet",
-        "armorchest": "arsenals_of_the_apocalypse:blue_football_armor_chestplate",
-        "armorlegs": "arsenals_of_the_apocalypse:blue_football_armor_leggings",
-        "armorboots": "arsenals_of_the_apocalypse:blue_football_armor_boots"
+        "armorhelmet": "apocalypsenow:blue_football_armor_helmet",
+        "armorchest": "apocalypsenow:blue_football_armor_chestplate",
+        "armorlegs": "apocalypsenow:blue_football_armor_leggings",
+        "armorboots": "apocalypsenow:blue_football_armor_boots"
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -271,10 +249,10 @@
         "onjoin": true,
         "random": 0.05,
         "result": "default",
-        "armorhelmet": "arsenals_of_the_apocalypse:u_sarmy_helmet",
-        "armorchest": "arsenals_of_the_apocalypse:u_sarmy_chestplate",
-        "armorlegs": "arsenals_of_the_apocalypse:u_sarmy_leggings",
-        "armorboots": "arsenals_of_the_apocalypse:u_sarmy_boots"
+        "armorhelmet": "apocalypsenow:u_sarmy_helmet",
+        "armorchest": "apocalypsenow:u_sarmy_chestplate",
+        "armorlegs": "apocalypsenow:u_sarmy_leggings",
+        "armorboots": "apocalypsenow:u_sarmy_boots"
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -283,10 +261,10 @@
         "onjoin": true,
         "random": 0.1,
         "result": "default",
-        "armorhelmet": "arsenals_of_the_apocalypse:u_sarmy_helmet",
-        "armorchest": "arsenals_of_the_apocalypse:u_sarmy_chestplate",
-        "armorlegs": "arsenals_of_the_apocalypse:u_sarmy_leggings",
-        "armorboots": "arsenals_of_the_apocalypse:u_sarmy_boots"
+        "armorhelmet": "apocalypsenow:u_sarmy_helmet",
+        "armorchest": "apocalypsenow:u_sarmy_chestplate",
+        "armorlegs": "apocalypsenow:u_sarmy_leggings",
+        "armorboots": "apocalypsenow:u_sarmy_boots"
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -294,10 +272,10 @@
         "onjoin": true,
         "random": 0.75,
         "result": "default",
-        "armorhelmet": "arsenals_of_the_apocalypse:canadian_army_helmet",
-        "armorchest": "arsenals_of_the_apocalypse:canadian_army_chestplate",
-        "armorlegs": "arsenals_of_the_apocalypse:canadian_army_leggings",
-        "armorboots": "arsenals_of_the_apocalypse:canadian_army_boots"
+        "armorhelmet": "apocalypsenow:canadian_army_helmet",
+        "armorchest": "apocalypsenow:canadian_army_chestplate",
+        "armorlegs": "apocalypsenow:canadian_army_leggings",
+        "armorboots": "apocalypsenow:canadian_army_boots"
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -306,10 +284,10 @@
         "onjoin": true,
         "random": 0.5,
         "result": "default",
-        "armorhelmet": "arsenals_of_the_apocalypse:construction_helmet",
-        "armorchest": "arsenals_of_the_apocalypse:construction_chestplate",
-        "armorlegs": "arsenals_of_the_apocalypse:construction_leggings",
-        "armorboots": "arsenals_of_the_apocalypse:construction_boots"
+        "armorhelmet": "apocalypsenow:construction_helmet",
+        "armorchest": "apocalypsenow:construction_chestplate",
+        "armorlegs": "apocalypsenow:construction_leggings",
+        "armorboots": "apocalypsenow:construction_boots"
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -318,10 +296,10 @@
         "onjoin": true,
         "random": 0.15,
         "result": "default",
-        "armorhelmet": "arsenals_of_the_apocalypse:hazmat_suit_helmet",
-        "armorchest": "arsenals_of_the_apocalypse:hazmat_suit_chestplate",
-        "armorlegs": "arsenals_of_the_apocalypse:hazmat_suit_leggings",
-        "armorboots": "arsenals_of_the_apocalypse:hazmat_suit_boots"
+        "armorhelmet": "apocalypsenow:hazmat_suit_helmet",
+        "armorchest": "apocalypsenow:hazmat_suit_chestplate",
+        "armorlegs": "apocalypsenow:hazmat_suit_leggings",
+        "armorboots": "apocalypsenow:hazmat_suit_boots"
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -329,12 +307,12 @@
         "onjoin": true,
         "random": 0.15,
         "result": "default",
-        "armorhelmet": ["arsenals_of_the_apocalypse:black_motorcycle_helmet_helmet",
-                        "arsenals_of_the_apocalypse:red_motorcycle_helmet_helmet",
-                        "arsenals_of_the_apocalypse:bikers_helmet",
-                        "arsenals_of_the_apocalypse:red_bikers_helmet",
-                        "arsenals_of_the_apocalypse:black_bikers_helmet",
-                        "arsenals_of_the_apocalypse:green_bikers_helmet"]
+        "armorhelmet": ["apocalypsenow:black_motorcycle_helmet_helmet",
+                        "apocalypsenow:red_motorcycle_helmet_helmet",
+                        "apocalypsenow:bikers_helmet",
+                        "apocalypsenow:red_bikers_helmet",
+                        "apocalypsenow:black_bikers_helmet",
+                        "apocalypsenow:green_bikers_helmet"]
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -342,7 +320,7 @@
         "onjoin": true,
         "random": 0.3,
         "result": "default",
-        "armorchest": ["arsenals_of_the_apocalypse:life_jacket_bullet_helmet_chestplate" ]
+        "armorchest": ["apocalypsenow:life_jacket_bullet_helmet_chestplate" ]
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -350,8 +328,8 @@
         "onjoin": true,
         "random": 0.3,
         "result": "default",
-        "armorhelmet": ["arsenals_of_the_apocalypse:hunting_helmet"],
-        "armorchest": ["arsenals_of_the_apocalypse:hunting_chestplate"]
+        "armorhelmet": ["apocalypsenow:hunting_helmet"],
+        "armorchest": ["apocalypsenow:hunting_chestplate"]
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -371,7 +349,7 @@
         "healthmultiply": 1.2
     },
     {
-      "mob": ["mutationcraft_origins:mutated_zombie", "mutationcraft_origins:mutated_villager"],
+      "mob": ["mutationcraft:mutated_zombie", "mutationcraft:mutated_villager"],
       "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
       "minlight": 0,
       "maxlight": 7, 
@@ -382,7 +360,7 @@
       "healthmultiply": 1.2
     },
     {
-      "mob": ["mutationcraft_origins:mutant_knight", "mutationcraft_origins:mutated_human", "mutationcraft_origins:carnophobian_mutant"],
+      "mob": ["mutationcraft:mutant_knight", "mutationcraft:mutated_human", "mutationcraft:carnophobian_mutant"],
       "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
       "minlight": 0,
       "maxlight": 7, 
@@ -392,7 +370,7 @@
       "healthmultiply": 1.1
     },
     {
-      "mob": ["mutationcraft_origins:rotten_skeleton"],
+      "mob": ["mutationcraft:rotten_skeleton"],
       "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
       "minlight": 0,
       "maxlight": 7, 
@@ -402,14 +380,14 @@
       "result": "allow"
     },
     {
-      "mob": ["mutationcraft_origins:the_intoxicator"],
+      "mob": ["mutationcraft:the_intoxicator"],
       "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
       "onjoin": true,
       "result": "default",
       "healthmultiply": 4.0
     },
     {
-      "mod": "mutationcraft_origins",
+      "mod": "mutationcraft",
       "dimension": "minecraft:overworld",
       "result": "deny"
     },

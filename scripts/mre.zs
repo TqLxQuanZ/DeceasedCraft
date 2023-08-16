@@ -25,7 +25,7 @@
 <tag:items:forge:mre/drinks>.add(<item:farmersdelight:apple_cider>);
 <tag:items:forge:mre/drinks>.add(<item:farmersdelight:melon_juice>);
 
-craftingTable.addShapedMirrored("mre", <constant:minecraft:mirroraxis:horizontal>, <item:arsenals_of_the_apocalypse:mre>,
+craftingTable.addShapedMirrored("mre", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:mre>,
     [[<item:minecraft:air>, <tag:items:forge:mre/desert>, <item:minecraft:air>],
     [<tag:items:forge:mre/main_course>, <tag:items:forge:plates/plastic>, <tag:items:forge:mre/drinks>],
 	[<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>]]);

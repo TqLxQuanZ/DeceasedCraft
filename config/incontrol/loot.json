@@ -44,55 +44,55 @@
 		"itemcount": "2/2/3"
 	},
 	{
-		"mob": ["mutationcraft_origins:mutant_knight", "mutationcraft_origins:mutated_human", "mutationcraft_origins:carnophobian_mutant"],
+		"mob": ["mutationcraft:mutant_knight", "mutationcraft:mutated_human", "mutationcraft:carnophobian_mutant"],
 		"player": true,
 		"random" : 0.1,
 		"item": "contenttweaker:resistant_fabric",
 		"itemcount": "1/1/1"
 	},
 	{
-		"mob": ["mutationcraft_origins:mutant_knight",
-				"mutationcraft_origins:mutated_human",
-				"mutationcraft_origins:carnophobian_mutant",
-				"mutationcraft_origins:mutated_zombie",
-				"mutationcraft_origins:mutated_villager"],
+		"mob": ["mutationcraft:mutant_knight",
+				"mutationcraft:mutated_human",
+				"mutationcraft:carnophobian_mutant",
+				"mutationcraft:mutated_zombie",
+				"mutationcraft:mutated_villager"],
 		"player": true,
 		"random" : 0.6,
 		"item": "minecraft:gunpowder",
 		"itemcount": "5/6/7"
 	},
 	{
-		"mob": ["mutationcraft_origins:the_intoxicator"],
+		"mob": ["mutationcraft:the_intoxicator"],
 		"player": true,
 		"item": "contenttweaker:resistant_fabric",
 		"itemcount": "6/6/6"
 	},
 	{
-		"mob": ["mutationcraft_origins:the_intoxicator"],
+		"mob": ["mutationcraft:the_intoxicator"],
 		"player": true,
 		"item": "contenttweaker:high_carbon_steel_alloy",
 		"itemcount": "2/2/2"
 	},
 	{
-		"mob": ["mutationcraft_origins:the_intoxicator"],
+		"mob": ["mutationcraft:the_intoxicator"],
 		"player": true,
 		"item": "contenttweaker:rubber",
 		"itemcount": "4/4/4"
 	},
 	{
-		"mob": ["mutationcraft_origins:the_intoxicator"],
+		"mob": ["mutationcraft:the_intoxicator"],
 		"player": true,
 		"item": "quark:gunpowder_sack",
 		"itemcount": "4/5/6"
 	},
 	{
-		"mob": ["mutationcraft_origins:the_intoxicator"],
+		"mob": ["mutationcraft:the_intoxicator"],
 		"player": true,
 		"item": "minecraft:golden_apple",
 		"itemcount": "2/3/4"
 	},
 	{
-		"mob": ["mutationcraft_origins:the_intoxicator"],
+		"mob": ["mutationcraft:the_intoxicator"],
 		"player": true,
 		"item": "minecraft:nether_star",
 		"itemcount": "1/1/1"
@@ -107,10 +107,10 @@
 	},
 	{
 		"remove": [
-			"mutationcraft_origins:bedridden_hide",
-			"mutationcraft_origins:hidden_hide",
-			"mutationcraft_origins:fang_staff",
-			"mutationcraft_origins:holy_staff",
-			"mutationcraft_origins:scythe_of_fear"]
+			"mutationcraft:bedridden_hide",
+			"mutationcraft:hidden_hide",
+			"mutationcraft:fang_staff",
+			"mutationcraft:holy_staff",
+			"mutationcraft:scythe_of_fear"]
 	}
 ]

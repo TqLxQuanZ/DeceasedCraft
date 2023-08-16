@@ -174,4 +174,4 @@ JEI.hideIngredient(<item:car:asphalt_slope>);
 JEI.hideIngredient(<item:car:asphalt_slope_flat_upper>);
 JEI.hideIngredient(<item:car:asphalt_slope_flat_lower>);
 
-craftingTable.removeByName("arsenals_of_the_apocalypse:gunpowder");
+craftingTable.removeByName("apocalypsenow:gunpowder");
