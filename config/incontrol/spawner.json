@@ -6,30 +6,12 @@
 		"amount": {
 		  "minimum": 1,
 		  "maximum": 3,
-		  "groupdistance": 2
+		  "groupdistance": 3
 		},
 		"conditions": {
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
-		  "mindist": 40,
-		  "maxdist": 150,
-		  "minheight": 45,
-		  "maxheight": 200
-		}
-	},
-	{
-		"mob": "minecraft:blaze",
-		"persecond": 0.5,
-		"attempts": 25,
-		"amount": {
-		  "minimum": 1,
-		  "maximum": 3,
-		  "groupdistance": 5
-		},
-		"conditions": {
-		  "dimension": "minecraft:overworld",
-		  "norestrictions": true,
-		  "mindist": 20,
+		  "mindist": 35,
 		  "maxdist": 150,
 		  "minheight": 45,
 		  "maxheight": 200
@@ -37,19 +19,19 @@
 	},
 	{
 		"mob": "minecraft:hoglin",
-		"persecond": 0.5,
+		"persecond": 0.1,
 		"attempts": 20,
 		"amount": {
 		  "minimum": 1,
 		  "maximum": 3,
-		  "groupdistance": 1
+		  "groupdistance": 3
 		},
 		"conditions": {
 			"dimension": "minecraft:overworld",
 			"norestrictions": true,
-			"mindist": 10,
+			"mindist": 20,
 			"maxdist": 150,
-			"minheight": 0,
+			"minheight": 45,
 			"maxheight": 200
 		}
 	},
@@ -60,52 +42,62 @@
 		"conditions": {
 		"dimension": "minecraft:overworld",
 			"norestrictions": true,
-			"mindist": 10,
-			"maxdist": 30,
+			"mindist": 15,
+			"maxdist": 40,
 			"minheight": 45,
 			"maxheight": 200,
 			"maxlocal": 1
 		}
 	},
 	{
-		"mob": ["mutationcraft_origins:mutated_zombie", "mutationcraft_origins:mutated_villager", "mutationcraft_origins:mutated_zombie"],
-		"persecond": 0.5,
+		"mob": ["mutationcraft:assimilated_bear",
+				"mutationcraft:assimilated_cow",
+				"mutationcraft:assimilated_donkey",
+				"mutationcraft:assimilated_horse",
+				"mutationcraft:assimilated_fox",
+				"mutationcraft:assimilated_sheep",
+				"mutationcraft:assimilated_villager",
+				"mutationcraft:assimilated_wolf"],
+		"persecond": 1.0,
 		"attempts": 20,
 		"amount": {
 		  "minimum": 1,
 		  "maximum": 3,
-		  "groupdistance": 3
-		},
-		"conditions": {
-		  "dimension": "minecraft:overworld",
-		  "norestrictions": true,
-		  "mindist": 30,
-		  "maxdist": 200,
-		  "minheight": 45,
-		  "maxheight": 200
-		}
-	},
-	{
-		"mob": ["mutationcraft_origins:mutant_knight", "mutationcraft_origins:mutated_human", "mutationcraft_origins:carnophobian_mutant"],
-		"persecond": 0.2,
-		"attempts": 20,
-		"amount": {
-		  "minimum": 1,
-		  "maximum": 2,
 		  "groupdistance": 5
 		},
 		"conditions": {
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
-		  "mindist": 30,
-		  "maxdist": 200,
+		  "mindist": 25,
+		  "maxdist": 250,
 		  "minheight": 45,
 		  "maxheight": 200
 		}
 	},
 	{
-		"mob": ["mutationcraft_origins:rotten_skeleton"],
-		"persecond": 0.05,
+		"mob": ["mutationcraft:assimilated_human",
+				"mutationcraft:human_stage_1",
+				"mutationcraft:human_stage_2",
+				"mutationcraft:human_stage_3"],
+		"persecond": 0.5,
+		"attempts": 20,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 3,
+		  "groupdistance": 5
+		},
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 25,
+		  "maxdist": 250,
+		  "minheight": 45,
+		  "maxheight": 200
+		}
+	},
+	{
+		"mob": ["mutationcraft:rotten_skeleton"],
+		"persecond": 0.025,
 		"attempts": 10,
 		"conditions": {
 		  "dimension": "minecraft:overworld",
@@ -114,7 +106,7 @@
 		  "maxdist": 200,
 		  "minheight": 45,
 		  "maxheight": 200,
-		  "maxlocal": 2
+		  "maxlocal": 1
 		}
 	}
 ]

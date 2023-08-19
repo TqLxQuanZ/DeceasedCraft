@@ -44,40 +44,52 @@
 		"itemcount": "2/2/3"
 	},
 	{
-		"mob": ["mutationcraft:mutant_knight", "mutationcraft:mutated_human", "mutationcraft:carnophobian_mutant"],
+		"mob": ["mutationcraft:assimilated_human",
+				"mutationcraft:human_stage_1",
+				"mutationcraft:human_stage_2",
+				"mutationcraft:human_stage_3"],
 		"player": true,
-		"random" : 0.1,
+		"random" : 0.05,
 		"item": "contenttweaker:resistant_fabric",
-		"itemcount": "1/1/1"
+		"itemcount": "1/2/3"
 	},
 	{
-		"mob": ["mutationcraft:mutant_knight",
-				"mutationcraft:mutated_human",
-				"mutationcraft:carnophobian_mutant",
-				"mutationcraft:mutated_zombie",
-				"mutationcraft:mutated_villager"],
+		"mob": ["mutationcraft:assimilated_human",
+				"mutationcraft:human_stage_1",
+				"mutationcraft:human_stage_2",
+				"mutationcraft:human_stage_3"],
 		"player": true,
-		"random" : 0.6,
+		"random" : 0.3,
 		"item": "minecraft:gunpowder",
+		"itemcount": "3/4/5"
+	},
+	{
+		"mob": ["mutationcraft:assimilated_human",
+				"mutationcraft:human_stage_1",
+				"mutationcraft:human_stage_2",
+				"mutationcraft:human_stage_3"],
+		"player": true,
+		"random" : 0.2,
+		"item": "additionalguns:bullet_medium",
+		"itemcount": "2/3/4"
+	},
+	{
+		"mob": ["mutationcraft:the_intoxicator"],
+		"player": true,
+		"item": "contenttweaker:resistant_fabric",
 		"itemcount": "5/6/7"
 	},
 	{
 		"mob": ["mutationcraft:the_intoxicator"],
 		"player": true,
-		"item": "contenttweaker:resistant_fabric",
-		"itemcount": "6/6/6"
-	},
-	{
-		"mob": ["mutationcraft:the_intoxicator"],
-		"player": true,
 		"item": "contenttweaker:high_carbon_steel_alloy",
-		"itemcount": "2/2/2"
+		"itemcount": "2/3/4"
 	},
 	{
 		"mob": ["mutationcraft:the_intoxicator"],
 		"player": true,
 		"item": "contenttweaker:rubber",
-		"itemcount": "4/4/4"
+		"itemcount": "3/4/5"
 	},
 	{
 		"mob": ["mutationcraft:the_intoxicator"],
@@ -94,6 +106,7 @@
 	{
 		"mob": ["mutationcraft:the_intoxicator"],
 		"player": true,
+		"random" : 0.3,
 		"item": "minecraft:nether_star",
 		"itemcount": "1/1/1"
 	},
@@ -107,10 +120,13 @@
 	},
 	{
 		"remove": [
-			"mutationcraft:bedridden_hide",
-			"mutationcraft:hidden_hide",
-			"mutationcraft:fang_staff",
-			"mutationcraft:holy_staff",
-			"mutationcraft:scythe_of_fear"]
+			"mutationcraft:rapier",
+			"mutationcraft:battle_axe",
+			"mutationcraft:nordic_axe",
+			"mutationcraft:pole_axe",
+			"mutationcraft:halberd",
+			"mutationcraft:cavalry_sword",
+			"mutationcraft:flanged_mace",
+			"mutationcraft:fang_staff"]
 	}
 ]
