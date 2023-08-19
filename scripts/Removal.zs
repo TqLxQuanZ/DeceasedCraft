@@ -4,8 +4,8 @@ import crafttweaker.api.recipe.FurnaceRecipeManager;
 import mods.jei.JEI;
 
 // Removing mutationcraft
-craftingTable.removeByModid("mutationcraft_origins");
-JEI.hideMod("mutationcraft_origins");
+craftingTable.removeByModid("mutationcraft");
+JEI.hideMod("mutationcraft");
 
 // Jetpack
 craftingTable.removeByName("create_sa:copper_propeler_recipe");

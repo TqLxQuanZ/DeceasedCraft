@@ -19,3 +19,7 @@ import crafttweaker.api.tag.MCTag;
 <tag:blocks:lostcities:lights>.add(<block:quark:paper_lantern>);
 <tag:blocks:lostcities:lights>.add(<block:quark:blaze_lantern>);
 <tag:blocks:lostcities:lights>.add(<block:immersiveengineering:lantern>);
+
+<tag:blocks:car:drivable_blocks>.add(<block:immersivepetroleum:asphalt>);
+<tag:blocks:car:drivable_blocks>.add(<block:immersivepetroleum:asphalt_slab>);
+<tag:blocks:car:drivable_blocks>.add(<block:immersivepetroleum:asphalt_stair>);
