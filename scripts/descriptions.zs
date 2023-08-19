@@ -26,3 +26,25 @@ JEI.addDescription(<item:minecraft:blaze_rod>, "Blaze rods can often be found in
 
 // Netherrack
 JEI.addDescription(<item:minecraft:netherrack>, "Netherrack is commonly located underground within volcanic regions.");
+
+// Coolers
+JEI.addDescription(<item:cfm:white_cooler>, "Coolers can be utilized to slow down the spoilage process of food items.");
+JEI.addDescription(<item:cfm:orange_cooler>, "Coolers can be utilized to slow down the spoilage process of food items.");
+JEI.addDescription(<item:cfm:magenta_cooler>, "Coolers can be utilized to slow down the spoilage process of food items.");
+JEI.addDescription(<item:cfm:light_blue_cooler>, "Coolers can be utilized to slow down the spoilage process of food items.");
+JEI.addDescription(<item:cfm:yellow_cooler>, "Coolers can be utilized to slow down the spoilage process of food items.");
+JEI.addDescription(<item:cfm:lime_cooler>, "Coolers can be utilized to slow down the spoilage process of food items.");
+JEI.addDescription(<item:cfm:pink_cooler>, "Coolers can be utilized to slow down the spoilage process of food items.");
+JEI.addDescription(<item:cfm:gray_cooler>, "Coolers can be utilized to slow down the spoilage process of food items.");
+JEI.addDescription(<item:cfm:light_gray_cooler>, "Coolers can be utilized to slow down the spoilage process of food items.");
+JEI.addDescription(<item:cfm:cyan_cooler>, "Coolers can be utilized to slow down the spoilage process of food items.");
+JEI.addDescription(<item:cfm:purple_cooler>, "Coolers can be utilized to slow down the spoilage process of food items.");
+JEI.addDescription(<item:cfm:blue_cooler>, "Coolers can be utilized to slow down the spoilage process of food items.");
+JEI.addDescription(<item:cfm:brown_cooler>, "Coolers can be utilized to slow down the spoilage process of food items.");
+JEI.addDescription(<item:cfm:green_cooler>, "Coolers can be utilized to slow down the spoilage process of food items.");
+JEI.addDescription(<item:cfm:red_cooler>, "Coolers can be utilized to slow down the spoilage process of food items.");
+JEI.addDescription(<item:cfm:black_cooler>, "Coolers can be utilized to slow down the spoilage process of food items.");
+
+// Fridge
+JEI.addDescription(<item:cfm:fridge_light>, "Fridges can be utilized to slow down the spoilage process of food items.");
+JEI.addDescription(<item:cfm:fridge_dark>, "Fridges can be utilized to slow down the spoilage process of food items.");
