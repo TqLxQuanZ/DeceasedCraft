@@ -18,7 +18,12 @@
       "incity": false,
       "seesky": true,
       "onjoin": true,
+      "random": 0.1,
       "result": "allow"
+    },
+    {
+      "mob": "zombiemobs:zombie_llama",
+      "result": "deny"
     },
     {
       "mod": "zombiemobs",
@@ -26,6 +31,8 @@
       "minlight": 0,
       "maxlight": 6,
       "incity": true,
+      "seesky": true,
+      "onjoin": true,
       "random": 0.1,
       "result": "allow"
     },
@@ -35,7 +42,9 @@
       "minlight": 0,
       "maxlight": 6,
       "incity": false,
-      "random": 0.8,
+      "seesky": true,
+      "onjoin": true,
+      "random": 0.4,
       "result": "allow"
     },
     {
@@ -433,7 +442,7 @@
         "dimension": "minecraft:overworld",
         "mincount": {
           "mod": "zombiemobs",
-          "amount": 1,
+          "amount": 10,
           "perchunk": true
         },
         "result": "deny"
