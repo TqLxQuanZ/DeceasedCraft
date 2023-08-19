@@ -175,3 +175,7 @@ JEI.hideIngredient(<item:car:asphalt_slope_flat_upper>);
 JEI.hideIngredient(<item:car:asphalt_slope_flat_lower>);
 
 craftingTable.removeByName("apocalypsenow:gunpowder");
+
+// Hide All Spawn Eggs
+JEI.hideRegex(".*:.*_spawn_egg");
+JEI.hideRegex(".*:spawn_egg_.*");
