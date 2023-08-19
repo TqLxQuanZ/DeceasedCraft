@@ -41,6 +41,7 @@
     {
       "mob": "minecraft:villager",
       "dimension": "minecraft:overworld",
+      "incontrol": true,
       "incity": true,
       "minlight": 0,
       "maxlight": 6,
@@ -356,6 +357,16 @@
         "result": "deny"
     },
     {
+      "hostile": true,
+      "dimension": "minecraft:overworld",
+      "mincount": {
+        "amount": 200,
+        "hostile": true,
+        "perchunk": true
+      },
+      "result": "deny"
+    },
+    {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "dimension": "minecraft:overworld",
         "baby": true,
@@ -372,11 +383,21 @@
         "result": "deny"
     },
     {
+      "mob": "minecraft:villager",
+      "dimension": "minecraft:overworld",
+      "mincount": {
+        "mob": "minecraft:villager",
+        "amount": 20,
+        "perchunk": true
+      },
+      "result": "deny"
+    },
+    {
       "mob": "minecraft:blaze",
       "dimension": "minecraft:overworld",
       "mincount": {
         "mob": "minecraft:blaze",
-        "amount": 5,
+        "amount": 20,
         "perchunk": true
       },
       "result": "deny"
@@ -431,18 +452,45 @@
               "minecraft:witch",
               "minecraft:stray",
               "minecraft:phantom",
-              "minecraft:witch"],
+              "minecraft:witch",
+              "alexsmobs:bone_serpent",
+              "alexsmobs:bunfungus",
+              "alexsmobs:centipede_head",
+              "alexsmobs:bone_serpent",
+              "alexsmobs:flutter",
+              "alexsmobs:froststalker",
+              "alexsmobs:dropbear",
+              "alexsmobs:guster",
+              "alexsmobs:sunbird",
+              "alexsmobs:straddler",
+              "alexsmobs:spectre",
+              "alexsmobs:bone_serpent",
+              "alexsmobs:soul_vulture",
+              "alexsmobs:sea_bear",
+              "alexsmobs:mungus",
+              "alexsmobs:void_worm"],
       "result": "deny"
-  },
-  {
-    "mod": "mutationcraft",
-    "dimension": "minecraft:overworld",
-    "result": "deny"
-  },
-  {
-    "mod": "zombiemobs",
-    "dimension": "minecraft:overworld",
-    "onjoin": true,
-    "result": "deny"
-  }
+    },
+    {
+      "mod": "mutationcraft",
+      "dimension": "minecraft:overworld",
+      "result": "deny"
+    },
+    {
+      "mob": "minecraft:villager",
+      "dimension": "minecraft:overworld",
+      "incontrol": true,
+      "result": "deny"
+    },
+    {
+      "mod": "zombiemobs",
+      "dimension": "minecraft:overworld",
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mod": "undead_revamp2",
+      "dimension": "minecraft:overworld",
+      "result": "deny"
+    }
 ]
