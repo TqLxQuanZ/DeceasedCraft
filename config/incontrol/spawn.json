@@ -23,6 +23,8 @@
     {
       "mod": "zombiemobs",
       "dimension": "minecraft:overworld",
+      "minlight": 0,
+      "maxlight": 6,
       "incity": true,
       "random": 0.1,
       "result": "allow"
@@ -30,8 +32,19 @@
     {
       "mod": "zombiemobs",
       "dimension": "minecraft:overworld",
+      "minlight": 0,
+      "maxlight": 6,
       "incity": false,
       "random": 0.8,
+      "result": "allow"
+    },
+    {
+      "mob": "minecraft:villager",
+      "dimension": "minecraft:overworld",
+      "incity": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 80,
       "result": "allow"
     },
     {
@@ -340,6 +353,12 @@
         "dimension": "minecraft:overworld",
         "minlight": 7,
         "maxlight": 15,
+        "result": "deny"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
+        "baby": true,
         "result": "deny"
     },
     {

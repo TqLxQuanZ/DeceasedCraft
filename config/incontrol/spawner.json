@@ -1,7 +1,7 @@
 [
 	{
 		"mob": "minecraft:zombie",
-		"persecond": 0.1,
+		"persecond": 0.075,
 		"attempts": 20,
 		"amount": {
 		  "minimum": 1,
@@ -47,6 +47,24 @@
 			"minheight": 45,
 			"maxheight": 200,
 			"maxlocal": 1
+		}
+	},
+	{
+		"mob": "minecraft:villager",
+		"persecond": 0.025,
+		"attempts": 7,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 2,
+		  "groupdistance": 1
+		},
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 10,
+		  "maxdist": 250,
+		  "minheight": 71,
+		  "maxheight": 250
 		}
 	},
 	{
