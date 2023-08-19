@@ -21,7 +21,7 @@
 		wanderingTraderMaxDetectionDistance = 1.5
 		#The time (in ticks) a Wandering Trader will wait before it decides to forget about a detected player. The Wandering Trader will wait indefinitely if the detected player is within the maximum detection distance.
 		#Range: 1 ~ 12000
-		wanderingTraderForgetTime = 2000
+		wanderingTraderForgetTime = 4000
 		#If true, allows players who are disliked by Wandering Traders to continue to trade normally with them. A player is considered disliked if they are caught when trying to pickpocket a Wandering Trader's backpack.
 		dislikedPlayersCanTrade = false
 		#The amount of time (in ticks) a player has to wait before a Wandering Trader will like them again. If a player gets caught pickpocketing a Wandering Trader, the cooldown will be reset
@@ -31,8 +31,8 @@
 		generateEmeraldsOnly = false
 		#The maximum multiplier to apply when generating loot in the Wandering Trader backpack
 		#Range: 1 ~ 64
-		maxLootMultiplier = 4
+		maxLootMultiplier = 3
 		#The maximum size of an emerald stack that can generate in the Wandering Trader backpack
 		#Range: 1 ~ 64
-		maxEmeraldStack = 32
+		maxEmeraldStack = 12
 
