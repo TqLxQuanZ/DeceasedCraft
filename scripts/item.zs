@@ -340,6 +340,35 @@ craftingTable.addShapeless("bomb_defusing_kit", <item:apocalypsenow:bomb_defusin
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:immersiveengineering:creosote> * 100))
 													  );
 
+<item:minecraft:flint_and_steel>.maxDamage = 256;
+
+// Lit Torch
+craftingTable.removeByName("hardcore_torches:lit_torch");
+craftingTable.addShaped("lit_torch", <item:hardcore_torches:lit_torch> * 4,
+    [[<tag:items:minecraft:coals>],
+    [<tag:items:forge:rods/wooden>]]);
+
+<tag:items:forge:unlit_torch>.add(<item:hardcore_torches:unlit_torch>);
+<tag:items:forge:unlit_torch>.add(<item:hardcore_torches:smoldering_torch>);
+<tag:items:forge:unlit_torch>.add(<item:hardcore_torches:burnt_torch>);
+
+// Lit Torch
+craftingTable.addShapeless("lit_torch_refuel", <item:hardcore_torches:lit_torch>,
+    [<tag:items:forge:unlit_torch>, <item:minecraft:flint_and_steel>.anyDamage().reuse().transformDamage(1)]);
+
+// Everlasting Torch
+craftingTable.removeByName("minecraft:torch");
+craftingTable.addShaped("everlasting_torch", <item:minecraft:torch> * 4,
+    [[<tag:items:forge:dusts/glowstone>],
+    [<tag:items:forge:rods/wooden>]]);
+
+    
+craftingTable.removeByName("immersiveengineering:crafting/torch");
+craftingTable.addShapedMirrored("creosote_oil_everlasting_torch", <constant:minecraft:mirroraxis:horizontal>, <item:minecraft:torch> * 32,
+    [[<tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>],
+    [<tag:items:minecraft:wool>, <item:immersiveengineering:creosote_bucket>, <tag:items:minecraft:wool>],
+    [<tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>]]);
+
 // Mold Tags
 <tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_small>);
 <tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_short>);
