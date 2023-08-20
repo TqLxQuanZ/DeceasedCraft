@@ -1,5 +1,28 @@
 [
 	{
+		"mod": "undead_revamp2",
+		"removeall": true
+	},
+	{
+		"remove": [
+			"mutationcraft:rapier",
+			"mutationcraft:battle_axe",
+			"mutationcraft:nordic_axe",
+			"mutationcraft:pole_axe",
+			"mutationcraft:halberd",
+			"mutationcraft:cavalry_sword",
+			"mutationcraft:flanged_mace",
+			"mutationcraft:fang_staff"]
+	},
+	{
+		"remove": [
+			"immersiveengineering:shader_bag_common",
+			"immersiveengineering:shader_bag_uncommon",
+			"immersiveengineering:shader_bag_rare",
+			"immersiveengineering:shader_bag_epic",
+			"immersiveengineering:shader_bag_ie_masterwork"]
+	},
+	{
 		"mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
 		"player": true,
 		"random" : 0.1,
@@ -40,6 +63,32 @@
 	{
 		"mod": "zombiemobs",
 		"random" : 0.4,
+		"item": "minecraft:bone",
+		"itemcount": "2/2/3"
+	},
+	{
+		"mob": "undead_revamp2:bomber",
+		"player": true,
+		"random" : 0.3,
+		"item": "minecraft:gunpowder",
+		"itemcount": "1/2/3"
+	},
+	{
+		"mob": "undead_revamp2:thepregnant",
+		"player": true,
+		"random" : 0.75,
+		"item": "minecraft:golden_apple",
+		"itemcount": "1/2/3"
+	},
+	{
+		"mod": "undead_revamp2",
+		"random" : 0.3,
+		"item": "minecraft:rotten_flesh",
+		"itemcount": "2/2/3"
+	},
+	{
+		"mod": "undead_revamp2",
+		"random" : 0.6,
 		"item": "minecraft:bone",
 		"itemcount": "2/2/3"
 	},
@@ -109,24 +158,5 @@
 		"random" : 0.3,
 		"item": "minecraft:nether_star",
 		"itemcount": "1/1/1"
-	},
-	{
-		"remove": [
-			"immersiveengineering:shader_bag_common",
-			"immersiveengineering:shader_bag_uncommon",
-			"immersiveengineering:shader_bag_rare",
-			"immersiveengineering:shader_bag_epic",
-			"immersiveengineering:shader_bag_ie_masterwork"]
-	},
-	{
-		"remove": [
-			"mutationcraft:rapier",
-			"mutationcraft:battle_axe",
-			"mutationcraft:nordic_axe",
-			"mutationcraft:pole_axe",
-			"mutationcraft:halberd",
-			"mutationcraft:cavalry_sword",
-			"mutationcraft:flanged_mace",
-			"mutationcraft:fang_staff"]
 	}
 ]

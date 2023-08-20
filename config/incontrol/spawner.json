@@ -13,8 +13,8 @@
 		  "norestrictions": true,
 		  "mindist": 35,
 		  "maxdist": 150,
-		  "minheight": 45,
-		  "maxheight": 200
+		  "minheight": 0,
+		  "maxheight": 300
 		}
 	},
 	{
@@ -32,7 +32,7 @@
 			"mindist": 20,
 			"maxdist": 150,
 			"minheight": 45,
-			"maxheight": 200
+			"maxheight": 300
 		}
 	},
 	{
@@ -45,7 +45,7 @@
 			"mindist": 15,
 			"maxdist": 40,
 			"minheight": 45,
-			"maxheight": 200,
+			"maxheight": 300,
 			"maxlocal": 1
 		}
 	},
@@ -64,7 +64,7 @@
 		  "mindist": 10,
 		  "maxdist": 250,
 		  "minheight": 71,
-		  "maxheight": 250
+		  "maxheight": 300
 		}
 	},
 	{
@@ -89,7 +89,7 @@
 		  "mindist": 25,
 		  "maxdist": 250,
 		  "minheight": 45,
-		  "maxheight": 200
+		  "maxheight": 300
 		}
 	},
 	{
@@ -110,7 +110,24 @@
 		  "mindist": 25,
 		  "maxdist": 250,
 		  "minheight": 45,
-		  "maxheight": 200
+		  "maxheight": 300
+		}
+	},
+	{
+		"mob": ["undead_revamp2:thepregnant",
+				"undead_revamp2:theordure",
+				"undead_revamp2:thespitter",
+				"undead_revamp2:thesmoker",
+				"undead_revamp2:bomber"],
+		"persecond": 0.5,
+		"attempts": 25,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 30,
+		  "maxdist": 250,
+		  "minheight": 45,
+		  "maxheight": 300
 		}
 	},
 	{
@@ -123,7 +140,7 @@
 		  "mindist": 15,
 		  "maxdist": 200,
 		  "minheight": 45,
-		  "maxheight": 200,
+		  "maxheight": 300,
 		  "maxlocal": 1
 		}
 	}

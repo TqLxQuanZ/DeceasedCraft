@@ -3,6 +3,10 @@ import crafttweaker.api.recipe.BlastFurnaceRecipeManager;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 import mods.jei.JEI;
 
+// Removing Undead Revamp
+craftingTable.removeByModid("undead_revamp2");
+JEI.hideMod("undead_revamp2");
+
 // Removing mutationcraft
 craftingTable.removeByModid("mutationcraft");
 JEI.hideMod("mutationcraft");

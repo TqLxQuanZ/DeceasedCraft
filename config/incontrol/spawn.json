@@ -5,9 +5,33 @@
       "result": "deny"
     },
     {
+      "mod": "undead_revamp2",
+      "dimension": "minecraft:overworld",
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mod": "zombiemobs",
+      "dimension": "minecraft:overworld",
+      "mincount": {
+        "mod": "zombiemobs",
+        "amount": 10,
+        "perchunk": true
+      },
+      "result": "deny"
+    },
+    {
       "mod": "zombiemobs",
       "dimension": "minecraft:overworld",
       "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mod": "zombiemobs",
+      "dimension": "minecraft:overworld",
+      "incity": true,
       "onjoin": true,
       "result": "deny"
     },
@@ -23,17 +47,6 @@
       "onjoin": true,
       "result": "default",
       "speedmultiply": 0.5
-    },
-    {
-      "mod": "zombiemobs",
-      "dimension": "minecraft:overworld",
-      "minlight": 0,
-      "maxlight": 6,
-      "incity": true,
-      "seesky": true,
-      "onjoin": true,
-      "random": 0.1,
-      "result": "allow"
     },
     {
       "mod": "zombiemobs",
@@ -57,7 +70,88 @@
       "result": "allow"
     },
     {
+      "mob": "undead_revamp2:thepregnant",
+      "dimension": "minecraft:overworld",
+      "building": [
+        "c70cities:multi_hospital_0",
+        "c70cities:multi_hospital_1",
+        "c70cities:multi_hospital_2",
+        "c70cities:multi_hospital_3"],
+      "incity": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 61,
+      "result": "allow"
+    },
+    {
+      "mob": "undead_revamp2:theordure",
+      "dimension": "minecraft:overworld",
+      "instreet": false,
+      "incity": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 71,
+      "result": "allow"
+    },
+    {
+      "mob": "undead_revamp2:thespitter",
+      "biome": ["biomesoplenty:mediterranean_forest",
+                "biomesoplenty:mystic_grove",
+                "biomesoplenty:cherry_blossom_grove",
+                "biomesoplenty:bamboo_grove",
+                "biomesoplenty:clover_patch",
+                "biomesoplenty:pumpkin_patch",
+                "biomesoplenty:fir_clearing",
+                "biomesoplenty:shrubland",
+                "biomesoplenty:scrubland",
+                "biomesoplenty:grassland",
+                "biomesoplenty:pasture",
+                "biomesoplenty:prairie",
+                "biomesoplenty:dryland",
+                "biomesoplenty:lavender_forest",
+                "biomesoplenty:forested_field",
+                "minecraft:stony_shore"],
+      "dimension": "minecraft:overworld",
+      "instreet": true,
+      "incity": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 71,
+      "result": "allow"
+    },
+    {
+      "mob": "undead_revamp2:thesmoker",
+      "biome": [
+                "minecraft:plains",
+                "minecraft:savanna",
+                "wythers:cold_plains",
+                "wythers:autumnal_plains",
+                "wythers:tropical_grassland",
+                "minecraft:sunflower_plains",
+                "minecraft:snowy_plains",
+                "minecraft:snowy_taiga",
+                "minecraft:grove",
+                "biomesoplenty:field",
+                "biomesoplenty:lavender_field",
+                "wythers:spring_flower_fields"],
+      "dimension": "minecraft:overworld",
+      "incity": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 71,
+      "result": "allow"
+    },
+    {
+      "mob": "undead_revamp2:bomber",
+      "dimension": "minecraft:overworld",
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 45,
+      "result": "allow"
+    },
+    {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
         "building": [
           "c70cities:multi_hospital_0",
           "c70cities:multi_hospital_1",
@@ -437,16 +531,6 @@
       "result": "deny"
     },
     {
-        "mod": "zombiemobs",
-        "dimension": "minecraft:overworld",
-        "mincount": {
-          "mod": "zombiemobs",
-          "amount": 10,
-          "perchunk": true
-        },
-        "result": "deny"
-    },
-    {
         "mod": "mutationcraft",
         "dimension": "minecraft:overworld",
         "mincount": {
@@ -471,6 +555,7 @@
               "minecraft:stray",
               "minecraft:phantom",
               "minecraft:witch",
+              "quark:forgotten",
               "alexsmobs:bone_serpent",
               "alexsmobs:bunfungus",
               "alexsmobs:centipede_head",
