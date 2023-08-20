@@ -15,10 +15,12 @@ import crafttweaker.api.tag.MCTag;
 <tag:blocks:lostcities:lights>.add(<block:simplylight:illuminant_yellow_block_on>);
 <tag:blocks:lostcities:lights>.add(<block:simplylight:illuminant_panel>);
 <tag:blocks:lostcities:lights>.add(<block:simplylight:edge_light_top>);
+<tag:blocks:lostcities:lights>.add(<block:simplylight:edge_light>);
 <tag:blocks:lostcities:lights>.add(<block:quark:paper_lantern_sakura>);
 <tag:blocks:lostcities:lights>.add(<block:quark:paper_lantern>);
 <tag:blocks:lostcities:lights>.add(<block:quark:blaze_lantern>);
 <tag:blocks:lostcities:lights>.add(<block:immersiveengineering:lantern>);
+<tag:blocks:lostcities:lights>.add(<tag:blocks:another_furniture:lamps>);
 
 <tag:blocks:car:drivable_blocks>.add(<block:immersivepetroleum:asphalt>);
 <tag:blocks:car:drivable_blocks>.add(<block:immersivepetroleum:asphalt_slab>);

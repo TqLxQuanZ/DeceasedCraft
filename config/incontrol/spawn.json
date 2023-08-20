@@ -7,23 +7,22 @@
     {
       "mod": "zombiemobs",
       "dimension": "minecraft:overworld",
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mob": "zombiemobs:zombie_llama",
+      "dimension": "minecraft:overworld",
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mod": "zombiemobs",
+      "dimension": "minecraft:overworld",
+      "onjoin": true,
       "result": "default",
       "speedmultiply": 0.5
-    },
-    {
-      "mob": "zombiemobs:zombie_llama",
-      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
-      "minlight": 0,
-      "maxlight": 6,
-      "incity": false,
-      "seesky": true,
-      "onjoin": true,
-      "random": 0.1,
-      "result": "allow"
-    },
-    {
-      "mob": "zombiemobs:zombie_llama",
-      "result": "deny"
     },
     {
       "mod": "zombiemobs",
@@ -443,6 +442,16 @@
         "mincount": {
           "mod": "zombiemobs",
           "amount": 10,
+          "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mod": "mutationcraft",
+        "dimension": "minecraft:overworld",
+        "mincount": {
+          "mod": "mutationcraft",
+          "amount": 30,
           "perchunk": true
         },
         "result": "deny"

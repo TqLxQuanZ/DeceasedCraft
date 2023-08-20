@@ -76,7 +76,7 @@
 				"mutationcraft:assimilated_sheep",
 				"mutationcraft:assimilated_villager",
 				"mutationcraft:assimilated_wolf"],
-		"persecond": 1.0,
+		"persecond": 0.75,
 		"attempts": 20,
 		"amount": {
 		  "minimum": 1,
@@ -97,11 +97,11 @@
 				"mutationcraft:human_stage_1",
 				"mutationcraft:human_stage_2",
 				"mutationcraft:human_stage_3"],
-		"persecond": 0.5,
+		"persecond": 0.25,
 		"attempts": 20,
 		"amount": {
 		  "minimum": 1,
-		  "maximum": 3,
+		  "maximum": 2,
 		  "groupdistance": 5
 		},
 		"conditions": {
