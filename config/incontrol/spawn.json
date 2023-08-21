@@ -299,7 +299,11 @@
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
-        "building": ["c70cities:multi_militarybase_0", "c70cities:multi_militarybase_1", "c70cities:multi_militarybase_2", "c70cities:multi_militarybase_3"],
+        "building": [
+            "c70cities:multi_militarybase_0",
+            "c70cities:multi_militarybase_1",
+            "c70cities:multi_militarybase_2",
+            "c70cities:multi_militarybase_3"],
         "onjoin": true,
         "minheight": 61,
         "random": 0.75,
@@ -409,7 +413,52 @@
       "damagemultiply": 1.5
     },
     {
-      "mob": ["mutationcraft:rotten_skeleton"],
+      "mob": "mutationcraft:human_herder",
+      "onjoin": true,
+      "result": "default",
+      "healthmultiply": 5.0
+    },
+    {
+      "mob": "mutationcraft:human_herder",
+      "minlight": 0,
+      "maxlight": 6,
+      "building": [
+        "c70cities:multi_megatower1_0",
+        "c70cities:multi_megatower1_1",
+        "c70cities:multi_megatower1_2",
+        "c70cities:multi_megatower1_3",
+        "c70cities:multi_megatower1_4",
+        "c70cities:multi_megatower1_5",
+        "c70cities:multi_megatower1_6",
+        "c70cities:multi_megatower1_7",
+        "c70cities:multi_megatower1_8"
+      ],
+      "block": ["minecraft:moss_block", "minecraft:grass_block"],
+      "nodespawn": true,
+      "result": "allow"
+    },
+    {
+      "mob": "mutationcraft:assimilated_jockey",
+      "onjoin": true,
+      "result": "default",
+      "healthmultiply": 2.0,
+      "speedmultiply": 2.0
+    },
+    {
+      "mob": "mutationcraft:assimilated_jockey",
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "minlight": 0,
+      "maxlight": 6,
+      "building": [
+        "c70cities:multi_militarybase_0",
+        "c70cities:multi_militarybase_1",
+        "c70cities:multi_militarybase_2",
+        "c70cities:multi_militarybase_3"
+      ],
+      "result": "allow"
+    },
+    {
+      "mob": "mutationcraft:rotten_skeleton",
       "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
       "minlight": 0,
       "maxlight": 6, 
@@ -419,9 +468,10 @@
       "result": "allow"
     },
     {
-      "mob": ["mutationcraft:the_intoxicator"],
+      "mob": "mutationcraft:the_intoxicator",
       "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
       "onjoin": true,
+      "nodespawn": true,
       "result": "default",
       "healthmultiply": 4.0
     },

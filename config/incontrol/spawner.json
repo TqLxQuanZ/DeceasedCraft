@@ -93,6 +93,20 @@
 		}
 	},
 	{
+		"mob": ["mutationcraft:assimilated_jockey",
+				"mutationcraft:reductor"],
+		"persecond": 0.25,
+		"attempts": 20,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 30,
+		  "maxdist": 250,
+		  "minheight": 61,
+		  "maxheight": 300
+		}
+	},
+	{
 		"mob": ["mutationcraft:assimilated_human",
 				"mutationcraft:human_stage_1",
 				"mutationcraft:human_stage_2",
@@ -124,10 +138,24 @@
 		"conditions": {
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
-		  "mindist": 30,
+		  "mindist": 10,
 		  "maxdist": 250,
 		  "minheight": 45,
 		  "maxheight": 300
+		}
+	},
+	{
+		"mob": "mutationcraft:human_herder",
+		"persecond": 0.1,
+		"attempts": 15,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 30,
+		  "maxdist": 250,
+		  "minheight": 131,
+		  "maxheight": 160,
+		  "maxlocal": 1
 		}
 	},
 	{

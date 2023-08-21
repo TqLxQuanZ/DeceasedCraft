@@ -130,40 +130,130 @@
 		"itemcount": "2/3/4"
 	},
 	{
-		"mob": ["mutationcraft:the_intoxicator"],
+		"mob": "mutationcraft:assimilated_jockey",
+		"player": true,
+		"random" : 0.2,
+		"item": "contenttweaker:rubber",
+		"itemcount": "1/2/3"
+	},
+	{
+		"mob": "mutationcraft:assimilated_jockey",
+		"player": true,
+		"random" : 0.4,
+		"item": "minecraft:gunpowder",
+		"itemcount": "4/5/6"
+	},
+	{
+		"mob": "mutationcraft:assimilated_jockey",
+		"player": true,
+		"random" : 0.4,
+		"item": "additionalguns:bullet_medium",
+		"itemcount": "4/6/8"
+	},
+	{
+		"mob": "mutationcraft:assimilated_jockey",
+		"player": true,
+		"random" : 0.4,
+		"item": "additionalguns:bullet_heavy",
+		"itemcount": "4/6/8"
+	},
+	{
+		"mob": "mutationcraft:human_herder",
+		"player": true,
+		"random": 0.3,
+		"item": "contenttweaker:resistant_fabric",
+		"itemcount": "1/1/2"
+	},
+	{
+		"mob": "mutationcraft:human_herder",
+		"player": true,
+		"random": 0.3,
+		"item": "contenttweaker:rubber",
+		"itemcount": "1/1/2"
+	},
+	{
+		"mob": "mutationcraft:human_herder",
+		"player": true,
+		"random": 0.3,
+		"item": "contenttweaker:high_carbon_steel_alloy",
+		"itemcount": "1/1/1"
+	},
+	{
+		"mob": "mutationcraft:human_herder",
+		"player": true,
+		"item": "minecraft:golden_apple",
+		"itemcount": "1/2/3"
+	},
+	{
+		"mob": "mutationcraft:human_herder",
+		"player": true,
+		"random": 0.6,
+		"item": "quark:gunpowder_sack",
+		"itemcount": "2/3/4"
+	},
+	{
+		"mob": "mutationcraft:human_herder",
+		"player": true,
+		"random": 0.5,
+		"item": "additionalguns:bullet_small",
+		"itemcount": "16/20/24"
+	},
+	{
+		"mob": "mutationcraft:human_herder",
+		"player": true,
+		"random": 0.5,
+		"item": "additionalguns:bullet_short",
+		"itemcount": "16/20/24"
+	},
+	{
+		"mob": "mutationcraft:the_intoxicator",
 		"player": true,
 		"item": "contenttweaker:resistant_fabric",
 		"itemcount": "5/6/7"
 	},
 	{
-		"mob": ["mutationcraft:the_intoxicator"],
+		"mob": "mutationcraft:the_intoxicator",
 		"player": true,
 		"item": "contenttweaker:high_carbon_steel_alloy",
 		"itemcount": "2/3/4"
 	},
 	{
-		"mob": ["mutationcraft:the_intoxicator"],
+		"mob": "mutationcraft:the_intoxicator",
 		"player": true,
 		"item": "contenttweaker:rubber",
 		"itemcount": "3/4/5"
 	},
 	{
-		"mob": ["mutationcraft:the_intoxicator"],
+		"mob": "mutationcraft:the_intoxicator",
 		"player": true,
 		"item": "quark:gunpowder_sack",
 		"itemcount": "4/5/6"
 	},
 	{
-		"mob": ["mutationcraft:the_intoxicator"],
+		"mob": "mutationcraft:the_intoxicator",
 		"player": true,
 		"item": "minecraft:golden_apple",
 		"itemcount": "2/3/4"
 	},
 	{
-		"mob": ["mutationcraft:the_intoxicator"],
+		"mob": "mutationcraft:the_intoxicator",
 		"player": true,
 		"random" : 0.3,
 		"item": "minecraft:nether_star",
 		"itemcount": "1/1/1"
+	},
+	{
+		"mob": "mutationcraft:the_intoxicator",
+		"player": true,
+		"random" : 0.3,
+		"item": "additionalguns:bullet_medium",
+		"itemcount": "16/20/24"
+	},
+	{
+		"mob": "mutationcraft:the_intoxicator",
+		"player": true,
+		"random" : 0.3,
+		"item": "additionalguns:bullet_heavy",
+		"itemcount": "16/20/24"
 	}
 ]
