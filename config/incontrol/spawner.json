@@ -94,8 +94,9 @@
 	},
 	{
 		"mob": ["mutationcraft:assimilated_jockey",
-				"mutationcraft:reductor"],
-		"persecond": 0.25,
+				"mutationcraft:reductor",
+				"mutationcraft:carnivorae"],
+		"persecond": 0.5,
 		"attempts": 20,
 		"conditions": {
 		  "dimension": "minecraft:overworld",
@@ -132,6 +133,7 @@
 				"undead_revamp2:theordure",
 				"undead_revamp2:thespitter",
 				"undead_revamp2:thesmoker",
+				"undead_revamp2:thehunter",
 				"undead_revamp2:bomber"],
 		"persecond": 0.5,
 		"attempts": 25,
@@ -145,16 +147,30 @@
 		}
 	},
 	{
+		"mob": "mutationcraft:resenter",
+		"persecond": 0.1,
+		"attempts": 15,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 20,
+		  "maxdist": 250,
+		  "minheight": 61,
+		  "maxheight": 300,
+		  "maxlocal": 1
+		}
+	},
+	{
 		"mob": "mutationcraft:human_herder",
 		"persecond": 0.1,
 		"attempts": 15,
 		"conditions": {
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
-		  "mindist": 30,
-		  "maxdist": 250,
-		  "minheight": 131,
-		  "maxheight": 160,
+		  "mindist": 5,
+		  "maxdist": 150,
+		  "minheight": 125,
+		  "maxheight": 171,
 		  "maxlocal": 1
 		}
 	},

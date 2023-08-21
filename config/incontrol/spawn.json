@@ -94,6 +94,17 @@
       "result": "allow"
     },
     {
+      "mob": "undead_revamp2:thehunter",
+      "dimension": "minecraft:overworld",
+      "inbuilding": true,
+      "incity": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 61,
+      "minspawndist": 15000,
+      "result": "allow"
+    },
+    {
       "mob": "undead_revamp2:thespitter",
       "biome": ["biomesoplenty:mediterranean_forest",
                 "biomesoplenty:mystic_grove",
@@ -331,6 +342,7 @@
         "onjoin": true,
         "minheight": 61,
         "random": 0.05,
+        "minspawndist": 10000,
         "result": "default",
         "armorhelmet": "apocalypsenow:hazmat_suit_helmet",
         "armorchest": "apocalypsenow:hazmat_suit_chestplate",
@@ -399,6 +411,24 @@
       "result": "allow"
     },
     {
+      "mob": ["mutationcraft:assimilated_bear",
+              "mutationcraft:assimilated_cow",
+              "mutationcraft:assimilated_donkey",
+              "mutationcraft:assimilated_horse",
+              "mutationcraft:assimilated_fox",
+              "mutationcraft:assimilated_sheep",
+              "mutationcraft:assimilated_villager",
+              "mutationcraft:assimilated_wolf"
+            ],
+      "minlight": 0,
+      "maxlight": 6, 
+      "incity": false,
+      "seesky": true,
+      "onjoin": true,
+      "minspawndist": 30000,
+      "result": "allow"
+    },
+    {
       "mob": ["mutationcraft:assimilated_human",
               "mutationcraft:human_stage_1",
               "mutationcraft:human_stage_2",
@@ -408,54 +438,79 @@
       "maxlight": 6, 
       "incity": true,
       "onjoin": true,
-      "result": "allow",
-      "healthmultiply": 1.1,
-      "damagemultiply": 1.5
+      "result": "allow"
     },
     {
-      "mob": "mutationcraft:human_herder",
+      "mob": ["mutationcraft:assimilated_human",
+              "mutationcraft:human_stage_1",
+              "mutationcraft:human_stage_2",
+              "mutationcraft:human_stage_3"],
+      "minlight": 0,
+      "maxlight": 6,
+      "incity": true,
       "onjoin": true,
-      "result": "default",
-      "healthmultiply": 5.0
+      "minspawndist": 30000,
+      "result": "allow"
+    },
+    {
+      "mob": ["mutationcraft:reductor",
+              "mutationcraft:carnivorae"],
+      "minlight": 0,
+      "maxlight": 6,
+      "onjoin": true,
+      "minspawndist": 30000,
+      "result": "allow"
+    },
+    {
+      "mob": "mutationcraft:resenter",
+      "minlight": 0,
+      "maxlight": 6,
+      "incity": true,
+      "instreet": true,
+      "nodespawn": true,
+      "onjoin": true,
+      "minspawndist": 15000,
+      "result": "allow",
+      "healthadd": 300.0,
+      "potion": "minecraft:regeneration,60,254"
     },
     {
       "mob": "mutationcraft:human_herder",
       "minlight": 0,
       "maxlight": 6,
       "building": [
-        "c70cities:multi_megatower1_0",
-        "c70cities:multi_megatower1_1",
-        "c70cities:multi_megatower1_2",
-        "c70cities:multi_megatower1_3",
-        "c70cities:multi_megatower1_4",
-        "c70cities:multi_megatower1_5",
-        "c70cities:multi_megatower1_6",
-        "c70cities:multi_megatower1_7",
-        "c70cities:multi_megatower1_8"
+          "c70cities:multi_megatower1_0",
+          "c70cities:multi_megatower1_1",
+          "c70cities:multi_megatower1_2",
+          "c70cities:multi_megatower1_3",
+          "c70cities:multi_megatower1_4",
+          "c70cities:multi_megatower1_5",
+          "c70cities:multi_megatower1_6",
+          "c70cities:multi_megatower1_7",
+          "c70cities:multi_megatower1_8"
       ],
       "block": ["minecraft:moss_block", "minecraft:grass_block"],
       "nodespawn": true,
-      "result": "allow"
-    },
-    {
-      "mob": "mutationcraft:assimilated_jockey",
       "onjoin": true,
-      "result": "default",
-      "healthmultiply": 2.0,
-      "speedmultiply": 2.0
+      "result": "allow",
+      "healthadd": 250.0,
+      "potion": "minecraft:regeneration,60,254"
     },
     {
       "mob": "mutationcraft:assimilated_jockey",
+      "dimension": "minecraft:overworld",
       "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
       "minlight": 0,
       "maxlight": 6,
       "building": [
-        "c70cities:multi_militarybase_0",
-        "c70cities:multi_militarybase_1",
-        "c70cities:multi_militarybase_2",
-        "c70cities:multi_militarybase_3"
+          "c70cities:multi_militarybase_0",
+          "c70cities:multi_militarybase_1",
+          "c70cities:multi_militarybase_2",
+          "c70cities:multi_militarybase_3"
       ],
-      "result": "allow"
+      "onjoin": true,
+      "result": "allow",
+      "speedmultiply": 2.0
     },
     {
       "mob": "mutationcraft:rotten_skeleton",
@@ -473,7 +528,8 @@
       "onjoin": true,
       "nodespawn": true,
       "result": "default",
-      "healthmultiply": 4.0
+      "healthadd": 500.0,
+      "potion": "minecraft:regeneration,200,254"
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -627,6 +683,7 @@
     {
       "mod": "mutationcraft",
       "dimension": "minecraft:overworld",
+      "onjoin": true,
       "result": "deny"
     },
     {

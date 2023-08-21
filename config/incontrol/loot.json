@@ -130,28 +130,32 @@
 		"itemcount": "2/3/4"
 	},
 	{
-		"mob": "mutationcraft:assimilated_jockey",
+		"mob": ["mutationcraft:assimilated_jockey",
+				"mutationcraft:reductor"],
 		"player": true,
 		"random" : 0.2,
 		"item": "contenttweaker:rubber",
 		"itemcount": "1/2/3"
 	},
 	{
-		"mob": "mutationcraft:assimilated_jockey",
+		"mob": ["mutationcraft:assimilated_jockey",
+				"mutationcraft:reductor"],
 		"player": true,
 		"random" : 0.4,
 		"item": "minecraft:gunpowder",
 		"itemcount": "4/5/6"
 	},
 	{
-		"mob": "mutationcraft:assimilated_jockey",
+		"mob": ["mutationcraft:assimilated_jockey",
+				"mutationcraft:reductor"],
 		"player": true,
 		"random" : 0.4,
 		"item": "additionalguns:bullet_medium",
 		"itemcount": "4/6/8"
 	},
 	{
-		"mob": "mutationcraft:assimilated_jockey",
+		"mob": ["mutationcraft:assimilated_jockey",
+				"mutationcraft:reductor"],
 		"player": true,
 		"random" : 0.4,
 		"item": "additionalguns:bullet_heavy",
