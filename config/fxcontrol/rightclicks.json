@@ -4,5 +4,13 @@
 		"block": "minecraft:obsidian",
 		"message": "Nether doesn't exist yet",
 		"result": "deny"
+	},
+	{
+		"block": {
+			"tag": "minecraft:beds"
+		},
+		"biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+		"message": "You can't sleep in wasteland!",
+		"result": "deny"
 	}
 ]
