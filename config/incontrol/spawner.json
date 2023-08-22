@@ -148,8 +148,8 @@
 	},
 	{
 		"mob": "mutationcraft:resenter",
-		"persecond": 0.1,
-		"attempts": 15,
+		"persecond": 0.05,
+		"attempts": 10,
 		"conditions": {
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
