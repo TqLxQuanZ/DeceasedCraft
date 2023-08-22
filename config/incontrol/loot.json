@@ -131,7 +131,8 @@
 	},
 	{
 		"mob": ["mutationcraft:assimilated_jockey",
-				"mutationcraft:reductor"],
+				"mutationcraft:reductor",
+				"mutationcraft:carnivorae"],
 		"player": true,
 		"random" : 0.2,
 		"item": "contenttweaker:rubber",
@@ -149,13 +150,12 @@
 		"mob": ["mutationcraft:assimilated_jockey",
 				"mutationcraft:reductor"],
 		"player": true,
-		"random" : 0.4,
+		"random" : 0.3,
 		"item": "additionalguns:bullet_medium",
 		"itemcount": "1-4/5-6/7-8"
 	},
 	{
-		"mob": ["mutationcraft:assimilated_jockey",
-				"mutationcraft:reductor"],
+		"mob": "mutationcraft:assimilated_jockey",
 		"player": true,
 		"random" : 0.4,
 		"item": "additionalguns:bullet_heavy",
@@ -164,14 +164,12 @@
 	{
 		"mob": "mutationcraft:human_herder",
 		"player": true,
-		"random": 0.3,
 		"item": "contenttweaker:resistant_fabric",
 		"itemcount": "1/1/2"
 	},
 	{
 		"mob": "mutationcraft:human_herder",
 		"player": true,
-		"random": 0.3,
 		"item": "contenttweaker:rubber",
 		"itemcount": "1/1/2"
 	},
@@ -198,14 +196,14 @@
 	{
 		"mob": "mutationcraft:human_herder",
 		"player": true,
-		"random": 0.5,
+		"random": 0.75,
 		"item": "additionalguns:bullet_small",
 		"itemcount": "16-19/20-23/24-27"
 	},
 	{
 		"mob": "mutationcraft:human_herder",
 		"player": true,
-		"random": 0.5,
+		"random": 0.75,
 		"item": "additionalguns:bullet_short",
 		"itemcount": "16-19/20-23/24-27"
 	},
