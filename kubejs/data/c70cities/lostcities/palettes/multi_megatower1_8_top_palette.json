@@ -1,0 +1,25 @@
+{
+  "name": "multi_megatower1_8_top_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "simplylight:edge_light[waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=west,open=false]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    }
+  ]
+}

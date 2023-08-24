@@ -1,0 +1,66 @@
+{
+  "name": "multi_megatower1_2_floor2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "f",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "g",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:iron_ore"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:emerald_ore"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "k",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "l",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "n",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "name": "multi_megatower1_7_floor4_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "b",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "c",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:gray_wool"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:stone_button[face=floor,facing=east]"
+    },
+    {
+      "char": "i",
+      "block": "cfm:stripped_spruce_kitchen_drawer[facing=east,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "j",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "k",
+      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "l",
+      "block": "another_furniture:gray_stool[waterlogged=false]"
+    },
+    {
+      "char": "m",
+      "block": "embellishcraft:spruce_table[waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "farmersdelight:spruce_cabinet[facing=west,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "o",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "p",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "q",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "r",
+      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "s",
+      "block": "cfm:cyan_cooler[waterlogged=false,facing=east,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "t",
+      "block": "quark:spruce_bookshelf"
+    },
+    {
+      "char": "u",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "x",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=east,open=true]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    },
+    {
+      "char": "B",
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "D",
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+    }
+  ]
+}

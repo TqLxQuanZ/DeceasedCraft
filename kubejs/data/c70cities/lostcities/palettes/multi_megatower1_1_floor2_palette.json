@@ -1,0 +1,110 @@
+{
+  "name": "multi_megatower1_1_floor2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "c",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "d",
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+    },
+    {
+      "char": "e",
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+    },
+    {
+      "char": "f",
+      "block": "biomesoplenty:smooth_white_sandstone"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "j",
+      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "k",
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:spruce_plain_door[hinge=left,half=lower,facing=south,open=false]"
+    },
+    {
+      "char": "m",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "n",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:brown_shulker_box[facing=up]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:iron_ore"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:emerald_ore"
+    },
+    {
+      "char": "r",
+      "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "t",
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:redstone_wall_torch[lit=true,facing=north]"
+    },
+    {
+      "char": "w",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    },
+    {
+      "char": "A",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "B",
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=south]"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "name": "multi_megatower1_4_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:stone_slab[waterlogged=false,type=double]"
+    },
+    {
+      "char": "b",
+      "block": "create:display_link[facing=west]",
+      "tag": {
+        "id": "create:display_link"
+      }
+    },
+    {
+      "char": "c",
+      "block": "create:redstone_contact[facing=north]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:observer[facing=south]"
+    },
+    {
+      "char": "g",
+      "block": "immersivepetroleum:asphalt_stair[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "h",
+      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:yellow_corrugated_metal_plate_pressure_plate"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:observer[facing=north]"
+    },
+    {
+      "char": "k",
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:spruce_wooden_crate"
+    },
+    {
+      "char": "m",
+      "block": "apocalypsenow:iron_locker[facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:moss_block"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "p",
+      "block": "quark:potato_crate"
+    },
+    {
+      "char": "q",
+      "block": "quark:carrot_crate"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:tnt"
+    },
+    {
+      "char": "s",
+      "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
+    },
+    {
+      "char": "t",
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "u",
+      "block": "quark:iron_button[face=wall,facing=south]"
+    },
+    {
+      "char": "w",
+      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=south,open=false]"
+    },
+    {
+      "char": "x",
+      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=south,open=false]"
+    },
+    {
+      "char": "y",
+      "block": "quark:golden_apple_crate"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:glowstone"
+    },
+    {
+      "char": "B",
+      "block": "embellishcraft:black_corrugated_metal_plate_pressure_plate"
+    },
+    {
+      "char": "C",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "E",
+      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "F",
+      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "I",
+      "block": "quark:apple_crate"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "K",
+      "block": "create:nixie_tube[waterlogged=false,double_face=ceiling,facing=east]",
+      "tag": {
+        "id": "create:nixie_tube"
+      }
+    },
+    {
+      "char": "L",
+      "block": "minecraft:stone_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "M",
+      "block": "embellishcraft:marble_button[face=floor,facing=south]"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "O",
+      "block": "simplylight:illuminant_block"
+    },
+    {
+      "char": "P",
+      "block": "simplylight:illuminant_block_on"
+    },
+    {
+      "char": "Q",
+      "block": "embellishcraft:marble_button[face=floor,facing=west]"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "name": "multi_megatower1_7_floor2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "b",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "c",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "create:fluid_pipe[waterlogged=false,up=true]"
+    },
+    {
+      "char": "h",
+      "block": "create:fluid_pipe[waterlogged=false,up=false]"
+    },
+    {
+      "char": "i",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "j",
+      "block": "create:gearbox[axis=x]",
+      "tag": {
+        "id": "create:gearbox"
+      }
+    },
+    {
+      "char": "k",
+      "block": "create:glass_fluid_pipe[waterlogged=false,axis=z]"
+    },
+    {
+      "char": "l",
+      "block": "create:shaft[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "m",
+      "block": "create:cogwheel[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "n",
+      "block": "create:mechanical_pump[waterlogged=false,facing=south]",
+      "tag": {
+        "id": "create:mechanical_pump"
+      }
+    },
+    {
+      "char": "o",
+      "block": "create:fluid_tank[top=false,shape=window_nw]"
+    },
+    {
+      "char": "p",
+      "block": "create:fluid_tank[top=false,shape=window_ne]"
+    },
+    {
+      "char": "q",
+      "block": "create:fluid_tank[top=false,shape=window_sw]"
+    },
+    {
+      "char": "r",
+      "block": "create:fluid_tank[top=false,shape=window_se]"
+    },
+    {
+      "char": "s",
+      "block": "create:mechanical_pump[waterlogged=false,facing=down]",
+      "tag": {
+        "id": "create:mechanical_pump"
+      }
+    },
+    {
+      "char": "t",
+      "block": "create:cogwheel[waterlogged=false,axis=y]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "u",
+      "block": "create:andesite_encased_cogwheel[top_shaft=false,axis=y]"
+    },
+    {
+      "char": "w",
+      "block": "create:fluid_tank[top=true,shape=window_nw]"
+    },
+    {
+      "char": "x",
+      "block": "create:fluid_tank[top=true,shape=window_ne]"
+    },
+    {
+      "char": "y",
+      "block": "create:fluid_tank[top=true,shape=window_sw]"
+    },
+    {
+      "char": "A",
+      "block": "create:fluid_tank[top=true,shape=window_se]"
+    },
+    {
+      "char": "B",
+      "block": "thirst:sand_filter"
+    },
+    {
+      "char": "C",
+      "block": "embellishcraft:yellow_grey_tiles"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "E",
+      "block": "embellishcraft:yellow_grey_tiles_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:sea_lantern"
+    },
+    {
+      "char": "I",
+      "block": "embellishcraft:yellow_grey_tiles_stairs[waterlogged=true,half=bottom,shape=straight,facing=north]"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:water"
+    }
+  ]
+}

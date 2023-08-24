@@ -1,0 +1,99 @@
+{
+  "name": "multi_clubhouse1_5_base1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:basalt_large_bricks"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "c",
+      "block": "cfm:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "d",
+      "block": "embellishcraft:smooth_andesite"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:spruce_leaves"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "i",
+      "block": "create:dark_oak_window_pane[waterlogged=false]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:smooth_andesite_wall[waterlogged=false,up=false]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:spruce_pressure_plate"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:spruce_button[face=floor,facing=south]"
+    },
+    {
+      "char": "m",
+      "block": "quark:spruce_bookshelf"
+    },
+    {
+      "char": "n",
+      "block": "farmersdelight:spruce_cabinet[facing=east,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "o",
+      "block": "another_furniture:white_sofa[waterlogged=false,facing=west,type=left]"
+    },
+    {
+      "char": "p",
+      "block": "farmersdelight:spruce_cabinet[facing=west,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "q",
+      "block": "another_furniture:white_sofa[waterlogged=false,facing=east,type=right]"
+    },
+    {
+      "char": "r",
+      "block": "another_furniture:white_sofa[waterlogged=false,facing=west,type=right]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:spruce_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "t",
+      "block": "another_furniture:white_sofa[waterlogged=false,facing=east,type=left]"
+    },
+    {
+      "char": "u",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "w",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "x",
+      "block": "create:polished_cut_deepslate_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "multi_megatower1_7_base1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "d",
+      "block": "simplylight:illuminant_red_block_on"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:stone_slab[waterlogged=false,type=double]"
+    },
+    {
+      "char": "f",
+      "block": "simplylight:illuminant_lime_block_on"
+    },
+    {
+      "char": "g",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "h",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "j",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "k",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:basalt_button[face=wall,facing=east]"
+    },
+    {
+      "char": "m",
+      "block": "embellishcraft:basalt_button[face=wall,facing=west]"
+    },
+    {
+      "char": "n",
+      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "o",
+      "block": "immersivepetroleum:asphalt_stair[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=false]"
+    }
+  ]
+}

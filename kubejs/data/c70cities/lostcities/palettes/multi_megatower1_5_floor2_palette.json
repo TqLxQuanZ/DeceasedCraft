@@ -1,0 +1,118 @@
+{
+  "name": "multi_megatower1_5_floor2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "c",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "d",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:diamond_ore"
+    },
+    {
+      "char": "h",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "i",
+      "block": "immersiveengineering:treated_fence[waterlogged=false]"
+    },
+    {
+      "char": "j",
+      "block": "create:fluid_pipe[waterlogged=false,up=false]"
+    },
+    {
+      "char": "k",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:emerald_ore"
+    },
+    {
+      "char": "m",
+      "block": "create:fluid_pipe[waterlogged=false,up=true]"
+    },
+    {
+      "char": "n",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "o",
+      "block": "apocalypsenow:safe[facing=west]"
+    },
+    {
+      "char": "p",
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "char": "q",
+      "block": "create:fluid_tank[top=true,shape=window]"
+    },
+    {
+      "char": "r",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "s",
+      "block": "embellishcraft:yellow_grey_tiles_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "u",
+      "block": "embellishcraft:yellow_grey_tiles"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:sea_lantern"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:water"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "B",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "C",
+      "block": "embellishcraft:grid_air_duct[facing=north]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    }
+  ]
+}

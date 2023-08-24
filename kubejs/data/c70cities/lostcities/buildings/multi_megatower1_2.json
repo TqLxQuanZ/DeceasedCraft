@@ -1,0 +1,137 @@
+{
+  "filler": "G",
+  "rubber": " ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "minfloors": 23,
+  "maxfloors": 23,
+  "mincellars": 4,
+  "maxcellars": 4,
+  "preferslonely": 0.9,
+  "parts": [
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "part": "c70cities:multi_megatower1_2_base2",
+      "floor": -4
+    },
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "part": "c70cities:multi_megatower1_2_base1",
+      "range": "-3,-1"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": true,
+      "part": "c70cities:multi_megatower1_2_ground"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_megatower1_2_floor14",
+      "floor": 1
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_megatower1_2_floor13",
+      "floor": 2
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_megatower1_2_floor12",
+      "floor": 3
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_megatower1_2_floor11",
+      "range": "4,10"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_megatower1_2_floor10",
+      "range": "4,10"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_megatower1_2_floor9",
+      "floor": 11
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_megatower1_2_floor8",
+      "floor": 12
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_megatower1_2_floor7",
+      "floor": 13
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_megatower1_2_floor6",
+      "floor": 14
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_megatower1_2_floor5",
+      "floor": 15
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_megatower1_2_floor4",
+      "range": "16,20"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_megatower1_2_floor3",
+      "range": "16,20"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_megatower1_2_floor2",
+      "floor": 21
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_megatower1_2_floor1",
+      "floor": 22
+    },
+    {
+      "top": true,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_megatower1_2_top"
+    }
+  ]
+}

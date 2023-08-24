@@ -1,0 +1,51 @@
+{
+  "name": "multi_megatower1_3_top_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "simplylight:edge_light[waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "c",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "d",
+      "block": "create:gearbox[axis=x]",
+      "tag": {
+        "id": "create:gearbox"
+      }
+    },
+    {
+      "char": "e",
+      "block": "minecraft:cauldron"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "g",
+      "block": "create:shaft[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "h",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=west,open=false]"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "name": "multi_megatower1_8_floor12_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "c",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+    },
+    {
+      "char": "i",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "j",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "k",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "l",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "m",
+      "block": "cfm:cyan_kitchen_counter[facing=south,type=default]"
+    },
+    {
+      "char": "n",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "o",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
+    },
+    {
+      "char": "p",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+    },
+    {
+      "char": "q",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=east,open=true]"
+    },
+    {
+      "char": "r",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=south,open=true]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "t",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    },
+    {
+      "char": "x",
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+    }
+  ]
+}

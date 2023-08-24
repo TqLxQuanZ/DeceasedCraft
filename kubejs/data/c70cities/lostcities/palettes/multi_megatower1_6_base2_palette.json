@@ -1,0 +1,69 @@
+{
+  "name": "multi_megatower1_6_base2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "d",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "e",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:stone_button[face=floor,facing=east]"
+    },
+    {
+      "char": "g",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "h",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:basalt_button[face=wall,facing=south]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:stone_button[face=floor,facing=north]"
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:basalt_button[face=wall,facing=north]"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:basalt_button[face=wall,facing=east]"
+    },
+    {
+      "char": "m",
+      "block": "embellishcraft:basalt_button[face=wall,facing=west]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:redstone_wall_torch[lit=true,facing=north]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:redstone_wall_torch[lit=true,facing=east]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "name": "multi_megatower1_3_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "c",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "g",
+      "block": "create:polished_cut_limestone"
+    },
+    {
+      "char": "h",
+      "block": "quark:calcite_bricks"
+    },
+    {
+      "char": "i",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "j",
+      "block": "create:polished_cut_limestone_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:yellow_grey_tiles"
+    },
+    {
+      "char": "m",
+      "block": "embellishcraft:yellow_grey_tiles_slab[waterlogged=true,type=bottom]"
+    },
+    {
+      "char": "n",
+      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "o",
+      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=right]"
+    },
+    {
+      "char": "p",
+      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=middle]"
+    },
+    {
+      "char": "q",
+      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=left]"
+    },
+    {
+      "char": "r",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "s",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+    },
+    {
+      "char": "u",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:tripwire_hook[attached=false,facing=east]"
+    },
+    {
+      "char": "y",
+      "block": "quark:polished_calcite_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "A",
+      "block": "quark:polished_calcite"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "E",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "F",
+      "block": "create:andesite_bars[waterlogged=false]"
+    }
+  ]
+}

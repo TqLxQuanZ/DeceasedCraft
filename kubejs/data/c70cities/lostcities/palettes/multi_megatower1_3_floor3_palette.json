@@ -1,0 +1,142 @@
+{
+  "name": "multi_megatower1_3_floor3_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "c",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "g",
+      "block": "quark:calcite_bricks"
+    },
+    {
+      "char": "h",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "i",
+      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "j",
+      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=right]"
+    },
+    {
+      "char": "k",
+      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=middle]"
+    },
+    {
+      "char": "l",
+      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=left]"
+    },
+    {
+      "char": "m",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "n",
+      "block": "embellishcraft:spruce_terrace_table[waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "another_furniture:gray_sofa[waterlogged=false,facing=south,type=single]"
+    },
+    {
+      "char": "p",
+      "block": "cfm:stripped_spruce_coffee_table[waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "quark:polished_calcite"
+    },
+    {
+      "char": "r",
+      "block": "cfm:stripped_spruce_kitchen_drawer[facing=west,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "s",
+      "block": "embellishcraft:white_spruce_fancy_bed[part=foot,facing=east,occupied=false]"
+    },
+    {
+      "char": "t",
+      "block": "embellishcraft:white_spruce_fancy_bed[part=head,facing=east,occupied=false]"
+    },
+    {
+      "char": "u",
+      "block": "embellishcraft:white_spruce_fancy_bed[part=head,facing=west,occupied=false]"
+    },
+    {
+      "char": "w",
+      "block": "embellishcraft:white_spruce_fancy_bed[part=foot,facing=west,occupied=false]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:stone_button[face=floor,facing=west]"
+    },
+    {
+      "char": "y",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:tripwire_hook[attached=false,facing=west]"
+    },
+    {
+      "char": "B",
+      "block": "another_furniture:white_lamp[waterlogged=false,lit=false,facing=east]"
+    },
+    {
+      "char": "C",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=north,open=true]"
+    },
+    {
+      "char": "D",
+      "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=south,type=left,open=true]"
+    },
+    {
+      "char": "E",
+      "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=south,type=right,open=true]"
+    },
+    {
+      "char": "F",
+      "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=south,type=left,open=false]"
+    },
+    {
+      "char": "I",
+      "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=south,type=right,open=false]"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:cyan_terracotta"
+    }
+  ]
+}

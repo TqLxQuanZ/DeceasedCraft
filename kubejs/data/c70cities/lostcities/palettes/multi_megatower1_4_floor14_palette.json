@@ -1,0 +1,99 @@
+{
+  "name": "multi_megatower1_4_floor14_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "quark:calcite_bricks"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "c",
+      "block": "create:display_link[facing=west]",
+      "tag": {
+        "id": "create:display_link"
+      }
+    },
+    {
+      "char": "d",
+      "block": "create:redstone_contact[facing=north]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "f",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "g",
+      "block": "embellishcraft:marble_button[face=floor,facing=south]"
+    },
+    {
+      "char": "h",
+      "block": "embellishcraft:marble"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "j",
+      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
+    },
+    {
+      "char": "l",
+      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "m",
+      "block": "quark:iron_button[face=wall,facing=south]"
+    },
+    {
+      "char": "n",
+      "block": "create:framed_glass_door[hinge=right,half=lower,facing=south,open=false]"
+    },
+    {
+      "char": "o",
+      "block": "create:framed_glass_door[hinge=left,half=lower,facing=south,open=false]"
+    },
+    {
+      "char": "p",
+      "block": "quark:brown_stool[waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "embellishcraft:polished_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+    },
+    {
+      "char": "r",
+      "block": "create:framed_glass_door[hinge=right,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "s",
+      "block": "create:framed_glass_door[hinge=left,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "t",
+      "block": "another_furniture:service_bell[waterlogged=false]"
+    },
+    {
+      "char": "u",
+      "block": "create:nixie_tube[waterlogged=false,double_face=ceiling,facing=east]",
+      "tag": {
+        "id": "create:nixie_tube"
+      }
+    },
+    {
+      "char": "w",
+      "block": "simplylight:illuminant_block_on"
+    }
+  ]
+}

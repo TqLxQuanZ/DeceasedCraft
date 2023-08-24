@@ -1,0 +1,154 @@
+{
+  "name": "multi_megatower1_3_floor9_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "c",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "i",
+      "block": "quark:calcite_bricks"
+    },
+    {
+      "char": "j",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "k",
+      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "l",
+      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=right]"
+    },
+    {
+      "char": "m",
+      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=middle]"
+    },
+    {
+      "char": "n",
+      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=left]"
+    },
+    {
+      "char": "o",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:bricks"
+    },
+    {
+      "char": "q",
+      "block": "farmersdelight:stove[lit=true,facing=south]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:smoker[lit=false,facing=south]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:furnace[lit=false,facing=south]"
+    },
+    {
+      "char": "t",
+      "block": "cfm:freezer_light[facing=north,open=false]"
+    },
+    {
+      "char": "u",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "w",
+      "block": "farmersdelight:cooking_pot[waterlogged=false,facing=south,support=none]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:stonecutter[facing=south]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:grindstone[face=floor,facing=north]"
+    },
+    {
+      "char": "A",
+      "block": "cfm:fridge_light[facing=north,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "B",
+      "block": "farmersdelight:cutting_board[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "C",
+      "block": "embellishcraft:grid_air_duct[facing=down]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "F",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "I",
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "J",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "K",
+      "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
+    }
+  ]
+}

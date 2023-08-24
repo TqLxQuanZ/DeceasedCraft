@@ -1,0 +1,99 @@
+{
+  "name": "multi_megatower1_5_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:yellow_grey_tiles"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:water"
+    },
+    {
+      "char": "e",
+      "block": "create:gearbox[axis=y]",
+      "tag": {
+        "id": "create:gearbox"
+      }
+    },
+    {
+      "char": "f",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "g",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "h",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=single]"
+    },
+    {
+      "char": "m",
+      "block": "cfm:stripped_oak_coffee_table[waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "immersiveengineering:conveyor_basic[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "o",
+      "block": "create:contraption_controls[waterlogged=false,facing=west,open=false]",
+      "tag": {
+        "id": "create:contraption_controls"
+      }
+    },
+    {
+      "char": "p",
+      "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "immersiveengineering:concrete_sheet"
+    },
+    {
+      "char": "r",
+      "block": "immersiveengineering:concrete_quarter"
+    },
+    {
+      "char": "s",
+      "block": "create:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    }
+  ]
+}

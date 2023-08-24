@@ -1,0 +1,77 @@
+{
+  "name": "multi_megatower1_2_floor12_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "h",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+    },
+    {
+      "char": "j",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "k",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "l",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "m",
+      "block": "cfm:stone_table[waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "create:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "q",
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    }
+  ]
+}

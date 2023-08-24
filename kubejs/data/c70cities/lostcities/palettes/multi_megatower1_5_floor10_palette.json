@@ -1,0 +1,138 @@
+{
+  "name": "multi_megatower1_5_floor10_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+    },
+    {
+      "char": "f",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "g",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "j",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "cfm:stone_table[waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:polished_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "m",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "n",
+      "block": "embellishcraft:polished_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "o",
+      "block": "cfm:freezer_light[facing=south,open=false]"
+    },
+    {
+      "char": "p",
+      "block": "cfm:cyan_kitchen_counter[facing=south,type=default]"
+    },
+    {
+      "char": "q",
+      "block": "cfm:cyan_kitchen_sink[facing=south]"
+    },
+    {
+      "char": "r",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "s",
+      "block": "cfm:fridge_light[facing=south,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "t",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+    },
+    {
+      "char": "u",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=south,open=true]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "x",
+      "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "y",
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "A",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "B",
+      "block": "create:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "C",
+      "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "I",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    },
+    {
+      "char": "K",
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+    }
+  ]
+}

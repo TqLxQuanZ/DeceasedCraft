@@ -1,0 +1,53 @@
+{
+  "name": "multi_megatower1_2_floor13_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+    },
+    {
+      "char": "g",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "h",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "i",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "j",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+    }
+  ]
+}

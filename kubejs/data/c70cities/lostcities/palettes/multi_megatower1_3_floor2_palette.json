@@ -1,0 +1,168 @@
+{
+  "name": "multi_megatower1_3_floor2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "c",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "g",
+      "block": "quark:calcite_bricks"
+    },
+    {
+      "char": "h",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "i",
+      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "j",
+      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=right]"
+    },
+    {
+      "char": "k",
+      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=middle]"
+    },
+    {
+      "char": "l",
+      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=left]"
+    },
+    {
+      "char": "m",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "n",
+      "block": "immersiveengineering:rs_engineering"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:repeating_command_block[conditional=false,facing=west]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "execute if block ~ ~1 ~1 immersiveengineering:diesel_generator run fill ~ ~1 ~ ~ ~ ~ air"
+      }
+    },
+    {
+      "char": "p",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:wet_sponge"
+    },
+    {
+      "char": "r",
+      "block": "create:fluid_pipe[waterlogged=false,up=true]"
+    },
+    {
+      "char": "s",
+      "block": "create:glass_fluid_pipe[waterlogged=false,axis=x]"
+    },
+    {
+      "char": "t",
+      "block": "immersiveengineering:fluid_pipe[waterlogged=false]"
+    },
+    {
+      "char": "u",
+      "block": "immersiveengineering:generator"
+    },
+    {
+      "char": "w",
+      "block": "clickmachine:auto_clicker[facing=south]",
+      "tag": {
+        "speed_index": 8,
+        "right_click": 1,
+        "inv": {
+          "Size": 1,
+          "Items": [
+            {
+              "Slot": 0,
+              "id": "immersiveengineering:hammer",
+              "Count": 1
+            }
+          ]
+        },
+        "id": "clickmachine:tile"
+      }
+    },
+    {
+      "char": "x",
+      "block": "create:fluid_pipe[waterlogged=false,up=false]"
+    },
+    {
+      "char": "y",
+      "block": "create:mechanical_pump[waterlogged=false,facing=down]",
+      "tag": {
+        "id": "create:mechanical_pump"
+      }
+    },
+    {
+      "char": "A",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "B",
+      "block": "embellishcraft:yellow_grey_tiles"
+    },
+    {
+      "char": "C",
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    {
+      "char": "D",
+      "block": "create:glass_fluid_pipe[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "E",
+      "block": "thirst:sand_filter"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "L",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "M",
+      "block": "embellishcraft:grid_air_duct[facing=south]"
+    }
+  ]
+}

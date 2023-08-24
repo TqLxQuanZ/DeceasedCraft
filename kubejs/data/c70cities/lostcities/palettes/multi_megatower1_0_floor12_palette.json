@@ -1,0 +1,81 @@
+{
+  "name": "multi_megatower1_0_floor12_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "d",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "e",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "k",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "l",
+      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "m",
+      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "n",
+      "block": "biomesoplenty:smooth_white_sandstone"
+    },
+    {
+      "char": "o",
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+    },
+    {
+      "char": "p",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    }
+  ]
+}

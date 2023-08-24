@@ -1,0 +1,53 @@
+{
+  "name": "multi_megatower1_8_floor6_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "cfm:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "d",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:spruce_leaves"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "j",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    }
+  ]
+}

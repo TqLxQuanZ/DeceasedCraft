@@ -1,0 +1,86 @@
+{
+  "name": "multi_megatower1_8_floor5_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "b",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "g",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "h",
+      "block": "cfm:cyan_kitchen_counter[facing=south,type=default]"
+    },
+    {
+      "char": "i",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "j",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "l",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+    },
+    {
+      "char": "m",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=east,open=true]"
+    },
+    {
+      "char": "n",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=south,open=true]"
+    },
+    {
+      "char": "o",
+      "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "r",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    }
+  ]
+}

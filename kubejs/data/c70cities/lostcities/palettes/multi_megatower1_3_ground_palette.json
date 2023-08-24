@@ -1,0 +1,242 @@
+{
+  "name": "multi_megatower1_3_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:dirt_path"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:stone_slab[waterlogged=false,type=double]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "e",
+      "block": "quark:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "quark:spruce_post[waterlogged=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "g",
+      "block": "create:cut_limestone_bricks"
+    },
+    {
+      "char": "h",
+      "block": "create:polished_cut_limestone"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:red_carpet"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:zombie_head[rotation=12]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "l",
+      "block": "createaddition:barbed_wire[facing=east]"
+    },
+    {
+      "char": "m",
+      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:redstone_wire"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:red_nether_brick_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:red_nether_brick_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:dispenser[facing=west]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:moss_block"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:nether_wart_block"
+    },
+    {
+      "char": "t",
+      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:dropper[facing=west]"
+    },
+    {
+      "char": "w",
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:polished_diorite_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+    },
+    {
+      "char": "y",
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "A",
+      "block": "apocalypsenow:iron_locker[facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:infested_mossy_stone_bricks"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:infested_stone_bricks"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:infested_cracked_stone_bricks"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:cauldron"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:stonecutter[facing=north]"
+    },
+    {
+      "char": "I",
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "J",
+      "block": "embellishcraft:spruce_plain_door[hinge=right,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "K",
+      "block": "embellishcraft:oak_table[waterlogged=false]"
+    },
+    {
+      "char": "L",
+      "block": "apocalypsenow:planksc[facing=west]"
+    },
+    {
+      "char": "M",
+      "block": "embellishcraft:oak_terrace_table[waterlogged=false]"
+    },
+    {
+      "char": "N",
+      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "O",
+      "block": "embellishcraft:spruce_wooden_crate"
+    },
+    {
+      "char": "P",
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "Q",
+      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "R",
+      "block": "quark:red_nether_brick_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:observer[facing=west]"
+    },
+    {
+      "char": "T",
+      "block": "quark:red_nether_brick_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "U",
+      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "V",
+      "block": "minecraft:redstone_wall_torch[lit=true,facing=west]"
+    },
+    {
+      "char": "W",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
+    },
+    {
+      "char": "X",
+      "block": "minecraft:bell[facing=south]"
+    },
+    {
+      "char": "Y",
+      "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "Z",
+      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "0",
+      "block": "minecraft:redstone_wall_torch[lit=true,facing=east]"
+    },
+    {
+      "char": "1",
+      "block": "minecraft:brewing_stand"
+    },
+    {
+      "char": "2",
+      "block": "minecraft:tnt"
+    },
+    {
+      "char": "3",
+      "block": "immersiveengineering:lantern[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "4",
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "5",
+      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "6",
+      "block": "minecraft:stone_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "7",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "8",
+      "block": "create:cut_limestone_brick_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "9",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "@",
+      "block": "embellishcraft:marble"
+    }
+  ]
+}

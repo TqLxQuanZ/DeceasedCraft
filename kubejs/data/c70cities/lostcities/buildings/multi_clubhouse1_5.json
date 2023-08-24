@@ -1,0 +1,45 @@
+{
+  "filler": "G",
+  "rubber": " ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "minfloors": 1,
+  "maxfloors": 1,
+  "mincellars": 2,
+  "maxcellars": 2,
+  "preferslonely": 0.7,
+  "parts": [
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "floor": -2,
+      "part": "c70cities:multi_clubhouse1_5_base2"
+    },
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "floor": -1,
+      "part": "c70cities:multi_clubhouse1_5_base1"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": true,
+      "part": "c70cities:multi_clubhouse1_5_ground"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_clubhouse1_5_floor1"
+    },
+    {
+      "top": true,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_clubhouse1_5_top"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "multi_megatower1_2_floor4_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "f",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "g",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "h",
+      "block": "embellishcraft:white_spruce_fancy_bed[part=head,facing=west,occupied=false]"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:white_spruce_fancy_bed[part=foot,facing=west,occupied=false]"
+    },
+    {
+      "char": "j",
+      "block": "cfm:stripped_spruce_coffee_table[waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "l",
+      "block": "another_furniture:white_lamp[waterlogged=false,lit=false,facing=east]"
+    },
+    {
+      "char": "m",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+    },
+    {
+      "char": "n",
+      "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=north,type=right,open=false]"
+    },
+    {
+      "char": "o",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=south,open=true]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    }
+  ]
+}

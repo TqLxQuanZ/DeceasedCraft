@@ -1,0 +1,111 @@
+{
+  "name": "multi_megatower1_4_floor13_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "quark:calcite_bricks"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "c",
+      "block": "create:display_link[facing=west]",
+      "tag": {
+        "id": "create:display_link"
+      }
+    },
+    {
+      "char": "d",
+      "block": "create:redstone_contact[facing=north]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "g",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "h",
+      "block": "embellishcraft:marble"
+    },
+    {
+      "char": "i",
+      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
+    },
+    {
+      "char": "k",
+      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "l",
+      "block": "quark:iron_button[face=wall,facing=south]"
+    },
+    {
+      "char": "m",
+      "block": "create:framed_glass_door[hinge=right,half=lower,facing=south,open=false]"
+    },
+    {
+      "char": "n",
+      "block": "create:framed_glass_door[hinge=left,half=lower,facing=south,open=false]"
+    },
+    {
+      "char": "o",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "p",
+      "block": "cfm:brown_sofa[waterlogged=false,facing=west,type=right]"
+    },
+    {
+      "char": "q",
+      "block": "cfm:brown_sofa[waterlogged=false,facing=west,type=left]"
+    },
+    {
+      "char": "r",
+      "block": "create:polished_cut_dripstone_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "s",
+      "block": "cfm:stripped_oak_coffee_table[waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "create:framed_glass_door[hinge=right,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "u",
+      "block": "create:framed_glass_door[hinge=left,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "w",
+      "block": "quark:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "x",
+      "block": "create:nixie_tube[waterlogged=false,double_face=ceiling,facing=east]",
+      "tag": {
+        "id": "create:nixie_tube"
+      }
+    },
+    {
+      "char": "y",
+      "block": "simplylight:illuminant_block_on"
+    },
+    {
+      "char": "A",
+      "block": "simplylight:illuminant_block"
+    }
+  ]
+}

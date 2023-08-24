@@ -1,0 +1,188 @@
+{
+  "name": "multi_clubhouse1_2_base2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:moss_block"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "d",
+      "block": "embellishcraft:basalt_large_bricks"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:seagrass"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:water"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:conduit[waterlogged=true]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:coarse_dirt"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:stone_slab[waterlogged=false,type=double]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:dirt_path"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:magma_block"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:shroomlight"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:stripped_spruce_log[axis=y]"
+    },
+    {
+      "char": "o",
+      "block": "embellishcraft:smooth_andesite"
+    },
+    {
+      "char": "p",
+      "block": "quark:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "cfm:stripped_spruce_blinds[waterlogged=false,facing=east,open=true]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:light_gray_bed[part=head,facing=west,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "t",
+      "block": "minecraft:light_gray_bed[part=foot,facing=west,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "u",
+      "block": "minecraft:oak_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "w",
+      "block": "cfm:stripped_spruce_blinds[waterlogged=false,facing=west,open=true]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:peony[half=lower]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:oak_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:lily_pad"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:moss_carpet"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:stone_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:flowering_azalea"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:dead_bush"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:azalea"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:tall_grass[half=lower]"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:fern"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:large_fern[half=lower]"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:chest",
+      "loot": "chestloot"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:spruce_leaves"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:peony[half=upper]"
+    },
+    {
+      "char": "P",
+      "block": "another_furniture:spruce_planter_box[attached=false,facing=north,type=right]"
+    },
+    {
+      "char": "Q",
+      "block": "another_furniture:spruce_planter_box[attached=false,facing=north,type=middle]"
+    },
+    {
+      "char": "R",
+      "block": "another_furniture:spruce_planter_box[attached=false,facing=north,type=left]"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:tall_grass[half=upper]"
+    },
+    {
+      "char": "T",
+      "block": "minecraft:large_fern[half=upper]"
+    },
+    {
+      "char": "U",
+      "block": "cfm:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "V",
+      "block": "embellishcraft:smooth_andesite_slab[waterlogged=false,type=bottom]"
+    }
+  ]
+}

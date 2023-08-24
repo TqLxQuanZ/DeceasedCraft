@@ -1,0 +1,103 @@
+{
+  "name": "multi_clubhouse1_8_base1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:basalt_large_bricks"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "c",
+      "block": "cfm:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "d",
+      "block": "embellishcraft:smooth_andesite"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:spruce_leaves"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "h",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "another_furniture:white_tall_stool[waterlogged=false]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:spruce_plain_door[hinge=right,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "k",
+      "block": "cfm:stripped_spruce_kitchen_counter[facing=west,type=default]"
+    },
+    {
+      "char": "l",
+      "block": "cfm:stripped_spruce_kitchen_sink_light[facing=west]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:white_carpet"
+    },
+    {
+      "char": "n",
+      "block": "cfm:andesite_coffee_table[waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "cfm:freezer_light[facing=west,open=false]"
+    },
+    {
+      "char": "p",
+      "block": "quark:spruce_bookshelf"
+    },
+    {
+      "char": "q",
+      "block": "another_furniture:white_sofa[waterlogged=false,facing=west,type=left]"
+    },
+    {
+      "char": "r",
+      "block": "another_furniture:white_sofa[waterlogged=false,facing=west,type=right]"
+    },
+    {
+      "char": "s",
+      "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:polished_andesite_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "u",
+      "block": "cfm:fridge_light[facing=west,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "w",
+      "block": "farmersdelight:spruce_cabinet[facing=west,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "x",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "y",
+      "block": "create:polished_cut_deepslate_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

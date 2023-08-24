@@ -1,0 +1,53 @@
+{
+  "name": "multi_megatower1_5_base1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "c",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=false]"
+    },
+    {
+      "char": "e",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "f",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "g",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "h",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:basalt_button[face=wall,facing=south]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:basalt_button[face=wall,facing=north]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "name": "multi_megatower1_4_floor2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "quark:calcite_bricks"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "c",
+      "block": "create:display_link[facing=west]",
+      "tag": {
+        "id": "create:display_link"
+      }
+    },
+    {
+      "char": "d",
+      "block": "create:redstone_contact[facing=north]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "g",
+      "block": "immersiveengineering:rs_engineering"
+    },
+    {
+      "char": "h",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "immersiveengineering:fluid_pipe[waterlogged=false]"
+    },
+    {
+      "char": "j",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:wet_sponge"
+    },
+    {
+      "char": "l",
+      "block": "create:andesite_casing"
+    },
+    {
+      "char": "m",
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    {
+      "char": "n",
+      "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
+    },
+    {
+      "char": "o",
+      "block": "immersiveengineering:radiator"
+    },
+    {
+      "char": "p",
+      "block": "immersiveengineering:capacitor_hv"
+    },
+    {
+      "char": "q",
+      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "r",
+      "block": "quark:iron_button[face=wall,facing=south]"
+    },
+    {
+      "char": "s",
+      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=south,open=false]"
+    },
+    {
+      "char": "t",
+      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=south,open=false]"
+    },
+    {
+      "char": "u",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "w",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "x",
+      "block": "embellishcraft:warning_steel_door[hinge=right,half=lower,facing=south,open=false]"
+    },
+    {
+      "char": "y",
+      "block": "embellishcraft:warning_steel_door[hinge=left,half=lower,facing=south,open=false]"
+    },
+    {
+      "char": "A",
+      "block": "quark:polished_calcite"
+    },
+    {
+      "char": "B",
+      "block": "create:copper_door[hinge=right,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "C",
+      "block": "create:copper_door[hinge=left,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "D",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "E",
+      "block": "embellishcraft:sturdy_steel_door[hinge=left,half=lower,facing=north,open=false]"
+    },
+    {
+      "char": "F",
+      "block": "embellishcraft:sturdy_steel_door[hinge=left,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:barrel[facing=east,open=false]"
+    },
+    {
+      "char": "J",
+      "block": "immersiveengineering:metal_barrel"
+    },
+    {
+      "char": "K",
+      "block": "embellishcraft:sturdy_steel_door[hinge=right,half=lower,facing=north,open=false]"
+    },
+    {
+      "char": "L",
+      "block": "apocalypsenow:iron_locker[facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:repeating_command_block[conditional=false,facing=north]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "execute if block ~ ~1 ~1 immersiveengineering:tank run fill ~ ~1 ~ ~ ~ ~ air"
+      }
+    },
+    {
+      "char": "N",
+      "block": "minecraft:repeating_command_block[conditional=false,facing=west]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "execute if block ~ ~1 ~1 immersiveengineering:tank run fill ~ ~1 ~ ~ ~ ~ air"
+      }
+    },
+    {
+      "char": "O",
+      "block": "immersiveengineering:treated_fence[waterlogged=false]"
+    },
+    {
+      "char": "P",
+      "block": "create:shaft[waterlogged=false,axis=y]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:emerald_ore"
+    },
+    {
+      "char": "R",
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "char": "S",
+      "block": "create:fluid_pipe[waterlogged=false,up=false]"
+    },
+    {
+      "char": "T",
+      "block": "create:andesite_encased_cogwheel[top_shaft=false,axis=y]"
+    },
+    {
+      "char": "U",
+      "block": "create:fluid_pipe[waterlogged=false,up=true]"
+    },
+    {
+      "char": "V",
+      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "W",
+      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "X",
+      "block": "immersiveengineering:breaker_switch[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "Y",
+      "block": "embellishcraft:warning_steel_door[hinge=right,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "Z",
+      "block": "embellishcraft:warning_steel_door[hinge=left,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "0",
+      "block": "create:copper_door[hinge=right,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "1",
+      "block": "create:copper_door[hinge=left,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "2",
+      "block": "embellishcraft:sturdy_steel_door[hinge=left,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "3",
+      "block": "embellishcraft:sturdy_steel_door[hinge=left,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "4",
+      "block": "embellishcraft:sturdy_steel_door[hinge=right,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "5",
+      "block": "clickmachine:auto_clicker[facing=south]",
+      "tag": {
+        "speed_index": 8,
+        "right_click": 1,
+        "inv": {
+          "Size": 1,
+          "Items": [
+            {
+              "Slot": 0,
+              "id": "immersiveengineering:hammer",
+              "Count": 1
+            }
+          ]
+        },
+        "id": "clickmachine:tile"
+      }
+    },
+    {
+      "char": "6",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "7",
+      "block": "create:nixie_tube[waterlogged=false,double_face=ceiling,facing=east]",
+      "tag": {
+        "id": "create:nixie_tube"
+      }
+    },
+    {
+      "char": "8",
+      "block": "embellishcraft:yellow_grey_tiles_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "9",
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "@",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "#",
+      "block": "minecraft:brown_shulker_box[facing=up]"
+    },
+    {
+      "char": "$",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "%",
+      "block": "embellishcraft:yellow_grey_tiles"
+    },
+    {
+      "char": "^",
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "&",
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "*",
+      "block": "minecraft:water"
+    },
+    {
+      "char": "(",
+      "block": "minecraft:sea_lantern"
+    },
+    {
+      "char": ")",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "+",
+      "block": "simplylight:illuminant_block_on"
+    },
+    {
+      "char": "-",
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "[",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    },
+    {
+      "char": "]",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "{",
+      "block": "embellishcraft:vent_air_duct[facing=north]"
+    },
+    {
+      "char": "}",
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=south]"
+    }
+  ]
+}

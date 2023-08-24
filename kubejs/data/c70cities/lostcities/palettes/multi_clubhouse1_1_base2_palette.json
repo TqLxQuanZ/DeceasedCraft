@@ -1,0 +1,151 @@
+{
+  "name": "multi_clubhouse1_1_base2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:basalt_large_bricks"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:moss_block"
+    },
+    {
+      "char": "d",
+      "block": "embellishcraft:smooth_andesite"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:spruce_plain_door[hinge=left,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "f",
+      "block": "embellishcraft:spruce_plain_door[hinge=right,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "g",
+      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "h",
+      "block": "farmersdelight:spruce_cabinet[facing=west,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "i",
+      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:oak_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "k",
+      "block": "cfm:stripped_spruce_blinds[waterlogged=false,facing=east,open=true]"
+    },
+    {
+      "char": "l",
+      "block": "cfm:stripped_spruce_blinds[waterlogged=false,facing=west,open=true]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:light_gray_bed[part=head,facing=west,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "o",
+      "block": "minecraft:light_gray_bed[part=foot,facing=west,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "p",
+      "block": "minecraft:moss_carpet"
+    },
+    {
+      "char": "q",
+      "block": "quark:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:large_fern[half=lower]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:peony[half=lower]"
+    },
+    {
+      "char": "t",
+      "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "u",
+      "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "w",
+      "block": "farmersdelight:spruce_cabinet[facing=east,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:large_fern[half=upper]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:peony[half=upper]"
+    },
+    {
+      "char": "B",
+      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "C",
+      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:polished_andesite_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+    },
+    {
+      "char": "I",
+      "block": "another_furniture:white_curtain[waterlogged=false,top=true,facing=south,type=left,open=false]",
+      "tag": {
+        "id": "another_furniture:white_curtain"
+      }
+    },
+    {
+      "char": "J",
+      "block": "another_furniture:white_curtain[waterlogged=false,top=true,facing=south,type=right,open=false]",
+      "tag": {
+        "id": "another_furniture:white_curtain"
+      }
+    },
+    {
+      "char": "K",
+      "block": "embellishcraft:smooth_andesite_slab[waterlogged=false,type=bottom]"
+    }
+  ]
+}

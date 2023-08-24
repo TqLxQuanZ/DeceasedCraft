@@ -1,0 +1,123 @@
+{
+  "name": "multi_megatower1_5_floor4_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:stripped_oak_log[axis=y]"
+    },
+    {
+      "char": "c",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "d",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:spruce_fence[waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:stone_button[face=floor,facing=east]"
+    },
+    {
+      "char": "h",
+      "block": "cfm:stripped_spruce_kitchen_drawer[facing=east,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "i",
+      "block": "quark:polished_calcite"
+    },
+    {
+      "char": "j",
+      "block": "cfm:stripped_spruce_kitchen_drawer[facing=west,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:white_spruce_fancy_bed[part=foot,facing=east,occupied=false]"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:white_spruce_fancy_bed[part=head,facing=east,occupied=false]"
+    },
+    {
+      "char": "m",
+      "block": "embellishcraft:white_spruce_fancy_bed[part=head,facing=west,occupied=false]"
+    },
+    {
+      "char": "n",
+      "block": "embellishcraft:white_spruce_fancy_bed[part=foot,facing=west,occupied=false]"
+    },
+    {
+      "char": "o",
+      "block": "another_furniture:gray_sofa[waterlogged=false,facing=north,type=single]"
+    },
+    {
+      "char": "p",
+      "block": "embellishcraft:spruce_terrace_table[waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "cfm:stripped_spruce_coffee_table[waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:tripwire_hook[attached=false,facing=west]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:tripwire_hook[attached=false,facing=east]"
+    },
+    {
+      "char": "u",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+    },
+    {
+      "char": "w",
+      "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=north,type=left,open=false]"
+    },
+    {
+      "char": "x",
+      "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=north,type=right,open=true]"
+    },
+    {
+      "char": "y",
+      "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=north,type=left,open=true]"
+    },
+    {
+      "char": "A",
+      "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=north,type=right,open=false]"
+    },
+    {
+      "char": "B",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=south,open=true]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    }
+  ]
+}

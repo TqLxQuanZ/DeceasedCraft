@@ -1,0 +1,199 @@
+{
+  "name": "multi_megatower1_4_base2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "b",
+      "block": "create:redstone_contact[facing=south]"
+    },
+    {
+      "char": "c",
+      "block": "create:display_link[facing=west]",
+      "tag": {
+        "id": "create:display_link"
+      }
+    },
+    {
+      "char": "d",
+      "block": "create:redstone_contact[facing=north]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "g",
+      "block": "biomesoplenty:smooth_black_sandstone"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:stone_slab[waterlogged=false,type=double]"
+    },
+    {
+      "char": "i",
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "j",
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "k",
+      "block": "create:contraption_controls[waterlogged=false,facing=east,open=false]",
+      "tag": {
+        "id": "create:contraption_controls"
+      }
+    },
+    {
+      "char": "l",
+      "block": "create:framed_glass_door[hinge=left,half=lower,facing=north,open=false]"
+    },
+    {
+      "char": "m",
+      "block": "create:framed_glass_door[hinge=right,half=lower,facing=north,open=false]"
+    },
+    {
+      "char": "n",
+      "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
+    },
+    {
+      "char": "o",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "p",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "q",
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "r",
+      "block": "quark:iron_button[face=wall,facing=south]"
+    },
+    {
+      "char": "s",
+      "block": "embellishcraft:sturdy_white_steel_door[hinge=right,half=lower,facing=south,open=false]"
+    },
+    {
+      "char": "t",
+      "block": "embellishcraft:sturdy_white_steel_door[hinge=left,half=lower,facing=south,open=false]"
+    },
+    {
+      "char": "u",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "w",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:iron_block"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:netherite_block"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:ender_chest[waterlogged=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:cracked_stone_bricks"
+    },
+    {
+      "char": "E",
+      "block": "apocalypsenow:planksb[facing=south]"
+    },
+    {
+      "char": "F",
+      "block": "apocalypsenow:planksc[facing=south]"
+    },
+    {
+      "char": "I",
+      "block": "create:framed_glass_door[hinge=left,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "J",
+      "block": "create:framed_glass_door[hinge=right,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "K",
+      "block": "embellishcraft:sturdy_white_steel_door[hinge=right,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "L",
+      "block": "embellishcraft:sturdy_white_steel_door[hinge=left,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:wither_skeleton_skull[rotation=8]"
+    },
+    {
+      "char": "N",
+      "block": "immersivepetroleum:asphalt_stair[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "O",
+      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "P",
+      "block": "apocalypsenow:planks_a[facing=south]"
+    },
+    {
+      "char": "Q",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=north,open=true]"
+    },
+    {
+      "char": "R",
+      "block": "create:nixie_tube[waterlogged=false,double_face=ceiling,facing=east]",
+      "tag": {
+        "id": "create:nixie_tube"
+      }
+    },
+    {
+      "char": "S",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "T",
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "U",
+      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "V",
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "W",
+      "block": "simplylight:illuminant_block"
+    },
+    {
+      "char": "X",
+      "block": "embellishcraft:polished_basalt"
+    }
+  ]
+}
