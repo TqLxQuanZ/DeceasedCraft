@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:redstone_lamp[lit=false]"
+      "block": "minecraft:redstone_lamp[lit=true]"
     },
     {
       "char": "e",
@@ -43,22 +43,14 @@
     },
     {
       "char": "k",
-      "block": "minecraft:fern"
-    },
-    {
-      "char": "l",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "m",
+      "char": "l",
       "block": "minecraft:daylight_detector"
     },
     {
-      "char": "n",
-      "block": "minecraft:grass"
-    },
-    {
-      "char": "o",
+      "char": "m",
       "block": "minecraft:dead_bush"
     }
   ]

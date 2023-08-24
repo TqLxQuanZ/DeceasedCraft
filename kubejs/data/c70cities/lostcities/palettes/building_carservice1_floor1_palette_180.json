@@ -59,7 +59,10 @@
     },
     {
       "char": "o",
-      "block": "create:gearbox[axis=y]"
+      "block": "create:gearbox[axis=y]",
+      "tag": {
+        "id": "create:gearbox"
+      }
     },
     {
       "char": "p",

@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:redstone_lamp[lit=false]"
+      "block": "minecraft:redstone_lamp[lit=true]"
     },
     {
       "char": "e",
@@ -43,58 +43,50 @@
     },
     {
       "char": "k",
-      "block": "minecraft:grass"
-    },
-    {
-      "char": "l",
       "block": "minecraft:daylight_detector"
     },
     {
-      "char": "m",
+      "char": "l",
       "block": "minecraft:dead_bush"
     },
     {
-      "char": "n",
+      "char": "m",
       "block": "minecraft:flowering_azalea"
     },
     {
-      "char": "o",
+      "char": "n",
       "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
     },
     {
-      "char": "p",
+      "char": "o",
       "block": "minecraft:smooth_stone"
     },
     {
-      "char": "q",
+      "char": "p",
       "block": "minecraft:oak_sapling"
     },
     {
-      "char": "r",
+      "char": "q",
       "block": "cfm:oak_park_bench[waterlogged=false,facing=north,type=left]"
     },
     {
-      "char": "s",
+      "char": "r",
       "block": "cfm:oak_park_bench[waterlogged=false,facing=north,type=right]"
     },
     {
-      "char": "t",
+      "char": "s",
       "block": "minecraft:dark_oak_leaves"
     },
     {
-      "char": "u",
-      "block": "minecraft:fern"
-    },
-    {
-      "char": "w",
+      "char": "t",
       "block": "create:cut_calcite_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "x",
+      "char": "u",
       "block": "minecraft:polished_deepslate_wall[waterlogged=false,up=true]"
     },
     {
-      "char": "y",
+      "char": "w",
       "block": "minecraft:polished_deepslate_slab[waterlogged=false,type=bottom]"
     }
   ]

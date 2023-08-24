@@ -59,33 +59,23 @@
     },
     {
       "char": "o",
-      "block": "arsenals_of_the_apocalypse:medical_storage[facing=south]",
+      "block": "arsenals_of_the_apocalypse:medical_storage",
       "loot": "chestloot"
     },
     {
       "char": "p",
-      "block": "arsenals_of_the_apocalypse:medical_storage[facing=west]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "q",
-      "block": "arsenals_of_the_apocalypse:medical_storage[facing=north]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "r",
       "block": "embellishcraft:light_gray_pillow[waterlogged=false,part=head,facing=south,occupied=false]"
     },
     {
-      "char": "s",
+      "char": "q",
       "block": "create:framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "t",
+      "char": "r",
       "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "u",
+      "char": "s",
       "block": "embellishcraft:damaged_paving_slab[waterlogged=false,type=top]"
     }
   ]
