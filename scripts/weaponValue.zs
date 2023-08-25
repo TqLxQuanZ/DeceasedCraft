@@ -64,11 +64,18 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:apocalypsenow:night_stick>.maxDamage = 600;
 
  
+<item:apocalypsenow:electric_baton>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:electric_baton>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:electric_baton>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:electric_baton>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.4, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:electric_baton>.maxDamage = 1150;
+
+ 
 <item:apocalypsenow:sledge_hammer>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:sledge_hammer>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 7.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:sledge_hammer>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 10.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:sledge_hammer>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:sledge_hammer>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:sledge_hammer>.maxDamage = 356;
+<item:apocalypsenow:sledge_hammer>.maxDamage = 945;
 
  
 <item:immersiveengineering:screwdriver>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -502,7 +509,7 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:apocalypsenow:dagger>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:dagger>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:dagger>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -0.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:dagger>.maxDamage = 452;
+<item:apocalypsenow:dagger>.maxDamage = 789;
 
  
 <item:apocalypsenow:club>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);

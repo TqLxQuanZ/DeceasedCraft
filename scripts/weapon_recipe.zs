@@ -364,6 +364,11 @@ craftingTable.addShapedMirrored("night_stick", <constant:minecraft:mirroraxis:ho
     [[<item:minecraft:air>, <tag:items:forge:rods/steel>],
 	[<tag:items:forge:rods/steel>, <item:minecraft:air>]]);
     
+craftingTable.remove(<item:apocalypsenow:electric_baton>);
+craftingTable.addShapedMirrored("electric_baton", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:electric_baton>,
+    [[<item:contenttweaker:high_carbon_steel_alloy>, <item:immersiveengineering:component_electronic>],
+	[<tag:items:forge:wires/copper>, <item:car:battery>]]);
+    
 craftingTable.remove(<item:apocalypsenow:scissors>);
 craftingTable.addShapedMirrored("scissors", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:scissors>,
     [[<item:minecraft:air>, <tag:items:forge:nuggets/iron>],
