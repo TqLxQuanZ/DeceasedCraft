@@ -2,6 +2,7 @@
     {
       "phase": "after_day1",
       "hostile": true,
+      "onjoin": true,
       "result": "deny"
     },
     {
@@ -700,6 +701,7 @@
     {
       "mod": "undead_revamp2",
       "dimension": "minecraft:overworld",
+      "onjoin": true,
       "result": "deny"
     }
 ]
