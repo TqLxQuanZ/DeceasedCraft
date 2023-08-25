@@ -45,7 +45,7 @@ craftingTable.addShapeless("electric_club", <item:apocalypsenow:electric_club>,
 // Hammer
 craftingTable.remove(<item:apocalypsenow:sledge_hammer>);
 craftingTable.addShapedMirrored("sledge_hammer", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:sledge_hammer>,
-    [[<item:minecraft:air>, <tag:items:forge:storage_blocks/iron>, <item:minecraft:air>],
+    [[<item:minecraft:air>, <tag:items:forge:storage_blocks/steel>, <item:minecraft:air>],
     [<item:minecraft:air>, <tag:items:minecraft:planks>, <item:minecraft:air>],
 	[<item:minecraft:air>, <tag:items:minecraft:planks>, <item:minecraft:air>]]);
 
