@@ -514,23 +514,16 @@
       "speedmultiply": 2.0
     },
     {
-      "mob": "mutationcraft:rotten_skeleton",
+      "mob": "mutationcraft:the_intoxicator",
       "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
       "minlight": 0,
       "maxlight": 6, 
-      "instreet": true,
       "seesky": true,
       "onjoin": true,
-      "result": "allow"
-    },
-    {
-      "mob": "mutationcraft:the_intoxicator",
-      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
-      "onjoin": true,
+      "instreet": true,
       "nodespawn": true,
-      "result": "default",
-      "healthadd": 500.0,
-      "potion": "minecraft:regeneration,200,254"
+      "healthadd": 550.0,
+      "result": "allow"
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -569,7 +562,7 @@
       "hostile": true,
       "dimension": "minecraft:overworld",
       "mincount": {
-        "amount": 200,
+        "amount": 250,
         "hostile": true,
         "perchunk": true
       },
@@ -578,15 +571,9 @@
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "dimension": "minecraft:overworld",
-        "baby": true,
-        "result": "deny"
-    },
-    {
-        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
-        "dimension": "minecraft:overworld",
         "mincount": {
           "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
-          "amount": 10,
+          "amount": 20,
           "perchunk": true
         },
         "result": "deny"
@@ -612,19 +599,51 @@
       "result": "deny"
     },
     {
-      "mob": "minecraft:blaze",
-      "dimension": "minecraft:overworld",
-      "result": "deny"
-    },
-    {
       "mob": "minecraft:hoglin",
       "dimension": "minecraft:overworld",
       "mincount": {
         "mob": "minecraft:hoglin",
-        "amount": 3,
+        "amount": 10,
         "perchunk": true
       },
       "result": "deny"
+    },
+    {
+        "mod": "alexsmobs",
+        "dimension": "minecraft:overworld",
+        "mincount": {
+          "amount": 20,
+          "mod": "alexsmobs",
+          "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mod": "crittersandcompanions",
+        "dimension": "minecraft:overworld",
+        "mincount": {
+          "amount": 15,
+          "mod": "crittersandcompanions",
+          "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mod": "mutationcraft",
+        "dimension": "minecraft:overworld",
+        "mincount": {
+          "mod": "mutationcraft",
+          "amount": 50,
+          "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
+        "baby": true,
+        "onjoin": true,
+        "result": "deny"
     },
     {
       "mob": "minecraft:hoglin",
@@ -635,22 +654,6 @@
       "mob": "minecraft:spider",
       "dimension": "minecraft:overworld", 
       "seesky": true,
-      "result": "deny"
-    },
-    {
-        "mod": "mutationcraft",
-        "dimension": "minecraft:overworld",
-        "mincount": {
-          "mod": "mutationcraft",
-          "amount": 30,
-          "perchunk": true
-        },
-        "result": "deny"
-    },
-    {
-      "mod": "apocalypsenow",
-      "dimension": "minecraft:overworld",
-      "maxcount": 3,
       "result": "deny"
     },
     {
@@ -693,6 +696,11 @@
       "result": "deny"
     },
     {
+      "mob": "minecraft:blaze",
+      "dimension": "minecraft:overworld",
+      "result": "deny"
+    },
+    {
       "mod": "zombiemobs",
       "dimension": "minecraft:overworld",
       "onjoin": true,
@@ -702,6 +710,16 @@
       "mod": "undead_revamp2",
       "dimension": "minecraft:overworld",
       "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mod": "apocalypsenow",
+      "dimension": "minecraft:overworld",
+      "result": "deny"
+    },
+    {
+      "mod": "artifacts",
+      "dimension": "minecraft:overworld",
       "result": "deny"
     }
 ]

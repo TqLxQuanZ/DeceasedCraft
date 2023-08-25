@@ -1,7 +1,7 @@
 [
 	{
 		"mob": "minecraft:zombie",
-		"persecond": 0.1,
+		"persecond": 0.075,
 		"attempts": 20,
 		"amount": {
 		  "minimum": 1,
@@ -175,13 +175,13 @@
 		}
 	},
 	{
-		"mob": ["mutationcraft:rotten_skeleton"],
-		"persecond": 0.025,
+		"mob": "mutationcraft:the_intoxicator",
+		"persecond": 0.005,
 		"attempts": 10,
 		"conditions": {
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
-		  "mindist": 15,
+		  "mindist": 25,
 		  "maxdist": 200,
 		  "minheight": 45,
 		  "maxheight": 300,
