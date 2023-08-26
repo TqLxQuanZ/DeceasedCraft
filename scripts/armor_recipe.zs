@@ -113,22 +113,22 @@ craftingTable.remove(<item:apocalypsenow:fire_figther_leggings>);
 craftingTable.remove(<item:apocalypsenow:fire_figther_boots>);
 
 craftingTable.addShapedMirrored("t1_fire_figther_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:fire_figther_helmet>,
-    [[<tag:items:forge:string>, <item:cold_sweat:hoglin_hide>, <tag:items:forge:string>],
+    [[<tag:items:forge:string>, <item:apocalypsenow:cloth>, <tag:items:forge:string>],
     [<item:cold_sweat:hoglin_hide>, <item:minecraft:leather_helmet>, <item:cold_sweat:hoglin_hide>]]);
 
 craftingTable.addShaped("t1_fire_figther_chestplate", <item:apocalypsenow:fire_figther_chestplate>,
     [[<item:cold_sweat:hoglin_hide>, <item:minecraft:air>, <item:cold_sweat:hoglin_hide>],
     [<tag:items:forge:string>, <item:minecraft:leather_chestplate>, <tag:items:forge:string>],
-    [<item:cold_sweat:hoglin_hide>, <item:cold_sweat:hoglin_hide>, <item:cold_sweat:hoglin_hide>]]);
+    [<item:cold_sweat:hoglin_hide>, <item:apocalypsenow:cloth>, <item:cold_sweat:hoglin_hide>]]);
 
 craftingTable.addShaped("t1_fire_figther_leggings", <item:apocalypsenow:fire_figther_leggings>,
-    [[<tag:items:forge:string>, <item:cold_sweat:hoglin_hide>, <tag:items:forge:string>],
+    [[<tag:items:forge:string>, <item:apocalypsenow:cloth>, <tag:items:forge:string>],
     [<item:cold_sweat:hoglin_hide>, <item:minecraft:leather_leggings>, <item:cold_sweat:hoglin_hide>],
     [<item:cold_sweat:hoglin_hide>, <item:minecraft:air>, <item:cold_sweat:hoglin_hide>]]);
 
 craftingTable.addShapedMirrored("t1_fire_figther_boots", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:fire_figther_boots>,
     [[<item:cold_sweat:hoglin_hide>, <item:minecraft:leather_boots>, <item:cold_sweat:hoglin_hide>],
-    [<tag:items:forge:string>, <item:minecraft:air>, <tag:items:forge:string>]]);
+    [<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>]]);
 
 // Nurse Set - +2 Max Health
 
@@ -332,6 +332,56 @@ craftingTable.addShapedMirrored("t1_welding_mask_helmet", <constant:minecraft:mi
 #------------------ Tier 2 --------------------------
 #----------------------------------------------------
 #----------------------------------------------------
+
+// Hoglin Set
+craftingTable.remove(<item:cold_sweat:hoglin_headpiece>);
+craftingTable.remove(<item:cold_sweat:hoglin_tunic>);
+craftingTable.remove(<item:cold_sweat:hoglin_trousers>);
+craftingTable.remove(<item:cold_sweat:hoglin_hooves>);
+
+craftingTable.addShapedMirrored("t2_hoglin_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:cold_sweat:hoglin_headpiece>,
+    [[<tag:items:forge:string>, <item:cold_sweat:hoglin_hide>, <tag:items:forge:string>],
+    [<item:cold_sweat:hoglin_hide>, <item:minecraft:leather_helmet>.anyDamage(), <item:cold_sweat:hoglin_hide>]]);
+
+craftingTable.addShaped("t2_hoglin_chestplate", <item:cold_sweat:hoglin_tunic>,
+    [[<item:cold_sweat:hoglin_hide>, <item:minecraft:air>, <item:cold_sweat:hoglin_hide>],
+    [<tag:items:forge:string>, <item:minecraft:leather_chestplate>.anyDamage(), <tag:items:forge:string>],
+    [<item:cold_sweat:hoglin_hide>, <item:cold_sweat:hoglin_hide>, <item:cold_sweat:hoglin_hide>]]);
+
+craftingTable.addShaped("t2_hoglin_leggings", <item:cold_sweat:hoglin_trousers>,
+    [[<tag:items:forge:string>, <item:cold_sweat:hoglin_hide>, <tag:items:forge:string>],
+    [<item:cold_sweat:hoglin_hide>, <item:minecraft:leather_leggings>.anyDamage(), <item:cold_sweat:hoglin_hide>],
+    [<item:cold_sweat:hoglin_hide>, <item:minecraft:air>, <item:cold_sweat:hoglin_hide>]]);
+
+craftingTable.addShapedMirrored("t2_hoglin_boots", <constant:minecraft:mirroraxis:horizontal>, <item:cold_sweat:hoglin_hooves>,
+    [[<item:cold_sweat:hoglin_hide>, <item:minecraft:leather_boots>.anyDamage(), <item:cold_sweat:hoglin_hide>],
+    [<item:cold_sweat:hoglin_hide>, <item:minecraft:air>, <item:cold_sweat:hoglin_hide>]]);
+    
+// Goat Set
+craftingTable.remove(<item:cold_sweat:goat_fur_cap>);
+craftingTable.remove(<item:cold_sweat:goat_fur_parka>);
+craftingTable.remove(<item:cold_sweat:goat_fur_pants>);
+craftingTable.remove(<item:cold_sweat:goat_fur_boots>);
+
+craftingTable.addShapedMirrored("t2_goat_fur_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:cold_sweat:goat_fur_cap>,
+    [[<tag:items:forge:string>, <item:cold_sweat:goat_fur>, <tag:items:forge:string>],
+    [<item:cold_sweat:goat_fur>, <item:minecraft:leather_helmet>.anyDamage(), <item:cold_sweat:goat_fur>]]);
+
+craftingTable.addShaped("t2_goat_fur_chestplate", <item:cold_sweat:goat_fur_parka>,
+    [[<item:cold_sweat:goat_fur>, <item:minecraft:air>, <item:cold_sweat:goat_fur>],
+    [<tag:items:forge:string>, <item:minecraft:leather_chestplate>.anyDamage(), <tag:items:forge:string>],
+    [<item:cold_sweat:goat_fur>, <item:cold_sweat:goat_fur>, <item:cold_sweat:goat_fur>]]);
+
+craftingTable.addShaped("t2_goat_fur_leggings", <item:cold_sweat:goat_fur_pants>,
+    [[<tag:items:forge:string>, <item:cold_sweat:goat_fur>, <tag:items:forge:string>],
+    [<item:cold_sweat:goat_fur>, <item:minecraft:leather_leggings>.anyDamage(), <item:cold_sweat:goat_fur>],
+    [<item:cold_sweat:goat_fur>, <item:minecraft:air>, <item:cold_sweat:goat_fur>]]);
+
+craftingTable.addShapedMirrored("t2_goat_fur_boots", <constant:minecraft:mirroraxis:horizontal>, <item:cold_sweat:goat_fur_boots>,
+    [[<item:cold_sweat:goat_fur>, <item:minecraft:leather_boots>.anyDamage(), <item:cold_sweat:goat_fur>],
+    [<item:cold_sweat:goat_fur>, <item:minecraft:air>, <item:cold_sweat:goat_fur>]]);
+
+// Chain Set
 
 craftingTable.addShapedMirrored("t2_chain_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:minecraft:chainmail_helmet>,
     [[<tag:items:forge:string>, <tag:items:forge:wires/iron>, <tag:items:forge:string>],

@@ -3,6 +3,10 @@ import crafttweaker.api.recipe.BlastFurnaceRecipeManager;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 import mods.jei.JEI;
 
+// Cold Sweats
+craftingTable.remove(<item:cold_sweat:soulspring_lamp>);
+JEI.hideIngredient(<item:cold_sweat:soulspring_lamp>);
+
 // Removing Undead Revamp
 craftingTable.removeByModid("undead_revamp2");
 JEI.hideMod("undead_revamp2");

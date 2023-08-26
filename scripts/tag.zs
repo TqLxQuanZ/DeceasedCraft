@@ -1,4 +1,5 @@
 import crafttweaker.api.tag.MCTag;
+import crafttweaker.api.resource.ResourceLocation;
 
 <tag:blocks:lostcities:lights>.add(<block:minecraft:lantern>);
 <tag:blocks:lostcities:lights>.add(<block:minecraft:soul_lantern>);
@@ -25,3 +26,12 @@ import crafttweaker.api.tag.MCTag;
 <tag:blocks:car:drivable_blocks>.add(<block:immersivepetroleum:asphalt>);
 <tag:blocks:car:drivable_blocks>.add(<block:immersivepetroleum:asphalt_slab>);
 <tag:blocks:car:drivable_blocks>.add(<block:immersivepetroleum:asphalt_stair>);
+
+<tag:blocks:create:seats>.add(<tag:blocks:another_furniture:chairs>);
+<tag:blocks:create:seats>.add(<tag:blocks:another_furniture:sofas>);
+<tag:blocks:create:seats>.add(<tag:blocks:another_furniture:tall_stools>);
+<tag:blocks:create:seats>.add(<tag:blocks:another_furniture:benches>);
+<tag:blocks:create:seats>.add(<tag:blocks:another_furniture:stools>);
+
+<tag:blocks:create:seats>.add(<tag:blocks:embellishcraft:couches>);
+<tag:blocks:create:seats>.add(<tag:blocks:forge:chairs>);
