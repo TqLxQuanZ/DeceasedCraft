@@ -219,6 +219,7 @@ craftingTable.remove(<item:apocalypsenow:nonalcoholic_beer>);
 craftingTable.remove(<item:apocalypsenow:vitamins>);
 craftingTable.remove(<item:apocalypsenow:bloodybandages>);
 craftingTable.remove(<item:apocalypsenow:bloodyrags>);
+craftingTable.remove(<item:apocalypsenow:grenade_belt_chestplate>);
 campfire.removeByName("apocalypsenow:cookedbeenscamp");
 
 
@@ -442,6 +443,7 @@ JEI.hideIngredient(<item:apocalypsenow:nonalcoholic_beer>);
 JEI.hideIngredient(<item:apocalypsenow:vitamins>);
 JEI.hideIngredient(<item:apocalypsenow:bloodybandages>);
 JEI.hideIngredient(<item:apocalypsenow:bloodyrags>);
+JEI.hideIngredient(<item:apocalypsenow:grenade_belt_chestplate>);
 
 craftingTable.remove(<item:apocalypsenow:petrol_barrel>);
 JEI.hideIngredient(<item:apocalypsenow:petrol_barrel>);

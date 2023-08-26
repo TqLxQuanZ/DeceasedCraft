@@ -1,0 +1,28 @@
+{
+  "armorSetName": "Army",
+  "head": {
+    "itemKey": "apocalypsenow:japanese_army_helmet"
+  },
+  "chest": {
+    "itemKey": "apocalypsenow:japanese_army_chestplate"
+  },
+  "legs": {
+    "itemKey": "apocalypsenow:japanese_army_leggings"
+  },
+  "boots": {
+    "itemKey": "apocalypsenow:japanese_army_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 2.0,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "57a83c92-f371-4b1e-9266-cebf06702815",
+      "description": "Grants 2.0 Melee Damage",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

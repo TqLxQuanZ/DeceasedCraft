@@ -27,6 +27,18 @@ craftingTable.addShapeless("string", <item:minecraft:string> * 2, [<tag:items:mi
 // Rotten Flesh to Leather
 furnace.addRecipe("leather", <item:minecraft:leather>, <item:minecraft:rotten_flesh>, 1.0, 100);
 
+// Apocalypse Now
+craftingTable.remove(<item:apocalypsenow:cloth>);
+craftingTable.addShapedMirrored("cloth", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:cloth>,
+    [[<tag:items:minecraft:wool>, <item:minecraft:string>, <tag:items:minecraft:wool>],
+    [<item:immersiveengineering:hemp_fiber>, <item:apocalypsenow:needle>, <item:immersiveengineering:hemp_fiber>],
+    [<tag:items:minecraft:wool>, <item:minecraft:string>, <tag:items:minecraft:wool>]]);
+    
+craftingTable.remove(<item:apocalypsenow:needle>);
+craftingTable.addShapedMirrored("needle", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:needle>,
+    [[<item:minecraft:air>, <tag:items:forge:nuggets/iron>],
+    [<tag:items:forge:nuggets/iron>, <item:minecraft:air>]]);
+
 // Hides
 // Bears
 // <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bear_ashen>);

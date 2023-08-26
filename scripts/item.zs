@@ -28,6 +28,25 @@ craftingTable.addShaped("backpack", <item:backpacked:backpack>,
 	[<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>]]);
 
 
+// Apocalypse Now
+craftingTable.remove(<item:apocalypsenow:medicalkit>);
+craftingTable.addShaped("medicalkit", <item:apocalypsenow:medicalkit>,
+    [[<item:minecraft:air>, <tag:items:forge:plates/aluminum>, <item:minecraft:air>],
+    [<item:firstaid:plaster>, <item:firstaid:bandage>, <item:apocalypsenow:scalpel>],
+	[<item:minecraft:air>, <item:apocalypsenow:scissors>, <item:firstaid:morphine>]]);
+    
+craftingTable.remove(<item:apocalypsenow:suturekit>);
+craftingTable.addShaped("suturekit", <item:apocalypsenow:suturekit>,
+    [[<item:minecraft:string>, <tag:items:forge:plates/aluminum>, <item:apocalypsenow:bloodbag>],
+    [<item:firstaid:plaster>, <item:firstaid:bandage>, <item:apocalypsenow:scalpel>],
+	[<tag:items:minecraft:wool>, <item:apocalypsenow:scissors>, <item:firstaid:morphine>]]);
+
+craftingTable.remove(<item:apocalypsenow:emptybloodbag>);
+craftingTable.addShapedMirrored("emptybloodbag", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:emptybloodbag>,
+    [[<tag:items:forge:plates/plastic>, <item:minecraft:air>, <item:apocalypsenow:needle>],
+    [<item:minecraft:air>, <item:minecraft:string>, <item:minecraft:air>]]);
+
+
 // Ender Pearl
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("ender_pearl")
                                                       .transitionTo(<item:contenttweaker:incomplete_ender_pearl>)

@@ -680,6 +680,34 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:apocalypsenow:russian_army_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
 
  
+<item:apocalypsenow:japanese_army_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:japanese_army_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:japanese_army_helmet>.maxDamage = 363;
+<item:apocalypsenow:japanese_army_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:japanese_army_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+
+ 
+<item:apocalypsenow:japanese_army_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:chest>]);
+<item:apocalypsenow:japanese_army_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 7.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:apocalypsenow:japanese_army_chestplate>.maxDamage = 528;
+<item:apocalypsenow:japanese_army_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:chest>]);
+<item:apocalypsenow:japanese_army_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+
+ 
+<item:apocalypsenow:japanese_army_leggings>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:legs>]);
+<item:apocalypsenow:japanese_army_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:apocalypsenow:japanese_army_leggings>.maxDamage = 495;
+<item:apocalypsenow:japanese_army_leggings>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:legs>]);
+<item:apocalypsenow:japanese_army_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+
+ 
+<item:apocalypsenow:japanese_army_boots>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:feet>]);
+<item:apocalypsenow:japanese_army_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+<item:apocalypsenow:japanese_army_boots>.maxDamage = 429;
+<item:apocalypsenow:japanese_army_boots>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:feet>]);
+<item:apocalypsenow:japanese_army_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+
+ 
 <item:apocalypsenow:un_armor_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
 <item:apocalypsenow:un_armor_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
 <item:apocalypsenow:un_armor_helmet>.maxDamage = 231;
