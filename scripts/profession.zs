@@ -302,15 +302,15 @@ villagerTrades.addTrade(<profession:minecraft:toolsmith>, 5, 17, <item:immersive
 villagerTrades.removeAllTrades(<profession:minecraft:weaponsmith>, 1);
 
 villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 1, <item:minecraft:coal> * 15, <item:apocalypsenow:money>, 16, 2, 0.05);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 1, <item:apocalypsenow:money> * 16, <item:minecraft:sword_steel>, 16, 2, 0.2);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 1, <item:apocalypsenow:money> * 16, <item:minecraft:spear>, 16, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 1, <item:apocalypsenow:money> * 16, <item:immersiveengineering:sword_steel>, 16, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 1, <item:apocalypsenow:money> * 16, <item:apocalypsenow:spear>, 16, 2, 0.2);
 
 // Tier 2
 villagerTrades.removeAllTrades(<profession:minecraft:weaponsmith>, 2);
 
 villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 2, <item:apocalypsenow:money>, <item:minecraft:gunpowder> * 2, 32, 2, 0.05);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 1, <item:apocalypsenow:money> * 16, <item:minecraft:night_stick>, 16, 2, 0.2);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 1, <item:apocalypsenow:money> * 16, <item:minecraft:premium_hammer>, 16, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 1, <item:apocalypsenow:money> * 16, <item:apocalypsenow:night_stick>, 16, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 1, <item:apocalypsenow:money> * 16, <item:apocalypsenow:premium_hammer>, 16, 2, 0.2);
 
 // Tier 3
 villagerTrades.removeAllTrades(<profession:minecraft:weaponsmith>, 3);
