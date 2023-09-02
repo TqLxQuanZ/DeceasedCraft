@@ -600,3 +600,46 @@ villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 7, <item:additi
 villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 24, <item:create:precision_mechanism>, 2, 30);
 villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 7, <item:contenttweaker:rubber>, 4, 30);
 villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 7, <item:immersiveengineering:plate_duroplast>, 4, 30);
+
+
+
+// Gas Station Attendant
+// Tier 1
+villagerTrades.removeAllTrades(<profession:car:gas_station_attendant>, 1);
+
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 1, <item:apocalypsenow:money> * 16, <item:immersivepetroleum:gasoline_bucket>, 16, 4, 0.2);
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 1, <item:apocalypsenow:money> * 3, <item:car:canister>, 16, 4, 0.2);
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 1, <item:apocalypsenow:money> * 3, <item:car:car_workshop>, 16, 4, 0.2);
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 1, <item:apocalypsenow:money> * 3, <item:car:car_workshop_outter>, 16, 4, 0.2);
+
+// Tier 2
+villagerTrades.removeAllTrades(<profession:car:gas_station_attendant>, 2);
+
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 2, <item:apocalypsenow:money_block>, <item:car:wheel>, 6, 8, 0.1);
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 2, <item:apocalypsenow:money_block> * 4, <item:car:small_tank>, 6, 8, 0.1);
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 2, <item:apocalypsenow:money_block> * 6, <item:car:medium_tank>, 6, 8, 0.1);
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 2, <item:apocalypsenow:money_block> * 8, <item:car:large_tank>, 6, 8, 0.1);
+
+// Tier 3
+villagerTrades.removeAllTrades(<profession:car:gas_station_attendant>, 3);
+
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 3, <item:apocalypsenow:money_block>, <item:car:iron_license_plate_holder>, 6, 12, 0.1);
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 3, <item:apocalypsenow:money_block> * 2, <item:car:big_wheel>, 6, 12, 0.1);
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 3, <item:apocalypsenow:money_block> * 4, <item:car:white_tank_container>, 6, 12, 0.1);
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 3, <item:apocalypsenow:money_block> * 4, <item:car:white_container>, 6, 12, 0.1);
+
+// Tier 4
+villagerTrades.removeAllTrades(<profession:car:gas_station_attendant>, 4);
+
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 4, <item:apocalypsenow:money_block>, <item:car:license_plate>, 6, 16, 0.1);
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 4, <item:apocalypsenow:money_block> * 10, <item:car:white_sport_body>, 6, 16, 0.1);
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 4, <item:apocalypsenow:money_block> * 10, <item:car:white_suv_body>, 6, 16, 0.1);
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 4, <item:apocalypsenow:money_block> * 10, <item:car:white_transporter_body>, 6, 16, 0.1);
+
+// Tier 5
+villagerTrades.removeAllTrades(<profession:car:gas_station_attendant>, 5);
+
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 5, <item:apocalypsenow:money_block> * 14, <item:car:engine_3_cylinder>, 16, 2, 0.1);
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 5, <item:apocalypsenow:money_block> * 16, <item:car:engine_6_cylinder>, 16, 2, 0.1);
+villagerTrades.addTrade(<profession:car:gas_station_attendant>, 5, <item:apocalypsenow:money_block> * 18, <item:car:engine_truck>, 16, 2, 0.1);
+
