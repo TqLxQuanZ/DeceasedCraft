@@ -575,6 +575,17 @@
       "result": "deny"
     },
     {
+        "mob": "mutationcraft:necroptor",
+        "dimension": "minecraft:overworld",
+        "mincount": {
+          "mob": "mutationcraft:necroptor",
+          "amount": 20,
+          "perchunk": true
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "dimension": "minecraft:overworld",
         "mincount": {
@@ -583,6 +594,12 @@
           "perchunk": true
         },
         "result": "deny"
+    },
+    {
+      "mob": "minecraft:villager",
+      "dimension": "minecraft:overworld",
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "result": "deny"
     },
     {
       "mob": "minecraft:villager",
