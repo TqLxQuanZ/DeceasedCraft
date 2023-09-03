@@ -207,12 +207,12 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "arsenals_of_the_apocalypse:rolling_pin"
+          "name": "apocalypsenow:rolling_pin"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "arsenals_of_the_apocalypse:kitchen_knife",
+          "name": "apocalypsenow:kitchen_knife",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -226,7 +226,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "arsenals_of_the_apocalypse:knife",
+          "name": "apocalypsenow:knife",
           "functions": [
             {
               "function": "minecraft:set_damage",

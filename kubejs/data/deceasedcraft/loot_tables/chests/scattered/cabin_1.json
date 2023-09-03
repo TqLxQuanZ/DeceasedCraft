@@ -60,7 +60,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "arsenals_of_the_apocalypse:canned_fish",
+          "name": "apocalypsenow:canned_fish",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -75,7 +75,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "arsenals_of_the_apocalypse:canned_pork",
+          "name": "apocalypsenow:canned_pork",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -121,7 +121,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "arsenals_of_the_apocalypse:spear",
+          "name": "apocalypsenow:spear",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -134,7 +134,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "arsenals_of_the_apocalypse:hunting_knife",
+          "name": "apocalypsenow:hunting_knife",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -147,7 +147,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "arsenals_of_the_apocalypse:machete",
+          "name": "apocalypsenow:machete",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -189,7 +189,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "arsenals_of_the_apocalypse:can_opener"
+          "name": "apocalypsenow:can_opener"
         }
       ]
     }

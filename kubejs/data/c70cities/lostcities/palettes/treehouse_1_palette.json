@@ -27,149 +27,137 @@
     },
     {
       "char": "g",
-      "block": "minecraft:grass"
-    },
-    {
-      "char": "h",
-      "block": "minecraft:tall_grass[half=lower]"
-    },
-    {
-      "char": "i",
       "block": "minecraft:oak_fence[waterlogged=false]"
     },
     {
-      "char": "j",
+      "char": "h",
       "block": "minecraft:oak_log[axis=z]"
     },
     {
-      "char": "k",
+      "char": "i",
       "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
-      "char": "l",
+      "char": "j",
       "block": "minecraft:oak_button[face=floor,facing=north]"
     },
     {
-      "char": "m",
+      "char": "k",
       "block": "minecraft:oak_button[face=floor,facing=west]"
     },
     {
-      "char": "n",
+      "char": "l",
       "block": "minecraft:composter"
     },
     {
-      "char": "o",
+      "char": "m",
       "block": "minecraft:ladder[waterlogged=false,facing=south]"
     },
     {
-      "char": "p",
+      "char": "n",
       "block": "minecraft:oak_button[face=floor,facing=east]"
     },
     {
-      "char": "q",
-      "block": "minecraft:tall_grass[half=upper]"
-    },
-    {
-      "char": "r",
+      "char": "o",
       "block": "minecraft:stone_brick_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
-      "char": "s",
+      "char": "p",
       "block": "minecraft:stone_brick_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "t",
+      "char": "q",
       "block": "minecraft:stone_brick_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
     },
     {
-      "char": "u",
+      "char": "r",
       "block": "minecraft:stone_brick_slab[waterlogged=false,type=double]"
     },
     {
-      "char": "w",
+      "char": "s",
       "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
     },
     {
-      "char": "x",
+      "char": "t",
       "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "y",
+      "char": "u",
       "block": "minecraft:furnace[lit=false,facing=west]"
     },
     {
-      "char": "A",
+      "char": "w",
       "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
     },
     {
-      "char": "B",
+      "char": "x",
       "block": "minecraft:smoker[lit=false,facing=west]"
     },
     {
-      "char": "C",
+      "char": "y",
       "block": "minecraft:crafting_table"
     },
     {
-      "char": "D",
+      "char": "A",
       "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
     },
     {
-      "char": "E",
+      "char": "B",
       "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=west,open=true]"
     },
     {
-      "char": "F",
+      "char": "C",
       "block": "minecraft:chest",
       "loot": "chestloot"
     },
     {
-      "char": "I",
+      "char": "D",
       "block": "minecraft:potted_oak_sapling"
     },
     {
-      "char": "J",
+      "char": "E",
       "block": "minecraft:oak_log[axis=x]"
     },
     {
-      "char": "K",
+      "char": "F",
       "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
-      "char": "L",
+      "char": "I",
       "block": "minecraft:lantern[waterlogged=false,hanging=true]"
     },
     {
-      "char": "M",
+      "char": "J",
       "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
-      "char": "N",
+      "char": "K",
       "block": "minecraft:oak_leaves"
     },
     {
-      "char": "O",
+      "char": "L",
       "block": "minecraft:oak_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "P",
+      "char": "M",
       "block": "minecraft:brown_bed[part=head,facing=north,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "Q",
+      "char": "N",
       "block": "minecraft:brown_bed[part=foot,facing=north,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "R",
+      "char": "O",
       "block": "minecraft:cobweb"
     },
     {
-      "char": "S",
+      "char": "P",
       "block": "hardcore_torches:unlit_lantern[waterlogged=false,hanging=false]"
     }
   ]

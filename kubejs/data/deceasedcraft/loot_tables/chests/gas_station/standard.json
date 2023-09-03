@@ -132,7 +132,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "minecraft:emerald",
+          "name": "apocalypsenow:money",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -227,7 +227,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "arsenals_of_the_apocalypse:crowbar",
+          "name": "apocalypsenow:crowbar",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -241,12 +241,12 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "arsenals_of_the_apocalypse:premiun_hammer"
+          "name": "apocalypsenow:premium_hammer"
         },
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "arsenals_of_the_apocalypse:fire_axe"
+          "name": "apocalypsenow:fire_axe"
         }
       ]
     }

@@ -35,7 +35,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "minecraft:emerald",
+          "name": "apocalypsenow:money",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -228,12 +228,12 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "arsenals_of_the_apocalypse:iron_baseball_bat"
+          "name": "apocalypsenow:iron_baseball_bat"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "arsenals_of_the_apocalypse:combat_knife",
+          "name": "apocalypsenow:combat_knife",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -247,12 +247,12 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "arsenals_of_the_apocalypse:club"
+          "name": "apocalypsenow:club"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "arsenals_of_the_apocalypse:baseball_bat"
+          "name": "apocalypsenow:baseball_bat"
         }
       ]
     }

@@ -13,21 +13,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:potion",
-          "functions": [
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:healing"
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              },
-              "add": false
-            }
-          ]
+          "weight": 5,
+          "name": "apocalypsenow:medicalkit"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "apocalypsenow:suturekit"
         }
       ]
     },
@@ -109,22 +101,22 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "arsenals_of_the_apocalypse:hazmat_suit_helmet",
+          "name": "apocalypsenow:hazmat_suit_helmet",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.4
+              "chance": 0.25
             }
           ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "arsenals_of_the_apocalypse:gas_mask_helmet",
+          "name": "apocalypsenow:gasmask_helmet",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.4
+              "chance": 0.25
             }
           ]
         }

@@ -31,157 +31,145 @@
     },
     {
       "char": "h",
-      "block": "minecraft:grass"
-    },
-    {
-      "char": "i",
       "block": "minecraft:oak_fence[waterlogged=false]"
     },
     {
-      "char": "j",
+      "char": "i",
       "block": "cfm:oak_hedge[waterlogged=false]"
     },
     {
-      "char": "k",
+      "char": "j",
       "block": "quark:stripped_oak_post[waterlogged=false,chain_up=false,axis=y]"
     },
     {
-      "char": "l",
+      "char": "k",
       "block": "minecraft:smooth_quartz"
     },
     {
-      "char": "m",
+      "char": "l",
       "block": "embellishcraft:oak_plain_door[hinge=left,half=lower,facing=north,open=false]"
     },
     {
-      "char": "n",
+      "char": "m",
       "block": "create:mechanical_pump[waterlogged=false,facing=up]",
       "tag": {
         "id": "create:mechanical_pump"
       }
     },
     {
-      "char": "o",
+      "char": "n",
       "block": "create:cogwheel[waterlogged=false,axis=y]",
       "tag": {
         "id": "create:cogwheel"
       }
     },
     {
-      "char": "p",
+      "char": "o",
       "block": "create:mechanical_pump[waterlogged=false,facing=down]",
       "tag": {
         "id": "create:mechanical_pump"
       }
     },
     {
-      "char": "q",
+      "char": "p",
       "block": "create:framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "r",
+      "char": "q",
       "block": "create:depot[waterlogged=false]"
     },
     {
-      "char": "s",
+      "char": "r",
       "block": "embellishcraft:oak_plain_door[hinge=right,half=lower,facing=south,open=false]"
     },
     {
-      "char": "t",
+      "char": "s",
       "block": "minecraft:oak_fence_gate[facing=east,open=false]"
     },
     {
-      "char": "u",
+      "char": "t",
       "block": "minecraft:hay_block[axis=z]"
     },
     {
-      "char": "w",
+      "char": "u",
       "block": "minecraft:hay_block[axis=y]"
     },
     {
-      "char": "x",
+      "char": "w",
       "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=right]"
     },
     {
-      "char": "y",
+      "char": "x",
       "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=left]"
     },
     {
-      "char": "A",
-      "block": "minecraft:tall_grass[half=lower]"
-    },
-    {
-      "char": "B",
+      "char": "y",
       "block": "minecraft:cornflower"
     },
     {
-      "char": "C",
+      "char": "A",
       "block": "embellishcraft:oak_plain_door[hinge=left,half=upper,facing=north,open=false]"
     },
     {
-      "char": "D",
+      "char": "B",
       "block": "create:sand_filter"
     },
     {
-      "char": "E",
+      "char": "C",
       "block": "create:hand_crank[waterlogged=false,facing=up]",
       "tag": {
         "id": "create:hand_crank"
       }
     },
     {
-      "char": "F",
+      "char": "D",
       "block": "embellishcraft:oak_plain_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
-      "char": "I",
-      "block": "minecraft:tall_grass[half=upper]"
-    },
-    {
-      "char": "J",
+      "char": "E",
       "block": "minecraft:oak_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "K",
+      "char": "F",
       "block": "create:fluid_pipe[waterlogged=false,up=false]"
     },
     {
-      "char": "L",
+      "char": "I",
       "block": "create:spout",
       "tag": {
         "id": "create:spout"
       }
     },
     {
-      "char": "M",
+      "char": "J",
       "block": "minecraft:polished_andesite_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "N",
+      "char": "K",
       "block": "minecraft:polished_deepslate_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "O",
+      "char": "L",
       "block": "minecraft:stone"
     },
     {
-      "char": "P",
+      "char": "M",
       "block": "minecraft:stone_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "Q",
+      "char": "N",
       "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
-      "char": "R",
+      "char": "O",
       "block": "minecraft:polished_andesite_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "S",
+      "char": "P",
       "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
-      "char": "T",
+      "char": "Q",
       "block": "minecraft:stone_slab[waterlogged=false,type=bottom]"
     }
   ]

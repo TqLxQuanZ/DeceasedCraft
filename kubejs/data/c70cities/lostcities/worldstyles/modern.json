@@ -104,6 +104,16 @@
         }
       },
       {
+        "name": "c70cities:seahouse_1",
+        "weight": 3,
+        "maxheightdiff": 100,
+        "biomes": {
+          "if_any": [
+            "#minecraft:is_ocean"
+          ]
+        }
+      },
+      {
         "name": "c70cities:cabin_3",
         "weight": 10,
         "maxheightdiff": 2,
