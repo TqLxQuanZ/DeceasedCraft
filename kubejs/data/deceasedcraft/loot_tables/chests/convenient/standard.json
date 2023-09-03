@@ -28,8 +28,23 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 3,
           "name": "firstaid:bandage",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              },
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "firstaid:plaster",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -67,6 +82,11 @@
           "type": "minecraft:item",
           "weight": 5,
           "name": "minecraft:flint_and_steel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "apocalypsenow:money"
         }
       ]
     },
@@ -125,7 +145,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 7,
+          "weight": 8,
           "name": "minecraft:torch",
           "functions": [
             {
@@ -140,7 +160,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 8,
           "name": "minecraft:glowstone_dust",
           "functions": [
             {
@@ -156,15 +176,33 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "firstaid:bandage",
-          "functions": [
+          "name": "apocalypsenow:tourist_axe",
+          "conditions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              },
-              "add": true
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "apocalypsenow:hand_axe",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "apocalypsenow:survival_axe",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
             }
           ]
         }

@@ -236,17 +236,57 @@
                 "max": 0.7
               }
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
           ]
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "apocalypsenow:premium_hammer"
+          "name": "apocalypsenow:premium_hammer",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "apocalypsenow:fire_axe"
+          "name": "apocalypsenow:fire_axe",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "apocalypsenow:hand_axe",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "apocalypsenow:emergency_axe",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
         }
       ]
     }

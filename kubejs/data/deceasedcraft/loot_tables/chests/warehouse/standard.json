@@ -11,22 +11,6 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "immersiveengineering:stick_treated",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 7
-              },
-              "add": true
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
           "name": "immersiveengineering:stick_iron",
           "functions": [
             {
@@ -253,8 +237,8 @@
             {
               "function": "minecraft:set_damage",
               "damage": {
-                "min": 100,
-                "max": 350
+                "min": 0.6,
+                "max": 0.9
               }
             }
           ]
@@ -267,8 +251,36 @@
             {
               "function": "minecraft:set_damage",
               "damage": {
-                "min": 230,
-                "max": 560
+                "min": 0.6,
+                "max": 0.9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "apocalypsenow:construction_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.6,
+                "max": 0.9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "apocalypsenow:construction_shovel",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.6,
+                "max": 0.9
               }
             }
           ]

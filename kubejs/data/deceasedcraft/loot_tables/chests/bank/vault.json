@@ -3,7 +3,7 @@
   "pools": [
     {
       "rolls": {
-        "min": 3,
+        "min": 2,
         "max": 5
       },
       "bonus_rolls": {
@@ -11,21 +11,6 @@
         "max": 2
       },
       "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:iron_ingot",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 4
-              },
-              "add": true
-            }
-          ]
-        },
         {
           "type": "minecraft:item",
           "weight": 10,
@@ -48,8 +33,38 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 4
+              },
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 3,
           "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "apocalypsenow:money_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              },
+              "add": true
+            }
+          ]
         }
       ]
     },
@@ -63,32 +78,68 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "artifacts:cross_necklace"
+          "name": "artifacts:cross_necklace",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "artifacts:panic_necklace"
+          "name": "artifacts:panic_necklace",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "artifacts:shock_pendant"
+          "name": "artifacts:shock_pendant",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "artifacts:flame_pendant"
+          "name": "artifacts:flame_pendant",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "artifacts:thorn_pendant"
+          "name": "artifacts:thorn_pendant",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "artifacts:charm_of_sinking"
+          "name": "artifacts:charm_of_sinking",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
         }
       ]
     }

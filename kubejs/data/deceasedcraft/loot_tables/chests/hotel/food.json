@@ -123,19 +123,43 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 4,
           "name": "farmersdelight:fried_rice"
         },
         {
           "type": "minecraft:item",
+          "weight": 4,
           "name": "farmersdelight:fish_stew"
         },
         {
           "type": "minecraft:item",
+          "weight": 4,
           "name": "farmersdelight:chicken_soup"
         },
         {
           "type": "minecraft:item",
+          "weight": 4,
           "name": "farmersdelight:beef_stew"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "farmersdelight:stuffed_pumpkin_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "farmersdelight:shepherds_pie_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "farmersdelight:honey_glazed_ham_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "farmersdelight:roast_chicken_block"
         }
       ]
     },

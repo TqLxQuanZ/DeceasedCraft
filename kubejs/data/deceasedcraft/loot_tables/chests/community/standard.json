@@ -3,7 +3,7 @@
   "pools": [
     {
       "rolls": {
-        "min": 1,
+        "min": 0,
         "max": 3
       },
       "bonus_rolls": 1,
@@ -125,27 +125,57 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "artifacts:vampiric_glove"
+          "name": "artifacts:vampiric_glove",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "artifacts:digging_claws"
+          "name": "artifacts:digging_claws",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "artifacts:feral_claws"
+          "name": "artifacts:feral_claws",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "artifacts:power_glove"
+          "name": "artifacts:power_glove",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "artifacts:fire_gauntlet"
+          "name": "artifacts:fire_gauntlet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         }
       ]
     },
@@ -159,33 +189,52 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "artifacts:villager_hat"
+          "name": "artifacts:villager_hat",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "artifacts:obsidian_skull"
+          "name": "artifacts:obsidian_skull",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "artifacts:golden_hook"
+          "name": "artifacts:golden_hook",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "artifacts:pocket_piston"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:elytra"
+          "name": "artifacts:pocket_piston",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         }
       ]
     },
     {
       "rolls": {
-        "min": 1,
+        "min": 0,
         "max": 2
       },
       "entries": [

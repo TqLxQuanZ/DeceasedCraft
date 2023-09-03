@@ -24,11 +24,6 @@
           "type": "minecraft:item",
           "weight": 10,
           "name": "apocalypsenow:military_riot_armor_boots"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "immersiveengineering:shield"
         }
       ]
     },
@@ -102,6 +97,11 @@
         {
           "type": "minecraft:item",
           "weight": 2,
+          "name": "cgm:missile"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
           "name": "cgm:grenade"
         },
         {
@@ -127,17 +127,17 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 6,
           "name": "additionalguns:m16a2"
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 6,
           "name": "additionalguns:m4a1s"
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 6,
           "name": "additionalguns:m4a4"
         },
         {

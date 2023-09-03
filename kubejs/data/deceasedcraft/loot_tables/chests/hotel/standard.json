@@ -100,22 +100,46 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "additionalguns:python"
+          "name": "additionalguns:python",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
-          "name": "minecraft:flint_and_steel"
+          "weight": 5,
+          "name": "camera:camera",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
-          "name": "camera:camera"
+          "weight": 5,
+          "name": "apocalypsenow:shiv",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "name": "apocalypsenow:shiv"
+          "weight": 5,
+          "name": "apocalypsenow:letter_opener",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
         }
       ]
     },

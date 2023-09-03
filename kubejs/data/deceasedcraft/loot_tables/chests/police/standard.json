@@ -8,27 +8,22 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "immersiveengineering:armor_steel_head"
+          "name": "apocalypsenow:police_helmet"
         },
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "immersiveengineering:armor_steel_chest"
+          "name": "apocalypsenow:police_chestplate"
         },
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "immersiveengineering:armor_steel_legs"
+          "name": "apocalypsenow:police_leggings"
         },
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "immersiveengineering:armor_steel_feet"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "immersiveengineering:shield"
+          "name": "apocalypsenow:police_boots"
         }
       ]
     },
@@ -157,8 +152,8 @@
             {
               "function": "minecraft:set_damage",
               "damage": {
-                "min": 100,
-                "max": 400
+                "min": 0.4,
+                "max": 0.9
               }
             }
           ]
@@ -171,8 +166,8 @@
             {
               "function": "minecraft:set_damage",
               "damage": {
-                "min": 50,
-                "max": 200
+                "min": 0.4,
+                "max": 0.9
               }
             }
           ]
@@ -185,8 +180,50 @@
             {
               "function": "minecraft:set_damage",
               "damage": {
-                "min": 100,
-                "max": 200
+                "min": 0.4,
+                "max": 0.9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "apocalypsenow:tatical_mace",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.4,
+                "max": 0.9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "apocalypsenow:bayonet",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.4,
+                "max": 0.9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "apocalypsenow:electric_baton",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.4,
+                "max": 0.9
               }
             }
           ]
@@ -199,19 +236,35 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "apocalypsenow:police_helmet"
+          "name": "apocalypsenow:royal_canada_police_officer_helmet"
         },
         {
           "type": "minecraft:item",
-          "name": "apocalypsenow:police_chestplate"
+          "name": "apocalypsenow:royal_canada_police_officer_chestplate"
         },
         {
           "type": "minecraft:item",
-          "name": "apocalypsenow:police_leggings"
+          "name": "apocalypsenow:royal_canada_police_officer_leggings"
         },
         {
           "type": "minecraft:item",
-          "name": "apocalypsenow:police_boots"
+          "name": "apocalypsenow:royal_canada_police_officer_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:forestguard_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:forestguard_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:forestguard_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:forestguard_boots"
         }
       ]
     }

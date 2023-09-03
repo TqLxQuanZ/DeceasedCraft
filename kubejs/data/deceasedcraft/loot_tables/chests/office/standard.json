@@ -88,7 +88,7 @@
     },
     {
       "rolls": {
-        "min": 1,
+        "min": 0,
         "max": 3
       },
       "bonus_rolls": {
@@ -189,17 +189,35 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "refinedstorage:basic_processor"
+          "name": "refinedstorage:basic_processor",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "refinedstorage:improved_processor"
+          "name": "refinedstorage:improved_processor",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "refinedstorage:advanced_processor"
+          "name": "refinedstorage:advanced_processor",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
         }
       ]
     }

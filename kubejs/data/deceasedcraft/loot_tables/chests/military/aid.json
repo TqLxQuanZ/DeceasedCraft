@@ -13,12 +13,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 2,
           "name": "apocalypsenow:medicalkit"
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 5,
           "name": "apocalypsenow:suturekit"
         }
       ]
@@ -41,7 +41,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 3
               },
               "add": true
             }
@@ -61,7 +61,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "firstaid:bandage",
+          "name": "apocalypsenow:bloodbag",
           "functions": [
             {
               "function": "minecraft:set_count",

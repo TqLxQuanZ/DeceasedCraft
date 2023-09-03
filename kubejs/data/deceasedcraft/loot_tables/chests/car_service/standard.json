@@ -60,7 +60,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 3,
           "name": "immersiveengineering:blueprint",
           "functions": [
             {
@@ -71,7 +71,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 3,
           "name": "immersiveengineering:blueprint",
           "functions": [
             {
@@ -218,9 +218,15 @@
             {
               "function": "minecraft:set_damage",
               "damage": {
-                "min": 0.55,
+                "min": 0.45,
                 "max": 0.85
               }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
             }
           ]
         },
@@ -231,9 +237,15 @@
             {
               "function": "minecraft:set_damage",
               "damage": {
-                "min": 0.55,
+                "min": 0.45,
                 "max": 0.85
               }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
             }
           ]
         },
@@ -244,9 +256,15 @@
             {
               "function": "minecraft:set_damage",
               "damage": {
-                "min": 0.55,
+                "min": 0.45,
                 "max": 0.85
               }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
             }
           ]
         },
@@ -257,9 +275,15 @@
             {
               "function": "minecraft:set_damage",
               "damage": {
-                "min": 0.55,
+                "min": 0.45,
                 "max": 0.85
               }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
             }
           ]
         },
@@ -270,9 +294,34 @@
             {
               "function": "minecraft:set_damage",
               "damage": {
-                "min": 0.55,
+                "min": 0.45,
                 "max": 0.85
               }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:mace",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.45,
+                "max": 0.85
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
             }
           ]
         }
