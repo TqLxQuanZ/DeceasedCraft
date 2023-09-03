@@ -224,62 +224,58 @@
     },
     {
       "char": "2",
-      "block": "another_furniture:light_gray_lamp[waterlogged=false,lit=false,facing=up]"
-    },
-    {
-      "char": "3",
       "block": "another_furniture:light_gray_lamp[waterlogged=false,lit=true,facing=up]"
     },
     {
-      "char": "4",
+      "char": "3",
       "block": "quark:polished_calcite_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "5",
+      "char": "4",
       "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "6",
+      "char": "5",
       "block": "create:framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "7",
+      "char": "6",
       "block": "immersiveengineering:concrete_sheet"
     },
     {
-      "char": "8",
+      "char": "7",
       "block": "immersiveengineering:concrete_quarter"
     },
     {
-      "char": "9",
+      "char": "8",
       "block": "minecraft:daylight_detector"
     },
     {
-      "char": "@",
+      "char": "9",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "#",
+      "char": "@",
       "block": "minecraft:smooth_stone"
     },
     {
-      "char": "$",
+      "char": "#",
       "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
-      "char": "%",
+      "char": "$",
       "block": "create:andesite_bars[waterlogged=false]"
     },
     {
-      "char": "^",
+      "char": "%",
       "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
     },
     {
-      "char": "&",
+      "char": "^",
       "block": "minecraft:stripped_oak_log[axis=x]"
     },
     {
-      "char": "*",
+      "char": "&",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
     }
   ]

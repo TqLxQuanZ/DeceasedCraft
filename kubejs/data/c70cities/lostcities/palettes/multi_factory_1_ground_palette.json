@@ -31,16 +31,16 @@
     },
     {
       "char": "h",
-      "block": "minecraft:repeating_command_block[conditional=false,facing=south]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "execute if block ~1 ~1 ~ immersiveengineering:metal_press run fill ~ ~1 ~ ~ ~ ~ air"
-      }
+      "block": "immersiveengineering:thermoelectric_generator"
     },
     {
       "char": "i",
-      "block": "immersiveengineering:thermoelectric_generator"
+      "block": "minecraft:repeating_command_block[conditional=false,facing=up]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "execute if block ~ ~1 ~-1 immersiveengineering:crusher run fill ~ ~1 ~ ~ ~ ~ air"
+      }
     },
     {
       "char": "j",
@@ -101,6 +101,10 @@
     },
     {
       "char": "y",
+      "block": "immersiveengineering:connector_mv[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "A",
       "block": "clickmachine:auto_clicker[facing=north]",
       "tag": {
         "speed_index": 8,
@@ -117,10 +121,6 @@
         },
         "id": "clickmachine:tile"
       }
-    },
-    {
-      "char": "A",
-      "block": "immersiveengineering:connector_mv[waterlogged=false,facing=down]"
     },
     {
       "char": "B",

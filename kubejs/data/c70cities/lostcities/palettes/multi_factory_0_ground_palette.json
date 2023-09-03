@@ -112,7 +112,12 @@
     },
     {
       "char": "D",
-      "block": "minecraft:repeating_command_block[conditional=false,facing=west]"
+      "block": "minecraft:repeating_command_block[conditional=false,facing=west]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "execute if block ~1 ~1 ~ immersiveengineering:metal_press run fill ~ ~1 ~ ~ ~ ~ air"
+      }
     },
     {
       "char": "E",
@@ -183,46 +188,38 @@
     },
     {
       "char": "T",
-      "block": "immersiveengineering:steel_fence[waterlogged=false]"
-    },
-    {
-      "char": "U",
       "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
-      "char": "V",
+      "char": "U",
       "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "W",
+      "char": "V",
       "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
     },
     {
-      "char": "X",
+      "char": "W",
       "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=west]"
     },
     {
-      "char": "Y",
+      "char": "X",
       "block": "immersiveengineering:heavy_engineering"
     },
     {
-      "char": "Z",
-      "block": "minecraft:hopper[facing=down]"
-    },
-    {
-      "char": "0",
+      "char": "Y",
       "block": "embellishcraft:gray_corrugated_metal_plate_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "1",
+      "char": "Z",
       "block": "biomesoplenty:stripped_dead_log[axis=z]"
     },
     {
-      "char": "2",
+      "char": "0",
       "block": "immersiveengineering:connector_mv[waterlogged=false,facing=down]"
     },
     {
-      "char": "3",
+      "char": "1",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
     }
   ]

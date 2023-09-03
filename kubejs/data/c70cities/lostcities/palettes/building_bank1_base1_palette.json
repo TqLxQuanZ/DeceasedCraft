@@ -19,23 +19,23 @@
     },
     {
       "char": "e",
-      "block": "minecraft:gold_block"
-    },
-    {
-      "char": "f",
       "block": "minecraft:gray_stained_glass"
     },
     {
-      "char": "g",
+      "char": "f",
       "block": "simplylight:illuminant_block"
     },
     {
+      "char": "g",
+      "block": "minecraft:iron_block"
+    },
+    {
       "char": "h",
-      "block": "minecraft:emerald_block"
+      "block": "another_furniture:oak_table[waterlogged=false,update=true,facing=south]"
     },
     {
       "char": "i",
-      "block": "minecraft:iron_block"
+      "block": "another_furniture:oak_table[waterlogged=false,update=false,facing=south]"
     },
     {
       "char": "j",
@@ -58,19 +58,27 @@
     },
     {
       "char": "n",
+      "block": "minecraft:gold_block"
+    },
+    {
+      "char": "o",
+      "block": "apocalypsenow:money_block"
+    },
+    {
+      "char": "p",
       "block": "cfm:andesite_cabinet[waterlogged=false,facing=south,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "o",
+      "char": "q",
       "block": "minecraft:quartz_block"
     },
     {
-      "char": "p",
+      "char": "r",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "q",
+      "char": "s",
       "block": "simplylight:illuminant_block_on"
     }
   ]

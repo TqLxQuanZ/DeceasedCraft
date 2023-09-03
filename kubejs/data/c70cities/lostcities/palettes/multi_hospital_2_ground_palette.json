@@ -148,43 +148,48 @@
     },
     {
       "char": "O",
-      "block": "arsenals_of_the_apocalypse:medical_storage",
+      "block": "apocalypsenow:medical_storage[waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
       "char": "P",
-      "block": "embellishcraft:oak_plain_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "arsenals_of_the_apocalypse:medical_storage",
+      "loot": "chestloot"
     },
     {
       "char": "Q",
-      "block": "embellishcraft:oak_plain_door[hinge=left,half=upper,facing=south,open=true]"
+      "block": "embellishcraft:oak_plain_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
       "char": "R",
-      "block": "minecraft:large_fern[half=lower]"
+      "block": "embellishcraft:oak_plain_door[hinge=left,half=upper,facing=south,open=true]"
     },
     {
       "char": "S",
-      "block": "quark:polished_limestone_vertical_slab[waterlogged=false,type=east]"
+      "block": "minecraft:large_fern[half=lower]"
     },
     {
       "char": "T",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:polished_limestone_vertical_slab[waterlogged=false,type=east]"
     },
     {
       "char": "U",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=west]"
     },
     {
       "char": "V",
-      "block": "minecraft:large_fern[half=upper]"
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=south]"
     },
     {
       "char": "W",
-      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=inner_left,facing=west]"
+      "block": "minecraft:large_fern[half=upper]"
     },
     {
       "char": "X",
+      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=inner_left,facing=west]"
+    },
+    {
+      "char": "Y",
       "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     }
   ]
