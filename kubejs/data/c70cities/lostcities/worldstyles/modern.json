@@ -14,6 +14,8 @@
             "#minecraft:is_ocean",
             "#minecraft:is_river",
             "#minecraft:is_beach",
+            "#minecraft:is_badlands",
+            "minecraft:desert",
             "biomesoplenty:wasteland",
             "biomesoplenty:wooded_wasteland"
           ]
@@ -28,6 +30,8 @@
             "#minecraft:is_ocean",
             "#minecraft:is_river",
             "#minecraft:is_beach",
+            "#minecraft:is_badlands",
+            "minecraft:desert",
             "biomesoplenty:wasteland",
             "biomesoplenty:wooded_wasteland"
           ]
@@ -42,6 +46,8 @@
             "#minecraft:is_ocean",
             "#minecraft:is_river",
             "#minecraft:is_beach",
+            "#minecraft:is_badlands",
+            "minecraft:desert",
             "biomesoplenty:wasteland",
             "biomesoplenty:wooded_wasteland"
           ]
@@ -56,6 +62,8 @@
             "#minecraft:is_ocean",
             "#minecraft:is_river",
             "#minecraft:is_beach",
+            "#minecraft:is_badlands",
+            "minecraft:desert",
             "biomesoplenty:wasteland",
             "biomesoplenty:wooded_wasteland"
           ]
@@ -70,6 +78,8 @@
             "#minecraft:is_ocean",
             "#minecraft:is_river",
             "#minecraft:is_beach",
+            "#minecraft:is_badlands",
+            "minecraft:desert",
             "biomesoplenty:wasteland",
             "biomesoplenty:wooded_wasteland"
           ]
@@ -84,6 +94,8 @@
             "#minecraft:is_ocean",
             "#minecraft:is_river",
             "#minecraft:is_beach",
+            "#minecraft:is_badlands",
+            "minecraft:desert",
             "biomesoplenty:wasteland",
             "biomesoplenty:wooded_wasteland"
           ]
@@ -98,6 +110,8 @@
             "#minecraft:is_ocean",
             "#minecraft:is_river",
             "#minecraft:is_beach",
+            "#minecraft:is_badlands",
+            "minecraft:desert",
             "biomesoplenty:wasteland",
             "biomesoplenty:wooded_wasteland"
           ]
@@ -122,6 +136,8 @@
             "#minecraft:is_ocean",
             "#minecraft:is_river",
             "#minecraft:is_beach",
+            "#minecraft:is_badlands",
+            "minecraft:desert",
             "biomesoplenty:wasteland",
             "biomesoplenty:wooded_wasteland"
           ]
@@ -136,6 +152,8 @@
             "#minecraft:is_ocean",
             "#minecraft:is_river",
             "#minecraft:is_beach",
+            "#minecraft:is_badlands",
+            "minecraft:desert",
             "biomesoplenty:wasteland",
             "biomesoplenty:wooded_wasteland"
           ]
@@ -150,6 +168,8 @@
             "#minecraft:is_ocean",
             "#minecraft:is_river",
             "#minecraft:is_beach",
+            "#minecraft:is_badlands",
+            "minecraft:desert",
             "biomesoplenty:wasteland",
             "biomesoplenty:wooded_wasteland"
           ]
@@ -180,23 +200,18 @@
           "minecraft:plains",
           "minecraft:sunflower_plains",
           "minecraft:savanna",
-          "wythers:cold_plains",
-          "wythers:autumnal_plains",
-          "wythers:tropical_grassland",
-          "wythers:spring_flower_fields",
-          "wythers:forest_edge",
-          "wythers:dry_tropical_grassland",
-          "wythers:dry_savanna",
-          "wythers:subtropical_grassland",
-          "wythers:humid_tropical_grassland",
           "minecraft:snowy_plains",
           "minecraft:snowy_taiga",
           "minecraft:grove",
+          "minecraft:taiga",
+          "biomesoplenty:bog",
+          "biomesoplenty:tundra",
           "biomesoplenty:field",
           "biomesoplenty:lavender_field",
           "biomesoplenty:wasteland",
           "biomesoplenty:wooded_wasteland",
           "biomesoplenty:forested_field",
+          "biomesoplenty:snowy_fir_clearing",
           "minecraft:stony_shore"
         ]
       }
@@ -224,7 +239,6 @@
           "biomesoplenty:dryland",
           "biomesoplenty:lavender_forest",
           "biomesoplenty:forested_field",
-          "wythers:forest_edge",
           "minecraft:stony_shore"
         ]
       }
@@ -239,17 +253,13 @@
           "minecraft:savanna",
           "minecraft:snowy_plains",
           "minecraft:snowy_taiga",
+          "minecraft:taiga",
           "minecraft:grove",
-          "wythers:cold_plains",
-          "wythers:autumnal_plains",
-          "wythers:subtropical_grassland",
-          "wythers:tropical_grassland",
-          "wythers:humid_tropical_grassland",
-          "wythers:dry_tropical_grassland",
-          "wythers:dry_savanna",
-          "wythers:spring_flower_fields",
+          "biomesoplenty:bog",
+          "biomesoplenty:tundra",
           "biomesoplenty:field",
-          "biomesoplenty:lavender_field"
+          "biomesoplenty:lavender_field",
+          "biomesoplenty:snowy_fir_clearing"
         ]
       }
     },
