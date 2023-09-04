@@ -79,6 +79,8 @@ villagerTrades.removeAllTrades(<profession:minecraft:butcher>, 5);
 villagerTrades.addTrade(<profession:minecraft:butcher>, 5, <item:apocalypsenow:money> * 32, <item:farmersdelight:roast_chicken_block>, 12, 8, 0.2);
 villagerTrades.addTrade(<profession:minecraft:butcher>, 5, <item:apocalypsenow:money> * 32, <item:farmersdelight:honey_glazed_ham_block>, 12, 8, 0.2);
 
+
+
 // Cartographer
 // Tier 1
 villagerTrades.removeAllTrades(<profession:minecraft:cartographer>, 1);
@@ -86,12 +88,26 @@ villagerTrades.removeAllTrades(<profession:minecraft:cartographer>, 1);
 villagerTrades.addTrade(<profession:minecraft:cartographer>, 1, <item:minecraft:paper> * 12, <item:apocalypsenow:money>, 16, 2, 0.05);
 villagerTrades.addTrade(<profession:minecraft:cartographer>, 1, <item:apocalypsenow:money>, <item:minecraft:paper> * 8, 16, 2, 0.05);
 
+// Tier 2
+villagerTrades.removeAllTrades(<profession:minecraft:cartographer>, 2);
+
+villagerTrades.addTrade(<profession:minecraft:cartographer>, 2, <item:apocalypsenow:money>, <item:minecraft:compass>, 4, 4, 0.05);
+villagerTrades.addTrade(<profession:minecraft:cartographer>, 2, <item:apocalypsenow:money>, <item:minecraft:spyglass>, 4, 4, 0.05);
+
+// Tier 3
+villagerTrades.removeAllTrades(<profession:minecraft:cartographer>, 3);
+
+villagerTrades.addTrade(<profession:minecraft:cartographer>, 3, <item:apocalypsenow:money> * 4, <item:immersiveengineering:survey_tools>, 4, 6, 0.05);
+villagerTrades.addTrade(<profession:minecraft:cartographer>, 3, <item:apocalypsenow:money> * 16, <item:immersiveengineering:sample_drill>, 4, 6, 0.05);
+
 // Tier 4
-villagerTrades.removeTradesSelling(<profession:minecraft:cartographer>, 4, <item:minecraft:item_frame>);
+villagerTrades.addTrade(<profession:minecraft:cartographer>, 4, <item:apocalypsenow:money> * 3, <item:camera:album>, 4, 8, 0.05);
+villagerTrades.addTrade(<profession:minecraft:cartographer>, 4, <item:apocalypsenow:money> * 3, <item:camera:camera>, 4, 8, 0.05);
+villagerTrades.addTrade(<profession:minecraft:cartographer>, 4, <item:apocalypsenow:money> * 3, <item:camera:image_frame>, 4, 8, 0.05);
 
 // Tier 5
-villagerTrades.addTrade(<profession:minecraft:cartographer>, 5, 20, <item:explorerscompass:explorerscompass>, 4, 20, 0.2);
-villagerTrades.addTrade(<profession:minecraft:cartographer>, 5, 20, <item:naturescompass:naturescompass>, 4, 20, 0.2);
+villagerTrades.addTrade(<profession:minecraft:cartographer>, 5, <item:apocalypsenow:money> * 8, <item:explorerscompass:explorerscompass>, 4, 6, 0.2);
+villagerTrades.addTrade(<profession:minecraft:cartographer>, 5, <item:apocalypsenow:money> * 8, <item:naturescompass:naturescompass>, 4, 6, 0.2);
 
 
 
@@ -125,8 +141,8 @@ villagerTrades.addTrade(<profession:minecraft:cleric>, 4, <item:apocalypsenow:mo
 // Tier 5
 villagerTrades.removeAllTrades(<profession:minecraft:cleric>, 5);
 
-villagerTrades.addTrade(<profession:minecraft:cleric>, 5, <item:apocalypsenow:money> * 64, <item:minecraft:golden_apple>, 5, 20, 0.2);
-villagerTrades.addTrade(<profession:minecraft:cleric>, 5, <item:apocalypsenow:money> * 32, <item:apocalypsenow:suturekit>, 5, 20, 0.2);
+villagerTrades.addTrade(<profession:minecraft:cleric>, 5, <item:apocalypsenow:money_block>, <item:apocalypsenow:suturekit>, 5, 20, 0.2);
+villagerTrades.addTrade(<profession:minecraft:cleric>, 5, <item:apocalypsenow:money_block> * 8, <item:minecraft:golden_apple>, 5, 20, 0.2);
 
 
 
@@ -417,14 +433,14 @@ villagerTrades.addTrade(<profession:minecraft:librarian>, 4, <item:apocalypsenow
 // Tier 5
 villagerTrades.removeAllTrades(<profession:minecraft:librarian>, 5);
 
-villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:apocalypsenow:money> * 60, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:minecraft:sharpness> : 5 as int?}), 6, 16, 0.1);
-villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:apocalypsenow:money> * 60, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:minecraft:smite> : 5 as int?}), 6, 16, 0.1);
-villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:apocalypsenow:money> * 60, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:minecraft:bane_of_arthropods> : 5 as int?}), 6, 16, 0.1);
-villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:apocalypsenow:money> * 60, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:minecraft:efficiency> : 5 as int?}), 6, 16, 0.1);
-villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:apocalypsenow:money> * 60, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:minecraft:power> : 5 as int?}), 6, 16, 0.1);
-villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:apocalypsenow:money> * 60, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:minecraft:mending> : 1 as int?}), 6, 16, 0.1);
-villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:apocalypsenow:money> * 60, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:cgm:reclaimed> : 2 as int?}), 6, 16, 0.1);
-villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:apocalypsenow:money> * 60, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:cgm:accelerator> : 2 as int?}), 6, 16, 0.1);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:apocalypsenow:money_block> * 8, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:minecraft:sharpness> : 5 as int?}), 6, 16, 0.1);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:apocalypsenow:money_block> * 8, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:minecraft:smite> : 5 as int?}), 6, 16, 0.1);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:apocalypsenow:money_block> * 8, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:minecraft:bane_of_arthropods> : 5 as int?}), 6, 16, 0.1);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:apocalypsenow:money_block> * 8, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:minecraft:efficiency> : 5 as int?}), 6, 16, 0.1);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:apocalypsenow:money_block> * 8, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:minecraft:power> : 5 as int?}), 6, 16, 0.1);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:apocalypsenow:money_block> * 8, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:minecraft:mending> : 1 as int?}), 6, 16, 0.1);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:apocalypsenow:money_block> * 8, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:cgm:reclaimed> : 2 as int?}), 6, 16, 0.1);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:apocalypsenow:money_block> * 8, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:cgm:accelerator> : 2 as int?}), 6, 16, 0.1);
 
 
 
@@ -577,6 +593,9 @@ villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, <item:apocalypsen
 villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, <item:apocalypsenow:money_block> * 10, <item:additionalguns:magnum>, 3, 40, 0.2);
 villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, <item:apocalypsenow:money_block> * 10, <item:additionalguns:m1911>, 3, 40, 0.2);
 
+
+
+
 // Wandering Trader
 villagerTrades.removeAllWanderingTrades(1);
 villagerTrades.removeAllWanderingTrades(2);
@@ -595,51 +614,174 @@ villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 4, <item:additi
 // Tier 2
 villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 6, <item:additionalguns:bullet_medium> * 12, 8, 10);
 villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 8, <item:additionalguns:bullet_long> * 6, 4, 10);
-villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 7, <item:additionalguns:bullet_heavy> * 12, 8, 10);
-villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 7, <item:additionalguns:bullet_special> * 12, 8, 10);
+villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 12, <item:additionalguns:bullet_heavy> * 8, 8, 10);
+villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 12, <item:additionalguns:bullet_special> * 8, 8, 10);
 villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 24, <item:create:precision_mechanism>, 2, 30);
 villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 7, <item:contenttweaker:rubber>, 4, 30);
 villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 7, <item:immersiveengineering:plate_duroplast>, 4, 30);
 
 
 
-// Gas Station Attendant
-// Tier 1
-villagerTrades.removeAllTrades(<profession:car:gas_station_attendant>, 1);
 
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 1, <item:apocalypsenow:money> * 16, <item:immersivepetroleum:gasoline_bucket>, 16, 4, 0.2);
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 1, <item:apocalypsenow:money> * 3, <item:car:canister>, 16, 4, 0.2);
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 1, <item:apocalypsenow:money> * 3, <item:car:car_workshop>, 16, 4, 0.2);
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 1, <item:apocalypsenow:money> * 3, <item:car:car_workshop_outter>, 16, 4, 0.2);
+// Machinist
+// Tier 1
+villagerTrades.removeAllTrades(<profession:immersiveengineering:machinist>, 1);
+
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 1, <item:apocalypsenow:money> * 16, <item:immersivepetroleum:gasoline_bucket>, 16, 4, 0.2);
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 1, <item:apocalypsenow:money> * 3, <item:car:canister>, 16, 4, 0.2);
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 1, <item:apocalypsenow:money> * 3, <item:car:car_workshop>, 16, 4, 0.2);
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 1, <item:apocalypsenow:money> * 3, <item:car:car_workshop_outter>, 16, 4, 0.2);
 
 // Tier 2
-villagerTrades.removeAllTrades(<profession:car:gas_station_attendant>, 2);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:machinist>, 2);
 
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 2, <item:apocalypsenow:money_block>, <item:car:wheel>, 6, 8, 0.1);
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 2, <item:apocalypsenow:money_block> * 4, <item:car:small_tank>, 6, 8, 0.1);
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 2, <item:apocalypsenow:money_block> * 6, <item:car:medium_tank>, 6, 8, 0.1);
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 2, <item:apocalypsenow:money_block> * 8, <item:car:large_tank>, 6, 8, 0.1);
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 2, <item:apocalypsenow:money_block>, <item:car:wheel>, 6, 8, 0.1);
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 2, <item:apocalypsenow:money_block> * 4, <item:car:small_tank>, 6, 8, 0.1);
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 2, <item:apocalypsenow:money_block> * 6, <item:car:medium_tank>, 6, 8, 0.1);
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 2, <item:apocalypsenow:money_block> * 8, <item:car:large_tank>, 6, 8, 0.1);
 
 // Tier 3
-villagerTrades.removeAllTrades(<profession:car:gas_station_attendant>, 3);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:machinist>, 3);
 
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 3, <item:apocalypsenow:money_block>, <item:car:iron_license_plate_holder>, 6, 12, 0.1);
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 3, <item:apocalypsenow:money_block> * 2, <item:car:big_wheel>, 6, 12, 0.1);
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 3, <item:apocalypsenow:money_block> * 4, <item:car:white_tank_container>, 6, 12, 0.1);
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 3, <item:apocalypsenow:money_block> * 4, <item:car:white_container>, 6, 12, 0.1);
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 3, <item:apocalypsenow:money_block>, <item:car:iron_license_plate_holder>, 6, 12, 0.1);
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 3, <item:apocalypsenow:money_block> * 2, <item:car:big_wheel>, 6, 12, 0.1);
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 3, <item:apocalypsenow:money_block> * 4, <item:car:white_tank_container>, 6, 12, 0.1);
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 3, <item:apocalypsenow:money_block> * 4, <item:car:white_container>, 6, 12, 0.1);
 
 // Tier 4
-villagerTrades.removeAllTrades(<profession:car:gas_station_attendant>, 4);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:machinist>, 4);
 
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 4, <item:apocalypsenow:money_block>, <item:car:license_plate>, 6, 16, 0.1);
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 4, <item:apocalypsenow:money_block> * 10, <item:car:white_sport_body>, 6, 16, 0.1);
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 4, <item:apocalypsenow:money_block> * 10, <item:car:white_suv_body>, 6, 16, 0.1);
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 4, <item:apocalypsenow:money_block> * 10, <item:car:white_transporter_body>, 6, 16, 0.1);
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 4, <item:apocalypsenow:money_block>, <item:car:license_plate>, 6, 16, 0.1);
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 4, <item:apocalypsenow:money_block> * 10, <item:car:white_sport_body>, 6, 16, 0.1);
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 4, <item:apocalypsenow:money_block> * 10, <item:car:white_suv_body>, 6, 16, 0.1);
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 4, <item:apocalypsenow:money_block> * 10, <item:car:white_transporter_body>, 6, 16, 0.1);
 
 // Tier 5
-villagerTrades.removeAllTrades(<profession:car:gas_station_attendant>, 5);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:machinist>, 5);
 
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 5, <item:apocalypsenow:money_block> * 14, <item:car:engine_3_cylinder>, 16, 2, 0.1);
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 5, <item:apocalypsenow:money_block> * 16, <item:car:engine_6_cylinder>, 16, 2, 0.1);
-villagerTrades.addTrade(<profession:car:gas_station_attendant>, 5, <item:apocalypsenow:money_block> * 18, <item:car:engine_truck>, 16, 2, 0.1);
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 5, <item:apocalypsenow:money_block> * 14, <item:car:engine_3_cylinder>, 16, 2, 0.1);
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 5, <item:apocalypsenow:money_block> * 16, <item:car:engine_6_cylinder>, 16, 2, 0.1);
+villagerTrades.addTrade(<profession:immersiveengineering:machinist>, 5, <item:apocalypsenow:money_block> * 18, <item:car:engine_truck>, 16, 2, 0.1);
 
+
+
+
+// Engineer
+// Tier 1
+villagerTrades.removeAllTrades(<profession:immersiveengineering:engineer>, 1);
+
+villagerTrades.addTrade(<profession:immersiveengineering:engineer>, 1, <item:apocalypsenow:money>, <item:immersiveengineering:treated_wood_horizontal> * 8, 16, 2, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:engineer>, 1, <item:apocalypsenow:money>, <item:immersiveengineering:stick_iron>, 16, 2, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:engineer>, 1, <item:apocalypsenow:money>, <item:immersiveengineering:plate_iron>, 16, 2, 0.05);
+
+// Tier 2
+villagerTrades.removeAllTrades(<profession:immersiveengineering:engineer>, 2);
+
+villagerTrades.addTrade(<profession:immersiveengineering:engineer>, 2, <item:apocalypsenow:money> * 3, <item:immersiveengineering:ingot_steel>, 16, 4, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:engineer>, 2, <item:apocalypsenow:money> * 2, <item:immersiveengineering:stick_steel>, 16, 4, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:engineer>, 2, <item:apocalypsenow:money> * 2, <item:immersiveengineering:plate_steel>, 16, 4, 0.05);
+
+// Tier 3
+villagerTrades.removeAllTrades(<profession:immersiveengineering:engineer>, 3);
+
+villagerTrades.addTrade(<profession:immersiveengineering:engineer>, 3, <item:apocalypsenow:money>, <item:immersiveengineering:steel_scaffolding_standard> * 2, 16, 4, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:engineer>, 3, <item:apocalypsenow:money> * 2, <item:immersiveengineering:alu_scaffolding_standard> * 2, 16, 4, 0.05);
+
+// Tier 4
+villagerTrades.removeAllTrades(<profession:immersiveengineering:engineer>, 4);
+
+villagerTrades.addTrade(<profession:immersiveengineering:engineer>, 4, <item:apocalypsenow:money> * 8, <item:immersiveengineering:ingot_aluminum>, 16, 6, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:engineer>, 4, <item:apocalypsenow:money> * 8, <item:immersiveengineering:stick_aluminum>, 16, 6, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:engineer>, 4, <item:apocalypsenow:money> * 8, <item:immersiveengineering:plate_aluminum>, 16, 6, 0.05);
+
+// Tier 5
+villagerTrades.removeAllTrades(<profession:immersiveengineering:engineer>, 5);
+
+villagerTrades.addTrade(<profession:immersiveengineering:engineer>, 5, <item:apocalypsenow:money> * 6, <item:immersiveengineering:component_iron>, 16, 6, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:engineer>, 5, <item:apocalypsenow:money> * 8, <item:immersiveengineering:component_steel>, 16, 6, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:engineer>, 5, <item:apocalypsenow:money_block> * 16, <item:immersiveengineering:blueprint>.withTag({blueprint: "components" as string}), 1, 2, 0.2);
+
+
+
+
+
+// Electrician
+// Tier 1
+villagerTrades.removeAllTrades(<profession:immersiveengineering:electrician>, 1);
+
+villagerTrades.addTrade(<profession:immersiveengineering:electrician>, 1, <item:apocalypsenow:money>, <item:immersiveengineering:wire_copper> * 4, 16, 2, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:electrician>, 1, <item:apocalypsenow:money> * 2, <item:immersiveengineering:wirecutter>, 16, 2, 0.05);
+
+// Tier 2
+villagerTrades.removeAllTrades(<profession:immersiveengineering:electrician>, 2);
+
+villagerTrades.addTrade(<profession:immersiveengineering:electrician>, 2, <item:apocalypsenow:money> * 4, <item:immersiveengineering:component_electronic>, 16, 4, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:electrician>, 2, <item:apocalypsenow:money> * 32, <item:create:precision_mechanism>, 16, 4, 0.05);
+
+// Tier 3
+villagerTrades.removeAllTrades(<profession:immersiveengineering:electrician>, 3);
+
+villagerTrades.addTrade(<profession:immersiveengineering:electrician>, 3, <item:apocalypsenow:money> * 3, <item:immersiveengineering:wire_electrum>, 16, 4, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:electrician>, 3, <item:apocalypsenow:money> * 2, <item:immersiveengineering:wire_steel>, 16, 4, 0.05);
+
+// Tier 4
+villagerTrades.removeAllTrades(<profession:immersiveengineering:electrician>, 4);
+
+villagerTrades.addTrade(<profession:immersiveengineering:electrician>, 4, <item:apocalypsenow:money_block> * 3, <item:immersiveengineering:component_electronic_adv>, 16, 6, 0.2);
+villagerTrades.addTrade(<profession:immersiveengineering:electrician>, 4, <item:apocalypsenow:money_block> * 4, <item:immersiveengineering:capacitor_mv>, 16, 6, 0.2);
+villagerTrades.addTrade(<profession:immersiveengineering:electrician>, 4, <item:apocalypsenow:money_block> * 8, <item:immersiveengineering:capacitor_hv>, 16, 6, 0.2);
+
+
+// Tier 5
+villagerTrades.removeAllTrades(<profession:immersiveengineering:electrician>, 5);
+
+villagerTrades.addTrade(<profession:immersiveengineering:electrician>, 5, <item:apocalypsenow:money_block> * 16, <item:immersiveengineering:blueprint>.withTag({blueprint: "electrode" as string}), 1, 2, 0.2);
+villagerTrades.addTrade(<profession:immersiveengineering:electrician>, 5, <item:apocalypsenow:money_block> * 4, <item:immersiveengineering:graphite_electrode>, 6, 2, 0.2);
+villagerTrades.addTrade(<profession:immersiveengineering:electrician>, 5, <item:apocalypsenow:money_block> * 2, <item:car:battery>, 6, 2, 0.2);
+
+
+
+
+// Gunsmith
+// Tier 1
+villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 1);
+
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 1, <item:apocalypsenow:money_block> * 6, <item:additionalguns:usp>, 1, 8, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 1, <item:apocalypsenow:money_block> * 6, <item:additionalguns:m1911>, 1, 8, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 1, <item:apocalypsenow:money_block> * 6, <item:additionalguns:magnum>, 1, 8, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 1, <item:apocalypsenow:money_block> * 6, <item:additionalguns:p250>, 1, 8, 0.05);
+
+
+// Tier 2
+villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 2);
+
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 2, <item:apocalypsenow:money_block>, <item:additionalguns:bullet_short> * 16, 16, 4, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 2, <item:apocalypsenow:money_block>, <item:additionalguns:bullet_small> * 16, 16, 4, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 2, <item:apocalypsenow:money_block>, <item:additionalguns:bullet_medium> * 16, 16, 4, 0.05);
+
+
+// Tier 3
+villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 3);
+
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 3, <item:apocalypsenow:money_block> * 8, <item:additionalguns:ak12>, 1, 12, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 3, <item:apocalypsenow:money_block> * 8, <item:additionalguns:m16a2>, 1, 12, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 3, <item:apocalypsenow:money_block> * 8, <item:additionalguns:m4a4>, 1, 12, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 3, <item:apocalypsenow:money_block> * 8, <item:additionalguns:ak74>, 1, 12, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 3, <item:apocalypsenow:money_block> * 8, <item:additionalguns:m4a1s>, 1, 12, 0.05);
+
+
+// Tier 4
+villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 4);
+
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 4, <item:apocalypsenow:money_block>, <item:additionalguns:bullet_heavy> * 6, 16, 4, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 4, <item:apocalypsenow:money_block>, <item:additionalguns:bullet_long> * 3, 16, 4, 0.05);
+
+
+// Tier 5
+villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 5);
+
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 5, <item:apocalypsenow:money_block> * 16, <item:immersiveengineering:blueprint>.withTag({blueprint: "bullet" as string}), 1, 2, 0.2);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 5, <item:apocalypsenow:money_block> * 16, <item:immersiveengineering:blueprint>.withTag({blueprint: "specialBullet" as string}), 1, 2, 0.2);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 5, <item:apocalypsenow:money_block> * 16, <item:contenttweaker:mold_bullet_casing_small>, 1, 2, 0.2);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 5, <item:apocalypsenow:money_block> * 16, <item:contenttweaker:mold_bullet_casing_short>, 1, 2, 0.2);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 5, <item:apocalypsenow:money_block> * 16, <item:contenttweaker:mold_bullet_casing_medium>, 1, 2, 0.2);
