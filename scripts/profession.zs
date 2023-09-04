@@ -700,7 +700,7 @@ villagerTrades.removeAllTrades(<profession:immersiveengineering:engineer>, 5);
 villagerTrades.addTrade(<profession:immersiveengineering:engineer>, 5, <item:apocalypsenow:money> * 6, <item:immersiveengineering:component_iron>, 16, 6, 0.05);
 villagerTrades.addTrade(<profession:immersiveengineering:engineer>, 5, <item:apocalypsenow:money> * 8, <item:immersiveengineering:component_steel>, 16, 6, 0.05);
 villagerTrades.addTrade(<profession:immersiveengineering:engineer>, 5, <item:apocalypsenow:money_block> * 16, <item:immersiveengineering:blueprint>.withTag({blueprint: "components" as string}), 1, 2, 0.2);
-
+villagerTrades.addTrade(<profession:immersiveengineering:engineer>, 5, <item:apocalypsenow:money_block> * 16, <item:immersiveengineering:blueprint>.withTag({blueprint: "molds" as string}), 1, 2, 0.2);
 
 
 
