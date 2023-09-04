@@ -39,6 +39,17 @@ craftingTable.addShapedMirrored("needle", <constant:minecraft:mirroraxis:horizon
     [[<item:minecraft:air>, <tag:items:forge:nuggets/iron>],
     [<tag:items:forge:nuggets/iron>, <item:minecraft:air>]]);
 
+craftingTable.remove(<item:apocalypsenow:nightvisionmodule>);
+craftingTable.addShapedMirrored("nightvisionmodule", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:nightvisionmodule>,
+    [[<item:immersiveengineering:component_electronic_adv>, <item:immersiveengineering:light_bulb>, <item:immersiveengineering:component_electronic_adv>],
+    [<item:minecraft:air>, <tag:items:forge:wires/electrum>, <item:minecraft:air>]]);
+    
+craftingTable.remove(<item:apocalypsenow:breathingfiltermodule>);
+craftingTable.addShapedMirrored("breathingfiltermodule", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:breathingfiltermodule>,
+    [[<item:apocalypsenow:cloth>, <tag:items:minecraft:wool>, <item:apocalypsenow:cloth>],
+    [<item:minecraft:air>, <item:minecraft:charcoal>, <item:minecraft:air>]]);
+    
+
 // Hides
 // Bears
 // <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bear_ashen>);

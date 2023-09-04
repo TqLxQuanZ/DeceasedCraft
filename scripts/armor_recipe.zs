@@ -49,9 +49,24 @@ JEI.hideIngredient(<item:apocalypsenow:helicopter_chestplate>);
 // Diving Helmet
 craftingTable.remove(<item:create:copper_diving_helmet>);
 <recipetype:create:mechanical_crafting>.addRecipe("copper_diving_helmet", <item:create:copper_diving_helmet>,
-    [[<tag:items:forge:plates/copper>, <item:create:fluid_pipe>, <item:create:filter>, <item:create:fluid_pipe>, <tag:items:forge:plates/copper>],
+    [[<tag:items:forge:plates/copper>, <item:create:fluid_pipe>, <item:apocalypsenow:breathingfiltermodule>, <item:create:fluid_pipe>, <tag:items:forge:plates/copper>],
     [<tag:items:forge:plates/copper>, <item:create:cogwheel>, <item:create_sa:hydraulic_engine>, <item:create:cogwheel>, <tag:items:forge:plates/copper>],
     [<tag:items:forge:plates/copper>, <item:minecraft:air>, <tag:items:forge:glass>, <item:minecraft:air>, <tag:items:forge:plates/copper>]]);
+    
+// Netherite Diving Helmet
+smithing.remove(<item:create:netherite_diving_helmet>);
+<recipetype:create:mechanical_crafting>.addRecipe("netherite_diving_helmet", <item:create:netherite_diving_helmet>,
+    [[<item:minecraft:netherite_scrap>, <item:create:fluid_pipe>, <item:apocalypsenow:breathingfiltermodule>, <item:create:fluid_pipe>, <item:minecraft:netherite_scrap>],
+    [<item:minecraft:netherite_scrap>, <item:create:cogwheel>, <item:create_sa:hydraulic_engine>, <item:create:cogwheel>, <item:minecraft:netherite_scrap>],
+    [<item:minecraft:netherite_scrap>, <item:minecraft:air>, <tag:items:forge:glass>, <item:minecraft:air>, <item:minecraft:netherite_scrap>]]);
+
+// Netherite Diving Boots
+smithing.remove(<item:create:netherite_diving_boots>);
+craftingTable.addShapedMirrored("netherite_diving_boots", <constant:minecraft:mirroraxis:horizontal>, <item:create:netherite_diving_boots>,
+    [[<item:minecraft:netherite_scrap>, <item:minecraft:air>, <item:minecraft:netherite_scrap>],
+    [<item:minecraft:netherite_scrap>, <item:minecraft:air>, <item:minecraft:netherite_scrap>],
+    [<tag:items:forge:plates/steel>, <item:minecraft:air>, <tag:items:forge:plates/steel>]]);
+
 
 #------------------ Tier 1 --------------------------
 #----------------------------------------------------
@@ -666,7 +681,7 @@ craftingTable.addShapedMirrored("t2_royal_canada_police_officer_boots", <constan
 // Hazmat Suit - Poison Immunity, Hunger Immunity, Blindness Immunity - Helmet grant access to wasteland
 craftingTable.remove(<item:apocalypsenow:hazmat_suit_helmet>);
 <recipetype:create:mechanical_crafting>.addRecipe("t2_hazmat_helmet", <item:apocalypsenow:hazmat_suit_helmet>,
-    [[<item:contenttweaker:rubber>, <tag:items:forge:plates/plastic>, <item:create:filter>, <tag:items:forge:plates/plastic>, <item:contenttweaker:rubber>],
+    [[<item:contenttweaker:rubber>, <tag:items:forge:plates/plastic>, <item:apocalypsenow:breathingfiltermodule>, <tag:items:forge:plates/plastic>, <item:contenttweaker:rubber>],
     [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/lead>, <tag:items:forge:glass>, <tag:items:forge:plates/lead>, <tag:items:forge:plates/plastic>],
     [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/lead>, <item:minecraft:air>, <tag:items:forge:plates/lead>, <tag:items:forge:plates/plastic>]]);
 
@@ -727,8 +742,9 @@ craftingTable.remove(<item:create_sa:copper_exoskeleton_chestplate>);
 // Standard Set - + 0.5 dmg, + 0.3 ATK Speed
 
 // Gas Mask - Grant access to wasteland
+craftingTable.remove(<item:apocalypsenow:gasmask_helmet>);
 <recipetype:create:mechanical_crafting>.addRecipe("gasmask_helmet", <item:apocalypsenow:gasmask_helmet>,
-    [[<item:minecraft:air>, <tag:items:forge:plates/plastic>, <item:create:filter>, <tag:items:forge:plates/plastic>, <item:minecraft:air>],
+    [[<item:minecraft:air>, <tag:items:forge:plates/plastic>, <item:apocalypsenow:breathingfiltermodule>, <tag:items:forge:plates/plastic>, <item:minecraft:air>],
     [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/lead>, <tag:items:forge:glass>, <tag:items:forge:plates/lead>, <tag:items:forge:plates/plastic>],
     [<item:contenttweaker:rubber>, <tag:items:forge:plates/lead>, <item:minecraft:air>, <tag:items:forge:plates/lead>, <item:contenttweaker:rubber>]]);
 
@@ -1314,7 +1330,7 @@ craftingTable.remove(<item:apocalypsenow:spec_ops_leggings>);
 craftingTable.remove(<item:apocalypsenow:spec_ops_boots>);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t4_spec_ops_helmet", <item:apocalypsenow:spec_ops_helmet>,
-    [[<item:minecraft:air>, <item:contenttweaker:rubber>, <item:contenttweaker:resistant_fabric>, <item:contenttweaker:rubber>, <item:minecraft:air>],
+    [[<item:minecraft:air>, <item:contenttweaker:rubber>, <item:apocalypsenow:nightvisionmodule>, <item:contenttweaker:rubber>, <item:minecraft:air>],
     [<item:contenttweaker:resistant_fabric>, <item:immersiveengineering:component_electronic_adv>, <item:minecraft:netherite_helmet>.anyDamage(), <item:immersiveengineering:component_electronic_adv>, <item:contenttweaker:resistant_fabric>],
     [<item:contenttweaker:resistant_fabric>, <tag:items:forge:wires/electrum>, <tag:items:forge:glass_panes>, <tag:items:forge:wires/electrum>, <item:contenttweaker:resistant_fabric>]]);
 
@@ -1343,7 +1359,7 @@ craftingTable.remove(<item:apocalypsenow:soldier_leggings>);
 craftingTable.remove(<item:apocalypsenow:soldier_boots>);
 
 <recipetype:create:mechanical_crafting>.addRecipe("t4_soldier_helmet", <item:apocalypsenow:soldier_helmet>,
-    [[<item:minecraft:air>, <item:contenttweaker:rubber>, <item:create:filter>, <item:contenttweaker:rubber>, <item:minecraft:air>],
+    [[<item:minecraft:air>, <item:contenttweaker:rubber>, <item:apocalypsenow:breathingfiltermodule>, <item:contenttweaker:rubber>, <item:minecraft:air>],
     [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/lead>, <item:minecraft:netherite_helmet>.anyDamage(), <tag:items:forge:plates/lead>, <tag:items:forge:plates/plastic>],
     [<item:contenttweaker:resistant_fabric>, <tag:items:forge:plates/lead>, <tag:items:forge:glass_panes>, <tag:items:forge:plates/lead>, <item:contenttweaker:resistant_fabric>]]);
 
