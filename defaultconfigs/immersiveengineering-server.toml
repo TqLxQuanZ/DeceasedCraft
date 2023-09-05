@@ -80,16 +80,16 @@
 [machines]
 	#The base Flux that is output by the dynamo. This will be modified by the rotation modifier of the attached water- or windmill
 	#Range: 0.0 ~ 2.147483647E9
-	dynamo_output = 3.0
+	dynamo_output = 4.0
 	#Output modifier for the energy created by the Thermoelectric Generator
 	#Range: 0.0 ~ 2.147483647E9
-	thermoelectric_output = 1.0
+	thermoelectric_output = 2.0
 	#The Flux that will be output by the lightning rod when it is struck
 	#Range: > 0
 	lightning_output = 16000000
 	#The Flux per tick that the Diesel Generator will output. The burn time of the fuel determines the total output
 	#Range: > 0
-	dieselGen_output = 6144
+	dieselGen_output = 8192
 	#The Flux per tick the Blast Furnace Preheater will consume to speed up the Blast Furnace
 	#Range: > 1
 	preheater_consumption = 32
@@ -325,13 +325,13 @@
 		particles = true
 		#The threshold the perlin noise has to cross for a mineral vein to be generated. Higher means less likely.
 		#Range: 0.0 ~ 1.0
-		chance = 0.9
+		chance = 0.95
 		#The maximum amount of yield one can get out of a chunk with the excavator. Set a number smaller than zero to make it infinite
 		#Range: > -1
-		yield = 58400
+		yield = 104520
 		#The maximum depletion a vein can start with, as a decimal value. When a vein generates, a random percentage up to this value is depleted from it
 		#Range: 0.0 ~ 1.0
-		initial_depletion = 0.2
+		initial_depletion = 0.3
 
 [ores]
 	#The retrogeneration key. Basically IE checks if this key is saved in the chunks data. If it isn't, it will perform retrogen on all ores marked for retrogen.
@@ -494,25 +494,25 @@
 		casull = 10.0
 		#The amount of base damage a armor piercing Cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		ap = 10.0
+		ap = 15.0
 		#The amount of base damage a single part of buckshot inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		buck = 2.0
+		buck = 3.0
 		#The amount of base damage a dragon breath cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		dragon = 3.0
+		dragon = 5.0
 		#The amount of base damage a homing cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
 		homing = 10.0
 		#The amount of base damage a wolfpack cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		wolfpack = 4.0
+		wolfpack = 6.0
 		#The amount of base damage the sub-projectiles of a  wolfpack cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		wolfpack_part = 8.0
+		wolfpack_part = 10.0
 		#The amount of damage a silver bullet inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
-		silver = 10.0
+		silver = 15.0
 		#The amount of base damage a phial cartridge inflicts
 		#Range: 0.0 ~ 1.7976931348623157E308
 		phial = 1.0
