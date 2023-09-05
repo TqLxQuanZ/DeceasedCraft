@@ -18,3 +18,9 @@ onEvent('item.tags', event => {
 	// Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
 	// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
 })
+
+onEvent('entity.death', (event) => {
+    if (!event.entity.isPlayer()) return
+
+	event.entity.runCommandSilent('/effect clear ' + event.entity)
+})
