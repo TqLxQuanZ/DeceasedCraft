@@ -358,10 +358,6 @@
       {
         "factor": 1.0,
         "value": "c70cities:fountain_7"
-      },
-      {
-        "factor": 1.0,
-        "value": "c70cities:fountain_8"
       }
     ],
     "parks": [
@@ -382,8 +378,16 @@
         "value": "c70cities:park_4"
       },
       {
-        "factor": 1.0,
+        "factor": 0.2,
         "value": "c70cities:park_5"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:park_6"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:park_7"
       }
     ],
     "raildungeons": [

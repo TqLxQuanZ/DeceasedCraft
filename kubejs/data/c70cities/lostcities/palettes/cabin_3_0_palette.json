@@ -23,45 +23,39 @@
     },
     {
       "char": "f",
-      "block": "minecraft:water"
+      "block": "create:fluid_pipe[waterlogged=false,up=false]"
     },
     {
       "char": "g",
-      "block": "minecraft:oak_planks"
+      "block": "create:fluid_pipe[waterlogged=true,up=true]"
     },
     {
       "char": "h",
-      "block": "minecraft:oak_fence[waterlogged=false]"
+      "block": "minecraft:water"
     },
     {
       "char": "i",
-      "block": "cfm:oak_hedge[waterlogged=false]"
+      "block": "minecraft:oak_planks"
     },
     {
       "char": "j",
-      "block": "quark:stripped_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "minecraft:oak_fence[waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "minecraft:smooth_quartz"
+      "block": "cfm:oak_hedge[waterlogged=false]"
     },
     {
       "char": "l",
-      "block": "embellishcraft:oak_plain_door[hinge=left,half=lower,facing=north,open=false]"
+      "block": "quark:stripped_oak_post[waterlogged=false,chain_up=false,axis=y]"
     },
     {
       "char": "m",
-      "block": "create:mechanical_pump[waterlogged=false,facing=up]",
-      "tag": {
-        "id": "create:mechanical_pump"
-      }
+      "block": "minecraft:smooth_quartz"
     },
     {
       "char": "n",
-      "block": "create:cogwheel[waterlogged=false,axis=y]",
-      "tag": {
-        "id": "create:cogwheel"
-      }
+      "block": "embellishcraft:oak_plain_door[hinge=left,half=lower,facing=north,open=false]"
     },
     {
       "char": "o",
@@ -72,104 +66,118 @@
     },
     {
       "char": "p",
-      "block": "create:framed_glass_pane[waterlogged=false]"
+      "block": "create:mechanical_pump[waterlogged=false,facing=up]",
+      "tag": {
+        "id": "create:mechanical_pump"
+      }
     },
     {
       "char": "q",
-      "block": "create:depot[waterlogged=false]"
+      "block": "create:framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "r",
-      "block": "embellishcraft:oak_plain_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "create:cogwheel[waterlogged=false,axis=y]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
     },
     {
       "char": "s",
-      "block": "minecraft:oak_fence_gate[facing=east,open=false]"
+      "block": "create:depot[waterlogged=false]"
     },
     {
       "char": "t",
-      "block": "minecraft:hay_block[axis=z]"
+      "block": "embellishcraft:oak_plain_door[hinge=right,half=lower,facing=south,open=false]"
     },
     {
       "char": "u",
-      "block": "minecraft:hay_block[axis=y]"
+      "block": "minecraft:oak_fence_gate[facing=east,open=false]"
     },
     {
       "char": "w",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=right]"
+      "block": "minecraft:hay_block[axis=z]"
     },
     {
       "char": "x",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=left]"
+      "block": "minecraft:hay_block[axis=y]"
     },
     {
       "char": "y",
-      "block": "minecraft:cornflower"
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=right]"
     },
     {
       "char": "A",
-      "block": "embellishcraft:oak_plain_door[hinge=left,half=upper,facing=north,open=false]"
+      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=left]"
     },
     {
       "char": "B",
-      "block": "create:sand_filter"
+      "block": "minecraft:cornflower"
     },
     {
       "char": "C",
+      "block": "embellishcraft:oak_plain_door[hinge=left,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "D",
+      "block": "create:sand_filter"
+    },
+    {
+      "char": "E",
+      "block": "thirst:sand_filter"
+    },
+    {
+      "char": "F",
       "block": "create:hand_crank[waterlogged=false,facing=up]",
       "tag": {
         "id": "create:hand_crank"
       }
     },
     {
-      "char": "D",
+      "char": "I",
       "block": "embellishcraft:oak_plain_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
-      "char": "E",
+      "char": "J",
       "block": "minecraft:oak_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "F",
-      "block": "create:fluid_pipe[waterlogged=false,up=false]"
-    },
-    {
-      "char": "I",
+      "char": "K",
       "block": "create:spout",
       "tag": {
         "id": "create:spout"
       }
     },
     {
-      "char": "J",
+      "char": "L",
       "block": "minecraft:polished_andesite_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "K",
+      "char": "M",
       "block": "minecraft:polished_deepslate_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "L",
+      "char": "N",
       "block": "minecraft:stone"
     },
     {
-      "char": "M",
+      "char": "O",
       "block": "minecraft:stone_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "N",
+      "char": "P",
       "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
-      "char": "O",
+      "char": "Q",
       "block": "minecraft:polished_andesite_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "P",
+      "char": "R",
       "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
-      "char": "Q",
+      "char": "S",
       "block": "minecraft:stone_slab[waterlogged=false,type=bottom]"
     }
   ]
