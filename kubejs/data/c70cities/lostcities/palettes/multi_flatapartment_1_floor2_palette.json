@@ -188,43 +188,47 @@
     },
     {
       "char": "X",
+      "block": "ag_day_counter:calendar[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "Y",
       "block": "cfm:fridge_light[facing=north,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "Y",
+      "char": "Z",
       "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=east,open=false]"
     },
     {
-      "char": "Z",
+      "char": "0",
       "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=west,open=false]"
     },
     {
-      "char": "0",
+      "char": "1",
       "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "1",
+      "char": "2",
       "block": "minecraft:stone_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "2",
+      "char": "3",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "3",
+      "char": "4",
       "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
-      "char": "4",
+      "char": "5",
       "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=north]"
     },
     {
-      "char": "5",
+      "char": "6",
       "block": "embellishcraft:smooth_marble_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "6",
+      "char": "7",
       "block": "embellishcraft:polished_marble_slab[waterlogged=false,type=bottom]"
     }
   ]

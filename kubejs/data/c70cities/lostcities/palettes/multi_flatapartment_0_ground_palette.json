@@ -7,40 +7,40 @@
     },
     {
       "char": "b",
+      "block": "cfm:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "d",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:quartz_pillar[axis=y]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:stone_button[face=floor,facing=north]"
+    },
+    {
+      "char": "g",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "h",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "i",
       "block": "minecraft:command_block[conditional=false,facing=up]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
         "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
       }
-    },
-    {
-      "char": "c",
-      "block": "cfm:spruce_hedge[waterlogged=false]"
-    },
-    {
-      "char": "d",
-      "block": "car:line_side_long_left[facing=west]"
-    },
-    {
-      "char": "e",
-      "block": "car:line_side_long_left[facing=north]"
-    },
-    {
-      "char": "f",
-      "block": "minecraft:quartz_pillar[axis=y]"
-    },
-    {
-      "char": "g",
-      "block": "minecraft:stone_button[face=floor,facing=north]"
-    },
-    {
-      "char": "h",
-      "block": "car:line_side_long_left[facing=south]"
-    },
-    {
-      "char": "i",
-      "block": "car:line_side_long_left[facing=east]"
     },
     {
       "char": "j",

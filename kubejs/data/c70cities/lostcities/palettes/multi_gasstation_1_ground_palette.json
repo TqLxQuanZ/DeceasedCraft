@@ -7,73 +7,73 @@
     },
     {
       "char": "b",
-      "block": "minecraft:command_block[conditional=false,facing=south]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
-      }
-    },
-    {
-      "char": "c",
       "block": "minecraft:stone"
     },
     {
-      "char": "d",
+      "char": "c",
       "block": "car:line_side_long_left_yellow[facing=south]"
     },
     {
-      "char": "e",
+      "char": "d",
       "block": "car:line_side_long_left_yellow[facing=east]"
     },
     {
-      "char": "f",
+      "char": "e",
       "block": "embellishcraft:smooth_marble_wall[waterlogged=false,up=true]"
     },
     {
-      "char": "g",
+      "char": "f",
       "block": "create:vertical_framed_glass"
     },
     {
-      "char": "h",
+      "char": "g",
       "block": "minecraft:cobweb"
     },
     {
-      "char": "i",
+      "char": "h",
       "block": "embellishcraft:smooth_marble"
     },
     {
-      "char": "j",
+      "char": "i",
       "block": "create:framed_glass_door[hinge=right,half=lower,facing=west,open=false]"
     },
     {
-      "char": "k",
+      "char": "j",
       "block": "quark:birch_bookshelf"
     },
     {
-      "char": "l",
+      "char": "k",
       "block": "create:framed_glass_door[hinge=left,half=lower,facing=west,open=false]"
     },
     {
-      "char": "m",
+      "char": "l",
       "block": "create:birch_window"
     },
     {
-      "char": "n",
+      "char": "m",
       "block": "car:line_side_long_left_yellow[facing=west]"
     },
     {
-      "char": "o",
+      "char": "n",
       "block": "car:line_side_long_left_yellow[facing=north]"
     },
     {
-      "char": "p",
+      "char": "o",
       "block": "car:gas_station[facing=west]",
       "tag": {
         "fluid": {
           "FluidName": "immersivepetroleum:gasoline",
           "Amount": 4000
         }
+      }
+    },
+    {
+      "char": "p",
+      "block": "minecraft:command_block[conditional=false,facing=west]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
       }
     },
     {

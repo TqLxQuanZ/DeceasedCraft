@@ -67,18 +67,27 @@
     },
     {
       "char": "q",
-      "block": "quark:spruce_hedge[waterlogged=false]"
+      "block": "minecraft:command_block[conditional=false,facing=north]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
+      }
     },
     {
       "char": "r",
-      "block": "quark:spruce_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:spruce_hedge[waterlogged=false]"
     },
     {
       "char": "s",
-      "block": "immersiveengineering:lantern[waterlogged=false,facing=south]"
+      "block": "quark:spruce_post[waterlogged=false,chain_up=false,axis=y]"
     },
     {
       "char": "t",
+      "block": "immersiveengineering:lantern[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "u",
       "block": "minecraft:stone_slab[waterlogged=false,type=top]"
     }
   ]

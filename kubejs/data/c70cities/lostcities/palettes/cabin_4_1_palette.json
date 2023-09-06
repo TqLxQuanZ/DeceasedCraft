@@ -101,42 +101,46 @@
     },
     {
       "char": "A",
-      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
+      "block": "ag_day_counter:calendar[waterlogged=false,facing=west]"
     },
     {
       "char": "B",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
     },
     {
       "char": "C",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
       "char": "D",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
     },
     {
       "char": "E",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=outer_left,facing=east]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
       "char": "F",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=outer_left,facing=east]"
     },
     {
       "char": "I",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=outer_right,facing=west]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "J",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=outer_right,facing=west]"
     },
     {
       "char": "K",
-      "block": "minecraft:farmland"
+      "block": "minecraft:spruce_slab[waterlogged=false,type=bottom]"
     },
     {
       "char": "L",
+      "block": "minecraft:farmland"
+    },
+    {
+      "char": "M",
       "block": "minecraft:stone_brick_stairs[waterlogged=true,half=bottom,shape=straight,facing=south]"
     }
   ]

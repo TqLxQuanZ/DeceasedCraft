@@ -62,53 +62,62 @@
     },
     {
       "char": "o",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=south]"
+      "block": "minecraft:command_block[conditional=false,facing=north]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
+      }
     },
     {
       "char": "p",
-      "block": "quark:iron_button[face=wall,facing=south]"
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=south]"
     },
     {
       "char": "q",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "quark:iron_button[face=wall,facing=south]"
     },
     {
       "char": "r",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=south,open=false]"
     },
     {
       "char": "s",
-      "block": "car:line_side_long_left[facing=south]"
+      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=south,open=false]"
     },
     {
       "char": "t",
-      "block": "car:line_side_long_left[facing=east]"
+      "block": "car:line_side_long_left[facing=south]"
     },
     {
       "char": "u",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "car:line_side_long_left[facing=east]"
     },
     {
       "char": "w",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
     },
     {
       "char": "x",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
       "char": "y",
+      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=south,open=false]"
+    },
+    {
+      "char": "A",
       "block": "create:nixie_tube[waterlogged=false,double_face=ceiling,facing=east]",
       "tag": {
         "id": "create:nixie_tube"
       }
     },
     {
-      "char": "A",
+      "char": "B",
       "block": "simplylight:illuminant_block_on"
     },
     {
-      "char": "B",
+      "char": "C",
       "block": "embellishcraft:polished_basalt"
     }
   ]

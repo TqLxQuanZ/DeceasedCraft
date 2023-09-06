@@ -84,7 +84,8 @@
     },
     {
       "char": "t",
-      "block": "minecraft:cobweb"
+      "block": "minecraft:chest",
+      "loot": "chestloot"
     },
     {
       "char": "u",
@@ -178,38 +179,42 @@
     },
     {
       "char": "T",
-      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "U",
-      "block": "minecraft:rail[waterlogged=false,shape=east_west]"
+      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
     },
     {
       "char": "V",
-      "block": "minecraft:potted_fern"
+      "block": "minecraft:rail[waterlogged=false,shape=east_west]"
     },
     {
       "char": "W",
-      "block": "minecraft:damaged_anvil[facing=south]"
+      "block": "minecraft:potted_fern"
     },
     {
       "char": "X",
-      "block": "minecraft:spruce_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "minecraft:damaged_anvil[facing=south]"
     },
     {
       "char": "Y",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:spruce_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
       "char": "Z",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
     },
     {
       "char": "0",
-      "block": "minecraft:polished_andesite_slab[waterlogged=false,type=top]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
       "char": "1",
+      "block": "minecraft:polished_andesite_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "2",
       "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
     }
   ]

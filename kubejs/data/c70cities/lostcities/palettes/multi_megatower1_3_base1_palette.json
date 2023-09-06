@@ -31,30 +31,39 @@
     },
     {
       "char": "h",
-      "block": "car:line_side_long_left[facing=south]"
+      "block": "minecraft:command_block[conditional=false,facing=south]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
+      }
     },
     {
       "char": "i",
-      "block": "car:line_side_long_left[facing=east]"
+      "block": "car:line_side_long_left[facing=south]"
     },
     {
       "char": "j",
-      "block": "embellishcraft:basalt_button[face=wall,facing=south]"
+      "block": "car:line_side_long_left[facing=east]"
     },
     {
       "char": "k",
-      "block": "embellishcraft:basalt_button[face=wall,facing=north]"
+      "block": "embellishcraft:basalt_button[face=wall,facing=south]"
     },
     {
       "char": "l",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=north]"
+      "block": "embellishcraft:basalt_button[face=wall,facing=north]"
     },
     {
       "char": "m",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=north]"
     },
     {
       "char": "n",
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "o",
       "block": "minecraft:stone_slab[waterlogged=false,type=top]"
     }
   ]

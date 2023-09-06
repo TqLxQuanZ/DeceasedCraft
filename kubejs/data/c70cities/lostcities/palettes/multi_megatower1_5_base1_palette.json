@@ -43,10 +43,19 @@
     },
     {
       "char": "k",
-      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:command_block[conditional=false,facing=north]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
+      }
     },
     {
       "char": "l",
+      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "m",
       "block": "minecraft:stone_slab[waterlogged=false,type=top]"
     }
   ]

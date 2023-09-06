@@ -185,91 +185,95 @@
     },
     {
       "char": "X",
-      "block": "minecraft:stone_button[face=wall,facing=west]"
+      "block": "ag_day_counter:calendar[waterlogged=false,facing=east]"
     },
     {
       "char": "Y",
-      "block": "minecraft:iron_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "minecraft:stone_button[face=wall,facing=west]"
     },
     {
       "char": "Z",
-      "block": "minecraft:bookshelf"
+      "block": "minecraft:iron_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
       "char": "0",
-      "block": "another_furniture:white_lamp[waterlogged=false,lit=false,facing=up]"
+      "block": "minecraft:bookshelf"
     },
     {
       "char": "1",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=east]"
+      "block": "another_furniture:white_lamp[waterlogged=false,lit=false,facing=up]"
     },
     {
       "char": "2",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=east]"
     },
     {
       "char": "3",
-      "block": "embellishcraft:oak_plain_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
     },
     {
       "char": "4",
-      "block": "another_furniture:oak_shelf[waterlogged=false,facing=north,type=right]"
+      "block": "embellishcraft:oak_plain_door[hinge=right,half=upper,facing=east,open=false]"
     },
     {
       "char": "5",
-      "block": "another_furniture:oak_shelf[waterlogged=false,facing=north,type=middle]"
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=north,type=right]"
     },
     {
       "char": "6",
-      "block": "another_furniture:oak_shelf[waterlogged=false,facing=north,type=left]"
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=north,type=middle]"
     },
     {
       "char": "7",
-      "block": "farmersdelight:tomato_crate"
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=north,type=left]"
     },
     {
       "char": "8",
-      "block": "embellishcraft:air_duct"
+      "block": "farmersdelight:tomato_crate"
     },
     {
       "char": "9",
-      "block": "minecraft:oak_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "embellishcraft:air_duct"
     },
     {
       "char": "@",
-      "block": "simplylight:edge_light_top[waterlogged=false]"
+      "block": "minecraft:oak_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
     },
     {
       "char": "#",
-      "block": "embellishcraft:vent_air_duct[facing=south]"
+      "block": "simplylight:edge_light_top[waterlogged=false]"
     },
     {
       "char": "$",
-      "block": "immersiveengineering:slab_sheetmetal_colored_lime[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:vent_air_duct[facing=south]"
     },
     {
       "char": "%",
-      "block": "quark:limestone_slab[waterlogged=false,type=top]"
+      "block": "immersiveengineering:slab_sheetmetal_colored_lime[waterlogged=false,type=bottom]"
     },
     {
       "char": "^",
-      "block": "quark:limestone_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "quark:limestone_slab[waterlogged=false,type=top]"
     },
     {
       "char": "&",
+      "block": "quark:limestone_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "*",
       "block": "farmersdelight:spruce_cabinet[facing=north,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "*",
+      "char": "(",
       "block": "bunker_down:broken_ceiling_lamp"
     },
     {
-      "char": "(",
+      "char": ")",
       "block": "minecraft:oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
-      "char": ")",
+      "char": "+",
       "block": "embellishcraft:vent_air_duct[facing=down]"
     }
   ]

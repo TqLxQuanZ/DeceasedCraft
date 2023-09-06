@@ -27,58 +27,67 @@
     },
     {
       "char": "g",
-      "block": "car:line_side_long_left[facing=south]"
+      "block": "minecraft:command_block[conditional=false,facing=east]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
+      }
     },
     {
       "char": "h",
-      "block": "car:line_side_long_left[facing=east]"
+      "block": "car:line_side_long_left[facing=south]"
     },
     {
       "char": "i",
-      "block": "embellishcraft:basalt_button[face=wall,facing=south]"
+      "block": "car:line_side_long_left[facing=east]"
     },
     {
       "char": "j",
-      "block": "minecraft:stone_button[face=floor,facing=south]"
+      "block": "embellishcraft:basalt_button[face=wall,facing=south]"
     },
     {
       "char": "k",
-      "block": "embellishcraft:basalt_button[face=wall,facing=north]"
+      "block": "minecraft:stone_button[face=floor,facing=south]"
     },
     {
       "char": "l",
-      "block": "embellishcraft:basalt_button[face=wall,facing=east]"
+      "block": "embellishcraft:basalt_button[face=wall,facing=north]"
     },
     {
       "char": "m",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=north]"
+      "block": "embellishcraft:basalt_button[face=wall,facing=east]"
     },
     {
       "char": "n",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=north]"
     },
     {
       "char": "o",
-      "block": "biomesoplenty:smooth_white_sandstone"
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=west]"
     },
     {
       "char": "p",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "biomesoplenty:smooth_white_sandstone"
     },
     {
       "char": "q",
-      "block": "minecraft:redstone_wall_torch[lit=true,facing=north]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     },
     {
       "char": "r",
-      "block": "minecraft:redstone_wall_torch[lit=true,facing=west]"
+      "block": "minecraft:redstone_wall_torch[lit=true,facing=north]"
     },
     {
       "char": "s",
-      "block": "create:andesite_bars[waterlogged=false]"
+      "block": "minecraft:redstone_wall_torch[lit=true,facing=west]"
     },
     {
       "char": "t",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "u",
       "block": "minecraft:stone_slab[waterlogged=false,type=top]"
     }
   ]
