@@ -196,6 +196,21 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:apocalypsenow:life_jacket_bullet_helmet_chestplate>.maxDamage = 180;
 
  
+<item:apocalypsenow:sheriff_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:sheriff_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:sheriff_helmet>.maxDamage = 120;
+
+ 
+<item:apocalypsenow:cowboy_hat_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:cowboy_hat_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:cowboy_hat_helmet>.maxDamage = 120;
+
+ 
+<item:apocalypsenow:old_west_hat_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:old_west_hat_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:old_west_hat_helmet>.maxDamage = 120;
+
+ 
 <item:apocalypsenow:jasonmask_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
 <item:apocalypsenow:jasonmask_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
 <item:apocalypsenow:jasonmask_helmet>.maxDamage = 120;
@@ -211,6 +226,53 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:apocalypsenow:balaclava_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
 <item:apocalypsenow:balaclava_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
 <item:apocalypsenow:balaclava_helmet>.maxDamage = 120;
+
+ 
+<item:alexsmobs:frontier_cap>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, []);
+<item:alexsmobs:frontier_cap>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 2.0, AttributeOperation.ADDITION, []);
+<item:alexsmobs:frontier_cap>.maxDamage = 135;
+<item:alexsmobs:frontier_cap>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, []);
+<item:alexsmobs:frontier_cap>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 0.5, AttributeOperation.ADDITION, []);
+
+ 
+<item:alexsmobs:fedora>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, []);
+<item:alexsmobs:fedora>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 1.0, AttributeOperation.ADDITION, []);
+<item:alexsmobs:fedora>.maxDamage = 110;
+<item:alexsmobs:fedora>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, []);
+<item:alexsmobs:fedora>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 0.5, AttributeOperation.ADDITION, []);
+
+ 
+<item:alexsmobs:froststalker_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:alexsmobs:froststalker_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:alexsmobs:froststalker_helmet>.maxDamage = 99;
+<item:alexsmobs:froststalker_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:head>]);
+<item:alexsmobs:froststalker_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 0.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+
+ 
+<item:alexsmobs:roadrunner_boots>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:feet>]);
+<item:alexsmobs:roadrunner_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+<item:alexsmobs:roadrunner_boots>.maxDamage = 135;
+
+ 
+<item:alexsmobs:crocodile_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:chest>]);
+<item:alexsmobs:crocodile_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:alexsmobs:crocodile_chestplate>.maxDamage = 253;
+<item:alexsmobs:crocodile_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:chest>]);
+<item:alexsmobs:crocodile_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+
+ 
+<item:alexsmobs:moose_headgear>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:alexsmobs:moose_headgear>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:alexsmobs:moose_headgear>.maxDamage = 222;
+<item:alexsmobs:moose_headgear>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:head>]);
+<item:alexsmobs:moose_headgear>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 0.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+
+ 
+<item:alexsmobs:sombrero>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, []);
+<item:alexsmobs:sombrero>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 2.0, AttributeOperation.ADDITION, []);
+<item:alexsmobs:sombrero>.maxDamage = 135;
+<item:alexsmobs:sombrero>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, []);
+<item:alexsmobs:sombrero>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 0.5, AttributeOperation.ADDITION, []);
 
  
 #--------------------------- Tier 2 ------------------------------

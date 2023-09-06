@@ -214,6 +214,13 @@ craftingTable.remove(<item:alexsmobs:cosmic_cod_bucket>);
 craftingTable.remove(<item:alexsmobs:pupfish_locator>);
 craftingTable.remove(<item:alexsmobs:void_worm_beak>);
 craftingTable.remove(<item:alexsmobs:void_worm_effigy>);
+craftingTable.remove(<item:alexsmobs:blood_sac>);
+craftingTable.remove(<item:alexsmobs:mosquito_proboscis>);
+craftingTable.remove(<item:alexsmobs:sopa_de_macaco>);
+craftingTable.remove(<item:alexsmobs:rocky_chestplate>);
+craftingTable.remove(<item:alexsmobs:spiked_turtle_shell>);
+craftingTable.remove(<item:alexsmobs:centipede_leg>);
+craftingTable.remove(<item:alexsmobs:centipede_leggings>);
 
 JEI.hideIngredient(<item:alexsmobs:bone_serpent_tooth>);
 JEI.hideIngredient(<item:alexsmobs:blood_sprayer>);
@@ -244,6 +251,13 @@ JEI.hideIngredient(<item:alexsmobs:cosmic_cod_bucket>);
 JEI.hideIngredient(<item:alexsmobs:pupfish_locator>);
 JEI.hideIngredient(<item:alexsmobs:void_worm_beak>);
 JEI.hideIngredient(<item:alexsmobs:void_worm_effigy>);
+JEI.hideIngredient(<item:alexsmobs:blood_sac>);
+JEI.hideIngredient(<item:alexsmobs:mosquito_proboscis>);
+JEI.hideIngredient(<item:alexsmobs:sopa_de_macaco>);
+JEI.hideIngredient(<item:alexsmobs:rocky_chestplate>);
+JEI.hideIngredient(<item:alexsmobs:spiked_turtle_shell>);
+JEI.hideIngredient(<item:alexsmobs:centipede_leg>);
+JEI.hideIngredient(<item:alexsmobs:centipede_leggings>);
 
 // Hide All Spawn Eggs
 JEI.hideRegex(".*:.*_spawn_egg");

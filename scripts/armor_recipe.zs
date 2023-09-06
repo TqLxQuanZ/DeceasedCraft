@@ -324,6 +324,13 @@ craftingTable.addShaped("t1_life_jacket_bullet_helmet_chestplate", <item:apocaly
     [[<tag:items:forge:string>, <item:minecraft:air>, <tag:items:forge:string>],
     [<item:apocalypsenow:cloth>, <item:minecraft:leather_chestplate>, <item:apocalypsenow:cloth>],
     [<item:apocalypsenow:cloth>, <tag:items:forge:dyes/orange>, <item:apocalypsenow:cloth>]]);
+    
+// Life Jacket
+craftingTable.remove(<item:apocalypsenow:high_visibility_jacket_chestplate>);
+craftingTable.addShaped("t1_high_visibility_jacket_chestplate", <item:apocalypsenow:high_visibility_jacket_chestplate>,
+    [[<tag:items:forge:string>, <item:minecraft:air>, <tag:items:forge:string>],
+    [<item:apocalypsenow:cloth>, <item:minecraft:leather_chestplate>, <item:apocalypsenow:cloth>],
+    [<item:apocalypsenow:cloth>, <tag:items:forge:dyes/yellow>, <item:apocalypsenow:cloth>]]);
 
 // Jason Helmet
 craftingTable.remove(<item:apocalypsenow:jasonmask_helmet>);

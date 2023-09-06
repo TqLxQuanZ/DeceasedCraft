@@ -1,6 +1,19 @@
 import mods.spoiled.SpoilingManager;
 var spoilManager = <recipetype:spoiled:spoil_recipe>;
 
+// Alex Mobs
+<tag:items:forge:raw_meats>.add(<item:alexsmobs:lobster_tail>);
+<tag:items:forge:raw_meats>.add(<item:alexsmobs:kangaroo_meat>);
+<tag:items:forge:raw_meats>.add(<item:alexsmobs:moose_ribs>);
+<tag:items:forge:cooked_meats>.add(<item:alexsmobs:cooked_lobster_tail>);
+<tag:items:forge:cooked_meats>.add(<item:alexsmobs:cooked_kangaroo_meat>);
+<tag:items:forge:cooked_meats>.add(<item:alexsmobs:cooked_moose_ribs>);
+<tag:items:forge:raw_fishes>.add(<item:alexsmobs:rainbow_jelly>);
+<tag:items:forge:raw_fishes>.add(<item:alexsmobs:raw_catfish>);
+<tag:items:forge:raw_fishes>.add(<item:alexsmobs:flying_fish>);
+<tag:items:forge:cooked_fishes>.add(<item:alexsmobs:cooked_catfish>);
+
+
 // Raw Meats
 for ingredient in <tag:items:forge:raw_meats>
 {
@@ -57,6 +70,12 @@ spoilManager.addSpoiling("sweet_roll", <item:create:sweet_roll>, <item:minecraft
 
 // Critters
 spoilManager.addSpoiling("koi_fish", <item:crittersandcompanions:koi_fish>, <item:minecraft:rotten_flesh>, 3000);
+
+// Alex Mobs
+spoilManager.addSpoiling("banana", <item:alexsmobs:banana>, <item:minecraft:rotten_flesh>, 2 * 6000);
+spoilManager.addSpoiling("kangaroo_burger", <item:alexsmobs:kangaroo_burger>, <item:minecraft:rotten_flesh>, 2 * 6000);
+spoilManager.addSpoiling("boiled_emu_egg", <item:alexsmobs:boiled_emu_egg>, <item:minecraft:rotten_flesh>, 2 * 6000);
+spoilManager.addSpoiling("shrimp_fried_rice", <item:alexsmobs:shrimp_fried_rice>, <item:minecraft:rotten_flesh>, 6 * 6000);
 
 // Farmers' Delight
 spoilManager.addSpoiling("cabbage", <item:farmersdelight:cabbage>, <item:minecraft:rotten_flesh>, 5 * 6000);
