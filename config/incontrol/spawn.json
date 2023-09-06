@@ -17,9 +17,10 @@
       "dimension": "minecraft:overworld",
       "mincount": {
         "mod": "zombiemobs",
-        "amount": 10,
+        "amount": 20,
         "perchunk": true
       },
+      "onjoin": true,
       "result": "deny"
     },
     {
@@ -659,6 +660,7 @@
           "amount": 50,
           "perchunk": true
         },
+        "onjoin": true,
         "result": "deny"
     },
     {
