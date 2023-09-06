@@ -8,7 +8,7 @@
 	hidden_levels = []
 
 [attributes]
-	attribute_bonuses = [["minecraft:generic.movement_speed", 0.0], ["minecraft:generic.flying_speed", 0.0], ["minecraft:generic.attack_damage", 0.05], ["minecraft:generic.armor", 0.0], ["minecraft:generic.max_health", 0.1], ["autoleveling:monster.projectile_damage_bonus", 0.0], ["autoleveling:monster.explosion_damage_bonus", 0.0]]
+	attribute_bonuses = [["minecraft:generic.movement_speed", 0.0], ["minecraft:generic.flying_speed", 0.0], ["minecraft:generic.attack_damage", 0.025], ["minecraft:generic.armor", 0.0], ["minecraft:generic.max_health", 0.05], ["autoleveling:monster.projectile_damage_bonus", 0.0], ["autoleveling:monster.explosion_damage_bonus", 0.0]]
 
 [default_leveling_settings]
 	starting_level = 1

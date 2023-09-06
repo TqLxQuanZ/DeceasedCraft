@@ -152,6 +152,122 @@ craftingTable.removeByName("car:gas_station");
     [<item:minecraft:smooth_stone_slab>, <item:create:fluid_tank>, <item:minecraft:smooth_stone_slab>]]);
 
 
+// Wood Body
+// Oak Wood
+craftingTable.removeByName("car:oak_body");
+<recipetype:create:mechanical_crafting>.addRecipe("oak_body", <item:car:oak_body>,
+    [[<item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:oak_planks>, <tag:items:forge:glass>, <item:minecraft:oak_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:forge:plates/plastic>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>]]);
+
+craftingTable.removeByName("car:acacia_body");
+<recipetype:create:mechanical_crafting>.addRecipe("acacia_body", <item:car:acacia_body>,
+    [[<item:minecraft:acacia_planks>, <item:minecraft:acacia_planks>, <item:minecraft:acacia_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:acacia_planks>, <tag:items:forge:glass>, <item:minecraft:acacia_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:forge:plates/plastic>, <item:minecraft:acacia_planks>, <item:minecraft:acacia_planks>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <item:minecraft:acacia_planks>, <item:minecraft:acacia_planks>, <item:minecraft:acacia_planks>]]);
+
+craftingTable.removeByName("car:dark_oak_body");
+<recipetype:create:mechanical_crafting>.addRecipe("dark_oak_body", <item:car:dark_oak_body>,
+    [[<item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:dark_oak_planks>, <tag:items:forge:glass>, <item:minecraft:dark_oak_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:forge:plates/plastic>, <item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_planks>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_planks>]]);
+
+craftingTable.removeByName("car:birch_body");
+<recipetype:create:mechanical_crafting>.addRecipe("birch_body", <item:car:birch_body>,
+    [[<item:minecraft:birch_planks>, <item:minecraft:birch_planks>, <item:minecraft:birch_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:birch_planks>, <tag:items:forge:glass>, <item:minecraft:birch_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:forge:plates/plastic>, <item:minecraft:birch_planks>, <item:minecraft:birch_planks>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <item:minecraft:birch_planks>, <item:minecraft:birch_planks>, <item:minecraft:birch_planks>]]);
+
+craftingTable.removeByName("car:jungle_body");
+<recipetype:create:mechanical_crafting>.addRecipe("jungle_body", <item:car:jungle_body>,
+    [[<item:minecraft:jungle_planks>, <item:minecraft:jungle_planks>, <item:minecraft:jungle_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:jungle_planks>, <tag:items:forge:glass>, <item:minecraft:jungle_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:forge:plates/plastic>, <item:minecraft:jungle_planks>, <item:minecraft:jungle_planks>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <item:minecraft:jungle_planks>, <item:minecraft:jungle_planks>, <item:minecraft:jungle_planks>]]);
+
+craftingTable.removeByName("car:spruce_body");
+<recipetype:create:mechanical_crafting>.addRecipe("spruce_body", <item:car:spruce_body>,
+    [[<item:minecraft:spruce_planks>, <item:minecraft:spruce_planks>, <item:minecraft:spruce_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:spruce_planks>, <tag:items:forge:glass>, <item:minecraft:spruce_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:forge:plates/plastic>, <item:minecraft:spruce_planks>, <item:minecraft:spruce_planks>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <item:minecraft:spruce_planks>, <item:minecraft:spruce_planks>, <item:minecraft:spruce_planks>]]);
+
+craftingTable.removeByName("car:crimson_body");
+<recipetype:create:mechanical_crafting>.addRecipe("crimson_body", <item:car:crimson_body>,
+    [[<item:minecraft:crimson_planks>, <item:minecraft:crimson_planks>, <item:minecraft:crimson_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:crimson_planks>, <tag:items:forge:glass>, <item:minecraft:crimson_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:forge:plates/plastic>, <item:minecraft:crimson_planks>, <item:minecraft:crimson_planks>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <item:minecraft:crimson_planks>, <item:minecraft:crimson_planks>, <item:minecraft:crimson_planks>]]);
+
+craftingTable.removeByName("car:warped_body");
+<recipetype:create:mechanical_crafting>.addRecipe("warped_body", <item:car:warped_body>,
+    [[<item:minecraft:warped_planks>, <item:minecraft:warped_planks>, <item:minecraft:warped_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:warped_planks>, <tag:items:forge:glass>, <item:minecraft:warped_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:forge:plates/plastic>, <item:minecraft:warped_planks>, <item:minecraft:warped_planks>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <item:minecraft:warped_planks>, <item:minecraft:warped_planks>, <item:minecraft:warped_planks>]]);
+
+// Big Bodies
+craftingTable.removeByName("car:big_oak_body");
+<recipetype:create:mechanical_crafting>.addRecipe("big_oak_body", <item:car:big_oak_body>,
+    [[<item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:oak_planks>, <tag:items:forge:glass>, <tag:items:forge:glass>, <item:minecraft:oak_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:forge:plates/plastic>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>]]);
+
+craftingTable.removeByName("car:big_acacia_body");
+<recipetype:create:mechanical_crafting>.addRecipe("big_acacia_body", <item:car:big_acacia_body>,
+    [[<item:minecraft:acacia_planks>, <item:minecraft:acacia_planks>, <item:minecraft:acacia_planks>, <item:minecraft:acacia_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:acacia_planks>, <tag:items:forge:glass>, <tag:items:forge:glass>, <item:minecraft:acacia_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:forge:plates/plastic>, <item:minecraft:acacia_planks>, <item:minecraft:acacia_planks>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <item:minecraft:acacia_planks>, <item:minecraft:acacia_planks>, <item:minecraft:acacia_planks>, <item:minecraft:acacia_planks>]]);
+
+craftingTable.removeByName("car:big_dark_oak_body");
+<recipetype:create:mechanical_crafting>.addRecipe("big_dark_oak_body", <item:car:big_dark_oak_body>,
+    [[<item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:dark_oak_planks>, <tag:items:forge:glass>, <tag:items:forge:glass>, <item:minecraft:dark_oak_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:forge:plates/plastic>, <item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_planks>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_planks>]]);
+
+craftingTable.removeByName("car:big_birch_body");
+<recipetype:create:mechanical_crafting>.addRecipe("big_birch_body", <item:car:big_birch_body>,
+    [[<item:minecraft:birch_planks>, <item:minecraft:birch_planks>, <item:minecraft:birch_planks>, <item:minecraft:birch_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:birch_planks>, <tag:items:forge:glass>, <tag:items:forge:glass>, <item:minecraft:birch_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:forge:plates/plastic>, <item:minecraft:birch_planks>, <item:minecraft:birch_planks>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <item:minecraft:birch_planks>, <item:minecraft:birch_planks>, <item:minecraft:birch_planks>, <item:minecraft:birch_planks>]]);
+
+craftingTable.removeByName("car:big_jungle_body");
+<recipetype:create:mechanical_crafting>.addRecipe("big_jungle_body", <item:car:big_jungle_body>,
+    [[<item:minecraft:jungle_planks>, <item:minecraft:jungle_planks>, <item:minecraft:jungle_planks>, <item:minecraft:jungle_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:jungle_planks>, <tag:items:forge:glass>, <tag:items:forge:glass>, <item:minecraft:jungle_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:forge:plates/plastic>, <item:minecraft:jungle_planks>, <item:minecraft:jungle_planks>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <item:minecraft:jungle_planks>, <item:minecraft:jungle_planks>, <item:minecraft:jungle_planks>, <item:minecraft:jungle_planks>]]);
+
+craftingTable.removeByName("car:big_spruce_body");
+<recipetype:create:mechanical_crafting>.addRecipe("big_spruce_body", <item:car:big_spruce_body>,
+    [[<item:minecraft:spruce_planks>, <item:minecraft:spruce_planks>, <item:minecraft:spruce_planks>, <item:minecraft:spruce_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:spruce_planks>, <tag:items:forge:glass>, <tag:items:forge:glass>, <item:minecraft:spruce_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:forge:plates/plastic>, <item:minecraft:spruce_planks>, <item:minecraft:spruce_planks>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <item:minecraft:spruce_planks>, <item:minecraft:spruce_planks>, <item:minecraft:spruce_planks>, <item:minecraft:spruce_planks>]]);
+
+craftingTable.removeByName("car:big_crimson_body");
+<recipetype:create:mechanical_crafting>.addRecipe("big_crimson_body", <item:car:big_crimson_body>,
+    [[<item:minecraft:crimson_planks>, <item:minecraft:crimson_planks>, <item:minecraft:crimson_planks>, <item:minecraft:crimson_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:crimson_planks>, <tag:items:forge:glass>, <tag:items:forge:glass>, <item:minecraft:crimson_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:forge:plates/plastic>, <item:minecraft:crimson_planks>, <item:minecraft:crimson_planks>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <item:minecraft:crimson_planks>, <item:minecraft:crimson_planks>, <item:minecraft:crimson_planks>, <item:minecraft:crimson_planks>]]);
+
+craftingTable.removeByName("car:big_warped_body");
+<recipetype:create:mechanical_crafting>.addRecipe("big_warped_body", <item:car:big_warped_body>,
+    [[<item:minecraft:warped_planks>, <item:minecraft:warped_planks>, <item:minecraft:warped_planks>, <item:minecraft:warped_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:warped_planks>, <tag:items:forge:glass>, <tag:items:forge:glass>, <item:minecraft:warped_planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:forge:plates/plastic>, <item:minecraft:warped_planks>, <item:minecraft:warped_planks>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <item:minecraft:warped_planks>, <item:minecraft:warped_planks>, <item:minecraft:warped_planks>, <item:minecraft:warped_planks>]]);
+
+
 // Transporter Body
 // Black
 craftingTable.removeByName("car:black_transporter_body");
