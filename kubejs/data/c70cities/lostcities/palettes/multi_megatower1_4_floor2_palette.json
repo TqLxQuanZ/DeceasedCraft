@@ -172,66 +172,62 @@
     },
     {
       "char": "Q",
-      "block": "minecraft:emerald_ore"
-    },
-    {
-      "char": "R",
       "block": "immersiveengineering:sheetmetal_iron"
     },
     {
-      "char": "S",
+      "char": "R",
       "block": "create:fluid_pipe[waterlogged=false,up=false]"
     },
     {
-      "char": "T",
+      "char": "S",
       "block": "create:andesite_encased_cogwheel[top_shaft=false,axis=y]"
     },
     {
-      "char": "U",
+      "char": "T",
       "block": "create:fluid_pipe[waterlogged=false,up=true]"
     },
     {
-      "char": "V",
+      "char": "U",
       "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
-      "char": "W",
+      "char": "V",
       "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
-      "char": "X",
+      "char": "W",
       "block": "immersiveengineering:breaker_switch[waterlogged=false,facing=south]"
     },
     {
-      "char": "Y",
+      "char": "X",
       "block": "embellishcraft:warning_steel_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
-      "char": "Z",
+      "char": "Y",
       "block": "embellishcraft:warning_steel_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
-      "char": "0",
+      "char": "Z",
       "block": "create:copper_door[hinge=right,half=upper,facing=west,open=false]"
     },
     {
-      "char": "1",
+      "char": "0",
       "block": "create:copper_door[hinge=left,half=upper,facing=west,open=false]"
     },
     {
-      "char": "2",
+      "char": "1",
       "block": "embellishcraft:sturdy_steel_door[hinge=left,half=upper,facing=north,open=false]"
     },
     {
-      "char": "3",
+      "char": "2",
       "block": "embellishcraft:sturdy_steel_door[hinge=left,half=upper,facing=west,open=false]"
     },
     {
-      "char": "4",
+      "char": "3",
       "block": "embellishcraft:sturdy_steel_door[hinge=right,half=upper,facing=north,open=false]"
     },
     {
-      "char": "5",
+      "char": "4",
       "block": "clickmachine:auto_clicker[facing=south]",
       "tag": {
         "speed_index": 8,
@@ -250,82 +246,82 @@
       }
     },
     {
-      "char": "6",
+      "char": "5",
       "block": "create:andesite_bars[waterlogged=false]"
     },
     {
-      "char": "7",
+      "char": "6",
       "block": "create:nixie_tube[waterlogged=false,double_face=ceiling,facing=east]",
       "tag": {
         "id": "create:nixie_tube"
       }
     },
     {
-      "char": "8",
+      "char": "7",
       "block": "embellishcraft:yellow_grey_tiles_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "9",
+      "char": "8",
       "block": "quark:stone_vertical_slab[waterlogged=false,type=west]"
     },
     {
-      "char": "@",
+      "char": "9",
       "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
     },
     {
-      "char": "#",
+      "char": "@",
       "block": "minecraft:brown_shulker_box[facing=up]"
     },
     {
-      "char": "$",
+      "char": "#",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "%",
+      "char": "$",
       "block": "embellishcraft:yellow_grey_tiles"
     },
     {
-      "char": "^",
+      "char": "%",
       "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
-      "char": "&",
+      "char": "^",
       "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
     },
     {
-      "char": "*",
+      "char": "&",
       "block": "minecraft:water"
     },
     {
-      "char": "(",
+      "char": "*",
       "block": "minecraft:sea_lantern"
     },
     {
-      "char": ")",
+      "char": "(",
       "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
-      "char": "+",
+      "char": ")",
       "block": "simplylight:illuminant_block_on"
     },
     {
-      "char": "-",
+      "char": "+",
       "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=north]"
     },
     {
-      "char": "[",
+      "char": "-",
       "block": "minecraft:stripped_oak_log[axis=x]"
     },
     {
-      "char": "]",
+      "char": "[",
       "block": "embellishcraft:air_duct"
     },
     {
-      "char": "{",
+      "char": "]",
       "block": "embellishcraft:vent_air_duct[facing=north]"
     },
     {
-      "char": "}",
+      "char": "{",
       "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=south]"
     }
   ]

@@ -35,7 +35,8 @@
     },
     {
       "char": "i",
-      "block": "minecraft:cyan_terracotta"
+      "block": "cfm:cyan_kitchen_drawer[facing=west,open=false]",
+      "loot": "chestloot"
     },
     {
       "char": "j",

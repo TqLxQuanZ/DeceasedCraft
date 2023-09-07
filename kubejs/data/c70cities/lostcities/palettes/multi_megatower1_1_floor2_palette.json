@@ -63,11 +63,12 @@
     },
     {
       "char": "p",
-      "block": "minecraft:iron_ore"
+      "block": "minecraft:chest",
+      "loot": "chestloot"
     },
     {
       "char": "q",
-      "block": "minecraft:emerald_ore"
+      "block": "create:brass_block"
     },
     {
       "char": "r",
@@ -75,35 +76,30 @@
     },
     {
       "char": "s",
-      "block": "minecraft:chest",
-      "loot": "chestloot"
-    },
-    {
-      "char": "t",
       "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     },
     {
-      "char": "u",
+      "char": "t",
       "block": "minecraft:redstone_wall_torch[lit=true,facing=north]"
     },
     {
-      "char": "w",
+      "char": "u",
       "block": "create:andesite_bars[waterlogged=false]"
     },
     {
-      "char": "x",
+      "char": "w",
       "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
-      "char": "y",
+      "char": "x",
       "block": "minecraft:stripped_oak_log[axis=x]"
     },
     {
-      "char": "A",
+      "char": "y",
       "block": "embellishcraft:air_duct"
     },
     {
-      "char": "B",
+      "char": "A",
       "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=south]"
     }
   ]

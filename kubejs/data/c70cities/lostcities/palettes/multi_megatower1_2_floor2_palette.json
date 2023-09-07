@@ -31,35 +31,30 @@
     },
     {
       "char": "h",
-      "block": "minecraft:iron_ore"
+      "block": "create:brass_block"
     },
     {
       "char": "i",
-      "block": "minecraft:emerald_ore"
+      "block": "immersiveengineering:storage_steel"
     },
     {
       "char": "j",
-      "block": "minecraft:chest",
-      "loot": "chestloot"
-    },
-    {
-      "char": "k",
       "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
     },
     {
-      "char": "l",
+      "char": "k",
       "block": "create:andesite_bars[waterlogged=false]"
     },
     {
-      "char": "m",
+      "char": "l",
       "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
-      "char": "n",
+      "char": "m",
       "block": "embellishcraft:air_duct"
     },
     {
-      "char": "o",
+      "char": "n",
       "block": "minecraft:stripped_oak_log[axis=x]"
     }
   ]

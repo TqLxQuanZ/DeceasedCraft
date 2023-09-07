@@ -51,46 +51,50 @@
     },
     {
       "char": "m",
-      "block": "cfm:cyan_kitchen_counter[facing=south,type=default]"
+      "block": "cfm:cyan_kitchen_sink[facing=south]"
     },
     {
       "char": "n",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+      "block": "cfm:cyan_kitchen_counter[facing=south,type=default]"
     },
     {
       "char": "o",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
     },
     {
       "char": "p",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
     },
     {
       "char": "q",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=east,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
     },
     {
       "char": "r",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=south,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=east,open=true]"
     },
     {
       "char": "s",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=south,open=true]"
     },
     {
       "char": "t",
-      "block": "embellishcraft:air_duct"
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
     },
     {
       "char": "u",
-      "block": "minecraft:stripped_oak_log[axis=z]"
+      "block": "embellishcraft:air_duct"
     },
     {
       "char": "w",
-      "block": "minecraft:stripped_oak_log[axis=x]"
+      "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
       "char": "x",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    },
+    {
+      "char": "y",
       "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
     }
   ]

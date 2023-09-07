@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 0,
-        "max": 2
+        "min": 1,
+        "max": 3
       },
       "bonus_rolls": 1,
       "entries": [
@@ -36,7 +36,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 3
               },
               "add": true
             }
@@ -72,24 +72,19 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "refinedstorage:crafting_grid"
+          "name": "immersiveengineering:component_electronic"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "refinedstorage:wireless_transmitter"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "refinedstorage:controller"
+          "name": "immersiveengineering:component_electronic_adv"
         }
       ]
     },
     {
       "rolls": {
         "min": 0,
-        "max": 3
+        "max": 2
       },
       "bonus_rolls": {
         "min": 1,
@@ -135,47 +130,16 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "refinedstorage:4k_storage_part"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 0,
-        "max": 1
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "artifacts:cloud_in_a_bottle",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
-            }
-          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "artifacts:universal_attractor",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
-            }
-          ]
+          "name": "refinedstorage:16k_storage_part"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "artifacts:umbrella",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
-            }
-          ]
+          "name": "refinedstorage:64k_storage_part"
         }
       ]
     },

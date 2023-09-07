@@ -31,20 +31,19 @@
     },
     {
       "char": "h",
-      "block": "cfm:cyan_kitchen_counter[facing=south,type=default]"
+      "block": "cfm:cyan_kitchen_sink[facing=south]"
     },
     {
       "char": "i",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+      "block": "cfm:cyan_kitchen_counter[facing=south,type=default]"
     },
     {
       "char": "j",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
     },
     {
       "char": "k",
-      "block": "minecraft:chest",
-      "loot": "chestloot"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
     },
     {
       "char": "l",

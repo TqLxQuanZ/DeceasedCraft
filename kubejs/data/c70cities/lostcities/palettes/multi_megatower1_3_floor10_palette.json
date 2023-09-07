@@ -103,20 +103,20 @@
     },
     {
       "char": "B",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
+      "block": "cfm:cyan_kitchen_drawer[facing=west,open=false]",
+      "loot": "chestloot"
     },
     {
       "char": "C",
-      "block": "quark:spruce_hedge[waterlogged=false]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
     },
     {
       "char": "D",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=north,open=true]"
+      "block": "quark:spruce_hedge[waterlogged=false]"
     },
     {
       "char": "E",
-      "block": "minecraft:chest",
-      "loot": "chestloot"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=north,open=true]"
     },
     {
       "char": "F",

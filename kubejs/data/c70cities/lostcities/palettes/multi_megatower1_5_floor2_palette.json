@@ -27,39 +27,39 @@
     },
     {
       "char": "g",
-      "block": "minecraft:diamond_ore"
+      "block": "minecraft:gold_block"
     },
     {
       "char": "h",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=east]"
+      "block": "apocalypsenow:money_block"
     },
     {
       "char": "i",
-      "block": "immersiveengineering:treated_fence[waterlogged=false]"
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=east]"
     },
     {
       "char": "j",
-      "block": "create:fluid_pipe[waterlogged=false,up=false]"
+      "block": "immersiveengineering:treated_fence[waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
+      "block": "create:fluid_pipe[waterlogged=false,up=false]"
     },
     {
       "char": "l",
-      "block": "minecraft:emerald_ore"
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
     },
     {
       "char": "m",
-      "block": "create:fluid_pipe[waterlogged=false,up=true]"
+      "block": "immersiveengineering:storage_steel"
     },
     {
       "char": "n",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+      "block": "create:fluid_pipe[waterlogged=false,up=true]"
     },
     {
       "char": "o",
-      "block": "apocalypsenow:safe[facing=west]"
+      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
     },
     {
       "char": "p",
@@ -79,39 +79,34 @@
     },
     {
       "char": "t",
-      "block": "minecraft:chest",
-      "loot": "chestloot"
-    },
-    {
-      "char": "u",
       "block": "embellishcraft:yellow_grey_tiles"
     },
     {
-      "char": "w",
+      "char": "u",
       "block": "minecraft:sea_lantern"
     },
     {
-      "char": "x",
+      "char": "w",
       "block": "minecraft:water"
     },
     {
-      "char": "y",
+      "char": "x",
       "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
-      "char": "A",
+      "char": "y",
       "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
-      "char": "B",
+      "char": "A",
       "block": "embellishcraft:air_duct"
     },
     {
-      "char": "C",
+      "char": "B",
       "block": "embellishcraft:grid_air_duct[facing=north]"
     },
     {
-      "char": "D",
+      "char": "C",
       "block": "minecraft:stripped_oak_log[axis=x]"
     }
   ]

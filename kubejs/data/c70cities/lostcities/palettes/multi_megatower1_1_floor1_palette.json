@@ -75,60 +75,55 @@
     },
     {
       "char": "s",
-      "block": "minecraft:chest",
-      "loot": "chestloot"
-    },
-    {
-      "char": "t",
       "block": "cfm:cyan_cooler[waterlogged=false,facing=west,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "u",
+      "char": "t",
       "block": "embellishcraft:basalt_button[face=floor,facing=south]"
     },
     {
-      "char": "w",
+      "char": "u",
       "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
-      "char": "x",
+      "char": "w",
       "block": "quark:spruce_hedge[waterlogged=false]"
     },
     {
-      "char": "y",
+      "char": "x",
       "block": "minecraft:redstone_wall_torch[lit=true,facing=north]"
     },
     {
-      "char": "A",
+      "char": "y",
       "block": "simplylight:illuminant_panel[waterlogged=false,facing=east]"
     },
     {
-      "char": "B",
+      "char": "A",
       "block": "create:andesite_bars[waterlogged=false]"
     },
     {
-      "char": "C",
+      "char": "B",
       "block": "create:framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "D",
+      "char": "C",
       "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "minecraft:smooth_stone"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "minecraft:stripped_oak_log[axis=x]"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
     }
   ]
