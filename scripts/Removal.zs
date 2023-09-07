@@ -15,6 +15,10 @@ JEI.hideMod("undead_revamp2");
 craftingTable.removeByModid("mutationcraft");
 JEI.hideMod("mutationcraft");
 
+// autoclicker
+craftingTable.removeByName("clickmachine:auto_clicker");
+JEI.hideIngredient(<item:clickmachine:auto_clicker>);
+
 // Jetpack
 craftingTable.removeByName("create_sa:copper_propeler_recipe");
 
