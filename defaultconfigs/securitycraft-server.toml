@@ -1,0 +1,69 @@
+#The chance for the codebreaker to successfully hack a block. 0.33 is 33%. Set to a negative value to disable the codebreaker.
+#Using the codebreaker when this is set to 0.0 will still damage the item, while negative values do not damage it.
+#Range: -1.0 ~ 1.0
+codebreaker_chance = 0.33
+#Can the admin tool be used?
+allowAdminTool = true
+#Should mines spawn fire after exploding?
+shouldSpawnFire = true
+#Should players be able to break a mine without it exploding?
+ableToBreakMines = true
+#Should mines' explosions be smaller than usual.
+smallerMineExplosion = false
+#Should mines explode if broken while in Creative mode?
+mineExplodesWhenInCreative = true
+#Set this to false if you want mines to not break blocks when they explode.
+mineExplosionsBreakBlocks = true
+#From how many blocks away can a laser block connect to another laser block?
+#Range: > 0
+laserBlockRange = 5
+#From how many blocks away can an inventory scanner connect to another inventory scanner?
+#Range: > 0
+inventoryScannerRange = 2
+#What is the maximum value that can be set for an alarm's range option? Do note, that this may be limited by chunk loading distance. Higher values may also not be finetuneable.
+#Range: > 1
+maxAlarmRange = 100
+#Allow claiming unowned blocks?
+allowBlockClaim = true
+#Should the sentry/inventory scanner/laser block/etc. ignore players and entities that are invisible?
+respect_invisibility = false
+#Should reinforced blocks' textures be slightly darker than their vanilla counterparts? This does nothing unless force_reinforced_block_tint is set to true.
+reinforced_block_tint = true
+#Set this to true if you want to force the setting of reinforced_block_tint for players.
+force_reinforced_block_tint = false
+#Display owner face on retinal scanner?
+retinalScannerFace = true
+#Set this to true to enable every player on a scoreboard team (or FTB Teams party) to own the blocks of every other player on the same team.
+#This enables players on the same team to break each other's reinforced blocks, change options, add/remove modules, and have access to all other owner-restricted things.
+enable_team_ownership = true
+#Set this to true to disable sending the message that SecurityCraft shows when a player joins.
+#Note, that this stops showing the message for every player, even those that want to see them.
+disable_thanks_message = true
+#Set this to true if you want players wearing a different player's skull to be able to trick their retinal scanners and scanner doors into activating.
+trick_scanners_with_player_heads = false
+#Set the amount of damage the taser inflicts onto the mobs it hits. Default is half a heart.
+#Range: 0.0 ~ 1.7976931348623157E308
+taser_damage = 1.0
+#Set the amount of damage the powered taser inflicts onto the mobs it hits. Default is one heart.
+#Range: 0.0 ~ 1.7976931348623157E308
+powered_taser_damage = 2.0
+#Add effects to this list that you want the taser to inflict onto the mobs it hits. One entry corresponds to one effect, and is formatted like this:
+#effect_namespace:effect_path|duration|amplifier
+#Example: The entry "minecraft:slowness|20|1" defines slowness 1 for 1 second (20 ticks = 1 second).
+taser_effects = ["minecraft:weakness|200|2", "minecraft:nausea|200|2", "minecraft:slowness|200|2"]
+#Add effects to this list that you want the powered taser to inflict onto the mobs it hits. One entry corresponds to one effect, and is formatted like this:
+#effect_namespace:effect_path|duration|amplifier
+#Example: The entry "minecraft:slowness|20|1" defines slowness 1 for 1 second (20 ticks = 1 second).
+powered_taser_effects = ["minecraft:weakness|400|5", "minecraft:nausea|400|5", "minecraft:slowness|400|5"]
+#Defines the damage inflicted to an entity if it passes through a laser with installed harming module. This is given in health points, meaning 2 health points = 1 heart
+#Range: 0.0 ~ 1.7976931348623157E308
+laser_damage = 10.0
+#Defines the damage that a block requiring a passcode deals to the player, if the player enters an incorrect code. This only works if a harming module is installed.
+#Default is two hearts of damage.
+#Range: > 1
+incorrectPasscodeDamage = 4
+#Add entities to this list that the Sentry currently does not attack, but that you want the Sentry to attack. The denylist takes priority over the allowlist.
+sentry_attackable_entities_allowlist = []
+#Add entities to this list that the Sentry currently attacks, but that you want the Sentry to NOT attack. The denylist takes priority over the allowlist.
+sentry_attackable_entities_denylist = []
+

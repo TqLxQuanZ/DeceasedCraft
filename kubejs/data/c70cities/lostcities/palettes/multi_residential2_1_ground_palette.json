@@ -23,88 +23,88 @@
     },
     {
       "char": "f",
-      "block": "minecraft:command_block[conditional=false,facing=west]",
+      "block": "car:car_workshop_outter[position=8]"
+    },
+    {
+      "char": "g",
+      "block": "car:car_workshop_outter[position=1]"
+    },
+    {
+      "char": "h",
+      "block": "car:car_workshop_outter[position=2]"
+    },
+    {
+      "char": "i",
+      "block": "car:car_workshop_outter[position=7]"
+    },
+    {
+      "char": "j",
+      "block": "car:car_workshop"
+    },
+    {
+      "char": "k",
+      "block": "car:car_workshop_outter[position=3]"
+    },
+    {
+      "char": "l",
+      "block": "car:car_workshop_outter[position=6]"
+    },
+    {
+      "char": "m",
+      "block": "car:car_workshop_outter[position=5]"
+    },
+    {
+      "char": "n",
+      "block": "car:car_workshop_outter[position=4]"
+    },
+    {
+      "char": "o",
+      "block": "quark:dark_oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "p",
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:grass"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:dead_bush"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:iron_bars[waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "create:polished_cut_calcite_wall[waterlogged=false,up=false]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:stone_button[face=floor,facing=east]"
+    },
+    {
+      "char": "w",
+      "block": "immersiveengineering:floodlight[waterlogged=false,facing=up]"
+    },
+    {
+      "char": "x",
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "char": "y",
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
         "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
       }
-    },
-    {
-      "char": "g",
-      "block": "car:car_workshop_outter[position=8]"
-    },
-    {
-      "char": "h",
-      "block": "car:car_workshop_outter[position=1]"
-    },
-    {
-      "char": "i",
-      "block": "car:car_workshop_outter[position=2]"
-    },
-    {
-      "char": "j",
-      "block": "car:car_workshop_outter[position=7]"
-    },
-    {
-      "char": "k",
-      "block": "car:car_workshop"
-    },
-    {
-      "char": "l",
-      "block": "car:car_workshop_outter[position=3]"
-    },
-    {
-      "char": "m",
-      "block": "car:car_workshop_outter[position=6]"
-    },
-    {
-      "char": "n",
-      "block": "car:car_workshop_outter[position=5]"
-    },
-    {
-      "char": "o",
-      "block": "car:car_workshop_outter[position=4]"
-    },
-    {
-      "char": "p",
-      "block": "quark:dark_oak_hedge[waterlogged=false]"
-    },
-    {
-      "char": "q",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
-    },
-    {
-      "char": "r",
-      "block": "minecraft:grass"
-    },
-    {
-      "char": "s",
-      "block": "minecraft:dead_bush"
-    },
-    {
-      "char": "t",
-      "block": "minecraft:iron_bars[waterlogged=false]"
-    },
-    {
-      "char": "u",
-      "block": "create:polished_cut_calcite_wall[waterlogged=false,up=false]"
-    },
-    {
-      "char": "w",
-      "block": "minecraft:stone_button[face=floor,facing=east]"
-    },
-    {
-      "char": "x",
-      "block": "immersiveengineering:floodlight[waterlogged=false,facing=up]"
-    },
-    {
-      "char": "y",
-      "block": "immersiveengineering:light_engineering"
-    },
-    {
-      "char": "A",
-      "block": "immersiveengineering:heavy_engineering"
     },
     {
       "char": "B",

@@ -77,6 +77,17 @@
         "value": 10000000
       }
     },
+    "diet:natural_regeneration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 10000000
+      }
+    },
     "minecraft:generic.movement_speed": {
       "enabled": true,
       "min": {
@@ -140,6 +151,17 @@
       },
       "max": {
         "default": 2048,
+        "value": 10000000
+      }
+    },
+    "dietarystatistics:maxfood": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2147483647,
         "value": 10000000
       }
     },

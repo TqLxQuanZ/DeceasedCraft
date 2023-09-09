@@ -2,7 +2,6 @@
     {
       "phase": "after_day1",
       "hostile": true,
-      "onjoin": true,
       "result": "deny"
     },
     {
@@ -59,6 +58,15 @@
       "seesky": true,
       "onjoin": true,
       "random": 0.4,
+      "result": "allow"
+    },
+    {
+      "mob": "quark:shiba",
+      "dimension": "minecraft:overworld",
+      "inbuilding": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 70,
       "result": "allow"
     },
     {
@@ -395,12 +403,6 @@
         "result": "deny"
     },
     {
-        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
-        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
-        "minheight": 61,
-        "result": "deny"
-    },
-    {
       "mob": ["mutationcraft:assimilated_bear",
               "mutationcraft:assimilated_cow",
               "mutationcraft:assimilated_donkey",
@@ -571,7 +573,7 @@
       "hostile": true,
       "dimension": "minecraft:overworld",
       "mincount": {
-        "amount": 250,
+        "amount": 350,
         "hostile": true,
         "perchunk": true
       },
@@ -593,7 +595,7 @@
         "dimension": "minecraft:overworld",
         "mincount": {
           "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
-          "amount": 20,
+          "amount": 100,
           "perchunk": true
         },
         "result": "deny"
@@ -723,6 +725,11 @@
       "result": "deny"
     },
     {
+      "mob": "quark:shiba",
+      "dimension": "minecraft:overworld",
+      "result": "deny"
+    },
+    {
       "mob": "minecraft:blaze",
       "dimension": "minecraft:overworld",
       "result": "deny"
@@ -747,6 +754,7 @@
     {
       "mod": "artifacts",
       "dimension": "minecraft:overworld",
+      "onjoin": true,
       "result": "deny"
     }
 ]

@@ -27,28 +27,28 @@
     },
     {
       "char": "g",
-      "block": "car:line_side_long_left[facing=south]"
-    },
-    {
-      "char": "h",
-      "block": "car:line_side_long_left[facing=east]"
-    },
-    {
-      "char": "i",
-      "block": "embellishcraft:basalt_button[face=wall,facing=south]"
-    },
-    {
-      "char": "j",
-      "block": "embellishcraft:basalt_button[face=wall,facing=north]"
-    },
-    {
-      "char": "k",
       "block": "minecraft:command_block[conditional=false,facing=north]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
         "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
       }
+    },
+    {
+      "char": "h",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "i",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:basalt_button[face=wall,facing=south]"
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:basalt_button[face=wall,facing=north]"
     },
     {
       "char": "l",

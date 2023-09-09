@@ -43,30 +43,39 @@
     },
     {
       "char": "k",
-      "block": "minecraft:stone_button[face=floor,facing=south]"
+      "block": "minecraft:command_block[conditional=false,facing=south]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
+      }
     },
     {
       "char": "l",
-      "block": "simplylight:lamp_post[waterlogged=false,position=middle]"
+      "block": "minecraft:stone_button[face=floor,facing=south]"
     },
     {
       "char": "m",
-      "block": "minecraft:smooth_quartz"
+      "block": "simplylight:lamp_post[waterlogged=false,position=middle]"
     },
     {
       "char": "n",
-      "block": "simplylight:lamp_post[waterlogged=false,position=top]"
+      "block": "minecraft:smooth_quartz"
     },
     {
       "char": "o",
-      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+      "block": "simplylight:lamp_post[waterlogged=false,position=top]"
     },
     {
       "char": "p",
-      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
     },
     {
       "char": "q",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "r",
       "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
     }
   ]

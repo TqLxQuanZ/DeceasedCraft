@@ -1,20 +1,38 @@
 [
 	{
-		"mob": "minecraft:zombie",
-		"persecond": 0.075,
-		"attempts": 20,
+		"mob": ["minecraft:zombie", "minecraft:husk"],
+		"persecond": 0.1,
+		"attempts": 30,
 		"amount": {
 		  "minimum": 1,
-		  "maximum": 3,
+		  "maximum": 4,
 		  "groupdistance": 3
 		},
 		"conditions": {
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
-		  "mindist": 35,
-		  "maxdist": 150,
-		  "minheight": 0,
+		  "mindist": 20,
+		  "maxdist": 200,
+		  "minheight": 45,
 		  "maxheight": 300
+		}
+	},
+	{
+		"mob": "minecraft:husk",
+		"persecond": 0.1,
+		"attempts": 30,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 2,
+		  "groupdistance": 3
+		},
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 15,
+		  "maxdist": 200,
+		  "minheight": -64,
+		  "maxheight": 45
 		}
 	},
 	{
@@ -30,7 +48,20 @@
 			"dimension": "minecraft:overworld",
 			"norestrictions": true,
 			"mindist": 20,
-			"maxdist": 150,
+			"maxdist": 200,
+			"minheight": 45,
+			"maxheight": 150
+		}
+	},
+	{
+		"mob": "quark:shiba",
+		"persecond": 0.05,
+		"attempts": 3,
+		"conditions": {
+		"dimension": "minecraft:overworld",
+			"norestrictions": true,
+			"mindist": 5,
+			"maxdist": 120,
 			"minheight": 45,
 			"maxheight": 300
 		}
@@ -62,7 +93,7 @@
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
 		  "mindist": 10,
-		  "maxdist": 250,
+		  "maxdist": 200,
 		  "minheight": 71,
 		  "maxheight": 300
 		}
@@ -89,7 +120,7 @@
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
 		  "mindist": 25,
-		  "maxdist": 250,
+		  "maxdist": 200,
 		  "minheight": 45,
 		  "maxheight": 300
 		}
@@ -104,7 +135,7 @@
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
 		  "mindist": 30,
-		  "maxdist": 250,
+		  "maxdist": 200,
 		  "minheight": 61,
 		  "maxheight": 300
 		}
@@ -125,7 +156,7 @@
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
 		  "mindist": 25,
-		  "maxdist": 250,
+		  "maxdist": 200,
 		  "minheight": 45,
 		  "maxheight": 300
 		}
@@ -143,7 +174,7 @@
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
 		  "mindist": 10,
-		  "maxdist": 250,
+		  "maxdist": 200,
 		  "minheight": 45,
 		  "maxheight": 300
 		}
@@ -156,7 +187,7 @@
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
 		  "mindist": 20,
-		  "maxdist": 250,
+		  "maxdist": 240,
 		  "minheight": 61,
 		  "maxheight": 300,
 		  "maxlocal": 1
@@ -170,7 +201,7 @@
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
 		  "mindist": 5,
-		  "maxdist": 150,
+		  "maxdist": 240,
 		  "minheight": 125,
 		  "maxheight": 171,
 		  "maxlocal": 1
@@ -184,7 +215,7 @@
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
 		  "mindist": 25,
-		  "maxdist": 200,
+		  "maxdist": 240,
 		  "minheight": 45,
 		  "maxheight": 300,
 		  "maxlocal": 1
