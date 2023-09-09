@@ -32,6 +32,13 @@
     {
       "mod": "zombiemobs",
       "dimension": "minecraft:overworld",
+      "maxspawndist": 20000,
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mod": "zombiemobs",
+      "dimension": "minecraft:overworld",
       "incity": true,
       "onjoin": true,
       "result": "deny"
@@ -113,7 +120,7 @@
       "minlight": 0,
       "maxlight": 6,
       "minheight": 61,
-      "minspawndist": 15000,
+      "minspawndist": 20000,
       "onjoin": true,
       "result": "allow"
     },
@@ -357,7 +364,7 @@
         "incity": true,
         "onjoin": true,
         "minheight": 61,
-        "random": 0.05,
+        "random": 0.15,
         "minspawndist": 10000,
         "result": "default",
         "armorhelmet": "apocalypsenow:hazmat_suit_helmet",
@@ -437,7 +444,7 @@
       "incity": false,
       "seesky": true,
       "onjoin": true,
-      "minspawndist": 30000,
+      "minspawndist": 20000,
       "result": "allow"
     },
     {
@@ -461,7 +468,7 @@
       "maxlight": 6,
       "incity": true,
       "onjoin": true,
-      "minspawndist": 30000,
+      "minspawndist": 20000,
       "result": "allow"
     },
     {
@@ -470,7 +477,7 @@
       "minlight": 0,
       "maxlight": 6,
       "onjoin": true,
-      "minspawndist": 30000,
+      "minspawndist": 20000,
       "result": "allow"
     },
     {
@@ -481,10 +488,9 @@
       "instreet": true,
       "nodespawn": true,
       "onjoin": true,
-      "minspawndist": 15000,
+      "minspawndist": 20000,
       "result": "allow",
-      "healthadd": 300.0,
-      "potion": "minecraft:regeneration,60,254"
+      "healthadd": 300.0
     },
     {
       "mob": "mutationcraft:human_herder",
@@ -505,8 +511,7 @@
       "nodespawn": true,
       "onjoin": true,
       "result": "allow",
-      "healthadd": 250.0,
-      "potion": "minecraft:regeneration,60,254"
+      "healthadd": 250.0
     },
     {
       "mob": "mutationcraft:assimilated_jockey",
