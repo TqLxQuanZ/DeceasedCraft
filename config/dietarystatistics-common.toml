@@ -1,0 +1,13 @@
+#The default player's food attribute
+#Range: > 0
+foodAttribute = 40
+#The starting food of a player. Can be more than the default player's food attribute.
+#Range: > 0
+startingFood = 40
+#This is multiplied by the exhaustion you recieve through doing actions such as mining or running.
+#Range: 0.0 ~ 3.4028234663852886E38
+exhaustionModifier = 2.0
+#The starting saturation of a player. Can be more than the default starting saturation level.
+#Range: 5.0 ~ 3.4028234663852886E38
+startingSaturation = 20.0
+

@@ -43,12 +43,3 @@
     gain_multiplier = 1.0
     decay_multiplier = 1.0
     beneficial = true
-[[groups]]
-    name = "immunity"
-    icon = "apocalypsenow:vitamin"
-    color = "#2a7f40"
-    order = 1
-    default_value = 1.0
-    gain_multiplier = 1.0
-    decay_multiplier = 0.0
-    beneficial = true
