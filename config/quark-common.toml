@@ -1181,13 +1181,13 @@
 		"Ignore Anti Overlap" = false
 
 [mobs]
-	Wraith = true
-	Toretoise = true
-	Stonelings = true
+	Wraith = false
+	Toretoise = false
+	Stonelings = false
 	Shiba = true
 	Frogs = true
-	Foxhound = true
-	Forgotten = true
+	Foxhound = false
+	Forgotten = false
 	Crabs = true
 
 	[mobs.wraith]

@@ -607,11 +607,21 @@
       "result": "deny"
     },
     {
+      "mob": "quark:shiba",
+      "dimension": "minecraft:overworld",
+      "mincount": {
+        "mob": "quark:shiba",
+        "amount": 5,
+        "perchunk": true
+      },
+      "result": "deny"
+    },
+    {
       "mob": "minecraft:villager",
       "dimension": "minecraft:overworld",
       "mincount": {
         "mob": "minecraft:villager",
-        "amount": 20,
+        "amount": 10,
         "perchunk": true
       },
       "result": "deny"

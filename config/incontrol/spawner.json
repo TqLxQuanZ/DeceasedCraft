@@ -55,7 +55,7 @@
 	},
 	{
 		"mob": "quark:shiba",
-		"persecond": 0.05,
+		"persecond": 0.001,
 		"attempts": 3,
 		"conditions": {
 		"dimension": "minecraft:overworld",
@@ -82,7 +82,7 @@
 	},
 	{
 		"mob": "minecraft:villager",
-		"persecond": 0.03,
+		"persecond": 0.001,
 		"attempts": 5,
 		"amount": {
 		  "minimum": 1,
