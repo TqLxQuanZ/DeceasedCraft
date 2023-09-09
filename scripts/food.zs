@@ -1,6 +1,19 @@
 import crafttweaker.api.food.FoodData;
 import crafttweaker.api.item.IItemStack;
 
+<tag:items:diet:grains>.add(<item:apocalypsenow:cereal>);
+<tag:items:diet:proteins>.add(<item:apocalypsenow:chips>);
+<tag:items:diet:fruits>.add(<item:apocalypsenow:open_canned_melon>);
+<tag:items:diet:proteins>.add(<item:apocalypsenow:open_canned_fish>);
+<tag:items:diet:proteins>.add(<item:apocalypsenow:open_canned_pork>);
+<tag:items:diet:proteins>.add(<item:apocalypsenow:open_canned_rabbit_soup>);
+<tag:items:diet:proteins>.add(<item:apocalypsenow:cooked_canned_pork>);
+<tag:items:diet:proteins>.add(<item:apocalypsenow:cooked_caned_fish>);
+<tag:items:diet:proteins>.add(<item:apocalypsenow:cooked_canned_rabit_soup>);
+<tag:items:diet:vegetables>.add(<item:apocalypsenow:open_canned_carrot>);
+<tag:items:diet:vegetables>.add(<item:apocalypsenow:open_canned_beetroot>);
+<tag:items:diet:vegetables>.add(<item:apocalypsenow:open_canned_tomatos>);
+
 craftingTable.remove(<item:apocalypsenow:apple_juice>);
 
 <item:apocalypsenow:apple_juice>.setFood(<item:apocalypsenow:apple_juice>.getFood().setNutrition(2));
@@ -13,6 +26,18 @@ craftingTable.remove(<item:apocalypsenow:apple_juice>);
 <item:apocalypsenow:coffee>.setFood(<item:apocalypsenow:coffee>.getFood().setNutrition(0));
 <item:apocalypsenow:whisky>.setFood(<item:apocalypsenow:whisky>.getFood().setNutrition(0));
 <item:apocalypsenow:vodka>.setFood(<item:apocalypsenow:vodka>.getFood().setNutrition(0));
+
+
+<item:apocalypsenow:open_canned_carrot>.setFood(<item:apocalypsenow:open_canned_carrot>.getFood().setNutrition(3));
+<item:apocalypsenow:open_canned_fish>.setFood(<item:apocalypsenow:open_canned_fish>.getFood().setNutrition(2));
+<item:apocalypsenow:cooked_caned_fish>.setFood(<item:apocalypsenow:cooked_caned_fish>.getFood().setNutrition(5));
+<item:apocalypsenow:open_canned_beetroot>.setFood(<item:apocalypsenow:open_canned_beetroot>.getFood().setNutrition(4));
+<item:apocalypsenow:open_canned_melon>.setFood(<item:apocalypsenow:open_canned_melon>.getFood().setNutrition(2));
+<item:apocalypsenow:open_canned_tomatos>.setFood(<item:apocalypsenow:open_canned_tomatos>.getFood().setNutrition(1));
+<item:apocalypsenow:open_canned_pork>.setFood(<item:apocalypsenow:open_canned_pork>.getFood().setNutrition(3));
+<item:apocalypsenow:cooked_canned_pork>.setFood(<item:apocalypsenow:cooked_canned_pork>.getFood().setNutrition(8));
+<item:apocalypsenow:open_canned_rabbit_soup>.setFood(<item:apocalypsenow:open_canned_rabbit_soup>.getFood().setNutrition(3));
+<item:apocalypsenow:cooked_canned_rabit_soup>.setFood(<item:apocalypsenow:cooked_canned_rabit_soup>.getFood().setNutrition(5));
 
 // Porpsi
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("porpsi")
