@@ -71,9 +71,10 @@
       "mob": "quark:shiba",
       "dimension": "minecraft:overworld",
       "inbuilding": true,
+      "incity": true,
       "minlight": 0,
       "maxlight": 6,
-      "minheight": 70,
+      "minheight": 71,
       "result": "allow"
     },
     {
@@ -83,7 +84,7 @@
       "incity": true,
       "minlight": 0,
       "maxlight": 6,
-      "minheight": 80,
+      "minheight": 71,
       "result": "allow"
     },
     {
@@ -99,7 +100,15 @@
       "maxlight": 6,
       "minheight": 61,
       "onjoin": true,
-      "result": "allow"
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 4.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
     },
     {
       "mob": "undead_revamp2:theordure",
@@ -110,7 +119,15 @@
       "maxlight": 6,
       "minheight": 71,
       "onjoin": true,
-      "result": "allow"
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 2.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
     },
     {
       "mob": "undead_revamp2:thehunter",
@@ -122,7 +139,15 @@
       "minheight": 61,
       "minspawndist": 20000,
       "onjoin": true,
-      "result": "allow"
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 6.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
     },
     {
       "mob": "undead_revamp2:thespitter",
@@ -149,7 +174,15 @@
       "maxlight": 6,
       "minheight": 71,
       "onjoin": true,
-      "result": "allow"
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 2.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
     },
     {
       "mob": "undead_revamp2:thesmoker",
@@ -172,7 +205,15 @@
       "maxlight": 6,
       "minheight": 71,
       "onjoin": true,
-      "result": "allow"
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 2.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
     },
     {
       "mob": "undead_revamp2:bomber",
@@ -181,7 +222,15 @@
       "maxlight": 6,
       "minheight": 45,
       "onjoin": true,
-      "result": "allow"
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 2.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
