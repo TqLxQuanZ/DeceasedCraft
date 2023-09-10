@@ -25,7 +25,7 @@
         amount = 1.0
     [[effects.conditions]]
         groups = ["fruits"]
-        match = "every"
+        match = "all"
         above = 0.8
         below = 1.0
 [[effects]]
@@ -35,7 +35,17 @@
         amount = 2.0
     [[effects.conditions]]
         groups = ["vegetables"]
-        match = "every"
+        match = "all"
+        above = 0.8
+        below = 1.0
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.attack_knockback"
+        operation = "multiply_base"
+        amount = 0.2
+    [[effects.conditions]]
+        groups = ["sugars"]
+        match = "all"
         above = 0.8
         below = 1.0
 [[effects]]

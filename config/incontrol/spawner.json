@@ -56,13 +56,13 @@
 	{
 		"mob": "quark:shiba",
 		"persecond": 0.001,
-		"attempts": 3,
+		"attempts": 5,
 		"conditions": {
 		"dimension": "minecraft:overworld",
 			"norestrictions": true,
 			"mindist": 5,
-			"maxdist": 120,
-			"minheight": 45,
+			"maxdist": 200,
+			"minheight": 71,
 			"maxheight": 300
 		}
 	},
