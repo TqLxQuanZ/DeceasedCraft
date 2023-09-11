@@ -343,62 +343,62 @@ val DisabledIngredients = [
 	DisabledNetheriteIngredient
 ] as IItemStack[];
 
-CTEventManager.register<crafttweaker.api.event.AnvilUpdateEvent>((event) => {
-    for i, Set in AllEquipments
+for i, Set in AllEquipments
+{
+    for Item in Set
     {
-        for Item in Set
-        {
-            if Item.anyDamage().matches(event.left) {
-                if AllIngredients[i].matches(event.right) {
-                    event.levelCost = 1;
-                    var damagePercent = (event.left.damage as float / event.left.maxDamage as float) as float / 0.25;
-                    event.materialCost = damagePercent as int;
-                    if (event.left.damage == 0 || event.right.amount == 0) {
-                        event.cancel();
+        CTEventManager.register<crafttweaker.api.event.AnvilUpdateEvent>((event) => {
+                    if Item.anyDamage().matches(event.left) {
+                        if AllIngredients[i].matches(event.right) {
+                            event.levelCost = 1;
+                            var damagePercent = (event.left.damage as float / event.left.maxDamage as float) as float / 0.25;
+                            event.materialCost = damagePercent as int;
+                            if (event.left.damage == 0 || event.right.amount == 0) {
+                                event.cancel();
+                            }
+                            if (event.materialCost > event.right.amount) {
+                                event.materialCost = event.right.amount;
+                            }
+                            event.output = event.left.withDamage(event.left.damage - (event.materialCost * (event.left.maxDamage / 4)));
+                        }
                     }
-                    if (event.materialCost > event.right.amount) {
-                        event.materialCost = event.right.amount;
-                    }
-                    event.output = event.left.withDamage(event.left.damage - (event.materialCost * (event.left.maxDamage / 4)));
-                }
-            }
-        }
+        });
     }
-});
+}
 
-CTEventManager.register<crafttweaker.api.event.AnvilUpdateEvent>((event) => {
-    for i, Set in TagEquipments
+for i, Set in TagEquipments
+{
+    for Item in Set
     {
-        for Item in Set
-        {
-            if  Item.anyDamage().matches(event.left) {
-                if TagIngredients[i].matches(event.right) {
-                    event.levelCost = 1;
-                    var damagePercent = (event.left.damage as float / event.left.maxDamage as float) as float / 0.25;
-                    event.materialCost = damagePercent as int;
-                    if (event.left.damage == 0 || event.right.amount == 0) {
-                        event.cancel();
+        CTEventManager.register<crafttweaker.api.event.AnvilUpdateEvent>((event) => {
+                    if  Item.anyDamage().matches(event.left) {
+                        if TagIngredients[i].matches(event.right) {
+                            event.levelCost = 1;
+                            var damagePercent = (event.left.damage as float / event.left.maxDamage as float) as float / 0.25;
+                            event.materialCost = damagePercent as int;
+                            if (event.left.damage == 0 || event.right.amount == 0) {
+                                event.cancel();
+                            }
+                            if (event.materialCost > event.right.amount) {
+                                event.materialCost = event.right.amount;
+                            }
+                            event.output = event.left.withDamage(event.left.damage - (event.materialCost * (event.left.maxDamage / 4)));
+                        }
                     }
-                    if (event.materialCost > event.right.amount) {
-                        event.materialCost = event.right.amount;
-                    }
-                    event.output = event.left.withDamage(event.left.damage - (event.materialCost * (event.left.maxDamage / 4)));
-                }
-            }
-        }
+        });
     }
-});
+}
 
-CTEventManager.register<crafttweaker.api.event.AnvilUpdateEvent>((event) => {
-    for i, Set in DisabledEquipments
+for i, Set in DisabledEquipments
+{
+    for Item in Set
     {
-        for Item in Set
-        {
-            if  Item.anyDamage().matches(event.left) {
-                if DisabledIngredients[i].matches(event.right) {
-                    event.cancel();
-                }
-            }
-        }
+        CTEventManager.register<crafttweaker.api.event.AnvilUpdateEvent>((event) => {
+                    if  Item.anyDamage().matches(event.left) {
+                        if DisabledIngredients[i].matches(event.right) {
+                            event.cancel();
+                        }
+                    }
+        });
     }
-});
+}
