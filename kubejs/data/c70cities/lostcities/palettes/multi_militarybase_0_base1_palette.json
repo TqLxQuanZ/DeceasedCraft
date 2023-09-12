@@ -106,22 +106,42 @@
     },
     {
       "char": "A",
-      "block": "quark:iron_button[face=floor,facing=north]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "B",
-      "block": "embellishcraft:sturdy_steel_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "quark:iron_button[face=floor,facing=north]"
     },
     {
       "char": "C",
-      "block": "minecraft:target"
+      "block": "embellishcraft:sturdy_steel_door[hinge=right,half=upper,facing=east,open=false]"
     },
     {
       "char": "D",
-      "block": "minecraft:redstone_torch[lit=true]"
+      "block": "minecraft:target"
     },
     {
       "char": "E",
+      "block": "minecraft:redstone_torch[lit=true]"
+    },
+    {
+      "char": "F",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "I",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "J",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "K",
       "block": "embellishcraft:damaged_paving_slab[waterlogged=false,type=top]"
     }
   ]

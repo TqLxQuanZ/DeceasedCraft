@@ -276,61 +276,70 @@
     },
     {
       "char": ")",
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=west,type=single]"
+    },
+    {
+      "char": "+",
       "block": "create:nixie_tube[waterlogged=false,double_face=ceiling,facing=east]",
       "tag": {
         "id": "create:nixie_tube"
       }
     },
     {
-      "char": "+",
+      "char": "-",
       "block": "minecraft:cobweb"
     },
     {
-      "char": "-",
+      "char": "[",
       "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
     },
     {
-      "char": "[",
+      "char": "]",
       "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
     },
     {
-      "char": "]",
-      "block": "minecraft:lantern[waterlogged=false,hanging=true]"
-    },
-    {
       "char": "{",
-      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=south]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "}",
-      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=north]"
+      "block": "minecraft:lantern[waterlogged=false,hanging=true]"
     },
     {
       "char": "\\",
-      "block": "minecraft:stripped_oak_log[axis=z]"
+      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=south]"
     },
     {
       "char": "|",
-      "block": "simplylight:illuminant_block"
+      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=north]"
     },
     {
       "char": "`",
-      "block": "simplylight:illuminant_block_on"
+      "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
       "char": ":",
-      "block": "minecraft:stripped_oak_log[axis=x]"
+      "block": "simplylight:illuminant_block"
     },
     {
       "char": ";",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "simplylight:illuminant_block_on"
     },
     {
       "char": "'",
-      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "minecraft:stripped_oak_log[axis=x]"
     },
     {
       "char": ",",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": ".",
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+    },
+    {
+      "char": "/",
       "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
     }
   ]

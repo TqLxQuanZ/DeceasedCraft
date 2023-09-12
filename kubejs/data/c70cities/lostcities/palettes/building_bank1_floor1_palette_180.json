@@ -136,10 +136,15 @@
     },
     {
       "char": "L",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "M",
+      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "N",
       "block": "minecraft:oak_slab[waterlogged=false,type=top]"
     }
   ]

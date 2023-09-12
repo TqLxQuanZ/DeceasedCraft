@@ -112,7 +112,8 @@
     },
     {
       "char": "D",
-      "block": "minecraft:cobweb"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "E",
@@ -184,18 +185,22 @@
     },
     {
       "char": "X",
-      "block": "minecraft:cave_vines_plant"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "Y",
-      "block": "minecraft:smooth_stone"
+      "block": "minecraft:cave_vines_plant"
     },
     {
       "char": "Z",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone"
     },
     {
       "char": "0",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "1",
       "block": "minecraft:birch_slab[waterlogged=false,type=top]"
     }
   ]

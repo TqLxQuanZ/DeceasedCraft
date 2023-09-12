@@ -43,23 +43,38 @@
     },
     {
       "char": "k",
-      "block": "minecraft:chest",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
       "loot": "chestloot"
     },
     {
       "char": "l",
-      "block": "marbleds_arsenal:concrete_barrier"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "m",
-      "block": "minecraft:target"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "n",
-      "block": "embellishcraft:light_gray_pillow[waterlogged=false,part=head,facing=south,occupied=false]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "o",
+      "block": "marbleds_arsenal:concrete_barrier"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:target"
+    },
+    {
+      "char": "q",
+      "block": "embellishcraft:light_gray_pillow[waterlogged=false,part=head,facing=south,occupied=false]"
+    },
+    {
+      "char": "r",
       "block": "embellishcraft:damaged_paving_slab[waterlogged=false,type=top]"
     }
   ]

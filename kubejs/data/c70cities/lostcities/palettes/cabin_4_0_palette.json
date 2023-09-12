@@ -53,63 +53,72 @@
     },
     {
       "char": "l",
-      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "m",
-      "block": "cfm:oak_hedge[waterlogged=false]"
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
     },
     {
       "char": "n",
-      "block": "cold_sweat:icebox[facing=west]"
+      "block": "cfm:oak_hedge[waterlogged=false]"
     },
     {
       "char": "o",
-      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=west,open=false]"
+      "block": "cold_sweat:icebox[facing=west]"
     },
     {
       "char": "p",
+      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "q",
+      "block": "cold_sweat:boiler[lit=false,facing=west]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:dark_oak_door[hinge=left,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "s",
       "block": "another_furniture:oak_drawer[facing=west,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "q",
-      "block": "minecraft:dark_oak_door[hinge=left,half=lower,facing=west,open=false]"
-    },
-    {
-      "char": "r",
+      "char": "t",
       "block": "minecraft:crafting_table"
     },
     {
-      "char": "s",
+      "char": "u",
       "block": "minecraft:spruce_fence[waterlogged=false]"
     },
     {
-      "char": "t",
+      "char": "w",
       "block": "minecraft:spruce_fence_gate[facing=south,open=false]"
     },
     {
-      "char": "u",
+      "char": "x",
       "block": "minecraft:stone_brick_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "w",
+      "char": "y",
       "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=west,open=false]"
     },
     {
-      "char": "x",
+      "char": "A",
       "block": "create:dark_oak_window_pane[waterlogged=false]"
     },
     {
-      "char": "y",
+      "char": "B",
       "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=west,open=false]"
     },
     {
-      "char": "A",
+      "char": "C",
       "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
     },
     {
-      "char": "B",
+      "char": "D",
       "block": "minecraft:stone_brick_stairs[waterlogged=true,half=bottom,shape=straight,facing=north]"
     }
   ]

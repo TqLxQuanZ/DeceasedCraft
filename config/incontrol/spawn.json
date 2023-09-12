@@ -5,11 +5,33 @@
       "result": "deny"
     },
     {
+      "hostile": true,
+      "dimension": "minecraft:overworld",
+      "mincount": {
+        "amount": 350,
+        "hostile": true,
+        "perchunk": true
+      },
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
       "mod": "undead_revamp2",
       "dimension": "minecraft:overworld",
       "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
       "onjoin": true,
       "result": "deny"
+    },
+    {
+        "mod": "undead_revamp2",
+        "dimension": "minecraft:overworld",
+        "mincount": {
+          "amount": 20,
+          "mod": "undead_revamp2",
+          "perchunk": true
+        },
+        "onjoin": true,
+        "result": "deny"
     },
     {
       "mod": "zombiemobs",
@@ -622,16 +644,6 @@
         "minlight": 7,
         "maxlight": 15,
         "result": "deny"
-    },
-    {
-      "hostile": true,
-      "dimension": "minecraft:overworld",
-      "mincount": {
-        "amount": 350,
-        "hostile": true,
-        "perchunk": true
-      },
-      "result": "deny"
     },
     {
         "mob": "mutationcraft:necroptor",

@@ -97,112 +97,117 @@
     },
     {
       "char": "y",
-      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=north]"
-    },
-    {
-      "char": "A",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=north]"
-    },
-    {
-      "char": "B",
-      "block": "embellishcraft:steel_door[hinge=left,half=lower,facing=north,open=false]"
-    },
-    {
-      "char": "C",
-      "block": "minecraft:chest",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
       "loot": "chestloot"
     },
     {
+      "char": "A",
+      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "B",
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "C",
+      "block": "embellishcraft:steel_door[hinge=left,half=lower,facing=north,open=false]"
+    },
+    {
       "char": "D",
-      "block": "another_furniture:spruce_table[waterlogged=false,update=false,facing=south]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "E",
+      "block": "another_furniture:spruce_table[waterlogged=false,update=false,facing=south]"
+    },
+    {
+      "char": "F",
       "block": "another_furniture:spruce_drawer[facing=south,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "F",
+      "char": "I",
       "block": "quark:stone_vertical_slab[waterlogged=false,type=west]"
     },
     {
-      "char": "I",
+      "char": "J",
       "block": "embellishcraft:steel_door[hinge=left,half=lower,facing=east,open=false]"
     },
     {
-      "char": "J",
+      "char": "K",
       "block": "create:display_board[waterlogged=false,facing=south,up=false]"
     },
     {
-      "char": "K",
+      "char": "L",
       "block": "simplylight:illuminant_panel[waterlogged=false,facing=south]"
     },
     {
-      "char": "L",
+      "char": "M",
       "block": "simplylight:illuminant_slab[waterlogged=false,facing=south]"
     },
     {
-      "char": "M",
+      "char": "N",
       "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
     },
     {
-      "char": "N",
+      "char": "O",
       "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
-      "char": "O",
+      "char": "P",
       "block": "embellishcraft:steel_door[hinge=left,half=upper,facing=west,open=false]"
     },
     {
-      "char": "P",
+      "char": "Q",
       "block": "embellishcraft:steel_door[hinge=left,half=upper,facing=north,open=false]"
     },
     {
-      "char": "Q",
+      "char": "R",
       "block": "another_furniture:spruce_shelf[waterlogged=false,facing=south,type=left]"
     },
     {
-      "char": "R",
+      "char": "S",
       "block": "another_furniture:spruce_shelf[waterlogged=false,facing=south,type=right]"
     },
     {
-      "char": "S",
+      "char": "T",
       "block": "biomesoplenty:smooth_white_sandstone"
     },
     {
-      "char": "T",
+      "char": "U",
       "block": "embellishcraft:steel_door[hinge=left,half=upper,facing=east,open=false]"
     },
     {
-      "char": "U",
+      "char": "V",
       "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     },
     {
-      "char": "V",
+      "char": "W",
       "block": "immersiveengineering:lantern[waterlogged=false,facing=north]"
     },
     {
-      "char": "W",
+      "char": "X",
       "block": "biomesoplenty:cherry_button[face=wall,facing=west]"
     },
     {
-      "char": "X",
+      "char": "Y",
       "block": "biomesoplenty:cherry_button[face=wall,facing=south]"
     },
     {
-      "char": "Y",
+      "char": "Z",
       "block": "minecraft:daylight_detector"
     },
     {
-      "char": "Z",
+      "char": "0",
       "block": "simplylight:edge_light_top[waterlogged=false]"
     },
     {
-      "char": "0",
+      "char": "1",
       "block": "create:andesite_bars[waterlogged=false]"
     },
     {
-      "char": "1",
+      "char": "2",
       "block": "minecraft:stone_slab[waterlogged=false,type=top]"
     }
   ]

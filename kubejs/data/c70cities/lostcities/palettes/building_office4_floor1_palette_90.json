@@ -92,6 +92,11 @@
     },
     {
       "char": "x",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "y",
       "block": "minecraft:quartz_block"
     }
   ]

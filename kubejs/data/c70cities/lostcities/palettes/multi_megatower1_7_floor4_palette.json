@@ -90,30 +90,35 @@
     },
     {
       "char": "w",
-      "block": "minecraft:cobweb"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "x",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=east,open=true]"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "y",
-      "block": "minecraft:stripped_oak_log[axis=z]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=east,open=true]"
     },
     {
       "char": "A",
-      "block": "minecraft:stripped_oak_log[axis=x]"
+      "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
       "char": "B",
-      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "minecraft:stripped_oak_log[axis=x]"
     },
     {
       "char": "C",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     },
     {
       "char": "D",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "E",
       "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
     }
   ]

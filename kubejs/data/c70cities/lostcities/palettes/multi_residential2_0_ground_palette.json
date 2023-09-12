@@ -215,129 +215,139 @@
     },
     {
       "char": "5",
-      "block": "create:framed_glass_pane[waterlogged=false]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "6",
-      "block": "quark:nether_wart_sack"
+      "block": "create:framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "7",
+      "block": "quark:nether_wart_sack"
+    },
+    {
+      "char": "8",
       "block": "cfm:fridge_light[facing=east,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "8",
+      "char": "9",
       "block": "create:framed_glass_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
-      "char": "9",
+      "char": "@",
       "block": "create:framed_glass_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
-      "char": "@",
+      "char": "#",
       "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
-      "char": "#",
+      "char": "$",
       "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=inner_left,facing=east]"
     },
     {
-      "char": "$",
+      "char": "%",
       "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=west]"
     },
     {
-      "char": "%",
+      "char": "^",
       "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
-      "char": "^",
+      "char": "&",
       "block": "minecraft:dark_oak_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     },
     {
-      "char": "&",
+      "char": "*",
       "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
-      "char": "*",
+      "char": "(",
       "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
-      "char": "(",
+      "char": ")",
       "block": "cfm:stripped_dark_oak_table[waterlogged=false]"
     },
     {
-      "char": ")",
+      "char": "+",
       "block": "minecraft:white_bed[part=head,facing=north,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "+",
+      "char": "-",
       "block": "quark:paper_wall[waterlogged=false]"
     },
     {
-      "char": "-",
+      "char": "[",
       "block": "cfm:stripped_dark_oak_desk[waterlogged=false,facing=north,type=left]"
     },
     {
-      "char": "[",
+      "char": "]",
       "block": "cfm:stripped_dark_oak_desk[waterlogged=false,facing=north,type=middle]"
     },
     {
-      "char": "]",
+      "char": "{",
       "block": "cfm:stripped_dark_oak_desk[waterlogged=false,facing=north,type=right]"
     },
     {
-      "char": "{",
+      "char": "}",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "\\",
       "block": "minecraft:white_bed[part=foot,facing=north,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "}",
+      "char": "|",
       "block": "cfm:stone_chair[waterlogged=false,facing=south]"
     },
     {
-      "char": "\\",
+      "char": "`",
       "block": "minecraft:white_carpet"
     },
     {
-      "char": "|",
+      "char": ":",
       "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
     },
     {
-      "char": "`",
+      "char": ";",
       "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
     },
     {
-      "char": ":",
+      "char": "'",
       "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=north,open=false]"
     },
     {
-      "char": ";",
+      "char": ",",
       "block": "minecraft:cauldron"
     },
     {
-      "char": "'",
+      "char": ".",
       "block": "minecraft:quartz_block"
     },
     {
-      "char": ",",
+      "char": "/",
       "block": "minecraft:dark_oak_button[face=floor,facing=south]"
     },
     {
-      "char": ".",
+      "char": "<",
       "block": "immersiveengineering:connector_mv[waterlogged=false,facing=down]"
     },
     {
-      "char": "/",
+      "char": ">",
       "block": "immersiveengineering:connector_hv[waterlogged=false,facing=down]"
     },
     {
-      "char": "<",
+      "char": "?",
       "block": "immersiveengineering:metal_barrel"
     }
   ]

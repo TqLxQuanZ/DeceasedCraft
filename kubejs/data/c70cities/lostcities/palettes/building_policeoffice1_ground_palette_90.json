@@ -87,7 +87,7 @@
     },
     {
       "char": "w",
-      "block": "minecraft:chest",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
       "loot": "chestloot"
     },
     {
@@ -120,10 +120,14 @@
     },
     {
       "char": "F",
-      "block": "embellishcraft:smooth_marble_slab[waterlogged=false,type=bottom]"
+      "block": "securitycraft:security_camera[facing=north]"
     },
     {
       "char": "I",
+      "block": "embellishcraft:smooth_marble_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "J",
       "block": "minecraft:quartz_block"
     }
   ]

@@ -7,26 +7,30 @@
     },
     {
       "char": "b",
-      "block": "minecraft:oak_fence[waterlogged=true]"
+      "block": "minecraft:ice"
     },
     {
       "char": "c",
-      "block": "minecraft:clay"
+      "block": "minecraft:oak_fence[waterlogged=true]"
     },
     {
       "char": "d",
-      "block": "minecraft:oak_slab[waterlogged=false,type=top]"
+      "block": "minecraft:clay"
     },
     {
       "char": "e",
-      "block": "minecraft:lily_pad"
+      "block": "minecraft:oak_slab[waterlogged=false,type=top]"
     },
     {
       "char": "f",
-      "block": "minecraft:oak_planks"
+      "block": "minecraft:lily_pad"
     },
     {
       "char": "g",
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "char": "h",
       "block": "minecraft:command_block[conditional=false,facing=south]",
       "tag": {
         "conditionMet": 1,
@@ -35,186 +39,186 @@
       }
     },
     {
-      "char": "h",
+      "char": "i",
       "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
     },
     {
-      "char": "i",
+      "char": "j",
       "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=west,open=true]"
     },
     {
-      "char": "j",
+      "char": "k",
       "block": "minecraft:stone_button[face=floor,facing=east]"
     },
     {
-      "char": "k",
+      "char": "l",
       "block": "minecraft:barrel[facing=north,open=false]"
     },
     {
-      "char": "l",
+      "char": "m",
       "block": "minecraft:stone_button[face=floor,facing=south]"
     },
     {
-      "char": "m",
+      "char": "n",
       "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
     },
     {
-      "char": "n",
+      "char": "o",
       "block": "minecraft:polished_andesite"
     },
     {
-      "char": "o",
+      "char": "p",
       "block": "minecraft:stone_button[face=floor,facing=west]"
     },
     {
-      "char": "p",
+      "char": "q",
       "block": "minecraft:spruce_button[face=floor,facing=east]"
     },
     {
-      "char": "q",
+      "char": "r",
       "block": "minecraft:spruce_fence[waterlogged=false]"
     },
     {
-      "char": "r",
+      "char": "s",
       "block": "minecraft:stripped_spruce_log[axis=y]"
     },
     {
-      "char": "s",
+      "char": "t",
       "block": "minecraft:barrel[facing=east,open=false]"
     },
     {
-      "char": "t",
-      "block": "minecraft:chest",
+      "char": "u",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
       "loot": "chestloot"
     },
     {
-      "char": "u",
+      "char": "w",
       "block": "minecraft:barrel[facing=south,open=false]"
     },
     {
-      "char": "w",
+      "char": "x",
       "block": "minecraft:campfire[waterlogged=false,lit=false,facing=east]"
     },
     {
-      "char": "x",
+      "char": "y",
       "block": "minecraft:spruce_planks"
     },
     {
-      "char": "y",
+      "char": "A",
       "block": "minecraft:spruce_button[face=floor,facing=north]"
     },
     {
-      "char": "A",
+      "char": "B",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "B",
+      "char": "C",
       "block": "minecraft:oak_log[axis=z]"
     },
     {
-      "char": "C",
+      "char": "D",
       "block": "minecraft:rail[waterlogged=false,shape=ascending_west]"
     },
     {
-      "char": "D",
+      "char": "E",
       "block": "minecraft:brown_bed[part=head,facing=north,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "E",
+      "char": "F",
       "block": "minecraft:daylight_detector"
     },
     {
-      "char": "F",
+      "char": "I",
       "block": "minecraft:brown_bed[part=foot,facing=north,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "I",
+      "char": "J",
       "block": "minecraft:crafting_table"
     },
     {
-      "char": "J",
+      "char": "K",
       "block": "minecraft:furnace[lit=false,facing=west]"
     },
     {
-      "char": "K",
+      "char": "L",
       "block": "minecraft:piston[facing=up]"
     },
     {
-      "char": "L",
+      "char": "M",
       "block": "minecraft:oak_button[face=wall,facing=south]"
     },
     {
-      "char": "M",
+      "char": "N",
       "block": "minecraft:spruce_door[hinge=left,half=lower,facing=south,open=false]"
     },
     {
-      "char": "N",
+      "char": "O",
       "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
     },
     {
-      "char": "O",
+      "char": "P",
       "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=west,open=true]"
     },
     {
-      "char": "P",
+      "char": "Q",
       "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
-      "char": "Q",
+      "char": "R",
       "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
     },
     {
-      "char": "R",
+      "char": "S",
       "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
     },
     {
-      "char": "S",
+      "char": "T",
       "block": "minecraft:glass_pane[waterlogged=false]"
     },
     {
-      "char": "T",
+      "char": "U",
       "block": "minecraft:cobweb"
     },
     {
-      "char": "U",
+      "char": "V",
       "block": "minecraft:lantern[waterlogged=false,hanging=false]"
     },
     {
-      "char": "V",
+      "char": "W",
       "block": "minecraft:rail[waterlogged=false,shape=east_west]"
     },
     {
-      "char": "W",
+      "char": "X",
       "block": "minecraft:potted_fern"
     },
     {
-      "char": "X",
+      "char": "Y",
       "block": "minecraft:damaged_anvil[facing=south]"
     },
     {
-      "char": "Y",
+      "char": "Z",
       "block": "minecraft:spruce_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
-      "char": "Z",
+      "char": "0",
       "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
     },
     {
-      "char": "0",
+      "char": "1",
       "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
-      "char": "1",
+      "char": "2",
       "block": "minecraft:polished_andesite_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "2",
+      "char": "3",
       "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
     }
   ]

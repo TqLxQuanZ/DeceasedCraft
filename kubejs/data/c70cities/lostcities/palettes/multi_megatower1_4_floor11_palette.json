@@ -74,7 +74,7 @@
     },
     {
       "char": "r",
-      "block": "cfm:cyan_kitchen_drawer[facing=west,open=false]",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
       "loot": "chestloot"
     },
     {
@@ -315,7 +315,7 @@
     },
     {
       "char": ":",
-      "block": "minecraft:chest",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
       "loot": "chestloot"
     },
     {

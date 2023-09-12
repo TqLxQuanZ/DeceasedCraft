@@ -163,26 +163,30 @@
     },
     {
       "char": "S",
-      "block": "create:cut_limestone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "securitycraft:security_camera[facing=east]"
     },
     {
       "char": "T",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+      "block": "create:cut_limestone_brick_slab[waterlogged=false,type=bottom]"
     },
     {
       "char": "U",
-      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=bottom]"
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
     },
     {
       "char": "V",
-      "block": "minecraft:spruce_fence[waterlogged=false]"
+      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=bottom]"
     },
     {
       "char": "W",
-      "block": "minecraft:spruce_planks"
+      "block": "minecraft:spruce_fence[waterlogged=false]"
     },
     {
       "char": "X",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "Y",
       "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
     }
   ]

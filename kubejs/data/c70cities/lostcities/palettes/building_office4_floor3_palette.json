@@ -65,10 +65,15 @@
     },
     {
       "char": "p",
-      "block": "immersiveengineering:concrete_quarter"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "q",
+      "block": "immersiveengineering:concrete_quarter"
+    },
+    {
+      "char": "r",
       "block": "minecraft:quartz_block"
     }
   ]

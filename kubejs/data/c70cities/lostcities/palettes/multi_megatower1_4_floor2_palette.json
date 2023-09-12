@@ -274,54 +274,59 @@
     },
     {
       "char": "#",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "$",
-      "block": "embellishcraft:yellow_grey_tiles"
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
     },
     {
       "char": "%",
-      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "embellishcraft:yellow_grey_tiles"
     },
     {
       "char": "^",
-      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
       "char": "&",
-      "block": "minecraft:water"
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
     },
     {
       "char": "*",
-      "block": "minecraft:sea_lantern"
+      "block": "minecraft:water"
     },
     {
       "char": "(",
-      "block": "minecraft:stripped_oak_log[axis=z]"
+      "block": "minecraft:sea_lantern"
     },
     {
       "char": ")",
-      "block": "simplylight:illuminant_block_on"
+      "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
       "char": "+",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=north]"
+      "block": "simplylight:illuminant_block_on"
     },
     {
       "char": "-",
-      "block": "minecraft:stripped_oak_log[axis=x]"
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=north]"
     },
     {
       "char": "[",
-      "block": "embellishcraft:air_duct"
+      "block": "minecraft:stripped_oak_log[axis=x]"
     },
     {
       "char": "]",
-      "block": "embellishcraft:vent_air_duct[facing=north]"
+      "block": "embellishcraft:air_duct"
     },
     {
       "char": "{",
+      "block": "embellishcraft:vent_air_duct[facing=north]"
+    },
+    {
+      "char": "}",
       "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=south]"
     }
   ]

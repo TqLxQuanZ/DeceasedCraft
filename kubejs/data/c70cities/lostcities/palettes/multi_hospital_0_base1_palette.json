@@ -95,102 +95,107 @@
     },
     {
       "char": "y",
-      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=east]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "A",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=east]"
     },
     {
       "char": "B",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
     },
     {
       "char": "C",
-      "block": "minecraft:quartz_block"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
     },
     {
       "char": "D",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "minecraft:quartz_block"
     },
     {
       "char": "E",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=west,open=false]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
       "char": "F",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=west,open=false]"
     },
     {
       "char": "I",
-      "block": "embellishcraft:white_pillow[waterlogged=false,part=head,facing=west,occupied=false]"
+      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=east,open=false]"
     },
     {
       "char": "J",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=west,open=false]"
+      "block": "embellishcraft:white_pillow[waterlogged=false,part=head,facing=west,occupied=false]"
     },
     {
       "char": "K",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=west,open=false]"
     },
     {
       "char": "L",
-      "block": "quark:iron_button[face=wall,facing=west]"
+      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=east,open=false]"
     },
     {
       "char": "M",
-      "block": "quark:iron_button[face=wall,facing=east]"
+      "block": "quark:iron_button[face=wall,facing=west]"
     },
     {
       "char": "N",
-      "block": "minecraft:heavy_weighted_pressure_plate"
+      "block": "quark:iron_button[face=wall,facing=east]"
     },
     {
       "char": "O",
-      "block": "minecraft:iron_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "minecraft:heavy_weighted_pressure_plate"
     },
     {
       "char": "P",
-      "block": "minecraft:iron_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "minecraft:iron_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
       "char": "Q",
-      "block": "minecraft:rail[waterlogged=false,shape=north_south]"
+      "block": "minecraft:iron_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
       "char": "R",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:rail[waterlogged=false,shape=north_south]"
     },
     {
       "char": "S",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
       "char": "T",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
       "char": "U",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=west]"
+      "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
     },
     {
       "char": "V",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=west]"
     },
     {
       "char": "W",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=east]"
     },
     {
       "char": "X",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=south]"
     },
     {
       "char": "Y",
-      "block": "minecraft:oak_slab[waterlogged=false,type=top]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
       "char": "Z",
+      "block": "minecraft:oak_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "0",
       "block": "minecraft:stone_brick_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     }
   ]

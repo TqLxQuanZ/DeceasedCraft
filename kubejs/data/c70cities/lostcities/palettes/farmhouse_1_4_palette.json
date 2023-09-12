@@ -1,0 +1,229 @@
+{
+  "name": "farmhouse_1_4_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:hay_block[axis=y]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:acacia_sapling"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:hay_block[axis=z]"
+    },
+    {
+      "char": "f",
+      "block": "quark:polished_deepslate_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:polished_andesite_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "i",
+      "block": "quark:polished_deepslate_vertical_slab[waterlogged=false,type=south]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:acacia_planks"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:fletching_table"
+    },
+    {
+      "char": "l",
+      "block": "farmersdelight:potato_crate"
+    },
+    {
+      "char": "m",
+      "block": "farmersdelight:carrot_crate"
+    },
+    {
+      "char": "n",
+      "block": "farmersdelight:tomato_crate"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:crafting_table"
+    },
+    {
+      "char": "p",
+      "block": "embellishcraft:dark_oak_fancy_door[hinge=right,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "q",
+      "block": "quark:iron_ladder[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "r",
+      "block": "embellishcraft:dark_oak_fancy_door[hinge=left,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:hay_block[axis=x]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:furnace[lit=false,facing=west]"
+    },
+    {
+      "char": "u",
+      "block": "quark:acacia_hedge[waterlogged=false]"
+    },
+    {
+      "char": "w",
+      "block": "another_furniture:dark_oak_bench[type_2=right,waterlogged=false,type_1=right,facing=east]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:pumpkin"
+    },
+    {
+      "char": "y",
+      "block": "another_furniture:dark_oak_bench[type_2=left,waterlogged=false,type_1=left,facing=east]"
+    },
+    {
+      "char": "A",
+      "block": "embellishcraft:dark_oak_fancy_door[hinge=right,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "B",
+      "block": "embellishcraft:dark_oak_fancy_door[hinge=left,half=upper,facing=west,open=false]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "E",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:cobblestone_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "I",
+      "block": "create:dark_oak_window"
+    },
+    {
+      "char": "J",
+      "block": "another_furniture:acacia_shelf[waterlogged=false,facing=west,type=left]"
+    },
+    {
+      "char": "K",
+      "block": "another_furniture:acacia_shelf[waterlogged=false,facing=west,type=middle]"
+    },
+    {
+      "char": "L",
+      "block": "another_furniture:acacia_shelf[waterlogged=false,facing=west,type=right]"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:polished_andesite_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+    },
+    {
+      "char": "O",
+      "block": "farmersdelight:acacia_cabinet[facing=west,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "P",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:acacia_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
+    },
+    {
+      "char": "S",
+      "block": "quark:polished_diorite_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "T",
+      "block": "minecraft:birch_door[hinge=left,half=lower,facing=north,open=false]"
+    },
+    {
+      "char": "U",
+      "block": "embellishcraft:brown_dark_oak_fancy_bed[part=foot,facing=south,occupied=false]"
+    },
+    {
+      "char": "V",
+      "block": "embellishcraft:polished_gneiss_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "W",
+      "block": "quark:polished_diorite_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "X",
+      "block": "minecraft:brewing_stand"
+    },
+    {
+      "char": "Y",
+      "block": "embellishcraft:brown_dark_oak_fancy_bed[part=head,facing=south,occupied=false]"
+    },
+    {
+      "char": "Z",
+      "block": "minecraft:cauldron"
+    },
+    {
+      "char": "0",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "1",
+      "block": "another_furniture:dark_oak_drawer[facing=north,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "2",
+      "block": "another_furniture:dark_oak_shelf[waterlogged=false,facing=north,type=single]"
+    },
+    {
+      "char": "3",
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+    },
+    {
+      "char": "4",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "5",
+      "block": "minecraft:birch_door[hinge=left,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "6",
+      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
+    }
+  ]
+}

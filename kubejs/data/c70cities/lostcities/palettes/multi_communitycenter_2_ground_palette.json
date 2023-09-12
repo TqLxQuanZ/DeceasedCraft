@@ -67,7 +67,8 @@
     },
     {
       "char": "q",
-      "block": "minecraft:cobweb"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "r",
@@ -124,30 +125,34 @@
     },
     {
       "char": "I",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=west,open=false]"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "J",
-      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=west,open=false]"
     },
     {
       "char": "K",
-      "block": "minecraft:spruce_log[axis=y]"
+      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
     },
     {
       "char": "L",
-      "block": "create:framed_glass"
+      "block": "minecraft:spruce_log[axis=y]"
     },
     {
       "char": "M",
-      "block": "minecraft:spruce_leaves"
+      "block": "create:framed_glass"
     },
     {
       "char": "N",
-      "block": "minecraft:smooth_stone"
+      "block": "minecraft:spruce_leaves"
     },
     {
       "char": "O",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "P",
       "block": "minecraft:birch_slab[waterlogged=false,type=top]"
     }
   ]

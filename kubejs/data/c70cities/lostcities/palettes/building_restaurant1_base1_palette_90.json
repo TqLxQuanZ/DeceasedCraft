@@ -63,50 +63,60 @@
     },
     {
       "char": "p",
-      "block": "minecraft:iron_bars[waterlogged=false]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "q",
-      "block": "minecraft:barrel[facing=west,open=false]"
+      "block": "minecraft:iron_bars[waterlogged=false]"
     },
     {
       "char": "r",
-      "block": "minecraft:grass"
+      "block": "minecraft:barrel[facing=west,open=false]"
     },
     {
       "char": "s",
-      "block": "minecraft:water"
+      "block": "minecraft:grass"
     },
     {
       "char": "t",
-      "block": "minecraft:hay_block[axis=y]"
+      "block": "minecraft:water"
     },
     {
       "char": "u",
-      "block": "minecraft:hay_block[axis=x]"
+      "block": "minecraft:hay_block[axis=y]"
     },
     {
       "char": "w",
-      "block": "minecraft:pumpkin"
+      "block": "minecraft:hay_block[axis=x]"
     },
     {
       "char": "x",
-      "block": "farmersdelight:carrot_crate"
+      "block": "minecraft:pumpkin"
     },
     {
       "char": "y",
-      "block": "embellishcraft:grid_air_duct[facing=down]"
+      "block": "farmersdelight:carrot_crate"
     },
     {
       "char": "A",
-      "block": "embellishcraft:vent_air_duct[facing=west]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "B",
-      "block": "minecraft:smooth_stone"
+      "block": "embellishcraft:grid_air_duct[facing=down]"
     },
     {
       "char": "C",
+      "block": "embellishcraft:vent_air_duct[facing=west]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "E",
       "block": "embellishcraft:air_duct"
     }
   ]

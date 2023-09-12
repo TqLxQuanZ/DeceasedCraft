@@ -152,90 +152,109 @@
     },
     {
       "char": "P",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=north]"
+      "block": "immersiveengineering:sheetmetal_iron"
     },
     {
       "char": "Q",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=north]"
     },
     {
       "char": "R",
-      "block": "quark:red_nether_brick_vertical_slab[waterlogged=false,type=south]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "S",
-      "block": "minecraft:observer[facing=west]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "T",
-      "block": "quark:red_nether_brick_vertical_slab[waterlogged=false,type=north]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "U",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=east,open=false]"
     },
     {
       "char": "V",
-      "block": "minecraft:redstone_wall_torch[lit=true,facing=west]"
+      "block": "quark:red_nether_brick_vertical_slab[waterlogged=false,type=south]"
     },
     {
       "char": "W",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
+      "block": "minecraft:observer[facing=west]"
     },
     {
       "char": "X",
-      "block": "minecraft:bell[facing=south]"
+      "block": "quark:red_nether_brick_vertical_slab[waterlogged=false,type=north]"
     },
     {
       "char": "Y",
-      "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=west,open=false]"
+      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=east,open=false]"
     },
     {
       "char": "Z",
-      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=north]"
+      "block": "minecraft:redstone_wall_torch[lit=true,facing=west]"
     },
     {
       "char": "0",
-      "block": "minecraft:redstone_wall_torch[lit=true,facing=east]"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
     },
     {
       "char": "1",
-      "block": "minecraft:brewing_stand"
+      "block": "minecraft:bell[facing=south]"
     },
     {
       "char": "2",
-      "block": "minecraft:tnt"
+      "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=west,open=false]"
     },
     {
       "char": "3",
-      "block": "immersiveengineering:lantern[waterlogged=false,facing=north]"
+      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=north]"
     },
     {
       "char": "4",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:redstone_wall_torch[lit=true,facing=east]"
     },
     {
       "char": "5",
-      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=west]"
+      "block": "minecraft:brewing_stand"
     },
     {
       "char": "6",
-      "block": "minecraft:stone_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "minecraft:tnt"
     },
     {
       "char": "7",
-      "block": "create:andesite_bars[waterlogged=false]"
+      "block": "immersiveengineering:lantern[waterlogged=false,facing=north]"
     },
     {
       "char": "8",
-      "block": "create:cut_limestone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
     },
     {
       "char": "9",
-      "block": "simplylight:wall_lamp[waterlogged=false,facing=south]"
+      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=west]"
     },
     {
       "char": "@",
+      "block": "minecraft:stone_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "#",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "$",
+      "block": "create:cut_limestone_brick_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "%",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "^",
       "block": "embellishcraft:marble"
     }
   ]

@@ -112,42 +112,47 @@
     },
     {
       "char": "D",
-      "block": "minecraft:cobweb"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "E",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "F",
-      "block": "embellishcraft:air_duct"
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
     },
     {
       "char": "I",
-      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "embellishcraft:air_duct"
     },
     {
       "char": "J",
-      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
       "char": "K",
-      "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=top]"
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
     },
     {
       "char": "L",
-      "block": "minecraft:stripped_oak_log[axis=x]"
+      "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=top]"
     },
     {
       "char": "M",
-      "block": "minecraft:cyan_terracotta"
+      "block": "minecraft:stripped_oak_log[axis=x]"
     },
     {
       "char": "N",
-      "block": "minecraft:stripped_oak_log[axis=z]"
+      "block": "minecraft:cyan_terracotta"
     },
     {
       "char": "O",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "P",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     }
   ]

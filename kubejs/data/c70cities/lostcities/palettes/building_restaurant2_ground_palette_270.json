@@ -268,64 +268,69 @@
     },
     {
       "char": "$",
-      "block": "another_furniture:birch_shelf[waterlogged=false,facing=west,type=middle]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "%",
-      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,facing=north,open=false]"
+      "block": "another_furniture:birch_shelf[waterlogged=false,facing=west,type=middle]"
     },
     {
       "char": "^",
-      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
+      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,facing=north,open=false]"
     },
     {
       "char": "&",
-      "block": "embellishcraft:dark_concrete_paving_wall[waterlogged=false,up=false]"
+      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
     },
     {
       "char": "*",
-      "block": "another_furniture:birch_shelf[waterlogged=false,facing=east,type=right]"
+      "block": "embellishcraft:dark_concrete_paving_wall[waterlogged=false,up=false]"
     },
     {
       "char": "(",
-      "block": "another_furniture:birch_shelf[waterlogged=false,facing=east,type=middle]"
+      "block": "another_furniture:birch_shelf[waterlogged=false,facing=east,type=right]"
     },
     {
       "char": ")",
-      "block": "another_furniture:birch_shelf[waterlogged=false,facing=east,type=left]"
+      "block": "another_furniture:birch_shelf[waterlogged=false,facing=east,type=middle]"
     },
     {
       "char": "+",
-      "block": "cfm:stripped_birch_upgraded_fence[waterlogged=false]"
+      "block": "another_furniture:birch_shelf[waterlogged=false,facing=east,type=left]"
     },
     {
       "char": "-",
-      "block": "quark:paper_lantern_sakura"
+      "block": "cfm:stripped_birch_upgraded_fence[waterlogged=false]"
     },
     {
       "char": "[",
+      "block": "quark:paper_lantern_sakura"
+    },
+    {
+      "char": "]",
       "block": "farmersdelight:birch_cabinet[facing=west,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "]",
+      "char": "{",
       "block": "farmersdelight:birch_cabinet[facing=east,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "{",
+      "char": "}",
       "block": "embellishcraft:dark_concrete_paving_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "}",
+      "char": "\\",
       "block": "minecraft:stripped_birch_log[axis=z]"
     },
     {
-      "char": "\\",
+      "char": "|",
       "block": "minecraft:birch_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "|",
+      "char": "`",
       "block": "minecraft:stripped_birch_log[axis=x]"
     }
   ]

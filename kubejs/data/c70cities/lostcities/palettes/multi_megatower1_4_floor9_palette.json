@@ -251,75 +251,85 @@
     },
     {
       "char": "%",
-      "block": "farmersdelight:spruce_cabinet[facing=east,open=false]",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
       "loot": "chestloot"
     },
     {
       "char": "^",
+      "block": "farmersdelight:spruce_cabinet[facing=east,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "&",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "*",
       "block": "create:nixie_tube[waterlogged=false,double_face=ceiling,facing=east]",
       "tag": {
         "id": "create:nixie_tube"
       }
     },
     {
-      "char": "&",
+      "char": "(",
       "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
     },
     {
-      "char": "*",
+      "char": ")",
       "block": "farmersdelight:oak_cabinet[facing=east,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "(",
+      "char": "+",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
     },
     {
-      "char": ")",
+      "char": "-",
       "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
-      "char": "+",
+      "char": "[",
       "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "-",
+      "char": "]",
       "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
     },
     {
-      "char": "[",
+      "char": "{",
       "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "]",
+      "char": "}",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "{",
+      "char": "\\",
       "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
-      "char": "}",
+      "char": "|",
       "block": "minecraft:cobweb"
     },
     {
-      "char": "\\",
+      "char": "`",
       "block": "embellishcraft:polished_basalt"
     },
     {
-      "char": "|",
+      "char": ":",
       "block": "minecraft:stripped_oak_log[axis=x]"
     },
     {
-      "char": "`",
+      "char": ";",
       "block": "simplylight:illuminant_block"
     },
     {
-      "char": ":",
+      "char": "'",
       "block": "embellishcraft:air_duct"
     },
     {
-      "char": ";",
+      "char": ",",
       "block": "simplylight:illuminant_slab[waterlogged=false,facing=up]"
     }
   ]

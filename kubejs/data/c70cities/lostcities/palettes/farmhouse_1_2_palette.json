@@ -1,0 +1,41 @@
+{
+  "name": "farmhouse_1_2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:dark_oak_fence[waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "biomesoplenty:barley[half=lower]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:dark_oak_button[face=floor,facing=east]"
+    },
+    {
+      "char": "e",
+      "block": "quark:crimson_post[waterlogged=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:dark_oak_button[face=floor,facing=north]"
+    },
+    {
+      "char": "g",
+      "block": "biomesoplenty:barley[half=upper]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:zombie_head[rotation=4]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:zombie_head[rotation=8]"
+    }
+  ]
+}

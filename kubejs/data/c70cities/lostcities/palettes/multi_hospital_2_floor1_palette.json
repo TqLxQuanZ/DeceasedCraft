@@ -78,116 +78,121 @@
     },
     {
       "char": "r",
-      "block": "minecraft:cauldron"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "s",
-      "block": "minecraft:cyan_terracotta"
+      "block": "minecraft:cauldron"
     },
     {
       "char": "t",
-      "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
+      "block": "minecraft:cyan_terracotta"
     },
     {
       "char": "u",
-      "block": "cfm:stone_coffee_table[waterlogged=false]"
+      "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
     },
     {
       "char": "w",
+      "block": "cfm:stone_coffee_table[waterlogged=false]"
+    },
+    {
+      "char": "x",
       "block": "minecraft:white_bed[part=foot,facing=east,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "x",
+      "char": "y",
       "block": "minecraft:white_bed[part=head,facing=east,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "y",
+      "char": "A",
       "block": "cfm:oak_kitchen_sink_light[facing=west]"
     },
     {
-      "char": "A",
+      "char": "B",
       "block": "embellishcraft:oak_plain_door[hinge=left,half=lower,facing=west,open=false]"
     },
     {
-      "char": "B",
+      "char": "C",
       "block": "quark:oak_vertical_slab[waterlogged=false,type=south]"
     },
     {
-      "char": "C",
+      "char": "D",
       "block": "embellishcraft:oak_plain_door[hinge=left,half=lower,facing=south,open=false]"
     },
     {
-      "char": "D",
+      "char": "E",
       "block": "embellishcraft:oak_plain_door[hinge=left,half=lower,facing=east,open=true]"
     },
     {
-      "char": "E",
+      "char": "F",
       "block": "quark:oak_vertical_slab[waterlogged=false,type=north]"
     },
     {
-      "char": "F",
+      "char": "I",
       "block": "embellishcraft:oak_plain_door[hinge=right,half=lower,facing=north,open=false]"
     },
     {
-      "char": "I",
+      "char": "J",
       "block": "quark:potted_peony"
     },
     {
-      "char": "J",
+      "char": "K",
       "block": "minecraft:smooth_quartz"
     },
     {
-      "char": "K",
+      "char": "L",
       "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=west]"
     },
     {
-      "char": "L",
+      "char": "M",
       "block": "minecraft:oak_button[face=wall,facing=south]"
     },
     {
-      "char": "M",
+      "char": "N",
       "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
     },
     {
-      "char": "N",
+      "char": "O",
       "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=east]"
     },
     {
-      "char": "O",
+      "char": "P",
       "block": "embellishcraft:oak_plain_door[hinge=left,half=upper,facing=west,open=false]"
     },
     {
-      "char": "P",
+      "char": "Q",
       "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=south]"
     },
     {
-      "char": "Q",
+      "char": "R",
       "block": "embellishcraft:oak_plain_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
-      "char": "R",
+      "char": "S",
       "block": "embellishcraft:oak_plain_door[hinge=left,half=upper,facing=east,open=true]"
     },
     {
-      "char": "S",
+      "char": "T",
       "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=north]"
     },
     {
-      "char": "T",
+      "char": "U",
       "block": "embellishcraft:oak_plain_door[hinge=right,half=upper,facing=north,open=false]"
     },
     {
-      "char": "U",
+      "char": "V",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "V",
+      "char": "W",
       "block": "minecraft:oak_slab[waterlogged=false,type=top]"
     }
   ]

@@ -63,7 +63,7 @@
     },
     {
       "char": "p",
-      "block": "minecraft:chest",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
       "loot": "chestloot"
     },
     {
@@ -76,30 +76,35 @@
     },
     {
       "char": "s",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "t",
-      "block": "minecraft:redstone_wall_torch[lit=true,facing=north]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     },
     {
       "char": "u",
-      "block": "create:andesite_bars[waterlogged=false]"
+      "block": "minecraft:redstone_wall_torch[lit=true,facing=north]"
     },
     {
       "char": "w",
-      "block": "minecraft:stripped_oak_log[axis=z]"
+      "block": "create:andesite_bars[waterlogged=false]"
     },
     {
       "char": "x",
-      "block": "minecraft:stripped_oak_log[axis=x]"
+      "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
       "char": "y",
-      "block": "embellishcraft:air_duct"
+      "block": "minecraft:stripped_oak_log[axis=x]"
     },
     {
       "char": "A",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "B",
       "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=south]"
     }
   ]

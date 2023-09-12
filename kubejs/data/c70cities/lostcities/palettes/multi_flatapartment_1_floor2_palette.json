@@ -205,30 +205,44 @@
     },
     {
       "char": "1",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=north,type=single]"
     },
     {
       "char": "2",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
     },
     {
       "char": "3",
-      "block": "minecraft:chain[waterlogged=false,axis=y]"
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
     },
     {
       "char": "4",
-      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "5",
-      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=north]"
+      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "6",
-      "block": "embellishcraft:smooth_marble_slab[waterlogged=false,type=bottom]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "7",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "8",
+      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=north]"
+    },
+    {
+      "char": "9",
+      "block": "embellishcraft:smooth_marble_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "@",
       "block": "embellishcraft:polished_marble_slab[waterlogged=false,type=bottom]"
     }
   ]

@@ -178,18 +178,44 @@
     },
     {
       "char": "V",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=south]"
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=north,type=right]"
     },
     {
       "char": "W",
-      "block": "minecraft:large_fern[half=upper]"
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=north,type=left]"
     },
     {
       "char": "X",
-      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=inner_left,facing=west]"
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=south]"
     },
     {
       "char": "Y",
+      "block": "minecraft:large_fern[half=upper]"
+    },
+    {
+      "char": "Z",
+      "block": "minecraft:potted_oak_sapling"
+    },
+    {
+      "char": "0",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "1",
+      "block": "minecraft:flower_pot"
+    },
+    {
+      "char": "2",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "3",
+      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=inner_left,facing=west]"
+    },
+    {
+      "char": "4",
       "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     }
   ]

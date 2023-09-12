@@ -129,7 +129,7 @@
       },
       {
         "name": "c70cities:cabin_3",
-        "weight": 15,
+        "weight": 25,
         "maxheightdiff": 2,
         "biomes": {
           "excluding": [
@@ -145,7 +145,23 @@
       },
       {
         "name": "c70cities:cabin_4",
-        "weight": 15,
+        "weight": 25,
+        "maxheightdiff": 2,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach",
+            "#minecraft:is_badlands",
+            "minecraft:desert",
+            "biomesoplenty:wasteland",
+            "biomesoplenty:wooded_wasteland"
+          ]
+        }
+      },
+      {
+        "name": "c70cities:farmhouse_1",
+        "weight": 25,
         "maxheightdiff": 2,
         "biomes": {
           "excluding": [

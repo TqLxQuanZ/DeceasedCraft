@@ -87,8 +87,7 @@
     },
     {
       "char": "w",
-      "block": "cfm:dark_oak_kitchen_drawer[facing=west,open=false]",
-      "loot": "chestloot"
+      "block": "cfm:dark_oak_kitchen_counter[facing=west,type=default]"
     },
     {
       "char": "x",
@@ -104,79 +103,80 @@
     },
     {
       "char": "B",
-      "block": "cfm:dark_oak_kitchen_counter[facing=west,type=default]"
-    },
-    {
-      "char": "C",
       "block": "cfm:freezer_light[facing=west,open=false]"
     },
     {
-      "char": "D",
+      "char": "C",
       "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "immersiveengineering:light_engineering"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "minecraft:birch_door[hinge=left,half=lower,facing=west,open=false]"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "immersiveengineering:capacitor_mv"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "embellishcraft:dark_oak_large_suspended_stairs[waterlogged=false,facing=west]"
     },
     {
-      "char": "L",
+      "char": "K",
       "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
     },
     {
-      "char": "M",
+      "char": "L",
       "block": "minecraft:dark_oak_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "create:dark_oak_window_pane[waterlogged=false]"
     },
     {
-      "char": "O",
+      "char": "N",
       "block": "quark:dark_oak_bookshelf"
     },
     {
-      "char": "P",
+      "char": "O",
       "block": "create:display_board[waterlogged=false,facing=east,up=false]"
     },
     {
-      "char": "Q",
+      "char": "P",
       "block": "farmersdelight:shepherds_pie_block[servings=4,facing=east]"
     },
     {
-      "char": "R",
+      "char": "Q",
       "block": "farmersdelight:cooking_pot[waterlogged=false,facing=east,support=none]"
     },
     {
-      "char": "S",
+      "char": "R",
       "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=east,open=false]"
     },
     {
-      "char": "T",
+      "char": "S",
       "block": "create:framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "U",
+      "char": "T",
       "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=east,open=false]"
     },
     {
-      "char": "V",
+      "char": "U",
       "block": "cfm:fridge_light[facing=west,open=false]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "V",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
       "loot": "chestloot"
     },
     {

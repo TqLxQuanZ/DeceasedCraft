@@ -224,6 +224,11 @@
     },
     {
       "char": "7",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "8",
       "block": "minecraft:spruce_slab[waterlogged=false,type=bottom]"
     }
   ]

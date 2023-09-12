@@ -71,23 +71,28 @@
     },
     {
       "char": "r",
-      "block": "minecraft:chest",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
       "loot": "chestloot"
     },
     {
       "char": "s",
-      "block": "minecraft:stone_pressure_plate"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "t",
-      "block": "minecraft:stripped_dark_oak_log[axis=y]"
+      "block": "minecraft:stone_pressure_plate"
     },
     {
       "char": "u",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stripped_dark_oak_log[axis=y]"
     },
     {
       "char": "w",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "x",
       "block": "create:vertical_framed_glass_pane[waterlogged=false]"
     }
   ]

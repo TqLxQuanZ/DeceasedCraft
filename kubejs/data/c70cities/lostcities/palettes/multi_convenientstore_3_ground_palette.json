@@ -103,7 +103,7 @@
     },
     {
       "char": "B",
-      "block": "minecraft:chest",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
       "loot": "chestloot"
     },
     {
@@ -209,71 +209,76 @@
     },
     {
       "char": "3",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "4",
-      "block": "embellishcraft:oak_plain_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
     },
     {
       "char": "5",
-      "block": "another_furniture:oak_shelf[waterlogged=false,facing=north,type=right]"
+      "block": "embellishcraft:oak_plain_door[hinge=right,half=upper,facing=east,open=false]"
     },
     {
       "char": "6",
-      "block": "another_furniture:oak_shelf[waterlogged=false,facing=north,type=middle]"
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=north,type=right]"
     },
     {
       "char": "7",
-      "block": "another_furniture:oak_shelf[waterlogged=false,facing=north,type=left]"
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=north,type=middle]"
     },
     {
       "char": "8",
-      "block": "farmersdelight:tomato_crate"
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=north,type=left]"
     },
     {
       "char": "9",
-      "block": "embellishcraft:air_duct"
+      "block": "farmersdelight:tomato_crate"
     },
     {
       "char": "@",
-      "block": "minecraft:oak_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "embellishcraft:air_duct"
     },
     {
       "char": "#",
-      "block": "simplylight:edge_light_top[waterlogged=false]"
+      "block": "minecraft:oak_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
     },
     {
       "char": "$",
-      "block": "embellishcraft:vent_air_duct[facing=south]"
+      "block": "simplylight:edge_light_top[waterlogged=false]"
     },
     {
       "char": "%",
-      "block": "immersiveengineering:slab_sheetmetal_colored_lime[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:vent_air_duct[facing=south]"
     },
     {
       "char": "^",
-      "block": "quark:limestone_slab[waterlogged=false,type=top]"
+      "block": "immersiveengineering:slab_sheetmetal_colored_lime[waterlogged=false,type=bottom]"
     },
     {
       "char": "&",
-      "block": "quark:limestone_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "quark:limestone_slab[waterlogged=false,type=top]"
     },
     {
       "char": "*",
+      "block": "quark:limestone_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "(",
       "block": "farmersdelight:spruce_cabinet[facing=north,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "(",
+      "char": ")",
       "block": "bunker_down:broken_ceiling_lamp"
     },
     {
-      "char": ")",
+      "char": "+",
       "block": "minecraft:oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
-      "char": "+",
+      "char": "-",
       "block": "embellishcraft:vent_air_duct[facing=down]"
     }
   ]

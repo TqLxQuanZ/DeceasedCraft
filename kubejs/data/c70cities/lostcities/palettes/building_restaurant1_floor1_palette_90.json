@@ -185,22 +185,31 @@
     },
     {
       "char": "X",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=east,type=single]"
     },
     {
       "char": "Y",
-      "block": "minecraft:lantern[waterlogged=false,hanging=true]"
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
     },
     {
       "char": "Z",
-      "block": "minecraft:chain[waterlogged=false,axis=y]"
+      "block": "minecraft:lantern[waterlogged=false,hanging=true]"
     },
     {
       "char": "0",
-      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "1",
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "2",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "3",
       "block": "minecraft:quartz_block"
     }
   ]

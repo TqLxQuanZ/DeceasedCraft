@@ -78,82 +78,87 @@
     },
     {
       "char": "r",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "s",
-      "block": "minecraft:furnace[lit=false,facing=south]"
+      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
     },
     {
       "char": "t",
+      "block": "minecraft:furnace[lit=false,facing=south]"
+    },
+    {
+      "char": "u",
       "block": "minecraft:brown_bed[part=head,facing=north,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "u",
+      "char": "w",
       "block": "cfm:cyan_kitchen_drawer[facing=north,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "w",
+      "char": "x",
       "block": "minecraft:brown_bed[part=foot,facing=north,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "x",
+      "char": "y",
       "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
-      "char": "y",
+      "char": "A",
       "block": "quark:iron_rod[facing=up]"
     },
     {
-      "char": "A",
+      "char": "B",
       "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
-      "char": "B",
+      "char": "C",
       "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=east,open=false]"
     },
     {
-      "char": "C",
+      "char": "D",
       "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
-      "char": "D",
+      "char": "E",
       "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=east,open=false]"
     },
     {
-      "char": "E",
+      "char": "F",
       "block": "minecraft:yellow_candle[waterlogged=false,lit=false]"
     },
     {
-      "char": "F",
+      "char": "I",
       "block": "minecraft:brewing_stand"
     },
     {
-      "char": "I",
+      "char": "J",
       "block": "immersiveengineering:concrete_quarter"
     },
     {
-      "char": "J",
+      "char": "K",
       "block": "minecraft:oak_planks"
     },
     {
-      "char": "K",
+      "char": "L",
       "block": "farmersdelight:oak_cabinet[facing=south,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "L",
+      "char": "M",
       "block": "bunker_down:broken_ceiling_lamp"
     },
     {
-      "char": "M",
+      "char": "N",
       "block": "minecraft:quartz_block"
     }
   ]

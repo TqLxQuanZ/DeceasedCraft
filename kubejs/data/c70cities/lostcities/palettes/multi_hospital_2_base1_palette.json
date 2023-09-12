@@ -59,14 +59,19 @@
     },
     {
       "char": "o",
-      "block": "minecraft:oak_slab[waterlogged=false,type=top]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "p",
-      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "minecraft:oak_slab[waterlogged=false,type=top]"
     },
     {
       "char": "q",
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+    },
+    {
+      "char": "r",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
     }
   ]

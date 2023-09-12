@@ -166,7 +166,7 @@
     },
     {
       "char": "S",
-      "block": "minecraft:chest",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
       "loot": "chestloot"
     },
     {
@@ -175,127 +175,132 @@
     },
     {
       "char": "U",
-      "block": "create:brass_belt_funnel[waterlogged=false,shape=retracted,facing=south]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "V",
+      "block": "create:brass_belt_funnel[waterlogged=false,shape=retracted,facing=south]"
+    },
+    {
+      "char": "W",
       "block": "create:brass_tunnel[shape=t_right,axis=x]",
       "tag": {
         "id": "create:brass_tunnel"
       }
     },
     {
-      "char": "W",
+      "char": "X",
       "block": "immersiveengineering:connector_lv[waterlogged=false,facing=down]"
     },
     {
-      "char": "X",
+      "char": "Y",
       "block": "minecraft:water_cauldron"
     },
     {
-      "char": "Y",
+      "char": "Z",
       "block": "create:gantry_carriage[facing=down,axis_along_first=false]"
     },
     {
-      "char": "Z",
+      "char": "0",
       "block": "create:deployer[facing=down,axis_along_first=true]",
       "tag": {
         "id": "create:deployer"
       }
     },
     {
-      "char": "0",
+      "char": "1",
       "block": "create:mechanical_press[facing=east]",
       "tag": {
         "id": "create:mechanical_press"
       }
     },
     {
-      "char": "1",
+      "char": "2",
       "block": "createaddition:alternator[facing=north]"
     },
     {
-      "char": "2",
+      "char": "3",
       "block": "immersiveengineering:connector_lv[waterlogged=false,facing=south]"
     },
     {
-      "char": "3",
+      "char": "4",
       "block": "createaddition:electric_motor[facing=south]"
     },
     {
-      "char": "4",
+      "char": "5",
       "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     },
     {
-      "char": "5",
+      "char": "6",
       "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "6",
+      "char": "7",
       "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
     },
     {
-      "char": "7",
+      "char": "8",
       "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
     },
     {
-      "char": "8",
+      "char": "9",
       "block": "embellishcraft:gray_corrugated_metal_plate_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "9",
+      "char": "@",
       "block": "biomesoplenty:stripped_dead_log[axis=z]"
     },
     {
-      "char": "@",
+      "char": "#",
       "block": "create:gantry_shaft[part=end,facing=north]",
       "tag": {
         "id": "create:gantry_shaft"
       }
     },
     {
-      "char": "#",
+      "char": "$",
       "block": "create:gantry_shaft[part=middle,facing=north]",
       "tag": {
         "id": "create:gantry_shaft"
       }
     },
     {
-      "char": "$",
+      "char": "%",
       "block": "create:gantry_shaft[part=start,facing=north]",
       "tag": {
         "id": "create:gantry_shaft"
       }
     },
     {
-      "char": "%",
+      "char": "^",
       "block": "create:gantry_shaft[part=single,facing=north]",
       "tag": {
         "id": "create:gantry_shaft"
       }
     },
     {
-      "char": "^",
+      "char": "&",
       "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
     },
     {
-      "char": "&",
+      "char": "*",
       "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "*",
+      "char": "(",
       "block": "embellishcraft:gray_corrugated_metal_plate"
     },
     {
-      "char": "(",
+      "char": ")",
       "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=top,shape=straight,facing=east]"
     },
     {
-      "char": ")",
+      "char": "+",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "+",
+      "char": "-",
       "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=top,shape=straight,facing=west]"
     }
   ]

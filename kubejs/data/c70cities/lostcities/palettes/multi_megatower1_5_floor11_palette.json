@@ -84,54 +84,59 @@
     },
     {
       "char": "u",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=south,open=true]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "w",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=south,open=true]"
     },
     {
       "char": "x",
-      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
     },
     {
       "char": "y",
-      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
     },
     {
       "char": "A",
-      "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=top]"
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
     },
     {
       "char": "B",
-      "block": "create:framed_glass_pane[waterlogged=false]"
+      "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=top]"
     },
     {
       "char": "C",
-      "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
+      "block": "create:framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "D",
-      "block": "minecraft:stripped_oak_log[axis=z]"
+      "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "E",
-      "block": "minecraft:cobweb"
+      "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
       "char": "F",
-      "block": "minecraft:chain[waterlogged=false,axis=y]"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "I",
-      "block": "embellishcraft:air_duct"
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "J",
-      "block": "minecraft:stripped_oak_log[axis=x]"
+      "block": "embellishcraft:air_duct"
     },
     {
       "char": "K",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    },
+    {
+      "char": "L",
       "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
     }
   ]

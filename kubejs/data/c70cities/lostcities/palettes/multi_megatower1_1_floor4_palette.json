@@ -119,26 +119,35 @@
     },
     {
       "char": "F",
-      "block": "create:andesite_bars[waterlogged=false]"
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=south,type=single]"
     },
     {
       "char": "I",
-      "block": "minecraft:cobweb"
+      "block": "create:andesite_bars[waterlogged=false]"
     },
     {
       "char": "J",
-      "block": "minecraft:stripped_oak_log[axis=z]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "K",
-      "block": "minecraft:stripped_oak_log[axis=x]"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "L",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
       "char": "M",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "O",
       "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
     }
   ]

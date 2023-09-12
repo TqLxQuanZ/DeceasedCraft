@@ -118,6 +118,11 @@
     },
     {
       "char": "D",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "E",
       "block": "minecraft:quartz_block"
     }
   ]

@@ -23,115 +23,119 @@
     },
     {
       "char": "f",
-      "block": "minecraft:smooth_stone"
+      "block": "securitycraft:security_camera[facing=west]"
     },
     {
       "char": "g",
-      "block": "minecraft:bricks"
+      "block": "minecraft:smooth_stone"
     },
     {
       "char": "h",
-      "block": "embellishcraft:smooth_basalt"
+      "block": "minecraft:bricks"
     },
     {
       "char": "i",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+      "block": "embellishcraft:smooth_basalt"
     },
     {
       "char": "j",
-      "block": "quark:limestone_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
     },
     {
       "char": "k",
-      "block": "quark:limestone_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:limestone_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "l",
-      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+      "block": "quark:limestone_vertical_slab[waterlogged=false,type=north]"
     },
     {
       "char": "m",
-      "block": "quark:limestone_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
     },
     {
       "char": "n",
-      "block": "quark:limestone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "quark:limestone_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
     },
     {
       "char": "o",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,facing=west,open=false]"
+      "block": "quark:limestone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     },
     {
       "char": "p",
-      "block": "minecraft:water_cauldron"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,facing=west,open=false]"
     },
     {
       "char": "q",
-      "block": "embellishcraft:air_duct"
+      "block": "minecraft:water_cauldron"
     },
     {
       "char": "r",
-      "block": "minecraft:cobweb"
+      "block": "embellishcraft:air_duct"
     },
     {
       "char": "s",
-      "block": "minecraft:chest",
-      "loot": "chestloot"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "t",
-      "block": "minecraft:cauldron"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "u",
-      "block": "quark:limestone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:cauldron"
     },
     {
       "char": "w",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+      "block": "quark:limestone_slab[waterlogged=false,type=top]"
     },
     {
       "char": "x",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
     },
     {
       "char": "y",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
     },
     {
       "char": "A",
-      "block": "embellishcraft:basalt_large_bricks_slab[waterlogged=false,type=top]"
+      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
     },
     {
       "char": "B",
-      "block": "embellishcraft:basalt_large_bricks_wall[waterlogged=false,up=false]"
+      "block": "embellishcraft:basalt_large_bricks_slab[waterlogged=false,type=top]"
     },
     {
       "char": "C",
-      "block": "minecraft:spruce_planks"
+      "block": "embellishcraft:basalt_large_bricks_wall[waterlogged=false,up=false]"
     },
     {
       "char": "D",
-      "block": "embellishcraft:basalt_large_bricks"
+      "block": "minecraft:spruce_planks"
     },
     {
       "char": "E",
-      "block": "embellishcraft:basalt_large_bricks_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:basalt_large_bricks"
     },
     {
       "char": "F",
-      "block": "quark:black_framed_glass"
+      "block": "embellishcraft:basalt_large_bricks_slab[waterlogged=false,type=bottom]"
     },
     {
       "char": "I",
-      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=bottom]"
+      "block": "quark:black_framed_glass"
     },
     {
       "char": "J",
-      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=bottom]"
     },
     {
       "char": "K",
+      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "L",
       "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=double]"
     }
   ]

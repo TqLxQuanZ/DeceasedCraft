@@ -83,7 +83,7 @@
     },
     {
       "char": "u",
-      "block": "minecraft:chest",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
       "loot": "chestloot"
     },
     {
@@ -265,18 +265,23 @@
     },
     {
       "char": "^",
-      "block": "minecraft:stone_button[face=wall,facing=south]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "&",
-      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
+      "block": "minecraft:stone_button[face=wall,facing=south]"
     },
     {
       "char": "*",
-      "block": "biomesoplenty:stripped_fir_log[axis=z]"
+      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
     },
     {
       "char": "(",
+      "block": "biomesoplenty:stripped_fir_log[axis=z]"
+    },
+    {
+      "char": ")",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
     }
   ]

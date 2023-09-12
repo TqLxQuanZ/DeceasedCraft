@@ -1,0 +1,61 @@
+{
+  "name": "farmhouse_1_0_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:dark_oak_button[face=floor,facing=east]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:coarse_dirt"
+    },
+    {
+      "char": "d",
+      "block": "biomesoplenty:barley[half=lower]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:end_rod[facing=up]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:dark_oak_fence[waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:dark_oak_button[face=floor,facing=north]"
+    },
+    {
+      "char": "h",
+      "block": "biomesoplenty:barley[half=upper]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:end_rod[facing=down]"
+    },
+    {
+      "char": "j",
+      "block": "quark:acacia_post[waterlogged=false,chain_up=false,axis=x]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:hay_block[axis=y]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:carved_pumpkin[facing=south]"
+    },
+    {
+      "char": "m",
+      "block": "immersiveengineering:concrete_sheet"
+    },
+    {
+      "char": "n",
+      "block": "immersiveengineering:concrete_quarter"
+    }
+  ]
+}

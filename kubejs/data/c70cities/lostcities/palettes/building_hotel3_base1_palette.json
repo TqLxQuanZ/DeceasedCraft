@@ -117,10 +117,19 @@
     },
     {
       "char": "E",
-      "block": "minecraft:chain[waterlogged=false,axis=y]"
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=west,type=single]"
     },
     {
       "char": "F",
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "I",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "J",
       "block": "minecraft:quartz_block"
     }
   ]

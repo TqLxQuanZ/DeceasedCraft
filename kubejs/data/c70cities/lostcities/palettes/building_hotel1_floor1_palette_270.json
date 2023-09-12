@@ -39,68 +39,73 @@
     },
     {
       "char": "j",
-      "block": "farmersdelight:spruce_cabinet[facing=east,open=false]",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
       "loot": "chestloot"
     },
     {
       "char": "k",
-      "block": "farmersdelight:stove[lit=false,facing=east]"
+      "block": "farmersdelight:spruce_cabinet[facing=east,open=false]",
+      "loot": "chestloot"
     },
     {
       "char": "l",
-      "block": "minecraft:furnace[lit=false,facing=east]"
+      "block": "farmersdelight:stove[lit=false,facing=east]"
     },
     {
       "char": "m",
-      "block": "cfm:gray_kitchen_sink[facing=west]"
+      "block": "minecraft:furnace[lit=false,facing=east]"
     },
     {
       "char": "n",
-      "block": "cfm:freezer_light[facing=west,open=false]"
+      "block": "cfm:gray_kitchen_sink[facing=west]"
     },
     {
       "char": "o",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "cfm:freezer_light[facing=west,open=false]"
     },
     {
       "char": "p",
-      "block": "cfm:gray_kitchen_counter[facing=east,type=default]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
       "char": "q",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "cfm:gray_kitchen_counter[facing=east,type=default]"
     },
     {
       "char": "r",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "s",
-      "block": "minecraft:iron_bars[waterlogged=false]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
       "char": "t",
-      "block": "quark:iron_rod[facing=up]"
+      "block": "minecraft:iron_bars[waterlogged=false]"
     },
     {
       "char": "u",
-      "block": "farmersdelight:cooking_pot[waterlogged=false,facing=east,support=none]"
+      "block": "quark:iron_rod[facing=up]"
     },
     {
       "char": "w",
+      "block": "farmersdelight:cooking_pot[waterlogged=false,facing=east,support=none]"
+    },
+    {
+      "char": "x",
       "block": "cfm:fridge_light[facing=west,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "x",
+      "char": "y",
       "block": "immersiveengineering:concrete_quarter"
     },
     {
-      "char": "y",
+      "char": "A",
       "block": "cfm:oak_hedge[waterlogged=false]"
     },
     {
-      "char": "A",
+      "char": "B",
       "block": "minecraft:quartz_block"
     }
   ]

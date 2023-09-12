@@ -63,7 +63,8 @@
     },
     {
       "char": "p",
-      "block": "cfm:stripped_spruce_coffee_table[waterlogged=false]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "q",
@@ -71,71 +72,75 @@
     },
     {
       "char": "r",
+      "block": "cfm:stripped_spruce_coffee_table[waterlogged=false]"
+    },
+    {
+      "char": "s",
       "block": "cfm:stripped_spruce_kitchen_drawer[facing=west,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "s",
+      "char": "t",
       "block": "embellishcraft:white_spruce_fancy_bed[part=foot,facing=east,occupied=false]"
     },
     {
-      "char": "t",
+      "char": "u",
       "block": "embellishcraft:white_spruce_fancy_bed[part=head,facing=east,occupied=false]"
     },
     {
-      "char": "u",
+      "char": "w",
       "block": "embellishcraft:white_spruce_fancy_bed[part=head,facing=west,occupied=false]"
     },
     {
-      "char": "w",
+      "char": "x",
       "block": "embellishcraft:white_spruce_fancy_bed[part=foot,facing=west,occupied=false]"
     },
     {
-      "char": "x",
+      "char": "y",
       "block": "minecraft:stone_button[face=floor,facing=west]"
     },
     {
-      "char": "y",
+      "char": "A",
       "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
     },
     {
-      "char": "A",
+      "char": "B",
       "block": "minecraft:tripwire_hook[attached=false,facing=west]"
     },
     {
-      "char": "B",
+      "char": "C",
       "block": "another_furniture:white_lamp[waterlogged=false,lit=false,facing=east]"
     },
     {
-      "char": "C",
+      "char": "D",
       "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=north,open=true]"
     },
     {
-      "char": "D",
+      "char": "E",
       "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=south,type=left,open=true]"
     },
     {
-      "char": "E",
+      "char": "F",
       "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=south,type=right,open=true]"
     },
     {
-      "char": "F",
+      "char": "I",
       "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=south,type=left,open=false]"
     },
     {
-      "char": "I",
+      "char": "J",
       "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=south,type=right,open=false]"
     },
     {
-      "char": "J",
+      "char": "K",
       "block": "minecraft:stripped_oak_log[axis=x]"
     },
     {
-      "char": "K",
+      "char": "L",
       "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
-      "char": "L",
+      "char": "M",
       "block": "minecraft:cyan_terracotta"
     }
   ]

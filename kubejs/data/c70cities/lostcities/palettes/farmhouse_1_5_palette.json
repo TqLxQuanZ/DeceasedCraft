@@ -1,0 +1,57 @@
+{
+  "name": "farmhouse_1_5_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:coarse_dirt"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:gravel"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:water"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:dirt_path"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:dark_oak_fence[waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:sugar_cane"
+    },
+    {
+      "char": "h",
+      "block": "biomesoplenty:barley[half=lower]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:dark_oak_button[face=floor,facing=north]"
+    },
+    {
+      "char": "j",
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:dark_oak_button[face=floor,facing=west]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:acacia_sapling"
+    },
+    {
+      "char": "m",
+      "block": "biomesoplenty:barley[half=upper]"
+    }
+  ]
+}
