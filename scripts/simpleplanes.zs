@@ -73,7 +73,7 @@ craftingTable.removeByName("simpleplanes:booster");
 // Solar Panel
 craftingTable.removeByName("simpleplanes:solar_panel");
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("plane_solar_panel")
-                                                      .transitionTo(<item:refinedstorage:silicon>)
+                                                      .transitionTo(<item:contenttweaker:incomplete_solar_panel>)
                                                       .require(<tag:items:forge:storage_blocks/aluminum>)
                                                       .loops(4)
                                                       .addOutput(<item:simpleplanes:solar_panel>, 1)

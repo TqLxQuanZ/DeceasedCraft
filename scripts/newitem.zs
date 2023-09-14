@@ -7,11 +7,11 @@ val deceasedCreativeTab = <factory:creative_tab>.create("deceasedTab", <item:min
 val deceasedTab = <tab:deceasedTab>;
 
 // Misc
-val incomplete_small_redstone_battery = <factory:item>.typed<Basic>()
+val incomplete_solar_panel = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-	.durability(5)
+	.durability(20)
     .rarity(<constant:minecraft:item/rarity:common>)
-    .build("incomplete_small_redstone_battery");
+    .build("incomplete_solar_panel");
 
 val incomplete_ender_pearl = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
