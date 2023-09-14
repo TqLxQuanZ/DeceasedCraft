@@ -6,7 +6,7 @@
 	displayCoordinates = true
 	#biomeSize * radiusModifier = maxSearchRadius. Raising this value will increase search accuracy but will potentially make the process more resource .
 	#Range: 0 ~ 1000000
-	radiusModifier = 2500
+	radiusModifier = 5000
 	#biomeSize * sampleSpaceModifier = sampleSpace. Lowering this value will increase search accuracy but will make the process more resource intensive.
 	#Range: 0 ~ 1000000
 	sampleSpaceModifier = 16
