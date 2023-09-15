@@ -80,26 +80,31 @@
     },
     {
       "char": "t",
-      "block": "minecraft:iron_door[hinge=left,half=upper,facing=west,open=false]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "u",
-      "block": "minecraft:iron_door[hinge=right,half=upper,facing=west,open=false]"
+      "block": "minecraft:iron_door[hinge=left,half=upper,facing=west,open=false]"
     },
     {
       "char": "w",
-      "block": "cfm:oak_hedge[waterlogged=false]"
+      "block": "minecraft:iron_door[hinge=right,half=upper,facing=west,open=false]"
     },
     {
       "char": "x",
-      "block": "simplylight:rodlamp[waterlogged=false,axis=y]"
+      "block": "cfm:oak_hedge[waterlogged=false]"
     },
     {
       "char": "y",
-      "block": "minecraft:quartz_block"
+      "block": "simplylight:rodlamp[waterlogged=false,axis=y]"
     },
     {
       "char": "A",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "B",
       "block": "embellishcraft:smooth_marble_wall[waterlogged=false,up=false]"
     }
   ]

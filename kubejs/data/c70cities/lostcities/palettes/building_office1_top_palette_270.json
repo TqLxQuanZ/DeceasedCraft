@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "immersiveengineering:slab_concrete[waterlogged=false,type=bottom]"
+      "block": "cfm:stripped_oak_coffee_table[waterlogged=false]"
     },
     {
       "char": "l",
@@ -55,26 +55,39 @@
     },
     {
       "char": "n",
-      "block": "minecraft:furnace[lit=false,facing=east]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "o",
-      "block": "minecraft:iron_bars[waterlogged=false]"
+      "block": "quark:dark_oak_hedge[waterlogged=false]"
     },
     {
       "char": "p",
-      "block": "cfm:oak_hedge[waterlogged=false]"
+      "block": "minecraft:bookshelf"
     },
     {
       "char": "q",
-      "block": "minecraft:quartz_block"
+      "block": "embellishcraft:light_gray_couch[waterlogged=false,shape=straight,facing=west]"
     },
     {
       "char": "r",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:iron_bars[waterlogged=false]"
     },
     {
       "char": "s",
+      "block": "cfm:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "w",
       "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=bottom]"
     }
   ]

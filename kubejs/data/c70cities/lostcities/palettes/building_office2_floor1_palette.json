@@ -72,14 +72,19 @@
     },
     {
       "char": "r",
-      "block": "cfm:oak_hedge[waterlogged=false]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "s",
-      "block": "minecraft:quartz_block"
+      "block": "cfm:oak_hedge[waterlogged=false]"
     },
     {
       "char": "t",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "u",
       "block": "embellishcraft:smooth_marble_wall[waterlogged=false,up=false]"
     }
   ]

@@ -71,7 +71,7 @@
 	# Default of 0 means no automatic loss of claims.
 	# Default: 0
 	# Range: 0 ~ 9223372036854775807
-	max_idle_days_before_unclaim: 0L
+	max_idle_days_before_unclaim: 180
 	
 	# Requires you to claim chunks in order to edit and interact with blocks
 	# Default: false

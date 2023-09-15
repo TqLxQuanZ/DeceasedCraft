@@ -213,6 +213,9 @@
           "biomesoplenty:prairie",
           "biomesoplenty:dryland",
           "biomesoplenty:lavender_forest",
+          "biomesoplenty:coniferous_forest",
+          "biomesoplenty:mediterranean_forest",
+          "minecraft:forest",
           "minecraft:plains",
           "minecraft:sunflower_plains",
           "minecraft:savanna",
@@ -229,6 +232,15 @@
           "biomesoplenty:forested_field",
           "biomesoplenty:snowy_fir_clearing",
           "minecraft:stony_shore"
+        ]
+      }
+    },
+    {
+      "multiplier": 5.0,
+      "biomes": {
+        "if_any": [
+          "biomesoplenty:wasteland",
+          "biomesoplenty:wooded_wasteland"
         ]
       }
     }
@@ -255,6 +267,9 @@
           "biomesoplenty:dryland",
           "biomesoplenty:lavender_forest",
           "biomesoplenty:forested_field",
+          "biomesoplenty:coniferous_forest",
+          "biomesoplenty:mediterranean_forest",
+          "minecraft:forest",
           "minecraft:stony_shore"
         ]
       }

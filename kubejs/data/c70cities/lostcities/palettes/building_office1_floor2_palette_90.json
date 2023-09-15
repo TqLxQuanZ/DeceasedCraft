@@ -68,14 +68,18 @@
     },
     {
       "char": "q",
-      "block": "minecraft:flower_pot"
+      "block": "quark:dark_oak_hedge[waterlogged=false]"
     },
     {
       "char": "r",
-      "block": "minecraft:quartz_block"
+      "block": "minecraft:flower_pot"
     },
     {
       "char": "s",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "t",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
     }
   ]

@@ -40,38 +40,43 @@
     },
     {
       "char": "j",
-      "block": "quark:dark_oak_hedge[waterlogged=false]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "k",
-      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "quark:dark_oak_hedge[waterlogged=false]"
     },
     {
       "char": "l",
-      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "m",
-      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
     },
     {
       "char": "n",
-      "block": "embellishcraft:plate[waterlogged=false]"
+      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     },
     {
       "char": "o",
-      "block": "minecraft:heavy_weighted_pressure_plate"
+      "block": "embellishcraft:plate[waterlogged=false]"
     },
     {
       "char": "p",
-      "block": "immersiveengineering:concrete_quarter"
+      "block": "minecraft:heavy_weighted_pressure_plate"
     },
     {
       "char": "q",
-      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+      "block": "immersiveengineering:concrete_quarter"
     },
     {
       "char": "r",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "s",
       "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
     }
   ]

@@ -35,72 +35,77 @@
     },
     {
       "char": "i",
-      "block": "cfm:cyan_kitchen_counter[facing=west,type=left_corner_inverted]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "j",
-      "block": "cfm:cyan_kitchen_counter[facing=north,type=default]"
+      "block": "cfm:cyan_kitchen_counter[facing=west,type=left_corner_inverted]"
     },
     {
       "char": "k",
+      "block": "cfm:cyan_kitchen_counter[facing=north,type=default]"
+    },
+    {
+      "char": "l",
       "block": "cfm:cyan_kitchen_drawer[facing=south,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "l",
+      "char": "m",
       "block": "cfm:white_sofa[waterlogged=false,facing=east,type=single]"
     },
     {
-      "char": "m",
+      "char": "n",
       "block": "cfm:cyan_kitchen_drawer[facing=east,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "n",
+      "char": "o",
       "block": "cfm:cyan_kitchen_counter[facing=east,type=default]"
     },
     {
-      "char": "o",
+      "char": "p",
       "block": "cfm:light_gray_sofa[waterlogged=false,facing=west,type=single]"
     },
     {
-      "char": "p",
+      "char": "q",
       "block": "cfm:cyan_kitchen_counter[facing=west,type=right_corner_inverted]"
     },
     {
-      "char": "q",
+      "char": "r",
       "block": "cfm:cyan_kitchen_counter[facing=south,type=default]"
     },
     {
-      "char": "r",
+      "char": "s",
       "block": "quark:acacia_bookshelf"
     },
     {
-      "char": "s",
+      "char": "t",
       "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
     },
     {
-      "char": "t",
+      "char": "u",
       "block": "minecraft:stripped_dark_oak_log[axis=y]"
     },
     {
-      "char": "u",
+      "char": "w",
       "block": "minecraft:oak_leaves"
     },
     {
-      "char": "w",
+      "char": "x",
       "block": "minecraft:stripped_dark_oak_log[axis=z]"
     },
     {
-      "char": "x",
+      "char": "y",
       "block": "minecraft:potted_blue_orchid"
     },
     {
-      "char": "y",
+      "char": "A",
       "block": "minecraft:potted_lily_of_the_valley"
     },
     {
-      "char": "A",
+      "char": "B",
       "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
     }
   ]

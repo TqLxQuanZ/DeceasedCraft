@@ -43,18 +43,23 @@
     },
     {
       "char": "k",
-      "block": "cfm:gray_kitchen_counter[facing=east,type=left_corner_inverted]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "l",
-      "block": "minecraft:gray_stained_glass_pane[waterlogged=false]"
+      "block": "cfm:gray_kitchen_counter[facing=east,type=left_corner_inverted]"
     },
     {
       "char": "m",
-      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:gray_stained_glass_pane[waterlogged=false]"
     },
     {
       "char": "n",
+      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "o",
       "block": "minecraft:quartz_block"
     }
   ]
