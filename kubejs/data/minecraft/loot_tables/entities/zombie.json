@@ -17,6 +17,20 @@
 				  "add": true
 				}
 			  ]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "additionalguns:bullet_heavy",
+			"functions": [
+				{
+				  "function": "minecraft:set_count",
+				  "count": {
+					"min": 1,
+					"max": 4
+				  },
+				  "add": true
+				}
+			  ]
 		  }
 		],
 		"conditions": [
@@ -27,7 +41,7 @@
 		  },
 		  {
 			"condition": "minecraft:random_chance",
-			"chance": 0.2
+			"chance": 0.3
 		  }
 		]
 	  }

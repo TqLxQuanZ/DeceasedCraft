@@ -256,6 +256,20 @@
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "incity": true,
+        "onjoin": true,
+        "minheight": 61,
+        "random": 0.15,
+        "result": "default",
+        "armorhelmet": ["apocalypsenow:black_motorcycle_helmet_helmet",
+                        "apocalypsenow:red_motorcycle_helmet_helmet",
+                        "apocalypsenow:bikers_helmet",
+                        "apocalypsenow:red_bikers_helmet",
+                        "apocalypsenow:black_bikers_helmet",
+                        "apocalypsenow:green_bikers_helmet"]
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "dimension": "minecraft:overworld",
         "building": [
           "c70cities:multi_hospital_0",
@@ -442,20 +456,6 @@
         "armorchest": "apocalypsenow:hazmat_suit_chestplate",
         "armorlegs": "apocalypsenow:hazmat_suit_leggings",
         "armorboots": "apocalypsenow:hazmat_suit_boots"
-    },
-    {
-        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
-        "incity": true,
-        "onjoin": true,
-        "minheight": 61,
-        "random": 0.15,
-        "result": "default",
-        "armorhelmet": ["apocalypsenow:black_motorcycle_helmet_helmet",
-                        "apocalypsenow:red_motorcycle_helmet_helmet",
-                        "apocalypsenow:bikers_helmet",
-                        "apocalypsenow:red_bikers_helmet",
-                        "apocalypsenow:black_bikers_helmet",
-                        "apocalypsenow:green_bikers_helmet"]
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
