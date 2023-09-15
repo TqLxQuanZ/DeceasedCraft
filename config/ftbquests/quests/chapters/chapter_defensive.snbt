@@ -1,63 +1,52 @@
 {
-	quest_links: [ ]
-	default_hide_dependency_lines: false
-	group: ""
 	id: "18CA27881FB0F378"
+	group: "0CEF75605D0E77B3"
+	order_index: 3
 	filename: "chapter_defensive"
-	default_quest_shape: ""
+	title: "Armors"
 	icon: {
 		id: "minecraft:leather_chestplate"
 		Count: 1b
 		tag: {
 			Damage: 0
 		}
-		ForgeCaps: {
-			"cold_sweat:item_insulation": {
-				Insulation: [ ]
-			}
-		}
 	}
-	title: "Chapter: Defensive"
-	order_index: 2
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			size: 2.0d
-			description: ["Having protective gear is of utmost importance when venturing into the outside world. This ensures your safety and minimizes the risk of injury or exposure to hazardous elements."]
-			id: "7E0E20220482A0AD"
+			title: "Protection"
 			icon: "minecraft:leather"
 			x: -5.0d
 			y: 0.0d
-			shape: "square"
-			title: "Protection"
-			progression_mode: "flexible"
+			shape: "hexagon"
+			description: ["Having protective gear is of utmost importance when venturing into the outside world. This ensures your safety and minimizes the risk of injury or exposure to hazardous elements."]
 			dependency_requirement: "one_started"
-			rewards: [{
-				id: "32BD3BD21F70AAE9"
-				type: "xp"
-				xp: 10
-			}]
+			size: 2.0d
+			progression_mode: "flexible"
+			id: "7E0E20220482A0AD"
 			tasks: [{
 				id: "28B5E0EC062DB05C"
 				type: "checkmark"
 				title: "Protection"
 			}]
+			rewards: [{
+				id: "32BD3BD21F70AAE9"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
-			size: 1.5d
-			description: ["Craft or obtain a piece of leather chestplate."]
-			rewards: [{
-				id: "2FBB8B99977A3805"
-				type: "xp"
-				xp: 50
-			}]
-			id: "531210392B89F597"
+			title: "Protection - I"
 			x: 3.75d
 			y: 0.0d
 			shape: "hexagon"
-			title: "Protection - I"
-			progression_mode: "flexible"
+			description: ["Craft or obtain a piece of leather chestplate."]
 			dependencies: ["7E0E20220482A0AD"]
 			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "531210392B89F597"
 			tasks: [{
 				id: "4C4779C9B6565126"
 				type: "item"
@@ -74,23 +63,23 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2FBB8B99977A3805"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
-			size: 1.5d
-			description: ["Obtain or craft a piece of chainmail chestplate."]
-			rewards: [{
-				id: "6F07DA58DA345AEC"
-				type: "xp"
-				xp: 100
-			}]
-			id: "1B1EB334C4561997"
+			title: "Protection - II"
 			x: 11.25d
 			y: 0.0d
 			shape: "hexagon"
-			title: "Protection - II"
-			progression_mode: "flexible"
+			description: ["Obtain or craft a piece of chainmail chestplate."]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "1B1EB334C4561997"
 			tasks: [{
 				id: "374897A717CEBE1E"
 				type: "item"
@@ -107,23 +96,23 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6F07DA58DA345AEC"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			size: 1.5d
-			description: ["Obtain or craft a piece of steel chestplate."]
-			rewards: [{
-				id: "63502067F572F90F"
-				type: "xp"
-				xp: 200
-			}]
-			id: "0DDB1DF4FFFB6236"
+			title: "Protection - III"
 			x: 19.5d
 			y: 0.0d
 			shape: "hexagon"
-			title: "Protection - III"
-			progression_mode: "flexible"
+			description: ["Obtain or craft a piece of steel chestplate."]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "0DDB1DF4FFFB6236"
 			tasks: [{
 				id: "35EB930CD184866E"
 				type: "item"
@@ -140,23 +129,23 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "63502067F572F90F"
+				type: "xp"
+				xp: 200
+			}]
 		}
 		{
-			size: 1.5d
-			description: ["Obtain or craft a piece of netherite chestplate."]
-			rewards: [{
-				id: "24E835B151E55220"
-				type: "xp"
-				xp: 400
-			}]
-			id: "4AE5D93FE7346281"
+			title: "Protection - IV"
 			x: 27.0d
 			y: 0.0d
 			shape: "hexagon"
-			title: "Protection - IV"
-			progression_mode: "flexible"
+			description: ["Obtain or craft a piece of netherite chestplate."]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "4AE5D93FE7346281"
 			tasks: [{
 				id: "63B2B0FF6F5DA766"
 				type: "item"
@@ -173,115 +162,103 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "24E835B151E55220"
+				type: "xp"
+				xp: 400
+			}]
 		}
 		{
+			title: "Police Officer"
+			x: 1.0d
+			y: -1.5d
+			description: ["Obtain or craft a police officer chestplate. Police Officer set grants 1.0 melee damage."]
+			dependencies: ["531210392B89F597"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "2F125A5C7AE30B37"
 			tasks: [{
 				id: "765BDC8B7624D4F1"
 				type: "item"
+				title: "Any #armorset:police"
 				item: {
-					id: "arsenals_of_the_apocalypse:police_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:police"
 					}
 				}
 			}]
-			description: ["Obtain or craft a police officer chestplate. Police Officer set grants 1.0 melee damage."]
 			rewards: [{
 				id: "11952B8C74FB9193"
 				type: "xp"
 				xp: 100
 			}]
-			id: "2F125A5C7AE30B37"
-			x: 1.0d
-			y: -1.5d
-			title: "Police Officer"
-			progression_mode: "flexible"
-			dependencies: ["531210392B89F597"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "Firefighter"
+			x: 2.0d
+			y: -3.0d
+			description: ["Obtain or craft a firefighter chestplate. Firefighter set grants fire immunity."]
+			dependencies: ["531210392B89F597"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "225721B21DB52C3B"
 			tasks: [{
 				id: "11002A67AD6D96CD"
 				type: "item"
+				title: "Any #armorset:fire_figther"
 				item: {
-					id: "arsenals_of_the_apocalypse:fire_figther_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:fire_figther"
 					}
 				}
 			}]
-			description: ["Obtain or craft a firefighter chestplate. Firefighter set grants fire immunity."]
 			rewards: [{
 				id: "55B589A7BD25942A"
 				type: "xp"
 				xp: 100
 			}]
-			id: "225721B21DB52C3B"
-			x: 2.0d
-			y: -3.0d
-			title: "Firefighter"
-			progression_mode: "flexible"
-			dependencies: ["531210392B89F597"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "Nurse"
+			x: 3.0d
+			y: -4.0d
+			description: ["Obtain or craft a nurse body. Nurse set provides extra max health."]
+			dependencies: ["531210392B89F597"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "628A005A412EBAAB"
 			tasks: [{
 				id: "72AB7E5E63EBAFEE"
 				type: "item"
+				title: "Any #armorset:nurse"
 				item: {
-					id: "arsenals_of_the_apocalypse:nurse_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:nurse"
 					}
 				}
 			}]
-			description: ["Obtain or craft a nurse body. Nurse set provides extra max health."]
 			rewards: [{
 				id: "716A6B223E07C744"
 				type: "xp"
 				xp: 100
 			}]
-			id: "628A005A412EBAAB"
-			x: 3.0d
-			y: -4.0d
-			title: "Nurse"
-			progression_mode: "flexible"
-			dependencies: ["531210392B89F597"]
-			dependency_requirement: "one_started"
 		}
 		{
-			hide_text_until_complete: false
-			description: ["Obtain or craft a ghillie chestplate. Provides camouflage although it doesn't really work on zombies."]
-			rewards: [{
-				id: "526DC396625F7CB7"
-				type: "xp"
-				xp: 100
-			}]
-			id: "6A7AB01AE5275569"
+			title: "Camouflage"
 			x: 4.5d
 			y: -4.0d
-			title: "Camouflage"
-			progression_mode: "flexible"
+			description: ["Obtain or craft a ghillie chestplate. Provides camouflage although it doesn't really work on zombies."]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
+			hide_text_until_complete: false
+			progression_mode: "flexible"
+			id: "6A7AB01AE5275569"
 			tasks: [{
 				id: "6DF9A9B123D8EA0B"
 				type: "item"
@@ -294,132 +271,103 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "526DC396625F7CB7"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
+			title: "Anarchy"
+			x: 5.5d
+			y: -3.0d
+			description: ["Obtain or craft an anarchy chestplate. Anarchy set provides movement speed."]
+			dependencies: ["531210392B89F597"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "0076D5C4CA5D1715"
 			tasks: [{
 				id: "2492299B471466C6"
 				type: "item"
+				title: "Any #armorset:anarchy"
 				item: {
-					id: "arsenals_of_the_apocalypse:anarchy_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:anarchy"
 					}
 				}
 			}]
-			description: ["Obtain or craft an anarchy chestplate. Anarchy set provides movement speed."]
 			rewards: [{
 				id: "6DAC2108765B691C"
 				type: "xp"
 				xp: 100
 			}]
-			id: "0076D5C4CA5D1715"
-			x: 5.5d
-			y: -3.0d
-			title: "Anarchy"
-			progression_mode: "flexible"
-			dependencies: ["531210392B89F597"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "Forest Guard"
+			x: 6.5d
+			y: -1.5d
+			description: ["Obtain or craft a forest guard chestplate. Forest Guard set provides attack speed."]
+			dependencies: ["531210392B89F597"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "18255788A834E46E"
 			tasks: [{
 				id: "6241DAC5FD46A357"
 				type: "item"
+				title: "Any #armorset:forestguard"
 				item: {
-					id: "arsenals_of_the_apocalypse:forestguard_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:forestguard"
 					}
 				}
 			}]
-			description: ["Obtain or craft a forest guard chestplate. Forest Guard set provides attack speed."]
 			rewards: [{
 				id: "71F04838B140E672"
 				type: "xp"
 				xp: 100
 			}]
-			id: "18255788A834E46E"
-			x: 6.5d
-			y: -1.5d
-			title: "Forest Guard"
-			progression_mode: "flexible"
-			dependencies: ["531210392B89F597"]
-			dependency_requirement: "one_started"
 		}
 		{
-			tasks: [{
-				id: "58F51F58680143CB"
-				type: "item"
-				item: {
-					id: "arsenals_of_the_apocalypse:civilian_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			description: ["Obtain or craft a civilian body armor. Civilian set provides melee damage and attack speed."]
-			rewards: [{
-				id: "43FD65E4CE12DFCD"
-				type: "xp"
-				xp: 100
-			}]
-			id: "20CB5332840B7EB5"
-			x: 2.5d
+			title: "Hunter"
+			x: 3.75d
 			y: 3.0d
-			title: "Civilian"
-			progression_mode: "flexible"
+			description: ["Obtain or craft a hunting vest. Hunting set provides melee damage and attack speed."]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
-		}
-		{
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "271585483FF42A70"
 			tasks: [{
 				id: "1A680203F04EF8BE"
 				type: "item"
+				title: "Any #armorset:hunting"
 				item: {
-					id: "arsenals_of_the_apocalypse:hunting_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:hunting"
 					}
 				}
 			}]
-			description: ["Obtain or craft a hunting vest. Hunting set provides melee damage and attack speed."]
 			rewards: [{
 				id: "4CAE3C9F86C06FA1"
 				type: "xp"
 				xp: 100
 			}]
-			id: "271585483FF42A70"
-			x: 5.0d
-			y: 3.0d
-			title: "Hunter"
-			progression_mode: "flexible"
-			dependencies: ["531210392B89F597"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "The Origin Chestplates"
+			x: 8.5d
+			y: -1.5d
+			description: ["Obtain or craft iron chestplate, copper chestplate, and zinc chestplate."]
+			dependencies: ["1B1EB334C4561997"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "2979EB32CD7DC8C7"
 			tasks: [{
 				id: "7EA6BC1EBAFB27AE"
 				type: "item"
@@ -432,52 +380,48 @@
 					}
 				}
 			}]
-			description: ["Obtain or craft iron chestplate, copper chestplate, and zinc chestplate."]
 			rewards: [{
 				id: "39D2EB98C181A689"
 				type: "xp"
 				xp: 150
 			}]
-			id: "2979EB32CD7DC8C7"
-			x: 8.5d
-			y: -1.5d
-			title: "The Origin Chestplates"
-			progression_mode: "flexible"
-			dependencies: ["1B1EB334C4561997"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "Worker"
+			x: 9.5d
+			y: -3.0d
+			description: ["Obtain or craft a construction body. Construction set provides haste effect."]
+			dependencies: ["1B1EB334C4561997"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "61C71BEC9A92518E"
 			tasks: [{
 				id: "5AA19AE3094DA1CA"
 				type: "item"
+				title: "Any #armorset:construction"
 				item: {
-					id: "arsenals_of_the_apocalypse:construction_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:construction"
 					}
 				}
 			}]
-			description: ["Obtain or craft a construction body. Construction set provides haste effect."]
 			rewards: [{
 				id: "408BC8D4A9E6807B"
 				type: "xp"
 				xp: 150
 			}]
-			id: "61C71BEC9A92518E"
-			x: 9.5d
-			y: -3.0d
-			title: "Worker"
-			progression_mode: "flexible"
-			dependencies: ["1B1EB334C4561997"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "Football Team"
+			x: 10.5d
+			y: -4.0d
+			description: ["Obtain or craft a red football chest. Red Football set provides movement speed."]
+			dependencies: ["1B1EB334C4561997"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "1E9ABEF2F2AA8B6E"
 			tasks: [{
 				id: "7EB55CED7B5158FB"
 				type: "item"
@@ -490,209 +434,164 @@
 					}
 				}
 			}]
-			description: ["Obtain or craft a red football chest. Red Football set provides movement speed."]
 			rewards: [{
 				id: "755E1112090F54A5"
 				type: "xp"
 				xp: 150
 			}]
-			id: "1E9ABEF2F2AA8B6E"
-			x: 10.5d
-			y: -4.0d
-			title: "Football Team"
-			progression_mode: "flexible"
-			dependencies: ["1B1EB334C4561997"]
-			dependency_requirement: "one_started"
 		}
 		{
-			tasks: [{
-				id: "7FEE969F25D41D91"
-				type: "item"
-				item: {
-					id: "arsenals_of_the_apocalypse:hazmat_suit_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
+			title: "We're Going To Cook, Jesse"
+			x: 12.0d
+			y: -4.0d
 			description: [
 				"Obtain or craft a hazmat suit body. Hazmat suit set provides poison immunity and infection immunity."
 				"Helmet provides the protection of entering wasteland."
 			]
+			dependencies: ["1B1EB334C4561997"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "6CF961E0DB5E373B"
+			tasks: [{
+				id: "7FEE969F25D41D91"
+				type: "item"
+				title: "Any #armorset:hazmat_suit"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "armorset:hazmat_suit"
+					}
+				}
+			}]
 			rewards: [{
 				id: "47AC703E1796FE3D"
 				type: "xp"
 				xp: 400
 			}]
-			id: "6CF961E0DB5E373B"
-			x: 12.0d
-			y: -4.0d
-			title: "We're Going To Cook, Jesse"
-			progression_mode: "flexible"
-			dependencies: ["1B1EB334C4561997"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "General"
+			x: 13.0d
+			y: -3.0d
+			description: ["Obtain or craft a general body. General set provides melee damage."]
+			dependencies: ["1B1EB334C4561997"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "7428FBB9799DE116"
 			tasks: [{
 				id: "2A54CED1C316653D"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:army_chestplate"
+					id: "apocalypsenow:army_chestplate"
 					Count: 1b
 					tag: {
 						Damage: 0
 					}
 					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						"cold_sweat:item_insulation": { }
 					}
 				}
 			}]
-			description: ["Obtain or craft a general body. General set provides melee damage."]
 			rewards: [{
 				id: "097C4A165E19AB0C"
 				type: "xp"
 				xp: 150
 			}]
-			id: "7428FBB9799DE116"
-			x: 13.0d
-			y: -3.0d
-			title: "General"
-			progression_mode: "flexible"
-			dependencies: ["1B1EB334C4561997"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "Royal"
+			x: 14.0d
+			y: -1.5d
+			description: ["Obtain or craft a royal canada police officer chest. Royal Canada set provides melee damage and attack speed."]
+			dependencies: ["1B1EB334C4561997"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "345987BED0D56A21"
 			tasks: [{
 				id: "4D88271F35C5ED73"
 				type: "item"
+				title: "Any #armorset:royal_canada_police_officer"
 				item: {
-					id: "arsenals_of_the_apocalypse:royal_canada_police_officer_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:royal_canada_police_officer"
 					}
 				}
 			}]
-			description: ["Obtain or craft a royal canada police officer chest. Royal Canada set provides melee damage and attack speed."]
 			rewards: [{
 				id: "381FCAC0979DA380"
 				type: "xp"
 				xp: 150
 			}]
-			id: "345987BED0D56A21"
-			x: 14.0d
-			y: -1.5d
-			title: "Royal"
-			progression_mode: "flexible"
-			dependencies: ["1B1EB334C4561997"]
-			dependency_requirement: "one_started"
 		}
 		{
-			tasks: [{
-				id: "098813E561426AF3"
-				type: "item"
-				item: {
-					id: "arsenals_of_the_apocalypse:standard_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
-			description: ["Obtain or craft a standard bulletproof vest. Standard set provides melee damage and attack speed."]
-			rewards: [{
-				id: "3F9A82CEB68ED123"
-				type: "xp"
-				xp: 150
-			}]
-			id: "3E91C73DC16D84AF"
-			x: 10.0d
+			title: "Protect Your Head"
+			x: 11.25d
 			y: 3.0d
-			title: "Better Civilian"
-			progression_mode: "flexible"
+			description: ["Obtain or craft an officer helmet. Officer Helmet provides blindness immunity and nausea immunity."]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
-		}
-		{
+			progression_mode: "flexible"
+			id: "7F1E831554D88749"
 			tasks: [{
 				id: "2ADB0D6E0D5BC8DC"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:officer_helmet"
+					id: "apocalypsenow:officer_helmet"
 					Count: 1b
 					tag: {
 						Damage: 0
 					}
 					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						"cold_sweat:item_insulation": { }
 					}
 				}
 			}]
-			description: ["Obtain or craft an officer helmet. Officer Helmet provides blindness immunity and nausea immunity."]
 			rewards: [{
 				id: "6A6BC973643E315C"
 				type: "xp"
 				xp: 150
 			}]
-			id: "7F1E831554D88749"
-			x: 12.5d
-			y: 3.0d
-			title: "Protect Your Head"
-			progression_mode: "flexible"
-			dependencies: ["1B1EB334C4561997"]
-			dependency_requirement: "one_started"
 		}
 		{
+			x: 13.5d
+			y: 3.0d
+			description: ["Obtain or craft a gas mask. Gas mask provides protection and access to wasteland."]
+			dependencies: ["1B1EB334C4561997"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "47B4790C995550DD"
 			tasks: [{
 				id: "0A05E9E4429BB122"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:gas_mask_helmet"
+					id: "apocalypsenow:gasmask_helmet"
 					Count: 1b
 					tag: {
 						Damage: 0
 					}
 					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						"cold_sweat:item_insulation": { }
 					}
 				}
 			}]
-			description: ["Obtain or craft a gas mask. Gas mask provides protection and access to wasteland."]
-			id: "47B4790C995550DD"
-			x: 14.0d
-			y: 1.5d
 			rewards: [{
 				id: "2C731191E49E1E67"
 				type: "xp"
 				xp: 400
 			}]
-			progression_mode: "flexible"
-			dependencies: ["1B1EB334C4561997"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "Exoskeleton"
+			x: 9.0d
+			y: 3.0d
+			description: ["Obtain or craft a copper exoskeleton, and andesite exoskeleton."]
+			dependencies: ["1B1EB334C4561997"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "656BB2601020D432"
 			tasks: [
 				{
 					id: "109296CF723E6948"
@@ -727,21 +626,21 @@
 					}
 				}
 			]
-			description: ["Obtain or craft a copper exoskeleton, and andesite exoskeleton."]
 			rewards: [{
 				id: "43E361F65B05330B"
 				type: "xp"
 				xp: 1200
 			}]
-			id: "656BB2601020D432"
-			x: 8.5d
-			y: 1.5d
-			title: "Exoskeleton"
-			progression_mode: "flexible"
-			dependencies: ["1B1EB334C4561997"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "Welcome to the National Service"
+			x: 17.5d
+			y: -1.5d
+			description: ["Obtain or craft all the army chests. Army set provides melee damage."]
+			dependencies: ["0DDB1DF4FFFB6236"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "25046E4A3DD04E7E"
 			tasks: [{
 				id: "6BDEAEB8627343A9"
 				type: "item"
@@ -754,117 +653,105 @@
 					}
 				}
 			}]
-			description: ["Obtain or craft all the army chests. Army set provides melee damage."]
 			rewards: [{
 				id: "1C8F92C906D0E292"
 				type: "xp"
 				xp: 500
 			}]
-			id: "25046E4A3DD04E7E"
-			x: 17.5d
-			y: -1.5d
-			title: "Welcome to the National Service"
-			progression_mode: "flexible"
-			dependencies: ["0DDB1DF4FFFB6236"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "Stand Down!"
+			x: 18.0d
+			y: -3.0d
+			description: ["Obtain or craft a military riot chestplate. Military Riot set provides attack speed and applies slowness on foes."]
+			dependencies: ["0DDB1DF4FFFB6236"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "34DB6302CCD2A826"
 			tasks: [{
 				id: "654419FBAC3AFF28"
 				type: "item"
+				title: "Any #armorset:military_riot_armor"
 				item: {
-					id: "arsenals_of_the_apocalypse:military_riot_armor_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:military_riot_armor"
 					}
 				}
 			}]
-			description: ["Obtain or craft a military riot chestplate. Military Riot set provides attack speed and applies slowness on foes."]
 			rewards: [{
 				id: "1D0325AFE6305293"
 				type: "xp"
 				xp: 300
 			}]
-			id: "34DB6302CCD2A826"
-			x: 18.0d
-			y: -3.0d
-			title: "Stand Down!"
-			progression_mode: "flexible"
-			dependencies: ["0DDB1DF4FFFB6236"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "Whooosh"
+			x: 19.5d
+			y: -3.5d
+			description: ["Obtain or craft an urban military chestplate. Urban Military set provides melee damage, attack speed and movement speed."]
+			dependencies: ["0DDB1DF4FFFB6236"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "16E46F1ABE4B7B12"
 			tasks: [{
 				id: "08CDF60AA1B2F574"
 				type: "item"
+				title: "Any #armorset:military_urban"
 				item: {
-					id: "arsenals_of_the_apocalypse:military_urban_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:military_urban"
 					}
 				}
 			}]
-			description: ["Obtain or craft an urban military chestplate. Urban Military set provides melee damage, attack speed and movement speed."]
 			rewards: [{
 				id: "32E436B043C432F4"
 				type: "xp"
 				xp: 300
 			}]
-			id: "16E46F1ABE4B7B12"
-			x: 19.5d
-			y: -3.5d
-			title: "Whooosh"
-			progression_mode: "flexible"
-			dependencies: ["0DDB1DF4FFFB6236"]
-			dependency_requirement: "one_started"
 		}
 		{
-			tasks: [{
-				id: "7930C9F38E3071B3"
-				type: "item"
-				item: {
-					id: "arsenals_of_the_apocalypse:biohazard_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
+			title: "Biohazard"
+			x: 21.5d
+			y: -1.5d
 			description: [
 				"Obtain or craft a biohazard chestplate. Biohazard set provides immunity to poison, infection, nausea and blindness."
 				"Helmet provides the protection of entering wasteland."
 			]
+			dependencies: ["0DDB1DF4FFFB6236"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "059421D1D09716EC"
+			tasks: [{
+				id: "7930C9F38E3071B3"
+				type: "item"
+				title: "Any #armorset:biohazard"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "armorset:biohazard"
+					}
+				}
+			}]
 			rewards: [{
 				id: "0AB76ECD8B9D5554"
 				type: "xp"
 				xp: 500
 			}]
-			id: "059421D1D09716EC"
-			x: 21.5d
-			y: -1.5d
-			title: "Biohazard"
-			progression_mode: "flexible"
-			dependencies: ["0DDB1DF4FFFB6236"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "UN"
+			x: 21.0d
+			y: -3.0d
+			description: ["Obtain or craft an UN chestplate. UN set provides melee damage and attack speed."]
+			dependencies: ["0DDB1DF4FFFB6236"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "198151F9A4E9DF3C"
 			tasks: [{
 				id: "3FD0EC3F320DED9E"
 				type: "item"
@@ -881,145 +768,129 @@
 					}
 				}
 			}]
-			description: ["Obtain or craft an UN chestplate. UN set provides melee damage and attack speed."]
 			rewards: [{
 				id: "61991EA4EEB2D23A"
 				type: "xp"
 				xp: 200
 			}]
-			id: "198151F9A4E9DF3C"
-			x: 21.0d
-			y: -3.0d
-			title: "UN"
-			progression_mode: "flexible"
-			dependencies: ["0DDB1DF4FFFB6236"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "Officer Beret"
+			x: 21.5d
+			y: 1.5d
+			description: ["Obtain or craft a carrier body armor. Beret set provides melee damage, attack speed, knockback strength and weakness immunity."]
+			dependencies: ["0DDB1DF4FFFB6236"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "2D40A51CC514EA20"
 			tasks: [{
 				id: "68939FCBAD21023D"
 				type: "item"
+				title: "Any #armorset:beret"
 				item: {
-					id: "arsenals_of_the_apocalypse:officer_beret_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:beret"
 					}
 				}
 			}]
-			description: ["Obtain or craft a carrier body armor. Beret set provides melee damage, attack speed, knockback strength and weakness immunity."]
 			rewards: [{
 				id: "35C2BAF4C32A43A4"
 				type: "xp"
 				xp: 200
 			}]
-			id: "2D40A51CC514EA20"
-			x: 21.5d
-			y: 1.5d
-			title: "Officer Beret"
-			progression_mode: "flexible"
-			dependencies: ["0DDB1DF4FFFB6236"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "Tactical Vest - I"
+			x: 18.0d
+			y: 3.0d
+			description: ["Obtain or craft an 614 Tactical Vest. Pilot set provides melee damage, attack speed and knockback strength."]
+			dependencies: ["0DDB1DF4FFFB6236"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "53C9FC7B67853063"
 			tasks: [{
 				id: "2D4B95A1F62C37A8"
 				type: "item"
+				title: "Any #armorset:military_pilot_headset"
 				item: {
-					id: "arsenals_of_the_apocalypse:military_pilot_headset_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:military_pilot_headset"
 					}
 				}
 			}]
-			description: ["Obtain or craft an 614 Tactical Vest. Pilot set provides melee damage, attack speed and knockback strength."]
 			rewards: [{
 				id: "08751180638CF33D"
 				type: "xp"
 				xp: 200
 			}]
-			id: "53C9FC7B67853063"
-			x: 18.0d
-			y: 3.0d
-			title: "Tactical Vest - I"
-			progression_mode: "flexible"
-			dependencies: ["0DDB1DF4FFFB6236"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "Tactical Vest - II"
+			x: 19.5d
+			y: 3.5d
+			description: ["Obtain or craft an Atlas Tactical Vest. Pilot set provides melee damage, attack speed, knockback strength and weakness immunity."]
+			dependencies: ["0DDB1DF4FFFB6236"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "330321F44450BB81"
 			tasks: [{
 				id: "29AF4AD0ACE7D80A"
 				type: "item"
+				title: "Any #armorset:atlast_7"
 				item: {
-					id: "arsenals_of_the_apocalypse:atlast_7_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:atlast_7"
 					}
 				}
 			}]
-			description: ["Obtain or craft an Atlas Tactical Vest. Pilot set provides melee damage, attack speed, knockback strength and weakness immunity."]
 			rewards: [{
 				id: "3DAA4918D1510841"
 				type: "xp"
 				xp: 200
 			}]
-			id: "330321F44450BB81"
-			x: 19.5d
-			y: 3.5d
-			title: "Tactical Vest - II"
-			progression_mode: "flexible"
-			dependencies: ["0DDB1DF4FFFB6236"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "Berezka"
+			x: 21.0d
+			y: 3.0d
+			description: ["Obtain or craft a berezka body armor. Beret set provides melee damage, attack speed, knockback strength and weakness immunity."]
+			dependencies: ["0DDB1DF4FFFB6236"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "3F617864E90AA397"
 			tasks: [{
 				id: "72C168E4E1B1CAF6"
 				type: "item"
+				title: "Any #armorset:military_beret"
 				item: {
-					id: "arsenals_of_the_apocalypse:military_beret_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:military_beret"
 					}
 				}
 			}]
-			description: ["Obtain or craft a berezka body armor. Beret set provides melee damage, attack speed, knockback strength and weakness immunity."]
 			rewards: [{
 				id: "2BA47D26C0716678"
 				type: "xp"
 				xp: 200
 			}]
-			id: "3F617864E90AA397"
-			x: 21.0d
-			y: 3.0d
-			title: "Berezka"
-			progression_mode: "flexible"
-			dependencies: ["0DDB1DF4FFFB6236"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "Exoskeleton - II"
+			x: 17.5d
+			y: 1.5d
+			description: ["Obtain or craft a brass exoskeleton."]
+			dependencies: ["0DDB1DF4FFFB6236"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "3F43ACDDB820E837"
 			tasks: [{
 				id: "39E73E04713E33B9"
 				type: "item"
@@ -1036,217 +907,179 @@
 					}
 				}
 			}]
-			description: ["Obtain or craft a brass exoskeleton."]
 			rewards: [{
 				id: "0973749CDF6B80F6"
 				type: "xp"
 				xp: 500
 			}]
-			id: "3F43ACDDB820E837"
-			x: 17.5d
-			y: 1.5d
-			title: "Exoskeleton - II"
-			progression_mode: "flexible"
-			dependencies: ["0DDB1DF4FFFB6236"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "S.W.A.T"
+			x: 26.0d
+			y: -2.5d
+			description: ["Obtain or craft a S.W.A.T Chestplate. S.W.A.T set provides melee damage, attack speed and weakness immunity."]
+			dependencies: ["4AE5D93FE7346281"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "159C0628E7C00C0B"
 			tasks: [{
 				id: "76FDE8A49ECA22EB"
 				type: "item"
+				title: "Any #armorset:swat"
 				item: {
-					id: "arsenals_of_the_apocalypse:swat_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:swat"
 					}
 				}
 			}]
-			description: ["Obtain or craft a S.W.A.T Chestplate. S.W.A.T set provides melee damage, attack speed and weakness immunity."]
 			rewards: [{
 				id: "5B8A7E364A7FF626"
 				type: "xp"
 				xp: 1000
 			}]
-			id: "159C0628E7C00C0B"
-			x: 26.0d
-			y: -2.5d
-			title: "S.W.A.T"
-			progression_mode: "flexible"
-			dependencies: ["4AE5D93FE7346281"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "RIOT S.W.A.T"
+			x: 28.0d
+			y: -2.5d
+			description: ["Obtain or craft a Riot S.W.A.T chestplate. Riot S.W.A.T set provides melee damage, attack speed, and applies slowness effect on foes."]
+			dependencies: ["4AE5D93FE7346281"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "6D0B3C66E9005D5B"
 			tasks: [{
 				id: "4E44C85E482EB98B"
 				type: "item"
+				title: "Any #armorset:swatriotcontrol"
 				item: {
-					id: "arsenals_of_the_apocalypse:swatriotcontrol_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:swatriotcontrol"
 					}
 				}
 			}]
-			description: ["Obtain or craft a Riot S.W.A.T chestplate. Riot S.W.A.T set provides melee damage, attack speed, and applies slowness effect on foes."]
 			rewards: [{
 				id: "21CF81FEEB38EDB5"
 				type: "xp"
 				xp: 1000
 			}]
-			id: "6D0B3C66E9005D5B"
-			x: 28.0d
-			y: -2.5d
-			title: "RIOT S.W.A.T"
-			progression_mode: "flexible"
-			dependencies: ["4AE5D93FE7346281"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "Juggernaut"
+			x: 30.0d
+			y: -1.0d
+			description: ["Obtain or craft a juggernaut chestplate. Juggernaut set provides resistance effect level 4, but in exchange greatly slows down player."]
+			dependencies: ["4AE5D93FE7346281"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "7D0717798B2201F8"
 			tasks: [{
 				id: "369D1826261B6E7A"
 				type: "item"
+				title: "Any #armorset:juggernaut"
 				item: {
-					id: "arsenals_of_the_apocalypse:juggernaut_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:juggernaut"
 					}
 				}
 			}]
-			description: ["Obtain or craft a juggernaut chestplate. Juggernaut set provides resistance effect level 4, but in exchange greatly slows down player."]
 			rewards: [{
 				id: "5371C2F983D33681"
 				type: "xp"
 				xp: 1400
 			}]
-			id: "7D0717798B2201F8"
-			x: 30.0d
-			y: -1.0d
-			title: "Juggernaut"
-			progression_mode: "flexible"
-			dependencies: ["4AE5D93FE7346281"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "Bomb Squad"
+			x: 30.0d
+			y: 1.0d
+			description: ["Obtain or craft a bomb squad chestplate. Bomb Squad set provides resistance effect level 4, but in exchange greatly slows down player."]
+			dependencies: ["4AE5D93FE7346281"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "2B3A82E868C4F4F9"
 			tasks: [{
 				id: "5EB6ECA291633776"
 				type: "item"
+				title: "Any #armorset:bombsquad"
 				item: {
-					id: "arsenals_of_the_apocalypse:bombsquad_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:bombsquad"
 					}
 				}
 			}]
-			description: ["Obtain or craft a bomb squad chestplate. Bomb Squad set provides resistance effect level 4, but in exchange greatly slows down player."]
 			rewards: [{
 				id: "6471CC0EFED7D255"
 				type: "xp"
 				xp: 1400
 			}]
-			id: "2B3A82E868C4F4F9"
-			x: 30.0d
-			y: 1.0d
-			title: "Bomb Squad"
-			progression_mode: "flexible"
-			dependencies: ["4AE5D93FE7346281"]
-			dependency_requirement: "one_started"
 		}
 		{
+			title: "The Best of Best"
+			x: 26.0d
+			y: 2.5d
+			description: ["Obtain or craft a spec ops chestplate. Spec Ops set provides melee damage, attack speed, knockback strength, movement speed and weakness immunity."]
+			dependencies: ["4AE5D93FE7346281"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "58ACC8B7E7ACFEB9"
 			tasks: [{
 				id: "4A8DFAB8872740F9"
 				type: "item"
+				title: "Any #armorset:spec_ops"
 				item: {
-					id: "arsenals_of_the_apocalypse:spec_ops_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:spec_ops"
 					}
 				}
 			}]
-			description: ["Obtain or craft a spec ops chestplate. Spec Ops set provides melee damage, attack speed, knockback strength, movement speed and weakness immunity."]
 			rewards: [{
 				id: "717CE4F30D8C5814"
 				type: "xp"
 				xp: 2000
 			}]
-			id: "58ACC8B7E7ACFEB9"
-			x: 26.0d
-			y: 2.5d
-			title: "The Best of Best"
-			progression_mode: "flexible"
-			dependencies: ["4AE5D93FE7346281"]
-			dependency_requirement: "one_started"
 		}
 		{
-			tasks: [{
-				id: "405BA43CCCF7597F"
-				type: "item"
-				item: {
-					id: "arsenals_of_the_apocalypse:soldier_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
-					}
-				}
-			}]
+			title: "Soldier"
+			x: 28.0d
+			y: 2.5d
 			description: [
 				"Obtain or craft a soldier chestplate. Soldier set provides melee damage, attack speed, 10% damage resistance effect, and weakness immunity."
 				"Soldier Helmet also provides protection and access to wasteland."
 			]
+			dependencies: ["4AE5D93FE7346281"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "3AF45567FB66C54A"
+			tasks: [{
+				id: "405BA43CCCF7597F"
+				type: "item"
+				title: "Any #armorset:soldier"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "armorset:soldier"
+					}
+				}
+			}]
 			rewards: [{
 				id: "720AFBAB3E3C37E2"
 				type: "xp"
 				xp: 1400
 			}]
-			id: "3AF45567FB66C54A"
-			x: 28.0d
-			y: 2.5d
-			title: "Soldier"
-			progression_mode: "flexible"
-			dependencies: ["4AE5D93FE7346281"]
-			dependency_requirement: "one_started"
 		}
 		{
-			size: 2.0d
-			description: [
-				"- In most cases, repairing items involves using a majority of their original resources to craft the item again, even though the Just Enough Items (JEI) mod may not display the specific recipe."
-				"- The armors from later on might not be the case, Tier 3 usually involves with Steel Plates."
-				"- While Tier 4 involves with high-resistant fabric."
-			]
-			id: "786F835291189409"
+			title: "Repairing"
 			icon: {
 				id: "immersiveengineering:hammer"
 				Count: 1b
@@ -1256,19 +1089,26 @@
 			}
 			x: -5.0d
 			y: -3.5d
-			shape: "square"
-			title: "Repairing"
-			progression_mode: "flexible"
+			shape: "gear"
+			description: [
+				"- In most cases, repairing items involves using a majority of their original resources to craft the item again, even though the Just Enough Items (JEI) mod may not display the specific recipe."
+				"- The armors from later on might not be the case, Tier 3 usually involves with Steel Plates."
+				"- While Tier 4 involves with high-resistant fabric."
+			]
 			dependency_requirement: "one_started"
+			size: 3.0d
+			progression_mode: "flexible"
+			id: "786F835291189409"
+			tasks: [{
+				id: "0DBD3D21CEE91083"
+				type: "checkmark"
+			}]
 			rewards: [{
 				id: "6CD6E91E9BB33E07"
 				type: "xp"
 				xp: 50
 			}]
-			tasks: [{
-				id: "0DBD3D21CEE91083"
-				type: "checkmark"
-			}]
 		}
 	]
+	quest_links: [ ]
 }

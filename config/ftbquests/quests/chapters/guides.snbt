@@ -1,0 +1,459 @@
+{
+	id: "094F32D04EFC8577"
+	group: "0CEF75605D0E77B3"
+	order_index: 0
+	filename: "guides"
+	title: "Guides"
+	icon: "minecraft:book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "READ ME HERE"
+			icon: "minecraft:paper"
+			x: 0.0d
+			y: -6.0d
+			shape: "square"
+			description: ["All the chapters inside the quest book is completely optional, it act as a guide for players who don't know what are they doing."]
+			dependency_requirement: "one_started"
+			size: 3.0d
+			progression_mode: "flexible"
+			id: "6A2115E257194F4F"
+			tasks: [{
+				id: "09084EACBEE55A60"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Pilot"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "simpleplanes:planes_book"
+				}
+			}
+			x: -6.0d
+			y: -2.25d
+			shape: "square"
+			description: ["With your advanced knowledge of aircraft assembly and crafting, utilize it to construct an airplane for efficient transportation and travel purposes."]
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			id: "53D3CB47281F3C35"
+			tasks: [{
+				id: "1B5E93BAAFB80B45"
+				type: "checkmark"
+				title: "Pilot"
+			}]
+			rewards: [{
+				id: "2F467C34D58460D4"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "simpleplanes:planes_book"
+					}
+				}
+			}]
+		}
+		{
+			title: "Veteran Engineer"
+			icon: "immersiveengineering:manual"
+			x: -4.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"As a veteran engineer, you possess extensive knowledge in various technological domains, allowing me to provide information and insights on a wide range of tech-related topics."
+				""
+			]
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			progression_mode: "flexible"
+			id: "57F9335CCADDE4A6"
+			tasks: [{
+				id: "5ED75A0BC060F5CF"
+				type: "checkmark"
+				title: "PhD of Engineering"
+			}]
+			rewards: [{
+				id: "282F69FD48C5A15D"
+				type: "item"
+				item: "immersiveengineering:manual"
+			}]
+		}
+		{
+			title: "Encyclopedia of Life"
+			icon: "alexsmobs:animal_dictionary"
+			x: -3.0d
+			y: -2.25d
+			shape: "square"
+			description: ["When surviving in the wilderness, it is crucial to have knowledge of your surroundings and understand what resources and potential threats exist in the environment."]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			progression_mode: "flexible"
+			id: "6504F3EAFADBC856"
+			tasks: [{
+				id: "40406F939C6412B9"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3BD4757E20A9F3EC"
+				type: "item"
+				item: "alexsmobs:animal_dictionary"
+			}]
+		}
+		{
+			title: "Better Foods, Better Health"
+			icon: "minecraft:cooked_beef"
+			x: 3.0d
+			y: -2.25d
+			shape: "square"
+			description: [
+				"- Consume a diverse range of foods to enhance your maximum HP (health points)."
+				"- The maximum HP bonus is lost upon death, resetting your health status."
+			]
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			progression_mode: "flexible"
+			id: "7DE11DC0814007B7"
+			tasks: [{
+				id: "3E582D28E2DA2FF8"
+				type: "checkmark"
+				title: "Foods"
+			}]
+			rewards: [{
+				id: "0FFEAB7B4708699D"
+				type: "item"
+				item: "solcarrot:food_book"
+			}]
+		}
+		{
+			title: "Specialist"
+			icon: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.0d
+			y: -2.25d
+			shape: "square"
+			description: ["Pressing J grants access to a specialized skill tree that assists you throughout your journey. Other skills can still be learned but at a slower pace. It's important to note that skills will be lost upon death."]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "7AE195FFCA7345BE"
+			tasks: [{
+				id: "37EF73974FAE0FC0"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "738E7F57C6407F71"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7ECE0115C1F9AEAB"
+					type: "item"
+					item: {
+						id: "arsenals_of_the_apocalypse:baseball_bat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Parkour!"
+			icon: "minecraft:player_head"
+			x: 4.5d
+			y: 0.0d
+			shape: "square"
+			description: ["There are various methods to extricate yourself from dangerous situations, and ParCool is one of them. Ensure that you execute different ParCool techniques to provide yourself with maximum convenience and advantages in challenging circumstances."]
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			progression_mode: "flexible"
+			id: "29B705D98AA4A1E1"
+			tasks: [{
+				id: "5CBB69B31DC7FA0F"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "51662641ED1F5AD6"
+				type: "item"
+				item: "parcool:parcool_guide"
+			}]
+		}
+		{
+			title: "Fallout"
+			icon: "biomesoplenty:dead_sapling"
+			x: -4.5d
+			y: 5.25d
+			shape: "square"
+			description: [
+				"- Reports suggest that the wasteland is emitting toxic gases capable of instantly killing anyone who attempts to enter. Extreme caution should be exercised and appropriate protective measures taken to avoid exposure to these lethal gases."
+				""
+				"- Equip gas masks or hazmat helmets for protection against toxic gases in the wasteland. Beware of dangerous monsters, including the industrial area; firearms are advised as melee weapons may be ineffective."
+			]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "700AA4FDC8248832"
+			tasks: [{
+				id: "023EEEDD6B00C848"
+				type: "checkmark"
+				title: "Fallout"
+			}]
+			rewards: [
+				{
+					id: "3335D0C5BC075516"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "272D04C323514B70"
+					type: "item"
+					item: "farmersdelight:melon_popsicle"
+				}
+			]
+		}
+		{
+			title: "Burning Passion"
+			icon: "minecraft:blaze_powder"
+			x: -1.5d
+			y: 5.25d
+			shape: "square"
+			description: ["Shortly after the onset of the apocalypse, reports emerged on the radio about sightings of floating blazing rods in volcanic regions."]
+			size: 1.5d
+			id: "159A0FA1BC603377"
+			tasks: [{
+				id: "7BD7532BC4543BEA"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "4F187BF1F22218C1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "791F178AEC334B67"
+					type: "item"
+					item: "hardcore_torches:lit_lantern"
+				}
+			]
+		}
+		{
+			title: "Guide To Nowhere"
+			icon: {
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+			x: 1.5d
+			y: 5.25d
+			shape: "square"
+			description: ["Acquire a nature compass to aid in finding a suitable location to establish a living space or search for vital resources in the wilderness."]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "71B16B68BEBC0A3C"
+			tasks: [{
+				id: "68FEDDF8697BE545"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0D59E3ACE6434330"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			title: "Adaptation"
+			icon: "artifacts:villager_hat"
+			x: 4.5d
+			y: 5.25d
+			shape: "square"
+			description: ["Some villagers have managed to survive the zombie apocalypse and have adapted by altering their stocks and resources to suit the new circumstances."]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "70DC5AD38FB776CE"
+			tasks: [{
+				id: "5BCA5E99C2C682DF"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4DD9DEB8BD86CDEF"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			icon: "another_furniture:oak_bench"
+			x: -4.5d
+			y: 7.5d
+			shape: "square"
+			description: [
+				"- As long as there's city, there will be bountiful of loots."
+				""
+				"However, it's important to note that even during the grace period, certain buildings may still contain zombies, so caution should be exercised when exploring such locations."
+				""
+				"- Zombies found within buildings often exhibit increased strength and speed compared to those encountered in the open world. Exercise heightened caution when dealing with these more formidable adversaries."
+			]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "5806D165EFC8E301"
+			tasks: [{
+				id: "75B8DF85EA4DCED4"
+				type: "checkmark"
+				title: "City"
+			}]
+			rewards: [
+				{
+					id: "4F8982C7648B8712"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "695A64A7B8CE1938"
+					type: "item"
+					item: "farmersdelight:apple_cider"
+				}
+			]
+		}
+		{
+			title: "Desperate Measure"
+			x: -1.5d
+			y: 7.5d
+			shape: "square"
+			description: ["Obtain a golden apple, as it has the ability to cure infections if you ever contract one. "]
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "742FF73D1D68BA5D"
+			tasks: [{
+				id: "137F4D2AA46A9F02"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+			rewards: [
+				{
+					id: "3DCBA65373B26E6B"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "16665A904F9A5F67"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+			]
+		}
+		{
+			title: "Unavoidable Infection"
+			icon: "minecraft:zombie_head"
+			x: 1.5d
+			y: 7.5d
+			shape: "square"
+			description: [
+				"- It is known that all zombies have the ability to infect their victims upon making contact with them during an attack."
+				"- Be caution when approaching them."
+				"- Certain armor can prevent the infection to happen."
+			]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "0DAADE741F538D43"
+			tasks: [{
+				id: "38F7E93853FF6AC5"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "6B96FFED02194672"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "52F9505A7E84B7E7"
+					type: "item"
+					item: "firstaid:plaster"
+				}
+			]
+		}
+		{
+			title: "Food Spoils!"
+			icon: "minecraft:rotten_flesh"
+			x: 4.5d
+			y: 7.5d
+			shape: "square"
+			description: [
+				"- All food spoils over time, emphasizing the importance of preserving it to ensure your survival."
+				"- Look for coolers or fridges in buildings to store your food, or consider crafting them if you have the necessary materials."
+				"- By properly storing your food, you can extend its shelf life and maintain a reliable source of sustenance in the challenging post-apocalyptic world."
+			]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "656144C7048D7668"
+			tasks: [{
+				id: "0DCD3D158ADE1BEB"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6E6EE815945220D9"
+				type: "item"
+				item: "minecraft:apple"
+				count: 3
+			}]
+		}
+		{
+			title: "The Beginning"
+			icon: "minecraft:zombie_head"
+			x: 0.0d
+			y: 2.0d
+			shape: "rsquare"
+			description: [
+				"- Despite identifying the cure, limited resources hinder its creation in the post-apocalyptic world. Venture out, establish a secure base, and survive amidst the aftermath of the zombie apocalypse."
+				"- During a grace period of one day without zombies showing up, it is crucial to make the most of this time to ensure your safety and preparedness."
+			]
+			dependency_requirement: "one_started"
+			size: 4.0d
+			progression_mode: "flexible"
+			id: "44FC50E18E90F2C8"
+			tasks: [{
+				id: "7757AA674A7668AD"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "271DE06984E0D9D0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "56D4936A5296EF3F"
+					type: "item"
+					item: "immersiveengineering:seed"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

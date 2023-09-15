@@ -1,0 +1,361 @@
+{
+	id: "60EB6FF9A37336F1"
+	group: "0CEF75605D0E77B3"
+	order_index: 2
+	filename: "temperature"
+	title: "Temperature"
+	icon: "cold_sweat:thermometer"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "What Temp is it?"
+			icon: "cold_sweat:thermometer"
+			x: -6.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: [
+				"- Retrieve a thermometer to measure the present temperature of the environment, including the biome and its surroundings."
+				"- You have a grace period of 5 minutes during which you are immune to changes in temperature."
+			]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			progression_mode: "flexible"
+			id: "310B9E0BA3951DD1"
+			tasks: [{
+				id: "6F0F843A1E33B3FA"
+				type: "item"
+				item: "cold_sweat:thermometer"
+			}]
+			rewards: [{
+				id: "5B0871417751A58D"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "Waterskin"
+			x: -6.0d
+			y: -2.5d
+			description: ["Acquire or create a waterskin to help regulate your body temperature."]
+			dependencies: ["310B9E0BA3951DD1"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "717C651A2AC89DE9"
+			tasks: [{
+				id: "6DAAB28D9529F746"
+				type: "item"
+				item: "cold_sweat:waterskin"
+			}]
+			rewards: [{
+				id: "568306CE4C0671D6"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "Calm Me Down"
+			icon: "cold_sweat:icebox"
+			x: -8.0d
+			y: 2.0d
+			description: ["Procure an icebox to effectively cope with the impending summer heat."]
+			dependencies: ["310B9E0BA3951DD1"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "5D153C60A43C563C"
+			tasks: [{
+				id: "77848807007F68AD"
+				type: "item"
+				item: "cold_sweat:icebox"
+			}]
+			rewards: [{
+				id: "5EE13FEFE04DE636"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "Best Of Both Worlds"
+			icon: "cold_sweat:hearth"
+			x: -6.0d
+			y: 3.0d
+			shape: "gear"
+			description: ["Craft or acquire a hearth to create an optimal living environment."]
+			dependencies: ["310B9E0BA3951DD1"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "42600842569C2F7F"
+			tasks: [{
+				id: "4207F1FD13164EAB"
+				type: "item"
+				item: "cold_sweat:hearth"
+			}]
+			rewards: [{
+				id: "05B01F4E1E8CFFE3"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "Warm Me Up"
+			icon: "cold_sweat:boiler"
+			x: -4.0d
+			y: 2.0d
+			description: ["Secure a boiler to ensure warmth during the winter season."]
+			hide_dependency_lines: false
+			dependencies: ["310B9E0BA3951DD1"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "1C98F7FA473D46E9"
+			tasks: [{
+				id: "54F54C00ECB5DA83"
+				type: "item"
+				item: "cold_sweat:boiler"
+			}]
+			rewards: [{
+				id: "1735272CA583ED69"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "Insulating Armor"
+			icon: "cold_sweat:sewing_table"
+			x: -6.0d
+			y: -5.25d
+			description: ["Acquire a sewing table to insulate your armors using various materials."]
+			dependencies: ["717C651A2AC89DE9"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "2ED4C94026456CCA"
+			tasks: [{
+				id: "2F107E3BC3FF0754"
+				type: "item"
+				item: "cold_sweat:sewing_table"
+			}]
+			rewards: [{
+				id: "34578B05A0981115"
+				type: "item"
+				item: "farmersdelight:canvas"
+				count: 4
+			}]
+		}
+		{
+			title: "Too Hot - I"
+			x: -4.0d
+			y: -7.5d
+			description: ["Obtain a wheat to insulate yourself from hot environment."]
+			dependencies: ["2ED4C94026456CCA"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "327001B7DCC2B198"
+			tasks: [{
+				id: "06D1BF073808A480"
+				type: "item"
+				item: "farmersdelight:straw"
+			}]
+			rewards: [{
+				id: "32DB1E627E7D0C34"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "That Hits The Spot - I"
+			x: -6.0d
+			y: -7.5d
+			description: ["Acquire a canvas to provide insulation in both cold and hot environments, ensuring comfort and protection."]
+			dependencies: ["2ED4C94026456CCA"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "1739FAC2E464132D"
+			tasks: [{
+				id: "4BFD60E23FC48A96"
+				type: "item"
+				item: "farmersdelight:canvas"
+			}]
+			rewards: [{
+				id: "1B6B241952334107"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "Too Cold - I"
+			x: -8.0d
+			y: -7.5d
+			description: ["Obtain leather to provide insulation against cold temperatures."]
+			dependencies: ["2ED4C94026456CCA"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "757B167ADE8B315C"
+			tasks: [{
+				id: "07BB5C86EFD7B392"
+				type: "item"
+				item: "minecraft:leather"
+			}]
+			rewards: [{
+				id: "6321B42DE5F9410B"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "Too Cold - II"
+			x: -8.0d
+			y: -9.5d
+			description: ["Obtain wool to provide insulation against cold temperatures."]
+			dependencies: ["757B167ADE8B315C"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "3BF381A61D7A1571"
+			tasks: [{
+				id: "1608EF08A36A94F6"
+				type: "item"
+				item: "minecraft:white_wool"
+			}]
+			rewards: [{
+				id: "1CDDAFBC081B620A"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "Too Hot - II"
+			x: -4.0d
+			y: -9.5d
+			description: ["Obtain a honey comb to insulate yourself from hot environment."]
+			dependencies: ["327001B7DCC2B198"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "2AD93A7F14B73FCE"
+			tasks: [{
+				id: "6B8BBDE449E43CA9"
+				type: "item"
+				item: "minecraft:honeycomb"
+			}]
+			rewards: [{
+				id: "358A7C2211A33BE0"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "That Hits The Spot - II"
+			x: -6.0d
+			y: -9.5d
+			description: ["Acquire an ersatz leather to provide insulation in both cold and hot environments, ensuring comfort and protection."]
+			dependencies: ["1739FAC2E464132D"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "6CEFD8CE72388FF2"
+			tasks: [{
+				id: "34B4D52A1B92E3B6"
+				type: "item"
+				item: "immersiveengineering:ersatz_leather"
+			}]
+			rewards: [{
+				id: "53E5E35E7D607F9F"
+				type: "xp"
+				xp: 40
+			}]
+		}
+		{
+			title: "Too Cold - III"
+			x: -8.0d
+			y: -11.5d
+			description: ["Obtain tough fabric to provide insulation against cold temperatures."]
+			dependencies: ["3BF381A61D7A1571"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "0A91E388646FCC8E"
+			tasks: [{
+				id: "523ACAFC811BB642"
+				type: "item"
+				item: "immersiveengineering:hemp_fabric"
+			}]
+			rewards: [{
+				id: "7CCD334B018895E8"
+				type: "xp"
+				xp: 40
+			}]
+		}
+		{
+			title: "Too Cold - IV"
+			x: -8.0d
+			y: -13.5d
+			description: ["Obtain goat fur to provide insulation against cold temperatures."]
+			dependencies: ["0A91E388646FCC8E"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "6E8C8F609568F43D"
+			tasks: [{
+				id: "5B7FA7B72C01751C"
+				type: "item"
+				item: "cold_sweat:goat_fur"
+			}]
+			rewards: [{
+				id: "49546BA279A453EF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Too Hot - IV"
+			x: -4.0d
+			y: -13.5d
+			description: ["Obtain a hoglin hide to insulate yourself from hot environment."]
+			dependencies: ["380FF30CAA4EBFD0"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "1EEC985E3D28AF8D"
+			tasks: [{
+				id: "02CE91325899D3BC"
+				type: "item"
+				item: "cold_sweat:hoglin_hide"
+			}]
+			rewards: [{
+				id: "6A893BA369FE28A3"
+				type: "xp"
+				xp: 40
+			}]
+		}
+		{
+			title: "Too Hot - III"
+			x: -4.0d
+			y: -11.5d
+			description: ["Obtain a slime ball to insulate yourself from hot environment."]
+			dependencies: ["2AD93A7F14B73FCE"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "380FF30CAA4EBFD0"
+			tasks: [{
+				id: "1ECB653F7B8EA759"
+				type: "item"
+				item: "minecraft:slime_ball"
+			}]
+			rewards: [{
+				id: "6339FF471C90B4E9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "That Hits The Spot - III"
+			x: -6.0d
+			y: -11.5d
+			description: ["Acquire a chameleon molt to provide insulation in both cold and hot environments, ensuring comfort and protection."]
+			dependencies: ["6CEFD8CE72388FF2"]
+			dependency_requirement: "one_started"
+			id: "2E8859952B83530D"
+			tasks: [{
+				id: "0F2700887E879205"
+				type: "item"
+				item: "cold_sweat:chameleon_molt"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

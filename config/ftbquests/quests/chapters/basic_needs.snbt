@@ -1,0 +1,252 @@
+{
+	id: "2583DDB195B6CFEA"
+	group: "0CEF75605D0E77B3"
+	order_index: 1
+	filename: "basic_needs"
+	title: "Basic Needs"
+	icon: "minecraft:string"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Start from Seeds"
+			icon: "immersiveengineering:seed"
+			x: -1.0d
+			y: 2.5d
+			shape: "hexagon"
+			description: ["Collect hemp seeds from grass and plant them to cultivate hemp plants, which can provide valuable materials for various purposes."]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			progression_mode: "flexible"
+			id: "655E03A6D98DF879"
+			tasks: [{
+				id: "4C7B3A6FBFEC9EE0"
+				type: "item"
+				item: "immersiveengineering:seed"
+			}]
+			rewards: [
+				{
+					id: "1CD77904F68767B7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0CC89C4D431E6EAB"
+					type: "item"
+					item: "immersiveengineering:seed"
+					count: 12
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			description: ["Acquire string through various means, as it serves as the primary material for crafting armor."]
+			dependencies: ["655E03A6D98DF879"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "103C05E04D0AEB52"
+			tasks: [{
+				id: "2394AAEC1A9810DD"
+				type: "item"
+				item: "minecraft:string"
+			}]
+			rewards: [
+				{
+					id: "72473B765CA99FBE"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1F418A3274D6FB13"
+					type: "item"
+					item: "minecraft:string"
+					count: 12
+				}
+			]
+		}
+		{
+			title: "Be Like Water"
+			x: -1.0d
+			y: 5.0d
+			shape: "hexagon"
+			description: ["Obtain a bottle to get your water, but they seems to be dirty."]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			progression_mode: "flexible"
+			id: "6F42F5255BB2A5CA"
+			tasks: [{
+				id: "77162F8AFFC9A71C"
+				type: "item"
+				item: "minecraft:glass_bottle"
+			}]
+			rewards: [
+				{
+					id: "0765D912CF7AF832"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "48C4BF696B83CA14"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 6
+				}
+			]
+		}
+		{
+			title: "Wools"
+			x: -1.0d
+			y: -2.5d
+			description: ["Wool is crucial for crafting bandages, recovery items, and various other crafting recipes."]
+			dependencies: ["103C05E04D0AEB52"]
+			dependency_requirement: "one_started"
+			id: "313201137C44FDB0"
+			tasks: [{
+				id: "5AFF6BB23CEF77C7"
+				type: "item"
+				title: "Any #minecraft:wool"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "55F8CC44ACE08BAD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "04F31F78AAEC5320"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 12
+				}
+			]
+		}
+		{
+			title: "I Need Healing - I"
+			x: 0.5d
+			y: -4.5d
+			description: ["Craft or acquire a plaster to treat and heal your wounds effectively."]
+			dependencies: ["313201137C44FDB0"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "4523079E2318BD94"
+			tasks: [{
+				id: "7CE16FEEA03DBE1F"
+				type: "item"
+				item: "firstaid:plaster"
+			}]
+			rewards: [
+				{
+					id: "4BD71099D74698F8"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "53C7580935FC66E7"
+					type: "item"
+					item: "firstaid:plaster"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "I Need Healing - II"
+			x: -2.5d
+			y: -4.5d
+			description: ["Craft or acquire a bandage to facilitate the healing of your wounds."]
+			dependencies: ["313201137C44FDB0"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "1191928136871CA9"
+			tasks: [{
+				id: "1D17B12115255752"
+				type: "item"
+				item: "firstaid:bandage"
+			}]
+			rewards: [
+				{
+					id: "210F76E21CC857E9"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1B992C9A1E92681D"
+					type: "item"
+					item: "firstaid:bandage"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Let Him Cook - I"
+			x: -3.5d
+			y: 6.5d
+			description: ["Acquire a campfire to purify your water, ensuring it is safe and clean for consumption."]
+			dependencies: ["6F42F5255BB2A5CA"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "73DFEE0495437E8B"
+			tasks: [{
+				id: "55194943CDE3281C"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+			rewards: [{
+				id: "491965925D4635E8"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "Let Him Cook - II"
+			x: -1.0d
+			y: 7.5d
+			description: ["Acquire a furnace to purify your water bottles, ensuring clean and safe drinking water."]
+			dependencies: ["6F42F5255BB2A5CA"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "6895B7261404F5C2"
+			tasks: [{
+				id: "374417F635A81A95"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "27B1E27F013FE404"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "Let Him Cook - III"
+			x: 1.5d
+			y: 6.5d
+			description: [
+				"Filter the water using a sand filter and transfer it to a spout to obtain clean and purified water."
+				"NOTE: Water does not become clean if pumped out directly from a water source. However, using a spout with a glass bottle attached can effectively filter and provide clean water. Pump is necessary as well."
+			]
+			dependencies: ["6F42F5255BB2A5CA"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "7E20373C75B9F550"
+			tasks: [{
+				id: "6BA7D450ED9FEF39"
+				type: "item"
+				item: "thirst:sand_filter"
+			}]
+			rewards: [{
+				id: "56EB019BB302D8A7"
+				type: "xp"
+				xp: 400
+			}]
+		}
+	]
+	quest_links: [ ]
+}

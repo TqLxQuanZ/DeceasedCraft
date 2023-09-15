@@ -196,15 +196,7 @@
       "maxlight": 6,
       "minheight": 71,
       "onjoin": true,
-      "result": "allow",
-      "nbt": {
-        "Attributes": [
-          {
-            "Base": 2.0,
-            "Name": "generic.armor"
-          }
-        ]
-      }
+      "result": "allow"
     },
     {
       "mob": "undead_revamp2:thesmoker",

@@ -1,0 +1,191 @@
+{
+	id: "0FFF810BED7FD7EB"
+	group: "06797646CDBF2AAC"
+	order_index: 0
+	filename: "torches"
+	title: "Torches"
+	icon: "minecraft:torch"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Light Source"
+			icon: "minecraft:torch"
+			x: -11.25d
+			y: -3.0d
+			shape: "hexagon"
+			description: ["To overcome the limitations of lit torches, it's crucial to find a method for producing everlasting light sources that are resistant to water."]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			progression_mode: "flexible"
+			id: "590BB827A21E0CA4"
+			tasks: [{
+				id: "52629F49E9AB2C3E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0627F1BFA9D13471"
+				type: "item"
+				item: "hardcore_torches:lit_torch"
+				count: 8
+			}]
+		}
+		{
+			title: "Clay"
+			x: -8.5d
+			y: -5.0d
+			description: ["- The initial step in torch production involves collecting clay from rivers or shallow water areas."]
+			dependencies: ["590BB827A21E0CA4"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "3E1518F914DE49E1"
+			tasks: [{
+				id: "2855058338B0F783"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+			rewards: [{
+				id: "355D88C798B40965"
+				type: "item"
+				item: "minecraft:clay"
+				count: 5
+			}]
+		}
+		{
+			x: -8.5d
+			y: -3.0d
+			description: ["The second step in torch production involves smelting clay to obtain bricks."]
+			dependencies: ["590BB827A21E0CA4"]
+			dependency_requirement: "one_started"
+			id: "0CE7CDD6A51D849C"
+			tasks: [{
+				id: "7898492560D9959A"
+				type: "item"
+				item: "minecraft:brick"
+			}]
+			rewards: [{
+				id: "5985EF11C872D575"
+				type: "item"
+				item: "minecraft:brick"
+				count: 5
+			}]
+		}
+		{
+			title: "Sandstone"
+			x: -8.5d
+			y: -1.0d
+			description: ["The third step of torch production involves gathering sandstone. They are often discovered below sands."]
+			dependencies: ["590BB827A21E0CA4"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "7CEB924BBFD36ED9"
+			tasks: [{
+				id: "0E482E3712A963EC"
+				type: "item"
+				title: "Any #forge:sandstone"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:sandstone"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3FE040B92B5E8809"
+				type: "item"
+				item: "minecraft:sandstone"
+				count: 5
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			description: ["To craft a coke brick, combine clay, bricks, and sandstone. This mixture can be molded and fired to create a durable coke brick."]
+			dependencies: [
+				"3E1518F914DE49E1"
+				"0CE7CDD6A51D849C"
+				"7CEB924BBFD36ED9"
+			]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "164DD663512EF330"
+			tasks: [{
+				id: "091C5BCEAD664861"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+			}]
+			rewards: [{
+				id: "52A1D9FE54905DF7"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 5
+			}]
+		}
+		{
+			title: "Coke Oven"
+			x: -3.5d
+			y: -3.0d
+			description: ["To establish the coke oven, check the Engineer's Manual, Workbenches n Furnaces, Coke Oven section."]
+			dependencies: ["164DD663512EF330"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "55C8C614C6ADE563"
+			tasks: [{
+				id: "2DE20B689353BA57"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_cokeoven"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7CB1644DCACBD8E5"
+				type: "item"
+				item: "immersiveengineering:coal_coke"
+				count: 12
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			description: ["- Obtain a bucket of creosote oil by process coal or logs into charcoal/coal coke."]
+			dependencies: ["55C8C614C6ADE563"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "2FC4D860C8175089"
+			tasks: [{
+				id: "172652FCED45DEF9"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+			rewards: [{
+				id: "06684E2E34BE8B00"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			description: [
+				"- Quality woods come with a price."
+				"- Craft treated wood planks using creosote oil."
+			]
+			dependencies: ["2FC4D860C8175089"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "0858B9CB97437ACF"
+			tasks: [{
+				id: "628EC2A797C1C32B"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+			rewards: [{
+				id: "1176EB89A629C8D1"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 32
+			}]
+		}
+	]
+	quest_links: [ ]
+}
