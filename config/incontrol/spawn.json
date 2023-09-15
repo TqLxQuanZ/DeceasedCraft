@@ -552,6 +552,24 @@
       "result": "allow"
     },
     {
+      "mob": "mutationcraft:parasitic_shooter",
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "minlight": 0,
+      "maxlight": 6, 
+      "incity": true,
+      "onjoin": true,
+      "minspawndist": 20000,
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 2.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
+    },
+    {
       "mob": "mutationcraft:resenter",
       "minlight": 0,
       "maxlight": 6,
@@ -643,17 +661,6 @@
         "dimension": "minecraft:overworld",
         "minlight": 7,
         "maxlight": 15,
-        "result": "deny"
-    },
-    {
-        "mob": "mutationcraft:necroptor",
-        "dimension": "minecraft:overworld",
-        "mincount": {
-          "mob": "mutationcraft:necroptor",
-          "amount": 20,
-          "perchunk": true
-        },
-        "onjoin": true,
         "result": "deny"
     },
     {
@@ -788,6 +795,13 @@
               "alexsmobs:mungus",
               "alexsmobs:void_worm"],
       "result": "deny"
+    },
+    {
+        "mob": "mutationcraft:necroptor",
+        "dimension": "minecraft:overworld",
+        "mincount": 20,
+        "onjoin": true,
+        "result": "deny"
     },
     {
       "mod": "mutationcraft",

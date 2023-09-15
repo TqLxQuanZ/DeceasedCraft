@@ -56,7 +56,7 @@
 	{
 		"mob": "quark:shiba",
 		"persecond": 0.001,
-		"attempts": 5,
+		"attempts": 10,
 		"conditions": {
 		"dimension": "minecraft:overworld",
 			"norestrictions": true,
@@ -83,7 +83,7 @@
 	{
 		"mob": "minecraft:villager",
 		"persecond": 0.001,
-		"attempts": 5,
+		"attempts": 10,
 		"amount": {
 		  "minimum": 1,
 		  "maximum": 2,
@@ -126,10 +126,24 @@
 		}
 	},
 	{
+		"mob": ["mutationcraft:parasitic_shooter"],
+		"persecond": 0.05,
+		"attempts": 20,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "inair": true,
+		  "mindist": 30,
+		  "maxdist": 200,
+		  "minheight": 80,
+		  "maxheight": 300
+		}
+	},
+	{
 		"mob": ["mutationcraft:assimilated_jockey",
 				"mutationcraft:reductor",
 				"mutationcraft:carnivorae"],
-		"persecond": 0.5,
+		"persecond": 0.05,
 		"attempts": 20,
 		"conditions": {
 		  "dimension": "minecraft:overworld",
@@ -145,7 +159,7 @@
 				"mutationcraft:human_stage_1",
 				"mutationcraft:human_stage_2",
 				"mutationcraft:human_stage_3"],
-		"persecond": 0.25,
+		"persecond": 0.3,
 		"attempts": 20,
 		"amount": {
 		  "minimum": 1,
@@ -168,7 +182,7 @@
 				"undead_revamp2:thesmoker",
 				"undead_revamp2:thehunter",
 				"undead_revamp2:bomber"],
-		"persecond": 0.5,
+		"persecond": 0.35,
 		"attempts": 25,
 		"conditions": {
 		  "dimension": "minecraft:overworld",

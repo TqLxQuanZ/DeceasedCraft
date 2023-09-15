@@ -18,6 +18,13 @@
 	{
 		"mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
 		"player": true,
+		"random" : 0.4,
+		"item": "minecraft:string",
+		"itemcount": "1/2/3"
+	},
+	{
+		"mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+		"player": true,
 		"random" : 0.1,
 		"item": "additionalguns:bullet_small",
 		"itemcount": "1/1/2"
@@ -123,6 +130,18 @@
 		"itemcount": "2/3/4"
 	},
 	{
+		"mob": "mutationcraft:parasitic_shooter",
+		"player": true,
+		"item": "contenttweaker:resistant_fabric",
+		"itemcount": "1/2/3"
+	},
+	{
+		"mob": "mutationcraft:parasitic_shooter",
+		"player": true,
+		"item": "minecraft:phantom_membrane",
+		"itemcount": "3/4/5"
+	},
+	{
 		"mob": ["mutationcraft:assimilated_jockey",
 				"mutationcraft:reductor",
 				"mutationcraft:carnivorae"],
@@ -191,14 +210,14 @@
 		"player": true,
 		"random": 0.75,
 		"item": "additionalguns:bullet_small",
-		"itemcount": "16-19/20-23/24-27"
+		"itemcount": "24-27/32-35/40-45"
 	},
 	{
 		"mob": "mutationcraft:human_herder",
 		"player": true,
 		"random": 0.75,
 		"item": "additionalguns:bullet_short",
-		"itemcount": "16-19/20-23/24-27"
+		"itemcount": "24-27/32-35/40-45"
 	},
 	{
 		"mob": "mutationcraft:resenter",
@@ -235,14 +254,14 @@
 		"player": true,
 		"random" : 0.5,
 		"item": "additionalguns:bullet_medium",
-		"itemcount": "14-18/18-22/22-26"
+		"itemcount": "24-27/32-35/40-45"
 	},
 	{
 		"mob": "mutationcraft:resenter",
 		"player": true,
 		"random" : 0.5,
 		"item": "additionalguns:bullet_heavy",
-		"itemcount": "14-18/18-22/22-26"
+		"itemcount": "24-27/32-35/40-45"
 	},
 	{
 		"mob": "mutationcraft:the_intoxicator",
@@ -286,13 +305,13 @@
 		"player": true,
 		"random" : 0.75,
 		"item": "additionalguns:bullet_heavy",
-		"itemcount": "16-19/20-23/24-28"
+		"itemcount": "24-27/32-35/40-45"
 	},
 	{
 		"mob": "mutationcraft:the_intoxicator",
 		"player": true,
 		"random" : 0.75,
 		"item": "additionalguns:bullet_special",
-		"itemcount": "8-11/11-14/14-17"
+		"itemcount": "24-27/32-35/40-45"
 	}
 ]
