@@ -153,24 +153,11 @@
 				id: "37EF73974FAE0FC0"
 				type: "checkmark"
 			}]
-			rewards: [
-				{
-					id: "738E7F57C6407F71"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "7ECE0115C1F9AEAB"
-					type: "item"
-					item: {
-						id: "arsenals_of_the_apocalypse:baseball_bat"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
+			rewards: [{
+				id: "738E7F57C6407F71"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			title: "Parkour!"
