@@ -1,0 +1,289 @@
+{
+	id: "577EDD60C6A404FD"
+	group: "0CEF75605D0E77B3"
+	order_index: 5
+	filename: "traps"
+	title: "Traps"
+	icon: "immersiveengineering:razor_wire"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Primitive Hunter - I"
+			x: 0.5d
+			y: -1.0d
+			description: ["Craft a spike to protect your base."]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			progression_mode: "flexible"
+			id: "44F5B30B013F2F4B"
+			tasks: [{
+				id: "527D43DBC7C9B67F"
+				type: "item"
+				item: "apocalypsenow:spikeswall"
+			}]
+			rewards: [{
+				id: "7966A7AB3DB6A248"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Primitive Hunter - II"
+			x: 3.5d
+			y: 1.0d
+			description: ["Craft glass spike to protect your base."]
+			dependencies: ["44F5B30B013F2F4B"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "744C26A44CB676C2"
+			tasks: [{
+				id: "41C6EC39FF003AB0"
+				type: "item"
+				item: "apocalypsenow:glass_spikes"
+			}]
+			rewards: [
+				{
+					id: "0057702E09B0AB36"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "095D54EAFBFE97B9"
+					type: "item"
+					item: "apocalypsenow:glass_spikes"
+					count: 12
+				}
+			]
+		}
+		{
+			title: "Primitive Hunter - III"
+			x: 3.5d
+			y: -3.0d
+			description: ["Craft a spike barrier to protect your base."]
+			dependencies: ["44F5B30B013F2F4B"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "45716DC393C27C48"
+			tasks: [{
+				id: "204DC26F2C744BE9"
+				type: "item"
+				item: "apocalypsenow:spike_barrier"
+			}]
+			rewards: [
+				{
+					id: "4F97480640CE26CE"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "56F1D410E3C60945"
+					type: "item"
+					item: "apocalypsenow:spike_barrier"
+					count: 12
+				}
+			]
+		}
+		{
+			title: "Modern Hunter - I"
+			x: 3.5d
+			y: -1.0d
+			description: ["Craft a bear trap to hunt animals or kill enemies."]
+			dependencies: ["44F5B30B013F2F4B"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "45A6B921DE4001E1"
+			tasks: [{
+				id: "16E15B2F55EEFB9A"
+				type: "item"
+				item: "apocalypsenow:bear_trap"
+			}]
+			rewards: [
+				{
+					id: "40BDD439231BAC36"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "43F67C31EA6720C4"
+					type: "item"
+					item: "apocalypsenow:bear_trap"
+					count: 6
+				}
+			]
+		}
+		{
+			title: "Modern Hunter - IV"
+			x: 11.0d
+			y: -1.0d
+			description: ["Obtain or craft a razorwire, it can be connected with electricity."]
+			dependencies: ["2C3681F3DD09F62E"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "6DE10A494F77644A"
+			tasks: [{
+				id: "06685E9228C3B5D5"
+				type: "item"
+				item: "immersiveengineering:razor_wire"
+			}]
+			rewards: [{
+				id: "5C8968831E08584A"
+				type: "item"
+				item: "immersiveengineering:razor_wire"
+				count: 16
+			}]
+		}
+		{
+			title: "Modern Hunter - III"
+			x: 8.5d
+			y: -1.0d
+			description: ["Obtain or craft a cheaper barb wire using iron wires."]
+			dependencies: ["2D701EBFDD08E14A"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "2C3681F3DD09F62E"
+			tasks: [{
+				id: "3C183159B016CC24"
+				type: "item"
+				item: "createaddition:barbed_wire"
+			}]
+			rewards: [{
+				id: "0B9988789BE524D2"
+				type: "item"
+				item: "createaddition:barbed_wire"
+				count: 16
+			}]
+		}
+		{
+			title: "Modern Hunter - II"
+			x: 6.0d
+			y: -1.0d
+			description: ["Craft barbed wires to protect your base."]
+			dependencies: [
+				"744C26A44CB676C2"
+				"45716DC393C27C48"
+				"45A6B921DE4001E1"
+			]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "2D701EBFDD08E14A"
+			tasks: [{
+				id: "7AC70D81CDDD19C9"
+				type: "item"
+				item: "apocalypsenow:barbed_wire"
+			}]
+			rewards: [
+				{
+					id: "240EE164729C54AD"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "323F3E1D3803D830"
+					type: "item"
+					item: "apocalypsenow:barbed_wire"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Modern Hunter - IV"
+			x: 13.5d
+			y: -2.0d
+			description: ["Craft tripwire bomb to give unexpected surprise to your foes."]
+			dependencies: ["6DE10A494F77644A"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "7D8BA0453F8EC1C8"
+			tasks: [{
+				id: "1C27E33D0B27022A"
+				type: "item"
+				item: "apocalypsenow:tripwire_bomb"
+			}]
+			rewards: [
+				{
+					id: "42C412EAC934D35B"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "039EB3942B8B90F3"
+					type: "item"
+					item: "apocalypsenow:tripwire_bomb"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Modern Hunter - V"
+			x: 13.5d
+			y: 0.0d
+			description: ["Craft landmine to destroy your foes."]
+			dependencies: ["6DE10A494F77644A"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "5CDBCEB99909EF30"
+			tasks: [{
+				id: "3C5641171C261DE2"
+				type: "item"
+				item: "apocalypsenow:land_mine"
+			}]
+			rewards: [
+				{
+					id: "71C805F54948D4A6"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "5D873D548E552F0C"
+					type: "item"
+					item: "apocalypsenow:land_mine"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Diffuser"
+			x: 16.0d
+			y: -1.0d
+			description: ["The bomb has been defused."]
+			dependencies: [
+				"7D8BA0453F8EC1C8"
+				"5CDBCEB99909EF30"
+			]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "58A7E63A31D4D38B"
+			tasks: [{
+				id: "03D737CC6D0D5049"
+				type: "item"
+				item: {
+					id: "apocalypsenow:bomb_defusing_kit"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "104B563A32DF5392"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "2349A1140C8AE1FB"
+					type: "item"
+					item: {
+						id: "apocalypsenow:bomb_defusing_kit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

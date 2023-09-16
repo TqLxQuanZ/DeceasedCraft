@@ -143,7 +143,7 @@
 		"mob": ["mutationcraft:assimilated_jockey",
 				"mutationcraft:reductor",
 				"mutationcraft:carnivorae"],
-		"persecond": 0.05,
+		"persecond": 0.1,
 		"attempts": 20,
 		"conditions": {
 		  "dimension": "minecraft:overworld",
@@ -159,7 +159,7 @@
 				"mutationcraft:human_stage_1",
 				"mutationcraft:human_stage_2",
 				"mutationcraft:human_stage_3"],
-		"persecond": 0.3,
+		"persecond": 0.5,
 		"attempts": 20,
 		"amount": {
 		  "minimum": 1,

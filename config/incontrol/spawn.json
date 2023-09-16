@@ -34,6 +34,17 @@
         "result": "deny"
     },
     {
+        "mob": "undead_revamp2:thespitter",
+        "dimension": "minecraft:overworld",
+        "mincount": {
+          "amount": 5,
+          "mob": "undead_revamp2:thespitter",
+          "perchunk": true
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
       "mod": "zombiemobs",
       "dimension": "minecraft:overworld",
       "mincount": {

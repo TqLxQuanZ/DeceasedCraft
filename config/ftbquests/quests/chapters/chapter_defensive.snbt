@@ -50,16 +50,12 @@
 			tasks: [{
 				id: "4C4779C9B6565126"
 				type: "item"
+				title: "Any #armorset:leather"
 				item: {
-					id: "minecraft:leather_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:leather"
 					}
 				}
 			}]
@@ -83,16 +79,12 @@
 			tasks: [{
 				id: "374897A717CEBE1E"
 				type: "item"
+				title: "Any #armorset:chainmail"
 				item: {
-					id: "minecraft:chainmail_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:chainmail"
 					}
 				}
 			}]
@@ -116,16 +108,12 @@
 			tasks: [{
 				id: "35EB930CD184866E"
 				type: "item"
+				title: "Any #armorset:armor_steel"
 				item: {
-					id: "immersiveengineering:armor_steel_chest"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:armor_steel"
 					}
 				}
 			}]
@@ -149,16 +137,12 @@
 			tasks: [{
 				id: "63B2B0FF6F5DA766"
 				type: "item"
+				title: "Any #armorset:netherite"
 				item: {
-					id: "minecraft:netherite_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:netherite"
 					}
 				}
 			}]
@@ -755,16 +739,12 @@
 			tasks: [{
 				id: "3FD0EC3F320DED9E"
 				type: "item"
+				title: "Any #armorset:un_armor"
 				item: {
-					id: "arsenals_of_the_apocalypse:un_armor_chestplate"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": {
-							Insulation: [ ]
-						}
+						value: "armorset:un_armor"
 					}
 				}
 			}]

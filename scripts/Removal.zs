@@ -136,10 +136,6 @@ JEI.hideIngredient(<item:car:canola_methanol_mix_bucket>);
 JEI.hideIngredient(<item:car:glycerin_bucket>);
 JEI.hideIngredient(<item:car:bio_diesel_bucket>);
 
-// Simple Planes
-craftingTable.removeByName("simpleplanes:folding");
-JEI.hideIngredient(<item:simpleplanes:folding>);
-
 // Others
 craftingTable.removeByName("car:iron_stick");
 craftingTable.removeByName("car:oilmill");
@@ -187,6 +183,12 @@ JEI.hideIngredient(<item:car:asphalt_slope_flat_upper>);
 JEI.hideIngredient(<item:car:asphalt_slope_flat_lower>);
 
 craftingTable.removeByName("apocalypsenow:gunpowder");
+
+// Pickarang
+craftingTable.remove(<item:quark:pickarang>);
+craftingTable.remove(<item:quark:flamerang>);
+JEI.hideIngredient(<item:quark:pickarang>);
+JEI.hideIngredient(<item:quark:flamerang>);
 
 // Alex's Mob
 craftingTable.remove(<item:alexsmobs:bone_serpent_tooth>);

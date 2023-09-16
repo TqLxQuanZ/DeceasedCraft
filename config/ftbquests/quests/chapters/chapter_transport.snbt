@@ -1,9 +1,9 @@
 {
 	id: "2AB51EED6E71C05F"
-	group: ""
-	order_index: 1
+	group: "06797646CDBF2AAC"
+	order_index: 4
 	filename: "chapter_transport"
-	title: "Chapter: Transport"
+	title: "Transportation"
 	icon: {
 		id: "simpleplanes:plane"
 		Count: 1b
@@ -70,7 +70,14 @@
 			tasks: [{
 				id: "2C15A93EC55C2FB1"
 				type: "item"
-				item: "car:yellow_transporter_body"
+				title: "Any #car:body"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "car:body"
+					}
+				}
 			}]
 			rewards: [{
 				id: "7D4D273BF39A3B9B"
@@ -90,7 +97,14 @@
 			tasks: [{
 				id: "1C6162E83CD7D7A0"
 				type: "item"
-				item: "car:engine_3_cylinder"
+				title: "Any #car:engine"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "car:engine"
+					}
+				}
 			}]
 			rewards: [{
 				id: "4706F191201EAB68"
@@ -110,7 +124,14 @@
 			tasks: [{
 				id: "63186D8446654808"
 				type: "item"
-				item: "car:wheel"
+				title: "Any #car:wheels"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "car:wheels"
+					}
+				}
 			}]
 			rewards: [{
 				id: "428E6DAF09154DEC"
@@ -130,7 +151,14 @@
 			tasks: [{
 				id: "50200765FD68D312"
 				type: "item"
-				item: "car:large_tank"
+				title: "Any #car:tank"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "car:tank"
+					}
+				}
 			}]
 			rewards: [{
 				id: "72E68918A4ECFE96"
@@ -150,7 +178,14 @@
 			tasks: [{
 				id: "2304BD80CD8871CD"
 				type: "item"
-				item: "car:yellow_container"
+				title: "Any #car:container"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "car:container"
+					}
+				}
 			}]
 			rewards: [{
 				id: "74EC4C9E35BF288B"
@@ -170,7 +205,14 @@
 			tasks: [{
 				id: "1170F0F708D53708"
 				type: "item"
-				item: "car:iron_license_plate_holder"
+				title: "Any #car:license_plate_holder"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "car:license_plate_holder"
+					}
+				}
 			}]
 			rewards: [{
 				id: "2F2AFCDEB42CC9E8"
@@ -252,7 +294,14 @@
 			tasks: [{
 				id: "61BCDF7984019A63"
 				type: "item"
-				item: "simpleplanes:furnace_engine"
+				title: "Any #simpleplanes:plane_engines"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "simpleplanes:plane_engines"
+					}
+				}
 			}]
 			rewards: [{
 				id: "35067113AF346A99"
@@ -272,7 +321,14 @@
 			tasks: [{
 				id: "38C94FA164C33C61"
 				type: "item"
-				item: "simpleplanes:armor"
+				title: "Any #simpleplanes:plane_upgrades"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "simpleplanes:plane_upgrades"
+					}
+				}
 			}]
 			rewards: [{
 				id: "6E5CC0BCB7B1C205"
@@ -354,7 +410,14 @@
 			tasks: [{
 				id: "0B8547B4012E8E99"
 				type: "item"
-				item: "minecraft:coal"
+				title: "Any #minecraft:coals"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:coals"
+					}
+				}
 			}]
 			rewards: [{
 				id: "7B994858DE9C6FED"

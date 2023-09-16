@@ -161,7 +161,7 @@
       },
       {
         "name": "c70cities:farmhouse_1",
-        "weight": 25,
+        "weight": 30,
         "maxheightdiff": 2,
         "biomes": {
           "excluding": [
@@ -236,7 +236,7 @@
       }
     },
     {
-      "multiplier": 5.0,
+      "multiplier": 4.0,
       "biomes": {
         "if_any": [
           "biomesoplenty:wasteland",

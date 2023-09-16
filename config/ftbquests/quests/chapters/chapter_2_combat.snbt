@@ -1,9 +1,9 @@
 {
 	id: "2D96787FBE47226A"
-	group: ""
-	order_index: 0
+	group: "0CEF75605D0E77B3"
+	order_index: 4
 	filename: "chapter_2_combat"
-	title: "Chapter: Combat"
+	title: "Combat"
 	icon: {
 		id: "cgm:mini_gun"
 		Count: 1b
@@ -876,60 +876,12 @@
 			}]
 		}
 		{
-			title: "Whoosh - I"
-			x: -13.0d
-			y: 8.5d
-			description: ["Obtain or craft a pickarang."]
-			progression_mode: "flexible"
-			id: "2FEFCC03AF6BD162"
-			tasks: [{
-				id: "6E2C9EA0FFF1473A"
-				type: "item"
-				item: {
-					id: "quark:pickarang"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "1F89801B91363CAF"
-				type: "xp"
-				xp: 500
-			}]
-		}
-		{
-			title: "Whoosh - II"
-			x: -9.0d
-			y: 8.5d
-			description: ["Obtain or craft a flamarang."]
-			progression_mode: "flexible"
-			id: "22306FFEBCE7A493"
-			tasks: [{
-				id: "7B7226F54BCECDB6"
-				type: "item"
-				item: {
-					id: "quark:flamerang"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "705CE4203495331C"
-				type: "xp"
-				xp: 500
-			}]
-		}
-		{
 			title: "It's Just Business"
 			icon: "minecraft:emerald"
 			x: 6.5d
 			y: -3.0d
 			shape: "square"
-			description: ["Attempt to trade with a weapon smith or a wandering trader to acquire bullets for your ammunition needs. These traders may offer valuable supplies in exchange for other items or resources."]
+			description: ["Attempt to trade with certain villagers to acquire bullets for your ammunition needs. These traders may offer valuable supplies in exchange for other items or resources."]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -1014,7 +966,7 @@
 				id: "4AFE41DE10BA53E0"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:baseball_bat"
+					id: "apocalypsenow:baseball_bat"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1062,7 +1014,7 @@
 				id: "68009AB2CB96221C"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:wrapped_baseball_bat"
+					id: "apocalypsenow:wrapped_baseball_bat"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1088,7 +1040,7 @@
 				id: "257A6534F2E83905"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:spiked_baseball_bat"
+					id: "apocalypsenow:spiked_baseball_bat"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1114,7 +1066,7 @@
 				id: "30ACB1FEAFA3C7E9"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:wired_baseball_bat"
+					id: "apocalypsenow:wired_baseball_bat"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1140,7 +1092,7 @@
 				id: "073F60CBBF12CC59"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:electrical_baseball_bat"
+					id: "apocalypsenow:electrical_baseball_bat"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1166,7 +1118,7 @@
 				id: "229C6DC56629814E"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:saw_baseball_bat"
+					id: "apocalypsenow:saw_baseball_bat"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1192,7 +1144,7 @@
 				id: "01BCAA94F2A64717"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:iron_baseball_bat"
+					id: "apocalypsenow:iron_baseball_bat"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1217,7 +1169,7 @@
 				id: "3B1415B5F0892EEE"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:spiked_iron_baseball_bat"
+					id: "apocalypsenow:spiked_iron_baseball_bat"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1243,7 +1195,7 @@
 				id: "08532A75DDEF1E5C"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:rolling_pin"
+					id: "apocalypsenow:rolling_pin"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1252,32 +1204,6 @@
 			}]
 			rewards: [{
 				id: "7191CEA191822C3D"
-				type: "xp"
-				xp: 25
-			}]
-		}
-		{
-			title: "It's not much but honest work"
-			x: -28.5d
-			y: 0.5d
-			description: ["Obtain or craft an improvised knife."]
-			dependencies: ["2FC6C2EAD08E268C"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "3246241EE0A8ADF6"
-			tasks: [{
-				id: "4805E00700B33D8C"
-				type: "item"
-				item: {
-					id: "arsenals_of_the_apocalypse:improvised_knife"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "1DFE58E27C2E1B72"
 				type: "xp"
 				xp: 25
 			}]
@@ -1295,7 +1221,7 @@
 				id: "1AE0F84CD2F1389D"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:hookey_stick"
+					id: "apocalypsenow:hookey_stick"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1320,7 +1246,7 @@
 				id: "440C5A4CCD646B7A"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:club"
+					id: "apocalypsenow:club"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1346,7 +1272,7 @@
 				id: "6DE3A6CD7A3A3194"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:electric_club"
+					id: "apocalypsenow:electric_club"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1414,7 +1340,7 @@
 				id: "0D930235988C820F"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:tactical_sword"
+					id: "apocalypsenow:tactical_sword"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1448,7 +1374,7 @@
 				id: "30E247ACD0E1B40E"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:tactical_knife"
+					id: "apocalypsenow:tactical_knife"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1481,7 +1407,7 @@
 				id: "12F6517EBAAD344C"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:tatical_mace"
+					id: "apocalypsenow:tatical_mace"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1515,7 +1441,7 @@
 				id: "54A5CDF8CCE9458E"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:tactical_machete"
+					id: "apocalypsenow:tactical_machete"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1549,7 +1475,7 @@
 				id: "37BB40250E26E44C"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:combat_axe"
+					id: "apocalypsenow:combat_axe"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1583,7 +1509,7 @@
 				id: "79975981C0E29C67"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:katana"
+					id: "apocalypsenow:katana"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1608,7 +1534,10 @@
 			title: "Tactical - VI"
 			x: -1.5d
 			y: 24.0d
-			description: ["Obtain or craft a military shovel and use as a spear."]
+			description: [
+				"Obtain or craft a military shovel and use as a spear."
+				"Wut du hell is this doing here?"
+			]
 			dependencies: ["1E2A7DC56202A285"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1617,7 +1546,7 @@
 				id: "55749ED3C5DB5B0B"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:military_shovel"
+					id: "apocalypsenow:military_shovel"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1653,7 +1582,7 @@
 				id: "5BE9E8896D878067"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:knife"
+					id: "apocalypsenow:knife"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1705,7 +1634,7 @@
 				id: "408FD8823B68ACF1"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:combat_knife"
+					id: "apocalypsenow:combat_knife"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1731,7 +1660,7 @@
 				id: "3414FC7F44339109"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:expedition_knife"
+					id: "apocalypsenow:expedition_knife"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1757,7 +1686,7 @@
 				id: "7C79D21C01A7863D"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:switch_knife"
+					id: "apocalypsenow:switch_knife"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1783,7 +1712,7 @@
 				id: "4261A5EB4E8F9BD4"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:butterfly_knife"
+					id: "apocalypsenow:butterfly_knife"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1809,7 +1738,7 @@
 				id: "36BA6C1C65A82074"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:long_knife"
+					id: "apocalypsenow:long_knife"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1835,7 +1764,7 @@
 				id: "5A978E54AF7C5931"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:stilettoknife"
+					id: "apocalypsenow:stilettoknife"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1862,7 +1791,7 @@
 				id: "1FB75BD679B74B92"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:machete"
+					id: "apocalypsenow:machete"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1888,7 +1817,7 @@
 				id: "79576EE454FED679"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:fire_axe"
+					id: "apocalypsenow:fire_axe"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1914,7 +1843,7 @@
 				id: "584A0B9F3F930336"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:construction_axe"
+					id: "apocalypsenow:construction_axe"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1940,7 +1869,7 @@
 				id: "5FDB3BC259B6BD2C"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:hand_axe"
+					id: "apocalypsenow:hand_axe"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1966,7 +1895,7 @@
 				id: "5983F0901BAAF104"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:lumber_jack_axe"
+					id: "apocalypsenow:lumber_jack_axe"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1992,7 +1921,7 @@
 				id: "00F5A2001CFB61F9"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:gardening_axe"
+					id: "apocalypsenow:gardening_axe"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -2018,7 +1947,7 @@
 				id: "20B8E46C7A5563D0"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:ice_axe"
+					id: "apocalypsenow:ice_axe"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -2045,7 +1974,7 @@
 				id: "604C96AB9188100D"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:spear"
+					id: "apocalypsenow:spear"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -2071,7 +2000,7 @@
 				id: "51B1B72BC8E49D5C"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:hawkbill_machete"
+					id: "apocalypsenow:hawkbill_machete"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -2097,7 +2026,7 @@
 				id: "0FDA504CC9872D88"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:bowie_machete"
+					id: "apocalypsenow:bowie_machete"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -2123,7 +2052,7 @@
 				id: "5D962DAF9E39E5FD"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:heavy_machete"
+					id: "apocalypsenow:heavy_machete"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -2149,7 +2078,7 @@
 				id: "59AD7F3432FF6DEA"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:kukri_machete"
+					id: "apocalypsenow:kukri_machete"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -2175,7 +2104,7 @@
 				id: "0AD2E141EF1A03B4"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:snow_shovel"
+					id: "apocalypsenow:snow_shovel"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -2201,7 +2130,7 @@
 				id: "30CEC8FC6CA08EF8"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:construction_shovel"
+					id: "apocalypsenow:construction_shovel"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -2227,7 +2156,7 @@
 				id: "0873D9D0D0B8BC86"
 				type: "item"
 				item: {
-					id: "arsenals_of_the_apocalypse:garden_fork"
+					id: "apocalypsenow:garden_fork"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -2241,203 +2170,20 @@
 			}]
 		}
 		{
-			title: "Primitive Hunter - I"
-			x: -20.5d
-			y: 11.5d
-			description: ["Craft a spike to protect your base."]
-			dependencies: ["70C3799E5D5D54F3"]
+			title: "Ninja!"
+			x: -6.5d
+			y: 5.0d
 			dependency_requirement: "one_started"
-			size: 2.0d
-			progression_mode: "flexible"
-			id: "245A84CC796DBD98"
+			id: "74587A6714FBF9D3"
 			tasks: [{
-				id: "1E54CC7DB92F69CC"
+				id: "353BD2A15FD5E90B"
 				type: "item"
-				item: "arsenals_of_the_apocalypse:spikeswall"
+				item: "apocalypsenow:shuriken"
 			}]
 			rewards: [{
-				id: "4C045C418B315380"
-				type: "xp"
-				xp: 10
-			}]
-		}
-		{
-			title: "Primitive Hunter - II"
-			x: -24.5d
-			y: 11.5d
-			description: ["Craft glass spike to protect your base."]
-			dependencies: ["245A84CC796DBD98"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "054BF0252B617D3D"
-			tasks: [{
-				id: "55278BB60220D35C"
-				type: "item"
-				item: "arsenals_of_the_apocalypse:glass_spikes"
-			}]
-			rewards: [{
-				id: "634675C186BDD958"
-				type: "xp"
-				xp: 20
-			}]
-		}
-		{
-			title: "Primitive Hunter - III"
-			x: -20.5d
-			y: 15.5d
-			description: ["Craft a spike barrier to protect your base."]
-			dependencies: ["245A84CC796DBD98"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "1D915A900E4657B1"
-			tasks: [{
-				id: "193D1B4BF9B741F6"
-				type: "item"
-				item: "arsenals_of_the_apocalypse:spike_barrier"
-			}]
-			rewards: [{
-				id: "07F33A868C7B99F1"
-				type: "xp"
-				xp: 20
-			}]
-		}
-		{
-			title: "Modern Hunter - I"
-			x: -24.5d
-			y: 15.5d
-			description: ["Craft a bear trap to hunt animals or kill enemies."]
-			dependencies: ["245A84CC796DBD98"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "3D5034941203E7E3"
-			tasks: [{
-				id: "19DC6451BF20630F"
-				type: "item"
-				item: "arsenals_of_the_apocalypse:bear_trap"
-			}]
-			rewards: [{
-				id: "3E7772EA67DC5101"
-				type: "xp"
-				xp: 50
-			}]
-		}
-		{
-			title: "Modern Hunter - II"
-			x: -24.5d
-			y: 18.0d
-			description: ["Craft barbed wires to protect your base."]
-			dependencies: ["3D5034941203E7E3"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "51F670E03163959E"
-			tasks: [{
-				id: "4B1A5A60A3B8AB8F"
-				type: "item"
-				item: "arsenals_of_the_apocalypse:barbed_wire"
-			}]
-			rewards: [{
-				id: "1A93DC9E68FAA937"
+				id: "729E133DB326AAE3"
 				type: "xp"
 				xp: 200
-			}]
-		}
-		{
-			title: "Modern Hunter - III"
-			x: -27.5d
-			y: 18.0d
-			description: ["Craft landmine to destroy your foes."]
-			dependencies: ["3D5034941203E7E3"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "1E0D737C429BB201"
-			tasks: [{
-				id: "0DC29615F57C3808"
-				type: "item"
-				item: "arsenals_of_the_apocalypse:land_mine"
-			}]
-			rewards: [{
-				id: "44EC474651E2D9A3"
-				type: "xp"
-				xp: 400
-			}]
-		}
-		{
-			title: "Modern Hunter - IV"
-			x: -27.5d
-			y: 15.5d
-			description: ["Craft tripwire bomb to give unexpected surprise to your foes."]
-			dependencies: ["3D5034941203E7E3"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "5B6EE3F78F26386F"
-			tasks: [{
-				id: "68A57FD9BD22CD9B"
-				type: "item"
-				item: "arsenals_of_the_apocalypse:tripwire_bomb"
-			}]
-			rewards: [{
-				id: "2A91B95C4F3973F9"
-				type: "xp"
-				xp: 400
-			}]
-		}
-		{
-			title: "Diffuser"
-			x: -29.5d
-			y: 16.5d
-			description: ["The bomb has been defused."]
-			dependencies: [
-				"1E0D737C429BB201"
-				"5B6EE3F78F26386F"
-			]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "6802ACA0A9C4DB91"
-			tasks: [{
-				id: "4074EDDFDB3F22CE"
-				type: "item"
-				item: {
-					id: "arsenals_of_the_apocalypse:bomb_defusing_kit"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "46672ACA5C5C4523"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Modern Hunter - V"
-			x: -22.5d
-			y: 17.0d
-			description: ["Obtain or craft a razorwire, it can be connected with electricity."]
-			dependencies: ["3D5034941203E7E3"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "49DBF16FBCF0066F"
-			tasks: [{
-				id: "6F673F9BCDCA40F1"
-				type: "item"
-				item: "immersiveengineering:razor_wire"
-			}]
-		}
-		{
-			title: "Modern Hunter - VI"
-			x: -26.0d
-			y: 14.0d
-			description: ["Obtain or craft a cheaper barb wire using iron wires."]
-			dependencies: ["3D5034941203E7E3"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "4D3DAD625F86707D"
-			tasks: [{
-				id: "5B7EBABF3262A665"
-				type: "item"
-				item: "createaddition:barbed_wire"
 			}]
 		}
 	]
