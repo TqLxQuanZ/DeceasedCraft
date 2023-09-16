@@ -11,5 +11,10 @@
 		"lackhelmet": ["apocalypsenow:gasmask_helmet", "apocalypsenow:hazmat_suit_helmet", "apocalypsenow:biohazard_helmet", "apocalypsenow:soldier_helmet"],
 		"potion": "minecraft:nausea,140,0",
 		"message": "Do not enter the wasteland without any gas mask!"
+	},
+	{
+		"timeout": 60,
+		"helmet": "apocalypsenow:spec_ops_helmet",
+		"potion": "minecraft:night_vision,300,10"
 	}
 ]
