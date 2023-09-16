@@ -158,6 +158,13 @@ craftingTable.addShaped("mine", <item:securitycraft:mine>,
     [[<item:minecraft:air>, <item:minecraft:heavy_weighted_pressure_plate>, <item:minecraft:air>],
 	[<item:minecraft:heavy_weighted_pressure_plate>, <item:apocalypsenow:gunpowder_can>, <item:minecraft:heavy_weighted_pressure_plate>]]);
 
+// Keycard Reader
+craftingTable.remove(<item:securitycraft:keycard_reader>);
+craftingTable.addShaped("keycard_reader", <item:securitycraft:keycard_reader>,
+    [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>],
+    [<tag:items:forge:ingots/iron>, <item:refinedstorage:improved_processor>, <item:securitycraft:portable_radar>],
+	[<tag:items:forge:ingots/iron>, <item:minecraft:hopper>, <tag:items:forge:ingots/iron>]]);
+
 // Inventory Scanner
 craftingTable.remove(<item:securitycraft:inventory_scanner>);
 craftingTable.addShaped("inventory_scanner", <item:securitycraft:inventory_scanner>,
@@ -205,6 +212,9 @@ JEI.hideIngredient(<item:securitycraft:protecto>);
 
 craftingTable.remove(<item:securitycraft:ims>);
 JEI.hideIngredient(<item:securitycraft:ims>);
+
+craftingTable.remove(<item:securitycraft:electrified_iron_fence>);
+JEI.hideIngredient(<item:securitycraft:electrified_iron_fence>);
 
 craftingTable.remove(<item:securitycraft:cage_trap>);
 JEI.hideIngredient(<item:securitycraft:cage_trap>);

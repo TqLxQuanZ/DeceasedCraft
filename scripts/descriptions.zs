@@ -20,7 +20,6 @@ JEI.addDescription(<item:immersiveengineering:blueprint>.withTag({blueprint: "el
 JEI.addDescription(<item:immersiveengineering:blueprint>.withTag({blueprint: "bullet" as string}), "Common turret blueprint can be obtained by purchasing it from masterwork gunsmith.");
 JEI.addDescription(<item:immersiveengineering:blueprint>.withTag({blueprint: "specialBullet" as string}), "Special turret blueprint can be obtained by purchasing it from masterwork gunsmith.");
 
-
 // Bullet Descriptions
 JEI.addDescription(<item:additionalguns:bullet_small>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using emeralds. Weaponsmiths and Gunsmiths also offer bullets for sale.");
 JEI.addDescription(<item:additionalguns:bullet_short>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using emeralds. Weaponsmiths and Gunsmiths also offer bullets for sale.");
@@ -28,6 +27,10 @@ JEI.addDescription(<item:additionalguns:bullet_medium>, "Bullets can be crafted 
 JEI.addDescription(<item:additionalguns:bullet_long>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using emeralds.Gunsmiths also offer bullets for sale.");
 JEI.addDescription(<item:additionalguns:bullet_heavy>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using emeralds. Gunsmiths also offer bullets for sale.");
 JEI.addDescription(<item:additionalguns:bullet_special>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using emeralds.");
+
+
+// Nether Star
+JEI.addDescription(<item:minecraft:nether_star>, "Nether Star can be found from a hidden boss in the wasteland factories area.");
 
 // Rubber Description
 JEI.addDescription(<item:contenttweaker:rubber>, "Rubber can be found in various buildings with a rare chance, or it can be purchased from wandering traders.");
