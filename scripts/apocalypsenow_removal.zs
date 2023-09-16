@@ -655,3 +655,6 @@ JEI.hideIngredient(<item:apocalypsenow:jet_pilot_leggings>);
 
 craftingTable.remove(<item:apocalypsenow:jet_pilot_boots>);
 JEI.hideIngredient(<item:apocalypsenow:jet_pilot_boots>);
+
+craftingTable.remove(<item:apocalypsenow:fire_module_katana>);
+JEI.hideIngredient(<item:apocalypsenow:fire_module_katana>);
