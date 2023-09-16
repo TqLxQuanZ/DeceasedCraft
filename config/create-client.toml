@@ -128,4 +128,19 @@
 		#.
 		#Display nodes and edges of a Railway Network while f3 debug mode is active
 		showTrackGraphOnF3 = false
+		#.
+		#Additionally display materials of a Rail Network while f3 debug mode is active
+		showExtendedTrackGraphOnF3 = false
+
+	#.
+	#Configure your vision range when submerged in Create's custom fluids
+	[client.fluidFogSettings]
+		#.
+		#The vision range through honey will be multiplied by this factor
+		#Range: 0.125 ~ 256.0
+		honey = 1.0
+		#.
+		#The vision range though chocolate will be multiplied by this factor
+		#Range: 0.125 ~ 256.0
+		chocolate = 1.0
 

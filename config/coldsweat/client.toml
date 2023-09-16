@@ -1,5 +1,11 @@
 #Displays areas that the Hearth affecting when the F3 debug menu is open
 "Hearth Debug" = true
+#Show the config menu button in the Options menu
+"Enable In-Game Config" = true
+#The position (offset) of the config button on the screen
+"Config Button Position" = [0, 0]
+#Enables visual distortion effects when the player is too hot or cold
+"Distortion Effects" = true
 
 ["Temperature display preferences"]
 	#Sets all temperatures to be displayed in Celsius
@@ -9,34 +15,28 @@
 	"Temperature Offset" = 0
 
 ["Position of the 'Steve Head' temperature gauge above the hotbar"]
-
-	["Position of the 'Steve Head' temperature gauge above the hotbar".Temp]
-		#The x position of the gauge relative to its normal position
-		#Range: > -2147483648
-		" Icon X Offset" = 0
-		#The y position of the gauge relative to its normal position
-		#Range: > -2147483648
-		" Icon Y Offset" = 0
+	#The x position of the gauge relative to its normal position
+	#Range: > -2147483648
+	"X Offset" = 0
+	#The y position of the gauge relative to its normal position
+	#Range: > -2147483648
+	"Y Offset" = 0
 
 ["Position of the temperature number below the icon"]
-
-	["Position of the temperature number below the icon".Temp]
-		#The x position of the temperature gauge relative to default
-		#Range: > -2147483648
-		" Readout X Offset" = 0
-		#The y position of the temperature gauge relative to default
-		#Range: > -2147483648
-		" Readout Y Offset" = 0
+	#The x position of the temperature gauge relative to default
+	#Range: > -2147483648
+	"X Offset" = 0
+	#The y position of the temperature gauge relative to default
+	#Range: > -2147483648
+	"Y Offset" = 0
 
 ["Position of the world temperature gauge beside the hotbar"]
-
-	["Position of the world temperature gauge beside the hotbar".Temp]
-		#The x position of the temperature gauge relative to default
-		#Range: > -2147483648
-		" Gauge X Offset" = 0
-		#The y position of the temperature gauge relative to default
-		#Range: > -2147483648
-		" Gauge Y Offset" = 0
+	#The x position of the temperature gauge relative to default
+	#Range: > -2147483648
+	"X Offset" = 0
+	#The y position of the temperature gauge relative to default
+	#Range: > -2147483648
+	"Y Offset" = 0
 
 ["UI Options"]
 	"Custom hotbar layout" = true

@@ -1,7 +1,7 @@
 
 [general]
 	#Whether all players should get an Animal Dictionary when joining the world for the first time.
-	giveBookOnStartup = true
+	giveBookOnStartup = false
 	#Lava Opacity for the Lava Vision Potion.
 	#Range: 0.01 ~ 1.0
 	lavaVisionOpacity = 0.65
@@ -96,7 +96,7 @@
 	#Range: 0.0 ~ 1000000.0
 	voidWormMaxHealth = 160.0
 	#Whether the void worm boss is summonable or not, via the mysterious worm item.
-	voidWormSummonable = true
+	voidWormSummonable = false
 	#Whether seagulls should steal food out of players' hotbar slots.
 	seagullStealing = true
 	#List of items that seagulls cannot take from players.
@@ -112,7 +112,7 @@
 	#Whether Rabbits can transform into Bunfungus if fed Mungal spores.
 	bunfungusTransformation = true
 	#True if some Alex's Mobs items should spawn in loot chests.
-	addLootToChests = true
+	addLootToChests = false
 
 	[general.spawning]
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn

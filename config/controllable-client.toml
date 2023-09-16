@@ -1,0 +1,68 @@
+
+#Client configuration settings
+[client]
+
+	#In-game related options. These can be changed in game instead of config!
+	[client.options]
+		#If enabled, some actions will cause the controller to vibrate
+		forceFeedback = true
+		#If enabled, controller will be automatically selected on start up or when plugged in
+		autoSelect = true
+		#If enabled, the player will render in the top left corner likes Bedrock Edition
+		renderMiniPlayer = true
+		#If enabled, the game will use a virtual cursor instead of the real cursor. This must be turned on to be able to run multiple instances!
+		virtualMouse = true
+		#If enabled, hotbar will render closer to the center of the screen like on console.
+		consoleHotbar = false
+		#The image to use for the cursor. This only applies if virtual mouse is enabled!
+		#Allowed Values: LIGHT, DARK, CONSOLE, LEGACY_LIGHT, LEGACY_DARK
+		cursorType = "LIGHT"
+		#The controller icons to use in game to display actions
+		#Allowed Values: DEFAULT, PLAYSTATION_4, PLAYSTATION_3, XBOX_ONE, XBOX_360, SWITCH_JOYCONS, SWITCH_CONTROLLER, GAMECUBE, STEAM
+		controllerIcons = "DEFAULT"
+		#If enabled, inverts the controls on the Y axis for the camera
+		invertLook = false
+		#If enabled, inverts the controls on the X axis for the camera
+		invertRotation = false
+		#The distance you have to move the thumbstick before it's input is registered. This fixes drifting as some thumbsticks don't center to zero.
+		#Range: 0.0 ~ 1.0
+		deadZone = 0.15
+		#The speed which the camera turns in game
+		#Range: 0.0 ~ 100.0
+		rotationSpeed = 25.0
+		#The sensitivity of the camera's pitch rotation when applying the rotation speed. Setting to 1.0 would mean applying 100% of the rotation speed.
+		#Range: 0.0 ~ 1.0
+		pitchSensitivity = 0.75
+		#The sensitivity of the camera's yaw rotation when applying the rotation speed. Setting to 1.0 would mean applying 100% of the rotation speed.
+		#Range: 0.0 ~ 1.0
+		yawSensitivity = 1.0
+		#The speed which the cursor or virtual mouse moves around the screen
+		#Range: 0.0 ~ 50.0
+		mouseSpeed = 15.0
+		#If enabled, shows common actions when displaying available on the screen
+		#Allowed Values: ALL, MINIMAL, NONE
+		showActions = "MINIMAL"
+		#If enabled, allows you to craft quickly when clicking an item in the recipe book
+		quickCraft = true
+		#If enabled, plays a pop sound when you navigate in inventories, menus or scrolling the radial menu
+		uiSounds = true
+		#The thumbstick to use when scrolling items in the radial menu
+		#Allowed Values: LEFT, RIGHT
+		radialThumbstick = "RIGHT"
+		#The behaviour to use for sneaking. Toggle means to press once to sneak then press again to stand again. Hold means you must hold the sneak button and releasing will make the player stand again.
+		#Allowed Values: TOGGLE, HOLD
+		sneakMode = "TOGGLE"
+		#The thumbstick that controls moving the cursor
+		#Allowed Values: LEFT, RIGHT
+		cursorThumbstick = "LEFT"
+		#The scale of the mouse speed when hovering a widget or item slot
+		#Range: 0.05 ~ 1.0
+		hoverModifier = 0.6
+		#Enabling this option will improve polling of controllers when your game FPS is capped. This will not have an effect if your game is already running at a low FPS without a cap.
+		fpsPollingFix = true
+		#Draws a transparent background behind the text of the button hint
+		hintBackground = true
+		#The speed that lists scroll
+		#Range: 1.0 ~ 30.0
+		listScrollSpeed = 10.0
+

@@ -29,14 +29,14 @@ simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:3
 particles:0
-maxFps:90
+maxFps:145
 difficulty:2
 graphicsMode:1
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","contenttweaker:runtime/contenttweaker/ass","contenttweaker:user/client_resources","quark:emote_resources","file/Remove_Potion_Particles_1.18_v1.2.zip","file/§6No_Enchant_Glint_1.18.zip","file/Tissou\u0027s Zombie Pack 1.18_2.6.zip"]
+resourcePacks:["vanilla","mod_resources","contenttweaker:runtime/contenttweaker/ass","contenttweaker:user/client_resources","quark:emote_resources","file/Remove_Potion_Particles_1.18_v1.2.zip","file/§6No_Enchant_Glint_1.18.zip","file/Tissou\u0027s Zombie Pack 1.18_2.6.zip","file/[1.18.0]+Ultimate+Car+textures-1.0.1.zip"]
 incompatibleResourcePacks:["quark:emote_resources"]
 lastServer:localhost:25565
 lang:en_us
@@ -74,8 +74,8 @@ hideBundleTutorial:false
 syncChunkWrites:false
 showAutosaveIndicator:true
 allowServerListing:true
-soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_master:0.50773233
+soundCategory_music:0.50895685
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
