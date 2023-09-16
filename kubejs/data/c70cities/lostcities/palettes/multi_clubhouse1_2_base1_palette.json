@@ -133,14 +133,19 @@
     },
     {
       "char": "K",
-      "block": "create:polished_cut_deepslate_slab[waterlogged=false,type=top]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "L",
-      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+      "block": "create:polished_cut_deepslate_slab[waterlogged=false,type=top]"
     },
     {
       "char": "M",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "N",
       "block": "embellishcraft:smooth_andesite_slab[waterlogged=false,type=bottom]"
     }
   ]

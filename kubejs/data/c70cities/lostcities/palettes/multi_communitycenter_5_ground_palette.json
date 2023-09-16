@@ -189,18 +189,27 @@
     },
     {
       "char": "Y",
-      "block": "minecraft:cave_vines_plant"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=north,open=false]"
     },
     {
       "char": "Z",
-      "block": "minecraft:smooth_stone"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "0",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:cave_vines_plant"
     },
     {
       "char": "1",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "2",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "3",
       "block": "minecraft:birch_slab[waterlogged=false,type=top]"
     }
   ]

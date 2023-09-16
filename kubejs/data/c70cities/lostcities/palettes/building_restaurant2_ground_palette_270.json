@@ -314,23 +314,28 @@
     },
     {
       "char": "{",
-      "block": "farmersdelight:birch_cabinet[facing=east,open=false]",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
       "loot": "chestloot"
     },
     {
       "char": "}",
-      "block": "embellishcraft:dark_concrete_paving_slab[waterlogged=false,type=bottom]"
+      "block": "farmersdelight:birch_cabinet[facing=east,open=false]",
+      "loot": "chestloot"
     },
     {
       "char": "\\",
-      "block": "minecraft:stripped_birch_log[axis=z]"
+      "block": "embellishcraft:dark_concrete_paving_slab[waterlogged=false,type=bottom]"
     },
     {
       "char": "|",
-      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stripped_birch_log[axis=z]"
     },
     {
       "char": "`",
+      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": ":",
       "block": "minecraft:stripped_birch_log[axis=x]"
     }
   ]

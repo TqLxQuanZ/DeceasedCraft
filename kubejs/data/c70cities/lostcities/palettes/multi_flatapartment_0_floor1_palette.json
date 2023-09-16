@@ -52,121 +52,126 @@
     },
     {
       "char": "m",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=lower,facing=west,open=false]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "n",
+      "block": "embellishcraft:spruce_plain_door[hinge=left,half=lower,facing=west,open=false]"
+    },
+    {
+      "char": "o",
       "block": "another_furniture:spruce_drawer[facing=north,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "o",
+      "char": "p",
       "block": "embellishcraft:white_couch[waterlogged=false,shape=straight,facing=west]"
     },
     {
-      "char": "p",
+      "char": "q",
       "block": "minecraft:white_bed[part=foot,facing=south,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "q",
+      "char": "r",
       "block": "cfm:stripped_spruce_bedside_cabinet[waterlogged=false,facing=west,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "r",
+      "char": "s",
       "block": "embellishcraft:spruce_plain_door[hinge=right,half=lower,facing=west,open=false]"
     },
     {
-      "char": "s",
+      "char": "t",
       "block": "minecraft:white_bed[part=head,facing=south,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "t",
+      "char": "u",
       "block": "cfm:stripped_spruce_bedside_cabinet[waterlogged=false,facing=south,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "u",
+      "char": "w",
       "block": "minecraft:white_bed[part=head,facing=west,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "w",
+      "char": "x",
       "block": "minecraft:white_bed[part=foot,facing=west,occupied=false]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "x",
+      "char": "y",
       "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     },
     {
-      "char": "y",
+      "char": "A",
       "block": "cfm:spruce_kitchen_sink_light[facing=north]"
     },
     {
-      "char": "A",
+      "char": "B",
       "block": "embellishcraft:spruce_plain_door[hinge=right,half=lower,facing=east,open=false]"
     },
     {
-      "char": "B",
+      "char": "C",
       "block": "create:spruce_window_pane[waterlogged=false]"
     },
     {
-      "char": "C",
+      "char": "D",
       "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=east,open=false]"
     },
     {
-      "char": "D",
+      "char": "E",
       "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=north,open=false]"
     },
     {
-      "char": "E",
+      "char": "F",
       "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
-      "char": "F",
+      "char": "I",
       "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=west,open=false]"
     },
     {
-      "char": "I",
+      "char": "J",
       "block": "quark:spruce_bookshelf"
     },
     {
-      "char": "J",
+      "char": "K",
       "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=west,open=false]"
     },
     {
-      "char": "K",
+      "char": "L",
       "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
     },
     {
-      "char": "L",
+      "char": "M",
       "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=east,open=false]"
     },
     {
-      "char": "M",
+      "char": "N",
       "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "N",
+      "char": "O",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "O",
+      "char": "P",
       "block": "embellishcraft:polished_marble_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "P",
+      "char": "Q",
       "block": "embellishcraft:smooth_marble_slab[waterlogged=false,type=bottom]"
     }
   ]

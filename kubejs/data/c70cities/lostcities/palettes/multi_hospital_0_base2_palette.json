@@ -7,91 +7,106 @@
     },
     {
       "char": "b",
-      "block": "minecraft:dirt"
+      "block": "minecraft:smooth_quartz"
     },
     {
       "char": "c",
-      "block": "minecraft:quartz_block"
+      "block": "create:redstone_contact[facing=north]"
     },
     {
       "char": "d",
-      "block": "minecraft:smooth_stone"
+      "block": "minecraft:dirt"
     },
     {
       "char": "e",
-      "block": "embellishcraft:basalt_large_bricks"
+      "block": "minecraft:quartz_block"
     },
     {
       "char": "f",
-      "block": "cfm:stone_chair[waterlogged=false,facing=north]"
+      "block": "minecraft:smooth_stone"
     },
     {
       "char": "g",
-      "block": "cfm:stone_chair[waterlogged=false,facing=west]"
+      "block": "embellishcraft:basalt_large_bricks"
     },
     {
       "char": "h",
-      "block": "minecraft:white_concrete"
+      "block": "cfm:stone_chair[waterlogged=false,facing=north]"
     },
     {
       "char": "i",
-      "block": "cfm:stone_chair[waterlogged=false,facing=east]"
+      "block": "cfm:stone_chair[waterlogged=false,facing=west]"
     },
     {
       "char": "j",
-      "block": "cfm:stone_chair[waterlogged=false,facing=south]"
+      "block": "minecraft:white_concrete"
     },
     {
       "char": "k",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "cfm:stone_chair[waterlogged=false,facing=east]"
     },
     {
       "char": "l",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "cfm:stone_chair[waterlogged=false,facing=south]"
     },
     {
       "char": "m",
-      "block": "minecraft:bookshelf"
+      "block": "create:contraption_controls[waterlogged=false,facing=east,open=false]",
+      "tag": {
+        "id": "create:contraption_controls"
+      }
     },
     {
       "char": "n",
+      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "o",
+      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "q",
       "block": "arsenals_of_the_apocalypse:medical_storage",
       "loot": "chestloot"
     },
     {
-      "char": "o",
+      "char": "r",
       "block": "minecraft:heavy_weighted_pressure_plate"
     },
     {
-      "char": "p",
+      "char": "s",
       "block": "minecraft:daylight_detector"
     },
     {
-      "char": "q",
+      "char": "t",
       "block": "minecraft:brewing_stand"
     },
     {
-      "char": "r",
+      "char": "u",
       "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=east,open=false]"
     },
     {
-      "char": "s",
+      "char": "w",
       "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=east,open=false]"
     },
     {
-      "char": "t",
+      "char": "x",
       "block": "quark:iron_button[face=wall,facing=east]"
     },
     {
-      "char": "u",
+      "char": "y",
       "block": "minecraft:comparator[facing=west]"
     },
     {
-      "char": "w",
+      "char": "A",
       "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=east]"
     },
     {
-      "char": "x",
+      "char": "B",
       "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
     }
   ]

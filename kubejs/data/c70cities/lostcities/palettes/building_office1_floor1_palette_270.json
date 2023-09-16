@@ -118,38 +118,43 @@
     },
     {
       "char": "E",
-      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=east,open=true]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "F",
-      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=east,open=true]"
+      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=east,open=true]"
     },
     {
       "char": "I",
-      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=east,open=true]"
     },
     {
       "char": "J",
-      "block": "minecraft:potted_bamboo"
+      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
       "char": "K",
-      "block": "minecraft:heavy_weighted_pressure_plate"
+      "block": "minecraft:potted_bamboo"
     },
     {
       "char": "L",
-      "block": "quark:iron_button[face=floor,facing=north]"
+      "block": "minecraft:heavy_weighted_pressure_plate"
     },
     {
       "char": "M",
-      "block": "minecraft:flower_pot"
+      "block": "quark:iron_button[face=floor,facing=north]"
     },
     {
       "char": "N",
-      "block": "minecraft:quartz_block"
+      "block": "minecraft:flower_pot"
     },
     {
       "char": "O",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "P",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
     }
   ]

@@ -63,7 +63,8 @@
     },
     {
       "char": "o",
-      "block": "minecraft:cobweb"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "p",
@@ -75,97 +76,106 @@
     },
     {
       "char": "r",
-      "block": "quark:carrot_crate"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "s",
-      "block": "minecraft:tnt"
+      "block": "quark:carrot_crate"
     },
     {
       "char": "t",
-      "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
+      "block": "minecraft:tnt"
     },
     {
       "char": "u",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=south]"
+      "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
     },
     {
       "char": "w",
-      "block": "quark:iron_button[face=wall,facing=south]"
+      "block": "quark:stone_vertical_slab[waterlogged=false,type=south]"
     },
     {
       "char": "x",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "quark:iron_button[face=wall,facing=south]"
     },
     {
       "char": "y",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=south,open=false]"
     },
     {
       "char": "A",
-      "block": "quark:golden_apple_crate"
+      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=south,open=false]"
     },
     {
       "char": "B",
-      "block": "minecraft:glowstone"
+      "block": "quark:golden_apple_crate"
     },
     {
       "char": "C",
-      "block": "embellishcraft:black_corrugated_metal_plate_pressure_plate"
+      "block": "minecraft:glowstone"
     },
     {
       "char": "D",
-      "block": "create:andesite_bars[waterlogged=false]"
+      "block": "embellishcraft:black_corrugated_metal_plate_pressure_plate"
     },
     {
       "char": "E",
-      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+      "block": "create:andesite_bars[waterlogged=false]"
     },
     {
       "char": "F",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
     },
     {
       "char": "I",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "J",
-      "block": "quark:apple_crate"
+      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
       "char": "K",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
       "char": "L",
+      "block": "quark:apple_crate"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "N",
       "block": "create:nixie_tube[waterlogged=false,double_face=ceiling,facing=east]",
       "tag": {
         "id": "create:nixie_tube"
       }
     },
     {
-      "char": "M",
+      "char": "O",
       "block": "minecraft:stone_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
-      "char": "N",
+      "char": "P",
       "block": "embellishcraft:marble_button[face=floor,facing=south]"
     },
     {
-      "char": "O",
+      "char": "Q",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "P",
+      "char": "R",
       "block": "simplylight:illuminant_block"
     },
     {
-      "char": "Q",
+      "char": "S",
       "block": "simplylight:illuminant_block_on"
     },
     {
-      "char": "R",
+      "char": "T",
       "block": "embellishcraft:marble_button[face=floor,facing=west]"
     }
   ]

@@ -136,52 +136,57 @@
     },
     {
       "char": "L",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
       "loot": "chestloot"
     },
     {
       "char": "M",
-      "block": "create:framed_glass_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "N",
-      "block": "create:framed_glass_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "create:framed_glass_door[hinge=left,half=upper,facing=east,open=false]"
     },
     {
       "char": "O",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=north,open=false]"
+      "block": "create:framed_glass_door[hinge=right,half=upper,facing=east,open=false]"
     },
     {
       "char": "P",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=north,open=false]"
+    },
+    {
+      "char": "Q",
       "block": "cfm:fridge_light[facing=south,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "Q",
+      "char": "R",
       "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     },
     {
-      "char": "R",
+      "char": "S",
       "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "S",
+      "char": "T",
       "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
     },
     {
-      "char": "T",
+      "char": "U",
       "block": "quark:limestone_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "U",
+      "char": "V",
       "block": "bunker_down:broken_ceiling_lamp"
     },
     {
-      "char": "V",
+      "char": "W",
       "block": "bunker_down:ceiling_lamp"
     },
     {
-      "char": "W",
+      "char": "X",
       "block": "embellishcraft:vent_air_duct[facing=down]"
     }
   ]

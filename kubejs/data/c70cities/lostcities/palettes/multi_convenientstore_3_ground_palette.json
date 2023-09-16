@@ -103,182 +103,187 @@
     },
     {
       "char": "B",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "C",
       "block": "farmersdelight:spruce_cabinet[facing=south,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "D",
+      "char": "C",
       "block": "minecraft:smooth_quartz"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "minecraft:redstone_torch[lit=true]"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=east]"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "minecraft:sandstone_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "embellishcraft:oak_plain_door[hinge=right,half=lower,facing=east,open=false]"
     },
     {
-      "char": "L",
+      "char": "K",
       "block": "farmersdelight:cabbage_crate"
     },
     {
-      "char": "M",
+      "char": "L",
       "block": "minecraft:sandstone"
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "cfm:oak_kitchen_sink_light[facing=south]"
     },
     {
-      "char": "O",
+      "char": "N",
       "block": "minecraft:cobweb"
     },
     {
-      "char": "P",
+      "char": "O",
       "block": "farmersdelight:potato_crate"
     },
     {
-      "char": "Q",
+      "char": "P",
       "block": "embellishcraft:grid_air_duct[facing=south]"
     },
     {
-      "char": "R",
+      "char": "Q",
       "block": "create:framed_glass_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
-      "char": "S",
+      "char": "R",
       "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
-      "char": "T",
+      "char": "S",
       "block": "minecraft:heavy_weighted_pressure_plate"
     },
     {
-      "char": "U",
+      "char": "T",
       "block": "minecraft:brewing_stand"
     },
     {
-      "char": "V",
+      "char": "U",
       "block": "minecraft:iron_door[hinge=left,half=upper,facing=west,open=false]"
     },
     {
-      "char": "W",
+      "char": "V",
       "block": "minecraft:stone_button[face=wall,facing=north]"
     },
     {
-      "char": "X",
+      "char": "W",
       "block": "ag_day_counter:calendar[waterlogged=false,facing=east]"
     },
     {
-      "char": "Y",
+      "char": "X",
       "block": "minecraft:stone_button[face=wall,facing=west]"
     },
     {
-      "char": "Z",
+      "char": "Y",
       "block": "minecraft:iron_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
-      "char": "0",
+      "char": "Z",
       "block": "minecraft:bookshelf"
     },
     {
-      "char": "1",
+      "char": "0",
       "block": "another_furniture:white_lamp[waterlogged=false,lit=false,facing=up]"
     },
     {
-      "char": "2",
+      "char": "1",
       "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=east]"
     },
     {
-      "char": "3",
+      "char": "2",
       "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
       "loot": "chestloot"
     },
     {
-      "char": "4",
+      "char": "3",
       "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
     },
     {
-      "char": "5",
+      "char": "4",
       "block": "embellishcraft:oak_plain_door[hinge=right,half=upper,facing=east,open=false]"
     },
     {
-      "char": "6",
+      "char": "5",
       "block": "another_furniture:oak_shelf[waterlogged=false,facing=north,type=right]"
     },
     {
-      "char": "7",
+      "char": "6",
       "block": "another_furniture:oak_shelf[waterlogged=false,facing=north,type=middle]"
     },
     {
-      "char": "8",
+      "char": "7",
       "block": "another_furniture:oak_shelf[waterlogged=false,facing=north,type=left]"
     },
     {
-      "char": "9",
+      "char": "8",
       "block": "farmersdelight:tomato_crate"
     },
     {
-      "char": "@",
+      "char": "9",
       "block": "embellishcraft:air_duct"
     },
     {
-      "char": "#",
+      "char": "@",
       "block": "minecraft:oak_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
     },
     {
-      "char": "$",
+      "char": "#",
       "block": "simplylight:edge_light_top[waterlogged=false]"
     },
     {
+      "char": "$",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
+    },
+    {
       "char": "%",
-      "block": "embellishcraft:vent_air_duct[facing=south]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "^",
-      "block": "immersiveengineering:slab_sheetmetal_colored_lime[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:vent_air_duct[facing=south]"
     },
     {
       "char": "&",
-      "block": "quark:limestone_slab[waterlogged=false,type=top]"
+      "block": "immersiveengineering:slab_sheetmetal_colored_lime[waterlogged=false,type=bottom]"
     },
     {
       "char": "*",
-      "block": "quark:limestone_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "quark:limestone_slab[waterlogged=false,type=top]"
     },
     {
       "char": "(",
+      "block": "quark:limestone_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": ")",
       "block": "farmersdelight:spruce_cabinet[facing=north,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": ")",
+      "char": "+",
       "block": "bunker_down:broken_ceiling_lamp"
     },
     {
-      "char": "+",
+      "char": "-",
       "block": "minecraft:oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
     },
     {
-      "char": "-",
+      "char": "[",
       "block": "embellishcraft:vent_air_duct[facing=down]"
     }
   ]

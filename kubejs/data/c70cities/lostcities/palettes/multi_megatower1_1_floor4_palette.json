@@ -79,7 +79,8 @@
     },
     {
       "char": "t",
-      "block": "cfm:stripped_spruce_coffee_table[waterlogged=false]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "u",

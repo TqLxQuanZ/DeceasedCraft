@@ -138,67 +138,72 @@
     },
     {
       "char": "K",
-      "block": "create:framed_glass_door[hinge=right,half=upper,facing=north,open=false]"
-    },
-    {
-      "char": "L",
-      "block": "create:framed_glass_door[hinge=left,half=upper,facing=north,open=false]"
-    },
-    {
-      "char": "M",
-      "block": "another_furniture:service_bell[waterlogged=false]"
-    },
-    {
-      "char": "N",
-      "block": "embellishcraft:birch_plain_door[hinge=right,half=upper,facing=east,open=false]"
-    },
-    {
-      "char": "O",
-      "block": "quark:framed_glass_pane[waterlogged=false]"
-    },
-    {
-      "char": "P",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
-    },
-    {
-      "char": "Q",
-      "block": "simplylight:illuminant_yellow_block_on"
-    },
-    {
-      "char": "R",
-      "block": "minecraft:yellow_terracotta"
-    },
-    {
-      "char": "S",
-      "block": "another_furniture:oak_shelf[waterlogged=false,facing=west,type=left]"
-    },
-    {
-      "char": "T",
-      "block": "another_furniture:oak_shelf[waterlogged=false,facing=west,type=right]"
-    },
-    {
-      "char": "U",
-      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
-    },
-    {
-      "char": "V",
-      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
-    },
-    {
-      "char": "W",
       "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
       "loot": "chestloot"
     },
     {
+      "char": "L",
+      "block": "create:framed_glass_door[hinge=right,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "M",
+      "block": "create:framed_glass_door[hinge=left,half=upper,facing=north,open=false]"
+    },
+    {
+      "char": "N",
+      "block": "another_furniture:service_bell[waterlogged=false]"
+    },
+    {
+      "char": "O",
+      "block": "embellishcraft:birch_plain_door[hinge=right,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "P",
+      "block": "quark:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
+    },
+    {
+      "char": "R",
+      "block": "simplylight:illuminant_yellow_block_on"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:yellow_terracotta"
+    },
+    {
+      "char": "T",
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=west,type=left]"
+    },
+    {
+      "char": "U",
+      "block": "another_furniture:oak_shelf[waterlogged=false,facing=west,type=right]"
+    },
+    {
+      "char": "V",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "W",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+    },
+    {
       "char": "X",
-      "block": "minecraft:chain[waterlogged=false,axis=y]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "Y",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "Z",
+      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "0",
       "block": "embellishcraft:gray_corrugated_metal_plate_slab[waterlogged=false,type=bottom]"
     }
   ]

@@ -89,10 +89,20 @@
     },
     {
       "char": "w",
-      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
+      "loot": "chestloot"
     },
     {
       "char": "x",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "y",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "A",
       "block": "create:polished_cut_deepslate_slab[waterlogged=false,type=top]"
     }
   ]

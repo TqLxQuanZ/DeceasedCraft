@@ -301,10 +301,14 @@
     },
     {
       "char": "\\",
-      "block": "embellishcraft:red_pillow[waterlogged=false,part=head,facing=north,occupied=false]"
+      "block": "create:redstone_contact[facing=north]"
     },
     {
       "char": "|",
+      "block": "embellishcraft:red_pillow[waterlogged=false,part=head,facing=north,occupied=false]"
+    },
+    {
+      "char": "`",
       "block": "embellishcraft:blue_pillow[waterlogged=false,part=head,facing=north,occupied=false]"
     }
   ]
