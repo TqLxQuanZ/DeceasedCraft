@@ -34,17 +34,6 @@
         "result": "deny"
     },
     {
-        "mob": "undead_revamp2:thespitter",
-        "dimension": "minecraft:overworld",
-        "mincount": {
-          "amount": 5,
-          "mob": "undead_revamp2:thespitter",
-          "perchunk": true
-        },
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
       "mod": "zombiemobs",
       "dimension": "minecraft:overworld",
       "mincount": {
@@ -183,7 +172,7 @@
       }
     },
     {
-      "mob": "undead_revamp2:thespitter",
+      "mob": "undead_revamp2:the_moonflower",
       "biome": ["biomesoplenty:mediterranean_forest",
                 "biomesoplenty:mystic_grove",
                 "biomesoplenty:cherry_blossom_grove",
