@@ -29,11 +29,11 @@
 [torch]
 	#How long a torch lasts when crafted. There are 20 ticks per second so 48000 ticks = 20 minutes.
 	#Range: > 1
-	defaultTorchFuel = 144000
+	defaultTorchFuel = 480000
 	#Torches will become unlit when broken.
-	torchesExtinguishWhenBroken = true
+	torchesExtinguishWhenBroken = false
 	#Overrides torchesExtinguishWhenBroken. Torches will be fully expended when broken (burnt torch or stick).
-	torchesBurnWhenDropped = true
+	torchesBurnWhenDropped = false
 	#Fully expended torches will drop as sticks rather than burnt torches.
 	burntStick = false
 	#Torches will be affected when in the rain. Will smolder or become unlit depending on torchesSmolder.
@@ -48,18 +48,18 @@
 	#1: When going underwater, torches in mainhand or offhand will be extinguished
 	#2: When going underwater, torches in inventory will be extinguished
 	#Range: 0 ~ 2
-	invExtinguishInWater = 2
+	invExtinguishInWater = 0
 	#0: When in rain, torches in your inventory will be unaffected
 	#1: When in rain, torches in mainhand or offhand will be extinguished or smolder
 	#2: When in rain, torches in inventory will be extinguished or smolder
 	#Range: 0 ~ 2
-	invExtinguishInRain = 2
+	invExtinguishInRain = 0
 
 #Lantern Settings
 [lantern]
 	#The max amount of fuel a lantern can hold. There are 20 ticks per second so 144000 ticks = 60 minutes.
 	#Range: > 1
-	defaultLanternFuel = 144000
+	defaultLanternFuel = 480000
 	#A lantern must have at least this much fuel to be ignited from unlit. Once lit it will continue to burn to 0
 	#Range: > 1
 	minLanternIgnitionFuel = 1

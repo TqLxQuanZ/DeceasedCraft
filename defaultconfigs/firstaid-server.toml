@@ -3,7 +3,7 @@
 ["Damage System"]
 	#Max health of the Head
 	#Range: 2 ~ 12
-	maxHealthHead = 4
+	maxHealthHead = 6
 	#Max health of the Left Arm
 	#Range: 2 ~ 12
 	maxHealthLeft_Arm = 4
@@ -89,10 +89,10 @@
 	["Internal Healing".bandage]
 		#The total heals this item does when applied. 1 heal = half a heart
 		#Range: 1 ~ 127
-		totalsHeals = 4
+		totalsHeals = 6
 		#The time it takes for a single heal to trigger. Total time this item is active = this * totalHeals
 		#Range: 1 ~ 32767
-		secondsPerHeal = 4
+		secondsPerHeal = 2
 		#The time it takes in the GUI to apply the item in milliseconds
 		#Range: 0 ~ 16000
 		applyTime = 2500
@@ -103,7 +103,7 @@
 		totalsHeals = 2
 		#The time it takes for a single heal to trigger. Total time this item is active = this * totalHeals
 		#Range: 1 ~ 32767
-		secondsPerHeal = 4
+		secondsPerHeal = 2
 		#The time it takes in the GUI to apply the item in milliseconds
 		#Range: 0 ~ 16000
 		applyTime = 1400
