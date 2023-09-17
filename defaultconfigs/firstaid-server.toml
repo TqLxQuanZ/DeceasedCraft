@@ -15,7 +15,7 @@
 	maxHealthLeft_Foot = 4
 	#Max health of the Body
 	#Range: 2 ~ 12
-	maxHealthBody = 6
+	maxHealthBody = 4
 	#Max health of the Right Arm
 	#Range: 2 ~ 12
 	maxHealthRight_Arm = 4
@@ -28,7 +28,7 @@
 	#True if the head can cause death if health drops to 0
 	causeDeathHead = true
 	#True if the body can cause death if health drops to 0
-	causeDeathBody = true
+	causeDeathBody = false
 
 ["Locational Armor"]
 

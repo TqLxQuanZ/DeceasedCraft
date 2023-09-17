@@ -443,6 +443,41 @@
 				}
 			]
 		}
+		{
+			title: "Body Health"
+			icon: "artifacts:crystal_heart"
+			x: 0.0d
+			y: -1.5d
+			shape: "heart"
+			description: [
+				"- The head is the most critical body part; if it runs out of health, you'll die immediately. Damage to the chest and limbs can result in various debuffs if they are severely injured."
+				"- Wearing a helmet can significantly increase your chances of survival, especially since enemies often target the head."
+			]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			progression_mode: "flexible"
+			id: "338F2C6F8723CB9E"
+			tasks: [{
+				id: "06F9335E7DD01A9F"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "69FB59B317CE0112"
+				type: "item"
+				item: {
+					id: "minecraft:leather_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": { }
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }
