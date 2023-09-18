@@ -541,6 +541,7 @@
       "onjoin": true,
       "minspawndist": 20000,
       "result": "allow",
+      "damageadd": 20.0,
       "nbt": {
         "Attributes": [
           {
@@ -560,6 +561,7 @@
       "onjoin": true,
       "minspawndist": 20000,
       "result": "allow",
+      "damageadd": 30.0,
       "healthadd": 300.0
     },
     {
@@ -581,6 +583,7 @@
       "nodespawn": true,
       "onjoin": true,
       "result": "allow",
+      "damageadd": 20.0,
       "healthadd": 250.0
     },
     {
@@ -597,6 +600,7 @@
       ],
       "onjoin": true,
       "result": "allow",
+      "damageadd": 5.0,
       "speedmultiply": 2.0
     },
     {
@@ -609,6 +613,7 @@
       "instreet": true,
       "nodespawn": true,
       "healthadd": 550.0,
+      "damageadd": 40.0,
       "result": "allow"
     },
     {
