@@ -283,7 +283,7 @@ villagerTrades.addTrade(<profession:minecraft:leatherworker>, 3, <item:apocalyps
 villagerTrades.removeAllTrades(<profession:minecraft:leatherworker>, 4);
 
 villagerTrades.addTrade(<profession:minecraft:leatherworker>, 4, <item:apocalypsenow:money> * 6, <item:cold_sweat:hoglin_hide>, 6, 8, 0.05);
-villagerTrades.addTrade(<profession:minecraft:leatherworker>, 4, <item:apocalypsenow:money> * 6, <item:cold_sweat:goat_fur>, 6, 8, 0.05);
+villagerTrades.addTrade(<profession:minecraft:leatherworker>, 4, <item:apocalypsenow:money> * 6, <item:cold_sweat:fur>, 6, 8, 0.05);
 
 // Tier 5
 villagerTrades.removeAllTrades(<profession:minecraft:leatherworker>, 5);
@@ -503,16 +503,16 @@ villagerTrades.addTrade(<profession:minecraft:shepherd>, 2, <item:apocalypsenow:
 villagerTrades.removeAllTrades(<profession:minecraft:shepherd>, 3);
 
 villagerTrades.addTrade(<profession:minecraft:shepherd>, 3, <item:apocalypsenow:money>, <item:minecraft:lead> * 2, 6, 2, 0.05);
-villagerTrades.addTrade(<profession:minecraft:shepherd>, 3, <item:apocalypsenow:money>, <item:cold_sweat:goat_fur>, 12, 2, 0.05);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 3, <item:apocalypsenow:money>, <item:cold_sweat:fur>, 12, 2, 0.05);
 
 
 // Tier 4
 villagerTrades.removeAllTrades(<profession:minecraft:shepherd>, 4);
 
-villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 11, <item:cold_sweat:goat_fur_cap>, 4, 2, 0.2);
-villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 14, <item:cold_sweat:goat_fur_parka>, 4, 2, 0.2);
-villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 13, <item:cold_sweat:goat_fur_pants>, 4, 2, 0.2);
-villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 10, <item:cold_sweat:goat_fur_boots>, 4, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 11, <item:cold_sweat:fur_cap>, 4, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 14, <item:cold_sweat:fur_parka>, 4, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 13, <item:cold_sweat:fur_pants>, 4, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 10, <item:cold_sweat:fur_boots>, 4, 2, 0.2);
 
 // Tier 5
 villagerTrades.removeAllTrades(<profession:minecraft:shepherd>, 5);

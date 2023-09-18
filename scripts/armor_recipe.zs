@@ -380,28 +380,28 @@ craftingTable.addShapedMirrored("t2_hoglin_boots", <constant:minecraft:mirroraxi
     [<item:cold_sweat:hoglin_hide>, <item:minecraft:air>, <item:cold_sweat:hoglin_hide>]]);
     
 // Goat Set
-craftingTable.remove(<item:cold_sweat:goat_fur_cap>);
-craftingTable.remove(<item:cold_sweat:goat_fur_parka>);
-craftingTable.remove(<item:cold_sweat:goat_fur_pants>);
-craftingTable.remove(<item:cold_sweat:goat_fur_boots>);
+craftingTable.remove(<item:cold_sweat:fur_cap>);
+craftingTable.remove(<item:cold_sweat:fur_parka>);
+craftingTable.remove(<item:cold_sweat:fur_pants>);
+craftingTable.remove(<item:cold_sweat:fur_boots>);
 
-craftingTable.addShapedMirrored("t2_goat_fur_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:cold_sweat:goat_fur_cap>,
-    [[<tag:items:forge:string>, <item:cold_sweat:goat_fur>, <tag:items:forge:string>],
-    [<item:cold_sweat:goat_fur>, <item:minecraft:leather_helmet>.anyDamage(), <item:cold_sweat:goat_fur>]]);
+craftingTable.addShapedMirrored("t2_fur_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:cold_sweat:fur_cap>,
+    [[<tag:items:forge:string>, <item:cold_sweat:fur>, <tag:items:forge:string>],
+    [<item:cold_sweat:fur>, <item:minecraft:leather_helmet>.anyDamage(), <item:cold_sweat:fur>]]);
 
-craftingTable.addShaped("t2_goat_fur_chestplate", <item:cold_sweat:goat_fur_parka>,
-    [[<item:cold_sweat:goat_fur>, <item:minecraft:air>, <item:cold_sweat:goat_fur>],
+craftingTable.addShaped("t2_fur_chestplate", <item:cold_sweat:fur_parka>,
+    [[<item:cold_sweat:fur>, <item:minecraft:air>, <item:cold_sweat:fur>],
     [<tag:items:forge:string>, <item:minecraft:leather_chestplate>.anyDamage(), <tag:items:forge:string>],
-    [<item:cold_sweat:goat_fur>, <item:cold_sweat:goat_fur>, <item:cold_sweat:goat_fur>]]);
+    [<item:cold_sweat:fur>, <item:cold_sweat:fur>, <item:cold_sweat:fur>]]);
 
-craftingTable.addShaped("t2_goat_fur_leggings", <item:cold_sweat:goat_fur_pants>,
-    [[<tag:items:forge:string>, <item:cold_sweat:goat_fur>, <tag:items:forge:string>],
-    [<item:cold_sweat:goat_fur>, <item:minecraft:leather_leggings>.anyDamage(), <item:cold_sweat:goat_fur>],
-    [<item:cold_sweat:goat_fur>, <item:minecraft:air>, <item:cold_sweat:goat_fur>]]);
+craftingTable.addShaped("t2_fur_leggings", <item:cold_sweat:fur_pants>,
+    [[<tag:items:forge:string>, <item:cold_sweat:fur>, <tag:items:forge:string>],
+    [<item:cold_sweat:fur>, <item:minecraft:leather_leggings>.anyDamage(), <item:cold_sweat:fur>],
+    [<item:cold_sweat:fur>, <item:minecraft:air>, <item:cold_sweat:fur>]]);
 
-craftingTable.addShapedMirrored("t2_goat_fur_boots", <constant:minecraft:mirroraxis:horizontal>, <item:cold_sweat:goat_fur_boots>,
-    [[<item:cold_sweat:goat_fur>, <item:minecraft:leather_boots>.anyDamage(), <item:cold_sweat:goat_fur>],
-    [<item:cold_sweat:goat_fur>, <item:minecraft:air>, <item:cold_sweat:goat_fur>]]);
+craftingTable.addShapedMirrored("t2_fur_boots", <constant:minecraft:mirroraxis:horizontal>, <item:cold_sweat:fur_boots>,
+    [[<item:cold_sweat:fur>, <item:minecraft:leather_boots>.anyDamage(), <item:cold_sweat:fur>],
+    [<item:cold_sweat:fur>, <item:minecraft:air>, <item:cold_sweat:fur>]]);
 
 // Chain Set
 
