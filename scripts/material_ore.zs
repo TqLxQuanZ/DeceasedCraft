@@ -247,3 +247,7 @@ import crafttweaker.api.item.IItemStack;
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_uranium_ore", <item:immersiveengineering:ore_uranium>, [<item:minecraft:air>], 200, 102400, [<item:immersiveengineering:ingot_uranium> * 2], <item:immersiveengineering:slag> );
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_deepslate_uranium_ore", <item:immersiveengineering:deepslate_ore_uranium>, [<item:minecraft:air>], 200, 102400, [<item:immersiveengineering:ingot_uranium> * 3], <item:immersiveengineering:slag> );
 
+// Netherite Scrap
+<recipetype:immersiveengineering:arc_furnace>.removeByName("immersiveengineering:arcfurnace/netherite_scrap");
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_raw_netherite_scrap", <item:betterleveling:raw_debris>, [<item:minecraft:air>], 200, 102400, [<item:minecraft:netherite_scrap>], <item:immersiveengineering:slag> );
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_netherite_scrap", <item:minecraft:ancient_debris>, [<item:minecraft:air>], 200, 102400, [<item:minecraft:netherite_scrap> * 4], <item:immersiveengineering:slag> );
