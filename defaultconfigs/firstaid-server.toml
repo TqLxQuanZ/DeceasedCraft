@@ -132,7 +132,7 @@
 	#If true, max health is scaled to your hearts, and the config entries get multiplier to match the max health
 	scaleMaxHealth = true
 	#If true, max health will be capped at 6 hearts and absorption at 2 hearts per limb. If false, the health cap will be much higher (64 hearts normal and 16 absorption)
-	capMaxHealth = true
+	capMaxHealth = false
 	#Specifies how the vanilla health is calculated. Affects the vanilla visual health bar, as well as the value other mods get to see when they query the player health.
 	#AVERAGE_ALL simply takes all limbs and calculates the average of it.
 	#AVERAGE_CRITICAL takes all critical limbs and calculates the average of it.

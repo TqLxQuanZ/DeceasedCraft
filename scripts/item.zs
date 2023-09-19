@@ -245,6 +245,8 @@ craftingTable.addShaped("sedexbox", <item:apocalypsenow:sedexbox>,
 craftingTable.remove(<item:apocalypsenow:bomb_defusing_kit>);
 craftingTable.addShapeless("bomb_defusing_kit", <item:apocalypsenow:bomb_defusing_kit>,
     [<item:immersiveengineering:screwdriver>, <item:immersiveengineering:wirecutter>]);
+    
+craftingTable.addShapeless("an_money", <item:apocalypsenow:money> * 9, [<item:apocalypsenow:money_block>]);
 
 // Everlasting Torch
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("everlasting_torches")
