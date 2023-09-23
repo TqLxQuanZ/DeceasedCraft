@@ -1,7 +1,7 @@
 [
 	{
 		"mob": ["minecraft:zombie", "minecraft:husk"],
-		"persecond": 0.1,
+		"persecond": 0.15,
 		"attempts": 30,
 		"amount": {
 		  "minimum": 1,
@@ -233,6 +233,25 @@
 		  "minheight": 45,
 		  "maxheight": 300,
 		  "maxlocal": 1
+		}
+	},
+	{
+		"mob": "minecraft:blaze",
+		"persecond": 0.3,
+		"attempts": 25,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 2,
+		  "groupdistance": 3
+		},
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 25,
+		  "maxdist": 180,
+		  "minheight": 45,
+		  "maxheight": 300,
+		  "maxlocal": 15
 		}
 	}
 ]

@@ -16,13 +16,6 @@
       "result": "deny"
     },
     {
-      "mod": "undead_revamp2",
-      "dimension": "minecraft:overworld",
-      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
-      "onjoin": true,
-      "result": "deny"
-    },
-    {
         "mod": "undead_revamp2",
         "dimension": "minecraft:overworld",
         "mincount": {
@@ -41,6 +34,24 @@
         "amount": 20,
         "perchunk": true
       },
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mob": "minecraft:blaze",
+      "dimension": "minecraft:overworld",
+      "mincount": {
+        "mob": "minecraft:blaze",
+        "amount": 15,
+        "perchunk": true
+      },
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mod": "undead_revamp2",
+      "dimension": "minecraft:overworld",
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
       "onjoin": true,
       "result": "deny"
     },
@@ -681,16 +692,6 @@
       "mincount": {
         "mob": "minecraft:villager",
         "amount": 10,
-        "perchunk": true
-      },
-      "result": "deny"
-    },
-    {
-      "mob": "minecraft:blaze",
-      "dimension": "minecraft:overworld",
-      "mincount": {
-        "mob": "minecraft:blaze",
-        "amount": 20,
         "perchunk": true
       },
       "result": "deny"
