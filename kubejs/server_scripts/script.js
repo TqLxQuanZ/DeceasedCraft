@@ -30,10 +30,10 @@ onEvent('player.logged_in', event => {
 
 	event.server.scheduleInTicks(20, callback => {
 		let firstAidData = {ForgeCaps:{"firstaid:cap_adv_dmg_mdl":event.entity.player.persistentData.firstAidData}}
-		let loginHealth = event.entity.player.persistentData.health
+		let loginHealth = event.player.persistentData.health
 	
-		event.entity.player.health = loginHealth
-		event.entity.player.mergeFullNBT(firstAidData)
+		event.player.health = loginHealth
+		event.player.mergeFullNBT(firstAidData)
 	})
 })
 

@@ -37,7 +37,7 @@
 	#Fully expended torches will drop as sticks rather than burnt torches.
 	burntStick = false
 	#Torches will be affected when in the rain. Will smolder or become unlit depending on torchesSmolder.
-	torchesRain = true
+	torchesRain = false
 	#If a torch is in the rain and torchesRain = true, then it will smolder and burn fuel at 1/3rd the normal rate instead of becoming unlit.
 	torchesSmolder = true
 	#If true, torches must be lit after crafting.
