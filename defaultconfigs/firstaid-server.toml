@@ -92,21 +92,21 @@
 		totalsHeals = 6
 		#The time it takes for a single heal to trigger. Total time this item is active = this * totalHeals
 		#Range: 1 ~ 32767
-		secondsPerHeal = 2
+		secondsPerHeal = 3
 		#The time it takes in the GUI to apply the item in milliseconds
 		#Range: 0 ~ 16000
-		applyTime = 2500
+		applyTime = 1800
 
 	["Internal Healing".plaster]
 		#The total heals this item does when applied. 1 heal = half a heart
 		#Range: 1 ~ 127
-		totalsHeals = 2
+		totalsHeals = 3
 		#The time it takes for a single heal to trigger. Total time this item is active = this * totalHeals
 		#Range: 1 ~ 32767
-		secondsPerHeal = 2
+		secondsPerHeal = 1
 		#The time it takes in the GUI to apply the item in milliseconds
 		#Range: 0 ~ 16000
-		applyTime = 1400
+		applyTime = 900
 
 ["External Healing"]
 	#Allow vanilla's natural regeneration. Requires "allowOtherHealingItems" to be true
