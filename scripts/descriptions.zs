@@ -121,6 +121,7 @@ JEI.addDescription(<item:minecraft:andesite>, "Andesites can be purchased from t
 JEI.addDescription(<item:minecraft:quartz>, "Quartz can be purchased from the journeyman mason.");
 
 JEI.addDescription(<item:minecraft:glowstone>, "Glowstone can be purchased from the masterwork mason.");
+JEI.addDescription(<item:minecraft:glowstone_dust>, "Glowstone can be purchased from the masterwork mason.");
 JEI.addDescription(<item:minecraft:end_rod>, "Glowstone can be purchased from the masterwork mason.");
 JEI.addDescription(<item:minecraft:sea_lantern>, "Glowstone can be purchased from the masterwork mason.");
 

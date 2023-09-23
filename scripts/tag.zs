@@ -327,3 +327,20 @@ import crafttweaker.api.resource.ResourceLocation;
 <tag:items:car:license_plate_holder>.add(<item:car:gold_license_plate_holder>);
 <tag:items:car:license_plate_holder>.add(<item:car:diamond_license_plate_holder>);
 <tag:items:car:license_plate_holder>.add(<item:car:emerald_license_plate_holder>);
+
+// Flares
+<tag:items:forge:flares>.add(<item:drg_flares:drg_flare_black>);
+<tag:items:forge:flares>.add(<item:drg_flares:drg_flare_blue>);
+<tag:items:forge:flares>.add(<item:drg_flares:drg_flare_brown>);
+<tag:items:forge:flares>.add(<item:drg_flares:drg_flare_cyan>);
+<tag:items:forge:flares>.add(<item:drg_flares:drg_flare_gray>);
+<tag:items:forge:flares>.add(<item:drg_flares:drg_flare_green>);
+<tag:items:forge:flares>.add(<item:drg_flares:drg_flare_light_blue>);
+<tag:items:forge:flares>.add(<item:drg_flares:drg_flare_lime>);
+<tag:items:forge:flares>.add(<item:drg_flares:drg_flare_magenta>);
+<tag:items:forge:flares>.add(<item:drg_flares:drg_flare_orange>);
+<tag:items:forge:flares>.add(<item:drg_flares:drg_flare_pink>);
+<tag:items:forge:flares>.add(<item:drg_flares:drg_flare_red>);
+<tag:items:forge:flares>.add(<item:drg_flares:drg_flare_light_gray>);
+<tag:items:forge:flares>.add(<item:drg_flares:drg_flare_white>);
+<tag:items:forge:flares>.add(<item:drg_flares:drg_flare_yellow>);

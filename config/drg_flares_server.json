@@ -1,0 +1,22 @@
+{
+  "regenerating_flares_enabled": false,
+  "regenerating_flare_recharge_time": 4,
+  "regenerating_flare_max_charges": 4,
+  "flare_entity_limit_per_player": 30,
+  "flare_recipes_in_survival": true,
+  "seconds_until_dimming_out": 180,
+  "and_then_seconds_until_fizzling_out": 60,
+  "and_then_seconds_until_despawn": 30,
+  "full_brightness_light_level": 15,
+  "dimmed_light_level": 8,
+  "seconds_until_idling_flare_gets_optimized": 5,
+  "light_source_lifespan_ticks": 10,
+  "light_source_refresh_distance": 2,
+  "light_source_search_distance": 2,
+  "creative_unlimited_regenerating_flares": true,
+  "server_side_light_sources": false,
+  "flare_gravity": 1.0,
+  "flare_throw_speed": 1.0,
+  "flare_throw_angle": 20.0,
+  "flare_speed_bounce_divider": 2.0
+}

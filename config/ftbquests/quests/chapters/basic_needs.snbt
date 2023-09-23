@@ -247,6 +247,34 @@
 				xp: 400
 			}]
 		}
+		{
+			title: "Rock and Stone!"
+			x: 3.0d
+			y: 2.5d
+			shape: "square"
+			description: ["Craft flares for your cave expeditions to provide essential light and visibility."]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			id: "5F0F099AB531C873"
+			tasks: [{
+				id: "6B13FF57DA247B92"
+				type: "item"
+				title: "Any #forge:flares"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:flares"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1B22AD9E8999D47D"
+				type: "item"
+				item: "drg_flares:drg_flare_yellow"
+				count: 64
+			}]
+		}
 	]
 	quest_links: [ ]
 }
