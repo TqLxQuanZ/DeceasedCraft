@@ -111,7 +111,7 @@
 ["External Healing"]
 	#Allow vanilla's natural regeneration. Requires "allowOtherHealingItems" to be true
 	#**WARNING** This sets the gamerule "naturalRegeneration" for all of your worlds internally, so it persists even if you remove the mod
-	allowNaturalRegeneration = true
+	allowNaturalRegeneration = false
 	#If false, healing potions and other healing items will have no effect
 	allowOtherHealingItems = true
 	#Specifies how much percent of the max health should be restored when sleeping
