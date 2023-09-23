@@ -260,9 +260,15 @@ craftingTable.addShapeless("an_money", <item:apocalypsenow:money> * 9, [<item:ap
 
 <item:minecraft:flint_and_steel>.maxDamage = 256;
 
+// Torch
+craftingTable.addShaped("wool_torch", <item:minecraft:torch>,
+    [[<tag:items:minecraft:coals>],
+    [<tag:items:minecraft:wool>],
+    [<tag:items:forge:rods/wooden>]]);
+
 // Lit Torch
 craftingTable.removeByName("hardcore_torches:lit_torch");
-craftingTable.addShaped("lit_torch", <item:hardcore_torches:lit_torch> * 4,
+craftingTable.addShaped("lit_torch", <item:hardcore_torches:lit_torch> * 12,
     [[<tag:items:minecraft:coals>],
     [<tag:items:forge:rods/wooden>]]);
 
