@@ -165,7 +165,10 @@
 			x: 4.5d
 			y: 0.0d
 			shape: "square"
-			description: ["There are various methods to extricate yourself from dangerous situations, and ParCool is one of them. Ensure that you execute different ParCool techniques to provide yourself with maximum convenience and advantages in challenging circumstances."]
+			description: [
+				"There are various methods to extricate yourself from dangerous situations, and ParCool is one of them. Ensure that you execute different ParCool techniques to provide yourself with maximum convenience and advantages in challenging circumstances."
+				"NOTE: Certain actions can be disabled via ParCool setting, default key is '"
+			]
 			size: 1.5d
 			optional: true
 			can_repeat: true
@@ -456,7 +459,6 @@
 			dependency_requirement: "one_started"
 			size: 1.5d
 			optional: true
-			can_repeat: true
 			progression_mode: "flexible"
 			id: "338F2C6F8723CB9E"
 			tasks: [{
