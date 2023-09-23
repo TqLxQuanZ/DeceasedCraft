@@ -877,7 +877,7 @@
 		}
 		{
 			title: "It's Just Business"
-			icon: "minecraft:emerald"
+			icon: "apocalypsenow:money"
 			x: 6.5d
 			y: -3.0d
 			shape: "square"
@@ -889,7 +889,8 @@
 			tasks: [{
 				id: "73553FA92095D9D4"
 				type: "stat"
-				title: "It's Just Business"
+				title: "Trade with Villagers"
+				icon: "apocalypsenow:money"
 				stat: "minecraft:traded_with_villager"
 				value: 1
 			}]

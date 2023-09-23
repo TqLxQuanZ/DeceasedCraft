@@ -1,6 +1,12 @@
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.resource.ResourceLocation;
 
+// Sand Filter
+<tag:blocks:minecraft:mineable/pickaxe>.add(<block:thirst:sand_filter>);
+<tag:blocks:immersiveengineering:mineable/drill>.add(<block:thirst:sand_filter>);
+<tag:blocks:artifacts:mineable/digging_claws>.add(<block:thirst:sand_filter>);
+
+// Randoms
 <tag:blocks:lostcities:lights>.add(<block:minecraft:lantern>);
 <tag:blocks:lostcities:lights>.add(<block:minecraft:soul_lantern>);
 <tag:blocks:lostcities:lights>.add(<block:minecraft:torch>);

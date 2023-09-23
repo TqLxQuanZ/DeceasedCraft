@@ -89,6 +89,12 @@
 	},
 	{
 		"mod": "undead_revamp2",
+		"random" : 0.8,
+		"item": "minecraft:string",
+		"itemcount": "3/4/5"
+	},
+	{
+		"mod": "undead_revamp2",
 		"random" : 0.3,
 		"item": "minecraft:rotten_flesh",
 		"itemcount": "2/2/3"
