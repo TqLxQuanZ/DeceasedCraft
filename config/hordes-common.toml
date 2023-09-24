@@ -27,7 +27,7 @@
 	#How much should the size of each horde scale down by when multiple players are near each other?
 	hordeMultiplayerScaling = 0.8
 	#Do the daylight cycle (and active horde events get paused while there are no players online.).
-	pauseEventServer = true
+	pauseEventServer = false
 	#Set to true to disable natural horde spawns (hordes can only be spawned with commands).
 	hordesCommandOnly = false
 
