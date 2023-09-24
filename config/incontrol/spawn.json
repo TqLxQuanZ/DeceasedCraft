@@ -595,7 +595,15 @@
       "onjoin": true,
       "result": "allow",
       "damageadd": 20.0,
-      "healthadd": 250.0
+      "healthadd": 250.0,
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 2.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
     },
     {
       "mob": "mutationcraft:assimilated_jockey",
