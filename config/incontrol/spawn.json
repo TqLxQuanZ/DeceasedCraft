@@ -65,7 +65,7 @@
     {
       "mod": "zombiemobs",
       "dimension": "minecraft:overworld",
-      "maxspawndist": 20000,
+      "minspawndist": 20000,
       "onjoin": true,
       "result": "deny"
     },
