@@ -1,6 +1,10 @@
 import mods.jei.JEI;
 import crafttweaker.api.recipe.CampFireRecipeManager;
 
+// Furnaces
+furnace.remove(<item:apocalypsenow:plastic>);
+
+
 // Apocalypse Arsenal
 // Tools and Weapons
 

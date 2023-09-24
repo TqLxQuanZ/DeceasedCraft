@@ -55,12 +55,11 @@ JEI.addDescription(<item:apocalypsenow:soldier_helmet>, "Soldier helmet provides
 
 
 // Golden Apple
-JEI.addDescription(<item:minecraft:golden_apple>, "Golden apples can be crafted using specific steps, obtained from hospital medical crates, or acquired by defeating a certain boss within the wasteland industrial area.");
-JEI.addDescription(<item:minecraft:golden_apple>, "Golden Apples can also be obtained by trading with a masterwork-level cleric villager.");
-
+JEI.addDescription(<item:minecraft:golden_apple>, "Golden apples can be crafted using specific steps, obtained from hospital medical crates, or acquired by defeating certain bosses.\n \n \n \n \nGolden Apples can also be obtained by trading with a masterwork-level cleric villager.");
 
 // Blaze Rods
 JEI.addDescription(<item:minecraft:blaze_rod>, "Blaze rods can often be found in volcanic areas, where they are frequently observed floating on the surface.");
+JEI.addDescription(<item:minecraft:blaze_powder>, "Blaze rods can often be found in volcanic areas, where they are frequently observed floating on the surface.");
 
 // Netherrack
 JEI.addDescription(<item:minecraft:netherrack>, "Netherrack is commonly located underground within volcanic regions.");
@@ -83,9 +82,12 @@ JEI.addDescription(<item:cfm:green_cooler>, "Coolers can be utilized to slow dow
 JEI.addDescription(<item:cfm:red_cooler>, "Coolers can be utilized to slow down the spoilage process of food items.");
 JEI.addDescription(<item:cfm:black_cooler>, "Coolers can be utilized to slow down the spoilage process of food items.");
 
+
 // Fridge
 JEI.addDescription(<item:cfm:fridge_light>, "Fridges can be utilized to slow down the spoilage process of food items.");
 JEI.addDescription(<item:cfm:fridge_dark>, "Fridges can be utilized to slow down the spoilage process of food items.");
+
+
 
 // Butcher
 JEI.addDescription(<item:farmersdelight:cooked_chicken_cuts>, "Cooked Chicken Cuts can be purchased from the apprentice butcher.");
@@ -103,6 +105,8 @@ JEI.addDescription(<item:farmersdelight:pasta_with_meatballs>, "Meatball Pasta c
 
 JEI.addDescription(<item:farmersdelight:roast_chicken_block>, "Roasted Chicken can be purchased from the masterwork butcher.");
 JEI.addDescription(<item:farmersdelight:honey_glazed_ham_block>, "Honey Glazed Ham can be purchased from the masterwork butcher.");
+
+
 
 // Cleric
 JEI.addDescription(<item:minecraft:crimson_fungus>, "Crimson Fungus can be purchased from the apprentice cleric.");
@@ -125,3 +129,37 @@ JEI.addDescription(<item:minecraft:glowstone_dust>, "Glowstone can be purchased 
 JEI.addDescription(<item:minecraft:end_rod>, "Glowstone can be purchased from the masterwork mason.");
 JEI.addDescription(<item:minecraft:sea_lantern>, "Glowstone can be purchased from the masterwork mason.");
 
+
+
+// Leatherworker
+JEI.addDescription(<item:minecraft:slime_ball>, "Slimeball can be purchased from the journeyman leatherworker.");
+JEI.addDescription(<item:immersiveengineering:hemp_fabric>, "Slimeball can be purchased from the journeyman leatherworker.");
+
+JEI.addDescription(<item:cold_sweat:hoglin_hide>, "Hoglin Hide can be purchased from the expert leatherworker.");
+JEI.addDescription(<item:cold_sweat:fur>, "Fur can be purchased from the expert leatherworker.");
+
+JEI.addDescription(<item:cold_sweat:chameleon_molt>, "Chameleon Molt can be purchased from the masterwork leatherworker.");
+JEI.addDescription(<item:immersiveengineering:ersatz_leather>, "Ersatz Leather can be purchased from the masterwork leatherworker.");
+
+// Engineer
+// Steel Ingots
+JEI.addDescription(<item:immersiveengineering:ingot_steel>, "Steel ingots can be obtained by either smelting iron and coal in a blast furnace or by purchasing them from various sources, including expert armorers, apprentice engineers, apprentice toolsmiths, and wandering traders.");
+JEI.addDescription(<item:immersiveengineering:plate_steel>, "Steel plates may also be available for purchase from an apprentice engineer.");
+JEI.addDescription(<item:immersiveengineering:stick_steel>, "Steel sticks may also be available for purchase from an apprentice engineer.");
+
+JEI.addDescription(<item:immersiveengineering:component_iron>, "Iron Component may also be available for purchase from a masterwork engineer.");
+JEI.addDescription(<item:immersiveengineering:component_steel>, "Steel Component may also be available for purchase from a masterwork engineer.");
+
+JEI.addDescription(<item:immersiveengineering:stick_iron>, "Iron Sticks may also be available for purchase from a masterwork engineer.");
+JEI.addDescription(<item:immersiveengineering:plate_iron>, "Iron Plates may also be available for purchase from a masterwork engineer.");
+
+
+// Aluminum Ingots
+JEI.addDescription(<item:immersiveengineering:ingot_aluminum>, "Aluminum ingots may also be available for purchase from an expert engineer and wandering traders.");
+JEI.addDescription(<item:immersiveengineering:plate_aluminum>, "Aluminum plates may also be available for purchase from an expert engineer.");
+JEI.addDescription(<item:immersiveengineering:stick_aluminum>, "Aluminum sticks may also be available for purchase from an expert engineer.");
+
+
+// Electrician
+JEI.addDescription(<item:immersiveengineering:component_electronic>, "Electronic Component may also be available for purchase from an apprentice electrician.");
+JEI.addDescription(<item:create:precision_mechanism>, "Precision Mechanism may also be available for purchase from an apprentice electrician.");
