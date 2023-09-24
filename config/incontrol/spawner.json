@@ -82,8 +82,8 @@
 	},
 	{
 		"mob": "minecraft:villager",
-		"persecond": 0.001,
-		"attempts": 10,
+		"persecond": 0.0025,
+		"attempts": 20,
 		"amount": {
 		  "minimum": 1,
 		  "maximum": 2,

@@ -31,7 +31,7 @@
       "dimension": "minecraft:overworld",
       "mincount": {
         "mod": "zombiemobs",
-        "amount": 20,
+        "amount": 5,
         "perchunk": true
       },
       "onjoin": true,
@@ -77,7 +77,7 @@
       "result": "deny"
     },
     {
-      "mob": "zombiemobs:zombie_llama",
+      "mob": ["zombiemobs:zombie_llama", "zombiemobs:zombie_ocelot", "zombiemobs:zombie_cat"],
       "dimension": "minecraft:overworld",
       "onjoin": true,
       "result": "deny"
@@ -97,7 +97,7 @@
       "incity": false,
       "seesky": true,
       "onjoin": true,
-      "random": 0.4,
+      "random": 0.3,
       "result": "allow"
     },
     {
