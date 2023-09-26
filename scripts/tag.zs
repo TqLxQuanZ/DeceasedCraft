@@ -6,6 +6,14 @@ import crafttweaker.api.resource.ResourceLocation;
 <tag:blocks:immersiveengineering:mineable/drill>.add(<block:thirst:sand_filter>);
 <tag:blocks:artifacts:mineable/digging_claws>.add(<block:thirst:sand_filter>);
 
+// Modern Materials
+<tag:items:forge:modern_materials>.add(<tag:items:forge:ingots/aluminum>);
+<tag:items:forge:modern_materials>.add(<tag:items:forge:ingots/steel>);
+<tag:items:forge:modern_materials>.add(<tag:items:forge:plates/plastic>);
+<tag:items:forge:modern_materials>.add(<tag:items:forge:ingots/iron>);
+<tag:items:forge:modern_materials>.add(<tag:items:forge:ingots/copper>);
+
+
 // Randoms
 <tag:blocks:lostcities:lights>.add(<block:minecraft:lantern>);
 <tag:blocks:lostcities:lights>.add(<block:minecraft:soul_lantern>);

@@ -1,5 +1,6 @@
 
 import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.item.ItemCooldowns;
 import mods.jei.JEI;
 
 craftingTable.remove(<item:adfinders:metal_finder>);
@@ -7,7 +8,6 @@ craftingTable.addShaped("metal_finder", <item:adfinders:metal_finder>,
     [[<tag:items:forge:plates/iron>, <tag:items:forge:ingots/gold>, <tag:items:forge:plates/iron>],
     [<item:minecraft:air>, <item:immersiveengineering:component_electronic>, <item:minecraft:air>],
 	[<tag:items:forge:plates/iron>, <item:createaddition:copper_spool>, <tag:items:forge:plates/iron>]]);
-
 
 craftingTable.remove(<item:adfinders:mineral_finder>);
 craftingTable.addShaped("mineral_finder", <item:adfinders:mineral_finder>,
@@ -46,6 +46,11 @@ craftingTable.addShapedMirrored("emptybloodbag", <constant:minecraft:mirroraxis:
     [[<tag:items:forge:plates/plastic>, <item:minecraft:air>, <item:apocalypsenow:needle>],
     [<item:minecraft:air>, <item:minecraft:string>, <item:minecraft:air>]]);
 
+// First Aid
+craftingTable.remove(<item:firstaid:morphine>);
+craftingTable.addShapedMirrored("morphine", <constant:minecraft:mirroraxis:horizontal>, <item:firstaid:morphine>,
+    [[<item:minecraft:poppy>, <item:apocalypsenow:needle>],
+    [<item:minecraft:glass_bottle>, <item:minecraft:air>]]);
 
 // Ender Pearl
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("ender_pearl")
@@ -210,10 +215,6 @@ craftingTable.addShaped("planksb", <item:apocalypsenow:planksb>,
 craftingTable.remove(<item:apocalypsenow:metal_bars>);
 craftingTable.addShaped("metal_bars", <item:apocalypsenow:metal_bars>,
     [[<tag:items:forge:rods/steel>, <tag:items:forge:rods/steel>, <tag:items:forge:rods/steel>]]);
-
-<tag:items:forge:modern_materials>.add(<tag:items:forge:ingots/aluminum>);
-<tag:items:forge:modern_materials>.add(<tag:items:forge:ingots/steel>);
-<tag:items:forge:modern_materials>.add(<tag:items:forge:plates/plastic>);
 
 craftingTable.remove(<item:apocalypsenow:traffic_barricade>);
 craftingTable.addShaped("traffic_barricade", <item:apocalypsenow:traffic_barricade> * 3,
