@@ -120,8 +120,9 @@
         below = 1.0
 [[effects]]
     [[effects.attributes]]
-        name = "minecraft:health_boost"
-        power = 0
+        name = "minecraft:generic.max_health"
+        operation = "add"
+        amount = 1.0
     [[effects.conditions]]
         groups = ["sugars"]
         match = "all"
@@ -129,8 +130,9 @@
         below = 0.6
 [[effects]]
     [[effects.attributes]]
-        name = "minecraft:health_boost"
-        power = 1
+        name = "minecraft:generic.max_health"
+        operation = "add"
+        amount = 2.0
     [[effects.conditions]]
         groups = ["sugars"]
         match = "all"
@@ -138,8 +140,9 @@
         below = 0.8
 [[effects]]
     [[effects.attributes]]
-        name = "minecraft:health_boost"
-        power = 2
+        name = "minecraft:generic.max_health"
+        operation = "add"
+        amount = 4.0
     [[effects.conditions]]
         groups = ["sugars"]
         match = "all"
@@ -152,14 +155,5 @@
     [[effects.conditions]]
         groups = ["proteins", "fruits", "vegetables", "grains", "sugars"]
         match = "all"
-        above = 0.6
-        below = 0.8
-[[effects]]
-    [[effects.status_effects]]
-        name = "minecraft:regeneration"
-        power = 1
-    [[effects.conditions]]
-        groups = ["proteins", "fruits", "vegetables", "grains", "sugars"]
-        match = "all"
-        above = 0.8
+        above = 0.7
         below = 1.0

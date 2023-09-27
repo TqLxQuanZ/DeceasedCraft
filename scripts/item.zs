@@ -3,6 +3,14 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.ItemCooldowns;
 import mods.jei.JEI;
 
+// Tier 3 Reach Upgrade
+craftingTable.remove(<item:effortlessbuilding:reach_upgrade3>);
+craftingTable.addShaped("reach_upgrade3", <item:effortlessbuilding:reach_upgrade3>,
+    [[<item:minecraft:air>, <item:contenttweaker:rubber>, <item:minecraft:air>],
+    [<item:contenttweaker:resistant_fabric>, <item:minecraft:nether_star>, <item:contenttweaker:resistant_fabric>],
+	[<item:minecraft:air>, <item:contenttweaker:rubber>, <item:minecraft:air>]]);
+
+
 craftingTable.remove(<item:adfinders:metal_finder>);
 craftingTable.addShaped("metal_finder", <item:adfinders:metal_finder>,
     [[<tag:items:forge:plates/iron>, <tag:items:forge:ingots/gold>, <tag:items:forge:plates/iron>],
