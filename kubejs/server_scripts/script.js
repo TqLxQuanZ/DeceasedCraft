@@ -28,8 +28,8 @@ onEvent('entity.death', (event) => {
 onEvent('player.logged_in', event => {
 	if (!event.player.isAlive()) return
 
-	event.server.scheduleInTicks(20, callback => {
-		let firstAidData = {ForgeCaps:{"firstaid:cap_adv_dmg_mdl":event.entity.player.persistentData.firstAidData}}
+	event.server.scheduleInTicks(40, callback => {
+		let firstAidData = {ForgeCaps:{"firstaid:cap_adv_dmg_mdl":event.player.persistentData.firstAidData}}
 		let loginHealth = event.player.persistentData.health
 	
 		event.player.health = loginHealth

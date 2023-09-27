@@ -26,6 +26,20 @@
       "interactionType": "immunity",
       "description": "Grants Infection Immunity",
       "onlyImmuneToNewEffects": true
+    },
+    {
+      "type": "effect",
+      "name": "undead_revamp2:toxicfumes",
+      "interactionType": "immunity",
+      "description": "Grants Toxic Fumes Immunity",
+      "onlyImmuneToNewEffects": true
+    },
+    {
+      "type": "effect",
+      "name": "undead_revamp2:gooed",
+      "interactionType": "immunity",
+      "description": "Grants Gooed Immunity",
+      "onlyImmuneToNewEffects": true
     }
   ],
   "hideGeneratedTooltip": false
