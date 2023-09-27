@@ -3,10 +3,6 @@ import crafttweaker.api.recipe.BlastFurnaceRecipeManager;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 import mods.jei.JEI;
 
-// Effortless Building
-craftingTable.removeByModid("effortlessbuilding");
-JEI.hideMod("effortlessbuilding");
-
 // Cold Sweats
 craftingTable.remove(<item:cold_sweat:soulspring_lamp>);
 JEI.hideIngredient(<item:cold_sweat:soulspring_lamp>);

@@ -4,7 +4,7 @@
 	#A list of buildings that are safe(r)
 	excludedBuildings = ["multi_communitycenter_3", "multi_communitycenter_4", "multi_communitycenter_6", "multi_convenientstore_0", "multi_convenientstore_2", "multi_cafe_0", "multi_cafe_1", "multi_cafe_2", "multi_cafe_3", "multi_gallery_2"]
 	#List of mobs that can spawn in buildings together with their rarity
-	mobs = [".5=minecraft:zombie"]
+	mobs = ["2.5=minecraft:zombie", ".1=undead_revamp2:thesmoker", ".1=undead_revamp2:the_moonflower"]
 	#List of weapons that the mobs can have together with their rarity
 	randomWeapons = ["2.5=null", ".1=minecraft:ender_pearl", ".1=minecraft:fishing_rod"]
 	#List of helmets that the mobs can have together with their rarity
@@ -16,7 +16,7 @@
 	#List of boots that the mobs can have together with their rarity
 	randomBoots = [".3=null" ]
 	#List of effects that a mob can have. Note that multiple effects are possible
-	randomEffects = [".9=minecraft:regeneration,1", ".5=minecraft:speed,1", ".3=minecraft:speed,2", ".1=minecraft:speed,3"]
+	randomEffects = ["2.5=minecraft:regeneration,1", ".3=minecraft:speed,1", ".1=minecraft:speed,2"]
 	#List of console commands to execute the first time a building is entered
 	commandFirstTime = []
 	#List of console commands to execute every time a building is entered

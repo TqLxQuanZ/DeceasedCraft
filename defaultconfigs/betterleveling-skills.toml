@@ -66,11 +66,11 @@
 	#Range: > 20
 	greenThumbTickRate = 100
 	#Range: > 1
-	maxLevel = 10
+	maxLevel = 20
 	#Range: > 1
 	costPerLevel = 40
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.015
+	bonusPerLevel = 0.02
 	prerequisites = ""
 
 #Chance to gather extra crops on harvest
@@ -94,19 +94,19 @@
 	#Range: 0.0 ~ 1.7976931348623157E308
 	bonusPerLevel = 0.075
 	#Range: 0.0 ~ 1.7976931348623157E308
-	potentialLootBound = 1.0
+	potentialLootBound = 2.0
 	prerequisites = ""
 
 #Chance to drop extra meat from animals
 [meatgathering]
 	#Range: > 1
-	maxLevel = 20
+	maxLevel = 10
 	#Range: > 1
 	costPerLevel = 50
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.05
+	bonusPerLevel = 0.1
 	#Range: 0.0 ~ 2.147483647E9
-	potentialLootBound = 1.0
+	potentialLootBound = 2.0
 	prerequisites = "skinning:4"
 
 #Increase speed under water
@@ -184,7 +184,7 @@
 	#Range: > 1
 	costPerLevel = 20
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.02
+	bonusPerLevel = 0.025
 	prerequisites = ""
 
 #Increase movement speed while sprinting

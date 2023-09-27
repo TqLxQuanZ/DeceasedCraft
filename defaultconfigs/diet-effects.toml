@@ -2,7 +2,27 @@
     [[effects.attributes]]
         name = "minecraft:generic.attack_damage"
         operation = "add"
+        amount = 1.0
+    [[effects.conditions]]
+        groups = ["proteins"]
+        match = "all"
+        above = 0.4
+        below = 0.6
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.attack_damage"
+        operation = "add"
         amount = 2.0
+    [[effects.conditions]]
+        groups = ["proteins"]
+        match = "all"
+        above = 0.6
+        below = 0.8
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.attack_damage"
+        operation = "add"
+        amount = 3.0
     [[effects.conditions]]
         groups = ["proteins"]
         match = "all"
@@ -11,8 +31,28 @@
 [[effects]]
     [[effects.attributes]]
         name = "minecraft:generic.attack_speed"
-        operation = "multiply_total"
+        operation = "add"
         amount = 0.1
+    [[effects.conditions]]
+        groups = ["grains"]
+        match = "all"
+        above = 0.4
+        below = 0.6
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.attack_speed"
+        operation = "add"
+        amount = 0.25
+    [[effects.conditions]]
+        groups = ["grains"]
+        match = "all"
+        above = 0.6
+        below = 0.8
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.attack_speed"
+        operation = "add"
+        amount = 0.4
     [[effects.conditions]]
         groups = ["grains"]
         match = "all"
@@ -26,13 +66,53 @@
     [[effects.conditions]]
         groups = ["fruits"]
         match = "all"
+        above = 0.4
+        below = 0.6
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.armor_toughness"
+        operation = "add"
+        amount = 2.0
+    [[effects.conditions]]
+        groups = ["fruits"]
+        match = "all"
+        above = 0.6
+        below = 0.8
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.armor_toughness"
+        operation = "add"
+        amount = 3.0
+    [[effects.conditions]]
+        groups = ["fruits"]
+        match = "all"
         above = 0.8
         below = 1.0
 [[effects]]
     [[effects.attributes]]
         name = "minecraft:generic.armor"
         operation = "add"
-        amount = 2.0
+        amount = 1.0
+    [[effects.conditions]]
+        groups = ["vegetables"]
+        match = "all"
+        above = 0.4
+        below = 0.6
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.armor"
+        operation = "add"
+        amount = 2.5
+    [[effects.conditions]]
+        groups = ["vegetables"]
+        match = "all"
+        above = 0.6
+        below = 0.8
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.armor"
+        operation = "add"
+        amount = 4.0
     [[effects.conditions]]
         groups = ["vegetables"]
         match = "all"
@@ -41,8 +121,28 @@
 [[effects]]
     [[effects.attributes]]
         name = "minecraft:generic.attack_knockback"
-        operation = "multiply_base"
-        amount = 0.2
+        operation = "add"
+        amount = 1.0
+    [[effects.conditions]]
+        groups = ["sugars"]
+        match = "all"
+        above = 0.6
+        below = 0.8
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.attack_knockback"
+        operation = "add"
+        amount = 2.0
+    [[effects.conditions]]
+        groups = ["sugars"]
+        match = "all"
+        above = 0.6
+        below = 0.8
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.attack_knockback"
+        operation = "add"
+        amount = 4.0
     [[effects.conditions]]
         groups = ["sugars"]
         match = "all"
@@ -50,8 +150,17 @@
         below = 1.0
 [[effects]]
     [[effects.status_effects]]
+        name = "minecraft:health_boost"
+        power = 2
+    [[effects.conditions]]
+        groups = ["proteins", "fruits", "vegetables", "grains", "sugars"]
+        match = "all"
+        above = 0.6
+        below = 1.0
+[[effects]]
+    [[effects.status_effects]]
         name = "minecraft:regeneration"
-        power = 0
+        power = 1
     [[effects.conditions]]
         groups = ["proteins", "fruits", "vegetables", "grains", "sugars"]
         match = "all"

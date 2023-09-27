@@ -43,3 +43,9 @@ onEvent('player.logged_out', event => {
 	event.player.persistentData.health = event.player.health
 	event.player.persistentData.firstAidData = event.player.getFullNBT().ForgeCaps["firstaid:cap_adv_dmg_mdl"]
 })
+
+onEvent('block.break', event => {
+    if (event.getBlock().hasTag('forge:ores')) {
+        event.setXp(1);
+    };
+});
