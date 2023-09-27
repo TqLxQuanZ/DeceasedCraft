@@ -181,7 +181,13 @@
 			rewards: [{
 				id: "51662641ED1F5AD6"
 				type: "item"
-				item: "parcool:parcool_guide"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "parcool:parcool_guide"
+					}
+				}
 			}]
 		}
 		{
