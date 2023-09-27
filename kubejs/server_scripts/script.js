@@ -28,11 +28,11 @@ onEvent('entity.death', (event) => {
 onEvent('player.logged_in', event => {
 	if (!event.player.isAlive()) return
 
-	event.server.scheduleInTicks(40, callback => {
+	event.server.scheduleInTicks(20, callback => {
 		let firstAidData = {ForgeCaps:{"firstaid:cap_adv_dmg_mdl":event.player.persistentData.firstAidData}}
 		let loginHealth = event.player.persistentData.health
-	
-		event.player.health = loginHealth
+
+		if (loginHealth) event.player.health = loginHealth;
 		event.player.mergeFullNBT(firstAidData)
 	})
 })
@@ -40,7 +40,7 @@ onEvent('player.logged_in', event => {
 onEvent('player.logged_out', event => {
 	if (!event.player.isAlive()) return
 
-	event.player.persistentData.health = event.player.health
+	event.player.persistentData.health = event.player.persistentData.health || event.player.health
 	event.player.persistentData.firstAidData = event.player.getFullNBT().ForgeCaps["firstaid:cap_adv_dmg_mdl"]
 })
 
