@@ -4,9 +4,9 @@
 	#A list of buildings that are safe(r)
 	excludedBuildings = ["multi_communitycenter_3", "multi_communitycenter_4", "multi_communitycenter_6", "multi_convenientstore_0", "multi_convenientstore_2", "multi_cafe_0", "multi_cafe_1", "multi_cafe_2", "multi_cafe_3", "multi_gallery_2"]
 	#List of mobs that can spawn in buildings together with their rarity
-	mobs = ["1.5=minecraft:zombie", ".1=undead_revamp2:thesmoker", ".1=undead_revamp2:the_moonflower", ".1=undead_revamp2:thepregnant"]
+	mobs = ["1.4=minecraft:zombie", ".2=undead_revamp2:thesmoker", ".3=undead_revamp2:the_moonflower", ".1=undead_revamp2:thepregnant"]
 	#List of weapons that the mobs can have together with their rarity
-	randomWeapons = ["2.5=null", ".1=minecraft:ender_pearl", ".1=minecraft:fishing_rod"]
+	randomWeapons = ["2.5=null"]
 	#List of helmets that the mobs can have together with their rarity
 	randomHelmets = [".3=null"]
 	#List of chestplates that the mobs can have together with their rarity
