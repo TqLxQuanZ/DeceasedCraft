@@ -216,6 +216,13 @@ craftingTable.remove(<item:apocalypsenow:metal_bars>);
 craftingTable.addShaped("metal_bars", <item:apocalypsenow:metal_bars>,
     [[<tag:items:forge:rods/steel>, <tag:items:forge:rods/steel>, <tag:items:forge:rods/steel>]]);
 
+// Modern Materials
+<tag:items:forge:modern_materials>.add(<tag:items:forge:ingots/aluminum>);
+<tag:items:forge:modern_materials>.add(<tag:items:forge:ingots/steel>);
+<tag:items:forge:modern_materials>.add(<tag:items:forge:plates/plastic>);
+<tag:items:forge:modern_materials>.add(<tag:items:forge:ingots/iron>);
+<tag:items:forge:modern_materials>.add(<tag:items:forge:ingots/copper>);
+
 craftingTable.remove(<item:apocalypsenow:traffic_barricade>);
 craftingTable.addShaped("traffic_barricade", <item:apocalypsenow:traffic_barricade> * 3,
     [[<tag:items:forge:modern_materials>, <tag:items:forge:modern_materials>, <tag:items:forge:modern_materials>],
