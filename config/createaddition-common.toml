@@ -101,7 +101,7 @@
 [accumulator]
 	#Accumulator internal capacity per block in FE.
 	#Range: > 0
-	accumulator_capacity = 4196000
+	accumulator_capacity = 2048000
 	#Accumulator max output in FE/t (Energy transfer).
 	#Range: > 0
 	accumulator_max_output = 512

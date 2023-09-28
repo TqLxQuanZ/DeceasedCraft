@@ -109,18 +109,6 @@
 		[machines.capacitors.lv]
 			#Maximum energy stored (Flux)
 			#Range: > 1
-			storage = 100000
-			#Maximum energy input (Flux/tick)
-			#Range: > 1
-			input = 256
-			#Maximum energy output (Flux/tick)
-			#Range: > 1
-			output = 256
-
-		#Configuration for the medium voltage capacitor
-		[machines.capacitors.mv]
-			#Maximum energy stored (Flux)
-			#Range: > 1
 			storage = 1000000
 			#Maximum energy input (Flux/tick)
 			#Range: > 1
@@ -129,11 +117,23 @@
 			#Range: > 1
 			output = 1024
 
+		#Configuration for the medium voltage capacitor
+		[machines.capacitors.mv]
+			#Maximum energy stored (Flux)
+			#Range: > 1
+			storage = 4000000
+			#Maximum energy input (Flux/tick)
+			#Range: > 1
+			input = 2048
+			#Maximum energy output (Flux/tick)
+			#Range: > 1
+			output = 2048
+
 		#Configuration for the high voltage capacitor
 		[machines.capacitors.hv]
 			#Maximum energy stored (Flux)
 			#Range: > 1
-			storage = 4000000
+			storage = 8000000
 			#Maximum energy input (Flux/tick)
 			#Range: > 1
 			input = 4096
