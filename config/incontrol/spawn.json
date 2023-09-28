@@ -540,7 +540,8 @@
       "incity": true,
       "onjoin": true,
       "minspawndist": 20000,
-      "result": "allow"
+      "result": "allow",
+      "damageadd": 6.0
     },
     {
       "mob": ["mutationcraft:reductor",
@@ -549,7 +550,8 @@
       "maxlight": 6,
       "onjoin": true,
       "minspawndist": 20000,
-      "result": "allow"
+      "result": "allow",
+      "damageadd": 10.0
     },
     {
       "mob": "mutationcraft:parasitic_shooter",
@@ -560,11 +562,11 @@
       "onjoin": true,
       "minspawndist": 20000,
       "result": "allow",
-      "damageadd": 20.0,
+      "damageadd": 30.0,
       "nbt": {
         "Attributes": [
           {
-            "Base": 2.0,
+            "Base": 4.0,
             "Name": "generic.armor"
           }
         ]
@@ -580,8 +582,20 @@
       "onjoin": true,
       "minspawndist": 20000,
       "result": "allow",
-      "damageadd": 30.0,
-      "healthadd": 300.0
+      "damageadd": 150.0,
+      "healthadd": 500.0,
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 6.0,
+            "Name": "generic.armor"
+          },
+          {
+            "Base": 6.0,
+            "Name": "generic.armor_toughness"
+          }
+        ]
+      }
     },
     {
       "mob": "mutationcraft:human_herder",
@@ -602,13 +616,17 @@
       "nodespawn": true,
       "onjoin": true,
       "result": "allow",
-      "damageadd": 20.0,
+      "damageadd": 75.0,
       "healthadd": 250.0,
       "nbt": {
         "Attributes": [
           {
-            "Base": 2.0,
+            "Base": 4.0,
             "Name": "generic.armor"
+          },
+          {
+            "Base": 4.0,
+            "Name": "generic.armor_toughness"
           }
         ]
       }
@@ -627,7 +645,7 @@
       ],
       "onjoin": true,
       "result": "allow",
-      "damageadd": 5.0,
+      "damageadd": 20.0,
       "speedmultiply": 2.0
     },
     {
@@ -639,9 +657,21 @@
       "onjoin": true,
       "instreet": true,
       "nodespawn": true,
-      "healthadd": 550.0,
-      "damageadd": 40.0,
-      "result": "allow"
+      "healthadd": 1000.0,
+      "damageadd": 500.0,
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 10.0,
+            "Name": "generic.armor"
+          },
+          {
+            "Base": 10.0,
+            "Name": "generic.armor_toughness"
+          }
+        ]
+      }
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
