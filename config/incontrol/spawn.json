@@ -184,7 +184,25 @@
       "nbt": {
         "Attributes": [
           {
-            "Base": 6.0,
+            "Base": 10.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
+    },
+    {
+      "mob": "undead_revamp2:thespitter",
+      "dimension": "minecraft:overworld",
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 61,
+      "minspawndist": 20000,
+      "onjoin": true,
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 4.0,
             "Name": "generic.armor"
           }
         ]
