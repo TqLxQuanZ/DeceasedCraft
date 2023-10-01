@@ -3,6 +3,13 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.ItemCooldowns;
 import mods.jei.JEI;
 
+// XP Tome
+craftingTable.remove(<item:xpbook:xp_tome>);
+craftingTable.addShaped("xp_tome", <item:xpbook:xp_tome>,
+    [[<item:minecraft:book>, <tag:items:forge:dyes>],
+    [<item:apocalypsenow:letter_opener>, <item:minecraft:air>]]);
+
+
 // Tier 3 Reach Upgrade
 craftingTable.remove(<item:effortlessbuilding:reach_upgrade3>);
 craftingTable.addShaped("reach_upgrade3", <item:effortlessbuilding:reach_upgrade3>,
