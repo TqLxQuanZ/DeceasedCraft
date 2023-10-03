@@ -586,7 +586,7 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:apocalypsenow:wooden_spear>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:wooden_spear>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:wooden_spear>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -3.2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:wooden_spear>.maxDamage = 67;
+<item:apocalypsenow:wooden_spear>.maxDamage = 42;
 
  
 <item:apocalypsenow:gardening_spade>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -607,7 +607,7 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:apocalypsenow:knife_spear>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 5.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:knife_spear>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:knife_spear>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.8, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:knife_spear>.maxDamage = 187;
+<item:apocalypsenow:knife_spear>.maxDamage = 89;
 
  
 <item:apocalypsenow:tennis_racket>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);

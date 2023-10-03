@@ -1,4 +1,5 @@
 import crafttweaker.api.recipe.Replacer;
+import mods.jei.JEI;
 // Bats
 
 craftingTable.remove(<item:apocalypsenow:baseball_bat>);
@@ -335,16 +336,22 @@ craftingTable.addShapedMirrored("garden_fork", <constant:minecraft:mirroraxis:ho
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>],
 	[<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>]]);
 
+craftingTable.remove(<item:apocalypsenow:knife_spear>);
+craftingTable.addShapedMirrored("knife_spear", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:knife_spear>,
+    [[<item:minecraft:air>, <tag:items:forge:ingots/iron>],
+    [<item:minecraft:air>, <item:apocalypsenow:log_with_stone>],
+	[<item:minecraft:air>, <item:apocalypsenow:log_with_stone>]]);
+
+craftingTable.remove(<item:apocalypsenow:spear>);
+craftingTable.remove(<item:apocalypsenow:wooden_spear>);
+JEI.hideIngredient(<item:apocalypsenow:spear>);
+JEI.hideIngredient(<item:apocalypsenow:wooden_spear>);
+
+/*
 craftingTable.remove(<item:apocalypsenow:spear>);
 craftingTable.addShapedMirrored("spear", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:spear>,
     [[<item:minecraft:air>, <tag:items:forge:nuggets/steel>],
     [<item:minecraft:air>, <tag:items:forge:rods/aluminum>],
-	[<item:minecraft:air>, <item:apocalypsenow:log_with_stone>]]);
-    
-craftingTable.remove(<item:apocalypsenow:knife_spear>);
-craftingTable.addShapedMirrored("knife_spear", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:knife_spear>,
-    [[<item:minecraft:air>, <tag:items:forge:nuggets/iron>],
-    [<item:minecraft:air>, <tag:items:forge:rods/iron>],
 	[<item:minecraft:air>, <item:apocalypsenow:log_with_stone>]]);
     
 craftingTable.remove(<item:apocalypsenow:wooden_spear>);
@@ -352,6 +359,8 @@ craftingTable.addShapedMirrored("wooden_spear", <constant:minecraft:mirroraxis:h
     [[<item:minecraft:air>, <tag:items:forge:rods/wooden>],
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>],
 	[<item:minecraft:air>, <item:apocalypsenow:log_with_stone>]]);
+*/
+
 // Misc
 craftingTable.remove(<item:apocalypsenow:pipe>);
 craftingTable.addShapedMirrored("pipe", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:pipe>,
