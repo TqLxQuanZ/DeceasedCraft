@@ -28,6 +28,8 @@ JEI.addDescription(<item:additionalguns:bullet_long>, "Bullets can be crafted us
 JEI.addDescription(<item:additionalguns:bullet_heavy>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using emeralds. Gunsmiths also offer bullets for sale.");
 JEI.addDescription(<item:additionalguns:bullet_special>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using emeralds.");
 
+// Bunny Hopper
+JEI.addDescription(<item:artifacts:bunny_hoppers>, "No longer has immunity to fall damage.");
 
 // Nether Star
 JEI.addDescription(<item:minecraft:nether_star>, "Nether Star can be found from a hidden boss in the wasteland factories area.");
