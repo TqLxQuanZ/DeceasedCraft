@@ -510,16 +510,28 @@ villagerTrades.addTrade(<profession:minecraft:shepherd>, 3, <item:apocalypsenow:
 // Tier 4
 villagerTrades.removeAllTrades(<profession:minecraft:shepherd>, 4);
 
-villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 11, <item:cold_sweat:fur_cap>, 4, 2, 0.2);
-villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 14, <item:cold_sweat:fur_parka>, 4, 2, 0.2);
-villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 13, <item:cold_sweat:fur_pants>, 4, 2, 0.2);
-villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 10, <item:cold_sweat:fur_boots>, 4, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 16, <item:minecraft:music_disc_13>, 6, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 16, <item:minecraft:music_disc_cat>, 6, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 16, <item:minecraft:music_disc_blocks>, 6, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 16, <item:minecraft:music_disc_chirp>, 6, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 16, <item:minecraft:music_disc_far>, 6, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 16, <item:minecraft:music_disc_mall>, 6, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 16, <item:minecraft:music_disc_mellohi>, 6, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 4, <item:apocalypsenow:money> * 16, <item:minecraft:music_disc_stal>, 6, 2, 0.2);
 
 // Tier 5
 villagerTrades.removeAllTrades(<profession:minecraft:shepherd>, 5);
 
-villagerTrades.addTrade(<profession:minecraft:shepherd>, 5, <item:apocalypsenow:money> * 2, <item:another_furniture:white_lamp>, 6, 2, 0.2);
-villagerTrades.addTrade(<profession:minecraft:shepherd>, 5, <item:apocalypsenow:money> * 2, <item:another_furniture:light_gray_lamp>, 6, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 5, <item:apocalypsenow:money> * 16, <item:minecraft:music_disc_strad>, 6, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 5, <item:apocalypsenow:money> * 16, <item:minecraft:music_disc_ward>, 6, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 5, <item:apocalypsenow:money> * 16, <item:minecraft:music_disc_11>, 6, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 5, <item:apocalypsenow:money> * 16, <item:minecraft:music_disc_wait>, 6, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 5, <item:apocalypsenow:money> * 16, <item:minecraft:music_disc_otherside>, 6, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 5, <item:apocalypsenow:money> * 16, <item:minecraft:music_disc_pigstep>, 6, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 5, <item:apocalypsenow:money> * 16, <item:biomesoplenty:music_disc_wanderer>, 6, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 5, <item:apocalypsenow:money> * 16, <item:quark:music_disc_endermosh>, 6, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 5, <item:apocalypsenow:money> * 16, <item:alexsmobs:music_disc_thime>, 6, 2, 0.2);
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 5, <item:apocalypsenow:money> * 16, <item:alexsmobs:music_disc_daze>, 6, 2, 0.2);
 
 
 
