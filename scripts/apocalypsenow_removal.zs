@@ -227,6 +227,9 @@ craftingTable.remove(<item:apocalypsenow:pallet_storage>);
 craftingTable.remove(<item:apocalypsenow:sandbagbarrier>);
 campfire.removeByName("apocalypsenow:cookedbeenscamp");
 
+furnace.remove(<item:apocalypsenow:salt>);
+furnace.remove(<item:apocalypsenow:water>);
+furnace.remove(<item:apocalypsenow:fried_egg>);
 
 JEI.hideIngredient(<item:apocalypsenow:fixed_baseball_bat>);
 JEI.hideIngredient(<item:apocalypsenow:fire_extinguisher>);
