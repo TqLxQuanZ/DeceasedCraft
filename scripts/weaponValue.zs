@@ -443,9 +443,9 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 
  
 <item:apocalypsenow:katana>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:katana>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 13.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:katana>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 11.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:katana>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:katana>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.6, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:katana>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.7999999999999998, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:katana>.maxDamage = 2451;
 
  
@@ -907,7 +907,7 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:apocalypsenow:scythe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:scythe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 5.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:scythe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:scythe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:scythe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.4, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:scythe>.maxDamage = 623;
 
  
@@ -949,7 +949,7 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:create_sa:brass_hoe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:create_sa:brass_hoe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:create_sa:brass_hoe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:create_sa:brass_hoe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -0.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:create_sa:brass_hoe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -0.6000000000000001, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:create_sa:brass_hoe>.maxDamage = 450;
 
  
@@ -970,14 +970,14 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:immersiveengineering:hoe_steel>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:immersiveengineering:hoe_steel>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:immersiveengineering:hoe_steel>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:immersiveengineering:hoe_steel>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:immersiveengineering:hoe_steel>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.6, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:immersiveengineering:hoe_steel>.maxDamage = 641;
 
  
 <item:minecraft:netherite_hoe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:minecraft:netherite_hoe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:minecraft:netherite_hoe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:minecraft:netherite_hoe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -0.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:minecraft:netherite_hoe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:minecraft:netherite_hoe>.maxDamage = 2031;
 
  
