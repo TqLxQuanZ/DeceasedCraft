@@ -334,12 +334,12 @@ villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow
 villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:cgm:collateral> : 1 as int?}), 6, 2, 0.1);
 villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:cgm:trigger_finger> : 1 as int?}), 6, 2, 0.1);
 villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:cgm:quick_hands> : 1 as int?}), 6, 2, 0.1);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:cgm:fire_starter> : 1 as int?}), 6, 2, 0.1);
 villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:create:capacity> : 1 as int?}), 6, 2, 0.1);
 villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:create_sa:gravity_gun> : 1 as int?}), 6, 2, 0.1);
 villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:create_sa:digging> : 1 as int?}), 6, 2, 0.1);
 villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:create_sa:impact> : 1 as int?}), 6, 2, 0.1);
 villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:create_sa:hellfire> : 1 as int?}), 6, 2, 0.1);
-villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:cgm:fire_starter> : 1 as int?}), 6, 2, 0.1);
 villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:mutationcraft:mutation_bane> : 1 as int?}), 6, 2, 0.1);
 villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:farmersdelight:backstabbing> : 1 as int?}), 6, 2, 0.1);
 
