@@ -2187,6 +2187,72 @@
 				xp: 200
 			}]
 		}
+		{
+			title: "Pest Control - I"
+			icon: "minecraft:zombie_head"
+			x: -20.25d
+			y: 8.25d
+			shape: "square"
+			description: ["Slays a human herder, which can be possibly found within the mega building."]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "437F2CB9DBA71F24"
+			tasks: [{
+				id: "3667D3721D5E648D"
+				type: "kill"
+				title: "Slay a Human Herder"
+				icon: "minecraft:zombie_head"
+				entity: "mutationcraft:human_herder"
+				value: 100L
+			}]
+			rewards: [{
+				id: "4764BA54435C9B9C"
+				type: "xp"
+				xp: 1500
+			}]
+		}
+		{
+			title: "Pest Control - II"
+			x: -17.25d
+			y: 8.25d
+			shape: "square"
+			description: ["Slays a resenter, which can be possibly found in any city streets if venture far enough from spawn points."]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "0C8E2093AC9DFB53"
+			tasks: [{
+				id: "2A29A31F7AA77A4F"
+				type: "kill"
+				title: "Slay Resenter"
+				icon: "minecraft:zombie_head"
+				entity: "mutationcraft:resenter"
+				value: 100L
+			}]
+			rewards: [{
+				id: "74DC378F43786546"
+				type: "xp"
+				xp: 3000
+			}]
+		}
+		{
+			title: "Pest Control - III"
+			icon: "minecraft:zombie_head"
+			x: -14.25d
+			y: 8.25d
+			shape: "square"
+			description: ["Slays an intoxicator, which can be possibly found within wasteland factories area."]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "4CF53162936CCA55"
+			tasks: [{
+				id: "2FFF02CEA0D477CB"
+				type: "kill"
+				title: "Slay Intoxicator"
+				icon: "minecraft:zombie_head"
+				entity: "mutationcraft:the_intoxicator"
+				value: 100L
+			}]
+		}
 	]
 	quest_links: [ ]
 }

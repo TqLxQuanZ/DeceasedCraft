@@ -16,6 +16,13 @@
       "result": "deny"
     },
     {
+        "hostile": true,
+        "dimension": "minecraft:overworld",
+        "minlight": 7,
+        "maxlight": 15,
+        "result": "deny"
+    },
+    {
         "mod": "undead_revamp2",
         "dimension": "minecraft:overworld",
         "mincount": {
@@ -716,13 +723,6 @@
         "seesky": true,
         "biome": ["biomesoplenty:volcanic_plains", "biomesoplenty:volcano"],
         "result": "allow"
-    },
-    {
-        "hostile": true,
-        "dimension": "minecraft:overworld",
-        "minlight": 7,
-        "maxlight": 15,
-        "result": "deny"
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
