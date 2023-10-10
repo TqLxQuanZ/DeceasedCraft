@@ -56,6 +56,9 @@ JEI.addDescription(<item:apocalypsenow:biohazard_helmet>, "Biohazard helmet prov
 JEI.addDescription(<item:apocalypsenow:soldier_helmet>, "Soldier helmet provides essential protection when venturing into the wasteland, effectively negating the harmful effects of various elements and radiation.");
 
 
+// Explosive Bolts
+JEI.addDescription(<item:crossbowverhaul:bolt_explosive>, "Only usable with Netherite Crossbow.");
+
 // Golden Apple
 JEI.addDescription(<item:minecraft:golden_apple>, "Golden apples can be crafted using specific steps, obtained from hospital medical crates, or acquired by defeating certain bosses.\n \n \n \n \nGolden Apples can also be obtained by trading with a masterwork-level cleric villager.");
 
