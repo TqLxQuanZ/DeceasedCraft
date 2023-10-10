@@ -335,8 +335,13 @@ villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow
 villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:cgm:trigger_finger> : 1 as int?}), 6, 2, 0.1);
 villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:cgm:quick_hands> : 1 as int?}), 6, 2, 0.1);
 villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:create:capacity> : 1 as int?}), 6, 2, 0.1);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:create_sa:gravity_gun> : 1 as int?}), 6, 2, 0.1);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:create_sa:digging> : 1 as int?}), 6, 2, 0.1);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:create_sa:impact> : 1 as int?}), 6, 2, 0.1);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:create_sa:hellfire> : 1 as int?}), 6, 2, 0.1);
 villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:cgm:fire_starter> : 1 as int?}), 6, 2, 0.1);
 villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:mutationcraft:mutation_bane> : 1 as int?}), 6, 2, 0.1);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 1, <item:apocalypsenow:money> * 10, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:farmersdelight:backstabbing> : 1 as int?}), 6, 2, 0.1);
 
 // Tier 2
 villagerTrades.removeAllTrades(<profession:minecraft:librarian>, 2);
@@ -376,7 +381,9 @@ villagerTrades.addTrade(<profession:minecraft:librarian>, 2, <item:apocalypsenow
 villagerTrades.addTrade(<profession:minecraft:librarian>, 2, <item:apocalypsenow:money> * 15, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:cgm:trigger_finger> : 2 as int?}), 6, 10, 0.1);
 villagerTrades.addTrade(<profession:minecraft:librarian>, 2, <item:apocalypsenow:money> * 15, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:cgm:quick_hands> : 2 as int?}), 6, 10, 0.1);
 villagerTrades.addTrade(<profession:minecraft:librarian>, 2, <item:apocalypsenow:money> * 15, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:create:capacity> : 2 as int?}), 6, 10, 0.1);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 2, <item:apocalypsenow:money> * 15, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:create_sa:impact> : 2 as int?}), 6, 10, 0.1);
 villagerTrades.addTrade(<profession:minecraft:librarian>, 2, <item:apocalypsenow:money> * 15, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:mutationcraft:mutation_bane> : 2 as int?}), 6, 10, 0.1);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 2, <item:apocalypsenow:money> * 15, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:farmersdelight:backstabbing> : 2 as int?}), 6, 10, 0.1);
 
 // Tier 3
 villagerTrades.removeAllTrades(<profession:minecraft:librarian>, 3);
@@ -410,6 +417,8 @@ villagerTrades.addTrade(<profession:minecraft:librarian>, 3, <item:apocalypsenow
 villagerTrades.addTrade(<profession:minecraft:librarian>, 3, <item:apocalypsenow:money> * 30, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:cgm:puncturing> : 3 as int?}), 6, 12, 0.1);
 villagerTrades.addTrade(<profession:minecraft:librarian>, 3, <item:apocalypsenow:money> * 30, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:cgm:over_capacity> : 3 as int?}), 6, 12, 0.1);
 villagerTrades.addTrade(<profession:minecraft:librarian>, 3, <item:apocalypsenow:money> * 30, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:create:capacity> : 3 as int?}), 6, 12, 0.1);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 3, <item:apocalypsenow:money> * 30, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:create_sa:impact> : 3 as int?}), 6, 12, 0.1);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 3, <item:apocalypsenow:money> * 30, <item:minecraft:enchanted_book>.setEnchantments({<enchantment:farmersdelight:backstabbing> : 3 as int?}), 6, 12, 0.1);
 
 // Tier 4
 villagerTrades.removeAllTrades(<profession:minecraft:librarian>, 4);
