@@ -49,6 +49,26 @@
 		"itemcount": "1/1/1"
 	},
 	{
+		"mob": ["minecraft:zombie",
+				"minecraft:husk",
+				"minecraft:drowned",
+				"mutationcraft:assimilated_roamer",
+				"mutationcraft:developed_roamer"],
+		"random" : 0.01,
+		"item": "apocalypsenow:money",
+		"itemcount": "1/2/2"
+	},
+	{
+		"mob": ["minecraft:pillager", "minecraft:vindicator"],
+		"removeall": true
+	},
+	{
+		"mob": ["minecraft:pillager", "minecraft:vindicator", "minecraft:villager"],
+		"random" : 0.5,
+		"item": "apocalypsenow:money",
+		"itemcount": "1-2/1-3/2-4"
+	},
+	{
 		"mod": "zombiemobs",
 		"random" : 0.3,
 		"item": "minecraft:rotten_flesh",

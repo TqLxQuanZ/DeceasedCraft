@@ -136,6 +136,23 @@
       "result": "allow"
     },
     {
+      "mob": ["minecraft:pillager", "minecraft:vindicator"],
+      "dimension": "minecraft:overworld",
+      "minspawndist": 7500,
+      "incontrol": true,
+      "inbuilding": true,
+      "incity": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 71,
+      "result": "allow"
+    },
+    {
+      "mob": ["minecraft:pillager", "minecraft:vindicator"],
+      "dimension": "minecraft:overworld",
+      "result": "deny"
+    },
+    {
       "mob": "undead_revamp2:thepregnant",
       "dimension": "minecraft:overworld",
       "building": [
@@ -300,6 +317,23 @@
                         "apocalypsenow:red_bikers_helmet",
                         "apocalypsenow:black_bikers_helmet",
                         "apocalypsenow:green_bikers_helmet"]
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "biome": ["minecraft:beach"],
+        "onjoin": true,
+        "random": 0.3,
+        "result": "default",
+        "armorchest": ["apocalypsenow:life_jacket_bullet_helmet_chestplate" ]
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "biome": ["minecraft:snowy_plains", "minecraft:snowy_taiga", "minecraft:snowy_slopes"],
+        "onjoin": true,
+        "random": 0.3,
+        "result": "default",
+        "armorhelmet": ["apocalypsenow:hunting_helmet"],
+        "armorchest": ["apocalypsenow:hunting_chestplate"]
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -481,23 +515,6 @@
         "armorchest": "apocalypsenow:hazmat_suit_chestplate",
         "armorlegs": "apocalypsenow:hazmat_suit_leggings",
         "armorboots": "apocalypsenow:hazmat_suit_boots"
-    },
-    {
-        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
-        "biome": ["minecraft:beach"],
-        "onjoin": true,
-        "random": 0.3,
-        "result": "default",
-        "armorchest": ["apocalypsenow:life_jacket_bullet_helmet_chestplate" ]
-    },
-    {
-        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
-        "biome": ["minecraft:snowy_plains", "minecraft:snowy_taiga", "minecraft:snowy_slopes"],
-        "onjoin": true,
-        "random": 0.3,
-        "result": "default",
-        "armorhelmet": ["apocalypsenow:hunting_helmet"],
-        "armorchest": ["apocalypsenow:hunting_chestplate"]
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],

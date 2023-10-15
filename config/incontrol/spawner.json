@@ -81,6 +81,24 @@
 		}
 	},
 	{
+		"mob": ["minecraft:pillager", "minecraft:vindicator"],
+		"persecond": 0.005,
+		"attempts": 20,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 2,
+		  "groupdistance": 1
+		},
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 10,
+		  "maxdist": 200,
+		  "minheight": 71,
+		  "maxheight": 300
+		}
+	},
+	{
 		"mob": "minecraft:villager",
 		"persecond": 0.0025,
 		"attempts": 20,
@@ -109,7 +127,7 @@
 				"mutationcraft:assimilated_wolf",
 				"mutationcraft:assimilated_roamer",
 				"mutationcraft:developed_roamer"],
-		"persecond": 0.75,
+		"persecond": 0.65,
 		"attempts": 20,
 		"amount": {
 		  "minimum": 1,
