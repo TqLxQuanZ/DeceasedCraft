@@ -8,11 +8,10 @@
       "hostile": true,
       "dimension": "minecraft:overworld",
       "mincount": {
-        "amount": 350,
+        "amount": 10,
         "hostile": true,
         "perchunk": true
       },
-      "onjoin": true,
       "result": "deny"
     },
     {
@@ -20,6 +19,17 @@
         "dimension": "minecraft:overworld",
         "minlight": 7,
         "maxlight": 15,
+        "result": "deny"
+    },
+    {
+        "mod": "mutationcraft",
+        "dimension": "minecraft:overworld",
+        "mincount": {
+          "mod": "mutationcraft",
+          "amount": 20,
+          "perchunk": true
+        },
+        "onjoin": true,
         "result": "deny"
     },
     {
@@ -164,7 +174,6 @@
       "minlight": 0,
       "maxlight": 6,
       "minheight": 61,
-      "onjoin": true,
       "result": "allow",
       "nbt": {
         "Attributes": [
@@ -183,7 +192,6 @@
       "minlight": 0,
       "maxlight": 6,
       "minheight": 71,
-      "onjoin": true,
       "result": "allow",
       "nbt": {
         "Attributes": [
@@ -203,7 +211,6 @@
       "maxlight": 6,
       "minheight": 61,
       "minspawndist": 10000,
-      "onjoin": true,
       "result": "allow",
       "nbt": {
         "Attributes": [
@@ -221,7 +228,6 @@
       "maxlight": 6,
       "minheight": 61,
       "minspawndist": 15000,
-      "onjoin": true,
       "result": "allow",
       "nbt": {
         "Attributes": [
@@ -256,7 +262,6 @@
       "minlight": 0,
       "maxlight": 6,
       "minheight": 71,
-      "onjoin": true,
       "result": "allow",
       "healthadd": -16
     },
@@ -276,7 +281,6 @@
       "minlight": 0,
       "maxlight": 6,
       "minheight": 71,
-      "onjoin": true,
       "result": "allow",
       "nbt": {
         "Attributes": [
@@ -293,7 +297,6 @@
       "minlight": 0,
       "maxlight": 6,
       "minheight": 45,
-      "onjoin": true,
       "result": "allow",
       "nbt": {
         "Attributes": [
@@ -586,8 +589,7 @@
       "damageadd": 6.0
     },
     {
-      "mob": ["mutationcraft:reductor",
-              "mutationcraft:carnivorae"],
+      "mob": ["mutationcraft:reductor"],
       "minlight": 0,
       "maxlight": 6,
       "onjoin": true,
@@ -807,17 +809,6 @@
         "result": "deny"
     },
     {
-        "mod": "mutationcraft",
-        "dimension": "minecraft:overworld",
-        "mincount": {
-          "mod": "mutationcraft",
-          "amount": 50,
-          "perchunk": true
-        },
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "dimension": "minecraft:overworld",
         "baby": true,
@@ -900,7 +891,6 @@
     {
       "mod": "undead_revamp2",
       "dimension": "minecraft:overworld",
-      "onjoin": true,
       "result": "deny"
     },
     {
