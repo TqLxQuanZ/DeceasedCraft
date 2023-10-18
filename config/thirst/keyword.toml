@@ -1,0 +1,39 @@
+
+["Keyword config"]
+	#If the keyword config should be taken into consideration
+	enableKeywordConfig = false
+
+	["Keyword config"."Default Hydration values"]
+		#Default hydration for drinks selected with keywords [0-20]
+		defaultDrinkHydration = 10
+		#Default quenchness for drinks selected with keywords [0-20]
+		defaultDrinkQuenchness = 14
+		#Default hydration for soups selected with keywords [0-20]
+		defaultSoupHydration = 4
+		#Default quenchness for soups selected with keywords [0-20]
+		defaultSoupQuenchness = 5
+		#Default hydration for fruits selected with keywords [0-20]
+		defaultFruitHydration = 2
+		#Default quenchness for fruits selected with keywords [0-20]
+		defaultFruitQuenchness = 3
+
+		["Keyword config"."Default Hydration values"."Blacklisted Keywords"]
+			#The list of items to be ignored if they get selected by mistake by other keywords
+			#Format: [(keyword1|keyword2|keyword3)]
+			keyword_blacklist = "(?:\\b|[^a-zA-Z])(dried|candied|leaf|leaves|gummy|crate|jam|sauce|bucket|seed|cookie|pie|bush|sapling|bean|curry|cake|candy)(?:\\b|[^a-zA-Z])"
+
+		["Keyword config"."Default Hydration values"."Drink Keywords"]
+			#List of keywords for drinks
+			#Format: [(keyword1|keyword2|keyword3)]
+			keyword_drink = "(?:\\b|[^a-zA-Z])(drink|juice|tea|soda|coffee|wine|beer|cider|yogurt|milkshake|smoothie)(?:\\b|[^a-zA-Z])"
+
+		["Keyword config"."Default Hydration values"."Soup Keywords"]
+			#List of keywords for soups
+			#Format: [(keyword1|keyword2|keyword3)]
+			keyword_soup = "(?:\\b|[^a-zA-Z])(soup|stew|porridge)(?:\\b|[^a-zA-Z])"
+
+		["Keyword config"."Default Hydration values"."Fruit Keywords"]
+			#List of keywords for fruits
+			#Format: [(keyword1|keyword2|keyword3)]
+			keyword_fruit = "(?:\\b|[^a-zA-Z])(fruit|berry|berries|grape|orange|peach|pear|coconut|lemon|melon|cherry|apple)(?:\\b|[^a-zA-Z])"
+

@@ -1,15 +1,11 @@
 
 [General]
-	#Whether players can drink by shift-right-clicking water with an empty hand
-	canDrinkByHand = true
-	#How much the player is hydrated when drinking by hand
-	handDrinkingHydration = 3
-	#How much the player thirst is quenched when drinking by hand
-	handDrinkingQuenched = 2
 	#How much faster is hydration depletion relative to hunger (1 means they will deplete at the same speed)
 	thirstDepletionModifier = 1.2
-	#Whether walking should consume water
-	walkingConsumeWater = false
+	#Whether players will get slowness effect when thirsty
+	moveSlowWhenThirsty = true
+	#Whether foods considered as drinks should have nutrition
+	enableDrinksNutrition = true
 
 [World]
 	#Y level above which water has 1 more level of purification by default (i.e Mountains)
@@ -41,7 +37,7 @@
 
 ["Purification levels"]
 	#How many levels of purification are added after boiling in a kettle
-	furnacePurificationLevels = 2
+	kettlePurificationLevels = 2
 
 ["Fermentation levels"]
 	#Purification level below which fermented liquids will grow bacteria and get less purified
@@ -51,7 +47,23 @@
 
 ["Create compatibility"]
 	#Purification levels gained by filtering water through a Sand Filter
-	sandFilterFiltrationAmount = 1
+	sandFilterFiltrationAmount = 2
 	#Millibuckets of water filtered per game tick with a Sand Filter
 	sandFilterMbPerTick = 10
+
+["Drinking Mechanics"]
+	#Stack size for water bottles
+	waterBottleStacksize = 64
+	#Whether the player can't regenerate as fast when hydration isn't full (like hunger)
+	dehydrationHaltsHealthRegen = false
+	#Whether hydration depletes when the player's health is regenerating (like hunger)
+	healthRegenDepletesHydration = false
+	#Whether dehydration from regenerating health (if enabled above) should take into account temperature and humidity
+	healthRegenDehydrationIsBiomeDependent = false
+	#Whether players can drink by shift-right-clicking water with an empty hand
+	canDrinkByHand = true
+	#How much the player is hydrated when drinking by hand
+	handDrinkingHydration = 3
+	#How much the player thirst is quenched when drinking by hand
+	handDrinkingQuenched = 2
 
