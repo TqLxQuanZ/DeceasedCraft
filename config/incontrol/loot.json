@@ -63,8 +63,21 @@
 		"removeall": true
 	},
 	{
-		"mob": ["minecraft:pillager", "minecraft:vindicator", "minecraft:villager"],
-		"random" : 0.5,
+		"mob": ["minecraft:pillager",
+				"minecraft:vindicator",
+				"minecraft:villager",
+				"apocalypsenow:survivor_1",
+				"apocalypsenow:survivor_2",
+				"apocalypsenow:survivor_3",
+				"apocalypsenow:survivor_4",
+				"apocalypsenow:survivor_5",
+				"apocalypsenow:survivor_6",
+				"apocalypsenow:survivor_7",
+				"apocalypsenow:survivor_8",
+				"apocalypsenow:survivor_9",
+				"apocalypsenow:survivor_10",
+				"apocalypsenow:survivor_11"],
+		"random" : 0.35,
 		"item": "apocalypsenow:money",
 		"itemcount": "1-2/1-3/2-4"
 	},
