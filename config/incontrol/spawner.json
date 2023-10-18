@@ -117,6 +117,34 @@
 		}
 	},
 	{
+		"mob": ["apocalypsenow:survivor_1",
+				"apocalypsenow:survivor_2",
+				"apocalypsenow:survivor_3",
+				"apocalypsenow:survivor_4",
+				"apocalypsenow:survivor_5",
+				"apocalypsenow:survivor_6",
+				"apocalypsenow:survivor_7",
+				"apocalypsenow:survivor_8",
+				"apocalypsenow:survivor_9",
+				"apocalypsenow:survivor_10",
+				"apocalypsenow:survivor_11"],
+		"persecond": 0.005,
+		"attempts": 20,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 3,
+		  "groupdistance": 1
+		},
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 10,
+		  "maxdist": 200,
+		  "minheight": 71,
+		  "maxheight": 300
+		}
+	},
+	{
 		"mob": ["mutationcraft:assimilated_bear",
 				"mutationcraft:assimilated_cow",
 				"mutationcraft:assimilated_donkey",
