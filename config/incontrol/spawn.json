@@ -656,6 +656,20 @@
       }
     },
     {
+      "mob": "mutationcraft:parasitic_shooter",
+      "incontrol": false,
+      "onjoin": true,
+      "damageadd": 30.0,
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 4.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
+    },
+    {
       "mob": "mutationcraft:resenter",
       "minlight": 0,
       "maxlight": 6,
@@ -665,6 +679,25 @@
       "onjoin": true,
       "minspawndist": 15000,
       "result": "allow",
+      "damageadd": 150.0,
+      "healthadd": 500.0,
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 6.0,
+            "Name": "generic.armor"
+          },
+          {
+            "Base": 6.0,
+            "Name": "generic.armor_toughness"
+          }
+        ]
+      }
+    },
+    {
+      "mob": "mutationcraft:resenter",
+      "incontrol": false,
+      "onjoin": true,
       "damageadd": 150.0,
       "healthadd": 500.0,
       "nbt": {
@@ -715,6 +748,32 @@
       }
     },
     {
+      "mob": "mutationcraft:human_herder",
+      "incontrol": false,
+      "onjoin": true,
+      "damageadd": 75.0,
+      "healthadd": 250.0,
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 4.0,
+            "Name": "generic.armor"
+          },
+          {
+            "Base": 4.0,
+            "Name": "generic.armor_toughness"
+          }
+        ]
+      }
+    },
+    {
+      "mob": "mutationcraft:assimilated_evoker",
+      "incontrol": false,
+      "onjoin": true,
+      "damageadd": 50.0,
+      "healthadd": 250.0
+    },
+    {
       "mob": "mutationcraft:assimilated_jockey",
       "dimension": "minecraft:overworld",
       "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
@@ -728,6 +787,13 @@
       ],
       "onjoin": true,
       "result": "allow",
+      "damageadd": 20.0,
+      "speedmultiply": 2.0
+    },
+    {
+      "mob": "mutationcraft:assimilated_jockey",
+      "incontrol": false,
+      "onjoin": true,
       "damageadd": 20.0,
       "speedmultiply": 2.0
     },
@@ -755,6 +821,13 @@
           }
         ]
       }
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
+        "baby": true,
+        "onjoin": true,
+        "result": "deny"
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -846,13 +919,6 @@
           "mod": "crittersandcompanions",
           "perchunk": true
         },
-        "result": "deny"
-    },
-    {
-        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
-        "dimension": "minecraft:overworld",
-        "baby": true,
-        "onjoin": true,
         "result": "deny"
     },
     {
