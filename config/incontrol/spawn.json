@@ -953,7 +953,7 @@
         "mod": "alexsmobs",
         "dimension": "minecraft:overworld",
         "mincount": {
-          "amount": 10,
+          "amount": 4,
           "mod": "alexsmobs",
           "perchunk": true
         },
@@ -963,7 +963,7 @@
         "mod": "crittersandcompanions",
         "dimension": "minecraft:overworld",
         "mincount": {
-          "amount": 10,
+          "amount": 3,
           "mod": "crittersandcompanions",
           "perchunk": true
         },
@@ -1005,7 +1005,13 @@
               "alexsmobs:soul_vulture",
               "alexsmobs:sea_bear",
               "alexsmobs:mungus",
-              "alexsmobs:void_worm"],
+              "alexsmobs:void_worm",
+              "alexsmobs:toucan"],
+      "result": "deny"
+    },
+    {
+      "mob": ["alexsmobs:leafcutter_ant"],
+      "onjoin": true,
       "result": "deny"
     },
     {

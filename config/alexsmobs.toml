@@ -453,7 +453,7 @@
 		cosmawSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		toucanSpawnWeight = 23
+		toucanSpawnWeight = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		toucanSpawnRolls = 0
@@ -571,7 +571,7 @@
 			beachedCachalotWhaleSpawnDelay = 24000
 			#Percent chance for leafcutter anthills to spawn as world gen in each chunk. Set to zero to disable spawning.
 			#Range: 0.0 ~ 1.0
-			leafcutterAnthillSpawnChance = 0.004999999888241291
+			leafcutterAnthillSpawnChance = 0.0
 			#Whether to restrict all pupfish spawns to one chunk (similar to real life) or have them only obey their spawn config.
 			restrictPupfishSpawns = true
 			#The maximum distance a pupfish spawn chunk is from world spawn(0, 0) in blocks.
