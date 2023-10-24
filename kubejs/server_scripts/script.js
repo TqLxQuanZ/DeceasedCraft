@@ -46,6 +46,24 @@ onEvent('player.logged_out', event => {
 	event.player.persistentData.firstAidData = event.player.getFullNBT().ForgeCaps["firstaid:cap_adv_dmg_mdl"]
 })
 
+// Some players might cheat command block in their inventory, but we'll remove it anyhow if the player is not in creative mode
+onEvent('player.inventory.changed', (event) => {
+	if (!event.player.isCreativeMode())
+	{
+		event.player.inventory.clear("minecraft:command_block")
+	}
+});
+
+// Added this in case some server encounter issue where the command block didn't run in time to summon the car.
+onEvent('block.left_click', (event) => {
+    const { block } = event;
+    if (block == "minecraft:command_block" && !event.player.isCreativeMode())
+    {
+        block.set('minecraft:air');
+        event.server.runCommand(`summon car:car ${block.pos.x} ${block.pos.y} ${block.pos.z}`);
+    }
+});
+
 onEvent('block.break', event => {
     if (event.getBlock().hasTag('forge:ores')) {
         event.setXp(1);
