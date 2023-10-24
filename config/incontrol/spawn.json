@@ -8,7 +8,7 @@
       "hostile": true,
       "dimension": "minecraft:overworld",
       "mincount": {
-        "amount": 10,
+        "amount": 15,
         "hostile": true,
         "perchunk": true
       },
@@ -65,10 +65,20 @@
       "dimension": "minecraft:overworld",
       "mincount": {
         "mob": "minecraft:blaze",
-        "amount": 15,
+        "amount": 5,
         "perchunk": true
       },
       "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mod": "apocalypsenow",
+      "dimension": "minecraft:overworld",
+      "mincount": {
+        "mod": "apocalypsenow",
+        "amount": 3,
+        "perchunk": true
+      },
       "result": "deny"
     },
     {
