@@ -59,7 +59,7 @@ onEvent('player.inventory.changed', (event) => {
 // Added this in case some server encounter issue where the command block didn't run in time to summon the car.
 onEvent('block.left_click', (event) => {
     const { block } = event;
-    if (block == "minecraft:command_block")
+    if (block == "minecraft:command_block" && !event.player.isCreativeMode())
     {
         block.set('minecraft:air');
         event.server.runCommand(`summon car:car ${block.pos.x} ${block.pos.y} ${block.pos.z}`);
