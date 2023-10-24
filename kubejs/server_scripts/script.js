@@ -51,16 +51,22 @@ onEvent('player.inventory.changed', (event) => {
 	if (!event.player.isCreativeMode())
 	{
 		event.player.inventory.clear("minecraft:command_block")
+		event.player.inventory.clear("minecraft:repeating_command_block")
+		event.player.inventory.clear("clickmachine:auto_clicker")
 	}
 });
 
 // Added this in case some server encounter issue where the command block didn't run in time to summon the car.
 onEvent('block.left_click', (event) => {
     const { block } = event;
-    if (block == "minecraft:command_block" && !event.player.isCreativeMode())
+    if (block == "minecraft:command_block")
     {
         block.set('minecraft:air');
         event.server.runCommand(`summon car:car ${block.pos.x} ${block.pos.y} ${block.pos.z}`);
+    }
+	if (block == "minecraft:repeating_command_block" ||	block == "clickmachine:auto_clicker")
+    {
+        block.set('minecraft:air');
     }
 });
 
