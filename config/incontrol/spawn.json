@@ -1025,7 +1025,7 @@
       "result": "deny"
     },
     {
-        "mob": "mutationcraft:necroptor",
+        "mob": ["mutationcraft:necroptor", "mutationcraft:miter"],
         "dimension": "minecraft:overworld",
         "onjoin": true,
         "result": "deny"
