@@ -362,7 +362,10 @@
 		{
 			x: 7.0d
 			y: 5.0d
-			description: ["Craft a seismic survey tool to seek for oil reservoir."]
+			description: [
+				"Craft a seismic survey tool to seek for oil reservoir."
+				"Use buckshot on it to get a survey map."
+			]
 			dependencies: ["66347F4471AF0AD5"]
 			dependency_requirement: "one_started"
 			size: 2.0d

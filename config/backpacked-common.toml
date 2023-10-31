@@ -8,7 +8,7 @@
 	backpackInventorySizeColumns = 9
 	#The amount of slot rows in the backpack inventory.
 	#Range: 1 ~ 7
-	backpackInventorySize = 3
+	backpackInventorySize = 5
 
 	[common.wandering_trader]
 		#If enabled, allows wandering traders to have a backpack equipped when they spawn.
@@ -34,5 +34,5 @@
 		maxLootMultiplier = 3
 		#The maximum size of an emerald stack that can generate in the Wandering Trader backpack
 		#Range: 1 ~ 64
-		maxEmeraldStack = 12
+		maxEmeraldStack = 1
 
