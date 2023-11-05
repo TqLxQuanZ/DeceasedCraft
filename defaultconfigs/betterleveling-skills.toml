@@ -6,7 +6,7 @@
 	#Range: > 1
 	costPerLevel = 40
 	#Range: 0.0 ~ 1.7976931348623157E308
-	bonusPerLevel = 0.075
+	bonusPerLevel = 0.05
 	prerequisites = ""
 
 #Increase critical chance
@@ -16,7 +16,7 @@
 	#Range: > 1
 	costPerLevel = 50
 	#Range: 0.0 ~ 1.0
-	bonusPerLevel = 0.05
+	bonusPerLevel = 0.015
 	prerequisites = "strength:4"
 	#If set to true, vanilla crits will be disabled
 	disableVanillaCrits = true
@@ -172,9 +172,9 @@
 	#Range: > 1
 	rareTreasureWeight = 1
 	#Range: > 1
-	uncommonTreasureWeight = 3
+	uncommonTreasureWeight = 5
 	#Range: > 1
-	commonTreasureWeight = 6
+	commonTreasureWeight = 10
 	prerequisites = "prospecting:3,stonecutting:8"
 
 #Decrease fall damage taken

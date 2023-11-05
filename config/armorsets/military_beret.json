@@ -14,7 +14,7 @@
       "interactionType": "self",
       "attributeOperation": 0,
       "modifierUUID": "91ce5b4c-65f6-4659-a4b2-5c80a0caa487",
-      "description": "Grants 0.5 Melee Damage",
+      "description": "§a Grants 0.5 Melee Damage",
       "hideBonusDescription": false
     },
     {
@@ -24,7 +24,7 @@
       "interactionType": "self",
       "attributeOperation": 0,
       "modifierUUID": "d8b6da0a-4131-4fa4-a4a2-0fa21518b5d8",
-      "description": "Grants 0.25 Attack Speed",
+      "description": "§a Grants 0.25 Attack Speed",
       "hideBonusDescription": false
     },
     {
@@ -34,14 +34,14 @@
       "interactionType": "self",
       "attributeOperation": 0,
       "modifierUUID": "60ca9f21-2855-4e63-ae9f-1acc12586204",
-      "description": "Grants 1.0 Knockback Strength",
+      "description": "§a Grants 1.0 Knockback Strength",
       "hideBonusDescription": false
     },
     {
       "type": "effect",
       "name": "minecraft:weakness",
       "interactionType": "immunity",
-      "description": "Grants Weakness Immunity",
+      "description": "§6 Grants Weakness Immunity",
       "onlyImmuneToNewEffects": true
     }
   ],

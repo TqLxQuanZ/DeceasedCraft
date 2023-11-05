@@ -20,7 +20,7 @@
       "interactionType": "self",
       "attributeOperation": 0,
       "modifierUUID": "af05cd0e-4720-45fb-9cf5-ba1c42f76885",
-      "description": "Grants 1.0 Melee Damage",
+      "description": "§a Grants 1.0 Melee Damage",
       "hideBonusDescription": false
     },
     {
@@ -30,7 +30,7 @@
       "interactionType": "self",
       "attributeOperation": 0,
       "modifierUUID": "0e13ec18-026b-40ab-8c45-226e773c41db",
-      "description": "Grants 0.5 Attack Speed",
+      "description": "§a Grants 0.5 Attack Speed",
       "hideBonusDescription": false
     },
     {
@@ -39,13 +39,13 @@
       "value": 1.0,
       "interactionType": "attack",
       "interactionDuration": 200.0,
-      "description": "Apply Slowness Effect When Dealt Damage"
+      "description": "§6 Apply Slowness Effect When Dealt Damage"
     },
     {
       "type": "effect",
       "name": "minecraft:weakness",
       "interactionType": "immunity",
-      "description": "Grants Weakness Immunity",
+      "description": "§6 Grants Weakness Immunity",
       "onlyImmuneToNewEffects": true
     },
     {

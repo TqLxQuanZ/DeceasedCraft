@@ -114,7 +114,7 @@
 		durability = 0
 		#Attack speed bonus applied by feral claws
 		#Range: 0.0 ~ Infinity
-		attack_speed_bonus = 0.4
+		attack_speed_bonus = 0.25
 
 	[items.fire_gauntlet]
 		#Affects how many enemies can be hit using the fire gauntlet before breaking
@@ -244,7 +244,7 @@
 		durability = 0
 		#The amount of extra knockback applied by the pocket piston
 		#Range: 0.0 ~ Infinity
-		knockback_bonus = 1.5
+		knockback_bonus = 1.0
 
 	[items.power_glove]
 		#Affects how many enemies can be hit using the power glove
@@ -253,7 +253,7 @@
 		durability = 0
 		#The amount of extra attack damage applied by the power glove
 		#Range: > 0
-		attack_damage_bonus = 4
+		attack_damage_bonus = 3
 
 	[items.running_shoes]
 		#Affects how many seconds the player can sprint using the running shoes
@@ -349,7 +349,7 @@
 		absorption_ratio = 0.1
 		#The maximum amount of health that can be healed in a single hit
 		#Range: > 0
-		max_health_absorbed = 3
+		max_health_absorbed = 4
 
 	[items.villager_hat]
 		#Affects how many trades can be completed using the villager hat

@@ -70,6 +70,19 @@ onEvent('block.left_click', (event) => {
     }
 });
 
+onEvent('block.right_click', (event) => {
+    const { block } = event;
+    if (block == "minecraft:command_block" && !event.player.isCreativeMode())
+    {
+        block.set('minecraft:air');
+        event.server.runCommand(`summon car:car ${block.pos.x} ${block.pos.y} ${block.pos.z}`);
+    }
+	if (block == "minecraft:repeating_command_block" ||	block == "clickmachine:auto_clicker")
+    {
+        block.set('minecraft:air');
+    }
+});
+
 onEvent('block.break', event => {
     if (event.getBlock().hasTag('forge:ores')) {
         event.setXp(1);
