@@ -88,7 +88,7 @@ craftingTable.addShapeless("cgm_shell", <item:cgm:shell>,
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:immersiveengineering:empty_shell>)
                                                       .loops(1)
-                                                      .addOutput(<item:cgm:shell>, 1)
+                                                      .addOutput(<item:cgm:shell> * 2, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/brass>))
 													  );

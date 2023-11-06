@@ -50,23 +50,6 @@ craftingTable.addShapedMirrored("breathingfiltermodule", <constant:minecraft:mir
     [<item:minecraft:air>, <item:minecraft:charcoal>, <item:minecraft:air>]]);
     
 
-// Hides
-// Bears
-// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bear_ashen>);
-// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bear_black>);
-// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bear_brown>);
-// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bear_white>);
-
-// Cats
-// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_jaguar>);
-// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_leopard>);
-// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_lion>);
-// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_panther>);
-// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_puma>);
-// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_snow_leopard>);
-// <tag:items:forge:tough_hides>.add(<item:untamedwilds:hide_bigcat_tiger>);
-
-
 // Seed oil
 <recipetype:create:compacting>.removeByName("createaddition:compacting/seed_oil");
 <recipetype:create:compacting>.addRecipe("seed_oil", <constant:create:heat_condition:none>, [<fluid:createaddition:seed_oil> * 50], [<tag:items:forge:seeds> * 2], [], 100);
