@@ -291,7 +291,24 @@
       "minlight": 0,
       "maxlight": 6,
       "minheight": 61,
-      "minspawndist": 15000,
+      "minspawndist": 10000,
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 4.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
+    },
+    {
+      "mob": "undead_revamp2:thespitter",
+      "dimension": "minecraft:overworld",
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 61,
       "result": "allow",
       "nbt": {
         "Attributes": [
