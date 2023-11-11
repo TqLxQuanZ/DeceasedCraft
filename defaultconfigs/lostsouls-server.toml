@@ -71,7 +71,7 @@
 	#Range: 1 ~ 10000
 	sphereMaxMobs = 50
 	#If this is true then mobs will only spawn if the light level is low enough. Otherwise they spawn regardless of light level
-	checkValidSpawn = true
+	checkValidSpawn = false
 	#If this is true then the player will be notified when a building is cleared
 	announceCleared = true
 	#If this is true then the player will be notified when he or she enters a haunted building

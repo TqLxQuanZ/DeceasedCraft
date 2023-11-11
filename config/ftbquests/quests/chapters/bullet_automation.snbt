@@ -1,0 +1,748 @@
+{
+	id: "00ECEBAD70E0D42C"
+	group: "06797646CDBF2AAC"
+	order_index: 5
+	filename: "bullet_automation"
+	title: "Bullet Automation"
+	icon: "cgm:shell"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Sphalerite Mineral Vein"
+			icon: "create:zinc_ore"
+			x: -4.0d
+			y: 4.0d
+			description: ["Seek out the sphalerite mineral vein for massive zinc resources to prepare your brass production!"]
+			dependencies: ["7F432CC747B372CA"]
+			dependency_requirement: "one_started"
+			id: "6A146B82EDD36480"
+			tasks: [{
+				id: "6899E3BB5288DA60"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Massive Resources"
+			x: -10.0d
+			y: 6.0d
+			shape: "hexagon"
+			description: [
+				"- To automate your weapon factory, you must ensure you have a vast amount of resources at your disposal."
+				"- To achieve this, you'll need to locate and extract minerals from each of the corresponding mineral veins in the area."
+				"- Excavator and massive amount of energy are required!"
+			]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			id: "1AFE4EDF1E6EAC55"
+			tasks: [{
+				id: "7FA8FBFD29586B20"
+				type: "advancement"
+				title: "The Excavator"
+				advancement: "immersiveengineering:multiblocks/mb_excavator"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "36A24DC500B6F694"
+				type: "item"
+				item: {
+					id: "immersiveengineering:survey_tools"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Surveying"
+			x: -7.0d
+			y: 6.0d
+			description: ["Utilize the mineral survey tool to search for traces of mineral veins in the vicinity."]
+			dependencies: ["1AFE4EDF1E6EAC55"]
+			dependency_requirement: "one_started"
+			id: "7F432CC747B372CA"
+			tasks: [{
+				id: "367E38A31DFBFFFD"
+				type: "item"
+				item: {
+					id: "immersiveengineering:survey_tools"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Auricupride Mineral Vein"
+			icon: "minecraft:copper_ore"
+			x: -4.0d
+			y: 8.0d
+			description: ["Seek out the auricupride mineral vein for massive copper resources to prepare your brass production!"]
+			dependencies: ["7F432CC747B372CA"]
+			dependency_requirement: "one_started"
+			id: "57661E0767AF889C"
+			tasks: [{
+				id: "7B4527480D3B5955"
+				type: "checkmark"
+				title: "Checkmark"
+			}]
+		}
+		{
+			icon: "minecraft:book"
+			x: -7.0d
+			y: 9.0d
+			description: ["You can find information about all the mineral veins in the Immersive Manual book. Refer to the overview and resources category for detailed guidance."]
+			dependencies: ["7F432CC747B372CA"]
+			dependency_requirement: "one_started"
+			id: "3489C2D9EDEC651D"
+			tasks: [{
+				id: "5AB39A62D2D6AD40"
+				type: "checkmark"
+				title: "Mineral Veins"
+			}]
+			rewards: [{
+				id: "23CF7199874397D4"
+				type: "item"
+				item: {
+					id: "farmersdelight:apple_cider"
+					Count: 1b
+					tag: {
+						Purity: 3
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			description: [
+				"You can smelt the brass ingot using either of the methods; it doesn't matter which one you choose."
+				"- Arc Furnace"
+				"- Mechanical Mixer"
+				"- Alloy Kiln"
+			]
+			dependencies: [
+				"6A146B82EDD36480"
+				"57661E0767AF889C"
+			]
+			id: "5CA0A7BB8088CC04"
+			tasks: [{
+				id: "64B1EC482DDC3585"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+		}
+		{
+			title: "Heavy Pressing"
+			x: 2.0d
+			y: 6.0d
+			shape: "hexagon"
+			description: [
+				"- To create bullet casings, it's essential to have the necessary machinery in place first."
+				"- Establish a metal press from Immersive Engineering."
+			]
+			dependencies: ["5CA0A7BB8088CC04"]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			id: "14AE4753BAFD43F8"
+			tasks: [{
+				id: "3292DE824F75FAA8"
+				type: "advancement"
+				title: "Heavy Pressing"
+				advancement: "immersiveengineering:multiblocks/mb_metalpress"
+				criterion: ""
+			}]
+		}
+		{
+			title: "The Exclusive Molds"
+			x: 5.0d
+			y: 6.0d
+			description: ["Obtain any bullet mold from wasteland factory."]
+			dependencies: ["14AE4753BAFD43F8"]
+			dependency_requirement: "one_started"
+			id: "7A0D88FD05C79544"
+			tasks: [{
+				id: "5D6C7C5D83C5DCD1"
+				type: "item"
+				title: "Any #forge:bullet_molds"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:bullet_molds"
+					}
+				}
+			}]
+		}
+		{
+			title: "Transporting Ores"
+			icon: "minecraft:iron_ore"
+			x: -1.0d
+			y: 10.5d
+			shape: "rsquare"
+			description: ["Have you ever considered using a train to transport your ores if the mineral veins are too far away?"]
+			dependencies: ["5CA0A7BB8088CC04"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "0DBFE729CA9B88CD"
+			tasks: [
+				{
+					id: "23DEC80DCAB2C8CE"
+					type: "item"
+					item: "create:track_station"
+				}
+				{
+					id: "6E2F3EC6AB5CC6BC"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			title: "The Assemble"
+			x: 12.0d
+			y: 6.0d
+			shape: "hexagon"
+			description: ["To maximize the efficiency of bullet production, consider using a deployer, as they consume fewer resources."]
+			dependencies: [
+				"1B552AB170A166EA"
+				"4F204B23AAD4BA49"
+				"13E07BBCEEF7F142"
+			]
+			dependency_requirement: "one_started"
+			size: 3.0d
+			id: "25C6189E8ABA6FCA"
+			tasks: [{
+				id: "50A6D2EEE4AEF772"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			title: "Everlasting Rod"
+			x: 11.0d
+			y: -8.0d
+			shape: "hexagon"
+			description: ["Obtain the blaze rods from volcanic biomes by killing blazes."]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			id: "5E36F73A4275A6DA"
+			tasks: [{
+				id: "009AE5046C66CE7D"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+		}
+		{
+			title: "Heavy Pressing"
+			x: 15.0d
+			y: -4.5d
+			shape: "hexagon"
+			description: [
+				"- Establish a metal press from Immersive Engineering."
+				""
+			]
+			dependencies: ["0059B1B5D5101AEB"]
+			dependency_requirement: "one_started"
+			id: "6ADD4331CC91EC96"
+			tasks: [{
+				id: "326B136EC3168298"
+				type: "advancement"
+				title: "Heavy Pressing"
+				advancement: "immersiveengineering:multiblocks/mb_metalpress"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Reduce to Atoms"
+			x: 9.0d
+			y: -4.5d
+			description: [
+				"- Crush the blaze rods into refined dusts."
+				"- Crush the sandstone to obtain nitrate dusts."
+			]
+			dependencies: [
+				"5E36F73A4275A6DA"
+				"07EC69DFF4EBD8DC"
+			]
+			dependency_requirement: "one_started"
+			size: 3.0d
+			id: "527E72D876158826"
+			tasks: [{
+				id: "17C0FFF50326D527"
+				type: "advancement"
+				advancement: "immersiveengineering:multiblocks/mb_crusher"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Infinite Stones"
+			x: 7.5d
+			y: -19.0d
+			description: ["Thanos? No, now get to drill the cobblestones."]
+			dependencies: [
+				"788649D1405AB54D"
+				"2A5165F4D020F832"
+			]
+			dependency_requirement: "one_started"
+			id: "6EE07F1F93C9C62F"
+			tasks: [{
+				id: "3C6062E3EC42491D"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+		}
+		{
+			title: "Water Source"
+			x: 6.0d
+			y: -21.0d
+			shape: "hexagon"
+			description: ["I am pretty sure you can grab this any time."]
+			dependency_requirement: "one_started"
+			id: "2A5165F4D020F832"
+			tasks: [{
+				id: "158D171DA7E7924C"
+				type: "item"
+				item: {
+					id: "minecraft:water_bucket"
+					Count: 1b
+					tag: {
+						Purity: -1
+					}
+				}
+			}]
+		}
+		{
+			title: "Lava Source"
+			x: 9.0d
+			y: -21.0d
+			shape: "hexagon"
+			description: ["I am pretty sure you can grab this any time."]
+			dependency_requirement: "one_started"
+			id: "788649D1405AB54D"
+			tasks: [{
+				id: "0D349D0B3927FF91"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			title: "Drill the Stones!"
+			x: 7.5d
+			y: -17.5d
+			description: ["Drill the cobblestones so the crushing wheel or crusher can grind them into gravel."]
+			dependencies: ["6EE07F1F93C9C62F"]
+			dependency_requirement: "one_started"
+			id: "488AF673B1F333EC"
+			tasks: [{
+				id: "5EE2F09C292B699F"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -16.0d
+			description: [
+				"- Grind the cobblestone into gravels."
+				"- Crusher also works, depends on how you want to set it up."
+			]
+			dependencies: ["488AF673B1F333EC"]
+			dependency_requirement: "one_started"
+			id: "3616E17635619FAB"
+			tasks: [{
+				id: "539C072A78270780"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+		}
+		{
+			title: "Sandstones"
+			x: 7.5d
+			y: -8.0d
+			shape: "hexagon"
+			description: ["Compress the sands into sandstone."]
+			dependencies: [
+				"73B658339EB51357"
+				"0397635619F12447"
+			]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			id: "07EC69DFF4EBD8DC"
+			tasks: [{
+				id: "257735349E8955CC"
+				type: "item"
+				title: "Any #forge:sandstone"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:sandstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			description: ["Obtain nitrate dust from crushing sand with Crusher."]
+			dependencies: ["527E72D876158826"]
+			dependency_requirement: "one_started"
+			id: "55055E45DEEAC9D8"
+			tasks: [{
+				id: "32483EA58CD3B6D6"
+				type: "item"
+				item: "immersiveengineering:dust_saltpeter"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -4.5d
+			description: ["Crush the blaze rods into blaze powders."]
+			dependencies: ["527E72D876158826"]
+			dependency_requirement: "one_started"
+			id: "0059B1B5D5101AEB"
+			tasks: [{
+				id: "7331F36A1DF4F12F"
+				type: "item"
+				item: "minecraft:blaze_powder"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -8.0d
+			description: ["Recycle the blaze rod by repressing it with dust and the mold."]
+			dependencies: ["6358C1DED08C744A"]
+			dependency_requirement: "one_started"
+			id: "1BC7BCAF9B652406"
+			tasks: [{
+				id: "024CCAD454DCC7A3"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -8.0d
+			description: ["Craft a rod mold in the engineer workbench using the metal press mold blueprint."]
+			dependencies: ["6ADD4331CC91EC96"]
+			dependency_requirement: "one_started"
+			id: "6358C1DED08C744A"
+			tasks: [{
+				id: "3DD2089C41E5F687"
+				type: "item"
+				item: "immersiveengineering:mold_rod"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			description: [
+				"There are two ways of obtaining sulfur."
+				"- Obtain from crushing blaze rods into blaze powder, there will be a chance to be produced as byproduct."
+				"- Obtain directly from several type of mineral veins."
+			]
+			dependencies: [
+				"3D2CC7B82FE7EAB4"
+				"527E72D876158826"
+			]
+			dependency_requirement: "one_started"
+			id: "5285CFF062ADCC60"
+			tasks: [{
+				id: "7F6F0165897856D1"
+				type: "item"
+				item: "immersiveengineering:dust_sulfur"
+			}]
+		}
+		{
+			title: "Optional Veins"
+			icon: "immersiveengineering:ore_lead"
+			x: -7.0d
+			y: -1.5d
+			description: ["Several mineral veins also provides sulfur dust as a product to create gunpowder."]
+			dependencies: ["7F432CC747B372CA"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "3D2CC7B82FE7EAB4"
+			tasks: [{
+				id: "330C5C21789495EB"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -14.5d
+			description: ["Now grind it again!"]
+			dependencies: ["3616E17635619FAB"]
+			dependency_requirement: "one_started"
+			id: "0327652F32B66116"
+			tasks: [{
+				id: "05D4D48D9C15E430"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -13.0d
+			description: ["Now combine it with the other sands!"]
+			dependencies: ["0327652F32B66116"]
+			dependency_requirement: "one_started"
+			id: "0F5AF0C0223B7331"
+			tasks: [{
+				id: "19FB5F85A3BC0881"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+		}
+		{
+			title: "The Finest Product"
+			x: 9.0d
+			y: 3.0d
+			description: ["Produce gunpowder."]
+			dependencies: [
+				"364B381B11E2C427"
+				"1AC1AE7A8F3F962C"
+			]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "1B552AB170A166EA"
+			tasks: [{
+				id: "4F92521F2CF43B47"
+				type: "item"
+				item: "minecraft:gunpowder"
+			}]
+		}
+		{
+			title: "The Bullets"
+			x: 16.5d
+			y: 6.0d
+			description: ["Fully automate your bullet production."]
+			dependencies: ["25C6189E8ABA6FCA"]
+			dependency_requirement: "one_started"
+			size: 3.0d
+			id: "6AB224557AE83C52"
+			tasks: [
+				{
+					id: "435A3F346F99C8B0"
+					type: "item"
+					title: "Any #forge:bullets"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:bullets"
+						}
+					}
+				}
+				{
+					id: "17F6C9A208D48276"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			title: "Compressing - I"
+			x: 6.0d
+			y: -10.5d
+			description: ["Compress the sand into sandstone using mechanical crafter."]
+			dependencies: ["0F5AF0C0223B7331"]
+			dependency_requirement: "one_started"
+			id: "0397635619F12447"
+			tasks: [{
+				id: "3606E93524E52562"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -10.5d
+			description: ["Compress the sand into sandstone using mechanical mixer."]
+			dependencies: ["0F5AF0C0223B7331"]
+			dependency_requirement: "one_started"
+			id: "73B658339EB51357"
+			tasks: [{
+				id: "326F69AA33087878"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			title: "Casings"
+			x: 8.0d
+			y: 6.0d
+			description: ["Obtain the bullet casing from pressing brass ingots using mold and metal presser."]
+			dependencies: ["7A0D88FD05C79544"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "4F204B23AAD4BA49"
+			tasks: [{
+				id: "6C85B3685DDDAF3C"
+				type: "item"
+				title: "Any #forge:bullet_casing"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:bullet_casing"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.5d
+			dependencies: ["737EEB1096C590EC"]
+			dependency_requirement: "one_started"
+			id: "7E3D9766C0095559"
+			tasks: [{
+				id: "7BF2B328C08362FF"
+				type: "item"
+				item: "minecraft:charcoal"
+			}]
+		}
+		{
+			title: "Mix Them Together - I"
+			x: 8.0d
+			y: 0.5d
+			description: ["Mix the ingredients together to create gunpowder using mechanical mixer."]
+			dependencies: [
+				"5285CFF062ADCC60"
+				"55055E45DEEAC9D8"
+				"7E3D9766C0095559"
+			]
+			dependency_requirement: "one_started"
+			id: "364B381B11E2C427"
+			tasks: [{
+				id: "50B0D076BE47C1B6"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			title: "Mix Them Together - II"
+			x: 10.0d
+			y: 0.5d
+			description: ["Mix the ingredients together to create gunpowder using mechanical crafter."]
+			dependencies: [
+				"7E3D9766C0095559"
+				"55055E45DEEAC9D8"
+				"5285CFF062ADCC60"
+			]
+			dependency_requirement: "one_started"
+			id: "1AC1AE7A8F3F962C"
+			tasks: [{
+				id: "74103B95D6EBF7EE"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			title: "Nuggets"
+			x: 9.0d
+			y: 9.0d
+			description: ["Most of the nuggets can be produced into different type of bullets."]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "13E07BBCEEF7F142"
+			tasks: [{
+				id: "7DBC5D0327C85011"
+				type: "item"
+				title: "Any #forge:nuggets"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:nuggets"
+					}
+				}
+			}]
+		}
+		{
+			title: "Logs"
+			x: 15.5d
+			y: -1.5d
+			description: ["Cut the logs using mechanical saw, then burn them into charcoal."]
+			dependencies: ["3181FFCE48AACF38"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "6B1A5E3AC216D89C"
+			tasks: [{
+				id: "2ED3E2DB0B4FB4BA"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: -1.5d
+			description: ["Obtain mechanical saw to cut trees automatically."]
+			dependencies: ["65A783F254EA6F95"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "3181FFCE48AACF38"
+			tasks: [{
+				id: "4186240C9F1C01D3"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+		}
+		{
+			title: "Planting Trees"
+			x: 19.5d
+			y: -1.5d
+			description: ["Obtain any sapling and start planting trees."]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "65A783F254EA6F95"
+			tasks: [{
+				id: "29760A1BED2C8A07"
+				type: "item"
+				title: "Any #minecraft:saplings"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: -1.5d
+			description: ["Use an encased fan along with lava to burn the logs into charcoal."]
+			dependencies: ["6B1A5E3AC216D89C"]
+			dependency_requirement: "one_started"
+			id: "737EEB1096C590EC"
+			tasks: [{
+				id: "2E59E76714FD8F4A"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			description: ["There won't be any rewards for this questline, as it is completely optional and there are repeating quest already existed in the other questline."]
+			dependency_requirement: "one_started"
+			size: 3.0d
+			id: "13F7A401B7B6AA0B"
+			tasks: [{
+				id: "72F26B6F3E13839B"
+				type: "checkmark"
+				title: "Info"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -395,16 +395,15 @@
 			]
 		}
 		{
-			title: "Food Spoils!"
-			icon: "minecraft:rotten_flesh"
+			title: "Stronger Variants"
+			icon: "minecraft:skeleton_skull"
 			x: 4.5d
 			y: 7.5d
 			shape: "square"
 			description: [
-				"- All food spoils over time, emphasizing the importance of preserving it to ensure your survival."
-				"- Look for coolers or fridges in buildings to store your food, or consider crafting them if you have the necessary materials."
-				"- By properly storing your food, you can extend its shelf life and maintain a reliable source of sustenance in the challenging post-apocalyptic world."
-				"- Spoiled foods can be combined together by crafting them horizontally of each slot."
+				"- Stronger variants of zombies can be encountered beyond 10,000/15,000 blocks away from the spawn point."
+				"- If you're seeking a greater challenge, feel free to venture out to face these formidable foes."
+				"- The stronger zombies also have a chance to drop higher-quality ammunition."
 			]
 			dependency_requirement: "one_started"
 			size: 1.5d
