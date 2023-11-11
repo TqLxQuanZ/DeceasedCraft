@@ -1,6 +1,9 @@
 import crafttweaker.api.item.IItemStack;
 import mods.jei.JEI;
 
+// Pipez
+JEI.addDescription(<item:pipez:energy_pipe>, "Standard tier provides 32,768 ft/t.\nBasic tier provides 65,536 ft/t.\nImproved tier provides 98304 ft/t.\nAdvanced tier provides 131,072 ft/t.\nUltimate tier provides 163,840 ft/t.");
+
 // Mold Descriptions
 JEI.addDescription(<item:contenttweaker:mold_bullet_casing_small>, "Bullet molds are exclusively obtainable in wastelands factory buildings or purchased through Gunsmith, as they are crafted by skilled professionals and cannot be created through crafting.");
 JEI.addDescription(<item:contenttweaker:mold_bullet_casing_short>, "Bullet molds are exclusively obtainable in wastelands factory buildings or purchased through Gunsmith, as they are crafted by skilled professionals and cannot be created through crafting.");

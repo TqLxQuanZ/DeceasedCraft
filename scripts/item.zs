@@ -3,6 +3,62 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.ItemCooldowns;
 import mods.jei.JEI;
 
+// Energy Pipez
+craftingTable.remove(<item:pipez:energy_pipe>);
+craftingTable.addShaped("energy_pipe", <item:pipez:energy_pipe>,
+    [[<item:contenttweaker:rubber>, <tag:items:forge:ingots/electrum>, <item:contenttweaker:rubber>],
+    [<tag:items:forge:ingots/aluminum>, <tag:items:forge:ingots/aluminum>, <tag:items:forge:ingots/aluminum>],
+	[<item:contenttweaker:rubber>, <tag:items:forge:ingots/electrum>, <item:contenttweaker:rubber>]]);
+
+// Fluid Pipez
+craftingTable.remove(<item:pipez:fluid_pipe>);
+craftingTable.addShaped("fluid_pipe", <item:pipez:fluid_pipe>,
+    [[<item:contenttweaker:rubber>, <tag:items:forge:ingots/copper>, <item:contenttweaker:rubber>],
+    [<tag:items:forge:ingots/copper>, <tag:items:forge:ingots/copper>, <tag:items:forge:ingots/copper>],
+	[<item:contenttweaker:rubber>, <tag:items:forge:ingots/copper>, <item:contenttweaker:rubber>]]);
+
+// Item Pipez
+craftingTable.remove(<item:pipez:item_pipe>);
+craftingTable.addShaped("item_pipe", <item:pipez:item_pipe>,
+    [[<item:contenttweaker:rubber>, <tag:items:forge:ingots/iron>, <item:contenttweaker:rubber>],
+    [<tag:items:forge:ingots/iron>, <item:refinedstorage:basic_processor>, <tag:items:forge:ingots/iron>],
+	[<item:contenttweaker:rubber>, <tag:items:forge:ingots/iron>, <item:contenttweaker:rubber>]]);
+
+// Universal Pipez
+craftingTable.remove(<item:pipez:universal_pipe>);
+craftingTable.addShaped("universal_pipe", <item:pipez:universal_pipe>,
+    [[<item:pipez:item_pipe>, <item:pipez:energy_pipe>, <item:pipez:fluid_pipe>],
+    [<item:refinedstorage:advanced_processor>, <item:refinedstorage:advanced_processor>, <item:refinedstorage:advanced_processor>],
+	[<item:pipez:item_pipe>, <item:pipez:energy_pipe>, <item:pipez:fluid_pipe>]]);
+
+// Basic Upgrade
+craftingTable.remove(<item:pipez:basic_upgrade>);
+craftingTable.addShaped("pipe_basic_upgrade", <item:pipez:basic_upgrade>,
+    [[<tag:items:forge:plates/nickel>, <item:refinedstorage:basic_processor>, <tag:items:forge:plates/nickel>],
+    [<item:refinedstorage:basic_processor>, <tag:items:forge:plates/plastic>, <item:refinedstorage:basic_processor>],
+	[<tag:items:forge:plates/nickel>, <item:refinedstorage:basic_processor>, <tag:items:forge:plates/nickel>]]);
+
+// Improved Upgrade
+craftingTable.remove(<item:pipez:improved_upgrade>);
+craftingTable.addShaped("pipe_improved_upgrade", <item:pipez:improved_upgrade>,
+    [[<tag:items:forge:plates/electrum>, <item:refinedstorage:improved_processor>, <tag:items:forge:plates/electrum>],
+    [<item:refinedstorage:improved_processor>, <item:pipez:basic_upgrade>, <item:refinedstorage:improved_processor>],
+	[<tag:items:forge:plates/electrum>, <item:refinedstorage:improved_processor>, <tag:items:forge:plates/electrum>]]);
+    
+// Advanced Upgrade
+craftingTable.remove(<item:pipez:advanced_upgrade>);
+craftingTable.addShaped("pipe_advanced_upgrade", <item:pipez:advanced_upgrade>,
+    [[<tag:items:forge:plates/aluminum>, <item:refinedstorage:advanced_processor>, <tag:items:forge:plates/aluminum>],
+    [<item:refinedstorage:advanced_processor>, <item:pipez:improved_upgrade>, <item:refinedstorage:advanced_processor>],
+	[<tag:items:forge:plates/aluminum>, <item:refinedstorage:advanced_processor>, <tag:items:forge:plates/aluminum>]]);
+
+// Ultimate Upgrade
+craftingTable.remove(<item:pipez:ultimate_upgrade>);
+craftingTable.addShaped("pipe_ultimate_upgrade", <item:pipez:ultimate_upgrade>,
+    [[<item:minecraft:netherite_ingot>, <item:minecraft:ender_pearl>, <item:minecraft:netherite_ingot>],
+    [<item:minecraft:ender_pearl>, <item:pipez:advanced_upgrade>, <item:minecraft:ender_pearl>],
+	[<item:minecraft:netherite_ingot>, <item:minecraft:ender_pearl>, <item:minecraft:netherite_ingot>]]);
+
 // XP Tome
 craftingTable.remove(<item:xpbook:xp_tome>);
 craftingTable.addShaped("xp_tome", <item:xpbook:xp_tome>,
