@@ -82,9 +82,9 @@ craftingTable.removeByName("car:wheel");
                                                       .require(<item:immersiveengineering:storage_aluminum>)
                                                       .loops(3)
                                                       .addOutput(<item:car:wheel>, 1)
-                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:contenttweaker:rubber>))
                                                       .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
 													  );
 
 // Big Wheels
@@ -107,9 +107,9 @@ craftingTable.removeByName("car:small_tank");
                                                       .require(<item:immersiveengineering:storage_aluminum>)
                                                       .loops(1)
                                                       .addOutput(<item:car:small_tank>, 1)
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
                                                       .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
 													  );
 
 // Medium tank
