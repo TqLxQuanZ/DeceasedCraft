@@ -4,4 +4,3 @@
 #
 # Run the forge installer 1.18.2-40.2.4 and click Install server, then select this directory as the server base.
 # After that, launch the run.bat file or run.sh (linux) should start the server, make sure to agree with eula on the first time.
-# Test Hook
