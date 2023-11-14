@@ -18,7 +18,9 @@
     "use_entity_culling": true,
     "use_particle_culling": true,
     "use_fog_occlusion": true,
-    "use_block_face_culling": true
+    "use_block_face_culling": true,
+    "use_compact_vertex_format": true,
+    "use_translucent_face_sorting": false
   },
   "notifications": {
     "hide_donation_button": false
