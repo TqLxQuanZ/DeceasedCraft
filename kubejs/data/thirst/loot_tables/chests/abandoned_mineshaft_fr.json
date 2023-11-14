@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Purity: 3}"
+            }
+          ],
+          "name": "farmersdelight:apple_cider",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 20
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}
