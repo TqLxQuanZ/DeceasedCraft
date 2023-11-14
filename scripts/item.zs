@@ -5,28 +5,28 @@ import mods.jei.JEI;
 
 // Energy Pipez
 craftingTable.remove(<item:pipez:energy_pipe>);
-craftingTable.addShaped("energy_pipe", <item:pipez:energy_pipe>,
+craftingTable.addShaped("energy_pipe", <item:pipez:energy_pipe> * 32,
     [[<item:contenttweaker:rubber>, <tag:items:forge:ingots/electrum>, <item:contenttweaker:rubber>],
-    [<tag:items:forge:ingots/aluminum>, <tag:items:forge:ingots/aluminum>, <tag:items:forge:ingots/aluminum>],
+    [<tag:items:forge:ingots/electrum>, <tag:items:forge:ingots/electrum>, <tag:items:forge:ingots/electrum>],
 	[<item:contenttweaker:rubber>, <tag:items:forge:ingots/electrum>, <item:contenttweaker:rubber>]]);
 
 // Fluid Pipez
 craftingTable.remove(<item:pipez:fluid_pipe>);
-craftingTable.addShaped("fluid_pipe", <item:pipez:fluid_pipe>,
-    [[<item:contenttweaker:rubber>, <tag:items:forge:ingots/copper>, <item:contenttweaker:rubber>],
-    [<tag:items:forge:ingots/copper>, <tag:items:forge:ingots/copper>, <tag:items:forge:ingots/copper>],
-	[<item:contenttweaker:rubber>, <tag:items:forge:ingots/copper>, <item:contenttweaker:rubber>]]);
+craftingTable.addShaped("fluid_pipe", <item:pipez:fluid_pipe> * 32,
+    [[<item:contenttweaker:rubber>, <item:immersiveengineering:fluid_pipe>, <item:contenttweaker:rubber>],
+    [<item:create:fluid_pipe>, <item:create:fluid_pipe>, <item:create:fluid_pipe>],
+	[<item:contenttweaker:rubber>, <item:immersiveengineering:fluid_pipe>, <item:contenttweaker:rubber>]]);
 
 // Item Pipez
 craftingTable.remove(<item:pipez:item_pipe>);
-craftingTable.addShaped("item_pipe", <item:pipez:item_pipe>,
-    [[<item:contenttweaker:rubber>, <tag:items:forge:ingots/iron>, <item:contenttweaker:rubber>],
-    [<tag:items:forge:ingots/iron>, <item:refinedstorage:basic_processor>, <tag:items:forge:ingots/iron>],
-	[<item:contenttweaker:rubber>, <tag:items:forge:ingots/iron>, <item:contenttweaker:rubber>]]);
+craftingTable.addShaped("item_pipe", <item:pipez:item_pipe> * 32,
+    [[<item:contenttweaker:rubber>, <item:refinedstorage:cable>, <item:contenttweaker:rubber>],
+    [<item:refinedstorage:importer>, <item:refinedstorage:basic_processor>, <item:refinedstorage:exporter>],
+	[<item:contenttweaker:rubber>, <item:refinedstorage:cable>, <item:contenttweaker:rubber>]]);
 
 // Universal Pipez
 craftingTable.remove(<item:pipez:universal_pipe>);
-craftingTable.addShaped("universal_pipe", <item:pipez:universal_pipe>,
+craftingTable.addShaped("universal_pipe", <item:pipez:universal_pipe> * 12,
     [[<item:pipez:item_pipe>, <item:pipez:energy_pipe>, <item:pipez:fluid_pipe>],
     [<item:refinedstorage:advanced_processor>, <item:refinedstorage:advanced_processor>, <item:refinedstorage:advanced_processor>],
 	[<item:pipez:item_pipe>, <item:pipez:energy_pipe>, <item:pipez:fluid_pipe>]]);

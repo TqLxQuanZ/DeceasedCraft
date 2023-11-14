@@ -64,19 +64,19 @@
 	[energy_pipe.amount]
 		#The amount of FE transferred each tick
 		#Range: > 1
-		no_upgrade = 32768
+		no_upgrade = 8192
 		#The amount of FE transferred each tick
 		#Range: > 1
-		basic = 65536
+		basic = 16384
 		#The amount of FE transferred each tick
 		#Range: > 1
-		improved = 98304
+		improved = 32768
 		#The amount of FE transferred each tick
 		#Range: > 1
-		advanced = 131072
+		advanced = 65536
 		#The amount of FE transferred each tick
 		#Range: > 1
-		ultimate = 163840
+		ultimate = 131072
 
 [gas_pipe]
 
