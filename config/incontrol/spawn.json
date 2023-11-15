@@ -8,6 +8,15 @@
       "hostile": true,
       "dimension": "minecraft:overworld",
       "mincount": {
+        "hostile": true,
+        "amount": 350
+      },
+      "result": "deny"
+    },
+    {
+      "hostile": true,
+      "dimension": "minecraft:overworld",
+      "mincount": {
         "amount": 15,
         "hostile": true,
         "perchunk": true
@@ -625,7 +634,7 @@
         "incity": true,
         "onjoin": true,
         "minheight": 61,
-        "random": 0.03,
+        "random": 0.01,
         "minspawndist": 10000,
         "result": "default",
         "nbt": {
