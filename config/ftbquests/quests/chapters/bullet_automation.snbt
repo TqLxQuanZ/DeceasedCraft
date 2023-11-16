@@ -16,6 +16,7 @@
 			description: ["Seek out the sphalerite mineral vein for massive zinc resources to prepare your brass production!"]
 			dependencies: ["7F432CC747B372CA"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "6A146B82EDD36480"
 			tasks: [{
 				id: "6899E3BB5288DA60"
@@ -61,6 +62,7 @@
 			description: ["Utilize the mineral survey tool to search for traces of mineral veins in the vicinity."]
 			dependencies: ["1AFE4EDF1E6EAC55"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "7F432CC747B372CA"
 			tasks: [{
 				id: "367E38A31DFBFFFD"
@@ -82,6 +84,7 @@
 			description: ["Seek out the auricupride mineral vein for massive copper resources to prepare your brass production!"]
 			dependencies: ["7F432CC747B372CA"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "57661E0767AF889C"
 			tasks: [{
 				id: "7B4527480D3B5955"
@@ -96,6 +99,7 @@
 			description: ["You can find information about all the mineral veins in the Immersive Manual book. Refer to the overview and resources category for detailed guidance."]
 			dependencies: ["7F432CC747B372CA"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "3489C2D9EDEC651D"
 			tasks: [{
 				id: "5AB39A62D2D6AD40"
@@ -127,6 +131,7 @@
 				"6A146B82EDD36480"
 				"57661E0767AF889C"
 			]
+			progression_mode: "flexible"
 			id: "5CA0A7BB8088CC04"
 			tasks: [{
 				id: "64B1EC482DDC3585"
@@ -146,6 +151,7 @@
 			dependencies: ["5CA0A7BB8088CC04"]
 			dependency_requirement: "one_started"
 			size: 2.0d
+			progression_mode: "flexible"
 			id: "14AE4753BAFD43F8"
 			tasks: [{
 				id: "3292DE824F75FAA8"
@@ -162,6 +168,7 @@
 			description: ["Obtain any bullet mold from wasteland factory."]
 			dependencies: ["14AE4753BAFD43F8"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "7A0D88FD05C79544"
 			tasks: [{
 				id: "5D6C7C5D83C5DCD1"
@@ -186,6 +193,7 @@
 			dependencies: ["5CA0A7BB8088CC04"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "0DBFE729CA9B88CD"
 			tasks: [
 				{
@@ -212,6 +220,7 @@
 			]
 			dependency_requirement: "one_started"
 			size: 3.0d
+			progression_mode: "flexible"
 			id: "25C6189E8ABA6FCA"
 			tasks: [{
 				id: "50A6D2EEE4AEF772"
@@ -227,6 +236,7 @@
 			description: ["Obtain the blaze rods from volcanic biomes by killing blazes."]
 			dependency_requirement: "one_started"
 			size: 2.0d
+			progression_mode: "flexible"
 			id: "5E36F73A4275A6DA"
 			tasks: [{
 				id: "009AE5046C66CE7D"
@@ -245,6 +255,7 @@
 			]
 			dependencies: ["0059B1B5D5101AEB"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "6ADD4331CC91EC96"
 			tasks: [{
 				id: "326B136EC3168298"
@@ -286,6 +297,7 @@
 				"2A5165F4D020F832"
 			]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "6EE07F1F93C9C62F"
 			tasks: [{
 				id: "3C6062E3EC42491D"
@@ -300,6 +312,7 @@
 			shape: "hexagon"
 			description: ["I am pretty sure you can grab this any time."]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "2A5165F4D020F832"
 			tasks: [{
 				id: "158D171DA7E7924C"
@@ -320,6 +333,7 @@
 			shape: "hexagon"
 			description: ["I am pretty sure you can grab this any time."]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "788649D1405AB54D"
 			tasks: [{
 				id: "0D349D0B3927FF91"
@@ -334,6 +348,7 @@
 			description: ["Drill the cobblestones so the crushing wheel or crusher can grind them into gravel."]
 			dependencies: ["6EE07F1F93C9C62F"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "488AF673B1F333EC"
 			tasks: [{
 				id: "5EE2F09C292B699F"
@@ -350,6 +365,7 @@
 			]
 			dependencies: ["488AF673B1F333EC"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "3616E17635619FAB"
 			tasks: [{
 				id: "539C072A78270780"
@@ -369,6 +385,7 @@
 			]
 			dependency_requirement: "one_started"
 			size: 2.0d
+			progression_mode: "flexible"
 			id: "07EC69DFF4EBD8DC"
 			tasks: [{
 				id: "257735349E8955CC"
@@ -389,6 +406,7 @@
 			description: ["Obtain nitrate dust from crushing sand with Crusher."]
 			dependencies: ["527E72D876158826"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "55055E45DEEAC9D8"
 			tasks: [{
 				id: "32483EA58CD3B6D6"
@@ -402,6 +420,7 @@
 			description: ["Crush the blaze rods into blaze powders."]
 			dependencies: ["527E72D876158826"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "0059B1B5D5101AEB"
 			tasks: [{
 				id: "7331F36A1DF4F12F"
@@ -415,6 +434,7 @@
 			description: ["Recycle the blaze rod by repressing it with dust and the mold."]
 			dependencies: ["6358C1DED08C744A"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "1BC7BCAF9B652406"
 			tasks: [{
 				id: "024CCAD454DCC7A3"
@@ -428,6 +448,7 @@
 			description: ["Craft a rod mold in the engineer workbench using the metal press mold blueprint."]
 			dependencies: ["6ADD4331CC91EC96"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "6358C1DED08C744A"
 			tasks: [{
 				id: "3DD2089C41E5F687"
@@ -448,6 +469,7 @@
 				"527E72D876158826"
 			]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "5285CFF062ADCC60"
 			tasks: [{
 				id: "7F6F0165897856D1"
@@ -464,6 +486,7 @@
 			dependencies: ["7F432CC747B372CA"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "3D2CC7B82FE7EAB4"
 			tasks: [{
 				id: "330C5C21789495EB"
@@ -476,6 +499,7 @@
 			description: ["Now grind it again!"]
 			dependencies: ["3616E17635619FAB"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "0327652F32B66116"
 			tasks: [{
 				id: "05D4D48D9C15E430"
@@ -489,6 +513,7 @@
 			description: ["Now combine it with the other sands!"]
 			dependencies: ["0327652F32B66116"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "0F5AF0C0223B7331"
 			tasks: [{
 				id: "19FB5F85A3BC0881"
@@ -507,6 +532,7 @@
 			]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "1B552AB170A166EA"
 			tasks: [{
 				id: "4F92521F2CF43B47"
@@ -522,6 +548,7 @@
 			dependencies: ["25C6189E8ABA6FCA"]
 			dependency_requirement: "one_started"
 			size: 3.0d
+			progression_mode: "flexible"
 			id: "6AB224557AE83C52"
 			tasks: [
 				{
@@ -549,6 +576,7 @@
 			description: ["Compress the sand into sandstone using mechanical crafter."]
 			dependencies: ["0F5AF0C0223B7331"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "0397635619F12447"
 			tasks: [{
 				id: "3606E93524E52562"
@@ -562,6 +590,7 @@
 			description: ["Compress the sand into sandstone using mechanical mixer."]
 			dependencies: ["0F5AF0C0223B7331"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "73B658339EB51357"
 			tasks: [{
 				id: "326F69AA33087878"
@@ -577,6 +606,7 @@
 			dependencies: ["7A0D88FD05C79544"]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "4F204B23AAD4BA49"
 			tasks: [{
 				id: "6C85B3685DDDAF3C"
@@ -596,6 +626,7 @@
 			y: -1.5d
 			dependencies: ["737EEB1096C590EC"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "7E3D9766C0095559"
 			tasks: [{
 				id: "7BF2B328C08362FF"
@@ -614,6 +645,7 @@
 				"7E3D9766C0095559"
 			]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "364B381B11E2C427"
 			tasks: [{
 				id: "50B0D076BE47C1B6"
@@ -632,6 +664,7 @@
 				"5285CFF062ADCC60"
 			]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "1AC1AE7A8F3F962C"
 			tasks: [{
 				id: "74103B95D6EBF7EE"
@@ -646,6 +679,7 @@
 			description: ["Most of the nuggets can be produced into different type of bullets."]
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "flexible"
 			id: "13E07BBCEEF7F142"
 			tasks: [{
 				id: "7DBC5D0327C85011"
@@ -723,6 +757,7 @@
 			description: ["Use an encased fan along with lava to burn the logs into charcoal."]
 			dependencies: ["6B1A5E3AC216D89C"]
 			dependency_requirement: "one_started"
+			progression_mode: "flexible"
 			id: "737EEB1096C590EC"
 			tasks: [{
 				id: "2E59E76714FD8F4A"

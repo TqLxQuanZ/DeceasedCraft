@@ -492,7 +492,10 @@
 		{
 			x: 24.5d
 			y: 4.0d
-			description: ["Obtain rubber from processing ethylene and propylene together."]
+			description: [
+				"Obtain rubber from processing ethylene and propylene together."
+				"It is also possible to obtain rubber from various buildings!"
+			]
 			dependencies: ["06EF7D03DE0768F5"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -661,6 +664,33 @@
 				id: "34BAB3FFD0A06850"
 				type: "xp"
 				xp: 5000
+			}]
+		}
+		{
+			title: "Better Cables!"
+			x: 24.5d
+			y: 2.0d
+			description: ["Craft better cables for transferring energy/items/fluids using rubbers."]
+			dependencies: ["1D87E5535012EEDF"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "6A73DA4245E1BBA9"
+			tasks: [{
+				id: "28EAF6A38895F5D3"
+				type: "item"
+				title: "Any Pipes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:rubber_cables"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3343D443AD99C4A0"
+				type: "xp"
+				xp: 1000
 			}]
 		}
 	]
