@@ -31,11 +31,17 @@ onEvent('player.logged_in', event => {
 	HardCheckHordeEvent(event)
 
 	event.server.scheduleInTicks(20, callback => {
-		let firstAidData = {ForgeCaps:{"firstaid:cap_adv_dmg_mdl":event.player.persistentData.firstAidData}}
 		let loginHealth = event.player.persistentData.health
-
-		if (loginHealth) event.player.health = loginHealth;
-		event.player.mergeFullNBT(firstAidData)
+		if (loginHealth)
+		{
+			event.player.health = loginHealth;
+		}
+		let firstAidData = event.player.persistentData.firstAidData
+		if (firstAidData)
+		{
+			let firstAidDataNBT = {ForgeCaps:{"firstaid:cap_adv_dmg_mdl":firstAidData}}
+			event.player.mergeFullNBT(firstAidDataNBT)
+		}
 	})
 })
 
