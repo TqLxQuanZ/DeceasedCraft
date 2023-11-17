@@ -3,20 +3,25 @@
 	group: "0CEF75605D0E77B3"
 	order_index: 0
 	filename: "guides"
-	title: "Guides"
+	title: "Guides and Tips"
 	icon: "minecraft:book"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "READ ME HERE"
+			title: "READ ME!"
 			icon: "minecraft:paper"
 			x: 0.0d
-			y: -6.0d
-			shape: "square"
-			description: ["All the chapters inside the quest book is completely optional, it act as a guide for players who don't know what are they doing."]
+			y: -9.0d
+			shape: "rsquare"
+			subtitle: "Hello World!"
+			description: [
+				"The chapters in this quest book are completely optional and not needed for progression."
+				""
+				"However, there may be useful info about how to progress with the modpack contained within, so take some time to familiarize yourself with its contents."
+			]
 			dependency_requirement: "one_started"
-			size: 3.0d
+			size: 4.0d
 			progression_mode: "flexible"
 			id: "6A2115E257194F4F"
 			tasks: [{
@@ -25,7 +30,7 @@
 			}]
 		}
 		{
-			title: "Pilot"
+			title: "Flying for Dummies"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -33,9 +38,10 @@
 					"patchouli:book": "simpleplanes:planes_book"
 				}
 			}
-			x: -6.0d
-			y: -2.25d
+			x: -4.5d
+			y: -1.5d
 			shape: "square"
+			subtitle: "I want to fly!"
 			description: ["With your advanced knowledge of aircraft assembly and crafting, utilize it to construct an airplane for efficient transportation and travel purposes."]
 			size: 1.5d
 			optional: true
@@ -61,9 +67,10 @@
 		{
 			title: "Veteran Engineer"
 			icon: "immersiveengineering:manual"
-			x: -4.5d
-			y: 0.0d
+			x: -1.5d
+			y: -1.5d
 			shape: "square"
+			subtitle: "I want to build machines!"
 			description: [
 				"As a veteran engineer, you possess extensive knowledge in various technological domains, allowing me to provide information and insights on a wide range of tech-related topics."
 				""
@@ -87,9 +94,10 @@
 		{
 			title: "Encyclopedia of Life"
 			icon: "alexsmobs:animal_dictionary"
-			x: -3.0d
-			y: -2.25d
+			x: 1.5d
+			y: -1.5d
 			shape: "square"
+			subtitle: "I want to know about the wildlife!"
 			description: ["When surviving in the wilderness, it is crucial to have knowledge of your surroundings and understand what resources and potential threats exist in the environment."]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -110,14 +118,18 @@
 		{
 			title: "Better Foods, Better Health"
 			icon: "minecraft:cooked_beef"
-			x: 3.0d
-			y: -2.25d
+			x: 1.5d
+			y: -3.75d
 			shape: "square"
+			subtitle: "I want to get a lot of health!"
 			description: [
-				"- Consume a diverse range of foods to enhance your maximum HP (health points)."
-				"- The maximum HP bonus is lost upon death, resetting your health status."
+				"While playing, you can consume a diverse range of foods to enhance your maximum HP (health points)."
+				"This guidebook serves as a tracker for the foods you have eaten."
+				""
+				"Be careful, however! This maximum HP bonus is lost upon death."
+				"It is recommended you try to focus on increasing your max HP only once you've created a comfortable base."
 			]
-			size: 1.5d
+			size: 2.0d
 			optional: true
 			can_repeat: true
 			progression_mode: "flexible"
@@ -134,7 +146,7 @@
 			}]
 		}
 		{
-			title: "Specialist"
+			title: "Talents and Specialization"
 			icon: {
 				id: "minecraft:iron_sword"
 				Count: 1b
@@ -142,12 +154,17 @@
 					Damage: 0
 				}
 			}
-			x: 6.0d
-			y: -2.25d
+			x: -1.5d
+			y: -3.75d
 			shape: "square"
-			description: ["Pressing J grants access to a specialized skill tree that assists you throughout your journey. Other skills can still be learned but at a slower pace. It's important to note that skills will be lost upon death."]
+			subtitle: "I want to get bonuses to certain actions!"
+			description: [
+				"Pressing J grants access to a specialized skill tree that assists you throughout your journey. Other skills can still be learned but at a slower pace."
+				""
+				"Be aware that skills will be lost upon death!"
+			]
 			dependency_requirement: "one_started"
-			size: 1.5d
+			size: 2.0d
 			id: "7AE195FFCA7345BE"
 			tasks: [{
 				id: "37EF73974FAE0FC0"
@@ -163,11 +180,13 @@
 			title: "Parkour!"
 			icon: "minecraft:player_head"
 			x: 4.5d
-			y: 0.0d
+			y: -1.5d
 			shape: "square"
+			subtitle: "I want to do cool stunts!"
 			description: [
 				"There are various methods to extricate yourself from dangerous situations, and ParCool is one of them. Ensure that you execute different ParCool techniques to provide yourself with maximum convenience and advantages in challenging circumstances."
-				"NOTE: Certain actions can be disabled via ParCool setting, default key is '"
+				""
+				"NOTE: Certain actions can be disabled via the ParCool settings (default key is ')"
 			]
 			size: 1.5d
 			optional: true
@@ -191,15 +210,17 @@
 			}]
 		}
 		{
-			title: "Fallout"
+			title: "The Wasteland"
 			icon: "biomesoplenty:dead_sapling"
-			x: -4.5d
-			y: 5.25d
+			x: -1.5d
+			y: 12.0d
 			shape: "square"
+			subtitle: "Turns out nuclear fallout doesn't kill zombies."
 			description: [
-				"- Reports suggest that the wasteland is emitting toxic gases capable of instantly killing anyone who attempts to enter. Extreme caution should be exercised and appropriate protective measures taken to avoid exposure to these lethal gases."
+				"Even as the infection consumed the inhabitants of this world, some still insisted on destroying each other first..."
 				""
-				"- Equip gas masks or hazmat helmets for protection against toxic gases in the wasteland. Beware of dangerous monsters, including the industrial area; firearms are advised as melee weapons may be ineffective."
+				"This is an extremely hostile enviroment. Equip gas masks or hazmat helmets for protection against toxic gases in the wasteland."
+				"Beware of dangerous monsters, especially in the industrial area. Firearms are advised as melee weapons may be ineffective."
 			]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -226,10 +247,11 @@
 		{
 			title: "Burning Passion"
 			icon: "minecraft:blaze_powder"
-			x: -1.5d
-			y: 5.25d
+			x: -4.5d
+			y: 9.75d
 			shape: "square"
-			description: ["Shortly after the onset of the apocalypse, reports emerged on the radio about sightings of floating blazing rods in volcanic regions."]
+			subtitle: "Is this a Nether?"
+			description: ["Shortly after the onset of the apocalypse, reports emerged on the radio about sightings of floating rods of fire in volcanic regions..."]
 			size: 1.5d
 			id: "159A0FA1BC603377"
 			tasks: [{
@@ -256,10 +278,11 @@
 				Count: 1b
 				tag: { }
 			}
-			x: 1.5d
-			y: 5.25d
+			x: 4.5d
+			y: 9.75d
 			shape: "square"
-			description: ["Acquire a nature compass to aid in finding a suitable location to establish a living space or search for vital resources in the wilderness."]
+			subtitle: "Gotta find that perfect base spot."
+			description: ["A Nature's Compass can aid in finding a suitable location to establish a living space or be used to search for vital resources in the wilderness."]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -280,12 +303,17 @@
 			}]
 		}
 		{
-			title: "Adaptation"
+			title: "Adaptation to Adversity"
 			icon: "artifacts:villager_hat"
-			x: 4.5d
-			y: 5.25d
+			x: -1.5d
+			y: 9.75d
 			shape: "square"
-			description: ["Some villagers have managed to survive the zombie apocalypse and have adapted by altering their stocks and resources to suit the new circumstances."]
+			subtitle: "Hrmm..."
+			description: [
+				"Some villagers have managed to survive the zombie apocalypse and have adapted by altering their stocks and resources to suit the new circumstances."
+				""
+				"Seek them out among the ruined cities."
+			]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -301,16 +329,17 @@
 			}]
 		}
 		{
+			title: "Remnants of Civilization"
 			icon: "another_furniture:oak_bench"
-			x: -4.5d
-			y: 7.5d
+			x: 1.5d
+			y: 9.75d
 			shape: "square"
+			subtitle: "Fallen Kingdom"
 			description: [
-				"- As long as there's city, there will be bountiful of loots."
+				"As the infection claimed this world, their inhabitants left behind their great cities..."
 				""
-				"However, it's important to note that even during the grace period, certain buildings may still contain zombies, so caution should be exercised when exploring such locations."
-				""
-				"- Zombies found within buildings often exhibit increased strength and speed compared to those encountered in the open world. Exercise heightened caution when dealing with these more formidable adversaries."
+				"Cities pose a significant challenge to the unprepared, as they contain not only greater amounts of zombies, but also stronger and faster variants of zombies."
+				"Those who dare to challenge these ruins nonetheless stand to acquire great riches and abandoned technology..."
 			]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -335,12 +364,18 @@
 			]
 		}
 		{
-			title: "Desperate Measure"
-			x: -1.5d
-			y: 7.5d
-			shape: "square"
-			description: ["Obtain a golden apple, as it has the ability to cure infections if you ever contract one. "]
-			size: 1.5d
+			title: "Desperate Measures"
+			x: 1.5d
+			y: 5.25d
+			shape: "hexagon"
+			subtitle: "You've been bitten... now what?"
+			description: [
+				"Obtain or create a golden apple, as it has the ability to cure infections if you ever contract one."
+				""
+				"You can find these apples in hospitals, where they were distributed (too late) to stop the infection, or you can obtain them via trading with priest villagers."
+				"Or you could craft one... assuming you have the time and technology."
+			]
+			size: 2.0d
 			progression_mode: "flexible"
 			id: "742FF73D1D68BA5D"
 			tasks: [{
@@ -364,16 +399,18 @@
 		{
 			title: "Unavoidable Infection"
 			icon: "minecraft:zombie_head"
-			x: 1.5d
-			y: 7.5d
-			shape: "square"
+			x: -1.5d
+			y: 5.25d
+			shape: "hexagon"
+			subtitle: "One bite is all it takes... well, maybe a couple."
 			description: [
-				"- It is known that all zombies have the ability to infect their victims upon making contact with them during an attack."
-				"- Be caution when approaching them."
-				"- Certain armor can prevent the infection to happen."
+				"All zombies have the ability to infect their victims upon making contact with them during an attack."
+				"Take caution when approaching them to avoid getting bit."
+				""
+				"It's said that certain armors can prevent this infection from happening..."
 			]
 			dependency_requirement: "one_started"
-			size: 1.5d
+			size: 2.0d
 			progression_mode: "flexible"
 			id: "0DAADE741F538D43"
 			tasks: [{
@@ -395,15 +432,17 @@
 			]
 		}
 		{
-			title: "Stronger Variants"
+			title: "The Forgotten"
 			icon: "minecraft:skeleton_skull"
-			x: 4.5d
-			y: 7.5d
+			x: 1.5d
+			y: 12.0d
 			shape: "square"
+			subtitle: "As if regular monsters wasn't enough..."
 			description: [
-				"- Stronger variants of zombies can be encountered beyond 10,000/15,000 blocks away from the spawn point."
-				"- If you're seeking a greater challenge, feel free to venture out to face these formidable foes."
-				"- The stronger zombies also have a chance to drop higher-quality ammunition."
+				"Stronger variants of zombies can be encountered beyond 10,000/15,000 blocks from spawn."
+				""
+				"If you're seeking a greater challenge, feel free to venture out to face these formidable foes."
+				"Stronger zombies also have a chance to drop higher-quality ammunition."
 			]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -421,14 +460,17 @@
 			}]
 		}
 		{
-			title: "The Beginning"
+			title: "The Start of the End"
 			icon: "minecraft:zombie_head"
 			x: 0.0d
 			y: 2.0d
 			shape: "rsquare"
+			subtitle: "This is how you died..."
 			description: [
-				"- Despite identifying the cure, limited resources hinder its creation in the post-apocalyptic world. Venture out, establish a secure base, and survive amidst the aftermath of the zombie apocalypse."
-				"- During a grace period of one day without zombies showing up, it is crucial to make the most of this time to ensure your safety and preparedness."
+				"Despite the cure being identified, its creation comes too late for the inhabitants of this post-apocalyptic world."
+				"Venture out, establish a secure base, and survive amidst the aftermath of the zombie apocalypse."
+				""
+				"If you've just started a new world, you will have one day of safety. Use it well."
 			]
 			dependency_requirement: "one_started"
 			size: 4.0d
@@ -455,15 +497,19 @@
 			title: "Body Health"
 			icon: "artifacts:crystal_heart"
 			x: 0.0d
-			y: -1.5d
+			y: -6.0d
 			shape: "heart"
+			subtitle: "I don't wanna die!"
 			description: [
-				"- The head is the most critical body part; if it runs out of health, you'll die immediately. Damage to the chest and limbs can result in various debuffs if they are severely injured."
-				"- Wearing a helmet can significantly increase your chances of survival, especially since enemies often target the head."
+				"The head is the most critical body part; if it runs out of health, you'll die immediately. Protect it at all costs!"
+				"Damage to the chest and limbs can result in various debuffs if they are severely injured."
+				""
+				"Wearing a helmet can significantly increase your chances of survival, especially since enemies often target the head."
+				""
+				"You can access the first aid menu with H, where you'll find a tutorial included."
 			]
 			dependency_requirement: "one_started"
-			size: 1.5d
-			optional: true
+			size: 2.0d
 			progression_mode: "flexible"
 			id: "338F2C6F8723CB9E"
 			tasks: [{
@@ -483,6 +529,25 @@
 						"cold_sweat:item_insulation": { }
 					}
 				}
+			}]
+		}
+		{
+			title: "The Nether and the End"
+			icon: "minecraft:purpur_block"
+			x: 0.0d
+			y: 7.0d
+			subtitle: "Just a figment of your imagination..."
+			description: ["The Nether and the End do not exist in this modpack. You will have to seek their resources out elsewhere in this world..."]
+			size: 2.0d
+			id: "7AFF562B41079294"
+			tasks: [{
+				id: "1297133D6B28CC36"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1DAE43D6EAA21BC6"
+				type: "item"
+				item: "minecraft:cookie"
 			}]
 		}
 	]

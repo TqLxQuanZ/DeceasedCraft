@@ -3,18 +3,19 @@
 	group: "0CEF75605D0E77B3"
 	order_index: 1
 	filename: "basic_needs"
-	title: "Basic Needs"
-	icon: "minecraft:string"
+	title: "Health and Water"
+	icon: "apocalypsenow:medicalkit"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Start from Seeds"
-			icon: "immersiveengineering:seed"
-			x: -1.0d
-			y: 2.5d
+			title: "Fiber on Demand"
+			icon: "immersiveengineering:hemp_fiber"
+			x: 4.0d
+			y: 0.0d
 			shape: "hexagon"
-			description: ["Collect hemp seeds from grass and plant them to cultivate hemp plants, which can provide valuable materials for various purposes."]
+			subtitle: "Hemp 101"
+			description: ["Collect hemp seeds from grass and plant them to start growing hemp plants. It's recommended you keep a healthy amount of these, as crafting string uses a lot of fibre."]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
@@ -39,9 +40,9 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: -0.5d
-			description: ["Acquire string through various means, as it serves as the primary material for crafting armor."]
+			x: 6.0d
+			y: 0.0d
+			description: ["String is a very useful material to keep in stock, as material for bandages as well as armor."]
 			dependencies: ["655E03A6D98DF879"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -66,19 +67,35 @@
 			]
 		}
 		{
-			title: "Be Like Water"
-			x: -1.0d
-			y: 5.0d
+			title: "Dealing With Thirst"
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Purity: -1
+					Potion: "minecraft:water"
+				}
+			}
+			x: 4.0d
+			y: -4.0d
 			shape: "hexagon"
-			description: ["Obtain a bottle to get your water, but they seems to be dirty."]
+			subtitle: "Be like water"
+			description: ["Bottled water is dirty by default, and must be purified by boiling in order to safely be drunk."]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
 			id: "6F42F5255BB2A5CA"
 			tasks: [{
-				id: "77162F8AFFC9A71C"
+				id: "06FDEED054657694"
 				type: "item"
-				item: "minecraft:glass_bottle"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Purity: 0
+						Potion: "minecraft:water"
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -95,9 +112,9 @@
 			]
 		}
 		{
-			title: "Wools"
-			x: -1.0d
-			y: -2.5d
+			title: "Wool"
+			x: 8.0d
+			y: 0.0d
 			description: ["Wool is crucial for crafting bandages, recovery items, and various other crafting recipes."]
 			dependencies: ["103C05E04D0AEB52"]
 			dependency_requirement: "one_started"
@@ -130,11 +147,13 @@
 		}
 		{
 			title: "I Need Healing - I"
-			x: 0.5d
-			y: -4.5d
-			description: ["Craft or acquire a plaster to treat and heal your wounds effectively."]
+			x: 10.0d
+			y: -1.0d
+			subtitle: "For the small ouchies."
+			description: ["Plasters don't heal much, but they work in a pinch for situations where bandages aren't necessary."]
 			dependencies: ["313201137C44FDB0"]
 			dependency_requirement: "one_started"
+			size: 2.0d
 			progression_mode: "flexible"
 			id: "4523079E2318BD94"
 			tasks: [{
@@ -158,11 +177,13 @@
 		}
 		{
 			title: "I Need Healing - II"
-			x: -2.5d
-			y: -4.5d
-			description: ["Craft or acquire a bandage to facilitate the healing of your wounds."]
+			x: 10.0d
+			y: 1.0d
+			subtitle: "For larger wounds. If you survive them."
+			description: ["The most cost efficient way to heal wounds. While you can find better healing items in the city, they are not as easily automated..."]
 			dependencies: ["313201137C44FDB0"]
 			dependency_requirement: "one_started"
+			size: 2.0d
 			progression_mode: "flexible"
 			id: "1191928136871CA9"
 			tasks: [{
@@ -186,9 +207,10 @@
 		}
 		{
 			title: "Let Him Cook - I"
-			x: -3.5d
-			y: 6.5d
-			description: ["Acquire a campfire to purify your water, ensuring it is safe and clean for consumption."]
+			x: 7.0d
+			y: -5.5d
+			subtitle: "The cheap way."
+			description: ["Boil water over a campfire to purify it, ensuring it's safe for consumption."]
 			dependencies: ["6F42F5255BB2A5CA"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -206,9 +228,10 @@
 		}
 		{
 			title: "Let Him Cook - II"
-			x: -1.0d
-			y: 7.5d
-			description: ["Acquire a furnace to purify your water bottles, ensuring clean and safe drinking water."]
+			x: 7.0d
+			y: -4.0d
+			subtitle: "The normal way."
+			description: ["Boil water in a furnace to purify it, ensuring it's safe for consumption."]
 			dependencies: ["6F42F5255BB2A5CA"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -226,11 +249,12 @@
 		}
 		{
 			title: "Let Him Cook - III"
-			x: 1.5d
-			y: 6.5d
+			x: 7.0d
+			y: -2.5d
+			subtitle: "The automated way."
 			description: [
-				"Filter the water using a sand filter and transfer it to a spout to obtain clean and purified water."
-				"NOTE: Water does not become clean if pumped out directly from a water source. However, using a spout with a glass bottle attached can effectively filter and provide clean water. Pump is necessary as well."
+				"Filter the water using a sand filter and transfer it to a spout to obtain purified water."
+				"NOTE: Water does not become clean if pumped out directly from a water source."
 			]
 			dependencies: ["6F42F5255BB2A5CA"]
 			dependency_requirement: "one_started"
@@ -248,31 +272,51 @@
 			}]
 		}
 		{
-			title: "Rock and Stone!"
-			x: 3.0d
-			y: 2.5d
-			shape: "square"
-			description: ["Craft flares for your cave expeditions to provide essential light and visibility."]
-			dependency_requirement: "one_started"
+			title: "Purified Water"
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Purity: -1
+					Potion: "minecraft:water"
+				}
+			}
+			x: 10.0d
+			y: -4.0d
+			subtitle: "Crystal clear"
+			description: ["You can boil water multiple times to get higher purity water."]
+			dependencies: [
+				"73DFEE0495437E8B"
+				"6895B7261404F5C2"
+				"7E20373C75B9F550"
+			]
+			dependency_requirement: "one_completed"
 			size: 2.0d
-			id: "5F0F099AB531C873"
+			id: "2C6177EDC934F9DC"
 			tasks: [{
-				id: "6B13FF57DA247B92"
+				id: "047C5CB3ED9A8E47"
 				type: "item"
-				title: "Any #forge:flares"
 				item: {
-					id: "itemfilters:tag"
+					id: "minecraft:potion"
 					Count: 1b
 					tag: {
-						value: "forge:flares"
+						Purity: 3
+						Potion: "minecraft:water"
 					}
 				}
 			}]
 			rewards: [{
-				id: "1B22AD9E8999D47D"
+				id: "6533B81F9E6B31F6"
 				type: "item"
-				item: "drg_flares:drg_flare_yellow"
-				count: 64
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Purity: 3
+						Potion: "minecraft:water"
+					}
+				}
+				count: 3
 			}]
 		}
 	]
