@@ -115,13 +115,13 @@
 	#No comment
 	helicopter_natural_spawn = false
 	#No comment
-	human_stages_evolution = false
+	human_stages_evolution = true
 	#No comment
-	miter_evolves_into_necroptor = false
+	miter_evolves_into_necroptor = true
 	#No comment
 	mobs_spawning_naturally = false
 	#No comment
-	necropter_evolves = false
+	necropter_evolves = true
 	#No comment
 	#Range: > 0
 	setspawningstage = 0
@@ -137,11 +137,25 @@
 	#No comment
 	mutationcraft_drops = false
 	#No comment
-	putridblockspreading = false
+	putridblockspreading = true
 	#No comment
 	stagesadvance = false
 	#No comment
 	stagesshowup = false
+	#No comment
+	doarmoreffect = false
+	#No comment
+	hook_evolves = true
+	#No comment
+	hook_spawns_on_necroptor_death = true
+	#No comment
+	hooks_summon_mobs = true
+	#No comment
+	playerconvertstoroamer = true
+	#No comment
+	putrid_block_on_hook_spawn = true
+	#No comment
+	"puffish_skills:announce_new_points" = true
 
 #Configs related to difficult changes
 [difficulty]
