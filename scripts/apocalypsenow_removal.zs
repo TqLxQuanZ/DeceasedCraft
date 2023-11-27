@@ -564,9 +564,6 @@ JEI.hideIngredient(<item:apocalypsenow:catana>);
 craftingTable.remove(<item:apocalypsenow:kanabo>);
 JEI.hideIngredient(<item:apocalypsenow:kanabo>);
 
-craftingTable.remove(<item:apocalypsenow:scimitar>);
-JEI.hideIngredient(<item:apocalypsenow:scimitar>);
-
 craftingTable.remove(<item:apocalypsenow:camping_knife>);
 JEI.hideIngredient(<item:apocalypsenow:camping_knife>);
 
