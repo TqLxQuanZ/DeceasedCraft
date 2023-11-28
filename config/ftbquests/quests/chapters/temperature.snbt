@@ -9,17 +9,17 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "What Temp is it?"
+			title: "Thermometer"
 			icon: "cold_sweat:thermometer"
-			x: -6.0d
-			y: 0.0d
-			shape: "hexagon"
+			x: -7.5d
+			y: -5.0d
+			shape: "rsquare"
+			subtitle: "What Temp Is It?"
 			description: [
-				"- Retrieve a thermometer to measure the present temperature of the environment, including the biome and its surroundings."
-				"- You have a grace period of 5 minutes during which you are immune to changes in temperature."
+				"A thermometer can accurately measure the present temperature of the environment."
+				"Craft or find one by trading with a cleric villager."
 			]
 			dependency_requirement: "one_started"
-			size: 2.0d
 			progression_mode: "flexible"
 			id: "310B9E0BA3951DD1"
 			tasks: [{
@@ -35,11 +35,21 @@
 		}
 		{
 			title: "Waterskin"
-			x: -6.0d
-			y: -2.5d
-			description: ["Acquire or create a waterskin to help regulate your body temperature."]
-			dependencies: ["310B9E0BA3951DD1"]
-			dependency_requirement: "one_started"
+			x: -9.0d
+			y: -5.0d
+			subtitle: "Hot Water Bottle"
+			description: [
+				"Waterskins can be filled with water and then heated in a boiler or cooled in an icebox."
+				""
+				"By putting them in your hotbar, they will gradually warm you up or cool you down."
+				"Filled waterskins can also be dumped onto yourself with right click, providing a burst of heating or cooling."
+			]
+			dependencies: [
+				"5D153C60A43C563C"
+				"1C98F7FA473D46E9"
+				"42600842569C2F7F"
+			]
+			dependency_requirement: "one_completed"
 			progression_mode: "flexible"
 			id: "717C651A2AC89DE9"
 			tasks: [{
@@ -54,13 +64,12 @@
 			}]
 		}
 		{
-			title: "Calm Me Down"
+			title: "Cool Me Down"
 			icon: "cold_sweat:icebox"
-			x: -8.0d
-			y: 2.0d
-			description: ["Procure an icebox to effectively cope with the impending summer heat."]
-			dependencies: ["310B9E0BA3951DD1"]
-			dependency_requirement: "one_started"
+			x: -10.5d
+			y: -3.5d
+			subtitle: "Chill out, bro..."
+			description: ["Iceboxes provide chill in an area if provided with frozen items like ice."]
 			progression_mode: "flexible"
 			id: "5D153C60A43C563C"
 			tasks: [{
@@ -77,13 +86,16 @@
 		{
 			title: "Best Of Both Worlds"
 			icon: "cold_sweat:hearth"
-			x: -6.0d
-			y: 3.0d
-			shape: "gear"
-			description: ["Craft or acquire a hearth to create an optimal living environment."]
-			dependencies: ["310B9E0BA3951DD1"]
-			dependency_requirement: "one_started"
-			size: 1.5d
+			x: -11.0d
+			y: -5.0d
+			shape: "hexagon"
+			subtitle: "Not too hot, not too cold."
+			description: [
+				"Hearths either cool or heat a room to livable tempreatures depending on the outside condition."
+				""
+				"A combination of the benefits of both the boiler and icebox."
+			]
+			size: 2.0d
 			progression_mode: "flexible"
 			id: "42600842569C2F7F"
 			tasks: [{
@@ -100,11 +112,11 @@
 		{
 			title: "Warm Me Up"
 			icon: "cold_sweat:boiler"
-			x: -4.0d
-			y: 2.0d
-			description: ["Secure a boiler to ensure warmth during the winter season."]
+			x: -10.5d
+			y: -6.5d
+			subtitle: "Getting hot in here..."
+			description: ["Boilers proviode heat in a radius if provided with burnable materials like coal."]
 			hide_dependency_lines: false
-			dependencies: ["310B9E0BA3951DD1"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "1C98F7FA473D46E9"
@@ -123,11 +135,17 @@
 			title: "Insulating Armor"
 			icon: "cold_sweat:sewing_table"
 			x: -6.0d
-			y: -5.25d
-			description: ["Acquire a sewing table to insulate your armors using various materials."]
-			dependencies: ["717C651A2AC89DE9"]
+			y: -5.0d
+			shape: "hexagon"
+			subtitle: "Your Personal Tailor"
+			description: [
+				"A grace period of 5 minutes is given on every respawn during which you are immune to changes in temperature."
+				"However, you will quickly freeze or overheat if unprepared."
+				""
+				"A sewing table will allow you to insulate your armor using various materials."
+			]
 			dependency_requirement: "one_started"
-			size: 1.5d
+			size: 2.0d
 			progression_mode: "flexible"
 			id: "2ED4C94026456CCA"
 			tasks: [{
@@ -143,12 +161,12 @@
 			}]
 		}
 		{
-			title: "Too Hot - I"
+			title: "Beating the Heat - I"
 			x: -4.0d
-			y: -7.5d
-			description: ["Obtain a wheat to insulate yourself from hot environment."]
+			y: -3.5d
+			description: ["Straw provides 0.5 units of heat protection."]
 			dependencies: ["2ED4C94026456CCA"]
-			dependency_requirement: "one_started"
+			dependency_requirement: "one_completed"
 			progression_mode: "flexible"
 			id: "327001B7DCC2B198"
 			tasks: [{
@@ -163,12 +181,11 @@
 			}]
 		}
 		{
-			title: "That Hits The Spot - I"
-			x: -6.0d
-			y: -7.5d
-			description: ["Acquire a canvas to provide insulation in both cold and hot environments, ensuring comfort and protection."]
+			title: "Adaptive Insulation - I"
+			x: -4.0d
+			y: -5.0d
+			description: ["Canvas provides 0.5 units of heat or cold protection."]
 			dependencies: ["2ED4C94026456CCA"]
-			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "1739FAC2E464132D"
 			tasks: [{
@@ -183,12 +200,11 @@
 			}]
 		}
 		{
-			title: "Too Cold - I"
-			x: -8.0d
-			y: -7.5d
-			description: ["Obtain leather to provide insulation against cold temperatures."]
+			title: "Bracing the Cold - I"
+			x: -4.0d
+			y: -6.5d
+			description: ["Leather provides 0.5 units of cold protection."]
 			dependencies: ["2ED4C94026456CCA"]
-			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "757B167ADE8B315C"
 			tasks: [{
@@ -203,12 +219,11 @@
 			}]
 		}
 		{
-			title: "Too Cold - II"
-			x: -8.0d
-			y: -9.5d
-			description: ["Obtain wool to provide insulation against cold temperatures."]
+			title: "Bracing the Cold - II"
+			x: -2.5d
+			y: -6.5d
+			description: ["Wool provides 1 unit of cold protection."]
 			dependencies: ["757B167ADE8B315C"]
-			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "3BF381A61D7A1571"
 			tasks: [{
@@ -223,17 +238,17 @@
 			}]
 		}
 		{
-			title: "Too Hot - II"
-			x: -4.0d
-			y: -9.5d
-			description: ["Obtain a honey comb to insulate yourself from hot environment."]
+			title: "Beating the Heat - II"
+			x: -2.5d
+			y: -3.5d
+			description: ["Honeycomb provides 1 unit of heat protection."]
 			dependencies: ["327001B7DCC2B198"]
-			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "2AD93A7F14B73FCE"
 			tasks: [{
 				id: "6B8BBDE449E43CA9"
 				type: "item"
+				title: "Honeycomb"
 				item: "minecraft:honeycomb"
 			}]
 			rewards: [{
@@ -243,12 +258,11 @@
 			}]
 		}
 		{
-			title: "That Hits The Spot - II"
-			x: -6.0d
-			y: -9.5d
-			description: ["Acquire an ersatz leather to provide insulation in both cold and hot environments, ensuring comfort and protection."]
-			dependencies: ["1739FAC2E464132D"]
-			dependency_requirement: "one_started"
+			title: "Adaptive Insulation - III"
+			x: -1.0d
+			y: -5.0d
+			description: ["Erstaz leather provides 1 unit of heat or cold protection."]
+			dependencies: ["2E8859952B83530D"]
 			progression_mode: "flexible"
 			id: "6CEFD8CE72388FF2"
 			tasks: [{
@@ -263,12 +277,11 @@
 			}]
 		}
 		{
-			title: "Too Cold - III"
-			x: -8.0d
-			y: -11.5d
-			description: ["Obtain tough fabric to provide insulation against cold temperatures."]
+			title: "Bracing the Cold - III"
+			x: -1.0d
+			y: -6.5d
+			description: ["Tough fabric provides 1.5 units of cold protection."]
 			dependencies: ["3BF381A61D7A1571"]
-			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "0A91E388646FCC8E"
 			tasks: [{
@@ -283,12 +296,11 @@
 			}]
 		}
 		{
-			title: "Too Cold - IV"
-			x: -8.0d
-			y: -13.5d
-			description: ["Obtain goat fur to provide insulation against cold temperatures."]
+			title: "Bracing the Cold - IV"
+			x: 0.5d
+			y: -6.5d
+			description: ["Goat fur provides 2 units of cold protection."]
 			dependencies: ["0A91E388646FCC8E"]
-			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "6E8C8F609568F43D"
 			tasks: [{
@@ -303,12 +315,11 @@
 			}]
 		}
 		{
-			title: "Too Hot - IV"
-			x: -4.0d
-			y: -13.5d
-			description: ["Obtain a hoglin hide to insulate yourself from hot environment."]
+			title: "Beating the Heat - IV"
+			x: 0.5d
+			y: -3.5d
+			description: ["Hoglin hide provides 2 units of heat protection."]
 			dependencies: ["380FF30CAA4EBFD0"]
-			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "1EEC985E3D28AF8D"
 			tasks: [{
@@ -319,16 +330,15 @@
 			rewards: [{
 				id: "6A893BA369FE28A3"
 				type: "xp"
-				xp: 40
+				xp: 100
 			}]
 		}
 		{
-			title: "Too Hot - III"
-			x: -4.0d
-			y: -11.5d
-			description: ["Obtain a slime ball to insulate yourself from hot environment."]
+			title: "Beating the Heat - III"
+			x: -1.0d
+			y: -3.5d
+			description: ["A slimeball provides 1.5 units of heat protection."]
 			dependencies: ["2AD93A7F14B73FCE"]
-			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "380FF30CAA4EBFD0"
 			tasks: [{
@@ -339,22 +349,239 @@
 			rewards: [{
 				id: "6339FF471C90B4E9"
 				type: "xp"
-				xp: 100
+				xp: 40
 			}]
 		}
 		{
-			title: "That Hits The Spot - III"
-			x: -6.0d
-			y: -11.5d
-			description: ["Acquire a chameleon molt to provide insulation in both cold and hot environments, ensuring comfort and protection."]
-			dependencies: ["6CEFD8CE72388FF2"]
-			dependency_requirement: "one_started"
+			title: "Adaptive Insulation - II"
+			x: -2.5d
+			y: -5.0d
+			description: ["Chameleon molt provides 1 unit of heat or cold protection."]
+			dependencies: ["1739FAC2E464132D"]
 			id: "2E8859952B83530D"
 			tasks: [{
 				id: "0F2700887E879205"
 				type: "item"
 				item: "cold_sweat:chameleon_molt"
 			}]
+			rewards: [{
+				id: "3D943CF488847FDD"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "Master of the Cold"
+			icon: {
+				id: "cold_sweat:fur_parka"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+				}
+			}
+			disable_toast: true
+			x: 2.5d
+			y: -6.5d
+			shape: "rsquare"
+			subtitle: "Does that make it a fursuit?"
+			size: 1.5d
+			id: "1201A0894ED292CB"
+			tasks: [
+				{
+					id: "05B87CF525A773CF"
+					type: "item"
+					item: {
+						id: "cold_sweat:fur_parka"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0C3821476D9FD722"
+					type: "item"
+					item: {
+						id: "cold_sweat:fur_cap"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7A5E9C996195C7B0"
+					type: "item"
+					item: {
+						id: "cold_sweat:fur_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "74AD44A0329710B1"
+					type: "item"
+					item: {
+						id: "cold_sweat:fur_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "07A60B0383ABC65D"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "cold_sweat:ice_resistance_long"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "05F8AE9C380EF528"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			title: "Master of the Heat"
+			icon: {
+				id: "cold_sweat:hoglin_tunic"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+				}
+			}
+			x: 2.5d
+			y: -3.5d
+			shape: "rsquare"
+			subtitle: "Mm, bacon and eggs."
+			size: 1.5d
+			id: "34EFCA764E30B493"
+			tasks: [
+				{
+					id: "0547E1CF723911AC"
+					type: "item"
+					item: {
+						id: "cold_sweat:hoglin_tunic"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "40C35CA63BF4C924"
+					type: "item"
+					item: {
+						id: "cold_sweat:hoglin_headpiece"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7FBA50913EDD8D1A"
+					type: "item"
+					item: {
+						id: "cold_sweat:hoglin_trousers"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "730C073C1D91E00E"
+					type: "item"
+					item: {
+						id: "cold_sweat:hoglin_hooves"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "42A12CE68F17CB32"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "49BEC9CDDEAE44ED"
+					type: "xp"
+					xp: 200
+				}
+			]
 		}
 	]
 	quest_links: [ ]
