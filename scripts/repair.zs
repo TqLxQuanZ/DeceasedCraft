@@ -38,7 +38,7 @@ val FabricSet = [
     <item:apocalypsenow:royal_canada_police_officer_boots>,
     <item:apocalypsenow:officer_helmet>
 ] as IItemStack[];
-val FabricIngredient = <item:immersiveengineering:hemp_fabric>;
+val FabricIngredient = <item:apocalypsenow:cloth>;
 
 val WoolSet = [
     <item:apocalypsenow:nurse_helmet>,
@@ -172,6 +172,10 @@ val SteelPlateSet = [
     <item:apocalypsenow:juggernaut_chestplate>,
     <item:apocalypsenow:juggernaut_leggings>,
     <item:apocalypsenow:juggernaut_boots>,
+    <item:immersiveengineering:armor_steel_head>,
+    <item:immersiveengineering:armor_steel_chest>,
+    <item:immersiveengineering:armor_steel_legs>,
+    <item:immersiveengineering:armor_steel_feet>,
 ] as IItemStack[];
 val SteelPlateIngredient = <tag:items:forge:plates/steel>;
 
