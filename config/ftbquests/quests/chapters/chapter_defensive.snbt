@@ -15,12 +15,18 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Protection"
+			title: "Armor Tiers"
 			icon: "minecraft:leather"
 			x: -5.0d
 			y: 0.0d
 			shape: "hexagon"
-			description: ["Having protective gear is of utmost importance when venturing into the outside world. This ensures your safety and minimizes the risk of injury or exposure to hazardous elements."]
+			subtitle: "Cover me in zombies"
+			description: [
+				"The armor in this modpack is broken up into four distinct tiers. The crafting recipe of the next tier usually requires the armor of the tier before."
+				"Besides that, each tier also has many special sets that may provide various buffs or bonuses."
+				""
+				"Many sets can be found by killing zombies or looting structures. Try to collect them all!"
+			]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
@@ -37,11 +43,17 @@
 			}]
 		}
 		{
-			title: "Protection - I"
-			x: 3.75d
+			title: "Armor : Tier I"
+			x: 3.0d
 			y: 0.0d
 			shape: "hexagon"
-			description: ["Craft or obtain a piece of leather chestplate."]
+			subtitle: "Humble Beginnings"
+			description: [
+				"Many sets at this tier can be looted just from the ruins, but leather armor serves as a gateway to the higher tiers."
+				""
+				"Craft with leather and string."
+				"Repair with leather."
+			]
 			dependencies: ["7E0E20220482A0AD"]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -66,11 +78,17 @@
 			}]
 		}
 		{
-			title: "Protection - II"
-			x: 11.25d
+			title: "Armor : Tier II"
+			x: 11.0d
 			y: 0.0d
 			shape: "hexagon"
-			description: ["Obtain or craft a piece of chainmail chestplate."]
+			subtitle: "Moving Up"
+			description: [
+				"Chainmail armor and its sets form the second tier of armor. Loot them off harder enemies, or craft them from leather armor, the choice is yours."
+				""
+				"Craft with leather armor, string and iron wire."
+				"Repair with iron wire."
+			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -95,12 +113,18 @@
 			}]
 		}
 		{
-			title: "Protection - III"
-			x: 19.5d
+			title: "Armor : Tier III"
+			x: 19.0d
 			y: 0.0d
 			shape: "hexagon"
-			description: ["Obtain or craft a piece of steel chestplate."]
-			dependencies: ["1B1EB334C4561997"]
+			subtitle: "Getting Established"
+			description: [
+				"Steel plate forms the beginning of the higher tier armors. Its sets can be looted from military zombies, or crafted from chainmail if you have a source of steel."
+				""
+				"Craft with steel plate, steel wire and chainmail."
+				"Repair with steel plate."
+			]
+			dependencies: ["0E7353CB27E0D892"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -124,11 +148,17 @@
 			}]
 		}
 		{
-			title: "Protection - IV"
+			title: "Armor : Tier IV"
 			x: 27.0d
 			y: 0.0d
 			shape: "hexagon"
-			description: ["Obtain or craft a piece of netherite chestplate."]
+			subtitle: "The Final Frontier"
+			description: [
+				"The elusive netherite armor and its sets form the endgame armor for this modpack. Without the nether, you'll have to search the cities for what scraps of Netherite exist..."
+				""
+				"Craft with rubber, high resistance fiber, netherite scrap and steel armor."
+				"Repair with netherite ingots."
+			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -153,10 +183,14 @@
 			}]
 		}
 		{
-			title: "Police Officer"
-			x: 1.0d
-			y: -1.5d
-			description: ["Obtain or craft a police officer chestplate. Police Officer set grants 1.0 melee damage."]
+			title: "Police Officer Set"
+			x: 1.5d
+			y: -1.0d
+			description: [
+				"Repaired with cloth."
+				""
+				"The full police set grants a bonus to melee damage."
+			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -180,10 +214,14 @@
 			}]
 		}
 		{
-			title: "Firefighter"
-			x: 2.0d
-			y: -3.0d
-			description: ["Obtain or craft a firefighter chestplate. Firefighter set grants fire immunity."]
+			title: "Firefighter Set"
+			x: 3.0d
+			y: -2.5d
+			description: [
+				"Repaired with hoglin hide."
+				""
+				"The full firefighter set grants fire immunity, as well as immunity to hot tempreatures."
+			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -207,10 +245,14 @@
 			}]
 		}
 		{
-			title: "Nurse"
-			x: 3.0d
-			y: -4.0d
-			description: ["Obtain or craft a nurse body. Nurse set provides extra max health."]
+			title: "Nurse Set"
+			x: 2.0d
+			y: -2.5d
+			description: [
+				"Repaired with wool."
+				""
+				"The full nurse set grants a bonus to max health."
+			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -234,10 +276,14 @@
 			}]
 		}
 		{
-			title: "Camouflage"
+			title: "Ghillie Sets"
 			x: 4.5d
-			y: -4.0d
-			description: ["Obtain or craft a ghillie chestplate. Provides camouflage although it doesn't really work on zombies."]
+			y: 1.0d
+			description: [
+				"Repaired with cloth."
+				""
+				"While your attempt at camouflage is commendable, the zombies don't seem to care..."
+			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
 			hide_text_until_complete: false
@@ -262,10 +308,14 @@
 			}]
 		}
 		{
-			title: "Anarchy"
-			x: 5.5d
-			y: -3.0d
-			description: ["Obtain or craft an anarchy chestplate. Anarchy set provides movement speed."]
+			title: "Anarchy Set"
+			x: 4.0d
+			y: -2.5d
+			description: [
+				"Repaired with cloth."
+				""
+				"The full anarchy set grants a bonus to movement speed."
+			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -289,10 +339,14 @@
 			}]
 		}
 		{
-			title: "Forest Guard"
-			x: 6.5d
-			y: -1.5d
-			description: ["Obtain or craft a forest guard chestplate. Forest Guard set provides attack speed."]
+			title: "Forest Guard Set"
+			x: 4.5d
+			y: -1.0d
+			description: [
+				"Repaired with cloth."
+				""
+				"The forest guard set provides a bonus to attack speed."
+			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -316,13 +370,16 @@
 			}]
 		}
 		{
-			title: "Hunter"
-			x: 3.75d
-			y: 3.0d
-			description: ["Obtain or craft a hunting vest. Hunting set provides melee damage and attack speed."]
+			title: "Hunting Set"
+			x: 1.5d
+			y: 1.0d
+			description: [
+				"Repaired with cloth."
+				""
+				"The full hunting set provides a bonus to attack speed and melee damage."
+			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
-			size: 1.5d
 			progression_mode: "flexible"
 			id: "271585483FF42A70"
 			tasks: [{
@@ -344,10 +401,14 @@
 			}]
 		}
 		{
-			title: "The Origin Chestplates"
-			x: 8.5d
-			y: -1.5d
-			description: ["Obtain or craft iron chestplate, copper chestplate, and zinc chestplate."]
+			title: "Vanilla Armor Sets"
+			x: 9.5d
+			y: 1.0d
+			description: [
+				"Repaired with iron, copper or zinc ingots."
+				""
+				"It's almost like we're playing vanilla again!"
+			]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -371,10 +432,14 @@
 			}]
 		}
 		{
-			title: "Worker"
+			title: "Construction Set"
 			x: 9.5d
-			y: -3.0d
-			description: ["Obtain or craft a construction body. Construction set provides haste effect."]
+			y: -1.0d
+			description: [
+				"Repaired with cloth."
+				""
+				"The full construction worker set provides Haste II."
+			]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -398,10 +463,14 @@
 			}]
 		}
 		{
-			title: "Football Team"
-			x: 10.5d
-			y: -4.0d
-			description: ["Obtain or craft a red football chest. Red Football set provides movement speed."]
+			title: "Sports Set"
+			x: 10.0d
+			y: -2.0d
+			description: [
+				"Repaired with zinc sheets."
+				""
+				"The full sports set grants a bonus to movement speed."
+			]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -425,14 +494,17 @@
 			}]
 		}
 		{
-			title: "We're Going To Cook, Jesse"
-			x: 12.0d
-			y: -4.0d
+			title: "Reclaiming the Wasteland - I"
+			x: 15.0d
+			y: 3.0d
+			subtitle: "We're going to cook, Jesse."
 			description: [
-				"Obtain or craft a hazmat suit body. Hazmat suit set provides poison immunity and infection immunity."
-				"Helmet provides the protection of entering wasteland."
+				"Repaired with lead plate."
+				""
+				"Equipping the hazmat helmet allows you to enter the wasteland without suffering negative effects."
+				"The full hazmat set provides poison and infection immunity."
 			]
-			dependencies: ["1B1EB334C4561997"]
+			dependencies: ["0E7353CB27E0D892"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "6CF961E0DB5E373B"
@@ -455,10 +527,14 @@
 			}]
 		}
 		{
-			title: "General"
-			x: 13.0d
-			y: -3.0d
-			description: ["Obtain or craft a general body. General set provides melee damage."]
+			title: "Army General Set"
+			x: 12.0d
+			y: -2.0d
+			description: [
+				"Repaired with cloth."
+				""
+				"The full army general set provides a bonus to melee damage."
+			]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -484,10 +560,14 @@
 			}]
 		}
 		{
-			title: "Royal"
-			x: 14.0d
-			y: -1.5d
-			description: ["Obtain or craft a royal canada police officer chest. Royal Canada set provides melee damage and attack speed."]
+			title: "Royal Canada Set"
+			x: 12.5d
+			y: -1.0d
+			description: [
+				"Repaired with cloth."
+				""
+				"The full royal canada set provides a bonus to attack speed and damage."
+			]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -511,10 +591,14 @@
 			}]
 		}
 		{
-			title: "Protect Your Head"
-			x: 11.25d
-			y: 3.0d
-			description: ["Obtain or craft an officer helmet. Officer Helmet provides blindness immunity and nausea immunity."]
+			title: "Officer Helmet"
+			x: 12.5d
+			y: 1.0d
+			description: [
+				"Repaired with cloth."
+				""
+				"The Officer Helmet provides blindness and nausea immunity."
+			]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -540,9 +624,15 @@
 			}]
 		}
 		{
-			x: 13.5d
+			title: "Visiting the Wasteland"
+			x: 11.0d
 			y: 3.0d
-			description: ["Obtain or craft a gas mask. Gas mask provides protection and access to wasteland."]
+			subtitle: "Are you sure you want to go NOW?"
+			description: [
+				"Gas masks cannot be repaired."
+				""
+				"Equipping a gas mask allows you to enter the wasteland without suffering negative effects."
+			]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -564,52 +654,39 @@
 			rewards: [{
 				id: "2C731191E49E1E67"
 				type: "xp"
-				xp: 400
+				xp: 300
 			}]
 		}
 		{
-			title: "Exoskeleton"
-			x: 9.0d
-			y: 3.0d
-			description: ["Obtain or craft a copper exoskeleton, and andesite exoskeleton."]
-			dependencies: ["1B1EB334C4561997"]
+			title: "Exoskeleton - Andesite"
+			x: 14.0d
+			y: -2.5d
+			subtitle: "I am speed."
+			description: [
+				"Exoskeletons are an alternative to traditional armor, using fuel instead of durability."
+				""
+				"Andesite exoskeletons provide a bonus to speed at the cost of strength."
+			]
+			dependencies: ["0E7353CB27E0D892"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "656BB2601020D432"
-			tasks: [
-				{
-					id: "109296CF723E6948"
-					type: "item"
-					item: {
-						id: "create_sa:andesite_exoskeleton_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"cold_sweat:item_insulation": {
-								Insulation: [ ]
-							}
+			tasks: [{
+				id: "109296CF723E6948"
+				type: "item"
+				item: {
+					id: "create_sa:andesite_exoskeleton_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
 						}
 					}
 				}
-				{
-					id: "0C813EF876021EF0"
-					type: "item"
-					item: {
-						id: "create_sa:copper_exoskeleton_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"cold_sweat:item_insulation": {
-								Insulation: [ ]
-							}
-						}
-					}
-				}
-			]
+			}]
 			rewards: [{
 				id: "43E361F65B05330B"
 				type: "xp"
@@ -617,10 +694,14 @@
 			}]
 		}
 		{
-			title: "Welcome to the National Service"
-			x: 17.5d
-			y: -1.5d
-			description: ["Obtain or craft all the army chests. Army set provides melee damage."]
+			title: "Army Set"
+			x: 20.5d
+			y: -1.0d
+			description: [
+				"Repaired with steel plate."
+				""
+				"The full army set provides a bonus to melee damage."
+			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -644,10 +725,14 @@
 			}]
 		}
 		{
-			title: "Stand Down!"
+			title: "Military Riot Set"
 			x: 18.0d
-			y: -3.0d
-			description: ["Obtain or craft a military riot chestplate. Military Riot set provides attack speed and applies slowness on foes."]
+			y: -2.0d
+			description: [
+				"Repaired with high-resistance fabric."
+				""
+				"The full military riot set provides a bonus to attack speed, and applies slowness on foes."
+			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -671,10 +756,14 @@
 			}]
 		}
 		{
-			title: "Whooosh"
-			x: 19.5d
-			y: -3.5d
-			description: ["Obtain or craft an urban military chestplate. Urban Military set provides melee damage, attack speed and movement speed."]
+			title: "Urban Military Set"
+			x: 20.0d
+			y: -2.0d
+			description: [
+				"Repaired with high-resistance fabric."
+				""
+				"The full urban military set provides bonuses to melee damage, attack speed and movement speed, as well as weakness immunity."
+			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -698,14 +787,17 @@
 			}]
 		}
 		{
-			title: "Biohazard"
-			x: 21.5d
-			y: -1.5d
+			title: "Reclaiming the Wasteland - II"
+			x: 15.0d
+			y: 4.0d
+			subtitle: "Nuclear launch detected."
 			description: [
-				"Obtain or craft a biohazard chestplate. Biohazard set provides immunity to poison, infection, nausea and blindness."
-				"Helmet provides the protection of entering wasteland."
+				"Repaired with rubber."
+				""
+				"Equipping the biohazard helmet allows you to enter the wasteland without suffering negative effects."
+				"The full biohazard set provides poison, infection, nausea and blindness immunity."
 			]
-			dependencies: ["0DDB1DF4FFFB6236"]
+			dependencies: ["6CF961E0DB5E373B"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "059421D1D09716EC"
@@ -728,10 +820,14 @@
 			}]
 		}
 		{
-			title: "UN"
-			x: 21.0d
-			y: -3.0d
-			description: ["Obtain or craft an UN chestplate. UN set provides melee damage and attack speed."]
+			title: "UN Peacekeeper Set"
+			x: 17.5d
+			y: -1.0d
+			description: [
+				"Repaired with cloth."
+				""
+				"The full UN set provides a bonus to melee damage and attack speed."
+			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -755,10 +851,14 @@
 			}]
 		}
 		{
-			title: "Officer Beret"
-			x: 21.5d
-			y: 1.5d
-			description: ["Obtain or craft a carrier body armor. Beret set provides melee damage, attack speed, knockback strength and weakness immunity."]
+			title: "Officer Beret Set"
+			x: 20.5d
+			y: 1.0d
+			description: [
+				"Repaired with steel plate."
+				""
+				"The full officer beret set provides a bonus to melee damage, attack speed and knockback strength, as well as weakness immunity."
+			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -782,10 +882,14 @@
 			}]
 		}
 		{
-			title: "Tactical Vest - I"
-			x: 18.0d
-			y: 3.0d
-			description: ["Obtain or craft an 614 Tactical Vest. Pilot set provides melee damage, attack speed and knockback strength."]
+			title: "Military Pilot Set"
+			x: 17.5d
+			y: 1.0d
+			description: [
+				"Repaired with steel plate."
+				""
+				"The full military pilot set provides a bonus to movement speed, attack speed and knockback strength, as well as weakness immunity."
+			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -809,10 +913,14 @@
 			}]
 		}
 		{
-			title: "Tactical Vest - II"
-			x: 19.5d
-			y: 3.5d
-			description: ["Obtain or craft an Atlas Tactical Vest. Pilot set provides melee damage, attack speed, knockback strength and weakness immunity."]
+			title: "Atlas Pilot Set"
+			x: 18.0d
+			y: 2.0d
+			description: [
+				"Repaired with steel plate."
+				""
+				"The full atlas pilot set provides a bonus to movement speed, attack speed and knockback strength, as well as weakness immunity."
+			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -836,10 +944,14 @@
 			}]
 		}
 		{
-			title: "Berezka"
-			x: 21.0d
-			y: 3.0d
-			description: ["Obtain or craft a berezka body armor. Beret set provides melee damage, attack speed, knockback strength and weakness immunity."]
+			title: "Military Beret Set"
+			x: 20.0d
+			y: 2.0d
+			description: [
+				"Repaired with steel plate."
+				""
+				"The full military beret set provides a bonus to melee damage, attack speed and knockback strength, as well as weakness immunity."
+			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -863,11 +975,16 @@
 			}]
 		}
 		{
-			title: "Exoskeleton - II"
-			x: 17.5d
-			y: 1.5d
-			description: ["Obtain or craft a brass exoskeleton."]
-			dependencies: ["0DDB1DF4FFFB6236"]
+			title: "Exoskeleton - Brass"
+			x: 15.0d
+			y: -3.5d
+			subtitle: "I am... Brass Man."
+			description: [
+				"Exoskeletons are an alternative to traditional armor, using fuel instead of durability."
+				""
+				"Brass exoskeletons provide a bonus to both speed and strength."
+			]
+			dependencies: ["0E7353CB27E0D892"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "3F43ACDDB820E837"
@@ -890,14 +1007,18 @@
 			rewards: [{
 				id: "0973749CDF6B80F6"
 				type: "xp"
-				xp: 500
+				xp: 2000
 			}]
 		}
 		{
-			title: "S.W.A.T"
-			x: 26.0d
-			y: -2.5d
-			description: ["Obtain or craft a S.W.A.T Chestplate. S.W.A.T set provides melee damage, attack speed and weakness immunity."]
+			title: "SWAT Set"
+			x: 25.5d
+			y: -1.0d
+			description: [
+				"Repaired with high-resistance fabric."
+				""
+				"The full SWAT set provides a bonus to melee damage and attack speed, as well as weakness immunity."
+			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -921,10 +1042,15 @@
 			}]
 		}
 		{
-			title: "RIOT S.W.A.T"
-			x: 28.0d
-			y: -2.5d
-			description: ["Obtain or craft a Riot S.W.A.T chestplate. Riot S.W.A.T set provides melee damage, attack speed, and applies slowness effect on foes."]
+			title: "Riot SWAT Set"
+			x: 26.5d
+			y: -2.0d
+			description: [
+				"Repaired with high-resistance fabric."
+				""
+				"The full Riot SWAT set provides a bonus to melee damage and attack speed, as well as weakness immunity."
+				"It also slows enemies on hit."
+			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -948,10 +1074,14 @@
 			}]
 		}
 		{
-			title: "Juggernaut"
-			x: 30.0d
-			y: -1.0d
-			description: ["Obtain or craft a juggernaut chestplate. Juggernaut set provides resistance effect level 4, but in exchange greatly slows down player."]
+			title: "Juggernaut Set"
+			x: 28.5d
+			y: 1.0d
+			description: [
+				"Repaired with high-resistance fabric."
+				""
+				""
+			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -975,10 +1105,10 @@
 			}]
 		}
 		{
-			title: "Bomb Squad"
-			x: 30.0d
-			y: 1.0d
-			description: ["Obtain or craft a bomb squad chestplate. Bomb Squad set provides resistance effect level 4, but in exchange greatly slows down player."]
+			title: "Bomb Squad Set"
+			x: 28.5d
+			y: -1.0d
+			description: ["Repaired with high-resistance fabric."]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1002,10 +1132,14 @@
 			}]
 		}
 		{
-			title: "The Best of Best"
-			x: 26.0d
-			y: 2.5d
-			description: ["Obtain or craft a spec ops chestplate. Spec Ops set provides melee damage, attack speed, knockback strength, movement speed and weakness immunity."]
+			title: "Spec Ops Set"
+			x: 26.5d
+			y: 2.0d
+			description: [
+				"Repaired with high-resistance fabric."
+				""
+				"The full spec ops set provides a bonus to melee damage, movement and attack speed, as well as knockback damage and weakness immunity."
+			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1029,12 +1163,15 @@
 			}]
 		}
 		{
-			title: "Soldier"
-			x: 28.0d
-			y: 2.5d
+			title: "Soldier Set"
+			x: 25.5d
+			y: 1.0d
 			description: [
-				"Obtain or craft a soldier chestplate. Soldier set provides melee damage, attack speed, 10% damage resistance effect, and weakness immunity."
-				"Soldier Helmet also provides protection and access to wasteland."
+				"Repaired with high-resistance fabric."
+				""
+				"Equipping the soldier helmet allows you to enter the wasteland without suffering negative effects."
+				""
+				"The full soldier set provides a bonus to melee damage and attack speed, as well as damage resistance and weakness immunity."
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
@@ -1068,15 +1205,17 @@
 				}
 			}
 			x: -5.0d
-			y: -3.5d
+			y: -2.0d
 			shape: "gear"
+			subtitle: "All that experience..."
 			description: [
-				"- In most cases, repairing items involves using a majority of their original resources to craft the item again, even though the Just Enough Items (JEI) mod may not display the specific recipe."
-				"- The armors from later on might not be the case, Tier 3 usually involves with Steel Plates."
-				"- While Tier 4 involves with high-resistant fabric."
+				"Besides combining armors of the same type together, this modpack also offers an alternative way to repair armor."
+				"In most cases, using the MOST used ingredient in the crafting recipe in an anvil will also repair the item."
+				""
+				"Be aware that JEI may not list these repair recipies for all armor sets!"
 			]
 			dependency_requirement: "one_started"
-			size: 3.0d
+			size: 2.0d
 			progression_mode: "flexible"
 			id: "786F835291189409"
 			tasks: [{
@@ -1086,7 +1225,94 @@
 			rewards: [{
 				id: "6CD6E91E9BB33E07"
 				type: "xp"
-				xp: 50
+				xp: 10
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:mending"
+					}]
+				}
+			}
+			x: -4.0d
+			y: -1.0d
+			subtitle: "No easy way out..."
+			description: ["Mending books only have a chance of being bought from master level librarians, making them much harder to obtain."]
+			id: "4D4BC410243D3074"
+			tasks: [{
+				id: "336B8AAE1D3F8B49"
+				type: "checkmark"
+				title: "Mending"
+			}]
+			rewards: [{
+				id: "0BF630B4120E6011"
+				type: "item"
+				item: "minecraft:cookie"
+			}]
+		}
+		{
+			title: "Advanced Manufacturing"
+			icon: "create:mechanical_crafter"
+			x: 15.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "No more using your grubby fingers."
+			description: ["Tier III armors and above require the use of a mechanical crafter to be made. "]
+			dependencies: ["1B1EB334C4561997"]
+			hide: false
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "0E7353CB27E0D892"
+			tasks: [{
+				id: "52DD0CC190BB7501"
+				type: "checkmark"
+				title: "The Mechanical Age"
+			}]
+			rewards: [{
+				id: "7E5347F823380CDB"
+				type: "item"
+				item: "create:builders_tea"
+			}]
+		}
+		{
+			title: "Exoskeleton - Copper"
+			x: 16.0d
+			y: -2.5d
+			subtitle: "I am strength."
+			description: [
+				"Exoskeletons are an alternative to traditional armor, using fuel instead of durability."
+				""
+				"Copper exoskeletons provide a bonus to strength at the cost of speed."
+			]
+			dependencies: ["0E7353CB27E0D892"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "09CB0E6311280BD1"
+			tasks: [{
+				id: "43F68F77111AE023"
+				type: "item"
+				item: {
+					id: "create_sa:copper_exoskeleton_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5EA6CAF438BF4AA5"
+				type: "xp"
+				xp: 1200
 			}]
 		}
 	]
