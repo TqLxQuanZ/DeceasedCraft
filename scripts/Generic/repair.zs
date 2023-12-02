@@ -124,11 +124,7 @@ val LeadSet = [
     <item:apocalypsenow:hazmat_suit_helmet>,
     <item:apocalypsenow:hazmat_suit_chestplate>,
     <item:apocalypsenow:hazmat_suit_leggings>,
-    <item:apocalypsenow:hazmat_suit_boots>,
-    <item:apocalypsenow:bombsquad_helmet>,
-    <item:apocalypsenow:bombsquad_chestplate>,
-    <item:apocalypsenow:bombsquad_leggings>,
-    <item:apocalypsenow:bombsquad_boots>
+    <item:apocalypsenow:hazmat_suit_boots>
 ] as IItemStack[];
 val LeadIngredient = <tag:items:forge:plates/lead>;
 
@@ -168,10 +164,6 @@ val SteelPlateSet = [
     <item:apocalypsenow:military_beret_chestplate>,
     <item:apocalypsenow:officer_beret_helmet>,
     <item:apocalypsenow:officer_beret_chestplate>,
-    <item:apocalypsenow:juggernaut_helmet>,
-    <item:apocalypsenow:juggernaut_chestplate>,
-    <item:apocalypsenow:juggernaut_leggings>,
-    <item:apocalypsenow:juggernaut_boots>,
     <item:immersiveengineering:armor_steel_head>,
     <item:immersiveengineering:armor_steel_chest>,
     <item:immersiveengineering:armor_steel_legs>,
@@ -180,6 +172,10 @@ val SteelPlateSet = [
 val SteelPlateIngredient = <tag:items:forge:plates/steel>;
 
 val ResistantFabricSet = [
+    <item:apocalypsenow:bombsquad_helmet>,
+    <item:apocalypsenow:bombsquad_chestplate>,
+    <item:apocalypsenow:bombsquad_leggings>,
+    <item:apocalypsenow:bombsquad_boots>,
     <item:apocalypsenow:military_riot_armor_helmet>,
     <item:apocalypsenow:military_riot_armor_chestplate>,
     <item:apocalypsenow:military_riot_armor_leggings>,
@@ -200,6 +196,10 @@ val ResistantFabricSet = [
     <item:apocalypsenow:spec_ops_chestplate>,
     <item:apocalypsenow:spec_ops_leggings>,
     <item:apocalypsenow:spec_ops_boots>,
+    <item:apocalypsenow:juggernaut_helmet>,
+    <item:apocalypsenow:juggernaut_chestplate>,
+    <item:apocalypsenow:juggernaut_leggings>,
+    <item:apocalypsenow:juggernaut_boots>,
     <item:apocalypsenow:soldier_helmet>,
     <item:apocalypsenow:soldier_chestplate>,
     <item:apocalypsenow:soldier_leggings>,
@@ -352,20 +352,33 @@ for i, Set in AllEquipments
     for Item in Set
     {
         CTEventManager.register<crafttweaker.api.event.AnvilUpdateEvent>((event) => {
-                    if Item.anyDamage().matches(event.left) {
-                        if AllIngredients[i].matches(event.right) {
-                            event.levelCost = 1;
-                            var damagePercent = (event.left.damage as float / event.left.maxDamage as float) as float / 0.25;
-                            event.materialCost = damagePercent as int;
-                            if (event.left.damage == 0 || event.right.amount == 0) {
-                                event.cancel();
-                            }
-                            if (event.materialCost > event.right.amount) {
-                                event.materialCost = event.right.amount;
-                            }
-                            event.output = event.left.withDamage(event.left.damage - (event.materialCost * (event.left.maxDamage / 4)));
-                        }
+            if Item.anyDamage().matches(event.left) {
+                if AllIngredients[i].matches(event.right) {
+                    event.levelCost = 1;
+                    var damagePercent = math.Functions.ceil((event.left.damage as float / event.left.maxDamage as float) as float / 0.25);
+                    var repairPercentage = (event.left.maxDamage / 4);
+                    event.materialCost = damagePercent as int;
+                    if (event.left.damage == 0 || event.right.amount == 0) {
+                        event.cancel();
                     }
+                    if (event.materialCost > event.right.amount) {
+                        event.materialCost = event.right.amount;
+                    }
+                    
+                    if (event.left.damage < repairPercentage)
+                    {
+                        event.output = event.left.withDamage(0);
+                        return;
+                    }
+                    var repairDamage = event.left.damage - (event.materialCost * repairPercentage);
+                    if (repairDamage < 0)
+                    {
+                        event.output = event.left.withDamage(0);
+                        return;
+                    }
+                    event.output = event.left.withDamage(repairDamage);
+                }
+            }
         });
     }
 }
@@ -375,20 +388,33 @@ for i, Set in TagEquipments
     for Item in Set
     {
         CTEventManager.register<crafttweaker.api.event.AnvilUpdateEvent>((event) => {
-                    if  Item.anyDamage().matches(event.left) {
-                        if TagIngredients[i].matches(event.right) {
-                            event.levelCost = 1;
-                            var damagePercent = (event.left.damage as float / event.left.maxDamage as float) as float / 0.25;
-                            event.materialCost = damagePercent as int;
-                            if (event.left.damage == 0 || event.right.amount == 0) {
-                                event.cancel();
-                            }
-                            if (event.materialCost > event.right.amount) {
-                                event.materialCost = event.right.amount;
-                            }
-                            event.output = event.left.withDamage(event.left.damage - (event.materialCost * (event.left.maxDamage / 4)));
-                        }
+            if  Item.anyDamage().matches(event.left) {
+                if TagIngredients[i].matches(event.right) {
+                    event.levelCost = 1;
+                    var damagePercent = math.Functions.ceil((event.left.damage as float / event.left.maxDamage as float) as float / 0.25);
+                    var repairPercentage = (event.left.maxDamage / 4);
+                    event.materialCost = damagePercent as int;
+                    if (event.left.damage == 0 || event.right.amount == 0) {
+                        event.cancel();
                     }
+                    if (event.materialCost > event.right.amount) {
+                        event.materialCost = event.right.amount;
+                    }
+                    
+                    if (event.left.damage < repairPercentage)
+                    {
+                        event.output = event.left.withDamage(0);
+                        return;
+                    }
+                    var repairDamage = event.left.damage - (event.materialCost * repairPercentage);
+                    if (repairDamage < 0)
+                    {
+                        event.output = event.left.withDamage(0);
+                        return;
+                    }
+                    event.output = event.left.withDamage(repairDamage);
+                }
+            }
         });
     }
 }
