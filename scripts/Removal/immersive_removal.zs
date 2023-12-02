@@ -12,3 +12,6 @@ craftingTable.removeByName("immersiveengineering:crafting/stick_aluminum");
 craftingTable.removeByName("immersiveengineering:crafting/blueprint_molds");
 craftingTable.removeByName("immersiveengineering:crafting/blueprint_components");
 craftingTable.removeByName("immersiveengineering:crafting/blueprint_bullets");
+
+// Leather
+craftingTable.removeByName("immersiveengineering:crafting/ersatz_leather");
