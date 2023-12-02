@@ -1,1 +1,0 @@
-// Nothing is suppose to be here, it's a backward compatibility for 4.1.9 and previous versions.

@@ -4,6 +4,7 @@ import crafttweaker.api.recipe.CampFireRecipeManager;
 // Furnaces
 furnace.remove(<item:apocalypsenow:plastic>);
 
+craftingTable.removeByName("apocalypsenow:gunpowder");
 
 // Apocalypse Arsenal
 // Tools and Weapons
