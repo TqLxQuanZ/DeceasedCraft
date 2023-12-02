@@ -1,0 +1,34 @@
+{
+  "armorSetName": "Sand Camo",
+  "head": {
+    "itemKey": "apocalypsenow:desertghillie_helmet"
+  },
+  "chest": {
+    "itemKey": "apocalypsenow:desertghillie_chestplate"
+  },
+  "legs": {
+    "itemKey": "apocalypsenow:desertghillie_leggings"
+  },
+  "boots": {
+    "itemKey": "apocalypsenow:desertghillie_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.5,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "dbaf0673-2b98-438d-8dda-5fb677a797e9",
+      "description": "§a 50% Increased Movement Speed On Sand",
+      "hideBonusDescription": false,
+      "conditions": [
+        {
+          "type": "onblock",
+          "extra": "minecraft:sand"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

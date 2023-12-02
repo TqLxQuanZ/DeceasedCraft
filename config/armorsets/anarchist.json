@@ -1,0 +1,28 @@
+{
+  "armorSetName": "Anarchist",
+  "head": {
+    "itemKey": "apocalypsenow:anarchy_helmet"
+  },
+  "chest": {
+    "itemKey": "apocalypsenow:anarchy_chestplate"
+  },
+  "legs": {
+    "itemKey": "apocalypsenow:anarchy_leggings"
+  },
+  "boots": {
+    "itemKey": "apocalypsenow:anarchy_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 50,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "82cf7e32-43f8-4f47-9f0a-3b5f44cfac52",
+      "description": "§a +50 Luck",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

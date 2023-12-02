@@ -1,0 +1,23 @@
+{
+  "armorSetName": "Ballistic Protection",
+  "head": {
+    "itemKey": "apocalypsenow:life_jacket_bullet_helmet_helmet"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:nausea",
+      "interactionType": "immunity",
+      "description": "§6 Grants Nausea Immunity",
+      "onlyImmuneToNewEffects": true
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:blindness",
+      "interactionType": "immunity",
+      "description": "§6 Grants Blindness Immunity",
+      "onlyImmuneToNewEffects": true
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

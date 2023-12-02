@@ -1,0 +1,26 @@
+{
+  "armorSetName": "Sporting",
+  "head": {
+    "itemKey": "apocalypsenow:hockey_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:baseball_helmet_helmet"
+    ]
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:nausea",
+      "interactionType": "immunity",
+      "description": "§6 Grants Nausea Immunity",
+      "onlyImmuneToNewEffects": true
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:blindness",
+      "interactionType": "immunity",
+      "description": "§6 Grants Blindness Immunity",
+      "onlyImmuneToNewEffects": true
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

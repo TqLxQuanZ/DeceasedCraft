@@ -15,12 +15,12 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "minecraft:generic.attack_speed",
-      "value": 0.35,
+      "name": "puffish_skills:player.ranged_damage",
+      "value": 0.1,
       "interactionType": "self",
-      "attributeOperation": 0,
+      "attributeOperation": 1,
       "modifierUUID": "766b4e0a-13f3-4e4f-8a2c-49b4f41da5b9",
-      "description": "§a Grants 0.35 Attack Speed",
+      "description": "§a 10% Increased Ranged Damage",
       "hideBonusDescription": false
     }
   ],

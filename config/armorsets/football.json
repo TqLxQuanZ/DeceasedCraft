@@ -1,0 +1,48 @@
+{
+  "armorSetName": "Football",
+  "head": {
+    "itemKey": "apocalypsenow:black_football_armor_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:blue_football_armor_helmet",
+      "apocalypsenow:yellow_football_armor_helmet",
+      "apocalypsenow:red_football_armor_helmet"
+    ]
+  },
+  "chest": {
+    "itemKey": "apocalypsenow:black_football_armor_chestplate",
+    "mixAndMatch": [
+      "apocalypsenow:blue_football_armor_chestplate",
+      "apocalypsenow:yellow_football_armor_chestplate",
+      "apocalypsenow:red_football_armor_chestplate"
+    ]
+  },
+  "legs": {
+    "itemKey": "apocalypsenow:black_football_armor_leggings",
+    "mixAndMatch": [
+      "apocalypsenow:blue_football_armor_leggings",
+      "apocalypsenow:yellow_football_armor_leggings",
+      "apocalypsenow:red_football_armor_leggings"
+    ]
+  },
+  "boots": {
+    "itemKey": "apocalypsenow:black_football_armor_boots",
+    "mixAndMatch": [
+      "apocalypsenow:blue_football_armor_boots",
+      "apocalypsenow:yellow_football_armor_boots",
+      "apocalypsenow:red_football_armor_boots"
+    ]
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.02,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "c68193da-8203-452d-85ba-f33542523aed",
+      "description": "§a Grants 20% Movement Speed",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

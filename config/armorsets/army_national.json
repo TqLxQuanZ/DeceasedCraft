@@ -1,0 +1,56 @@
+{
+  "armorSetName": "National Army",
+  "head": {
+    "itemKey": "apocalypsenow:u_sarmy_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:canadian_army_helmet",
+      "apocalypsenow:chinese_army_helmet",
+      "apocalypsenow:japanese_army_helmet",
+      "apocalypsenow:mexican_army_helmet",
+      "apocalypsenow:russian_army_helmet"
+    ]
+  },
+  "chest": {
+    "itemKey": "apocalypsenow:u_sarmy_chestplate",
+    "mixAndMatch": [
+      "apocalypsenow:canadian_army_chestplate",
+      "apocalypsenow:chinese_army_chestplate",
+      "apocalypsenow:japanese_army_chestplate",
+      "apocalypsenow:mexican_army_chestplate",
+      "apocalypsenow:russian_army_chestplate"
+    ]
+  },
+  "legs": {
+    "itemKey": "apocalypsenow:u_sarmy_leggings",
+    "mixAndMatch": [
+      "apocalypsenow:canadian_army_leggings",
+      "apocalypsenow:chinese_army_leggings",
+      "apocalypsenow:japanese_army_leggings",
+      "apocalypsenow:mexican_army_leggings",
+      "apocalypsenow:russian_army_leggings"
+    ]
+  },
+  "boots": {
+    "itemKey": "apocalypsenow:u_sarmy_boots",
+    "mixAndMatch": [
+      "apocalypsenow:canadian_army_boots",
+      "apocalypsenow:chinese_army_boots",
+      "apocalypsenow:japanese_army_boots",
+      "apocalypsenow:mexican_army_boots",
+      "apocalypsenow:russian_army_boots"
+    ]
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 2.0,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "8e5fb744-b490-403c-bf3a-c0b0e76342f7",
+      "description": "§a Grants 2.0 Melee Damage",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

@@ -1,5 +1,5 @@
 {
-  "armorSetName": "Construction",
+  "armorSetName": "Construction Worker",
   "head": {
     "itemKey": "apocalypsenow:construction_helmet"
   },
@@ -12,7 +12,35 @@
   "boots": {
     "itemKey": "apocalypsenow:construction_boots"
   },
+  "mainHand": {
+    "itemKey": "apocalypsenow:construction_axe",
+    "mixAndMatch": [
+      "apocalypsenow:construction_shovel"
+    ]
+  },
+  "partialBonusRequiredAmount": 4,
+  "partialSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:haste",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "description": "§6 Grants Haste Effect",
+      "hideBonusDescription": false
+    }
+  ],
   "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1.5,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "f0d5b4a7-0f6c-4c33-8204-b0e262b037e8",
+      "description": "§a 150% Increased Melee Damage",
+      "hideBonusDescription": false
+    },
     {
       "type": "effect",
       "name": "minecraft:haste",

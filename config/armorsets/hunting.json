@@ -6,25 +6,41 @@
   "chest": {
     "itemKey": "apocalypsenow:hunting_chestplate"
   },
-  "fullSetBonuses": [
+  "mainHand": {
+    "itemKey": "apocalypsenow:hunting_knife"
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_speed",
       "value": 0.15,
       "interactionType": "self",
-      "attributeOperation": 0,
-      "modifierUUID": "25feea79-2b62-4cb9-ad74-b90968142400",
-      "description": "§a Grants 0.15 Attack Speed",
+      "attributeOperation": 1,
+      "modifierUUID": "77cb03ba-0652-4ad0-98e8-5d37f7f53c34",
+      "description": "§a 10% Increased Attack Speed",
+      "hideBonusDescription": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1.5,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "a1e9f5a6-4e36-4c87-b7f1-0268329dc30b",
+      "description": "§a 150% Increased Melee Damage",
       "hideBonusDescription": false
     },
     {
       "type": "attribute",
-      "name": "minecraft:generic.attack_damage",
-      "value": 0.5,
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.15,
       "interactionType": "self",
-      "attributeOperation": 0,
-      "modifierUUID": "f48c1799-a3b1-4679-8f80-bc121d82adf1",
-      "description": "§a Grants 0.5 Melee Damage",
+      "attributeOperation": 1,
+      "modifierUUID": "64e47d5b-1571-484b-9703-8234c9625956",
+      "description": "§a 10% Increased Attack Speed",
       "hideBonusDescription": false
     }
   ],

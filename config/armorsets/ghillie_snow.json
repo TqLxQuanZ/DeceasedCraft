@@ -1,0 +1,34 @@
+{
+  "armorSetName": "Snow Camo",
+  "head": {
+    "itemKey": "apocalypsenow:snowghillie_helmet"
+  },
+  "chest": {
+    "itemKey": "apocalypsenow:snowghillie_chestplate"
+  },
+  "legs": {
+    "itemKey": "apocalypsenow:snowghillie_leggings"
+  },
+  "boots": {
+    "itemKey": "apocalypsenow:snowghillie_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.5,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "b4ac2d2b-2159-40c6-97dd-7d29ed622d5a",
+      "description": "§a 50% Increased Movement Speed On Snow",
+      "hideBonusDescription": false,
+      "conditions": [
+        {
+          "type": "onblock",
+          "extra": "minecraft:snow_block"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

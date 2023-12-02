@@ -12,14 +12,43 @@
   "boots": {
     "itemKey": "apocalypsenow:nurse_boots"
   },
-  "fullSetBonuses": [
+  "mainHand": {
+    "itemKey": "apocalypsenow:scissors",
+    "mixAndMatch": [
+      "apocalypsenow:scissorst",
+      "apocalypsenow:scalpel"
+    ]
+  },
+  "partialBonusRequiredAmount": 4,
+  "partialSetBonuses": [
     {
       "type": "effect",
       "name": "minecraft:health_boost",
       "value": 1.0,
       "interactionType": "self",
       "interactionDuration": 100.0,
-      "description": "§a Grants Max Health",
+      "description": "§6 Increased Max Health",
+      "hideBonusDescription": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1.5,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "a1e9f5a6-4e36-4c87-b7f1-0268329dc30b",
+      "description": "§a 150% Increased Melee Damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:health_boost",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 100.0,
+      "description": "§6 Increased Max Health",
       "hideBonusDescription": false
     }
   ],

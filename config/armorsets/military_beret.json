@@ -1,10 +1,18 @@
 {
   "armorSetName": "Military Beret",
   "head": {
-    "itemKey": "apocalypsenow:military_beret_helmet"
+    "itemKey": "apocalypsenow:beret_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:officer_beret_helmet",
+      "apocalypsenow:military_beret_helmet"
+    ]
   },
   "chest": {
-    "itemKey": "apocalypsenow:military_beret_chestplate"
+    "itemKey": "apocalypsenow:beret_chestplate",
+    "mixAndMatch": [
+      "apocalypsenow:officer_beret_chestplate",
+      "apocalypsenow:military_beret_chestplate"
+    ]
   },
   "fullSetBonuses": [
     {
@@ -13,7 +21,7 @@
       "value": 0.5,
       "interactionType": "self",
       "attributeOperation": 0,
-      "modifierUUID": "91ce5b4c-65f6-4659-a4b2-5c80a0caa487",
+      "modifierUUID": "b11b2306-6d1c-4637-a88e-8989629d395e",
       "description": "§a Grants 0.5 Melee Damage",
       "hideBonusDescription": false
     },
@@ -23,8 +31,8 @@
       "value": 0.25,
       "interactionType": "self",
       "attributeOperation": 0,
-      "modifierUUID": "d8b6da0a-4131-4fa4-a4a2-0fa21518b5d8",
-      "description": "§a Grants 0.25 Attack Speed",
+      "modifierUUID": "80e9d88e-f319-4d5b-abe3-3f7bb5eee824",
+      "description": "§a Grants 1.0 Attack Speed",
       "hideBonusDescription": false
     },
     {
@@ -33,16 +41,9 @@
       "value": 1.0,
       "interactionType": "self",
       "attributeOperation": 0,
-      "modifierUUID": "60ca9f21-2855-4e63-ae9f-1acc12586204",
+      "modifierUUID": "06e3e700-12e8-49d7-b853-4af35c5da5fc",
       "description": "§a Grants 1.0 Knockback Strength",
       "hideBonusDescription": false
-    },
-    {
-      "type": "effect",
-      "name": "minecraft:weakness",
-      "interactionType": "immunity",
-      "description": "§6 Grants Weakness Immunity",
-      "onlyImmuneToNewEffects": true
     }
   ],
   "hideGeneratedTooltip": false

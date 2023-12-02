@@ -1,10 +1,18 @@
 {
-  "armorSetName": "Military Pilot",
+  "armorSetName": "Military Aviation",
   "head": {
-    "itemKey": "apocalypsenow:military_pilot_headset_helmet"
+    "itemKey": "apocalypsenow:military_pilot_headset_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:helicopter_helmet",
+      "apocalypsenow:atlast_7_helmet"
+    ]
   },
   "chest": {
-    "itemKey": "apocalypsenow:military_pilot_headset_chestplate"
+    "itemKey": "apocalypsenow:military_pilot_headset_chestplate",
+    "mixAndMatch": [
+      "apocalypsenow:helicopter_chestplate",
+      "apocalypsenow:atlast_7_chestplate"
+    ]
   },
   "fullSetBonuses": [
     {

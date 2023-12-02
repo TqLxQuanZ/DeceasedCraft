@@ -1,0 +1,34 @@
+{
+  "armorSetName": "Grass Camo",
+  "head": {
+    "itemKey": "apocalypsenow:ghilliesuit_helmet"
+  },
+  "chest": {
+    "itemKey": "apocalypsenow:ghilliesuit_chestplate"
+  },
+  "legs": {
+    "itemKey": "apocalypsenow:ghilliesuit_leggings"
+  },
+  "boots": {
+    "itemKey": "apocalypsenow:ghilliesuit_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.5,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "f1f46c2d-592a-408f-bb6b-3d66527cc7a7",
+      "description": "§a 50% Increased Movement Speed On Grass",
+      "hideBonusDescription": false,
+      "conditions": [
+        {
+          "type": "onblock",
+          "extra": "minecraft:grass_block"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

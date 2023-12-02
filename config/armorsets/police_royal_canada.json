@@ -1,16 +1,16 @@
 {
-  "armorSetName": "Police Officer",
+  "armorSetName": "Royal Canada Police Officer",
   "head": {
-    "itemKey": "apocalypsenow:police_helmet"
+    "itemKey": "apocalypsenow:royal_canada_police_officer_helmet"
   },
   "chest": {
-    "itemKey": "apocalypsenow:police_chestplate"
+    "itemKey": "apocalypsenow:royal_canada_police_officer_chestplate"
   },
   "legs": {
-    "itemKey": "apocalypsenow:police_leggings"
+    "itemKey": "apocalypsenow:royal_canada_police_officer_leggings"
   },
   "boots": {
-    "itemKey": "apocalypsenow:police_boots"
+    "itemKey": "apocalypsenow:royal_canada_police_officer_boots"
   },
   "mainHand": {
     "itemKey": "apocalypsenow:night_stick",
@@ -23,11 +23,11 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_damage",
-      "value": 0.1,
+      "value": 0.15,
       "interactionType": "self",
       "attributeOperation": 1,
-      "modifierUUID": "2706b496-bd4d-4deb-be91-25e576d5f20f",
-      "description": "§a 10% Increased Attack Damage",
+      "modifierUUID": "084ff975-31d8-40e6-bac3-8a10a1cdcea0",
+      "description": "§a 15% Increased Attack Damage",
       "hideBonusDescription": false
     }
   ],
@@ -35,11 +35,11 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_damage",
-      "value": 1.6,
+      "value": 1.65,
       "interactionType": "self",
       "attributeOperation": 1,
-      "modifierUUID": "4fca7493-3eb1-4549-b5c9-6bfbd3ab914a",
-      "description": "§a 160% Increased Attack Damage",
+      "modifierUUID": "084ff975-31d8-40e6-bac3-8a10a1cdcea0",
+      "description": "§a 165% Increased Attack Damage",
       "hideBonusDescription": false
     }
   ],
