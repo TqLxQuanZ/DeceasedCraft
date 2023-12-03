@@ -1,6 +1,12 @@
 {
 	"root_mining_speed+5%": {
 		"title": "+5% Mining Speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -39,6 +45,12 @@
 	},
 	"mining_speed+5%": {
 		"title": "+5% Mining Speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -77,6 +89,12 @@
 	},
 	"fortune+0.25": {
 		"title": "+0.25 Fortune",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -115,6 +133,12 @@
 	},
 	"reach+0.2": {
 		"title": "+0.2 Reach Distance",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
 		"icon": {
 			"type": "item",
 			"data": {

@@ -34,12 +34,6 @@
 	},
 	"resistance+2.5%": {
 		"title": "+2.5% Resistance",
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "challenge"
-			}
-		},
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -84,12 +78,6 @@
 	},
 	"armor+2.5%": {
 		"title": "+2.5% Armor Bonus",
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "challenge"
-			}
-		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -118,7 +106,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:iron_chestplate"
+				"item": "immersiveengineering:armor_steel_chest"
 			}
 		},
 		"rewards": [
@@ -134,12 +122,6 @@
 	},
 	"health+1": {
 		"title": "+0.5 Heart",
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "challenge"
-			}
-		},
 		"icon": {
 			"type": "effect",
 			"data": {

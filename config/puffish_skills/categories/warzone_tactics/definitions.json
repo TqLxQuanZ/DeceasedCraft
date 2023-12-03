@@ -26,12 +26,6 @@
 	},
 	"melee_damage+2.5%": {
 		"title": "+2.5% Melee Damage",
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "challenge"
-			}
-		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -76,12 +70,6 @@
 	},
 	"ranged_damage+1%": {
 		"title": "+1% Ranged Damage",
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "challenge"
-			}
-		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -145,6 +133,12 @@
 	},
 	"attack_speed+2.5%": {
 		"title": "+2.5% Attack Speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
 		"icon": {
 			"type": "effect",
 			"data": {
