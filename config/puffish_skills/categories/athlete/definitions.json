@@ -56,12 +56,12 @@
 			}
 		]
 	},
-	"swim_speed+3%": {
-		"title": "+3% Swim Speed",
+	"swim_speed+5%": {
+		"title": "+5% Swim Speed",
 		"icon": {
 			"type": "effect",
 			"data": {
-				"effect": "speed"
+				"effect": "dolphins_grace"
 			}
 		},
 		"rewards": [
@@ -69,7 +69,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "forge:swim_speed",
-					"value": 0.03,
+					"value": 0.05,
 					"operation": "multiply_base"
 				}
 			}
@@ -80,7 +80,7 @@
 		"icon": {
 			"type": "effect",
 			"data": {
-				"effect": "speed"
+				"effect": "dolphins_grace"
 			}
 		},
 		"rewards": [
@@ -99,7 +99,7 @@
 		"icon": {
 			"type": "effect",
 			"data": {
-				"effect": "speed"
+				"effect": "parcool:inexhaustible"
 			}
 		},
 		"rewards": [
@@ -108,6 +108,25 @@
 				"data": {
 					"attribute": "puffish_skills:player.stamina",
 					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"stamina+5%": {
+		"title": "+5% Stamina",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "parcool:inexhaustible"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
 					"operation": "multiply_base"
 				}
 			}

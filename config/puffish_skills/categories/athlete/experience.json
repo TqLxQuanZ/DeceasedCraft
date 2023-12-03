@@ -1,0 +1,82 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(10000 + (level * 7500), 10000000)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"conditions": {
+					"is_sprinting": {
+						"type": "stat",
+						"data": {
+							"stat": "minecraft.custom:minecraft.sprint_one_cm"
+						}
+					}
+				},
+				"parameters": {
+					"amount": {
+						"type": "amount"
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_sprinting",
+						"expression": "amount * 0.1"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"conditions": {
+					"is_walking": {
+						"type": "stat",
+						"data": {
+							"stat": "minecraft.custom:minecraft.walk_one_cm"
+						}
+					}
+				},
+				"parameters": {
+					"amount": {
+						"type": "amount"
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_walking",
+						"expression": "amount * 0.05"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"conditions": {
+					"is_swim": {
+						"type": "stat",
+						"data": {
+							"stat": "minecraft.custom:minecraft.swim_one_cm"
+						}
+					}
+				},
+				"parameters": {
+					"amount": {
+						"type": "amount"
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_swim",
+						"expression": "amount * 0.25"
+					}
+				]
+			}
+		}
+	]
+}
