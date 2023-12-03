@@ -2,7 +2,7 @@
 	"experience_per_level": {
 		"type": "expression",
 		"data": {
-			"expression": "min(level ^ 1.432 + 10, 200)"
+			"expression": "min(10 + (level * 20) / 1.5, 1000)"
 		}
 	},
 	"sources": [
@@ -17,13 +17,23 @@
 						"type": "entity_max_health"
 					}
 				},
+				"conditions":{
+					"xpmobs":
+						{
+							"type": "entity_tag",
+							"data": {
+								"tag": "forge:xpmobs"
+							}
+						}
+				},
 				"experience": [
 					{
-						"expression": "dropped_xp + max_health / 20"
+						"condition": "xpmobs",
+						"expression": "(dropped_xp / 30) + (max_health / 20)"
 					}
 				],
 				"anti_farming": {
-					"limit_per_chunk": 15,
+					"limit_per_chunk": 100,
 					"reset_after_seconds": 300
 				}
 			}

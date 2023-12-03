@@ -1,428 +1,284 @@
 {
-	"-13_-1": {
-		"x": -416,
-		"y": -32,
-		"definition": "fortune+0.1"
-	},
-	"-13_1": {
-		"x": -416,
-		"y": 32,
-		"definition": "fortune+0.1"
-	},
-	"-11_-2": {
-		"x": -352,
-		"y": -64,
-		"definition": "mining_speed+3%"
-	},
-	"-11_2": {
-		"x": -352,
-		"y": 64,
-		"definition": "mining_speed+3%"
-	},
-	"-10_-8": {
-		"x": -320,
-		"y": -256,
-		"definition": "fortune+0.1"
-	},
-	"-10_-4": {
-		"x": -320,
-		"y": -128,
-		"definition": "mining_speed+3%"
-	},
-	"-10_4": {
-		"x": -320,
-		"y": 128,
-		"definition": "mining_speed+3%"
-	},
-	"-10_8": {
-		"x": -320,
-		"y": 256,
-		"definition": "fortune+0.1"
-	},
-	"-9_-6": {
-		"x": -288,
-		"y": -192,
-		"definition": "mining_speed+3%"
-	},
-	"-9_-1": {
-		"x": -288,
-		"y": -32,
-		"definition": "mining_speed+3%"
-	},
-	"-9_1": {
-		"x": -288,
-		"y": 32,
-		"definition": "mining_speed+3%"
-	},
-	"-9_6": {
-		"x": -288,
-		"y": 192,
-		"definition": "mining_speed+3%"
-	},
-	"-8_-10": {
-		"x": -256,
-		"y": -320,
-		"definition": "fortune+0.1"
-	},
-	"-8_-3": {
-		"x": -256,
-		"y": -96,
-		"definition": "mining_speed+3%"
-	},
-	"-8_3": {
-		"x": -256,
-		"y": 96,
-		"definition": "mining_speed+3%"
-	},
-	"-8_10": {
-		"x": -256,
-		"y": 320,
-		"definition": "fortune+0.1"
-	},
-	"-7_-5": {
-		"x": -224,
-		"y": -160,
-		"definition": "mining_speed+3%"
-	},
-	"-7_5": {
-		"x": -224,
-		"y": 160,
-		"definition": "mining_speed+3%"
-	},
-	"-6_-9": {
-		"x": -192,
-		"y": -288,
-		"definition": "mining_speed+3%"
-	},
-	"-6_-2": {
-		"x": -192,
-		"y": -64,
-		"definition": "mining_speed+3%"
-	},
-	"-6_2": {
-		"x": -192,
-		"y": 64,
-		"definition": "mining_speed+3%"
-	},
-	"-6_9": {
-		"x": -192,
-		"y": 288,
-		"definition": "mining_speed+3%"
-	},
-	"-5_-7": {
-		"x": -160,
-		"y": -224,
-		"definition": "mining_speed+3%"
-	},
-	"-5_7": {
-		"x": -160,
-		"y": 224,
-		"definition": "mining_speed+3%"
-	},
-	"-4_-10": {
-		"x": -128,
-		"y": -320,
-		"definition": "mining_speed+3%"
-	},
-	"-4_-1": {
-		"x": -128,
-		"y": -32,
-		"definition": "mining_speed+3%"
-	},
-	"-4_1": {
-		"x": -128,
-		"y": 32,
-		"definition": "mining_speed+3%"
-	},
-	"-4_10": {
-		"x": -128,
-		"y": 320,
-		"definition": "mining_speed+3%"
-	},
-	"-3_-8": {
-		"x": -96,
-		"y": -256,
-		"definition": "mining_speed+3%"
-	},
-	"-3_8": {
-		"x": -96,
-		"y": 256,
-		"definition": "mining_speed+3%"
-	},
-	"-2_-11": {
-		"x": -64,
-		"y": -352,
-		"definition": "mining_speed+3%"
-	},
-	"-2_-6": {
-		"x": -64,
-		"y": -192,
-		"definition": "mining_speed+3%"
-	},
-	"-2_0": {
-		"x": -64,
-		"y": 0,
-		"definition": "mining_speed+3%"
-	},
-	"-2_6": {
-		"x": -64,
-		"y": 192,
-		"definition": "mining_speed+3%"
-	},
-	"-2_11": {
-		"x": -64,
-		"y": 352,
-		"definition": "mining_speed+3%"
-	},
-	"-1_-13": {
-		"x": -32,
-		"y": -416,
-		"definition": "fortune+0.1"
-	},
-	"-1_-9": {
-		"x": -32,
-		"y": -288,
-		"definition": "mining_speed+3%"
-	},
-	"-1_-4": {
-		"x": -32,
-		"y": -128,
-		"definition": "mining_speed+3%"
-	},
-	"-1_4": {
-		"x": -32,
-		"y": 128,
-		"definition": "mining_speed+3%"
-	},
-	"-1_9": {
-		"x": -32,
-		"y": 288,
-		"definition": "mining_speed+3%"
-	},
-	"-1_13": {
-		"x": -32,
-		"y": 416,
-		"definition": "fortune+0.1"
-	},
-	"0_-2": {
-		"x": 0,
-		"y": -64,
-		"definition": "mining_speed+3%"
-	},
-	"0_0": {
+	"df8uxy51thkphd51": {
+		"definition": "root_mining_speed+5%",
 		"x": 0,
 		"y": 0,
-		"definition": "mining_speed+3%",
 		"root": true
 	},
-	"0_2": {
+	"orr6tvzz41ens5hi": {
+		"definition": "mining_speed+2.5%",
+		"x": 64,
+		"y": -64,
+		"root": false
+	},
+	"cftp1bagik8ceuzu": {
+		"definition": "mining_speed+2.5%",
+		"x": 128,
+		"y": -128,
+		"root": false
+	},
+	"dris929a6pyx1fnt": {
+		"definition": "mining_speed+2.5%",
+		"x": 192,
+		"y": -192,
+		"root": false
+	},
+	"t28wwdkw0nrejr12": {
+		"definition": "fortune+0.1",
+		"x": -64,
+		"y": -64,
+		"root": false
+	},
+	"2mzhqu6bxqq7raza": {
+		"definition": "fortune+0.1",
+		"x": -128,
+		"y": -128,
+		"root": false
+	},
+	"r0md6cccdvdq8yrk": {
+		"definition": "fortune+0.1",
+		"x": -192,
+		"y": -192,
+		"root": false
+	},
+	"5677aag7t9ic8i9f": {
+		"definition": "reach+0.1",
 		"x": 0,
 		"y": 64,
-		"definition": "mining_speed+3%"
+		"root": false
 	},
-	"1_-13": {
-		"x": 32,
-		"y": -416,
-		"definition": "fortune+0.1"
-	},
-	"1_-9": {
-		"x": 32,
-		"y": -288,
-		"definition": "mining_speed+3%"
-	},
-	"1_-4": {
-		"x": 32,
-		"y": -128,
-		"definition": "mining_speed+3%"
-	},
-	"1_4": {
-		"x": 32,
+	"bolukg411n6o60ju": {
+		"definition": "reach+0.1",
+		"x": 0,
 		"y": 128,
-		"definition": "mining_speed+3%"
+		"root": false
 	},
-	"1_9": {
-		"x": 32,
-		"y": 288,
-		"definition": "mining_speed+3%"
+	"tsefjzcejnu5mb1j": {
+		"definition": "reach+0.1",
+		"x": 0,
+		"y": 192,
+		"root": false
 	},
-	"1_13": {
-		"x": 32,
-		"y": 416,
-		"definition": "fortune+0.1"
+	"0pihegrikrrb6goj": {
+		"definition": "mining_speed+2.5%",
+		"x": 256,
+		"y": -256,
+		"root": false
 	},
-	"2_-11": {
+	"mb9hryfh6phqhd21": {
+		"definition": "mining_speed+2.5%",
+		"x": 352,
+		"y": -256,
+		"root": false
+	},
+	"7an2ere9zq7ae360": {
+		"definition": "mining_speed+2.5%",
+		"x": 256,
+		"y": -352,
+		"root": false
+	},
+	"w2uaj4x85tn0mqio": {
+		"definition": "mining_speed+2.5%",
+		"x": 160,
+		"y": -384,
+		"root": false
+	},
+	"1qda2e1nbabvbfsq": {
+		"definition": "mining_speed+2.5%",
 		"x": 64,
 		"y": -352,
-		"definition": "mining_speed+3%"
+		"root": false
 	},
-	"2_-6": {
-		"x": 64,
-		"y": -192,
-		"definition": "mining_speed+3%"
+	"ykfgy5cw2mfjbcjm": {
+		"definition": "mining_speed+2.5%",
+		"x": 384,
+		"y": -160,
+		"root": false
 	},
-	"2_0": {
-		"x": 64,
-		"y": 0,
-		"definition": "mining_speed+3%"
-	},
-	"2_6": {
-		"x": 64,
-		"y": 192,
-		"definition": "mining_speed+3%"
-	},
-	"2_11": {
-		"x": 64,
-		"y": 352,
-		"definition": "mining_speed+3%"
-	},
-	"3_-8": {
-		"x": 96,
-		"y": -256,
-		"definition": "mining_speed+3%"
-	},
-	"3_8": {
-		"x": 96,
-		"y": 256,
-		"definition": "mining_speed+3%"
-	},
-	"4_-10": {
-		"x": 128,
-		"y": -320,
-		"definition": "mining_speed+3%"
-	},
-	"4_-1": {
-		"x": 128,
-		"y": -32,
-		"definition": "mining_speed+3%"
-	},
-	"4_1": {
-		"x": 128,
-		"y": 32,
-		"definition": "mining_speed+3%"
-	},
-	"4_10": {
-		"x": 128,
-		"y": 320,
-		"definition": "mining_speed+3%"
-	},
-	"5_-7": {
-		"x": 160,
-		"y": -224,
-		"definition": "mining_speed+3%"
-	},
-	"5_7": {
-		"x": 160,
-		"y": 224,
-		"definition": "mining_speed+3%"
-	},
-	"6_-9": {
-		"x": 192,
-		"y": -288,
-		"definition": "mining_speed+3%"
-	},
-	"6_-2": {
-		"x": 192,
+	"5it8398tfrlad1o8": {
+		"definition": "mining_speed+2.5%",
+		"x": 352,
 		"y": -64,
-		"definition": "mining_speed+3%"
+		"root": false
 	},
-	"6_2": {
-		"x": 192,
-		"y": 64,
-		"definition": "mining_speed+3%"
+	"495iui1pyyw0pdkd": {
+		"definition": "mining_speed+5%",
+		"x": 352,
+		"y": -352,
+		"root": false
 	},
-	"6_9": {
+	"nv88j2pcg23t8hsb": {
+		"definition": "mining_speed+5%",
+		"x": 0,
+		"y": -416,
+		"root": false
+	},
+	"7hitt0k4wywvzcza": {
+		"definition": "mining_speed+5%",
+		"x": 416,
+		"y": 0,
+		"root": false
+	},
+	"mozytzwbtofnzeza": {
+		"definition": "mining_speed+5%",
+		"x": 416,
+		"y": -416,
+		"root": false
+	},
+	"0ay3uag4pe9nc52g": {
+		"definition": "fortune+0.1",
+		"x": -256,
+		"y": -256,
+		"root": false
+	},
+	"umu22lbgy54fx65x": {
+		"definition": "fortune+0.1",
+		"x": -256,
+		"y": -352,
+		"root": false
+	},
+	"2xv8zjf8ngsgyxh3": {
+		"definition": "fortune+0.1",
+		"x": -352,
+		"y": -256,
+		"root": false
+	},
+	"xt2mebglqwzqlzt3": {
+		"definition": "fortune+0.1",
+		"x": -160,
+		"y": -384,
+		"root": false
+	},
+	"vj9jou3d7zr6cpsi": {
+		"definition": "fortune+0.1",
+		"x": -64,
+		"y": -352,
+		"root": false
+	},
+	"nebn2fsghynumy4s": {
+		"definition": "fortune+0.1",
+		"x": -384,
+		"y": -160,
+		"root": false
+	},
+	"h4phvflxwnn4ztgq": {
+		"definition": "fortune+0.1",
+		"x": -352,
+		"y": -64,
+		"root": false
+	},
+	"ckstojn5scyxkliq": {
+		"definition": "fortune+0.25",
+		"x": 0,
+		"y": -288,
+		"root": false
+	},
+	"4bxqwfrhz0c8u8q4": {
+		"definition": "fortune+0.25",
+		"x": -352,
+		"y": -352,
+		"root": false
+	},
+	"920mywqi1s0zhyzp": {
+		"definition": "fortune+0.25",
+		"x": -416,
+		"y": -416,
+		"root": false
+	},
+	"9fq0ql8exiz9fk7f": {
+		"definition": "reach+0.1",
+		"x": 0,
+		"y": 256,
+		"root": false
+	},
+	"feo4ec4p7c18sr3t": {
+		"definition": "reach+0.1",
+		"x": -96,
+		"y": 320,
+		"root": false
+	},
+	"a6ucnqpv92a4v24a": {
+		"definition": "reach+0.1",
 		"x": 192,
 		"y": 288,
-		"definition": "mining_speed+3%"
+		"root": false
 	},
-	"7_-5": {
-		"x": 224,
-		"y": -160,
-		"definition": "mining_speed+3%"
-	},
-	"7_5": {
-		"x": 224,
-		"y": 160,
-		"definition": "mining_speed+3%"
-	},
-	"8_-10": {
-		"x": 256,
-		"y": -320,
-		"definition": "fortune+0.1"
-	},
-	"8_-3": {
-		"x": 256,
-		"y": -96,
-		"definition": "mining_speed+3%"
-	},
-	"8_3": {
-		"x": 256,
-		"y": 96,
-		"definition": "mining_speed+3%"
-	},
-	"8_10": {
-		"x": 256,
+	"molzi9ps8kh8j3jj": {
+		"definition": "reach+0.1",
+		"x": 96,
 		"y": 320,
-		"definition": "fortune+0.1"
+		"root": false
 	},
-	"9_-6": {
-		"x": 288,
-		"y": -192,
-		"definition": "mining_speed+3%"
+	"c1ry0l90s1yaj8zr": {
+		"definition": "reach+0.1",
+		"x": -192,
+		"y": 288,
+		"root": false
 	},
-	"9_-1": {
-		"x": 288,
-		"y": -32,
-		"definition": "mining_speed+3%"
+	"dq01qj9vsbsnvbwx": {
+		"definition": "reach+0.2",
+		"x": 0,
+		"y": 384,
+		"root": false
 	},
-	"9_1": {
-		"x": 288,
-		"y": 32,
-		"definition": "mining_speed+3%"
+	"r1a30odgp81ostqr": {
+		"definition": "reach+0.2",
+		"x": 0,
+		"y": 480,
+		"root": false
 	},
-	"9_6": {
-		"x": 288,
-		"y": 192,
-		"definition": "mining_speed+3%"
+	"ob6rp2nhz25kyc7q": {
+		"definition": "reach+0.2",
+		"x": -352,
+		"y": 64,
+		"root": false
 	},
-	"10_-8": {
-		"x": 320,
-		"y": -256,
-		"definition": "fortune+0.1"
-	},
-	"10_-4": {
-		"x": 320,
-		"y": -128,
-		"definition": "mining_speed+3%"
-	},
-	"10_4": {
-		"x": 320,
-		"y": 128,
-		"definition": "mining_speed+3%"
-	},
-	"10_8": {
-		"x": 320,
-		"y": 256,
-		"definition": "fortune+0.1"
-	},
-	"11_-2": {
-		"x": 352,
-		"y": -64,
-		"definition": "mining_speed+3%"
-	},
-	"11_2": {
+	"ee2beyegfmnk2a9z": {
+		"definition": "reach+0.2",
 		"x": 352,
 		"y": 64,
-		"definition": "mining_speed+3%"
+		"root": false
 	},
-	"13_-1": {
-		"x": 416,
-		"y": -32,
-		"definition": "fortune+0.1"
+	"22mr7qodw6zg5583": {
+		"definition": "reach+0.1",
+		"x": 256,
+		"y": 224,
+		"root": false
 	},
-	"13_1": {
-		"x": 416,
-		"y": 32,
-		"definition": "fortune+0.1"
+	"oyvs95oaye8iuo02": {
+		"definition": "reach+0.1",
+		"x": -256,
+		"y": 224,
+		"root": false
+	},
+	"v29co8bf0spntjas": {
+		"definition": "reach+0.2",
+		"x": -320,
+		"y": 160,
+		"root": false
+	},
+	"ghupw888f5qslpmc": {
+		"definition": "reach+0.2",
+		"x": 320,
+		"y": 160,
+		"root": false
+	},
+	"v7kfqq3n4vgljncu": {
+		"definition": "fortune+0.25",
+		"x": 288,
+		"y": 0,
+		"root": false
+	},
+	"dwp3e9eclkxulc67": {
+		"definition": "mining_speed+5%",
+		"x": -416,
+		"y": 0,
+		"root": false
+	},
+	"o5fjdr9p4iapc2c0": {
+		"definition": "fortune+0.25",
+		"x": -288,
+		"y": 0,
+		"root": false
 	}
 }

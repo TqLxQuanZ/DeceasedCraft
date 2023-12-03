@@ -1,10 +1,67 @@
 {
+	"root_mining_speed+5%": {
+		"title": "+5% Mining Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.mining_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mining_speed+2.5%": {
+		"title": "+2.5% Mining Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.mining_speed",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mining_speed+5%": {
+		"title": "+5% Mining Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.mining_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
 	"fortune+0.1": {
 		"title": "+0.1 Fortune",
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "diamond"
+				"item": "gold_ingot"
 			}
 		},
 		"rewards": [
@@ -18,21 +75,59 @@
 			}
 		]
 	},
-	"mining_speed+3%": {
-		"title": "+3% Mining Speed",
+	"fortune+0.25": {
+		"title": "+0.25 Fortune",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "haste"
+				"item": "diamond"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.mining_speed",
-					"value": 0.03,
-					"operation": "multiply_base"
+					"attribute": "puffish_skills:player.fortune",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"reach+0.1": {
+		"title": "+0.1 Reach Distance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "create:brass_hand"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:reach_distance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"reach+0.2": {
+		"title": "+0.2 Reach Distance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "create:extendo_grip"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:reach_distance",
+					"value": 0.2,
+					"operation": "addition"
 				}
 			}
 		]

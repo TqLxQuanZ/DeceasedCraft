@@ -1,0 +1,116 @@
+{
+	"root_sprint_speed+10%": {
+		"title": "+10% Movement Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"sprint_speed+3%": {
+		"title": "+3% Movement Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"sprint_speed+10%": {
+		"title": "+10% Movement Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "artifacts:running_shoes"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"swim_speed+3%": {
+		"title": "+3% Swim Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:swim_speed",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"swim_speed+10%": {
+		"title": "+10% Swim Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:swim_speed",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"stamina+3%": {
+		"title": "+3% Stamina",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	}
+}

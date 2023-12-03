@@ -33,9 +33,9 @@
 			}
 		},
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "strength"
+				"item": "apocalypsenow:combat_knife"
 			}
 		},
 		"rewards": [
@@ -58,9 +58,9 @@
 			}
 		},
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "strength"
+				"item": "apocalypsenow:machete"
 			}
 		},
 		"rewards": [
@@ -85,7 +85,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "bow"
+				"item": "tac:glock_18"
 			}
 		},
 		"rewards": [
@@ -110,7 +110,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "bow"
+				"item": "tac:ak47"
 			}
 		},
 		"rewards": [
@@ -127,9 +127,9 @@
 	"attack_speed+2%": {
 		"title": "+2% Attack Speed",
 		"icon": {
-			"type": "item",
+			"type": "effect",
 			"data": {
-				"item": "golden_sword"
+				"effect": "jump_boost"
 			}
 		},
 		"rewards": [
@@ -146,9 +146,9 @@
 	"attack_speed+2.5%": {
 		"title": "+2.5% Attack Speed",
 		"icon": {
-			"type": "item",
+			"type": "effect",
 			"data": {
-				"item": "golden_sword"
+				"effect": "jump_boost"
 			}
 		},
 		"rewards": [

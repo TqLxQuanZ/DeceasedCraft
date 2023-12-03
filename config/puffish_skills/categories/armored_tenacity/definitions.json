@@ -1,31 +1,6 @@
 {
-	"health+1": {
-		"title": "+0.5 Heart",
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "challenge"
-			}
-		},
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "health_boost"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.max_health",
-					"value": 1,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"root_resistance+1%": {
-		"title": "+1% Resistance",
+	"root_resistance+5%": {
+		"title": "+5% Resistance and 5% Armor Bonus",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -43,14 +18,22 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_skills:player.resistance",
-					"value": 0.01,
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			}
 		]
 	},
-	"resistance+1%": {
-		"title": "+1% Resistance",
+	"resistance+2.5%": {
+		"title": "+2.5% Resistance",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -68,14 +51,39 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_skills:player.resistance",
-					"value": 0.01,
+					"value": 0.025,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"resistance+4%": {
+		"title": "+4% Resistance",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.04,
 					"operation": "multiply_total"
 				}
 			}
 		]
 	},
 	"armor+2.5%": {
-		"title": "+2.5% Armor",
+		"title": "+2.5% Armor Bonus",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -100,7 +108,7 @@
 		]
 	},
 	"armor+5%": {
-		"title": "+5% Armor",
+		"title": "+5% Armor Bonus",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -120,6 +128,56 @@
 					"attribute": "generic.armor",
 					"value": 0.05,
 					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"health+1": {
+		"title": "+0.5 Heart",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"health+2": {
+		"title": "+1 Heart",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
 				}
 			}
 		]
