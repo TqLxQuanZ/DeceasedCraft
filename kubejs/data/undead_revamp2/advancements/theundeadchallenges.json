@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "undead_revamp2:acidsack"
+    },
+    "title": {
+      "translate": "advancements.theundeadchallenges.title"
+    },
+    "description": {
+      "translate": "advancements.theundeadchallenges.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "theundeadchallenges": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

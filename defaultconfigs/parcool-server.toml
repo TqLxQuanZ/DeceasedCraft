@@ -1,5 +1,5 @@
 #Whether these limitations will be imposed to players
-limitations_imposed = false
+limitations_imposed = true
 
 ["Action Permissions"]
 	permit_BreakfallReady = true
@@ -8,7 +8,7 @@ limitations_imposed = false
 	permit_ClingToCliff = true
 	permit_Crawl = true
 	permit_Dive = true
-	permit_Dodge = true
+	permit_Dodge = false
 	permit_FastRun = true
 	permit_Flipping = true
 	permit_HangDown = true
