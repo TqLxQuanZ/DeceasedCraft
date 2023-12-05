@@ -15,45 +15,56 @@
   "boots": {
     "itemKey": "apocalypsenow:spec_ops_boots"
   },
-  "fullSetBonuses": [
+  "mainHand": {
+    "itemKey": "tac:ak47",
+    "mixAndMatch": [
+      "tac:m4",
+      "tac:qbz_95",
+      "tac:mk14",
+      "tac:hk416_a5",
+      "tac:type81_x",
+      "tac:fn_fal",
+      "tac:sig_mcx_spear",
+      "tac:sks_tactical",
+      "tac:qbz_191",
+      "tac:m16a4",
+      "tac:scar_h",
+      "tac:scar_l",
+      "tac:mk47",
+      "tac:spr15",
+      "tac:mk18_mod1",
+      "tac:hk_g3"
+    ]
+  },
+  "partialBonusRequiredAmount": 4,
+  "partialSetBonuses": [
     {
-      "type": "attribute",
-      "name": "minecraft:generic.attack_damage",
-      "value": 2.0,
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 0.0,
       "interactionType": "self",
-      "attributeOperation": 0,
-      "modifierUUID": "4bf7251f-5102-4fdd-8264-db639c1ae91d",
-      "description": "§a Grants 2.0 Melee Damage",
-      "hideBonusDescription": false
-    },
-    {
-      "type": "attribute",
-      "name": "minecraft:generic.attack_speed",
-      "value": 0.4,
-      "interactionType": "self",
-      "attributeOperation": 0,
-      "modifierUUID": "e5ebe7f9-3512-4298-a32c-6569d4de64eb",
-      "description": "§a Grants 0.4 Attack Speed",
+      "interactionDuration": 300,
+      "description": "§a 10% Damage Reduction",
       "hideBonusDescription": false
     },
     {
       "type": "attribute",
       "name": "minecraft:generic.movement_speed",
-      "value": 0.02,
+      "value": 0.15,
       "interactionType": "self",
-      "attributeOperation": 0,
-      "modifierUUID": "7a8d808d-5d53-4944-bfec-1676051c788d",
-      "description": "§a Grants 20% Movement Speed",
+      "attributeOperation": 1,
+      "modifierUUID": "5152b1da-92c0-11ee-b9d1-0242ac120002",
+      "description": "§a +15% Movement Speed",
       "hideBonusDescription": false
     },
     {
       "type": "attribute",
-      "name": "minecraft:generic.attack_knockback",
+      "name": "forge:step_height_addition",
       "value": 0.5,
       "interactionType": "self",
       "attributeOperation": 0,
-      "modifierUUID": "0e2f25e1-e2d7-420f-ab01-31382cedbedf",
-      "description": "§a Grants 0.5 Knockback Strength",
+      "modifierUUID": "599a07e8-937f-11ee-b9d1-0242ac120002",
+      "description": "§a +0.5 Step Height",
       "hideBonusDescription": false
     },
     {
@@ -62,6 +73,47 @@
       "interactionType": "immunity",
       "description": "§6 Grants Weakness Immunity",
       "onlyImmuneToNewEffects": true
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "puffish_skills:player.ranged_damage",
+      "value": 0.15,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "a807d064-92c0-11ee-b9d1-0242ac120002",
+      "description": "§d +15% Rifle Damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "description": "§a 10% Damage Reduction",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.15,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "ac4d70ac-92c0-11ee-b9d1-0242ac120002",
+      "description": "§a +15% Movement Speed",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "forge:step_height_addition",
+      "value": 0.5,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "54c46b1e-937f-11ee-b9d1-0242ac120002",
+      "description": "§a +0.5 Step Height",
+      "hideBonusDescription": false
     }
   ],
   "hideGeneratedTooltip": false

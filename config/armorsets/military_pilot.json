@@ -18,11 +18,21 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_speed",
-      "value": 0.3,
+      "value": 0.15,
       "interactionType": "self",
-      "attributeOperation": 0,
+      "attributeOperation": 2,
       "modifierUUID": "dc81192e-3db5-4869-bfa0-ea4b0a9d884c",
-      "description": "§a Grants 0.25 Attack Speed",
+      "description": "§a +15% Attack Speed",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "c1894bec-e610-44df-874d-a2b45add7691",
+      "description": "§a +10% Movement Speed",
       "hideBonusDescription": false
     },
     {
@@ -32,17 +42,7 @@
       "interactionType": "self",
       "attributeOperation": 0,
       "modifierUUID": "b4b00fe6-94f1-4f78-af4b-5b9509edc5db",
-      "description": "§a Grants 1.0 Knockback Strength",
-      "hideBonusDescription": false
-    },
-    {
-      "type": "attribute",
-      "name": "minecraft:generic.movement_speed",
-      "value": 0.01,
-      "interactionType": "self",
-      "attributeOperation": 0,
-      "modifierUUID": "c1894bec-e610-44df-874d-a2b45add7691",
-      "description": "§a Grants 10% Movement Speed",
+      "description": "§a +1 Knockback Strength",
       "hideBonusDescription": false
     },
     {

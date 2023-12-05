@@ -14,11 +14,11 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_speed",
-      "value": 0.15,
+      "value": 0.1,
       "interactionType": "self",
-      "attributeOperation": 1,
+      "attributeOperation": 2,
       "modifierUUID": "77cb03ba-0652-4ad0-98e8-5d37f7f53c34",
-      "description": "§a 10% Increased Attack Speed",
+      "description": "§a +10% Attack Speed",
       "hideBonusDescription": false
     }
   ],
@@ -30,7 +30,7 @@
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "a1e9f5a6-4e36-4c87-b7f1-0268329dc30b",
-      "description": "§a 150% Increased Melee Damage",
+      "description": "§a +150% Melee Damage",
       "hideBonusDescription": false
     },
     {
@@ -38,9 +38,9 @@
       "name": "minecraft:generic.attack_speed",
       "value": 0.15,
       "interactionType": "self",
-      "attributeOperation": 1,
+      "attributeOperation": 2,
       "modifierUUID": "64e47d5b-1571-484b-9703-8234c9625956",
-      "description": "§a 10% Increased Attack Speed",
+      "description": "§a +15% Attack Speed",
       "hideBonusDescription": false
     }
   ],

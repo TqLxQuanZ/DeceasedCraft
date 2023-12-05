@@ -12,35 +12,45 @@
   "boots": {
     "itemKey": "apocalypsenow:military_urban_boots"
   },
-  "fullSetBonuses": [
+  "mainHand": {
+    "itemKey": "tac:m24",
+    "mixAndMatch": [
+      "tac:m82a2",
+      "tac:ai_awp",
+      "tac:scar_mk20",
+      "tac:mrad"
+    ]
+  },
+  "partialBonusRequiredAmount": 4,
+  "partialSetBonuses": [
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_damage",
-      "value": 1.0,
+      "value": 0.1,
       "interactionType": "self",
-      "attributeOperation": 0,
+      "attributeOperation": 1,
       "modifierUUID": "8e956211-b9cc-4e23-8c06-60a34e429cde",
-      "description": "§a Grants 1.0 Melee Damage",
-      "hideBonusDescription": false
-    },
-    {
-      "type": "attribute",
-      "name": "minecraft:generic.attack_speed",
-      "value": 0.25,
-      "interactionType": "self",
-      "attributeOperation": 0,
-      "modifierUUID": "8b1d17a1-eaca-4a65-8eda-4fef98fb6927",
-      "description": "§a Grants 0.25 Attack Speed",
+      "description": "§a +10% Melee Damage",
       "hideBonusDescription": false
     },
     {
       "type": "attribute",
       "name": "minecraft:generic.movement_speed",
-      "value": 0.01,
+      "value": 0.15,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "8b1d17a1-eaca-4a65-8eda-4fef98fb6927",
+      "description": "§a +15% Movement Speed",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "forge:step_height_addition",
+      "value": 0.5,
       "interactionType": "self",
       "attributeOperation": 0,
       "modifierUUID": "d5940a2d-ee1e-421d-9c3c-a4b7bda9cae1",
-      "description": "§a Grants 10% Movement Speed",
+      "description": "§a +0.5 Step Height",
       "hideBonusDescription": false
     },
     {
@@ -50,6 +60,38 @@
       "description": "§6 Grants Weakness Immunity",
       "onlyImmuneToNewEffects": true
     }
+  ],
+  "fullSetBonuses": [
+      {
+        "type": "attribute",
+        "name": "puffish_skills:player.ranged_damage",
+        "value": 0.1,
+        "interactionType": "self",
+        "attributeOperation": 1,
+        "modifierUUID": "8d9f62a4-92b7-11ee-b9d1-0242ac120002",
+        "description": "§d +10% Sniper Damage",
+        "hideBonusDescription": false
+      },
+      {
+        "type": "attribute",
+        "name": "minecraft:generic.movement_speed",
+        "value": 0.15,
+        "interactionType": "self",
+        "attributeOperation": 1,
+        "modifierUUID": "1b295580-92b8-11ee-b9d1-0242ac120002",
+        "description": "§a +15% Movement Speed",
+        "hideBonusDescription": false
+      },
+      {
+        "type": "attribute",
+        "name": "forge:step_height_addition",
+        "value": 0.5,
+        "interactionType": "self",
+        "attributeOperation": 0,
+        "modifierUUID": "1b295774-92b8-11ee-b9d1-0242ac120002",
+        "description": "§a +0.5 Step Height",
+        "hideBonusDescription": false
+      }
   ],
   "hideGeneratedTooltip": false
 }

@@ -16,11 +16,21 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_damage",
-      "value": 1.5,
+      "value": 0.2,
       "interactionType": "self",
-      "attributeOperation": 0,
+      "attributeOperation": 1,
+      "modifierUUID": "f86d834a-937f-11ee-b9d1-0242ac120002",
+      "description": "§a +20% Melee Damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "puffish_skills:player.stamina",
+      "value": 0.2,
+      "interactionType": "self",
+      "attributeOperation": 2,
       "modifierUUID": "dc65a390-5a89-4eb1-94be-88912e3a0137",
-      "description": "§a Grants 1.5 Melee Damage",
+      "description": "§a +20% Stamina",
       "hideBonusDescription": false
     }
   ],

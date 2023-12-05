@@ -14,13 +14,32 @@
   },
   "fullSetBonuses": [
     {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "description": "§a +10% Damage Reduction",
+      "hideBonusDescription": false
+    },
+    {
       "type": "attribute",
       "name": "minecraft:generic.attack_speed",
-      "value": 0.4,
+      "value": 0.2,
       "interactionType": "self",
-      "attributeOperation": 0,
+      "attributeOperation": 2,
       "modifierUUID": "12ab6d86-61d1-4a80-998c-46a0e3716357",
-      "description": "§a Grants 0.4 Attack Speed",
+      "description": "§a +20% Attack Speed",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "puffish_skills:player.stamina",
+      "value": 0.5,
+      "interactionType": "self",
+      "attributeOperation": 2,
+      "modifierUUID": "29444382-9380-11ee-b9d1-0242ac120002",
+      "description": "§a +5% Stamina",
       "hideBonusDescription": false
     },
     {
@@ -29,7 +48,15 @@
       "value": 1.0,
       "interactionType": "attack",
       "interactionDuration": 200.0,
-      "description": "§6 Apply Slowness Effect When Dealt Damage"
+      "description": "§6 Apply Slowness II Effect When Dealt Damage"
+    },
+    {
+      "type": "effect",
+      "name": "zombiemobs:stun",
+      "value": 1.0,
+      "interactionType": "attack",
+      "interactionDuration": 200.0,
+      "description": "§6 Apply Stun II Effect When Dealt Damage"
     }
   ],
   "hideGeneratedTooltip": false

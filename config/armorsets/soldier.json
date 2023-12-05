@@ -15,34 +15,44 @@
   "boots": {
     "itemKey": "apocalypsenow:soldier_boots"
   },
-  "fullSetBonuses": [
-    {
-      "type": "attribute",
-      "name": "minecraft:generic.attack_damage",
-      "value": 2.0,
-      "interactionType": "self",
-      "attributeOperation": 0,
-      "modifierUUID": "395b34be-438d-43db-bdee-6f8c4b5b2081",
-      "description": "§a Grants 2.0 Melee Damage",
-      "hideBonusDescription": false
-    },
-    {
-      "type": "attribute",
-      "name": "minecraft:generic.attack_speed",
-      "value": 0.4,
-      "interactionType": "self",
-      "attributeOperation": 0,
-      "modifierUUID": "1b6676cf-8403-4f4f-bf13-951f9d48014c",
-      "description": "§a Grants 0.4 Attack Speed",
-      "hideBonusDescription": false
-    },
+  "mainHand": {
+    "itemKey": "tac:m60",
+    "mixAndMatch": [
+      "tac:dp28",
+      "tac:rpg7",
+      "tac:rpk",
+      "tac:m249"
+    ]
+  },
+  "partialBonusRequiredAmount": 4,
+  "partialSetBonuses": [
     {
       "type": "effect",
       "name": "minecraft:resistance",
       "value": 0.0,
       "interactionType": "self",
-      "interactionDuration": 100.0,
-      "description": "§a Grants 10% Damage Resistance",
+      "interactionDuration": 300,
+      "description": "§a 10% Damage Reduction",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.15,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "1da48952-92c1-11ee-b9d1-0242ac120002",
+      "description": "§a +15% Movement Speed",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "forge:step_height_addition",
+      "value": 0.5,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "24b3859a-937f-11ee-b9d1-0242ac120002",
+      "description": "§a +0.5 Step Height",
       "hideBonusDescription": false
     },
     {
@@ -51,6 +61,47 @@
       "interactionType": "immunity",
       "description": "§6 Grants Weakness Immunity",
       "onlyImmuneToNewEffects": true
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "puffish_skills:player.ranged_damage",
+      "value": 0.2,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "2028b798-92c1-11ee-b9d1-0242ac120002",
+      "description": "§d +20% Heavy Weapon Damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "description": "§a 10% Damage Reduction",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.15,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "2b40e650-92c1-11ee-b9d1-0242ac120002",
+      "description": "§a +15% Movement Speed",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "forge:step_height_addition",
+      "value": 0.5,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "28bd5c6a-937f-11ee-b9d1-0242ac120002",
+      "description": "§a +0.5 Step Height",
+      "hideBonusDescription": false
     }
   ],
   "hideGeneratedTooltip": false

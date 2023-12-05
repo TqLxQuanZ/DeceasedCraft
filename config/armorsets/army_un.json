@@ -15,22 +15,22 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "minecraft:generic.attack_damage",
-      "value": 1.0,
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.2,
       "interactionType": "self",
-      "attributeOperation": 0,
+      "attributeOperation": 1,
       "modifierUUID": "e50ce33b-8a51-40b9-9c27-2c3f908bc0a9",
-      "description": "§a Grants 1.0 Melee Damage",
+      "description": "§a +10% Movement Speed",
       "hideBonusDescription": false
     },
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_speed",
-      "value": 0.4,
+      "value": 0.2,
       "interactionType": "self",
-      "attributeOperation": 0,
+      "attributeOperation": 2,
       "modifierUUID": "7fade7aa-0fe5-4016-97ba-8c0821f15612",
-      "description": "§a Grants 0.4 Attack Speed",
+      "description": "§a +20% Attack Speed",
       "hideBonusDescription": false
     }
   ],

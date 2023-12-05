@@ -17,22 +17,22 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "minecraft:generic.attack_damage",
-      "value": 0.5,
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.1,
       "interactionType": "self",
-      "attributeOperation": 0,
+      "attributeOperation": 2,
       "modifierUUID": "b11b2306-6d1c-4637-a88e-8989629d395e",
-      "description": "§a Grants 0.5 Melee Damage",
+      "description": "§a +10% Attack Speed",
       "hideBonusDescription": false
     },
     {
       "type": "attribute",
-      "name": "minecraft:generic.attack_speed",
-      "value": 0.25,
+      "name": "puffish_skills:player.jump",
+      "value": 0.1,
       "interactionType": "self",
-      "attributeOperation": 0,
+      "attributeOperation": 1,
       "modifierUUID": "80e9d88e-f319-4d5b-abe3-3f7bb5eee824",
-      "description": "§a Grants 1.0 Attack Speed",
+      "description": "§a +10% Jump Height",
       "hideBonusDescription": false
     },
     {
@@ -42,7 +42,7 @@
       "interactionType": "self",
       "attributeOperation": 0,
       "modifierUUID": "06e3e700-12e8-49d7-b853-4af35c5da5fc",
-      "description": "§a Grants 1.0 Knockback Strength",
+      "description": "§a +1 Knockback Strength",
       "hideBonusDescription": false
     }
   ],

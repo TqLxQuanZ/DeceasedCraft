@@ -13,33 +13,54 @@
     "itemKey": "apocalypsenow:royal_canada_police_officer_boots"
   },
   "mainHand": {
-    "itemKey": "apocalypsenow:night_stick",
+    "itemKey": "tac:m1911",
     "mixAndMatch": [
-      "apocalypsenow:electric_baton"
+      "tac:glock_17",
+      "tac:sti2011",
+      "tac:m92fs",
+      "tac:deagle_357",
+      "tac:glock_18",
+      "tac:cz75",
+      "tac:cz75_auto",
+      "tac:mk23",
+      "tac:tti_g34",
+      "tac:timeless_50",
+      "tac:colt_python",
+      "tac:tec_9"
     ]
   },
   "partialBonusRequiredAmount": 4,
   "partialSetBonuses": [
     {
       "type": "attribute",
-      "name": "minecraft:generic.attack_damage",
-      "value": 0.15,
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.1,
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "084ff975-31d8-40e6-bac3-8a10a1cdcea0",
-      "description": "§a 15% Increased Attack Damage",
+      "description": "§a +10% Movement Speed",
       "hideBonusDescription": false
     }
   ],
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "minecraft:generic.attack_damage",
-      "value": 1.65,
+      "name": "puffish_skills:player.ranged_damage",
+      "value": 0.2,
       "interactionType": "self",
       "attributeOperation": 1,
-      "modifierUUID": "084ff975-31d8-40e6-bac3-8a10a1cdcea0",
-      "description": "§a 165% Increased Attack Damage",
+      "modifierUUID": "3f57296c-92ba-11ee-b9d1-0242ac120002",
+      "description": "§d +20% Pistol Damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "37a3c45a-92ba-11ee-b9d1-0242ac120002",
+      "description": "§a +10% Movement Speed",
       "hideBonusDescription": false
     }
   ],

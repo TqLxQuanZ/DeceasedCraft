@@ -12,7 +12,7 @@
     [[effects.attributes]]
         name = "minecraft:generic.attack_damage"
         operation = "add"
-        amount = 2.0
+        amount = 1.5
     [[effects.conditions]]
         groups = ["proteins"]
         match = "all"
@@ -22,7 +22,7 @@
     [[effects.attributes]]
         name = "minecraft:generic.attack_damage"
         operation = "add"
-        amount = 3.0
+        amount = 2.0
     [[effects.conditions]]
         groups = ["proteins"]
         match = "all"
@@ -42,7 +42,7 @@
     [[effects.attributes]]
         name = "minecraft:generic.attack_speed"
         operation = "add"
-        amount = 0.25
+        amount = 0.15
     [[effects.conditions]]
         groups = ["grains"]
         match = "all"
@@ -52,7 +52,7 @@
     [[effects.attributes]]
         name = "minecraft:generic.attack_speed"
         operation = "add"
-        amount = 0.4
+        amount = 0.2
     [[effects.conditions]]
         groups = ["grains"]
         match = "all"
