@@ -19,7 +19,7 @@
 				"data": {
 					"attribute": "puffish_skills:player.mining_speed",
 					"value": 0.05,
-					"operation": "multiply_base"
+					"operation": "multiply_total"
 				}
 			}
 		]
@@ -38,7 +38,7 @@
 				"data": {
 					"attribute": "puffish_skills:player.mining_speed",
 					"value": 0.025,
-					"operation": "multiply_base"
+					"operation": "multiply_total"
 				}
 			}
 		]
@@ -63,7 +63,7 @@
 				"data": {
 					"attribute": "puffish_skills:player.mining_speed",
 					"value": 0.05,
-					"operation": "multiply_base"
+					"operation": "multiply_total"
 				}
 			}
 		]

@@ -39,6 +39,12 @@
 	},
 	"sprint_speed+10%": {
 		"title": "+10% Movement Speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -77,6 +83,12 @@
 	},
 	"swim_speed+10%": {
 		"title": "+10% Swim Speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -115,6 +127,12 @@
 	},
 	"stamina+5%": {
 		"title": "+5% Stamina",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
 		"icon": {
 			"type": "effect",
 			"data": {

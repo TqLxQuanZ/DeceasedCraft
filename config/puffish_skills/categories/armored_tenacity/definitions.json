@@ -1,6 +1,6 @@
 {
 	"root_resistance+5%": {
-		"title": "+5% Resistance and 5% Armor Bonus",
+		"title": "+10% Natural Healing and 5% Armor Bonus",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -17,8 +17,8 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.resistance",
-					"value": 0.05,
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.1,
 					"operation": "multiply_total"
 				}
 			},
@@ -27,32 +27,32 @@
 				"data": {
 					"attribute": "generic.armor",
 					"value": 0.05,
-					"operation": "multiply_total"
+					"operation": "multiply_base"
 				}
 			}
 		]
 	},
-	"resistance+2.5%": {
-		"title": "+2.5% Resistance",
+	"healing+25%": {
+		"title": "+25% Natural Healing",
 		"icon": {
 			"type": "effect",
 			"data": {
-				"effect": "resistance"
+				"effect": "saturation"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.resistance",
-					"value": 0.025,
-					"operation": "multiply_total"
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.25,
+					"operation": "multiply_base"
 				}
 			}
 		]
 	},
-	"resistance+4%": {
-		"title": "+4% Resistance",
+	"healing+50%": {
+		"title": "+50% Natural Healing",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -62,16 +62,16 @@
 		"icon": {
 			"type": "effect",
 			"data": {
-				"effect": "resistance"
+				"effect": "saturation"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.resistance",
-					"value": 0.04,
-					"operation": "multiply_total"
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.5,
+					"operation": "multiply_base"
 				}
 			}
 		]

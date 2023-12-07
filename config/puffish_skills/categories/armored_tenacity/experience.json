@@ -1,0 +1,72 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(50 + (level * 50), 10000000)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:take_damage",
+			"data": {
+				"conditions": {
+					"is_xpmobs": {
+						"type": "attacker_tag",
+						"data": {
+							"tag": "forge:xpmobs"
+						}
+					}
+				},
+				"parameters": {
+					"damage": {
+						"type": "damage"
+					}
+				},
+				"experience": [
+					{
+						"expression": "damage"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:eat_food",
+			"data": {
+				"conditions": {
+					"is_lowxpfood": {
+						"type": "item_tag",
+						"data": {
+							"tag": "forge:lowxpfood"
+						}
+					},
+					"is_mediumxpfood": {
+						"type": "item_tag",
+						"data": {
+							"tag": "forge:mediumxpfood"
+						}
+					},
+					"is_largexpfood": {
+						"type": "item_tag",
+						"data": {
+							"tag": "forge:largexpfood"
+						}
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_lowxpfood",
+						"expression": "1"
+					},
+					{
+						"condition": "is_mediumxpfood",
+						"expression": "5"
+					},
+					{
+						"condition": "is_largexpfood",
+						"expression": "15"
+					}
+				]
+			}
+		}
+	]
+}
