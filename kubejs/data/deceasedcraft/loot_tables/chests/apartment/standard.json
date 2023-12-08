@@ -107,12 +107,15 @@
         "min": 0,
         "max": 1
       },
-      "bonus_rolls": 1,
+      "bonus_rolls": {
+        "min": 1,
+        "max": 3
+      },
       "entries": [
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "additionalguns:python",
+          "name": "tac:colt_python",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -122,12 +125,23 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 7,
+          "weight": 1,
+          "name": "tac:glock_18",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
           "name": "minecraft:flint_and_steel"
         },
         {
           "type": "minecraft:item",
-          "weight": 7,
+          "weight": 8,
           "name": "camera:camera",
           "conditions": [
             {
@@ -150,14 +164,29 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "additionalguns:bullet_short",
+          "weight": 3,
+          "name": "tac:b_magnum",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 4,
-                "max": 6
+                "min": 2,
+                "max": 3
+              },
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:9mm_round",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5
               },
               "add": true
             }

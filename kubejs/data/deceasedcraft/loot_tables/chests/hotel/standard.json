@@ -99,17 +99,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "additionalguns:python",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.3
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 5,
           "name": "camera:camera",
           "conditions": [
