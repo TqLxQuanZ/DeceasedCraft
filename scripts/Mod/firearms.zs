@@ -1,98 +1,227 @@
 import crafttweaker.api.item.IItemStack;
 
-<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing", <tag:items:forge:ingots/brass>, <item:immersiveengineering:mold_bullet_casing>, 2400, <item:immersiveengineering:empty_casing> * 4);
-<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_small", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_small>, 2400, <item:additionalguns:casing_small> * 4);
-<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_short", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_short>, 2400, <item:additionalguns:casing_short> * 4);
-<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_medium", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_medium>, 2400, <item:additionalguns:casing_medium> * 4);
-<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_long", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_long>, 2400, <item:additionalguns:casing_long> * 4);
-<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_heavy", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_heavy>, 2400, <item:additionalguns:casing_heavy> * 4);
-<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_special", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_special>, 2400, <item:additionalguns:casing_special> * 4);
-<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_shell", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_shell>, 2400, <item:immersiveengineering:empty_shell> * 4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_9mm_round", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_9mm_round>, 2400, <item:contenttweaker:bullet_casing_9mm_round> * 4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_10_gauge_round", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_10_gauge_round>, 2400, <item:contenttweaker:bullet_casing_10_gauge_round> * 4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_46x30", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_46x30>, 2400, <item:contenttweaker:bullet_casing_46x30> * 4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_50bmg", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_50bmg>, 2400, <item:contenttweaker:bullet_casing_50bmg> * 4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_57x28", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_57x28>, 2400, <item:contenttweaker:bullet_casing_57x28> * 4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_58x42", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_58x42>, 2400, <item:contenttweaker:bullet_casing_58x42> * 4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_762x25", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_762x25>, 2400, <item:contenttweaker:bullet_casing_762x25> * 4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_762x39", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_762x39>, 2400, <item:contenttweaker:bullet_casing_762x39> * 4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_762x54", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_762x54>, 2400, <item:contenttweaker:bullet_casing_762x54> * 4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_ae50", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_ae50>, 2400, <item:contenttweaker:bullet_casing_ae50> * 4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_bmagnum", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_bmagnum>, 2400, <item:contenttweaker:bullet_casing_bmagnum> * 4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_bullet68", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_bullet68>, 2400, <item:contenttweaker:bullet_casing_bullet68> * 4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_bullet308", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_bullet308>, 2400, <item:contenttweaker:bullet_casing_bullet308> * 4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_lapua338", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_lapua338>, 2400, <item:contenttweaker:bullet_casing_lapua338> * 4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_nato556", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_nato556>, 2400, <item:contenttweaker:bullet_casing_nato556> * 4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_round45", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_round45>, 2400, <item:contenttweaker:bullet_casing_round45> * 4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("bullet_casing_win3030", <tag:items:forge:ingots/brass>, <item:contenttweaker:mold_bullet_casing_win3030>, 2400, <item:contenttweaker:bullet_casing_win3030> * 4);
 
-// Small Bullet Copper
-craftingTable.addShapeless("bullet_small", <item:additionalguns:bullet_small>,
-    [<item:additionalguns:casing_small>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/copper>]);
-<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("small_bullet")
+// 9mm Round
+craftingTable.addShapeless("9mm_round", <item:tac:9mm_round> * 2,
+    [<item:contenttweaker:bullet_casing_9mm_round>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("9mm_round")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
-                                                      .require(<item:additionalguns:casing_small>)
+                                                      .require(<item:contenttweaker:bullet_casing_9mm_round>)
                                                       .loops(1)
-                                                      .addOutput(<item:additionalguns:bullet_small> * 2, 1)
+                                                      .addOutput(<item:tac:9mm_round> * 4, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/copper>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
 													  );
-						
-// Short Bullet Iron
-craftingTable.addShapeless("bullet_short", <item:additionalguns:bullet_short>,
-    [<item:additionalguns:casing_short>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/iron>]);
-<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("short_bullet")
+// 12 Gauge Shell
+craftingTable.addShapeless("10_gauge_round", <item:tac:10_gauge_round> * 2,
+    [<item:contenttweaker:bullet_casing_10_gauge_round>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("10_gauge_round")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
-                                                      .require(<item:additionalguns:casing_short>)
+                                                      .require(<item:contenttweaker:bullet_casing_10_gauge_round>)
                                                       .loops(1)
-                                                      .addOutput(<item:additionalguns:bullet_short> * 2, 1)
+                                                      .addOutput(<item:tac:10_gauge_round> * 4, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/iron>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
 													  );
-
-// Medium Bullet Silver
-craftingTable.addShapeless("bullet_medium", <item:additionalguns:bullet_medium>,
-    [<item:additionalguns:casing_medium>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/silver>]);
-<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("medium_bullet")
+                                                      
+// 4.6mm AP Bullet
+craftingTable.addShapeless("46x30", <item:tac:46x30> * 2,
+    [<item:contenttweaker:bullet_casing_46x30>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("46x30")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
-                                                      .require(<item:additionalguns:casing_medium>)
+                                                      .require(<item:contenttweaker:bullet_casing_46x30>)
                                                       .loops(1)
-                                                      .addOutput(<item:additionalguns:bullet_medium> * 2, 1)
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/silver>))
-													  );
-
-// Heavy Bullet Steel
-craftingTable.addShapeless("bullet_heavy", <item:additionalguns:bullet_heavy>,
-    [<item:additionalguns:casing_heavy>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/steel>]);
-<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("heavy_bullet")
-                                                      .transitionTo(<item:contenttweaker:incomplete_bullet>)
-                                                      .require(<item:additionalguns:casing_heavy>)
-                                                      .loops(1)
-                                                      .addOutput(<item:additionalguns:bullet_heavy> * 2, 1)
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/steel>))
-													  );
-
-// Special Bullet Lead
-craftingTable.addShapeless("bullet_special", <item:additionalguns:bullet_special>,
-    [<item:additionalguns:casing_special>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
-<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("special_bullet")
-                                                      .transitionTo(<item:contenttweaker:incomplete_bullet>)
-                                                      .require(<item:additionalguns:casing_special>)
-                                                      .loops(1)
-                                                      .addOutput(<item:additionalguns:bullet_special> * 2, 1)
+                                                      .addOutput(<item:tac:46x30> * 4, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
 													  );
 
-// Long Bullet Uranium
-craftingTable.addShapeless("bullet_long", <item:additionalguns:bullet_long>,
-    [<item:additionalguns:casing_long>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/uranium>]);
-<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("long_bullet")
+// 50 BMG
+craftingTable.addShapeless("50bmg", <item:tac:50bmg>,
+    [<item:contenttweaker:bullet_casing_50bmg>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("50bmg")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
-                                                      .require(<item:additionalguns:casing_long>)
+                                                      .require(<item:contenttweaker:bullet_casing_50bmg>)
                                                       .loops(1)
-                                                      .addOutput(<item:additionalguns:bullet_long> * 2, 1)
+                                                      .addOutput(<item:tac:50bmg> * 2, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/uranium>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
+													  );
+                                                      
+// 57x28
+craftingTable.addShapeless("57x28", <item:tac:57x28> * 2,
+    [<item:contenttweaker:bullet_casing_57x28>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("57x28")
+                                                      .transitionTo(<item:contenttweaker:incomplete_bullet>)
+                                                      .require(<item:contenttweaker:bullet_casing_57x28>)
+                                                      .loops(1)
+                                                      .addOutput(<item:tac:57x28> * 4, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
 													  );
 
-// Shell Brass
-craftingTable.addShapeless("cgm_shell", <item:cgm:shell>,
-    [<item:immersiveengineering:empty_shell>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/brass>]);
-<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("shell")
+// 57x28
+craftingTable.addShapeless("58x42", <item:tac:58x42> * 2,
+    [<item:contenttweaker:bullet_casing_58x42>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("58x42")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
-                                                      .require(<item:immersiveengineering:empty_shell>)
+                                                      .require(<item:contenttweaker:bullet_casing_58x42>)
                                                       .loops(1)
-                                                      .addOutput(<item:cgm:shell> * 2, 1)
+                                                      .addOutput(<item:tac:58x42> * 3, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/brass>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
+													  );
+                                                      
+// 762x25
+craftingTable.addShapeless("762x25", <item:tac:762x25> * 2,
+    [<item:contenttweaker:bullet_casing_762x25>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("762x25")
+                                                      .transitionTo(<item:contenttweaker:incomplete_bullet>)
+                                                      .require(<item:contenttweaker:bullet_casing_762x25>)
+                                                      .loops(1)
+                                                      .addOutput(<item:tac:762x25> * 3, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
+													  );
+                                                      
+// 762x39
+craftingTable.addShapeless("762x39", <item:tac:762x39> * 2,
+    [<item:contenttweaker:bullet_casing_762x39>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("762x39")
+                                                      .transitionTo(<item:contenttweaker:incomplete_bullet>)
+                                                      .require(<item:contenttweaker:bullet_casing_762x39>)
+                                                      .loops(1)
+                                                      .addOutput(<item:tac:762x39> * 3, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
 													  );
 
+// 762x54
+craftingTable.addShapeless("762x54", <item:tac:762x54> * 2,
+    [<item:contenttweaker:bullet_casing_762x54>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("762x54")
+                                                      .transitionTo(<item:contenttweaker:incomplete_bullet>)
+                                                      .require(<item:contenttweaker:bullet_casing_762x54>)
+                                                      .loops(1)
+                                                      .addOutput(<item:tac:762x54> * 3, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
+													  );
+
+// ae50
+craftingTable.addShapeless("ae50", <item:tac:ae50> * 2,
+    [<item:contenttweaker:bullet_casing_ae50>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("ae50")
+                                                      .transitionTo(<item:contenttweaker:incomplete_bullet>)
+                                                      .require(<item:contenttweaker:bullet_casing_ae50>)
+                                                      .loops(1)
+                                                      .addOutput(<item:tac:ae50> * 4, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
+													  );
+
+// b_magnum
+craftingTable.addShapeless("b_magnum", <item:tac:b_magnum> * 2,
+    [<item:contenttweaker:bullet_casing_bmagnum>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("b_magnum")
+                                                      .transitionTo(<item:contenttweaker:incomplete_bullet>)
+                                                      .require(<item:contenttweaker:bullet_casing_bmagnum>)
+                                                      .loops(1)
+                                                      .addOutput(<item:tac:b_magnum> * 4, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
+													  );
+
+// bullet68
+craftingTable.addShapeless("bullet68", <item:tac:bullet68>,
+    [<item:contenttweaker:bullet_casing_bullet68>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("bullet68")
+                                                      .transitionTo(<item:contenttweaker:incomplete_bullet>)
+                                                      .require(<item:contenttweaker:bullet_casing_bullet68>)
+                                                      .loops(1)
+                                                      .addOutput(<item:tac:bullet68> * 2, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
+													  );
+
+// bullet308
+craftingTable.addShapeless("bullet_308", <item:tac:bullet_308>,
+    [<item:contenttweaker:bullet_casing_bullet308>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("bullet_308")
+                                                      .transitionTo(<item:contenttweaker:incomplete_bullet>)
+                                                      .require(<item:contenttweaker:bullet_casing_bullet308>)
+                                                      .loops(1)
+                                                      .addOutput(<item:tac:bullet_308> * 2, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
+													  );
+
+// lapua338
+craftingTable.addShapeless("lapua338", <item:tac:lapua338>,
+    [<item:contenttweaker:bullet_casing_lapua338>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("lapua338")
+                                                      .transitionTo(<item:contenttweaker:incomplete_bullet>)
+                                                      .require(<item:contenttweaker:bullet_casing_lapua338>)
+                                                      .loops(1)
+                                                      .addOutput(<item:tac:lapua338> * 2, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
+													  );
+
+// nato_556_bullet
+craftingTable.addShapeless("nato_556_bullet", <item:tac:nato_556_bullet> * 2,
+    [<item:contenttweaker:bullet_casing_nato556>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("nato_556_bullet")
+                                                      .transitionTo(<item:contenttweaker:incomplete_bullet>)
+                                                      .require(<item:contenttweaker:bullet_casing_nato556>)
+                                                      .loops(1)
+                                                      .addOutput(<item:tac:nato_556_bullet> * 3, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
+													  );
+
+// round45
+craftingTable.addShapeless("round45", <item:tac:round45> * 2,
+    [<item:contenttweaker:bullet_casing_round45>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("round45")
+                                                      .transitionTo(<item:contenttweaker:incomplete_bullet>)
+                                                      .require(<item:contenttweaker:bullet_casing_round45>)
+                                                      .loops(1)
+                                                      .addOutput(<item:tac:round45> * 4, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
+													  );
+
+// round45
+craftingTable.addShapeless("win_30-30", <item:tac:win_30-30>,
+    [<item:contenttweaker:bullet_casing_win3030>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("win_30-30")
+                                                      .transitionTo(<item:contenttweaker:incomplete_bullet>)
+                                                      .require(<item:contenttweaker:bullet_casing_win3030>)
+                                                      .loops(1)
+                                                      .addOutput(<item:tac:win_30-30> * 2, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
+													  );
+
+                                                      
 // Missile
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("missile")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
