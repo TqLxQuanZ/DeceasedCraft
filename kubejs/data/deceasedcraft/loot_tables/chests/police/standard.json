@@ -34,18 +34,18 @@
       },
       "bonus_rolls": {
         "min": 1,
-        "max": 2
+        "max": 4
       },
       "entries": [
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "additionalguns:bullet_small",
+          "name": "tac:9mm_round",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 6,
+                "min": 4,
                 "max": 12
               },
               "add": true
@@ -55,13 +55,43 @@
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "additionalguns:bullet_short",
+          "name": "tac:round45",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 6,
-                "max": 12
+                "min": 3,
+                "max": 8
+              },
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:ae50",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              },
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:nato_556_bullet",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 8
               },
               "add": true
             }
@@ -111,38 +141,134 @@
         "min": 0,
         "max": 1
       },
-      "bonus_rolls": 1,
+      "bonus_rolls": {
+        "min": 1,
+        "max": 4
+      },
       "entries": [
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "additionalguns:usp"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "additionalguns:desert_eagle"
+          "name": "tac:m1911",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.6
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "additionalguns:p250"
+          "name": "tac:glock_17",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:glock_18",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:sti2011",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:m92fs",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:mk23",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.8
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "additionalguns:mp7"
+          "name": "tac:deagle_357",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.9
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "additionalguns:custom_mac"
+          "name": "tac:hk_mp5a5",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.9
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:mp7",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.9
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:mp9",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.9
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tac:m4"
         }
       ]
     },
     {
       "rolls": 1,
-      "bonus_rolls": 1,
+      "bonus_rolls": {
+        "min": 1,
+        "max": 4
+      },
       "entries": [
         {
           "type": "minecraft:item",
