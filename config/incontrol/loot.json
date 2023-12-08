@@ -26,14 +26,14 @@
 		"mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
 		"player": true,
 		"random" : 0.1,
-		"item": "additionalguns:bullet_small",
+		"item": "tac:9mm_round",
 		"itemcount": "1/1/2"
 	},
 	{
 		"mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
 		"player": true,
-		"random" : 0.1,
-		"item": "additionalguns:bullet_short",
+		"random" : 0.05,
+		"item": "tac:round45",
 		"itemcount": "1/1/2"
 	},
 	{
@@ -41,12 +41,6 @@
 		"random" : 0.5,
 		"item": "minecraft:bone",
 		"itemcount": "2/2/3"
-	},
-	{
-		"mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
-		"random" : 0.0001,
-		"item": "additionalguns:usp",
-		"itemcount": "1/1/1"
 	},
 	{
 		"mob": ["minecraft:zombie",
@@ -76,7 +70,7 @@
 				"mutationcraft:human_stage_3"],
 		"minspawndist": 15000,
 		"random" : 0.07,
-		"item": "additionalguns:bullet_medium",
+		"item": "tac:nato_556_bullet",
 		"itemcount": "2/3/4"
 	},
 	{
@@ -107,7 +101,7 @@
 				"mutationcraft:human_stage_3"],
 		"minspawndist": 15000,
 		"random" : 0.03,
-		"item": "additionalguns:bullet_heavy",
+		"item": "tac:762x39",
 		"itemcount": "2/3/4"
 	},
 	{
@@ -227,7 +221,7 @@
 				"mutationcraft:human_stage_3"],
 		"player": true,
 		"random" : 0.3,
-		"item": "additionalguns:bullet_medium",
+		"item": "tac:nato_556_bullet",
 		"itemcount": "2/3/4"
 	},
 	{
@@ -264,14 +258,14 @@
 				"mutationcraft:reductor"],
 		"player": true,
 		"random" : 0.3,
-		"item": "additionalguns:bullet_medium",
+		"item": "tac:nato_556_bullet",
 		"itemcount": "1-4/5-6/7-8"
 	},
 	{
 		"mob": "mutationcraft:assimilated_jockey",
 		"player": true,
 		"random" : 0.4,
-		"item": "additionalguns:bullet_heavy",
+		"item": "tac:762x39",
 		"itemcount": "1-4/5-6/7-8"
 	},
 	{
@@ -310,14 +304,14 @@
 		"mob": "mutationcraft:human_herder",
 		"player": true,
 		"random": 0.75,
-		"item": "additionalguns:bullet_small",
+		"item": "tac:nato_556_bullet",
 		"itemcount": "24-27/32-35/40-45"
 	},
 	{
 		"mob": "mutationcraft:human_herder",
 		"player": true,
 		"random": 0.75,
-		"item": "additionalguns:bullet_short",
+		"item": "tac:762x39",
 		"itemcount": "24-27/32-35/40-45"
 	},
 	{
@@ -354,14 +348,14 @@
 		"mob": "mutationcraft:resenter",
 		"player": true,
 		"random" : 0.5,
-		"item": "additionalguns:bullet_medium",
+		"item": "tac:nato_556_bullet",
 		"itemcount": "24-27/32-35/40-45"
 	},
 	{
 		"mob": "mutationcraft:resenter",
 		"player": true,
 		"random" : 0.5,
-		"item": "additionalguns:bullet_heavy",
+		"item": "tac:762x39",
 		"itemcount": "24-27/32-35/40-45"
 	},
 	{
@@ -405,14 +399,14 @@
 		"mob": "mutationcraft:the_intoxicator",
 		"player": true,
 		"random" : 0.75,
-		"item": "additionalguns:bullet_heavy",
+		"item": "tac:nato_556_bullet",
 		"itemcount": "24-27/32-35/40-45"
 	},
 	{
 		"mob": "mutationcraft:the_intoxicator",
 		"player": true,
 		"random" : 0.75,
-		"item": "additionalguns:bullet_special",
+		"item": "tac:762x39",
 		"itemcount": "24-27/32-35/40-45"
 	}
 ]
