@@ -30,3 +30,9 @@ JEI.hideIngredient(<item:sophisticatedbackpacks:auto_blasting_upgrade>);
 
 craftingTable.remove(<item:sophisticatedbackpacks:stonecutter_upgrade>);
 JEI.hideIngredient(<item:sophisticatedbackpacks:stonecutter_upgrade>);
+
+craftingTable.remove(<item:sophisticatedbackpacks:everlasting_upgrade>);
+JEI.hideIngredient(<item:sophisticatedbackpacks:everlasting_upgrade>);
+
+craftingTable.remove(<item:sophisticatedbackpacks:xp_pump_upgrade>);
+JEI.hideIngredient(<item:sophisticatedbackpacks:xp_pump_upgrade>);
