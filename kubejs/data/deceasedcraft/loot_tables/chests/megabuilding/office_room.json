@@ -51,7 +51,7 @@
       },
       "bonus_rolls": {
         "min": 1,
-        "max": 2
+        "max": 3
       },
       "entries": [
         {
@@ -71,13 +71,28 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "name": "immersiveengineering:component_electronic"
+          "weight": 10,
+          "name": "pipez:energy_cable",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              },
+              "add": true
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 5,
           "name": "immersiveengineering:component_electronic_adv"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "immersiveengineering:component_electronic"
         }
       ]
     },
@@ -88,24 +103,9 @@
       },
       "bonus_rolls": {
         "min": 1,
-        "max": 2
+        "max": 3
       },
       "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "refinedstorage:silicon",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 6
-              },
-              "add": true
-            }
-          ]
-        },
         {
           "type": "minecraft:item",
           "weight": 15,
@@ -123,23 +123,48 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 10,
+          "name": "refinedstorage:silicon",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              },
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "securitycraft:camera_monitor"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
           "name": "refinedstorage:1k_storage_part"
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 3,
           "name": "refinedstorage:4k_storage_part"
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 2,
           "name": "refinedstorage:16k_storage_part"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
           "name": "refinedstorage:64k_storage_part"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "securitycraft:security_camera"
         }
       ]
     },
