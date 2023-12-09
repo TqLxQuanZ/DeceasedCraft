@@ -112,27 +112,27 @@
 			}
 		]
 	},
-	"reach+0.1": {
-		"title": "+0.1 Reach Distance",
+	"luck+0.1": {
+		"title": "+0.1 Luck",
 		"icon": {
-			"type": "item",
+			"type": "effect",
 			"data": {
-				"item": "create:brass_hand"
+				"effect": "luck"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "forge:reach_distance",
+					"attribute": "generic.luck",
 					"value": 0.1,
 					"operation": "addition"
 				}
 			}
 		]
 	},
-	"reach+0.2": {
-		"title": "+0.2 Reach Distance",
+	"luck+0.2": {
+		"title": "+0.2 Luck",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -140,16 +140,16 @@
 			}
 		},
 		"icon": {
-			"type": "item",
+			"type": "effect",
 			"data": {
-				"item": "create:extendo_grip"
+				"effect": "luck"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "forge:reach_distance",
+					"attribute": "generic.luck",
 					"value": 0.2,
 					"operation": "addition"
 				}
