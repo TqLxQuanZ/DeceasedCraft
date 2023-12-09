@@ -7,7 +7,7 @@
         "max": 2
       },
       "bonus_rolls": {
-        "min": 1,
+        "min": 0,
         "max": 2
       },
       "entries": [
@@ -141,6 +141,10 @@
       "rolls": {
         "min": 0,
         "max": 4
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 2
       },
       "entries": [
         {

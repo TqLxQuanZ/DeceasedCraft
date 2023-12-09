@@ -6,7 +6,10 @@
         "min": 1,
         "max": 3
       },
-      "bonus_rolls": 1,
+      "bonus_rolls": {
+        "min": 0,
+        "max": 2
+      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -88,7 +91,7 @@
         "max": 3
       },
       "bonus_rolls": {
-        "min": 1,
+        "min": 0,
         "max": 2
       },
       "entries": [
@@ -140,7 +143,7 @@
         "max": 2
       },
       "bonus_rolls": {
-        "min": 1,
+        "min": 0,
         "max": 2
       },
       "entries": [
@@ -176,7 +179,10 @@
         "min": 1,
         "max": 2
       },
-      "bonus_rolls": 1,
+      "bonus_rolls": {
+        "min": 0,
+        "max": 2
+      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -207,6 +213,10 @@
     },
     {
       "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": {
         "min": 0,
         "max": 1
       },
