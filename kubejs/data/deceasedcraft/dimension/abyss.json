@@ -1,0 +1,27 @@
+{
+  "type": {
+    "ultrawarm": false,
+    "natural": true,
+    "piglin_safe": true,
+    "respawn_anchor_works": true,
+    "bed_works": true,
+    "has_raids": false,
+    "has_skylight": false,
+    "has_ceiling": true,
+    "coordinate_scale": 1,
+    "ambient_light": 0,
+    "logical_height": 384,
+    "infiniburn": "#minecraft:infiniburn_overworld",
+    "min_y": -64,
+    "height": 384
+  },
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -866565355,
+    "settings": "deceasedcraft:abyss",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "deceasedcraft:undiscovered"
+    }
+  }
+}
