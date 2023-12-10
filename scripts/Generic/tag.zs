@@ -2,29 +2,61 @@ import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.resource.ResourceLocation;
 
 // Mold Tags
-<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_small>);
-<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_short>);
-<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_medium>);
-<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_long>);
-<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_heavy>);
-<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_special>);
-<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_shell>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_9mm_round>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_10_gauge_round>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_46x30>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_50bmg>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_57x28>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_58x42>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_762x25>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_762x39>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_762x54>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_ae50>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_bmagnum>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_bullet68>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_bullet308>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_lapua338>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_nato556>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_round45>);
+<tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_win3030>);
 
 // Bullet Tags
-<tag:items:forge:bullets>.add(<item:additionalguns:bullet_small>);
-<tag:items:forge:bullets>.add(<item:additionalguns:bullet_short>);
-<tag:items:forge:bullets>.add(<item:additionalguns:bullet_medium>);
-<tag:items:forge:bullets>.add(<item:additionalguns:bullet_long>);
-<tag:items:forge:bullets>.add(<item:additionalguns:bullet_heavy>);
-<tag:items:forge:bullets>.add(<item:additionalguns:bullet_special>);
+<tag:items:forge:bullets>.add(<item:tac:9mm_round>);
+<tag:items:forge:bullets>.add(<item:tac:10_gauge_round>);
+<tag:items:forge:bullets>.add(<item:tac:46x30>);
+<tag:items:forge:bullets>.add(<item:tac:50bmg>);
+<tag:items:forge:bullets>.add(<item:tac:57x28>);
+<tag:items:forge:bullets>.add(<item:tac:58x42>);
+<tag:items:forge:bullets>.add(<item:tac:762x25>);
+<tag:items:forge:bullets>.add(<item:tac:762x39>);
+<tag:items:forge:bullets>.add(<item:tac:762x54>);
+<tag:items:forge:bullets>.add(<item:tac:ae50>);
+<tag:items:forge:bullets>.add(<item:tac:b_magnum>);
+<tag:items:forge:bullets>.add(<item:tac:bullet68>);
+<tag:items:forge:bullets>.add(<item:tac:bullet_308>);
+<tag:items:forge:bullets>.add(<item:tac:lapua338>);
+<tag:items:forge:bullets>.add(<item:tac:nato_556_bullet>);
+<tag:items:forge:bullets>.add(<item:tac:round45>);
+<tag:items:forge:bullets>.add(<item:tac:win_30-30>);
 
 // Bullet Casing Tags
-<tag:items:forge:bullet_casing>.add(<item:additionalguns:casing_small>);
-<tag:items:forge:bullet_casing>.add(<item:additionalguns:casing_short>);
-<tag:items:forge:bullet_casing>.add(<item:additionalguns:casing_medium>);
-<tag:items:forge:bullet_casing>.add(<item:additionalguns:casing_long>);
-<tag:items:forge:bullet_casing>.add(<item:additionalguns:casing_heavy>);
-<tag:items:forge:bullet_casing>.add(<item:additionalguns:casing_special>);
+<tag:items:forge:bullet_casing>.add(<item:contenttweaker:bullet_casing_9mm_round>);
+<tag:items:forge:bullet_casing>.add(<item:contenttweaker:bullet_casing_10_gauge_round>);
+<tag:items:forge:bullet_casing>.add(<item:contenttweaker:bullet_casing_46x30>);
+<tag:items:forge:bullet_casing>.add(<item:contenttweaker:bullet_casing_50bmg>);
+<tag:items:forge:bullet_casing>.add(<item:contenttweaker:bullet_casing_57x28>);
+<tag:items:forge:bullet_casing>.add(<item:contenttweaker:bullet_casing_58x42>);
+<tag:items:forge:bullet_casing>.add(<item:contenttweaker:bullet_casing_762x25>);
+<tag:items:forge:bullet_casing>.add(<item:contenttweaker:bullet_casing_762x39>);
+<tag:items:forge:bullet_casing>.add(<item:contenttweaker:bullet_casing_762x54>);
+<tag:items:forge:bullet_casing>.add(<item:contenttweaker:bullet_casing_ae50>);
+<tag:items:forge:bullet_casing>.add(<item:contenttweaker:bullet_casing_bmagnum>);
+<tag:items:forge:bullet_casing>.add(<item:contenttweaker:bullet_casing_bullet68>);
+<tag:items:forge:bullet_casing>.add(<item:contenttweaker:bullet_casing_bullet308>);
+<tag:items:forge:bullet_casing>.add(<item:contenttweaker:bullet_casing_lapua338>);
+<tag:items:forge:bullet_casing>.add(<item:contenttweaker:bullet_casing_nato556>);
+<tag:items:forge:bullet_casing>.add(<item:contenttweaker:bullet_casing_round45>);
+<tag:items:forge:bullet_casing>.add(<item:contenttweaker:bullet_casing_win3030>);
 
 // Turret Cartridge
 <tag:items:forge:turret_cartridge>.add(<item:immersiveengineering:armor_piercing>);

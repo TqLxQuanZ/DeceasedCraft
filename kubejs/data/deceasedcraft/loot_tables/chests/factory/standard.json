@@ -26,6 +26,21 @@
         {
           "type": "minecraft:item",
           "weight": 10,
+          "name": "immersiveengineering:ingot_aluminum",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              },
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
           "name": "immersiveengineering:component_electronic",
           "functions": [
             {
@@ -66,21 +81,6 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{blueprint:molds}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
-          "name": "create:brass_ingot",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 4
-              },
-              "add": true
             }
           ]
         }
@@ -193,11 +193,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "create:precision_mechanism"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 10,
           "name": "immersiveengineering:stick_aluminum",
           "functions": [
@@ -236,6 +231,11 @@
               "chance": 0.2
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:precision_mechanism"
         }
       ]
     },
@@ -244,48 +244,74 @@
         "min": 0,
         "max": 1
       },
-      "bonus_rolls": 1,
+      "bonus_rolls": {
+        "min": 0,
+        "max": 2
+      },
       "entries": [
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "contenttweaker:mold_bullet_casing_small"
+          "name": "contenttweaker:mold_bullet_casing_46x30"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "contenttweaker:mold_bullet_casing_short"
+          "name": "contenttweaker:mold_bullet_casing_57x28"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "contenttweaker:mold_bullet_casing_medium"
+          "name": "contenttweaker:mold_bullet_casing_58x42"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "contenttweaker:mold_bullet_casing_long"
+          "name": "contenttweaker:mold_bullet_casing_762x25"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "contenttweaker:mold_bullet_casing_heavy"
+          "name": "contenttweaker:mold_bullet_casing_762x39"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "contenttweaker:mold_bullet_casing_special"
+          "name": "contenttweaker:mold_bullet_casing_762x54"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "contenttweaker:mold_bullet_casing_shell"
+          "name": "contenttweaker:mold_bullet_casing_bullet68"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "contenttweaker:mold_bullet_casing_bullet308"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "contenttweaker:mold_bullet_casing_lapua338"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "contenttweaker:mold_bullet_casing_nato556"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "contenttweaker:mold_bullet_casing_win3030"
         }
       ]
     },
     {
       "rolls": 1,
-      "bonus_rolls": 1,
+      "bonus_rolls": {
+        "min": 0,
+        "max": 2
+      },
       "entries": [
         {
           "type": "minecraft:item",

@@ -595,9 +595,9 @@ villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 1, <item:apocalypsen
 // Tier 3
 villagerTrades.removeAllTrades(<profession:minecraft:weaponsmith>, 3);
 
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 3, <item:apocalypsenow:money> * 4, <item:additionalguns:bullet_short> * 8, 12, 6, 0.05);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 3, <item:apocalypsenow:money> * 4, <item:additionalguns:bullet_small> * 8, 12, 6, 0.05);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 3, <item:apocalypsenow:money> * 4, <item:additionalguns:bullet_medium> * 4, 12, 6, 0.05);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 3, <item:apocalypsenow:money> * 4, <item:tac:9mm_round> * 8, 12, 6, 0.05);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 3, <item:apocalypsenow:money> * 4, <item:tac:round45> * 8, 12, 6, 0.05);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 3, <item:apocalypsenow:money> * 4, <item:tac:b_magnum> * 4, 12, 6, 0.05);
 
 // Tier 4
 villagerTrades.removeAllTrades(<profession:minecraft:weaponsmith>, 4);
@@ -612,8 +612,8 @@ villagerTrades.removeAllTrades(<profession:minecraft:weaponsmith>, 5);
 villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, <item:apocalypsenow:money> * 2, <item:apocalypsenow:shuriken>, 64, 5, 0.2);
 villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, <item:apocalypsenow:money_block> * 8, <item:apocalypsenow:military_knife>, 3, 20, 0.2);
 villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, <item:apocalypsenow:money_block> * 8, <item:apocalypsenow:military_shovel>, 3, 20, 0.2);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, <item:apocalypsenow:money_block> * 10, <item:additionalguns:magnum>, 3, 40, 0.2);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, <item:apocalypsenow:money_block> * 10, <item:additionalguns:m1911>, 3, 40, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, <item:apocalypsenow:money_block> * 10, <item:tac:m1911>, 3, 40, 0.2);
+villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, <item:apocalypsenow:money_block> * 10, <item:tac:m92fs>, 3, 40, 0.2);
 
 
 
@@ -630,14 +630,18 @@ villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money>, <item:firstaid:b
 villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 3, <item:immersiveengineering:stick_steel>, 3, 10);
 villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 4, <item:immersiveengineering:ingot_aluminum>, 3, 10);
 villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 3, <item:immersiveengineering:ingot_steel>, 3, 10);
-villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 4, <item:additionalguns:bullet_small> * 12, 8, 10);
-villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 4, <item:additionalguns:bullet_short> * 12, 8, 10);
+villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 4, <item:tac:9mm_round> * 12, 8, 10);
+villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 4, <item:tac:10_gauge_round> * 12, 8, 10);
+villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 4, <item:tac:b_magnum> * 8, 8, 10);
+villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 4, <item:tac:ae50> * 8, 8, 10);
+villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 4, <item:tac:round45> * 8, 8, 10);
 
 // Tier 2
-villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 6, <item:additionalguns:bullet_medium> * 12, 8, 10);
-villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 8, <item:additionalguns:bullet_long> * 6, 4, 10);
-villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 12, <item:additionalguns:bullet_heavy> * 8, 8, 10);
-villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 12, <item:additionalguns:bullet_special> * 8, 8, 10);
+villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 8, <item:tac:nato_556_bullet> * 12, 8, 10);
+villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 8, <item:tac:762x54> * 12, 8, 10);
+villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 8, <item:tac:762x39> * 12, 8, 10);
+villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 8, <item:tac:762x54> * 12, 8, 10);
+villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 8, <item:tac:58x42> * 12, 8, 10);
 villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 24, <item:create:precision_mechanism>, 2, 30);
 villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 7, <item:contenttweaker:rubber>, 4, 30);
 villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 7, <item:immersiveengineering:plate_duroplast>, 4, 30);
@@ -768,35 +772,35 @@ villagerTrades.addTrade(<profession:immersiveengineering:electrician>, 5, <item:
 // Tier 1
 villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 1);
 
-villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 1, <item:apocalypsenow:money_block> * 6, <item:additionalguns:usp>, 1, 8, 0.05);
-villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 1, <item:apocalypsenow:money_block> * 6, <item:additionalguns:m1911>, 1, 8, 0.05);
-villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 1, <item:apocalypsenow:money_block> * 6, <item:additionalguns:magnum>, 1, 8, 0.05);
-villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 1, <item:apocalypsenow:money_block> * 6, <item:additionalguns:p250>, 1, 8, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 1, <item:apocalypsenow:money_block> * 6, <item:tac:m1911>, 1, 8, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 1, <item:apocalypsenow:money_block> * 6, <item:tac:m92fs>, 1, 8, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 1, <item:apocalypsenow:money_block> * 6, <item:tac:glock_17>, 1, 8, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 1, <item:apocalypsenow:money_block> * 6, <item:tac:mk23>, 1, 8, 0.05);
 
 
 // Tier 2
 villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 2);
 
-villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 2, <item:apocalypsenow:money_block>, <item:additionalguns:bullet_short> * 16, 16, 4, 0.05);
-villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 2, <item:apocalypsenow:money_block>, <item:additionalguns:bullet_small> * 16, 16, 4, 0.05);
-villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 2, <item:apocalypsenow:money_block>, <item:additionalguns:bullet_medium> * 16, 16, 4, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 2, <item:apocalypsenow:money_block>, <item:tac:9mm_round> * 12, 16, 4, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 2, <item:apocalypsenow:money_block>, <item:tac:round45> * 12, 16, 4, 0.05);
 
 
 // Tier 3
 villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 3);
 
-villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 3, <item:apocalypsenow:money_block> * 8, <item:additionalguns:ak12>, 1, 12, 0.05);
-villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 3, <item:apocalypsenow:money_block> * 8, <item:additionalguns:m16a2>, 1, 12, 0.05);
-villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 3, <item:apocalypsenow:money_block> * 8, <item:additionalguns:m4a4>, 1, 12, 0.05);
-villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 3, <item:apocalypsenow:money_block> * 8, <item:additionalguns:ak74>, 1, 12, 0.05);
-villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 3, <item:apocalypsenow:money_block> * 8, <item:additionalguns:m4a1s>, 1, 12, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 3, <item:apocalypsenow:money_block> * 8, <item:tac:hk_mp5a5>, 1, 12, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 3, <item:apocalypsenow:money_block> * 8, <item:tac:mp7>, 1, 12, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 3, <item:apocalypsenow:money_block> * 8, <item:tac:uzi>, 1, 12, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 3, <item:apocalypsenow:money_block> * 8, <item:tac:micro_uzi>, 1, 12, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 3, <item:apocalypsenow:money_block> * 8, <item:tac:m4>, 1, 12, 0.05);
 
 
 // Tier 4
 villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 4);
 
-villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 4, <item:apocalypsenow:money_block>, <item:additionalguns:bullet_heavy> * 6, 16, 4, 0.05);
-villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 4, <item:apocalypsenow:money_block>, <item:additionalguns:bullet_long> * 3, 16, 4, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 4, <item:apocalypsenow:money_block>, <item:tac:ae50> * 12, 16, 4, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 4, <item:apocalypsenow:money_block>, <item:tac:762x39> * 12, 16, 4, 0.05);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 4, <item:apocalypsenow:money_block>, <item:tac:nato_556_bullet> * 12, 16, 4, 0.05);
 
 
 // Tier 5
@@ -804,6 +808,6 @@ villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 5);
 
 villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 5, <item:apocalypsenow:money_block> * 16, <item:immersiveengineering:blueprint>.withTag({blueprint: "bullet" as string}), 1, 2, 0.2);
 villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 5, <item:apocalypsenow:money_block> * 16, <item:immersiveengineering:blueprint>.withTag({blueprint: "specialBullet" as string}), 1, 2, 0.2);
-villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 5, <item:apocalypsenow:money_block> * 16, <item:contenttweaker:mold_bullet_casing_small>, 1, 2, 0.2);
-villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 5, <item:apocalypsenow:money_block> * 16, <item:contenttweaker:mold_bullet_casing_short>, 1, 2, 0.2);
-villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 5, <item:apocalypsenow:money_block> * 16, <item:contenttweaker:mold_bullet_casing_medium>, 1, 2, 0.2);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 5, <item:apocalypsenow:money_block> * 16, <item:contenttweaker:mold_bullet_casing_9mm_round>, 1, 2, 0.2);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 5, <item:apocalypsenow:money_block> * 16, <item:contenttweaker:mold_bullet_casing_round45>, 1, 2, 0.2);
+villagerTrades.addTrade(<profession:immersiveengineering:gunsmith>, 5, <item:apocalypsenow:money_block> * 16, <item:contenttweaker:mold_bullet_casing_ae50>, 1, 2, 0.2);
