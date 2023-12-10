@@ -1,0 +1,43 @@
+
+["Do Auto-Compatibility"]
+	#
+	#Enables/disables auto-compatibility with mobs/creatures. Disabling this turns the Entities List into a Whitelist.
+	#
+	vmhDoAutoCompat = true
+
+["Do Jockeys Spawn"]
+	#
+	#Determines whether or not Jockeys spawn (Just splits the entities if false).
+	#
+	vmhDoJockeysSpawn = true
+
+["Do Scale By Breeding"]
+	#
+	#Determines whether or not to scale an entity upon breeding by their respective breeding values.
+	#
+	vmhDoScaleByBreeding = true
+
+["Do Scale Noise"]
+	#
+	#Determines whether or not to scale noise by the scale value.
+	#
+	vmhDoScaleNoise = true
+
+["Entities Blacklist"]
+	#
+	#Determines what entities are blacklist to be used by this mod.
+	#
+	vmhEntitiesBlacklist = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:warden"]
+
+["Scale Eggs"]
+	#
+	#Determines whether or not to scales affect chicken eggs spawning/hatching.
+	#
+	vmhScaleEggs = true
+
+["Create Default Configs"]
+	#
+	#Determines whether or not to create the default entity config files
+	#
+	vmhCreateConfigs = false
+
