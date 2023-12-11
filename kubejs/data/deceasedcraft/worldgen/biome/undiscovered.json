@@ -35,22 +35,23 @@
   "spawners": {},
   "spawn_costs": {},
   "carvers": {
-    "air": "minecraft:cave"
+    "air": "minecraft:nether_cave"
   },
   "features": [
     [],
     [],
     [],
-    [],
     [
-      "minecraft:delta"
+      "deceasedcraft:dripstone_cluster",
+      "deceasedcraft:pointed_dripstone"
+    ],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
     ],
     [],
-    [],
     [
-      "minecraft:ore_magma",
-      "minecraft:ore_ancient_debris_large",
-      "minecraft:ore_debris_small"
+      "minecraft:glow_lichen"
     ]
   ]
 }

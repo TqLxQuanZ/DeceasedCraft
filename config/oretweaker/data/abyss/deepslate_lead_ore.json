@@ -1,0 +1,19 @@
+{
+  "oreConfig": [
+    {
+      "ore": "immersiveengineering:deepslate_ore_lead",
+      "fillers": ["minecraft:deepslate"],
+      "distribution": "UNIFORM",
+      "minY": -54,
+      "maxY": 380,
+      "maxVeinSize": 20,
+      "spawnRate": 40.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": ["deceasedcraft:undiscovered"]
+      },
+      "replace": true
+    }
+  ]
+}

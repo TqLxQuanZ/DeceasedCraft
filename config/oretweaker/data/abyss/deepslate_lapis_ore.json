@@ -1,0 +1,19 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:deepslate_lapis_ore",
+      "fillers": ["minecraft:deepslate"],
+      "distribution": "UNIFORM",
+      "minY": -54,
+      "maxY": 380,
+      "maxVeinSize": 16,
+      "spawnRate": 12.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": ["deceasedcraft:undiscovered"]
+      },
+      "replace": true
+    }
+  ]
+}
