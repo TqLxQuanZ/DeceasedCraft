@@ -3,7 +3,10 @@
   "pools": [
     {
       "rolls": 1,
-      "bonus_rolls": 1,
+      "bonus_rolls": {
+        "min": 0,
+        "max": 2
+      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -24,6 +27,26 @@
           "type": "minecraft:item",
           "weight": 10,
           "name": "apocalypsenow:swat_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "apocalypsenow:spec_ops_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "apocalypsenow:spec_ops_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "apocalypsenow:spec_ops_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "apocalypsenow:spec_ops_boots"
         }
       ]
     },
@@ -39,29 +62,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 10,
-          "name": "immersiveengineering:stick_steel",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 4
-              },
-              "add": true
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 5,
-          "name": "immersiveengineering:ingot_steel",
+          "name": "tac:bullet_308",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 4,
-                "max": 10
+                "max": 8
               },
               "add": true
             }
@@ -69,32 +77,13 @@
         },
         {
           "type": "minecraft:item",
-          "name": "immersiveengineering:gunpart_barrel"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "immersiveengineering:component_steel",
+          "weight": 5,
+          "name": "tac:lapua338",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 6
-              },
-              "add": true
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
-          "name": "immersiveengineering:plate_steel",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
+                "min": 3,
                 "max": 6
               },
               "add": true
@@ -105,57 +94,75 @@
     },
     {
       "rolls": {
-        "min": 2,
-        "max": 4
+        "min": 0,
+        "max": 1
       },
       "bonus_rolls": {
-        "min": 1,
-        "max": 2
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:ai_awp"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:scar_mk20"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1
       },
       "entries": [
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "immersiveengineering:stick_aluminum",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 4
-              },
-              "add": true
-            }
-          ]
+          "name": "tac:light_stock"
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
-          "name": "immersiveengineering:plate_aluminum",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 4
-              },
-              "add": true
-            }
-          ]
+          "weight": 10,
+          "name": "tac:tactical_stock"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:light_grip"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:specialised_grip"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "create:precision_mechanism",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
+          "name": "tac:weighted_stock"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:small_extended_mag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:medium_extended_mag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tac:large_extended_mag"
         }
       ]
     },

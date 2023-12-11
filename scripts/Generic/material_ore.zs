@@ -249,5 +249,4 @@ import crafttweaker.api.item.IItemStack;
 
 // Netherite Scrap
 <recipetype:immersiveengineering:arc_furnace>.removeByName("immersiveengineering:arcfurnace/netherite_scrap");
-<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_raw_netherite_scrap", <item:betterleveling:raw_debris>, [<item:minecraft:air>], 200, 102400, [<item:minecraft:netherite_scrap>], <item:immersiveengineering:slag> );
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_netherite_scrap", <item:minecraft:ancient_debris>, [<item:minecraft:air>], 200, 102400, [<item:minecraft:netherite_scrap> * 4], <item:immersiveengineering:slag> );
