@@ -1,1 +1,44 @@
-{"type":"tac:workbench","materials":[{"item":{"tag":"forge:ingots/gold"},"count":6},{"item":{"tag":"forge:ingots/iron"},"count":48},{"item":{"tag":"forge:gems/quartz"},"count":3}],"result":{"item":"tac:vector45"}}
+{
+	"type": "tac:workbench",
+	"materials": [
+		{
+		  "item": {
+				"item": "immersiveengineering:gunpart_barrel"
+			},
+		  "count": 1
+		},
+		{
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 7
+		},
+		{
+			"item": {
+				"tag": "forge:rods/steel"
+			},
+		  "count": 8
+		},
+		{
+			"item": {
+				"tag": "forge:plates/steel"
+			},
+		  "count": 6
+		},
+		{
+		  "item": {
+				"item": "contenttweaker:rubber"
+			},
+		  "count": 3
+		},
+		{
+		  "item": {
+				"item": "createbigcannons:recoil_spring"
+			},
+		  "count": 2
+		}
+	],
+	"result": {
+		"item": "tac:vector45"
+	}
+}

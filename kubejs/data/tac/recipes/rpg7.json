@@ -1,1 +1,44 @@
-{"type":"tac:workbench","materials":[{"item":{"tag":"forge:ingots/gold"},"count":10},{"item":{"tag":"forge:ingots/iron"},"count":50},{"item":{"tag":"forge:gems/quartz"},"count":5},{"item":{"tag":"minecraft:logs"},"count":20}],"result":{"item":"tac:rpg7"}}
+{
+	"type": "tac:workbench",
+	"materials": [
+		{
+		  "item": {
+				"item": "contenttweaker:high_carbon_steel_alloy"
+			},
+		  "count": 4
+		},
+		{
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 6
+		},
+		{
+			"item": {
+				"tag": "forge:rods/steel"
+			},
+		  "count": 6
+		},
+		{
+			"item": {
+				"tag": "forge:plates/steel"
+			},
+		  "count": 6
+		},
+		{
+		  "item": {
+				"tag": "forge:treated_wood"
+			},
+		  "count": 3
+		},
+		{
+		  "item": {
+				"tag": "forge:leather"
+			},
+		  "count": 3
+		}
+	],
+	"result": {
+		"item": "tac:rpg7"
+	}
+}

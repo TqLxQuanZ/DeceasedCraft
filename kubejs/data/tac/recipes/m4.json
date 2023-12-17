@@ -1,1 +1,50 @@
-{"type":"tac:workbench","materials":[{"item":{"tag":"forge:ingots/iron"},"count":40},{"item":{"tag":"forge:gems/lapis"},"count":6}],"result":{"item":"tac:m4"}}
+{
+	"type": "tac:workbench",
+	"materials": [
+		{
+		  "item": {
+				"item": "immersiveengineering:gunpart_barrel"
+			},
+		  "count": 1
+		},
+		{
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 10
+		},
+		{
+			"item": {
+				"tag": "forge:rods/steel"
+			},
+		  "count": 12
+		},
+		{
+			"item": {
+				"tag": "forge:plates/steel"
+			},
+		  "count": 10
+		},
+		{
+			"item": {
+				"tag": "forge:plates/plastic"
+			},
+		  "count": 4
+		},
+		{
+		  "item": {
+				"item": "contenttweaker:rubber"
+			},
+		  "count": 4
+		},
+		{
+		  "item": {
+				"item": "createbigcannons:recoil_spring"
+			},
+		  "count": 2
+		}
+	],
+	"result": {
+		"item": "tac:m4"
+	}
+}

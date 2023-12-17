@@ -1,1 +1,50 @@
-{"type":"tac:workbench","materials":[{"item":{"tag":"forge:ingots/gold"},"count":8},{"item":{"tag":"forge:ingots/iron"},"count":70},{"item":{"tag":"forge:gems/quartz"},"count":4},{"item":{"tag":"minecraft:logs"},"count":10}],"result":{"item":"tac:rpk"}}
+{
+	"type": "tac:workbench",
+	"materials": [
+		{
+		  "item": {
+				"item": "contenttweaker:high_carbon_steel_alloy"
+			},
+		  "count": 1
+		},
+		{
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 10
+		},
+		{
+			"item": {
+				"tag": "forge:rods/steel"
+			},
+		  "count": 10
+		},
+		{
+			"item": {
+				"tag": "forge:plates/steel"
+			},
+		  "count": 10
+		},
+		{
+		  "item": {
+				"tag": "forge:treated_wood"
+			},
+		  "count": 4
+		},
+		{
+		  "item": {
+				"tag": "forge:leather"
+			},
+		  "count": 3
+		},
+		{
+		  "item": {
+				"item": "createbigcannons:recoil_spring"
+			},
+		  "count": 2
+		}
+	],
+	"result": {
+		"item": "tac:rpk"
+	}
+}

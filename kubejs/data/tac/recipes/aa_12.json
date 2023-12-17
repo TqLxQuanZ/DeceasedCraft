@@ -1,1 +1,56 @@
-{"type":"tac:workbench","materials":[{"item":{"tag":"forge:gems/diamond"},"count":2},{"item":{"tag":"forge:ingots/gold"},"count":20},{"item":{"tag":"forge:ingots/iron"},"count":100},{"item":{"tag":"forge:rods/blaze"}}],"result":{"item":"tac:aa_12"}}
+{
+	"type": "tac:workbench",
+	"materials": [
+		{
+		  "item": {
+				"item": "immersiveengineering:gunpart_barrel"
+			},
+		  "count": 1
+		},
+		{
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 12
+		},
+		{
+			"item": {
+				"tag": "forge:rods/steel"
+			},
+		  "count": 10
+		},
+		{
+			"item": {
+				"tag": "forge:plates/steel"
+			},
+		  "count": 10
+		},
+		{
+			"item": {
+				"tag": "forge:plates/aluminum"
+			},
+		  "count": 2
+		},
+		{
+			"item": {
+				"tag": "forge:plates/plastic"
+			},
+		  "count": 5
+		},
+		{
+		  "item": {
+				"item": "contenttweaker:rubber"
+			},
+		  "count": 3
+		},
+		{
+		  "item": {
+				"item": "createbigcannons:recoil_spring"
+			},
+		  "count": 2
+		}
+	],
+	"result": {
+		"item": "tac:aa_12"
+	}
+}

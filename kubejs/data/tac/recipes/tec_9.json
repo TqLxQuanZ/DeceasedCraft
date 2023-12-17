@@ -1,1 +1,44 @@
-{"type":"tac:workbench","materials":[{"item":{"tag":"forge:ingots/iron"},"count":19}],"result":{"item":"tac:tec_9"}}
+{
+	"type": "tac:workbench",
+	"materials": [
+		{
+		  "item": {
+				"item": "immersiveengineering:gunpart_barrel"
+			},
+		  "count": 1
+		},
+		{
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 3
+		},
+		{
+			"item": {
+				"tag": "forge:rods/steel"
+			},
+		  "count": 4
+		},
+		{
+			"item": {
+				"tag": "forge:plates/steel"
+			},
+		  "count": 4
+		},
+		{
+		  "item": {
+				"item": "contenttweaker:rubber"
+			},
+		  "count": 2
+		},
+		{
+		  "item": {
+				"item": "createbigcannons:recoil_spring"
+			},
+		  "count": 1
+		}
+	],
+	"result": {
+		"item": "tac:tec_9"
+	}
+}

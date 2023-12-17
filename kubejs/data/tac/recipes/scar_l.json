@@ -1,1 +1,50 @@
-{"type":"tac:workbench","materials":[{"item":{"tag":"forge:ingots/gold"},"count":6},{"item":{"tag":"forge:ingots/iron"},"count":58},{"item":{"tag":"forge:gems/quartz"},"count":3}],"result":{"item":"tac:scar_l"}}
+{
+	"type": "tac:workbench",
+	"materials": [
+		{
+		  "item": {
+				"item": "immersiveengineering:gunpart_barrel"
+			},
+		  "count": 1
+		},
+		{
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 12
+		},
+		{
+			"item": {
+				"tag": "forge:rods/steel"
+			},
+		  "count": 12
+		},
+		{
+			"item": {
+				"tag": "forge:plates/steel"
+			},
+		  "count": 12
+		},
+		{
+			"item": {
+				"tag": "forge:plates/plastic"
+			},
+		  "count": 4
+		},
+		{
+		  "item": {
+				"item": "contenttweaker:rubber"
+			},
+		  "count": 4
+		},
+		{
+		  "item": {
+				"item": "createbigcannons:recoil_spring"
+			},
+		  "count": 2
+		}
+	],
+	"result": {
+		"item": "tac:scar_l"
+	}
+}

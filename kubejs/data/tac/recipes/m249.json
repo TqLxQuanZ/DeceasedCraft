@@ -1,1 +1,62 @@
-{"type":"tac:workbench","materials":[{"item":{"tag":"forge:gems/diamond"},"count":4},{"item":{"tag":"forge:ingots/gold"},"count":16},{"item":{"tag":"forge:ingots/iron"},"count":110},{"item":{"tag":"forge:rods/blaze"},"count":2}],"result":{"item":"tac:m249"}}
+{
+	"type": "tac:workbench",
+	"materials": [
+		{
+		  "item": {
+				"item": "immersiveengineering:gunpart_barrel"
+			},
+		  "count": 1
+		},
+		{
+		  "item": {
+				"item": "contenttweaker:high_carbon_steel_alloy"
+			},
+		  "count": 2
+		},
+		{
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 22
+		},
+		{
+			"item": {
+				"tag": "forge:rods/steel"
+			},
+		  "count": 22
+		},
+		{
+			"item": {
+				"tag": "forge:plates/steel"
+			},
+		  "count": 22
+		},
+		{
+			"item": {
+				"tag": "forge:plates/aluminum"
+			},
+		  "count": 10
+		},
+		{
+			"item": {
+				"tag": "forge:plates/plastic"
+			},
+		  "count": 5
+		},
+		{
+		  "item": {
+				"item": "contenttweaker:rubber"
+			},
+		  "count": 5
+		},
+		{
+		  "item": {
+				"item": "createbigcannons:recoil_spring"
+			},
+		  "count": 3
+		}
+	],
+	"result": {
+		"item": "tac:m249"
+	}
+}

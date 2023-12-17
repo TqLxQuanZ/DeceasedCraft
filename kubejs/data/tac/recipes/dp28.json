@@ -1,1 +1,62 @@
-{"type":"tac:workbench","materials":[{"item":{"tag":"forge:ingots/iron"},"count":62},{"item":{"tag":"forge:gems/lapis"},"count":10},{"item":{"tag":"minecraft:logs"},"count":10}],"result":{"item":"tac:dp28"}}
+{
+	"type": "tac:workbench",
+	"materials": [
+		{
+		  "item": {
+				"item": "immersiveengineering:gunpart_barrel"
+			},
+		  "count": 1
+		},
+		{
+		  "item": {
+				"item": "contenttweaker:high_carbon_steel_alloy"
+			},
+		  "count": 1
+		},
+		{
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 16
+		},
+		{
+			"item": {
+				"tag": "forge:rods/steel"
+			},
+		  "count": 16
+		},
+		{
+			"item": {
+				"tag": "forge:plates/steel"
+			},
+		  "count": 16
+		},
+		{
+			"item": {
+				"tag": "forge:plates/aluminum"
+			},
+		  "count": 4
+		},
+		{
+		  "item": {
+				"tag": "forge:treated_wood"
+			},
+		  "count": 5
+		},
+		{
+		  "item": {
+				"tag": "forge:leather"
+			},
+		  "count": 3
+		},
+		{
+		  "item": {
+				"item": "createbigcannons:recoil_spring"
+			},
+		  "count": 2
+		}
+	],
+	"result": {
+		"item": "tac:dp28"
+	}
+}

@@ -1,1 +1,44 @@
-{"type":"tac:workbench","materials":[{"item":{"tag":"forge:ingots/iron"},"count":20}],"result":{"item":"tac:micro_uzi"}}
+{
+	"type": "tac:workbench",
+	"materials": [
+		{
+		  "item": {
+				"item": "immersiveengineering:gunpart_barrel"
+			},
+		  "count": 1
+		},
+		{
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 6
+		},
+		{
+			"item": {
+				"tag": "forge:rods/steel"
+			},
+		  "count": 7
+		},
+		{
+			"item": {
+				"tag": "forge:plates/steel"
+			},
+		  "count": 5
+		},
+		{
+		  "item": {
+				"item": "contenttweaker:rubber"
+			},
+		  "count": 3
+		},
+		{
+		  "item": {
+				"item": "createbigcannons:recoil_spring"
+			},
+		  "count": 2
+		}
+	],
+	"result": {
+		"item": "tac:micro_uzi"
+	}
+}

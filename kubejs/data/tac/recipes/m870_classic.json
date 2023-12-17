@@ -1,1 +1,50 @@
-{"type":"tac:workbench","materials":[{"item":{"tag":"forge:ingots/iron"},"count":45},{"item":{"tag":"forge:gems/lapis"},"count":7},{"item":{"tag":"minecraft:logs"},"count":7}],"result":{"item":"tac:m870_classic"}}
+{
+	"type": "tac:workbench",
+	"materials": [
+		{
+		  "item": {
+				"item": "immersiveengineering:gunpart_barrel"
+			},
+		  "count": 1
+		},
+		{
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 4
+		},
+		{
+			"item": {
+				"tag": "forge:rods/steel"
+			},
+		  "count": 3
+		},
+		{
+			"item": {
+				"tag": "forge:plates/steel"
+			},
+		  "count": 3
+		},
+		{
+		  "item": {
+				"item": "createbigcannons:recoil_spring"
+			},
+		  "count": 1
+		},
+		{
+		  "item": {
+				"tag": "forge:treated_wood"
+			},
+		  "count": 5
+		},
+		{
+		  "item": {
+				"tag": "forge:leather"
+			},
+		  "count": 3
+		}
+	],
+	"result": {
+		"item": "tac:m870_classic"
+	}
+}

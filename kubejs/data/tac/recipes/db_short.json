@@ -1,1 +1,50 @@
-{"type":"tac:workbench","materials":[{"item":{"tag":"forge:ingots/iron"},"count":12},{"item":{"tag":"minecraft:logs"},"count":4}],"result":{"item":"tac:db_short"}}
+{
+	"type": "tac:workbench",
+	"materials": [
+		{
+		  "item": {
+				"item": "immersiveengineering:gunpart_barrel"
+			},
+		  "count": 2
+		},
+		{
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 3
+		},
+		{
+			"item": {
+				"tag": "forge:rods/steel"
+			},
+		  "count": 2
+		},
+		{
+			"item": {
+				"tag": "forge:plates/steel"
+			},
+		  "count": 3
+		},
+		{
+		  "item": {
+				"item": "createbigcannons:recoil_spring"
+			},
+		  "count": 2
+		},
+		{
+		  "item": {
+				"tag": "forge:treated_wood"
+			},
+		  "count": 5
+		},
+		{
+		  "item": {
+				"tag": "forge:leather"
+			},
+		  "count": 3
+		}
+	],
+	"result": {
+		"item": "tac:db_short"
+	}
+}

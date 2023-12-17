@@ -1,1 +1,56 @@
-{"type":"tac:workbench","materials":[{"item":{"tag":"forge:ingots/gold"},"count":2},{"item":{"tag":"forge:ingots/iron"},"count":70},{"item":{"tag":"forge:gems/lapis"},"count":16}],"result":{"item":"tac:m24"}}
+{
+	"type": "tac:workbench",
+	"materials": [
+		{
+		  "item": {
+				"item": "contenttweaker:high_carbon_steel_alloy"
+			},
+		  "count": 2
+		},
+		{
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 12
+		},
+		{
+			"item": {
+				"tag": "forge:rods/steel"
+			},
+		  "count": 12
+		},
+		{
+			"item": {
+				"tag": "forge:plates/steel"
+			},
+		  "count": 12
+		},
+		{
+			"item": {
+				"tag": "forge:plates/aluminum"
+			},
+		  "count": 12
+		},
+		{
+			"item": {
+				"tag": "forge:plates/plastic"
+			},
+		  "count": 10
+		},
+		{
+		  "item": {
+				"item": "contenttweaker:rubber"
+			},
+		  "count": 2
+		},
+		{
+		  "item": {
+				"item": "createbigcannons:recoil_spring"
+			},
+		  "count": 4
+		}
+	],
+	"result": {
+		"item": "tac:m24"
+	}
+}

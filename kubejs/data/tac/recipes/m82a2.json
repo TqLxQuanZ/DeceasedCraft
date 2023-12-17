@@ -1,1 +1,62 @@
-{"type":"tac:workbench","materials":[{"item":{"tag":"forge:ingots/netherite"},"count":2},{"item":{"tag":"forge:gems/diamond"},"count":16},{"item":{"tag":"forge:ingots/gold"},"count":60},{"item":{"tag":"forge:ingots/iron"},"count":300},{"item":{"tag":"forge:nether_stars"}}],"result":{"item":"tac:m82a2"}}
+{
+	"type": "tac:workbench",
+	"materials": [
+		{
+		  "item": {
+				"item": "contenttweaker:high_carbon_steel_alloy"
+			},
+		  "count": 8
+		},
+		{
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 26
+		},
+		{
+			"item": {
+				"tag": "forge:rods/steel"
+			},
+		  "count": 26
+		},
+		{
+			"item": {
+				"tag": "forge:plates/steel"
+			},
+		  "count": 26
+		},
+		{
+			"item": {
+				"tag": "forge:plates/aluminum"
+			},
+		  "count": 12
+		},
+		{
+			"item": {
+				"tag": "forge:plates/plastic"
+			},
+		  "count": 8
+		},
+		{
+		  "item": {
+				"item": "minecraft:netherite_scrap"
+			},
+		  "count": 4
+		},
+		{
+		  "item": {
+				"item": "contenttweaker:rubber"
+			},
+		  "count": 4
+		},
+		{
+		  "item": {
+				"item": "createbigcannons:recoil_spring"
+			},
+		  "count": 4
+		}
+	],
+	"result": {
+		"item": "tac:m82a2"
+	}
+}
