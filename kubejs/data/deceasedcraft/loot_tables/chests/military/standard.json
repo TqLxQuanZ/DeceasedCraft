@@ -113,23 +113,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 10,
-          "name": "tac:coyote_sight"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "tac:aimpoint_t2"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "tac:aimpoint_t1"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "tac:eotech_n"
+          "weight": 5,
+          "name": "tac:acog_4x_scope"
         },
         {
           "type": "minecraft:item",
@@ -139,17 +124,32 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "tac:eotech_short"
+          "name": "tac:ir_laser"
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 5,
+          "name": "tac:basic_laser"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
           "name": "tac:srs_red_dot"
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:old_4x_scope"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:old_8x_scope"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 1,
-          "name": "tac:acog_4x_scope"
+          "name": "tac:8x_scope"
         },
         {
           "type": "minecraft:item",
@@ -160,6 +160,11 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "tac:elcan_14x"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tac:lpvo_1_6"
         }
       ]
     },

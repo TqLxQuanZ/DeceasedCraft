@@ -1,1 +1,26 @@
-{"type":"tac:workbench","materials":[{"item":{"tag":"forge:ingots/iron"},"count":8},{"item":{"tag":"forge:glass_panes/colorless"},"count":3},{"item":{"tag":"forge:storage_blocks/redstone"}}],"result":{"item":"tac:mini_dot"}}
+{
+	"type": "tac:workbench",
+	"materials": [
+		{
+			"item": {
+				"tag": "forge:plates/aluminum"
+			},
+		  "count": 3
+		},
+		{
+			"item": {
+				"tag": "forge:plates/plastic"
+			},
+		  "count": 2
+		},
+		{
+		  "item": {
+				"tag": "forge:glass_panes"
+			},
+		  "count": 2
+		}
+	],
+	"result": {
+		"item": "tac:mini_dot"
+	}
+}

@@ -1,1 +1,20 @@
-{"type":"tac:workbench","materials":[{"item":{"tag":"forge:ingots/iron"},"count":24},{"item":{"tag":"forge:gems/lapis"},"count":4}],"result":{"item":"tac:small_extended_mag"}}
+{
+	"type": "tac:workbench",
+	"materials": [
+		{
+			"item": {
+				"tag": "forge:plates/plastic"
+			},
+		  "count": 4
+		},
+		{
+		  "item": {
+				"item": "contenttweaker:rubber"
+			},
+		  "count": 1
+		}
+	],
+	"result": {
+		"item": "tac:small_extended_mag"
+	}
+}

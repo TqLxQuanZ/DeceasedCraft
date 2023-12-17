@@ -1,1 +1,14 @@
-{"type":"tac:workbench","materials":[{"item":{"tag":"forge:ingots/gold"},"count":2},{"item":{"tag":"forge:ingots/iron"},"count":10},{"item":{"tag":"forge:gems/quartz"}}],"result":{"item":"tac:muzzle_brake"}}
+{
+	"type": "tac:workbench",
+	"materials": [
+		{
+			"item": {
+				"tag": "forge:plates/steel"
+			},
+		  "count": 3
+		}
+	],
+	"result": {
+		"item": "tac:muzzle_brake"
+	}
+}

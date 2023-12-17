@@ -1,1 +1,26 @@
-{"type":"tac:workbench","materials":[{"item":{"tag":"forge:ingots/iron"},"count":24},{"item":{"tag":"forge:gems/lapis"},"count":4},{"item":{"tag":"forge:leather"},"count":8}],"result":{"item":"tac:tactical_stock"}}
+{
+	"type": "tac:workbench",
+	"materials": [
+		{
+			"item": {
+				"tag": "forge:ingots/steel"
+			},
+		  "count": 3
+		},
+		{
+			"item": {
+				"tag": "forge:plates/aluminum"
+			},
+		  "count": 3
+		},
+		{
+			"item": {
+				"item": "conttenttweaker:rubber"
+			},
+		  "count": 3
+		}
+	],
+	"result": {
+		"item": "tac:tactical_stock"
+	}
+}
