@@ -28,15 +28,15 @@
 	#This message is given when the player enters a haunted building for the first time
 	messageBuildingHaunted = "Zombies are showing up in this building..."
 	#This message is given when the player clears a building
-	messageBuildingCleared = "You don't see any hordes in this area anymore."
+	messageBuildingCleared = "You don't see any new zombies in this building anymore."
 	#This message is given when the player is halfway clearing a building
 	messageBuildingHalfway = "It seems to be getting lesser..."
 	#The amount of ticks that the server waits before checking for new spawns
 	#Range: 1 ~ 1000000
-	serverTickTimeout = 60
+	serverTickTimeout = 5
 	#The maximum amount of entities that can spawn near each other (of the same type)
 	#Range: 1 ~ 200
-	spawnMaxNearby = 12
+	spawnMaxNearby = 10
 	#The minimum distance between the player and newly spawned mobs
 	#Range: 0.0 ~ 16.0
 	minSpawnDistance = 5.0
@@ -60,7 +60,7 @@
 	minMobs = 10
 	#The maximum amount of mobs that are spawned by a haunted building
 	#Range: 1 ~ 10000
-	maxMobs = 50
+	maxMobs = 20
 	#The chance that a building is haunted. This version is used in case the building is in a Lost City sphere
 	#Range: 0.0 ~ 1.0
 	sphereHauntedChance = 0.2
@@ -71,7 +71,7 @@
 	#Range: 1 ~ 10000
 	sphereMaxMobs = 50
 	#If this is true then mobs will only spawn if the light level is low enough. Otherwise they spawn regardless of light level
-	checkValidSpawn = false
+	checkValidSpawn = true
 	#If this is true then the player will be notified when a building is cleared
 	announceCleared = true
 	#If this is true then the player will be notified when he or she enters a haunted building
