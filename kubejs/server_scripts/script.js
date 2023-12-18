@@ -82,10 +82,18 @@ onEvent('block.right_click', (event) => {
     {
         block.set('minecraft:air');
         event.server.runCommand(`summon car:car ${block.pos.x} ${block.pos.y} ${block.pos.z}`);
+		return
     }
 	if (block == "minecraft:repeating_command_block" ||	block == "clickmachine:auto_clicker")
     {
         block.set('minecraft:air');
+		return
+    }
+	if (block == "ag_day_counter:calendar")
+    {
+		let hordeEventData = event.player.getFullNBT().ForgeCaps["hordes:hordeevent"]
+        event.player.tell('The next horde day is day §c' + hordeEventData.nextDay + '.')
+		return
     }
 });
 
