@@ -1,18 +1,29 @@
 import crafttweaker.api.recipe.CraftingTableRecipeManager;
 import crafttweaker.api.recipe.BlastFurnaceRecipeManager;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
+import crafttweaker.api.recipe.CampFireRecipeManager;
 import mods.jei.JEI;
 
 // Cold Sweats
 craftingTable.remove(<item:cold_sweat:soulspring_lamp>);
 JEI.hideIngredient(<item:cold_sweat:soulspring_lamp>);
 
+// Removing Zombie Extreme
+craftingTable.removeByModid("zombie_extreme");
+campfire.removeByModid("zombie_extreme");
+furnace.removeByModid("zombie_extreme");
+JEI.hideMod("zombie_extreme");
+
 // Removing Undead Revamp
 craftingTable.removeByModid("undead_revamp2");
+campfire.removeByModid("undead_revamp2");
+furnace.removeByModid("undead_revamp2");
 JEI.hideMod("undead_revamp2");
 
 // Removing mutationcraft
 craftingTable.removeByModid("mutationcraft");
+campfire.removeByModid("mutationcraft");
+furnace.removeByModid("mutationcraft");
 JEI.hideMod("mutationcraft");
 
 // autoclicker
