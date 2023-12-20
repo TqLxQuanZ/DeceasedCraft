@@ -2,7 +2,7 @@
 	// If enabled, tree harvesting only works when a player is holding an axe in the main hand.
 	"mustHoldAxeForTreeHarvest": true,
 	// If enabled, tree harvesting works when not holding the sneak button. If disabled it's reversed, and only works when sneaking.
-	"treeHarvestWithoutSneak": false,
+	"treeHarvestWithoutSneak": true,
 	// If enabled, players instantly break the leaves as well as all logs of the tree when a bottom log is broken.
 	"instantBreakLeavesAround": false,
 	// Whether the mod should attempt to find the actual bottom log of the tree and start there. This means you can break a tree in the middle and it will still completely be felled.
