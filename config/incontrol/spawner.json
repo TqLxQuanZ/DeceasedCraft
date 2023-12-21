@@ -354,7 +354,7 @@
 	},
 	{
 		"mob": ["zombie_extreme:demolisher"],
-		"persecond": 0.05,
+		"persecond": 0.025,
 		"attempts": 10,
 		"conditions": {
 		  "dimension": "minecraft:overworld",
@@ -362,7 +362,8 @@
 		  "mindist": 10,
 		  "maxdist": 165,
 		  "minheight": 45,
-		  "maxheight": 300
+		  "maxheight": 300,
+		  "maxlocal": 2
 		}
 	},
 	{
@@ -410,8 +411,8 @@
 		"conditions": {
 		  "dimension": "deceasedcraft:abyss",
 		  "norestrictions": true,
-		  "mindist": 25,
-		  "maxdist": 200,
+		  "mindist": 15,
+		  "maxdist": 160,
 		  "minheight": -60,
 		  "maxheight": 350
 		}
@@ -419,8 +420,8 @@
 	{
 		"mob": ["minecraft:spider",
 				"minecraft:cave_spider"],
-		"persecond": 2.0,
-		"attempts": 50,
+		"persecond": 1.0,
+		"attempts": 30,
 		"amount": {
 		  "minimum": 3,
 		  "maximum": 5,
@@ -429,8 +430,8 @@
 		"conditions": {
 		  "dimension": "deceasedcraft:abyss",
 		  "norestrictions": true,
-		  "mindist": 25,
-		  "maxdist": 200,
+		  "mindist": 15,
+		  "maxdist": 160,
 		  "minheight": -60,
 		  "maxheight": 350
 		}
@@ -441,12 +442,12 @@
 				"zombie_extreme:divided",
 				"zombie_extreme:goon"],
 		"persecond": 1.0,
-		"attempts": 20,
+		"attempts": 30,
 		"conditions": {
 			"dimension": "deceasedcraft:abyss",
 		  "norestrictions": true,
-		  "mindist": 20,
-		  "maxdist": 240,
+		  "mindist": 10,
+		  "maxdist": 120,
 		  "minheight": -60,
 		  "maxheight": 350
 		}
@@ -454,30 +455,15 @@
 	{
 		"mob": ["zombie_extreme:patient_zero",
 				"zombie_extreme:rat_king"],
-		"persecond": 0.25,
+		"persecond": 0.05,
 		"attempts": 20,
 		"conditions": {
 			"dimension": "deceasedcraft:abyss",
 		  "norestrictions": true,
-		  "mindist": 20,
-		  "maxdist": 240,
+		  "mindist": 10,
+		  "maxdist": 120,
 		  "minheight": -60,
-		  "maxheight": 350,
-		  "maxlocal": 2
-		}
-	},
-	{
-		"mob": "zombie_extreme:rat_king",
-		"persecond": 0.5,
-		"attempts": 20,
-		"conditions": {
-			"dimension": "deceasedcraft:abyss",
-		  "norestrictions": true,
-		  "mindist": 20,
-		  "maxdist": 240,
-		  "minheight": -60,
-		  "maxheight": 350,
-		  "maxlocal": 2
+		  "maxheight": 350
 		}
 	}
 ]
