@@ -1,0 +1,24 @@
+{
+  "armorSetName": "Radiation Protection",
+  "head": {
+    "itemKey": "apocalypsenow:soldier_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:gasmask_helmet",
+      "apocalypsenow:pkm_4gasmask_helmet",
+      "apocalypsenow:pbf_hamstergasmask_helmet",
+      "apocalypsenow:gasmask_helmet",
+      "apocalypsenow:rusty_helmet",
+      "apocalypsenow:mcu2p_gasmask_helmet"
+    ]
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "zombie_extreme:radiation_effect",
+      "interactionType": "immunity",
+      "description": "§6 Grants Radiation Immunity",
+      "onlyImmuneToNewEffects": true
+    }
+  ],
+  "hideGeneratedTooltip": false
+}
