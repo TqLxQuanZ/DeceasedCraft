@@ -1,0 +1,29 @@
+{
+  "type": "pfm:furniture",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_wool"
+    },
+    {
+      "item": "minecraft:orange_wool"
+    },
+    {
+      "item": "minecraft:orange_wool"
+    },
+    {
+      "item": "biomesoplenty:stripped_hellbark_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_hellbark_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:basic_lamp",
+    "tag": {
+      "BlockEntityTag": {
+        "color": "orange",
+        "variant": "biomesoplenty:hellbark"
+      }
+    }
+  }
+}

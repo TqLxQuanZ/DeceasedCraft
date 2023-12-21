@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_log"
+    },
+    {
+      "item": "minecraft:acacia_log"
+    },
+    {
+      "item": "minecraft:acacia_log"
+    },
+    {
+      "item": "minecraft:acacia_planks"
+    },
+    {
+      "item": "minecraft:acacia_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:acacia_classic_stool",
+    "count": 4
+  }
+}

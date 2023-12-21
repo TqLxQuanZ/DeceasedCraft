@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pfm:diorite_table_modern_dinner"
+    ]
+  },
+  "criteria": {
+    "diorite_table_modern_dinner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_diorite"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pfm:diorite_table_modern_dinner"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diorite_table_modern_dinner",
+      "has_the_recipe"
+    ]
+  ]
+}

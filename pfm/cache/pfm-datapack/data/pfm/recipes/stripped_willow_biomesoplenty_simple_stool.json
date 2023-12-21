@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:willow_planks"
+    },
+    {
+      "item": "biomesoplenty:willow_planks"
+    },
+    {
+      "item": "biomesoplenty:stripped_willow_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_willow_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_willow_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_willow_biomesoplenty_simple_stool",
+    "count": 4
+  }
+}

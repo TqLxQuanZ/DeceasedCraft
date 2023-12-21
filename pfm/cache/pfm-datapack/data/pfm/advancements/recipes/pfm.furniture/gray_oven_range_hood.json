@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pfm:gray_oven_range_hood"
+    ]
+  },
+  "criteria": {
+    "has_gray_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gray_concrete"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pfm:gray_oven_range_hood"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_gray_concrete",
+      "has_the_recipe"
+    ]
+  ]
+}

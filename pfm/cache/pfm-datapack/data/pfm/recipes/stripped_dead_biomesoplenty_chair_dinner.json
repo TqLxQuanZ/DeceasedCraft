@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:dead_planks"
+    },
+    {
+      "item": "biomesoplenty:dead_planks"
+    },
+    {
+      "item": "biomesoplenty:dead_planks"
+    },
+    {
+      "item": "biomesoplenty:stripped_dead_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_dead_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_dead_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_dead_biomesoplenty_chair_dinner",
+    "count": 4
+  }
+}

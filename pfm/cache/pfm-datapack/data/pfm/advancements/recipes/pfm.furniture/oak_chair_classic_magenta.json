@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pfm:oak_chair_classic_magenta"
+    ]
+  },
+  "criteria": {
+    "oak_chair_classic_magenta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_wool"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pfm:oak_chair_classic_magenta"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "oak_chair_classic_magenta",
+      "has_the_recipe"
+    ]
+  ]
+}

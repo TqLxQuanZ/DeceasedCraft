@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:mahogany_log"
+    },
+    {
+      "item": "biomesoplenty:mahogany_log"
+    },
+    {
+      "item": "biomesoplenty:mahogany_planks"
+    },
+    {
+      "item": "biomesoplenty:mahogany_planks"
+    },
+    {
+      "item": "biomesoplenty:mahogany_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:mahogany_biomesoplenty_simple_stool",
+    "count": 4
+  }
+}

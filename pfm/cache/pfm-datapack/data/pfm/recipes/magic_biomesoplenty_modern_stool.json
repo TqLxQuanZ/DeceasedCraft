@@ -1,0 +1,22 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:magic_log"
+    },
+    {
+      "item": "biomesoplenty:magic_planks"
+    },
+    {
+      "item": "biomesoplenty:magic_planks"
+    },
+    {
+      "item": "biomesoplenty:magic_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:magic_biomesoplenty_modern_stool",
+    "count": 4
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pfm:diorite_table_natural"
+    ]
+  },
+  "criteria": {
+    "diorite_table_natural": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_diorite"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pfm:diorite_table_natural"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diorite_table_natural",
+      "has_the_recipe"
+    ]
+  ]
+}

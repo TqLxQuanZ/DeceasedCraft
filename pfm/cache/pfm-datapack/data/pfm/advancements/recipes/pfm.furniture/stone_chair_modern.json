@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pfm:stone_chair_modern"
+    ]
+  },
+  "criteria": {
+    "stone_chair_modern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pfm:stone_chair_modern"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "stone_chair_modern",
+      "has_the_recipe"
+    ]
+  ]
+}

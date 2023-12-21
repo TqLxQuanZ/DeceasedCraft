@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pfm:oak_chair_classic_green"
+    ]
+  },
+  "criteria": {
+    "oak_chair_classic_green": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:green_wool"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pfm:oak_chair_classic_green"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "oak_chair_classic_green",
+      "has_the_recipe"
+    ]
+  ]
+}

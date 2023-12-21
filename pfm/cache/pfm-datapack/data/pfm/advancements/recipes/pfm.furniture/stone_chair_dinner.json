@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pfm:stone_chair_dinner"
+    ]
+  },
+  "criteria": {
+    "stone_chair_dinner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pfm:stone_chair_dinner"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "stone_chair_dinner",
+      "has_the_recipe"
+    ]
+  ]
+}

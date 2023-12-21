@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:fir_planks"
+    },
+    {
+      "item": "biomesoplenty:fir_planks"
+    },
+    {
+      "item": "biomesoplenty:fir_planks"
+    },
+    {
+      "item": "biomesoplenty:stripped_fir_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_fir_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_fir_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_fir_biomesoplenty_chair_dinner",
+    "count": 4
+  }
+}

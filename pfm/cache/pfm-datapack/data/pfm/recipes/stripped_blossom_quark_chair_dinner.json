@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "quark:blossom_planks"
+    },
+    {
+      "item": "quark:blossom_planks"
+    },
+    {
+      "item": "quark:blossom_planks"
+    },
+    {
+      "item": "quark:stripped_blossom_log"
+    },
+    {
+      "item": "quark:stripped_blossom_log"
+    },
+    {
+      "item": "quark:stripped_blossom_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_blossom_quark_chair_dinner",
+    "count": 4
+  }
+}

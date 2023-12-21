@@ -1,0 +1,22 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:umbran_planks"
+    },
+    {
+      "item": "biomesoplenty:stripped_umbran_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_umbran_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_umbran_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_umbran_biomesoplenty_modern_stool",
+    "count": 4
+  }
+}

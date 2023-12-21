@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "quark:azalea_planks"
+    },
+    {
+      "item": "quark:azalea_planks"
+    },
+    {
+      "item": "quark:azalea_planks"
+    },
+    {
+      "item": "quark:stripped_azalea_log"
+    },
+    {
+      "item": "quark:stripped_azalea_log"
+    },
+    {
+      "item": "quark:stripped_azalea_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_azalea_quark_chair_dinner",
+    "count": 4
+  }
+}

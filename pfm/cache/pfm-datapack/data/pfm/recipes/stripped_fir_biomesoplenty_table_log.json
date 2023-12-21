@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:fir_planks"
+    },
+    {
+      "item": "biomesoplenty:fir_planks"
+    },
+    {
+      "item": "biomesoplenty:stripped_fir_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_fir_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_fir_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_fir_biomesoplenty_table_log",
+    "count": 4
+  }
+}

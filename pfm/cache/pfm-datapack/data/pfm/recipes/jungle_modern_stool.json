@@ -1,0 +1,22 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "minecraft:jungle_log"
+    },
+    {
+      "item": "minecraft:jungle_planks"
+    },
+    {
+      "item": "minecraft:jungle_planks"
+    },
+    {
+      "item": "minecraft:jungle_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:jungle_modern_stool",
+    "count": 4
+  }
+}

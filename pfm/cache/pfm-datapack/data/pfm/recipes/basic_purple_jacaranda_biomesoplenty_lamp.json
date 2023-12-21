@@ -1,0 +1,29 @@
+{
+  "type": "pfm:furniture",
+  "ingredients": [
+    {
+      "item": "minecraft:purple_wool"
+    },
+    {
+      "item": "minecraft:purple_wool"
+    },
+    {
+      "item": "minecraft:purple_wool"
+    },
+    {
+      "item": "biomesoplenty:stripped_jacaranda_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_jacaranda_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:basic_lamp",
+    "tag": {
+      "BlockEntityTag": {
+        "color": "purple",
+        "variant": "biomesoplenty:jacaranda"
+      }
+    }
+  }
+}

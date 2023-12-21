@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:fir_log"
+    },
+    {
+      "item": "biomesoplenty:fir_log"
+    },
+    {
+      "item": "biomesoplenty:fir_log"
+    },
+    {
+      "item": "biomesoplenty:fir_planks"
+    },
+    {
+      "item": "biomesoplenty:fir_planks"
+    },
+    {
+      "item": "biomesoplenty:fir_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:fir_biomesoplenty_table_dinner",
+    "count": 4
+  }
+}

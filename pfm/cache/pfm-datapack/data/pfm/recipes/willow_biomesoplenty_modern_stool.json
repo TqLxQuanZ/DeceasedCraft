@@ -1,0 +1,22 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:willow_log"
+    },
+    {
+      "item": "biomesoplenty:willow_planks"
+    },
+    {
+      "item": "biomesoplenty:willow_planks"
+    },
+    {
+      "item": "biomesoplenty:willow_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:willow_biomesoplenty_modern_stool",
+    "count": 4
+  }
+}

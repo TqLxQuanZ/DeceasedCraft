@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pfm:oak_herringbone_planks"
+    ]
+  },
+  "criteria": {
+    "has_wood_slabs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pfm:oak_herringbone_planks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood_slabs",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:hellbark_log"
+    },
+    {
+      "item": "biomesoplenty:hellbark_log"
+    },
+    {
+      "item": "biomesoplenty:hellbark_planks"
+    },
+    {
+      "item": "biomesoplenty:hellbark_planks"
+    },
+    {
+      "item": "biomesoplenty:hellbark_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:hellbark_biomesoplenty_simple_stool",
+    "count": 4
+  }
+}

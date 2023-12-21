@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pfm:dark_wood_classic_nightstand"
+    ]
+  },
+  "criteria": {
+    "dark_wood_classic_nightstand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:quartz_block"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pfm:dark_wood_classic_nightstand"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dark_wood_classic_nightstand",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "pfm:furniture",
+  "ingredients": [
+    {
+      "item": "minecraft:pink_wool"
+    },
+    {
+      "item": "minecraft:pink_wool"
+    },
+    {
+      "item": "minecraft:pink_wool"
+    },
+    {
+      "item": "biomesoplenty:stripped_redwood_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_redwood_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:basic_lamp",
+    "tag": {
+      "BlockEntityTag": {
+        "color": "pink",
+        "variant": "biomesoplenty:redwood"
+      }
+    }
+  }
+}

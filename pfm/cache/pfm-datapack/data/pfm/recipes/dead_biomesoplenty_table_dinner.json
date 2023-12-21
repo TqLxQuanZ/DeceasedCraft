@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:dead_log"
+    },
+    {
+      "item": "biomesoplenty:dead_log"
+    },
+    {
+      "item": "biomesoplenty:dead_log"
+    },
+    {
+      "item": "biomesoplenty:dead_planks"
+    },
+    {
+      "item": "biomesoplenty:dead_planks"
+    },
+    {
+      "item": "biomesoplenty:dead_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:dead_biomesoplenty_table_dinner",
+    "count": 4
+  }
+}

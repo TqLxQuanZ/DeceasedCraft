@@ -1,0 +1,22 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:redwood_planks"
+    },
+    {
+      "item": "biomesoplenty:stripped_redwood_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_redwood_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_redwood_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_redwood_biomesoplenty_modern_stool",
+    "count": 4
+  }
+}

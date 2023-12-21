@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pfm:deepslate_table_dinner"
+    ]
+  },
+  "criteria": {
+    "deepslate_table_dinner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_deepslate"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pfm:deepslate_table_dinner"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "deepslate_table_dinner",
+      "has_the_recipe"
+    ]
+  ]
+}

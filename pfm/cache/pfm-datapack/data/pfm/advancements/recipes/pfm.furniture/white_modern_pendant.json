@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pfm:white_modern_pendant"
+    ]
+  },
+  "criteria": {
+    "has_white_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_concrete"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pfm:white_modern_pendant"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_white_concrete",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "minecraft:spruce_planks"
+    },
+    {
+      "item": "minecraft:spruce_planks"
+    },
+    {
+      "item": "minecraft:stripped_spruce_log"
+    },
+    {
+      "item": "minecraft:stripped_spruce_log"
+    },
+    {
+      "item": "minecraft:stripped_spruce_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_spruce_simple_stool",
+    "count": 4
+  }
+}

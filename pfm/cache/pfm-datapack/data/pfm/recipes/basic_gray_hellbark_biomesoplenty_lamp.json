@@ -1,0 +1,29 @@
+{
+  "type": "pfm:furniture",
+  "ingredients": [
+    {
+      "item": "minecraft:gray_wool"
+    },
+    {
+      "item": "minecraft:gray_wool"
+    },
+    {
+      "item": "minecraft:gray_wool"
+    },
+    {
+      "item": "biomesoplenty:stripped_hellbark_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_hellbark_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:basic_lamp",
+    "tag": {
+      "BlockEntityTag": {
+        "color": "gray",
+        "variant": "biomesoplenty:hellbark"
+      }
+    }
+  }
+}

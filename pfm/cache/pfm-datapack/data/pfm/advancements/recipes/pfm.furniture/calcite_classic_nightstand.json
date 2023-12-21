@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pfm:calcite_classic_nightstand"
+    ]
+  },
+  "criteria": {
+    "calcite_classic_nightstand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:calcite"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pfm:calcite_classic_nightstand"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "calcite_classic_nightstand",
+      "has_the_recipe"
+    ]
+  ]
+}

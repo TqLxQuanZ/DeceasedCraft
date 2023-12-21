@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pfm:basic_cutlery"
+    ]
+  },
+  "criteria": {
+    "has_light_gray_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_gray_concrete"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pfm:basic_cutlery"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_light_gray_concrete",
+      "has_the_recipe"
+    ]
+  ]
+}

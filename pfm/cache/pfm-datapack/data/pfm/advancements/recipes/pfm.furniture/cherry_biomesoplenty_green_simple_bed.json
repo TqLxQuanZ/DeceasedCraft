@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pfm:cherry_biomesoplenty_green_simple_bed"
+    ]
+  },
+  "criteria": {
+    "has_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:green_bed"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pfm:cherry_biomesoplenty_green_simple_bed"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bed",
+      "has_the_recipe"
+    ]
+  ]
+}

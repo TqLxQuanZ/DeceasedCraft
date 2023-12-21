@@ -1,0 +1,22 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "quark:azalea_planks"
+    },
+    {
+      "item": "quark:stripped_azalea_log"
+    },
+    {
+      "item": "quark:stripped_azalea_log"
+    },
+    {
+      "item": "quark:stripped_azalea_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_azalea_quark_modern_stool",
+    "count": 4
+  }
+}

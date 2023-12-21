@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pfm:quartz_table_classic"
+    ]
+  },
+  "criteria": {
+    "quartz_table_classic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:quartz_block"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pfm:quartz_table_classic"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "quartz_table_classic",
+      "has_the_recipe"
+    ]
+  ]
+}

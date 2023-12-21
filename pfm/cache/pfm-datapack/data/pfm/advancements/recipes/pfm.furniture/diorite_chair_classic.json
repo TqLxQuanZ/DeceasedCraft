@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pfm:diorite_chair_classic"
+    ]
+  },
+  "criteria": {
+    "diorite_chair_classic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_diorite"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pfm:diorite_chair_classic"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diorite_chair_classic",
+      "has_the_recipe"
+    ]
+  ]
+}

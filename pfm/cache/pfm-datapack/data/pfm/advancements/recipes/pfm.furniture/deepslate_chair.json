@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pfm:deepslate_chair"
+    ]
+  },
+  "criteria": {
+    "deepslate_chair": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_deepslate"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pfm:deepslate_chair"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "deepslate_chair",
+      "has_the_recipe"
+    ]
+  ]
+}

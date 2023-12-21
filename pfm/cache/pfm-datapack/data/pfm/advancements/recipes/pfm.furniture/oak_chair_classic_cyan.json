@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pfm:oak_chair_classic_cyan"
+    ]
+  },
+  "criteria": {
+    "oak_chair_classic_cyan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cyan_wool"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pfm:oak_chair_classic_cyan"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "oak_chair_classic_cyan",
+      "has_the_recipe"
+    ]
+  ]
+}
