@@ -207,6 +207,48 @@
 		}
 	},
 	{
+		"mob": "mutationcraft:resenter",
+		"persecond": 0.05,
+		"attempts": 10,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 20,
+		  "maxdist": 240,
+		  "minheight": 61,
+		  "maxheight": 300,
+		  "maxlocal": 1
+		}
+	},
+	{
+		"mob": "mutationcraft:human_herder",
+		"persecond": 0.1,
+		"attempts": 15,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 5,
+		  "maxdist": 240,
+		  "minheight": 125,
+		  "maxheight": 171,
+		  "maxlocal": 1
+		}
+	},
+	{
+		"mob": "mutationcraft:the_intoxicator",
+		"persecond": 0.005,
+		"attempts": 10,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 25,
+		  "maxdist": 240,
+		  "minheight": 45,
+		  "maxheight": 300,
+		  "maxlocal": 1
+		}
+	},
+	{
 		"mob": ["undead_revamp2:thepregnant",
 				"undead_revamp2:theordure",
 				"undead_revamp2:the_moonflower",
@@ -223,6 +265,19 @@
 		  "maxdist": 200,
 		  "minheight": 45,
 		  "maxheight": 300
+		}
+	},
+	{
+		"mob": ["undead_revamp2:thebidy"],
+		"persecond": 0.05,
+		"attempts": 15,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 10,
+		  "maxdist": 200,
+		  "minheight": -60,
+		  "maxheight": 60
 		}
 	},
 	{
@@ -268,6 +323,21 @@
 		}
 	},
 	{
+		"mob": ["zombie_extreme:faceless",
+				"zombie_extreme:revived",
+				"zombie_extreme:inflated"],
+		"persecond": 0.5,
+		"attempts": 20,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 10,
+		  "maxdist": 165,
+		  "minheight": 45,
+		  "maxheight": 300
+		}
+	},
+	{
 		"mob": ["zombie_extreme:infected_military",
 				"zombie_extreme:infected_juggernaut",
 				"zombie_extreme:infected_hazmat"],
@@ -283,45 +353,16 @@
 		}
 	},
 	{
-		"mob": "mutationcraft:resenter",
+		"mob": ["zombie_extreme:demolisher"],
 		"persecond": 0.05,
 		"attempts": 10,
 		"conditions": {
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
-		  "mindist": 20,
-		  "maxdist": 240,
-		  "minheight": 61,
-		  "maxheight": 300,
-		  "maxlocal": 1
-		}
-	},
-	{
-		"mob": "mutationcraft:human_herder",
-		"persecond": 0.1,
-		"attempts": 15,
-		"conditions": {
-		  "dimension": "minecraft:overworld",
-		  "norestrictions": true,
-		  "mindist": 5,
-		  "maxdist": 240,
-		  "minheight": 125,
-		  "maxheight": 171,
-		  "maxlocal": 1
-		}
-	},
-	{
-		"mob": "mutationcraft:the_intoxicator",
-		"persecond": 0.005,
-		"attempts": 10,
-		"conditions": {
-		  "dimension": "minecraft:overworld",
-		  "norestrictions": true,
-		  "mindist": 25,
-		  "maxdist": 240,
+		  "mindist": 10,
+		  "maxdist": 165,
 		  "minheight": 45,
-		  "maxheight": 300,
-		  "maxlocal": 1
+		  "maxheight": 300
 		}
 	},
 	{
@@ -395,18 +436,48 @@
 		}
 	},
 	{
-		"mob": ["zombie_extreme:infected_military",
-				"zombie_extreme:infected_juggernaut",
-				"zombie_extreme:infected_hazmat"],
+		"mob": ["zombie_extreme:inflated",
+				"zombie_extreme:fetus",
+				"zombie_extreme:divided",
+				"zombie_extreme:goon"],
+		"persecond": 1.0,
+		"attempts": 20,
+		"conditions": {
+			"dimension": "deceasedcraft:abyss",
+		  "norestrictions": true,
+		  "mindist": 20,
+		  "maxdist": 240,
+		  "minheight": -60,
+		  "maxheight": 350
+		}
+	},
+	{
+		"mob": ["zombie_extreme:patient_zero",
+				"zombie_extreme:rat_king"],
 		"persecond": 0.25,
 		"attempts": 20,
 		"conditions": {
-		  "dimension": "minecraft:overworld",
+			"dimension": "deceasedcraft:abyss",
 		  "norestrictions": true,
-		  "mindist": 10,
-		  "maxdist": 165,
-		  "minheight": 45,
-		  "maxheight": 300
+		  "mindist": 20,
+		  "maxdist": 240,
+		  "minheight": -60,
+		  "maxheight": 350,
+		  "maxlocal": 2
+		}
+	},
+	{
+		"mob": "zombie_extreme:rat_king",
+		"persecond": 0.5,
+		"attempts": 20,
+		"conditions": {
+			"dimension": "deceasedcraft:abyss",
+		  "norestrictions": true,
+		  "mindist": 20,
+		  "maxdist": 240,
+		  "minheight": -60,
+		  "maxheight": 350,
+		  "maxlocal": 2
 		}
 	}
 ]

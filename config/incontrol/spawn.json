@@ -407,6 +407,30 @@
       }
     },
     {
+      "mob": "undead_revamp2:thebidy",
+      "dimension": "minecraft:overworld",
+      "minlight": 0,
+      "maxlight": 6,
+      "maxheight": 61,
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 2.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
+    },
+    {
+        "mob": ["zombie_extreme:crawler",
+                "zombie_extreme:runner",
+                "zombie_extreme:infected_police",
+                "zombie_extreme:demolisher"],
+        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+        "result": "deny"
+    },
+    {
         "mob": ["zombie_extreme:crawler",
                 "zombie_extreme:runner"],
         "dimension": "minecraft:overworld",
@@ -414,18 +438,6 @@
         "maxlight": 6,
         "minheight": 54,
         "result": "allow"
-    },
-    {
-        "mob": ["zombie_extreme:boomer",
-            "zombie_extreme:clicker",
-            "zombie_extreme:devastated"],
-        "dimension": "minecraft:overworld",
-        "minlight": 0,
-        "maxlight": 6,
-        "maxheight": 54,
-        "minheight": -60,
-        "result": "allow",
-        "healthadd": 10.0
     },
     {
         "mob": ["zombie_extreme:infected_police"],
@@ -460,6 +472,55 @@
         "healthadd": 15.0
     },
     {
+        "mob": ["zombie_extreme:infected_police"],
+        "dimension": "minecraft:overworld",
+        "incity": true,
+        "minlight": 0,
+        "maxlight": 6,
+        "minheight": 61,
+        "random": 0.2,
+        "result": "allow",
+        "armorhelmet": "apocalypsenow:police_helmet",
+        "armorchest": "apocalypsenow:police_chestplate",
+        "armorlegs": "apocalypsenow:police_leggings",
+        "armorboots": "apocalypsenow:police_boots",
+        "healthadd": 15.0
+    },
+    {
+        "mob": ["zombie_extreme:demolisher"],
+        "dimension": "minecraft:overworld",
+        "incity": true,
+        "instreet": true,
+        "minlight": 0,
+        "maxlight": 6,
+        "minheight": 61,
+        "result": "allow",
+        "healthadd": 150.0,
+        "damageadd": 25.0,
+        "nbt": {
+          "Attributes": [
+            {
+              "Base": 40.0,
+              "Name": "generic.armor"
+            }
+          ]
+        }
+    },
+    {
+        "mob": ["zombie_extreme:boomer",
+                "zombie_extreme:clicker",
+                "zombie_extreme:devastated"],
+        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+        "incity": true,
+        "inbuilding": true,
+        "dimension": "minecraft:overworld",
+        "minlight": 0,
+        "maxlight": 6,
+        "minheight": 54,
+        "result": "allow",
+        "healthadd": 20.0
+    },
+    {
         "mob": ["zombie_extreme:infected_military",
                 "zombie_extreme:infected_hazmat"],
         "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
@@ -473,6 +534,25 @@
           "Attributes": [
             {
               "Base": 14.0,
+              "Name": "generic.armor"
+            }
+          ]
+        }
+    },
+    {
+        "mob": ["zombie_extreme:inflated"],
+        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+        "incity": true,
+        "instreet": true,
+        "minlight": 0,
+        "maxlight": 6,
+        "minheight": 61,
+        "result": "allow",
+        "healthadd": 20.0,
+        "nbt": {
+          "Attributes": [
+            {
+              "Base": 6.0,
               "Name": "generic.armor"
             }
           ]
@@ -499,6 +579,19 @@
             }
           ]
         }
+    },
+    {
+      "mob": ["zombie_extreme:faceless",
+              "zombie_extreme:revived"],
+      "dimension": "minecraft:overworld",
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "incity": false,
+      "minlight": 0,
+      "maxlight": 6,
+      "result": "allow",
+      "healthadd": 20.0,
+      "damageadd": 5.0,
+      "speedmultiply": 1.5
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -631,20 +724,6 @@
         "onjoin": true,
         "minheight": 61,
         "random": 0.05,
-        "result": "default",
-        "armorhelmet": "apocalypsenow:u_sarmy_helmet",
-        "armorchest": "apocalypsenow:u_sarmy_chestplate",
-        "armorlegs": "apocalypsenow:u_sarmy_leggings",
-        "armorboots": "apocalypsenow:u_sarmy_boots"
-    },
-    {
-        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
-        "dimension": "minecraft:overworld",
-        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
-        "incity": true,
-        "onjoin": true,
-        "minheight": 61,
-        "random": 0.1,
         "result": "default",
         "armorhelmet": "apocalypsenow:u_sarmy_helmet",
         "armorchest": "apocalypsenow:u_sarmy_chestplate",
@@ -957,17 +1036,17 @@
       "onjoin": true,
       "instreet": true,
       "nodespawn": true,
-      "healthadd": 1000.0,
+      "healthadd": 1250.0,
       "damageadd": 500.0,
       "result": "allow",
       "nbt": {
         "Attributes": [
           {
-            "Base": 10.0,
+            "Base": 20.0,
             "Name": "generic.armor"
           },
           {
-            "Base": 10.0,
+            "Base": 20.0,
             "Name": "generic.armor_toughness"
           }
         ]
@@ -1021,7 +1100,7 @@
       "dimension": "minecraft:overworld",
       "mincount": {
         "mob": "quark:shiba",
-        "amount": 5,
+        "amount": 2,
         "perchunk": true
       },
       "result": "deny"
@@ -1041,7 +1120,7 @@
       "dimension": "minecraft:overworld",
       "mincount": {
         "mob": "minecraft:hoglin",
-        "amount": 10,
+        "amount": 6,
         "perchunk": true
       },
       "result": "deny"
@@ -1060,7 +1139,7 @@
         "mod": "crittersandcompanions",
         "dimension": "minecraft:overworld",
         "mincount": {
-          "amount": 3,
+          "amount": 4,
           "mod": "crittersandcompanions",
           "perchunk": true
         },
@@ -1109,6 +1188,7 @@
     },
     {
       "mob": ["alexsmobs:leafcutter_ant"],
+      "dimension": "minecraft:overworld",
       "onjoin": true,
       "result": "deny"
     },
@@ -1167,10 +1247,35 @@
       "result": "deny"
     },
     {
+      "hostile": true,
+		  "dimension": "deceasedcraft:abyss",
+      "mincount": {
+        "hostile": true,
+        "amount": 350
+      },
+      "result": "deny"
+    },
+    {
+      "hostile": true,
+		  "dimension": "deceasedcraft:abyss",
+      "mincount": {
+        "amount": 15,
+        "hostile": true,
+        "perchunk": true
+      },
+      "result": "deny"
+    },
+    {
+        "hostile": true,
+        "dimension": "deceasedcraft:abyss",
+        "minlight": 7,
+        "maxlight": 15,
+        "result": "deny"
+    },
+    {
       "mob": ["minecraft:spider",
               "minecraft:cave_spider"],
 		  "dimension": "deceasedcraft:abyss",
-      "onjoin": true,
       "minlight": 0,
       "maxlight": 6,
       "result": "allow",
@@ -1180,11 +1285,48 @@
     {
       "mob": "alexsmobs:crimson_mosquito",
 		  "dimension": "deceasedcraft:abyss",
-      "onjoin": true,
       "minlight": 0,
       "maxlight": 6,
       "result": "allow",
       "healthadd": 30.0
+    },
+    {
+      "mob": ["zombie_extreme:inflated",
+              "zombie_extreme:fetus",
+              "zombie_extreme:divided",
+              "zombie_extreme:goon"],
+		  "dimension": "deceasedcraft:abyss",
+      "minlight": 0,
+      "maxlight": 6,
+      "result": "allow",
+      "healthadd": 50.0,
+      "damageadd": 20.0,
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 12.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
+    },
+    {
+      "mob": ["zombie_extreme:patient_zero",
+              "zombie_extreme:rat_king"],
+		  "dimension": "deceasedcraft:abyss",
+      "minlight": 0,
+      "maxlight": 6,
+      "result": "allow",
+      "healthadd": 500.0,
+      "damageadd": 100.0,
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 30.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
     },
     {
       "mob": "mutationcraft:parasitic_shooter",

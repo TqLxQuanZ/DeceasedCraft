@@ -77,6 +77,98 @@
 		"itemcount": "2/3/4"
 	},
 	{
+		"mob": ["zombie_extreme:faceless"],
+		"player": true,
+		"random" : 0.25,
+		"item": "tac:nato_556_bullet",
+		"itemcount": "4-8/9-12/12-15"
+	},
+	{
+		"mob": ["zombie_extreme:revived"],
+		"player": true,
+		"random" : 0.25,
+		"item": "tac:nato_556_bullet",
+		"itemcount": "4-8/9-12/12-15"
+	},
+	{
+		"mob": ["zombie_extreme:rat_king",
+				"zombie_extreme:patient_zero"],
+		"player": true,
+		"item": "contenttweaker:resistant_fabric",
+		"itemcount": "1/2/3"
+	},
+	{
+		"mob": ["zombie_extreme:rat_king",
+				"zombie_extreme:patient_zero"],
+		"player": true,
+		"item": "contenttweaker:rubber",
+		"itemcount": "2/3/4"
+	},
+	{
+		"mob": ["zombie_extreme:rat_king",
+				"zombie_extreme:patient_zero"],
+		"player": true,
+		"random": 0.5,
+		"item": "contenttweaker:high_carbon_steel_alloy",
+		"itemcount": "1/2/3"
+	},
+	{
+		"mob": ["zombie_extreme:rat_king",
+				"zombie_extreme:patient_zero"],
+		"player": true,
+		"item": "quark:gunpowder_sack",
+		"itemcount": "2/3/4"
+	},
+	{
+		"mob": ["zombie_extreme:rat_king",
+				"zombie_extreme:patient_zero"],
+		"player": true,
+		"item": "tac:nato_556_bullet",
+		"itemcount": "24-27/32-35/40-45"
+	},
+	{
+		"mob": ["zombie_extreme:rat_king",
+				"zombie_extreme:patient_zero"],
+		"player": true,
+		"item": "tac:762x39",
+		"itemcount": "24-27/32-35/40-45"
+	},
+	{
+		"mob": ["zombie_extreme:demolisher"],
+		"player": true,
+		"random": 0.5,
+		"item": "contenttweaker:resistant_fabric",
+		"itemcount": "1/1/2"
+	},
+	{
+		"mob": ["zombie_extreme:demolisher"],
+		"player": true,
+		"random": 0.5,
+		"item": "contenttweaker:rubber",
+		"itemcount": "1/1/2"
+	},
+	{
+		"mob": ["zombie_extreme:demolisher"],
+		"player": true,
+		"random": 0.4,
+		"item": "quark:gunpowder_sack",
+		"itemcount": "2/3/4"
+	},
+	{
+		"mob": ["zombie_extreme:demolisher"],
+		"player": true,
+		"random": 0.25,
+		"item": "tac:nato_556_bullet",
+		"itemcount": "24-27/32-35/40-45"
+	},
+	{
+		"mob": ["zombie_extreme:demolisher"],
+		"player": true,
+		"random": 0.25,
+		"item": "tac:762x39",
+		"itemcount": "24-27/32-35/40-45"
+	},
+	{
 		"mob": ["minecraft:zombie",
 				"minecraft:husk",
 				"minecraft:drowned",
@@ -434,13 +526,13 @@
 		"player": true,
 		"random" : 0.75,
 		"item": "tac:nato_556_bullet",
-		"itemcount": "24-27/32-35/40-45"
+		"itemcount": "48-54/55-59/60-64"
 	},
 	{
 		"mob": "mutationcraft:the_intoxicator",
 		"player": true,
 		"random" : 0.75,
 		"item": "tac:762x39",
-		"itemcount": "24-27/32-35/40-45"
+		"itemcount": "48-54/55-59/60-64"
 	}
 ]
