@@ -10,7 +10,7 @@ artifact_rarity = 10000.0
 [campsite]
 	#Probability that a campsite has a mimic instead of a chest
 	#Range: 0.0 ~ 1.0
-	mimic_chance = 0.3
+	mimic_chance = 0.0
 	#Whether to use wooden chests from other mods when generating campsites
 	#(keeping this enabled may make it easier to distinguish them from mimics)
 	use_modded_chests = true

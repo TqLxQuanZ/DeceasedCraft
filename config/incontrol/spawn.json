@@ -277,18 +277,26 @@
     },
     {
       "mob": "undead_revamp2:thehunter",
+      "biome": [
+                "minecraft:plains",
+                "minecraft:savanna",
+                "minecraft:sunflower_plains",
+                "minecraft:snowy_plains",
+                "minecraft:snowy_taiga",
+                "minecraft:grove",
+                "biomesoplenty:field",
+                "biomesoplenty:lavender_field"],
       "dimension": "minecraft:overworld",
       "inbuilding": true,
       "incity": true,
       "minlight": 0,
       "maxlight": 6,
       "minheight": 61,
-      "minspawndist": 10000,
       "result": "allow",
       "nbt": {
         "Attributes": [
           {
-            "Base": 10.0,
+            "Base": 4.0,
             "Name": "generic.armor"
           }
         ]
@@ -297,15 +305,16 @@
     {
       "mob": "undead_revamp2:thespitter",
       "dimension": "minecraft:overworld",
+      "inbuilding": true,
+      "incity": true,
       "minlight": 0,
       "maxlight": 6,
       "minheight": 61,
-      "minspawndist": 10000,
       "result": "allow",
       "nbt": {
         "Attributes": [
           {
-            "Base": 4.0,
+            "Base": 2.0,
             "Name": "generic.armor"
           }
         ]
@@ -398,7 +407,101 @@
       }
     },
     {
+        "mob": ["zombie_extreme:crawler",
+                "zombie_extreme:runner"],
+        "dimension": "minecraft:overworld",
+        "minlight": 0,
+        "maxlight": 6,
+        "minheight": 54,
+        "result": "allow"
+    },
+    {
+        "mob": ["zombie_extreme:boomer",
+            "zombie_extreme:clicker",
+            "zombie_extreme:devastated"],
+        "dimension": "minecraft:overworld",
+        "minlight": 0,
+        "maxlight": 6,
+        "maxheight": 54,
+        "minheight": -60,
+        "result": "allow",
+        "healthadd": 10.0
+    },
+    {
+        "mob": ["zombie_extreme:infected_police"],
+        "building": [
+          "c70cities:building_policeoffice1",
+          "c70cities:building_policeoffice1_90",
+          "c70cities:building_policeoffice1_180",
+          "c70cities:building_policeoffice1_270"],
+        "minlight": 0,
+        "maxlight": 6,
+        "minheight": 61,
+        "result": "allow",
+        "armorhelmet": "apocalypsenow:police_helmet",
+        "armorchest": "apocalypsenow:police_chestplate",
+        "armorlegs": "apocalypsenow:police_leggings",
+        "armorboots": "apocalypsenow:police_boots",
+        "healthadd": 30.0
+    },
+    {
+        "mob": ["zombie_extreme:infected_police"],
+        "dimension": "minecraft:overworld",
+        "incity": true,
+        "minlight": 0,
+        "maxlight": 6,
+        "minheight": 61,
+        "random": 0.2,
+        "result": "allow",
+        "armorhelmet": "apocalypsenow:police_helmet",
+        "armorchest": "apocalypsenow:police_chestplate",
+        "armorlegs": "apocalypsenow:police_leggings",
+        "armorboots": "apocalypsenow:police_boots",
+        "healthadd": 15.0
+    },
+    {
+        "mob": ["zombie_extreme:infected_military",
+                "zombie_extreme:infected_hazmat"],
+        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+        "minlight": 0,
+        "maxlight": 6,
+        "minheight": 61,
+        "result": "allow",
+        "healthadd": 20.0,
+        "nbt": {
+          "Attributes": [
+            {
+              "Base": 14.0,
+              "Name": "generic.armor"
+            }
+          ]
+        }
+    },
+    {
+        "mob": ["zombie_extreme:infected_juggernaut"],
+        "building": [
+            "c70cities:multi_militarybase_0",
+            "c70cities:multi_militarybase_1",
+            "c70cities:multi_militarybase_2",
+            "c70cities:multi_militarybase_3"],
+        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+        "minlight": 0,
+        "maxlight": 6,
+        "minheight": 61,
+        "result": "allow",
+        "healthadd": 40.0,
+        "nbt": {
+          "Attributes": [
+            {
+              "Base": 30.0,
+              "Name": "generic.armor"
+            }
+          ]
+        }
+    },
+    {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
         "incity": true,
         "onjoin": true,
         "minheight": 61,
@@ -413,6 +516,7 @@
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
         "biome": ["minecraft:beach"],
         "onjoin": true,
         "random": 0.3,
@@ -421,6 +525,7 @@
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
         "biome": ["minecraft:snowy_plains", "minecraft:snowy_taiga", "minecraft:snowy_slopes"],
         "onjoin": true,
         "random": 0.3,
@@ -447,34 +552,7 @@
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
-        "building": [
-          "c70cities:building_policeoffice1",
-          "c70cities:building_policeoffice1_90",
-          "c70cities:building_policeoffice1_180",
-          "c70cities:building_policeoffice1_270"],
-        "onjoin": true,
-        "minheight": 61,
-        "random": 0.85,
-        "result": "default",
-        "armorhelmet": "apocalypsenow:police_helmet",
-        "armorchest": "apocalypsenow:police_chestplate",
-        "armorlegs": "apocalypsenow:police_leggings",
-        "armorboots": "apocalypsenow:police_boots"
-    },
-    {
-        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
-        "incity": true,
-        "onjoin": true,
-        "minheight": 61,
-        "random": 0.05,
-        "result": "default",
-        "armorhelmet": "apocalypsenow:police_helmet",
-        "armorchest": "apocalypsenow:police_chestplate",
-        "armorlegs": "apocalypsenow:police_leggings",
-        "armorboots": "apocalypsenow:police_boots"
-    },
-    {
-        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
         "biome": ["biomesoplenty:mediterranean_forest",
                   "biomesoplenty:mystic_grove",
                   "biomesoplenty:cherry_blossom_grove",
@@ -503,6 +581,7 @@
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
         "biome": [
 					"minecraft:plains",
 					"minecraft:savanna",
@@ -524,6 +603,7 @@
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
         "biome": [
 					"minecraft:plains",
 					"minecraft:savanna",
@@ -545,6 +625,7 @@
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
         "incity": true,
         "onjoin": true,
         "minheight": 61,
@@ -557,6 +638,7 @@
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
         "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
         "incity": true,
         "onjoin": true,
@@ -570,6 +652,7 @@
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
         "building": [
             "c70cities:multi_militarybase_0",
             "c70cities:multi_militarybase_1",
@@ -586,6 +669,7 @@
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
         "incity": true,
         "onjoin": true,
         "minheight": 61,
@@ -597,7 +681,8 @@
         "armorboots": "apocalypsenow:construction_boots"
     },
     {
-        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "mob": ["zombie_extreme:infected_hazmat"],
+        "dimension": "minecraft:overworld",
         "incity": true,
         "onjoin": true,
         "minheight": 61,
@@ -611,6 +696,7 @@
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
         "incity": true,
         "onjoin": true,
         "minheight": 61,
@@ -631,6 +717,7 @@
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
         "incity": true,
         "onjoin": true,
         "minheight": 61,
@@ -651,6 +738,7 @@
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
         "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
         "minheight": 61,
         "result": "deny"
@@ -685,6 +773,7 @@
               "mutationcraft:assimilated_villager",
               "mutationcraft:assimilated_wolf"
             ],
+      "dimension": "minecraft:overworld",
       "minlight": 0,
       "maxlight": 6, 
       "incity": false,
@@ -698,6 +787,7 @@
               "mutationcraft:human_stage_1",
               "mutationcraft:human_stage_2",
               "mutationcraft:human_stage_3"],
+      "dimension": "minecraft:overworld",
       "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
       "minlight": 0,
       "maxlight": 6, 
@@ -710,6 +800,7 @@
               "mutationcraft:human_stage_1",
               "mutationcraft:human_stage_2",
               "mutationcraft:human_stage_3"],
+      "dimension": "minecraft:overworld",
       "minlight": 0,
       "maxlight": 6,
       "incity": true,
@@ -720,44 +811,13 @@
     },
     {
       "mob": ["mutationcraft:reductor"],
+      "dimension": "minecraft:overworld",
       "minlight": 0,
       "maxlight": 6,
       "onjoin": true,
       "minspawndist": 15000,
       "result": "allow",
       "damageadd": 10.0
-    },
-    {
-      "mob": "mutationcraft:parasitic_shooter",
-      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
-      "minlight": 0,
-      "maxlight": 6, 
-      "incity": true,
-      "onjoin": true,
-      "result": "allow",
-      "damageadd": 30.0,
-      "nbt": {
-        "Attributes": [
-          {
-            "Base": 4.0,
-            "Name": "generic.armor"
-          }
-        ]
-      }
-    },
-    {
-      "mob": "mutationcraft:parasitic_shooter",
-      "incontrol": false,
-      "onjoin": true,
-      "damageadd": 30.0,
-      "nbt": {
-        "Attributes": [
-          {
-            "Base": 4.0,
-            "Name": "generic.armor"
-          }
-        ]
-      }
     },
     {
       "mob": "mutationcraft:resenter",
@@ -1058,6 +1118,11 @@
         "result": "deny"
     },
     {
+      "mod": "zombie_extreme",
+      "dimension": "minecraft:overworld",
+      "result": "deny"
+    },
+    {
       "mod": "mutationcraft",
       "dimension": "minecraft:overworld",
       "result": "deny"
@@ -1097,6 +1162,54 @@
     {
       "mod": "artifacts",
       "dimension": "minecraft:overworld",
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mob": ["minecraft:spider",
+              "minecraft:cave_spider"],
+		  "dimension": "deceasedcraft:abyss",
+      "onjoin": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "result": "allow",
+      "healthadd": 30.0,
+      "speedmultiply": 1.5
+    },
+    {
+      "mob": "alexsmobs:crimson_mosquito",
+		  "dimension": "deceasedcraft:abyss",
+      "onjoin": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "result": "allow",
+      "healthadd": 30.0
+    },
+    {
+      "mob": "mutationcraft:parasitic_shooter",
+		  "dimension": "deceasedcraft:abyss",
+      "minlight": 0,
+      "maxlight": 6, 
+      "result": "allow",
+      "damageadd": 30.0,
+      "healthadd": 500.0,
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 4.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
+    },
+    {
+      "mod": "zombie_extreme",
+		  "dimension": "deceasedcraft:abyss",
+      "result": "deny"
+    },
+    {
+      "mod": "artifacts",
+		  "dimension": "deceasedcraft:abyss",
       "onjoin": true,
       "result": "deny"
     }

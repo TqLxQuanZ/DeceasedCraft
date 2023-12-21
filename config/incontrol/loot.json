@@ -8,6 +8,10 @@
 		"removeall": true
 	},
 	{
+		"mod": "zombie_extreme",
+		"removeall": true
+	},
+	{
 		"remove": [
 			"immersiveengineering:shader_bag_common",
 			"immersiveengineering:shader_bag_uncommon",
@@ -16,31 +20,61 @@
 			"immersiveengineering:shader_bag_ie_masterwork"]
 	},
 	{
-		"mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+		"mob": ["minecraft:zombie",
+				"minecraft:husk",
+				"minecraft:drowned",
+				"zombie_extreme:crawler",
+				"zombie_extreme:runner"],
 		"player": true,
 		"random" : 0.4,
 		"item": "minecraft:string",
 		"itemcount": "2/3/4"
 	},
 	{
-		"mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+		"mob": ["minecraft:zombie",
+				"minecraft:husk",
+				"minecraft:drowned",
+				"zombie_extreme:crawler",
+				"zombie_extreme:runner"],
 		"player": true,
 		"random" : 0.1,
 		"item": "tac:9mm_round",
 		"itemcount": "1/1/2"
 	},
 	{
-		"mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+		"mob": ["minecraft:zombie",
+				"minecraft:husk",
+				"minecraft:drowned",
+				"zombie_extreme:crawler",
+				"zombie_extreme:runner"],
 		"player": true,
 		"random" : 0.05,
 		"item": "tac:round45",
 		"itemcount": "1/1/2"
 	},
 	{
-		"mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+		"mob": ["minecraft:zombie",
+				"minecraft:husk",
+				"minecraft:drowned",
+				"zombie_extreme:crawler",
+				"zombie_extreme:runner"],
 		"random" : 0.5,
 		"item": "minecraft:bone",
 		"itemcount": "2/2/3"
+	},
+	{
+		"mob": ["zombie_extreme:infected_police"],
+		"player": true,
+		"random" : 0.3,
+		"item": "tac:9mm_round",
+		"itemcount": "4/7/10"
+	},
+	{
+		"mob": ["zombie_extreme:infected_police"],
+		"player": true,
+		"random" : 0.15,
+		"item": "tac:round45",
+		"itemcount": "2/3/4"
 	},
 	{
 		"mob": ["minecraft:zombie",
