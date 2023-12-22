@@ -170,7 +170,7 @@
 	hardcore = false
 	#If a world's difficulty should be locked when loaded, if world already is locked it can't be changed
 	#If the global world difficulty is enabled it's set first
-	lock_difficulty = true
+	lock_difficulty = false
 
 #A collection of misc configs
 [misc]
