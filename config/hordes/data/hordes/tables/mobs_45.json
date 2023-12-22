@@ -1,11 +1,7 @@
 [
 	{
-		"entity": "mutationcraft:assimilated_human",
-		"weight": 20
-	},
-	{
-		"entity": "mutationcraft:assimilated_creeper",
-		"weight": 5
+		"entity": "minecraft:zombie",
+		"weight": 25
 	},
 	{
 		"entity": "undead_revamp2:bomber",
@@ -16,7 +12,12 @@
 		"weight": 5
 	},
 	{
+		"entity": "minecraft:zombie",
+		"weight": 3,
+		"nbt": "{HandItems:[{id:netherite_pickaxe,Count:1}]}"
+	},
+	{
 		"entity": "undead_revamp2:thepregnant",
-		"weight": 3
+		"weight": 2
 	}
 ]

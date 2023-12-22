@@ -7,13 +7,13 @@
 	#Multiplier by which the spawn amount increases by each time the event naturally spawns. (Set to 1 to disable scaling.)
 	hordeSpawnMultiplier = 1.05
 	#Time in ticks the event lasts for
-	hordeSpawnDuration = 6000
+	hordeSpawnDuration = 10000
 	#Time in ticks between spawns for the horde spawn event.
 	hordeSpawnInterval = 2000
 	#What time of day does the horde event start? eg 18000 is midnight with default day length.
-	hordeStartTime = 18000
+	hordeStartTime = 13000
 	#Amount of days between horde spawns.
-	hordeSpawnDays = 20
+	hordeSpawnDays = 15
 	#Amount of days a horde event can be randomly delayed by
 	hordeSpawnVariation = 0
 	#Max cap for the number of entities that can exist from the horde at once.

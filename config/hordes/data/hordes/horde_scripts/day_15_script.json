@@ -1,6 +1,6 @@
 {
 	"function": "hordes:set_spawntable",
-	"value": "hordes:mobs_300",
+	"value": "hordes:mobs_15",
 	"conditions":
 	[
 		{
@@ -12,7 +12,7 @@
 					"name": "hordes:player_nbt",
 					"value": "ForgeCaps.ag_day_counter:player_variables.Days"
 				},
-				"value2": 201.0
+				"value2": 0.0
 			}
 		},
 		{
@@ -24,7 +24,7 @@
 					"name": "hordes:player_nbt",
 					"value": "ForgeCaps.ag_day_counter:player_variables.Days"
 				},
-				"value2": 300.0
+				"value2": 15.0
 			}
 		}
 	]
