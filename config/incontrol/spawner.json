@@ -1,7 +1,7 @@
 [
 	{
 		"mob": ["minecraft:zombie", "minecraft:husk"],
-		"persecond": 0.15,
+		"persecond": 0.3,
 		"attempts": 30,
 		"amount": {
 		  "minimum": 1,
@@ -15,24 +15,6 @@
 		  "maxdist": 200,
 		  "minheight": 45,
 		  "maxheight": 300
-		}
-	},
-	{
-		"mob": "minecraft:husk",
-		"persecond": 0.1,
-		"attempts": 30,
-		"amount": {
-		  "minimum": 1,
-		  "maximum": 2,
-		  "groupdistance": 3
-		},
-		"conditions": {
-		  "dimension": "minecraft:overworld",
-		  "norestrictions": true,
-		  "mindist": 15,
-		  "maxdist": 200,
-		  "minheight": -64,
-		  "maxheight": 45
 		}
 	},
 	{
@@ -298,7 +280,7 @@
 	{
 		"mob": ["zombie_extreme:crawler",
 				"zombie_extreme:runner"],
-		"persecond": 0.1,
+		"persecond": 0.05,
 		"attempts": 25,
 		"conditions": {
 		  "dimension": "minecraft:overworld",
