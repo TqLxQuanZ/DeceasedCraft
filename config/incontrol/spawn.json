@@ -107,6 +107,13 @@
     {
       "mod": "zombiemobs",
       "dimension": "minecraft:overworld",
+      "seesky": false,
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mod": "zombiemobs",
+      "dimension": "minecraft:overworld",
       "minlight": 7,
       "maxlight": 15,
       "onjoin": true,
