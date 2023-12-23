@@ -163,7 +163,7 @@
 			#Entities that can bypass all block protection. Supports entity type tags.
 			#Supports patterns with special characters *, (, ) and |, where * matches anything, ( ) are used for grouping and | means OR.
 			#For example ["minecraft:(v|p)illager", "minecraft:*illager", "#minecraft:raiders"]
-			entitiesAllowedToGrief = ["minecraft:sheep"]
+			entitiesAllowedToGrief = ["minecraft:sheep", "minecraft:zombie", "zombie_extreme:*", "mutationcraft:*"]
 			#Entities that can bypass all protection of other entities. Supports entity type tags.
 			#Supports patterns with special characters *, (, ) and |, where * matches anything, ( ) are used for grouping and | means OR.
 			#For example ["minecraft:(v|p)illager", "minecraft:*illager", "#minecraft:raiders"]
