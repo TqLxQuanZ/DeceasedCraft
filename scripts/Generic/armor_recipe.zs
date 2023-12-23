@@ -750,10 +750,10 @@ craftingTable.remove(<item:create_sa:copper_exoskeleton_chestplate>);
 
 // Gas Mask - Grant access to wasteland
 craftingTable.remove(<item:apocalypsenow:gasmask_helmet>);
-<recipetype:create:mechanical_crafting>.addRecipe("gasmask_helmet", <item:apocalypsenow:gasmask_helmet>,
-    [[<item:minecraft:air>, <tag:items:forge:plates/plastic>, <item:apocalypsenow:breathingfiltermodule>, <tag:items:forge:plates/plastic>, <item:minecraft:air>],
-    [<tag:items:forge:plates/plastic>, <tag:items:forge:plates/lead>, <tag:items:forge:glass>, <tag:items:forge:plates/lead>, <tag:items:forge:plates/plastic>],
-    [<item:contenttweaker:rubber>, <tag:items:forge:plates/lead>, <item:minecraft:air>, <tag:items:forge:plates/lead>, <item:contenttweaker:rubber>]]);
+craftingTable.addShapedMirrored("gasmask_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:gasmask_helmet>,
+    [[<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>],
+    [<tag:items:forge:plates/lead>, <tag:items:forge:glass>, <tag:items:forge:plates/lead>],
+    [<item:contenttweaker:rubber>, <item:apocalypsenow:breathingfiltermodule>, <item:contenttweaker:rubber>]]);
 
 // Biker Helmets - Immunity to blindness and nausea
 craftingTable.remove(<item:apocalypsenow:red_bikers_helmet>);

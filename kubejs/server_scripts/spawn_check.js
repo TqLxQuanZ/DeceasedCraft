@@ -15,7 +15,7 @@ onEvent('entity.hurt', event => {
 	{
 		if (event.getSource().getType() == "inWall")
 		{
-			event.getEntity().remove();
+			event.cancel();
 		}
 	}
 })
