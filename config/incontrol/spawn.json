@@ -1191,6 +1191,7 @@
               "alexsmobs:mungus",
               "alexsmobs:void_worm",
               "alexsmobs:toucan"],
+      "dimension": "minecraft:overworld",
       "result": "deny"
     },
     {
@@ -1353,6 +1354,41 @@
       }
     },
     {
+      "mob": ["alexsmobs:centipede_body", "alexsmobs:centipede_tail"],
+		  "dimension": "deceasedcraft:abyss",
+      "result": "default",
+      "damageadd": 25.0,
+      "healthadd": 200.0,
+      "onjoin": true,
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 20.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
+    },
+    {
+      "mob": ["alexsmobs:centipede_head"],
+		  "dimension": "deceasedcraft:abyss",
+      "minlight": 0,
+      "maxlight": 6, 
+      "result": "allow",
+      "damageadd": 25.0,
+      "healthadd": 200.0,
+      "onjoin": true,
+      "nbt": {
+        "SegCount": 20,
+        "Attributes": [
+          {
+            "Base": 30.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
+    },
+    {
       "mod": "zombie_extreme",
 		  "dimension": "deceasedcraft:abyss",
       "result": "deny"
@@ -1361,6 +1397,36 @@
       "mod": "artifacts",
 		  "dimension": "deceasedcraft:abyss",
       "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mob": [
+              "minecraft:creeper",
+              "minecraft:enderman",
+              "minecraft:skeleton",
+              "minecraft:witch",
+              "minecraft:stray",
+              "minecraft:phantom",
+              "minecraft:witch",
+              "minecraft:skeleton_horse",
+              "quark:forgotten",
+              "alexsmobs:bone_serpent",
+              "alexsmobs:bunfungus",
+              "alexsmobs:bone_serpent",
+              "alexsmobs:flutter",
+              "alexsmobs:froststalker",
+              "alexsmobs:dropbear",
+              "alexsmobs:guster",
+              "alexsmobs:sunbird",
+              "alexsmobs:straddler",
+              "alexsmobs:spectre",
+              "alexsmobs:bone_serpent",
+              "alexsmobs:soul_vulture",
+              "alexsmobs:sea_bear",
+              "alexsmobs:mungus",
+              "alexsmobs:void_worm",
+              "alexsmobs:toucan"],
+      "dimension": "deceasedcraft:abyss",
       "result": "deny"
     }
 ]

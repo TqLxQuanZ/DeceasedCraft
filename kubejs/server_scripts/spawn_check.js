@@ -9,4 +9,13 @@ onEvent('entity.hurt', event => {
 			event.getEntity().remove();
 		}
 	}
+	if (event.getEntity().getType() == "alexsmobs:centipede_head" ||
+		event.getEntity().getType() == "alexsmobs:centipede_body" ||
+		event.getEntity().getType() == "alexsmobs:centipede_tail")
+	{
+		if (event.getSource().getType() == "inWall")
+		{
+			event.getEntity().remove();
+		}
+	}
 })

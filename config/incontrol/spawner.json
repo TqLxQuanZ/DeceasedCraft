@@ -440,12 +440,26 @@
 		"persecond": 0.05,
 		"attempts": 20,
 		"conditions": {
-			"dimension": "deceasedcraft:abyss",
+		  "dimension": "deceasedcraft:abyss",
 		  "norestrictions": true,
 		  "mindist": 10,
 		  "maxdist": 120,
 		  "minheight": -60,
 		  "maxheight": 350
+		}
+	},
+	{
+		"mob": ["alexsmobs:centipede_head"],
+		"persecond": 0.005,
+		"attempts": 3,
+		"conditions": {
+		  "dimension": "deceasedcraft:abyss",
+		  "norestrictions": true,
+		  "mindist": 10,
+		  "maxdist": 120,
+		  "minheight": -60,
+		  "maxheight": 300,
+		  "maxlocal": 2
 		}
 	}
 ]
