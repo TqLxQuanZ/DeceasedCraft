@@ -110,6 +110,13 @@ import crafttweaker.api.resource.ResourceLocation;
 <tag:blocks:create:seats>.add(<tag:blocks:embellishcraft:couches>);
 <tag:blocks:create:seats>.add(<tag:blocks:forge:chairs>);
 
+<tag:items:create:seats>.add(<tag:items:embellishcraft:couches>);
+<tag:items:create:seats>.add(<tag:items:another_furniture:chairs>);
+<tag:items:create:seats>.add(<tag:items:another_furniture:sofas>);
+<tag:items:create:seats>.add(<tag:items:another_furniture:tall_stools>);
+<tag:items:create:seats>.add(<tag:items:another_furniture:benches>);
+<tag:items:create:seats>.add(<tag:items:another_furniture:stools>);
+
 // Plane upgrade tags
 <tag:items:simpleplanes:plane_upgrades>.add(<item:simpleplanes:floaty_bedding>);
 <tag:items:simpleplanes:plane_upgrades>.add(<item:simpleplanes:booster>);
