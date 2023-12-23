@@ -1,0 +1,112 @@
+
+[general]
+	disable_mod = false
+	auto_start = false
+	space_modules = false
+	shadow_text = true
+	animations = true
+	animationSpeed = 1.0
+	fontScale = 1.0
+	background_color = 1867534416
+	hide_debug_crosshair = false
+	hide_sidebar = true
+	hide_bossbar = true
+	always_show_profiler = false
+	always_show_tps = false
+
+[[modules_left]]
+	name = "minecraft"
+	name_color = 10506797
+	value_color = 43520
+	enabled = true
+
+	[modules_left.lines]
+		minecraft = true
+
+[[modules_left]]
+	name = "fps"
+	color_high = 5635925
+	color_med = 16777045
+	color_low = 16733525
+	enabled = true
+
+	[modules_left.lines]
+		fps = true
+
+[[modules_left]]
+	name = "graphics"
+	name_color = 16755200
+	value_color = 5636095
+	enabled = true
+
+	[modules_left.lines]
+		render_distance = true
+		graphics = true
+		clouds = true
+		biome_blend_radius = true
+		shader = true
+
+[[modules_left]]
+	name = "server"
+	name_color = 11184810
+	value_color = 16777045
+	enabled = true
+
+	[modules_left.lines]
+		server_tick = true
+		packets_sent = true
+		packets_received = true
+
+[[modules_left]]
+	name = "empty"
+	empty_lines = 1
+	enabled = true
+
+	[modules_left.lines]
+		nothing = true
+
+[[modules_right]]
+	name = "system"
+	name_color = 16755200
+	value_color = 5636095
+	enabled = true
+
+	[modules_right.lines]
+		time = true
+		java_version = true
+		memory_usage = true
+		allocation_rate = true
+		allocated_memory = true
+		cpu = true
+		display = true
+		gpu = true
+		opengl_version = true
+		gpu_driver = true
+
+[[modules_right]]
+	name = "empty"
+	empty_lines = 1
+	enabled = true
+
+	[modules_right.lines]
+		nothing = true
+
+[[modules_right]]
+	name = "target"
+	name_color = 43775
+	value_color = 16777045
+	enabled = true
+
+	[modules_right.lines]
+		targeted_block = true
+		id_block = true
+		block_states = true
+		block_tags = true
+		nothing = true
+		targeted_fluid = true
+		id_fluid = true
+		fluid_states = true
+		fluid_tags = true
+		nothing2 = true
+		targeted_entity = true
+

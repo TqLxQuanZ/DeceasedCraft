@@ -1,0 +1,173 @@
+
+[client]
+
+	#Control sounds triggered by guns
+	[client.sounds]
+		#Show your ammunition as numbers, reloading timer, weapon icon, and fire mode all on the HUD.
+		#Range: 0.0 ~ 1.0
+		weaponsVolume = 1.0
+		#If true, a sound will play when you successfully hit a headshot on a entity with a gun
+		playSoundWhenHeadshot = true
+		#The sound to play when a headshot occurs
+		headshotSound = "minecraft:entity.player.attack.crit"
+		#If true, a sound will play when you successfully hit a critical on a entity with a gun
+		playSoundWhenCritical = true
+		#The sound to play when a critical occurs
+		criticalSound = "minecraft:entity.player.attack.crit"
+
+	#Configuration for display related options
+	[client.display]
+		#If true, uses the old animation poses for weapons. This is only for nostalgic reasons and not recommended to switch back.
+		oldAnimations = false
+		#The custom crosshair to use for weapons. Go to (Options > Controls > Mouse Settings > Crosshair) in game to change this!
+		crosshair = "minecraft:default"
+		#Show % of your ammo in your gun via a colored durability bar. Set to false to remove bar entirely for more realistic gameplay
+		weaponAmmoBar = false
+		#Scopes are brought closer to the shooter to help fill FOV with a scope view at all times
+		gameplayEnchancedScopeOffset = true
+		#Enable picture in picture rendering for scopes, saves on some performance and issues with Optifine
+		scopeDoubleRender = false
+		#Enable 0 fov multiplied sights (Dot/Holo sights) to render in 2d when aimed like the scopeDoubleRender(false) effect.
+		redDotSquishUpdate = false
+		#Enable 0 fov multiplied sights (Dot/Holo sights) to be viewed realisticly, with the players head static for iron sights, and 1x optics
+		sight1xRealisticPostion = false
+		#Shake camera when hit, 0 = no camera shake when you are hit, while holding a gun, meant to help reduce jarring feel when attempting to aim.
+		#Range: 0 ~ 10
+		cameraShakeOnHit = 6
+		#Enable the cameraShakeOnHit option to always take effect, holding a gun or not, keep false for vanilla gameplay to remain vanilla.
+		cameraShakeOptionGlobal = false
+		#Shake camera when firing the weapon, currently in beta but will be expanded on in the future, if it causes vomit, DISABLE, else enjoy!
+		cameraShakeOnFire = true
+		#Attempt to show bullet trails from your own gun, currently ALPHA, doesn't map to the barrel of weapons and maybe distracting.
+		showFirstPersonBulletTrails = true
+		#When looking around the weapon sways smoothly in delay with the camera movement. Disable if distracting with scopes.
+		weaponDelayedSway = true
+		#Maximum degrees the weapon's delayed sway can rotate the weapon.
+		#Range: 0.5 ~ 10.0
+		weaponDelayedSwayMaximum = 3.35
+		#Adjusts the sensitivity of the weapon's delayed sway, depending on mouse / head, movement.
+		#Range: -0.4 ~ -0.05
+		weaponDelayedSwayMultiplier = -0.1
+		#If true, the weapon will drag against the aiming point, false will drag the aiming point on sway.
+		weaponDelayedSwayDirection = false
+		#If true, the weapon will drag against the aiming point ONLY if an optic is added.
+		weaponDelayedSwayYNOptical = false
+		#Choose to see any bullet trails, trails by you or any other player / bot will not appear. Helps with Shader compatability.
+		showBulletTrails = true
+		#Adjusts the opacity, AKA how see through the bullet trails are seen as, higher values can be seen better indoors or at daytime.
+		#Range: 0.1 ~ 1.0
+		bulletTrailOpacity = 0.5
+		#If enabled, when a bullet hits an entity, a cross will be briefly displayed at the center of the screen to indicate that the target has been hit.
+		showHitMarkers = true
+
+	#Properties relating to particles
+	[client.particle]
+		#The minimum duration in ticks before bullet holes will disappear
+		#Range: > 0
+		bulletHoleLifeMin = 250
+		#The maximum duration in ticks before bullet holes will disappear
+		#Range: > 0
+		bulletHoleLifeMax = 800
+		#The percentage of the maximum life that must pass before particles begin fading away. 0 makes the particles always fade and 1 removes facing completely
+		#Range: 0.0 ~ 1.0
+		bulletHoleFadeThreshold = 0.98
+		#If true, blood will will spawn from entities that are hit from a projectile
+		enableBlood = false
+
+	#Properties relating to controls
+	[client.controls]
+		#A value to multiple the mouse sensitivity by when aiming down weapon sights. Go to (Options > Controls > Mouse Settings > ADS Sensitivity) in game to change this!
+		#Range: 0.0 ~ 2.0
+		aimDownSightSensitivity = 1.0
+		#If true, you need to hold the aim key to aim, false to toggle the aim state by aim key
+		holdToAim = true
+		#Press to use a burst fire a gun, if false, burst will become semi shoot
+		burstPress = true
+
+	#Properties relating to improving graphical performance (Currently unsupported, do not attempt to change these settings until announcements are made about these features!)
+	[client.quality]
+		#If enabled all main weapons will be unloaded and replaced with lower quality and legacy models, not all guns maybe replaced with this mode!
+		reducedQualityHotBar = true
+		#WARNING ALPHA!... If enabled the DR of scopes will use a new rendering method, this has some ability to work with shaders, however unlikely, best performance is found in vanilla. RESTART REQUIRED
+		worldRerenderPiPAlpha = false
+
+	#Configuration for HUD additions
+	[client.weaponGui]
+		#Show your ammunition as numbers, reloading timer, weapon icon, and fire mode all on the HUD.
+		weaponGui = true
+
+		#Configuration for HUD additions
+		[client.weaponGui.weaponTypeIcon]
+			#Display the weapon type Icon on your HUD.
+			showWeaponIcon = true
+			#Size of the weapon type Icon on your HUD
+			#Range: 0.01 ~ 4.0
+			weaponIconSize = 1.0
+			#X Position on your HUD.
+			#Range: -500.0 ~ 500.0
+			XLocation = 0.0
+			#Y Position on your HUD.
+			#Range: -500.0 ~ 500.0
+			YLocation = 0.0
+
+		#Configuration for HUD additions
+		[client.weaponGui.weaponFireMode]
+			#Display the weapon's fire mode on your HUD.
+			showWeaponFireMode = true
+			#Size of the weapon's fire mode on your HUD
+			#Range: 0.01 ~ 4.0
+			weaponFireModeSize = 1.0
+			#X Position on your HUD.
+			#Range: -500.0 ~ 500.0
+			XLocation = 0.0
+			#Y Position on your HUD.
+			#Range: -500.0 ~ 500.0
+			YLocation = 0.0
+
+		#Configuration for HUD additions
+		[client.weaponGui.weaponAmmoCounter]
+			#Display the amount of ammunition your weapon holds and can hold on your HUD.
+			showWeaponAmmoCounter = true
+			#Size of the weapon ammunition counter on your HUD
+			#Range: 0.01 ~ 4.0
+			weaponAmmoCounterSize = 1.0
+			#X Position on your HUD.
+			#Range: -500.0 ~ 500.0
+			XLocation = 0.0
+			#Y Position on your HUD.
+			#Range: -500.0 ~ 500.0
+			YLocation = 0.0
+
+		#Configuration for HUD reloading timer bar
+		[client.weaponGui.weaponReloadTimer]
+			#Display the amount of ammunition your weapon holds and can hold on your HUD.
+			showWeaponAmmoCounter = true
+			#Size of the weapon ammunition counter on your HUD
+			#Range: 0.01 ~ 4.0
+			weaponAmmoCounterSize = 1.0
+			#X Position on your HUD.
+			#Range: -500.0 ~ 500.0
+			XLocation = 0.0
+			#Y Position on your HUD.
+			#Range: -500.0 ~ 500.0
+			YLocation = 0.0
+
+	#Control what can interact with when holding gun in hand.
+	[client.rightClickUses]
+		#Whether allow chest use
+		allowChests = false
+		#Whether allow lever use
+		allowLever = true
+		#Whether allow button use
+		allowButton = true
+		#Whether allow door use
+		allowDoors = false
+		#Whether allow trap door use
+		allowTrapDoors = false
+		#Whether allow crafting table use
+		allowCraftingTable = false
+		#Whether allow fence gates use
+		allowFenceGates = false
+		#Whether allow to interact with rest stuffs.
+		allowRestUse = false
+

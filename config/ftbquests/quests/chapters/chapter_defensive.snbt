@@ -282,7 +282,7 @@
 			description: [
 				"Repaired with cloth."
 				""
-				"The full ghillie suit set grants a bonus to movement speed."
+				"The full ghillie suit set grants a bonus to movement speed, but only on the block type it matches."
 				""
 				"While your attempt at camouflage is commendable, the zombies don't seem to care..."
 			]
@@ -435,8 +435,8 @@
 		}
 		{
 			title: "Construction Set"
-			x: 9.5d
-			y: -1.0d
+			x: 12.0d
+			y: -2.0d
 			description: [
 				"Repaired with cloth."
 				""
@@ -530,8 +530,8 @@
 		}
 		{
 			title: "Army General Set"
-			x: 12.0d
-			y: -2.0d
+			x: 9.5d
+			y: -1.0d
 			description: [
 				"Repaired with cloth."
 				""
@@ -568,7 +568,7 @@
 			description: [
 				"Repaired with cloth."
 				""
-				"The full royal canada set provides a bonus to attack speed and damage."
+				"The full royal canada set provides a bonus to ranged damage."
 			]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
@@ -588,39 +588,6 @@
 			}]
 			rewards: [{
 				id: "381FCAC0979DA380"
-				type: "xp"
-				xp: 150
-			}]
-		}
-		{
-			title: "Officer Helmet"
-			x: 12.5d
-			y: 1.0d
-			description: [
-				"Repaired with cloth."
-				""
-				"The Officer Helmet provides blindness and nausea immunity."
-			]
-			dependencies: ["1B1EB334C4561997"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "7F1E831554D88749"
-			tasks: [{
-				id: "2ADB0D6E0D5BC8DC"
-				type: "item"
-				item: {
-					id: "apocalypsenow:officer_helmet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"cold_sweat:item_insulation": { }
-					}
-				}
-			}]
-			rewards: [{
-				id: "6A6BC973643E315C"
 				type: "xp"
 				xp: 150
 			}]
@@ -1019,7 +986,7 @@
 			description: [
 				"Repaired with high-resistance fabric."
 				""
-				"The full SWAT set provides a bonus to melee damage and attack speed, as well as weakness immunity."
+				"The full SWAT set provides damage resistance, as well as weakness immunity."
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
@@ -1050,8 +1017,7 @@
 			description: [
 				"Repaired with high-resistance fabric."
 				""
-				"The full Riot SWAT set provides a bonus to melee damage and attack speed, as well as weakness immunity."
-				"It also slows enemies on hit."
+				"The full Riot SWAT set provides damage resistance, as well as weakness immunity."
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
@@ -1082,7 +1048,8 @@
 			description: [
 				"Repaired with high-resistance fabric."
 				""
-				""
+				"The full juggernaut set provides massive damage resistance, as well as weakness immunity."
+				"However, it comes with a movement penalty."
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
@@ -1110,7 +1077,12 @@
 			title: "Bomb Squad Set"
 			x: 28.5d
 			y: -1.0d
-			description: ["Repaired with high-resistance fabric."]
+			description: [
+				"Repaired with high-resistance fabric."
+				""
+				"The full bomb squad set provides massive damage resistance, as well as weakness immunity."
+				"However, it comes with a movement penalty."
+			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1140,7 +1112,7 @@
 			description: [
 				"Repaired with high-resistance fabric."
 				""
-				"The full spec ops set provides a bonus to melee damage, movement and attack speed, as well as knockback damage and weakness immunity."
+				"The full Spec set provides damage resistance, as well as weakness immunity."
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
@@ -1173,7 +1145,7 @@
 				""
 				"Equipping the soldier helmet allows you to enter the wasteland without suffering negative effects."
 				""
-				"The full soldier set provides a bonus to melee damage and attack speed, as well as damage resistance and weakness immunity."
+				"The full soldier set provides damage resistance, as well as weakness immunity."
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
@@ -1315,6 +1287,34 @@
 				id: "5EA6CAF438BF4AA5"
 				type: "xp"
 				xp: 1200
+			}]
+		}
+		{
+			title: "Head Protection"
+			x: 12.5d
+			y: 1.0d
+			description: [
+				"Many types of head protection can be found at this tier."
+				""
+				"They all provide blindness and nausea immunity."
+			]
+			dependencies: ["1B1EB334C4561997"]
+			id: "71B08B7A269BD704"
+			tasks: [{
+				id: "527EAF53B12FE53A"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "armorset:headgear"
+					}
+				}
+			}]
+			rewards: [{
+				id: "31C7509C0D56CAD2"
+				type: "xp"
+				xp: 150
 			}]
 		}
 	]

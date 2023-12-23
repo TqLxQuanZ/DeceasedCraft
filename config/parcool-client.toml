@@ -1,58 +1,36 @@
 
 ["Stamina HUD Configuration"]
-	#hide stamina HUD when Stamina is infinite
-	hide_s_hud = false
-	#use Light Stamina HUD
-	use_light_hud = true
 	#horizontal alignment
 	#Allowed Values: Left, Right
 	align_h_s_hud = "Right"
 	#vertical alignment
 	#Allowed Values: Top, Bottom
 	align_v_s_hud = "Bottom"
-	#horizontal margin
+	#Allowed Values: Normal, Light, Hide
+	stamina_hud_type = "Light"
+	hide_hud_if_stamina_infinite = true
+	#horizontal margin of normal HUD
 	#Range: 0 ~ 100
-	margin_h_s_hud = 3
-	#vertical margin
+	margin_h_stamina_hud = 3
+	#vertical margin of normal HUD
 	#Range: 0 ~ 100
-	margin_v_s_hud = 3
+	margin_v_stamina_hud = 3
 
 ["Other Configuration"]
-	#Make Vault Need Vault Key Pressed
-	vaultNeedKeyPressed = false
-	#Disable Double-Tapping For Dodge. Please Use Dodge Key instead
-	disable_double_tapping = false
-	#Disable Crawl in air (experimental)
-	disable_crawl_in_air = false
-	#Disable Vault in air (experimental)
-	disable_vault_in_air = false
-	#Enable Roll While player is in creative mode (experimental)
-	enable_roll_creative = false
 	#Vault Animation(Dynamic is to select animation dynamically)
 	#Allowed Values: SpeedVault, KongVault, Dynamic
 	vault_animation_mode = "Dynamic"
-	#do Fast-Running whenever you do a sprint of vanilla
-	replace_sprint_with_fast-run = true
-	#enable players to do actions needing Fast-Running by sprint
-	substitute_sprint = false
 	#Color theme of Setting GUI
 	#Allowed Values: Red, Green, Blue, Yellow, Black
 	gui_color_theme = "Blue"
-	#Infinite Stamina(this needs a permission from server, even if it is on single player's game. normally permitted)
-	#Please check 'parcool-server.toml' in 'serverconfig' directory
-	infinite_stamina = false
+	#Enable just timing effect of Breakfall
+	enable_just_time_effect_breakfall = true
+	#Enable sounds triggered by Action
+	enable_sounds = true
+	#Whether ParCool is active
+	parcool_activation = true
 
-#Stamina Section (may be affected by Server config)
 [Stamina]
-	#ParCool consume hanger value instead of stamina
-	use_hanger_instead = false
-	#ParCool use Feathers mod as stamina system, if it installed(experimental)
-	#(https://www.curseforge.com/minecraft/mc-mods/feathers)
-	use_Feathers = true
-	#Range: 300 ~ 100000
-	max_value_of_stamina = 2000
-	#Range: 1 ~ 10000
-	value_of_stamina_recovery = 20
 
 	[Stamina.Consumption]
 		#Range: 0 ~ 10000
@@ -93,11 +71,26 @@
 		stamina_consumption_of_WallJump = 120
 		#Range: 0 ~ 10000
 		stamina_consumption_of_WallSlide = 2
-
-	#About ParCool
-	[Stamina.ParCool]
-		#ParCool is Active
-		parcool_activation = true
+		#Range: 0 ~ 10000
+		stamina_consumption_of_ClimbPoles = 0
+		#Range: 0 ~ 10000
+		stamina_consumption_of_SkyDive = 0
+		#Range: 0 ~ 10000
+		stamina_consumption_of_VerticalWallRun = 150
+		#additional stamina mod dependency(only when it's installed)
+		#Allowed Values: None, Feathers
+		external_stamina = "Feathers"
+		#Infinite Stamina (this needs a permission from server, even if it is on single player's game. normally permitted)
+		#Please check 'parcool-server.toml' in 'serverconfig' directory
+		infinite_stamina = false
+		#Infinite Stamina while player is cretive mode
+		infinite_stamina_if_creative_mode = true
+		#ParCool consume hanger value instead of stamina
+		use_hanger_instead = false
+		#Range: 300 ~ 10000
+		max_stamina = 2000
+		#Range: 1 ~ 10000
+		stamina_recovery = 20
 
 ["Possibility of Actions(Some do not have to work)"]
 	can_BreakfallReady = true
@@ -119,14 +112,31 @@
 	can_Vault = true
 	can_WallJump = true
 	can_WallSlide = true
+	can_ClimbPoles = true
+	can_SkyDive = true
+	can_VerticalWallRun = true
 
 [Animations]
-	#Disable custom animation of falling
-	disable_falling_animation = false
-	#Disable custom animations
-	disable_animation = false
-	#Disable first-person-view animations
-	disable_FPV_animation = false
+	#Enable custom animations
+	enable_animation = true
+	#Enable custom animation of falling
+	enable_falling_animation = true
+	#Enable first-person-view animations
+	enable_fov_animation = true
+	#Enable rotation of camera by Dodge
+	enable_camera_rotation_dodge = false
+	#Enable rotation of camera by Backward Wall-Jump
+	enable_camera_rotation_back_wall_jump = true
+	#Enable rotation of camera by Roll
+	enable_camera_rotation_roll = true
+	#Enable rotation of camera by Flipping
+	enable_camera_rotation_flipping = true
+	#Enable animation of camera by Vault
+	enable_camera_animation_vault = false
+	#Enable animation of camera by Horizontal-WallRun
+	enable_camera_animation_h-wall-run = true
+	#Enable animation of camera by Hang-Down
+	enable_camera_animation_hang-down = true
 
 	[Animations.Animators]
 		enable_BackwardWallJumpAnimator = true
@@ -134,7 +144,6 @@
 		enable_ClimbUpAnimator = true
 		enable_ClingToCliffAnimator = true
 		enable_CrawlAnimator = true
-		enable_DiveAnimator = true
 		enable_DodgeAnimator = true
 		enable_FastRunningAnimator = true
 		enable_FlippingAnimator = true
@@ -148,30 +157,51 @@
 		enable_TapAnimator = true
 		enable_WallJumpAnimator = true
 		enable_WallSlideAnimator = true
+		enable_DiveAnimationHostAnimator = true
+		enable_VerticalWallRunAnimator = true
 
-	[Animations.Camera]
-		#Disable Roll rotation of camera
-		disable_camera_rotation_rolling = false
-		#Disable Flipping rotation of camera
-		disable_camera_rotation_flipping = false
-		#Disable Vault animation of camera
-		disable_camera_animation_vault = true
-		#Disable Horizontal-WallRun animation of camera
-		disable_camera_animation_h-wall-run = false
-		#Disable Hang animation of camera
-		disable_camera_animation_hang-down = false
+[Control]
+	#Control of FastRun
+	#Allowed Values: PressKey, Toggle, Auto
+	fast-run_control = "Auto"
+	#Control of FastRun
+	#Allowed Values: PressKey, Toggle
+	crawl_control = "PressKey"
+	#Enable double-tapping ctrl for Dodge
+	enable_double_tapping_for_dodge = false
+	#Enable Crawl in air
+	enable_crawl_in_air = true
+	#Enable Vault in air
+	enable_vault_in_air = true
+	#Enable backward Wall-Jump when facing to wall
+	enable_wall_jump_backward = false
+	#Enable Roll when creative mode (experimental)
+	enable_roll_creative = false
+	#Make Vault Need Vault Key Pressed
+	vault_needs_key_pressed = false
+	#enable players to do actions needing Fast-Running by sprint
+	substitute_sprint = true
+	#How long duration of dodge is deal as successive dodge
+	#Range: > 0
+	successive_dodge_cool_time = 30
+	#Cool time of Dodge action
+	#Range: > 11
+	dodge_cool_time = 11
+	#Max number of times of successive Dodge action
+	#Range: > 1
+	successive_dodge_count = 3
 
-[Modifiers]
-	#FastRun Speed Modifier
-	#Range: 0.001 ~ 4.0
-	fast-run_modifier = 2.0
-	#Dodge Speed Modifier
-	#Range: 0.5 ~ 1.5
-	dodge-speed_modifier = 1.0
+[Modifier]
 	#How long you can do Horizontal Wall Run
 	#Range: 15 ~ 40
 	wall-run_continuable_tick = 25
 	#How long you can do Slide
 	#Range: 10 ~ 30
 	sliding_continuable_tick = 15
+	#FastRun speed modifier
+	#Range: 0.001 ~ 4.0
+	fast-run_modifier = 1.5
+	#Dodge speed modifier
+	#Range: 0.5 ~ 1.5
+	dodge-speed_modifier = 1.0
 

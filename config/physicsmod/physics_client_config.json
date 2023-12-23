@@ -119,6 +119,8 @@
   "clothEntityRange": 48.0,
   "clothForceArmor": false,
   "oceanPuddles": true,
+  "oceanFoamAmount": 0.8,
+  "oceanFoamOpacity": 0.5,
   "customizedGravities": [
     "lostcities:lostcity",
     0.0,
@@ -133,6 +135,10 @@
     -9.81,
     0.0,
     "minecraft:the_end",
+    0.0,
+    -9.81,
+    0.0,
+    "deceasedcraft:abyss",
     0.0,
     -9.81,
     0.0
@@ -151,6 +157,10 @@
     2.0,
     0.0,
     "minecraft:the_end",
+    0.0,
+    2.0,
+    0.0,
+    "deceasedcraft:abyss",
     0.0,
     2.0,
     0.0
