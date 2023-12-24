@@ -126,6 +126,12 @@ val incomplete_4096k_fluid_storage_part = <factory:item>.typed<Basic>()
     .rarity(<constant:minecraft:item/rarity:common>)
     .build("incomplete_4096k_fluid_storage_part");
 
+// Cure Ingredient
+val x_factor = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:epic>)
+    .build("x_factor");
+
 // Molds
 val mold_basic_processor = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
@@ -186,173 +192,173 @@ val mold_bullet_casing_shell = <factory:item>.typed<Basic>()
 /// Bullet Casing
 val bullet_casing_9mm_round = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("bullet_casing_9mm_round");
     
 val bullet_casing_10_gauge_round = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("bullet_casing_10_gauge_round");
     
 val bullet_casing_46x30 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("bullet_casing_46x30");
     
 val bullet_casing_50bmg = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("bullet_casing_50bmg");
     
 val bullet_casing_57x28 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("bullet_casing_57x28");
     
 val bullet_casing_58x42 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("bullet_casing_58x42");
     
 val bullet_casing_762x25 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("bullet_casing_762x25");
     
 val bullet_casing_762x39 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("bullet_casing_762x39");
 
 val bullet_casing_762x54 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("bullet_casing_762x54");
     
 val bullet_casing_ae50 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("bullet_casing_ae50");
     
 val bullet_casing_bmagnum = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("bullet_casing_bmagnum");
     
 val bullet_casing_bullet68 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("bullet_casing_bullet68");
     
 val bullet_casing_bullet308 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("bullet_casing_bullet308");
     
 val bullet_casing_lapua338 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("bullet_casing_lapua338");
     
 val bullet_casing_nato556 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("bullet_casing_nato556");
     
 val bullet_casing_round45 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("bullet_casing_round45");
 
 val bullet_casing_win3030 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("bullet_casing_win3030");
 
 // Molds
 val mold_bullet_casing_9mm_round = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("mold_bullet_casing_9mm_round");
 
 val mold_bullet_casing_10_gauge_round = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("mold_bullet_casing_10_gauge_round");
 
 val mold_bullet_casing_46x30 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("mold_bullet_casing_46x30");
     
 val mold_bullet_casing_50bmg = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("mold_bullet_casing_50bmg");
     
 val mold_bullet_casing_57x28 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("mold_bullet_casing_57x28");
     
 val mold_bullet_casing_58x42 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("mold_bullet_casing_58x42");
     
 val mold_bullet_casing_762x25 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("mold_bullet_casing_762x25");
     
 val mold_bullet_casing_762x39 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("mold_bullet_casing_762x39");
     
 val mold_bullet_casing_762x54 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("mold_bullet_casing_762x54");
     
 val mold_bullet_casing_ae50 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("mold_bullet_casing_ae50");
     
 val mold_bullet_casing_bmagnum = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("mold_bullet_casing_bmagnum");
     
 val mold_bullet_casing_bullet68 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("mold_bullet_casing_bullet68");
     
 val mold_bullet_casing_bullet308 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("mold_bullet_casing_bullet308");
     
 val mold_bullet_casing_lapua338 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("mold_bullet_casing_lapua338");
     
 val mold_bullet_casing_nato556 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("mold_bullet_casing_nato556");
     
 val mold_bullet_casing_round45 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("mold_bullet_casing_round45");
     
 val mold_bullet_casing_win3030 = <factory:item>.typed<Basic>()
     .tab(deceasedTab)
-    .rarity(<constant:minecraft:item/rarity:common>)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("mold_bullet_casing_win3030");
 
 // Cars

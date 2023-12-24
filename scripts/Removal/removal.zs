@@ -20,12 +20,6 @@ campfire.removeByModid("undead_revamp2");
 furnace.removeByModid("undead_revamp2");
 JEI.hideMod("undead_revamp2");
 
-// Removing mutationcraft
-craftingTable.removeByModid("mutationcraft");
-campfire.removeByModid("mutationcraft");
-furnace.removeByModid("mutationcraft");
-JEI.hideMod("mutationcraft");
-
 // autoclicker
 craftingTable.removeByName("clickmachine:auto_clicker");
 JEI.hideIngredient(<item:clickmachine:auto_clicker>);

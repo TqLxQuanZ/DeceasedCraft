@@ -230,6 +230,8 @@ campfire.removeByName("apocalypsenow:cookedbeenscamp");
 furnace.remove(<item:apocalypsenow:salt>);
 furnace.remove(<item:apocalypsenow:water>);
 furnace.remove(<item:apocalypsenow:fried_egg>);
+campfire.remove(<item:apocalypsenow:water>);
+campfire.remove(<item:apocalypsenow:salt>);
 campfire.remove(<item:apocalypsenow:fried_egg>);
 
 JEI.hideIngredient(<item:apocalypsenow:fixed_baseball_bat>);

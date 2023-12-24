@@ -34,23 +34,6 @@ craftingTable.addShapedMirrored("morphine", <constant:minecraft:mirroraxis:horiz
 													  );
 
 
-// Golden Apple
-craftingTable.removeByName("minecraft:golden_apple");
-<tag:fluids:forge:seedoil>.add(<fluid:createaddition:seed_oil>);
-<tag:fluids:forge:seedoil>.add(<fluid:immersiveengineering:plantoil>);
-<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("golden_apple")
-                                                      .transitionTo(<item:minecraft:apple>)
-                                                      .require(<item:minecraft:apple>)
-                                                      .loops(4)
-                                                      .addOutput(<item:minecraft:golden_apple>, 1)
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:rotten_flesh>))
-                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:water> * 25))
-                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:create:honey> * 25))
-                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<tag:fluids:forge:seedoil> * 25))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:bone_meal>))
-                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
-													  );
-
 // Fridge
 craftingTable.removeByName("cfm:fridge_light");
 craftingTable.removeByName("cfm:fridge_dark");

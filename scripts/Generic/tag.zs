@@ -1,6 +1,9 @@
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.resource.ResourceLocation;
 
+<tag:fluids:forge:seedoil>.add(<fluid:createaddition:seed_oil>);
+<tag:fluids:forge:seedoil>.add(<fluid:immersiveengineering:plantoil>);
+
 // Mold Tags
 <tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_9mm_round>);
 <tag:items:forge:bullet_molds>.add(<item:contenttweaker:mold_bullet_casing_10_gauge_round>);
