@@ -77,18 +77,52 @@
 		"itemcount": "2/3/4"
 	},
 	{
-		"mob": ["zombie_extreme:faceless"],
+		"mob": ["zombie_extreme:faceless",
+				"zombie_extreme:revived"],
 		"player": true,
 		"random" : 0.25,
 		"item": "tac:nato_556_bullet",
 		"itemcount": "4-8/9-12/12-15"
 	},
 	{
-		"mob": ["zombie_extreme:revived"],
+		"mob": ["zombie_extreme:goon",
+				"zombie_extreme:divded",
+				"zombie_extreme:fetus",
+				"zombie_extreme:inflated"],
 		"player": true,
-		"random" : 0.25,
+		"random" : 0.3,
 		"item": "tac:nato_556_bullet",
 		"itemcount": "4-8/9-12/12-15"
+	},
+	{
+		"mob": ["zombie_extreme:goon",
+				"zombie_extreme:divded",
+				"zombie_extreme:fetus",
+				"zombie_extreme:inflated"],
+		"player": true,
+		"random" : 0.3,
+		"item": "tac:762x39",
+		"itemcount": "4-8/9-12/12-15"
+	},
+	{
+		"mob": ["zombie_extreme:goon",
+				"zombie_extreme:divded",
+				"zombie_extreme:fetus",
+				"zombie_extreme:inflated"],
+		"player": true,
+		"random" : 0.2,
+		"item": "mutationcraft:putrid_claw",
+		"itemcount": "2/3/4"
+	},
+	{
+		"mob": ["zombie_extreme:goon",
+				"zombie_extreme:divded",
+				"zombie_extreme:fetus",
+				"zombie_extreme:inflated"],
+		"player": true,
+		"random" : 0.01,
+		"item": "mutationcraft:putrid_heart",
+		"itemcount": "1/1/1"
 	},
 	{
 		"mob": ["zombie_extreme:rat_king",
@@ -132,6 +166,20 @@
 		"player": true,
 		"item": "tac:762x39",
 		"itemcount": "24-27/32-35/40-45"
+	},
+	{
+		"mob": ["zombie_extreme:rat_king",
+				"zombie_extreme:patient_zero"],
+		"player": true,
+		"item": "mutationcraft:putrid_heart",
+		"itemcount": "3/4/5"
+	},
+	{
+		"mob": ["zombie_extreme:rat_king",
+				"zombie_extreme:patient_zero"],
+		"player": true,
+		"item": "mutationcraft:putrid_claw",
+		"itemcount": "7/8/9"
 	},
 	{
 		"mob": ["zombie_extreme:demolisher"],
@@ -361,6 +409,12 @@
 		"player": true,
 		"item": "minecraft:phantom_membrane",
 		"itemcount": "3/4/5"
+	},
+	{
+		"mob": "mutationcraft:parasitic_shooter",
+		"player": true,
+		"item": "mutationcraft:putrid_brain",
+		"itemcount": "2/3/4"
 	},
 	{
 		"mob": ["mutationcraft:assimilated_jockey",

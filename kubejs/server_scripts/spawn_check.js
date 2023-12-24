@@ -13,7 +13,7 @@ onEvent('entity.hurt', event => {
 		event.getEntity().getType() == "alexsmobs:centipede_body" ||
 		event.getEntity().getType() == "alexsmobs:centipede_tail")
 	{
-		if (event.getSource().getType() == "inWall")
+		if (event.getSource().getType() == "inWall" || event.getSource().getType() == "fall")
 		{
 			event.cancel();
 		}
