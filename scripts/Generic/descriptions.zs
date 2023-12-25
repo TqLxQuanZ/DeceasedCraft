@@ -92,7 +92,7 @@ JEI.addDescription(<item:apocalypsenow:soldier_helmet>, "Soldier helmet provides
 JEI.addDescription(<item:crossbowverhaul:bolt_explosive>, "Only usable with Netherite Crossbow.");
 
 // Golden Apple
-JEI.addDescription(<item:minecraft:golden_apple>, "Golden apples can be crafted using specific steps, obtained from hospital medical crates, or acquired by defeating certain bosses.\n \n \n \n \nGolden Apples can also be obtained by trading with a masterwork-level cleric villager.");
+JEI.addDescription(<item:minecraft:golden_apple>, "Golden apples can be crafted using specific steps, obtained from hospital medical crates, or acquired by defeating certain bosses.");
 
 // Blaze Rods
 JEI.addDescription(<item:minecraft:blaze_rod>, "Blaze rods can often be found in volcanic areas, where they are frequently observed floating on the surface.");

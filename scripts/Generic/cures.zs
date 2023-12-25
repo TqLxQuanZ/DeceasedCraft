@@ -20,4 +20,4 @@ craftingTable.remove(<item:mutationcraft:necroptor_membrane>);
 craftingTable.addShapeless("necroptor_membrance", <item:mutationcraft:necroptor_membrane> * 3, [<item:mutationcraft:putrid_brain>, <item:mutationcraft:putrid_heart>, <item:mutationcraft:putrid_claw>]);
 
 craftingTable.remove(<item:mutationcraft:mutagen_serum>);
-craftingTable.addShapeless("mutagen_serum", <item:mutationcraft:mutagen_serum>, [<item:minecraft:glass_bottle>, <item:mutationcraft:necroptor_membrane>, <item:minecraft:golden_apple>]);
+craftingTable.addShapeless("mutagen_serum", <item:mutationcraft:mutagen_serum>, [<item:minecraft:glass_bottle>, <item:mutationcraft:necroptor_membrane>, <item:contenttweaker:x_factor>.anyDamage().reuse().transformDamage(1), <item:minecraft:golden_apple>]);

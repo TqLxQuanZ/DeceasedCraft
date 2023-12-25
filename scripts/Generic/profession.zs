@@ -142,7 +142,7 @@ villagerTrades.addTrade(<profession:minecraft:cleric>, 4, <item:apocalypsenow:mo
 villagerTrades.removeAllTrades(<profession:minecraft:cleric>, 5);
 
 villagerTrades.addTrade(<profession:minecraft:cleric>, 5, <item:apocalypsenow:money_block>, <item:apocalypsenow:suturekit>, 5, 20, 0.2);
-villagerTrades.addTrade(<profession:minecraft:cleric>, 5, <item:apocalypsenow:money_block> * 8, <item:minecraft:golden_apple>, 5, 20, 0.2);
+villagerTrades.addTrade(<profession:minecraft:cleric>, 5, <item:apocalypsenow:money> * 4, <item:apocalypsenow:medicalkit>, 5, 20, 0.2);
 
 
 
