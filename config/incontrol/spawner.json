@@ -369,7 +369,7 @@
 	},
 	{
 		"mob": ["mutationcraft:parasitic_shooter"],
-		"persecond": 1.0,
+		"persecond": 0.5,
 		"attempts": 25,
 		"conditions": {
 			"dimension": "deceasedcraft:abyss",
@@ -383,7 +383,7 @@
 	},
 	{
 		"mob": ["alexsmobs:crimson_mosquito"],
-		"persecond": 1.0,
+		"persecond": 0.5,
 		"attempts": 20,
 		"amount": {
 		  "minimum": 1,
@@ -402,7 +402,7 @@
 	{
 		"mob": ["minecraft:spider",
 				"minecraft:cave_spider"],
-		"persecond": 1.0,
+		"persecond": 0.25,
 		"attempts": 30,
 		"amount": {
 		  "minimum": 3,
@@ -423,7 +423,7 @@
 				"zombie_extreme:fetus",
 				"zombie_extreme:divided",
 				"zombie_extreme:goon"],
-		"persecond": 1.0,
+		"persecond": 0.5,
 		"attempts": 30,
 		"conditions": {
 			"dimension": "deceasedcraft:abyss",
@@ -460,6 +460,21 @@
 		  "minheight": -60,
 		  "maxheight": 300,
 		  "maxlocal": 2
+		}
+	},
+	{
+		"mob": ["mutationcraft:human_herder",
+				"mutationcraft:resenter"],
+		"persecond": 0.05,
+		"attempts": 15,
+		"conditions": {
+			"dimension": "deceasedcraft:abyss",
+			"norestrictions": true,
+			"mindist": 10,
+			"maxdist": 120,
+			"minheight": -60,
+			"maxheight": 300,
+			"maxlocal": 4
 		}
 	}
 ]

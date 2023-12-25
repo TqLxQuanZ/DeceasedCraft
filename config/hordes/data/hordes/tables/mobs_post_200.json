@@ -1,7 +1,8 @@
 [
 	{
 		"entity": "minecraft:zombie",
-		"weight": 10
+		"weight": 10,
+		"nbt": "{HandItems:[{id:air,Count:1},{id:iron_pickaxe,Count:1}]}"
 	},
 	{
 		"entity": "zombie_extreme:bomber",
@@ -12,24 +13,11 @@
 		"weight": 5
 	},
 	{
-		"entity": "undead_revamp2:thesmoker",
-		"weight": 5
-	},
-	{
-		"entity": "minecraft:zombie",
-		"weight": 5,
-		"nbt": "{HandItems:[{id:netherite_pickaxe,Count:1}]}"
-	},
-	{
 		"entity": "undead_revamp2:thepregnant",
-		"weight": 2
+		"weight": 3
 	},
 	{
-		"entity": "undead_revamp2:demolisher",
-		"weight": 2
-	},
-	{
-		"entity": "undead_revamp2:rat_king",
-		"weight": 2
+		"entity": "zombie_extreme:demolisher",
+		"weight": 3
 	}
 ]
