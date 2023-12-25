@@ -156,6 +156,14 @@
 	putrid_block_on_hook_spawn = true
 	#No comment
 	"puffish_skills:announce_new_points" = true
+	#No comment
+	#Range: > 0
+	blizzard_frequency = 10000
+	#No comment
+	#Range: > 0
+	blizzard_strength = 0
+	#No comment
+	bloodparticle = true
 
 #Configs related to difficult changes
 [difficulty]
