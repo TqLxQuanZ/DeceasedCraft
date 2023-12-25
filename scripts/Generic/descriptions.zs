@@ -5,14 +5,6 @@ import mods.jei.JEI;
 JEI.addDescription(<item:pipez:energy_pipe>, "Standard tier provides 8,192 ft/t.\nBasic tier provides 16,384 ft/t.\nImproved tier provides 32,768 ft/t.\nAdvanced tier provides 65,536 ft/t.\nUltimate tier provides 131,072 ft/t.");
 
 // Mold Descriptions
-JEI.addDescription(<item:contenttweaker:mold_bullet_casing_small>, "Bullet molds are exclusively obtainable in wastelands factory buildings or purchased through Gunsmith, as they are crafted by skilled professionals and cannot be created through crafting.");
-JEI.addDescription(<item:contenttweaker:mold_bullet_casing_short>, "Bullet molds are exclusively obtainable in wastelands factory buildings or purchased through Gunsmith, as they are crafted by skilled professionals and cannot be created through crafting.");
-JEI.addDescription(<item:contenttweaker:mold_bullet_casing_medium>, "Bullet molds are exclusively obtainable in wastelands factory buildings or purchased through Gunsmith, as they are crafted by skilled professionals and cannot be created through crafting.");
-JEI.addDescription(<item:contenttweaker:mold_bullet_casing_long>, "Bullet molds are exclusively obtainable in wastelands factory buildings, as they are crafted by skilled professionals and cannot be created through crafting.");
-JEI.addDescription(<item:contenttweaker:mold_bullet_casing_heavy>, "Bullet molds are exclusively obtainable in wastelands factory buildings, as they are crafted by skilled professionals and cannot be created through crafting.");
-JEI.addDescription(<item:contenttweaker:mold_bullet_casing_special>, "Bullet molds are exclusively obtainable in wastelands factory buildings, as they are crafted by skilled professionals and cannot be created through crafting.");
-JEI.addDescription(<item:contenttweaker:mold_bullet_casing_shell>, "Bullet molds are exclusively obtainable in wastelands factory buildings, as they are crafted by skilled professionals and cannot be created through crafting.");
-
 JEI.addDescription(<item:contenttweaker:mold_bullet_casing_9mm_round>, "Bullet molds are exclusively obtainable in wastelands factory buildings or purchased through Gunsmith, as they are crafted by skilled professionals and cannot be created through crafting.");
 JEI.addDescription(<item:contenttweaker:mold_bullet_casing_10_gauge_round>, "Bullet molds are exclusively obtainable in wastelands factory buildings or purchased through Gunsmith, as they are crafted by skilled professionals and cannot be created through crafting.");
 JEI.addDescription(<item:contenttweaker:mold_bullet_casing_round45>, "Bullet molds are exclusively obtainable in wastelands factory buildings or purchased through Gunsmith, as they are crafted by skilled professionals and cannot be created through crafting.");
