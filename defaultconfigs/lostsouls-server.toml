@@ -26,26 +26,26 @@
 	#This message is given when the player tries to open a chest in a haunted building
 	messageUnsafeBuilding = "The building isn't safe enough!"
 	#This message is given when the player enters a haunted building for the first time
-	messageBuildingHaunted = "Zombies are showing up in this building..."
+	messageBuildingHaunted = "Hordes are showing up in this building!"
 	#This message is given when the player clears a building
 	messageBuildingCleared = "You don't see any new zombies in this building anymore."
 	#This message is given when the player is halfway clearing a building
 	messageBuildingHalfway = "It seems to be getting lesser..."
 	#The amount of ticks that the server waits before checking for new spawns
 	#Range: 1 ~ 1000000
-	serverTickTimeout = 5
+	serverTickTimeout = 15
 	#The maximum amount of entities that can spawn near each other (of the same type)
 	#Range: 1 ~ 200
 	spawnMaxNearby = 10
 	#The minimum distance between the player and newly spawned mobs
 	#Range: 0.0 ~ 16.0
-	minSpawnDistance = 7.0
+	minSpawnDistance = 9.0
 	#The minimum health bonus that the mob will get
 	#Range: 0.009999999776482582 ~ 10000.0
 	minHealthBonus = 1.0
 	#The maximum health bonus that the mob will get
 	#Range: 0.009999999776482582 ~ 10000.0
-	maxHealthBonus = 3.0
+	maxHealthBonus = 2.0
 	#The minimum damage bonus that the mob will get
 	#Range: 0.009999999776482582 ~ 10000.0
 	minDamageBonus = 0.5
