@@ -1,7 +1,7 @@
 {
 	id: "2583DDB195B6CFEA"
 	group: "0CEF75605D0E77B3"
-	order_index: 1
+	order_index: 0
 	filename: "basic_needs"
 	title: "Health and Water"
 	icon: "apocalypsenow:medicalkit"
@@ -317,6 +317,46 @@
 					}
 				}
 				count: 3
+			}]
+		}
+		{
+			title: "Emergency Medicine - I"
+			x: 12.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "In case you need even more healing."
+			description: ["You could craft these... but perhaps it would be better to try and find them in hospitals."]
+			size: 1.5d
+			id: "273C809871E090F6"
+			tasks: [{
+				id: "79810C31012CA037"
+				type: "item"
+				item: "apocalypsenow:medicalkit"
+			}]
+			rewards: [{
+				id: "4C81D586AFD63379"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "Emergency Medicine - II"
+			x: 13.5d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "The top of the line solution to all your medical needs."
+			description: ["You could craft these... but perhaps it would be better to try and find them in hospitals."]
+			size: 1.5d
+			id: "54FE311D0FF66715"
+			tasks: [{
+				id: "0574EC46149FBC03"
+				type: "item"
+				item: "apocalypsenow:suturekit"
+			}]
+			rewards: [{
+				id: "13CDD52CA6C0FE9B"
+				type: "xp"
+				xp: 50
 			}]
 		}
 	]
