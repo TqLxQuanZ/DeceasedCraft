@@ -1,122 +1,19 @@
 {
 	id: "577EDD60C6A404FD"
-	group: "0CEF75605D0E77B3"
-	order_index: 5
+	group: "06797646CDBF2AAC"
+	order_index: 2
 	filename: "traps"
-	title: "Traps"
+	title: "Traps and Defenses"
 	icon: "immersiveengineering:razor_wire"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Primitive Hunter - I"
-			x: 0.5d
-			y: -1.0d
-			description: ["Craft a spike to protect your base."]
-			dependency_requirement: "one_started"
-			size: 2.0d
-			progression_mode: "flexible"
-			id: "44F5B30B013F2F4B"
-			tasks: [{
-				id: "527D43DBC7C9B67F"
-				type: "item"
-				item: "apocalypsenow:spikeswall"
-			}]
-			rewards: [{
-				id: "7966A7AB3DB6A248"
-				type: "xp"
-				xp: 10
-			}]
-		}
-		{
-			title: "Primitive Hunter - II"
-			x: 3.5d
-			y: 1.0d
-			description: ["Craft glass spike to protect your base."]
-			dependencies: ["44F5B30B013F2F4B"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "744C26A44CB676C2"
-			tasks: [{
-				id: "41C6EC39FF003AB0"
-				type: "item"
-				item: "apocalypsenow:glass_spikes"
-			}]
-			rewards: [
-				{
-					id: "0057702E09B0AB36"
-					type: "xp"
-					xp: 20
-				}
-				{
-					id: "095D54EAFBFE97B9"
-					type: "item"
-					item: "apocalypsenow:glass_spikes"
-					count: 12
-				}
-			]
-		}
-		{
-			title: "Primitive Hunter - III"
-			x: 3.5d
-			y: -3.0d
-			description: ["Craft a spike barrier to protect your base."]
-			dependencies: ["44F5B30B013F2F4B"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "45716DC393C27C48"
-			tasks: [{
-				id: "204DC26F2C744BE9"
-				type: "item"
-				item: "apocalypsenow:spike_barrier"
-			}]
-			rewards: [
-				{
-					id: "4F97480640CE26CE"
-					type: "xp"
-					xp: 20
-				}
-				{
-					id: "56F1D410E3C60945"
-					type: "item"
-					item: "apocalypsenow:spike_barrier"
-					count: 12
-				}
-			]
-		}
-		{
-			title: "Modern Hunter - I"
-			x: 3.5d
-			y: -1.0d
-			description: ["Craft a bear trap to hunt animals or kill enemies."]
-			dependencies: ["44F5B30B013F2F4B"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "45A6B921DE4001E1"
-			tasks: [{
-				id: "16E15B2F55EEFB9A"
-				type: "item"
-				item: "apocalypsenow:bear_trap"
-			}]
-			rewards: [
-				{
-					id: "40BDD439231BAC36"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "43F67C31EA6720C4"
-					type: "item"
-					item: "apocalypsenow:bear_trap"
-					count: 6
-				}
-			]
-		}
-		{
-			title: "Modern Hunter - IV"
-			x: 11.0d
-			y: -1.0d
-			description: ["Obtain or craft a razorwire, it can be connected with electricity."]
+			title: "Razor Wire"
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Poke and electrocute them till they die."
+			description: ["Once you have access to steel, razor wire provides all the benefits of barbed wire, but has the added bonus of being able to be connected by wire to your electrical grid."]
 			dependencies: ["2C3681F3DD09F62E"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -130,16 +27,18 @@
 				id: "5C8968831E08584A"
 				type: "item"
 				item: "immersiveengineering:razor_wire"
-				count: 16
+				count: 15
 			}]
 		}
 		{
-			title: "Modern Hunter - III"
-			x: 8.5d
-			y: -1.0d
-			description: ["Obtain or craft a cheaper barb wire using iron wires."]
-			dependencies: ["2D701EBFDD08E14A"]
+			title: "Barbed Wire"
+			x: 4.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Poke them till they die."
+			description: ["Barbed wire allows easier base defense by slowing and damaging any attacking horde."]
 			dependency_requirement: "one_started"
+			size: 1.5d
 			progression_mode: "flexible"
 			id: "2C3681F3DD09F62E"
 			tasks: [{
@@ -147,79 +46,27 @@
 				type: "item"
 				item: "createaddition:barbed_wire"
 			}]
-			rewards: [{
-				id: "0B9988789BE524D2"
-				type: "item"
-				item: "createaddition:barbed_wire"
-				count: 16
-			}]
-		}
-		{
-			title: "Modern Hunter - II"
-			x: 6.0d
-			y: -1.0d
-			description: ["Craft barbed wires to protect your base."]
-			dependencies: [
-				"744C26A44CB676C2"
-				"45716DC393C27C48"
-				"45A6B921DE4001E1"
-			]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "2D701EBFDD08E14A"
-			tasks: [{
-				id: "7AC70D81CDDD19C9"
-				type: "item"
-				item: "apocalypsenow:barbed_wire"
-			}]
 			rewards: [
 				{
-					id: "240EE164729C54AD"
-					type: "xp"
-					xp: 200
+					id: "0B9988789BE524D2"
+					type: "item"
+					item: "createaddition:barbed_wire"
+					count: 15
 				}
 				{
-					id: "323F3E1D3803D830"
-					type: "item"
-					item: "apocalypsenow:barbed_wire"
-					count: 16
+					id: "7AFB5C1F5E94084A"
+					type: "xp"
+					xp: 50
 				}
 			]
 		}
 		{
-			title: "Modern Hunter - IV"
-			x: 13.5d
-			y: -2.0d
-			description: ["Craft tripwire bomb to give unexpected surprise to your foes."]
-			dependencies: ["6DE10A494F77644A"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "7D8BA0453F8EC1C8"
-			tasks: [{
-				id: "1C27E33D0B27022A"
-				type: "item"
-				item: "apocalypsenow:tripwire_bomb"
-			}]
-			rewards: [
-				{
-					id: "42C412EAC934D35B"
-					type: "xp"
-					xp: 400
-				}
-				{
-					id: "039EB3942B8B90F3"
-					type: "item"
-					item: "apocalypsenow:tripwire_bomb"
-					count: 3
-				}
-			]
-		}
-		{
-			title: "Modern Hunter - V"
-			x: 13.5d
+			title: "Land Mines"
+			x: 9.5d
 			y: 0.0d
-			description: ["Craft landmine to destroy your foes."]
-			dependencies: ["6DE10A494F77644A"]
+			subtitle: "The classic explosive."
+			description: ["Things step on it; it explodes. A pretty straightforward trap."]
+			dependencies: ["27DEFB91E5E56287"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "5CDBCEB99909EF30"
@@ -232,7 +79,7 @@
 				{
 					id: "71C805F54948D4A6"
 					type: "xp"
-					xp: 400
+					xp: 100
 				}
 				{
 					id: "5D873D548E552F0C"
@@ -243,14 +90,12 @@
 			]
 		}
 		{
-			title: "Diffuser"
-			x: 16.0d
+			title: "Bomb Defusing"
+			x: 9.5d
 			y: -1.0d
-			description: ["The bomb has been defused."]
-			dependencies: [
-				"7D8BA0453F8EC1C8"
-				"5CDBCEB99909EF30"
-			]
+			shape: "gear"
+			subtitle: "Bomb has been defused."
+			description: ["Normal explosive traps can be disarmed and picked up by using a defusing kit."]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "58A7E63A31D4D38B"
@@ -283,6 +128,353 @@
 					}
 				}
 			]
+		}
+		{
+			title: "Can of Powder"
+			x: 7.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "A little boom in a box."
+			description: [
+				"A can of gunpowder is useful for a lot of things..."
+				"Check what can be crafted using it for non-trap related explosive recipies."
+			]
+			size: 1.5d
+			id: "27DEFB91E5E56287"
+			tasks: [{
+				id: "560C7A2A1AC37735"
+				type: "item"
+				item: "apocalypsenow:gunpowder_can"
+			}]
+			rewards: [
+				{
+					id: "3EDFB36EACB3850C"
+					type: "item"
+					item: "apocalypsenow:gunpowder_can"
+					count: 3
+				}
+				{
+					id: "0993D7FF3A1544BB"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			title: "Smart Mines"
+			x: 11.5d
+			y: 0.0d
+			subtitle: "Now with less friendly fire!"
+			description: ["Securitycraft mines can be remotely activated, and have the added bonus of recognizing its owner."]
+			dependencies: ["5CDBCEB99909EF30"]
+			id: "7E0402EA7A14A5DB"
+			tasks: [{
+				id: "2D62727B0AD200C9"
+				type: "item"
+				item: "securitycraft:mine"
+			}]
+			rewards: [{
+				id: "2731F6BBC3961607"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Advanced Bomb Defusing"
+			x: 11.5d
+			y: -1.0d
+			shape: "gear"
+			subtitle: "Bomb has been... hacked?"
+			description: ["Securitycraft mines can be configured, remotely activated, or disarmed using this tool."]
+			id: "1301A0C1396BE183"
+			tasks: [{
+				id: "00685CF92F8042AB"
+				type: "item"
+				item: "securitycraft:remote_access_mine"
+			}]
+		}
+		{
+			title: "Bouncy Mines"
+			x: 11.5d
+			y: 1.0d
+			subtitle: "Fly, you fool!"
+			description: [
+				"Otherwise identical to its normal cousin, this Securitycraft mine jumps up before exploding, for some reason..."
+				""
+			]
+			dependencies: ["5CDBCEB99909EF30"]
+			id: "06226808D4E4E109"
+			tasks: [{
+				id: "0192E3E71E86C387"
+				type: "item"
+				item: "securitycraft:bouncing_betty"
+			}]
+			rewards: [{
+				id: "759DA3938F1ADD20"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Casing Mold"
+			x: 10.5d
+			y: 3.0d
+			description: [
+				"Molds can be found in buildings in the wasteland. You will need this specific mold to be able to craft ammunition for gun turrets."
+				""
+				"Alternatively, you can also manually craft the casings, though at a much higher resource cost."
+			]
+			id: "2356E8170835B4AB"
+			tasks: [{
+				id: "455EEF8B76FBCF99"
+				type: "item"
+				item: "immersiveengineering:mold_bullet_casing"
+			}]
+			rewards: [{
+				id: "1578D2BBDA12B0BE"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.0d
+			description: [
+				"Press copper ingots in a metal press using a mold to obtain the required casings."
+				"Or, craft copper plates in a crafting table."
+			]
+			dependencies: ["2356E8170835B4AB"]
+			id: "57E6B8957BE84A93"
+			tasks: [{
+				id: "2B789B29917F11E8"
+				type: "item"
+				item: "immersiveengineering:empty_casing"
+			}]
+			rewards: [{
+				id: "6B3D7CF14E02B824"
+				type: "item"
+				item: "immersiveengineering:empty_casing"
+				count: 16
+			}]
+		}
+		{
+			title: "Turret Ammunition"
+			x: 13.5d
+			y: 3.0d
+			description: ["A list of ammunition types and their effects can be found in the Engineer's Manual."]
+			dependencies: ["57E6B8957BE84A93"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "7564531B450221A8"
+			tasks: [{
+				id: "41E0E72A82B5924B"
+				type: "item"
+				title: "Any #forge:turret_cartridge"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:turret_cartridge"
+					}
+				}
+			}]
+			rewards: [{
+				id: "771A18F10272A1D8"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			title: "Automated Defenses"
+			x: 6.0d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "Not quite a tower defense game"
+			description: [
+				"Advanced electronic components are crucial for higher tier equipment."
+				""
+				"Creating them will be covered elsewhere, but they are also used to make automated weapons for base defense."
+			]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "1A2A544C843B9643"
+			tasks: [{
+				id: "67E52BFEE2739E95"
+				type: "item"
+				item: "immersiveengineering:component_electronic_adv"
+			}]
+			rewards: [
+				{
+					id: "272B8F1CE6D9D06A"
+					type: "item"
+					item: "immersiveengineering:component_electronic_adv"
+					count: 3
+				}
+				{
+					id: "78B7B3D07C62BCEB"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			title: "Tower Defense - Flame Turret"
+			x: 6.0d
+			y: 3.75d
+			shape: "gear"
+			description: [
+				"The chemthrower turret shoots a burning stream of fire to set enemies alight."
+				"A list of ignitable fuels can be found below this entry."
+				""
+				"Be sure to consult the Engineer's Manual for specifics on how to configure these turrets!"
+			]
+			dependencies: ["1A2A544C843B9643"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "67E7EAB22901F74A"
+			tasks: [{
+				id: "266F58E56C0B2084"
+				type: "item"
+				item: "immersiveengineering:turret_chem"
+			}]
+			rewards: [{
+				id: "1FE3BCE32407CA63"
+				type: "item"
+				item: "immersiveengineering:turret_chem"
+				count: 3
+			}]
+		}
+		{
+			title: "Tower Defense - Gun Turret"
+			x: 9.0d
+			y: 3.0d
+			shape: "gear"
+			description: [
+				"The gun turret does exactly what it says it does; shoot things."
+				"Crafting of the ammo required is briefly explained to the right of this entry."
+				""
+				"Be sure to consult the Engineer's Manual for specifics on how to configure these turrets!"
+			]
+			dependencies: ["1A2A544C843B9643"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "041779D84BF70FBD"
+			tasks: [{
+				id: "513BABA9DBEB5FE0"
+				type: "item"
+				item: "immersiveengineering:turret_gun"
+			}]
+			rewards: [{
+				id: "0EFAEF37280CE839"
+				type: "item"
+				item: "immersiveengineering:turret_gun"
+				count: 3
+			}]
+		}
+		{
+			title: "Tower Defense - Tesla Turret"
+			x: 3.0d
+			y: 3.0d
+			shape: "gear"
+			description: [
+				"Tesla coils consume a large amount of electricity to deliver lethal electric shocks to nearby targets."
+				""
+				"Be sure to consult the Engineer's Manual for specifics on how to configure these turrets!"
+			]
+			dependencies: ["1A2A544C843B9643"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "25C6295AC0F301F7"
+			tasks: [{
+				id: "380CCBBC09F4E990"
+				type: "item"
+				item: "immersiveengineering:tesla_coil"
+			}]
+			rewards: [{
+				id: "53E831451147855F"
+				type: "item"
+				item: "immersiveengineering:tesla_coil"
+				count: 3
+			}]
+		}
+		{
+			icon: "createbigcannons:cannon_mount"
+			x: 6.0d
+			y: -1.5d
+			shape: "hexagon"
+			subtitle: "Firepower for Freedom"
+			description: [
+				"The mod Create Big Cannons alllows for the creation of heavy artillery pieces."
+				""
+				"The method to do so, however, will not be explained here and is left as an exercise to you..."
+			]
+			size: 1.5d
+			id: "3A5F9BABF4AF9650"
+			tasks: [{
+				id: "0B7EE81E8F3C2F14"
+				type: "checkmark"
+				title: "Create: Big Cannons"
+			}]
+			rewards: [{
+				id: "3D35E86C950126FA"
+				type: "item"
+				item: "minecraft:cookie"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.0d
+			id: "66486E0923AA334F"
+			tasks: [{
+				id: "27280C7FF1BA50FB"
+				type: "item"
+				item: "immersiveengineering:biodiesel_bucket"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			id: "66B10A3CD94E3AD6"
+			tasks: [{
+				id: "62C74C10512026CB"
+				type: "item"
+				item: "immersivepetroleum:gasoline_bucket"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			id: "303958BC1405D02A"
+			tasks: [{
+				id: "776AFBC496634CE1"
+				type: "item"
+				item: "immersivepetroleum:naphtha_bucket"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.0d
+			id: "09094ECFE2522FBA"
+			tasks: [{
+				id: "5BD2A8771C5A39C6"
+				type: "item"
+				item: "immersivepetroleum:benzene_bucket"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 6.0d
+			id: "75EFD79AD469490E"
+			tasks: [{
+				id: "339C9C67C05113B9"
+				type: "item"
+				item: "immersivepetroleum:napalm_bucket"
+			}]
 		}
 	]
 	quest_links: [ ]
