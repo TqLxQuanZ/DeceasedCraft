@@ -21,9 +21,6 @@
       "apocalypsenow:electrical_tactical_mace"
     ]
   },
-  "offHand": {
-    "itemKey": "apocalypsenow:riot_shield"
-  },
   "partialBonusRequiredAmount": 4,
   "partialSetBonuses": [
     {
@@ -32,7 +29,7 @@
       "value": 0.0,
       "interactionType": "self",
       "interactionDuration": 300,
-      "description": "§a 10% Damage Reduction",
+      "description": "§a +10% Damage Reduction",
       "hideBonusDescription": false
     },
     {
@@ -80,7 +77,7 @@
       "value": 0.0,
       "interactionType": "self",
       "interactionDuration": 300,
-      "description": "§a 10% Damage Reduction",
+      "description": "§a +10% Damage Reduction",
       "hideBonusDescription": false
     },
     {
