@@ -1,7 +1,7 @@
 {
 	id: "60EB6FF9A37336F1"
 	group: "0CEF75605D0E77B3"
-	order_index: 2
+	order_index: 1
 	filename: "temperature"
 	title: "Temperature"
 	icon: "cold_sweat:thermometer"
@@ -377,11 +377,6 @@
 				Count: 1b
 				tag: {
 					Damage: 0
-				}
-				ForgeCaps: {
-					"cold_sweat:item_insulation": {
-						Insulation: [ ]
-					}
 				}
 			}
 			disable_toast: true
