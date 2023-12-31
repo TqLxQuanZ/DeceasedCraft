@@ -9,13 +9,6 @@ craftingTable.addShaped("xp_tome", <item:xpbook:xp_tome>,
     [[<item:minecraft:book>, <tag:items:forge:dyes>],
     [<item:apocalypsenow:letter_opener>, <item:minecraft:air>]]);
 
-// Tier 3 Reach Upgrade
-craftingTable.remove(<item:effortlessbuilding:reach_upgrade3>);
-craftingTable.addShaped("reach_upgrade3", <item:effortlessbuilding:reach_upgrade3>,
-    [[<item:minecraft:air>, <item:contenttweaker:rubber>, <item:minecraft:air>],
-    [<item:contenttweaker:resistant_fabric>, <item:minecraft:nether_star>, <item:contenttweaker:resistant_fabric>],
-	[<item:minecraft:air>, <item:contenttweaker:rubber>, <item:minecraft:air>]]);
-
 // First Aid
 craftingTable.remove(<item:firstaid:morphine>);
 craftingTable.addShapedMirrored("morphine", <constant:minecraft:mirroraxis:horizontal>, <item:firstaid:morphine>,

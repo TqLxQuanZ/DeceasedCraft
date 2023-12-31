@@ -243,6 +243,7 @@
 				"mutationcraft:human_stage_2",
 				"mutationcraft:human_stage_3"],
 		"minspawndist": 15000,
+		"player": true,
 		"random" : 0.07,
 		"item": "tac:nato_556_bullet",
 		"itemcount": "2/3/4"
@@ -274,6 +275,7 @@
 				"mutationcraft:human_stage_2",
 				"mutationcraft:human_stage_3"],
 		"minspawndist": 15000,
+		"player": true,
 		"random" : 0.03,
 		"item": "tac:762x39",
 		"itemcount": "2/3/4"
@@ -352,18 +354,21 @@
 	},
 	{
 		"mod": "undead_revamp2",
+		"player": true,
 		"random" : 0.8,
 		"item": "minecraft:string",
 		"itemcount": "4/5/6"
 	},
 	{
 		"mod": "undead_revamp2",
+		"player": true,
 		"random" : 0.3,
 		"item": "minecraft:rotten_flesh",
 		"itemcount": "2/2/3"
 	},
 	{
 		"mod": "undead_revamp2",
+		"player": true,
 		"random" : 0.6,
 		"item": "minecraft:bone",
 		"itemcount": "2/2/3"

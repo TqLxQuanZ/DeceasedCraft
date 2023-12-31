@@ -219,7 +219,11 @@ val NetheriteSet = [
     <item:minecraft:netherite_axe>,
     <item:minecraft:netherite_pickaxe>,
     <item:minecraft:netherite_sword>,
-    <item:minecraft:netherite_shovel>
+    <item:minecraft:netherite_shovel>,
+    <item:minecraft:netherite_helmet>,
+    <item:minecraft:netherite_chestplate>,
+    <item:minecraft:netherite_leggings>,
+    <item:minecraft:netherite_boots>
 ] as IItemStack[];
 val NetheriteIngredient = <item:minecraft:netherite_scrap>;
 val DisabledNetheriteIngredient = <item:minecraft:netherite_ingot>;

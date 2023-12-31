@@ -155,8 +155,8 @@ craftingTable.addShaped("bouncing_betty", <item:securitycraft:bouncing_betty>,
 // Mine
 craftingTable.remove(<item:securitycraft:mine>);
 craftingTable.addShaped("mine", <item:securitycraft:mine>,
-    [[<item:minecraft:air>, <item:minecraft:heavy_weighted_pressure_plate>, <item:minecraft:air>],
-	[<item:minecraft:heavy_weighted_pressure_plate>, <item:apocalypsenow:gunpowder_can>, <item:minecraft:heavy_weighted_pressure_plate>]]);
+    [[<item:minecraft:air>, <item:minecraft:redstone>, <item:minecraft:air>],
+	[<item:minecraft:heavy_weighted_pressure_plate>, <item:apocalypsenow:land_mine>, <item:minecraft:heavy_weighted_pressure_plate>]]);
 
 // Keycard Reader
 craftingTable.remove(<item:securitycraft:keycard_reader>);
