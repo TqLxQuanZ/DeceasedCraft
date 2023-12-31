@@ -536,6 +536,24 @@ JEI.hideIngredient(<item:apocalypsenow:rockpile>);
 craftingTable.remove(<item:apocalypsenow:leaves_trap>);
 JEI.hideIngredient(<item:apocalypsenow:leaves_trap>);
 
+craftingTable.remove(<item:apocalypsenow:barbed_wire>);
+JEI.hideIngredient(<item:apocalypsenow:barbed_wire>);
+
+craftingTable.remove(<item:apocalypsenow:spikeswall>);
+JEI.hideIngredient(<item:apocalypsenow:spikeswall>);
+
+craftingTable.remove(<item:apocalypsenow:spike_barrier>);
+JEI.hideIngredient(<item:apocalypsenow:spike_barrier>);
+
+craftingTable.remove(<item:apocalypsenow:glass_spikes>);
+JEI.hideIngredient(<item:apocalypsenow:glass_spikes>);
+
+craftingTable.remove(<item:apocalypsenow:spikes>);
+JEI.hideIngredient(<item:apocalypsenow:spikes>);
+
+craftingTable.remove(<item:apocalypsenow:tripwire_bomb>);
+JEI.hideIngredient(<item:apocalypsenow:tripwire_bomb>);
+
 craftingTable.remove(<item:apocalypsenow:cream_cracker>);
 JEI.hideIngredient(<item:apocalypsenow:cream_cracker>);
 

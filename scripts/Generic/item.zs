@@ -43,9 +43,9 @@ craftingTable.addShaped("fridge_dark", <item:cfm:fridge_dark>,
 // Everlasting Torch
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("everlasting_torches")
                                                       .transitionTo(<item:minecraft:stick>)
-                                                      .require(<tag:items:forge:rods/wooden>)
+                                                      .require(<tag:items:minecraft:planks>)
                                                       .loops(1)
-                                                      .addOutput(<item:minecraft:torch> * 3, 1)
+                                                      .addOutput(<item:minecraft:torch> * 4, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:minecraft:wool>))
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:immersiveengineering:creosote> * 100))
 													  );
@@ -53,28 +53,14 @@ craftingTable.addShaped("fridge_dark", <item:cfm:fridge_dark>,
 <item:minecraft:flint_and_steel>.maxDamage = 256;
 
 // Torch
-craftingTable.addShaped("wool_torch", <item:minecraft:torch>,
+craftingTable.addShaped("wool_torch", <item:minecraft:torch> * 2,
     [[<tag:items:minecraft:coals>],
     [<tag:items:minecraft:wool>],
     [<tag:items:forge:rods/wooden>]]);
 
-// Lit Torch
-craftingTable.removeByName("hardcore_torches:lit_torch");
-craftingTable.addShaped("lit_torch", <item:hardcore_torches:lit_torch> * 12,
-    [[<tag:items:minecraft:coals>],
-    [<tag:items:forge:rods/wooden>]]);
-
-<tag:items:forge:unlit_torch>.add(<item:hardcore_torches:unlit_torch>);
-<tag:items:forge:unlit_torch>.add(<item:hardcore_torches:smoldering_torch>);
-<tag:items:forge:unlit_torch>.add(<item:hardcore_torches:burnt_torch>);
-
-// Lit Torch
-craftingTable.addShapeless("lit_torch_refuel", <item:hardcore_torches:lit_torch>,
-    [<tag:items:forge:unlit_torch>, <item:minecraft:flint_and_steel>.anyDamage().reuse().transformDamage(1)]);
-
 // Everlasting Torch
 craftingTable.removeByName("minecraft:torch");
-craftingTable.addShaped("everlasting_torch", <item:minecraft:torch> * 4,
+craftingTable.addShaped("glow_torches", <item:minecraft:torch> * 4,
     [[<tag:items:forge:dusts/glowstone>],
     [<tag:items:forge:rods/wooden>]]);
 

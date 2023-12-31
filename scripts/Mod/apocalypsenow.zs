@@ -66,18 +66,6 @@ craftingTable.addShaped("barbed_wire", <item:apocalypsenow:barbed_wire> * 3,
     [<tag:items:forge:wires/steel>, <item:minecraft:air>, <tag:items:forge:wires/steel>],
 	[<item:minecraft:air>, <tag:items:forge:wires/steel>, <item:minecraft:air>]]);
 
-craftingTable.remove(<item:apocalypsenow:spikeswall>);
-craftingTable.addShaped("spikes_trap", <item:apocalypsenow:spikeswall>,
-    [[<tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>],
-    [<tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>],
-	[<item:apocalypsenow:log_with_stone>, <item:apocalypsenow:log_with_stone>, <item:apocalypsenow:log_with_stone>]]);
-
-craftingTable.remove(<item:apocalypsenow:spike_barrier>);
-craftingTable.addShaped("spike_barrier", <item:apocalypsenow:spike_barrier>,
-    [[<tag:items:forge:rods/wooden>, <item:apocalypsenow:log_with_stone>, <tag:items:forge:rods/wooden>],
-    [<tag:items:forge:rods/wooden>, <item:apocalypsenow:log_with_stone>, <tag:items:forge:rods/wooden>],
-	[<tag:items:forge:rods/wooden>, <item:apocalypsenow:log_with_stone>, <tag:items:forge:rods/wooden>]]);
-
 craftingTable.remove(<item:apocalypsenow:nail_bomb>);
 craftingTable.addShaped("nail_bomb", <item:apocalypsenow:nail_bomb>,
     [[<item:minecraft:air>, <item:minecraft:stone_pressure_plate>, <item:minecraft:air>],
