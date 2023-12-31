@@ -1,7 +1,7 @@
 {
 	id: "18CA27881FB0F378"
 	group: "0CEF75605D0E77B3"
-	order_index: 3
+	order_index: 2
 	filename: "chapter_defensive"
 	title: "Armor"
 	icon: {
@@ -157,7 +157,7 @@
 				"The elusive netherite armor and its sets form the endgame armor for this modpack. Without the nether, you'll have to search the cities for what scraps of Netherite exist..."
 				""
 				"Craft with rubber, high resistance fiber, netherite scrap and steel armor."
-				"Repair with netherite ingots."
+				"Repair with netherite ingots or scrap."
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -189,7 +189,7 @@
 			description: [
 				"Repaired with cloth."
 				""
-				"The full police set grants a bonus to melee damage."
+				"Provides melee damage and bonus melee damage to certain melee weapons."
 			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
@@ -220,7 +220,7 @@
 			description: [
 				"Repaired with hoglin hide."
 				""
-				"The full firefighter set grants fire immunity, as well as immunity to hot tempreatures."
+				"Provides fire resistance and melee damage to certain melee weapons."
 			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
@@ -251,7 +251,7 @@
 			description: [
 				"Repaired with wool."
 				""
-				"The full nurse set grants a bonus to max health."
+				"Provides max health and melee damage to certain melee weapons."
 			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
@@ -281,8 +281,6 @@
 			y: 1.0d
 			description: [
 				"Repaired with cloth."
-				""
-				"The full ghillie suit set grants a bonus to movement speed, but only on the block type it matches."
 				""
 				"While your attempt at camouflage is commendable, the zombies don't seem to care..."
 			]
@@ -316,7 +314,7 @@
 			description: [
 				"Repaired with cloth."
 				""
-				"The full anarchy set grants a bonus to luck."
+				"Provides luck."
 			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
@@ -347,7 +345,7 @@
 			description: [
 				"Repaired with cloth."
 				""
-				"The forest guard set provides a bonus to ranged damage."
+				"Provides any ranged weapons damage increase."
 			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
@@ -375,10 +373,11 @@
 			title: "Hunting Set"
 			x: 1.5d
 			y: 1.0d
+			shape: "circle"
 			description: [
 				"Repaired with cloth."
 				""
-				"The full hunting set provides a bonus to attack speed."
+				"Provides attack speed and melee damage to certain melee weapons."
 			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
@@ -440,7 +439,7 @@
 			description: [
 				"Repaired with cloth."
 				""
-				"The full construction worker set provides Haste II."
+				"Provides haste effect and melee bonus damage to certain melee weapons."
 			]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
@@ -471,7 +470,7 @@
 			description: [
 				"Repaired with zinc sheets."
 				""
-				"The full sports set grants a bonus to movement speed."
+				"Provides movement speed."
 			]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
@@ -535,7 +534,7 @@
 			description: [
 				"Repaired with cloth."
 				""
-				"The full army general set provides a bonus to melee damage."
+				"Provides melee damage and stamina."
 			]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
@@ -568,7 +567,7 @@
 			description: [
 				"Repaired with cloth."
 				""
-				"The full royal canada set provides a bonus to ranged damage."
+				"Provides pistol damage and movement speed."
 			]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
@@ -669,7 +668,7 @@
 			description: [
 				"Repaired with steel plate."
 				""
-				"The full army set provides a bonus to melee damage."
+				"Provides melee damage and range damage."
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -700,7 +699,7 @@
 			description: [
 				"Repaired with high-resistance fabric."
 				""
-				"The full military riot set provides a bonus to attack speed, and applies slowness on foes."
+				"Provides damage reduction, attack speed, stamina and slows down enemies when dealt damage to them."
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -731,7 +730,7 @@
 			description: [
 				"Repaired with high-resistance fabric."
 				""
-				"The full urban military set provides bonuses to melee damage, attack speed and movement speed, as well as weakness immunity."
+				"Provides melee damage, sniper damage, step height and movement speed increase."
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -795,7 +794,7 @@
 			description: [
 				"Repaired with cloth."
 				""
-				"The full UN set provides a bonus to melee damage and attack speed."
+				"Provides attack speed and movement speed."
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -826,7 +825,7 @@
 			description: [
 				"Repaired with steel plate."
 				""
-				"The full officer beret set provides a bonus to melee damage, attack speed and knockback strength, as well as weakness immunity."
+				"Provides attack speed, jump height and knockback strength."
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -857,7 +856,7 @@
 			description: [
 				"Repaired with steel plate."
 				""
-				"The full military pilot set provides a bonus to movement speed, attack speed and knockback strength, as well as weakness immunity."
+				"Provides attack speed, movement speed and knockback strength."
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -888,7 +887,7 @@
 			description: [
 				"Repaired with steel plate."
 				""
-				"The full atlas pilot set provides a bonus to movement speed, attack speed and knockback strength, as well as weakness immunity."
+				"Provides attack speed, movement speed and knockback strength."
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -919,7 +918,7 @@
 			description: [
 				"Repaired with steel plate."
 				""
-				"The full military beret set provides a bonus to melee damage, attack speed and knockback strength, as well as weakness immunity."
+				"Provides attack speed, jump height and knockback strength."
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -981,12 +980,13 @@
 		}
 		{
 			title: "SWAT Set"
-			x: 25.5d
-			y: -1.0d
+			x: 26.0d
+			y: -2.5d
 			description: [
 				"Repaired with high-resistance fabric."
 				""
-				"The full SWAT set provides damage resistance, as well as weakness immunity."
+				"Provides minor damage reduction, attack and movement speed increase."
+				"Bonus to SMG damage."
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
@@ -1012,12 +1012,13 @@
 		}
 		{
 			title: "Riot SWAT Set"
-			x: 26.5d
-			y: -2.0d
+			x: 28.0d
+			y: -2.5d
 			description: [
 				"Repaired with high-resistance fabric."
 				""
-				"The full Riot SWAT set provides damage resistance, as well as weakness immunity."
+				"Provides minor damage reduction, attack and movement speed increase."
+				"Bonus to melee weapon damage."
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
@@ -1043,13 +1044,12 @@
 		}
 		{
 			title: "Juggernaut Set"
-			x: 28.5d
+			x: 29.5d
 			y: 1.0d
 			description: [
 				"Repaired with high-resistance fabric."
 				""
-				"The full juggernaut set provides massive damage resistance, as well as weakness immunity."
-				"However, it comes with a movement penalty."
+				"Provides lower damage resistance than bomb squad armor, but gains bonus shotgun damage at the cost of movement speed."
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
@@ -1075,13 +1075,12 @@
 		}
 		{
 			title: "Bomb Squad Set"
-			x: 28.5d
+			x: 29.5d
 			y: -1.0d
 			description: [
 				"Repaired with high-resistance fabric."
 				""
-				"The full bomb squad set provides massive damage resistance, as well as weakness immunity."
-				"However, it comes with a movement penalty."
+				"Provides massive damage reduction at the cost of movement speed."
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
@@ -1107,12 +1106,13 @@
 		}
 		{
 			title: "Spec Ops Set"
-			x: 26.5d
-			y: 2.0d
+			x: 28.0d
+			y: 2.5d
 			description: [
 				"Repaired with high-resistance fabric."
 				""
-				"The full Spec set provides damage resistance, as well as weakness immunity."
+				"Provides minor damage reduction, step height and movement speed increase."
+				"Bonus to rifle damage."
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
@@ -1138,14 +1138,15 @@
 		}
 		{
 			title: "Soldier Set"
-			x: 25.5d
-			y: 1.0d
+			x: 26.0d
+			y: 2.5d
 			description: [
 				"Repaired with high-resistance fabric."
 				""
-				"Equipping the soldier helmet allows you to enter the wasteland without suffering negative effects."
+				"Provides minor damage reduction, step height and movement speed increase."
+				"Bonus to heavy weapon damage."
 				""
-				"The full soldier set provides damage resistance, as well as weakness immunity."
+				"Equipping the soldier helmet allows you to enter the wasteland without suffering negative effects."
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
