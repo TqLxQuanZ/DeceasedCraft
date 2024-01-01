@@ -205,16 +205,28 @@
 	{
 		"mob": ["zombie_extreme:demolisher"],
 		"player": true,
-		"random": 0.25,
-		"item": "tac:nato_556_bullet",
-		"itemcount": "24-27/32-35/40-45"
+		"item": "tac:round45",
+		"itemcount": "24-30/31-36/37-45"
 	},
 	{
 		"mob": ["zombie_extreme:demolisher"],
 		"player": true,
-		"random": 0.25,
+		"item": "tac:9mm_round",
+		"itemcount": "24-30/31-36/37-45"
+	},
+	{
+		"mob": ["zombie_extreme:demolisher"],
+		"player": true,
+		"random": 0.05,
+		"item": "tac:nato_556_bullet",
+		"itemcount": "24-30/31-36/37-45"
+	},
+	{
+		"mob": ["zombie_extreme:demolisher"],
+		"player": true,
+		"random": 0.05,
 		"item": "tac:762x39",
-		"itemcount": "24-27/32-35/40-45"
+		"itemcount": "24-30/31-36/37-45"
 	},
 	{
 		"mob": ["minecraft:zombie",
