@@ -1,8 +1,7 @@
 [
 	{
 		"entity": "minecraft:zombie",
-		"weight": 15,
-		"nbt": "{AbsorptionAmount:25}"
+		"weight": 15
 	},
 	{
 		"entity": "zombie_extreme:bomber",
@@ -10,10 +9,6 @@
 	},
 	{
 		"entity": "zombie_extreme:inflated",
-		"weight": 5
-	},
-	{
-		"entity": "undead_revamp2:thesmoker",
 		"weight": 5
 	},
 	{
@@ -27,6 +22,10 @@
 	},
 	{
 		"entity": "zombie_extreme:demolisher",
+		"weight": 2
+	},
+	{
+		"entity": "zombie_extreme:rat_king",
 		"weight": 2
 	}
 ]

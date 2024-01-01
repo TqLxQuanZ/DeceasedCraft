@@ -190,7 +190,7 @@
 	},
 	{
 		"mob": "mutationcraft:resenter",
-		"persecond": 0.05,
+		"persecond": 0.01,
 		"attempts": 10,
 		"conditions": {
 		  "dimension": "minecraft:overworld",
@@ -336,7 +336,7 @@
 	},
 	{
 		"mob": ["zombie_extreme:demolisher"],
-		"persecond": 0.025,
+		"persecond": 0.01,
 		"attempts": 10,
 		"conditions": {
 		  "dimension": "minecraft:overworld",
