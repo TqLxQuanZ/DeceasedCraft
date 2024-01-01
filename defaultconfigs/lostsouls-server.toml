@@ -33,7 +33,7 @@
 	messageBuildingHalfway = "It seems to be getting lesser..."
 	#The amount of ticks that the server waits before checking for new spawns
 	#Range: 1 ~ 1000000
-	serverTickTimeout = 15
+	serverTickTimeout = 5
 	#The maximum amount of entities that can spawn near each other (of the same type)
 	#Range: 1 ~ 200
 	spawnMaxNearby = 10
