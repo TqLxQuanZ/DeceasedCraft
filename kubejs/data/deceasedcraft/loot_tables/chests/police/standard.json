@@ -32,12 +32,12 @@
     },
     {
       "rolls": {
-        "min": 1,
+        "min": 0,
         "max": 3
       },
       "bonus_rolls": {
         "min": 0,
-        "max": 2
+        "max": 3
       },
       "entries": [
         {
@@ -104,7 +104,7 @@
     },
     {
       "rolls": {
-        "min": 1,
+        "min": 0,
         "max": 3
       },
       "bonus_rolls": {
