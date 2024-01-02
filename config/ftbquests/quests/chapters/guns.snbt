@@ -1,0 +1,211 @@
+{
+	id: "4DF47C61A19192C0"
+	group: "0CEF75605D0E77B3"
+	order_index: 4
+	filename: "guns"
+	title: "Guns"
+	icon: {
+		id: "tac:m1911"
+		Count: 1b
+		tag: {
+			AmmoCount: 7
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Workbench for Guns!"
+			x: 4.0d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "Lock n Load"
+			description: ["Craft a workbench from TAC to assemble your guns."]
+			dependency_requirement: "one_started"
+			size: 3.0d
+			progression_mode: "flexible"
+			id: "00091A7BF2624E7A"
+			tasks: [{
+				id: "703161B96138BC95"
+				type: "item"
+				item: "tac:workbench"
+			}]
+			rewards: [{
+				id: "391AA8B82C9E63D6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.5d
+			description: ["Barrel is one of the most important material to assemble your gun."]
+			dependencies: ["00091A7BF2624E7A"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "68F47F7416B6010E"
+			tasks: [{
+				id: "6315D8A600998A44"
+				type: "item"
+				item: "immersiveengineering:gunpart_barrel"
+			}]
+			rewards: [{
+				id: "30A5F1252DE2D03F"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.5d
+			description: ["Steel Component is one of the most important materials to assemble your gun."]
+			dependencies: ["00091A7BF2624E7A"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "38FFA4C29ED0DB83"
+			tasks: [{
+				id: "3EF4849CD8291ECA"
+				type: "item"
+				item: "immersiveengineering:component_steel"
+			}]
+			rewards: [{
+				id: "5A0065FF848B8B19"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: 4.0d
+			y: -6.5d
+			description: ["Steel Rod is one of the most important materials to assemble your gun."]
+			dependencies: ["00091A7BF2624E7A"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "23C7010AC01986C1"
+			tasks: [{
+				id: "5B43F8E2C0BD654F"
+				type: "item"
+				item: "immersiveengineering:stick_steel"
+			}]
+			rewards: [{
+				id: "4F6E44393FDBC661"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			description: ["Recoil Spring is one of the most important materials to assemble your gun."]
+			dependencies: ["00091A7BF2624E7A"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "516FDD676D28100E"
+			tasks: [{
+				id: "1056273A06E528C5"
+				type: "item"
+				item: "createbigcannons:recoil_spring"
+			}]
+			rewards: [{
+				id: "2D6AFC45992620B0"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			description: ["Steel Plate is one of the most important materials to assemble your gun."]
+			dependencies: ["00091A7BF2624E7A"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "4CFBE9E443F377FE"
+			tasks: [{
+				id: "5CEA3FD262CBFA0D"
+				type: "item"
+				item: "immersiveengineering:plate_steel"
+			}]
+			rewards: [{
+				id: "21190F890FD107DB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			description: ["Several high-tier guns require the material Rubber."]
+			dependencies: ["00091A7BF2624E7A"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "41C6DE1EA8D43135"
+			tasks: [{
+				id: "27E59F8EA84010DD"
+				type: "item"
+				item: "contenttweaker:rubber"
+			}]
+			rewards: [{
+				id: "69EE29C099DEB530"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			description: ["Some of the higher tier guns require plastic to assemble."]
+			dependencies: ["00091A7BF2624E7A"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "395C56B1612B8C4C"
+			tasks: [{
+				id: "5D901F1BA4E93355"
+				type: "item"
+				item: "immersiveengineering:plate_duroplast"
+			}]
+			rewards: [{
+				id: "410023FAF0B3D059"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: ["Several high-tier guns require the material High Carbon Steel Alloy."]
+			dependencies: ["00091A7BF2624E7A"]
+			dependency_requirement: "one_started"
+			id: "7129E45A32EA0C6A"
+			tasks: [{
+				id: "3B39606E4FF49368"
+				type: "item"
+				item: "contenttweaker:high_carbon_steel_alloy"
+			}]
+			rewards: [{
+				id: "78F156EAB5792DB4"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			description: ["Several high-tier guns require the material Aluminum Plate."]
+			dependencies: ["00091A7BF2624E7A"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "4928D365299C4089"
+			tasks: [{
+				id: "61C7F6C9BD32470C"
+				type: "item"
+				item: "immersiveengineering:plate_aluminum"
+			}]
+			rewards: [{
+				id: "31B0C5ABD97A6A41"
+				type: "xp"
+				xp: 500
+			}]
+		}
+	]
+	quest_links: [ ]
+}
