@@ -96,7 +96,7 @@
 			#Supports patterns with special characters *, (, ) and |, where * matches anything, ( ) are used for grouping and | means OR.
 			#For example ["*:villager", "minecraft:m(ule|ooshroom)", "#minecraft:axolotl_hunt_targets"].
 			#By default the list is empty with the type set to ALL_BUT, which means that all friendly entities are included.
-			friendlyChunkProtectedEntityList = ["minecraft:boat", "simpleplanes:helicopter", "simpleplanes:large_plane", "simpleplanes:plane", "car:car"]
+			friendlyChunkProtectedEntityList = ["minecraft:boat", "simpleplanes:helicopter", "simpleplanes:large_plane", "simpleplanes:plane", "car:car", "corpse:corpse"]
 			#The type of the list defined in "hostileChunkProtectedEntityList". ONLY - include only the listed entities. ALL_BUT - include all but the listed entities.
 			#Allowed Values: ONLY, ALL_BUT
 			hostileChunkProtectedEntityListType = "ONLY"
