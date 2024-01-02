@@ -1,0 +1,146 @@
+{
+	id: "389BEBD3DE02E81E"
+	group: "410F2D717CE3690A"
+	order_index: 3
+	filename: "pest_control"
+	title: "Pest Control"
+	icon: {
+		id: "apocalypsenow:tactical_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Pest Control - I"
+			icon: "mutationcraft:human_herder_spawn_egg"
+			x: -6.0d
+			y: -1.5d
+			shape: "square"
+			subtitle: "The Screams..."
+			description: ["Can be possibly found within the mega building."]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "2CB3D27DD3C51BCB"
+			tasks: [{
+				id: "7F17D15776468E6A"
+				type: "kill"
+				icon: "minecraft:zombie_head"
+				entity: "mutationcraft:human_herder"
+				value: 5L
+			}]
+			rewards: [{
+				id: "26E8A7E4D688B2CC"
+				type: "xp"
+				xp: 1500
+			}]
+		}
+		{
+			title: "Pest Control - II"
+			icon: "mutationcraft:resenter_spawn_egg"
+			x: -3.0d
+			y: -1.5d
+			shape: "square"
+			description: ["Can be possibly found in any city streets if venture far enough from spawn points. (15k blocks)"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "5C6D546A00F23CDF"
+			tasks: [{
+				id: "708583748C652630"
+				type: "kill"
+				icon: "minecraft:zombie_head"
+				entity: "mutationcraft:resenter"
+				value: 5L
+			}]
+			rewards: [{
+				id: "5A2E0A6D08686826"
+				type: "xp"
+				xp: 3000
+			}]
+		}
+		{
+			title: "Pest Control - III"
+			icon: "mutationcraft:parasitic_bomber_spawn_egg"
+			x: 0.0d
+			y: -1.5d
+			shape: "square"
+			subtitle: "The Sizes..."
+			description: ["Can be possibly found within wasteland factories area."]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "283660ADF57AD0A0"
+			tasks: [{
+				id: "09244AB71F01D1EE"
+				type: "kill"
+				icon: "minecraft:zombie_head"
+				entity: "mutationcraft:the_intoxicator"
+				value: 3L
+			}]
+			rewards: [{
+				id: "131E8CDAA7811848"
+				type: "xp"
+				xp: 5000
+			}]
+		}
+		{
+			title: "Pest Control - IV"
+			icon: "minecraft:zombie_head"
+			x: -6.0d
+			y: 1.5d
+			shape: "square"
+			description: ["Can be possibly found in any city's street."]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "31F2F707FABE0045"
+			tasks: [{
+				id: "4D160EE918B978BB"
+				type: "kill"
+				icon: "minecraft:zombie_head"
+				entity: "zombie_extreme:demolisher"
+				value: 5L
+			}]
+		}
+		{
+			title: "Pest Control - V"
+			x: -3.0d
+			y: 1.5d
+			shape: "square"
+			description: ["INFORMATION UNKNOWN."]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "78AAC5FF8FC7624D"
+			tasks: [{
+				id: "407B8A65CC11BB3E"
+				type: "kill"
+				icon: "minecraft:zombie_head"
+				entity: "zombie_extreme:rat_king"
+				value: 5L
+			}]
+		}
+		{
+			title: "Pest Control - VI"
+			icon: "minecraft:zombie_head"
+			x: 0.0d
+			y: 1.5d
+			shape: "square"
+			description: ["INFORMATION UNKNOWN."]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "34B4322A74068EF0"
+			tasks: [{
+				id: "16C150D2C7CF93B5"
+				type: "kill"
+				icon: "minecraft:zombie_head"
+				entity: "zombie_extreme:patient_zero"
+				value: 5L
+			}]
+		}
+	]
+	quest_links: [ ]
+}
