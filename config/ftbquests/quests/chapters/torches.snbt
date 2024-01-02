@@ -3,8 +3,8 @@
 	group: "06797646CDBF2AAC"
 	order_index: 0
 	filename: "torches"
-	title: "Torches"
-	icon: "minecraft:torch"
+	title: "Creosote Oil"
+	icon: "immersiveengineering:creosote_bucket"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -14,7 +14,7 @@
 			x: -11.25d
 			y: -3.0d
 			shape: "hexagon"
-			description: ["To overcome the limitations of lit torches, it's crucial to find a method for producing everlasting light sources that are resistant to water."]
+			description: ["To mass-produce torches, using creosote oil is one of the simplest methods."]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
@@ -24,17 +24,17 @@
 				type: "checkmark"
 			}]
 			rewards: [{
-				id: "0627F1BFA9D13471"
+				id: "280950C4E192BF21"
 				type: "item"
-				item: "hardcore_torches:lit_torch"
-				count: 8
+				item: "minecraft:torch"
+				count: 6
 			}]
 		}
 		{
 			title: "Clay"
 			x: -8.5d
 			y: -5.0d
-			description: ["- The initial step in torch production involves collecting clay from rivers or shallow water areas."]
+			description: ["The initial step in torch production involves collecting clay from rivers or shallow water areas."]
 			dependencies: ["590BB827A21E0CA4"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -147,7 +147,7 @@
 		{
 			x: -1.0d
 			y: -3.0d
-			description: ["- Obtain a bucket of creosote oil by process coal or logs into charcoal/coal coke."]
+			description: ["Obtain a bucket of creosote oil by process coal or logs into charcoal/coal coke."]
 			dependencies: ["55C8C614C6ADE563"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -167,8 +167,9 @@
 			x: 1.5d
 			y: -3.0d
 			description: [
-				"- Quality woods come with a price."
-				"- Craft treated wood planks using creosote oil."
+				"Quality woods come with a price."
+				""
+				"Craft some treated wood planks using creosote oil."
 			]
 			dependencies: ["2FC4D860C8175089"]
 			dependency_requirement: "one_started"
@@ -184,35 +185,6 @@
 				type: "item"
 				item: "immersiveengineering:treated_wood_horizontal"
 				count: 32
-			}]
-		}
-		{
-			title: "Rock and Stone!"
-			x: -14.0d
-			y: -3.0d
-			shape: "square"
-			subtitle: "Mushroom!"
-			description: ["Craft flares for your cave expeditions to provide essential light and visibility."]
-			dependency_requirement: "one_started"
-			size: 2.0d
-			id: "5F0F099AB531C873"
-			tasks: [{
-				id: "6B13FF57DA247B92"
-				type: "item"
-				title: "Any #forge:flares"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:flares"
-					}
-				}
-			}]
-			rewards: [{
-				id: "1B22AD9E8999D47D"
-				type: "item"
-				item: "drg_flares:drg_flare_yellow"
-				count: 64
 			}]
 		}
 	]

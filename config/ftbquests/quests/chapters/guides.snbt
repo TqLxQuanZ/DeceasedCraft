@@ -550,6 +550,35 @@
 				item: "minecraft:cookie"
 			}]
 		}
+		{
+			title: "Rock and Stone!"
+			x: 0.0d
+			y: 14.5d
+			shape: "square"
+			subtitle: "Mushroom!"
+			description: ["Craft flares for your cave expeditions to provide essential light and visibility."]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "3776451F76BAF380"
+			tasks: [{
+				id: "00160D764F6BAB68"
+				type: "item"
+				title: "Any #forge:flares"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:flares"
+					}
+				}
+			}]
+			rewards: [{
+				id: "140F0DCCC4AE8766"
+				type: "item"
+				item: "drg_flares:drg_flare_yellow"
+				count: 64
+			}]
+		}
 	]
 	quest_links: [ ]
 }

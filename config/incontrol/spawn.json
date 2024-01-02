@@ -606,6 +606,13 @@
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "dimension": "minecraft:overworld",
+        "baby": true,
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
         "incity": true,
         "onjoin": true,
         "minheight": 61,
@@ -647,7 +654,7 @@
           "c70cities:multi_hospital_3"],
         "onjoin": true,
         "minheight": 61,
-        "random": 0.85,
+        "random": 0.2,
         "result": "default",
         "armorhelmet": "apocalypsenow:nurse_helmet",
         "armorchest": "apocalypsenow:nurse_chestplate",
@@ -1063,13 +1070,6 @@
           }
         ]
       }
-    },
-    {
-        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
-        "dimension": "minecraft:overworld",
-        "baby": true,
-        "onjoin": true,
-        "result": "deny"
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
