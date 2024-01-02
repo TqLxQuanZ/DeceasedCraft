@@ -682,3 +682,9 @@ JEI.hideIngredient(<item:apocalypsenow:jet_pilot_boots>);
 
 craftingTable.remove(<item:apocalypsenow:fire_module_katana>);
 JEI.hideIngredient(<item:apocalypsenow:fire_module_katana>);
+
+craftingTable.remove(<item:apocalypsenow:pkm_4gasmask_helmet>);
+JEI.hideIngredient(<item:apocalypsenow:pkm_4gasmask_helmet>);
+
+craftingTable.remove(<item:apocalypsenow:pbf_hamstergasmask_helmet>);
+JEI.hideIngredient(<item:apocalypsenow:pbf_hamstergasmask_helmet>);
