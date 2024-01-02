@@ -85,7 +85,7 @@
       "dimension": "minecraft:overworld",
       "mincount": {
         "mod": "apocalypsenow",
-        "amount": 3,
+        "amount": 2,
         "perchunk": true
       },
       "result": "deny"
@@ -258,7 +258,7 @@
       "nbt": {
         "Attributes": [
           {
-            "Base": 4.0,
+            "Base": 8.0,
             "Name": "generic.armor"
           }
         ]
@@ -312,25 +312,8 @@
     {
       "mob": "undead_revamp2:thespitter",
       "dimension": "minecraft:overworld",
-      "inbuilding": true,
-      "incity": true,
-      "minlight": 0,
-      "maxlight": 6,
-      "minheight": 61,
-      "result": "allow",
-      "nbt": {
-        "Attributes": [
-          {
-            "Base": 2.0,
-            "Name": "generic.armor"
-          }
-        ]
-      }
-    },
-    {
-      "mob": "undead_revamp2:thespitter",
-      "dimension": "minecraft:overworld",
       "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "incity": true,
       "minlight": 0,
       "maxlight": 6,
       "minheight": 61,
@@ -479,21 +462,6 @@
         "healthadd": 15.0
     },
     {
-        "mob": ["zombie_extreme:infected_police"],
-        "dimension": "minecraft:overworld",
-        "incity": true,
-        "minlight": 0,
-        "maxlight": 6,
-        "minheight": 61,
-        "random": 0.2,
-        "result": "allow",
-        "armorhelmet": "apocalypsenow:police_helmet",
-        "armorchest": "apocalypsenow:police_chestplate",
-        "armorlegs": "apocalypsenow:police_leggings",
-        "armorboots": "apocalypsenow:police_boots",
-        "healthadd": 15.0
-    },
-    {
         "mob": ["zombie_extreme:demolisher"],
         "dimension": "minecraft:overworld",
         "incity": true,
@@ -568,7 +536,8 @@
         "maxlight": 6,
         "minheight": 61,
         "result": "allow",
-        "healthadd": 20.0,
+        "healthadd": 30.0,
+        "damageadd": 10.0,
         "nbt": {
           "Attributes": [
             {
@@ -588,6 +557,7 @@
         "minheight": 61,
         "result": "allow",
         "healthadd": 20.0,
+        "damageadd": 10.0,
         "nbt": {
           "Attributes": [
             {
@@ -609,7 +579,8 @@
         "maxlight": 6,
         "minheight": 61,
         "result": "allow",
-        "healthadd": 40.0,
+        "healthadd": 50.0,
+        "damageadd": 25.0,
         "nbt": {
           "Attributes": [
             {
