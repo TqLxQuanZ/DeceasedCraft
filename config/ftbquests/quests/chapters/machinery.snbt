@@ -219,6 +219,7 @@
 			title: "Establish Metal Press"
 			x: 1.0d
 			y: -2.0d
+			shape: "gear"
 			description: [
 				"- Establish an advance metal press that allows mold to be used."
 				""
@@ -557,8 +558,8 @@
 			}]
 		}
 		{
-			x: 26.5d
-			y: 4.0d
+			x: 28.5d
+			y: 6.0d
 			description: ["- Combine 4 resistant fiber into a fabric for high grade armors."]
 			dependencies: ["46570C043F3FB3BE"]
 			dependency_requirement: "one_started"
@@ -578,13 +579,13 @@
 		}
 		{
 			title: "High Carbon Steel Alloy"
-			x: 26.5d
+			x: 24.5d
 			y: 8.0d
 			description: [
 				"- Obtain a high carbon steel alloy from merging Polyethylene with Steel Ingot inside Arc Furnace."
 				"- Carbon Steel Alloy also can be found in wasteland buildings."
 			]
-			dependencies: ["46570C043F3FB3BE"]
+			dependencies: ["127BFFF817F6D610"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "0C3BABE6431EA92C"
@@ -668,8 +669,8 @@
 		}
 		{
 			title: "Better Cables!"
-			x: 24.5d
-			y: 2.0d
+			x: 26.5d
+			y: 4.0d
 			description: ["Craft better cables for transferring energy/items/fluids using rubbers."]
 			dependencies: ["1D87E5535012EEDF"]
 			dependency_requirement: "one_started"
@@ -691,6 +692,47 @@
 				id: "3343D443AD99C4A0"
 				type: "xp"
 				xp: 1000
+			}]
+		}
+		{
+			title: "Veteran Engineer"
+			icon: "immersiveengineering:manual"
+			x: -11.5d
+			y: -2.0d
+			shape: "square"
+			subtitle: "I want to build machines!"
+			description: [
+				"As a veteran engineer, you possess extensive knowledge in various technological domains, allowing me to provide information and insights on a wide range of tech-related topics."
+				""
+			]
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			progression_mode: "flexible"
+			id: "18770D8607D4BAD4"
+			tasks: [{
+				id: "3E0FB1816EF89D1C"
+				type: "checkmark"
+				title: "PhD of Engineering"
+			}]
+			rewards: [{
+				id: "24620030444182E9"
+				type: "item"
+				item: "immersiveengineering:manual"
+			}]
+		}
+		{
+			title: "Tinkerer"
+			x: 28.5d
+			y: 4.0d
+			description: ["Craft a pipe wrench to start tinkering your upgraded cables!"]
+			dependencies: ["6A73DA4245E1BBA9"]
+			dependency_requirement: "one_started"
+			id: "33D1C2ECDBECDEC4"
+			tasks: [{
+				id: "1DF9DC24839EC20A"
+				type: "item"
+				item: "pipez:wrench"
 			}]
 		}
 	]

@@ -1,10 +1,10 @@
 {
 	id: "00ECEBAD70E0D42C"
 	group: "06797646CDBF2AAC"
-	order_index: 5
+	order_index: 4
 	filename: "bullet_automation"
 	title: "Bullet Automation"
-	icon: "cgm:shell"
+	icon: "tac:b_magnum"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -13,6 +13,7 @@
 			icon: "create:zinc_ore"
 			x: -4.0d
 			y: 4.0d
+			shape: "pentagon"
 			description: ["Seek out the sphalerite mineral vein for massive zinc resources to prepare your brass production!"]
 			dependencies: ["7F432CC747B372CA"]
 			dependency_requirement: "one_started"
@@ -80,7 +81,8 @@
 			title: "Auricupride Mineral Vein"
 			icon: "minecraft:copper_ore"
 			x: -4.0d
-			y: 8.0d
+			y: 6.0d
+			shape: "pentagon"
 			description: ["Seek out the auricupride mineral vein for massive copper resources to prepare your brass production!"]
 			dependencies: ["7F432CC747B372CA"]
 			dependency_requirement: "one_started"
@@ -130,6 +132,9 @@
 			dependencies: [
 				"6A146B82EDD36480"
 				"57661E0767AF889C"
+				"4CF7E66691A25C5D"
+				"67FBF24698BA1F5F"
+				"63DF171AEF5ADF98"
 			]
 			progression_mode: "flexible"
 			id: "5CA0A7BB8088CC04"
@@ -187,12 +192,11 @@
 			title: "Transporting Ores"
 			icon: "minecraft:iron_ore"
 			x: -1.0d
-			y: 10.5d
+			y: 4.0d
 			shape: "rsquare"
 			description: ["Have you ever considered using a train to transport your ores if the mineral veins are too far away?"]
 			dependencies: ["5CA0A7BB8088CC04"]
 			dependency_requirement: "one_started"
-			size: 1.5d
 			progression_mode: "flexible"
 			id: "0DBFE729CA9B88CD"
 			tasks: [
@@ -289,8 +293,8 @@
 		}
 		{
 			title: "Infinite Stones"
-			x: 7.5d
-			y: -19.0d
+			x: -5.5d
+			y: -8.0d
 			description: ["Thanos? No, now get to drill the cobblestones."]
 			dependencies: [
 				"788649D1405AB54D"
@@ -307,8 +311,8 @@
 		}
 		{
 			title: "Water Source"
-			x: 6.0d
-			y: -21.0d
+			x: -7.0d
+			y: -7.0d
 			shape: "hexagon"
 			description: ["I am pretty sure you can grab this any time."]
 			dependency_requirement: "one_started"
@@ -328,8 +332,8 @@
 		}
 		{
 			title: "Lava Source"
-			x: 9.0d
-			y: -21.0d
+			x: -7.0d
+			y: -9.5d
 			shape: "hexagon"
 			description: ["I am pretty sure you can grab this any time."]
 			dependency_requirement: "one_started"
@@ -343,8 +347,8 @@
 		}
 		{
 			title: "Drill the Stones!"
-			x: 7.5d
-			y: -17.5d
+			x: -3.0d
+			y: -8.0d
 			description: ["Drill the cobblestones so the crushing wheel or crusher can grind them into gravel."]
 			dependencies: ["6EE07F1F93C9C62F"]
 			dependency_requirement: "one_started"
@@ -357,8 +361,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -16.0d
+			x: -1.0d
+			y: -8.0d
 			description: [
 				"- Grind the cobblestone into gravels."
 				"- Crusher also works, depends on how you want to set it up."
@@ -429,8 +433,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -8.0d
+			x: 11.0d
+			y: -10.0d
 			description: ["Recycle the blaze rod by repressing it with dust and the mold."]
 			dependencies: ["6358C1DED08C744A"]
 			dependency_requirement: "one_started"
@@ -444,7 +448,7 @@
 		}
 		{
 			x: 15.0d
-			y: -8.0d
+			y: -10.0d
 			description: ["Craft a rod mold in the engineer workbench using the metal press mold blueprint."]
 			dependencies: ["6ADD4331CC91EC96"]
 			dependency_requirement: "one_started"
@@ -479,7 +483,7 @@
 		}
 		{
 			title: "Optional Veins"
-			icon: "immersiveengineering:ore_lead"
+			icon: "minecraft:copper_ore"
 			x: -7.0d
 			y: -1.5d
 			description: ["Several mineral veins also provides sulfur dust as a product to create gunpowder."]
@@ -494,8 +498,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -14.5d
+			x: 1.0d
+			y: -8.0d
 			description: ["Now grind it again!"]
 			dependencies: ["3616E17635619FAB"]
 			dependency_requirement: "one_started"
@@ -508,8 +512,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -13.0d
+			x: 3.5d
+			y: -8.0d
 			description: ["Now combine it with the other sands!"]
 			dependencies: ["0327652F32B66116"]
 			dependency_requirement: "one_started"
@@ -525,6 +529,7 @@
 			title: "The Finest Product"
 			x: 9.0d
 			y: 3.0d
+			shape: "octagon"
 			description: ["Produce gunpowder."]
 			dependencies: [
 				"364B381B11E2C427"
@@ -544,6 +549,7 @@
 			title: "The Bullets"
 			x: 16.5d
 			y: 6.0d
+			shape: "square"
 			description: ["Fully automate your bullet production."]
 			dependencies: ["25C6189E8ABA6FCA"]
 			dependency_requirement: "one_started"
@@ -571,8 +577,8 @@
 		}
 		{
 			title: "Compressing - I"
-			x: 6.0d
-			y: -10.5d
+			x: 5.5d
+			y: -6.0d
 			description: ["Compress the sand into sandstone using mechanical crafter."]
 			dependencies: ["0F5AF0C0223B7331"]
 			dependency_requirement: "one_started"
@@ -585,8 +591,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -10.5d
+			x: 5.5d
+			y: -10.0d
 			description: ["Compress the sand into sandstone using mechanical mixer."]
 			dependencies: ["0F5AF0C0223B7331"]
 			dependency_requirement: "one_started"
@@ -602,6 +608,7 @@
 			title: "Casings"
 			x: 8.0d
 			y: 6.0d
+			shape: "octagon"
 			description: ["Obtain the bullet casing from pressing brass ingots using mold and metal presser."]
 			dependencies: ["7A0D88FD05C79544"]
 			dependency_requirement: "one_started"
@@ -673,25 +680,20 @@
 			}]
 		}
 		{
-			title: "Nuggets"
+			title: "Lead Nuggets"
 			x: 9.0d
 			y: 9.0d
-			description: ["Most of the nuggets can be produced into different type of bullets."]
+			shape: "octagon"
+			description: ["All bullets require lead to be completed."]
+			dependencies: ["48C6750F3C42F884"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
 			id: "13E07BBCEEF7F142"
 			tasks: [{
-				id: "7DBC5D0327C85011"
+				id: "7F3DE0BCCDF62E95"
 				type: "item"
-				title: "Any #forge:nuggets"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:nuggets"
-					}
-				}
+				item: "immersiveengineering:nugget_lead"
 			}]
 		}
 		{
@@ -766,8 +768,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -6.0d
+			x: -1.5d
+			y: -4.5d
 			description: ["There won't be any rewards for this questline, as it is completely optional and there are repeating quest already existed in the other questline."]
 			dependency_requirement: "one_started"
 			size: 3.0d
@@ -776,6 +778,90 @@
 				id: "72F26B6F3E13839B"
 				type: "checkmark"
 				title: "Info"
+			}]
+		}
+		{
+			title: "Galena Mineral Vein"
+			icon: "immersiveengineering:ore_lead"
+			x: -4.0d
+			y: 9.0d
+			shape: "pentagon"
+			description: ["Seek out the galena mineral vein for massive lead resources."]
+			dependencies: ["7F432CC747B372CA"]
+			dependency_requirement: "one_started"
+			id: "48C6750F3C42F884"
+			tasks: [{
+				id: "79A25FE6726BAFE1"
+				type: "checkmark"
+				title: "Checkmark"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.0d
+			shape: "square"
+			description: [
+				"- Obtain kiln brick as an alternative option for making alloys."
+				"- Check Alloy Kiln for more information inside Engineer's Manual, Workbenches and Furnaces."
+			]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "67FBF24698BA1F5F"
+			tasks: [{
+				id: "5DC9CA9F95CBC748"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+			}]
+			rewards: [{
+				id: "7B6FDB1AEB0BB788"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			shape: "square"
+			description: [
+				"- Obtain blaze burner."
+				"- Blaze Burner can be often found in kitchen, more commonly in residential buildings."
+			]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "4CF7E66691A25C5D"
+			tasks: [{
+				id: "30EB4CA62859FCB6"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "580A599295B4E8EC"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.0d
+			shape: "square"
+			description: [
+				"- Obtain or craft a mechanical mixer."
+				"- Mechanical mixer can be found rarely in some buildings."
+			]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "63DF171AEF5ADF98"
+			tasks: [{
+				id: "4154CBC9C1B0C54A"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			rewards: [{
+				id: "5EDD7C1C3F3E3375"
+				type: "item"
+				item: "create:mechanical_mixer"
+				count: 3
 			}]
 		}
 	]
