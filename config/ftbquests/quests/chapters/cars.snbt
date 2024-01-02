@@ -1,0 +1,215 @@
+{
+	id: "7CA77626171BE5D2"
+	group: "06797646CDBF2AAC"
+	order_index: 6
+	filename: "cars"
+	title: "Cars"
+	icon: "car:white_suv_body"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Drive"
+			x: -5.0d
+			y: -1.0d
+			shape: "hexagon"
+			subtitle: "Do you have a driving license?"
+			description: ["Obtain a car workshop and its part, then as car workshop as the center within 3x3, the rest will be car workshop part."]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			progression_mode: "flexible"
+			id: "34579F76CCA57E28"
+			tasks: [
+				{
+					id: "4936596565A3830F"
+					type: "item"
+					item: "car:car_workshop"
+				}
+				{
+					id: "05A2AA553552F380"
+					type: "item"
+					item: "car:car_workshop_outter"
+				}
+			]
+			rewards: [{
+				id: "3AEB82C851D82898"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Wheels"
+			x: -2.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "Weeeeeeee"
+			description: ["Obtain or craft any car wheels for assembling the car."]
+			dependencies: ["34579F76CCA57E28"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "512599E86E1C0E09"
+			tasks: [{
+				id: "47CAC1C0AA5F97E9"
+				type: "item"
+				title: "Any #car:wheels"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "car:wheels"
+					}
+				}
+			}]
+			rewards: [{
+				id: "59604E52ACC966B5"
+				type: "xp"
+				xp: 400
+			}]
+		}
+		{
+			title: "Car Body"
+			x: -5.0d
+			y: -3.5d
+			shape: "square"
+			subtitle: "Sports, truck, or SUV?"
+			description: ["Obtain any car body for assembling the car."]
+			dependencies: ["34579F76CCA57E28"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "52E2309F288FA996"
+			tasks: [{
+				id: "457E5A52BC00409C"
+				type: "item"
+				title: "Any #car:body"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "car:body"
+					}
+				}
+			}]
+			rewards: [{
+				id: "18424DB96FDDE299"
+				type: "xp"
+				xp: 800
+			}]
+		}
+		{
+			title: "Engine"
+			x: -5.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "How fast should we go?"
+			description: ["Obtain or craft any car engine for assembling the car."]
+			dependencies: ["34579F76CCA57E28"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "3C0E6165BB6398C4"
+			tasks: [{
+				id: "7DC5869011FAB211"
+				type: "item"
+				title: "Any #car:engine"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "car:engine"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6408D897A2F0CCE6"
+				type: "xp"
+				xp: 2000
+			}]
+		}
+		{
+			title: "Tank"
+			x: -7.5d
+			y: -1.0d
+			shape: "square"
+			description: ["Obtain or craft a tank for storing your car fuel."]
+			dependencies: ["34579F76CCA57E28"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "5FC4DA1C403740C3"
+			tasks: [{
+				id: "472677C136D9B9FB"
+				type: "item"
+				title: "Any #car:tank"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "car:tank"
+					}
+				}
+			}]
+			rewards: [{
+				id: "12875D9AC6528F7F"
+				type: "xp"
+				xp: 1200
+			}]
+		}
+		{
+			title: "Container"
+			x: -2.5d
+			y: 1.5d
+			shape: "square"
+			subtitle: "I need more slots."
+			description: ["Obtain or craft any container to store your items or fluids."]
+			dependencies: ["34579F76CCA57E28"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "380CFD7E81994878"
+			tasks: [{
+				id: "1EF9241E71BF19A7"
+				type: "item"
+				title: "Any #car:container"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "car:container"
+					}
+				}
+			}]
+			rewards: [{
+				id: "20F224FC0A497BAF"
+				type: "xp"
+				xp: 1200
+			}]
+		}
+		{
+			title: "License"
+			x: -7.5d
+			y: 1.5d
+			shape: "square"
+			subtitle: "Does driving license matter in this world?"
+			description: ["Craft a license plate for your car."]
+			dependencies: ["34579F76CCA57E28"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "733EF96DD7F8F482"
+			tasks: [{
+				id: "27B41FA9D7314C0F"
+				type: "item"
+				title: "Any #car:license_plate_holder"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "car:license_plate_holder"
+					}
+				}
+			}]
+			rewards: [{
+				id: "67997CDB6016B0F8"
+				type: "xp"
+				xp: 400
+			}]
+		}
+	]
+	quest_links: [ ]
+}
