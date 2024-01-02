@@ -1,11 +1,285 @@
 {
 	id: "5E2FC43BDE206404"
 	group: "06797646CDBF2AAC"
-	order_index: 7
+	order_index: 6
 	filename: "planes"
-	title: "Planes"
+	title: "Plane"
+	icon: "simpleplanes:propeller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Workbench for Planes!"
+			x: 1.0d
+			y: 1.0d
+			shape: "hexagon"
+			subtitle: "How many workbenches are there?"
+			description: [
+				"To craft a plane or helicopter, you'll need a specialized workbench."
+				""
+				"Create a plane workbench to enable the crafting of these aerial vehicles."
+			]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			id: "31A945464BC2A672"
+			tasks: [{
+				id: "245A5B50B49232AE"
+				type: "item"
+				item: "simpleplanes:plane_workbench"
+			}]
+			rewards: [{
+				id: "7330631347E76A46"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Gotta Spin"
+			x: 6.5d
+			y: 1.0d
+			subtitle: "You Spin Me Right Round"
+			description: [
+				"A plane or helicopter without a propeller won't be able to take flight."
+				""
+				"Craft a propeller and begin assembling it to ensure your aircraft is ready for flight."
+			]
+			dependencies: ["4FA41433E6E6E326"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "26E1352BFE376C00"
+			tasks: [{
+				id: "389747C882E2BACE"
+				type: "item"
+				item: "simpleplanes:propeller"
+			}]
+			rewards: [{
+				id: "3B0736D98D21EA45"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Basic Materials"
+			x: 4.0d
+			y: 1.0d
+			subtitle: "Just Woods?"
+			description: [
+				"The foundational material for planes can be any wood type."
+				""
+				"Select a wood that suits your preference and begin constructing the structure of the aircraft."
+			]
+			dependencies: ["31A945464BC2A672"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "4FA41433E6E6E326"
+			tasks: [{
+				id: "74B0906528859AC9"
+				type: "item"
+				title: "Any #minecraft:planks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C4C70B4EC272300"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Plane Engines"
+			x: 9.0d
+			y: 1.0d
+			shape: "gear"
+			subtitle: "Brrrrr"
+			description: [
+				"With the structure and propeller in place, the next step is to acquire an engine. This engine will fuel the propeller and set it in motion."
+				""
+				"Either a furnace engine or an electric engine will suffice. The furnace engine can use any fuel, while the electric engine requires a charging pad. Choose the one that aligns with your resources and needs."
+			]
+			dependencies: ["26E1352BFE376C00"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "34092B8D7A3D9314"
+			tasks: [{
+				id: "658710BDA07365E7"
+				type: "item"
+				title: "Any #simpleplanes:plane_engines"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "simpleplanes:plane_engines"
+					}
+				}
+			}]
+			rewards: [{
+				id: "12D05E08B42B9E29"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			title: "Start Shooting"
+			x: 11.5d
+			y: 1.0d
+			subtitle: "Pew pew, pew pew pew"
+			description: [
+				"Planes aren't limited to transportation alone."
+				""
+				"If you apply the shooter upgrade, they can also serve as a means to engage and shoot down enemies."
+			]
+			dependencies: ["34092B8D7A3D9314"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "4A24041088DE0548"
+			tasks: [{
+				id: "02CEFB637E31C150"
+				type: "item"
+				item: "simpleplanes:shooter"
+			}]
+			rewards: [{
+				id: "0CD979C0F168379F"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: 14.0d
+			y: 1.0d
+			shape: "hexagon"
+			subtitle: "Destruction is my favourite."
+			description: ["Craft missiles to serve as ammunition for the shooter upgrade."]
+			dependencies: ["4A24041088DE0548"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "5D57E01489E8A571"
+			tasks: [{
+				id: "500DCF5E123EC8DF"
+				type: "item"
+				item: "cgm:missile"
+			}]
+			rewards: [{
+				id: "34B621C6CB5E44E3"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			title: "Upgrades"
+			x: 9.0d
+			y: 3.75d
+			shape: "square"
+			subtitle: "Ugprades, I Need More"
+			description: [
+				"Numerous upgrades can be applied to enhance the capabilities of your plane."
+				""
+				"Refer to the plane book guide for comprehensive information on these upgrades and how they can improve your aircraft."
+			]
+			dependencies: ["34092B8D7A3D9314"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "flexible"
+			id: "1F1E07FFA8286A85"
+			tasks: [{
+				id: "605CF86903399AD4"
+				type: "item"
+				title: "Any #simpleplanes:plane_upgrades"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "simpleplanes:plane_upgrades"
+					}
+				}
+			}]
+			rewards: [{
+				id: "46D07BEE78FC0B28"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			title: "Flying for Dummies"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "simpleplanes:planes_book"
+				}
+			}
+			x: -2.5d
+			y: 1.0d
+			shape: "square"
+			subtitle: "I want to fly!"
+			description: ["With your advanced knowledge of aircraft assembly and crafting, utilize it to construct an airplane for efficient transportation and travel purposes."]
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			id: "27D81DBFBDED863B"
+			tasks: [{
+				id: "2F40AD75911F2710"
+				type: "checkmark"
+				title: "Pilot"
+			}]
+			rewards: [{
+				id: "086161F34F583A87"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "simpleplanes:planes_book"
+					}
+				}
+			}]
+		}
+		{
+			title: "Arrow Ammunition"
+			x: 14.0d
+			y: -1.0d
+			subtitle: "Well, if it works then it works."
+			description: ["Craft or obtain arrows to serve as ammunition for the shooter upgrade."]
+			dependencies: ["4A24041088DE0548"]
+			dependency_requirement: "one_started"
+			id: "0101A30A3D0DC28E"
+			tasks: [{
+				id: "14379C92A94FEDD6"
+				type: "item"
+				item: "minecraft:arrow"
+			}]
+			rewards: [{
+				id: "0F705DA93CCA5BFA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Bullet Ammunition"
+			x: 14.0d
+			y: 3.0d
+			subtitle: "It's harder to aim than I expected."
+			description: ["Craft advanced bullets to serve as ammunition for the shooter upgrade."]
+			dependencies: ["4A24041088DE0548"]
+			dependency_requirement: "one_started"
+			id: "2609D2B4D68053A3"
+			tasks: [{
+				id: "0B7370D2AD787F67"
+				type: "item"
+				item: "cgm:advanced_bullet"
+			}]
+			rewards: [{
+				id: "099D9CF72FE38D6B"
+				type: "xp"
+				xp: 500
+			}]
+		}
+	]
 	quest_links: [ ]
 }
