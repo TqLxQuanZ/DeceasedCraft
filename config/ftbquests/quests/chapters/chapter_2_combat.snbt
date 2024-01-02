@@ -1,14 +1,14 @@
 {
 	id: "2D96787FBE47226A"
 	group: "0CEF75605D0E77B3"
-	order_index: 4
+	order_index: 3
 	filename: "chapter_2_combat"
-	title: "Combat"
+	title: "Melee Weapons"
 	icon: {
-		id: "cgm:mini_gun"
+		id: "apocalypsenow:fire_axe"
 		Count: 1b
 		tag: {
-			AmmoCount: 100
+			Damage: 0
 		}
 	}
 	default_quest_shape: ""
@@ -23,11 +23,17 @@
 					Damage: 0
 				}
 			}
-			x: -11.0d
+			x: -9.0d
 			y: 5.0d
-			description: ["Surviving the apocalypse requires equipping oneself with weapons. This chapter outlines the progression of obtaining bullets, melee weapons, and guns for your arsenal."]
+			shape: "gear"
+			description: [
+				"Surviving the apocalypse requires equipping oneself with weapons."
+				""
+				""
+				"There are some weapons aren't listed here, try to go through the JEI list to find some hidden weapons!"
+			]
 			dependency_requirement: "one_started"
-			size: 2.0d
+			size: 3.0d
 			progression_mode: "flexible"
 			id: "70C3799E5D5D54F3"
 			tasks: [{
@@ -54,392 +60,6 @@
 			]
 		}
 		{
-			title: "Short But Lethal"
-			x: -0.5d
-			y: -5.5d
-			description: ["Obtain a short bullet casing mold."]
-			dependencies: ["07CB2FD8F993FEC0"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "11B7ADB82ED992BF"
-			tasks: [{
-				id: "0789C0FEF1EC552B"
-				type: "item"
-				item: "contenttweaker:mold_bullet_casing_short"
-			}]
-			rewards: [{
-				id: "24CD8CEB7033DC5E"
-				type: "xp"
-				xp: 150
-			}]
-		}
-		{
-			title: "Small But Quick"
-			x: -0.5d
-			y: -4.0d
-			description: ["Obtain a small bullet casing mold."]
-			dependencies: ["07CB2FD8F993FEC0"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "5DC373FF8C98855F"
-			tasks: [{
-				id: "778ABD5DDB3B0BEA"
-				type: "item"
-				item: "contenttweaker:mold_bullet_casing_small"
-			}]
-			rewards: [{
-				id: "4E3D160B94800818"
-				type: "xp"
-				xp: 150
-			}]
-		}
-		{
-			title: "Medium But Strong"
-			x: -0.5d
-			y: -2.5d
-			description: ["Obtain a medium bullet casing mold."]
-			dependencies: ["07CB2FD8F993FEC0"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "22FB8255689A2DB8"
-			tasks: [{
-				id: "7C219F49A07A9AEB"
-				type: "item"
-				item: "contenttweaker:mold_bullet_casing_medium"
-			}]
-			rewards: [{
-				id: "2496EEB65079982D"
-				type: "xp"
-				xp: 150
-			}]
-		}
-		{
-			title: "Marksman"
-			x: -0.5d
-			y: 2.0d
-			description: ["Obtain a long bullet casing mold."]
-			dependencies: ["07CB2FD8F993FEC0"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "7BBD81550532F0A6"
-			tasks: [{
-				id: "587F79F64C730677"
-				type: "item"
-				item: "contenttweaker:mold_bullet_casing_long"
-			}]
-			rewards: [{
-				id: "5487977815422E72"
-				type: "xp"
-				xp: 150
-			}]
-		}
-		{
-			title: "Heavy and Violent"
-			x: -0.5d
-			y: -1.0d
-			description: ["Obtain a heavy bullet casing mold."]
-			dependencies: ["07CB2FD8F993FEC0"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "0CC884FA092AB9A9"
-			tasks: [{
-				id: "2F32DAE44929B069"
-				type: "item"
-				item: "contenttweaker:mold_bullet_casing_heavy"
-			}]
-			rewards: [{
-				id: "0D1E164CCDD043C3"
-				type: "xp"
-				xp: 150
-			}]
-		}
-		{
-			title: "Specs Op"
-			x: -0.5d
-			y: 0.5d
-			description: ["Obtain a special bullet casing mold."]
-			dependencies: ["07CB2FD8F993FEC0"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "679272B95086DC83"
-			tasks: [{
-				id: "6295FE06FF238D22"
-				type: "item"
-				item: "contenttweaker:mold_bullet_casing_special"
-			}]
-			rewards: [{
-				id: "738AE5D937F84519"
-				type: "xp"
-				xp: 150
-			}]
-		}
-		{
-			title: "Container with death - II"
-			icon: "additionalguns:casing_small"
-			x: 1.0d
-			y: -4.0d
-			description: ["Obtain small bullet casing and possibly automate it."]
-			dependencies: ["5DC373FF8C98855F"]
-			progression_mode: "flexible"
-			id: "4E0B869BB21EB949"
-			tasks: [{
-				id: "4764CAC7D6E583B8"
-				type: "item"
-				item: "additionalguns:casing_small"
-			}]
-			rewards: [{
-				id: "50894E5D9BAE07FE"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Container with death - I"
-			icon: "additionalguns:casing_short"
-			x: 1.0d
-			y: -5.5d
-			description: ["Obtain short bullet casing and possibly automate it."]
-			dependencies: ["11B7ADB82ED992BF"]
-			progression_mode: "flexible"
-			id: "1B70117B9B8070C2"
-			tasks: [{
-				id: "6AA7F59DB2D78F58"
-				type: "item"
-				item: "additionalguns:casing_short"
-			}]
-			rewards: [{
-				id: "3358D1D64B2A2C8F"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Container with death - III"
-			x: 1.0d
-			y: -2.5d
-			description: ["Obtain medium bullet casing and possibly automate it."]
-			dependencies: ["22FB8255689A2DB8"]
-			progression_mode: "flexible"
-			id: "0AA2606CEBE58CA0"
-			tasks: [{
-				id: "12B1D66E4E176FB3"
-				type: "item"
-				item: "additionalguns:casing_medium"
-			}]
-			rewards: [{
-				id: "4C5FAD1A267AF452"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Container with death - IV"
-			x: 1.0d
-			y: -1.0d
-			description: ["Obtain heavy bullet casing and possibly automate it."]
-			dependencies: ["0CC884FA092AB9A9"]
-			progression_mode: "flexible"
-			id: "2A982276708FC304"
-			tasks: [{
-				id: "045B271FA6FF536E"
-				type: "item"
-				item: "additionalguns:casing_heavy"
-			}]
-			rewards: [{
-				id: "07BC3DE7D1CB0731"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Container with death - V"
-			x: 1.0d
-			y: 0.5d
-			description: ["Obtain special bullet casing and possibly automate it."]
-			dependencies: ["679272B95086DC83"]
-			progression_mode: "flexible"
-			id: "1A85FC536700F742"
-			tasks: [{
-				id: "120D76B8AF9D767A"
-				type: "item"
-				item: "additionalguns:casing_special"
-			}]
-			rewards: [{
-				id: "60F6D81C93C77566"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Container with death - VI"
-			x: 1.0d
-			y: 2.0d
-			description: ["Obtain long bullet casing and possibly automate it."]
-			dependencies: ["7BBD81550532F0A6"]
-			progression_mode: "flexible"
-			id: "60BD6F13E06265F9"
-			tasks: [{
-				id: "339EB8024C1377D4"
-				type: "item"
-				item: "additionalguns:casing_long"
-			}]
-			rewards: [{
-				id: "04CB04A0A2B66C6C"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "I Am Death - I"
-			icon: "additionalguns:bullet_short"
-			x: 2.5d
-			y: -5.5d
-			description: ["Craft a short bullet and possibly automate it."]
-			dependencies: [
-				"1B70117B9B8070C2"
-				"0A9F60367F6DDB90"
-				"6845C82525B963E5"
-			]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "44E7027F6D6EC53D"
-			tasks: [{
-				id: "2F9869BD4073E1DB"
-				type: "item"
-				item: "additionalguns:bullet_short"
-			}]
-			rewards: [{
-				id: "41E27035E16EC422"
-				type: "xp"
-				xp: 500
-			}]
-		}
-		{
-			title: "I Am Death - II"
-			icon: "additionalguns:bullet_small"
-			x: 2.5d
-			y: -4.0d
-			description: ["Craft a small bullet and possibly automate it."]
-			dependencies: [
-				"4E0B869BB21EB949"
-				"0A9F60367F6DDB90"
-				"6845C82525B963E5"
-			]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "42854FF262957FF9"
-			tasks: [{
-				id: "03FC3BFB2425773A"
-				type: "item"
-				item: "additionalguns:bullet_small"
-			}]
-			rewards: [{
-				id: "0BEFCC98BE497DB8"
-				type: "xp"
-				xp: 500
-			}]
-		}
-		{
-			title: "I Am Death - III"
-			icon: "additionalguns:bullet_medium"
-			x: 2.5d
-			y: -2.5d
-			description: ["Craft a medium bullet and possibly automate it."]
-			dependencies: [
-				"0AA2606CEBE58CA0"
-				"0A9F60367F6DDB90"
-				"6845C82525B963E5"
-			]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "60998F7140E7D664"
-			tasks: [{
-				id: "0230CB4CC6E65FD1"
-				type: "item"
-				item: "additionalguns:bullet_medium"
-			}]
-			rewards: [{
-				id: "6E3DB15D0029635E"
-				type: "xp"
-				xp: 500
-			}]
-		}
-		{
-			title: "I Am Death - IV"
-			icon: "additionalguns:bullet_heavy"
-			x: 2.5d
-			y: -1.0d
-			description: ["Craft a heavy bullet and possibly automate it."]
-			dependencies: [
-				"2A982276708FC304"
-				"0A9F60367F6DDB90"
-				"6845C82525B963E5"
-			]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "717A877C72593BBD"
-			tasks: [{
-				id: "278FA0E1DE4C9F3A"
-				type: "item"
-				item: "additionalguns:bullet_heavy"
-			}]
-			rewards: [{
-				id: "1B86D58C10CAB01A"
-				type: "xp"
-				xp: 500
-			}]
-		}
-		{
-			title: "I Am Death - V"
-			icon: "additionalguns:bullet_special"
-			x: 2.5d
-			y: 0.5d
-			description: ["Craft a special bullet and possibly automate it."]
-			dependencies: [
-				"1A85FC536700F742"
-				"0A9F60367F6DDB90"
-				"6845C82525B963E5"
-			]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "5E61A8181DFD0B93"
-			tasks: [{
-				id: "345EF4CAE7534398"
-				type: "item"
-				item: "additionalguns:bullet_special"
-			}]
-			rewards: [{
-				id: "03C857998EF06BC3"
-				type: "xp"
-				xp: 500
-			}]
-		}
-		{
-			title: "I Am Death - VI"
-			icon: "additionalguns:bullet_long"
-			x: 2.5d
-			y: 2.0d
-			description: ["Craft a long bullet and possibly automate it."]
-			dependencies: [
-				"60BD6F13E06265F9"
-				"0A9F60367F6DDB90"
-				"6845C82525B963E5"
-			]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "3F4F2FB2A40D5EA7"
-			tasks: [{
-				id: "48088E8D324777B5"
-				type: "item"
-				item: "additionalguns:bullet_long"
-			}]
-			rewards: [{
-				id: "513CFD439A77922A"
-				type: "xp"
-				xp: 500
-			}]
-		}
-		{
 			title: "Vanilla Style"
 			icon: {
 				id: "minecraft:stone_sword"
@@ -448,13 +68,12 @@
 					Damage: 0
 				}
 			}
-			x: -3.5d
-			y: 11.25d
+			x: -3.0d
+			y: 5.25d
 			shape: "hexagon"
 			description: ["Obtain a stone sword."]
-			dependencies: ["70C3799E5D5D54F3"]
 			dependency_requirement: "one_started"
-			size: 1.5d
+			size: 2.0d
 			progression_mode: "flexible"
 			id: "60C5BD48DDED283C"
 			tasks: [{
@@ -484,11 +103,11 @@
 				}
 			}
 			x: 0.0d
-			y: 10.0d
+			y: 3.5d
 			description: ["Obtain an iron sword."]
 			dependencies: ["60C5BD48DDED283C"]
+			hide: false
 			dependency_requirement: "one_started"
-			size: 1.5d
 			progression_mode: "flexible"
 			id: "4645CBD33799EB57"
 			tasks: [{
@@ -517,12 +136,11 @@
 					Damage: 0
 				}
 			}
-			x: 0.0d
-			y: 13.0d
+			x: -6.0d
+			y: 7.5d
 			description: ["Obtain a zinc sword."]
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
-			size: 1.5d
 			progression_mode: "flexible"
 			id: "0274F6F88DBF231E"
 			tasks: [{
@@ -544,12 +162,11 @@
 		}
 		{
 			title: "Fast But Lower Damage - II"
-			x: 3.0d
-			y: 13.0d
+			x: 0.0d
+			y: 7.5d
 			description: ["Obtain a brass sword."]
-			dependencies: ["0274F6F88DBF231E"]
+			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
-			size: 1.5d
 			progression_mode: "flexible"
 			id: "7DA391B0F34FDD4E"
 			tasks: [{
@@ -571,12 +188,11 @@
 		}
 		{
 			title: "Fast But Lower Damage - III"
-			x: 6.0d
-			y: 13.0d
+			x: -3.0d
+			y: 9.0d
 			description: ["Obtain a quartz sword."]
-			dependencies: ["7DA391B0F34FDD4E"]
+			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
-			size: 1.5d
 			progression_mode: "flexible"
 			id: "412B87EF9464A054"
 			tasks: [{
@@ -605,12 +221,11 @@
 					Damage: 0
 				}
 			}
-			x: 3.0d
-			y: 10.0d
+			x: -6.0d
+			y: 3.5d
 			description: ["Obtain a steel sword."]
-			dependencies: ["4645CBD33799EB57"]
+			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
-			size: 1.5d
 			progression_mode: "flexible"
 			id: "4BCF04D9AD600BCD"
 			tasks: [{
@@ -632,12 +247,11 @@
 		}
 		{
 			title: "Better Damage But Slow - III"
-			x: 6.0d
-			y: 10.0d
+			x: -3.0d
+			y: 2.0d
 			description: ["Obtain a netherite sword."]
-			dependencies: ["4BCF04D9AD600BCD"]
+			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
-			size: 1.5d
 			progression_mode: "flexible"
 			id: "770487878F659649"
 			tasks: [{
@@ -658,307 +272,11 @@
 			}]
 		}
 		{
-			title: "It's Just Basic Ingredients"
-			x: -11.0d
-			y: -2.0d
-			description: ["Obtain a workbench for assembling guns."]
-			dependencies: ["70C3799E5D5D54F3"]
-			size: 2.0d
-			progression_mode: "flexible"
-			id: "4696002ED9979138"
-			tasks: [{
-				id: "53F3EA3B0B2A4BE6"
-				type: "item"
-				item: "cgm:workbench"
-			}]
-			rewards: [{
-				id: "0ECD66445FA814CD"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			title: "Ingredient - II"
-			x: -7.0d
-			y: -4.5d
-			dependencies: ["4696002ED9979138"]
-			progression_mode: "flexible"
-			id: "7AE6E581C9B5D3F9"
-			tasks: [{
-				id: "6814437CF8C9383D"
-				type: "item"
-				item: "immersiveengineering:gunpart_barrel"
-			}]
-			rewards: [{
-				id: "5C932D68CC46CB51"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Ingredient - IX"
-			x: -12.5d
-			y: -7.0d
-			dependencies: ["4696002ED9979138"]
-			progression_mode: "flexible"
-			id: "14B19E2F80C984C2"
-			tasks: [{
-				id: "3EA39715D83726FB"
-				type: "item"
-				item: "immersiveengineering:stick_iron"
-			}]
-			rewards: [{
-				id: "6E81B727996D8095"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Ingredient - VIII"
-			x: -14.5d
-			y: -5.5d
-			dependencies: ["4696002ED9979138"]
-			progression_mode: "flexible"
-			id: "07D2A9C36C5CB114"
-			tasks: [{
-				id: "7FA7225893CDF34F"
-				type: "item"
-				item: "immersiveengineering:stick_steel"
-			}]
-			rewards: [{
-				id: "4D741B38C3CC603E"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Ingredient - VII"
-			x: -13.5d
-			y: -6.5d
-			dependencies: ["4696002ED9979138"]
-			progression_mode: "flexible"
-			id: "3D6BB32D255354B4"
-			tasks: [{
-				id: "0AEA757C3C0A477D"
-				type: "item"
-				item: "immersiveengineering:stick_aluminum"
-			}]
-			rewards: [{
-				id: "487F8D4982CF6149"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Ingredient - VI"
-			x: -15.5d
-			y: -4.5d
-			dependencies: ["4696002ED9979138"]
-			progression_mode: "flexible"
-			id: "249736C9B9729BFD"
-			tasks: [{
-				id: "6D49FAA72EA259B1"
-				type: "item"
-				item: "immersiveengineering:plate_iron"
-			}]
-			rewards: [{
-				id: "604F0703887814DD"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Ingredient - V"
-			x: -16.0d
-			y: -3.0d
-			dependencies: ["4696002ED9979138"]
-			progression_mode: "flexible"
-			id: "6DD7B4F6DEAFCDD5"
-			tasks: [{
-				id: "751B3E08B6A09B55"
-				type: "item"
-				item: "immersiveengineering:plate_steel"
-			}]
-			rewards: [{
-				id: "022D702011A9619B"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Ingredient - IV"
-			x: -8.5d
-			y: -6.5d
-			dependencies: ["4696002ED9979138"]
-			progression_mode: "flexible"
-			id: "251C371456B675FF"
-			tasks: [{
-				id: "6D83DDB78F861E5E"
-				type: "item"
-				item: "immersiveengineering:plate_aluminum"
-			}]
-			rewards: [{
-				id: "5AF32FF75DEDF5F5"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Ingredient - III"
-			x: -7.5d
-			y: -5.5d
-			dependencies: ["4696002ED9979138"]
-			progression_mode: "flexible"
-			id: "6B7F8A18AF86F871"
-			tasks: [{
-				id: "1B8FFC75B9258A3C"
-				type: "item"
-				item: "immersiveengineering:component_steel"
-			}]
-			rewards: [{
-				id: "46824837AF91968B"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Ingredients - X"
-			x: -11.0d
-			y: -7.5d
-			dependencies: ["4696002ED9979138"]
-			progression_mode: "flexible"
-			id: "325C9BD0C5F08077"
-			tasks: [{
-				id: "0BBDA6318EE07053"
-				type: "item"
-				item: "create:precision_mechanism"
-			}]
-			rewards: [{
-				id: "397F599A50AD59DE"
-				type: "xp"
-				xp: 400
-			}]
-		}
-		{
-			title: "Ingredient - I"
-			x: -6.5d
-			y: -3.0d
-			dependencies: ["4696002ED9979138"]
-			progression_mode: "flexible"
-			id: "2CB3E945DE6A2F2C"
-			tasks: [{
-				id: "36FFF646AA3A6587"
-				type: "item"
-				item: "immersiveengineering:treated_wood_horizontal"
-			}]
-			rewards: [{
-				id: "43A34D9D3961AA16"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Ingredient - XI"
-			x: -9.5d
-			y: -7.0d
-			dependencies: ["4696002ED9979138"]
-			progression_mode: "flexible"
-			id: "7A3D306DC1915257"
-			tasks: [{
-				id: "042D89607D302016"
-				type: "item"
-				item: "contenttweaker:rubber"
-			}]
-			rewards: [{
-				id: "65B017556EC95D04"
-				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "It's Just Business"
-			icon: "apocalypsenow:money"
-			x: 6.5d
-			y: -3.0d
-			shape: "square"
-			description: ["Attempt to trade with certain villagers to acquire bullets for your ammunition needs. These traders may offer valuable supplies in exchange for other items or resources."]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "0A9F60367F6DDB90"
-			tasks: [{
-				id: "73553FA92095D9D4"
-				type: "stat"
-				title: "Trade with Villagers"
-				icon: "apocalypsenow:money"
-				stat: "minecraft:traded_with_villager"
-				value: 1
-			}]
-			rewards: [{
-				id: "3EDFD76BF3371A9F"
-				type: "xp"
-				xp: 400
-			}]
-		}
-		{
-			title: "That Came Out Of Nowhere"
-			icon: "minecraft:zombie_head"
-			x: 6.5d
-			y: -0.75d
-			shape: "square"
-			description: ["Engaging and eliminating zombies can potentially yield valuable ammunition as a reward. Consider engaging in combat with zombies as a means to acquire additional ammunition for your weapons."]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "6845C82525B963E5"
-			tasks: [{
-				id: "595D2D3361466CA4"
-				type: "kill"
-				title: "Bullets?"
-				icon: "minecraft:zombie_head"
-				entity: "minecraft:zombie"
-				value: 1L
-			}]
-			rewards: [{
-				id: "7FE4820666308F14"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			title: "Wasteland"
-			x: -3.0d
-			y: -2.0d
-			shape: "hexagon"
-			description: [
-				"- Explore the military and industrial areas in the wasteland, despite being previously nuked, as they hold the potential to yield rare resources and valuable items. Exercise caution while navigating these hazardous zones."
-				"- Gasmask or protective equipment is required."
-			]
-			dependencies: ["70C3799E5D5D54F3"]
-			dependency_requirement: "one_started"
-			size: 2.0d
-			progression_mode: "flexible"
-			id: "07CB2FD8F993FEC0"
-			tasks: [{
-				id: "3167F28D138DF72D"
-				type: "biome"
-				title: "Fallout"
-				icon: "biomesoplenty:dead_sapling"
-				biome: "biomesoplenty:wasteland"
-			}]
-			rewards: [{
-				id: "5B613489CF296566"
-				type: "xp"
-				xp: 1200
-			}]
-		}
-		{
 			title: "Swing Hard - I"
-			x: -29.5d
+			x: -20.0d
 			y: 5.0d
 			shape: "hexagon"
 			description: ["Obtain a baseball bat."]
-			dependencies: ["2FC6C2EAD08E268C"]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
@@ -981,30 +299,9 @@
 			}]
 		}
 		{
-			title: "The Basic of Basic"
-			x: -27.0d
-			y: 5.0d
-			description: ["Acquire a plank, as it serves as a foundational material for crafting various types of wooden weapons."]
-			dependencies: ["70C3799E5D5D54F3"]
-			dependency_requirement: "one_started"
-			size: 2.0d
-			progression_mode: "flexible"
-			id: "2FC6C2EAD08E268C"
-			tasks: [{
-				id: "4B99999433E81695"
-				type: "item"
-				item: "minecraft:oak_planks"
-			}]
-			rewards: [{
-				id: "34FD8479AD0F6463"
-				type: "xp"
-				xp: 10
-			}]
-		}
-		{
 			title: "Swing Hard - II"
-			x: -31.0d
-			y: 0.5d
+			x: -16.0d
+			y: 5.0d
 			description: ["Obtain or craft a wrapped baseball bat."]
 			dependencies: ["000A365F13CD2A32"]
 			dependency_requirement: "one_started"
@@ -1030,7 +327,7 @@
 		}
 		{
 			title: "Swing Hard - III"
-			x: -32.5d
+			x: -17.0d
 			y: 1.5d
 			description: ["Obtain or craft a spiked baseball bat."]
 			dependencies: ["000A365F13CD2A32"]
@@ -1056,8 +353,8 @@
 		}
 		{
 			title: "Swing Hard - IV"
-			x: -33.5d
-			y: 3.0d
+			x: -23.0d
+			y: 1.5d
 			description: ["Obtain or craft a wired baseball bat."]
 			dependencies: ["000A365F13CD2A32"]
 			dependency_requirement: "one_started"
@@ -1082,7 +379,7 @@
 		}
 		{
 			title: "Swing Hard - V"
-			x: -34.0d
+			x: -24.5d
 			y: 5.0d
 			description: ["Obtain or craft an electric baseball bat."]
 			dependencies: ["000A365F13CD2A32"]
@@ -1108,8 +405,8 @@
 		}
 		{
 			title: "Swing Hard - VI"
-			x: -33.5d
-			y: 7.0d
+			x: -23.0d
+			y: 8.5d
 			description: ["Obtain or craft a saw baseball bat."]
 			dependencies: ["000A365F13CD2A32"]
 			dependency_requirement: "one_started"
@@ -1134,8 +431,8 @@
 		}
 		{
 			title: "Swing Hard - VII"
-			x: -33.0d
-			y: 8.5d
+			x: -20.0d
+			y: 9.5d
 			description: ["Obtain or craft an iron baseball bat."]
 			dependencies: ["000A365F13CD2A32"]
 			dependency_requirement: "one_started"
@@ -1159,8 +456,8 @@
 			}]
 		}
 		{
-			x: -31.5d
-			y: 9.5d
+			x: -17.0d
+			y: 8.5d
 			description: ["Obtain or craft a spiked iron baseball bat."]
 			dependencies: ["000A365F13CD2A32"]
 			dependency_requirement: "one_started"
@@ -1184,116 +481,13 @@
 			}]
 		}
 		{
-			title: "Where's the flour?"
-			x: -27.0d
-			y: 0.5d
-			description: ["Obtain or craft a rolling pin."]
-			dependencies: ["2FC6C2EAD08E268C"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "6DF6602BAC661166"
-			tasks: [{
-				id: "08532A75DDEF1E5C"
-				type: "item"
-				item: {
-					id: "apocalypsenow:rolling_pin"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "7191CEA191822C3D"
-				type: "xp"
-				xp: 25
-			}]
-		}
-		{
-			title: "Hookey"
-			x: -28.5d
-			y: 9.5d
-			description: ["Obtain or craft a hockey stick."]
-			dependencies: ["2FC6C2EAD08E268C"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "45C6666E301AFAE8"
-			tasks: [{
-				id: "1AE0F84CD2F1389D"
-				type: "item"
-				item: {
-					id: "apocalypsenow:hookey_stick"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "5870E84EB1408BB3"
-				type: "xp"
-				xp: 25
-			}]
-		}
-		{
-			title: "Primitive Style - I"
-			x: -27.0d
-			y: 9.5d
-			description: ["Obtain or craft a club"]
-			dependencies: ["2FC6C2EAD08E268C"]
-			progression_mode: "flexible"
-			id: "4B03786A2B018C09"
-			tasks: [{
-				id: "440C5A4CCD646B7A"
-				type: "item"
-				item: {
-					id: "apocalypsenow:club"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "20114DC4BDF16DF2"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			title: "Primitive Style - II"
-			x: -25.5d
-			y: 9.5d
-			description: ["Obtain or craft an electric club."]
-			dependencies: ["2FC6C2EAD08E268C"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "4B167523DA7A3E70"
-			tasks: [{
-				id: "6DE3A6CD7A3A3194"
-				type: "item"
-				item: {
-					id: "apocalypsenow:electric_club"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "04645D7A1217E62C"
-				type: "xp"
-				xp: 300
-			}]
-		}
-		{
 			title: "Melee Revolution"
-			x: -11.0d
-			y: 21.0d
+			x: -13.0d
+			y: 5.0d
+			shape: "gear"
 			description: ["Acquire a steel ingot to expand your options for crafting a wider variety of weapons."]
-			dependencies: ["70C3799E5D5D54F3"]
 			dependency_requirement: "one_started"
-			size: 2.0d
+			size: 3.0d
 			progression_mode: "flexible"
 			id: "470B8F2C28F780CC"
 			tasks: [{
@@ -1309,10 +503,10 @@
 		}
 		{
 			title: "Stronger Than Netherite"
-			x: -3.5d
-			y: 21.0d
+			x: -11.0d
+			y: -1.5d
+			shape: "gear"
 			description: ["Acquire a high-carbon steel alloy, a valuable material for crafting advanced weapons suitable for the late stages of the game."]
-			dependencies: ["470B8F2C28F780CC"]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
@@ -1330,8 +524,8 @@
 		}
 		{
 			title: "Tactical - IV"
-			x: 0.5d
-			y: 21.0d
+			x: -8.0d
+			y: -1.5d
 			description: ["Obtain or craft a tactical sword."]
 			dependencies: ["1E2A7DC56202A285"]
 			dependency_requirement: "one_started"
@@ -1364,8 +558,8 @@
 		}
 		{
 			title: "Tactical - I"
-			x: -3.5d
-			y: 17.5d
+			x: -13.0d
+			y: -4.0d
 			description: ["Obtain or craft a tactical knife."]
 			dependencies: ["1E2A7DC56202A285"]
 			dependency_requirement: "one_started"
@@ -1398,8 +592,8 @@
 		}
 		{
 			title: "Tactical - II"
-			x: -1.5d
-			y: 18.0d
+			x: -11.0d
+			y: -4.5d
 			dependencies: ["1E2A7DC56202A285"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1431,8 +625,8 @@
 		}
 		{
 			title: "Tactical - III"
-			x: 0.0d
-			y: 19.5d
+			x: -9.0d
+			y: -4.0d
 			description: ["Obtain or craft a tactical machete."]
 			dependencies: ["1E2A7DC56202A285"]
 			dependency_requirement: "one_started"
@@ -1465,8 +659,8 @@
 		}
 		{
 			title: "Tactical - V"
-			x: 0.0d
-			y: 22.5d
+			x: -9.0d
+			y: 1.0d
 			description: ["Obtain or craft a combat axe."]
 			dependencies: ["1E2A7DC56202A285"]
 			dependency_requirement: "one_started"
@@ -1499,8 +693,8 @@
 		}
 		{
 			title: "Tactical - Z"
-			x: -3.5d
-			y: 24.5d
+			x: -14.0d
+			y: -1.5d
 			description: ["Obtain or craft a katana."]
 			dependencies: ["1E2A7DC56202A285"]
 			dependency_requirement: "one_started"
@@ -1533,8 +727,8 @@
 		}
 		{
 			title: "Tactical - VI"
-			x: -1.5d
-			y: 24.0d
+			x: -13.0d
+			y: 1.0d
 			description: [
 				"Obtain or craft a military shovel and use as a spear."
 				"Wut du hell is this doing here?"
@@ -1571,12 +765,11 @@
 		{
 			title: "Slasher"
 			x: -11.0d
-			y: 29.0d
+			y: 19.5d
+			shape: "hexagon"
 			description: ["Obtain or craft a knife."]
-			dependencies: ["470B8F2C28F780CC"]
 			dependency_requirement: "one_started"
 			size: 2.0d
-			optional: true
 			progression_mode: "flexible"
 			id: "469669EBA16B362B"
 			tasks: [{
@@ -1598,10 +791,10 @@
 		}
 		{
 			title: "Here Comes Johnny"
-			x: -18.5d
-			y: 21.0d
+			x: -20.0d
+			y: 14.0d
+			shape: "hexagon"
 			description: ["Obtain or craft a steel axe."]
-			dependencies: ["470B8F2C28F780CC"]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
@@ -1626,7 +819,7 @@
 		{
 			title: "Slasher - I"
 			x: -7.5d
-			y: 29.0d
+			y: 19.5d
 			dependencies: ["469669EBA16B362B"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1651,7 +844,7 @@
 		{
 			title: "Slasher - II"
 			x: -8.0d
-			y: 31.0d
+			y: 21.5d
 			description: ["Obtain or craft a hunting knife."]
 			dependencies: ["469669EBA16B362B"]
 			dependency_requirement: "one_started"
@@ -1677,7 +870,7 @@
 		{
 			title: "Slasher - III"
 			x: -10.0d
-			y: 32.5d
+			y: 23.0d
 			description: ["Obtain or craft a switchknife."]
 			dependencies: ["469669EBA16B362B"]
 			dependency_requirement: "one_started"
@@ -1703,7 +896,7 @@
 		{
 			title: "Poker - I"
 			x: -14.5d
-			y: 29.0d
+			y: 19.5d
 			description: ["Obtain or craft a butterfly knife."]
 			dependencies: ["469669EBA16B362B"]
 			dependency_requirement: "one_started"
@@ -1729,7 +922,7 @@
 		{
 			title: "Poker - II"
 			x: -14.0d
-			y: 31.0d
+			y: 21.5d
 			description: ["Obtain or craft a long knife."]
 			dependencies: ["469669EBA16B362B"]
 			dependency_requirement: "one_started"
@@ -1755,7 +948,7 @@
 		{
 			title: "Poker - III"
 			x: -12.0d
-			y: 32.5d
+			y: 23.0d
 			description: ["Obtain or craft a stiletto knife."]
 			dependencies: ["469669EBA16B362B"]
 			dependency_requirement: "one_started"
@@ -1780,10 +973,10 @@
 		}
 		{
 			title: "Psycho Killer"
-			x: -19.0d
-			y: 29.0d
+			x: -11.0d
+			y: 14.0d
+			shape: "hexagon"
 			description: ["Obtain or craft a machete."]
-			dependencies: ["470B8F2C28F780CC"]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
@@ -1807,8 +1000,8 @@
 		}
 		{
 			title: "Chopper - I"
-			x: -18.5d
-			y: 18.0d
+			x: -18.0d
+			y: 11.5d
 			description: ["Obtain or craft a fire axe."]
 			dependencies: ["4F224A21616D1DA3"]
 			dependency_requirement: "one_started"
@@ -1833,8 +1026,8 @@
 		}
 		{
 			title: "Chopper - II"
-			x: -20.5d
-			y: 18.5d
+			x: -22.0d
+			y: 11.5d
 			description: ["Obtain or craft a construction axe."]
 			dependencies: ["4F224A21616D1DA3"]
 			dependency_requirement: "one_started"
@@ -1859,8 +1052,8 @@
 		}
 		{
 			title: "Chopper - III"
-			x: -22.0d
-			y: 20.5d
+			x: -23.0d
+			y: 14.0d
 			description: ["Obtain or craft a hand axe."]
 			dependencies: ["4F224A21616D1DA3"]
 			dependency_requirement: "one_started"
@@ -1886,7 +1079,7 @@
 		{
 			title: "Chopper - IV"
 			x: -22.0d
-			y: 22.0d
+			y: 16.5d
 			description: ["Obtain or craft a lumberjack axe."]
 			dependencies: ["4F224A21616D1DA3"]
 			dependency_requirement: "one_started"
@@ -1911,8 +1104,8 @@
 		}
 		{
 			title: "Chopper - V"
-			x: -20.5d
-			y: 23.5d
+			x: -18.0d
+			y: 16.5d
 			description: ["Obtain or craft a gardening axe."]
 			dependencies: ["4F224A21616D1DA3"]
 			dependency_requirement: "one_started"
@@ -1937,8 +1130,8 @@
 		}
 		{
 			title: "Chopper - VI"
-			x: -18.5d
-			y: 24.0d
+			x: -17.0d
+			y: 14.0d
 			description: ["Obtain or craft an ice axe."]
 			dependencies: ["4F224A21616D1DA3"]
 			dependency_requirement: "one_started"
@@ -1964,9 +1157,9 @@
 		{
 			title: "Safe and Lethal"
 			x: -3.0d
-			y: 29.0d
+			y: 14.0d
+			shape: "hexagon"
 			description: ["Obtain or craft a spear."]
-			dependencies: ["470B8F2C28F780CC"]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
@@ -1990,8 +1183,8 @@
 		}
 		{
 			title: "Psycho Killer - I"
-			x: -21.5d
-			y: 26.5d
+			x: -8.0d
+			y: 14.0d
 			description: ["Obtain or craft a hawkbill machete."]
 			dependencies: ["4A16A8178FD93EEF"]
 			dependency_requirement: "one_started"
@@ -2016,8 +1209,8 @@
 		}
 		{
 			title: "Psycho Killer - II"
-			x: -22.5d
-			y: 29.0d
+			x: -11.0d
+			y: 17.0d
 			description: ["Obtain or craft a bowie machete."]
 			dependencies: ["4A16A8178FD93EEF"]
 			dependency_requirement: "one_started"
@@ -2042,8 +1235,8 @@
 		}
 		{
 			title: "Psycho Killer - III"
-			x: -21.5d
-			y: 31.5d
+			x: -11.0d
+			y: 11.0d
 			description: ["Obtain or craft a heavy machete."]
 			dependencies: ["4A16A8178FD93EEF"]
 			dependency_requirement: "one_started"
@@ -2068,8 +1261,8 @@
 		}
 		{
 			title: "Psycho Killer - IV"
-			x: -19.0d
-			y: 32.5d
+			x: -14.0d
+			y: 14.0d
 			description: ["Obtain or craft a kukri machete."]
 			dependencies: ["4A16A8178FD93EEF"]
 			dependency_requirement: "one_started"
@@ -2094,8 +1287,9 @@
 		}
 		{
 			title: "It ain't stupid if it works - I"
-			x: 0.5d
-			y: 29.0d
+			x: -0.5d
+			y: 11.5d
+			subtitle: "I can't believe this worked!"
 			description: ["Obtain or craft a snow shovel."]
 			dependencies: ["551AF18E7B486D39"]
 			dependency_requirement: "one_started"
@@ -2120,8 +1314,9 @@
 		}
 		{
 			title: "It ain't stupid if it works - II"
-			x: 0.0d
-			y: 31.5d
+			x: -0.5d
+			y: 16.5d
+			subtitle: "I can't believe this worked!"
 			description: ["Obtain or craft a construction shovel."]
 			dependencies: ["551AF18E7B486D39"]
 			dependency_requirement: "one_started"
@@ -2146,8 +1341,8 @@
 		}
 		{
 			title: "It ain't stupid if it works - III"
-			x: -3.0d
-			y: 32.5d
+			x: -5.5d
+			y: 16.5d
 			description: ["Obtain or craft a garden fork."]
 			dependencies: ["551AF18E7B486D39"]
 			dependency_requirement: "one_started"
@@ -2171,91 +1366,29 @@
 			}]
 		}
 		{
-			title: "Ninja!"
-			x: -6.5d
-			y: 5.0d
+			title: "It ain't stupid if it works - IV"
+			x: -5.5d
+			y: 11.5d
+			subtitle: "Now that's a little bit too expensive."
+			description: ["Obtain or craft a diamond shovel."]
+			dependencies: ["551AF18E7B486D39"]
 			dependency_requirement: "one_started"
-			id: "74587A6714FBF9D3"
+			id: "18CFAA4B4B0E0D13"
 			tasks: [{
-				id: "353BD2A15FD5E90B"
+				id: "215FBDB71A52653C"
 				type: "item"
-				item: "apocalypsenow:shuriken"
+				item: {
+					id: "minecraft:netherite_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 			rewards: [{
-				id: "729E133DB326AAE3"
+				id: "2268B8FAE131651A"
 				type: "xp"
-				xp: 200
-			}]
-		}
-		{
-			title: "Pest Control - I"
-			icon: "minecraft:zombie_head"
-			x: -20.25d
-			y: 8.25d
-			shape: "square"
-			description: ["Slays a human herder, which can be possibly found within the mega building."]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			id: "437F2CB9DBA71F24"
-			tasks: [{
-				id: "3667D3721D5E648D"
-				type: "kill"
-				title: "Slay a Human Herder"
-				icon: "minecraft:zombie_head"
-				entity: "mutationcraft:human_herder"
-				value: 5L
-			}]
-			rewards: [{
-				id: "4764BA54435C9B9C"
-				type: "xp"
-				xp: 1500
-			}]
-		}
-		{
-			title: "Pest Control - II"
-			x: -17.25d
-			y: 8.25d
-			shape: "square"
-			description: ["Slays a resenter, which can be possibly found in any city streets if venture far enough from spawn points."]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			id: "0C8E2093AC9DFB53"
-			tasks: [{
-				id: "2A29A31F7AA77A4F"
-				type: "kill"
-				title: "Slay Resenter"
-				icon: "minecraft:zombie_head"
-				entity: "mutationcraft:resenter"
-				value: 5L
-			}]
-			rewards: [{
-				id: "74DC378F43786546"
-				type: "xp"
-				xp: 3000
-			}]
-		}
-		{
-			title: "Pest Control - III"
-			icon: "minecraft:zombie_head"
-			x: -14.25d
-			y: 8.25d
-			shape: "square"
-			description: ["Slays an intoxicator, which can be possibly found within wasteland factories area."]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			id: "4CF53162936CCA55"
-			tasks: [{
-				id: "2FFF02CEA0D477CB"
-				type: "kill"
-				title: "Slay Intoxicator"
-				icon: "minecraft:zombie_head"
-				entity: "mutationcraft:the_intoxicator"
-				value: 3L
-			}]
-			rewards: [{
-				id: "56160AAF6082AC30"
-				type: "xp"
-				xp: 5000
+				xp: 100
 			}]
 		}
 	]
