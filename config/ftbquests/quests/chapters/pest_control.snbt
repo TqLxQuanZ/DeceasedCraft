@@ -103,13 +103,18 @@
 				entity: "zombie_extreme:demolisher"
 				value: 5L
 			}]
+			rewards: [{
+				id: "0C1B051E3BCDC079"
+				type: "xp"
+				xp: 3000
+			}]
 		}
 		{
 			title: "Pest Control - V"
 			x: -3.0d
 			y: 1.5d
 			shape: "square"
-			description: ["INFORMATION UNKNOWN."]
+			description: ["-INFORMATION UNKNOWN-"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -121,6 +126,11 @@
 				entity: "zombie_extreme:rat_king"
 				value: 5L
 			}]
+			rewards: [{
+				id: "50609B92AAE71FB3"
+				type: "xp"
+				xp: 3000
+			}]
 		}
 		{
 			title: "Pest Control - VI"
@@ -128,7 +138,7 @@
 			x: 0.0d
 			y: 1.5d
 			shape: "square"
-			description: ["INFORMATION UNKNOWN."]
+			description: ["-INFORMATION UNKNOWN-"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -139,6 +149,11 @@
 				icon: "minecraft:zombie_head"
 				entity: "zombie_extreme:patient_zero"
 				value: 5L
+			}]
+			rewards: [{
+				id: "7C4DE2557DE5A5DF"
+				type: "xp"
+				xp: 3000
 			}]
 		}
 	]
