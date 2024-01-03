@@ -542,19 +542,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "11CBB6B7850626F4"
-					type: "xp"
-					xp: 500
-				}
-				{
-					id: "3273C79F9607ED32"
-					type: "item"
-					item: "minecraft:emerald_block"
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "11CBB6B7850626F4"
+				type: "xp"
+				xp: 500
+			}]
 		}
 		{
 			title: "Tactical - I"
@@ -576,19 +568,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "7B6001D7764021D0"
-					type: "xp"
-					xp: 500
-				}
-				{
-					id: "7B7A6E5986F74A1C"
-					type: "item"
-					item: "minecraft:emerald_block"
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "7B6001D7764021D0"
+				type: "xp"
+				xp: 500
+			}]
 		}
 		{
 			title: "Tactical - II"
@@ -602,26 +586,18 @@
 				id: "12F6517EBAAD344C"
 				type: "item"
 				item: {
-					id: "apocalypsenow:tatical_mace"
+					id: "apocalypsenow:electrical_tactical_mace"
 					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "0C22306068CE0268"
-					type: "xp"
-					xp: 500
-				}
-				{
-					id: "2F56513FBB2935F2"
-					type: "item"
-					item: "minecraft:emerald_block"
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "0C22306068CE0268"
+				type: "xp"
+				xp: 500
+			}]
 		}
 		{
 			title: "Tactical - III"
@@ -643,19 +619,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "3ED6234F8E20B688"
-					type: "xp"
-					xp: 500
-				}
-				{
-					id: "662E7C19B1CC125E"
-					type: "item"
-					item: "minecraft:emerald_block"
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "3ED6234F8E20B688"
+				type: "xp"
+				xp: 500
+			}]
 		}
 		{
 			title: "Tactical - V"
@@ -670,26 +638,18 @@
 				id: "37BB40250E26E44C"
 				type: "item"
 				item: {
-					id: "apocalypsenow:combat_axe"
+					id: "apocalypsenow:electrical_combat_axe"
 					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "3B84091B1476FF92"
-					type: "xp"
-					xp: 500
-				}
-				{
-					id: "37B158DCA6A89A79"
-					type: "item"
-					item: "minecraft:emerald_block"
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "3B84091B1476FF92"
+				type: "xp"
+				xp: 500
+			}]
 		}
 		{
 			title: "Tactical - Z"
@@ -711,19 +671,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "52877D6908E60994"
-					type: "xp"
-					xp: 1500
-				}
-				{
-					id: "50C727ED9895CCFD"
-					type: "item"
-					item: "minecraft:emerald_block"
-					count: 6
-				}
-			]
+			rewards: [{
+				id: "52877D6908E60994"
+				type: "xp"
+				xp: 1500
+			}]
 		}
 		{
 			title: "Tactical - VI"
@@ -748,19 +700,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "7450DCED2C521369"
-					type: "xp"
-					xp: 500
-				}
-				{
-					id: "27DF5011202CAEC8"
-					type: "item"
-					item: "minecraft:emerald_block"
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "7450DCED2C521369"
+				type: "xp"
+				xp: 500
+			}]
 		}
 		{
 			title: "Slasher"
@@ -1369,7 +1313,7 @@
 			title: "It ain't stupid if it works - IV"
 			x: -5.5d
 			y: 11.5d
-			subtitle: "Now that's a little bit too expensive."
+			subtitle: "Now that's a little expensive."
 			description: ["Obtain or craft a diamond shovel."]
 			dependencies: ["551AF18E7B486D39"]
 			dependency_requirement: "one_started"
