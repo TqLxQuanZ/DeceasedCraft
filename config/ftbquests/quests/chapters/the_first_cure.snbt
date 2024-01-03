@@ -64,19 +64,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "44E783F071469A83"
-					type: "advancement"
-					advancement: "minecraft:story/root"
-					criterion: ""
-				}
-				{
-					id: "70FC6B5B85A67EC9"
-					type: "xp"
-					xp: 500
-				}
-			]
+			rewards: [{
+				id: "70FC6B5B85A67EC9"
+				type: "xp"
+				xp: 500
+			}]
 		}
 		{
 			title: "Find Wooded Wasteland"
@@ -93,19 +85,11 @@
 				icon: "biomesoplenty:dried_salt"
 				biome: "biomesoplenty:wooded_wasteland"
 			}]
-			rewards: [
-				{
-					id: "66F95667FB092A19"
-					type: "advancement"
-					advancement: "minecraft:story/root"
-					criterion: ""
-				}
-				{
-					id: "1A89066C9A338478"
-					type: "xp"
-					xp: 300
-				}
-			]
+			rewards: [{
+				id: "1A89066C9A338478"
+				type: "xp"
+				xp: 300
+			}]
 		}
 		{
 			title: "Find Wasteland"
@@ -122,19 +106,11 @@
 				icon: "biomesoplenty:dried_salt"
 				biome: "biomesoplenty:wasteland"
 			}]
-			rewards: [
-				{
-					id: "4675C45447E416BD"
-					type: "advancement"
-					advancement: "minecraft:story/root"
-					criterion: ""
-				}
-				{
-					id: "18C0A4F7FAB52881"
-					type: "xp"
-					xp: 300
-				}
-			]
+			rewards: [{
+				id: "18C0A4F7FAB52881"
+				type: "xp"
+				xp: 300
+			}]
 		}
 		{
 			x: -9.5d
@@ -166,19 +142,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "73C49E067EF8B9F1"
-					type: "advancement"
-					advancement: "minecraft:story/root"
-					criterion: ""
-				}
-				{
-					id: "761FC8E9287093A5"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "761FC8E9287093A5"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -0.5d
