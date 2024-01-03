@@ -1,0 +1,151 @@
+{
+	id: "42D558E87FED89BF"
+	group: "410F2D717CE3690A"
+	order_index: 2
+	filename: "the_last_cure"
+	title: "The Last Cure"
+	icon: {
+		id: "mutationcraft:mutagen_serum"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Discover the Origin"
+			x: -6.5d
+			y: -2.5d
+			shape: "hexagon"
+			description: [
+				"Possessing the cure is one aspect, yet identifying the cause of the infection requires a separate investigation."
+				""
+				"Take the courageous step of entering the unknown portal to uncover the origin of the infection."
+			]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "59E40C45ED08A9C6"
+			tasks: [{
+				id: "24CEF78A4BEE7788"
+				type: "dimension"
+				title: "Enter the Unknown Portal"
+				dimension: "deceasedcraft:abyss"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			description: ["-INFORMATION UNKNOWN-"]
+			dependencies: ["59E40C45ED08A9C6"]
+			dependency_requirement: "one_started"
+			id: "359EB73781C41838"
+			tasks: [{
+				id: "04D821BB9BB4AAC9"
+				type: "item"
+				item: "mutationcraft:putrid_brain"
+			}]
+			rewards: [{
+				id: "202D8DDF6B7A791E"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			description: ["-INFORMATION UNKNOWN-"]
+			dependencies: ["59E40C45ED08A9C6"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "77666CBA65755FF4"
+			tasks: [{
+				id: "34E94405A732CA0C"
+				type: "item"
+				item: "mutationcraft:putrid_heart"
+			}]
+			rewards: [{
+				id: "24BC5FAE2726F89B"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			description: ["-INFORMATION UNKNOWN-"]
+			dependencies: ["59E40C45ED08A9C6"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "416DA3632E54A7CD"
+			tasks: [{
+				id: "115E353AB19CAA60"
+				type: "item"
+				item: "mutationcraft:putrid_claw"
+			}]
+			rewards: [{
+				id: "2CC0488DA75231A8"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			description: ["-INFORMATION UNKNOWN-"]
+			dependencies: [
+				"359EB73781C41838"
+				"416DA3632E54A7CD"
+				"77666CBA65755FF4"
+			]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "0DBD2A78008F25E3"
+			tasks: [{
+				id: "610E7E89DA50CD82"
+				type: "item"
+				item: "mutationcraft:necroptor_membrane"
+			}]
+			rewards: [{
+				id: "6F5004F28908115C"
+				type: "item"
+				item: "mutationcraft:necroptor_membrane"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			description: ["-INFORMATION UNKNOWN-"]
+			dependencies: ["0DBD2A78008F25E3"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "45A8E4A48DB61B4C"
+			tasks: [{
+				id: "4033FFD2377C8BF6"
+				type: "item"
+				item: {
+					id: "mutationcraft:mutagen_serum"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2B0FC1B0C75B54DB"
+				type: "item"
+				item: {
+					id: "mutationcraft:mutagen_serum"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				count: 3
+			}]
+		}
+	]
+	quest_links: [ ]
+}

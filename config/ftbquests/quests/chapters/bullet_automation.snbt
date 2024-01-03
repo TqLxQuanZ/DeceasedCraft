@@ -736,8 +736,10 @@
 			title: "Planting Trees"
 			x: 19.5d
 			y: -1.5d
+			shape: "hexagon"
 			description: ["Obtain any sapling and start planting trees."]
 			dependency_requirement: "one_started"
+			size: 1.5d
 			progression_mode: "flexible"
 			id: "65A783F254EA6F95"
 			tasks: [{

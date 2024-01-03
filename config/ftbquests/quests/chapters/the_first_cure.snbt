@@ -1,0 +1,213 @@
+{
+	id: "46768BDCC2DA92F3"
+	group: "410F2D717CE3690A"
+	order_index: 1
+	filename: "the_first_cure"
+	title: "The First Cure"
+	icon: "minecraft:golden_apple"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:golden_apple"
+			x: -3.0d
+			y: -0.5d
+			description: [
+				"The X Factor has been obtained, but a couple of steps are still required to reproduce the golden apple."
+				""
+				"Utilize existing technology to complete the final steps in recreating the golden apple."
+			]
+			dependencies: ["098A5B821B569511"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "3868EB3CF99FB29F"
+			tasks: [
+				{
+					id: "6FE00233194EF2D2"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+				{
+					id: "140744E377E0000F"
+					type: "checkmark"
+				}
+			]
+			rewards: [{
+				id: "37A7BFC0625C638A"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			description: [
+				"The X Factor has been confirmed as a source of the cure, but the method for recreating it remains unknown."
+				""
+				"Investigate one of the laboratories to discover the X Factor."
+			]
+			dependencies: [
+				"22113D22B765DBDB"
+				"7F507AF34DA3B2BC"
+			]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "098A5B821B569511"
+			tasks: [{
+				id: "75D8259DD92C4BD0"
+				type: "item"
+				item: {
+					id: "contenttweaker:x_factor"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "44E783F071469A83"
+					type: "advancement"
+					advancement: "minecraft:story/root"
+					criterion: ""
+				}
+				{
+					id: "70FC6B5B85A67EC9"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			title: "Find Wooded Wasteland"
+			x: -7.5d
+			y: -1.5d
+			description: ["Attempt to locate a city within the wastelands."]
+			dependencies: ["7F3B97A92A7071E4"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "7F507AF34DA3B2BC"
+			tasks: [{
+				id: "2207FBD5CE85F8AB"
+				type: "biome"
+				icon: "biomesoplenty:dried_salt"
+				biome: "biomesoplenty:wooded_wasteland"
+			}]
+			rewards: [
+				{
+					id: "66F95667FB092A19"
+					type: "advancement"
+					advancement: "minecraft:story/root"
+					criterion: ""
+				}
+				{
+					id: "1A89066C9A338478"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "Find Wasteland"
+			x: -7.5d
+			y: 0.5d
+			description: ["Attempt to locate a city within the wastelands."]
+			dependencies: ["7F3B97A92A7071E4"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "22113D22B765DBDB"
+			tasks: [{
+				id: "2400C8391D10316E"
+				type: "biome"
+				icon: "biomesoplenty:dried_salt"
+				biome: "biomesoplenty:wasteland"
+			}]
+			rewards: [
+				{
+					id: "4675C45447E416BD"
+					type: "advancement"
+					advancement: "minecraft:story/root"
+					criterion: ""
+				}
+				{
+					id: "18C0A4F7FAB52881"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -0.5d
+			shape: "hexagon"
+			description: [
+				"Rumors suggest that factories are the source of the infestation emerging from the wasteland."
+				""
+				"To access the wasteland, acquiring a gas mask is necessary."
+				""
+				"Heavily arming oneself is recommended, as there are unforeseen dangers associated with mutated types of monsters."
+			]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "7F3B97A92A7071E4"
+			tasks: [{
+				id: "1E082A3D0F33ED6B"
+				type: "item"
+				item: {
+					id: "apocalypsenow:gasmask_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "73C49E067EF8B9F1"
+					type: "advancement"
+					advancement: "minecraft:story/root"
+					criterion: ""
+				}
+				{
+					id: "761FC8E9287093A5"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			description: [
+				"With the completion of the cure and the ability to recreate it, the next step could involve attempting to cure the zombie animals."
+				""
+				"Consider using a potion of weakness and the cure to restore some natural balance to the environment."
+			]
+			dependencies: ["3868EB3CF99FB29F"]
+			dependency_requirement: "one_started"
+			id: "53BE4C6EF61EAB5A"
+			tasks: [{
+				id: "24148232D5B28F0C"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:weakness"
+					}
+				}
+			}]
+			rewards: [{
+				id: "065FDD05E5C872AD"
+				type: "xp"
+				xp: 500
+			}]
+		}
+	]
+	quest_links: [ ]
+}
