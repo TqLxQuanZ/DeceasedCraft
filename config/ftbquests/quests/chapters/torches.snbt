@@ -3,39 +3,16 @@
 	group: "06797646CDBF2AAC"
 	order_index: 0
 	filename: "torches"
-	title: "Creosote Oil"
-	icon: "immersiveengineering:creosote_bucket"
+	title: "Treated Wood Planks"
+	icon: "immersiveengineering:treated_wood_horizontal"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Light Source"
-			icon: "minecraft:torch"
-			x: -11.25d
-			y: -3.0d
-			shape: "hexagon"
-			description: ["To mass-produce torches, using creosote oil is one of the simplest methods."]
-			dependency_requirement: "one_started"
-			size: 2.0d
-			progression_mode: "flexible"
-			id: "590BB827A21E0CA4"
-			tasks: [{
-				id: "52629F49E9AB2C3E"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "280950C4E192BF21"
-				type: "item"
-				item: "minecraft:torch"
-				count: 6
-			}]
-		}
-		{
 			title: "Clay"
 			x: -8.5d
-			y: -5.0d
-			description: ["The initial step in torch production involves collecting clay from rivers or shallow water areas."]
-			dependencies: ["590BB827A21E0CA4"]
+			y: -3.0d
+			description: ["Clay deposits can be found near rivers and in oceans."]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "3E1518F914DE49E1"
@@ -53,10 +30,12 @@
 		}
 		{
 			x: -8.5d
-			y: -3.0d
-			description: ["The second step in torch production involves smelting clay to obtain bricks."]
-			dependencies: ["590BB827A21E0CA4"]
+			y: -4.5d
+			description: ["Some clay will need to be smelted to become bricks. Make sure to keep enough, as the coke brick recipe uses them in a 1:1 ratio."]
+			dependencies: ["3E1518F914DE49E1"]
 			dependency_requirement: "one_started"
+			hide_text_until_complete: false
+			progression_mode: "linear"
 			id: "0CE7CDD6A51D849C"
 			tasks: [{
 				id: "7898492560D9959A"
@@ -73,9 +52,8 @@
 		{
 			title: "Sandstone"
 			x: -8.5d
-			y: -1.0d
-			description: ["The third step of torch production involves gathering sandstone. They are often discovered below sands."]
-			dependencies: ["590BB827A21E0CA4"]
+			y: -1.5d
+			description: ["Sandstone can be made from sand, or by digging down into the desert."]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "7CEB924BBFD36ED9"
@@ -101,14 +79,14 @@
 		{
 			x: -6.0d
 			y: -3.0d
-			description: ["To craft a coke brick, combine clay, bricks, and sandstone. This mixture can be molded and fired to create a durable coke brick."]
+			description: ["Craft a coke brick using clay, bricks, and sandstone."]
 			dependencies: [
 				"3E1518F914DE49E1"
 				"0CE7CDD6A51D849C"
 				"7CEB924BBFD36ED9"
 			]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
+			hide_text_until_complete: false
+			progression_mode: "linear"
 			id: "164DD663512EF330"
 			tasks: [{
 				id: "091C5BCEAD664861"
@@ -126,10 +104,10 @@
 			title: "Coke Oven"
 			x: -3.5d
 			y: -3.0d
-			description: ["To establish the coke oven, check the Engineer's Manual, Workbenches n Furnaces, Coke Oven section."]
+			description: ["Check the Engineer's Manual for how to create a coke oven under [Workbenches And Furnaces > Coke Oven]"]
 			dependencies: ["164DD663512EF330"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
+			progression_mode: "linear"
 			id: "55C8C614C6ADE563"
 			tasks: [{
 				id: "2DE20B689353BA57"
@@ -138,19 +116,22 @@
 				criterion: ""
 			}]
 			rewards: [{
-				id: "7CB1644DCACBD8E5"
-				type: "item"
-				item: "immersiveengineering:coal_coke"
-				count: 12
+				id: "00D3D95E517B6B3E"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
 			x: -1.0d
 			y: -3.0d
-			description: ["Obtain a bucket of creosote oil by process coal or logs into charcoal/coal coke."]
+			description: [
+				"Burn logs, coal or charcoal to obtain creosote oil."
+				""
+				"You can take it out using a bucket."
+			]
 			dependencies: ["55C8C614C6ADE563"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
+			progression_mode: "linear"
 			id: "2FC4D860C8175089"
 			tasks: [{
 				id: "172652FCED45DEF9"
@@ -166,14 +147,17 @@
 		{
 			x: 1.5d
 			y: -3.0d
+			shape: "hexagon"
+			subtitle: "Wood you look at that..."
 			description: [
-				"Quality woods come with a price."
+				"Craft treated wood planks by combining planks with creosote oil."
 				""
-				"Craft some treated wood planks using creosote oil."
+				"Treated wood forms the basis for MANY Immersive Engineering machines. Be sure to check what can be crafted using it!"
 			]
 			dependencies: ["2FC4D860C8175089"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
+			size: 1.5d
+			progression_mode: "linear"
 			id: "0858B9CB97437ACF"
 			tasks: [{
 				id: "628EC2A797C1C32B"
@@ -185,6 +169,60 @@
 				type: "item"
 				item: "immersiveengineering:treated_wood_horizontal"
 				count: 32
+			}]
+		}
+		{
+			title: "Mass Torch Production"
+			x: -1.0d
+			y: -4.5d
+			shape: "hexagon"
+			subtitle: "Let there be light"
+			description: [
+				"One of the new recipies added by this modpack lets you craft torches in bulk using creosote and wool."
+				""
+				"See if you can find it!"
+			]
+			dependencies: ["2FC4D860C8175089"]
+			size: 1.5d
+			progression_mode: "linear"
+			id: "4818F05CFA7C5FA2"
+			tasks: [{
+				id: "4F39BE570D8DBE39"
+				type: "item"
+				item: "minecraft:torch"
+				count: 32L
+			}]
+			rewards: [{
+				id: "15DE083F7A6D28B2"
+				type: "item"
+				item: "minecraft:torch"
+				count: 64
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			shape: "hexagon"
+			subtitle: "The fuel of the future"
+			description: [
+				"A byproduct of the production of creosote oil is coal coke, which is an excellent fuel."
+				""
+				"It is highly recommended to use this for creating steel."
+			]
+			dependencies: ["55C8C614C6ADE563"]
+			size: 1.5d
+			progression_mode: "linear"
+			id: "242AE3A8336F6175"
+			tasks: [{
+				id: "3E7FC964513B5E9B"
+				type: "item"
+				item: "immersiveengineering:coal_coke"
+			}]
+			rewards: [{
+				id: "76FCEBE49599AF30"
+				type: "item"
+				item: "immersiveengineering:coal_coke"
+				count: 15
 			}]
 		}
 	]

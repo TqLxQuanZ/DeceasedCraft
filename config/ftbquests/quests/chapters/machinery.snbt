@@ -1,181 +1,26 @@
 {
 	id: "1B7E170768E21867"
 	group: "06797646CDBF2AAC"
-	order_index: 3
+	order_index: 2
 	filename: "machinery"
-	title: "Heavy Machinery"
-	icon: {
-		id: "immersiveengineering:hammer"
-		Count: 1b
-		tag: {
-			Damage: 0
-		}
-	}
+	title: "Advanced Materials"
+	icon: "immersiveengineering:plate_duroplast"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -5.0d
-			y: -0.5d
-			description: ["Obtain or craft a steel mechanical component."]
-			dependencies: ["1DC30E07C4340AEA"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "492054CA8B0C4717"
-			tasks: [{
-				id: "154C6A86C0BE1FFB"
-				type: "item"
-				item: "immersiveengineering:component_steel"
-			}]
-			rewards: [{
-				id: "0D322939B6EA5017"
-				type: "item"
-				item: "immersiveengineering:component_steel"
-				count: 5
-			}]
-		}
-		{
-			x: -5.0d
-			y: -3.5d
-			description: ["Obtain or craft an iron mechanical component."]
-			dependencies: ["1DC30E07C4340AEA"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "13DD2FE16D64C49F"
-			tasks: [{
-				id: "56F986FA5964A4FC"
-				type: "item"
-				item: "immersiveengineering:component_iron"
-			}]
-			rewards: [{
-				id: "6510C223AD85A036"
-				type: "item"
-				item: "immersiveengineering:component_iron"
-				count: 5
-			}]
-		}
-		{
-			x: -1.5d
-			y: -6.5d
-			dependencies: ["13DD2FE16D64C49F"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "422C95E60D6A6070"
-			tasks: [{
-				id: "0C6B509FB1EA9915"
-				type: "item"
-				item: "immersiveengineering:rs_engineering"
-			}]
-			rewards: [{
-				id: "2C90395224F978D1"
-				type: "item"
-				item: "immersiveengineering:rs_engineering"
-				count: 5
-			}]
-		}
-		{
-			x: -1.5d
-			y: -3.5d
+			title: "Arc Furnace"
+			x: 4.5d
+			y: -9.0d
 			description: [
-				"- Obtain or craft a light engineering block used for complex machine building."
-				"- Some light engineering block can be found in certain residential building, or wasteland."
-			]
-			dependencies: ["13DD2FE16D64C49F"]
-			dependency_requirement: "one_started"
-			id: "6F5D628D39383B09"
-			tasks: [{
-				id: "2CE0674E73230024"
-				type: "item"
-				item: "immersiveengineering:light_engineering"
-			}]
-			rewards: [{
-				id: "1CD89BB011BCCFE9"
-				type: "item"
-				item: "immersiveengineering:light_engineering"
-				count: 5
-			}]
-		}
-		{
-			x: -1.5d
-			y: -0.5d
-			description: [
-				"- Obtain or craft a heavy engineering block used for complex machine building."
-				"- Some heavy engineering block can be found in certain residential building, or wasteland."
-			]
-			dependencies: ["492054CA8B0C4717"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "33AFCFD64C0110B7"
-			tasks: [{
-				id: "17CD0043BD25DDC0"
-				type: "item"
-				item: "immersiveengineering:heavy_engineering"
-			}]
-			rewards: [{
-				id: "7E7BC5C2FACB0F90"
-				type: "item"
-				item: "immersiveengineering:heavy_engineering"
-				count: 5
-			}]
-		}
-		{
-			x: -1.5d
-			y: 2.5d
-			description: [
-				"- Craft Steel Scaffold for preparation of establish complex machines."
-				"- Steel scaffold can be found in certain city structure, or wasteland."
-			]
-			dependencies: ["492054CA8B0C4717"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "1320D39D2EC9167A"
-			tasks: [{
-				id: "30D2B5E26222DCCB"
-				type: "item"
-				item: "immersiveengineering:steel_scaffolding_standard"
-			}]
-		}
-		{
-			title: "Plates"
-			x: -8.0d
-			y: -2.0d
-			shape: "hexagon"
-			description: ["By compressing various materials into sheets or plates, they can be made highly versatile and useful in many applications."]
-			dependency_requirement: "one_started"
-			size: 2.0d
-			progression_mode: "flexible"
-			id: "1DC30E07C4340AEA"
-			tasks: [{
-				id: "38C00DC37200E185"
-				type: "item"
-				title: "Any #forge:plates"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:plates"
-					}
-				}
-			}]
-			rewards: [{
-				id: "54887463CB7F9B32"
-				type: "item"
-				item: "immersiveengineering:plate_iron"
-				count: 5
-			}]
-		}
-		{
-			title: "Establish Arc Furnace"
-			x: 4.0d
-			y: -8.0d
-			description: [
-				"- Establish an Arc Furnace to obtain more ore yields."
-				"- Arc Furnace also allows the smelting of bauxite possible, opening to more possibilities."
+				"Engineers Manual: Heavy Machinery > Arc Furnace"
+				""
+				"Allows for extracting more ingots from ore."
+				"Bauxite can only be processed in this machine."
 			]
 			dependencies: ["4A1A36DD335F7F72"]
 			dependency_requirement: "one_started"
-			size: 2.0d
-			progression_mode: "flexible"
+			progression_mode: "linear"
 			id: "735FD75967EE7FF2"
 			tasks: [{
 				id: "0F8125AA64D4FBE0"
@@ -190,49 +35,19 @@
 			}]
 		}
 		{
-			title: "Establish Crusher"
-			x: 4.0d
-			y: -5.0d
+			title: "Metal Press"
+			x: 2.25d
+			y: -6.0d
+			shape: "hexagon"
+			subtitle: "Feeling the Pressure"
 			description: [
-				"- Establish a Crusher to obtain more ore yields."
-				"- Crusher also allows certain materials to be returned."
+				"The metal press allows for automation of components, which are used to build the main blocks of all of Immersive Engineerings machines."
 				""
 			]
-			dependencies: ["4A1A36DD335F7F72"]
+			dependencies: ["2FAC7CA3578CD6CA"]
 			dependency_requirement: "one_started"
-			size: 2.0d
-			progression_mode: "flexible"
-			id: "676A46851AAF1DAC"
-			tasks: [{
-				id: "45AAB07562AE140B"
-				type: "advancement"
-				advancement: "immersiveengineering:multiblocks/mb_crusher"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "01F9C968469C2EE2"
-				type: "xp"
-				xp: 1000
-			}]
-		}
-		{
-			title: "Establish Metal Press"
-			x: 1.0d
-			y: -2.0d
-			shape: "gear"
-			description: [
-				"- Establish an advance metal press that allows mold to be used."
-				""
-			]
-			dependencies: [
-				"33AFCFD64C0110B7"
-				"6F5D628D39383B09"
-				"422C95E60D6A6070"
-				"1320D39D2EC9167A"
-			]
-			dependency_requirement: "one_started"
-			size: 2.0d
-			progression_mode: "flexible"
+			size: 1.5d
+			progression_mode: "linear"
 			id: "4A1A36DD335F7F72"
 			tasks: [{
 				id: "0397BE13C8F6DAED"
@@ -243,18 +58,17 @@
 			rewards: [{
 				id: "251AC89F59C8339A"
 				type: "xp"
-				xp: 1000
+				xp: 500
 			}]
 		}
 		{
-			title: "Establish Refinery"
-			x: 4.0d
-			y: 1.0d
+			title: "Refinery"
+			x: 4.5d
+			y: -3.0d
 			description: ["Establish Refinery to process phenolic resin to get plastic."]
 			dependencies: ["4A1A36DD335F7F72"]
 			dependency_requirement: "one_started"
-			size: 2.0d
-			progression_mode: "flexible"
+			progression_mode: "linear"
 			id: "7EE0809A9B220503"
 			tasks: [{
 				id: "4F9E6D10339BF7D8"
@@ -269,14 +83,18 @@
 			}]
 		}
 		{
-			title: "Establish Mixer"
-			x: 4.0d
-			y: 5.0d
-			description: ["- Establish mixer to produce liquid concrete for derrick to function."]
+			title: "Mixer"
+			x: 6.0d
+			y: -7.0d
+			description: [
+				"Engineers Manual: Heavy Machinery > Mixer"
+				""
+				"The mixer is required to produce liquid concrete for the derrick."
+			]
+			min_required_dependencies: 1
 			dependencies: ["4A1A36DD335F7F72"]
 			dependency_requirement: "one_started"
-			size: 2.0d
-			progression_mode: "flexible"
+			progression_mode: "linear"
 			id: "66347F4471AF0AD5"
 			tasks: [{
 				id: "3F5B990D01B934D4"
@@ -292,12 +110,14 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 1.0d
+			x: 7.5d
+			y: -3.0d
+			shape: "hexagon"
 			description: ["Obtain plastic from refinery."]
 			dependencies: ["7EE0809A9B220503"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
+			size: 1.5d
+			progression_mode: "linear"
 			id: "4AB6C074F8B0FB9E"
 			tasks: [{
 				id: "490D77AB682AA5D9"
@@ -312,64 +132,15 @@
 			}]
 		}
 		{
-			title: "Shower In Riches"
-			x: 7.0d
-			y: -2.0d
+			x: 6.0d
+			y: -5.0d
 			description: [
-				"Establish Excavator to get massive amount of ores, which can last for a long period of time with the resource mined."
-				"NOTE: Heavy energy consumption!"
+				"The survey tool is used to seek for oil reservoirs. Use buckshot on it to get a survey map."
+				""
+				"The darker the patch under you, the richer the reservoir."
 			]
-			dependencies: ["67A9184A0539A754"]
-			dependency_requirement: "one_started"
-			size: 2.0d
-			id: "107A6CDCFCC8BB0A"
-			tasks: [{
-				id: "5C562421CBDDF5D2"
-				type: "advancement"
-				advancement: "immersiveengineering:multiblocks/mb_excavator"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "00DD873849AEB751"
-				type: "xp"
-				xp: 1000
-			}]
-		}
-		{
-			x: 4.0d
-			y: -2.0d
-			description: ["Obtain a mineral survey tool to search for a mineral deposit."]
 			dependencies: ["4A1A36DD335F7F72"]
 			dependency_requirement: "one_started"
-			size: 1.5d
-			id: "67A9184A0539A754"
-			tasks: [{
-				id: "0AC4C607A3C4352F"
-				type: "item"
-				item: {
-					id: "immersiveengineering:survey_tools"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "67F62E3B8BDE08F3"
-				type: "xp"
-				xp: 500
-			}]
-		}
-		{
-			x: 7.0d
-			y: 5.0d
-			description: [
-				"Craft a seismic survey tool to seek for oil reservoir."
-				"Use buckshot on it to get a survey map."
-			]
-			dependencies: ["66347F4471AF0AD5"]
-			dependency_requirement: "one_started"
-			size: 2.0d
 			progression_mode: "flexible"
 			id: "77EC1AAFA634748C"
 			tasks: [{
@@ -386,8 +157,8 @@
 		}
 		{
 			title: "Establish Derrick"
-			x: 10.0d
-			y: 5.0d
+			x: 11.0d
+			y: -6.0d
 			description: ["- Establish a derrick above an oil reservoir after secured the production of liquid concrete."]
 			dependencies: ["77EC1AAFA634748C"]
 			dependency_requirement: "one_started"
@@ -416,8 +187,8 @@
 		}
 		{
 			title: "Establish Pumpjack"
-			x: 13.0d
-			y: 7.0d
+			x: 14.0d
+			y: -4.0d
 			description: ["- Establish Pumpjack after Derrick finished drilling."]
 			dependencies: ["30DD32A41789F621"]
 			dependency_requirement: "one_started"
@@ -437,8 +208,8 @@
 		}
 		{
 			title: "Establish Oil Tank"
-			x: 16.0d
-			y: 5.0d
+			x: 17.0d
+			y: -6.0d
 			description: ["Establish Oil Tank to store the oil."]
 			dependencies: [
 				"30DD32A41789F621"
@@ -462,8 +233,8 @@
 		}
 		{
 			title: "Establish Distillation Tower"
-			x: 19.0d
-			y: 5.0d
+			x: 20.0d
+			y: -6.0d
 			description: ["- Establish Distillation Tower to process oils."]
 			dependencies: ["76D2EF1A6D98F9BE"]
 			dependency_requirement: "one_started"
@@ -491,8 +262,8 @@
 			]
 		}
 		{
-			x: 24.5d
-			y: 4.0d
+			x: 25.5d
+			y: -7.5d
 			description: [
 				"Obtain rubber from processing ethylene and propylene together."
 				"It is also possible to obtain rubber from various buildings!"
@@ -514,8 +285,8 @@
 			}]
 		}
 		{
-			x: 24.5d
-			y: 6.0d
+			x: 25.5d
+			y: -4.0d
 			description: [
 				"- Obtain polyethylene from processing ethylene."
 				"- Polyethylene can be processed inside Arc Furnace to become high resistant material."
@@ -538,8 +309,8 @@
 			}]
 		}
 		{
-			x: 26.5d
-			y: 6.0d
+			x: 27.0d
+			y: -5.0d
 			description: ["- Obtain high-resistance fiber from smelting Polyethylene inside Arc Furnace."]
 			dependencies: ["127BFFF817F6D610"]
 			dependency_requirement: "one_started"
@@ -559,7 +330,7 @@
 		}
 		{
 			x: 28.5d
-			y: 6.0d
+			y: -5.0d
 			description: ["- Combine 4 resistant fiber into a fabric for high grade armors."]
 			dependencies: ["46570C043F3FB3BE"]
 			dependency_requirement: "one_started"
@@ -579,8 +350,8 @@
 		}
 		{
 			title: "High Carbon Steel Alloy"
-			x: 24.5d
-			y: 8.0d
+			x: 27.0d
+			y: -3.0d
 			description: [
 				"- Obtain a high carbon steel alloy from merging Polyethylene with Steel Ingot inside Arc Furnace."
 				"- Carbon Steel Alloy also can be found in wasteland buildings."
@@ -602,13 +373,15 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -8.0d
-			description: ["Smelt bauxite ores into aluminum ingot."]
+			x: 7.5d
+			y: -9.0d
+			shape: "hexagon"
+			subtitle: "Loominum"
+			description: ["Smelt bauxite ore into aluminum ingots."]
 			dependencies: ["735FD75967EE7FF2"]
 			dependency_requirement: "one_started"
 			size: 1.5d
-			progression_mode: "flexible"
+			progression_mode: "linear"
 			id: "5A03F43381D2CB75"
 			tasks: [{
 				id: "52F06FC69389086C"
@@ -622,18 +395,15 @@
 			}]
 		}
 		{
-			icon: "minecraft:barrier"
-			x: 13.5d
-			y: -1.5d
-			shape: "square"
-			description: [
-				"NOTE: The chapter here will not cover any power generation or stress unit generation, you'll have to figure it out on your own as those are too big of a topic."
-				"NOTE: Most object of how it works can be accessed via Ponder (W) for Create, as for Immersive Engineering, please read the manual book."
-				"NOTE: The guideline here brings you to the quickest path or easy to read path to gain access of your modern weapons and armor."
-			]
+			icon: "immersiveengineering:windmill"
+			x: 0.5d
+			y: -6.0d
+			shape: "gear"
+			subtitle: "A potato battery will suffice"
+			description: ["Be warned, power or stress unit generation will not be covered here. Make sure you have enough power to supply your machines!"]
+			dependencies: ["2FAC7CA3578CD6CA"]
 			dependency_requirement: "one_started"
-			size: 3.0d
-			progression_mode: "flexible"
+			progression_mode: "linear"
 			id: "41D1A738905E5E29"
 			tasks: [{
 				id: "22F6101BB709332C"
@@ -641,15 +411,15 @@
 				title: "Power Generation"
 			}]
 			rewards: [{
-				id: "52CDA89DE0675BCF"
-				type: "xp"
-				xp: 100
+				id: "3C75D76D88FD83FD"
+				type: "item"
+				item: "minecraft:potato"
 			}]
 		}
 		{
 			title: "Establish High-Pressure Refinery Unit"
-			x: 22.0d
-			y: 5.0d
+			x: 23.0d
+			y: -6.0d
 			description: ["- Establish Distillation Tower to refine oil into different type of products."]
 			dependencies: ["7D29A71120419FE4"]
 			dependency_requirement: "one_started"
@@ -669,8 +439,8 @@
 		}
 		{
 			title: "Better Cables!"
-			x: 26.5d
-			y: 4.0d
+			x: 27.0d
+			y: -7.5d
 			description: ["Craft better cables for transferring energy/items/fluids using rubbers."]
 			dependencies: ["1D87E5535012EEDF"]
 			dependency_requirement: "one_started"
@@ -695,36 +465,9 @@
 			}]
 		}
 		{
-			title: "Veteran Engineer"
-			icon: "immersiveengineering:manual"
-			x: -11.5d
-			y: -2.0d
-			shape: "square"
-			subtitle: "I want to build machines!"
-			description: [
-				"As a veteran engineer, you possess extensive knowledge in various technological domains, allowing me to provide information and insights on a wide range of tech-related topics."
-				""
-			]
-			size: 1.5d
-			optional: true
-			can_repeat: true
-			progression_mode: "flexible"
-			id: "18770D8607D4BAD4"
-			tasks: [{
-				id: "3E0FB1816EF89D1C"
-				type: "checkmark"
-				title: "PhD of Engineering"
-			}]
-			rewards: [{
-				id: "24620030444182E9"
-				type: "item"
-				item: "immersiveengineering:manual"
-			}]
-		}
-		{
 			title: "Tinkerer"
 			x: 28.5d
-			y: 4.0d
+			y: -7.5d
 			description: ["Craft a pipe wrench to start tinkering your upgraded cables!"]
 			dependencies: ["6A73DA4245E1BBA9"]
 			dependency_requirement: "one_started"
@@ -733,6 +476,29 @@
 				id: "1DF9DC24839EC20A"
 				type: "item"
 				item: "pipez:wrench"
+			}]
+		}
+		{
+			title: "Advanced Machines"
+			icon: "immersiveengineering:manual"
+			x: -1.0d
+			y: -6.0d
+			subtitle: "It's about to get technical..."
+			description: [
+				"This part of the quest book is only a brief outline as to the process of obtaining the higher-end materials in this modpack."
+				""
+				"It is recommended you check out the Engineer's Manual to get an idea of how to construct (and use) these machines."
+			]
+			id: "2FAC7CA3578CD6CA"
+			tasks: [{
+				id: "44F8CE502F270F03"
+				type: "checkmark"
+				title: "Advanced Machines"
+			}]
+			rewards: [{
+				id: "60DC7E2DCDC6C06C"
+				type: "item"
+				item: "create:builders_tea"
 			}]
 		}
 	]

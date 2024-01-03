@@ -23,8 +23,8 @@
 					Damage: 0
 				}
 			}
-			x: -9.0d
-			y: 5.0d
+			x: -10.5d
+			y: 6.0d
 			shape: "gear"
 			description: [
 				"Surviving the apocalypse requires equipping oneself with weapons."
@@ -478,27 +478,6 @@
 				id: "722556818E441138"
 				type: "xp"
 				xp: 500
-			}]
-		}
-		{
-			title: "Melee Revolution"
-			x: -13.0d
-			y: 5.0d
-			shape: "gear"
-			description: ["Acquire a steel ingot to expand your options for crafting a wider variety of weapons."]
-			dependency_requirement: "one_started"
-			size: 3.0d
-			progression_mode: "flexible"
-			id: "470B8F2C28F780CC"
-			tasks: [{
-				id: "5C7F76471E4D016B"
-				type: "item"
-				item: "immersiveengineering:ingot_steel"
-			}]
-			rewards: [{
-				id: "533D5B4A9F45C75B"
-				type: "xp"
-				xp: 200
 			}]
 		}
 		{

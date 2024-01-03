@@ -3,61 +3,16 @@
 	group: "06797646CDBF2AAC"
 	order_index: 1
 	filename: "steels"
-	title: "Creating Steel"
+	title: "Steel"
 	icon: "immersiveengineering:ingot_steel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Revolutionary Material"
-			icon: "immersiveengineering:ingot_steel"
-			x: -1.5d
-			y: -1.5d
-			shape: "hexagon"
-			description: [
-				"- In the modern era, the invention of steel stands as one of the most significant advancements. Steel opens up a world of possibilities in terms of weaponry, armor, and construction."
-				"In the modern era, the invention of steel - Its strength, durability, and versatility have revolutionized various industries, allowing for the creation of more efficient and effective weapons, resilient armor, and sturdy structures. "
-			]
-			dependency_requirement: "one_started"
-			size: 2.0d
-			progression_mode: "flexible"
-			id: "7DB554A652114E61"
-			tasks: [{
-				id: "3DA3C6D93D2F014D"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "30FF4A1D3AFF9D4A"
-				type: "xp"
-				xp: 50
-			}]
-		}
-		{
-			x: 1.5d
-			y: -3.5d
-			description: ["Smelts clays to obtain bricks."]
-			dependencies: ["7DB554A652114E61"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "0F018F277447CB3C"
-			tasks: [{
-				id: "0CA50A1148EE1616"
-				type: "item"
-				item: "minecraft:brick"
-			}]
-			rewards: [{
-				id: "50CF01150314FC81"
-				type: "item"
-				item: "minecraft:brick"
-				count: 5
-			}]
-		}
-		{
 			title: "Magma Block"
-			x: 1.5d
-			y: -1.5d
-			description: ["Magma blocks can typically be found in underwater areas, near portal ruins, or in volcanic regions. These blocks emit heat and can cause damage to players upon contact, Beware!"]
-			dependencies: ["7DB554A652114E61"]
+			x: 2.5d
+			y: -3.0d
+			description: ["Magma blocks can typically be found in underwater areas, near portal ruins, or in volcanic regions."]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "0D4A8399201D0264"
@@ -75,10 +30,13 @@
 		}
 		{
 			title: "Netherrack"
-			x: 1.5d
-			y: 0.5d
-			description: ["Currently, the concept of the Nether, as described in certain contexts, does not exist. In order to obtain netherrack, one would need to explore the world extensively to locate portal ruins. The origin and appearance of these ruins have yet to be explained."]
-			dependencies: ["7DB554A652114E61"]
+			x: 1.0d
+			y: -1.5d
+			description: [
+				"Netherrack can only be found near portal ruins."
+				""
+				"Strange how ruined portals exist, yet the Nether does not..."
+			]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "5897022506C1FE83"
@@ -96,16 +54,15 @@
 		}
 		{
 			title: "Blast Brick"
-			x: 4.5d
+			x: 4.0d
 			y: -1.5d
-			description: ["To craft blast bricks, you will need nether bricks, regular bricks, and magma blocks."]
+			description: ["Craft blast bricks using nether bricks, regular bricks, and magma blocks."]
 			dependencies: [
 				"0D4A8399201D0264"
-				"0F018F277447CB3C"
-				"5897022506C1FE83"
+				"553A58EC81BE0BCE"
 			]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
+			progression_mode: "linear"
 			id: "4F6888B4DACE6A10"
 			tasks: [{
 				id: "6ADC8D3692AB8E91"
@@ -122,12 +79,12 @@
 		{
 			title: "Blast Furnace"
 			icon: "immersiveengineering:blast_furnace"
-			x: 7.5d
+			x: 6.5d
 			y: -1.5d
-			description: ["To establish a blast furnace, check the Engineer's Manual, Workbenches n Furnace, Blast Furnace section."]
+			description: ["Check the Engineer's Manual for how to create a blast furnace under [Workbenches And Furnaces > Blast Furnace]"]
 			dependencies: ["4F6888B4DACE6A10"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
+			progression_mode: "linear"
 			id: "741526AA7D74D11C"
 			tasks: [{
 				id: "21AA8B73335C99CC"
@@ -143,39 +100,20 @@
 			}]
 		}
 		{
-			title: "Cook It"
-			x: 10.5d
+			x: 9.0d
 			y: -1.5d
-			description: ["To obtain iron ingots, you can smelt iron ore in a furnace."]
+			shape: "hexagon"
+			description: [
+				"Smelt an iron ingot into steel using the blast furnace."
+				""
+				"Be warned, the blast furnace uses a lot of fuel!"
+				""
+				"Alternatively, steel can also be found by looting ruins."
+			]
 			dependencies: ["741526AA7D74D11C"]
 			dependency_requirement: "one_started"
 			size: 1.5d
-			progression_mode: "flexible"
-			id: "6A872C0B3A07ECD0"
-			tasks: [{
-				id: "35B4C32EBB0BF29E"
-				type: "item"
-				item: "minecraft:iron_ingot"
-			}]
-			rewards: [{
-				id: "7CE40B17BDC290FD"
-				type: "item"
-				item: "minecraft:iron_ingot"
-				count: 6
-			}]
-		}
-		{
-			x: 13.5d
-			y: -1.5d
-			description: [
-				"- Smelt a steel ingot using blast furnace with an iron ingot."
-				"- Blast Furnace requires fuel!"
-				"- Steel can be also found through certain services building, or wasteland."
-			]
-			dependencies: ["6A872C0B3A07ECD0"]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
+			progression_mode: "linear"
 			id: "2B210294E5EEA1D9"
 			tasks: [{
 				id: "22F2E2643B2D6C2A"
@@ -187,6 +125,19 @@
 				type: "item"
 				item: "immersiveengineering:ingot_steel"
 				count: 8
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			description: ["Smelt netherrack to obtain nether bricks."]
+			dependencies: ["5897022506C1FE83"]
+			progression_mode: "linear"
+			id: "553A58EC81BE0BCE"
+			tasks: [{
+				id: "1494A9441A0A1AE7"
+				type: "item"
+				item: "minecraft:nether_brick"
 			}]
 		}
 	]
