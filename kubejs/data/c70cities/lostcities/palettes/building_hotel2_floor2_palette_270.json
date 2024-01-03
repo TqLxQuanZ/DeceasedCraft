@@ -49,37 +49,37 @@
     },
     {
       "char": "k",
-      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_left,facing=east]"
+      "block": "pfm:basic_bathtub[part=head,facing=east,occupied=false]"
     },
     {
       "char": "l",
-      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_left,facing=south]"
+      "block": "pfm:basic_sink[facing=east]"
     },
     {
       "char": "m",
-      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_left,facing=north]"
+      "block": "pfm:basic_bathtub[part=foot,facing=east,occupied=false]"
     },
     {
       "char": "n",
-      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_left,facing=west]"
-    },
-    {
-      "char": "o",
       "block": "cfm:cyan_kitchen_drawer[facing=north,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "p",
-      "block": "minecraft:cauldron"
+      "char": "o",
+      "block": "pfm:basic_toilet[facing=north]"
     },
     {
-      "char": "q",
+      "char": "p",
       "block": "minecraft:dark_oak_door[hinge=left,half=lower,facing=south,open=false]"
     },
     {
-      "char": "r",
+      "char": "q",
       "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
       "loot": "chestloot"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:cauldron"
     },
     {
       "char": "s",
@@ -130,40 +130,48 @@
     },
     {
       "char": "E",
-      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "pfm:basic_shower_handle[facing=west]"
     },
     {
       "char": "F",
-      "block": "minecraft:yellow_candle[waterlogged=false,lit=false]"
+      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=south,open=false]"
     },
     {
       "char": "I",
-      "block": "minecraft:brewing_stand"
+      "block": "minecraft:yellow_candle[waterlogged=false,lit=false]"
     },
     {
       "char": "J",
-      "block": "immersiveengineering:concrete_quarter"
+      "block": "minecraft:brewing_stand"
     },
     {
       "char": "K",
-      "block": "minecraft:oak_planks"
+      "block": "immersiveengineering:concrete_quarter"
     },
     {
       "char": "L",
+      "block": "pfm:basic_shower_head[facing=east]"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "char": "N",
       "block": "farmersdelight:oak_cabinet[facing=west,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "M",
+      "char": "O",
       "block": "bunker_down:broken_ceiling_lamp"
     },
     {
-      "char": "N",
+      "char": "P",
       "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
       "loot": "chestloot"
     },
     {
-      "char": "O",
+      "char": "Q",
       "block": "minecraft:quartz_block"
     }
   ]

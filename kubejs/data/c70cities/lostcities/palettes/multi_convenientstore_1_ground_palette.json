@@ -99,12 +99,12 @@
     },
     {
       "char": "A",
-      "block": "cfm:cyan_cooler[waterlogged=false,facing=south,open=false]",
-      "loot": "chestloot"
+      "block": "pfm:white_freezer[facing=south,open=false]"
     },
     {
       "char": "B",
-      "block": "cfm:freezer_light[facing=south,open=false]"
+      "block": "pfm:white_fridge[facing=south,open=false]",
+      "loot": "chestloot"
     },
     {
       "char": "C",
@@ -158,35 +158,30 @@
     },
     {
       "char": "Q",
-      "block": "cfm:fridge_light[facing=south,open=false]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "R",
       "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     },
     {
-      "char": "S",
+      "char": "R",
       "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "T",
+      "char": "S",
       "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
     },
     {
-      "char": "U",
+      "char": "T",
       "block": "quark:limestone_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "V",
+      "char": "U",
       "block": "bunker_down:broken_ceiling_lamp"
     },
     {
-      "char": "W",
+      "char": "V",
       "block": "bunker_down:ceiling_lamp"
     },
     {
-      "char": "X",
+      "char": "W",
       "block": "embellishcraft:vent_air_duct[facing=down]"
     }
   ]

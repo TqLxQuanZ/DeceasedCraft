@@ -103,74 +103,66 @@
     },
     {
       "char": "B",
-      "block": "hardcore_torches:unlit_lantern[waterlogged=false,hanging=true]"
-    },
-    {
-      "char": "C",
       "block": "minecraft:lantern[waterlogged=false,hanging=true]"
     },
     {
-      "char": "D",
+      "char": "C",
       "block": "create:dark_oak_window"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "minecraft:soul_lantern[waterlogged=false,hanging=false]"
     },
     {
-      "char": "F",
-      "block": "hardcore_torches:burnt_torch"
-    },
-    {
-      "char": "I",
+      "char": "E",
       "block": "minecraft:soul_torch"
     },
     {
-      "char": "J",
+      "char": "F",
       "block": "minecraft:end_rod[facing=up]"
     },
     {
-      "char": "K",
+      "char": "I",
       "block": "minecraft:brewing_stand"
     },
     {
-      "char": "L",
+      "char": "J",
       "block": "minecraft:redstone_torch[lit=true]"
     },
     {
-      "char": "M",
+      "char": "K",
       "block": "minecraft:moss_block"
     },
     {
-      "char": "N",
+      "char": "L",
       "block": "minecraft:smooth_stone"
     },
     {
-      "char": "O",
+      "char": "M",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "P",
+      "char": "N",
       "block": "minecraft:dark_oak_leaves"
     },
     {
-      "char": "Q",
+      "char": "O",
       "block": "minecraft:dead_bush"
     },
     {
-      "char": "R",
+      "char": "P",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "S",
+      "char": "Q",
       "block": "create:vertical_framed_glass"
     },
     {
-      "char": "T",
+      "char": "R",
       "block": "create:cut_calcite_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "U",
+      "char": "S",
       "block": "minecraft:birch_slab[waterlogged=false,type=top]"
     }
   ]

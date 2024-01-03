@@ -79,7 +79,7 @@
     },
     {
       "char": "t",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "pfm:basic_toilet[facing=north]"
     },
     {
       "char": "u",
@@ -87,11 +87,11 @@
     },
     {
       "char": "w",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
+      "block": "pfm:basic_shower_handle[facing=east]"
     },
     {
       "char": "x",
-      "block": "minecraft:tripwire_hook[attached=false,facing=east]"
+      "block": "pfm:basic_shower_head[facing=west]"
     },
     {
       "char": "y",

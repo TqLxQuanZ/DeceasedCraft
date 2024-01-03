@@ -103,7 +103,8 @@
     },
     {
       "char": "B",
-      "block": "cfm:freezer_light[facing=south,open=false]"
+      "block": "pfm:white_fridge[facing=south,open=false]",
+      "loot": "chestloot"
     },
     {
       "char": "C",
@@ -171,8 +172,7 @@
     },
     {
       "char": "U",
-      "block": "cfm:fridge_light[facing=south,open=false]",
-      "loot": "chestloot"
+      "block": "pfm:white_freezer[facing=south,open=false]"
     },
     {
       "char": "V",
@@ -217,16 +217,16 @@
     },
     {
       "char": "5",
-      "block": "minecraft:brown_bed[part=head,facing=north,occupied=false]",
+      "block": "pfm:oak_brown_simple_bed[part=head,facing=north,occupied=false]",
       "tag": {
-        "id": "minecraft:bed"
+        "id": "pfm:bed_block_entity"
       }
     },
     {
       "char": "6",
-      "block": "minecraft:brown_bed[part=foot,facing=north,occupied=false]",
+      "block": "pfm:oak_brown_simple_bed[part=foot,facing=north,occupied=false]",
       "tag": {
-        "id": "minecraft:bed"
+        "id": "pfm:bed_block_entity"
       }
     },
     {

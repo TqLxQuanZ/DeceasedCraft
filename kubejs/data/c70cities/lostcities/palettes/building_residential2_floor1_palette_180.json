@@ -31,16 +31,16 @@
     },
     {
       "char": "h",
-      "block": "minecraft:light_gray_bed[part=head,facing=east,occupied=false]",
+      "block": "pfm:oak_gray_simple_bed[part=head,facing=east,occupied=false]",
       "tag": {
-        "id": "minecraft:bed"
+        "id": "pfm:bed_block_entity"
       }
     },
     {
       "char": "i",
-      "block": "minecraft:light_gray_bed[part=foot,facing=east,occupied=false]",
+      "block": "pfm:oak_gray_simple_bed[part=foot,facing=east,occupied=false]",
       "tag": {
-        "id": "minecraft:bed"
+        "id": "pfm:bed_block_entity"
       }
     },
     {
@@ -95,58 +95,62 @@
     },
     {
       "char": "w",
-      "block": "create:dark_oak_window"
+      "block": "pfm:mesh_trashcan[facing=west]"
     },
     {
       "char": "x",
-      "block": "create:framed_glass_door[hinge=right,half=lower,facing=north,open=false]"
+      "block": "create:dark_oak_window"
     },
     {
       "char": "y",
-      "block": "create:framed_glass_door[hinge=left,half=lower,facing=north,open=false]"
+      "block": "create:framed_glass_door[hinge=right,half=lower,facing=north,open=false]"
     },
     {
       "char": "A",
-      "block": "minecraft:potted_crimson_fungus"
+      "block": "create:framed_glass_door[hinge=left,half=lower,facing=north,open=false]"
     },
     {
       "char": "B",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "minecraft:potted_crimson_fungus"
     },
     {
       "char": "C",
-      "block": "minecraft:dark_oak_planks"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
     },
     {
       "char": "D",
-      "block": "create:dark_oak_window_pane[waterlogged=false]"
+      "block": "minecraft:dark_oak_planks"
     },
     {
       "char": "E",
-      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
+      "block": "create:dark_oak_window_pane[waterlogged=false]"
     },
     {
       "char": "F",
-      "block": "minecraft:heavy_weighted_pressure_plate"
+      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
     },
     {
       "char": "I",
-      "block": "create:framed_glass_door[hinge=right,half=upper,facing=north,open=false]"
+      "block": "minecraft:heavy_weighted_pressure_plate"
     },
     {
       "char": "J",
-      "block": "create:framed_glass_door[hinge=left,half=upper,facing=north,open=false]"
+      "block": "create:framed_glass_door[hinge=right,half=upper,facing=north,open=false]"
     },
     {
       "char": "K",
-      "block": "minecraft:dark_oak_slab[waterlogged=false,type=top]"
+      "block": "create:framed_glass_door[hinge=left,half=upper,facing=north,open=false]"
     },
     {
       "char": "L",
-      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:dark_oak_slab[waterlogged=false,type=top]"
     },
     {
       "char": "M",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+    },
+    {
+      "char": "N",
       "block": "minecraft:dark_oak_slab[waterlogged=false,type=bottom]"
     }
   ]

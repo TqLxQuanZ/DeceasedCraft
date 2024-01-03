@@ -88,32 +88,28 @@
     },
     {
       "char": "w",
-      "block": "hardcore_torches:unlit_lantern[waterlogged=false,hanging=true]"
-    },
-    {
-      "char": "x",
       "block": "create:hand_crank[waterlogged=false,facing=south]",
       "tag": {
         "id": "create:hand_crank"
       }
     },
     {
-      "char": "y",
+      "char": "x",
       "block": "create:mechanical_press[facing=south]",
       "tag": {
         "id": "create:mechanical_press"
       }
     },
     {
-      "char": "A",
+      "char": "y",
       "block": "minecraft:dark_oak_planks"
     },
     {
-      "char": "B",
+      "char": "A",
       "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=north]"
     },
     {
-      "char": "C",
+      "char": "B",
       "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=inner_left,facing=south]"
     }
   ]

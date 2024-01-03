@@ -67,11 +67,11 @@
     },
     {
       "char": "q",
-      "block": "cfm:cyan_kitchen_sink[facing=north]"
+      "block": "pfm:basic_sink[facing=north]"
     },
     {
       "char": "r",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "pfm:basic_toilet[facing=west]"
     },
     {
       "char": "s",
@@ -100,7 +100,7 @@
     },
     {
       "char": "A",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=east,open=false]"
+      "block": "pfm:basic_shower_handle[facing=west]"
     },
     {
       "char": "B",
@@ -124,31 +124,35 @@
     },
     {
       "char": "I",
-      "block": "create:andesite_bars[waterlogged=false]"
+      "block": "pfm:basic_shower_head[facing=east]"
     },
     {
       "char": "J",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "K",
       "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
       "loot": "chestloot"
     },
     {
-      "char": "K",
+      "char": "L",
       "block": "minecraft:cobweb"
     },
     {
-      "char": "L",
+      "char": "M",
       "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
-      "char": "M",
+      "char": "N",
       "block": "minecraft:stripped_oak_log[axis=x]"
     },
     {
-      "char": "N",
+      "char": "O",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "O",
+      "char": "P",
       "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
     }
   ]

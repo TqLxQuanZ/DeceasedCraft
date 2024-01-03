@@ -147,7 +147,7 @@
     },
     {
       "char": "O",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "pfm:basic_toilet[facing=south]"
     },
     {
       "char": "P",
@@ -199,64 +199,60 @@
     },
     {
       "char": "1",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=north,open=false]"
-    },
-    {
-      "char": "2",
       "block": "minecraft:potted_dead_bush"
     },
     {
-      "char": "3",
+      "char": "2",
       "block": "cfm:fridge_light[facing=north,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "4",
+      "char": "3",
       "block": "minecraft:flower_pot"
     },
     {
-      "char": "5",
+      "char": "4",
       "block": "cfm:fridge_light[facing=east,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "6",
+      "char": "5",
       "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
     },
     {
-      "char": "7",
+      "char": "6",
       "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "8",
+      "char": "7",
       "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
     },
     {
-      "char": "9",
+      "char": "8",
       "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     },
     {
-      "char": "@",
+      "char": "9",
       "block": "minecraft:spruce_trapdoor[waterlogged=false,half=top,facing=west,open=false]"
     },
     {
-      "char": "#",
+      "char": "@",
       "block": "minecraft:spruce_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "$",
+      "char": "#",
       "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=north]"
     },
     {
-      "char": "%",
+      "char": "$",
       "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=west]"
     },
     {
-      "char": "^",
+      "char": "%",
       "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=south]"
     },
     {
-      "char": "&",
+      "char": "^",
       "block": "minecraft:brewing_stand"
     }
   ]

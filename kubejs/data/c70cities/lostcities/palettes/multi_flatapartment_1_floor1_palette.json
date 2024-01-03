@@ -31,7 +31,8 @@
     },
     {
       "char": "h",
-      "block": "cfm:freezer_light[facing=east,open=false]"
+      "block": "pfm:white_fridge[facing=east,open=false]",
+      "loot": "chestloot"
     },
     {
       "char": "i",
@@ -48,7 +49,8 @@
     },
     {
       "char": "l",
-      "block": "cfm:freezer_light[facing=west,open=false]"
+      "block": "pfm:white_fridge[facing=west,open=false]",
+      "loot": "chestloot"
     },
     {
       "char": "m",
@@ -160,7 +162,8 @@
     },
     {
       "char": "Q",
-      "block": "cfm:freezer_light[facing=north,open=false]"
+      "block": "pfm:white_fridge[facing=north,open=false]",
+      "loot": "chestloot"
     },
     {
       "char": "R",
@@ -172,13 +175,11 @@
     },
     {
       "char": "T",
-      "block": "cfm:fridge_light[facing=east,open=false]",
-      "loot": "chestloot"
+      "block": "pfm:white_freezer[facing=east,open=false]"
     },
     {
       "char": "U",
-      "block": "cfm:fridge_light[facing=west,open=false]",
-      "loot": "chestloot"
+      "block": "pfm:white_freezer[facing=west,open=false]"
     },
     {
       "char": "V",
@@ -210,8 +211,7 @@
     },
     {
       "char": "2",
-      "block": "cfm:fridge_light[facing=north,open=false]",
-      "loot": "chestloot"
+      "block": "pfm:white_freezer[facing=north,open=false]"
     },
     {
       "char": "3",

@@ -35,27 +35,23 @@
     },
     {
       "char": "i",
-      "block": "hardcore_torches:unlit_lantern[waterlogged=false,hanging=true]"
-    },
-    {
-      "char": "j",
       "block": "minecraft:dark_oak_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "k",
+      "char": "j",
       "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
-      "char": "l",
+      "char": "k",
       "block": "minecraft:dark_oak_planks"
     },
     {
-      "char": "m",
+      "char": "l",
       "block": "farmersdelight:dark_oak_cabinet[facing=south,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "n",
+      "char": "m",
       "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
     }
   ]

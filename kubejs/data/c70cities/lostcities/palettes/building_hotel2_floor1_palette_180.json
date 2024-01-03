@@ -43,23 +43,23 @@
     },
     {
       "char": "k",
-      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_right,facing=east]"
+      "block": "pfm:basic_bathtub[part=head,facing=east,occupied=false]"
     },
     {
       "char": "l",
-      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_right,facing=south]"
+      "block": "pfm:basic_bathtub[part=foot,facing=east,occupied=false]"
     },
     {
       "char": "m",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "pfm:basic_toilet[facing=south]"
     },
     {
       "char": "n",
-      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_right,facing=north]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "o",
-      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_right,facing=west]"
+      "block": "pfm:basic_sink[facing=east]"
     },
     {
       "char": "p",
@@ -105,24 +105,32 @@
     },
     {
       "char": "A",
-      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "pfm:basic_shower_handle[facing=west]"
     },
     {
       "char": "B",
-      "block": "cfm:oak_hedge[waterlogged=false]"
+      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=south,open=false]"
     },
     {
       "char": "C",
+      "block": "cfm:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "D",
       "block": "farmersdelight:oak_cabinet[facing=north,open=false]",
       "loot": "chestloot"
     },
     {
-      "char": "D",
+      "char": "E",
+      "block": "pfm:basic_shower_head[facing=east]"
+    },
+    {
+      "char": "F",
       "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
       "loot": "chestloot"
     },
     {
-      "char": "E",
+      "char": "I",
       "block": "minecraft:quartz_block"
     }
   ]
