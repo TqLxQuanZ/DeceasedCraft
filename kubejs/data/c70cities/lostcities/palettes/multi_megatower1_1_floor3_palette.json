@@ -67,11 +67,11 @@
     },
     {
       "char": "q",
-      "block": "cfm:cyan_kitchen_sink[facing=north]"
+      "block": "pfm:basic_sink[facing=north]"
     },
     {
       "char": "r",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "pfm:basic_toilet[facing=west]"
     },
     {
       "char": "s",
@@ -99,46 +99,42 @@
     },
     {
       "char": "A",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=east,open=false]"
-    },
-    {
-      "char": "B",
       "block": "minecraft:tripwire_hook[attached=false,facing=east]"
     },
     {
-      "char": "C",
+      "char": "B",
       "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
     },
     {
-      "char": "D",
+      "char": "C",
       "block": "minecraft:redstone_wall_torch[lit=true,facing=north]"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=west,open=true]"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "create:andesite_bars[waterlogged=false]"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "minecraft:cobweb"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "minecraft:stripped_oak_log[axis=x]"
     },
     {
-      "char": "L",
+      "char": "K",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "M",
+      "char": "L",
       "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
     }
   ]

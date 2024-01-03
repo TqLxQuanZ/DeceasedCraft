@@ -116,45 +116,41 @@
     },
     {
       "char": "D",
-      "block": "hardcore_torches:unlit_lantern[waterlogged=false,hanging=false]"
-    },
-    {
-      "char": "E",
       "block": "create:oak_window"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "minecraft:soul_lantern[waterlogged=false,hanging=true]"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "create:nixie_tube[waterlogged=false,double_face=ceiling,facing=east]",
       "tag": {
         "id": "create:nixie_tube"
       }
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
-      "char": "L",
+      "char": "K",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "M",
+      "char": "L",
       "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=top]"
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "simplylight:illuminant_block_on"
     },
     {
-      "char": "O",
+      "char": "N",
       "block": "minecraft:stripped_oak_log[axis=x]"
     }
   ]

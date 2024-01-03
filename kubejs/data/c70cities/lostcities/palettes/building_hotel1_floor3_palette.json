@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "cfm:stripped_oak_chair[waterlogged=false,facing=north]"
+      "block": "pfm:stripped_oak_chair[facing=north]"
     },
     {
       "char": "i",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "cfm:stripped_oak_chair[waterlogged=false,facing=west]"
+      "block": "pfm:stripped_oak_chair[facing=west]"
     },
     {
       "char": "n",
@@ -79,9 +79,9 @@
     },
     {
       "char": "t",
-      "block": "minecraft:light_gray_bed[part=head,facing=north,occupied=false]",
+      "block": "pfm:oak_gray_simple_bed[part=head,facing=north,occupied=false]",
       "tag": {
-        "id": "minecraft:bed"
+        "id": "pfm:bed_block_entity"
       }
     },
     {
@@ -91,54 +91,54 @@
     },
     {
       "char": "w",
-      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_left,facing=north]"
+      "block": "pfm:basic_sink[facing=north]"
     },
     {
       "char": "x",
-      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_left,facing=east]"
+      "block": "pfm:basic_bathtub[part=head,facing=north,occupied=false]"
     },
     {
       "char": "y",
-      "block": "minecraft:light_gray_bed[part=foot,facing=north,occupied=false]",
+      "block": "pfm:oak_gray_simple_bed[part=foot,facing=north,occupied=false]",
       "tag": {
-        "id": "minecraft:bed"
+        "id": "pfm:bed_block_entity"
       }
     },
     {
       "char": "A",
-      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_left,facing=west]"
+      "block": "pfm:basic_bathtub[part=foot,facing=north,occupied=false]"
     },
     {
       "char": "B",
-      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,shape=inner_left,facing=south]"
-    },
-    {
-      "char": "C",
       "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
     },
     {
-      "char": "D",
-      "block": "minecraft:cauldron"
+      "char": "C",
+      "block": "pfm:basic_toilet[facing=east]"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "immersiveengineering:concrete_quarter"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=north,open=false]"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "minecraft:brewing_stand"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "cfm:oak_hedge[waterlogged=false]"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "minecraft:lantern[waterlogged=false,hanging=false]"
+    },
+    {
+      "char": "K",
+      "block": "pfm:basic_shower_handle[facing=south]"
     },
     {
       "char": "L",
@@ -146,10 +146,14 @@
     },
     {
       "char": "M",
-      "block": "minecraft:chain[waterlogged=false,axis=y]"
+      "block": "pfm:basic_shower_head[facing=north]"
     },
     {
       "char": "N",
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "O",
       "block": "minecraft:quartz_block"
     }
   ]

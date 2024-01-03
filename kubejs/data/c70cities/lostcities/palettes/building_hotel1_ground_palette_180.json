@@ -91,42 +91,46 @@
     },
     {
       "char": "x",
-      "block": "minecraft:cauldron"
+      "block": "pfm:basic_toilet[facing=north]"
     },
     {
       "char": "y",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "pfm:basic_sink[facing=north]"
     },
     {
       "char": "A",
-      "block": "cfm:gray_kitchen_counter[facing=east,type=default]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
     },
     {
       "char": "B",
-      "block": "cfm:oak_hedge[waterlogged=false]"
+      "block": "cfm:gray_kitchen_counter[facing=east,type=default]"
     },
     {
       "char": "C",
-      "block": "minecraft:iron_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "cfm:oak_hedge[waterlogged=false]"
     },
     {
       "char": "D",
-      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=north,open=false]"
+      "block": "minecraft:iron_door[hinge=right,half=upper,facing=east,open=false]"
     },
     {
       "char": "E",
-      "block": "minecraft:iron_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=north,open=false]"
     },
     {
       "char": "F",
-      "block": "another_furniture:service_bell[waterlogged=false]"
+      "block": "minecraft:iron_door[hinge=left,half=upper,facing=east,open=false]"
     },
     {
       "char": "I",
-      "block": "minecraft:cobweb"
+      "block": "another_furniture:service_bell[waterlogged=false]"
     },
     {
       "char": "J",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "K",
       "block": "minecraft:quartz_block"
     }
   ]

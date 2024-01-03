@@ -43,15 +43,16 @@
     },
     {
       "char": "k",
-      "block": "cfm:dark_oak_kitchen_counter[facing=west,type=default]"
+      "block": "pfm:concrete_kitchen_counter[facing=west]"
     },
     {
       "char": "l",
-      "block": "cfm:dark_oak_kitchen_sink_light[facing=west]"
+      "block": "pfm:concrete_kitchen_sink[facing=west]"
     },
     {
       "char": "m",
-      "block": "cfm:freezer_light[facing=west,open=false]"
+      "block": "pfm:white_fridge[facing=west,open=false]",
+      "loot": "chestloot"
     },
     {
       "char": "n",
@@ -131,8 +132,7 @@
     },
     {
       "char": "K",
-      "block": "cfm:fridge_light[facing=west,open=false]",
-      "loot": "chestloot"
+      "block": "pfm:white_freezer[facing=west,open=false]"
     },
     {
       "char": "L",

@@ -140,23 +140,23 @@
     },
     {
       "char": "M",
-      "block": "cfm:dark_oak_kitchen_counter[facing=north,type=default]"
+      "block": "pfm:concrete_kitchen_counter[facing=north]"
     },
     {
       "char": "N",
-      "block": "cfm:dark_oak_kitchen_sink_light[facing=north]"
+      "block": "pfm:concrete_kitchen_sink[facing=north]"
     },
     {
       "char": "O",
-      "block": "farmersdelight:stove[lit=false,facing=west]"
+      "block": "pfm:concrete_kitchen_counter[facing=east]"
     },
     {
       "char": "P",
-      "block": "farmersdelight:straw_bale[axis=y]"
+      "block": "pfm:white_stove[lit=false,facing=west,open=false]"
     },
     {
       "char": "Q",
-      "block": "minecraft:furnace[lit=false,facing=west]"
+      "block": "farmersdelight:straw_bale[axis=y]"
     },
     {
       "char": "R",
@@ -164,7 +164,8 @@
     },
     {
       "char": "S",
-      "block": "cfm:freezer_light[facing=east,open=false]"
+      "block": "pfm:white_fridge[facing=east,open=false]",
+      "loot": "chestloot"
     },
     {
       "char": "T",
@@ -224,8 +225,7 @@
     },
     {
       "char": "7",
-      "block": "cfm:fridge_light[facing=east,open=false]",
-      "loot": "chestloot"
+      "block": "pfm:white_freezer[facing=east,open=false]"
     },
     {
       "char": "8",
