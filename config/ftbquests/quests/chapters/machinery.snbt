@@ -63,7 +63,7 @@
 		}
 		{
 			title: "Refinery"
-			x: 4.5d
+			x: 6.0d
 			y: -2.5d
 			description: [
 				"Engineers Manual: Heavy Machinery > Refinery"
@@ -114,7 +114,7 @@
 			}]
 		}
 		{
-			x: 10.5d
+			x: 12.0d
 			y: -1.5d
 			shape: "hexagon"
 			description: [
@@ -325,7 +325,7 @@
 			}]
 		}
 		{
-			x: 22.5d
+			x: 21.0d
 			y: -10.5d
 			description: ["Obtain polyethylene by processing ethylene in the refinery unit."]
 			dependencies: ["79DB78FF202EFC39"]
@@ -421,7 +421,7 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 16.5d
 			y: -10.5d
 			shape: "hexagon"
 			subtitle: "Loominum"
@@ -669,6 +669,7 @@
 			subtitle: "No more pesky HV wires"
 			description: ["Rubber can be used to craft pipes, which allow for more effient transport of power, fluids and items."]
 			dependencies: ["1D87E5535012EEDF"]
+			progression_mode: "linear"
 			id: "658E201139B88C53"
 			tasks: [{
 				id: "36FAA47FDF8CC00A"
@@ -728,6 +729,7 @@
 			subtitle: "Yup, it's ANOTHER wrench"
 			description: ["Configure your newly acquired cables using the pipe wrench."]
 			dependencies: ["658E201139B88C53"]
+			progression_mode: "linear"
 			id: "454EC0800E7827FF"
 			tasks: [{
 				id: "577A40FBF926E34F"
@@ -741,7 +743,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 8.0d
 			y: -1.5d
 			description: ["Combine ethanol and a silver plate in the Refinery."]
 			dependencies: [
@@ -764,7 +766,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 6.0d
 			y: -1.5d
 			description: [
 				"Acquire ethanol by fermenting organic matter in a Fermenter."
@@ -787,7 +789,7 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 10.0d
 			y: -1.5d
 			description: ["Combine acetaldehyde and creosote in the Refinery to obtain phenolic resin."]
 			dependencies: [
@@ -804,7 +806,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 6.0d
 			y: -0.5d
 			description: ["A silver plate is used as catalyst in the Refinery to produce acetaldehyde."]
 			hide_dependency_lines: true
@@ -823,7 +825,7 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 10.0d
 			y: -0.5d
 			hide_dependency_lines: true
 			dependencies: ["4A1A36DD335F7F72"]
@@ -839,7 +841,7 @@
 	quest_links: [
 		{
 			linked_quest: "2FC4D860C8175089"
-			x: 6.5d
+			x: 8.0d
 			y: -0.5d
 			id: "00166D9D5D8A1E4D"
 		}
