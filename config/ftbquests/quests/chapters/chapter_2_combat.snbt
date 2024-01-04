@@ -23,15 +23,17 @@
 					Damage: 0
 				}
 			}
-			x: -10.5d
+			x: -11.0d
 			y: 6.0d
 			shape: "gear"
 			description: [
 				"Surviving the apocalypse requires equipping oneself with weapons."
 				""
+				"Most of the weapons listed here are made with some combination of iron and steel."
 				""
-				"There are some weapons aren't listed here, try to go through the JEI list to find some hidden weapons!"
+				"There are also plenty of weapons not listed here that can be found through JEI, feel free to look around..."
 			]
+			dependencies: ["2B210294E5EEA1D9"]
 			dependency_requirement: "one_started"
 			size: 3.0d
 			progression_mode: "flexible"
@@ -486,6 +488,7 @@
 			y: -1.5d
 			shape: "gear"
 			description: ["Acquire a high-carbon steel alloy, a valuable material for crafting advanced weapons suitable for the late stages of the game."]
+			dependencies: ["0C3BABE6431EA92C"]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
@@ -1315,5 +1318,18 @@
 			}]
 		}
 	]
-	quest_links: [ ]
+	quest_links: [
+		{
+			linked_quest: "0C3BABE6431EA92C"
+			x: -11.0d
+			y: 0.5d
+			id: "6A70868DE4EC2A4D"
+		}
+		{
+			linked_quest: "2B210294E5EEA1D9"
+			x: -11.0d
+			y: 3.5d
+			id: "1A55BE88F0AB5AEA"
+		}
+	]
 }

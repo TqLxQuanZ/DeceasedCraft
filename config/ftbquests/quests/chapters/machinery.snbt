@@ -10,8 +10,8 @@
 	quests: [
 		{
 			title: "Arc Furnace"
-			x: 4.5d
-			y: -9.0d
+			x: 6.0d
+			y: -10.5d
 			description: [
 				"Engineers Manual: Heavy Machinery > Arc Furnace"
 				""
@@ -38,7 +38,7 @@
 			title: "Metal Press"
 			x: 2.25d
 			y: -6.0d
-			shape: "hexagon"
+			shape: "circle"
 			subtitle: "Feeling the Pressure"
 			description: [
 				"The metal press allows for automation of components, which are used to build the main blocks of all of Immersive Engineerings machines."
@@ -56,7 +56,7 @@
 				criterion: ""
 			}]
 			rewards: [{
-				id: "251AC89F59C8339A"
+				id: "0EAA97934614BD04"
 				type: "xp"
 				xp: 500
 			}]
@@ -64,8 +64,12 @@
 		{
 			title: "Refinery"
 			x: 4.5d
-			y: -3.0d
-			description: ["Establish Refinery to process phenolic resin to get plastic."]
+			y: -2.5d
+			description: [
+				"Engineers Manual: Heavy Machinery > Refinery"
+				""
+				"The refinery is used multiple times in the production of Duroplast."
+			]
 			dependencies: ["4A1A36DD335F7F72"]
 			dependency_requirement: "one_started"
 			progression_mode: "linear"
@@ -110,11 +114,18 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -3.0d
+			x: 10.5d
+			y: -1.5d
 			shape: "hexagon"
-			description: ["Obtain plastic from refinery."]
-			dependencies: ["7EE0809A9B220503"]
+			description: [
+				"Pour the phenolic resin into a plate mold using a Bottling Machine."
+				""
+				"Engineers Manual: Heavy Machinery > Bottling Machine."
+			]
+			dependencies: [
+				"63E59FB8B226160E"
+				"105D66E818989F4D"
+			]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "linear"
@@ -137,11 +148,11 @@
 			description: [
 				"The survey tool is used to seek for oil reservoirs. Use buckshot on it to get a survey map."
 				""
-				"The darker the patch under you, the richer the reservoir."
+				"Light colored patches indicate deposits of water or crude oil."
 			]
 			dependencies: ["4A1A36DD335F7F72"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
+			progression_mode: "linear"
 			id: "77EC1AAFA634748C"
 			tasks: [{
 				id: "69E99CEB96E8F942"
@@ -156,14 +167,24 @@
 			}]
 		}
 		{
-			title: "Establish Derrick"
-			x: 11.0d
+			title: "Derrick"
+			x: 12.0d
 			y: -6.0d
-			description: ["- Establish a derrick above an oil reservoir after secured the production of liquid concrete."]
-			dependencies: ["77EC1AAFA634748C"]
-			dependency_requirement: "one_started"
-			size: 2.0d
-			progression_mode: "flexible"
+			subtitle: "Black Gold"
+			description: [
+				"When you're ready, construct the derrick on top of the oil pocket. The derrick drills in two steps:"
+				""
+				"- The first step requires liquid concrete to be pumped in."
+				"- The second requires water."
+				""
+				"BEWARE: Once the derrick completes drilling it will IMMEDIATELY start spilling oil! Make sure your storage is connected before you start or you will lose a lot of it!"
+			]
+			dependencies: [
+				"214C3F711F81055E"
+				"4011B3F40BE5AC43"
+			]
+			size: 1.5d
+			progression_mode: "linear"
 			id: "30DD32A41789F621"
 			tasks: [{
 				id: "2AA4E84EBE8135C8"
@@ -186,14 +207,20 @@
 			]
 		}
 		{
-			title: "Establish Pumpjack"
-			x: 14.0d
-			y: -4.0d
-			description: ["- Establish Pumpjack after Derrick finished drilling."]
+			title: "Pumpjack"
+			x: 13.5d
+			y: -5.0d
+			subtitle: "The Big Succ"
+			description: [
+				"Once the pressure in the reservoir drops too low, the derrick will stop working."
+				""
+				"Dismantle it and construct a Pumpjack on top of the well to continue extracting oil."
+				""
+				"You can check the current pressure in the reservoir using the survey tool."
+			]
 			dependencies: ["30DD32A41789F621"]
 			dependency_requirement: "one_started"
-			size: 2.0d
-			progression_mode: "flexible"
+			progression_mode: "linear"
 			id: "0E055A2041D2A050"
 			tasks: [{
 				id: "2CD3978AFB7DAFFA"
@@ -207,17 +234,21 @@
 			}]
 		}
 		{
-			title: "Establish Oil Tank"
-			x: 17.0d
+			title: "Oil Tank"
+			x: 10.0d
 			y: -6.0d
-			description: ["Establish Oil Tank to store the oil."]
-			dependencies: [
-				"30DD32A41789F621"
-				"0E055A2041D2A050"
+			subtitle: "You gotta put it all somewhere..."
+			description: [
+				"It's recommended you connect an oil tank near to where you set up the derrick, to catch the inital burst of oil."
+				""
+				"Up to 50% of the reservoir can be lost if you just drill in there without proper storage..."
 			]
-			dependency_requirement: "one_started"
-			size: 2.0d
-			progression_mode: "flexible"
+			dependencies: [
+				"4A1A36DD335F7F72"
+				"214C3F711F81055E"
+			]
+			size: 1.5d
+			progression_mode: "linear"
 			id: "76D2EF1A6D98F9BE"
 			tasks: [{
 				id: "2FEC5DAD8075C122"
@@ -228,18 +259,22 @@
 			rewards: [{
 				id: "5577F4F42C53375A"
 				type: "xp"
-				xp: 2000
+				xp: 1000
 			}]
 		}
 		{
-			title: "Establish Distillation Tower"
-			x: 20.0d
-			y: -6.0d
-			description: ["- Establish Distillation Tower to process oils."]
-			dependencies: ["76D2EF1A6D98F9BE"]
+			title: "Distillation Tower"
+			x: 16.5d
+			y: -6.75d
+			description: [
+				"The distillation tower is used to seperate crude oil into its components, as well as refine certain chemicals."
+				""
+				"You may need to construct multiple of these to automate the entire process..."
+			]
+			dependencies: ["30DD32A41789F621"]
 			dependency_requirement: "one_started"
-			size: 2.0d
-			progression_mode: "flexible"
+			size: 1.5d
+			progression_mode: "linear"
 			id: "7D29A71120419FE4"
 			tasks: [{
 				id: "05F51FDD963E004C"
@@ -251,26 +286,31 @@
 				{
 					id: "4D1908B9C164EE52"
 					type: "xp"
-					xp: 3000
+					xp: 1000
 				}
 				{
 					id: "3F22600A654A1CAE"
 					type: "item"
 					item: "immersiveengineering:fluid_pipe"
-					count: 64
+					count: 32
 				}
 			]
 		}
 		{
-			x: 25.5d
-			y: -7.5d
+			x: 24.0d
+			y: -6.0d
+			shape: "hexagon"
 			description: [
-				"Obtain rubber from processing ethylene and propylene together."
+				"Obtain rubber by combining ethylene and propylene in the refinery unit."
+				""
 				"It is also possible to obtain rubber from various buildings!"
 			]
-			dependencies: ["06EF7D03DE0768F5"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
+			dependencies: [
+				"79DB78FF202EFC39"
+				"4F92684663C4744D"
+			]
+			size: 1.5d
+			progression_mode: "linear"
 			id: "1D87E5535012EEDF"
 			tasks: [{
 				id: "14BF278076AB7AF3"
@@ -285,16 +325,12 @@
 			}]
 		}
 		{
-			x: 25.5d
-			y: -4.0d
-			description: [
-				"- Obtain polyethylene from processing ethylene."
-				"- Polyethylene can be processed inside Arc Furnace to become high resistant material."
-				"- Polyethylene can be processed with Steel Ingot inside Arc Furnace to produce toughest material."
-			]
-			dependencies: ["06EF7D03DE0768F5"]
+			x: 22.5d
+			y: -10.5d
+			description: ["Obtain polyethylene by processing ethylene in the refinery unit."]
+			dependencies: ["79DB78FF202EFC39"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
+			progression_mode: "linear"
 			id: "127BFFF817F6D610"
 			tasks: [{
 				id: "2A9165F6B1D75F76"
@@ -309,12 +345,16 @@
 			}]
 		}
 		{
-			x: 27.0d
-			y: -5.0d
-			description: ["- Obtain high-resistance fiber from smelting Polyethylene inside Arc Furnace."]
-			dependencies: ["127BFFF817F6D610"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
+			x: 24.0d
+			y: -9.0d
+			shape: "hexagon"
+			description: ["Obtained by smelting polyethylene inside the Arc Furnace."]
+			dependencies: [
+				"127BFFF817F6D610"
+				"735FD75967EE7FF2"
+			]
+			size: 1.5d
+			progression_mode: "linear"
 			id: "46570C043F3FB3BE"
 			tasks: [{
 				id: "3369991E84D16E5F"
@@ -329,12 +369,14 @@
 			}]
 		}
 		{
-			x: 28.5d
-			y: -5.0d
-			description: ["- Combine 4 resistant fiber into a fabric for high grade armors."]
+			x: 25.5d
+			y: -9.0d
+			shape: "hexagon"
+			description: ["Combine 4 high-resistance fibers."]
 			dependencies: ["46570C043F3FB3BE"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
+			size: 1.5d
+			progression_mode: "linear"
 			id: "4FDDCD5355B35149"
 			tasks: [{
 				id: "5608C993770BD609"
@@ -350,15 +392,21 @@
 		}
 		{
 			title: "High Carbon Steel Alloy"
-			x: 27.0d
-			y: -3.0d
+			x: 24.0d
+			y: -12.0d
+			shape: "hexagon"
 			description: [
-				"- Obtain a high carbon steel alloy from merging Polyethylene with Steel Ingot inside Arc Furnace."
-				"- Carbon Steel Alloy also can be found in wasteland buildings."
+				"Obtained by combining polyethylene with a steel ingot inside the Arc Furnace."
+				""
+				"- It can also be found in wasteland buildings."
 			]
-			dependencies: ["127BFFF817F6D610"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
+			dependencies: [
+				"127BFFF817F6D610"
+				"735FD75967EE7FF2"
+				"2B210294E5EEA1D9"
+			]
+			size: 1.5d
+			progression_mode: "linear"
 			id: "0C3BABE6431EA92C"
 			tasks: [{
 				id: "22C51AF6FDE3DD6B"
@@ -373,8 +421,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -9.0d
+			x: 9.0d
+			y: -10.5d
 			shape: "hexagon"
 			subtitle: "Loominum"
 			description: ["Smelt bauxite ore into aluminum ingots."]
@@ -389,9 +437,10 @@
 				item: "immersiveengineering:ingot_aluminum"
 			}]
 			rewards: [{
-				id: "795C63043A2AFD7B"
-				type: "xp"
-				xp: 1000
+				id: "72E06C7E03013064"
+				type: "item"
+				item: "immersiveengineering:ingot_aluminum"
+				count: 12
 			}]
 		}
 		{
@@ -417,13 +466,18 @@
 			}]
 		}
 		{
-			title: "Establish High-Pressure Refinery Unit"
-			x: 23.0d
-			y: -6.0d
-			description: ["- Establish Distillation Tower to refine oil into different type of products."]
-			dependencies: ["7D29A71120419FE4"]
+			title: "High-Pressure Refinery Unit"
+			x: 16.5d
+			y: -5.25d
+			description: [
+				"The refinery unit combines two liquids together at high pressure to produce new liquids."
+				""
+				"You may need to construct multiple of these to automate the entire process..."
+			]
+			dependencies: ["30DD32A41789F621"]
 			dependency_requirement: "one_started"
-			size: 2.0d
+			size: 1.5d
+			progression_mode: "linear"
 			id: "06EF7D03DE0768F5"
 			tasks: [{
 				id: "49CDCA8D0B083F0C"
@@ -431,52 +485,19 @@
 				advancement: "immersivepetroleum:main/mb_hydrotreater"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "34BAB3FFD0A06850"
-				type: "xp"
-				xp: 5000
-			}]
-		}
-		{
-			title: "Better Cables!"
-			x: 27.0d
-			y: -7.5d
-			description: ["Craft better cables for transferring energy/items/fluids using rubbers."]
-			dependencies: ["1D87E5535012EEDF"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "6A73DA4245E1BBA9"
-			tasks: [{
-				id: "28EAF6A38895F5D3"
-				type: "item"
-				title: "Any Pipes"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:rubber_cables"
-					}
+			rewards: [
+				{
+					id: "34BAB3FFD0A06850"
+					type: "xp"
+					xp: 1000
 				}
-			}]
-			rewards: [{
-				id: "3343D443AD99C4A0"
-				type: "xp"
-				xp: 1000
-			}]
-		}
-		{
-			title: "Tinkerer"
-			x: 28.5d
-			y: -7.5d
-			description: ["Craft a pipe wrench to start tinkering your upgraded cables!"]
-			dependencies: ["6A73DA4245E1BBA9"]
-			dependency_requirement: "one_started"
-			id: "33D1C2ECDBECDEC4"
-			tasks: [{
-				id: "1DF9DC24839EC20A"
-				type: "item"
-				item: "pipez:wrench"
-			}]
+				{
+					id: "3C90EC2F09577314"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 32
+				}
+			]
 		}
 		{
 			title: "Advanced Machines"
@@ -501,6 +522,332 @@
 				item: "create:builders_tea"
 			}]
 		}
+		{
+			title: "Strike Oil!"
+			x: 8.5d
+			y: -5.0d
+			subtitle: "Now the hard part begins..."
+			description: ["Successfully locate an oil reservoir with the survey tool."]
+			dependencies: ["77EC1AAFA634748C"]
+			progression_mode: "linear"
+			id: "214C3F711F81055E"
+			tasks: [{
+				id: "20EDF5CDD904DEB3"
+				type: "advancement"
+				advancement: "immersivepetroleum:main/root"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7982C19F7BD29E57"
+				type: "item"
+				item: "immersivepetroleum:crudeoil_bucket"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -7.0d
+			subtitle: "Don't spill it now..."
+			description: ["You'll want a good stockpile of this for the derrick's initial drilling process."]
+			dependencies: ["66347F4471AF0AD5"]
+			progression_mode: "linear"
+			id: "4011B3F40BE5AC43"
+			tasks: [{
+				id: "02CE1549C1E27545"
+				type: "item"
+				item: "immersiveengineering:concrete_bucket"
+			}]
+		}
+		{
+			x: 19.0d
+			y: -6.0d
+			description: ["Obtain Naptha by cracking crude oil in the distillation tower."]
+			dependencies: [
+				"7D29A71120419FE4"
+				"06EF7D03DE0768F5"
+			]
+			dependency_requirement: "one_completed"
+			progression_mode: "linear"
+			id: "0C32FC3CA332DD0C"
+			tasks: [{
+				id: "1415945686031B8F"
+				type: "item"
+				item: "immersivepetroleum:naphtha_bucket"
+			}]
+			rewards: [{
+				id: "59F469E3CE8E7B73"
+				type: "item"
+				item: "immersivepetroleum:crudeoil_bucket"
+			}]
+		}
+		{
+			x: 20.0d
+			y: -6.0d
+			description: ["Obtain cracked naphta by combining naptha with water in the refinery unit."]
+			dependencies: ["0C32FC3CA332DD0C"]
+			progression_mode: "linear"
+			id: "27C1BD1983456DB1"
+			tasks: [{
+				id: "006FE5CE89C764B4"
+				type: "item"
+				item: "immersivepetroleum:naphtha_cracked_bucket"
+			}]
+			rewards: [{
+				id: "2CAA148F2C6D7A7C"
+				type: "item"
+				item: {
+					id: "minecraft:water_bucket"
+					Count: 1b
+					tag: {
+						Purity: -1
+					}
+				}
+			}]
+		}
+		{
+			x: 21.0d
+			y: -6.5d
+			description: ["Obtain ethylene by processing cracked naptha in the distillation tower."]
+			dependencies: ["27C1BD1983456DB1"]
+			progression_mode: "linear"
+			id: "79DB78FF202EFC39"
+			tasks: [{
+				id: "3840993A222F03D7"
+				type: "item"
+				item: "immersivepetroleum:ethylene_bucket"
+			}]
+			rewards: [{
+				id: "77E8280509671C4E"
+				type: "item"
+				item: "immersivepetroleum:naphtha_cracked_bucket"
+			}]
+		}
+		{
+			x: 21.0d
+			y: -5.5d
+			description: ["Obtain propylene by processing cracked naptha in the distillation tower."]
+			dependencies: ["27C1BD1983456DB1"]
+			progression_mode: "linear"
+			id: "4F92684663C4744D"
+			tasks: [{
+				id: "17A73E9486A55832"
+				type: "item"
+				item: "immersivepetroleum:propylene_bucket"
+			}]
+			rewards: [{
+				id: "1AF4F7E1AD285A9C"
+				type: "item"
+				item: "immersivepetroleum:naphtha_cracked_bucket"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -6.0d
+			subtitle: "Barbecue Time"
+			description: [
+				"The next few steps involve many different types of liquids and mixing."
+				""
+				"You can use the flare stack to burn off excess or unwanted components."
+			]
+			dependencies: ["30DD32A41789F621"]
+			progression_mode: "linear"
+			id: "10A67665617B85EE"
+			tasks: [{
+				id: "2E7C6BEFEF2B167C"
+				type: "item"
+				item: "immersivepetroleum:flarestack"
+			}]
+			rewards: [{
+				id: "43273237E2D42AAF"
+				type: "item"
+				item: "immersivepetroleum:flarestack"
+			}]
+		}
+		{
+			title: "Advanced Cables"
+			x: 25.5d
+			y: -6.0d
+			subtitle: "No more pesky HV wires"
+			description: ["Rubber can be used to craft pipes, which allow for more effient transport of power, fluids and items."]
+			dependencies: ["1D87E5535012EEDF"]
+			id: "658E201139B88C53"
+			tasks: [{
+				id: "36FAA47FDF8CC00A"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:rubber_cables"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4A57D8E863DBBAAC"
+				type: "item"
+				item: "contenttweaker:rubber"
+				count: 15
+			}]
+		}
+		{
+			icon: "create:track"
+			x: 13.5d
+			y: -7.0d
+			subtitle: "Train time? Train time."
+			description: [
+				"Your oil deposit may be a long way from home..."
+				""
+				"Perhaps using Create's trains could allow you to ship it home automatically?"
+			]
+			dependencies: ["30DD32A41789F621"]
+			progression_mode: "linear"
+			id: "4E85AA0234D340E3"
+			tasks: [{
+				id: "2E3E3C7CA7EA3F1F"
+				type: "checkmark"
+				title: "Shipping and Handling"
+			}]
+			rewards: [{
+				id: "11AA4774035979DA"
+				type: "item"
+				item: {
+					id: "railways:white_conductor_cap"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Configuring Cables"
+			x: 27.0d
+			y: -6.0d
+			subtitle: "Yup, it's ANOTHER wrench"
+			description: ["Configure your newly acquired cables using the pipe wrench."]
+			dependencies: ["658E201139B88C53"]
+			id: "454EC0800E7827FF"
+			tasks: [{
+				id: "577A40FBF926E34F"
+				type: "item"
+				item: "pipez:wrench"
+			}]
+			rewards: [{
+				id: "44620B6357B7574B"
+				type: "item"
+				item: "minecraft:cookie"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			description: ["Combine ethanol and a silver plate in the Refinery."]
+			dependencies: [
+				"7EE0809A9B220503"
+				"7C8D13E68A50DE51"
+				"7BFFB4EF2D6D77DC"
+			]
+			progression_mode: "linear"
+			id: "257A2559BF92F7A7"
+			tasks: [{
+				id: "0F2FB727B74255F3"
+				type: "item"
+				item: "immersiveengineering:acetaldehyde_bucket"
+			}]
+			rewards: [{
+				id: "5172B8D3CCFD1AC0"
+				type: "item"
+				item: "immersiveengineering:ingot_silver"
+				count: 16
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			description: [
+				"Acquire ethanol by fermenting organic matter in a Fermenter."
+				""
+				"Engineers Manual: Heavy Machinery > Fermenter"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4A1A36DD335F7F72"]
+			progression_mode: "linear"
+			id: "7C8D13E68A50DE51"
+			tasks: [{
+				id: "67F281244AF084DD"
+				type: "item"
+				item: "immersiveengineering:ethanol_bucket"
+			}]
+			rewards: [{
+				id: "46C7BEF2BA8B7CCB"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			description: ["Combine acetaldehyde and creosote in the Refinery to obtain phenolic resin."]
+			dependencies: [
+				"7EE0809A9B220503"
+				"257A2559BF92F7A7"
+				"2FC4D860C8175089"
+			]
+			progression_mode: "linear"
+			id: "105D66E818989F4D"
+			tasks: [{
+				id: "729C28573D55A842"
+				type: "item"
+				item: "immersiveengineering:phenolic_resin_bucket"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			description: ["A silver plate is used as catalyst in the Refinery to produce acetaldehyde."]
+			hide_dependency_lines: true
+			dependencies: ["4A1A36DD335F7F72"]
+			progression_mode: "linear"
+			id: "7BFFB4EF2D6D77DC"
+			tasks: [{
+				id: "35A507352655A33C"
+				type: "item"
+				item: "immersiveengineering:plate_silver"
+			}]
+			rewards: [{
+				id: "48380F3143349EFD"
+				type: "item"
+				item: "minecraft:cookie"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["4A1A36DD335F7F72"]
+			progression_mode: "linear"
+			id: "63E59FB8B226160E"
+			tasks: [{
+				id: "38ED472E1C70960C"
+				type: "item"
+				item: "immersiveengineering:mold_plate"
+			}]
+		}
 	]
-	quest_links: [ ]
+	quest_links: [
+		{
+			linked_quest: "2FC4D860C8175089"
+			x: 6.5d
+			y: -0.5d
+			id: "00166D9D5D8A1E4D"
+		}
+		{
+			linked_quest: "2B210294E5EEA1D9"
+			x: 25.5d
+			y: -12.0d
+			id: "1197D90DA0F98E42"
+		}
+	]
 }

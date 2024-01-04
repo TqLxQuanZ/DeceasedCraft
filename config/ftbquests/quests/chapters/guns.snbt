@@ -20,10 +20,20 @@
 			y: -2.5d
 			shape: "hexagon"
 			subtitle: "Lock n Load"
-			description: ["Craft a workbench from TAC to assemble your guns."]
-			dependency_requirement: "one_started"
+			description: ["All of TAC's weapons and attachments can be crafted at their workbench."]
+			dependencies: [
+				"4AB6C074F8B0FB9E"
+				"1D87E5535012EEDF"
+				"0C3BABE6431EA92C"
+				"4928D365299C4089"
+				"4CFBE9E443F377FE"
+				"38FFA4C29ED0DB83"
+				"68F47F7416B6010E"
+				"23C7010AC01986C1"
+				"516FDD676D28100E"
+			]
+			dependency_requirement: "one_completed"
 			size: 3.0d
-			progression_mode: "flexible"
 			id: "00091A7BF2624E7A"
 			tasks: [{
 				id: "703161B96138BC95"
@@ -37,10 +47,9 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -2.5d
+			x: 3.0d
+			y: -0.5d
 			description: ["Barrel is one of the most important material to assemble your gun."]
-			dependencies: ["00091A7BF2624E7A"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "68F47F7416B6010E"
@@ -56,10 +65,9 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -5.5d
+			x: 1.5d
+			y: -4.0d
 			description: ["Steel Component is one of the most important materials to assemble your gun."]
-			dependencies: ["00091A7BF2624E7A"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "38FFA4C29ED0DB83"
@@ -75,10 +83,9 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -6.5d
+			x: 5.0d
+			y: -0.5d
 			description: ["Steel Rod is one of the most important materials to assemble your gun."]
-			dependencies: ["00091A7BF2624E7A"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "23C7010AC01986C1"
@@ -94,10 +101,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -5.5d
+			x: 4.0d
+			y: -5.0d
 			description: ["Recoil Spring is one of the most important materials to assemble your gun."]
-			dependencies: ["00091A7BF2624E7A"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "516FDD676D28100E"
@@ -113,10 +119,10 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: 2.0d
 			y: -2.5d
 			description: ["Steel Plate is one of the most important materials to assemble your gun."]
-			dependencies: ["00091A7BF2624E7A"]
+			dependencies: ["2B210294E5EEA1D9"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "4CFBE9E443F377FE"
@@ -132,66 +138,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 0.5d
-			description: ["Several high-tier guns require the material Rubber."]
-			dependencies: ["00091A7BF2624E7A"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "41C6DE1EA8D43135"
-			tasks: [{
-				id: "27E59F8EA84010DD"
-				type: "item"
-				item: "contenttweaker:rubber"
-			}]
-			rewards: [{
-				id: "69EE29C099DEB530"
-				type: "xp"
-				xp: 300
-			}]
-		}
-		{
-			x: 7.0d
-			y: 0.5d
-			description: ["Several high-tier guns require the material Duroplast Sheet."]
-			dependencies: ["00091A7BF2624E7A"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "395C56B1612B8C4C"
-			tasks: [{
-				id: "5D901F1BA4E93355"
-				type: "item"
-				item: "immersiveengineering:plate_duroplast"
-			}]
-			rewards: [{
-				id: "410023FAF0B3D059"
-				type: "xp"
-				xp: 300
-			}]
-		}
-		{
-			x: 3.0d
-			y: 2.0d
-			description: ["Several high-tier guns require the material High Carbon Steel Alloy."]
-			dependencies: ["00091A7BF2624E7A"]
-			dependency_requirement: "one_started"
-			id: "7129E45A32EA0C6A"
-			tasks: [{
-				id: "3B39606E4FF49368"
-				type: "item"
-				item: "contenttweaker:high_carbon_steel_alloy"
-			}]
-			rewards: [{
-				id: "78F156EAB5792DB4"
-				type: "xp"
-				xp: 1000
-			}]
-		}
-		{
-			x: 5.0d
-			y: 2.0d
+			x: 6.0d
+			y: -2.5d
 			description: ["Several high-tier guns require the material Aluminum Plate."]
-			dependencies: ["00091A7BF2624E7A"]
+			dependencies: ["5A03F43381D2CB75"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "4928D365299C4089"
@@ -207,5 +157,36 @@
 			}]
 		}
 	]
-	quest_links: [ ]
+	quest_links: [
+		{
+			linked_quest: "5A03F43381D2CB75"
+			x: 7.5d
+			y: -2.5d
+			id: "39DA3C88B410C39D"
+		}
+		{
+			linked_quest: "0C3BABE6431EA92C"
+			x: 1.5d
+			y: -1.0d
+			id: "4E09EED23B494492"
+		}
+		{
+			linked_quest: "1D87E5535012EEDF"
+			x: 6.5d
+			y: -1.0d
+			id: "02D0C335AFF83E99"
+		}
+		{
+			linked_quest: "4AB6C074F8B0FB9E"
+			x: 6.5d
+			y: -4.0d
+			id: "00E99CE143EA5E81"
+		}
+		{
+			linked_quest: "2B210294E5EEA1D9"
+			x: 0.5d
+			y: -2.5d
+			id: "186A1EE9BE0576F1"
+		}
+	]
 }
