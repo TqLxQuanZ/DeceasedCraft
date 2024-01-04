@@ -838,6 +838,32 @@
 				item: "immersiveengineering:mold_plate"
 			}]
 		}
+		{
+			x: 0.5d
+			y: -7.5d
+			description: ["Craft a projector to visualise your multiblock structure properly."]
+			dependency_requirement: "one_started"
+			id: "5A1F033D08C396E1"
+			tasks: [{
+				id: "6840FCAA162BC8A7"
+				type: "item"
+				item: {
+					id: "immersivepetroleum:projector"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 0
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "515E4AE2CB4ECEB6"
+				type: "xp"
+				xp: 300
+			}]
+		}
 	]
 	quest_links: [
 		{
