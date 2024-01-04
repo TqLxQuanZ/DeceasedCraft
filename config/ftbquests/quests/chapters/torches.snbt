@@ -50,40 +50,13 @@
 			}]
 		}
 		{
-			title: "Sandstone"
-			x: -8.5d
-			y: -1.5d
-			description: ["Sandstone can be made from sand, or by digging down into the desert."]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
-			id: "7CEB924BBFD36ED9"
-			tasks: [{
-				id: "0E482E3712A963EC"
-				type: "item"
-				title: "Any #forge:sandstone"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:sandstone"
-					}
-				}
-			}]
-			rewards: [{
-				id: "3FE040B92B5E8809"
-				type: "item"
-				item: "minecraft:sandstone"
-				count: 5
-			}]
-		}
-		{
 			x: -6.0d
 			y: -3.0d
 			description: ["Craft a coke brick using clay, bricks, and sandstone."]
 			dependencies: [
 				"3E1518F914DE49E1"
 				"0CE7CDD6A51D849C"
-				"7CEB924BBFD36ED9"
+				"07EC69DFF4EBD8DC"
 			]
 			hide_text_until_complete: false
 			progression_mode: "linear"
@@ -226,5 +199,10 @@
 			}]
 		}
 	]
-	quest_links: [ ]
+	quest_links: [{
+		linked_quest: "07EC69DFF4EBD8DC"
+		x: -8.5d
+		y: -1.5d
+		id: "52EB7745105A10A7"
+	}]
 }

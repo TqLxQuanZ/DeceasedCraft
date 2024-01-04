@@ -214,41 +214,6 @@
 			}]
 		}
 		{
-			title: "Flying for Dummies"
-			icon: {
-				id: "patchouli:guide_book"
-				Count: 1b
-				tag: {
-					"patchouli:book": "simpleplanes:planes_book"
-				}
-			}
-			x: -2.5d
-			y: 1.0d
-			shape: "square"
-			subtitle: "I want to fly!"
-			description: ["With your advanced knowledge of aircraft assembly and crafting, utilize it to construct an airplane for efficient transportation and travel purposes."]
-			size: 1.5d
-			optional: true
-			can_repeat: true
-			id: "27D81DBFBDED863B"
-			tasks: [{
-				id: "2F40AD75911F2710"
-				type: "checkmark"
-				title: "Pilot"
-			}]
-			rewards: [{
-				id: "086161F34F583A87"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "simpleplanes:planes_book"
-					}
-				}
-			}]
-		}
-		{
 			title: "Arrow Ammunition"
 			x: 14.0d
 			y: -1.0d
@@ -289,5 +254,10 @@
 			}]
 		}
 	]
-	quest_links: [ ]
+	quest_links: [{
+		linked_quest: "53D3CB47281F3C35"
+		x: -1.0d
+		y: 1.0d
+		id: "724873E3BED0E3F2"
+	}]
 }
