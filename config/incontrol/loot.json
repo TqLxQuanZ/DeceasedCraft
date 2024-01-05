@@ -352,13 +352,6 @@
 		"itemcount": "1/2/3"
 	},
 	{
-		"mob": "undead_revamp2:thepregnant",
-		"player": true,
-		"random" : 0.25,
-		"item": "minecraft:golden_apple",
-		"itemcount": "1/2/3"
-	},
-	{
 		"mod": "undead_revamp2",
 		"player": true,
 		"random" : 0.8,
@@ -481,12 +474,6 @@
 	{
 		"mob": "mutationcraft:human_herder",
 		"player": true,
-		"item": "minecraft:golden_apple",
-		"itemcount": "1/2/3"
-	},
-	{
-		"mob": "mutationcraft:human_herder",
-		"player": true,
 		"random": 0.6,
 		"item": "quark:gunpowder_sack",
 		"itemcount": "2/3/4"
@@ -532,12 +519,6 @@
 	{
 		"mob": "mutationcraft:resenter",
 		"player": true,
-		"item": "minecraft:golden_apple",
-		"itemcount": "1/2/3"
-	},
-	{
-		"mob": "mutationcraft:resenter",
-		"player": true,
 		"random" : 0.5,
 		"item": "tac:nato_556_bullet",
 		"itemcount": "24-27/32-35/40-45"
@@ -576,8 +557,9 @@
 	{
 		"mob": "mutationcraft:the_intoxicator",
 		"player": true,
+		"random" : 0.15,
 		"item": "minecraft:golden_apple",
-		"itemcount": "3-4/4-5/5-6"
+		"itemcount": "1/1/1"
 	},
 	{
 		"mob": "mutationcraft:the_intoxicator",

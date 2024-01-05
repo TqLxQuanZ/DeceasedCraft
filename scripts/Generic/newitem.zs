@@ -43,6 +43,40 @@ val rubber = <factory:item>.typed<Basic>()
     .rarity(<constant:minecraft:item/rarity:uncommon>)
     .build("rubber");
     
+val research_paper_1 = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
+    .build("research_paper_1");
+    
+val research_paper_2 = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
+    .build("research_paper_2");
+    
+val research_paper_3 = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
+    .build("research_paper_3");
+    
+val research_paper_4 = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
+    .build("research_paper_4");
+    
+val research_paper_5 = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:uncommon>)
+    .build("research_paper_5");
+
+val research_book = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:epic>)
+    .build("research_book");
+    
+val formula_x = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:epic>)
+    .build("formula_x");
 
 // IE
 val incomplete_electron_tube = <factory:item>.typed<Basic>()

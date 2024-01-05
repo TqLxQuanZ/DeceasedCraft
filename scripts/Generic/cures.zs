@@ -1,20 +1,29 @@
 
-<item:contenttweaker:x_factor>.maxDamage = 8192;
+<item:contenttweaker:x_factor>.maxDamage = 1024;
+<item:contenttweaker:research_book>.maxDamage = 1024;
 
-// Golden Apple
-craftingTable.removeByName("minecraft:golden_apple");
-<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("golden_apple")
-                                                      .transitionTo(<item:minecraft:apple>)
-                                                      .require(<item:minecraft:apple>)
+// Research Book
+craftingTable.remove(<item:contenttweaker:research_book>);
+craftingTable.addShaped("research_book", <item:contenttweaker:research_book>,
+    [[<tag:items:forge:leather>, <item:contenttweaker:research_paper_1>, <item:contenttweaker:research_paper_2>],
+    [<item:contenttweaker:research_paper_3>, <item:contenttweaker:research_paper_4>, <item:contenttweaker:research_paper_5>]]);
+
+// Formula X
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("formula_x")
+                                                      .transitionTo(<item:minecraft:glass_bottle>)
+                                                      .require(<item:minecraft:glass_bottle>)
                                                       .loops(4)
-                                                      .addOutput(<item:minecraft:golden_apple>, 1)
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:rotten_flesh>))
+                                                      .addOutput(<item:contenttweaker:formula_x>, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:contenttweaker:research_book>.reuse()))
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:water> * 25))
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:create:honey> * 25))
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<tag:fluids:forge:seedoil> * 25))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:contenttweaker:x_factor>.reuse()))
-                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(100))
 													  );
+
+craftingTable.removeByName("minecraft:golden_apple");
+craftingTable.addShapeless("golden_apple", <item:minecraft:golden_apple>,
+    [<item:contenttweaker:formula_x>, <item:minecraft:apple>]);
 
 craftingTable.remove(<item:mutationcraft:necroptor_membrane>);
 craftingTable.addShapeless("necroptor_membrance", <item:mutationcraft:necroptor_membrane> * 3, [<item:mutationcraft:putrid_brain>, <item:mutationcraft:putrid_heart>, <item:mutationcraft:putrid_claw>]);
