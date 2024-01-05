@@ -3,9 +3,9 @@
 "Enable Blaze" = true
 "Enable Creeper" = true
 "Enable Drowned" = true
-"Enable Ghast" = true
-"Enable Enderman" = true
-"Enable Skeleton" = true
+"Enable Ghast" = false
+"Enable Enderman" = false
+"Enable Skeleton" = false
 "Enable Spider" = true
 "Enable Villager" = true
 "Enable Witch" = true
@@ -40,9 +40,9 @@
 		#How far away can the mobs see the player. This overrides the vanilla value (16 for most mobs). Setting 'Max' to 0 will leave the follow range as vanilla. I recommend using mods like Mobs Properties Randomness to have more control over the attribute.
 		[Base.Targeting."Follow Range Override"]
 			#Range: 0.0 ~ 128.0
-			Minimum = 32.0
+			Minimum = 16.0
 			#Range: 0.0 ~ 128.0
-			Maximum = 64.0
+			Maximum = 32.0
 
 		#How far away can the mobs see the player even through walls. Setting 'Max' to 0 will make mobs not able to see through walls. I recommend using mods like Mobs Properties Randomness to have more control over the attribute; the attribute name is 'enhancedai:generic.xray_follow_range'.
 		[Base.Targeting."XRay Range Override"]
@@ -213,7 +213,7 @@
 
 [Ghast]
 	#Various changes to ghast shooting.
-	"Enable Ghast Shoot" = true
+	"Enable Ghast Shoot" = false
 
 	#Various changes to ghast shooting.
 	[Ghast."Ghast Shoot"]
@@ -253,9 +253,9 @@
 
 [Skeleton]
 	#Skeletons are more precise when shooting and strafing is removed, can hit a target from up to 64 blocks and try to stay away from the target.
-	"Enable Skeleton Shoot" = true
+	"Enable Skeleton Shoot" = false
 	#Skeletons try to stay away from the target.
-	"Enable Skeleton Flee" = true
+	"Enable Skeleton Flee" = false
 
 	#Skeletons are more precise when shooting and strafing is removed, can hit a target from up to 64 blocks and try to stay away from the target.
 	[Skeleton."Skeleton Shoot"]
