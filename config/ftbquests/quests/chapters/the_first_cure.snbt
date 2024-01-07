@@ -3,23 +3,26 @@
 	group: "410F2D717CE3690A"
 	order_index: 1
 	filename: "the_first_cure"
-	title: "The First Cure"
+	title: "Seeking the Cure"
 	icon: "minecraft:golden_apple"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			icon: "minecraft:golden_apple"
-			x: -3.0d
-			y: -0.5d
+			x: 4.5d
+			y: -3.0d
 			description: [
-				"The X Factor has been obtained, but a couple of steps are still required to reproduce the golden apple."
 				""
-				"Utilize existing technology to complete the final steps in recreating the golden apple."
+				""
+				""
 			]
-			dependencies: ["098A5B821B569511"]
-			dependency_requirement: "one_started"
-			progression_mode: "flexible"
+			dependencies: [
+				"234FD0A856DE12A0"
+				"3E8F1DA70D21DF2D"
+			]
+			size: 2.0d
+			progression_mode: "linear"
 			id: "3868EB3CF99FB29F"
 			tasks: [
 				{
@@ -39,8 +42,9 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -0.5d
+			x: -4.0d
+			y: 0.0d
+			shape: "hexagon"
 			description: [
 				"The X Factor has been confirmed as a source of the cure, but the method for recreating it remains unknown."
 				""
@@ -51,7 +55,8 @@
 				"7F507AF34DA3B2BC"
 			]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
+			size: 1.5d
+			progression_mode: "linear"
 			id: "098A5B821B569511"
 			tasks: [{
 				id: "75D8259DD92C4BD0"
@@ -72,12 +77,12 @@
 		}
 		{
 			title: "Find Wooded Wasteland"
-			x: -7.5d
-			y: -1.5d
+			x: -6.0d
+			y: -1.0d
 			description: ["Attempt to locate a city within the wastelands."]
 			dependencies: ["7F3B97A92A7071E4"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
+			progression_mode: "linear"
 			id: "7F507AF34DA3B2BC"
 			tasks: [{
 				id: "2207FBD5CE85F8AB"
@@ -93,12 +98,12 @@
 		}
 		{
 			title: "Find Wasteland"
-			x: -7.5d
-			y: 0.5d
+			x: -6.0d
+			y: 1.0d
 			description: ["Attempt to locate a city within the wastelands."]
 			dependencies: ["7F3B97A92A7071E4"]
 			dependency_requirement: "one_started"
-			progression_mode: "flexible"
+			progression_mode: "linear"
 			id: "22113D22B765DBDB"
 			tasks: [{
 				id: "2400C8391D10316E"
@@ -113,8 +118,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: -0.5d
+			x: -8.25d
+			y: 0.0d
 			shape: "hexagon"
 			description: [
 				"Rumors suggest that factories are the source of the infestation emerging from the wasteland."
@@ -149,15 +154,15 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -0.5d
+			x: 6.5d
+			y: -3.0d
 			description: [
 				"With the completion of the cure and the ability to recreate it, the next step could involve attempting to cure the zombie animals."
 				""
 				"Consider using a potion of weakness and the cure to restore some natural balance to the environment."
 			]
 			dependencies: ["3868EB3CF99FB29F"]
-			dependency_requirement: "one_started"
+			progression_mode: "linear"
 			id: "53BE4C6EF61EAB5A"
 			tasks: [{
 				id: "24148232D5B28F0C"
@@ -174,6 +179,280 @@
 				id: "065FDD05E5C872AD"
 				type: "xp"
 				xp: 500
+			}]
+		}
+		{
+			title: "Discover the Origin"
+			x: -8.0d
+			y: 4.5d
+			shape: "hexagon"
+			description: [
+				"Possessing the cure is one aspect, yet identifying the cause of the infection requires a separate investigation."
+				""
+				"Take the courageous step of entering the unknown portal to uncover the origin of the infection."
+			]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "7B087BEE5A6B47E1"
+			tasks: [{
+				id: "38A042A05041BC62"
+				type: "dimension"
+				title: "Enter the Unknown Portal"
+				dimension: "deceasedcraft:abyss"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			description: ["-INFORMATION UNKNOWN-"]
+			dependencies: ["7B087BEE5A6B47E1"]
+			dependency_requirement: "one_started"
+			progression_mode: "linear"
+			id: "4A348EF15453D3CC"
+			tasks: [{
+				id: "2707E132BE364DF4"
+				type: "item"
+				item: "mutationcraft:putrid_brain"
+			}]
+			rewards: [{
+				id: "3EBA7034192B93F1"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			description: ["-INFORMATION UNKNOWN-"]
+			dependencies: ["7B087BEE5A6B47E1"]
+			dependency_requirement: "one_started"
+			progression_mode: "linear"
+			id: "6838251D2EF2E5F0"
+			tasks: [{
+				id: "5C44AEAC9E2E97D8"
+				type: "item"
+				item: "mutationcraft:putrid_heart"
+			}]
+			rewards: [{
+				id: "07BA1BC4BB104933"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -6.0d
+			y: 6.0d
+			description: ["-INFORMATION UNKNOWN-"]
+			dependencies: ["7B087BEE5A6B47E1"]
+			dependency_requirement: "one_started"
+			progression_mode: "linear"
+			id: "4DD4F343EDE03316"
+			tasks: [{
+				id: "0443484A94BD7257"
+				type: "item"
+				item: "mutationcraft:putrid_claw"
+			}]
+			rewards: [{
+				id: "65A924E37C1B7C61"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.5d
+			description: ["-INFORMATION UNKNOWN-"]
+			dependencies: [
+				"4A348EF15453D3CC"
+				"4DD4F343EDE03316"
+				"6838251D2EF2E5F0"
+			]
+			dependency_requirement: "one_started"
+			progression_mode: "linear"
+			id: "17FED0C0673B0743"
+			tasks: [{
+				id: "18DA01C00E71F523"
+				type: "item"
+				item: "mutationcraft:necroptor_membrane"
+			}]
+			rewards: [{
+				id: "56C862283B365C5C"
+				type: "item"
+				item: "mutationcraft:necroptor_membrane"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			description: ["-INFORMATION UNKNOWN-"]
+			dependencies: [
+				"17FED0C0673B0743"
+				"3868EB3CF99FB29F"
+			]
+			size: 2.0d
+			progression_mode: "linear"
+			id: "195BAE89C6E027D4"
+			tasks: [{
+				id: "6E38B950132B3DB4"
+				type: "item"
+				item: {
+					id: "mutationcraft:mutagen_serum"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4B62E44883F0BDD3"
+				type: "item"
+				item: {
+					id: "mutationcraft:mutagen_serum"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "The Beginning"
+			icon: "minecraft:writable_book"
+			x: -10.5d
+			y: -6.0d
+			subtitle: "Once Upon a Time..."
+			description: [
+				"This chapter of the questbook serves as an optional storyline for the world."
+				""
+				"The final goal of this quest will be to seek out the \"True Cure\", something the inhabitants of this world failed to do,,,"
+			]
+			id: "4F5B6A50948691EE"
+			tasks: [{
+				id: "2AF84E9B77701359"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -6.0d
+			description: ["residential"]
+			id: "4B0AB2212F4EFC57"
+			tasks: [{
+				id: "31FDD6FD7A363256"
+				type: "item"
+				item: "contenttweaker:research_paper_3"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -4.5d
+			description: ["police"]
+			id: "498A69A82C40A1AC"
+			tasks: [{
+				id: "5EF1FBD07C7FECB9"
+				type: "item"
+				item: "contenttweaker:research_paper_4"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -3.0d
+			description: ["military"]
+			id: "7FD4332FA85977DA"
+			tasks: [{
+				id: "7533CAADDD31CB9B"
+				type: "item"
+				item: "contenttweaker:research_paper_5"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -7.5d
+			description: ["megatower"]
+			id: "5854BB940F8A1E4E"
+			tasks: [{
+				id: "4253EEF6C734C452"
+				type: "item"
+				item: "contenttweaker:research_paper_2"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -9.0d
+			description: ["hospital"]
+			id: "5A6BB344DC912E24"
+			tasks: [{
+				id: "0F8BA824D84AA686"
+				type: "item"
+				item: "contenttweaker:research_paper_1"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.0d
+			shape: "hexagon"
+			dependencies: [
+				"5A6BB344DC912E24"
+				"5854BB940F8A1E4E"
+				"4B0AB2212F4EFC57"
+				"498A69A82C40A1AC"
+				"7FD4332FA85977DA"
+			]
+			size: 1.5d
+			progression_mode: "linear"
+			id: "439104536CFD56F4"
+			tasks: [{
+				id: "019672FE010FE29A"
+				type: "item"
+				item: {
+					id: "contenttweaker:research_book"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			shape: "square"
+			dependencies: [
+				"439104536CFD56F4"
+				"098A5B821B569511"
+				"2531DF90309130D4"
+			]
+			size: 2.0d
+			progression_mode: "linear"
+			id: "234FD0A856DE12A0"
+			tasks: [{
+				id: "1FD34483A8D2B46A"
+				type: "item"
+				item: "contenttweaker:formula_x"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			progression_mode: "flexible"
+			id: "3E8F1DA70D21DF2D"
+			tasks: [{
+				id: "6C37835F630C42A2"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			progression_mode: "flexible"
+			id: "2531DF90309130D4"
+			tasks: [{
+				id: "3A325E415D6E4B13"
+				type: "item"
+				item: "create:deployer"
 			}]
 		}
 	]
