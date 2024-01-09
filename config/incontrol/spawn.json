@@ -1108,6 +1108,13 @@
         "result": "deny"
     },
     {
+        "mob": "crittersandcompanions:otter",
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "category": "river",
+        "result": "allow"
+    },
+    {
       "mob": "quark:shiba",
       "dimension": "minecraft:overworld",
       "mincount": {
@@ -1155,6 +1162,11 @@
           "mod": "crittersandcompanions",
           "perchunk": true
         },
+        "result": "deny"
+    },
+    {
+        "mob": "crittersandcompanions:otter",
+        "dimension": "minecraft:overworld",
         "result": "deny"
     },
     {

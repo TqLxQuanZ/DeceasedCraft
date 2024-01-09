@@ -45,7 +45,22 @@
 			"mindist": 5,
 			"maxdist": 200,
 			"minheight": 71,
-			"maxheight": 300
+			"maxheight": 300,
+			"maxlocal": 4
+		}
+	},
+	{
+		"mob": "crittersandcompanions:otter",
+		"persecond": 0.01,
+		"attempts": 10,
+		"conditions": {
+		"dimension": "minecraft:overworld",
+			"norestrictions": true,
+			"mindist": 5,
+			"maxdist": 160,
+			"minheight": 41,
+			"maxheight": 300,
+			"maxlocal": 3
 		}
 	},
 	{
