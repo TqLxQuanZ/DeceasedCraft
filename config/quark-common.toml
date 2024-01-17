@@ -784,7 +784,7 @@
 		#Allowed values: [0,1]
 		"Double Crystal Chance" = 0.2
 		#The chance that a crystal can grow, this is on average 1 in X world ticks, set to a higher value to make them grow slower. Minimum is 1, for every tick. Set to 0 to disable growth.
-		"Cave Crystal Growth Chance" = 5
+		"Cave Crystal Growth Chance" = 100
 		"Crystals Craft Runes" = true
 		"Enable Collateral Movement" = true
 
