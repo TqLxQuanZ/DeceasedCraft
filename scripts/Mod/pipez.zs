@@ -27,22 +27,19 @@ craftingTable.addShaped("item_pipe", <item:pipez:item_pipe> * 32,
 
 // Plastics
 // Energy Pipez
-craftingTable.remove(<item:pipez:energy_pipe>);
-craftingTable.addShaped("energy_pipe", <item:pipez:energy_pipe> * 16,
+craftingTable.addShaped("energy_pipe_plastic", <item:pipez:energy_pipe> * 16,
     [[<tag:items:forge:plates/plastic>, <tag:items:forge:ingots/electrum>, <tag:items:forge:plates/plastic>],
     [<tag:items:forge:ingots/electrum>, <tag:items:forge:ingots/electrum>, <tag:items:forge:ingots/electrum>],
 	[<tag:items:forge:plates/plastic>, <tag:items:forge:ingots/electrum>, <tag:items:forge:plates/plastic>]]);
 
 // Fluid Pipez
-craftingTable.remove(<item:pipez:fluid_pipe>);
-craftingTable.addShaped("fluid_pipe", <item:pipez:fluid_pipe> * 16,
+craftingTable.addShaped("fluid_pipe_plastic", <item:pipez:fluid_pipe> * 16,
     [[<tag:items:forge:plates/plastic>, <item:immersiveengineering:fluid_pipe>, <tag:items:forge:plates/plastic>],
     [<item:create:fluid_pipe>, <item:create:fluid_pipe>, <item:create:fluid_pipe>],
 	[<tag:items:forge:plates/plastic>, <item:immersiveengineering:fluid_pipe>, <tag:items:forge:plates/plastic>]]);
 
 // Item Pipez
-craftingTable.remove(<item:pipez:item_pipe>);
-craftingTable.addShaped("item_pipe", <item:pipez:item_pipe> * 16,
+craftingTable.addShaped("item_pipe_plastic", <item:pipez:item_pipe> * 16,
     [[<tag:items:forge:plates/plastic>, <item:refinedstorage:cable>, <tag:items:forge:plates/plastic>],
     [<item:refinedstorage:importer>, <item:refinedstorage:basic_processor>, <item:refinedstorage:exporter>],
 	[<tag:items:forge:plates/plastic>, <item:refinedstorage:cable>, <tag:items:forge:plates/plastic>]]);

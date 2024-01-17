@@ -665,11 +665,15 @@
 		}
 		{
 			title: "Advanced Cables"
-			x: 25.5d
-			y: -6.0d
+			x: 24.0d
+			y: -1.5d
 			subtitle: "No more pesky HV wires"
 			description: ["Rubber can be used to craft pipes, which allow for more effient transport of power, fluids and items."]
-			dependencies: ["1D87E5535012EEDF"]
+			dependencies: [
+				"1D87E5535012EEDF"
+				"4AB6C074F8B0FB9E"
+			]
+			dependency_requirement: "one_completed"
 			progression_mode: "linear"
 			id: "658E201139B88C53"
 			tasks: [{
@@ -725,8 +729,8 @@
 		}
 		{
 			title: "Configuring Cables"
-			x: 27.0d
-			y: -6.0d
+			x: 25.5d
+			y: -1.5d
 			subtitle: "Yup, it's ANOTHER wrench"
 			description: ["Configure your newly acquired cables using the pipe wrench."]
 			dependencies: ["658E201139B88C53"]
