@@ -2,10 +2,11 @@
 	"root_melee_damage+5%": {
 		"title": "+5% Melee Damage",
 		"description": "Gain skill points by killing zombies!",
+		"size": 1.5,
 		"frame": {
 			"type": "advancement",
 			"data": {
-				"frame": "challenge"
+				"frame": "goal"
 			}
 		},
 		"icon": {
@@ -49,9 +50,10 @@
 		"frame": {
 			"type": "advancement",
 			"data": {
-				"frame": "challenge"
+				"frame": "goal"
 			}
 		},
+		"size": 1.5,
 		"icon": {
 			"type": "item",
 			"data": {
@@ -93,9 +95,10 @@
 		"frame": {
 			"type": "advancement",
 			"data": {
-				"frame": "challenge"
+				"frame": "goal"
 			}
 		},
+		"size": 1.5,
 		"icon": {
 			"type": "item",
 			"data": {
@@ -137,9 +140,10 @@
 		"frame": {
 			"type": "advancement",
 			"data": {
-				"frame": "challenge"
+				"frame": "goal"
 			}
 		},
+		"size": 1.5,
 		"icon": {
 			"type": "effect",
 			"data": {
