@@ -399,6 +399,29 @@
           "name": "apocalypsenow:forestguard_boots"
         }
       ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "contenttweaker:research_paper_2",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.025
+            }
+          ]
+        }
+      ]
     }
   ]
 }
