@@ -41,7 +41,9 @@ onEvent('block.right_click', (event) => {
 	if (block == "ag_day_counter:calendar")
     {
 		let hordeEventData = event.player.getFullNBT().ForgeCaps["hordes:hordeevent"]
+		let survivedData = event.player.getFullNBT().ForgeCaps["ag_day_counter:player_variables"]
         event.player.tell('The next horde day is day §c' + hordeEventData.nextDay + '.')
+        event.player.tell('You have played §e' + survivedData.Days + ' §fin-game days.')
 		return
     }
 });

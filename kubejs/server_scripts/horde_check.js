@@ -23,10 +23,10 @@ function HardCheckHordeEvent(event)
 	// There's a chance that the server time got set and the horde event are way too further away
 	// We take the server days to check if the amount differences are exceeding 20
 	// if so we hard update it to the next 20 server days to spawn.
-	if (serverDays - hordeEventData.nextDay < -20)
+	if (serverDays - hordeEventData.nextDay < -15)
 	{
 		hordeEventData.day = serverDays
-		hordeEventData.nextDay = serverDays + 20;
+		hordeEventData.nextDay = serverDays + 15;
 		event.player.mergeFullNBT({ForgeCaps:{"hordes:hordeevent":hordeEventData}});
 		return;
 	}
