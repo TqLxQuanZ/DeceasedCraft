@@ -640,7 +640,7 @@ villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 4, <item:tac:ro
 villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 8, <item:tac:nato_556_bullet> * 12, 8, 10);
 villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 8, <item:tac:762x54> * 12, 8, 10);
 villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 8, <item:tac:762x39> * 12, 8, 10);
-villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 8, <item:tac:762x54> * 12, 8, 10);
+villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 8, <item:tac:762x25> * 12, 8, 10);
 villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 8, <item:tac:58x42> * 12, 8, 10);
 villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 24, <item:create:precision_mechanism>, 2, 30);
 villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 7, <item:contenttweaker:rubber>, 4, 30);

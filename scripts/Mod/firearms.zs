@@ -55,14 +55,14 @@ craftingTable.addShapeless("46x30", <item:tac:46x30> * 2,
 
 // 50 BMG
 craftingTable.addShapeless("50bmg", <item:tac:50bmg>,
-    [<item:contenttweaker:bullet_casing_50bmg>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
+    [<item:contenttweaker:bullet_casing_50bmg>, <tag:items:forge:gunpowder>, <tag:items:forge:ingots/lead>]);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("50bmg")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:contenttweaker:bullet_casing_50bmg>)
                                                       .loops(1)
                                                       .addOutput(<item:tac:50bmg> * 2, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:ingots/lead>))
 													  );
                                                       
 // 57x28
@@ -221,29 +221,27 @@ craftingTable.addShapeless("win_30-30", <item:tac:win_30-30>,
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
 													  );
 
+// Advanced Bullet
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("advanced_bullet")
+                                                      .transitionTo(<item:contenttweaker:incomplete_bullet>)
+                                                      .require(<tag:items:forge:plates/iron>)
+                                                      .loops(1)
+                                                      .addOutput(<item:cgm:advanced_bullet>, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/iron>))
+													  );
                                                       
 // Missile
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("missile")
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
-                                                      .require(<tag:items:forge:plates/steel>)
+                                                      .require(<tag:items:forge:plates/aluminum>)
                                                       .loops(1)
                                                       .addOutput(<item:cgm:missile>, 1)
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/steel>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/aluminum>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:tnt>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/steel>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/aluminum>))
 													  );
                                                       
-// Grenade
-craftingTable.addShapeless("grenade", <item:cgm:grenade>,
-    [<tag:items:forge:plates/plastic>, <tag:items:forge:gunpowder>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/iron>, <tag:items:forge:nuggets/iron>]);
-<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("grenade")
-                                                      .transitionTo(<item:contenttweaker:incomplete_bullet>)
-                                                      .require(<tag:items:forge:plates/plastic>)
-                                                      .loops(2)
-                                                      .addOutput(<item:cgm:grenade> * 2, 1)
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/iron>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
-													  );
                                                       
 // Stun Grenade
 craftingTable.addShapeless("stun_grenade", <item:cgm:stun_grenade>,

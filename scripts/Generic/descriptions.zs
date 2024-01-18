@@ -36,21 +36,21 @@ JEI.addDescription(<item:immersiveengineering:blueprint>.withTag({blueprint: "sp
 // Bullet Descriptions
 JEI.addDescription(<item:tac:9mm_round>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Weaponsmiths and Gunsmiths also offer bullets for sale.");
 JEI.addDescription(<item:tac:10_gauge_round>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Weaponsmiths and Gunsmiths also offer bullets for sale.");
-JEI.addDescription(<item:tac:46x30>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Weaponsmiths and Gunsmiths also offer bullets for sale.");
-JEI.addDescription(<item:tac:50bmg>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Weaponsmiths and Gunsmiths also offer bullets for sale.");
-JEI.addDescription(<item:tac:57x28>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Weaponsmiths and Gunsmiths also offer bullets for sale.");
-JEI.addDescription(<item:tac:58x42>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Weaponsmiths and Gunsmiths also offer bullets for sale.");
-JEI.addDescription(<item:tac:762x25>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Weaponsmiths and Gunsmiths also offer bullets for sale.");
-JEI.addDescription(<item:tac:762x39>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Weaponsmiths and Gunsmiths also offer bullets for sale.");
-JEI.addDescription(<item:tac:762x54>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Weaponsmiths and Gunsmiths also offer bullets for sale.");
-JEI.addDescription(<item:tac:ae50>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Weaponsmiths and Gunsmiths also offer bullets for sale.");
-JEI.addDescription(<item:tac:b_magnum>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Weaponsmiths and Gunsmiths also offer bullets for sale.");
-JEI.addDescription(<item:tac:bullet68>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Weaponsmiths and Gunsmiths also offer bullets for sale.");
-JEI.addDescription(<item:tac:bullet_308>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Weaponsmiths and Gunsmiths also offer bullets for sale.");
-JEI.addDescription(<item:tac:lapua338>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Weaponsmiths and Gunsmiths also offer bullets for sale.");
-JEI.addDescription(<item:tac:nato_556_bullet>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Weaponsmiths and Gunsmiths also offer bullets for sale.");
+JEI.addDescription(<item:tac:46x30>, "Bullets can be crafted using bullet molds found in wasteland factory buildings");
+JEI.addDescription(<item:tac:50bmg>, "Bullets can be crafted using bullet molds found in wasteland factory buildings");
+JEI.addDescription(<item:tac:57x28>, "Bullets can be crafted using bullet molds found in wasteland factory buildings");
+JEI.addDescription(<item:tac:58x42>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money.");
+JEI.addDescription(<item:tac:762x25>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money.");
+JEI.addDescription(<item:tac:762x39>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Gunsmiths also offer bullets for sale.");
+JEI.addDescription(<item:tac:762x54>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money.");
+JEI.addDescription(<item:tac:ae50>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Gunsmiths also offer bullets for sale.");
+JEI.addDescription(<item:tac:b_magnum>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Weaponsmiths also offer bullets for sale.");
+JEI.addDescription(<item:tac:bullet68>, "Bullets can be crafted using bullet molds found in wasteland factory buildings.");
+JEI.addDescription(<item:tac:bullet_308>, "Bullets can be crafted using bullet molds found in wasteland factory buildings.");
+JEI.addDescription(<item:tac:lapua338>, "Bullets can be crafted using bullet molds found in wasteland factory buildings.");
+JEI.addDescription(<item:tac:nato_556_bullet>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Gunsmiths also offer bullets for sale.");
 JEI.addDescription(<item:tac:round45>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Weaponsmiths and Gunsmiths also offer bullets for sale.");
-JEI.addDescription(<item:tac:win_30-30>, "Bullets can be crafted using bullet molds found in wasteland factory buildings or obtained through trading with wandering traders using money. Weaponsmiths and Gunsmiths also offer bullets for sale.");
+JEI.addDescription(<item:tac:win_30-30>, "Bullets can be crafted using bullet molds found in wasteland factory buildings.");
 
 // Bunny Hopper
 JEI.addDescription(<item:artifacts:bunny_hoppers>, "No longer has immunity to fall damage.");
