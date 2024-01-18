@@ -20,4 +20,12 @@
 	#Pie items in this list will not be included in pie overhaul
 	#[@cui:RequiresReload:both]
 	pieOverhaulBlackList = []
+	#.
+	#For harvester to function properly, turning on this support will cause the collision shape of the overweight crop block to disappear.
+	#[@cui:RequiresReload:server]
+	enableHarvesterSupportForOverweightFarming = true
+	#.
+	#For harvester to function properly, turning on this support will cause the collision shape of Coffee Bush and Tea Bush block to disappear.
+	#[@cui:RequiresReload:server]
+	enableHarvesterSupportForFarmersRespite = true
 

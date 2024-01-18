@@ -49,7 +49,7 @@ craftingTable.remove(<item:apocalypsenow:apple_juice>);
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:sugar>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:ice>))
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:water> * 25))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration())
 													  );
 													  
 // Coke
@@ -62,7 +62,7 @@ craftingTable.remove(<item:apocalypsenow:apple_juice>);
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:sugar>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:ice>))
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:water> * 25))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration())
 													  );
 
 // Chips
@@ -71,8 +71,8 @@ craftingTable.remove(<item:apocalypsenow:apple_juice>);
                                                       .require(<tag:items:forge:crops/potato>)
                                                       .loops(1)
                                                       .addOutput(<item:apocalypsenow:chips>, 1)
-                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration())
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration())
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<tag:fluids:forge:seedoil> * 25))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/plastic>))
 													  );
@@ -87,7 +87,7 @@ craftingTable.remove(<item:apocalypsenow:apple_juice>);
                                                       .loops(1)
                                                       .addOutput(<item:apocalypsenow:cereal>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:material/cereal>))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration())
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:create:honey> * 25))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/plastic>))
 													  );
@@ -104,7 +104,7 @@ craftingTable.addShapeless("unpack_gunpowder_can", <item:minecraft:gunpowder> * 
                                                       .addOutput(<item:apocalypsenow:canned_beet_root>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:crops/beetroot>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:crops/beetroot>))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration())
 													  );
                                                       
 // Canned Carrot
@@ -115,7 +115,7 @@ craftingTable.addShapeless("unpack_gunpowder_can", <item:minecraft:gunpowder> * 
                                                       .addOutput(<item:apocalypsenow:canned_carrot>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:crops/carrot>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:crops/carrot>))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration())
 													  );
 
 // Canned Fish
@@ -125,7 +125,7 @@ craftingTable.addShapeless("unpack_gunpowder_can", <item:minecraft:gunpowder> * 
                                                       .loops(1)
                                                       .addOutput(<item:apocalypsenow:canned_fish>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:minecraft:fishes>))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration())
 													  );
                                                       
 // Canned Melon
@@ -136,7 +136,7 @@ craftingTable.addShapeless("unpack_gunpowder_can", <item:minecraft:gunpowder> * 
                                                       .addOutput(<item:apocalypsenow:canned_melon>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:melon_slice>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:melon_slice>))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration())
 													  );
 
 // Canned Tomato
@@ -147,7 +147,7 @@ craftingTable.addShapeless("unpack_gunpowder_can", <item:minecraft:gunpowder> * 
                                                       .addOutput(<item:apocalypsenow:canned_tomatos>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:crops/tomato>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:crops/tomato>))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration())
 													  );
 
 // Canned Pork
@@ -157,7 +157,7 @@ craftingTable.addShapeless("unpack_gunpowder_can", <item:minecraft:gunpowder> * 
                                                       .loops(1)
                                                       .addOutput(<item:apocalypsenow:canned_pork>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:raw_pork>))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration())
 													  );
 
 // Canned Rabbit
@@ -167,5 +167,5 @@ craftingTable.addShapeless("unpack_gunpowder_can", <item:minecraft:gunpowder> * 
                                                       .loops(1)
                                                       .addOutput(<item:apocalypsenow:canned_rabit_soup>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:rabbit>))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration())
 													  );
