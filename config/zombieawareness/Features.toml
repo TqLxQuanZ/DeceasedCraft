@@ -14,7 +14,7 @@
 	#Causes monsters to horde up and wander the surface together to random points
 	wanderingHordes = false
 	#How often in seconds we set a random point around a player for mobs to wander to from far away. Makes mobs path around more, dont use if you have TPS performance issues.
-	#Range: > -2147483648
+	#Range: > 0
 	frequencyOfWanderingHordesPerPlayer = 30
 	#How loud sounds should be when you are alerted that a mob is coming to investigate an area near you
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
@@ -22,9 +22,9 @@
 	#How loud sounds should be for a mob targetting you
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	soundVolumeAlertTarget = 0.5
-	# 
+	#-
 	soundAlerts = true
-	# 
+	#-
 	soundInvestigates = true
 	#Uses a different kind of mob alert noise, might break immersion a bit ;)
 	soundUseAlternateAlertNoise = false
