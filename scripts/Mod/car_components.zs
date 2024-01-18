@@ -9,11 +9,11 @@ craftingTable.removeByName("car:battery");
                                                       .require(<item:immersiveengineering:storage_lead>)
                                                       .loops(2)
                                                       .addOutput(<item:car:battery>, 1)
-                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.CuttingRecipe>()
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:immersiveengineering:redstone_acid> * 500))
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:water> * 500))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:wires/electrum>))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>()
 													  );
 
 // Cars
@@ -27,7 +27,7 @@ craftingTable.removeByName("car:engine_piston");
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:rods/steel>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:rods/steel>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/steel>))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>()
 													  );
 
 // 3 Cylinder Engine
@@ -37,12 +37,12 @@ craftingTable.removeByName("car:engine_3_cylinder");
                                                       .require(<item:immersiveengineering:storage_aluminum>)
                                                       .loops(3)
                                                       .addOutput(<item:car:engine_3_cylinder>, 1)
-                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.CuttingRecipe>()
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:immersivepetroleum:lubricant> * 250))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:car:engine_piston>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:create:precision_mechanism>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/steel>))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>()
 													  );
 
 // 6 Cylinder Engine
@@ -52,12 +52,12 @@ craftingTable.removeByName("car:engine_6_cylinder");
                                                       .require(<item:car:engine_3_cylinder>)
                                                       .loops(3)
                                                       .addOutput(<item:car:engine_6_cylinder>, 1)
-                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.CuttingRecipe>()
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:immersivepetroleum:lubricant> * 250))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:car:engine_piston>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:create:precision_mechanism>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/steel>))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>()
 													  );
           
 // Truck Engine    
@@ -67,12 +67,12 @@ craftingTable.removeByName("car:engine_truck");
                                                       .require(<item:car:engine_6_cylinder>)
                                                       .loops(3)
                                                       .addOutput(<item:car:engine_truck>, 1)
-                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.CuttingRecipe>()
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:immersivepetroleum:lubricant> * 250))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:car:engine_piston>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:create:precision_mechanism>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/steel>))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>()
 													  );                              
 
 // Wheels
@@ -83,8 +83,8 @@ craftingTable.removeByName("car:wheel");
                                                       .loops(3)
                                                       .addOutput(<item:car:wheel>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:contenttweaker:rubber>))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
-                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>()
+                                                      .addStep<mods.createtweaker.CuttingRecipe>()
 													  );
 
 // Big Wheels
@@ -94,10 +94,10 @@ craftingTable.removeByName("car:big_wheel");
                                                       .require(<item:car:wheel>)
                                                       .loops(3)
                                                       .addOutput(<item:car:big_wheel>, 1)
-                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.CuttingRecipe>()
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:contenttweaker:rubber>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:ingots/aluminum>))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>()
 													  );
                                                       
 // Small tank
@@ -107,9 +107,9 @@ craftingTable.removeByName("car:small_tank");
                                                       .require(<item:immersiveengineering:storage_aluminum>)
                                                       .loops(1)
                                                       .addOutput(<item:car:small_tank>, 1)
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
-                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.PressingRecipe>()
+                                                      .addStep<mods.createtweaker.PressingRecipe>()
+                                                      .addStep<mods.createtweaker.CuttingRecipe>()
 													  );
 
 // Medium tank
@@ -120,9 +120,9 @@ craftingTable.removeByName("car:medium_tank");
                                                       .loops(1)
                                                       .addOutput(<item:car:medium_tank>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:immersiveengineering:storage_aluminum>))
-                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.CuttingRecipe>()
+                                                      .addStep<mods.createtweaker.PressingRecipe>()
+                                                      .addStep<mods.createtweaker.PressingRecipe>()
 													  );  
 // Large tank
 craftingTable.removeByName("car:large_tank");
@@ -132,9 +132,9 @@ craftingTable.removeByName("car:large_tank");
                                                       .loops(1)
                                                       .addOutput(<item:car:large_tank>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:immersiveengineering:storage_aluminum>))
-                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
-                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50))
+                                                      .addStep<mods.createtweaker.CuttingRecipe>()
+                                                      .addStep<mods.createtweaker.PressingRecipe>()
+                                                      .addStep<mods.createtweaker.PressingRecipe>()
 													  );
 
 // Canister
