@@ -1,7 +1,7 @@
 [
 	{
 		"mob": ["minecraft:zombie", "minecraft:husk"],
-		"persecond": 0.3,
+		"persecond": 0.5,
 		"attempts": 30,
 		"amount": {
 		  "minimum": 1,
@@ -152,7 +152,7 @@
 				"mutationcraft:assimilated_wolf",
 				"mutationcraft:assimilated_roamer",
 				"mutationcraft:developed_roamer"],
-		"persecond": 0.65,
+		"persecond": 0.75,
 		"attempts": 20,
 		"amount": {
 		  "minimum": 1,
@@ -253,7 +253,7 @@
 				"undead_revamp2:thehunter",
 				"undead_revamp2:bomber",
 				"undead_revamp2:thespitter"],
-		"persecond": 0.4,
+		"persecond": 0.5,
 		"attempts": 25,
 		"conditions": {
 		  "dimension": "minecraft:overworld",
@@ -338,7 +338,7 @@
 		"mob": ["zombie_extreme:infected_military",
 				"zombie_extreme:infected_juggernaut",
 				"zombie_extreme:infected_hazmat"],
-		"persecond": 0.25,
+		"persecond": 0.3,
 		"attempts": 20,
 		"conditions": {
 		  "dimension": "minecraft:overworld",
@@ -352,7 +352,7 @@
 	{
 		"mob": ["zombie_extreme:demolisher"],
 		"persecond": 0.01,
-		"attempts": 10,
+		"attempts": 3,
 		"conditions": {
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
