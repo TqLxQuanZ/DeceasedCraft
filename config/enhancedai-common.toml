@@ -20,7 +20,10 @@
 	"Enable Anti-Cheese" = true
 	#Makes mobs be able to move in more ways, like climbing or swim.
 	"Enable Movement" = true
+	#Changes attack range to use the 1.20.2 mechanic
 	"Enable Attacking" = true
+	#Makes mobs be able to use TiCon stuff.
+	"Enable Tinkers Construct" = true
 
 	[Base.Base]
 		#How far away from any player monsters will instantly despawn? Vanilla is 128
@@ -87,8 +90,9 @@
 		#Range: 0.0 ~ 4.0
 		"Swim Speed Multiplier" = 1.5
 
+	#Changes attack range to use the 1.20.2 mechanic
 	[Base.Attacking]
-		#If true melee monsters (zombies, etc) will attack based off the forge:attack_range attribute. Increasing it will make mobs attack for farther away. Be aware that the attack doesn't check if there are block between the target and the mob so might result in mobs attacking through walls with high values
+		#If true melee monsters (zombies, etc) will attack based off the forge:attack_range attribute instead of a fixed ~0.82 blocks. By default, mobs' forge:attack_range is set to 0.82 blocks, like vanilla 1.20.2.
 		"Melee Attacks Attribute Based" = false
 
 [Animal]
@@ -281,6 +285,20 @@
 			Blacklist = ["quark:forgotten"]
 			#If true the list will be treated as a whitelist instead of blacklist
 			"List as Whitelist" = false
+
+		#The ticks cooldown after shooting. This is halved in Hard difficulty
+		[Skeleton."Skeleton Shoot"."Shooting Cooldown"]
+			#Range: 1.0 ~ 1200.0
+			Minimum = 40.0
+			#Range: 1.0 ~ 1200.0
+			Maximum = 60.0
+
+		#The ticks the skeleton charges the bow. at least 20 ticks for a full charge.
+		[Skeleton."Skeleton Shoot"."Bow charge ticks"]
+			#Range: 1.0 ~ 1200.0
+			Minimum = 15.0
+			#Range: 1.0 ~ 1200.0
+			Maximum = 30.0
 
 	#Skeletons try to stay away from the target.
 	[Skeleton."Skeleton Flee"]
