@@ -283,33 +283,6 @@
       }
     },
     {
-      "mob": "undead_revamp2:thehunter",
-      "biome": [
-                "minecraft:plains",
-                "minecraft:savanna",
-                "minecraft:sunflower_plains",
-                "minecraft:snowy_plains",
-                "minecraft:snowy_taiga",
-                "minecraft:grove",
-                "biomesoplenty:field",
-                "biomesoplenty:lavender_field"],
-      "dimension": "minecraft:overworld",
-      "inbuilding": true,
-      "incity": true,
-      "minlight": 0,
-      "maxlight": 3,
-      "minheight": 61,
-      "result": "allow",
-      "nbt": {
-        "Attributes": [
-          {
-            "Base": 4.0,
-            "Name": "generic.armor"
-          }
-        ]
-      }
-    },
-    {
       "mob": "undead_revamp2:thespitter",
       "dimension": "minecraft:overworld",
       "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
