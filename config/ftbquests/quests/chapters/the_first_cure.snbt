@@ -9,32 +9,31 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "The Cure"
 			icon: "minecraft:golden_apple"
-			x: 4.5d
-			y: -3.0d
+			x: 4.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "The Scenic Route"
 			description: [
+				"Combine Formula X with an ordinary apple to make a golden apple."
 				""
+				"If you've successfully automated up to this point, congratulations! Besides curing yourself and zombie villagers, golden apples can also be used to cure zombie animals, after hitting them with a splash potion of weakness."
 				""
-				""
+				"Curing mutants however, requires something far stronger..."
 			]
-			dependencies: [
-				"234FD0A856DE12A0"
-				"3E8F1DA70D21DF2D"
-			]
+			dependencies: ["234FD0A856DE12A0"]
+			hide: false
+			hide_text_until_complete: false
 			size: 2.0d
 			progression_mode: "linear"
+			hide_details_until_startable: true
 			id: "3868EB3CF99FB29F"
-			tasks: [
-				{
-					id: "6FE00233194EF2D2"
-					type: "item"
-					item: "minecraft:golden_apple"
-				}
-				{
-					id: "140744E377E0000F"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "6FE00233194EF2D2"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
 			rewards: [{
 				id: "37A7BFC0625C638A"
 				type: "xp"
@@ -42,18 +41,22 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 0.0d
+			title: "The X Factor"
+			x: -3.75d
+			y: 1.5d
 			shape: "hexagon"
+			subtitle: "*buzzer noise*"
 			description: [
-				"The X Factor has been confirmed as a source of the cure, but the method for recreating it remains unknown."
+				"After the initial limited distribution of the cure, many laboratories banded together in the hopes of finding a way to speed up the otherwise painfully slow process of manufacturing it."
+				"While their efforts come too late to save them, it seems their work has not been in vain."
 				""
-				"Investigate one of the laboratories to discover the X Factor."
+				"Producing this precursor reagent is sadly beyond your capabilities, but according to the rumors you've heard, it can be found in laboratories in the wastelands..."
 			]
 			dependencies: [
 				"22113D22B765DBDB"
 				"7F507AF34DA3B2BC"
 			]
+			hide: true
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "linear"
@@ -70,17 +73,22 @@
 				}
 			}]
 			rewards: [{
-				id: "70FC6B5B85A67EC9"
-				type: "xp"
-				xp: 500
+				id: "66FDE3F7FD8FC183"
+				type: "xp_levels"
+				xp_levels: 30
 			}]
 		}
 		{
 			title: "Find Wooded Wasteland"
 			x: -6.0d
-			y: -1.0d
-			description: ["Attempt to locate a city within the wastelands."]
+			y: 3.5d
+			description: [
+				"The wooded wasteland, while less destroyed than its barren cousin, is still a deadly threat to the unprepared."
+				""
+				"Find a city within it, and seek out its secrets..."
+			]
 			dependencies: ["7F3B97A92A7071E4"]
+			hide: true
 			dependency_requirement: "one_started"
 			progression_mode: "linear"
 			id: "7F507AF34DA3B2BC"
@@ -99,9 +107,14 @@
 		{
 			title: "Find Wasteland"
 			x: -6.0d
-			y: 1.0d
-			description: ["Attempt to locate a city within the wastelands."]
+			y: 2.5d
+			description: [
+				"The wasteland is all that remains of areas targeted by the military as a last ditch attempt to stop the infection."
+				""
+				"Find a city within it, and seek out its secrets..."
+			]
 			dependencies: ["7F3B97A92A7071E4"]
+			hide: true
 			dependency_requirement: "one_started"
 			progression_mode: "linear"
 			id: "22113D22B765DBDB"
@@ -118,18 +131,20 @@
 			}]
 		}
 		{
+			title: "Seeking the Source"
 			x: -8.25d
-			y: 0.0d
+			y: 3.0d
 			shape: "hexagon"
+			subtitle: "The Long Journey"
 			description: [
-				"Rumors suggest that factories are the source of the infestation emerging from the wasteland."
+				"Rumors tell of a way to replicate the cure, hidden in the radioactive wastes... but a long journey lies ahead."
 				""
-				"To access the wasteland, acquiring a gas mask is necessary."
-				""
-				"Heavily arming oneself is recommended, as there are unforeseen dangers associated with mutated types of monsters."
+				"Acquire a gas mask to protect yourself from the hazardous environment."
 			]
-			dependency_requirement: "one_started"
+			dependencies: ["4F5B6A50948691EE"]
+			hide: true
 			size: 1.5d
+			progression_mode: "linear"
 			id: "7F3B97A92A7071E4"
 			tasks: [{
 				id: "1E082A3D0F33ED6B"
@@ -154,45 +169,27 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -3.0d
-			description: [
-				"With the completion of the cure and the ability to recreate it, the next step could involve attempting to cure the zombie animals."
-				""
-				"Consider using a potion of weakness and the cure to restore some natural balance to the environment."
-			]
-			dependencies: ["3868EB3CF99FB29F"]
-			progression_mode: "linear"
-			id: "53BE4C6EF61EAB5A"
-			tasks: [{
-				id: "24148232D5B28F0C"
-				type: "item"
-				item: {
-					id: "minecraft:splash_potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:weakness"
-					}
-				}
-			}]
-			rewards: [{
-				id: "065FDD05E5C872AD"
-				type: "xp"
-				xp: 500
-			}]
-		}
-		{
-			title: "Discover the Origin"
-			x: -8.0d
+			title: "The Origin"
+			x: -3.75d
 			y: 4.5d
 			shape: "hexagon"
+			subtitle: "Darker Darker Yet Darker"
 			description: [
-				"Possessing the cure is one aspect, yet identifying the cause of the infection requires a separate investigation."
+				"There is... something else in the wasteland laboratories."
 				""
-				"Take the courageous step of entering the unknown portal to uncover the origin of the infection."
+				"An abandoned project, a gateway started out of desperation, greed, or malice."
+				"Perhaps the start of it all."
+				""
+				"Dare you enter the portal?"
 			]
+			dependencies: [
+				"22113D22B765DBDB"
+				"7F507AF34DA3B2BC"
+			]
+			hide: true
 			dependency_requirement: "one_started"
 			size: 1.5d
+			progression_mode: "linear"
 			id: "7B087BEE5A6B47E1"
 			tasks: [{
 				id: "38A042A05041BC62"
@@ -200,12 +197,18 @@
 				title: "Enter the Unknown Portal"
 				dimension: "deceasedcraft:abyss"
 			}]
+			rewards: [{
+				id: "665F2C8BD060D5FD"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
 		}
 		{
-			x: -6.0d
+			x: -1.5d
 			y: 4.5d
 			description: ["-INFORMATION UNKNOWN-"]
 			dependencies: ["7B087BEE5A6B47E1"]
+			hide: true
 			dependency_requirement: "one_started"
 			progression_mode: "linear"
 			id: "4A348EF15453D3CC"
@@ -221,10 +224,11 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 3.0d
+			x: -1.5d
+			y: 3.5d
 			description: ["-INFORMATION UNKNOWN-"]
 			dependencies: ["7B087BEE5A6B47E1"]
+			hide: true
 			dependency_requirement: "one_started"
 			progression_mode: "linear"
 			id: "6838251D2EF2E5F0"
@@ -240,10 +244,11 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 6.0d
+			x: -1.5d
+			y: 5.5d
 			description: ["-INFORMATION UNKNOWN-"]
 			dependencies: ["7B087BEE5A6B47E1"]
+			hide: true
 			dependency_requirement: "one_started"
 			progression_mode: "linear"
 			id: "4DD4F343EDE03316"
@@ -259,7 +264,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: 0.5d
 			y: 4.5d
 			description: ["-INFORMATION UNKNOWN-"]
 			dependencies: [
@@ -267,8 +272,9 @@
 				"4DD4F343EDE03316"
 				"6838251D2EF2E5F0"
 			]
-			dependency_requirement: "one_started"
+			hide: true
 			progression_mode: "linear"
+			hide_details_until_startable: true
 			id: "17FED0C0673B0743"
 			tasks: [{
 				id: "18DA01C00E71F523"
@@ -283,8 +289,11 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 4.5d
+			title: "The Finale"
+			x: 8.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "A Universal Serum"
 			description: ["-INFORMATION UNKNOWN-"]
 			dependencies: [
 				"17FED0C0673B0743"
@@ -292,6 +301,7 @@
 			]
 			size: 2.0d
 			progression_mode: "linear"
+			hide_details_until_startable: true
 			id: "195BAE89C6E027D4"
 			tasks: [{
 				id: "6E38B950132B3DB4"
@@ -304,40 +314,64 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "4B62E44883F0BDD3"
-				type: "item"
-				item: {
-					id: "mutationcraft:mutagen_serum"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "4B62E44883F0BDD3"
+					type: "item"
+					item: {
+						id: "mutationcraft:mutagen_serum"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
+					count: 3
 				}
-				count: 3
-			}]
+				{
+					id: "28CE3756B53C68E3"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
 		}
 		{
 			title: "The Beginning"
 			icon: "minecraft:writable_book"
-			x: -10.5d
-			y: -6.0d
+			x: -11.0d
+			y: 0.0d
+			shape: "square"
 			subtitle: "Once Upon a Time..."
 			description: [
-				"This chapter of the questbook serves as an optional storyline for the world."
+				"This chapter of the questbook serves as an optional storyline for the world. "
+				"---"
+				"Even as the world was consumed by the infection, many that had recieved stockpiles of the cure managed to hold out... for a time."
 				""
-				"The final goal of this quest will be to seek out the \"True Cure\", something the inhabitants of this world failed to do,,,"
+				"The surviors quickly realized, though, that soon even the cure was not good enough to save them from the horrors that would emerge..."
 			]
+			size: 2.0d
 			id: "4F5B6A50948691EE"
 			tasks: [{
 				id: "2AF84E9B77701359"
 				type: "checkmark"
 			}]
+			rewards: [{
+				id: "20780DCA5581CC3C"
+				type: "item"
+				item: "minecraft:cookie"
+			}]
 		}
 		{
-			x: -8.5d
-			y: -6.0d
-			description: ["residential"]
+			title: "Gather Information - Residential"
+			x: -6.0d
+			y: -3.0d
+			description: [
+				"As the infection progressed, many took to hiding in their homes. Not that that was enough to save them in the end."
+				""
+				"Find the notes hidden in their homes, as they documented the last days of civilization."
+			]
+			dependencies: ["40A8DA280F2434B5"]
+			hide: true
+			progression_mode: "linear"
 			id: "4B0AB2212F4EFC57"
 			tasks: [{
 				id: "31FDD6FD7A363256"
@@ -346,9 +380,17 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -4.5d
-			description: ["police"]
+			title: "Gather Information - Police"
+			x: -6.0d
+			y: -2.0d
+			description: [
+				"Though ultimately a losing battle, the arm of the law tried their best to maintain order as the undead swarmed the streets."
+				""
+				"Find the dispatches hidden in the ruins of their police departments as they tried to hold on for as long as they could."
+			]
+			dependencies: ["40A8DA280F2434B5"]
+			hide: true
+			progression_mode: "linear"
 			id: "498A69A82C40A1AC"
 			tasks: [{
 				id: "5EF1FBD07C7FECB9"
@@ -357,9 +399,17 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -3.0d
-			description: ["military"]
+			title: "Gather Information - Military"
+			x: -6.0d
+			y: -1.0d
+			description: [
+				"The military's response to the infection in the end was simple. If it could not be saved, it would have to be burnt down."
+				""
+				"Find their mission logs in their bunkers and bases as they reduced entire cities to the wastelands you can find today."
+			]
+			dependencies: ["40A8DA280F2434B5"]
+			hide: true
+			progression_mode: "linear"
 			id: "7FD4332FA85977DA"
 			tasks: [{
 				id: "7533CAADDD31CB9B"
@@ -368,9 +418,17 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -7.5d
-			description: ["megatower"]
+			title: "Gather Information - Megatower"
+			x: -6.0d
+			y: -4.0d
+			description: [
+				"The megatower was the centerpiece of the modern world. When the cities fell, many tried to seek refuge in it, planning to turn it into a massive fortress."
+				""
+				"Seek out the notes of these brave survivors, trapped on an island in a sea of the dead."
+			]
+			dependencies: ["40A8DA280F2434B5"]
+			hide: true
+			progression_mode: "linear"
 			id: "5854BB940F8A1E4E"
 			tasks: [{
 				id: "4253EEF6C734C452"
@@ -379,9 +437,17 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -9.0d
-			description: ["hospital"]
+			title: "Gather Information - Hospital"
+			x: -6.0d
+			y: -5.0d
+			description: [
+				"The hospitals were the first to recieve reports of the infection, all the way back when society was still intact enough to function."
+				""
+				"Find the research papers hidden in their now abandoned hallways, as they treated what they could with what little they had."
+			]
+			dependencies: ["40A8DA280F2434B5"]
+			hide: true
+			progression_mode: "linear"
 			id: "5A6BB344DC912E24"
 			tasks: [{
 				id: "0F8BA824D84AA686"
@@ -390,9 +456,18 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -6.0d
+			title: "The Catalog"
+			x: -3.75d
+			y: -3.0d
 			shape: "hexagon"
+			subtitle: "A Brief History of Zombies"
+			description: [
+				"The papers you collected tell a tale you perhaps already know too well; that a cure did exist, but was hard enough to make in amounts that could have stopped the inevitable."
+				""
+				"A reagent critical to manufacturing the cure in bulk was discovered nonetheless, but was lost along with the sites that made it as the world fell apart."
+				""
+				"Combining your understanding of the process with that reagent should allow you to finally recreate the cure."
+			]
 			dependencies: [
 				"5A6BB344DC912E24"
 				"5854BB940F8A1E4E"
@@ -400,8 +475,10 @@
 				"498A69A82C40A1AC"
 				"7FD4332FA85977DA"
 			]
+			hide: false
 			size: 1.5d
 			progression_mode: "linear"
+			hide_details_until_startable: true
 			id: "439104536CFD56F4"
 			tasks: [{
 				id: "019672FE010FE29A"
@@ -414,46 +491,81 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2062985C2280AD21"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
 		}
 		{
+			title: "The Precursor"
 			x: 0.0d
-			y: -3.0d
+			y: 0.0d
 			shape: "square"
+			subtitle: "Not quite Chemical X"
+			description: [
+				"With both the research book and the X Factor, you are finally ready to take on the challenge of manufacturing the cure."
+				""
+				"Automate it if you wish or just make one trial run; the choice is yours."
+			]
 			dependencies: [
 				"439104536CFD56F4"
 				"098A5B821B569511"
-				"2531DF90309130D4"
+				"4F5B6A50948691EE"
 			]
+			hide: false
+			hide_text_until_complete: false
 			size: 2.0d
 			progression_mode: "linear"
+			hide_details_until_startable: true
 			id: "234FD0A856DE12A0"
 			tasks: [{
 				id: "1FD34483A8D2B46A"
 				type: "item"
 				item: "contenttweaker:formula_x"
 			}]
-		}
-		{
-			x: 4.5d
-			y: -5.0d
-			progression_mode: "flexible"
-			id: "3E8F1DA70D21DF2D"
-			tasks: [{
-				id: "6C37835F630C42A2"
-				type: "item"
-				item: "minecraft:apple"
+			rewards: [{
+				id: "750409B4EB0A06DD"
+				type: "xp_levels"
+				xp_levels: 30
 			}]
 		}
 		{
-			x: -4.0d
+			title: "Understanding the Basics"
+			x: -8.25d
 			y: -3.0d
-			progression_mode: "flexible"
-			id: "2531DF90309130D4"
+			shape: "hexagon"
+			subtitle: "Hunting for the Truth"
+			description: [
+				"In order to have a hope of creating the cure, you must first understand the nature of the infection...."
+				""
+				"Gather enough golden apples through looting hospitals and killing bosses."
+			]
+			dependencies: ["4F5B6A50948691EE"]
+			hide: true
+			hide_text_until_complete: false
+			size: 1.5d
+			progression_mode: "linear"
+			id: "40A8DA280F2434B5"
 			tasks: [{
-				id: "3A325E415D6E4B13"
+				id: "5747F9E4418F5F10"
 				type: "item"
-				item: "create:deployer"
+				item: "minecraft:golden_apple"
+				count: 4L
 			}]
+			rewards: [
+				{
+					id: "55485C3EDD08654C"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 4
+				}
+				{
+					id: "25776BFD9485A9C2"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 	]
 	quest_links: [ ]

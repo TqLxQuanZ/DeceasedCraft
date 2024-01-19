@@ -1,0 +1,30 @@
+{
+  "enablePrediction": {
+    "desc:": "Enables predictive chunkloading, which predicts player movement and preloads an area infront: default:true",
+    "enablePrediction": true
+  },
+  "predictiondidstanceoffset": {
+    "desc:": "Offset to the distance(based on simulation distance) at which chunk prediction starts pre-loading(circular): default:-2 chunks",
+    "predictiondidstanceoffset": -2
+  },
+  "predictionarea": {
+    "desc:": "Size of the area marked for preloading: default:7 chunks, max: 32, min: 2",
+    "predictionarea": 7
+  },
+  "enableLazyChunkloading": {
+    "desc:": "Enables lazy chunkloading around the player, which makes the area loaded directly around the player react more slowly to player position changes.(Improves server performance, less chunks are loaded/unlaoded frequently) : default:true",
+    "enableLazyChunkloading": true
+  },
+  "lazyloadingspeed": {
+    "desc:": "Set the speed of lazy loading, increasing this makes the lazy chunk loading gets less lazy and react to player position changes faster: default:0.6",
+    "lazyloadingspeed": 0.7
+  },
+  "enableFasterChunkLoading": {
+    "desc:": "Enables faster chunk loading, which slightly improves the general chunk loading speed: default:true",
+    "enableFasterChunkLoading": true
+  },
+  "debugLogging": {
+    "desc:": "Enables debug logging for all features: default:false",
+    "debugLogging": false
+  }
+}
