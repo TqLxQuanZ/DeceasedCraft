@@ -4,7 +4,7 @@
     {
       "rolls": {
         "min": 0,
-        "max": 4
+        "max": 3
       },
       "bonus_rolls": {
         "min": 1,
@@ -20,7 +20,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 0,
-                "max": 4
+                "max": 3
               },
               "add": true
             }
@@ -50,7 +50,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 0,
-                "max": 4
+                "max": 3
               },
               "add": true
             }
