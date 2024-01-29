@@ -28,7 +28,7 @@
 	[Base.Base]
 		#How far away from any player monsters will instantly despawn? Vanilla is 128
 		#Range: 0 ~ 128
-		"Monsters Despawning Distance" = 96
+		"Monsters Despawning Distance" = 128
 		#How far away from any player monsters will be able to randomly despawn? Vanilla is 32
 		#Range: 0 ~ 128
 		"Min Monsters Despawning Distance" = 48
@@ -45,7 +45,7 @@
 			#Range: 0.0 ~ 128.0
 			Minimum = 16.0
 			#Range: 0.0 ~ 128.0
-			Maximum = 32.0
+			Maximum = 24.0
 
 		#How far away can the mobs see the player even through walls. Setting 'Max' to 0 will make mobs not able to see through walls. I recommend using mods like Mobs Properties Randomness to have more control over the attribute; the attribute name is 'enhancedai:generic.xray_follow_range'.
 		[Base.Targeting."XRay Range Override"]
