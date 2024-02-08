@@ -1,7 +1,10 @@
 {
   "armorSetName": "Bomb Squad",
   "head": {
-    "itemKey": "apocalypsenow:bombsquad_helmet"
+    "itemKey": "apocalypsenow:bombsquad_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:pbf_hamstergasmask_helmet"
+    ]
   },
   "chest": {
     "itemKey": "apocalypsenow:bombsquad_chestplate"

@@ -1186,6 +1186,12 @@ craftingTable.addShapedMirrored("t3_ballistic_helmet", <constant:minecraft:mirro
     [<tag:items:forge:plates/brass>, <item:immersiveengineering:component_electronic_adv>, <item:create_sa:steam_engine>, <item:immersiveengineering:component_electronic_adv>, <tag:items:forge:plates/brass>],
     [<item:minecraft:air>, <tag:items:forge:plates/plastic>, <item:create:belt_connector>, <tag:items:forge:plates/plastic>, <item:minecraft:air>]]);
 
+// T3 Gas Mask
+craftingTable.remove(<item:apocalypsenow:pkm_4gasmask_helmet>);
+<recipetype:create:mechanical_crafting>.addRecipe("t3_pkm_4gasmask_helmet", <item:apocalypsenow:pkm_4gasmask_helmet>,
+    [[<tag:items:forge:plates/plastic>, <item:apocalypsenow:cloth>, <tag:items:forge:plates/plastic>],
+    [<item:contenttweaker:resistant_fabric>, <item:apocalypsenow:gasmask_helmet>, <item:contenttweaker:resistant_fabric>]]);
+    
 #------------------ Tier 4 --------------------------
 #----------------------------------------------------
 #----------------------------------------------------
@@ -1386,3 +1392,10 @@ craftingTable.remove(<item:apocalypsenow:soldier_boots>);
 <recipetype:create:mechanical_crafting>.addRecipe("t4_soldier_boots", <item:apocalypsenow:soldier_boots>,
     [[<item:contenttweaker:rubber>, <tag:items:forge:plates/lead>, <item:minecraft:netherite_boots>.anyDamage(), <tag:items:forge:plates/lead>, <item:contenttweaker:rubber>],
     [<item:contenttweaker:resistant_fabric>, <item:contenttweaker:rubber>, <item:minecraft:air>, <item:contenttweaker:rubber>, <item:contenttweaker:resistant_fabric>]]);
+
+    
+// T4 Gas Mask
+craftingTable.remove(<item:apocalypsenow:pbf_hamstergasmask_helmet>);
+<recipetype:create:mechanical_crafting>.addRecipe("t4_pbf_hamstergasmask_helmet", <item:apocalypsenow:pbf_hamstergasmask_helmet>,
+    [[<item:contenttweaker:rubber>, <item:apocalypsenow:cloth>, <item:contenttweaker:rubber>],
+    [<item:contenttweaker:resistant_fabric>, <item:apocalypsenow:gasmask_helmet>, <item:contenttweaker:resistant_fabric>]]);

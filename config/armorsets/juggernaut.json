@@ -1,7 +1,10 @@
 {
   "armorSetName": "Juggernaut",
   "head": {
-    "itemKey": "apocalypsenow:juggernaut_helmet"
+    "itemKey": "apocalypsenow:juggernaut_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:pbf_hamstergasmask_helmet"
+    ]
   },
   "chest": {
     "itemKey": "apocalypsenow:juggernaut_chestplate"

@@ -1,7 +1,10 @@
 {
   "armorSetName": "SWAT Riot",
   "head": {
-    "itemKey": "apocalypsenow:swatriotcontrol_helmet"
+    "itemKey": "apocalypsenow:swatriotcontrol_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:pbf_hamstergasmask_helmet"
+    ]
   },
   "chest": {
     "itemKey": "apocalypsenow:swatriotcontrol_chestplate"

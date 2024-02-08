@@ -597,7 +597,7 @@
 			y: 3.0d
 			subtitle: "Are you sure you want to go NOW?"
 			description: [
-				"Gas masks cannot be repaired."
+				"Gas masks can be repaired with breathing filter module."
 				""
 				"Equipping a gas mask allows you to enter the wasteland without suffering negative effects."
 			]
@@ -1316,6 +1316,78 @@
 				id: "31C7509C0D56CAD2"
 				type: "xp"
 				xp: 150
+			}]
+		}
+		{
+			title: "Something Better"
+			x: 19.0d
+			y: 3.0d
+			subtitle: "Last longer and tougher."
+			description: [
+				"Gas masks can be repaired with breathing filter module."
+				""
+				"Equipping a gas mask allows you to enter the wasteland without suffering negative effects."
+			]
+			dependencies: ["0DDB1DF4FFFB6236"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "253F3054CC308C99"
+			tasks: [{
+				id: "60075014A80A4D39"
+				type: "item"
+				item: {
+					id: "apocalypsenow:pkm_4gasmask_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "249ECB325302A54D"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			title: "Even Better"
+			x: 31.0d
+			y: 0.0d
+			subtitle: "Looks heavy."
+			description: [
+				"Gas masks can be repaired with breathing filter module."
+				""
+				"Equipping a gas mask allows you to enter the wasteland without suffering negative effects."
+			]
+			dependencies: ["4AE5D93FE7346281"]
+			dependency_requirement: "one_started"
+			progression_mode: "flexible"
+			id: "49A17915F1F97118"
+			tasks: [{
+				id: "0C76BFE81DFE2483"
+				type: "item"
+				item: {
+					id: "apocalypsenow:pbf_hamstergasmask_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "672BA66BFC0351E8"
+				type: "xp"
+				xp: 300
 			}]
 		}
 	]

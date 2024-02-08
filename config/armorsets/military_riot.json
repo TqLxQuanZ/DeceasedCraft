@@ -1,7 +1,10 @@
 {
   "armorSetName": "Military Riot",
   "head": {
-    "itemKey": "apocalypsenow:military_riot_armor_helmet"
+    "itemKey": "apocalypsenow:military_riot_armor_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:pkm_4gasmask_helmet"
+    ]
   },
   "chest": {
     "itemKey": "apocalypsenow:military_riot_armor_chestplate"

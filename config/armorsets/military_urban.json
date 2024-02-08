@@ -1,7 +1,10 @@
 {
   "armorSetName": "Urban Military",
   "head": {
-    "itemKey": "apocalypsenow:military_urban_helmet"
+    "itemKey": "apocalypsenow:military_urban_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:pkm_4gasmask_helmet"
+    ]
   },
   "chest": {
     "itemKey": "apocalypsenow:military_urban_chestplate"
