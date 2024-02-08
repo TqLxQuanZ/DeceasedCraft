@@ -104,24 +104,12 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "apocalypsenow:hazmat_suit_helmet",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.25
-            }
-          ]
+          "name": "contenttweaker:rubber"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "apocalypsenow:gasmask_helmet",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.25
-            }
-          ]
+          "name": "immersiveengineering:plate_duroplast"
         }
       ]
     },
