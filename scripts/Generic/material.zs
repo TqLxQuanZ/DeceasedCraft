@@ -49,7 +49,7 @@ craftingTable.addShapedMirrored("nightvisionmodule", <constant:minecraft:mirrora
     
 craftingTable.remove(<item:apocalypsenow:breathingfiltermodule>);
 craftingTable.addShapedMirrored("breathingfiltermodule", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:breathingfiltermodule>,
-    [[<item:apocalypsenow:cloth>, <tag:items:minecraft:wool>, <item:apocalypsenow:cloth>],
+    [[<item:contenttweaker:rubber>, <tag:items:minecraft:wool>, <item:immersiveengineering:plate_duroplast>],
     [<item:minecraft:air>, <item:minecraft:charcoal>, <item:minecraft:air>]]);
     
 
