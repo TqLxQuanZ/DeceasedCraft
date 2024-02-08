@@ -13,6 +13,7 @@
 	#What time of day does the horde event start? eg 18000 is midnight with default day length.
 	hordeStartTime = 13000
 	#Amount of days between horde spawns.
+	#Range: > 1
 	hordeSpawnDays = 15
 	#Amount of days a horde event can be randomly delayed by
 	hordeSpawnVariation = 0
@@ -30,6 +31,8 @@
 	pauseEventServer = false
 	#Set to true to disable natural horde spawns (hordes can only be spawned with commands).
 	hordesCommandOnly = false
+	#How many ticks does the horde pathing ai take before recalculating? (Increase this if you are having server slowdown during horde events.)
+	hordePathingInterval = 10
 
 [Infection]
 	#Set to false to completely disable mob infection and anything related to it.
