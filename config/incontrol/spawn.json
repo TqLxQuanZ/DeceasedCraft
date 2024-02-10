@@ -487,12 +487,11 @@
       }
     },
     {
-        "mob": ["zombie_extreme:boomer",
+        "mob": ["zombie_extreme:bomber",
+                "zombie_extreme:boomer",
                 "zombie_extreme:clicker",
                 "zombie_extreme:devastated"],
         "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
-        "incity": true,
-        "inbuilding": true,
         "dimension": "minecraft:overworld",
         "minlight": 0,
         "maxlight": 3,
