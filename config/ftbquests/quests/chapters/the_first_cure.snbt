@@ -9,18 +9,18 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "The Cure"
+			title: "{quest.cure.cure.title}"
 			icon: "minecraft:golden_apple"
 			x: 4.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "The Scenic Route"
+			subtitle: "{quest.cure.cure.subtitle}"
 			description: [
-				"Combine Formula X with an ordinary apple to make a golden apple."
+				"{quest.cure.cure.description_1}"
 				""
-				"If you've successfully automated up to this point, congratulations! Besides curing yourself and zombie villagers, golden apples can also be used to cure zombie animals, after hitting them with a splash potion of weakness."
+				"{quest.cure.cure.description_2}"
 				""
-				"Curing mutants however, requires something far stronger..."
+				"{quest.cure.cure.description_3}"
 			]
 			dependencies: ["234FD0A856DE12A0"]
 			hide: false
@@ -41,16 +41,16 @@
 			}]
 		}
 		{
-			title: "The X Factor"
+			title: "{quest.cure.x_factor.title}"
 			x: -3.75d
 			y: 1.5d
 			shape: "hexagon"
-			subtitle: "*buzzer noise*"
+			subtitle: "{quest.cure.x_factor.subtitle}"
 			description: [
-				"After the initial limited distribution of the cure, many laboratories banded together in the hopes of finding a way to speed up the otherwise painfully slow process of manufacturing it."
-				"While their efforts come too late to save them, it seems their work has not been in vain."
+				"{quest.cure.x_factor.description_1}"
+				"{quest.cure.x_factor.description_2}"
 				""
-				"Producing this precursor reagent is sadly beyond your capabilities, but according to the rumors you've heard, it can be found in laboratories in the wastelands..."
+				"{quest.cure.x_factor.description_3}"
 			]
 			dependencies: [
 				"22113D22B765DBDB"
@@ -79,13 +79,13 @@
 			}]
 		}
 		{
-			title: "Find Wooded Wasteland"
+			title: "{quest.cure.find_wooded_wasteland.title}"
 			x: -6.0d
 			y: 3.5d
 			description: [
-				"The wooded wasteland, while less destroyed than its barren cousin, is still a deadly threat to the unprepared."
+				"{quest.cure.find_wooded_wasteland.description_1}"
 				""
-				"Find a city within it, and seek out its secrets..."
+				"{quest.cure.find_wooded_wasteland.description_2}"
 			]
 			dependencies: ["7F3B97A92A7071E4"]
 			hide: true
@@ -105,13 +105,13 @@
 			}]
 		}
 		{
-			title: "Find Wasteland"
+			title: "{quest.cure.find_wasteland.title}"
 			x: -6.0d
 			y: 2.5d
 			description: [
-				"The wasteland is all that remains of areas targeted by the military as a last ditch attempt to stop the infection."
+				"{quest.cure.find_wasteland.description_1}"
 				""
-				"Find a city within it, and seek out its secrets..."
+				"{quest.cure.find_wasteland.description_2}"
 			]
 			dependencies: ["7F3B97A92A7071E4"]
 			hide: true
@@ -131,15 +131,15 @@
 			}]
 		}
 		{
-			title: "Seeking the Source"
+			title: "{quest.cure.source.title}"
 			x: -8.25d
 			y: 3.0d
 			shape: "hexagon"
-			subtitle: "The Long Journey"
+			subtitle: "{quest.cure.source.subtitle}"
 			description: [
-				"Rumors tell of a way to replicate the cure, hidden in the radioactive wastes... but a long journey lies ahead."
+				"{quest.cure.source.description_1}"
 				""
-				"Acquire a gas mask to protect yourself from the hazardous environment."
+				"{quest.cure.source.description_2}"
 			]
 			dependencies: ["4F5B6A50948691EE"]
 			hide: true
@@ -169,18 +169,17 @@
 			}]
 		}
 		{
-			title: "The Origin"
+			title: "{quest.cure.origin.title}"
 			x: -3.75d
 			y: 4.5d
 			shape: "hexagon"
-			subtitle: "Darker Darker Yet Darker"
+			subtitle: "{quest.cure.origin.subtitle}"
 			description: [
-				"There is... something else in the wasteland laboratories."
+				"{quest.cure.origin.description_1}"
 				""
-				"An abandoned project, a gateway started out of desperation, greed, or malice."
-				"Perhaps the start of it all."
+				"{quest.cure.origin.description_2}"
 				""
-				"Dare you enter the portal?"
+				"{quest.cure.origin.description_3}"
 			]
 			dependencies: [
 				"22113D22B765DBDB"
@@ -204,9 +203,10 @@
 			}]
 		}
 		{
+			title: "{quest.cure.brain.title}"
 			x: -1.5d
 			y: 4.5d
-			description: ["-INFORMATION UNKNOWN-"]
+			description: ["{quest.cure.brain.description_1}"]
 			dependencies: ["7B087BEE5A6B47E1"]
 			hide: true
 			dependency_requirement: "one_started"
@@ -224,9 +224,10 @@
 			}]
 		}
 		{
+			title: "{quest.cure.heart.title}"
 			x: -1.5d
 			y: 3.5d
-			description: ["-INFORMATION UNKNOWN-"]
+			description: ["{quest.cure.heart.description_1}"]
 			dependencies: ["7B087BEE5A6B47E1"]
 			hide: true
 			dependency_requirement: "one_started"
@@ -244,9 +245,10 @@
 			}]
 		}
 		{
+			title: "{quest.cure.flesh.title}"
 			x: -1.5d
 			y: 5.5d
-			description: ["-INFORMATION UNKNOWN-"]
+			description: ["{quest.cure.flesh.description_1}"]
 			dependencies: ["7B087BEE5A6B47E1"]
 			hide: true
 			dependency_requirement: "one_started"
@@ -264,9 +266,10 @@
 			}]
 		}
 		{
+			title: "{quest.cure.membrane.title}"
 			x: 0.5d
 			y: 4.5d
-			description: ["-INFORMATION UNKNOWN-"]
+			description: ["{quest.cure.membrane.description_1}"]
 			dependencies: [
 				"4A348EF15453D3CC"
 				"4DD4F343EDE03316"
@@ -289,12 +292,12 @@
 			}]
 		}
 		{
-			title: "The Finale"
+			title: "{quest.cure.finale.title}"
 			x: 8.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "A Universal Serum"
-			description: ["-INFORMATION UNKNOWN-"]
+			subtitle: "{quest.cure.finale.subtitle}"
+			description: ["{quest.cure.finale.description_1}"]
 			dependencies: [
 				"17FED0C0673B0743"
 				"3868EB3CF99FB29F"
@@ -335,18 +338,18 @@
 			]
 		}
 		{
-			title: "The Beginning"
+			title: "{quest.cure.beginning.title}"
 			icon: "minecraft:writable_book"
 			x: -11.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Once Upon a Time..."
+			subtitle: "{quest.cure.beginning.subtitle}"
 			description: [
-				"This chapter of the questbook serves as an optional storyline for the world. "
+				"{quest.cure.beginning.description_1}"
 				"---"
-				"Even as the world was consumed by the infection, many that had recieved stockpiles of the cure managed to hold out... for a time."
+				"{quest.cure.beginning.description_2}"
 				""
-				"The surviors quickly realized, though, that soon even the cure was not good enough to save them from the horrors that would emerge..."
+				"{quest.cure.beginning.description_3}"
 			]
 			size: 2.0d
 			id: "4F5B6A50948691EE"
@@ -361,13 +364,13 @@
 			}]
 		}
 		{
-			title: "Gather Information - Residential"
+			title: "{quest.cure.info_residential.title}"
 			x: -6.0d
 			y: -3.0d
 			description: [
-				"As the infection progressed, many took to hiding in their homes. Not that that was enough to save them in the end."
+				"{quest.cure.info_residential.description_1}"
 				""
-				"Find the notes hidden in their homes, as they documented the last days of civilization."
+				"{quest.cure.info_residential.description_2}"
 			]
 			dependencies: ["40A8DA280F2434B5"]
 			hide: true
@@ -380,13 +383,13 @@
 			}]
 		}
 		{
-			title: "Gather Information - Police"
+			title: "{quest.cure.info_police.title}"
 			x: -6.0d
 			y: -2.0d
 			description: [
-				"Though ultimately a losing battle, the arm of the law tried their best to maintain order as the undead swarmed the streets."
+				"{quest.cure.info_police.description_1}"
 				""
-				"Find the dispatches hidden in the ruins of their police departments as they tried to hold on for as long as they could."
+				"{quest.cure.info_police.description_2}"
 			]
 			dependencies: ["40A8DA280F2434B5"]
 			hide: true
@@ -399,13 +402,13 @@
 			}]
 		}
 		{
-			title: "Gather Information - Military"
+			title: "{quest.cure.info_military.title}"
 			x: -6.0d
 			y: -1.0d
 			description: [
-				"The military's response to the infection in the end was simple. If it could not be saved, it would have to be burnt down."
+				"{quest.cure.info_military.description_1}"
 				""
-				"Find their mission logs in their bunkers and bases as they reduced entire cities to the wastelands you can find today."
+				"{quest.cure.info_military.description_2}"
 			]
 			dependencies: ["40A8DA280F2434B5"]
 			hide: true
@@ -418,13 +421,13 @@
 			}]
 		}
 		{
-			title: "Gather Information - Megatower"
+			title: "{quest.cure.info_megatower.title}"
 			x: -6.0d
 			y: -4.0d
 			description: [
-				"The megatower was the centerpiece of the modern world. When the cities fell, many tried to seek refuge in it, planning to turn it into a massive fortress."
+				"{quest.cure.info_megatower.description_1}"
 				""
-				"Seek out the notes of these brave survivors, trapped on an island in a sea of the dead."
+				"{quest.cure.info_megatower.description_2}"
 			]
 			dependencies: ["40A8DA280F2434B5"]
 			hide: true
@@ -437,13 +440,13 @@
 			}]
 		}
 		{
-			title: "Gather Information - Hospital"
+			title: "{quest.cure.info_hospital.title}"
 			x: -6.0d
 			y: -5.0d
 			description: [
-				"The hospitals were the first to recieve reports of the infection, all the way back when society was still intact enough to function."
+				"{quest.cure.info_hospital.description_1}"
 				""
-				"Find the research papers hidden in their now abandoned hallways, as they treated what they could with what little they had."
+				"{quest.cure.info_hospital.description_2}"
 			]
 			dependencies: ["40A8DA280F2434B5"]
 			hide: true
@@ -456,17 +459,17 @@
 			}]
 		}
 		{
-			title: "The Catalog"
+			title: "{quest.cure.catalog.title}"
 			x: -3.75d
 			y: -3.0d
 			shape: "hexagon"
-			subtitle: "A Brief History of Zombies"
+			subtitle: "{quest.cure.catalog.subtitle}"
 			description: [
-				"The papers you collected tell a tale you perhaps already know too well; that a cure did exist, but was hard enough to make in amounts that could have stopped the inevitable."
+				"{quest.cure.catalog.description_1}"
 				""
-				"A reagent critical to manufacturing the cure in bulk was discovered nonetheless, but was lost along with the sites that made it as the world fell apart."
+				"{quest.cure.catalog.description_2}"
 				""
-				"Combining your understanding of the process with that reagent should allow you to finally recreate the cure."
+				"{quest.cure.catalog.description_3}"
 			]
 			dependencies: [
 				"5A6BB344DC912E24"
@@ -498,15 +501,15 @@
 			}]
 		}
 		{
-			title: "The Precursor"
+			title: "{quest.cure.precursor.title}"
 			x: 0.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Not quite Chemical X"
+			subtitle: "{quest.cure.precursor.subtitle}"
 			description: [
-				"With both the research book and the X Factor, you are finally ready to take on the challenge of manufacturing the cure."
+				"{quest.cure.precursor.description_1}"
 				""
-				"Automate it if you wish or just make one trial run; the choice is yours."
+				"{quest.cure.precursor.description_2}"
 			]
 			dependencies: [
 				"439104536CFD56F4"
@@ -531,15 +534,15 @@
 			}]
 		}
 		{
-			title: "Understanding the Basics"
+			title: "{quest.cure.basic.title}"
 			x: -8.25d
 			y: -3.0d
 			shape: "hexagon"
-			subtitle: "Hunting for the Truth"
+			subtitle: "{quest.cure.basic.subtitle}"
 			description: [
-				"In order to have a hope of creating the cure, you must first understand the nature of the infection...."
+				"{quest.cure.basic.description_1}"
 				""
-				"Gather enough golden apples through looting hospitals and killing bosses."
+				"{quest.cure.basic.description_2}"
 			]
 			dependencies: ["4F5B6A50948691EE"]
 			hide: true

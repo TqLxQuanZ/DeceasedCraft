@@ -538,12 +538,12 @@
 			}]
 		}
 		{
-			title: "Rock and Stone!"
+			title: "{quest.guides.flare.title}"
 			x: 0.0d
 			y: 14.5d
 			shape: "square"
-			subtitle: "Mushroom!"
-			description: ["Craft flares for your cave expeditions to provide essential light and visibility."]
+			subtitle: "{quest.guides.flare.subtitle}"
+			description: ["{quest.guides.flare.description_1}"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			id: "3776451F76BAF380"
