@@ -3,6 +3,16 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.ItemCooldowns;
 import mods.jei.JEI;
 
+// Money Printing
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("an_money_assembly")
+                                                      .transitionTo(<item:minecraft:paper>)
+                                                      .require(<item:minecraft:paper>)
+                                                      .loops(1)
+                                                      .addOutput(<item:apocalypsenow:money>, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:emerald>))
+                                                      .addStep<mods.createtweaker.PressingRecipe>()
+													  );
+
 // XP Tome
 craftingTable.remove(<item:xpbook:xp_tome>);
 craftingTable.addShaped("xp_tome", <item:xpbook:xp_tome>,
