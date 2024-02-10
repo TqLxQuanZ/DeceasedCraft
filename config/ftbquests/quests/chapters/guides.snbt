@@ -9,16 +9,16 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "READ ME!"
+			title: "{quest.guides.readme.title}"
 			icon: "minecraft:paper"
 			x: 0.0d
 			y: -9.0d
 			shape: "rsquare"
-			subtitle: "Hello World!"
+			subtitle: "{quest.guides.readme.subtitle}"
 			description: [
-				"The chapters in this quest book are completely optional and not needed for progression."
+				"{quest.guides.readme.description_1}"
 				""
-				"However, there may be useful info about how to progress with the modpack contained within, so take some time to familiarize yourself with its contents."
+				"{quest.guides.readme.description_2}"
 			]
 			dependency_requirement: "one_started"
 			size: 4.0d
@@ -30,7 +30,7 @@
 			}]
 		}
 		{
-			title: "Flying for Dummies"
+			title: "{quest.guides.flying.title}"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -41,8 +41,8 @@
 			x: -4.5d
 			y: -1.5d
 			shape: "square"
-			subtitle: "I want to fly!"
-			description: ["With your advanced knowledge of aircraft assembly and crafting, utilize it to construct an airplane for efficient transportation and travel purposes."]
+			subtitle: "{quest.guides.flying.subtitle}"
+			description: ["{quest.guides.flying.description_1}"]
 			size: 1.5d
 			optional: true
 			can_repeat: true
@@ -65,16 +65,13 @@
 			}]
 		}
 		{
-			title: "Veteran Engineer"
+			title: "{quest.guides.engineer.title}"
 			icon: "immersiveengineering:manual"
 			x: -1.5d
 			y: -1.5d
 			shape: "square"
-			subtitle: "I want to build machines!"
-			description: [
-				"As a veteran engineer, you possess extensive knowledge in various technological domains, allowing me to provide information and insights on a wide range of tech-related topics."
-				""
-			]
+			subtitle: "{quest.guides.engineer.subtitle}"
+			description: ["{quest.guides.engineer.description_1}"]
 			size: 1.5d
 			optional: true
 			can_repeat: true
@@ -92,13 +89,13 @@
 			}]
 		}
 		{
-			title: "Encyclopedia of Life"
+			title: "{quest.guides.encyclopedia.title}"
 			icon: "alexsmobs:animal_dictionary"
 			x: 1.5d
 			y: -1.5d
 			shape: "square"
-			subtitle: "I want to know about the wildlife!"
-			description: ["When surviving in the wilderness, it is crucial to have knowledge of your surroundings and understand what resources and potential threats exist in the environment."]
+			subtitle: "{quest.guides.encyclopedia.subtitle}"
+			description: ["{quest.guides.encyclopedia.description_1}"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			optional: true
@@ -116,18 +113,18 @@
 			}]
 		}
 		{
-			title: "Better Foods, Better Health"
+			title: "{quest.guides.foodhealth.title}"
 			icon: "minecraft:cooked_beef"
 			x: 1.5d
 			y: -3.75d
 			shape: "square"
-			subtitle: "I want to get a lot of health!"
+			subtitle: "{quest.guides.foodhealth.subtitle}"
 			description: [
-				"While playing, you can consume a diverse range of foods to enhance your maximum HP (health points)."
-				"This guidebook serves as a tracker for the foods you have eaten."
+				"{quest.guides.foodhealth.description_1}"
+				"{quest.guides.foodhealth.description_2}"
 				""
-				"Be careful, however! This maximum HP bonus is lost upon death."
-				"It is recommended you try to focus on increasing your max HP only once you've created a comfortable base."
+				"{quest.guides.foodhealth.description_3}"
+				"{quest.guides.foodhealth.description_4}"
 			]
 			size: 2.0d
 			optional: true
@@ -146,7 +143,7 @@
 			}]
 		}
 		{
-			title: "Talents and Specialization"
+			title: "{quest.guides.specialization.title}"
 			icon: {
 				id: "minecraft:iron_sword"
 				Count: 1b
@@ -157,12 +154,8 @@
 			x: -1.5d
 			y: -3.75d
 			shape: "square"
-			subtitle: "I want to get bonuses to certain actions!"
-			description: [
-				"Pressing K grants access to a specialized skill tree that assists you throughout your journey. All skills can be levelled up by doing their relative actions."
-				""
-				"Be aware that skills will be lost upon death!"
-			]
+			subtitle: "{quest.guides.specialization.subtitle}"
+			description: ["{quest.guides.specialization.description_1}"]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			id: "7AE195FFCA7345BE"
@@ -177,16 +170,16 @@
 			}]
 		}
 		{
-			title: "Parkour!"
+			title: "{quest.guides.parkour.title}"
 			icon: "minecraft:player_head"
 			x: 4.5d
 			y: -1.5d
 			shape: "square"
-			subtitle: "I want to do cool stunts!"
+			subtitle: "{quest.guides.parkour.subtitle}"
 			description: [
-				"There are various methods to extricate yourself from dangerous situations, and ParCool is one of them. Ensure that you execute different ParCool techniques to provide yourself with maximum convenience and advantages in challenging circumstances."
+				"{quest.guides.parkour.description_1}"
 				""
-				"NOTE: Certain actions can be disabled via the ParCool settings (default key is ')"
+				"{quest.guides.parkour.description_2}"
 			]
 			size: 1.5d
 			optional: true
@@ -210,17 +203,17 @@
 			}]
 		}
 		{
-			title: "The Wasteland"
+			title: "{quest.guides.wasteland.title}"
 			icon: "biomesoplenty:dead_sapling"
 			x: -1.5d
 			y: 12.0d
 			shape: "square"
-			subtitle: "Turns out nuclear fallout doesn't kill zombies."
+			subtitle: "{quest.guides.wasteland.subtitle}"
 			description: [
-				"Even as the infection consumed the inhabitants of this world, some still insisted on destroying each other first..."
+				"{quest.guides.wasteland.description_1}"
 				""
-				"This is an extremely hostile enviroment. Equip gas masks or hazmat helmets for protection against toxic gases in the wasteland."
-				"Beware of dangerous monsters, especially in the industrial area. Firearms are advised as melee weapons may be ineffective."
+				"{quest.guides.wasteland.description_2}"
+				"{quest.guides.wasteland.description_3}"
 			]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -245,34 +238,27 @@
 			]
 		}
 		{
-			title: "Burning Passion"
+			title: "{quest.guides.blaze.title}"
 			icon: "minecraft:blaze_powder"
 			x: -4.5d
 			y: 9.75d
 			shape: "square"
-			subtitle: "Is this a Nether?"
-			description: ["Shortly after the onset of the apocalypse, reports emerged on the radio about sightings of floating rods of fire in volcanic regions..."]
+			subtitle: "{quest.guides.blaze.subtitle}"
+			description: ["{quest.guides.blaze.description_1}"]
 			size: 1.5d
 			id: "159A0FA1BC603377"
 			tasks: [{
 				id: "7BD7532BC4543BEA"
 				type: "checkmark"
 			}]
-			rewards: [
-				{
-					id: "4F187BF1F22218C1"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "791F178AEC334B67"
-					type: "item"
-					item: "hardcore_torches:lit_lantern"
-				}
-			]
+			rewards: [{
+				id: "4F187BF1F22218C1"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
-			title: "Guide To Nowhere"
+			title: "{quest.guides.compass.title}"
 			icon: {
 				id: "naturescompass:naturescompass"
 				Count: 1b
@@ -281,8 +267,8 @@
 			x: 4.5d
 			y: 9.75d
 			shape: "square"
-			subtitle: "Gotta find that perfect base spot."
-			description: ["A Nature's Compass can aid in finding a suitable location to establish a living space or be used to search for vital resources in the wilderness."]
+			subtitle: "{quest.guides.compass.subtitle}"
+			description: ["{quest.guides.compass.description_1}"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -303,16 +289,16 @@
 			}]
 		}
 		{
-			title: "Adaptation to Adversity"
+			title: "{quest.guides.villager.title}"
 			icon: "artifacts:villager_hat"
 			x: -1.5d
 			y: 9.75d
 			shape: "square"
-			subtitle: "Hrmm..."
+			subtitle: "{quest.guides.villager.subtitle}"
 			description: [
-				"Some villagers have managed to survive the zombie apocalypse and have adapted by altering their stocks and resources to suit the new circumstances."
+				"{quest.guides.villager.description_1}"
 				""
-				"Seek them out among the ruined cities."
+				"{quest.guides.villager.description_2}"
 			]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -329,17 +315,17 @@
 			}]
 		}
 		{
-			title: "Remnants of Civilization"
+			title: "{quest.guides.remnants.title}"
 			icon: "another_furniture:oak_bench"
 			x: 1.5d
 			y: 9.75d
 			shape: "square"
-			subtitle: "Fallen Kingdom"
+			subtitle: "{quest.guides.remnants.subtitle}"
 			description: [
-				"As the infection claimed this world, their inhabitants left behind their great cities..."
+				"{quest.guides.remnants.description_1}"
 				""
-				"Cities pose a significant challenge to the unprepared, as they contain not only greater amounts of zombies, but also stronger and faster variants of zombies."
-				"Those who dare to challenge these ruins nonetheless stand to acquire great riches and abandoned technology..."
+				"{quest.guides.remnants.description_2}"
+				"{quest.guides.remnants.description_3}"
 			]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -364,16 +350,16 @@
 			]
 		}
 		{
-			title: "Desperate Measures"
+			title: "{quest.guides.cure.title}"
 			x: 1.5d
 			y: 5.25d
 			shape: "hexagon"
-			subtitle: "You've been bitten... now what?"
+			subtitle: "{quest.guides.cure.subtitle}"
 			description: [
-				"Obtain or create a golden apple, as it has the ability to cure infections if you ever contract one."
+				"{quest.guides.cure.description_1}"
 				""
-				"You can find these apples in hospitals, where they were distributed (too late) to stop the infection."
-				"Or you could craft one... assuming you have the ingredient and technology."
+				"{quest.guides.cure.description_2}"
+				"{quest.guides.cure.description_3}"
 			]
 			size: 2.0d
 			progression_mode: "flexible"
@@ -397,17 +383,17 @@
 			]
 		}
 		{
-			title: "Unavoidable Infection"
+			title: "{quest.guides.infection.title}"
 			icon: "minecraft:zombie_head"
 			x: -1.5d
 			y: 5.25d
 			shape: "hexagon"
-			subtitle: "One bite is all it takes... well, maybe a couple."
+			subtitle: "{quest.guides.infection.subtitle}"
 			description: [
-				"All zombies have the ability to infect their victims upon making contact with them during an attack."
-				"Take caution when approaching them to avoid getting bit."
+				"{quest.guides.infection.description_1}"
+				"{quest.guides.infection.description_2}"
 				""
-				"It's said that certain armors can prevent this infection from happening..."
+				"{quest.guides.infection.description_3}"
 			]
 			dependency_requirement: "one_started"
 			size: 2.0d
@@ -432,17 +418,17 @@
 			]
 		}
 		{
-			title: "The Forgotten"
+			title: "{quest.guides.forgotten.title}"
 			icon: "minecraft:skeleton_skull"
 			x: 1.5d
 			y: 12.0d
 			shape: "square"
-			subtitle: "As if regular monsters wasn't enough..."
+			subtitle: "{quest.guides.forgotten.subtitle}"
 			description: [
-				"Stronger variants of zombies can be encountered beyond 10,000/15,000 blocks from spawn."
+				"{quest.guides.forgotten.description_1}"
 				""
-				"If you're seeking a greater challenge, feel free to venture out to face these formidable foes."
-				"Stronger zombies also have a chance to drop higher-quality ammunition."
+				"{quest.guides.forgotten.description_2}"
+				"{quest.guides.forgotten.description_3}"
 			]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -460,17 +446,17 @@
 			}]
 		}
 		{
-			title: "The Start of the End"
+			title: "{quest.guides.start.title}"
 			icon: "minecraft:zombie_head"
 			x: 0.0d
 			y: 2.0d
 			shape: "rsquare"
-			subtitle: "This is how you died..."
+			subtitle: "{quest.guides.start.subtitle}"
 			description: [
-				"Despite the cure being identified, its creation comes too late for the inhabitants of this post-apocalyptic world."
-				"Venture out, establish a secure base, and survive amidst the aftermath of the zombie apocalypse."
+				"{quest.guides.start.description_1}"
+				"{quest.guides.start.description_2}"
 				""
-				"If you've just started a new world, you will have one day of safety. Use it well."
+				"{quest.guides.start.description_3}"
 			]
 			dependency_requirement: "one_started"
 			size: 4.0d
@@ -494,19 +480,20 @@
 			]
 		}
 		{
-			title: "Body Health"
+			title: "{quest.guides.bodyhealth.title}"
 			icon: "artifacts:crystal_heart"
 			x: 0.0d
 			y: -6.0d
 			shape: "heart"
-			subtitle: "I don't wanna die!"
+			subtitle: "{quest.guides.bodyhealth.subtitle}"
 			description: [
-				"The head is the most critical body part; if it runs out of health, you'll die immediately. Protect it at all costs!"
-				"Damage to the chest and limbs can result in various debuffs if they are severely injured."
+				"{quest.guides.bodyhealth.description_1}"
 				""
-				"Wearing a helmet can significantly increase your chances of survival, especially since enemies often target the head."
+				"{quest.guides.bodyhealth.description_2}"
 				""
-				"You can access the first aid menu with H, where you'll find a tutorial included."
+				"{quest.guides.bodyhealth.description_3}"
+				""
+				"{quest.guides.bodyhealth.description_4}"
 			]
 			dependency_requirement: "one_started"
 			size: 2.0d
@@ -532,12 +519,12 @@
 			}]
 		}
 		{
-			title: "The Nether and the End"
+			title: "{quest.guides.nether.title}"
 			icon: "minecraft:purpur_block"
 			x: 0.0d
 			y: 7.0d
-			subtitle: "Just a figment of your imagination..."
-			description: ["The Nether and the End do not exist in this modpack. You will have to seek their resources out elsewhere in this world..."]
+			subtitle: "{quest.guides.nether.subtitle}"
+			description: ["{quest.guides.nether.description_1}"]
 			size: 2.0d
 			id: "7AFF562B41079294"
 			tasks: [{
