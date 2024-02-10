@@ -9,13 +9,13 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Fiber on Demand"
+			title: "{quest.healthwater.fiber.title}"
 			icon: "immersiveengineering:hemp_fiber"
 			x: 4.0d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "Hemp 101"
-			description: ["Collect hemp seeds from grass and plant them to start growing hemp plants. It's recommended you keep a healthy amount of these, as crafting string uses a lot of fibre."]
+			subtitle: "{quest.healthwater.fiber.subtitle}"
+			description: ["{quest.healthwater.fiber.description_1}"]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
@@ -40,9 +40,10 @@
 			]
 		}
 		{
+			title: "{quest.healthwater.string.title}"
 			x: 6.0d
 			y: 0.0d
-			description: ["String is a very useful material to keep in stock, as material for bandages as well as armor."]
+			description: ["{quest.healthwater.string.description_1}"]
 			dependencies: ["655E03A6D98DF879"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -67,7 +68,7 @@
 			]
 		}
 		{
-			title: "Dealing With Thirst"
+			title: "{quest.healthwater.thirst.title}"
 			icon: {
 				id: "minecraft:potion"
 				Count: 1b
@@ -79,8 +80,8 @@
 			x: 4.0d
 			y: -4.0d
 			shape: "hexagon"
-			subtitle: "Be like water"
-			description: ["Bottled water is dirty by default, and must be purified by boiling in order to safely be drunk."]
+			subtitle: "{quest.healthwater.thirst.subtitle}"
+			description: ["{quest.healthwater.thirst.description_1}"]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
@@ -206,11 +207,11 @@
 			]
 		}
 		{
-			title: "Let Him Cook - I"
+			title: "{quest.healthwater.campfire.title}"
 			x: 7.0d
 			y: -5.5d
-			subtitle: "The cheap way."
-			description: ["Boil water over a campfire to purify it, ensuring it's safe for consumption."]
+			subtitle: "{quest.healthwater.campfire.subtitle}"
+			description: ["{quest.healthwater.campfire.description_1}"]
 			dependencies: ["6F42F5255BB2A5CA"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -227,11 +228,11 @@
 			}]
 		}
 		{
-			title: "Let Him Cook - II"
+			title: "{quest.healthwater.furnace.title}"
 			x: 7.0d
 			y: -4.0d
-			subtitle: "The normal way."
-			description: ["Boil water in a furnace to purify it, ensuring it's safe for consumption."]
+			subtitle: "{uest.healthwater.furnace.subtitle}"
+			description: ["{quest.healthwater.furnace.description_1}"]
 			dependencies: ["6F42F5255BB2A5CA"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -248,13 +249,13 @@
 			}]
 		}
 		{
-			title: "Let Him Cook - III"
+			title: "{quest.healthwater.filter.title}"
 			x: 7.0d
 			y: -2.5d
-			subtitle: "The automated way."
+			subtitle: "{quest.healthwater.filter.subtitle}"
 			description: [
-				"Filter the water using a sand filter and transfer it to a spout to obtain purified water."
-				"NOTE: Water does not become clean if pumped out directly from a water source."
+				"{quest.healthwater.filter.description_1}"
+				"{quest.healthwater.filter.description_2}"
 			]
 			dependencies: ["6F42F5255BB2A5CA"]
 			dependency_requirement: "one_started"
@@ -272,7 +273,7 @@
 			}]
 		}
 		{
-			title: "Purified Water"
+			title: "{quest.healthwater.water.title}"
 			icon: {
 				id: "minecraft:potion"
 				Count: 1b
@@ -283,8 +284,8 @@
 			}
 			x: 10.0d
 			y: -4.0d
-			subtitle: "Crystal clear"
-			description: ["You can boil or filter water multiple times to get higher purity water."]
+			subtitle: "{quest.healthwater.water.subtitle}"
+			description: ["{quest.healthwater.water.description_1}"]
 			dependencies: [
 				"73DFEE0495437E8B"
 				"6895B7261404F5C2"

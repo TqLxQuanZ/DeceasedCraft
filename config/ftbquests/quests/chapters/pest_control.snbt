@@ -15,13 +15,13 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Pest Control - I"
+			title: "{quest.cure.control_1.title}"
 			icon: "mutationcraft:human_herder_spawn_egg"
 			x: -6.0d
 			y: -1.5d
 			shape: "square"
-			subtitle: "The Screams..."
-			description: ["Can be possibly found within the mega building."]
+			subtitle: "{quest.cure.control_1.subtitle}"
+			description: ["{quest.cure.control_1.description_1}"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			id: "2CB3D27DD3C51BCB"
@@ -39,12 +39,13 @@
 			}]
 		}
 		{
-			title: "Pest Control - II"
+			title: "{quest.cure.control_2.title}"
 			icon: "mutationcraft:resenter_spawn_egg"
 			x: -3.0d
 			y: -1.5d
 			shape: "square"
-			description: ["Can be possibly found in any city streets if venture far enough from spawn points. (15k blocks)"]
+			subtitle: "{quest.cure.control_2.subtitle}"
+			description: ["{quest.cure.control_2.description_1}"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			id: "5C6D546A00F23CDF"
@@ -62,13 +63,13 @@
 			}]
 		}
 		{
-			title: "Pest Control - III"
+			title: "{quest.cure.control_3.title}"
 			icon: "mutationcraft:parasitic_bomber_spawn_egg"
 			x: 0.0d
 			y: -1.5d
 			shape: "square"
-			subtitle: "The Sizes..."
-			description: ["Can be possibly found within wasteland factories area."]
+			subtitle: "{quest.cure.control_3.subtitle}"
+			description: ["{quest.cure.control_3.description_1}"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			id: "283660ADF57AD0A0"
@@ -86,12 +87,13 @@
 			}]
 		}
 		{
-			title: "Pest Control - IV"
+			title: "{quest.cure.control_4.title}"
 			icon: "minecraft:zombie_head"
 			x: -6.0d
 			y: 1.5d
 			shape: "square"
-			description: ["Can be possibly found in any city's street."]
+			subtitle: "{quest.cure.control_4.subtitle}"
+			description: ["{quest.cure.control_4.description_1}"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -110,11 +112,11 @@
 			}]
 		}
 		{
-			title: "Pest Control - V"
+			title: "{quest.cure.control_5.title}"
 			x: -3.0d
 			y: 1.5d
 			shape: "square"
-			description: ["-INFORMATION UNKNOWN-"]
+			description: ["{quest.cure.control_5.description_1}"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -133,12 +135,12 @@
 			}]
 		}
 		{
-			title: "Pest Control - VI"
+			title: "{quest.cure.control_6.title}"
 			icon: "minecraft:zombie_head"
 			x: 0.0d
 			y: 1.5d
 			shape: "square"
-			description: ["-INFORMATION UNKNOWN-"]
+			description: ["{quest.cure.control_6.description_1}"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
