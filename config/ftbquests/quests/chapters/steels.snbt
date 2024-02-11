@@ -3,7 +3,7 @@
 	group: "06797646CDBF2AAC"
 	order_index: 1
 	filename: "steels"
-	title: "Steel"
+	title: "{quest.steel}"
 	icon: "immersiveengineering:ingot_steel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,7 +12,7 @@
 			title: "Magma Block"
 			x: 2.5d
 			y: -3.0d
-			description: ["Magma blocks can typically be found in underwater areas, near portal ruins, or in volcanic regions."]
+			description: ["{quest.steel.magma_block.description_1}"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "0D4A8399201D0264"
@@ -29,13 +29,12 @@
 			}]
 		}
 		{
-			title: "Netherrack"
 			x: 1.0d
 			y: -1.5d
 			description: [
-				"Netherrack can only be found near portal ruins."
+				"{quest.steel.netherrack.description_1}"
 				""
-				"Strange how ruined portals exist, yet the Nether does not..."
+				"{quest.steel.netherrack.description_2}"
 			]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -56,7 +55,7 @@
 			title: "Blast Brick"
 			x: 4.0d
 			y: -1.5d
-			description: ["Craft blast bricks using nether bricks, regular bricks, and magma blocks."]
+			description: ["{quest.steel.blast_brick.description_1}"]
 			dependencies: [
 				"0D4A8399201D0264"
 				"553A58EC81BE0BCE"
@@ -77,11 +76,11 @@
 			}]
 		}
 		{
-			title: "Blast Furnace"
+			title: "{quest.steel.blast_furnace.title}"
 			icon: "immersiveengineering:blast_furnace"
 			x: 6.5d
 			y: -1.5d
-			description: ["Check the Engineer's Manual for how to create a blast furnace under [Workbenches And Furnaces > Blast Furnace]"]
+			description: ["{quest.steel.blast_furnace.description_1}"]
 			dependencies: ["4F6888B4DACE6A10"]
 			dependency_requirement: "one_started"
 			progression_mode: "linear"
@@ -131,7 +130,7 @@
 		{
 			x: 2.5d
 			y: 0.0d
-			description: ["Smelt netherrack to obtain nether bricks."]
+			description: ["{quest.steel.nether_brick.description_1}"]
 			dependencies: ["5897022506C1FE83"]
 			progression_mode: "linear"
 			id: "553A58EC81BE0BCE"

@@ -3,16 +3,16 @@
 	group: "06797646CDBF2AAC"
 	order_index: 0
 	filename: "torches"
-	title: "Treated Wood Planks"
+	title: "{quest.treated}"
 	icon: "immersiveengineering:treated_wood_horizontal"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Clay"
+			title: "{quest.treated.clay.title}"
 			x: -8.5d
 			y: -3.0d
-			description: ["Clay deposits can be found near rivers and in oceans."]
+			description: ["{quest.treated.clay.description_1}"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "3E1518F914DE49E1"
@@ -31,7 +31,7 @@
 		{
 			x: -8.5d
 			y: -4.5d
-			description: ["Some clay will need to be smelted to become bricks. Make sure to keep enough, as the coke brick recipe uses them in a 1:1 ratio."]
+			description: ["{quest.treated.brick.description_1}"]
 			dependencies: ["3E1518F914DE49E1"]
 			dependency_requirement: "one_started"
 			hide_text_until_complete: false
@@ -52,7 +52,7 @@
 		{
 			x: -6.0d
 			y: -3.0d
-			description: ["Craft a coke brick using clay, bricks, and sandstone."]
+			description: ["{quest.treated.coke_brick.description_1}"]
 			dependencies: [
 				"3E1518F914DE49E1"
 				"0CE7CDD6A51D849C"
@@ -74,10 +74,10 @@
 			}]
 		}
 		{
-			title: "Coke Oven"
+			title: "{quest.treated.coke_oven.title}"
 			x: -3.5d
 			y: -3.0d
-			description: ["Check the Engineer's Manual for how to create a coke oven under [Workbenches And Furnaces > Coke Oven]"]
+			description: ["{quest.treated.coke_oven.description_1}"]
 			dependencies: ["164DD663512EF330"]
 			dependency_requirement: "one_started"
 			progression_mode: "linear"
@@ -98,9 +98,9 @@
 			x: -1.0d
 			y: -3.0d
 			description: [
-				"Burn logs, coal or charcoal to obtain creosote oil."
+				"{quest.treated.creosote.description_1}"
 				""
-				"You can take it out using a bucket."
+				"{quest.treated.creosote.description_2}"
 			]
 			dependencies: ["55C8C614C6ADE563"]
 			dependency_requirement: "one_started"
@@ -121,11 +121,11 @@
 			x: 1.5d
 			y: -3.0d
 			shape: "hexagon"
-			subtitle: "Wood you look at that..."
+			subtitle: "{quest.treated.planks.subtitle}"
 			description: [
-				"Craft treated wood planks by combining planks with creosote oil."
+				"{quest.treated.planks.description_1}"
 				""
-				"Treated wood forms the basis for MANY Immersive Engineering machines. Be sure to check what can be crafted using it!"
+				"{quest.treated.planks.description_2}"
 			]
 			dependencies: ["2FC4D860C8175089"]
 			dependency_requirement: "one_started"
@@ -145,15 +145,15 @@
 			}]
 		}
 		{
-			title: "Mass Torch Production"
+			title: "{quest.treated.torch_production.title}"
 			x: -1.0d
 			y: -4.5d
 			shape: "hexagon"
-			subtitle: "Let there be light"
+			subtitle: "{uest.treated.torch_production.subtitle}"
 			description: [
-				"One of the new recipies added by this modpack lets you craft torches in bulk using creosote and wool."
+				"{quest.treated.torch_production.description_1}"
 				""
-				"See if you can find it!"
+				"{quest.treated.torch_production.description_2}"
 			]
 			dependencies: ["2FC4D860C8175089"]
 			size: 1.5d
@@ -176,11 +176,11 @@
 			x: -1.0d
 			y: -1.5d
 			shape: "hexagon"
-			subtitle: "The fuel of the future"
+			subtitle: "{quest.treated.coal_coke.subtitle}"
 			description: [
-				"A byproduct of the production of creosote oil is coal coke, which is an excellent fuel."
+				"{quest.treated.coal_coke.description_1}"
 				""
-				"It is highly recommended to use this for creating steel."
+				"{quest.treated.coal_coke.description_2}"
 			]
 			dependencies: ["55C8C614C6ADE563"]
 			size: 1.5d

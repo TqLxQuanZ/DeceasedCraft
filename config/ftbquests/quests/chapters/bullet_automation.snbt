@@ -300,11 +300,11 @@
 			}]
 		}
 		{
-			title: "Sandstone"
+			title: "{quest.treated.sandstone.title}"
 			x: -1.0d
 			y: -9.0d
 			shape: "hexagon"
-			subtitle: "Compress sand into sandstone."
+			subtitle: "{quest.treated.sandstone.subtitle}"
 			description: [""]
 			dependencies: ["0F5AF0C0223B7331"]
 			dependency_requirement: "one_started"

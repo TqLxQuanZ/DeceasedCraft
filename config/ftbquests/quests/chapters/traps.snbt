@@ -3,17 +3,17 @@
 	group: "0CEF75605D0E77B3"
 	order_index: 5
 	filename: "traps"
-	title: "Traps and Defenses"
+	title: "{quest.defense}"
 	icon: "immersiveengineering:razor_wire"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Razor Wire"
+			title: "{quest.defense.razor_wire.title}"
 			x: 2.5d
 			y: 0.0d
-			subtitle: "Poke and electrocute them till they die."
-			description: ["Once you have access to steel, razor wire provides all the benefits of barbed wire, but has the added bonus of being able to be connected by wire to your electrical grid."]
+			subtitle: "{quest.defense.razor_wire.subtitle}"
+			description: ["{quest.defense.razor_wire.description_1}"]
 			dependencies: ["2C3681F3DD09F62E"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -31,12 +31,12 @@
 			}]
 		}
 		{
-			title: "Barbed Wire"
+			title: "{quest.defense.barbed_wire.title}"
 			x: 4.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "Poke them till they die."
-			description: ["Barbed wire allows easier base defense by slowing and damaging any attacking horde."]
+			subtitle: "{quest.defense.barbed_wire.subtitle}"
+			description: ["{quest.defense.barbed_wire.description_1}"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -61,11 +61,11 @@
 			]
 		}
 		{
-			title: "Land Mines"
+			title: "{quest.defense.land_mine.title}"
 			x: 9.5d
 			y: 0.0d
-			subtitle: "The classic explosive."
-			description: ["Things step on it; it explodes. A pretty straightforward trap."]
+			subtitle: "{quest.defense.land_mine.subtitle}"
+			description: ["{quest.defense.land_mine.description_1}"]
 			dependencies: ["27DEFB91E5E56287"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -90,12 +90,12 @@
 			]
 		}
 		{
-			title: "Bomb Defusing"
+			title: "{quest.defense.bomb_defuse.title}"
 			x: 9.5d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "Bomb has been defused."
-			description: ["Normal explosive traps can be disarmed and picked up by using a defusing kit."]
+			subtitle: "{quest.defense.bomb_defuse.subtitle}"
+			description: ["{quest.defense.bomb_defuse.description_1}"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "58A7E63A31D4D38B"
@@ -130,14 +130,14 @@
 			]
 		}
 		{
-			title: "Can of Powder"
+			title: "{quest.defense.powder.title}"
 			x: 7.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "A little boom in a box."
+			subtitle: "{quest.defense.powder.subtitle}"
 			description: [
-				"A can of gunpowder is useful for a lot of things..."
-				"Check what can be crafted using it for non-trap related explosive recipies."
+				"{quest.defense.powder.description_1}"
+				"{quest.defense.powder.description_2}"
 			]
 			size: 1.5d
 			id: "27DEFB91E5E56287"
@@ -161,11 +161,11 @@
 			]
 		}
 		{
-			title: "Smart Mines"
+			title: "{quest.defense.smart_mine.title}"
 			x: 11.5d
 			y: 0.0d
-			subtitle: "Now with less friendly fire!"
-			description: ["Securitycraft mines can be remotely activated, and have the added bonus of recognizing its owner."]
+			subtitle: "{quest.defense.smart_mine.subtitle}"
+			description: ["{quest.defense.smart_mine.description_1}"]
 			dependencies: ["5CDBCEB99909EF30"]
 			id: "7E0402EA7A14A5DB"
 			tasks: [{
@@ -180,12 +180,12 @@
 			}]
 		}
 		{
-			title: "Advanced Bomb Defusing"
+			title: "{quest.defense.advance_bomb_defuse.title}"
 			x: 11.5d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "Bomb has been... hacked?"
-			description: ["Securitycraft mines can be configured, remotely activated, or disarmed using this tool."]
+			subtitle: "{quest.defense.advance_bomb_defuse.subtitle}"
+			description: ["{quest.defense.advance_bomb_defuse.description_1}"]
 			id: "1301A0C1396BE183"
 			tasks: [{
 				id: "00685CF92F8042AB"
@@ -194,12 +194,12 @@
 			}]
 		}
 		{
-			title: "Bouncy Mines"
+			title: "{quest.defense.bouncy_mine.title}"
 			x: 11.5d
 			y: 1.0d
-			subtitle: "Fly, you fool!"
+			subtitle: "{quest.defense.bouncy_mine.subtitle}"
 			description: [
-				"Otherwise identical to its normal cousin, this Securitycraft mine jumps up before exploding, for some reason..."
+				"{quest.defense.bouncy_mine.description_1}"
 				""
 			]
 			dependencies: ["5CDBCEB99909EF30"]
@@ -216,13 +216,13 @@
 			}]
 		}
 		{
-			title: "Casing Mold"
+			title: "{quest.defense.casing.title}"
 			x: 10.5d
 			y: 3.0d
 			description: [
-				"You'll need this specific mold to be able to craft ammunition for gun turrets."
+				"{quest.defense.casing.description_1}"
 				""
-				"Alternatively, you can also manually craft the casings, though at a much higher resource cost."
+				"{quest.defense.casing.description_2}"
 			]
 			id: "2356E8170835B4AB"
 			tasks: [{
@@ -241,8 +241,8 @@
 			x: 12.0d
 			y: 3.0d
 			description: [
-				"Press copper ingots in a metal press using a mold to obtain the required casings."
-				"Or, craft copper plates in a crafting table."
+				"{quest.defense.empty_casing.description_1}"
+				"{quest.defense.empty_casing.description_2}"
 			]
 			dependencies: ["2356E8170835B4AB"]
 			id: "57E6B8957BE84A93"
@@ -259,10 +259,10 @@
 			}]
 		}
 		{
-			title: "Turret Ammunition"
+			title: "{quest.defense.turret_ammunition.title}"
 			x: 13.5d
 			y: 3.0d
-			description: ["A list of ammunition types and their effects can be found in the Engineer's Manual."]
+			description: ["{quest.defense.turret_ammunition.description_1}"]
 			dependencies: ["57E6B8957BE84A93"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -286,15 +286,15 @@
 			}]
 		}
 		{
-			title: "Automated Defenses"
+			title: "{quest.automated_defense.defense.title}"
 			x: 6.0d
 			y: 1.5d
 			shape: "hexagon"
-			subtitle: "Not quite a tower defense game"
+			subtitle: "{quest.automated_defense.defense.subtitle}"
 			description: [
-				"Advanced electronic components are crucial for higher tier equipment."
+				"{quest.defense.automated_defense.description_1}"
 				""
-				"Creating them will be covered elsewhere, but they are also used to make automated weapons for base defense."
+				"{quest.defense.automated_defense.description_2}"
 			]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -320,15 +320,15 @@
 			]
 		}
 		{
-			title: "Tower Defense - Flame Turret"
+			title: "{quest.defense.flame_turret.title}"
 			x: 6.0d
 			y: 3.75d
 			shape: "gear"
 			description: [
-				"The chemthrower turret shoots a burning stream of fire to set enemies alight."
-				"A list of ignitable fuels can be found below this entry."
+				"{quest.defense.flame_turret.description_1}"
+				"{quest.defense.flame_turret.description_2}"
 				""
-				"Be sure to consult the Engineer's Manual for specifics on how to configure these turrets!"
+				"{quest.defense.flame_turret.description_3}"
 			]
 			dependencies: ["1A2A544C843B9643"]
 			dependency_requirement: "one_started"
@@ -348,15 +348,15 @@
 			}]
 		}
 		{
-			title: "Tower Defense - Gun Turret"
+			title: "{quest.defense.gun_turret.title}"
 			x: 9.0d
 			y: 3.0d
 			shape: "gear"
 			description: [
-				"The gun turret does exactly what it says it does; shoot things."
-				"Crafting of the ammo required is briefly explained to the right of this entry."
+				"{quest.defense.gun_turret.description_1}"
+				"{quest.defense.gun_turret.description_2}"
 				""
-				"Be sure to consult the Engineer's Manual for specifics on how to configure these turrets!"
+				"{quest.defense.gun_turret.description_3}"
 			]
 			dependencies: ["1A2A544C843B9643"]
 			dependency_requirement: "one_started"
@@ -376,14 +376,14 @@
 			}]
 		}
 		{
-			title: "Tower Defense - Tesla Turret"
+			title: "{quest.defense.tesla.title}"
 			x: 3.0d
 			y: 3.0d
 			shape: "gear"
 			description: [
-				"Tesla coils consume a large amount of electricity to deliver lethal electric shocks to nearby targets."
+				"{quest.defense.tesla.description_1} "
 				""
-				"Be sure to consult the Engineer's Manual for specifics on how to configure these turrets!"
+				"{quest.defense.tesla.description_2}"
 			]
 			dependencies: ["1A2A544C843B9643"]
 			dependency_requirement: "one_started"
@@ -403,15 +403,16 @@
 			}]
 		}
 		{
+			title: "{quest.defense.bigcannon.title}"
 			icon: "createbigcannons:cannon_mount"
 			x: 6.0d
 			y: -1.5d
 			shape: "hexagon"
-			subtitle: "Firepower for Freedom"
+			subtitle: "{quest.defense.bigcannon.subtitle}"
 			description: [
-				"The mod Create Big Cannons alllows for the creation of heavy artillery pieces."
+				"{quest.defense.bigcannon.description_1}"
 				""
-				"The method to do so, however, will not be explained here and is left as an exercise to you..."
+				"{quest.defense.bigcannon.description_2}"
 			]
 			size: 1.5d
 			id: "3A5F9BABF4AF9650"
