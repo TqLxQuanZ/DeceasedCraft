@@ -15,17 +15,17 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Armor Tiers"
+			title: "{quest.armor.tiers.title}"
 			icon: "minecraft:leather"
 			x: -5.0d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "Cover me in zombies"
+			subtitle: "{quest.armor.tiers.subtitle}"
 			description: [
-				"The armor in this modpack is broken up into four distinct tiers. The crafting recipe of the next tier usually requires the armor of the tier before."
-				"Besides that, each tier also has many special sets that may provide various buffs or bonuses."
+				"{quest.armor.tiers.description_1}"
+				"{quest.armor.tiers.description_2}"
 				""
-				"Many sets can be found by killing zombies or looting structures. Try to collect them all!"
+				"{quest.armor.tiers.description_3}"
 			]
 			dependency_requirement: "one_started"
 			size: 2.0d
@@ -43,16 +43,16 @@
 			}]
 		}
 		{
-			title: "Armor : Tier I"
+			title: "{quest.armor.t1_leather.title}"
 			x: 3.0d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "Humble Beginnings"
+			subtitle: "{quest.armor.t1_leather.subtitle}"
 			description: [
-				"Many sets at this tier can be looted just from the ruins, but leather armor serves as a gateway to the higher tiers."
+				"{quest.armor.t1_leather.description_1}"
 				""
-				"Craft with leather and string."
-				"Repair with leather."
+				"{quest.armor.t1_leather.description_2}"
+				"{quest.armor.t1_leather.description_3}"
 			]
 			dependencies: ["7E0E20220482A0AD"]
 			dependency_requirement: "one_started"
@@ -78,16 +78,16 @@
 			}]
 		}
 		{
-			title: "Armor : Tier II"
+			title: "{quest.armor.t2_chainmail.title}"
 			x: 11.0d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "Moving Up"
+			subtitle: "{quest.armor.t2_chainmail.subtitle}"
 			description: [
-				"Chainmail armor and its sets form the second tier of armor. Loot them off harder enemies, or craft them from leather armor, the choice is yours."
+				"{quest.armor.t2_chainmail.description_1}"
 				""
-				"Craft with leather armor, string and iron wire."
-				"Repair with iron wire."
+				"{quest.armor.t2_chainmail.description_2}"
+				"{quest.armor.t2_chainmail.description_3}"
 			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
@@ -113,16 +113,16 @@
 			}]
 		}
 		{
-			title: "Armor : Tier III"
+			title: "{quest.armor.t3_steel.title}"
 			x: 19.0d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "Getting Established"
+			subtitle: "{quest.armor.t3_steel.subtitle}"
 			description: [
-				"Steel plate forms the beginning of the higher tier armors. Its sets can be looted from military zombies, or crafted from chainmail if you have a source of steel."
+				"{quest.armor.t3_steel.description_1}"
 				""
-				"Craft with steel plate, steel wire and chainmail."
-				"Repair with steel plate."
+				"{quest.armor.t3_steel.description_2}"
+				"{quest.armor.t3_steel.description_3}"
 			]
 			dependencies: ["0E7353CB27E0D892"]
 			dependency_requirement: "one_started"
@@ -148,16 +148,16 @@
 			}]
 		}
 		{
-			title: "Armor : Tier IV"
+			title: "{quest.armor.t4_netherite.title}"
 			x: 27.0d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "The Final Frontier"
+			subtitle: "{quest.armor.t4_netherite.subtitle}"
 			description: [
-				"The elusive netherite armor and its sets form the endgame armor for this modpack. Without the nether, you'll have to search the cities for what scraps of Netherite exist..."
+				"{quest.armor.t4_netherite.description_1}"
 				""
-				"Craft with rubber, high resistance fiber, netherite scrap and steel armor."
-				"Repair with netherite ingots or scrap."
+				"{quest.armor.t4_netherite.description_2}"
+				"{quest.armor.t4_netherite.description_3}"
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -183,13 +183,13 @@
 			}]
 		}
 		{
-			title: "Police Officer Set"
+			title: "{quest.armor.t1_police.title}"
 			x: 1.5d
 			y: -1.0d
 			description: [
-				"Repaired with cloth."
+				"{quest.armor.t1_police.description_1}"
 				""
-				"Provides melee damage and bonus melee damage to certain melee weapons."
+				"{quest.armor.t1_police.description_2}"
 			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
@@ -214,13 +214,13 @@
 			}]
 		}
 		{
-			title: "Firefighter Set"
+			title: "{quest.armor.t1_firefighter.title}"
 			x: 3.0d
 			y: -2.5d
 			description: [
-				"Repaired with hoglin hide."
+				"{quest.armor.t1_firefighter.description_1}"
 				""
-				"Provides fire resistance and melee damage to certain melee weapons."
+				"{quest.armor.t1_firefighter.description_2}"
 			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
@@ -245,13 +245,13 @@
 			}]
 		}
 		{
-			title: "Nurse Set"
+			title: "{quest.armor.t1_nurse.title}"
 			x: 2.0d
 			y: -2.5d
 			description: [
-				"Repaired with wool."
+				"{quest.armor.t1_nurse.description_1}"
 				""
-				"Provides max health and melee damage to certain melee weapons."
+				"{quest.armor.t1_nurse.description_2}"
 			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
@@ -276,13 +276,13 @@
 			}]
 		}
 		{
-			title: "Ghillie Sets"
+			title: "{quest.armor.t1_ghillie.title}"
 			x: 4.5d
 			y: 1.0d
 			description: [
-				"Repaired with cloth."
+				"{quest.armor.t1_ghillie.description_1}"
 				""
-				"While your attempt at camouflage is commendable, the zombies don't seem to care..."
+				"{quest.armor.t1_ghillie.description_2}"
 			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
@@ -308,13 +308,13 @@
 			}]
 		}
 		{
-			title: "Anarchy Set"
+			title: "{quest.armor.t1_anarchy.title}"
 			x: 4.0d
 			y: -2.5d
 			description: [
-				"Repaired with cloth."
+				"{quest.armor.t1_anarchy.description_1}"
 				""
-				"Provides luck."
+				"{quest.armor.t1_anarchy.description_2}"
 			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
@@ -339,13 +339,13 @@
 			}]
 		}
 		{
-			title: "Forest Guard Set"
+			title: "{quest.armor.t1_forestguard.title}"
 			x: 4.5d
 			y: -1.0d
 			description: [
-				"Repaired with cloth."
+				"{quest.armor.t1_forestguard.description_1}"
 				""
-				"Provides any ranged weapons damage increase."
+				"{quest.armor.t1_forestguard.description_2}"
 			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
@@ -370,14 +370,14 @@
 			}]
 		}
 		{
-			title: "Hunting Set"
+			title: "{quest.armor.t1_hunting.title}"
 			x: 1.5d
 			y: 1.0d
 			shape: "circle"
 			description: [
-				"Repaired with cloth."
+				"{quest.armor.t1_hunting.description_1}"
 				""
-				"Provides attack speed and melee damage to certain melee weapons."
+				"{quest.armor.t1_hunting.description_2}"
 			]
 			dependencies: ["531210392B89F597"]
 			dependency_requirement: "one_started"
@@ -402,13 +402,13 @@
 			}]
 		}
 		{
-			title: "Vanilla Armor Sets"
+			title: "{quest.armor.t2_vanilla.title}"
 			x: 9.5d
 			y: 1.0d
 			description: [
-				"Repaired with iron, copper or zinc ingots."
+				"{quest.armor.t2_vanilla.description_1}"
 				""
-				"It's almost like we're playing vanilla again!"
+				"{quest.armor.t2_vanilla.description_2}"
 			]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
@@ -433,13 +433,13 @@
 			}]
 		}
 		{
-			title: "Construction Set"
+			title: "{quest.armor.t2_construction.title}"
 			x: 12.0d
 			y: -2.0d
 			description: [
-				"Repaired with cloth."
+				"{quest.armor.t2_construction.description_1}"
 				""
-				"Provides haste effect and melee bonus damage to certain melee weapons."
+				"{quest.armor.t2_construction.description_2}"
 			]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
@@ -464,13 +464,13 @@
 			}]
 		}
 		{
-			title: "Sports Set"
+			title: "{quest.armor.t2_football.title}"
 			x: 10.0d
 			y: -2.0d
 			description: [
-				"Repaired with zinc sheets."
+				"{quest.armor.t2_football.description_1}"
 				""
-				"Provides movement speed."
+				"{quest.armor.t2_football.description_2}"
 			]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
@@ -495,15 +495,15 @@
 			}]
 		}
 		{
-			title: "Reclaiming the Wasteland - I"
+			title: "{quest.armor.t3_hazmat.title}"
 			x: 15.0d
 			y: 3.0d
-			subtitle: "We're going to cook, Jesse."
+			subtitle: "{quest.armor.t3_hazmat.subtitle}"
 			description: [
-				"Repaired with lead plate."
+				"{quest.armor.t3_hazmat.description_1}"
 				""
-				"Equipping the hazmat helmet allows you to enter the wasteland without suffering negative effects."
-				"The full hazmat set provides poison and infection immunity."
+				"{quest.armor.t3_hazmat.description_2}"
+				"{quest.armor.t3_hazmat.description_3}"
 			]
 			dependencies: ["0E7353CB27E0D892"]
 			dependency_requirement: "one_started"
@@ -528,13 +528,13 @@
 			}]
 		}
 		{
-			title: "Army General Set"
+			title: "{quest.armor.t2_general.title}"
 			x: 9.5d
 			y: -1.0d
 			description: [
-				"Repaired with cloth."
+				"{quest.armor.t2_general.description_1}"
 				""
-				"Provides melee damage and stamina."
+				"{quest.armor.t2_general.description_2}"
 			]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
@@ -561,13 +561,13 @@
 			}]
 		}
 		{
-			title: "Royal Canada Set"
+			title: "{quest.armor.t2_royal.title}"
 			x: 12.5d
 			y: -1.0d
 			description: [
-				"Repaired with cloth."
+				"{quest.armor.t2_royal.description_1}"
 				""
-				"Provides pistol damage and movement speed."
+				"{quest.armor.t2_royal.description_2}"
 			]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
@@ -592,14 +592,16 @@
 			}]
 		}
 		{
-			title: "Visiting the Wasteland"
+			title: "{quest.armor.t2_gasmask.title}"
 			x: 11.0d
 			y: 3.0d
-			subtitle: "Are you sure you want to go NOW?"
+			subtitle: "{quest.armor.t2_gasmask.subtitle}"
 			description: [
-				"Gas masks can be repaired with breathing filter module."
+				"{quest.armor.t2_gasmask.description_1}"
 				""
-				"Equipping a gas mask allows you to enter the wasteland without suffering negative effects."
+				"{quest.armor.t2_gasmask.description_2}"
+				""
+				"{quest.armor.t2_gasmask.description_3}"
 			]
 			dependencies: ["1B1EB334C4561997"]
 			dependency_requirement: "one_started"
@@ -626,14 +628,14 @@
 			}]
 		}
 		{
-			title: "Exoskeleton - Andesite"
+			title: "{quest.armor.t3_andesite.title}"
 			x: 14.0d
 			y: -2.5d
-			subtitle: "I am speed."
+			subtitle: "{quest.armor.t3_andesite.subtitle}"
 			description: [
-				"Exoskeletons are an alternative to traditional armor, using fuel instead of durability."
+				"{quest.armor.t3_andesite.description_1}"
 				""
-				"Andesite exoskeletons provide a bonus to speed at the cost of strength."
+				"{quest.armor.t3_andesite.description_2}"
 			]
 			dependencies: ["0E7353CB27E0D892"]
 			dependency_requirement: "one_started"
@@ -662,13 +664,13 @@
 			}]
 		}
 		{
-			title: "Army Set"
+			title: "{quest.armor.t3_army.title}"
 			x: 20.5d
 			y: -1.0d
 			description: [
-				"Repaired with steel plate."
+				"{quest.armor.t3_army.description_1}"
 				""
-				"Provides melee damage and range damage."
+				"{quest.armor.t3_army.description_2}"
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -693,13 +695,13 @@
 			}]
 		}
 		{
-			title: "Military Riot Set"
+			title: "{quest.armor.t3_militaryriot.title}"
 			x: 18.0d
 			y: -2.0d
 			description: [
-				"Repaired with high-resistance fabric."
+				"{quest.armor.t3_militaryriot.description_1}"
 				""
-				"Provides damage reduction, attack speed, stamina and slows down enemies when dealt damage to them."
+				"{quest.armor.t3_militaryriot.description_2}"
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -724,13 +726,13 @@
 			}]
 		}
 		{
-			title: "Urban Military Set"
+			title: "{quest.armor.t3_urban.title}"
 			x: 20.0d
 			y: -2.0d
 			description: [
-				"Repaired with high-resistance fabric."
+				"{quest.armor.t3_urban.description_1}"
 				""
-				"Provides melee damage, sniper damage, step height and movement speed increase."
+				"{quest.armor.t3_urban.description_2}"
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -755,15 +757,15 @@
 			}]
 		}
 		{
-			title: "Reclaiming the Wasteland - II"
+			title: "{quest.armor.t3_biohazard.title}"
 			x: 15.0d
 			y: 4.0d
-			subtitle: "Nuclear launch detected."
+			subtitle: "{quest.armor.t3_biohazard.subtitle}"
 			description: [
-				"Repaired with rubber."
+				"{quest.armor.t3_biohazard.description_1}"
 				""
-				"Equipping the biohazard helmet allows you to enter the wasteland without suffering negative effects."
-				"The full biohazard set provides poison, infection, nausea and blindness immunity."
+				"{quest.armor.t3_biohazard.description_2}"
+				"{quest.armor.t3_biohazard.description_3}"
 			]
 			dependencies: ["6CF961E0DB5E373B"]
 			dependency_requirement: "one_started"
@@ -788,13 +790,13 @@
 			}]
 		}
 		{
-			title: "UN Peacekeeper Set"
+			title: "{quest.armor.t3_un.title}"
 			x: 17.5d
 			y: -1.0d
 			description: [
-				"Repaired with cloth."
+				"{quest.armor.t3_un.description_1}"
 				""
-				"Provides attack speed and movement speed."
+				"{quest.armor.t3_un.description_2}"
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -819,13 +821,13 @@
 			}]
 		}
 		{
-			title: "Officer Beret Set"
+			title: "{quest.armor.t3_beret.title}"
 			x: 20.5d
 			y: 1.0d
 			description: [
-				"Repaired with steel plate."
+				"{quest.armor.t3_beret.description_1}"
 				""
-				"Provides attack speed, jump height and knockback strength."
+				"{quest.armor.t3_beret.description_2}"
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -850,13 +852,13 @@
 			}]
 		}
 		{
-			title: "Military Pilot Set"
+			title: "{quest.armor.t3_pilot.title}"
 			x: 17.5d
 			y: 1.0d
 			description: [
-				"Repaired with steel plate."
+				"{quest.armor.t3_pilot.description_1}"
 				""
-				"Provides attack speed, movement speed and knockback strength."
+				"{quest.armor.t3_pilot.description_2}"
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -881,13 +883,13 @@
 			}]
 		}
 		{
-			title: "Atlas Pilot Set"
+			title: "{quest.armor.t3_pilot.title}"
 			x: 18.0d
 			y: 2.0d
 			description: [
-				"Repaired with steel plate."
+				"{quest.armor.t3_pilot.description_1}"
 				""
-				"Provides attack speed, movement speed and knockback strength."
+				"{quest.armor.t3_pilot.description_2}"
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -912,13 +914,13 @@
 			}]
 		}
 		{
-			title: "Military Beret Set"
+			title: "{quest.armor.t3_beret.title}"
 			x: 20.0d
 			y: 2.0d
 			description: [
-				"Repaired with steel plate."
+				"{quest.armor.t3_beret.description_1}"
 				""
-				"Provides attack speed, jump height and knockback strength."
+				"{quest.armor.t3_beret.description_2}"
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -943,14 +945,14 @@
 			}]
 		}
 		{
-			title: "Exoskeleton - Brass"
+			title: "{quest.armor.t3_brass.title}"
 			x: 15.0d
 			y: -3.5d
-			subtitle: "I am... Brass Man."
+			subtitle: "{quest.armor.t3_brass.subtitle}"
 			description: [
-				"Exoskeletons are an alternative to traditional armor, using fuel instead of durability."
+				"{quest.armor.t3_brass.description_1}"
 				""
-				"Brass exoskeletons provide a bonus to both speed and strength."
+				"{quest.armor.t3_brass.description_2}"
 			]
 			dependencies: ["0E7353CB27E0D892"]
 			dependency_requirement: "one_started"
@@ -979,14 +981,14 @@
 			}]
 		}
 		{
-			title: "SWAT Set"
+			title: "{quest.armor.t4_swat.title}"
 			x: 26.0d
 			y: -2.5d
 			description: [
-				"Repaired with high-resistance fabric."
+				"{quest.armor.t4_swat.description_1}"
 				""
-				"Provides minor damage reduction, attack and movement speed increase."
-				"Bonus to SMG damage."
+				"{quest.armor.t4_swat.description_2}"
+				"{quest.armor.t4_swat.description_3}"
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
@@ -1011,14 +1013,14 @@
 			}]
 		}
 		{
-			title: "Riot SWAT Set"
+			title: "{quest.armor.t4_swat_riot.title}"
 			x: 28.0d
 			y: -2.5d
 			description: [
-				"Repaired with high-resistance fabric."
+				"{quest.armor.t4_swat_riot.description_1}"
 				""
-				"Provides minor damage reduction, attack and movement speed increase."
-				"Bonus to melee weapon damage."
+				"{quest.armor.t4_swat_riot.description_2}"
+				"{quest.armor.t4_swat_riot.description_3}"
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
@@ -1043,13 +1045,13 @@
 			}]
 		}
 		{
-			title: "Juggernaut Set"
+			title: "{quest.armor.t4_juggernaut.title}"
 			x: 29.5d
 			y: 1.0d
 			description: [
-				"Repaired with high-resistance fabric."
+				"{quest.armor.t4_juggernaut.description_1}"
 				""
-				"Provides lower damage resistance than bomb squad armor, but gains bonus shotgun damage at the cost of movement speed."
+				"{quest.armor.t4_juggernaut.description_2}"
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
@@ -1074,13 +1076,13 @@
 			}]
 		}
 		{
-			title: "Bomb Squad Set"
+			title: "{quest.armor.t4_bomb_squad.title}"
 			x: 29.5d
 			y: -1.0d
 			description: [
-				"Repaired with high-resistance fabric."
+				"{quest.armor.t4_bomb_squad.description_1}"
 				""
-				"Provides massive damage reduction at the cost of movement speed."
+				"{quest.armor.t4_bomb_squad.description_2}"
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
@@ -1105,14 +1107,14 @@
 			}]
 		}
 		{
-			title: "Spec Ops Set"
+			title: "{quest.armor.t4_specops.title}"
 			x: 28.0d
 			y: 2.5d
 			description: [
-				"Repaired with high-resistance fabric."
+				"{quest.armor.t4_specops.description_1}"
 				""
-				"Provides minor damage reduction, step height and movement speed increase."
-				"Bonus to rifle damage."
+				"{quest.armor.t4_specops.description_2}"
+				"{quest.armor.t4_specops.description_3}"
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
@@ -1137,16 +1139,16 @@
 			}]
 		}
 		{
-			title: "Soldier Set"
+			title: "{quest.armor.t4_soldier.title}"
 			x: 26.0d
 			y: 2.5d
 			description: [
-				"Repaired with high-resistance fabric."
+				"{quest.armor.t4_soldier.description_1}"
 				""
-				"Provides minor damage reduction, step height and movement speed increase."
-				"Bonus to heavy weapon damage."
+				"{quest.armor.t4_soldier.description_2}"
+				"{quest.armor.t4_soldier.description_3}"
 				""
-				"Equipping the soldier helmet allows you to enter the wasteland without suffering negative effects."
+				"{quest.armor.t4_soldier.description_4}"
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"
@@ -1171,7 +1173,7 @@
 			}]
 		}
 		{
-			title: "Repairing"
+			title: "{quest.armor.repair.title}"
 			icon: {
 				id: "immersiveengineering:hammer"
 				Count: 1b
@@ -1182,12 +1184,12 @@
 			x: -5.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "All that experience..."
+			subtitle: "{quest.armor.repair.subtitle}"
 			description: [
-				"Besides combining armors of the same type together, this modpack also offers an alternative way to repair armor."
-				"In most cases, using the MOST used ingredient in the crafting recipe in an anvil will also repair the item."
+				"{quest.armor.repair.description_1}"
+				"{quest.armor.repair.description_2}"
 				""
-				"Be aware that JEI may not list these repair recipies for all armor sets!"
+				"{quest.armor.repair.description_3}"
 			]
 			dependency_requirement: "one_started"
 			size: 2.0d
@@ -1204,20 +1206,21 @@
 			}]
 		}
 		{
+			title: "{quest.armor.mending.title}"
 			icon: {
 				id: "minecraft:enchanted_book"
 				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 1s
 						id: "minecraft:mending"
+						lvl: 1s
 					}]
 				}
 			}
 			x: -4.0d
 			y: -1.0d
-			subtitle: "No easy way out..."
-			description: ["Mending books only have a chance of being bought from master level librarians, making them much harder to obtain."]
+			subtitle: "{quest.armor.mending.subtitle}"
+			description: ["{quest.armor.mending.description_1}"]
 			id: "4D4BC410243D3074"
 			tasks: [{
 				id: "336B8AAE1D3F8B49"
@@ -1231,13 +1234,13 @@
 			}]
 		}
 		{
-			title: "Advanced Manufacturing"
+			title: "{quest.armor.t3_manufacture.title}"
 			icon: "create:mechanical_crafter"
 			x: 15.0d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "No more using your grubby fingers."
-			description: ["Tier III armors and above require the use of a mechanical crafter to be made. "]
+			subtitle: "{quest.armor.t3_manufacture.subtitle}"
+			description: ["{quest.armor.t3_manufacture.description_1}"]
 			dependencies: ["1B1EB334C4561997"]
 			hide: false
 			dependency_requirement: "one_started"
@@ -1255,14 +1258,14 @@
 			}]
 		}
 		{
-			title: "Exoskeleton - Copper"
+			title: "{quest.armor.t3_copper.title}"
 			x: 16.0d
 			y: -2.5d
-			subtitle: "I am strength."
+			subtitle: "{quest.armor.t3_copper.subtitle}"
 			description: [
-				"Exoskeletons are an alternative to traditional armor, using fuel instead of durability."
+				"{quest.armor.t3_copper.description_1}"
 				""
-				"Copper exoskeletons provide a bonus to strength at the cost of speed."
+				"{quest.armor.t3_copper.description_2}"
 			]
 			dependencies: ["0E7353CB27E0D892"]
 			dependency_requirement: "one_started"
@@ -1291,13 +1294,13 @@
 			}]
 		}
 		{
-			title: "Head Protection"
+			title: "{quest.armor.t2_biker.title}"
 			x: 12.5d
 			y: 1.0d
 			description: [
-				"Many types of head protection can be found at this tier."
+				"{quest.armor.t2_biker.description_1}"
 				""
-				"They all provide blindness and nausea immunity."
+				"{quest.armor.t2_biker.description_2}"
 			]
 			dependencies: ["1B1EB334C4561997"]
 			id: "71B08B7A269BD704"
@@ -1319,14 +1322,14 @@
 			}]
 		}
 		{
-			title: "Something Better"
+			title: "{quest.armor.t3_gasmask.title}"
 			x: 19.0d
 			y: 3.0d
 			subtitle: "Last longer and tougher."
 			description: [
-				"Gas masks can be repaired with breathing filter module."
+				"{quest.armor.t3_gasmask.description_1}"
 				""
-				"Equipping a gas mask allows you to enter the wasteland without suffering negative effects."
+				"{quest.armor.t3_gasmask.description_2}"
 			]
 			dependencies: ["0DDB1DF4FFFB6236"]
 			dependency_requirement: "one_started"
@@ -1355,14 +1358,14 @@
 			}]
 		}
 		{
-			title: "Even Better"
+			title: "{quest.armor.t4_gasmask.title}"
 			x: 31.0d
 			y: 0.0d
 			subtitle: "Looks heavy."
 			description: [
-				"Gas masks can be repaired with breathing filter module."
+				"{quest.armor.t4_gasmask.description_1}"
 				""
-				"Equipping a gas mask allows you to enter the wasteland without suffering negative effects."
+				"{quest.armor.t4_gasmask.description_2}"
 			]
 			dependencies: ["4AE5D93FE7346281"]
 			dependency_requirement: "one_started"

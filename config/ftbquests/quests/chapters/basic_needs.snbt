@@ -3,7 +3,7 @@
 	group: "0CEF75605D0E77B3"
 	order_index: 0
 	filename: "basic_needs"
-	title: "Health and Water"
+	title: "{quest.healthwater}"
 	icon: "apocalypsenow:medicalkit"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -113,10 +113,10 @@
 			]
 		}
 		{
-			title: "Wool"
+			title: "{quest.healthwater.wool.title}"
 			x: 8.0d
 			y: 0.0d
-			description: ["Wool is crucial for crafting bandages, recovery items, and various other crafting recipes."]
+			description: ["{quest.healthwater.wool.description_1}"]
 			dependencies: ["103C05E04D0AEB52"]
 			dependency_requirement: "one_started"
 			id: "313201137C44FDB0"
@@ -147,11 +147,11 @@
 			]
 		}
 		{
-			title: "I Need Healing - I"
+			title: "{quest.healthwater.plaster.title}"
 			x: 10.0d
 			y: -1.0d
-			subtitle: "For the small ouchies."
-			description: ["Plasters don't heal much, but they work in a pinch for situations where bandages aren't necessary."]
+			subtitle: "{quest.healthwater.plaster.subtitle}"
+			description: ["{quest.healthwater.plaster.description_1}"]
 			dependencies: ["313201137C44FDB0"]
 			dependency_requirement: "one_started"
 			size: 2.0d
@@ -177,11 +177,11 @@
 			]
 		}
 		{
-			title: "I Need Healing - II"
+			title: "{quest.healthwater.bandages.title}"
 			x: 10.0d
 			y: 1.0d
-			subtitle: "For larger wounds. If you survive them."
-			description: ["The most cost efficient way to heal wounds. While you can find better healing items in the city, they are not as easily automated..."]
+			subtitle: "{quest.healthwater.bandages.subtitle}"
+			description: ["{quest.healthwater.bandages.description_1}"]
 			dependencies: ["313201137C44FDB0"]
 			dependency_requirement: "one_started"
 			size: 2.0d
@@ -321,12 +321,12 @@
 			}]
 		}
 		{
-			title: "Emergency Medicine - I"
+			title: "{quest.healthwater.medkit.title}"
 			x: 12.0d
 			y: 0.0d
 			shape: "rsquare"
-			subtitle: "In case you need even more healing."
-			description: ["You could craft these... but perhaps it would be better to try and find them in hospitals."]
+			subtitle: "{quest.healthwater.medkit.subtitle}"
+			description: ["{quest.healthwater.medkit.description_1}"]
 			size: 1.5d
 			id: "273C809871E090F6"
 			tasks: [{
@@ -341,12 +341,12 @@
 			}]
 		}
 		{
-			title: "Emergency Medicine - II"
+			title: "{quest.healthwater.suturekit.title}"
 			x: 13.5d
 			y: 0.0d
 			shape: "rsquare"
-			subtitle: "The top of the line solution to all your medical needs."
-			description: ["You could craft these... but perhaps it would be better to try and find them in hospitals."]
+			subtitle: "{quest.healthwater.suturekit.subtitle}"
+			description: ["{quest.healthwater.suturekit.description_1}"]
 			size: 1.5d
 			id: "54FE311D0FF66715"
 			tasks: [{

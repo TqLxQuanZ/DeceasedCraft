@@ -3,21 +3,21 @@
 	group: "0CEF75605D0E77B3"
 	order_index: 1
 	filename: "temperature"
-	title: "Temperature"
+	title: "{quest.temperature}"
 	icon: "cold_sweat:thermometer"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Thermometer"
+			title: "{quest.temperature.thermometer.title}"
 			icon: "cold_sweat:thermometer"
 			x: -7.5d
 			y: -5.0d
 			shape: "rsquare"
-			subtitle: "What Temp Is It?"
+			subtitle: "{quest.temperature.thermometer.subtitle}"
 			description: [
-				"A thermometer can accurately measure the present temperature of the environment."
-				"Craft or find one by trading with a cleric villager."
+				"{quest.temperature.thermometer.description_1}"
+				"{quest.temperature.thermometer.description_2}"
 			]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -34,15 +34,15 @@
 			}]
 		}
 		{
-			title: "Waterskin"
+			title: "{quest.temperature.waterskin.title}"
 			x: -9.0d
 			y: -5.0d
-			subtitle: "Hot Water Bottle"
+			subtitle: "{quest.temperature.waterskin.subtitle}"
 			description: [
-				"Waterskins can be filled with water and then heated in a boiler or cooled in an icebox."
+				"{quest.temperature.waterskin.description_1}"
 				""
-				"By putting them in your hotbar, they will gradually warm you up or cool you down."
-				"Filled waterskins can also be dumped onto yourself with right click, providing a burst of heating or cooling."
+				"{quest.temperature.waterskin.description_2}"
+				"{quest.temperature.waterskin.description_3}"
 			]
 			dependencies: [
 				"5D153C60A43C563C"
@@ -64,12 +64,12 @@
 			}]
 		}
 		{
-			title: "Cool Me Down"
+			title: "{quest.temperature.icebox.title}"
 			icon: "cold_sweat:icebox"
 			x: -10.5d
 			y: -3.5d
-			subtitle: "Chill out, bro..."
-			description: ["Iceboxes provide chill in an area if provided with frozen items like ice."]
+			subtitle: "{quest.temperature.icebox.subtitle}"
+			description: ["{quest.temperature.icebox.description_1}"]
 			progression_mode: "flexible"
 			id: "5D153C60A43C563C"
 			tasks: [{
@@ -84,16 +84,16 @@
 			}]
 		}
 		{
-			title: "Best Of Both Worlds"
+			title: "{quest.temperature.hearth.title}"
 			icon: "cold_sweat:hearth"
 			x: -11.0d
 			y: -5.0d
 			shape: "hexagon"
-			subtitle: "Not too hot, not too cold."
+			subtitle: "{quest.temperature.hearth.subtitle}"
 			description: [
-				"Hearths either cool or heat a room to livable tempreatures depending on the outside condition."
+				"{quest.temperature.hearth.description_1}"
 				""
-				"A combination of the benefits of both the boiler and icebox."
+				"{quest.temperature.hearth.description_2}"
 			]
 			size: 2.0d
 			progression_mode: "flexible"
@@ -110,12 +110,12 @@
 			}]
 		}
 		{
-			title: "Warm Me Up"
+			title: "{quest.temperature.boiler.title}"
 			icon: "cold_sweat:boiler"
 			x: -10.5d
 			y: -6.5d
-			subtitle: "Getting hot in here..."
-			description: ["Boilers proviode heat in a radius if provided with burnable materials like coal."]
+			subtitle: "{quest.temperature.boiler.subtitle}"
+			description: ["{quest.temperature.boiler.description_1}"]
 			hide_dependency_lines: false
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -132,17 +132,17 @@
 			}]
 		}
 		{
-			title: "Insulating Armor"
+			title: "{quest.temperature.insulation.title}"
 			icon: "cold_sweat:sewing_table"
 			x: -6.0d
 			y: -5.0d
 			shape: "hexagon"
-			subtitle: "Your Personal Tailor"
+			subtitle: "{quest.temperature.insulation.subtitle}"
 			description: [
-				"A grace period of 5 minutes is given on every respawn during which you are immune to changes in temperature."
-				"However, you will quickly freeze or overheat if unprepared."
+				"{quest.temperature.insulation.description_1}"
+				"{quest.temperature.insulation.description_2}"
 				""
-				"A sewing table will allow you to insulate your armor using various materials."
+				"{quest.temperature.insulation.description_3}"
 			]
 			dependency_requirement: "one_started"
 			size: 2.0d
@@ -161,10 +161,10 @@
 			}]
 		}
 		{
-			title: "Beating the Heat - I"
+			title: "{quest.temperature.hot_1.title}"
 			x: -4.0d
 			y: -3.5d
-			description: ["Straw provides 0.5 units of heat protection."]
+			description: ["{quest.temperature.hot_1.description_1}"]
 			dependencies: ["2ED4C94026456CCA"]
 			dependency_requirement: "one_completed"
 			progression_mode: "flexible"
@@ -181,10 +181,10 @@
 			}]
 		}
 		{
-			title: "Adaptive Insulation - I"
+			title: "{quest.temperature.adapt_1.title}"
 			x: -4.0d
 			y: -5.0d
-			description: ["Canvas provides 0.5 units of heat or cold protection."]
+			description: ["{quest.temperature.adapt_1.description_1}"]
 			dependencies: ["2ED4C94026456CCA"]
 			progression_mode: "flexible"
 			id: "1739FAC2E464132D"
@@ -200,10 +200,10 @@
 			}]
 		}
 		{
-			title: "Bracing the Cold - I"
+			title: "{quest.temperature.cold_1.title}"
 			x: -4.0d
 			y: -6.5d
-			description: ["Leather provides 0.5 units of cold protection."]
+			description: ["{quest.temperature.cold_1.description_1}"]
 			dependencies: ["2ED4C94026456CCA"]
 			progression_mode: "flexible"
 			id: "757B167ADE8B315C"
@@ -219,10 +219,10 @@
 			}]
 		}
 		{
-			title: "Bracing the Cold - II"
+			title: "{quest.temperature.cold_2.title}"
 			x: -2.5d
 			y: -6.5d
-			description: ["Wool provides 1 unit of cold protection."]
+			description: ["{quest.temperature.cold_2.description_1}"]
 			dependencies: ["757B167ADE8B315C"]
 			progression_mode: "flexible"
 			id: "3BF381A61D7A1571"
@@ -238,10 +238,10 @@
 			}]
 		}
 		{
-			title: "Beating the Heat - II"
+			title: "{quest.temperature.hot_2.title}"
 			x: -2.5d
 			y: -3.5d
-			description: ["Honeycomb provides 1 unit of heat protection."]
+			description: ["{quest.temperature.hot_2.description_1}"]
 			dependencies: ["327001B7DCC2B198"]
 			progression_mode: "flexible"
 			id: "2AD93A7F14B73FCE"
@@ -258,10 +258,10 @@
 			}]
 		}
 		{
-			title: "Adaptive Insulation - III"
+			title: "{quest.temperature.adapt_3.title}"
 			x: 0.5d
 			y: -5.0d
-			description: ["Erstaz leather provides 2 units of heat or cold protection."]
+			description: ["{quest.temperature.adapt_3.description_1}"]
 			dependencies: ["2E8859952B83530D"]
 			progression_mode: "flexible"
 			id: "6CEFD8CE72388FF2"
@@ -277,10 +277,10 @@
 			}]
 		}
 		{
-			title: "Bracing the Cold - III"
+			title: "{quest.temperature.cold_3.title}"
 			x: -1.0d
 			y: -6.5d
-			description: ["Tough fabric provides 1.5 units of cold protection."]
+			description: ["{quest.temperature.cold_3.description_1}"]
 			dependencies: ["3BF381A61D7A1571"]
 			progression_mode: "flexible"
 			id: "0A91E388646FCC8E"
@@ -296,10 +296,10 @@
 			}]
 		}
 		{
-			title: "Bracing the Cold - IV"
+			title: "{quest.temperature.cold_4.title}"
 			x: 0.5d
 			y: -6.5d
-			description: ["Goat fur provides 2 units of cold protection."]
+			description: ["{quest.temperature.cold_4.description_1}"]
 			dependencies: ["0A91E388646FCC8E"]
 			progression_mode: "flexible"
 			id: "6E8C8F609568F43D"
@@ -315,10 +315,10 @@
 			}]
 		}
 		{
-			title: "Beating the Heat - IV"
+			title: "{quest.temperature.hot_4.title}"
 			x: 0.5d
 			y: -3.5d
-			description: ["Hoglin hide provides 2 units of heat protection."]
+			description: ["{quest.temperature.hot_4.description_1}"]
 			dependencies: ["380FF30CAA4EBFD0"]
 			progression_mode: "flexible"
 			id: "1EEC985E3D28AF8D"
@@ -334,10 +334,10 @@
 			}]
 		}
 		{
-			title: "Beating the Heat - III"
+			title: "{quest.temperature.hot_3.title}"
 			x: -1.0d
 			y: -3.5d
-			description: ["A slimeball provides 1.5 units of heat protection."]
+			description: ["{quest.temperature.hot_3.description_1}"]
 			dependencies: ["2AD93A7F14B73FCE"]
 			progression_mode: "flexible"
 			id: "380FF30CAA4EBFD0"
@@ -353,10 +353,10 @@
 			}]
 		}
 		{
-			title: "Adaptive Insulation - II"
+			title: "{quest.temperature.adapt_2.title}"
 			x: -2.5d
 			y: -5.0d
-			description: ["Chameleon molt provides 1 unit of heat or cold protection."]
+			description: ["{quest.temperature.adapt_2.description_1}"]
 			dependencies: ["1739FAC2E464132D"]
 			id: "2E8859952B83530D"
 			tasks: [{
@@ -371,7 +371,7 @@
 			}]
 		}
 		{
-			title: "Master of the Cold"
+			title: "{quest.temperature.cold_5.title}"
 			icon: {
 				id: "cold_sweat:fur_parka"
 				Count: 1b
@@ -383,7 +383,7 @@
 			x: 2.5d
 			y: -6.5d
 			shape: "rsquare"
-			subtitle: "Does that make it a fursuit?"
+			subtitle: "{quest.temperature.cold_5.subtitle}"
 			size: 1.5d
 			id: "1201A0894ED292CB"
 			tasks: [
@@ -473,23 +473,18 @@
 			]
 		}
 		{
-			title: "Master of the Heat"
+			title: "{quest.temperature.hot_5.title}"
 			icon: {
 				id: "cold_sweat:hoglin_tunic"
 				Count: 1b
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"cold_sweat:item_insulation": {
-						Insulation: [ ]
-					}
-				}
 			}
 			x: 2.5d
 			y: -3.5d
 			shape: "rsquare"
-			subtitle: "Mm, bacon and eggs."
+			subtitle: "{quest.temperature.hot_5.subtitle}"
 			size: 1.5d
 			id: "34EFCA764E30B493"
 			tasks: [
