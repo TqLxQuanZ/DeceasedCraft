@@ -15,12 +15,12 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Workbench for Guns!"
+			title: "{quest.guns.workbench.title}"
 			x: 4.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "Lock n Load"
-			description: ["All of TAC's weapons and attachments can be crafted at their workbench."]
+			subtitle: "{quest.guns.workbench.subtitle}"
+			description: ["{quest.guns.workbench.description_1}"]
 			dependencies: [
 				"4AB6C074F8B0FB9E"
 				"1D87E5535012EEDF"
@@ -49,7 +49,7 @@
 		{
 			x: 3.0d
 			y: -0.5d
-			description: ["Barrel is one of the most important material to assemble your gun."]
+			description: ["{quest.guns.barrel.description_1}"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "68F47F7416B6010E"
@@ -67,7 +67,7 @@
 		{
 			x: 1.5d
 			y: -4.0d
-			description: ["Steel Component is one of the most important materials to assemble your gun."]
+			description: ["{quest.guns.steel_mechanical.description_1}"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "38FFA4C29ED0DB83"
@@ -85,7 +85,7 @@
 		{
 			x: 5.0d
 			y: -0.5d
-			description: ["Steel Rod is one of the most important materials to assemble your gun."]
+			description: ["{quest.guns.steel_rod.description_1}"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "23C7010AC01986C1"
@@ -101,9 +101,10 @@
 			}]
 		}
 		{
+			title: "{quest.guns.spring.title}"
 			x: 4.0d
 			y: -5.0d
-			description: ["Recoil Spring is one of the most important materials to assemble your gun."]
+			description: ["{quest.guns.spring.description_1}"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "516FDD676D28100E"
@@ -121,7 +122,7 @@
 		{
 			x: 2.0d
 			y: -2.5d
-			description: ["Steel Plate is one of the most important materials to assemble your gun."]
+			description: ["{quest.guns.steel_plate.description_1}"]
 			dependencies: ["2B210294E5EEA1D9"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -140,7 +141,7 @@
 		{
 			x: 6.0d
 			y: -2.5d
-			description: ["Several high-tier guns require the material Aluminum Plate."]
+			description: ["{quest.guns.aluminum_plate.description_1}"]
 			dependencies: ["5A03F43381D2CB75"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"

@@ -119,9 +119,9 @@
 			y: -1.5d
 			shape: "hexagon"
 			description: [
-				"Pour the phenolic resin into a plate mold using a Bottling Machine."
+				"{quest.guns.plastic.description_1}"
 				""
-				"Engineers Manual: Heavy Machinery > Bottling Machine."
+				"{quest.guns.plastic.description_2}"
 			]
 			dependencies: [
 				"63E59FB8B226160E"
@@ -298,13 +298,14 @@
 			]
 		}
 		{
+			title: "{quest.guns.rubber.title}"
 			x: 24.0d
 			y: -6.0d
 			shape: "hexagon"
 			description: [
-				"Obtain rubber by combining ethylene and propylene in the refinery unit."
+				"{quest.guns.rubber.description_1}"
 				""
-				"It is also possible to obtain rubber from various buildings!"
+				"{quest.guns.rubber.description_2}"
 			]
 			dependencies: [
 				"79DB78FF202EFC39"
@@ -392,14 +393,14 @@
 			}]
 		}
 		{
-			title: "High Carbon Steel Alloy"
+			title: "{quest.melee.carbon_smelt.title}"
 			x: 24.0d
 			y: -12.0d
 			shape: "hexagon"
 			description: [
-				"Obtained by combining polyethylene with a steel ingot inside the Arc Furnace."
+				"{quest.melee.carbon_smelt.description_1}"
 				""
-				"- It can also be found in wasteland buildings."
+				"{quest.melee.carbon_smelt.description_2}"
 			]
 			dependencies: [
 				"127BFFF817F6D610"
@@ -425,8 +426,8 @@
 			x: 16.5d
 			y: -10.5d
 			shape: "hexagon"
-			subtitle: "Loominum"
-			description: ["Smelt bauxite ore into aluminum ingots."]
+			subtitle: "{quest.guns.aluminum_ingot.subtitle}"
+			description: ["{quest.guns.aluminum_ingot.description_1}"]
 			dependencies: ["735FD75967EE7FF2"]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -668,7 +669,7 @@
 			x: 24.0d
 			y: -1.5d
 			subtitle: "No more pesky HV wires"
-			description: ["Rubber can be used to craft pipes, which allow for more effient transport of power, fluids and items."]
+			description: ["Rubber can be used to craft pipes, which allow for more efficient transport of power, fluids and items."]
 			dependencies: [
 				"1D87E5535012EEDF"
 				"4AB6C074F8B0FB9E"
