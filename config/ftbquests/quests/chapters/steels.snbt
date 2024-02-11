@@ -100,15 +100,16 @@
 			}]
 		}
 		{
+			title: "{quest.melee.steel_ingot.title}"
 			x: 9.0d
 			y: -1.5d
 			shape: "hexagon"
 			description: [
-				"Smelt an iron ingot into steel using the blast furnace."
+				"{quest.melee.steel_ingot.description_1}"
 				""
-				"Be warned, the blast furnace uses a lot of fuel!"
+				"{quest.melee.steel_ingot.description_2}"
 				""
-				"Alternatively, steel can also be found by looting ruins."
+				"{quest.melee.steel_ingot.description_3}"
 			]
 			dependencies: ["741526AA7D74D11C"]
 			dependency_requirement: "one_started"

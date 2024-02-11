@@ -3,7 +3,7 @@
 	group: "0CEF75605D0E77B3"
 	order_index: 3
 	filename: "chapter_2_combat"
-	title: "Melee Weapons"
+	title: "{quest.melee}"
 	icon: {
 		id: "apocalypsenow:fire_axe"
 		Count: 1b
@@ -15,7 +15,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Combat"
+			title: "{quest.melee.combat.title}"
 			icon: {
 				id: "minecraft:wooden_sword"
 				Count: 1b
@@ -27,11 +27,11 @@
 			y: 6.0d
 			shape: "gear"
 			description: [
-				"Surviving the apocalypse requires equipping oneself with weapons."
+				"{quest.melee.combat.description_1}"
 				""
-				"Most of the weapons listed here are made with some combination of iron and steel."
+				"{quest.melee.combat.description_2}"
 				""
-				"There are also plenty of weapons not listed here that can be found through JEI, feel free to look around..."
+				"{quest.melee.combat.description_3}"
 			]
 			dependencies: ["2B210294E5EEA1D9"]
 			dependency_requirement: "one_started"
@@ -274,11 +274,11 @@
 			}]
 		}
 		{
-			title: "Swing Hard - I"
+			title: "{quest.melee.swing_i.title}"
 			x: -20.0d
 			y: 5.0d
 			shape: "hexagon"
-			description: ["Obtain a baseball bat."]
+			description: ["{quest.melee.swing_i.description_1}"]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
@@ -301,13 +301,12 @@
 			}]
 		}
 		{
-			title: "Swing Hard - II"
+			title: "{quest.melee.swing_ii.title}"
 			x: -16.0d
 			y: 5.0d
-			description: ["Obtain or craft a wrapped baseball bat."]
+			description: ["{quest.melee.swing_ii.description_1}"]
 			dependencies: ["000A365F13CD2A32"]
 			dependency_requirement: "one_started"
-			hide_text_until_complete: true
 			progression_mode: "flexible"
 			id: "491B68D87E68D1E5"
 			tasks: [{
@@ -328,10 +327,10 @@
 			}]
 		}
 		{
-			title: "Swing Hard - III"
+			title: "{quest.melee.swing_iii.title}"
 			x: -17.0d
 			y: 1.5d
-			description: ["Obtain or craft a spiked baseball bat."]
+			description: ["{quest.melee.swing_iii.description_1}"]
 			dependencies: ["000A365F13CD2A32"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -354,10 +353,10 @@
 			}]
 		}
 		{
-			title: "Swing Hard - IV"
+			title: "{quest.melee.swing_iv.title}"
 			x: -23.0d
 			y: 1.5d
-			description: ["Obtain or craft a wired baseball bat."]
+			description: ["{quest.melee.swing_iv.description_1}"]
 			dependencies: ["000A365F13CD2A32"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -380,10 +379,10 @@
 			}]
 		}
 		{
-			title: "Swing Hard - V"
+			title: "{quest.melee.swing_v.title}"
 			x: -24.5d
 			y: 5.0d
-			description: ["Obtain or craft an electric baseball bat."]
+			description: ["{quest.melee.swing_v.description_1}"]
 			dependencies: ["000A365F13CD2A32"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -406,10 +405,10 @@
 			}]
 		}
 		{
-			title: "Swing Hard - VI"
+			title: "{quest.melee.swing_vi.title}"
 			x: -23.0d
 			y: 8.5d
-			description: ["Obtain or craft a saw baseball bat."]
+			description: ["{quest.melee.swing_vi.description_1}"]
 			dependencies: ["000A365F13CD2A32"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -432,10 +431,10 @@
 			}]
 		}
 		{
-			title: "Swing Hard - VII"
+			title: "{quest.melee.swing_vii.title}"
 			x: -20.0d
 			y: 9.5d
-			description: ["Obtain or craft an iron baseball bat."]
+			description: ["{quest.melee.swing_vii.description_1}"]
 			dependencies: ["000A365F13CD2A32"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -458,9 +457,10 @@
 			}]
 		}
 		{
+			title: "{quest.melee.swing_viii.title}"
 			x: -17.0d
 			y: 8.5d
-			description: ["Obtain or craft a spiked iron baseball bat."]
+			description: ["{quest.melee.swing_viii.description_1}"]
 			dependencies: ["000A365F13CD2A32"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -483,11 +483,11 @@
 			}]
 		}
 		{
-			title: "Stronger Than Netherite"
+			title: "{quest.melee.carbon.title}"
 			x: -11.0d
 			y: -1.5d
 			shape: "gear"
-			description: ["Acquire a high-carbon steel alloy, a valuable material for crafting advanced weapons suitable for the late stages of the game."]
+			description: ["{quest.melee.carbon.description_1}"]
 			dependencies: ["0C3BABE6431EA92C"]
 			dependency_requirement: "one_started"
 			size: 2.0d
@@ -505,10 +505,10 @@
 			}]
 		}
 		{
-			title: "Tactical - IV"
+			title: "{quest.melee.tactical_iv.title}"
 			x: -8.0d
 			y: -1.5d
-			description: ["Obtain or craft a tactical sword."]
+			description: ["{quest.melee.tactical_iv.description_1}"]
 			dependencies: ["1E2A7DC56202A285"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -531,10 +531,10 @@
 			}]
 		}
 		{
-			title: "Tactical - I"
+			title: "{quest.melee.tactical_i.title}"
 			x: -13.0d
 			y: -4.0d
-			description: ["Obtain or craft a tactical knife."]
+			description: ["{quest.melee.tactical_i.description_1}"]
 			dependencies: ["1E2A7DC56202A285"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -557,9 +557,10 @@
 			}]
 		}
 		{
-			title: "Tactical - II"
+			title: "{quest.melee.tactical_ii.title}"
 			x: -11.0d
 			y: -4.5d
+			description: ["{quest.melee.tactical_ii.description_1}"]
 			dependencies: ["1E2A7DC56202A285"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -582,10 +583,10 @@
 			}]
 		}
 		{
-			title: "Tactical - III"
+			title: "{quest.melee.tactical_iii.title}"
 			x: -9.0d
 			y: -4.0d
-			description: ["Obtain or craft a tactical machete."]
+			description: ["{quest.melee.tactical_iii.description_1}"]
 			dependencies: ["1E2A7DC56202A285"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -608,10 +609,10 @@
 			}]
 		}
 		{
-			title: "Tactical - V"
+			title: "{quest.melee.tactical_v.title}"
 			x: -9.0d
 			y: 1.0d
-			description: ["Obtain or craft a combat axe."]
+			description: ["{quest.melee.tactical_v.description_1}"]
 			dependencies: ["1E2A7DC56202A285"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -634,10 +635,10 @@
 			}]
 		}
 		{
-			title: "Tactical - Z"
+			title: "{quest.melee.tactical_z.title}"
 			x: -14.0d
 			y: -1.5d
-			description: ["Obtain or craft a katana."]
+			description: ["{quest.melee.tactical_z.description_1}"]
 			dependencies: ["1E2A7DC56202A285"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -660,13 +661,10 @@
 			}]
 		}
 		{
-			title: "Tactical - VI"
+			title: "{quest.melee.tactical_vi.title}"
 			x: -13.0d
 			y: 1.0d
-			description: [
-				"Obtain or craft a military shovel and use as a spear."
-				"Wut du hell is this doing here?"
-			]
+			description: ["{quest.melee.tactical_vi.description_1}"]
 			dependencies: ["1E2A7DC56202A285"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -689,11 +687,11 @@
 			}]
 		}
 		{
-			title: "Slasher"
+			title: "{quest.melee.slasher_i.title}"
 			x: -11.0d
 			y: 19.5d
 			shape: "hexagon"
-			description: ["Obtain or craft a knife."]
+			description: ["{quest.melee.slasher_i.description_1"]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
@@ -716,11 +714,11 @@
 			}]
 		}
 		{
-			title: "Here Comes Johnny"
+			title: "{quest.melee.chopper_i.title}"
 			x: -20.0d
 			y: 14.0d
 			shape: "hexagon"
-			description: ["Obtain or craft a steel axe."]
+			description: ["{quest.melee.chopper_i.description_1}"]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
@@ -743,9 +741,10 @@
 			}]
 		}
 		{
-			title: "Slasher - I"
+			title: "{quest.melee.slasher_ii.title}"
 			x: -7.5d
 			y: 19.5d
+			description: ["{quest.melee.slasher_ii.description_1}"]
 			dependencies: ["469669EBA16B362B"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -768,10 +767,10 @@
 			}]
 		}
 		{
-			title: "Slasher - II"
+			title: "{quest.melee.slasher_iii.title}"
 			x: -8.0d
 			y: 21.5d
-			description: ["Obtain or craft a hunting knife."]
+			description: ["{quest.melee.slasher_iii.description_1}"]
 			dependencies: ["469669EBA16B362B"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -794,10 +793,10 @@
 			}]
 		}
 		{
-			title: "Slasher - III"
+			title: "{quest.melee.slasher_iv.title}"
 			x: -10.0d
 			y: 23.0d
-			description: ["Obtain or craft a switchknife."]
+			description: ["{quest.melee.slasher_iv.description_1}"]
 			dependencies: ["469669EBA16B362B"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -820,10 +819,10 @@
 			}]
 		}
 		{
-			title: "Poker - I"
+			title: "{quest.melee.poker_i.title}"
 			x: -14.5d
 			y: 19.5d
-			description: ["Obtain or craft a butterfly knife."]
+			description: ["{quest.melee.poker_i.description_1}"]
 			dependencies: ["469669EBA16B362B"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -846,10 +845,10 @@
 			}]
 		}
 		{
-			title: "Poker - II"
+			title: "{quest.melee.poker_ii.title}"
 			x: -14.0d
 			y: 21.5d
-			description: ["Obtain or craft a long knife."]
+			description: ["{quest.melee.poker_ii.description_1}"]
 			dependencies: ["469669EBA16B362B"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -872,10 +871,10 @@
 			}]
 		}
 		{
-			title: "Poker - III"
+			title: "{quest.melee.poker_iii.title}"
 			x: -12.0d
 			y: 23.0d
-			description: ["Obtain or craft a stiletto knife."]
+			description: ["{quest.melee.poker_iii.description_1}"]
 			dependencies: ["469669EBA16B362B"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -898,11 +897,11 @@
 			}]
 		}
 		{
-			title: "Psycho Killer"
+			title: "{quest.melee.psycho_i.title}"
 			x: -11.0d
 			y: 14.0d
 			shape: "hexagon"
-			description: ["Obtain or craft a machete."]
+			description: ["{quest.melee.psycho_i.description_1}"]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
@@ -925,10 +924,10 @@
 			}]
 		}
 		{
-			title: "Chopper - I"
+			title: "{quest.melee.chopper_ii.title}"
 			x: -18.0d
 			y: 11.5d
-			description: ["Obtain or craft a fire axe."]
+			description: ["{quest.melee.chopper_ii.description_1}"]
 			dependencies: ["4F224A21616D1DA3"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -951,10 +950,10 @@
 			}]
 		}
 		{
-			title: "Chopper - II"
+			title: "{quest.melee.chopper_iii.title}"
 			x: -22.0d
 			y: 11.5d
-			description: ["Obtain or craft a construction axe."]
+			description: ["{quest.melee.chopper_iii.description_1}"]
 			dependencies: ["4F224A21616D1DA3"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -977,10 +976,10 @@
 			}]
 		}
 		{
-			title: "Chopper - III"
+			title: "{quest.melee.chopper_iv.title}"
 			x: -23.0d
 			y: 14.0d
-			description: ["Obtain or craft a hand axe."]
+			description: ["{quest.melee.chopper_iv.description_1}"]
 			dependencies: ["4F224A21616D1DA3"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1003,10 +1002,10 @@
 			}]
 		}
 		{
-			title: "Chopper - IV"
+			title: "{quest.melee.chopper_v.title}"
 			x: -22.0d
 			y: 16.5d
-			description: ["Obtain or craft a lumberjack axe."]
+			description: ["{quest.melee.chopper_v.description_1}"]
 			dependencies: ["4F224A21616D1DA3"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1029,10 +1028,10 @@
 			}]
 		}
 		{
-			title: "Chopper - V"
+			title: "{quest.melee.chopper_vi.title}"
 			x: -18.0d
 			y: 16.5d
-			description: ["Obtain or craft a gardening axe."]
+			description: ["{quest.melee.chopper_vi.description_1}"]
 			dependencies: ["4F224A21616D1DA3"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1055,10 +1054,10 @@
 			}]
 		}
 		{
-			title: "Chopper - VI"
+			title: "{quest.melee.chopper_vii.title}"
 			x: -17.0d
 			y: 14.0d
-			description: ["Obtain or craft an ice axe."]
+			description: ["{quest.melee.chopper_vii.description_1}"]
 			dependencies: ["4F224A21616D1DA3"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1081,11 +1080,11 @@
 			}]
 		}
 		{
-			title: "Safe and Lethal"
+			title: "{quest.melee.safe_i.title}"
 			x: -3.0d
 			y: 14.0d
 			shape: "hexagon"
-			description: ["Obtain or craft a spear."]
+			description: ["{quest.melee.safe_i.description_1}"]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
@@ -1108,10 +1107,10 @@
 			}]
 		}
 		{
-			title: "Psycho Killer - I"
+			title: "{quest.melee.psycho_ii.title}"
 			x: -8.0d
 			y: 14.0d
-			description: ["Obtain or craft a hawkbill machete."]
+			description: ["{quest.melee.psycho_ii.description_1}"]
 			dependencies: ["4A16A8178FD93EEF"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1134,10 +1133,10 @@
 			}]
 		}
 		{
-			title: "Psycho Killer - II"
+			title: "{quest.melee.psycho_v.title}"
 			x: -11.0d
 			y: 17.0d
-			description: ["Obtain or craft a bowie machete."]
+			description: ["{quest.melee.psycho_v.description_1}"]
 			dependencies: ["4A16A8178FD93EEF"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1160,10 +1159,10 @@
 			}]
 		}
 		{
-			title: "Psycho Killer - III"
+			title: "{quest.melee.psycho_iii.title}"
 			x: -11.0d
 			y: 11.0d
-			description: ["Obtain or craft a heavy machete."]
+			description: ["{quest.melee.psycho_iii.description_1}"]
 			dependencies: ["4A16A8178FD93EEF"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1186,10 +1185,10 @@
 			}]
 		}
 		{
-			title: "Psycho Killer - IV"
+			title: "{quest.melee.psycho_iv.title}"
 			x: -14.0d
 			y: 14.0d
-			description: ["Obtain or craft a kukri machete."]
+			description: ["{quest.melee.psycho_iv.description_1}"]
 			dependencies: ["4A16A8178FD93EEF"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1212,11 +1211,11 @@
 			}]
 		}
 		{
-			title: "It ain't stupid if it works - I"
+			title: "{quest.melee.safe_ii.title}"
 			x: -0.5d
 			y: 11.5d
-			subtitle: "I can't believe this worked!"
-			description: ["Obtain or craft a snow shovel."]
+			subtitle: "{quest.melee.safe_ii.subtitle}"
+			description: ["{quest.melee.safe_ii.description_1}"]
 			dependencies: ["551AF18E7B486D39"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1239,11 +1238,11 @@
 			}]
 		}
 		{
-			title: "It ain't stupid if it works - II"
+			title: "{quest.melee.safe_v.title}"
 			x: -0.5d
 			y: 16.5d
-			subtitle: "I can't believe this worked!"
-			description: ["Obtain or craft a construction shovel."]
+			subtitle: "{quest.melee.safe_v.subtitle}"
+			description: ["{quest.melee.safe_v.description_1}"]
 			dependencies: ["551AF18E7B486D39"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1266,10 +1265,11 @@
 			}]
 		}
 		{
-			title: "It ain't stupid if it works - III"
+			title: "{quest.melee.safe_iv.title}"
 			x: -5.5d
 			y: 16.5d
-			description: ["Obtain or craft a garden fork."]
+			subtitle: "{quest.melee.safe_iv.subtitle}"
+			description: ["{quest.melee.safe_iv.description_1}"]
 			dependencies: ["551AF18E7B486D39"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -1292,11 +1292,11 @@
 			}]
 		}
 		{
-			title: "It ain't stupid if it works - IV"
+			title: "{quest.melee.safe_iii.title}"
 			x: -5.5d
 			y: 11.5d
-			subtitle: "Now that's a little expensive."
-			description: ["Obtain or craft a diamond shovel."]
+			subtitle: "{quest.melee.safe_iii.subtitle}"
+			description: ["{quest.melee.safe_iii.description_1}"]
 			dependencies: ["551AF18E7B486D39"]
 			dependency_requirement: "one_started"
 			id: "18CFAA4B4B0E0D13"
