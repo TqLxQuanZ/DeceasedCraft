@@ -3,21 +3,21 @@
 	group: "06797646CDBF2AAC"
 	order_index: 2
 	filename: "machinery"
-	title: "Advanced Materials"
+	title: "{quest.material}"
 	icon: "immersiveengineering:plate_duroplast"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Arc Furnace"
+			title: "{quest.material.arc_furnace.title}"
 			x: 6.0d
 			y: -10.5d
 			description: [
-				"Engineers Manual: Heavy Machinery > Arc Furnace"
+				"{quest.material.arc_furnace.description_1}"
 				""
-				"Allows for extracting more ingots from ore."
-				"Bauxite can only be processed in this machine."
-				"Arc Furnace requires graphite electrode to operate."
+				"{quest.material.arc_furnace.description_2}"
+				"{quest.material.arc_furnace.description_3}"
+				"{quest.material.arc_furnace.description_4}"
 			]
 			dependencies: ["4A1A36DD335F7F72"]
 			dependency_requirement: "one_started"
@@ -36,15 +36,12 @@
 			}]
 		}
 		{
-			title: "Metal Press"
+			title: "{quest.material.metal_press.title}"
 			x: 2.25d
 			y: -6.0d
 			shape: "circle"
-			subtitle: "Feeling the Pressure"
-			description: [
-				"The metal press allows for automation of components, which are used to build the main blocks of all of Immersive Engineerings machines."
-				""
-			]
+			subtitle: "{quest.material.metal_press.subtitle}"
+			description: ["{quest.material.metal_press.description_1}"]
 			dependencies: ["2FAC7CA3578CD6CA"]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -63,13 +60,13 @@
 			}]
 		}
 		{
-			title: "Refinery"
+			title: "{quest.material.refinery.title}"
 			x: 6.0d
 			y: -2.5d
 			description: [
-				"Engineers Manual: Heavy Machinery > Refinery"
+				"{quest.material.refinery.description_1}"
 				""
-				"The refinery is used multiple times in the production of Duroplast."
+				"{quest.material.refinery.description_2}"
 			]
 			dependencies: ["4A1A36DD335F7F72"]
 			dependency_requirement: "one_started"
@@ -88,13 +85,13 @@
 			}]
 		}
 		{
-			title: "Mixer"
+			title: "{quest.material.mixer.title}"
 			x: 6.0d
 			y: -7.0d
 			description: [
-				"Engineers Manual: Heavy Machinery > Mixer"
+				"{quest.material.mixer.description_1}"
 				""
-				"The mixer is required to produce liquid concrete for the derrick."
+				"{quest.material.mixer.description_2}"
 			]
 			min_required_dependencies: 1
 			dependencies: ["4A1A36DD335F7F72"]
@@ -147,9 +144,9 @@
 			x: 6.0d
 			y: -5.0d
 			description: [
-				"The survey tool is used to seek for oil reservoirs. Use buckshot on it to get a survey map."
+				"{quest.material.seismic.description_1}"
 				""
-				"Light colored patches indicate deposits of water or crude oil."
+				"{quest.material.seismic.description_2}"
 			]
 			dependencies: ["4A1A36DD335F7F72"]
 			dependency_requirement: "one_started"
@@ -173,12 +170,12 @@
 			y: -6.0d
 			subtitle: "Black Gold"
 			description: [
-				"When you're ready, construct the derrick on top of the oil pocket. The derrick drills in two steps:"
+				"{quest.material.derrick.description_1}"
 				""
-				"- The first step requires liquid concrete to be pumped in."
-				"- The second requires water."
+				"{quest.material.derrick.description_2}"
+				"{quest.material.derrick.description_3}"
 				""
-				"BEWARE: Once the derrick completes drilling it will IMMEDIATELY start spilling oil! Make sure your storage is connected before you start or you will lose a lot of it!"
+				"{quest.material.derrick.description_4}"
 			]
 			dependencies: [
 				"214C3F711F81055E"
@@ -208,16 +205,16 @@
 			]
 		}
 		{
-			title: "Pumpjack"
+			title: "{quest.material.pumpjack.title}"
 			x: 13.5d
 			y: -5.0d
-			subtitle: "The Big Succ"
+			subtitle: "{quest.material.pumpjack.subtitle}"
 			description: [
-				"Once the pressure in the reservoir drops too low, the derrick will stop working."
+				"{quest.material.pumpjack.description_1}"
 				""
-				"Dismantle it and construct a Pumpjack on top of the well to continue extracting oil."
+				"{quest.material.pumpjack.description_2}"
 				""
-				"You can check the current pressure in the reservoir using the survey tool."
+				"{quest.material.pumpjack.description_3}"
 			]
 			dependencies: ["30DD32A41789F621"]
 			dependency_requirement: "one_started"
@@ -235,14 +232,14 @@
 			}]
 		}
 		{
-			title: "Oil Tank"
+			title: "{quest.material.oil_tank.title}"
 			x: 10.0d
 			y: -6.0d
-			subtitle: "You gotta put it all somewhere..."
+			subtitle: "{quest.material.oil_tank.subtitle}"
 			description: [
-				"It's recommended you connect an oil tank near to where you set up the derrick, to catch the inital burst of oil."
+				"{quest.material.oil_tank.description_1}"
 				""
-				"Up to 50% of the reservoir can be lost if you just drill in there without proper storage..."
+				"{quest.material.oil_tank.description_2}"
 			]
 			dependencies: [
 				"4A1A36DD335F7F72"
@@ -264,13 +261,13 @@
 			}]
 		}
 		{
-			title: "Distillation Tower"
+			title: "{quest.material.distill.title}"
 			x: 16.5d
 			y: -6.75d
 			description: [
-				"The distillation tower is used to seperate crude oil into its components, as well as refine certain chemicals."
+				"{quest.material.distill.description_1}"
 				""
-				"You may need to construct multiple of these to automate the entire process..."
+				"{quest.material.distill.description_2}"
 			]
 			dependencies: ["30DD32A41789F621"]
 			dependency_requirement: "one_started"
@@ -329,7 +326,7 @@
 		{
 			x: 21.0d
 			y: -10.5d
-			description: ["Obtain polyethylene by processing ethylene in the refinery unit."]
+			description: ["{quest.material.polyethylene.description_1}"]
 			dependencies: ["79DB78FF202EFC39"]
 			dependency_requirement: "one_started"
 			progression_mode: "linear"
@@ -350,7 +347,7 @@
 			x: 24.0d
 			y: -9.0d
 			shape: "hexagon"
-			description: ["Obtained by smelting polyethylene inside the Arc Furnace."]
+			description: ["{quest.material.resistance_fiber.description_1}"]
 			dependencies: [
 				"127BFFF817F6D610"
 				"735FD75967EE7FF2"
@@ -374,7 +371,7 @@
 			x: 25.5d
 			y: -9.0d
 			shape: "hexagon"
-			description: ["Combine 4 high-resistance fibers."]
+			description: ["{quest.material.resistance_fabric.description_1}"]
 			dependencies: ["46570C043F3FB3BE"]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -446,12 +443,13 @@
 			}]
 		}
 		{
+			title: "{quest.material.power.title}"
 			icon: "immersiveengineering:windmill"
 			x: 0.5d
 			y: -6.0d
 			shape: "gear"
-			subtitle: "A potato battery will suffice"
-			description: ["Be warned, power or stress unit generation will not be covered here. Make sure you have enough power to supply your machines!"]
+			subtitle: "{quest.material.power.subtitle}"
+			description: ["{quest.material.power.description_1}"]
 			dependencies: ["2FAC7CA3578CD6CA"]
 			dependency_requirement: "one_started"
 			progression_mode: "linear"
@@ -468,13 +466,13 @@
 			}]
 		}
 		{
-			title: "High-Pressure Refinery Unit"
+			title: "{quest.material.high_refinery.title}"
 			x: 16.5d
 			y: -5.25d
 			description: [
-				"The refinery unit combines two liquids together at high pressure to produce new liquids."
+				"{quest.material.high_refinery.description_1}"
 				""
-				"You may need to construct multiple of these to automate the entire process..."
+				"{quest.material.high_refinery.description_2}"
 			]
 			dependencies: ["30DD32A41789F621"]
 			dependency_requirement: "one_started"
@@ -502,15 +500,15 @@
 			]
 		}
 		{
-			title: "Advanced Machines"
+			title: "{quest.material.book.title}"
 			icon: "immersiveengineering:manual"
 			x: -1.0d
 			y: -6.0d
-			subtitle: "It's about to get technical..."
+			subtitle: "{quest.material.book.subtitle}"
 			description: [
-				"This part of the quest book is only a brief outline as to the process of obtaining the higher-end materials in this modpack."
+				"{quest.material.book.description_1}"
 				""
-				"It is recommended you check out the Engineer's Manual to get an idea of how to construct (and use) these machines."
+				"{quest.material.book.description_2}"
 			]
 			id: "2FAC7CA3578CD6CA"
 			tasks: [{
@@ -525,11 +523,11 @@
 			}]
 		}
 		{
-			title: "Strike Oil!"
+			title: "{quest.material.oil.title}"
 			x: 8.5d
 			y: -5.0d
-			subtitle: "Now the hard part begins..."
-			description: ["Successfully locate an oil reservoir with the survey tool."]
+			subtitle: "{quest.material.oil.subtitle}"
+			description: ["{quest.material.oil.description_1}"]
 			dependencies: ["77EC1AAFA634748C"]
 			progression_mode: "linear"
 			id: "214C3F711F81055E"
@@ -549,7 +547,7 @@
 			x: 8.5d
 			y: -7.0d
 			subtitle: "Don't spill it now..."
-			description: ["You'll want a good stockpile of this for the derrick's initial drilling process."]
+			description: ["{quest.material.concrete.description_1}"]
 			dependencies: ["66347F4471AF0AD5"]
 			progression_mode: "linear"
 			id: "4011B3F40BE5AC43"
@@ -562,7 +560,7 @@
 		{
 			x: 19.0d
 			y: -6.0d
-			description: ["Obtain Naptha by cracking crude oil in the distillation tower."]
+			description: ["{quest.material.naptha.description_1}"]
 			dependencies: [
 				"7D29A71120419FE4"
 				"06EF7D03DE0768F5"
@@ -584,7 +582,7 @@
 		{
 			x: 20.0d
 			y: -6.0d
-			description: ["Obtain cracked naphta by combining naptha with water in the refinery unit."]
+			description: ["{quest.material.cracked_naptha.description_1}"]
 			dependencies: ["0C32FC3CA332DD0C"]
 			progression_mode: "linear"
 			id: "27C1BD1983456DB1"
@@ -608,7 +606,7 @@
 		{
 			x: 21.0d
 			y: -6.5d
-			description: ["Obtain ethylene by processing cracked naptha in the distillation tower."]
+			description: ["{quest.material.ethylene.description_1}"]
 			dependencies: ["27C1BD1983456DB1"]
 			progression_mode: "linear"
 			id: "79DB78FF202EFC39"
@@ -626,7 +624,7 @@
 		{
 			x: 21.0d
 			y: -5.5d
-			description: ["Obtain propylene by processing cracked naptha in the distillation tower."]
+			description: ["{quest.material.propylene.description_1}"]
 			dependencies: ["27C1BD1983456DB1"]
 			progression_mode: "linear"
 			id: "4F92684663C4744D"
@@ -644,11 +642,11 @@
 		{
 			x: 15.5d
 			y: -6.0d
-			subtitle: "Barbecue Time"
+			subtitle: "{quest.material.flarestack.subtitle}"
 			description: [
-				"The next few steps involve many different types of liquids and mixing."
+				"{quest.material.flarestack.description_1}"
 				""
-				"You can use the flare stack to burn off excess or unwanted components."
+				"{quest.material.flarestack.description_2}"
 			]
 			dependencies: ["30DD32A41789F621"]
 			progression_mode: "linear"
@@ -696,14 +694,15 @@
 			}]
 		}
 		{
+			title: "{quest.material.rail.title}"
 			icon: "create:track"
 			x: 13.5d
 			y: -7.0d
-			subtitle: "Train time? Train time."
+			subtitle: "{quest.material.rail.subtitle}"
 			description: [
-				"Your oil deposit may be a long way from home..."
+				"{quest.material.rail.description_1}"
 				""
-				"Perhaps using Create's trains could allow you to ship it home automatically?"
+				"{quest.material.rail.description_2}"
 			]
 			dependencies: ["30DD32A41789F621"]
 			progression_mode: "linear"
@@ -775,9 +774,9 @@
 			x: 6.0d
 			y: -1.5d
 			description: [
-				"Acquire ethanol by fermenting organic matter in a Fermenter."
+				"{quest.material.ethanol.description_1}"
 				""
-				"Engineers Manual: Heavy Machinery > Fermenter"
+				"{quest.material.ethanol.description_2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4A1A36DD335F7F72"]
@@ -846,7 +845,7 @@
 		{
 			x: 0.5d
 			y: -7.5d
-			description: ["Craft a projector to visualise your multiblock structure properly."]
+			description: ["{quest.material.projector.description_1}"]
 			dependency_requirement: "one_started"
 			id: "5A1F033D08C396E1"
 			tasks: [{
