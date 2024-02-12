@@ -62,7 +62,7 @@
 			]
 		}
 		{
-			title: "Vanilla Style"
+			title: "{quest.melee.vanilla.title}"
 			icon: {
 				id: "minecraft:stone_sword"
 				Count: 1b
@@ -73,7 +73,7 @@
 			x: -3.0d
 			y: 5.25d
 			shape: "hexagon"
-			description: ["Obtain a stone sword."]
+			description: ["{quest.melee.vanilla.description_1}"]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
@@ -96,7 +96,7 @@
 			}]
 		}
 		{
-			title: "Better Damage But Slow - I"
+			title: "{quest.melee.damage_i.title}"
 			icon: {
 				id: "minecraft:iron_sword"
 				Count: 1b
@@ -106,7 +106,7 @@
 			}
 			x: 0.0d
 			y: 3.5d
-			description: ["Obtain an iron sword."]
+			description: ["{quest.melee.damage_i.description_1}"]
 			dependencies: ["60C5BD48DDED283C"]
 			hide: false
 			dependency_requirement: "one_started"
@@ -130,7 +130,7 @@
 			}]
 		}
 		{
-			title: "Fast But Lower Damage - I"
+			title: "{quest.melee.fast_i.title}"
 			icon: {
 				id: "create_sa:zinc_sword"
 				Count: 1b
@@ -140,7 +140,7 @@
 			}
 			x: -6.0d
 			y: 7.5d
-			description: ["Obtain a zinc sword."]
+			description: ["{quest.melee.fast_i.description_1}"]
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -163,10 +163,10 @@
 			}]
 		}
 		{
-			title: "Fast But Lower Damage - II"
+			title: "{quest.melee.fast_ii.title}"
 			x: 0.0d
 			y: 7.5d
-			description: ["Obtain a brass sword."]
+			description: ["{quest.melee.fast_ii.description_1}"]
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -189,10 +189,10 @@
 			}]
 		}
 		{
-			title: "Fast But Lower Damage - III"
+			title: "{quest.melee.fast_iii.title}"
 			x: -3.0d
 			y: 9.0d
-			description: ["Obtain a quartz sword."]
+			description: ["{quest.melee.fast_iii.description_1}"]
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -215,7 +215,7 @@
 			}]
 		}
 		{
-			title: "Better Damage But Slow - II"
+			title: "{quest.melee.damage_ii.title}"
 			icon: {
 				id: "immersiveengineering:sword_steel"
 				Count: 1b
@@ -225,7 +225,7 @@
 			}
 			x: -6.0d
 			y: 3.5d
-			description: ["Obtain a steel sword."]
+			description: ["{quest.melee.damage_ii.description_1}"]
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -248,10 +248,10 @@
 			}]
 		}
 		{
-			title: "Better Damage But Slow - III"
+			title: "{quest.melee.damage_iii.title}"
 			x: -3.0d
 			y: 2.0d
-			description: ["Obtain a netherite sword."]
+			description: ["{quest.melee.damage_iii.description_1}"]
 			dependencies: ["60C5BD48DDED283C"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"

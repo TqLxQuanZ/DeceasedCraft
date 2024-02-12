@@ -3,7 +3,7 @@
 	group: "06797646CDBF2AAC"
 	order_index: 6
 	filename: "planes"
-	title: "Plane"
+	title: "{quest.planes}"
 	icon: {
 		id: "simpleplanes:plane"
 		Count: 1b
@@ -17,15 +17,15 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Workbench for Planes!"
+			title: "{quest.planes.workbench.title}"
 			x: 1.0d
 			y: 1.0d
 			shape: "hexagon"
-			subtitle: "How many workbenches are there?"
+			subtitle: "{quest.planes.workbench.subtitle}"
 			description: [
-				"To craft a plane or helicopter, you'll need a specialized workbench."
+				"{quest.planes.workbench.description_1}"
 				""
-				"Create a plane workbench to enable the crafting of these aerial vehicles."
+				"{quest.planes.workbench.description_2}"
 			]
 			dependency_requirement: "one_started"
 			size: 2.0d
@@ -42,14 +42,14 @@
 			}]
 		}
 		{
-			title: "Gotta Spin"
+			title: "{quest.planes.propeller.title}"
 			x: 6.5d
 			y: 1.0d
-			subtitle: "You Spin Me Right Round"
+			subtitle: "{quest.planes.propeller.subtitle}"
 			description: [
-				"A plane or helicopter without a propeller won't be able to take flight."
+				"{quest.planes.propeller.description_1}"
 				""
-				"Craft a propeller and begin assembling it to ensure your aircraft is ready for flight."
+				"{quest.planes.propeller.description_2}"
 			]
 			dependencies: ["4FA41433E6E6E326"]
 			dependency_requirement: "one_started"
@@ -67,14 +67,14 @@
 			}]
 		}
 		{
-			title: "Basic Materials"
+			title: "{quest.planes.wood.title}"
 			x: 4.0d
 			y: 1.0d
-			subtitle: "Just Woods?"
+			subtitle: "{quest.planes.wood.subtitle}"
 			description: [
-				"The foundational material for planes can be any wood type."
+				"{quest.planes.wood.description_1}"
 				""
-				"Select a wood that suits your preference and begin constructing the structure of the aircraft."
+				"{quest.planes.wood.description_2}"
 			]
 			dependencies: ["31A945464BC2A672"]
 			dependency_requirement: "one_started"
@@ -99,15 +99,15 @@
 			}]
 		}
 		{
-			title: "Plane Engines"
+			title: "{quest.planes.engine.title}"
 			x: 9.0d
 			y: 1.0d
 			shape: "gear"
-			subtitle: "Brrrrr"
+			subtitle: "{quest.planes.engine.subtitle}"
 			description: [
-				"With the structure and propeller in place, the next step is to acquire an engine. This engine will fuel the propeller and set it in motion."
+				"{quest.planes.engine.description_1}"
 				""
-				"Either a furnace engine or an electric engine will suffice. The furnace engine can use any fuel, while the electric engine requires a charging pad. Choose the one that aligns with your resources and needs."
+				"{quest.planes.engine.description_2}"
 			]
 			dependencies: ["26E1352BFE376C00"]
 			dependency_requirement: "one_started"
@@ -133,14 +133,14 @@
 			}]
 		}
 		{
-			title: "Start Shooting"
+			title: "{quest.planes.shooter.title}"
 			x: 11.5d
 			y: 1.0d
-			subtitle: "Pew pew, pew pew pew"
+			subtitle: "{quest.planes.shooter.subtitle}"
 			description: [
-				"Planes aren't limited to transportation alone."
+				"{quest.planes.shooter.description_1}"
 				""
-				"If you apply the shooter upgrade, they can also serve as a means to engage and shoot down enemies."
+				"{quest.planes.shooter.description_2}"
 			]
 			dependencies: ["34092B8D7A3D9314"]
 			dependency_requirement: "one_started"
@@ -158,11 +158,12 @@
 			}]
 		}
 		{
+			title: "{quest.planes.missile.title}"
 			x: 14.0d
 			y: 1.0d
 			shape: "hexagon"
-			subtitle: "Destruction is my favourite."
-			description: ["Craft missiles to serve as ammunition for the shooter upgrade."]
+			subtitle: "{quest.planes.missile.subtitle}"
+			description: ["{quest.planes.missile.description_1}"]
 			dependencies: ["4A24041088DE0548"]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -180,15 +181,15 @@
 			}]
 		}
 		{
-			title: "Upgrades"
+			title: "{quest.planes.upgrades.title}"
 			x: 9.0d
 			y: 3.75d
 			shape: "square"
-			subtitle: "Ugprades, I Need More"
+			subtitle: "{quest.planes.upgrades.subtitle}"
 			description: [
-				"Numerous upgrades can be applied to enhance the capabilities of your plane."
+				"{quest.planes.upgrades.description_1}"
 				""
-				"Refer to the plane book guide for comprehensive information on these upgrades and how they can improve your aircraft."
+				"{quest.planes.upgrades.description_2}"
 			]
 			dependencies: ["34092B8D7A3D9314"]
 			dependency_requirement: "one_started"
@@ -214,11 +215,11 @@
 			}]
 		}
 		{
-			title: "Arrow Ammunition"
+			title: "{quest.planes.arrow.title}"
 			x: 14.0d
 			y: -1.0d
-			subtitle: "Well, if it works then it works."
-			description: ["Craft or obtain arrows to serve as ammunition for the shooter upgrade."]
+			subtitle: "{quest.planes.arrow.subtitle}"
+			description: ["{quest.planes.arrow.description_1}"]
 			dependencies: ["4A24041088DE0548"]
 			dependency_requirement: "one_started"
 			id: "0101A30A3D0DC28E"
@@ -234,11 +235,11 @@
 			}]
 		}
 		{
-			title: "Bullet Ammunition"
+			title: "{quest.planes.bullet.title}"
 			x: 14.0d
 			y: 3.0d
-			subtitle: "It's harder to aim than I expected."
-			description: ["Craft advanced bullets to serve as ammunition for the shooter upgrade."]
+			subtitle: "{quest.planes.bullet.subtitle}"
+			description: ["{quest.planes.bullet.description_1}"]
 			dependencies: ["4A24041088DE0548"]
 			dependency_requirement: "one_started"
 			id: "2609D2B4D68053A3"
