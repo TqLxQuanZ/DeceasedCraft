@@ -1,6 +1,6 @@
 {
-	"root_sprint_speed+10%": {
-		"title": "+10% Movement Speed",
+	"root_sprint_speed+5%": {
+		"title": "+5% Movement Speed",
 		"description": "Gain skill points by walking, running and swimming!",
 		"icon": {
 			"type": "effect",
@@ -14,14 +14,14 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.movement_speed",
-					"value": 0.1,
+					"value": 0.05,
 					"operation": "multiply_base"
 				}
 			}
 		]
 	},
-	"sprint_speed+3%": {
-		"title": "+3% Movement Speed",
+	"sprint_speed+2.5%": {
+		"title": "+2.5% Movement Speed",
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -33,14 +33,14 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.movement_speed",
-					"value": 0.03,
+					"value": 0.025,
 					"operation": "multiply_base"
 				}
 			}
 		]
 	},
-	"sprint_speed+10%": {
-		"title": "+10% Movement Speed",
+	"sprint_speed+5%": {
+		"title": "+5% Movement Speed",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -59,7 +59,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.movement_speed",
-					"value": 0.1,
+					"value": 0.05,
 					"operation": "multiply_base"
 				}
 			}
