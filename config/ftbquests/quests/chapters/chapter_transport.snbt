@@ -32,8 +32,8 @@
 			x: -2.5d
 			y: 1.5d
 			description: [
-				"Obtain or craft a train track, or use pre-existing tracks found in cities."
-				"Try to connect the existing railway system for fast travel."
+				"{quest.train.train_tracks.description_1}"
+				"{quest.train.train_tracks.description_2}"
 			]
 			dependencies: ["6B85E8592B0BB1D8"]
 			dependency_requirement: "one_started"
@@ -70,10 +70,11 @@
 			}]
 		}
 		{
+			title: "{quest.train.train_fuel.title}"
 			x: 0.0d
 			y: 1.5d
 			shape: "square"
-			description: ["A train does not move without any power source, it needs fuel."]
+			description: ["{quest.train.train_fuel.description_1}"]
 			dependencies: ["358DC7C7A1EF9AD4"]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -100,8 +101,8 @@
 		{
 			x: -4.0d
 			y: 1.5d
-			subtitle: "Multi-track drifting!"
-			description: ["Add the controller for controlling your train!"]
+			subtitle: "{quest.train.train_control.subtitle}"
+			description: ["{quest.train.train_control.description_1}"]
 			dependencies: ["2A3F96302E68B66A"]
 			dependency_requirement: "one_started"
 			id: "6B85E8592B0BB1D8"

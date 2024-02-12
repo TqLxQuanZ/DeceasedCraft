@@ -3,18 +3,18 @@
 	group: "06797646CDBF2AAC"
 	order_index: 5
 	filename: "cars"
-	title: "Cars"
+	title: "{quest.cars}"
 	icon: "car:white_suv_body"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Drive"
+			title: "{quest.cars.assembly.title}"
 			x: -5.0d
 			y: -1.0d
 			shape: "hexagon"
-			subtitle: "Do you have a driving license?"
-			description: ["Obtain a car workshop and its part, then as car workshop as the center within 3x3, the rest will be car workshop part."]
+			subtitle: "{quest.cars.assembly.subtitle}"
+			description: ["{quest.cars.assembly.description_1}"]
 			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "flexible"
@@ -38,12 +38,12 @@
 			}]
 		}
 		{
-			title: "Wheels"
+			title: "{quest.cars.wheels.title}"
 			x: -2.5d
 			y: -1.0d
 			shape: "square"
-			subtitle: "Weeeeeeee"
-			description: ["Obtain or craft any car wheels for assembling the car."]
+			subtitle: "{quest.cars.wheels.subtitle}"
+			description: ["{quest.cars.wheels.description_1}"]
 			dependencies: ["34579F76CCA57E28"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -67,12 +67,12 @@
 			}]
 		}
 		{
-			title: "Car Body"
+			title: "{quest.cars.body.title}"
 			x: -5.0d
 			y: -3.5d
 			shape: "square"
-			subtitle: "Sports, truck, or SUV?"
-			description: ["Obtain any car body for assembling the car."]
+			subtitle: "{quest.cars.body.subtitle}"
+			description: ["{quest.cars.body.description_1}"]
 			dependencies: ["34579F76CCA57E28"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -96,12 +96,12 @@
 			}]
 		}
 		{
-			title: "Engine"
+			title: "{quest.cars.engine.title}"
 			x: -5.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "How fast should we go?"
-			description: ["Obtain or craft any car engine for assembling the car."]
+			subtitle: "{quest.cars.engine.subtitle}"
+			description: ["{quest.cars.engine.description_1}"]
 			dependencies: ["34579F76CCA57E28"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -125,11 +125,11 @@
 			}]
 		}
 		{
-			title: "Tank"
+			title: "{quest.cars.tank.title}"
 			x: -7.5d
 			y: -1.0d
 			shape: "square"
-			description: ["Obtain or craft a tank for storing your car fuel."]
+			description: ["{quest.cars.tank.description_1}"]
 			dependencies: ["34579F76CCA57E28"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -153,12 +153,12 @@
 			}]
 		}
 		{
-			title: "Container"
+			title: "{quest.cars.container.title}"
 			x: -2.5d
 			y: 1.5d
 			shape: "square"
-			subtitle: "I need more slots."
-			description: ["Obtain or craft any container to store your items or fluids."]
+			subtitle: "{quest.cars.container.subtitle}"
+			description: ["{quest.cars.container.description_1}"]
 			dependencies: ["34579F76CCA57E28"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
@@ -182,12 +182,12 @@
 			}]
 		}
 		{
-			title: "License"
+			title: "{quest.cars.license.title}"
 			x: -7.5d
 			y: 1.5d
 			shape: "square"
-			subtitle: "Does driving license matter in this world?"
-			description: ["Craft a license plate for your car."]
+			subtitle: "{quest.cars.license.subtitle}"
+			description: ["{quest.cars.license.description_1}"]
 			dependencies: ["34579F76CCA57E28"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
