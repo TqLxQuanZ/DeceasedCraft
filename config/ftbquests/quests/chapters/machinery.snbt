@@ -663,11 +663,11 @@
 			}]
 		}
 		{
-			title: "Advanced Cables"
+			title: "{quest.material.cables.title}"
 			x: 24.0d
 			y: -1.5d
-			subtitle: "No more pesky HV wires"
-			description: ["Rubber can be used to craft pipes, which allow for more efficient transport of power, fluids and items."]
+			subtitle: "{quest.material.cables.subtitle}"
+			description: ["{quest.material.cables.description_1}"]
 			dependencies: [
 				"1D87E5535012EEDF"
 				"4AB6C074F8B0FB9E"
@@ -728,11 +728,11 @@
 			}]
 		}
 		{
-			title: "Configuring Cables"
+			title: "{quest.material.wrench.title}"
 			x: 25.5d
 			y: -1.5d
-			subtitle: "Yup, it's ANOTHER wrench"
-			description: ["Configure your newly acquired cables using the pipe wrench."]
+			subtitle: "{quest.material.wrench.subtitle}"
+			description: ["{quest.material.wrench.description_1}"]
 			dependencies: ["658E201139B88C53"]
 			progression_mode: "linear"
 			id: "454EC0800E7827FF"
@@ -750,7 +750,7 @@
 		{
 			x: 8.0d
 			y: -1.5d
-			description: ["Combine ethanol and a silver plate in the Refinery."]
+			description: ["{quest.material.acetaldehyde.description_1}"]
 			dependencies: [
 				"7EE0809A9B220503"
 				"7C8D13E68A50DE51"
@@ -796,7 +796,7 @@
 		{
 			x: 10.0d
 			y: -1.5d
-			description: ["Combine acetaldehyde and creosote in the Refinery to obtain phenolic resin."]
+			description: ["{quest.material.phenolic.description_1}"]
 			dependencies: [
 				"7EE0809A9B220503"
 				"257A2559BF92F7A7"
@@ -813,7 +813,7 @@
 		{
 			x: 6.0d
 			y: -0.5d
-			description: ["A silver plate is used as catalyst in the Refinery to produce acetaldehyde."]
+			description: ["{quest.material.silver_plate.description_1}"]
 			hide_dependency_lines: true
 			dependencies: ["4A1A36DD335F7F72"]
 			progression_mode: "linear"

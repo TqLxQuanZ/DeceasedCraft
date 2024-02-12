@@ -3,18 +3,18 @@
 	group: "06797646CDBF2AAC"
 	order_index: 3
 	filename: "bullet_automation"
-	title: "Bullet Automation"
+	title: "{quest.bullet_automation}"
 	icon: "tac:b_magnum"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Sphalerite Mineral Vein"
+			title: "{quest.bullet_automation.sphalerite.title}"
 			icon: "create:zinc_ore"
 			x: 2.0d
 			y: 0.5d
 			shape: "pentagon"
-			subtitle: "Find and harvest sphalerite for zinc."
+			subtitle: "{quest.bullet_automation.sphalerite.description_1}"
 			description: [""]
 			dependencies: ["1AFE4EDF1E6EAC55"]
 			dependency_requirement: "one_started"
@@ -31,14 +31,14 @@
 			}]
 		}
 		{
-			title: "Industrial Mining"
+			title: "{quest.bullet_automation.excavator.title}"
 			x: 2.0d
 			y: 2.0d
 			shape: "hexagon"
 			description: [
-				"Once you've located a suitable ore deposit, construct an excavator at that location."
+				"{quest.bullet_automation.excavator.description_1}"
 				""
-				"Be warned, a massive amount of energy is required to run it!"
+				"{quest.bullet_automation.excavator.description_2}"
 			]
 			dependencies: [
 				"4A1A36DD335F7F72"
@@ -68,10 +68,9 @@
 			}]
 		}
 		{
-			title: "Surveying"
 			x: 0.5d
 			y: 2.0d
-			description: ["Utilize the mineral survey tool to search for traces of mineral veins in the vicinity."]
+			description: ["{quest.bullet_automation.mineral_survey.description_1}"]
 			dependency_requirement: "one_started"
 			progression_mode: "linear"
 			id: "7F432CC747B372CA"
@@ -99,12 +98,12 @@
 			}]
 		}
 		{
-			title: "Auricupride Mineral Vein"
+			title: "{quest.bullet_automation.auricupride.title}"
 			icon: "minecraft:copper_ore"
 			x: 0.5d
 			y: 0.5d
 			shape: "pentagon"
-			subtitle: "Find and harvest auricupride for copper."
+			subtitle: "{quest.bullet_automation.auricupride.description_1}"
 			description: [""]
 			dependencies: ["1AFE4EDF1E6EAC55"]
 			dependency_requirement: "one_started"
@@ -122,10 +121,11 @@
 			}]
 		}
 		{
+			title: "{quest.bullet_automation.veins.title}"
 			icon: "immersiveengineering:manual"
 			x: 3.5d
 			y: 2.0d
-			description: ["Information about all the mineral veins are listed in the Engineer's Manual. Refer to the overview and resources category for detailed guidance."]
+			description: ["{quest.bullet_automation.veins.description_1}"]
 			dependency_requirement: "one_started"
 			progression_mode: "linear"
 			id: "3489C2D9EDEC651D"
@@ -149,12 +149,12 @@
 		{
 			x: 0.5d
 			y: -1.5d
-			subtitle: "Combine zinc and copper to create brass."
+			subtitle: "{quest.bullet_automation.brass.subtitle}"
 			description: [
-				"You can smelt the brass ingot using any of the following methods; it doesn't matter which one you choose."
-				"- Arc Furnace"
-				"- Mechanical Mixer"
-				"- Alloy Kiln"
+				"{quest.bullet_automation.brass.description_1}"
+				"{quest.bullet_automation.brass.description_2}"
+				"{quest.bullet_automation.brass.description_3}"
+				"{quest.bullet_automation.brass.description_4}"
 			]
 			dependencies: [
 				"6A146B82EDD36480"
@@ -174,11 +174,11 @@
 			}]
 		}
 		{
-			title: "Bullet Molds"
+			title: "{quest.bullet_automation.molds.title}"
 			x: 0.5d
 			y: -3.0d
-			subtitle: "Find and loot a bullet mold."
-			description: ["Obtain any bullet mold from factories in the wasteland."]
+			subtitle: "{quest.bullet_automation.molds.subtitle}"
+			description: ["{quest.bullet_automation.molds.description_1}"]
 			dependencies: ["5CA0A7BB8088CC04"]
 			dependency_requirement: "one_started"
 			progression_mode: "linear"
@@ -202,11 +202,11 @@
 			}]
 		}
 		{
-			title: "The Assemble"
+			title: "{quest.bullet_automation.assemble.title}"
 			x: 2.0d
 			y: -6.0d
 			shape: "hexagon"
-			description: ["To maximize the efficiency of bullet production, consider using a deployer, as they consume fewer resources."]
+			description: ["{quest.bullet_automation.assemble.description_1}"]
 			dependencies: [
 				"1B552AB170A166EA"
 				"4F204B23AAD4BA49"
@@ -228,11 +228,10 @@
 			}]
 		}
 		{
-			title: "Cobblestone"
 			x: -5.5d
 			y: -9.0d
-			subtitle: "Create and automate a cobblestone generator. "
-			description: ["An easy way is to do this with create drills."]
+			subtitle: "{quest.bullet_automation.cobblestone.subtitle}"
+			description: ["{quest.bullet_automation.cobblestone.description_1}"]
 			dependencies: [
 				"788649D1405AB54D"
 				"2A5165F4D020F832"
@@ -252,11 +251,11 @@
 			}]
 		}
 		{
-			title: "Water Source"
+			title: "{quest.bullet_automation.water.title}"
 			x: -6.75d
 			y: -7.5d
 			shape: "hexagon"
-			description: ["Water is even easier to obtain."]
+			description: ["{quest.bullet_automation.water.description_1}"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -279,11 +278,11 @@
 			}]
 		}
 		{
-			title: "Lava Source"
+			title: "{quest.bullet_automation.lava.title}"
 			x: -6.75d
 			y: -10.5d
 			shape: "hexagon"
-			description: ["Lava should be easy enough to obtain, right?"]
+			description: ["{quest.bullet_automation.lava.description_1}"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -331,7 +330,7 @@
 		{
 			x: 0.5d
 			y: -9.0d
-			subtitle: "Crush sandstone into nitrate dust."
+			subtitle: "{quest.bullet_automation.nitrate.subtitle}"
 			description: [""]
 			dependencies: ["07EC69DFF4EBD8DC"]
 			dependency_requirement: "one_started"
@@ -351,7 +350,7 @@
 		{
 			x: 5.5d
 			y: -9.0d
-			subtitle: "Crush blaze rods into blaze powder."
+			subtitle: "{quest.bullet_automation.blaze_powder.subtitle}"
 			description: [""]
 			dependencies: ["1BC7BCAF9B652406"]
 			dependency_requirement: "one_started"
@@ -372,7 +371,7 @@
 			x: 4.5d
 			y: -10.5d
 			shape: "hexagon"
-			description: ["Blaze rods can be found by killing blazes in volcanic biomes."]
+			description: ["{quest.bullet_automation.blaze_rod.description_1}"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -390,11 +389,11 @@
 			}]
 		}
 		{
-			title: "Recyling Rods"
+			title: "{quest.bullet_automation.recycle_rod.title}"
 			x: 5.5d
 			y: -10.5d
-			subtitle: "Press blaze powder into blaze rods."
-			description: ["Craft or obtain a rod mold and use it in a press to convert blaze powder back into blaze dust,"]
+			subtitle: "{quest.bullet_automation.recycle_rod.subtitle}"
+			description: ["{quest.bullet_automation.recycle_rod.description_1}"]
 			dependencies: ["0059B1B5D5101AEB"]
 			dependency_requirement: "one_started"
 			progression_mode: "linear"
@@ -413,11 +412,11 @@
 		{
 			x: 3.5d
 			y: -9.0d
-			subtitle: "Crush blaze rods into sulfur dust."
+			subtitle: "{quest.bullet_automation.sulfur.subtitle}"
 			description: [
-				"Sulfur is obtained as a byproduct of crushing blaze rods."
+				"{quest.bullet_automation.sulfur.description_1}"
 				""
-				"Alternatively, obtain it directly from several type of mineral veins."
+				"{quest.bullet_automation.sulfur.description_2}"
 			]
 			dependencies: ["1BC7BCAF9B652406"]
 			dependency_requirement: "one_started"
@@ -438,7 +437,7 @@
 		{
 			x: -4.0d
 			y: -9.0d
-			subtitle: "Crush cobblestone into gravel."
+			subtitle: "{quest.bullet_automation.gravel.subtitle}"
 			description: [""]
 			dependencies: ["6EE07F1F93C9C62F"]
 			dependency_requirement: "one_started"
@@ -458,7 +457,7 @@
 		{
 			x: -2.5d
 			y: -9.0d
-			subtitle: "Crush gravel into sand."
+			subtitle: "{quest.bullet_automation.sand.subtitle}"
 			description: [""]
 			dependencies: ["0327652F32B66116"]
 			dependency_requirement: "one_started"
@@ -476,11 +475,11 @@
 			}]
 		}
 		{
-			title: "The Finest Product"
+			title: "{quest.bullet_automation.gunpowder.title}"
 			x: 2.0d
 			y: -8.0d
 			shape: "circle"
-			description: ["Produce gunpowder."]
+			description: ["{quest.bullet_automation.gunpowder.description_1}"]
 			dependencies: [
 				"55055E45DEEAC9D8"
 				"5285CFF062ADCC60"
@@ -501,11 +500,11 @@
 			}]
 		}
 		{
-			title: "The Bullets"
+			title: "{quest.bullet_automation.bullets.title}"
 			x: 6.0d
 			y: -6.0d
 			shape: "square"
-			description: ["Fully automate your bullet production."]
+			description: ["{quest.bullet_automation.bullets.description_1}"]
 			dependencies: ["25C6189E8ABA6FCA"]
 			dependency_requirement: "one_started"
 			size: 3.0d
@@ -536,11 +535,11 @@
 			}]
 		}
 		{
-			title: "Casings"
+			title: "{quest.bullet_automation.casings.title}"
 			x: 0.5d
 			y: -4.5d
 			shape: "circle"
-			subtitle: "Press brass in a press with the bullet mold."
+			subtitle: "{quest.bullet_automation.casings.subtitle}"
 			description: [""]
 			dependencies: ["7A0D88FD05C79544"]
 			dependency_requirement: "one_started"
@@ -567,8 +566,8 @@
 		{
 			x: 2.0d
 			y: -10.0d
-			subtitle: "Burn logs into charcoal."
-			description: ["Create allows you to do this using encased fans and lava, make sure to ponder (W) on the entry for fans."]
+			subtitle: "{quest.bullet_automation.charcoal.subtitle}"
+			description: ["{quest.bullet_automation.charcoal.description_1}"]
 			dependencies: ["6B1A5E3AC216D89C"]
 			dependency_requirement: "one_started"
 			progression_mode: "linear"
@@ -585,11 +584,10 @@
 			}]
 		}
 		{
-			title: "Lead Nuggets"
 			x: 3.5d
 			y: -4.5d
 			shape: "circle"
-			subtitle: "Obtain lead nuggets from lead bars."
+			subtitle: "{quest.bullet_automation.lead_nugget.subtitle}"
 			description: [""]
 			dependencies: ["48C6750F3C42F884"]
 			dependency_requirement: "one_started"
@@ -607,11 +605,11 @@
 			}]
 		}
 		{
-			title: "Logs"
+			title: "{quest.bullet_automation.logs.title}"
 			x: 2.0d
 			y: -11.5d
-			subtitle: "Cut down trees with a mechanical saw."
-			description: ["Consider automating this for power generation as well."]
+			subtitle: "{quest.bullet_automation.logs.subtitle}"
+			description: ["{quest.bullet_automation.logs.description_1}"]
 			dependencies: ["65A783F254EA6F95"]
 			dependency_requirement: "one_started"
 			progression_mode: "linear"
@@ -635,11 +633,11 @@
 			}]
 		}
 		{
-			title: "Planting Trees"
+			title: "{quest.bullet_automation.tree.title}"
 			x: 2.0d
 			y: -13.0d
 			shape: "hexagon"
-			description: ["Obtain any sapling and start planting trees."]
+			description: ["{quest.bullet_automation.tree.description_1}"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -663,12 +661,12 @@
 			}]
 		}
 		{
-			title: "Galena Mineral Vein"
+			title: "{quest.bullet_automation.galena.title}"
 			icon: "immersiveengineering:ore_lead"
 			x: 3.5d
 			y: 0.5d
 			shape: "pentagon"
-			subtitle: "Find and harvest galena for lead."
+			subtitle: "{quest.bullet_automation.galena.description_1}"
 			description: [""]
 			dependencies: ["1AFE4EDF1E6EAC55"]
 			dependency_requirement: "one_started"
