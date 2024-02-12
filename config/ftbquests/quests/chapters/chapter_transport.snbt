@@ -3,17 +3,16 @@
 	group: "06797646CDBF2AAC"
 	order_index: 4
 	filename: "chapter_transport"
-	title: "Train"
+	title: "{quest.train}"
 	icon: "create:controls"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Steam Engine"
 			x: -8.0d
 			y: 1.5d
 			shape: "hexagon"
-			description: ["Obtain or craft a steam engine for train station."]
+			description: ["{quest.train.steam_engine.description_1}"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -54,7 +53,7 @@
 		{
 			x: -5.5d
 			y: 1.5d
-			description: ["Start assemble your train. Ponder for more information."]
+			description: ["{quest.train.train_station.description_1}"]
 			dependencies: ["4F409A5069158D18"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
