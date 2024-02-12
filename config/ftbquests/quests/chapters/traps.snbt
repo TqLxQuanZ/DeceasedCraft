@@ -286,11 +286,11 @@
 			}]
 		}
 		{
-			title: "{quest.automated_defense.defense.title}"
+			title: "{quest.defense.automated_defense.title}"
 			x: 6.0d
 			y: 1.5d
 			shape: "hexagon"
-			subtitle: "{quest.automated_defense.defense.subtitle}"
+			subtitle: "{quest.defense.automated_defense.subtitle}"
 			description: [
 				"{quest.defense.automated_defense.description_1}"
 				""
