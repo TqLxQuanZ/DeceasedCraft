@@ -7,23 +7,9 @@
 			"apocalypsenow:gasmask_helmet",
 			"apocalypsenow:pkm_4gasmask_helmet",
 			"apocalypsenow:pbf_hamstergasmask_helmet",
-			"apocalypsenow:gasmask_helmet",
 			"apocalypsenow:rusty_helmet",
 			"apocalypsenow:mcu2p_gasmask_helmet"],
-		"potion": "zombie_extreme:radiation_effect,140,2"
-	},
-	{
-		"timeout": 60,
-		"biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
-		"lackhelmet": [
-			"apocalypsenow:soldier_helmet",
-			"apocalypsenow:gasmask_helmet",
-			"apocalypsenow:pkm_4gasmask_helmet",
-			"apocalypsenow:pbf_hamstergasmask_helmet",
-			"apocalypsenow:gasmask_helmet",
-			"apocalypsenow:rusty_helmet",
-			"apocalypsenow:mcu2p_gasmask_helmet"],
-		"potion": "minecraft:nausea,140,0",
+		"potion": ["zombie_extreme:radiation_effect,140,2", "minecraft:nausea,140,0", "minecraft:instant_damage,1,0"],
 		"message": "Do not enter the wasteland without any gas mask!"
 	},
 	{
