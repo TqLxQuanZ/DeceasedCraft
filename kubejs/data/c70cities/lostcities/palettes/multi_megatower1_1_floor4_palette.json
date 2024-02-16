@@ -3,7 +3,7 @@
   "palette": [
     {
       "char": "a",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:spruce_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "b",
@@ -11,15 +11,15 @@
     },
     {
       "char": "c",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:spruce_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "d",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "e",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "f",
@@ -43,60 +43,60 @@
     },
     {
       "char": "k",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:calcite_bricks_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "l",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "m",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "n",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:polished_calcite_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "o",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:polished_calcite_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "p",
-      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:smooth_quartz_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "q",
-      "block": "pfm:basic_sink[facing=north]"
+      "block": "pfm:basic_sink[facing=north,level=0]"
     },
     {
       "char": "r",
-      "block": "pfm:basic_toilet[facing=west]"
+      "block": "pfm:basic_toilet[facing=west,toilet=empty]"
     },
     {
       "char": "s",
-      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:smooth_quartz_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "t",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
       "char": "u",
-      "block": "embellishcraft:white_spruce_fancy_bed[part=head,facing=west,occupied=false]"
+      "block": "embellishcraft:white_spruce_fancy_bed[occupied=false,part=head,facing=west]"
     },
     {
       "char": "w",
-      "block": "embellishcraft:white_spruce_fancy_bed[part=foot,facing=west,occupied=false]"
+      "block": "embellishcraft:white_spruce_fancy_bed[occupied=false,part=foot,facing=west]"
     },
     {
       "char": "x",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "y",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=west,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
     },
     {
       "char": "A",
@@ -104,23 +104,23 @@
     },
     {
       "char": "B",
-      "block": "another_furniture:white_lamp[waterlogged=false,lit=false,facing=east]"
+      "block": "another_furniture:white_lamp[waterlogged=false,facing=east,lit=false,level=3]"
     },
     {
       "char": "C",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "D",
-      "block": "minecraft:redstone_wall_torch[lit=true,facing=north]"
+      "block": "minecraft:redstone_wall_torch[facing=north,lit=true]"
     },
     {
       "char": "E",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=west,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=west]"
     },
     {
       "char": "F",
-      "block": "another_furniture:oak_shelf[waterlogged=false,facing=south,type=single]"
+      "block": "another_furniture:oak_shelf[type=single,waterlogged=false,facing=south]"
     },
     {
       "char": "I",
@@ -132,7 +132,7 @@
     },
     {
       "char": "K",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -149,11 +149,11 @@
     },
     {
       "char": "O",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "P",
-      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     }
   ]
 }

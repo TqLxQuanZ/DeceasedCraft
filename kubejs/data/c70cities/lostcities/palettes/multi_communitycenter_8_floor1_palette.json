@@ -11,7 +11,7 @@
     },
     {
       "char": "c",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "d",
@@ -19,15 +19,15 @@
     },
     {
       "char": "e",
-      "block": "minecraft:dark_oak_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "f",
-      "block": "embellishcraft:white_couch[waterlogged=false,shape=straight,facing=south]"
+      "block": "embellishcraft:white_couch[waterlogged=false,facing=south,shape=straight]"
     },
     {
       "char": "g",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "h",
@@ -35,15 +35,15 @@
     },
     {
       "char": "i",
-      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
     },
     {
       "char": "j",
-      "block": "minecraft:polished_deepslate_slab[waterlogged=false,type=top]"
+      "block": "minecraft:polished_deepslate_slab[type=top,waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
     },
     {
       "char": "l",
@@ -59,15 +59,15 @@
     },
     {
       "char": "o",
-      "block": "create:cut_calcite_slab[waterlogged=false,type=bottom]"
+      "block": "create:cut_calcite_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "p",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=north,type=left]"
+      "block": "cfm:oak_park_bench[type=left,waterlogged=false,facing=north]"
     },
     {
       "char": "q",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=north,type=right]"
+      "block": "cfm:oak_park_bench[type=right,waterlogged=false,facing=north]"
     },
     {
       "char": "r",
@@ -83,11 +83,11 @@
     },
     {
       "char": "u",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "w",
-      "block": "minecraft:polished_deepslate_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:polished_deepslate_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

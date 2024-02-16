@@ -7,11 +7,11 @@
     },
     {
       "char": "b",
-      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
+      "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "c",
-      "block": "quark:limestone_slab[waterlogged=false,type=top]"
+      "block": "quark:limestone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "d",
@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "i",
@@ -39,11 +39,11 @@
     },
     {
       "char": "j",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:smooth_stone_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "cfm:cyan_kitchen_counter[facing=west,type=default]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=west]"
     },
     {
       "char": "l",
@@ -67,11 +67,11 @@
     },
     {
       "char": "q",
-      "block": "embellishcraft:gray_couch[waterlogged=false,shape=straight,facing=north]"
+      "block": "embellishcraft:gray_couch[waterlogged=false,facing=north,shape=straight]"
     },
     {
       "char": "r",
-      "block": "quark:iron_button[face=wall,facing=west]"
+      "block": "quark:iron_button[facing=west,face=wall]"
     },
     {
       "char": "s",
@@ -83,20 +83,20 @@
     },
     {
       "char": "u",
-      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "w",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "x",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
       "char": "y",
-      "block": "quark:iron_button[face=wall,facing=east]"
+      "block": "quark:iron_button[facing=east,face=wall]"
     },
     {
       "char": "A",
@@ -104,7 +104,7 @@
     },
     {
       "char": "B",
-      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     },
     {
       "char": "C",
@@ -112,7 +112,7 @@
     },
     {
       "char": "D",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "E",

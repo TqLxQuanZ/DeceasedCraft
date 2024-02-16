@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "minecraft:water"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "g",
@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "minecraft:stone_slab[waterlogged=false,type=double]"
+      "block": "minecraft:stone_slab[type=double,waterlogged=false]"
     },
     {
       "char": "k",
@@ -67,33 +67,33 @@
     },
     {
       "char": "q",
-      "block": "cfm:stripped_spruce_blinds[waterlogged=false,facing=east,open=true]"
+      "block": "cfm:stripped_spruce_blinds[waterlogged=false,open=true,facing=east]"
     },
     {
       "char": "r",
-      "block": "minecraft:oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:oak_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "s",
-      "block": "minecraft:light_gray_bed[part=head,facing=west,occupied=false]",
+      "block": "minecraft:light_gray_bed[occupied=false,part=head,facing=west]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "t",
-      "block": "minecraft:light_gray_bed[part=foot,facing=west,occupied=false]",
+      "block": "minecraft:light_gray_bed[occupied=false,part=foot,facing=west]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "u",
-      "block": "minecraft:oak_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:oak_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "w",
-      "block": "cfm:stripped_spruce_blinds[waterlogged=false,facing=west,open=true]"
+      "block": "cfm:stripped_spruce_blinds[waterlogged=false,open=true,facing=west]"
     },
     {
       "char": "x",
@@ -101,7 +101,7 @@
     },
     {
       "char": "y",
-      "block": "minecraft:oak_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "minecraft:oak_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "A",
@@ -113,11 +113,11 @@
     },
     {
       "char": "C",
-      "block": "minecraft:stone_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:stone_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "D",
-      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "E",
@@ -145,7 +145,7 @@
     },
     {
       "char": "M",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
@@ -158,15 +158,15 @@
     },
     {
       "char": "P",
-      "block": "another_furniture:spruce_planter_box[attached=false,facing=north,type=right]"
+      "block": "another_furniture:spruce_planter_box[type=right,attached=false,facing=north]"
     },
     {
       "char": "Q",
-      "block": "another_furniture:spruce_planter_box[attached=false,facing=north,type=middle]"
+      "block": "another_furniture:spruce_planter_box[type=middle,attached=false,facing=north]"
     },
     {
       "char": "R",
-      "block": "another_furniture:spruce_planter_box[attached=false,facing=north,type=left]"
+      "block": "another_furniture:spruce_planter_box[type=left,attached=false,facing=north]"
     },
     {
       "char": "S",
@@ -182,7 +182,7 @@
     },
     {
       "char": "V",
-      "block": "embellishcraft:smooth_andesite_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:smooth_andesite_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

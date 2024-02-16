@@ -42,7 +42,7 @@
     },
     {
       "char": "j",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:polished_calcite_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "k",
@@ -70,35 +70,35 @@
     },
     {
       "char": "q",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:calcite_bricks_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "r",
-      "block": "quark:iron_button[face=wall,facing=south]"
+      "block": "quark:iron_button[facing=south,face=wall]"
     },
     {
       "char": "s",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:white_steel_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "t",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:white_steel_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "u",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:polished_calcite_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "w",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:polished_calcite_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "x",
-      "block": "embellishcraft:warning_steel_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:warning_steel_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "y",
-      "block": "embellishcraft:warning_steel_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:warning_steel_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "A",
@@ -106,27 +106,27 @@
     },
     {
       "char": "B",
-      "block": "create:copper_door[hinge=right,half=lower,facing=west,open=false]"
+      "block": "create:copper_door[half=lower,open=false,hinge=right,facing=west]"
     },
     {
       "char": "C",
-      "block": "create:copper_door[hinge=left,half=lower,facing=west,open=false]"
+      "block": "create:copper_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
       "char": "D",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:polished_calcite_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "E",
-      "block": "embellishcraft:sturdy_steel_door[hinge=left,half=lower,facing=north,open=false]"
+      "block": "embellishcraft:sturdy_steel_door[half=lower,open=false,hinge=left,facing=north]"
     },
     {
       "char": "F",
-      "block": "embellishcraft:sturdy_steel_door[hinge=left,half=lower,facing=west,open=false]"
+      "block": "embellishcraft:sturdy_steel_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
       "char": "I",
-      "block": "minecraft:barrel[facing=east,open=false]"
+      "block": "minecraft:barrel[open=false,facing=east]"
     },
     {
       "char": "J",
@@ -134,7 +134,7 @@
     },
     {
       "char": "K",
-      "block": "embellishcraft:sturdy_steel_door[hinge=right,half=lower,facing=north,open=false]"
+      "block": "embellishcraft:sturdy_steel_door[half=lower,open=false,hinge=right,facing=north]"
     },
     {
       "char": "L",
@@ -143,7 +143,7 @@
     },
     {
       "char": "M",
-      "block": "minecraft:repeating_command_block[conditional=false,facing=north]",
+      "block": "minecraft:repeating_command_block[facing=north,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
@@ -152,7 +152,7 @@
     },
     {
       "char": "N",
-      "block": "minecraft:repeating_command_block[conditional=false,facing=west]",
+      "block": "minecraft:repeating_command_block[facing=west,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
@@ -176,7 +176,7 @@
     },
     {
       "char": "R",
-      "block": "create:fluid_pipe[waterlogged=false,up=false]"
+      "block": "create:fluid_pipe[waterlogged=false,up=false,down=false]"
     },
     {
       "char": "S",
@@ -184,15 +184,15 @@
     },
     {
       "char": "T",
-      "block": "create:fluid_pipe[waterlogged=false,up=true]"
+      "block": "create:fluid_pipe[waterlogged=false,up=true,down=false]"
     },
     {
       "char": "U",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "V",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "W",
@@ -200,31 +200,31 @@
     },
     {
       "char": "X",
-      "block": "embellishcraft:warning_steel_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:warning_steel_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "Y",
-      "block": "embellishcraft:warning_steel_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:warning_steel_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "Z",
-      "block": "create:copper_door[hinge=right,half=upper,facing=west,open=false]"
+      "block": "create:copper_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
       "char": "0",
-      "block": "create:copper_door[hinge=left,half=upper,facing=west,open=false]"
+      "block": "create:copper_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
       "char": "1",
-      "block": "embellishcraft:sturdy_steel_door[hinge=left,half=upper,facing=north,open=false]"
+      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
       "char": "2",
-      "block": "embellishcraft:sturdy_steel_door[hinge=left,half=upper,facing=west,open=false]"
+      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
       "char": "3",
-      "block": "embellishcraft:sturdy_steel_door[hinge=right,half=upper,facing=north,open=false]"
+      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
       "char": "4",
@@ -251,83 +251,91 @@
     },
     {
       "char": "6",
+      "block": "create:fluid_pipe[waterlogged=false,up=true,down=true]"
+    },
+    {
+      "char": "7",
       "block": "create:nixie_tube[waterlogged=false,double_face=ceiling,facing=east]",
       "tag": {
         "id": "create:nixie_tube"
       }
     },
     {
-      "char": "7",
-      "block": "embellishcraft:yellow_grey_tiles_slab[waterlogged=false,type=top]"
-    },
-    {
       "char": "8",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=west]"
+      "block": "embellishcraft:yellow_grey_tiles_slab[type=top,waterlogged=false]"
     },
     {
       "char": "9",
-      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+      "block": "quark:stone_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "@",
-      "block": "minecraft:brown_shulker_box[facing=up]"
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
     },
     {
       "char": "#",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
-      "loot": "chestloot"
+      "block": "minecraft:brown_shulker_box[facing=up]"
     },
     {
       "char": "$",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
+      "loot": "chestloot"
     },
     {
       "char": "%",
-      "block": "embellishcraft:yellow_grey_tiles"
+      "block": "create:fluid_pipe[waterlogged=false,up=false,down=true]"
     },
     {
       "char": "^",
-      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "&",
-      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "embellishcraft:yellow_grey_tiles"
     },
     {
       "char": "*",
-      "block": "minecraft:water"
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "(",
-      "block": "minecraft:sea_lantern"
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": ")",
-      "block": "minecraft:stripped_oak_log[axis=z]"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "+",
-      "block": "simplylight:illuminant_block_on"
+      "block": "minecraft:sea_lantern"
     },
     {
       "char": "-",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=north]"
+      "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
       "char": "[",
-      "block": "minecraft:stripped_oak_log[axis=x]"
+      "block": "simplylight:illuminant_block_on"
     },
     {
       "char": "]",
-      "block": "embellishcraft:air_duct"
+      "block": "quark:smooth_stone_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "{",
-      "block": "embellishcraft:vent_air_duct[facing=north]"
+      "block": "minecraft:stripped_oak_log[axis=x]"
     },
     {
       "char": "}",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=south]"
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "\\",
+      "block": "embellishcraft:vent_air_duct[facing=north]"
+    },
+    {
+      "char": "|",
+      "block": "quark:smooth_stone_vertical_slab[type=south,waterlogged=false]"
     }
   ]
 }

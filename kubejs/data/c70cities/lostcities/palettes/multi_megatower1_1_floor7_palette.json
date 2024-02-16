@@ -3,7 +3,7 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+      "block": "minecraft:birch_slab[type=top,waterlogged=false]"
     },
     {
       "char": "b",
@@ -11,15 +11,15 @@
     },
     {
       "char": "c",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:spruce_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "d",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "e",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "f",
@@ -39,15 +39,15 @@
     },
     {
       "char": "j",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:spruce_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:calcite_bricks_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "l",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "m",
@@ -55,7 +55,7 @@
     },
     {
       "char": "n",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "o",
@@ -67,7 +67,7 @@
     },
     {
       "char": "q",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "r",
@@ -75,7 +75,7 @@
     },
     {
       "char": "s",
-      "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     }
   ]
 }

@@ -7,11 +7,11 @@
     },
     {
       "char": "b",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:spruce_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "c",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:spruce_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "d",
@@ -35,23 +35,23 @@
     },
     {
       "char": "i",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:calcite_bricks_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=right]"
+      "block": "another_furniture:birch_planter_box[type=right,attached=false,facing=north]"
     },
     {
       "char": "k",
-      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=middle]"
+      "block": "another_furniture:birch_planter_box[type=middle,attached=false,facing=north]"
     },
     {
       "char": "l",
-      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=left]"
+      "block": "another_furniture:birch_planter_box[type=left,attached=false,facing=north]"
     },
     {
       "char": "m",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:polished_calcite_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "n",
@@ -59,7 +59,7 @@
     },
     {
       "char": "o",
-      "block": "minecraft:repeating_command_block[conditional=false,facing=west]",
+      "block": "minecraft:repeating_command_block[facing=west,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
@@ -68,7 +68,7 @@
     },
     {
       "char": "p",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:polished_calcite_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "q",
@@ -76,7 +76,7 @@
     },
     {
       "char": "r",
-      "block": "create:fluid_pipe[waterlogged=false,up=true]"
+      "block": "create:fluid_pipe[waterlogged=false,up=true,down=false]"
     },
     {
       "char": "s",
@@ -111,7 +111,7 @@
     },
     {
       "char": "x",
-      "block": "create:fluid_pipe[waterlogged=false,up=false]"
+      "block": "create:fluid_pipe[waterlogged=false,up=false,down=true]"
     },
     {
       "char": "y",
@@ -122,46 +122,50 @@
     },
     {
       "char": "A",
-      "block": "create:andesite_bars[waterlogged=false]"
+      "block": "create:fluid_pipe[waterlogged=false,up=true,down=true]"
     },
     {
       "char": "B",
-      "block": "embellishcraft:yellow_grey_tiles"
+      "block": "create:andesite_bars[waterlogged=false]"
     },
     {
       "char": "C",
-      "block": "immersiveengineering:heavy_engineering"
+      "block": "embellishcraft:yellow_grey_tiles"
     },
     {
       "char": "D",
-      "block": "create:glass_fluid_pipe[waterlogged=false,axis=y]"
+      "block": "immersiveengineering:heavy_engineering"
     },
     {
       "char": "E",
-      "block": "thirst:sand_filter"
+      "block": "create:glass_fluid_pipe[waterlogged=false,axis=y]"
     },
     {
       "char": "F",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "thirst:sand_filter"
     },
     {
       "char": "I",
-      "block": "minecraft:stripped_oak_log[axis=x]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "J",
-      "block": "minecraft:stripped_oak_log[axis=z]"
+      "block": "minecraft:stripped_oak_log[axis=x]"
     },
     {
       "char": "K",
-      "block": "minecraft:cyan_terracotta"
+      "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
       "char": "L",
-      "block": "embellishcraft:air_duct"
+      "block": "minecraft:cyan_terracotta"
     },
     {
       "char": "M",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "N",
       "block": "embellishcraft:grid_air_duct[facing=south]"
     }
   ]

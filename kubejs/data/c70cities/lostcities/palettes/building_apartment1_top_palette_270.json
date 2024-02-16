@@ -3,7 +3,7 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "b",
@@ -15,43 +15,43 @@
     },
     {
       "char": "d",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "e",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "f",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=north]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,facing=north,shape=inner_right]"
     },
     {
       "char": "g",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "h",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,shape=outer_left,facing=east]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,facing=east,shape=outer_left]"
     },
     {
       "char": "i",
-      "block": "minecraft:birch_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:birch_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "k",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "l",
-      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+      "block": "minecraft:birch_slab[type=top,waterlogged=false]"
     },
     {
       "char": "m",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "n",
@@ -63,7 +63,7 @@
     },
     {
       "char": "p",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "q",
@@ -71,11 +71,11 @@
     },
     {
       "char": "r",
-      "block": "minecraft:iron_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=east]"
     },
     {
       "char": "s",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "t",
@@ -87,19 +87,19 @@
     },
     {
       "char": "w",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "x",
-      "block": "minecraft:iron_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
       "char": "y",
-      "block": "minecraft:water_cauldron"
+      "block": "minecraft:water_cauldron[level=3]"
     },
     {
       "char": "A",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

@@ -3,15 +3,15 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=double]"
+      "block": "minecraft:smooth_stone_slab[type=double,waterlogged=false]"
     },
     {
       "char": "b",
-      "block": "create:cut_limestone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "create:cut_limestone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "c",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "d",
@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=west,type=right]"
+      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=west]"
     },
     {
       "char": "g",
@@ -31,19 +31,19 @@
     },
     {
       "char": "h",
-      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=west,type=left]"
+      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=west]"
     },
     {
       "char": "i",
-      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=east,type=left]"
+      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=east]"
     },
     {
       "char": "j",
-      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=east,type=right]"
+      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=east]"
     },
     {
       "char": "k",
-      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=east,type=middle]"
+      "block": "cfm:stripped_birch_park_bench[type=middle,waterlogged=false,facing=east]"
     }
   ]
 }

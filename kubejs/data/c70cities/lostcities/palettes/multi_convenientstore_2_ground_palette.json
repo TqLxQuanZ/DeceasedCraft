@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "e",
@@ -27,7 +27,15 @@
     },
     {
       "char": "g",
-      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "block": "rocks:oak_stick[variation=small]"
+    },
+    {
+      "char": "h",
+      "block": "rocks:rock[variation=tiny]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:command_block[facing=up,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
@@ -35,52 +43,64 @@
       }
     },
     {
-      "char": "h",
+      "char": "j",
       "block": "car:line_side_long_left[facing=east]"
     },
     {
-      "char": "i",
+      "char": "k",
       "block": "car:line_side_long_left[facing=south]"
     },
     {
-      "char": "j",
-      "block": "minecraft:iron_bars[waterlogged=false]"
-    },
-    {
-      "char": "k",
-      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
-    },
-    {
       "char": "l",
-      "block": "quark:limestone_vertical_slab[waterlogged=false,type=west]"
+      "block": "rocks:rock[variation=small]"
     },
     {
       "char": "m",
-      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=west]"
+      "block": "rocks:rock[variation=medium]"
     },
     {
       "char": "n",
-      "block": "cfm:gray_picket_fence[waterlogged=false]"
+      "block": "rocks:oak_stick[variation=medium]"
     },
     {
       "char": "o",
-      "block": "embellishcraft:smooth_marble"
+      "block": "minecraft:iron_bars[waterlogged=false]"
     },
     {
       "char": "p",
-      "block": "minecraft:smooth_quartz"
+      "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "q",
-      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
+      "block": "quark:limestone_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "r",
-      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+      "block": "quark:smooth_quartz_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "s",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "cfm:gray_picket_fence[waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:smooth_quartz_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     }
   ]
 }

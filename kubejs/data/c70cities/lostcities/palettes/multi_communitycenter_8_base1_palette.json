@@ -31,11 +31,11 @@
     },
     {
       "char": "h",
-      "block": "create:framed_glass_door[hinge=left,half=lower,facing=north,open=false]"
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=north]"
     },
     {
       "char": "i",
-      "block": "create:framed_glass_door[hinge=right,half=lower,facing=north,open=false]"
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=north]"
     },
     {
       "char": "j",
@@ -43,11 +43,11 @@
     },
     {
       "char": "k",
-      "block": "quark:polished_deepslate_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:polished_deepslate_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "l",
-      "block": "embellishcraft:sturdy_steel_door[hinge=right,half=lower,facing=north,open=false]"
+      "block": "embellishcraft:sturdy_steel_door[half=lower,open=false,hinge=right,facing=north]"
     },
     {
       "char": "m",
@@ -63,35 +63,35 @@
     },
     {
       "char": "p",
-      "block": "quark:stripped_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "q",
-      "block": "minecraft:furnace[lit=false,facing=east]"
+      "block": "minecraft:furnace[facing=east,lit=false]"
     },
     {
       "char": "r",
-      "block": "minecraft:iron_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=east]"
     },
     {
       "char": "s",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "t",
-      "block": "minecraft:iron_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=right,facing=east]"
     },
     {
       "char": "u",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "w",
-      "block": "minecraft:iron_door[hinge=left,half=lower,facing=north,open=false]"
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=north]"
     },
     {
       "char": "x",
-      "block": "minecraft:iron_door[hinge=right,half=lower,facing=north,open=false]"
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=right,facing=north]"
     },
     {
       "char": "y",
@@ -99,39 +99,39 @@
     },
     {
       "char": "A",
-      "block": "minecraft:blast_furnace[lit=false,facing=north]"
+      "block": "minecraft:blast_furnace[facing=north,lit=false]"
     },
     {
       "char": "B",
-      "block": "create:framed_glass_door[hinge=left,half=upper,facing=north,open=false]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
       "char": "C",
-      "block": "create:framed_glass_door[hinge=right,half=upper,facing=north,open=false]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
       "char": "D",
-      "block": "embellishcraft:sturdy_steel_door[hinge=right,half=upper,facing=north,open=false]"
+      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
       "char": "E",
-      "block": "minecraft:iron_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
       "char": "F",
-      "block": "minecraft:iron_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
       "char": "I",
-      "block": "minecraft:iron_door[hinge=left,half=upper,facing=north,open=false]"
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
       "char": "J",
-      "block": "minecraft:iron_door[hinge=right,half=upper,facing=north,open=false]"
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
       "char": "K",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "L",
@@ -139,7 +139,7 @@
     },
     {
       "char": "M",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "N",
@@ -147,7 +147,7 @@
     },
     {
       "char": "O",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     }
   ]
 }

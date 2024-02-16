@@ -11,7 +11,7 @@
     },
     {
       "char": "c",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "d",
@@ -35,11 +35,11 @@
     },
     {
       "char": "i",
-      "block": "another_furniture:dark_oak_table[waterlogged=false,update=false,facing=east]"
+      "block": "another_furniture:dark_oak_table[waterlogged=false,facing=east,update=false]"
     },
     {
       "char": "j",
-      "block": "another_furniture:dark_oak_table[waterlogged=false,update=false,facing=west]"
+      "block": "another_furniture:dark_oak_table[waterlogged=false,facing=west,update=false]"
     },
     {
       "char": "k",
@@ -47,7 +47,7 @@
     },
     {
       "char": "l",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "m",
@@ -83,7 +83,7 @@
     },
     {
       "char": "u",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "w",
@@ -99,7 +99,7 @@
     },
     {
       "char": "A",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "B",
@@ -151,7 +151,7 @@
     },
     {
       "char": "P",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "Q",
@@ -159,11 +159,11 @@
     },
     {
       "char": "R",
-      "block": "create:cut_calcite_slab[waterlogged=false,type=bottom]"
+      "block": "create:cut_calcite_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "S",
-      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+      "block": "minecraft:birch_slab[type=top,waterlogged=false]"
     }
   ]
 }

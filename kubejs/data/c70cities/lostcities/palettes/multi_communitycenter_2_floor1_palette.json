@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "create:cut_calcite_slab[waterlogged=false,type=bottom]"
+      "block": "create:cut_calcite_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "j",
@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "l",

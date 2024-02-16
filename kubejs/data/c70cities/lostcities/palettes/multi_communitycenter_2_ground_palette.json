@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "quark:iron_button[face=floor,facing=west]"
+      "block": "quark:iron_button[facing=west,face=floor]"
     },
     {
       "char": "j",
@@ -55,7 +55,7 @@
     },
     {
       "char": "n",
-      "block": "minecraft:brick_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "o",
@@ -67,7 +67,7 @@
     },
     {
       "char": "q",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -80,7 +80,7 @@
     },
     {
       "char": "t",
-      "block": "another_furniture:birch_drawer[facing=west,open=false]",
+      "block": "another_furniture:birch_drawer[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -89,23 +89,23 @@
     },
     {
       "char": "w",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=right]"
+      "block": "cfm:oak_park_bench[type=right,waterlogged=false,facing=west]"
     },
     {
       "char": "x",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=left]"
+      "block": "cfm:oak_park_bench[type=left,waterlogged=false,facing=west]"
     },
     {
       "char": "y",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "A",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=south,type=right]"
+      "block": "cfm:oak_park_bench[type=right,waterlogged=false,facing=south]"
     },
     {
       "char": "B",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=south,type=left]"
+      "block": "cfm:oak_park_bench[type=left,waterlogged=false,facing=south]"
     },
     {
       "char": "C",
@@ -113,11 +113,11 @@
     },
     {
       "char": "D",
-      "block": "quark:gold_button[face=floor,facing=south]"
+      "block": "quark:gold_button[facing=south,face=floor]"
     },
     {
       "char": "E",
-      "block": "minecraft:stone_button[face=floor,facing=south]"
+      "block": "minecraft:stone_button[facing=south,face=floor]"
     },
     {
       "char": "F",
@@ -129,7 +129,7 @@
     },
     {
       "char": "J",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=west,open=false]"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=west]"
     },
     {
       "char": "K",
@@ -153,7 +153,7 @@
     },
     {
       "char": "P",
-      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+      "block": "minecraft:birch_slab[type=top,waterlogged=false]"
     }
   ]
 }

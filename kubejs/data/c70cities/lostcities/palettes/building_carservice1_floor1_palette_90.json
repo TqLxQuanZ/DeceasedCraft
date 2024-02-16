@@ -7,11 +7,11 @@
     },
     {
       "char": "b",
-      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
+      "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "c",
-      "block": "quark:limestone_slab[waterlogged=false,type=top]"
+      "block": "quark:limestone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "d",
@@ -27,15 +27,15 @@
     },
     {
       "char": "g",
-      "block": "embellishcraft:gray_corrugated_metal_plate_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:gray_corrugated_metal_plate_slab[type=top,waterlogged=false]"
     },
     {
       "char": "h",
-      "block": "embellishcraft:gray_corrugated_metal_plate_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:gray_corrugated_metal_plate_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "i",
-      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=top]"
+      "block": "immersivepetroleum:asphalt_slab[type=top,waterlogged=false]"
     },
     {
       "char": "j",
@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "l",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:smooth_stone_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "n",
@@ -74,7 +74,7 @@
     },
     {
       "char": "r",
-      "block": "cfm:cyan_kitchen_counter[facing=west,type=default]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=west]"
     },
     {
       "char": "s",
@@ -82,7 +82,7 @@
     },
     {
       "char": "t",
-      "block": "minecraft:stone_button[face=wall,facing=east]"
+      "block": "minecraft:stone_button[facing=east,face=wall]"
     },
     {
       "char": "u",
@@ -94,15 +94,15 @@
     },
     {
       "char": "x",
-      "block": "minecraft:stone_button[face=wall,facing=south]"
+      "block": "minecraft:stone_button[facing=south,face=wall]"
     },
     {
       "char": "y",
-      "block": "minecraft:stone_brick_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_brick_slab[type=top,waterlogged=false]"
     },
     {
       "char": "A",
-      "block": "quark:dark_oak_post[waterlogged=false,chain_up=false,axis=x]"
+      "block": "quark:dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=x]"
     },
     {
       "char": "B",
@@ -113,15 +113,15 @@
     },
     {
       "char": "C",
-      "block": "quark:dark_oak_post[waterlogged=false,chain_up=false,axis=z]"
+      "block": "quark:dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=z]"
     },
     {
       "char": "D",
-      "block": "minecraft:stone_button[face=wall,facing=north]"
+      "block": "minecraft:stone_button[facing=north,face=wall]"
     },
     {
       "char": "E",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "F",
@@ -133,7 +133,7 @@
     },
     {
       "char": "J",
-      "block": "minecraft:smooth_red_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:smooth_red_sandstone_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "K",
@@ -141,15 +141,15 @@
     },
     {
       "char": "L",
-      "block": "minecraft:smooth_red_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:smooth_red_sandstone_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "M",
-      "block": "minecraft:smooth_red_sandstone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_red_sandstone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "N",
-      "block": "minecraft:lever[face=wall,facing=west]"
+      "block": "minecraft:lever[facing=west,face=wall]"
     },
     {
       "char": "O",
@@ -161,7 +161,7 @@
     },
     {
       "char": "Q",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

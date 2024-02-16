@@ -55,15 +55,15 @@
     },
     {
       "char": "n",
-      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "o",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "p",
-      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=top]"
+      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "q",
@@ -75,6 +75,10 @@
     },
     {
       "char": "s",
+      "block": "immersiveengineering:razor_wire[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "t",
       "block": "minecraft:redstone_torch[lit=true]"
     }
   ]

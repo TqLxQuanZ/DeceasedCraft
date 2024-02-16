@@ -11,7 +11,7 @@
     },
     {
       "char": "c",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "d",
@@ -31,16 +31,16 @@
     },
     {
       "char": "h",
-      "block": "cfm:cyan_kitchen_drawer[facing=east,open=false]",
+      "block": "cfm:cyan_kitchen_drawer[open=false,facing=east]",
       "loot": "chestloot"
     },
     {
       "char": "i",
-      "block": "minecraft:furnace[lit=false,facing=west]"
+      "block": "minecraft:furnace[facing=west,lit=false]"
     },
     {
       "char": "j",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -49,15 +49,15 @@
     },
     {
       "char": "l",
-      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "m",
-      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "n",
-      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "embellishcraft:polished_marble_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "o",
@@ -73,11 +73,11 @@
     },
     {
       "char": "r",
-      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_quartz_slab[type=top,waterlogged=false]"
     },
     {
       "char": "s",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
     }
   ]
 }

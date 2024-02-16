@@ -7,7 +7,7 @@
     },
     {
       "char": "b",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:spruce_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "c",
@@ -23,15 +23,15 @@
     },
     {
       "char": "f",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:spruce_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "g",
-      "block": "create:fluid_pipe[waterlogged=false,up=false]"
+      "block": "create:fluid_pipe[waterlogged=false,up=false,down=false]"
     },
     {
       "char": "h",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:polished_calcite_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "i",
@@ -39,11 +39,11 @@
     },
     {
       "char": "j",
-      "block": "create:fluid_pipe[waterlogged=false,up=true]"
+      "block": "create:fluid_pipe[waterlogged=false,up=true,down=false]"
     },
     {
       "char": "k",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:polished_calcite_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "l",
@@ -54,7 +54,7 @@
     },
     {
       "char": "m",
-      "block": "embellishcraft:yellow_grey_tiles_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:yellow_grey_tiles_slab[type=top,waterlogged=false]"
     },
     {
       "char": "n",
@@ -62,11 +62,11 @@
     },
     {
       "char": "o",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "p",
-      "block": "minecraft:water"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "q",
@@ -74,7 +74,7 @@
     },
     {
       "char": "r",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     }
   ]
 }

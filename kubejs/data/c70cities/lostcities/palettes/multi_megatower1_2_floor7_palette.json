@@ -3,11 +3,11 @@
   "palette": [
     {
       "char": "a",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:spruce_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "b",
-      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+      "block": "minecraft:birch_slab[type=top,waterlogged=false]"
     },
     {
       "char": "c",
@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:spruce_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "h",
@@ -39,11 +39,11 @@
     },
     {
       "char": "j",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     },
     {
       "char": "l",

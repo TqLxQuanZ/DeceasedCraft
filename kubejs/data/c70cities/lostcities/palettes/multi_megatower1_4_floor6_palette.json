@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
     },
     {
       "char": "e",
@@ -50,7 +50,7 @@
     },
     {
       "char": "l",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:calcite_bricks_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "m",
@@ -58,19 +58,19 @@
     },
     {
       "char": "n",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:calcite_bricks_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "o",
-      "block": "quark:iron_button[face=wall,facing=south]"
+      "block": "quark:iron_button[facing=south,face=wall]"
     },
     {
       "char": "p",
-      "block": "create:framed_glass_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "q",
-      "block": "create:framed_glass_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "r",
@@ -90,25 +90,25 @@
     },
     {
       "char": "w",
-      "block": "another_furniture:oak_drawer[facing=east,open=false]",
+      "block": "another_furniture:oak_drawer[open=false,facing=east]",
       "loot": "chestloot"
     },
     {
       "char": "x",
-      "block": "minecraft:oak_button[face=floor,facing=north]"
+      "block": "minecraft:oak_button[facing=north,face=floor]"
     },
     {
       "char": "y",
-      "block": "another_furniture:oak_drawer[facing=west,open=false]",
+      "block": "another_furniture:oak_drawer[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "A",
-      "block": "create:framed_glass_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "B",
-      "block": "create:framed_glass_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "C",
@@ -139,11 +139,11 @@
     },
     {
       "char": "K",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "L",
-      "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     },
     {
       "char": "M",

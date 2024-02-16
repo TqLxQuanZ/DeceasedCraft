@@ -23,11 +23,11 @@
     },
     {
       "char": "f",
-      "block": "quark:acacia_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:acacia_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "g",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:smooth_stone_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "h",
@@ -39,26 +39,26 @@
     },
     {
       "char": "j",
-      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=top]"
+      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
       "char": "l",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
       "char": "m",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
       "char": "n",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
@@ -71,11 +71,11 @@
     },
     {
       "char": "q",
-      "block": "embellishcraft:light_gray_pillow[waterlogged=false,part=head,facing=south,occupied=false]"
+      "block": "embellishcraft:light_gray_pillow[waterlogged=false,occupied=false,part=head,facing=south]"
     },
     {
       "char": "r",
-      "block": "embellishcraft:damaged_paving_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
     }
   ]
 }

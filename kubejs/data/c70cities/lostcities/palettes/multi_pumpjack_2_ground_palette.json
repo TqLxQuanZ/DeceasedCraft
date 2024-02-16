@@ -1,0 +1,81 @@
+{
+  "name": "multi_pumpjack_2_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=false]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "d",
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
+    },
+    {
+      "char": "e",
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "g",
+      "block": "immersiveengineering:metal_barrel"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:repeating_command_block[facing=north,conditional=false]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "execute if block ~ ~ ~-1 immersivepetroleum:oiltank run fill ~ ~1 ~ ~ ~ ~ air"
+      }
+    },
+    {
+      "char": "i",
+      "block": "immersiveengineering:crate"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:iron_bars[waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "clickmachine:auto_clicker[facing=north]",
+      "tag": {
+        "speed_index": 8,
+        "right_click": 1,
+        "inv": {
+          "Size": 1,
+          "Items": [
+            {
+              "Slot": 0,
+              "id": "immersiveengineering:hammer",
+              "Count": 1
+            }
+          ]
+        },
+        "id": "clickmachine:tile"
+      }
+    },
+    {
+      "char": "m",
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[type=top,waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
+    }
+  ]
+}

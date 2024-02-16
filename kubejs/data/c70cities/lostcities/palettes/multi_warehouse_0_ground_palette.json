@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:smooth_stone_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "j",
@@ -82,7 +82,7 @@
     },
     {
       "char": "t",
-      "block": "minecraft:brick_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "u",
@@ -98,7 +98,7 @@
     },
     {
       "char": "y",
-      "block": "embellishcraft:smooth_larvikite_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:smooth_larvikite_slab[type=top,waterlogged=false]"
     },
     {
       "char": "A",
@@ -110,7 +110,7 @@
     },
     {
       "char": "C",
-      "block": "biomesoplenty:fir_slab[waterlogged=false,type=bottom]"
+      "block": "biomesoplenty:fir_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "D",
@@ -118,7 +118,7 @@
     },
     {
       "char": "E",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     }
   ]
 }

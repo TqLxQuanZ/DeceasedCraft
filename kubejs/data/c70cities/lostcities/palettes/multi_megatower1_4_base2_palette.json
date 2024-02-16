@@ -34,30 +34,30 @@
     },
     {
       "char": "h",
-      "block": "minecraft:stone_slab[waterlogged=false,type=double]"
+      "block": "minecraft:stone_slab[type=double,waterlogged=false]"
     },
     {
       "char": "i",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:spruce_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:stone_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "create:contraption_controls[waterlogged=false,facing=east,open=false]",
+      "block": "create:contraption_controls[waterlogged=false,open=false,facing=east]",
       "tag": {
         "id": "create:contraption_controls"
       }
     },
     {
       "char": "l",
-      "block": "create:framed_glass_door[hinge=left,half=lower,facing=north,open=false]"
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=north]"
     },
     {
       "char": "m",
-      "block": "create:framed_glass_door[hinge=right,half=lower,facing=north,open=false]"
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=north]"
     },
     {
       "char": "n",
@@ -73,19 +73,19 @@
     },
     {
       "char": "q",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:stone_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "r",
-      "block": "quark:iron_button[face=wall,facing=south]"
+      "block": "quark:iron_button[facing=south,face=wall]"
     },
     {
       "char": "s",
-      "block": "embellishcraft:sturdy_white_steel_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:sturdy_white_steel_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "t",
-      "block": "embellishcraft:sturdy_white_steel_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:sturdy_white_steel_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "u",
@@ -105,7 +105,7 @@
     },
     {
       "char": "A",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "B",
@@ -130,19 +130,19 @@
     },
     {
       "char": "I",
-      "block": "create:framed_glass_door[hinge=left,half=upper,facing=north,open=false]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
       "char": "J",
-      "block": "create:framed_glass_door[hinge=right,half=upper,facing=north,open=false]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
       "char": "K",
-      "block": "embellishcraft:sturdy_white_steel_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:sturdy_white_steel_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "L",
-      "block": "embellishcraft:sturdy_white_steel_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:sturdy_white_steel_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "M",
@@ -150,11 +150,11 @@
     },
     {
       "char": "N",
-      "block": "immersivepetroleum:asphalt_stair[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "immersivepetroleum:asphalt_stair[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "O",
-      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
+      "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "P",
@@ -162,7 +162,7 @@
     },
     {
       "char": "Q",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=north,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=north]"
     },
     {
       "char": "R",
@@ -177,15 +177,15 @@
     },
     {
       "char": "T",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "U",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
     },
     {
       "char": "V",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "W",

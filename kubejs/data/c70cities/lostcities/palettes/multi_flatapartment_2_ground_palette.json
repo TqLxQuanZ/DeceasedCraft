@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "minecraft:stone_button[face=floor,facing=north]"
+      "block": "minecraft:stone_button[facing=north,face=floor]"
     },
     {
       "char": "f",
@@ -39,11 +39,11 @@
     },
     {
       "char": "j",
-      "block": "minecraft:stone_button[face=floor,facing=east]"
+      "block": "minecraft:stone_button[facing=east,face=floor]"
     },
     {
       "char": "k",
-      "block": "minecraft:command_block[conditional=false,facing=south]",
+      "block": "minecraft:command_block[facing=south,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
@@ -52,7 +52,7 @@
     },
     {
       "char": "l",
-      "block": "minecraft:stone_button[face=floor,facing=south]"
+      "block": "minecraft:stone_button[facing=south,face=floor]"
     },
     {
       "char": "m",
@@ -68,11 +68,11 @@
     },
     {
       "char": "p",
-      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_quartz_slab[type=top,waterlogged=false]"
     },
     {
       "char": "q",
-      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "r",

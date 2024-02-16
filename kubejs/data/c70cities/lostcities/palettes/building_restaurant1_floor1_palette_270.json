@@ -11,7 +11,7 @@
     },
     {
       "char": "c",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
     },
     {
       "char": "d",
@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "embellishcraft:smooth_marble_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:smooth_marble_slab[type=top,waterlogged=false]"
     },
     {
       "char": "i",
@@ -39,11 +39,11 @@
     },
     {
       "char": "j",
-      "block": "embellishcraft:spruce_fancy_door[hinge=left,half=lower,facing=east,open=true]"
+      "block": "embellishcraft:spruce_fancy_door[half=lower,open=true,hinge=left,facing=east]"
     },
     {
       "char": "k",
-      "block": "embellishcraft:spruce_fancy_door[hinge=right,half=lower,facing=east,open=true]"
+      "block": "embellishcraft:spruce_fancy_door[half=lower,open=true,hinge=right,facing=east]"
     },
     {
       "char": "l",
@@ -51,11 +51,11 @@
     },
     {
       "char": "m",
-      "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
     },
     {
       "char": "n",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "o",
@@ -63,36 +63,37 @@
     },
     {
       "char": "p",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "q",
-      "block": "cfm:brown_kitchen_counter[facing=south,type=default]"
+      "block": "cfm:brown_kitchen_counter[type=default,facing=south]"
     },
     {
       "char": "r",
-      "block": "cfm:freezer_light[facing=east,open=false]"
+      "block": "pfm:white_fridge[open=false,facing=east]",
+      "loot": "chestloot"
     },
     {
       "char": "s",
-      "block": "farmersdelight:spruce_cabinet[facing=north,open=false]",
+      "block": "farmersdelight:spruce_cabinet[open=false,facing=north]",
       "loot": "chestloot"
     },
     {
       "char": "t",
-      "block": "minecraft:oak_trapdoor[waterlogged=false,half=top,facing=west,open=false]"
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=top,open=false,facing=west]"
     },
     {
       "char": "u",
-      "block": "farmersdelight:stove[lit=false,facing=north]"
+      "block": "pfm:white_stove[open=false,facing=north,lit=false]"
     },
     {
       "char": "w",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "x",
-      "block": "cfm:brown_kitchen_counter[facing=west,type=default]"
+      "block": "cfm:brown_kitchen_counter[type=default,facing=west]"
     },
     {
       "char": "y",
@@ -108,7 +109,7 @@
     },
     {
       "char": "C",
-      "block": "embellishcraft:white_couch[waterlogged=false,shape=straight,facing=north]"
+      "block": "embellishcraft:white_couch[waterlogged=false,facing=north,shape=straight]"
     },
     {
       "char": "D",
@@ -120,39 +121,39 @@
     },
     {
       "char": "F",
-      "block": "embellishcraft:white_couch[waterlogged=false,shape=straight,facing=south]"
+      "block": "embellishcraft:white_couch[waterlogged=false,facing=south,shape=straight]"
     },
     {
       "char": "I",
-      "block": "embellishcraft:white_couch[waterlogged=false,shape=straight,facing=west]"
+      "block": "embellishcraft:white_couch[waterlogged=false,facing=west,shape=straight]"
     },
     {
       "char": "J",
-      "block": "another_furniture:oak_shutter[waterlogged=false,facing=west,type=none,open=false]"
+      "block": "another_furniture:oak_shutter[type=none,waterlogged=false,open=false,facing=west]"
     },
     {
       "char": "K",
-      "block": "another_furniture:spruce_planter_box[attached=true,facing=west,type=left]"
+      "block": "another_furniture:spruce_planter_box[type=left,attached=true,facing=west]"
     },
     {
       "char": "L",
-      "block": "another_furniture:spruce_planter_box[attached=true,facing=west,type=middle]"
+      "block": "another_furniture:spruce_planter_box[type=middle,attached=true,facing=west]"
     },
     {
       "char": "M",
-      "block": "another_furniture:spruce_planter_box[attached=true,facing=west,type=right]"
+      "block": "another_furniture:spruce_planter_box[type=right,attached=true,facing=west]"
     },
     {
       "char": "N",
-      "block": "another_furniture:spruce_planter_box[attached=true,facing=west,type=single]"
+      "block": "another_furniture:spruce_planter_box[type=single,attached=true,facing=west]"
     },
     {
       "char": "O",
-      "block": "embellishcraft:spruce_fancy_door[hinge=left,half=upper,facing=east,open=true]"
+      "block": "embellishcraft:spruce_fancy_door[half=upper,open=true,hinge=left,facing=east]"
     },
     {
       "char": "P",
-      "block": "embellishcraft:spruce_fancy_door[hinge=right,half=upper,facing=east,open=true]"
+      "block": "embellishcraft:spruce_fancy_door[half=upper,open=true,hinge=right,facing=east]"
     },
     {
       "char": "Q",
@@ -164,12 +165,11 @@
     },
     {
       "char": "S",
-      "block": "cfm:fridge_light[facing=east,open=false]",
-      "loot": "chestloot"
+      "block": "pfm:white_freezer[open=false,facing=east]"
     },
     {
       "char": "T",
-      "block": "farmersdelight:cooking_pot[waterlogged=false,facing=north,support=none]"
+      "block": "farmersdelight:cooking_pot[waterlogged=false,support=none,facing=north]"
     },
     {
       "char": "U",
@@ -185,11 +185,11 @@
     },
     {
       "char": "X",
-      "block": "another_furniture:oak_shelf[waterlogged=false,facing=west,type=single]"
+      "block": "another_furniture:oak_shelf[type=single,waterlogged=false,facing=west]"
     },
     {
       "char": "Y",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "Z",
@@ -197,7 +197,7 @@
     },
     {
       "char": "0",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {

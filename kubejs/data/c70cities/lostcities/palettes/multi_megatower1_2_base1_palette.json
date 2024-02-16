@@ -11,7 +11,7 @@
     },
     {
       "char": "c",
-      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "d",
@@ -35,31 +35,31 @@
     },
     {
       "char": "i",
-      "block": "embellishcraft:basalt_button[face=wall,facing=east]"
+      "block": "embellishcraft:basalt_button[facing=east,face=wall]"
     },
     {
       "char": "j",
-      "block": "embellishcraft:basalt_button[face=wall,facing=west]"
+      "block": "embellishcraft:basalt_button[facing=west,face=wall]"
     },
     {
       "char": "k",
-      "block": "embellishcraft:basalt_button[face=wall,facing=south]"
+      "block": "embellishcraft:basalt_button[facing=south,face=wall]"
     },
     {
       "char": "l",
-      "block": "minecraft:stone_button[face=floor,facing=south]"
+      "block": "minecraft:stone_button[facing=south,face=floor]"
     },
     {
       "char": "m",
-      "block": "minecraft:stone_button[face=floor,facing=east]"
+      "block": "minecraft:stone_button[facing=east,face=floor]"
     },
     {
       "char": "n",
-      "block": "embellishcraft:basalt_button[face=wall,facing=north]"
+      "block": "embellishcraft:basalt_button[facing=north,face=wall]"
     },
     {
       "char": "o",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     }
   ]
 }

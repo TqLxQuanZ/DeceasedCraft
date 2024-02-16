@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:smooth_stone_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "i",
@@ -47,7 +47,7 @@
     },
     {
       "char": "l",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -71,7 +71,7 @@
     },
     {
       "char": "q",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "r",
@@ -79,11 +79,11 @@
     },
     {
       "char": "s",
-      "block": "create:framed_glass_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=east]"
     },
     {
       "char": "t",
-      "block": "create:framed_glass_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=east]"
     },
     {
       "char": "u",
@@ -91,19 +91,19 @@
     },
     {
       "char": "w",
-      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,facing=west,open=false]"
+      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,open=false,facing=west]"
     },
     {
       "char": "x",
-      "block": "create:framed_glass_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
       "char": "y",
-      "block": "create:framed_glass_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
       "char": "A",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:smooth_stone_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "B",
@@ -115,7 +115,7 @@
     },
     {
       "char": "D",
-      "block": "embellishcraft:terracotta_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:terracotta_slab[type=top,waterlogged=false]"
     },
     {
       "char": "E",
@@ -127,11 +127,11 @@
     },
     {
       "char": "I",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "J",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

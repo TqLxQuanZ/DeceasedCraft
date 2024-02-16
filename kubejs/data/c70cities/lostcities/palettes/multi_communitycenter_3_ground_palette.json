@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "minecraft:water"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "g",
@@ -47,7 +47,7 @@
     },
     {
       "char": "l",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "m",
@@ -59,7 +59,7 @@
     },
     {
       "char": "o",
-      "block": "create:cut_calcite_slab[waterlogged=false,type=bottom]"
+      "block": "create:cut_calcite_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "p",
@@ -71,7 +71,7 @@
     },
     {
       "char": "r",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "s",
@@ -119,7 +119,7 @@
     },
     {
       "char": "F",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "I",
@@ -127,11 +127,11 @@
     },
     {
       "char": "J",
-      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:smooth_quartz_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "K",
-      "block": "minecraft:dark_oak_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

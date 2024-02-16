@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+      "block": "minecraft:birch_slab[type=top,waterlogged=false]"
     },
     {
       "char": "f",
@@ -27,11 +27,11 @@
     },
     {
       "char": "g",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:spruce_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "h",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:spruce_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "i",
@@ -59,7 +59,7 @@
     },
     {
       "char": "o",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:polished_calcite_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "p",
@@ -67,15 +67,15 @@
     },
     {
       "char": "q",
-      "block": "minecraft:spruce_button[face=floor,facing=west]"
+      "block": "minecraft:spruce_button[facing=west,face=floor]"
     },
     {
       "char": "r",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:spruce_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "s",
-      "block": "minecraft:spruce_button[face=floor,facing=east]"
+      "block": "minecraft:spruce_button[facing=east,face=floor]"
     },
     {
       "char": "t",
@@ -91,7 +91,7 @@
     },
     {
       "char": "x",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "y",

@@ -52,7 +52,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "e",
@@ -76,7 +76,7 @@
     },
     {
       "char": "j",
-      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[type=top,waterlogged=false]"
     },
     {
       "char": "k",
@@ -84,7 +84,7 @@
     },
     {
       "char": "l",
-      "block": "minecraft:stone_brick_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_brick_slab[type=top,waterlogged=false]"
     }
   ]
 }

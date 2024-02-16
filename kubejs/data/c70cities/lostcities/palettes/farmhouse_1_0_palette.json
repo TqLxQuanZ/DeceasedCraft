@@ -7,7 +7,7 @@
     },
     {
       "char": "b",
-      "block": "minecraft:dark_oak_button[face=floor,facing=east]"
+      "block": "minecraft:dark_oak_button[facing=east,face=floor]"
     },
     {
       "char": "c",
@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "minecraft:dark_oak_button[face=floor,facing=north]"
+      "block": "minecraft:dark_oak_button[facing=north,face=floor]"
     },
     {
       "char": "h",
@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "quark:acacia_post[waterlogged=false,chain_up=false,axis=x]"
+      "block": "quark:acacia_post[waterlogged=false,chain_down=false,chain_up=false,axis=x]"
     },
     {
       "char": "k",

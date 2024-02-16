@@ -40,11 +40,11 @@
     },
     {
       "char": "a",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "b",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "c",
@@ -60,7 +60,7 @@
     },
     {
       "char": "f",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "g",

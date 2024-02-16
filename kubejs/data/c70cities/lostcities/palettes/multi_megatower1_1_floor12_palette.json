@@ -3,11 +3,11 @@
   "palette": [
     {
       "char": "a",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:spruce_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "b",
-      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+      "block": "minecraft:birch_slab[type=top,waterlogged=false]"
     },
     {
       "char": "c",
@@ -15,15 +15,15 @@
     },
     {
       "char": "d",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:spruce_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "e",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "f",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "g",
@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "k",
@@ -47,15 +47,15 @@
     },
     {
       "char": "l",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:calcite_bricks_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "m",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "n",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "o",
@@ -63,7 +63,7 @@
     },
     {
       "char": "p",
-      "block": "embellishcraft:polished_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "embellishcraft:polished_slate_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "q",
@@ -75,15 +75,15 @@
     },
     {
       "char": "s",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "t",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "u",
-      "block": "minecraft:redstone_wall_torch[lit=true,facing=north]"
+      "block": "minecraft:redstone_wall_torch[facing=north,lit=true]"
     },
     {
       "char": "w",
@@ -103,7 +103,7 @@
     },
     {
       "char": "B",
-      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[type=top,waterlogged=false]"
     },
     {
       "char": "C",
@@ -111,11 +111,11 @@
     },
     {
       "char": "D",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "E",
-      "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     }
   ]
 }

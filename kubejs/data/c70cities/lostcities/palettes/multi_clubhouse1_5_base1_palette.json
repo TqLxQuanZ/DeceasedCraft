@@ -7,7 +7,7 @@
     },
     {
       "char": "b",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "c",
@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "g",
@@ -47,7 +47,7 @@
     },
     {
       "char": "l",
-      "block": "minecraft:spruce_button[face=floor,facing=south]"
+      "block": "minecraft:spruce_button[facing=south,face=floor]"
     },
     {
       "char": "m",
@@ -55,33 +55,33 @@
     },
     {
       "char": "n",
-      "block": "farmersdelight:spruce_cabinet[facing=east,open=false]",
+      "block": "farmersdelight:spruce_cabinet[open=false,facing=east]",
       "loot": "chestloot"
     },
     {
       "char": "o",
-      "block": "another_furniture:white_sofa[waterlogged=false,facing=west,type=left]"
+      "block": "another_furniture:white_sofa[type=left,waterlogged=false,facing=west]"
     },
     {
       "char": "p",
-      "block": "farmersdelight:spruce_cabinet[facing=west,open=false]",
+      "block": "farmersdelight:spruce_cabinet[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "q",
-      "block": "another_furniture:white_sofa[waterlogged=false,facing=east,type=right]"
+      "block": "another_furniture:white_sofa[type=right,waterlogged=false,facing=east]"
     },
     {
       "char": "r",
-      "block": "another_furniture:white_sofa[waterlogged=false,facing=west,type=right]"
+      "block": "another_furniture:white_sofa[type=right,waterlogged=false,facing=west]"
     },
     {
       "char": "s",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:spruce_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "t",
-      "block": "another_furniture:white_sofa[waterlogged=false,facing=east,type=left]"
+      "block": "another_furniture:white_sofa[type=left,waterlogged=false,facing=east]"
     },
     {
       "char": "u",
@@ -89,12 +89,12 @@
     },
     {
       "char": "w",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
       "char": "x",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -103,7 +103,7 @@
     },
     {
       "char": "A",
-      "block": "create:polished_cut_deepslate_slab[waterlogged=false,type=top]"
+      "block": "create:polished_cut_deepslate_slab[type=top,waterlogged=false]"
     }
   ]
 }

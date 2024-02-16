@@ -3,11 +3,11 @@
   "palette": [
     {
       "char": "a",
-      "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "b",
-      "block": "embellishcraft:gray_corrugated_metal_plate_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:gray_corrugated_metal_plate_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "c",
@@ -19,11 +19,11 @@
     },
     {
       "char": "e",
-      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "f",
-      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[type=top,waterlogged=false]"
     },
     {
       "char": "g",
@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "i",

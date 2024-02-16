@@ -3,7 +3,7 @@
   "palette": [
     {
       "char": "a",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:spruce_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "b",
@@ -11,11 +11,11 @@
     },
     {
       "char": "c",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:spruce_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "d",
-      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+      "block": "minecraft:birch_slab[type=top,waterlogged=false]"
     },
     {
       "char": "e",
@@ -43,19 +43,19 @@
     },
     {
       "char": "k",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:calcite_bricks_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "l",
-      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=right]"
+      "block": "another_furniture:birch_planter_box[type=right,attached=false,facing=north]"
     },
     {
       "char": "m",
-      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=middle]"
+      "block": "another_furniture:birch_planter_box[type=middle,attached=false,facing=north]"
     },
     {
       "char": "n",
-      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=left]"
+      "block": "another_furniture:birch_planter_box[type=left,attached=false,facing=north]"
     },
     {
       "char": "o",
@@ -63,7 +63,7 @@
     },
     {
       "char": "p",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:calcite_bricks_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "q",
@@ -75,7 +75,7 @@
     },
     {
       "char": "s",
-      "block": "cfm:brown_sofa[waterlogged=false,facing=north,type=single]"
+      "block": "cfm:brown_sofa[type=single,waterlogged=false,facing=north]"
     },
     {
       "char": "t",
@@ -87,7 +87,7 @@
     },
     {
       "char": "w",
-      "block": "cfm:brown_sofa[waterlogged=false,facing=west,type=right]"
+      "block": "cfm:brown_sofa[type=right,waterlogged=false,facing=west]"
     },
     {
       "char": "x",
@@ -99,7 +99,7 @@
     },
     {
       "char": "A",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
     },
     {
       "char": "B",

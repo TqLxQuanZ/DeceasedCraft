@@ -7,7 +7,7 @@
     },
     {
       "char": "b",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:spruce_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "c",
@@ -23,15 +23,15 @@
     },
     {
       "char": "f",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:spruce_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "g",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:calcite_bricks_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "h",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:calcite_bricks_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "i",
@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "k",

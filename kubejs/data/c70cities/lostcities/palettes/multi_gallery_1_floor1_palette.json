@@ -55,23 +55,23 @@
     },
     {
       "char": "n",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=right]"
+      "block": "cfm:stripped_oak_park_bench[type=right,waterlogged=false,facing=south]"
     },
     {
       "char": "o",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=left]"
+      "block": "cfm:stripped_oak_park_bench[type=left,waterlogged=false,facing=south]"
     },
     {
       "char": "p",
-      "block": "quark:stripped_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "q",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[half=lower,open=false,hinge=left,facing=east]"
     },
     {
       "char": "r",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[half=lower,open=false,hinge=right,facing=east]"
     },
     {
       "char": "s",
@@ -79,11 +79,11 @@
     },
     {
       "char": "t",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=left]"
+      "block": "cfm:stripped_oak_park_bench[type=left,waterlogged=false,facing=north]"
     },
     {
       "char": "u",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=right]"
+      "block": "cfm:stripped_oak_park_bench[type=right,waterlogged=false,facing=north]"
     },
     {
       "char": "w",
@@ -91,15 +91,15 @@
     },
     {
       "char": "x",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
       "char": "y",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
       "char": "A",
-      "block": "minecraft:oak_slab[waterlogged=false,type=top]"
+      "block": "minecraft:oak_slab[type=top,waterlogged=false]"
     },
     {
       "char": "B",
@@ -107,7 +107,7 @@
     },
     {
       "char": "C",
-      "block": "minecraft:oak_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:oak_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "D",
@@ -119,7 +119,7 @@
     },
     {
       "char": "F",
-      "block": "embellishcraft:smooth_marble_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:smooth_marble_slab[type=top,waterlogged=false]"
     },
     {
       "char": "I",
@@ -127,7 +127,7 @@
     },
     {
       "char": "J",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
     },
     {
       "char": "K",

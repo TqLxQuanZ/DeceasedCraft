@@ -7,11 +7,11 @@
     },
     {
       "char": "b",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:spruce_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "c",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:spruce_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "d",
@@ -27,15 +27,15 @@
     },
     {
       "char": "g",
-      "block": "create:fluid_pipe[waterlogged=false,up=true]"
+      "block": "create:fluid_pipe[waterlogged=false,up=true,down=false]"
     },
     {
       "char": "h",
-      "block": "create:fluid_pipe[waterlogged=false,up=false]"
+      "block": "create:fluid_pipe[waterlogged=false,up=false,down=false]"
     },
     {
       "char": "i",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:polished_calcite_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "j",
@@ -71,19 +71,19 @@
     },
     {
       "char": "o",
-      "block": "create:fluid_tank[top=false,shape=window_nw]"
+      "block": "create:fluid_tank[shape=window_nw,top=false]"
     },
     {
       "char": "p",
-      "block": "create:fluid_tank[top=false,shape=window_ne]"
+      "block": "create:fluid_tank[shape=window_ne,top=false]"
     },
     {
       "char": "q",
-      "block": "create:fluid_tank[top=false,shape=window_sw]"
+      "block": "create:fluid_tank[shape=window_sw,top=false]"
     },
     {
       "char": "r",
-      "block": "create:fluid_tank[top=false,shape=window_se]"
+      "block": "create:fluid_tank[shape=window_se,top=false]"
     },
     {
       "char": "s",
@@ -105,19 +105,19 @@
     },
     {
       "char": "w",
-      "block": "create:fluid_tank[top=true,shape=window_nw]"
+      "block": "create:fluid_tank[shape=window_nw,top=true]"
     },
     {
       "char": "x",
-      "block": "create:fluid_tank[top=true,shape=window_ne]"
+      "block": "create:fluid_tank[shape=window_ne,top=true]"
     },
     {
       "char": "y",
-      "block": "create:fluid_tank[top=true,shape=window_sw]"
+      "block": "create:fluid_tank[shape=window_sw,top=true]"
     },
     {
       "char": "A",
-      "block": "create:fluid_tank[top=true,shape=window_se]"
+      "block": "create:fluid_tank[shape=window_se,top=true]"
     },
     {
       "char": "B",
@@ -129,23 +129,27 @@
     },
     {
       "char": "D",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "E",
-      "block": "embellishcraft:yellow_grey_tiles_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:yellow_grey_tiles_slab[type=top,waterlogged=false]"
     },
     {
       "char": "F",
-      "block": "minecraft:sea_lantern"
+      "block": "create:fluid_pipe[waterlogged=false,up=false,down=true]"
     },
     {
       "char": "I",
-      "block": "embellishcraft:yellow_grey_tiles_stairs[waterlogged=true,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:sea_lantern"
     },
     {
       "char": "J",
-      "block": "minecraft:water"
+      "block": "embellishcraft:yellow_grey_tiles_stairs[waterlogged=true,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:water[level=0]"
     }
   ]
 }

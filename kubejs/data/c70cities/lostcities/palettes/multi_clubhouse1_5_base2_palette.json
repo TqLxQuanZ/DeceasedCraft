@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "minecraft:water"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "g",
@@ -63,7 +63,7 @@
     },
     {
       "char": "p",
-      "block": "embellishcraft:andesite_button[face=floor,facing=south]"
+      "block": "embellishcraft:andesite_button[facing=south,face=floor]"
     },
     {
       "char": "q",
@@ -75,7 +75,7 @@
     },
     {
       "char": "s",
-      "block": "minecraft:polished_andesite_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "t",

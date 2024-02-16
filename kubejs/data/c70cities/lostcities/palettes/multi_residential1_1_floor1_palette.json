@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "minecraft:dark_oak_slab[waterlogged=false,type=top]"
+      "block": "minecraft:dark_oak_slab[type=top,waterlogged=false]"
     },
     {
       "char": "f",
@@ -31,20 +31,20 @@
     },
     {
       "char": "h",
-      "block": "minecraft:dark_oak_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "i",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "j",
-      "block": "farmersdelight:dark_oak_cabinet[facing=south,open=false]",
+      "block": "farmersdelight:dark_oak_cabinet[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "k",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

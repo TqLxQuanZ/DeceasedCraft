@@ -3,23 +3,23 @@
   "palette": [
     {
       "char": "a",
-      "block": "another_furniture:dark_oak_planter_box[attached=true,facing=north,type=right]"
+      "block": "another_furniture:dark_oak_planter_box[type=right,attached=true,facing=north]"
     },
     {
       "char": "b",
-      "block": "another_furniture:dark_oak_planter_box[attached=true,facing=north,type=middle]"
+      "block": "another_furniture:dark_oak_planter_box[type=middle,attached=true,facing=north]"
     },
     {
       "char": "c",
-      "block": "another_furniture:dark_oak_planter_box[attached=true,facing=north,type=left]"
+      "block": "another_furniture:dark_oak_planter_box[type=left,attached=true,facing=north]"
     },
     {
       "char": "d",
-      "block": "minecraft:dark_oak_slab[waterlogged=false,type=top]"
+      "block": "minecraft:dark_oak_slab[type=top,waterlogged=false]"
     },
     {
       "char": "e",
-      "block": "minecraft:dark_oak_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

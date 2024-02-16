@@ -7,7 +7,7 @@
     },
     {
       "char": "b",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:spruce_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "c",
@@ -23,16 +23,16 @@
     },
     {
       "char": "f",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:spruce_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "g",
-      "block": "cfm:stripped_spruce_kitchen_drawer[facing=east,open=false]",
+      "block": "cfm:stripped_spruce_kitchen_drawer[open=false,facing=east]",
       "loot": "chestloot"
     },
     {
       "char": "h",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:polished_calcite_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "i",
@@ -40,23 +40,23 @@
     },
     {
       "char": "j",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:polished_calcite_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "another_furniture:gray_lamp[waterlogged=false,lit=true,facing=up]"
+      "block": "another_furniture:gray_lamp[waterlogged=false,facing=up,lit=true,level=3]"
     },
     {
       "char": "l",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
     },
     {
       "char": "m",
-      "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=north,type=left,open=false]"
+      "block": "another_furniture:gray_curtain[type=left,waterlogged=false,open=false,facing=north,top=true]"
     },
     {
       "char": "n",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=south,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=south]"
     },
     {
       "char": "o",

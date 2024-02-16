@@ -3,11 +3,11 @@
   "palette": [
     {
       "char": "a",
-      "block": "quark:mossy_stone_brick_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:mossy_stone_brick_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "b",
-      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:stone_brick_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "c",
@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:stone_brick_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "e",
@@ -23,23 +23,23 @@
     },
     {
       "char": "f",
-      "block": "quark:mossy_stone_brick_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:mossy_stone_brick_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "g",
-      "block": "quark:mossy_stone_brick_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:mossy_stone_brick_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "h",
-      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:stone_brick_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "i",
-      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:stone_brick_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "quark:mossy_stone_brick_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:mossy_stone_brick_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "k",

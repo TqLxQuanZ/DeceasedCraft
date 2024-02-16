@@ -7,7 +7,7 @@
     },
     {
       "char": "b",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:spruce_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "c",
@@ -23,11 +23,11 @@
     },
     {
       "char": "f",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:spruce_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "g",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:polished_calcite_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "h",
@@ -35,28 +35,28 @@
     },
     {
       "char": "i",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:polished_calcite_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "cfm:stripped_spruce_kitchen_drawer[facing=east,open=false]",
+      "block": "cfm:stripped_spruce_kitchen_drawer[open=false,facing=east]",
       "loot": "chestloot"
     },
     {
       "char": "k",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
     },
     {
       "char": "l",
-      "block": "another_furniture:gray_lamp[waterlogged=false,lit=true,facing=up]"
+      "block": "another_furniture:gray_lamp[waterlogged=false,facing=up,lit=true,level=3]"
     },
     {
       "char": "m",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=north,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=north]"
     },
     {
       "char": "n",
-      "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=south,type=right,open=true]"
+      "block": "another_furniture:gray_curtain[type=right,waterlogged=false,open=true,facing=south,top=true]"
     },
     {
       "char": "o",

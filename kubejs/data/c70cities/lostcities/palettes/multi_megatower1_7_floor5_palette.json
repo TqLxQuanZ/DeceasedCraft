@@ -7,11 +7,11 @@
     },
     {
       "char": "b",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:spruce_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "c",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:spruce_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "d",
@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:polished_calcite_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "i",
@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "embellishcraft:light_gray_couch[waterlogged=false,shape=straight,facing=south]"
+      "block": "embellishcraft:light_gray_couch[waterlogged=false,facing=south,shape=straight]"
     },
     {
       "char": "k",
@@ -51,11 +51,11 @@
     },
     {
       "char": "m",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "n",
-      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:smooth_quartz_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "o",
@@ -63,7 +63,7 @@
     },
     {
       "char": "p",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
     },
     {
       "char": "q",
@@ -71,23 +71,23 @@
     },
     {
       "char": "r",
-      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,facing=west,open=true]"
+      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
     },
     {
       "char": "s",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=east,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=east]"
     },
     {
       "char": "t",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "u",
-      "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     },
     {
       "char": "w",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "x",
@@ -95,7 +95,7 @@
     },
     {
       "char": "y",
-      "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:polished_basalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "A",

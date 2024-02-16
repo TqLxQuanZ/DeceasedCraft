@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "create:small_limestone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "create:small_limestone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "e",
@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "h",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "cfm:light_gray_sofa[waterlogged=false,facing=west,type=single]"
+      "block": "cfm:light_gray_sofa[type=single,waterlogged=false,facing=west]"
     },
     {
       "char": "n",
@@ -87,7 +87,7 @@
     },
     {
       "char": "w",
-      "block": "another_furniture:spruce_bench[type_2=single,waterlogged=false,type_1=single,facing=south]"
+      "block": "another_furniture:spruce_bench[waterlogged=false,type_1=single,facing=south,type_2=single]"
     },
     {
       "char": "x",
@@ -103,7 +103,7 @@
     },
     {
       "char": "B",
-      "block": "another_furniture:spruce_bench[type_2=single,waterlogged=false,type_1=single,facing=north]"
+      "block": "another_furniture:spruce_bench[waterlogged=false,type_1=single,facing=north,type_2=single]"
     }
   ]
 }

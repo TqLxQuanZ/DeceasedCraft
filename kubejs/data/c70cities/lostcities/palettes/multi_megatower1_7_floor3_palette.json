@@ -7,11 +7,11 @@
     },
     {
       "char": "b",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:spruce_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "c",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:spruce_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "d",
@@ -31,20 +31,20 @@
     },
     {
       "char": "h",
-      "block": "minecraft:stone_button[face=floor,facing=east]"
+      "block": "minecraft:stone_button[facing=east,face=floor]"
     },
     {
       "char": "i",
-      "block": "cfm:stripped_spruce_kitchen_drawer[facing=east,open=false]",
+      "block": "cfm:stripped_spruce_kitchen_drawer[open=false,facing=east]",
       "loot": "chestloot"
     },
     {
       "char": "j",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:polished_calcite_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:smooth_quartz_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "l",
@@ -56,33 +56,33 @@
     },
     {
       "char": "n",
-      "block": "farmersdelight:spruce_cabinet[facing=west,open=false]",
+      "block": "farmersdelight:spruce_cabinet[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "o",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:polished_calcite_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "p",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:polished_calcite_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "q",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:polished_calcite_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "r",
-      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:smooth_quartz_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "s",
-      "block": "cfm:cyan_cooler[waterlogged=false,facing=east,open=false]",
+      "block": "cfm:cyan_cooler[waterlogged=false,open=false,facing=east]",
       "loot": "chestloot"
     },
     {
       "char": "t",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -91,11 +91,11 @@
     },
     {
       "char": "w",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
     },
     {
       "char": "x",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=east,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=east]"
     },
     {
       "char": "y",
@@ -111,15 +111,15 @@
     },
     {
       "char": "C",
-      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "D",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "E",
-      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     }
   ]
 }

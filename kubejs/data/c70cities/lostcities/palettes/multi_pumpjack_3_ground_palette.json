@@ -1,0 +1,113 @@
+{
+  "name": "multi_pumpjack_3_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "immersivepetroleum:crudeoil[level=0]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:coal_block"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "e",
+      "block": "immersiveengineering:crate"
+    },
+    {
+      "char": "f",
+      "block": "immersiveengineering:fluid_pipe[waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=false]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:black_carpet"
+    },
+    {
+      "char": "i",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "j",
+      "block": "immersiveengineering:metal_barrel"
+    },
+    {
+      "char": "k",
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:repeating_command_block[facing=up,conditional=false]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "execute if block ~ ~ ~-2 immersivepetroleum:pumpjack run fill ~ ~1 ~ ~ ~ ~ air"
+      }
+    },
+    {
+      "char": "m",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:iron_bars[waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "immersiveengineering:treated_fence[waterlogged=false]"
+    },
+    {
+      "char": "p",
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    {
+      "char": "q",
+      "block": "immersiveengineering:rs_engineering"
+    },
+    {
+      "char": "r",
+      "block": "clickmachine:auto_clicker[facing=north]",
+      "tag": {
+        "speed_index": 8,
+        "right_click": 1,
+        "inv": {
+          "Size": 1,
+          "Items": [
+            {
+              "Slot": 0,
+              "id": "immersiveengineering:hammer",
+              "Count": 1
+            }
+          ]
+        },
+        "id": "clickmachine:tile"
+      }
+    },
+    {
+      "char": "s",
+      "block": "immersiveengineering:storage_steel"
+    },
+    {
+      "char": "t",
+      "block": "immersiveengineering:connector_mv[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "w",
+      "block": "immersiveengineering:sheetmetal_steel"
+    }
+  ]
+}

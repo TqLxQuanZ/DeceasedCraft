@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "embellishcraft:smooth_slate_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:smooth_slate_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "e",
@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "embellishcraft:smooth_slate_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:smooth_slate_slab[type=top,waterlogged=false]"
     },
     {
       "char": "h",
@@ -35,19 +35,19 @@
     },
     {
       "char": "i",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=north]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,facing=north,shape=inner_right]"
     },
     {
       "char": "j",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "k",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=inner_left,facing=south]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,facing=south,shape=inner_left]"
     },
     {
       "char": "l",
-      "block": "minecraft:barrel[facing=west,open=false]"
+      "block": "minecraft:barrel[open=false,facing=west]"
     },
     {
       "char": "m",
@@ -63,16 +63,16 @@
     },
     {
       "char": "p",
-      "block": "cfm:cyan_kitchen_counter[facing=west,type=default]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=west]"
     },
     {
       "char": "q",
-      "block": "cfm:cyan_kitchen_drawer[facing=west,open=false]",
+      "block": "cfm:cyan_kitchen_drawer[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "r",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
@@ -81,11 +81,11 @@
     },
     {
       "char": "t",
-      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "minecraft:dark_oak_door[half=lower,open=false,hinge=right,facing=east]"
     },
     {
       "char": "u",
-      "block": "minecraft:furnace[lit=false,facing=north]"
+      "block": "minecraft:furnace[facing=north,lit=false]"
     },
     {
       "char": "w",
@@ -93,41 +93,41 @@
     },
     {
       "char": "x",
-      "block": "minecraft:brown_bed[part=head,facing=east,occupied=false]",
+      "block": "minecraft:brown_bed[occupied=false,part=head,facing=east]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "y",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=north]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=north,shape=inner_right]"
     },
     {
       "char": "A",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=east]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=east,shape=inner_right]"
     },
     {
       "char": "B",
-      "block": "minecraft:brown_bed[part=foot,facing=east,occupied=false]",
+      "block": "minecraft:brown_bed[occupied=false,part=foot,facing=east]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "C",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=west]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=west,shape=inner_right]"
     },
     {
       "char": "D",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=inner_right]"
     },
     {
       "char": "E",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "F",
-      "block": "minecraft:water_cauldron"
+      "block": "minecraft:water_cauldron[level=3]"
     },
     {
       "char": "I",
@@ -139,7 +139,7 @@
     },
     {
       "char": "K",
-      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "minecraft:dark_oak_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
       "char": "L",

@@ -11,7 +11,7 @@
     },
     {
       "char": "c",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "d",
@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "minecraft:stone_slab[waterlogged=false,type=double]"
+      "block": "minecraft:stone_slab[type=double,waterlogged=false]"
     },
     {
       "char": "f",
@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "j",
@@ -47,19 +47,19 @@
     },
     {
       "char": "l",
-      "block": "embellishcraft:basalt_button[face=wall,facing=east]"
+      "block": "embellishcraft:basalt_button[facing=east,face=wall]"
     },
     {
       "char": "m",
-      "block": "embellishcraft:basalt_button[face=wall,facing=west]"
+      "block": "embellishcraft:basalt_button[facing=west,face=wall]"
     },
     {
       "char": "n",
-      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
+      "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "o",
-      "block": "immersivepetroleum:asphalt_stair[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "immersivepetroleum:asphalt_stair[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "p",

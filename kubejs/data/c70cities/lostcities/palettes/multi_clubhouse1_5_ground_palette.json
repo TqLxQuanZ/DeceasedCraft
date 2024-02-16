@@ -19,15 +19,15 @@
     },
     {
       "char": "e",
-      "block": "embellishcraft:basalt_large_bricks_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:basalt_large_bricks_slab[type=top,waterlogged=false]"
     },
     {
       "char": "f",
-      "block": "embellishcraft:smooth_andesite_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:smooth_andesite_slab[type=top,waterlogged=false]"
     },
     {
       "char": "g",
-      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "h",
@@ -39,19 +39,19 @@
     },
     {
       "char": "j",
-      "block": "cfm:spruce_park_bench[waterlogged=false,facing=north,type=left]"
+      "block": "cfm:spruce_park_bench[type=left,waterlogged=false,facing=north]"
     },
     {
       "char": "k",
-      "block": "cfm:spruce_park_bench[waterlogged=false,facing=north,type=right]"
+      "block": "cfm:spruce_park_bench[type=right,waterlogged=false,facing=north]"
     },
     {
       "char": "l",
-      "block": "cfm:spruce_park_bench[waterlogged=false,facing=south,type=right]"
+      "block": "cfm:spruce_park_bench[type=right,waterlogged=false,facing=south]"
     },
     {
       "char": "m",
-      "block": "cfm:spruce_park_bench[waterlogged=false,facing=south,type=left]"
+      "block": "cfm:spruce_park_bench[type=left,waterlogged=false,facing=south]"
     },
     {
       "char": "n",
@@ -59,15 +59,15 @@
     },
     {
       "char": "o",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "p",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
     },
     {
       "char": "q",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "r",

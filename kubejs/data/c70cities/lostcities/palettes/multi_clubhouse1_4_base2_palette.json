@@ -23,11 +23,11 @@
     },
     {
       "char": "f",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "g",
-      "block": "embellishcraft:andesite_button[face=floor,facing=south]"
+      "block": "embellishcraft:andesite_button[facing=south,face=floor]"
     },
     {
       "char": "h",
@@ -55,19 +55,19 @@
     },
     {
       "char": "n",
-      "block": "cfm:spruce_park_bench[waterlogged=false,facing=west,type=right]"
+      "block": "cfm:spruce_park_bench[type=right,waterlogged=false,facing=west]"
     },
     {
       "char": "o",
-      "block": "cfm:spruce_park_bench[waterlogged=false,facing=east,type=left]"
+      "block": "cfm:spruce_park_bench[type=left,waterlogged=false,facing=east]"
     },
     {
       "char": "p",
-      "block": "cfm:spruce_park_bench[waterlogged=false,facing=west,type=left]"
+      "block": "cfm:spruce_park_bench[type=left,waterlogged=false,facing=west]"
     },
     {
       "char": "q",
-      "block": "cfm:spruce_park_bench[waterlogged=false,facing=east,type=right]"
+      "block": "cfm:spruce_park_bench[type=right,waterlogged=false,facing=east]"
     },
     {
       "char": "r",

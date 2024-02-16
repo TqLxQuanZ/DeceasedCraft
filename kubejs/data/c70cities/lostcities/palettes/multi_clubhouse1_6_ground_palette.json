@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "embellishcraft:basalt_large_bricks_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:basalt_large_bricks_slab[type=top,waterlogged=false]"
     },
     {
       "char": "g",
@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "i",
@@ -47,11 +47,11 @@
     },
     {
       "char": "l",
-      "block": "cfm:spruce_park_bench[waterlogged=false,facing=west,type=right]"
+      "block": "cfm:spruce_park_bench[type=right,waterlogged=false,facing=west]"
     },
     {
       "char": "m",
-      "block": "cfm:spruce_park_bench[waterlogged=false,facing=west,type=left]"
+      "block": "cfm:spruce_park_bench[type=left,waterlogged=false,facing=west]"
     },
     {
       "char": "n",

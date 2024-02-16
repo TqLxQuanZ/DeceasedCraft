@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "embellishcraft:marble_button[face=wall,facing=east]"
+      "block": "embellishcraft:marble_button[facing=east,face=wall]"
     },
     {
       "char": "f",
@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
@@ -36,11 +36,11 @@
     },
     {
       "char": "i",
-      "block": "embellishcraft:smooth_basalt_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "embellishcraft:smooth_basalt_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "j",
-      "block": "immersiveengineering:slab_concrete[waterlogged=false,type=bottom]"
+      "block": "immersiveengineering:slab_concrete[type=bottom,waterlogged=false]"
     },
     {
       "char": "k",
@@ -56,7 +56,7 @@
     },
     {
       "char": "n",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:smooth_stone_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "o",
@@ -68,7 +68,7 @@
     },
     {
       "char": "q",
-      "block": "embellishcraft:gray_couch[waterlogged=false,shape=straight,facing=north]"
+      "block": "embellishcraft:gray_couch[waterlogged=false,facing=north,shape=straight]"
     },
     {
       "char": "r",
@@ -76,7 +76,7 @@
     },
     {
       "char": "s",
-      "block": "minecraft:blast_furnace[lit=false,facing=south]"
+      "block": "minecraft:blast_furnace[facing=south,lit=false]"
     },
     {
       "char": "t",
@@ -88,11 +88,11 @@
     },
     {
       "char": "w",
-      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     },
     {
       "char": "x",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "y",
@@ -124,7 +124,7 @@
     },
     {
       "char": "I",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "J",

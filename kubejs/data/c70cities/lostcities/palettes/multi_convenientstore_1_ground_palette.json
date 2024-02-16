@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "f",
@@ -27,161 +27,173 @@
     },
     {
       "char": "g",
-      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
+      "block": "rocks:rock[variation=tiny]"
     },
     {
       "char": "h",
-      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+      "block": "rocks:oak_stick[variation=small]"
     },
     {
       "char": "i",
-      "block": "create:framed_glass"
+      "block": "rocks:rock[variation=medium]"
     },
     {
       "char": "j",
-      "block": "create:framed_glass_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "minecraft:oak_button[face=floor,facing=west]"
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "l",
-      "block": "minecraft:spruce_button[face=floor,facing=north]"
+      "block": "create:framed_glass"
     },
     {
       "char": "m",
-      "block": "minecraft:oak_button[face=floor,facing=east]"
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "n",
-      "block": "embellishcraft:smooth_basalt"
+      "block": "minecraft:oak_button[facing=west,face=floor]"
     },
     {
       "char": "o",
-      "block": "embellishcraft:spruce_table[waterlogged=false]"
+      "block": "minecraft:spruce_button[facing=north,face=floor]"
     },
     {
       "char": "p",
-      "block": "embellishcraft:spruce_wooden_crate"
+      "block": "minecraft:oak_button[facing=east,face=floor]"
     },
     {
       "char": "q",
-      "block": "another_furniture:spruce_table[waterlogged=false,update=true,facing=north]"
+      "block": "embellishcraft:smooth_basalt"
     },
     {
       "char": "r",
-      "block": "minecraft:spruce_button[face=floor,facing=west]"
+      "block": "embellishcraft:spruce_table[waterlogged=false]"
     },
     {
       "char": "s",
-      "block": "minecraft:spruce_button[face=floor,facing=south]"
+      "block": "embellishcraft:spruce_wooden_crate"
     },
     {
       "char": "t",
-      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=south]"
+      "block": "another_furniture:spruce_table[waterlogged=false,facing=north,update=true]"
     },
     {
       "char": "u",
-      "block": "create:framed_glass_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "minecraft:spruce_button[facing=west,face=floor]"
     },
     {
       "char": "w",
-      "block": "create:framed_glass_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "minecraft:spruce_button[facing=south,face=floor]"
     },
     {
       "char": "x",
-      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:smooth_quartz_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "y",
-      "block": "minecraft:packed_ice"
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=east]"
     },
     {
       "char": "A",
-      "block": "pfm:white_freezer[facing=south,open=false]"
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=east]"
     },
     {
       "char": "B",
-      "block": "pfm:white_fridge[facing=south,open=false]",
-      "loot": "chestloot"
+      "block": "quark:smooth_quartz_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "C",
-      "block": "embellishcraft:smooth_marble"
+      "block": "minecraft:packed_ice"
     },
     {
       "char": "D",
-      "block": "minecraft:cobweb"
+      "block": "pfm:white_fridge[open=false,facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "E",
-      "block": "embellishcraft:air_duct"
+      "block": "embellishcraft:smooth_marble"
     },
     {
       "char": "F",
-      "block": "embellishcraft:grid_air_duct[facing=south]"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "I",
-      "block": "create:framed_glass_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:air_duct"
     },
     {
       "char": "J",
-      "block": "minecraft:oak_button[face=floor,facing=south]"
+      "block": "embellishcraft:grid_air_duct[facing=south]"
     },
     {
       "char": "K",
-      "block": "quark:spruce_bookshelf"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "L",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
-      "loot": "chestloot"
+      "block": "minecraft:oak_button[facing=south,face=floor]"
     },
     {
       "char": "M",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
-      "loot": "chestloot"
+      "block": "quark:spruce_bookshelf"
     },
     {
       "char": "N",
-      "block": "create:framed_glass_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "O",
-      "block": "create:framed_glass_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "P",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=north,open=false]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
       "char": "Q",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
       "char": "R",
-      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=north]"
     },
     {
       "char": "S",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "pfm:white_freezer[open=false,facing=south]"
     },
     {
       "char": "T",
-      "block": "quark:limestone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "U",
-      "block": "bunker_down:broken_ceiling_lamp"
+      "block": "minecraft:smooth_quartz_slab[type=top,waterlogged=false]"
     },
     {
       "char": "V",
-      "block": "bunker_down:ceiling_lamp"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "W",
+      "block": "quark:limestone_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "X",
+      "block": "bunker_down:broken_ceiling_lamp"
+    },
+    {
+      "char": "Y",
+      "block": "bunker_down:ceiling_lamp"
+    },
+    {
+      "char": "Z",
       "block": "embellishcraft:vent_air_duct[facing=down]"
     }
   ]

@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "block": "minecraft:command_block[facing=up,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
@@ -36,11 +36,11 @@
     },
     {
       "char": "h",
-      "block": "embellishcraft:basalt_button[face=wall,facing=south]"
+      "block": "embellishcraft:basalt_button[facing=south,face=wall]"
     },
     {
       "char": "i",
-      "block": "embellishcraft:basalt_button[face=wall,facing=north]"
+      "block": "embellishcraft:basalt_button[facing=north,face=wall]"
     },
     {
       "char": "j",
@@ -48,15 +48,15 @@
     },
     {
       "char": "k",
-      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "l",
-      "block": "minecraft:redstone_wall_torch[lit=true,facing=south]"
+      "block": "minecraft:redstone_wall_torch[facing=south,lit=true]"
     },
     {
       "char": "m",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     }
   ]
 }

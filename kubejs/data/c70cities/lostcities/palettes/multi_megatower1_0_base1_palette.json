@@ -11,11 +11,11 @@
     },
     {
       "char": "c",
-      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "d",
-      "block": "minecraft:stone_button[face=floor,facing=west]"
+      "block": "minecraft:stone_button[facing=west,face=floor]"
     },
     {
       "char": "e",
@@ -35,31 +35,31 @@
     },
     {
       "char": "i",
-      "block": "embellishcraft:basalt_button[face=wall,facing=south]"
+      "block": "embellishcraft:basalt_button[facing=south,face=wall]"
     },
     {
       "char": "j",
-      "block": "minecraft:stone_button[face=floor,facing=south]"
+      "block": "minecraft:stone_button[facing=south,face=floor]"
     },
     {
       "char": "k",
-      "block": "embellishcraft:basalt_button[face=wall,facing=north]"
+      "block": "embellishcraft:basalt_button[facing=north,face=wall]"
     },
     {
       "char": "l",
-      "block": "embellishcraft:basalt_button[face=wall,facing=east]"
+      "block": "embellishcraft:basalt_button[facing=east,face=wall]"
     },
     {
       "char": "m",
-      "block": "embellishcraft:basalt_button[face=wall,facing=west]"
+      "block": "embellishcraft:basalt_button[facing=west,face=wall]"
     },
     {
       "char": "n",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:stone_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "o",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:stone_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "p",
@@ -67,7 +67,7 @@
     },
     {
       "char": "q",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "r",
@@ -75,7 +75,7 @@
     },
     {
       "char": "s",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     }
   ]
 }

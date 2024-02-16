@@ -23,11 +23,11 @@
     },
     {
       "char": "f",
-      "block": "quark:polished_limestone_slab[waterlogged=false,type=top]"
+      "block": "quark:polished_limestone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "g",
-      "block": "quark:quartz_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:quartz_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "h",
@@ -39,44 +39,44 @@
     },
     {
       "char": "j",
-      "block": "quark:oak_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:oak_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "minecraft:white_bed[part=foot,facing=east,occupied=false]",
+      "block": "minecraft:white_bed[occupied=false,part=foot,facing=east]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "l",
-      "block": "minecraft:white_bed[part=head,facing=east,occupied=false]",
+      "block": "minecraft:white_bed[occupied=false,part=head,facing=east]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "m",
-      "block": "minecraft:white_bed[part=head,facing=west,occupied=false]",
+      "block": "minecraft:white_bed[occupied=false,part=head,facing=west]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "n",
-      "block": "minecraft:white_bed[part=foot,facing=west,occupied=false]",
+      "block": "minecraft:white_bed[occupied=false,part=foot,facing=west]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "o",
-      "block": "cfm:cyan_kitchen_drawer[facing=south,open=false]",
+      "block": "cfm:cyan_kitchen_drawer[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "p",
-      "block": "cfm:cyan_kitchen_drawer[facing=east,open=false]",
+      "block": "cfm:cyan_kitchen_drawer[open=false,facing=east]",
       "loot": "chestloot"
     },
     {
@@ -89,11 +89,11 @@
     },
     {
       "char": "s",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=east,type=left]"
+      "block": "cfm:oak_park_bench[type=left,waterlogged=false,facing=east]"
     },
     {
       "char": "t",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=east,type=right]"
+      "block": "cfm:oak_park_bench[type=right,waterlogged=false,facing=east]"
     },
     {
       "char": "u",
@@ -101,7 +101,7 @@
     },
     {
       "char": "w",
-      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:smooth_quartz_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "x",
@@ -109,7 +109,7 @@
     },
     {
       "char": "y",
-      "block": "minecraft:oak_slab[waterlogged=false,type=top]"
+      "block": "minecraft:oak_slab[type=top,waterlogged=false]"
     }
   ]
 }

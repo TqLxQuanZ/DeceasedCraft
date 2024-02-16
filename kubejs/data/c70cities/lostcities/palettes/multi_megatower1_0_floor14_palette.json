@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "quark:azalea_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:azalea_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "n",
@@ -63,23 +63,23 @@
     },
     {
       "char": "p",
-      "block": "cfm:stripped_spruce_park_bench[waterlogged=false,facing=east,type=left]"
+      "block": "cfm:stripped_spruce_park_bench[type=left,waterlogged=false,facing=east]"
     },
     {
       "char": "q",
-      "block": "cfm:stripped_spruce_park_bench[waterlogged=false,facing=east,type=middle]"
+      "block": "cfm:stripped_spruce_park_bench[type=middle,waterlogged=false,facing=east]"
     },
     {
       "char": "r",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:calcite_bricks_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "s",
-      "block": "cfm:stripped_spruce_park_bench[waterlogged=false,facing=east,type=right]"
+      "block": "cfm:stripped_spruce_park_bench[type=right,waterlogged=false,facing=east]"
     },
     {
       "char": "t",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:calcite_bricks_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "u",
@@ -103,15 +103,15 @@
     },
     {
       "char": "B",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "C",
-      "block": "create:cut_limestone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "create:cut_limestone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "D",
-      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=bottom]"
+      "block": "create:polished_cut_limestone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "E",
@@ -123,7 +123,7 @@
     },
     {
       "char": "I",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:spruce_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "J",
@@ -131,19 +131,19 @@
     },
     {
       "char": "K",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:spruce_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "L",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:spruce_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "M",
-      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[type=top,waterlogged=false]"
     },
     {
       "char": "N",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:spruce_vertical_slab[type=north,waterlogged=false]"
     }
   ]
 }

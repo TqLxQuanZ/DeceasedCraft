@@ -44,7 +44,7 @@
     },
     {
       "char": "b",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "c",
@@ -60,7 +60,7 @@
     },
     {
       "char": "f",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "g",
@@ -68,11 +68,11 @@
     },
     {
       "char": "h",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "i",
-      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=north,open=false]"
+      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,open=false,facing=north]"
     },
     {
       "char": "j",
@@ -84,11 +84,11 @@
     },
     {
       "char": "l",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
     },
     {
       "char": "m",
-      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
+      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,open=false,facing=south]"
     },
     {
       "char": "n",

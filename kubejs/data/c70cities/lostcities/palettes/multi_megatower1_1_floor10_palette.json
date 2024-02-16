@@ -3,11 +3,11 @@
   "palette": [
     {
       "char": "a",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:spruce_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "b",
-      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+      "block": "minecraft:birch_slab[type=top,waterlogged=false]"
     },
     {
       "char": "c",
@@ -15,15 +15,15 @@
     },
     {
       "char": "d",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:spruce_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "e",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "f",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "g",
@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "k",
@@ -47,15 +47,15 @@
     },
     {
       "char": "l",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:calcite_bricks_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "m",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "n",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=lower,facing=south,open=true]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=true,hinge=left,facing=south]"
     },
     {
       "char": "o",
@@ -63,31 +63,31 @@
     },
     {
       "char": "p",
-      "block": "cfm:brown_sofa[waterlogged=false,facing=north,type=left]"
+      "block": "cfm:brown_sofa[type=left,waterlogged=false,facing=north]"
     },
     {
       "char": "q",
-      "block": "cfm:brown_sofa[waterlogged=false,facing=north,type=right]"
+      "block": "cfm:brown_sofa[type=right,waterlogged=false,facing=north]"
     },
     {
       "char": "r",
-      "block": "cfm:brown_sofa[waterlogged=false,facing=south,type=right]"
+      "block": "cfm:brown_sofa[type=right,waterlogged=false,facing=south]"
     },
     {
       "char": "s",
-      "block": "cfm:brown_sofa[waterlogged=false,facing=south,type=left]"
+      "block": "cfm:brown_sofa[type=left,waterlogged=false,facing=south]"
     },
     {
       "char": "t",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=south,open=true]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=true,hinge=left,facing=south]"
     },
     {
       "char": "u",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "w",
-      "block": "minecraft:redstone_wall_torch[lit=true,facing=north]"
+      "block": "minecraft:redstone_wall_torch[facing=north,lit=true]"
     },
     {
       "char": "x",
@@ -107,7 +107,7 @@
     },
     {
       "char": "C",
-      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[type=top,waterlogged=false]"
     },
     {
       "char": "D",
@@ -115,11 +115,11 @@
     },
     {
       "char": "E",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "F",
-      "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     }
   ]
 }

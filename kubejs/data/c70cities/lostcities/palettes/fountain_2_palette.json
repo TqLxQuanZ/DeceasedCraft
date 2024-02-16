@@ -3,7 +3,7 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "b",
@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
+      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
     },
     {
       "char": "h",
@@ -35,15 +35,15 @@
     },
     {
       "char": "i",
-      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=west,open=true]"
+      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
     },
     {
       "char": "j",
-      "block": "minecraft:water"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "k",
-      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
+      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
     },
     {
       "char": "l",
@@ -59,7 +59,7 @@
     },
     {
       "char": "o",
-      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
     },
     {
       "char": "p",
@@ -75,7 +75,7 @@
     },
     {
       "char": "s",
-      "block": "minecraft:campfire[waterlogged=false,lit=true,facing=north]"
+      "block": "minecraft:campfire[waterlogged=false,facing=north,lit=true]"
     },
     {
       "char": "t",
@@ -95,23 +95,23 @@
     },
     {
       "char": "y",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=left]"
+      "block": "cfm:stripped_oak_park_bench[type=left,waterlogged=false,facing=north]"
     },
     {
       "char": "A",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=right]"
+      "block": "cfm:stripped_oak_park_bench[type=right,waterlogged=false,facing=north]"
     },
     {
       "char": "B",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=west,type=right]"
+      "block": "cfm:stripped_oak_park_bench[type=right,waterlogged=false,facing=west]"
     },
     {
       "char": "C",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=west,type=left]"
+      "block": "cfm:stripped_oak_park_bench[type=left,waterlogged=false,facing=west]"
     },
     {
       "char": "D",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "E",
@@ -119,15 +119,15 @@
     },
     {
       "char": "F",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "I",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
     },
     {
       "char": "J",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:spruce_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

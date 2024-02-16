@@ -3,11 +3,11 @@
   "palette": [
     {
       "char": "a",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:spruce_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "b",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:spruce_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "c",
@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+      "block": "minecraft:birch_slab[type=top,waterlogged=false]"
     },
     {
       "char": "e",
@@ -39,23 +39,23 @@
     },
     {
       "char": "j",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:calcite_bricks_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=right]"
+      "block": "another_furniture:birch_planter_box[type=right,attached=false,facing=north]"
     },
     {
       "char": "l",
-      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=middle]"
+      "block": "another_furniture:birch_planter_box[type=middle,attached=false,facing=north]"
     },
     {
       "char": "m",
-      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=left]"
+      "block": "another_furniture:birch_planter_box[type=left,attached=false,facing=north]"
     },
     {
       "char": "n",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:polished_calcite_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "o",
@@ -63,7 +63,7 @@
     },
     {
       "char": "p",
-      "block": "minecraft:cobblestone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "q",
@@ -83,7 +83,7 @@
     },
     {
       "char": "u",
-      "block": "biomesoplenty:dead_button[face=floor,facing=north]"
+      "block": "biomesoplenty:dead_button[facing=north,face=floor]"
     },
     {
       "char": "w",
@@ -99,7 +99,7 @@
     },
     {
       "char": "A",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
     }
   ]
 }

@@ -7,15 +7,15 @@
     },
     {
       "char": "b",
-      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+      "block": "minecraft:birch_slab[type=top,waterlogged=false]"
     },
     {
       "char": "c",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:spruce_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "d",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:spruce_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "e",
@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:polished_calcite_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "i",
@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "minecraft:spruce_button[face=floor,facing=east]"
+      "block": "minecraft:spruce_button[facing=east,face=floor]"
     },
     {
       "char": "l",
@@ -55,11 +55,11 @@
     },
     {
       "char": "n",
-      "block": "another_furniture:spruce_table[waterlogged=false,update=false,facing=west]"
+      "block": "another_furniture:spruce_table[waterlogged=false,facing=west,update=false]"
     },
     {
       "char": "o",
-      "block": "another_furniture:spruce_drawer[facing=west,open=false]",
+      "block": "another_furniture:spruce_drawer[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -88,15 +88,15 @@
     },
     {
       "char": "w",
-      "block": "cfm:stripped_spruce_blinds[waterlogged=false,facing=north,open=true]"
+      "block": "cfm:stripped_spruce_blinds[waterlogged=false,open=true,facing=north]"
     },
     {
       "char": "x",
-      "block": "another_furniture:spruce_shelf[waterlogged=false,facing=west,type=left]"
+      "block": "another_furniture:spruce_shelf[type=left,waterlogged=false,facing=west]"
     },
     {
       "char": "y",
-      "block": "another_furniture:spruce_shelf[waterlogged=false,facing=west,type=right]"
+      "block": "another_furniture:spruce_shelf[type=right,waterlogged=false,facing=west]"
     },
     {
       "char": "A",
@@ -104,11 +104,11 @@
     },
     {
       "char": "B",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:spruce_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "C",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -121,7 +121,7 @@
     },
     {
       "char": "F",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
     },
     {
       "char": "I",

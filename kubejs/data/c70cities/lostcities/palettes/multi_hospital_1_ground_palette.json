@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
+      "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "f",
@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "minecraft:stone_slab[waterlogged=true,type=bottom]"
+      "block": "minecraft:stone_slab[type=bottom,waterlogged=true]"
     },
     {
       "char": "i",
@@ -39,11 +39,11 @@
     },
     {
       "char": "j",
-      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:polished_andesite_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "minecraft:stone_button[face=wall,facing=west]"
+      "block": "minecraft:stone_button[facing=west,face=wall]"
     },
     {
       "char": "l",
@@ -51,23 +51,23 @@
     },
     {
       "char": "m",
-      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=top]"
+      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "n",
-      "block": "minecraft:stone_button[face=wall,facing=east]"
+      "block": "minecraft:stone_button[facing=east,face=wall]"
     },
     {
       "char": "o",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:stone_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "p",
-      "block": "minecraft:oak_trapdoor[waterlogged=false,half=top,facing=east,open=false]"
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=top,open=false,facing=east]"
     },
     {
       "char": "q",
-      "block": "cfm:cyan_kitchen_counter[facing=west,type=default]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=west]"
     },
     {
       "char": "r",
@@ -75,7 +75,7 @@
     },
     {
       "char": "s",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:stone_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "t",
@@ -99,15 +99,15 @@
     },
     {
       "char": "A",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "B",
-      "block": "embellishcraft:light_gray_couch[waterlogged=false,shape=straight,facing=north]"
+      "block": "embellishcraft:light_gray_couch[waterlogged=false,facing=north,shape=straight]"
     },
     {
       "char": "C",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "D",
@@ -131,7 +131,7 @@
     },
     {
       "char": "K",
-      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=bottom]"
+      "block": "create:polished_cut_limestone_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

@@ -23,11 +23,11 @@
     },
     {
       "char": "f",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=left,facing=east]"
     },
     {
       "char": "g",
-      "block": "pfm:basic_sink[facing=east]"
+      "block": "pfm:basic_sink[facing=east,level=0]"
     },
     {
       "char": "h",
@@ -35,11 +35,11 @@
     },
     {
       "char": "i",
-      "block": "embellishcraft:white_couch[waterlogged=false,shape=straight,facing=north]"
+      "block": "embellishcraft:white_couch[waterlogged=false,facing=north,shape=straight]"
     },
     {
       "char": "j",
-      "block": "pfm:basic_toilet[facing=south]"
+      "block": "pfm:basic_toilet[facing=south,toilet=empty]"
     },
     {
       "char": "k",
@@ -47,80 +47,80 @@
     },
     {
       "char": "l",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
       "char": "m",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "n",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "o",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=lower,facing=west,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
       "char": "p",
-      "block": "another_furniture:spruce_drawer[facing=north,open=false]",
+      "block": "another_furniture:spruce_drawer[open=false,facing=north]",
       "loot": "chestloot"
     },
     {
       "char": "q",
-      "block": "embellishcraft:white_couch[waterlogged=false,shape=straight,facing=west]"
+      "block": "embellishcraft:white_couch[waterlogged=false,facing=west,shape=straight]"
     },
     {
       "char": "r",
-      "block": "pfm:oak_white_simple_bed[part=foot,facing=south,occupied=false]",
+      "block": "pfm:oak_white_simple_bed[occupied=false,part=foot,facing=south]",
       "tag": {
         "id": "pfm:bed_block_entity"
       }
     },
     {
       "char": "s",
-      "block": "cfm:stripped_spruce_bedside_cabinet[waterlogged=false,facing=west,open=false]",
+      "block": "cfm:stripped_spruce_bedside_cabinet[waterlogged=false,open=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "t",
-      "block": "embellishcraft:spruce_plain_door[hinge=right,half=lower,facing=west,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=right,facing=west]"
     },
     {
       "char": "u",
-      "block": "pfm:oak_white_simple_bed[part=head,facing=south,occupied=false]",
+      "block": "pfm:oak_white_simple_bed[occupied=false,part=head,facing=south]",
       "tag": {
         "id": "pfm:bed_block_entity"
       }
     },
     {
       "char": "w",
-      "block": "cfm:stripped_spruce_bedside_cabinet[waterlogged=false,facing=south,open=false]",
+      "block": "cfm:stripped_spruce_bedside_cabinet[waterlogged=false,open=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "x",
-      "block": "pfm:oak_white_simple_bed[part=head,facing=west,occupied=false]",
+      "block": "pfm:oak_white_simple_bed[occupied=false,part=head,facing=west]",
       "tag": {
         "id": "pfm:bed_block_entity"
       }
     },
     {
       "char": "y",
-      "block": "pfm:oak_white_simple_bed[part=foot,facing=west,occupied=false]",
+      "block": "pfm:oak_white_simple_bed[occupied=false,part=foot,facing=west]",
       "tag": {
         "id": "pfm:bed_block_entity"
       }
     },
     {
       "char": "A",
-      "block": "pfm:basic_toilet[facing=north]"
+      "block": "pfm:basic_toilet[facing=north,toilet=clean]"
     },
     {
       "char": "B",
-      "block": "embellishcraft:spruce_plain_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=right,facing=east]"
     },
     {
       "char": "C",
@@ -132,7 +132,7 @@
     },
     {
       "char": "E",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
       "char": "F",
@@ -140,11 +140,11 @@
     },
     {
       "char": "I",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "J",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=west,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
       "char": "K",
@@ -152,7 +152,7 @@
     },
     {
       "char": "L",
-      "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=west,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
       "char": "M",
@@ -160,7 +160,7 @@
     },
     {
       "char": "N",
-      "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
       "char": "O",
@@ -168,7 +168,7 @@
     },
     {
       "char": "P",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
     },
     {
       "char": "Q",
@@ -176,11 +176,11 @@
     },
     {
       "char": "R",
-      "block": "embellishcraft:polished_marble_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:polished_marble_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "S",
-      "block": "embellishcraft:smooth_marble_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:smooth_marble_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

@@ -7,7 +7,7 @@
     },
     {
       "char": "b",
-      "block": "minecraft:water"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "c",
@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "embellishcraft:smooth_slate_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:smooth_slate_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "f",
@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "embellishcraft:smooth_slate_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:smooth_slate_slab[type=top,waterlogged=false]"
     },
     {
       "char": "h",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "n",

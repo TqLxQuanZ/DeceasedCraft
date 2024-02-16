@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "embellishcraft:smooth_marble_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:smooth_marble_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "f",
@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "embellishcraft:polished_marble_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:polished_marble_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "k",
@@ -55,7 +55,7 @@
     },
     {
       "char": "n",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -68,7 +68,7 @@
     },
     {
       "char": "q",
-      "block": "embellishcraft:light_gray_couch[waterlogged=false,shape=straight,facing=south]"
+      "block": "embellishcraft:light_gray_couch[waterlogged=false,facing=south,shape=straight]"
     },
     {
       "char": "r",
@@ -84,11 +84,11 @@
     },
     {
       "char": "u",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "w",
-      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

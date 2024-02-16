@@ -7,11 +7,11 @@
     },
     {
       "char": "b",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:spruce_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "c",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:spruce_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "d",
@@ -35,27 +35,27 @@
     },
     {
       "char": "i",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:calcite_bricks_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=right]"
+      "block": "another_furniture:birch_planter_box[type=right,attached=false,facing=north]"
     },
     {
       "char": "k",
-      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=middle]"
+      "block": "another_furniture:birch_planter_box[type=middle,attached=false,facing=north]"
     },
     {
       "char": "l",
-      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=left]"
+      "block": "another_furniture:birch_planter_box[type=left,attached=false,facing=north]"
     },
     {
       "char": "m",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:polished_calcite_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "n",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
@@ -64,7 +64,7 @@
     },
     {
       "char": "p",
-      "block": "another_furniture:gray_sofa[waterlogged=false,facing=south,type=single]"
+      "block": "another_furniture:gray_sofa[type=single,waterlogged=false,facing=south]"
     },
     {
       "char": "q",
@@ -76,56 +76,56 @@
     },
     {
       "char": "s",
-      "block": "cfm:stripped_spruce_kitchen_drawer[facing=west,open=false]",
+      "block": "cfm:stripped_spruce_kitchen_drawer[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "t",
-      "block": "embellishcraft:white_spruce_fancy_bed[part=foot,facing=east,occupied=false]"
+      "block": "embellishcraft:white_spruce_fancy_bed[occupied=false,part=foot,facing=east]"
     },
     {
       "char": "u",
-      "block": "embellishcraft:white_spruce_fancy_bed[part=head,facing=east,occupied=false]"
+      "block": "embellishcraft:white_spruce_fancy_bed[occupied=false,part=head,facing=east]"
     },
     {
       "char": "w",
-      "block": "embellishcraft:white_spruce_fancy_bed[part=head,facing=west,occupied=false]"
+      "block": "embellishcraft:white_spruce_fancy_bed[occupied=false,part=head,facing=west]"
     },
     {
       "char": "x",
-      "block": "embellishcraft:white_spruce_fancy_bed[part=foot,facing=west,occupied=false]"
+      "block": "embellishcraft:white_spruce_fancy_bed[occupied=false,part=foot,facing=west]"
     },
     {
       "char": "y",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
     },
     {
       "char": "A",
-      "block": "another_furniture:gray_lamp[waterlogged=false,lit=false,facing=up]"
+      "block": "another_furniture:gray_lamp[waterlogged=false,facing=up,lit=false,level=3]"
     },
     {
       "char": "B",
-      "block": "another_furniture:white_lamp[waterlogged=false,lit=true,facing=west]"
+      "block": "another_furniture:white_lamp[waterlogged=false,facing=west,lit=true,level=3]"
     },
     {
       "char": "C",
-      "block": "another_furniture:white_lamp[waterlogged=false,lit=false,facing=east]"
+      "block": "another_furniture:white_lamp[waterlogged=false,facing=east,lit=false,level=3]"
     },
     {
       "char": "D",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=north,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=north]"
     },
     {
       "char": "E",
-      "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=south,type=left,open=false]"
+      "block": "another_furniture:gray_curtain[type=left,waterlogged=false,open=false,facing=south,top=true]"
     },
     {
       "char": "F",
-      "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=south,type=right,open=false]"
+      "block": "another_furniture:gray_curtain[type=right,waterlogged=false,open=false,facing=south,top=true]"
     },
     {
       "char": "I",
-      "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=south,type=left,open=true]"
+      "block": "another_furniture:gray_curtain[type=left,waterlogged=false,open=true,facing=south,top=true]"
     },
     {
       "char": "J",

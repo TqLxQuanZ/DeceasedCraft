@@ -11,19 +11,19 @@
     },
     {
       "char": "c",
-      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+      "block": "minecraft:birch_slab[type=top,waterlogged=false]"
     },
     {
       "char": "d",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "e",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:spruce_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "f",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:spruce_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "g",
@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "embellishcraft:light_gray_couch[waterlogged=false,shape=straight,facing=east]"
+      "block": "embellishcraft:light_gray_couch[waterlogged=false,facing=east,shape=straight]"
     },
     {
       "char": "l",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "embellishcraft:white_couch[waterlogged=false,shape=straight,facing=west]"
+      "block": "embellishcraft:white_couch[waterlogged=false,facing=west,shape=straight]"
     },
     {
       "char": "n",
@@ -71,11 +71,11 @@
     },
     {
       "char": "r",
-      "block": "another_furniture:oak_planter_box[attached=false,facing=east,type=right]"
+      "block": "another_furniture:oak_planter_box[type=right,attached=false,facing=east]"
     },
     {
       "char": "s",
-      "block": "another_furniture:oak_planter_box[attached=false,facing=west,type=right]"
+      "block": "another_furniture:oak_planter_box[type=right,attached=false,facing=west]"
     },
     {
       "char": "t",
@@ -87,7 +87,7 @@
     },
     {
       "char": "w",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "x",
@@ -99,7 +99,7 @@
     },
     {
       "char": "A",
-      "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     },
     {
       "char": "B",

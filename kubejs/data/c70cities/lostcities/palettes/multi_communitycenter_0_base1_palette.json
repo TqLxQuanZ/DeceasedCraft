@@ -3,24 +3,24 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "b",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "c",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:command_block[facing=south,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
         "Command": "spawnRandomCar"
       }
-    },
-    {
-      "char": "b",
-      "block": "minecraft:stone"
-    },
-    {
-      "char": "c",
-      "block": "car:line_side_long_left[facing=west]"
-    },
-    {
-      "char": "d",
-      "block": "car:line_side_long_left[facing=north]"
     },
     {
       "char": "e",
@@ -36,7 +36,7 @@
     },
     {
       "char": "h",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     }
   ]
 }

@@ -7,7 +7,7 @@
     },
     {
       "char": "b",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "c",
@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:water"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "e",
@@ -30,11 +30,11 @@
     },
     {
       "char": "g",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:spruce_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "h",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:spruce_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "i",
@@ -50,7 +50,7 @@
     },
     {
       "char": "l",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=west,type=single]"
+      "block": "cfm:oak_park_bench[type=single,waterlogged=false,facing=west]"
     },
     {
       "char": "m",
@@ -62,7 +62,7 @@
     },
     {
       "char": "o",
-      "block": "create:contraption_controls[waterlogged=false,facing=west,open=false]",
+      "block": "create:contraption_controls[waterlogged=false,open=false,facing=west]",
       "tag": {
         "id": "create:contraption_controls"
       }
@@ -85,7 +85,7 @@
     },
     {
       "char": "t",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "u",

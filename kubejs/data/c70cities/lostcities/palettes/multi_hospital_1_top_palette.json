@@ -3,7 +3,7 @@
   "palette": [
     {
       "char": "a",
-      "block": "quark:quartz_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:quartz_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "b",
@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "e",
@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=top]"
+      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "g",
@@ -39,15 +39,15 @@
     },
     {
       "char": "j",
-      "block": "embellishcraft:white_pillow[waterlogged=false,part=head,facing=west,occupied=false]"
+      "block": "embellishcraft:white_pillow[waterlogged=false,occupied=false,part=head,facing=west]"
     },
     {
       "char": "k",
-      "block": "minecraft:stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "l",
-      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

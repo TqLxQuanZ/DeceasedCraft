@@ -35,15 +35,15 @@
     },
     {
       "char": "i",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "immersivepetroleum:asphalt_stair[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "immersivepetroleum:asphalt_stair[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "k",
-      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
+      "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

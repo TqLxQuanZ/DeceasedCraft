@@ -7,11 +7,11 @@
     },
     {
       "char": "b",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "c",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "d",
@@ -19,11 +19,11 @@
     },
     {
       "char": "e",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:spruce_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "f",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:spruce_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "g",
@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "cfm:brown_sofa[waterlogged=false,facing=west,type=left]"
+      "block": "cfm:brown_sofa[type=left,waterlogged=false,facing=west]"
     },
     {
       "char": "i",
@@ -59,7 +59,7 @@
     },
     {
       "char": "o",
-      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[type=top,waterlogged=false]"
     }
   ]
 }

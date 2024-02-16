@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "e",
@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -36,7 +36,7 @@
     },
     {
       "char": "i",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "j",
@@ -44,7 +44,7 @@
     },
     {
       "char": "k",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "l",
@@ -56,11 +56,11 @@
     },
     {
       "char": "n",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "o",
-      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:smooth_quartz_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "p",
@@ -72,7 +72,7 @@
     },
     {
       "char": "r",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "s",
@@ -80,31 +80,32 @@
     },
     {
       "char": "t",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "u",
-      "block": "minecraft:smoker[lit=false,facing=south]"
+      "block": "minecraft:smoker[facing=south,lit=false]"
     },
     {
       "char": "w",
-      "block": "cfm:stripped_oak_kitchen_counter[facing=north,type=default]"
+      "block": "cfm:stripped_oak_kitchen_counter[type=default,facing=north]"
     },
     {
       "char": "x",
-      "block": "cfm:freezer_light[facing=north,open=false]"
+      "block": "pfm:white_fridge[open=false,facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "y",
-      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:smooth_quartz_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "A",
-      "block": "minecraft:iron_door[hinge=right,half=lower,facing=west,open=false]"
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=right,facing=west]"
     },
     {
       "char": "B",
-      "block": "cfm:stripped_oak_kitchen_counter[facing=north,type=right_corner]"
+      "block": "cfm:stripped_oak_kitchen_counter[type=right_corner,facing=north]"
     },
     {
       "char": "C",
@@ -116,7 +117,7 @@
     },
     {
       "char": "E",
-      "block": "cfm:stripped_oak_kitchen_drawer[facing=east,open=false]",
+      "block": "cfm:stripped_oak_kitchen_drawer[open=false,facing=east]",
       "loot": "chestloot"
     },
     {
@@ -125,15 +126,15 @@
     },
     {
       "char": "I",
-      "block": "cfm:stripped_oak_kitchen_counter[facing=east,type=default]"
+      "block": "cfm:stripped_oak_kitchen_counter[type=default,facing=east]"
     },
     {
       "char": "J",
-      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "minecraft:dark_oak_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "K",
-      "block": "minecraft:dark_oak_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "minecraft:dark_oak_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "L",
@@ -141,24 +142,23 @@
     },
     {
       "char": "M",
-      "block": "minecraft:birch_door[hinge=left,half=lower,facing=west,open=false]"
+      "block": "minecraft:birch_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
       "char": "N",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "O",
-      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:smooth_quartz_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "P",
-      "block": "cfm:fridge_light[facing=north,open=false]",
-      "loot": "chestloot"
+      "block": "pfm:white_freezer[open=false,facing=north]"
     },
     {
       "char": "Q",
-      "block": "minecraft:iron_door[hinge=right,half=upper,facing=west,open=false]"
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
       "char": "R",
@@ -166,7 +166,7 @@
     },
     {
       "char": "S",
-      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=bottom]"
+      "block": "create:polished_cut_limestone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "T",
@@ -174,19 +174,19 @@
     },
     {
       "char": "U",
-      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "minecraft:dark_oak_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "V",
-      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "minecraft:dark_oak_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "W",
-      "block": "minecraft:birch_door[hinge=left,half=upper,facing=west,open=false]"
+      "block": "minecraft:birch_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
       "char": "X",
-      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,facing=west,open=false]"
+      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,open=false,facing=west]"
     },
     {
       "char": "Y",
@@ -194,11 +194,11 @@
     },
     {
       "char": "Z",
-      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_quartz_slab[type=top,waterlogged=false]"
     },
     {
       "char": "0",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "1",
@@ -206,7 +206,7 @@
     },
     {
       "char": "2",
-      "block": "farmersdelight:spruce_cabinet[facing=south,open=false]",
+      "block": "farmersdelight:spruce_cabinet[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -223,7 +223,7 @@
     },
     {
       "char": "6",
-      "block": "minecraft:dark_oak_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

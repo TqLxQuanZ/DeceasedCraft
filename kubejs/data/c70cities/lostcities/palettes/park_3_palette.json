@@ -15,23 +15,23 @@
     },
     {
       "char": "d",
-      "block": "cfm:stripped_dark_oak_park_bench[waterlogged=false,facing=west,type=right]"
+      "block": "cfm:stripped_dark_oak_park_bench[type=right,waterlogged=false,facing=west]"
     },
     {
       "char": "e",
-      "block": "cfm:stripped_dark_oak_park_bench[waterlogged=false,facing=east,type=left]"
+      "block": "cfm:stripped_dark_oak_park_bench[type=left,waterlogged=false,facing=east]"
     },
     {
       "char": "f",
-      "block": "cfm:stripped_dark_oak_park_bench[waterlogged=false,facing=west,type=left]"
+      "block": "cfm:stripped_dark_oak_park_bench[type=left,waterlogged=false,facing=west]"
     },
     {
       "char": "g",
-      "block": "cfm:stripped_dark_oak_park_bench[waterlogged=false,facing=east,type=right]"
+      "block": "cfm:stripped_dark_oak_park_bench[type=right,waterlogged=false,facing=east]"
     },
     {
       "char": "h",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "i",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     }
   ]
 }

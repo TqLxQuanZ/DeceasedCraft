@@ -23,19 +23,19 @@
     },
     {
       "char": "f",
-      "block": "quark:polished_deepslate_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:polished_deepslate_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "g",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "h",
-      "block": "minecraft:polished_andesite_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "i",
-      "block": "quark:polished_deepslate_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:polished_deepslate_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "j",
@@ -63,7 +63,7 @@
     },
     {
       "char": "p",
-      "block": "embellishcraft:dark_oak_fancy_door[hinge=right,half=lower,facing=west,open=false]"
+      "block": "embellishcraft:dark_oak_fancy_door[half=lower,open=false,hinge=right,facing=west]"
     },
     {
       "char": "q",
@@ -71,7 +71,7 @@
     },
     {
       "char": "r",
-      "block": "embellishcraft:dark_oak_fancy_door[hinge=left,half=lower,facing=west,open=false]"
+      "block": "embellishcraft:dark_oak_fancy_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
       "char": "s",
@@ -79,7 +79,7 @@
     },
     {
       "char": "t",
-      "block": "minecraft:furnace[lit=false,facing=west]"
+      "block": "minecraft:furnace[facing=west,lit=false]"
     },
     {
       "char": "u",
@@ -87,7 +87,7 @@
     },
     {
       "char": "w",
-      "block": "another_furniture:dark_oak_bench[type_2=right,waterlogged=false,type_1=right,facing=east]"
+      "block": "another_furniture:dark_oak_bench[waterlogged=false,type_1=right,facing=east,type_2=right]"
     },
     {
       "char": "x",
@@ -95,15 +95,15 @@
     },
     {
       "char": "y",
-      "block": "another_furniture:dark_oak_bench[type_2=left,waterlogged=false,type_1=left,facing=east]"
+      "block": "another_furniture:dark_oak_bench[waterlogged=false,type_1=left,facing=east,type_2=left]"
     },
     {
       "char": "A",
-      "block": "embellishcraft:dark_oak_fancy_door[hinge=right,half=upper,facing=west,open=false]"
+      "block": "embellishcraft:dark_oak_fancy_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
       "char": "B",
-      "block": "embellishcraft:dark_oak_fancy_door[hinge=left,half=upper,facing=west,open=false]"
+      "block": "embellishcraft:dark_oak_fancy_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
       "char": "C",
@@ -115,7 +115,7 @@
     },
     {
       "char": "E",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
@@ -128,27 +128,27 @@
     },
     {
       "char": "J",
-      "block": "another_furniture:acacia_shelf[waterlogged=false,facing=west,type=left]"
+      "block": "another_furniture:acacia_shelf[type=left,waterlogged=false,facing=west]"
     },
     {
       "char": "K",
-      "block": "another_furniture:acacia_shelf[waterlogged=false,facing=west,type=middle]"
+      "block": "another_furniture:acacia_shelf[type=middle,waterlogged=false,facing=west]"
     },
     {
       "char": "L",
-      "block": "another_furniture:acacia_shelf[waterlogged=false,facing=west,type=right]"
+      "block": "another_furniture:acacia_shelf[type=right,waterlogged=false,facing=west]"
     },
     {
       "char": "M",
-      "block": "minecraft:polished_andesite_slab[waterlogged=false,type=top]"
+      "block": "minecraft:polished_andesite_slab[type=top,waterlogged=false]"
     },
     {
       "char": "N",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "O",
-      "block": "farmersdelight:acacia_cabinet[facing=west,open=false]",
+      "block": "farmersdelight:acacia_cabinet[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -157,31 +157,31 @@
     },
     {
       "char": "Q",
-      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "R",
-      "block": "minecraft:acacia_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
+      "block": "minecraft:acacia_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
     },
     {
       "char": "S",
-      "block": "quark:polished_diorite_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:polished_diorite_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "T",
-      "block": "minecraft:birch_door[hinge=left,half=lower,facing=north,open=false]"
+      "block": "minecraft:birch_door[half=lower,open=false,hinge=left,facing=north]"
     },
     {
       "char": "U",
-      "block": "embellishcraft:brown_dark_oak_fancy_bed[part=foot,facing=south,occupied=false]"
+      "block": "embellishcraft:brown_dark_oak_fancy_bed[occupied=false,part=foot,facing=south]"
     },
     {
       "char": "V",
-      "block": "embellishcraft:polished_gneiss_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "embellishcraft:polished_gneiss_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "W",
-      "block": "quark:polished_diorite_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:polished_diorite_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "X",
@@ -189,7 +189,7 @@
     },
     {
       "char": "Y",
-      "block": "embellishcraft:brown_dark_oak_fancy_bed[part=head,facing=south,occupied=false]"
+      "block": "embellishcraft:brown_dark_oak_fancy_bed[occupied=false,part=head,facing=south]"
     },
     {
       "char": "Z",
@@ -197,21 +197,21 @@
     },
     {
       "char": "0",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
       "char": "1",
-      "block": "another_furniture:dark_oak_drawer[facing=north,open=false]",
+      "block": "another_furniture:dark_oak_drawer[open=false,facing=north]",
       "loot": "chestloot"
     },
     {
       "char": "2",
-      "block": "another_furniture:dark_oak_shelf[waterlogged=false,facing=north,type=single]"
+      "block": "another_furniture:dark_oak_shelf[type=single,waterlogged=false,facing=north]"
     },
     {
       "char": "3",
-      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "4",
@@ -219,11 +219,11 @@
     },
     {
       "char": "5",
-      "block": "minecraft:birch_door[hinge=left,half=upper,facing=north,open=false]"
+      "block": "minecraft:birch_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
       "char": "6",
-      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
+      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
     }
   ]
 }

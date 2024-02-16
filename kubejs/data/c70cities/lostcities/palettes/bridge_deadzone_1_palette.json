@@ -48,15 +48,15 @@
     },
     {
       "char": "c",
-      "block": "quark:mossy_cobblestone_bricks_slab[waterlogged=false,type=bottom]"
+      "block": "quark:mossy_cobblestone_bricks_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "d",
-      "block": "quark:cobblestone_bricks_slab[waterlogged=false,type=bottom]"
+      "block": "quark:cobblestone_bricks_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "e",
-      "block": "minecraft:mossy_cobblestone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:mossy_cobblestone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "f",
@@ -64,7 +64,7 @@
     },
     {
       "char": "g",
-      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
+      "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "h",
@@ -76,7 +76,7 @@
     },
     {
       "char": "j",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "k",

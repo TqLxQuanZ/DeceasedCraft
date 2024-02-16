@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "quark:quartz_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:quartz_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "f",
@@ -27,11 +27,11 @@
     },
     {
       "char": "g",
-      "block": "quark:polished_limestone_slab[waterlogged=false,type=top]"
+      "block": "quark:polished_limestone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "h",
-      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:polished_andesite_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "i",
@@ -43,16 +43,16 @@
     },
     {
       "char": "k",
-      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:smooth_quartz_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "l",
-      "block": "cfm:cyan_kitchen_drawer[facing=south,open=false]",
+      "block": "cfm:cyan_kitchen_drawer[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "m",
-      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:polished_andesite_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "n",
@@ -60,15 +60,16 @@
     },
     {
       "char": "o",
-      "block": "minecraft:iron_door[hinge=left,half=lower,facing=north,open=false]"
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=north]"
     },
     {
       "char": "p",
-      "block": "cfm:freezer_light[facing=west,open=false]"
+      "block": "pfm:white_fridge[open=false,facing=west]",
+      "loot": "chestloot"
     },
     {
       "char": "q",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:stone_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "r",
@@ -76,7 +77,7 @@
     },
     {
       "char": "s",
-      "block": "minecraft:iron_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=right,facing=east]"
     },
     {
       "char": "t",
@@ -84,27 +85,27 @@
     },
     {
       "char": "u",
-      "block": "quark:oak_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:oak_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "w",
-      "block": "embellishcraft:light_gray_couch[waterlogged=false,shape=straight,facing=east]"
+      "block": "embellishcraft:light_gray_couch[waterlogged=false,facing=east,shape=straight]"
     },
     {
       "char": "x",
-      "block": "cfm:cyan_kitchen_counter[facing=north,type=default]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=north]"
     },
     {
       "char": "y",
-      "block": "minecraft:iron_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=east]"
     },
     {
       "char": "A",
-      "block": "cfm:cyan_kitchen_counter[facing=south,type=default]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=south]"
     },
     {
       "char": "B",
-      "block": "embellishcraft:light_gray_couch[waterlogged=false,shape=straight,facing=south]"
+      "block": "embellishcraft:light_gray_couch[waterlogged=false,facing=south,shape=straight]"
     },
     {
       "char": "C",
@@ -116,16 +117,15 @@
     },
     {
       "char": "E",
-      "block": "minecraft:iron_door[hinge=left,half=upper,facing=north,open=false]"
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
       "char": "F",
-      "block": "cfm:fridge_light[facing=west,open=false]",
-      "loot": "chestloot"
+      "block": "pfm:white_freezer[open=false,facing=west]"
     },
     {
       "char": "I",
-      "block": "minecraft:iron_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
       "char": "J",
@@ -137,7 +137,7 @@
     },
     {
       "char": "L",
-      "block": "minecraft:iron_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
       "char": "M",
@@ -157,7 +157,7 @@
     },
     {
       "char": "Q",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "R",

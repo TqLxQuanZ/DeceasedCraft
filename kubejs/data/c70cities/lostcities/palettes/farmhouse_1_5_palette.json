@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:water"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "e",
@@ -35,15 +35,15 @@
     },
     {
       "char": "i",
-      "block": "minecraft:dark_oak_button[face=floor,facing=north]"
+      "block": "minecraft:dark_oak_button[facing=north,face=floor]"
     },
     {
       "char": "j",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "k",
-      "block": "minecraft:dark_oak_button[face=floor,facing=west]"
+      "block": "minecraft:dark_oak_button[facing=west,face=floor]"
     },
     {
       "char": "l",

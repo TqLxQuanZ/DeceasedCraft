@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "f",
@@ -39,19 +39,19 @@
     },
     {
       "char": "j",
-      "block": "embellishcraft:basalt_button[face=wall,facing=south]"
+      "block": "embellishcraft:basalt_button[facing=south,face=wall]"
     },
     {
       "char": "k",
-      "block": "embellishcraft:basalt_button[face=wall,facing=north]"
+      "block": "embellishcraft:basalt_button[facing=north,face=wall]"
     },
     {
       "char": "l",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:stone_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "m",
-      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "block": "minecraft:command_block[facing=up,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
@@ -60,23 +60,23 @@
     },
     {
       "char": "n",
-      "block": "minecraft:stone_slab[waterlogged=false,type=double]"
+      "block": "minecraft:stone_slab[type=double,waterlogged=false]"
     },
     {
       "char": "o",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:stone_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "p",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=south,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=south]"
     },
     {
       "char": "q",
-      "block": "minecraft:redstone_wall_torch[lit=true,facing=north]"
+      "block": "minecraft:redstone_wall_torch[facing=north,lit=true]"
     },
     {
       "char": "r",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     }
   ]
 }

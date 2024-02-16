@@ -11,7 +11,7 @@
     },
     {
       "char": "c",
-      "block": "immersiveengineering:slab_concrete[waterlogged=false,type=bottom]"
+      "block": "immersiveengineering:slab_concrete[type=bottom,waterlogged=false]"
     },
     {
       "char": "d",
@@ -55,7 +55,7 @@
     },
     {
       "char": "n",
-      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
+      "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "o",
@@ -77,7 +77,7 @@
     },
     {
       "char": "r",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,facing=north,open=false]"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,open=false,facing=north]"
     },
     {
       "char": "s",
@@ -85,7 +85,7 @@
     },
     {
       "char": "t",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
@@ -105,7 +105,7 @@
     },
     {
       "char": "y",
-      "block": "cfm:cyan_kitchen_counter[facing=west,type=default]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=west]"
     },
     {
       "char": "A",
@@ -113,7 +113,7 @@
     },
     {
       "char": "B",
-      "block": "embellishcraft:gray_couch[waterlogged=false,shape=straight,facing=north]"
+      "block": "embellishcraft:gray_couch[waterlogged=false,facing=north,shape=straight]"
     },
     {
       "char": "C",
@@ -129,7 +129,7 @@
     },
     {
       "char": "F",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "I",
@@ -141,15 +141,15 @@
     },
     {
       "char": "K",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:smooth_stone_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "L",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "M",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     }
   ]
 }

@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "g",
@@ -43,11 +43,11 @@
     },
     {
       "char": "k",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:calcite_bricks_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "l",
-      "block": "cfm:brown_sofa[waterlogged=false,facing=west,type=middle]"
+      "block": "cfm:brown_sofa[type=middle,waterlogged=false,facing=west]"
     },
     {
       "char": "m",
@@ -59,7 +59,7 @@
     },
     {
       "char": "o",
-      "block": "cfm:brown_sofa[waterlogged=false,facing=west,type=left]"
+      "block": "cfm:brown_sofa[type=left,waterlogged=false,facing=west]"
     },
     {
       "char": "p",
@@ -71,11 +71,11 @@
     },
     {
       "char": "r",
-      "block": "cfm:brown_sofa[waterlogged=false,facing=south,type=single]"
+      "block": "cfm:brown_sofa[type=single,waterlogged=false,facing=south]"
     },
     {
       "char": "s",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:calcite_bricks_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "t",
@@ -107,11 +107,11 @@
     },
     {
       "char": "C",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "D",
-      "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     }
   ]
 }

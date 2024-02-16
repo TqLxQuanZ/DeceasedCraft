@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "create:cut_limestone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "create:cut_limestone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "i",
@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:calcite_bricks_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "k",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:calcite_bricks_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "n",
@@ -59,7 +59,7 @@
     },
     {
       "char": "o",
-      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=bottom]"
+      "block": "create:polished_cut_limestone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "p",

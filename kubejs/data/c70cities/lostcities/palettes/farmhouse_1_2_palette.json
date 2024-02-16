@@ -15,15 +15,15 @@
     },
     {
       "char": "d",
-      "block": "minecraft:dark_oak_button[face=floor,facing=east]"
+      "block": "minecraft:dark_oak_button[facing=east,face=floor]"
     },
     {
       "char": "e",
-      "block": "quark:crimson_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:crimson_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "f",
-      "block": "minecraft:dark_oak_button[face=floor,facing=north]"
+      "block": "minecraft:dark_oak_button[facing=north,face=floor]"
     },
     {
       "char": "g",

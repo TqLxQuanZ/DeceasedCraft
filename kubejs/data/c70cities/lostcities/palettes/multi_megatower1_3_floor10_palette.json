@@ -7,11 +7,11 @@
     },
     {
       "char": "b",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:spruce_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "c",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:spruce_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "d",
@@ -19,11 +19,11 @@
     },
     {
       "char": "e",
-      "block": "minecraft:birch_slab[waterlogged=false,type=top]"
+      "block": "minecraft:birch_slab[type=top,waterlogged=false]"
     },
     {
       "char": "f",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "g",
@@ -43,19 +43,19 @@
     },
     {
       "char": "k",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:calcite_bricks_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "l",
-      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=right]"
+      "block": "another_furniture:birch_planter_box[type=right,attached=false,facing=north]"
     },
     {
       "char": "m",
-      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=middle]"
+      "block": "another_furniture:birch_planter_box[type=middle,attached=false,facing=north]"
     },
     {
       "char": "n",
-      "block": "another_furniture:birch_planter_box[attached=false,facing=north,type=left]"
+      "block": "another_furniture:birch_planter_box[type=left,attached=false,facing=north]"
     },
     {
       "char": "o",
@@ -63,15 +63,15 @@
     },
     {
       "char": "p",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:polished_calcite_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "q",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:calcite_bricks_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "r",
-      "block": "cfm:brown_sofa[waterlogged=false,facing=west,type=right]"
+      "block": "cfm:brown_sofa[type=right,waterlogged=false,facing=west]"
     },
     {
       "char": "s",
@@ -83,7 +83,7 @@
     },
     {
       "char": "u",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:polished_calcite_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "w",
@@ -91,24 +91,24 @@
     },
     {
       "char": "x",
-      "block": "embellishcraft:polished_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "embellishcraft:polished_slate_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "y",
-      "block": "cfm:brown_sofa[waterlogged=false,facing=west,type=left]"
+      "block": "cfm:brown_sofa[type=left,waterlogged=false,facing=west]"
     },
     {
       "char": "A",
-      "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:polished_basalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "B",
-      "block": "cfm:cyan_kitchen_drawer[facing=west,open=false]",
+      "block": "cfm:cyan_kitchen_drawer[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "C",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
     },
     {
       "char": "D",
@@ -116,19 +116,19 @@
     },
     {
       "char": "E",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=north,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=north]"
     },
     {
       "char": "F",
-      "block": "quark:calcite_bricks_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "quark:calcite_bricks_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "I",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "J",
-      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "K",
@@ -136,11 +136,11 @@
     },
     {
       "char": "L",
-      "block": "embellishcraft:polished_basalt_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     },
     {
       "char": "M",
-      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[type=top,waterlogged=false]"
     },
     {
       "char": "N",

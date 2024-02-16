@@ -11,7 +11,7 @@
     },
     {
       "char": "c",
-      "block": "minecraft:campfire[waterlogged=false,lit=true,facing=east]"
+      "block": "minecraft:campfire[waterlogged=false,facing=east,lit=true]"
     },
     {
       "char": "d",
@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "biomesoplenty:redwood_door[hinge=right,half=lower,facing=west,open=false]"
+      "block": "biomesoplenty:redwood_door[half=lower,open=false,hinge=right,facing=west]"
     },
     {
       "char": "g",
@@ -31,19 +31,19 @@
     },
     {
       "char": "h",
-      "block": "biomesoplenty:redwood_trapdoor[waterlogged=false,half=bottom,facing=west,open=true]"
+      "block": "biomesoplenty:redwood_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
     },
     {
       "char": "i",
-      "block": "biomesoplenty:redwood_door[hinge=left,half=lower,facing=west,open=false]"
+      "block": "biomesoplenty:redwood_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
       "char": "j",
-      "block": "biomesoplenty:willow_door[hinge=left,half=lower,facing=north,open=false]"
+      "block": "biomesoplenty:willow_door[half=lower,open=false,hinge=left,facing=north]"
     },
     {
       "char": "k",
-      "block": "biomesoplenty:willow_door[hinge=right,half=lower,facing=north,open=false]"
+      "block": "biomesoplenty:willow_door[half=lower,open=false,hinge=right,facing=north]"
     },
     {
       "char": "l",
@@ -59,12 +59,12 @@
     },
     {
       "char": "o",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "p",
-      "block": "biomesoplenty:willow_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
+      "block": "biomesoplenty:willow_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
     },
     {
       "char": "q",
@@ -72,35 +72,35 @@
     },
     {
       "char": "r",
-      "block": "biomesoplenty:redwood_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "biomesoplenty:redwood_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "s",
-      "block": "biomesoplenty:redwood_door[hinge=right,half=upper,facing=west,open=false]"
+      "block": "biomesoplenty:redwood_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
       "char": "t",
-      "block": "biomesoplenty:redwood_door[hinge=left,half=upper,facing=west,open=false]"
+      "block": "biomesoplenty:redwood_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
       "char": "u",
-      "block": "biomesoplenty:redwood_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "biomesoplenty:redwood_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "w",
-      "block": "biomesoplenty:willow_door[hinge=left,half=upper,facing=north,open=false]"
+      "block": "biomesoplenty:willow_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
       "char": "x",
-      "block": "biomesoplenty:willow_door[hinge=right,half=upper,facing=north,open=false]"
+      "block": "biomesoplenty:willow_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
       "char": "y",
-      "block": "biomesoplenty:willow_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "biomesoplenty:willow_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "A",
-      "block": "biomesoplenty:willow_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "biomesoplenty:willow_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     }
   ]
 }

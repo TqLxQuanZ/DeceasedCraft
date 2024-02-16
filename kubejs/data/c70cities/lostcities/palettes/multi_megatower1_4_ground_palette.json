@@ -3,7 +3,7 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:stone_slab[waterlogged=false,type=double]"
+      "block": "minecraft:stone_slab[type=double,waterlogged=false]"
     },
     {
       "char": "b",
@@ -30,11 +30,11 @@
     },
     {
       "char": "g",
-      "block": "immersivepetroleum:asphalt_stair[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "immersivepetroleum:asphalt_stair[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "h",
-      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
+      "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "i",
@@ -46,7 +46,7 @@
     },
     {
       "char": "k",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:stone_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "l",
@@ -63,7 +63,7 @@
     },
     {
       "char": "o",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
@@ -92,19 +92,19 @@
     },
     {
       "char": "w",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:stone_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "x",
-      "block": "quark:iron_button[face=wall,facing=south]"
+      "block": "quark:iron_button[facing=south,face=wall]"
     },
     {
       "char": "y",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:white_steel_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "A",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:white_steel_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "B",
@@ -128,16 +128,16 @@
     },
     {
       "char": "I",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "J",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "K",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "L",
@@ -145,7 +145,7 @@
     },
     {
       "char": "M",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "N",
@@ -156,15 +156,15 @@
     },
     {
       "char": "O",
-      "block": "minecraft:stone_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "minecraft:stone_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "P",
-      "block": "embellishcraft:marble_button[face=floor,facing=south]"
+      "block": "embellishcraft:marble_button[facing=south,face=floor]"
     },
     {
       "char": "Q",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "R",
@@ -176,7 +176,7 @@
     },
     {
       "char": "T",
-      "block": "embellishcraft:marble_button[face=floor,facing=west]"
+      "block": "embellishcraft:marble_button[facing=west,face=floor]"
     }
   ]
 }

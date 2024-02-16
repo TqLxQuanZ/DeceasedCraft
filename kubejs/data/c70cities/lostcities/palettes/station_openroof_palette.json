@@ -52,7 +52,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "e",
@@ -60,7 +60,7 @@
     },
     {
       "char": "f",
-      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[type=top,waterlogged=false]"
     },
     {
       "char": "g",
@@ -84,15 +84,15 @@
     },
     {
       "char": "l",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=left]"
+      "block": "cfm:stripped_oak_park_bench[type=left,waterlogged=false,facing=north]"
     },
     {
       "char": "m",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=middle]"
+      "block": "cfm:stripped_oak_park_bench[type=middle,waterlogged=false,facing=north]"
     },
     {
       "char": "n",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=right]"
+      "block": "cfm:stripped_oak_park_bench[type=right,waterlogged=false,facing=north]"
     },
     {
       "char": "o",
@@ -100,23 +100,23 @@
     },
     {
       "char": "p",
-      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "q",
-      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "r",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=right]"
+      "block": "cfm:stripped_oak_park_bench[type=right,waterlogged=false,facing=south]"
     },
     {
       "char": "s",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=middle]"
+      "block": "cfm:stripped_oak_park_bench[type=middle,waterlogged=false,facing=south]"
     },
     {
       "char": "t",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=left]"
+      "block": "cfm:stripped_oak_park_bench[type=left,waterlogged=false,facing=south]"
     },
     {
       "char": "u",
@@ -128,7 +128,7 @@
     },
     {
       "char": "x",
-      "block": "create:train_door[hinge=left,half=lower,facing=north,open=true]"
+      "block": "create:train_door[half=lower,open=true,hinge=left,facing=north]"
     },
     {
       "char": "y",
@@ -140,31 +140,31 @@
     },
     {
       "char": "B",
-      "block": "create:controls[waterlogged=false,facing=east,open=false]"
+      "block": "create:controls[waterlogged=false,open=false,facing=east]"
     },
     {
       "char": "C",
-      "block": "cfm:white_sofa[waterlogged=false,facing=east,type=single]"
+      "block": "cfm:white_sofa[type=single,waterlogged=false,facing=east]"
     },
     {
       "char": "D",
-      "block": "cfm:white_sofa[waterlogged=false,facing=west,type=single]"
+      "block": "cfm:white_sofa[type=single,waterlogged=false,facing=west]"
     },
     {
       "char": "E",
-      "block": "create:controls[waterlogged=false,facing=west,open=false]"
+      "block": "create:controls[waterlogged=false,open=false,facing=west]"
     },
     {
       "char": "F",
-      "block": "create:train_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "create:train_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "I",
-      "block": "create:train_door[hinge=left,half=upper,facing=north,open=true]"
+      "block": "create:train_door[half=upper,open=true,hinge=left,facing=north]"
     },
     {
       "char": "J",
-      "block": "create:train_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "create:train_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "K",
@@ -172,11 +172,11 @@
     },
     {
       "char": "L",
-      "block": "minecraft:barrel[facing=south,open=false]"
+      "block": "minecraft:barrel[open=false,facing=south]"
     },
     {
       "char": "M",
-      "block": "minecraft:barrel[facing=north,open=false]"
+      "block": "minecraft:barrel[open=false,facing=north]"
     },
     {
       "char": "N",
@@ -192,19 +192,19 @@
     },
     {
       "char": "Q",
-      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "R",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "S",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "T",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "U",

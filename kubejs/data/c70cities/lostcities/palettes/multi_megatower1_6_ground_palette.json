@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "quark:spruce_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:spruce_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "g",
@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "create:cut_limestone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "create:cut_limestone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "j",
@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=bottom]"
+      "block": "create:polished_cut_limestone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "l",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "embellishcraft:marble_button[face=floor,facing=west]"
+      "block": "embellishcraft:marble_button[facing=west,face=floor]"
     },
     {
       "char": "n",

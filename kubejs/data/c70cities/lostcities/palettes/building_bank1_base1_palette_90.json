@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -32,11 +32,11 @@
     },
     {
       "char": "h",
-      "block": "another_furniture:oak_table[waterlogged=false,update=true,facing=east]"
+      "block": "another_furniture:oak_table[waterlogged=false,facing=east,update=true]"
     },
     {
       "char": "i",
-      "block": "another_furniture:oak_table[waterlogged=false,update=false,facing=east]"
+      "block": "another_furniture:oak_table[waterlogged=false,facing=east,update=false]"
     },
     {
       "char": "j",
@@ -44,12 +44,12 @@
     },
     {
       "char": "k",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "l",
-      "block": "cfm:andesite_cabinet[waterlogged=false,facing=west,open=false]",
+      "block": "cfm:andesite_cabinet[waterlogged=false,open=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -58,12 +58,12 @@
     },
     {
       "char": "n",
-      "block": "cfm:andesite_cabinet[waterlogged=false,facing=north,open=false]",
+      "block": "cfm:andesite_cabinet[waterlogged=false,open=false,facing=north]",
       "loot": "chestloot"
     },
     {
       "char": "o",
-      "block": "cfm:andesite_cabinet[waterlogged=false,facing=south,open=false]",
+      "block": "cfm:andesite_cabinet[waterlogged=false,open=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -76,7 +76,7 @@
     },
     {
       "char": "r",
-      "block": "cfm:andesite_cabinet[waterlogged=false,facing=east,open=false]",
+      "block": "cfm:andesite_cabinet[waterlogged=false,open=false,facing=east]",
       "loot": "chestloot"
     },
     {

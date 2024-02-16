@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "embellishcraft:oak_plain_door[hinge=right,half=lower,facing=north,open=false]"
+      "block": "embellishcraft:oak_plain_door[half=lower,open=false,hinge=right,facing=north]"
     },
     {
       "char": "h",
@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "minecraft:furnace[lit=false,facing=south]"
+      "block": "minecraft:furnace[facing=south,lit=false]"
     },
     {
       "char": "j",
@@ -43,14 +43,14 @@
     },
     {
       "char": "k",
-      "block": "minecraft:red_bed[part=foot,facing=east,occupied=false]",
+      "block": "minecraft:red_bed[occupied=false,part=foot,facing=east]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "l",
-      "block": "minecraft:red_bed[part=head,facing=east,occupied=false]",
+      "block": "minecraft:red_bed[occupied=false,part=head,facing=east]",
       "tag": {
         "id": "minecraft:bed"
       }
@@ -61,7 +61,7 @@
     },
     {
       "char": "n",
-      "block": "embellishcraft:oak_plain_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:oak_plain_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "o",
@@ -69,7 +69,7 @@
     },
     {
       "char": "p",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
@@ -78,23 +78,23 @@
     },
     {
       "char": "r",
-      "block": "minecraft:barrel[facing=south,open=false]"
+      "block": "minecraft:barrel[open=false,facing=south]"
     },
     {
       "char": "s",
-      "block": "minecraft:composter"
+      "block": "minecraft:composter[level=0]"
     },
     {
       "char": "t",
-      "block": "another_furniture:oak_planter_box[attached=false,facing=south,type=left]"
+      "block": "another_furniture:oak_planter_box[type=left,attached=false,facing=south]"
     },
     {
       "char": "u",
-      "block": "another_furniture:oak_planter_box[attached=false,facing=south,type=middle]"
+      "block": "another_furniture:oak_planter_box[type=middle,attached=false,facing=south]"
     },
     {
       "char": "w",
-      "block": "another_furniture:oak_planter_box[attached=false,facing=south,type=right]"
+      "block": "another_furniture:oak_planter_box[type=right,attached=false,facing=south]"
     },
     {
       "char": "x",
@@ -102,35 +102,35 @@
     },
     {
       "char": "y",
-      "block": "minecraft:oak_fence_gate[facing=east,open=false]"
+      "block": "minecraft:oak_fence_gate[open=false,facing=east]"
     },
     {
       "char": "A",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=east,type=left]"
+      "block": "cfm:oak_park_bench[type=left,waterlogged=false,facing=east]"
     },
     {
       "char": "B",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=east,type=right]"
+      "block": "cfm:oak_park_bench[type=right,waterlogged=false,facing=east]"
     },
     {
       "char": "C",
-      "block": "minecraft:polished_andesite_slab[waterlogged=false,type=top]"
+      "block": "minecraft:polished_andesite_slab[type=top,waterlogged=false]"
     },
     {
       "char": "D",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "E",
-      "block": "minecraft:polished_andesite_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "F",
-      "block": "embellishcraft:oak_plain_door[hinge=right,half=upper,facing=north,open=false]"
+      "block": "embellishcraft:oak_plain_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
       "char": "I",
-      "block": "quark:acacia_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:acacia_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "J",
@@ -142,15 +142,15 @@
     },
     {
       "char": "L",
-      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "M",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "N",
-      "block": "embellishcraft:oak_plain_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:oak_plain_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "O",
@@ -158,19 +158,19 @@
     },
     {
       "char": "P",
-      "block": "minecraft:oak_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:oak_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "Q",
-      "block": "minecraft:stone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "minecraft:stone_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "R",
-      "block": "minecraft:stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "S",
-      "block": "minecraft:stone_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "minecraft:stone_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     }
   ]
 }

@@ -19,51 +19,51 @@
     },
     {
       "char": "e",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=lower,facing=west,open=true]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=true,hinge=left,facing=west]"
     },
     {
       "char": "f",
-      "block": "embellishcraft:spruce_plain_door[hinge=right,half=lower,facing=east,open=true]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=true,hinge=right,facing=east]"
     },
     {
       "char": "g",
-      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:polished_andesite_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "h",
-      "block": "farmersdelight:spruce_cabinet[facing=west,open=false]",
+      "block": "farmersdelight:spruce_cabinet[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "i",
-      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:polished_andesite_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "minecraft:oak_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:oak_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "cfm:stripped_spruce_blinds[waterlogged=false,facing=east,open=true]"
+      "block": "cfm:stripped_spruce_blinds[waterlogged=false,open=true,facing=east]"
     },
     {
       "char": "l",
-      "block": "cfm:stripped_spruce_blinds[waterlogged=false,facing=west,open=true]"
+      "block": "cfm:stripped_spruce_blinds[waterlogged=false,open=true,facing=west]"
     },
     {
       "char": "m",
-      "block": "minecraft:oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:oak_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "n",
-      "block": "minecraft:light_gray_bed[part=head,facing=west,occupied=false]",
+      "block": "minecraft:light_gray_bed[occupied=false,part=head,facing=west]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "o",
-      "block": "minecraft:light_gray_bed[part=foot,facing=west,occupied=false]",
+      "block": "minecraft:light_gray_bed[occupied=false,part=foot,facing=west]",
       "tag": {
         "id": "minecraft:bed"
       }
@@ -86,15 +86,15 @@
     },
     {
       "char": "t",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=west,open=true]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=true,hinge=left,facing=west]"
     },
     {
       "char": "u",
-      "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=east,open=true]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=true,hinge=right,facing=east]"
     },
     {
       "char": "w",
-      "block": "farmersdelight:spruce_cabinet[facing=east,open=false]",
+      "block": "farmersdelight:spruce_cabinet[open=false,facing=east]",
       "loot": "chestloot"
     },
     {
@@ -111,41 +111,41 @@
     },
     {
       "char": "B",
-      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:polished_andesite_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "C",
-      "block": "quark:polished_andesite_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:polished_andesite_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "D",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "E",
-      "block": "minecraft:polished_andesite_slab[waterlogged=false,type=top]"
+      "block": "minecraft:polished_andesite_slab[type=top,waterlogged=false]"
     },
     {
       "char": "F",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "I",
-      "block": "another_furniture:white_curtain[waterlogged=false,top=true,facing=south,type=left,open=false]",
+      "block": "another_furniture:white_curtain[type=left,waterlogged=false,open=false,facing=south,top=true]",
       "tag": {
         "id": "another_furniture:white_curtain"
       }
     },
     {
       "char": "J",
-      "block": "another_furniture:white_curtain[waterlogged=false,top=true,facing=south,type=right,open=false]",
+      "block": "another_furniture:white_curtain[type=right,waterlogged=false,open=false,facing=south,top=true]",
       "tag": {
         "id": "another_furniture:white_curtain"
       }
     },
     {
       "char": "K",
-      "block": "embellishcraft:smooth_andesite_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:smooth_andesite_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

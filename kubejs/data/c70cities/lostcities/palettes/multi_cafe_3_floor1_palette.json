@@ -3,7 +3,7 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "b",
@@ -39,15 +39,15 @@
     },
     {
       "char": "j",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:spruce_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "quark:limestone_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "quark:limestone_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "l",
-      "block": "quark:limestone_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:limestone_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "m",
@@ -55,19 +55,19 @@
     },
     {
       "char": "n",
-      "block": "quark:limestone_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "quark:limestone_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "o",
-      "block": "quark:limestone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "quark:limestone_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "p",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,facing=west,open=false]"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,open=false,facing=west]"
     },
     {
       "char": "q",
-      "block": "minecraft:water_cauldron"
+      "block": "minecraft:water_cauldron[level=3]"
     },
     {
       "char": "r",
@@ -79,7 +79,7 @@
     },
     {
       "char": "t",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -88,23 +88,23 @@
     },
     {
       "char": "w",
-      "block": "quark:limestone_slab[waterlogged=false,type=top]"
+      "block": "quark:limestone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "x",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
     },
     {
       "char": "y",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "A",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
     },
     {
       "char": "B",
-      "block": "embellishcraft:basalt_large_bricks_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:basalt_large_bricks_slab[type=top,waterlogged=false]"
     },
     {
       "char": "C",
@@ -120,7 +120,7 @@
     },
     {
       "char": "F",
-      "block": "embellishcraft:basalt_large_bricks_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:basalt_large_bricks_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "I",
@@ -128,15 +128,15 @@
     },
     {
       "char": "J",
-      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "K",
-      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     },
     {
       "char": "L",
-      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=double]"
+      "block": "embellishcraft:smooth_basalt_slab[type=double,waterlogged=false]"
     }
   ]
 }

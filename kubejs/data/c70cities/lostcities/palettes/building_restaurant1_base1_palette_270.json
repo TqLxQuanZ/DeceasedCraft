@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "minecraft:barrel[facing=up,open=false]"
+      "block": "minecraft:barrel[open=false,facing=up]"
     },
     {
       "char": "g",
@@ -63,7 +63,7 @@
     },
     {
       "char": "p",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "char": "r",
-      "block": "minecraft:barrel[facing=east,open=false]"
+      "block": "minecraft:barrel[open=false,facing=east]"
     },
     {
       "char": "s",
@@ -80,7 +80,7 @@
     },
     {
       "char": "t",
-      "block": "minecraft:water"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "u",
@@ -100,7 +100,7 @@
     },
     {
       "char": "A",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {

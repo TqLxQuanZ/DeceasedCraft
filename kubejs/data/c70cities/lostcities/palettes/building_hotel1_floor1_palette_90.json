@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "embellishcraft:smooth_slate_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:smooth_slate_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "e",
@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "embellishcraft:smooth_slate_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:smooth_slate_slab[type=top,waterlogged=false]"
     },
     {
       "char": "h",
@@ -39,21 +39,21 @@
     },
     {
       "char": "j",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "k",
-      "block": "farmersdelight:spruce_cabinet[facing=west,open=false]",
+      "block": "farmersdelight:spruce_cabinet[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "l",
-      "block": "pfm:white_stove[lit=false,facing=west,open=false]"
+      "block": "pfm:white_stove[open=false,facing=west,lit=false]"
     },
     {
       "char": "m",
-      "block": "minecraft:furnace[lit=false,facing=west]"
+      "block": "minecraft:furnace[facing=west,lit=false]"
     },
     {
       "char": "n",
@@ -61,28 +61,28 @@
     },
     {
       "char": "o",
-      "block": "pfm:concrete_kitchen_sink[facing=east]"
+      "block": "pfm:concrete_kitchen_sink[facing=east,level=0]"
     },
     {
       "char": "p",
-      "block": "pfm:white_fridge[facing=east,open=false]",
+      "block": "pfm:white_fridge[open=false,facing=east]",
       "loot": "chestloot"
     },
     {
       "char": "q",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "r",
-      "block": "cfm:gray_kitchen_counter[facing=west,type=default]"
+      "block": "cfm:gray_kitchen_counter[type=default,facing=west]"
     },
     {
       "char": "s",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "t",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "u",
@@ -94,7 +94,7 @@
     },
     {
       "char": "x",
-      "block": "farmersdelight:cooking_pot[waterlogged=false,facing=west,support=none]"
+      "block": "farmersdelight:cooking_pot[waterlogged=false,support=none,facing=west]"
     },
     {
       "char": "y",
@@ -102,7 +102,7 @@
     },
     {
       "char": "A",
-      "block": "pfm:white_freezer[facing=east,open=false]"
+      "block": "pfm:white_freezer[open=false,facing=east]"
     },
     {
       "char": "B",

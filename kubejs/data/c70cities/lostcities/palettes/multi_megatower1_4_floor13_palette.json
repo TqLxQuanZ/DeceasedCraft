@@ -7,7 +7,7 @@
     },
     {
       "char": "b",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "c",
@@ -38,7 +38,7 @@
     },
     {
       "char": "i",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:calcite_bricks_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "j",
@@ -46,19 +46,19 @@
     },
     {
       "char": "k",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:calcite_bricks_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "l",
-      "block": "quark:iron_button[face=wall,facing=south]"
+      "block": "quark:iron_button[facing=south,face=wall]"
     },
     {
       "char": "m",
-      "block": "create:framed_glass_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "n",
-      "block": "create:framed_glass_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "o",
@@ -66,11 +66,11 @@
     },
     {
       "char": "p",
-      "block": "cfm:brown_sofa[waterlogged=false,facing=west,type=right]"
+      "block": "cfm:brown_sofa[type=right,waterlogged=false,facing=west]"
     },
     {
       "char": "q",
-      "block": "cfm:brown_sofa[waterlogged=false,facing=west,type=left]"
+      "block": "cfm:brown_sofa[type=left,waterlogged=false,facing=west]"
     },
     {
       "char": "r",
@@ -82,11 +82,11 @@
     },
     {
       "char": "t",
-      "block": "create:framed_glass_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "u",
-      "block": "create:framed_glass_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "w",

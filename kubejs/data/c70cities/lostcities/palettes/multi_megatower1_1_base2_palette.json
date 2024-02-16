@@ -11,7 +11,7 @@
     },
     {
       "char": "c",
-      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "d",
@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:stone_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "g",
@@ -35,27 +35,27 @@
     },
     {
       "char": "i",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "j",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "k",
-      "block": "embellishcraft:basalt_button[face=wall,facing=east]"
+      "block": "embellishcraft:basalt_button[facing=east,face=wall]"
     },
     {
       "char": "l",
-      "block": "embellishcraft:basalt_button[face=wall,facing=west]"
+      "block": "embellishcraft:basalt_button[facing=west,face=wall]"
     },
     {
       "char": "m",
-      "block": "embellishcraft:steel_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:steel_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "n",
-      "block": "embellishcraft:steel_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:steel_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "o",
@@ -67,23 +67,23 @@
     },
     {
       "char": "q",
-      "block": "embellishcraft:steel_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:steel_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "r",
-      "block": "embellishcraft:steel_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:steel_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "s",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "t",
-      "block": "minecraft:redstone_wall_torch[lit=true,facing=north]"
+      "block": "minecraft:redstone_wall_torch[facing=north,lit=true]"
     },
     {
       "char": "u",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:stone_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "w",
@@ -95,15 +95,15 @@
     },
     {
       "char": "y",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "A",
-      "block": "minecraft:redstone_wall_torch[lit=true,facing=west]"
+      "block": "minecraft:redstone_wall_torch[facing=west,lit=true]"
     },
     {
       "char": "B",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     }
   ]
 }

@@ -27,11 +27,11 @@
     },
     {
       "char": "g",
-      "block": "quark:stripped_spruce_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_spruce_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "h",
-      "block": "minecraft:polished_blackstone_button[face=floor,facing=west]"
+      "block": "minecraft:polished_blackstone_button[facing=west,face=floor]"
     },
     {
       "char": "i",
@@ -47,19 +47,19 @@
     },
     {
       "char": "l",
-      "block": "minecraft:polished_blackstone_button[face=floor,facing=east]"
+      "block": "minecraft:polished_blackstone_button[facing=east,face=floor]"
     },
     {
       "char": "m",
-      "block": "minecraft:deepslate_brick_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:deepslate_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "n",
-      "block": "minecraft:deepslate_brick_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:deepslate_brick_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "o",
-      "block": "minecraft:polished_blackstone_button[face=floor,facing=south]"
+      "block": "minecraft:polished_blackstone_button[facing=south,face=floor]"
     },
     {
       "char": "p",
@@ -83,7 +83,7 @@
     },
     {
       "char": "u",
-      "block": "minecraft:polished_blackstone_button[face=floor,facing=north]"
+      "block": "minecraft:polished_blackstone_button[facing=north,face=floor]"
     },
     {
       "char": "w",
@@ -91,27 +91,27 @@
     },
     {
       "char": "x",
-      "block": "minecraft:spruce_button[face=floor,facing=east]"
+      "block": "minecraft:spruce_button[facing=east,face=floor]"
     },
     {
       "char": "y",
-      "block": "minecraft:spruce_button[face=floor,facing=south]"
+      "block": "minecraft:spruce_button[facing=south,face=floor]"
     },
     {
       "char": "A",
-      "block": "biomesoplenty:dead_door[hinge=right,half=lower,facing=west,open=true]"
+      "block": "biomesoplenty:dead_door[half=lower,open=true,hinge=right,facing=west]"
     },
     {
       "char": "B",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "C",
-      "block": "minecraft:cobbled_deepslate_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:cobbled_deepslate_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "D",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "E",
@@ -135,19 +135,19 @@
     },
     {
       "char": "L",
-      "block": "biomesoplenty:dead_door[hinge=right,half=upper,facing=west,open=true]"
+      "block": "biomesoplenty:dead_door[half=upper,open=true,hinge=right,facing=west]"
     },
     {
       "char": "M",
-      "block": "minecraft:cobbled_deepslate_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:cobbled_deepslate_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "N",
-      "block": "minecraft:cobbled_deepslate_slab[waterlogged=false,type=top]"
+      "block": "minecraft:cobbled_deepslate_slab[type=top,waterlogged=false]"
     },
     {
       "char": "O",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
     },
     {
       "char": "P",
@@ -155,7 +155,7 @@
     },
     {
       "char": "Q",
-      "block": "minecraft:deepslate_brick_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "minecraft:deepslate_brick_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "R",
@@ -171,7 +171,7 @@
     },
     {
       "char": "U",
-      "block": "minecraft:spruce_button[face=floor,facing=west]"
+      "block": "minecraft:spruce_button[facing=west,face=floor]"
     },
     {
       "char": "V",
@@ -183,7 +183,7 @@
     },
     {
       "char": "X",
-      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "Y",
@@ -195,51 +195,51 @@
     },
     {
       "char": "0",
-      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "1",
-      "block": "minecraft:deepslate_brick_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:deepslate_brick_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "2",
-      "block": "minecraft:deepslate_brick_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "minecraft:deepslate_brick_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "3",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "4",
-      "block": "minecraft:oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:oak_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "5",
-      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "6",
-      "block": "minecraft:cobbled_deepslate_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:cobbled_deepslate_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "7",
-      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "8",
-      "block": "minecraft:deepslate_brick_slab[waterlogged=false,type=top]"
+      "block": "minecraft:deepslate_brick_slab[type=top,waterlogged=false]"
     },
     {
       "char": "9",
-      "block": "minecraft:stone_brick_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_brick_slab[type=top,waterlogged=false]"
     },
     {
       "char": "@",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:spruce_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "#",
-      "block": "minecraft:petrified_oak_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:petrified_oak_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

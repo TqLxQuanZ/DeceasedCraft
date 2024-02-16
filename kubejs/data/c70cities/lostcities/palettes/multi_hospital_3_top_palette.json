@@ -15,19 +15,19 @@
     },
     {
       "char": "d",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "e",
-      "block": "minecraft:smooth_sandstone_stairs[waterlogged=false,half=bottom,shape=outer_left,facing=east]"
+      "block": "minecraft:smooth_sandstone_stairs[waterlogged=false,half=bottom,facing=east,shape=outer_left]"
     },
     {
       "char": "f",
-      "block": "minecraft:smooth_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:smooth_sandstone_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "g",
-      "block": "minecraft:smooth_sandstone_stairs[waterlogged=false,half=bottom,shape=outer_right,facing=west]"
+      "block": "minecraft:smooth_sandstone_stairs[waterlogged=false,half=bottom,facing=west,shape=outer_right]"
     },
     {
       "char": "h",
@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "quark:quartz_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:quartz_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "k",
@@ -55,11 +55,11 @@
     },
     {
       "char": "n",
-      "block": "minecraft:stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "o",
-      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

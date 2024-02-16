@@ -7,7 +7,7 @@
     },
     {
       "char": "b",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "c",
@@ -39,11 +39,11 @@
     },
     {
       "char": "j",
-      "block": "embellishcraft:spruce_plain_door[hinge=right,half=lower,facing=west,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=right,facing=west]"
     },
     {
       "char": "k",
-      "block": "cfm:stripped_spruce_kitchen_counter[facing=west,type=default]"
+      "block": "cfm:stripped_spruce_kitchen_counter[type=default,facing=west]"
     },
     {
       "char": "l",
@@ -59,7 +59,8 @@
     },
     {
       "char": "o",
-      "block": "cfm:freezer_light[facing=west,open=false]"
+      "block": "pfm:white_fridge[open=false,facing=west]",
+      "loot": "chestloot"
     },
     {
       "char": "p",
@@ -67,28 +68,27 @@
     },
     {
       "char": "q",
-      "block": "another_furniture:white_sofa[waterlogged=false,facing=west,type=left]"
+      "block": "another_furniture:white_sofa[type=left,waterlogged=false,facing=west]"
     },
     {
       "char": "r",
-      "block": "another_furniture:white_sofa[waterlogged=false,facing=west,type=right]"
+      "block": "another_furniture:white_sofa[type=right,waterlogged=false,facing=west]"
     },
     {
       "char": "s",
-      "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=west,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
       "char": "t",
-      "block": "minecraft:polished_andesite_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "u",
-      "block": "cfm:fridge_light[facing=west,open=false]",
-      "loot": "chestloot"
+      "block": "pfm:white_freezer[open=false,facing=west]"
     },
     {
       "char": "w",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "char": "y",
-      "block": "create:polished_cut_deepslate_slab[waterlogged=false,type=top]"
+      "block": "create:polished_cut_deepslate_slab[type=top,waterlogged=false]"
     }
   ]
 }

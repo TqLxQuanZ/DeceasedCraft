@@ -11,11 +11,11 @@
     },
     {
       "char": "c",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:spruce_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "d",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:spruce_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "e",
@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:polished_calcite_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "j",
@@ -43,11 +43,11 @@
     },
     {
       "char": "k",
-      "block": "create:fluid_pipe[waterlogged=false,up=false]"
+      "block": "create:fluid_pipe[waterlogged=false,up=false,down=false]"
     },
     {
       "char": "l",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:polished_calcite_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "m",
@@ -55,11 +55,11 @@
     },
     {
       "char": "n",
-      "block": "create:fluid_pipe[waterlogged=false,up=true]"
+      "block": "create:fluid_pipe[waterlogged=false,up=true,down=false]"
     },
     {
       "char": "o",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:polished_calcite_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "p",
@@ -67,7 +67,7 @@
     },
     {
       "char": "q",
-      "block": "create:fluid_tank[top=true,shape=window]"
+      "block": "create:fluid_tank[shape=window,top=true]"
     },
     {
       "char": "r",
@@ -75,7 +75,7 @@
     },
     {
       "char": "s",
-      "block": "embellishcraft:yellow_grey_tiles_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:yellow_grey_tiles_slab[type=top,waterlogged=false]"
     },
     {
       "char": "t",
@@ -87,11 +87,11 @@
     },
     {
       "char": "w",
-      "block": "minecraft:water"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "x",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "y",

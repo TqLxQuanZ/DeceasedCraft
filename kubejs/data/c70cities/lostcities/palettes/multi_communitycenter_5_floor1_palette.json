@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "h",
@@ -35,11 +35,11 @@
     },
     {
       "char": "i",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=south,type=right]"
+      "block": "cfm:oak_park_bench[type=right,waterlogged=false,facing=south]"
     },
     {
       "char": "j",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=south,type=left]"
+      "block": "cfm:oak_park_bench[type=left,waterlogged=false,facing=south]"
     },
     {
       "char": "k",
@@ -55,7 +55,7 @@
     },
     {
       "char": "n",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "o",
@@ -67,11 +67,11 @@
     },
     {
       "char": "q",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=north,type=left]"
+      "block": "cfm:oak_park_bench[type=left,waterlogged=false,facing=north]"
     },
     {
       "char": "r",
-      "block": "cfm:oak_park_bench[waterlogged=false,facing=north,type=right]"
+      "block": "cfm:oak_park_bench[type=right,waterlogged=false,facing=north]"
     },
     {
       "char": "s",
@@ -79,7 +79,7 @@
     },
     {
       "char": "t",
-      "block": "create:cut_calcite_slab[waterlogged=false,type=bottom]"
+      "block": "create:cut_calcite_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "u",
@@ -87,7 +87,7 @@
     },
     {
       "char": "w",
-      "block": "minecraft:polished_deepslate_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:polished_deepslate_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

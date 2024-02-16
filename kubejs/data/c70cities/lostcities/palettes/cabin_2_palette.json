@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "minecraft:campfire[waterlogged=false,lit=true,facing=east]"
+      "block": "minecraft:campfire[waterlogged=false,facing=east,lit=true]"
     },
     {
       "char": "i",
@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "cold_sweat:boiler[lit=false,facing=north]"
+      "block": "cold_sweat:boiler[facing=north,lit=false]"
     },
     {
       "char": "k",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "minecraft:dark_oak_door[hinge=right,half=lower,facing=west,open=false]"
+      "block": "minecraft:dark_oak_door[half=lower,open=false,hinge=right,facing=west]"
     },
     {
       "char": "n",
@@ -59,7 +59,7 @@
     },
     {
       "char": "o",
-      "block": "minecraft:dark_oak_door[hinge=left,half=lower,facing=west,open=false]"
+      "block": "minecraft:dark_oak_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
       "char": "p",
@@ -71,7 +71,7 @@
     },
     {
       "char": "r",
-      "block": "another_furniture:oak_shelf[waterlogged=false,facing=west,type=left]"
+      "block": "another_furniture:oak_shelf[type=left,waterlogged=false,facing=west]"
     },
     {
       "char": "s",
@@ -79,25 +79,25 @@
     },
     {
       "char": "t",
-      "block": "minecraft:red_bed[part=foot,facing=south,occupied=false]",
+      "block": "minecraft:red_bed[occupied=false,part=foot,facing=south]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "u",
-      "block": "another_furniture:oak_shelf[waterlogged=false,facing=west,type=right]"
+      "block": "another_furniture:oak_shelf[type=right,waterlogged=false,facing=west]"
     },
     {
       "char": "w",
-      "block": "minecraft:red_bed[part=head,facing=south,occupied=false]",
+      "block": "minecraft:red_bed[occupied=false,part=head,facing=south]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "x",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
@@ -110,11 +110,11 @@
     },
     {
       "char": "B",
-      "block": "minecraft:dark_oak_door[hinge=right,half=upper,facing=west,open=false]"
+      "block": "minecraft:dark_oak_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
       "char": "C",
-      "block": "minecraft:dark_oak_door[hinge=left,half=upper,facing=west,open=false]"
+      "block": "minecraft:dark_oak_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
       "char": "D",

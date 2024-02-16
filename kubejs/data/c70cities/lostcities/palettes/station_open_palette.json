@@ -52,7 +52,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "e",
@@ -68,19 +68,19 @@
     },
     {
       "char": "h",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=left]"
+      "block": "cfm:stripped_oak_park_bench[type=left,waterlogged=false,facing=north]"
     },
     {
       "char": "i",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=north,type=right]"
+      "block": "cfm:stripped_oak_park_bench[type=right,waterlogged=false,facing=north]"
     },
     {
       "char": "j",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=right]"
+      "block": "cfm:stripped_oak_park_bench[type=right,waterlogged=false,facing=south]"
     },
     {
       "char": "k",
-      "block": "cfm:stripped_oak_park_bench[waterlogged=false,facing=south,type=left]"
+      "block": "cfm:stripped_oak_park_bench[type=left,waterlogged=false,facing=south]"
     }
   ]
 }

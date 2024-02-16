@@ -7,7 +7,7 @@
     },
     {
       "char": "b",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "c",
@@ -27,11 +27,11 @@
     },
     {
       "char": "g",
-      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "h",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=east,open=false]"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=east]"
     }
   ]
 }

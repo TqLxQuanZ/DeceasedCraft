@@ -3,7 +3,7 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "b",
@@ -35,11 +35,11 @@
     },
     {
       "char": "i",
-      "block": "minecraft:water"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "j",
-      "block": "embellishcraft:smooth_marble_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:smooth_marble_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "k",
@@ -51,7 +51,15 @@
     },
     {
       "char": "m",
-      "block": "embellishcraft:smooth_basalt_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:water[level=1]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:water[level=2]"
+    },
+    {
+      "char": "o",
+      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

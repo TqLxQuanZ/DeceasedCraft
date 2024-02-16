@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "minecraft:water"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "i",
@@ -51,12 +51,12 @@
     },
     {
       "char": "m",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "n",
-      "block": "quark:nether_brick_chest[waterlogged=false,facing=west,type=single]",
+      "block": "quark:nether_brick_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -66,7 +66,7 @@
     },
     {
       "char": "p",
-      "block": "quark:purpur_chest[waterlogged=false,facing=west,type=single]",
+      "block": "quark:purpur_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -79,7 +79,7 @@
     },
     {
       "char": "s",
-      "block": "minecraft:polished_andesite_slab[waterlogged=false,type=top]"
+      "block": "minecraft:polished_andesite_slab[type=top,waterlogged=false]"
     },
     {
       "char": "t",

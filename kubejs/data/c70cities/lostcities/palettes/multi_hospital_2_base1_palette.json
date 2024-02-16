@@ -31,24 +31,24 @@
     },
     {
       "char": "h",
-      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:stone_brick_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "i",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "j",
-      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:stone_brick_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=top]"
+      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "l",
-      "block": "embellishcraft:polished_marble_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:polished_marble_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "m",
@@ -56,28 +56,28 @@
     },
     {
       "char": "n",
-      "block": "embellishcraft:white_pillow[waterlogged=false,part=head,facing=east,occupied=false]"
+      "block": "embellishcraft:white_pillow[waterlogged=false,occupied=false,part=head,facing=east]"
     },
     {
       "char": "o",
-      "block": "embellishcraft:polished_marble_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:polished_marble_slab[type=top,waterlogged=false]"
     },
     {
       "char": "p",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "q",
-      "block": "minecraft:oak_slab[waterlogged=false,type=top]"
+      "block": "minecraft:oak_slab[type=top,waterlogged=false]"
     },
     {
       "char": "r",
-      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "s",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     }
   ]
 }

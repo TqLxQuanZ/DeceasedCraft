@@ -3,11 +3,11 @@
   "palette": [
     {
       "char": "a",
-      "block": "embellishcraft:smooth_marble_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:smooth_marble_slab[type=top,waterlogged=false]"
     },
     {
       "char": "b",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
     },
     {
       "char": "c",
@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "embellishcraft:smooth_marble_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:smooth_marble_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

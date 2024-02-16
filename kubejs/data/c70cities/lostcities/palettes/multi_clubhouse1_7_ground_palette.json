@@ -19,15 +19,15 @@
     },
     {
       "char": "e",
-      "block": "embellishcraft:basalt_large_bricks_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:basalt_large_bricks_slab[type=top,waterlogged=false]"
     },
     {
       "char": "f",
-      "block": "embellishcraft:smooth_andesite_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:smooth_andesite_slab[type=top,waterlogged=false]"
     },
     {
       "char": "g",
-      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "h",
@@ -35,11 +35,11 @@
     },
     {
       "char": "i",
-      "block": "cfm:spruce_park_bench[waterlogged=false,facing=east,type=left]"
+      "block": "cfm:spruce_park_bench[type=left,waterlogged=false,facing=east]"
     },
     {
       "char": "j",
-      "block": "cfm:spruce_park_bench[waterlogged=false,facing=east,type=right]"
+      "block": "cfm:spruce_park_bench[type=right,waterlogged=false,facing=east]"
     },
     {
       "char": "k",
@@ -51,23 +51,23 @@
     },
     {
       "char": "m",
-      "block": "cfm:spruce_park_bench[waterlogged=false,facing=west,type=right]"
+      "block": "cfm:spruce_park_bench[type=right,waterlogged=false,facing=west]"
     },
     {
       "char": "n",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "o",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
     },
     {
       "char": "p",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "q",
-      "block": "cfm:spruce_park_bench[waterlogged=false,facing=west,type=left]"
+      "block": "cfm:spruce_park_bench[type=left,waterlogged=false,facing=west]"
     },
     {
       "char": "r",

@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "minecraft:water"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "j",
@@ -51,43 +51,55 @@
     },
     {
       "char": "m",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=west]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=west,shape=inner_right]"
     },
     {
       "char": "n",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=inner_left,facing=west]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=west,shape=inner_left]"
     },
     {
       "char": "o",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "p",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "q",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=inner_left,facing=east]"
+      "block": "minecraft:water[level=1]"
     },
     {
       "char": "r",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=inner_right,facing=east]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=east,shape=inner_left]"
     },
     {
       "char": "s",
-      "block": "minecraft:kelp"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=east,shape=inner_right]"
     },
     {
       "char": "t",
-      "block": "lootr:lootr_chest[waterlogged=true,facing=east,type=single]",
-      "loot": "chestloot"
+      "block": "minecraft:water[level=8]"
     },
     {
       "char": "u",
-      "block": "minecraft:dirt"
+      "block": "minecraft:kelp"
     },
     {
       "char": "w",
+      "block": "lootr:lootr_chest[type=single,waterlogged=true,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:water[level=2]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "A",
       "block": "minecraft:quartz_block"
     }
   ]

@@ -44,7 +44,7 @@
     },
     {
       "char": "b",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "c",
@@ -56,11 +56,11 @@
     },
     {
       "char": "e",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "f",
-      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=top]"
+      "block": "immersivepetroleum:asphalt_slab[type=top,waterlogged=false]"
     },
     {
       "char": "g",
@@ -68,11 +68,11 @@
     },
     {
       "char": "h",
-      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=east,open=false]"
+      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,open=false,facing=east]"
     },
     {
       "char": "i",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "j",
@@ -84,7 +84,7 @@
     },
     {
       "char": "l",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
     },
     {
       "char": "m",
@@ -96,15 +96,15 @@
     },
     {
       "char": "o",
-      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=top,facing=south,open=false]"
+      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=top,open=false,facing=south]"
     },
     {
       "char": "p",
-      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=north,open=false]"
+      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,open=false,facing=north]"
     },
     {
       "char": "q",
-      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
+      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,open=false,facing=south]"
     }
   ]
 }

@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
+      "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "f",
@@ -31,15 +31,15 @@
     },
     {
       "char": "h",
-      "block": "minecraft:stone_slab[waterlogged=true,type=bottom]"
+      "block": "minecraft:stone_slab[type=bottom,waterlogged=true]"
     },
     {
       "char": "i",
-      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,facing=west,open=true]"
+      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
     },
     {
       "char": "j",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:stone_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "k",
@@ -55,7 +55,7 @@
     },
     {
       "char": "n",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:stone_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "o",
@@ -63,7 +63,7 @@
     },
     {
       "char": "p",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:stone_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "q",
@@ -95,7 +95,7 @@
     },
     {
       "char": "y",
-      "block": "quark:polished_limestone_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:polished_limestone_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "A",

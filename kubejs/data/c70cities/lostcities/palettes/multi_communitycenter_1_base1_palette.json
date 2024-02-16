@@ -3,7 +3,39 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:command_block[conditional=false,facing=north]",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:stone_button[facing=west,face=floor]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:stone_button[facing=east,face=floor]"
+    },
+    {
+      "char": "d",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "e",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "f",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "g",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:command_block[facing=east,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
@@ -11,40 +43,8 @@
       }
     },
     {
-      "char": "b",
-      "block": "minecraft:stone"
-    },
-    {
-      "char": "c",
-      "block": "minecraft:stone_button[face=floor,facing=west]"
-    },
-    {
-      "char": "d",
-      "block": "minecraft:stone_button[face=floor,facing=east]"
-    },
-    {
-      "char": "e",
-      "block": "car:line_side_long_left[facing=south]"
-    },
-    {
-      "char": "f",
-      "block": "car:line_side_long_left[facing=east]"
-    },
-    {
-      "char": "g",
-      "block": "car:line_side_long_left[facing=west]"
-    },
-    {
-      "char": "h",
-      "block": "car:line_side_long_left[facing=north]"
-    },
-    {
-      "char": "i",
-      "block": "minecraft:smooth_stone"
-    },
-    {
       "char": "j",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     }
   ]
 }

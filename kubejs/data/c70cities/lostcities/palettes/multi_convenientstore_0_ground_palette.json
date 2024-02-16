@@ -11,7 +11,7 @@
     },
     {
       "char": "c",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "d",
@@ -27,15 +27,27 @@
     },
     {
       "char": "g",
-      "block": "car:line_side_long_left[facing=south]"
+      "block": "rocks:rock[variation=tiny]"
     },
     {
       "char": "h",
-      "block": "car:line_side_long_left[facing=east]"
+      "block": "car:line_side_long_left[facing=south]"
     },
     {
       "char": "i",
-      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "j",
+      "block": "rocks:oak_stick[variation=small]"
+    },
+    {
+      "char": "k",
+      "block": "rocks:rock[variation=medium]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:command_block[facing=up,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
@@ -43,20 +55,20 @@
       }
     },
     {
-      "char": "j",
+      "char": "m",
       "block": "create:vertical_framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "k",
-      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=east]"
+      "char": "n",
+      "block": "quark:smooth_quartz_vertical_slab[type=east,waterlogged=false]"
     },
     {
-      "char": "l",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "char": "o",
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
-      "char": "m",
-      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+      "char": "p",
+      "block": "minecraft:smooth_quartz_slab[type=top,waterlogged=false]"
     }
   ]
 }

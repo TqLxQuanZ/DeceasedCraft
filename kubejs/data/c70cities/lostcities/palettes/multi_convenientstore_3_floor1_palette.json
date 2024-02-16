@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "create:polished_cut_limestone_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "create:polished_cut_limestone_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "f",
@@ -27,15 +27,15 @@
     },
     {
       "char": "g",
-      "block": "create:polished_cut_limestone_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "create:polished_cut_limestone_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "h",
-      "block": "create:polished_cut_limestone_stairs[waterlogged=false,half=top,shape=inner_right,facing=east]"
+      "block": "create:polished_cut_limestone_stairs[waterlogged=false,half=top,facing=east,shape=inner_right]"
     },
     {
       "char": "i",
-      "block": "minecraft:oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:oak_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "j",
@@ -47,7 +47,7 @@
     },
     {
       "char": "l",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "m",
@@ -55,15 +55,15 @@
     },
     {
       "char": "n",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "o",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "p",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "q",
@@ -87,7 +87,7 @@
     },
     {
       "char": "w",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

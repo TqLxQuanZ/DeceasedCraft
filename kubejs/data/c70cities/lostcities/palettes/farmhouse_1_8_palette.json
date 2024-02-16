@@ -19,11 +19,11 @@
     },
     {
       "char": "e",
-      "block": "quark:polished_deepslate_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:polished_deepslate_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "f",
-      "block": "quark:polished_deepslate_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:polished_deepslate_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "g",
@@ -39,19 +39,19 @@
     },
     {
       "char": "j",
-      "block": "minecraft:cobbled_deepslate_slab[waterlogged=false,type=top]"
+      "block": "minecraft:cobbled_deepslate_slab[type=top,waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "biomesoplenty:black_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "biomesoplenty:black_sandstone_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "l",
-      "block": "biomesoplenty:black_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "biomesoplenty:black_sandstone_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "m",
-      "block": "minecraft:dark_oak_button[face=floor,facing=west]"
+      "block": "minecraft:dark_oak_button[facing=west,face=floor]"
     },
     {
       "char": "n",
@@ -63,7 +63,7 @@
     },
     {
       "char": "p",
-      "block": "minecraft:dark_oak_button[face=floor,facing=north]"
+      "block": "minecraft:dark_oak_button[facing=north,face=floor]"
     },
     {
       "char": "q",
@@ -71,7 +71,7 @@
     },
     {
       "char": "r",
-      "block": "minecraft:warped_trapdoor[waterlogged=false,half=bottom,facing=west,open=false]"
+      "block": "minecraft:warped_trapdoor[waterlogged=false,half=bottom,open=false,facing=west]"
     },
     {
       "char": "s",
@@ -83,7 +83,7 @@
     },
     {
       "char": "u",
-      "block": "minecraft:warped_trapdoor[waterlogged=false,half=bottom,facing=east,open=false]"
+      "block": "minecraft:warped_trapdoor[waterlogged=false,half=bottom,open=false,facing=east]"
     },
     {
       "char": "w",
@@ -91,7 +91,7 @@
     },
     {
       "char": "x",
-      "block": "biomesoplenty:black_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "biomesoplenty:black_sandstone_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "y",
@@ -99,19 +99,19 @@
     },
     {
       "char": "A",
-      "block": "biomesoplenty:black_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "biomesoplenty:black_sandstone_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "B",
-      "block": "quark:warped_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:warped_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "C",
-      "block": "minecraft:warped_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:warped_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "D",
-      "block": "minecraft:furnace[lit=false,facing=south]"
+      "block": "minecraft:furnace[facing=south,lit=false]"
     },
     {
       "char": "E",
@@ -119,7 +119,7 @@
     },
     {
       "char": "F",
-      "block": "create:framed_glass_door[hinge=right,half=lower,facing=east,open=true]"
+      "block": "create:framed_glass_door[half=lower,open=true,hinge=right,facing=east]"
     },
     {
       "char": "I",
@@ -139,7 +139,7 @@
     },
     {
       "char": "M",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
     },
     {
       "char": "N",
@@ -147,31 +147,31 @@
     },
     {
       "char": "O",
-      "block": "create:framed_glass_door[hinge=right,half=upper,facing=east,open=true]"
+      "block": "create:framed_glass_door[half=upper,open=true,hinge=right,facing=east]"
     },
     {
       "char": "P",
-      "block": "minecraft:warped_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+      "block": "minecraft:warped_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
     },
     {
       "char": "Q",
-      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "R",
-      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "S",
-      "block": "minecraft:warped_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:warped_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "T",
-      "block": "minecraft:polished_deepslate_slab[waterlogged=false,type=top]"
+      "block": "minecraft:polished_deepslate_slab[type=top,waterlogged=false]"
     },
     {
       "char": "U",
-      "block": "minecraft:polished_deepslate_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:polished_deepslate_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

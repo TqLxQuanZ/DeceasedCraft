@@ -3,7 +3,7 @@
   "palette": [
     {
       "char": "a",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:spruce_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "b",
@@ -23,19 +23,19 @@
     },
     {
       "char": "f",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:spruce_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "g",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:polished_calcite_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "h",
-      "block": "embellishcraft:white_spruce_fancy_bed[part=head,facing=west,occupied=false]"
+      "block": "embellishcraft:white_spruce_fancy_bed[occupied=false,part=head,facing=west]"
     },
     {
       "char": "i",
-      "block": "embellishcraft:white_spruce_fancy_bed[part=foot,facing=west,occupied=false]"
+      "block": "embellishcraft:white_spruce_fancy_bed[occupied=false,part=foot,facing=west]"
     },
     {
       "char": "j",
@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:polished_calcite_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "l",
@@ -51,15 +51,15 @@
     },
     {
       "char": "m",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
     },
     {
       "char": "n",
-      "block": "another_furniture:gray_curtain[waterlogged=false,top=true,facing=north,type=right,open=true]"
+      "block": "another_furniture:gray_curtain[type=right,waterlogged=false,open=true,facing=north,top=true]"
     },
     {
       "char": "o",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,facing=south,open=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=south]"
     },
     {
       "char": "p",

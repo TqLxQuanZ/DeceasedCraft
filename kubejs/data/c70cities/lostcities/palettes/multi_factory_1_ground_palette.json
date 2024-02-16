@@ -23,11 +23,11 @@
     },
     {
       "char": "f",
-      "block": "quark:mossy_stone_brick_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:mossy_stone_brick_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "g",
-      "block": "minecraft:water"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "h",
@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "minecraft:repeating_command_block[conditional=false,facing=up]",
+      "block": "minecraft:repeating_command_block[facing=up,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
@@ -44,55 +44,55 @@
     },
     {
       "char": "j",
-      "block": "minecraft:lava"
+      "block": "minecraft:lava[level=0]"
     },
     {
       "char": "k",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=west]"
-    },
-    {
-      "char": "l",
-      "block": "immersiveengineering:slab_cokebrick[waterlogged=false,type=bottom]"
-    },
-    {
-      "char": "m",
-      "block": "minecraft:cobweb"
-    },
-    {
-      "char": "n",
-      "block": "immersiveengineering:cokebrick"
-    },
-    {
-      "char": "o",
-      "block": "minecraft:clay"
-    },
-    {
-      "char": "p",
-      "block": "minecraft:blast_furnace[lit=false,facing=north]"
-    },
-    {
-      "char": "q",
-      "block": "minecraft:furnace[lit=false,facing=north]"
-    },
-    {
-      "char": "r",
-      "block": "minecraft:coal_block"
-    },
-    {
-      "char": "s",
-      "block": "immersiveengineering:storage_steel"
-    },
-    {
-      "char": "t",
-      "block": "minecraft:tnt"
-    },
-    {
-      "char": "u",
       "block": "immersiveengineering:steel_fence[waterlogged=false]"
     },
     {
+      "char": "l",
+      "block": "quark:smooth_stone_vertical_slab[type=west,waterlogged=false]"
+    },
+    {
+      "char": "m",
+      "block": "immersiveengineering:slab_cokebrick[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "o",
+      "block": "immersiveengineering:cokebrick"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:clay"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:blast_furnace[facing=north,lit=false]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:furnace[facing=north,lit=false]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:coal_block"
+    },
+    {
+      "char": "t",
+      "block": "immersiveengineering:storage_steel"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:tnt"
+    },
+    {
       "char": "w",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=west,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -132,19 +132,19 @@
     },
     {
       "char": "D",
-      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "E",
-      "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[type=top,waterlogged=false]"
     },
     {
       "char": "F",
-      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "I",
-      "block": "embellishcraft:gray_corrugated_metal_plate_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:gray_corrugated_metal_plate_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "J",
@@ -168,11 +168,11 @@
     },
     {
       "char": "O",
-      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[type=top,waterlogged=false]"
     },
     {
       "char": "P",
-      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "immersiveengineering:stairs_steel_scaffolding_standard[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "Q",
@@ -180,7 +180,7 @@
     },
     {
       "char": "R",
-      "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

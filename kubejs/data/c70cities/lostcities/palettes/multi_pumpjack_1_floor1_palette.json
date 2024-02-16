@@ -1,0 +1,123 @@
+{
+  "name": "multi_pumpjack_1_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate"
+    },
+    {
+      "char": "c",
+      "block": "create:cut_granite_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "e",
+      "block": "pfm:deepslate_tile_kitchen_sink[facing=south,level=0]"
+    },
+    {
+      "char": "f",
+      "block": "pfm:deepslate_tile_kitchen_drawer[open=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "g",
+      "block": "pfm:deepslate_tile_kitchen_counter[facing=south]"
+    },
+    {
+      "char": "h",
+      "block": "createdeco:cast_iron_catwalk[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "createdeco:cast_iron_ladder[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:gray_corrugated_metal_plate"
+    },
+    {
+      "char": "k",
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[type=top,waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "m",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "simplylight:illuminant_block_on"
+    },
+    {
+      "char": "o",
+      "block": "simplylight:illuminant_block"
+    },
+    {
+      "char": "p",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "embellishcraft:gray_corrugated_metal_plate_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "s",
+      "block": "quark:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "u",
+      "block": "farmersdelight:cutting_board[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "w",
+      "block": "pfm:iron_microwave[open=false,facing=south]"
+    },
+    {
+      "char": "x",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "y",
+      "block": "embellishcraft:vent_air_duct[facing=south]"
+    },
+    {
+      "char": "A",
+      "block": "embellishcraft:gray_corrugated_metal_plate_slab[type=double,waterlogged=false]"
+    },
+    {
+      "char": "B",
+      "block": "pfm:deepslate_tile_kitchen_cabinet[open=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:spruce_log[axis=x]"
+    },
+    {
+      "char": "D",
+      "block": "createdeco:andesite_trapdoor[waterlogged=false,half=top,open=false,facing=north]"
+    },
+    {
+      "char": "E",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=north,face=floor]"
+    }
+  ]
+}

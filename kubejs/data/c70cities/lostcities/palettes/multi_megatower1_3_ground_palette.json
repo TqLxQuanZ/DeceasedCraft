@@ -11,7 +11,7 @@
     },
     {
       "char": "c",
-      "block": "minecraft:stone_slab[waterlogged=false,type=double]"
+      "block": "minecraft:stone_slab[type=double,waterlogged=false]"
     },
     {
       "char": "d",
@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "quark:spruce_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:spruce_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "g",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[half=lower,open=false,hinge=left,facing=east]"
     },
     {
       "char": "n",
@@ -59,11 +59,11 @@
     },
     {
       "char": "o",
-      "block": "minecraft:red_nether_brick_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:red_nether_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "p",
-      "block": "minecraft:red_nether_brick_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:red_nether_brick_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "q",
@@ -79,7 +79,7 @@
     },
     {
       "char": "t",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[half=lower,open=false,hinge=right,facing=east]"
     },
     {
       "char": "u",
@@ -87,15 +87,15 @@
     },
     {
       "char": "w",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:stone_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "x",
-      "block": "minecraft:polished_diorite_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "minecraft:polished_diorite_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "y",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:stone_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "A",
@@ -124,11 +124,11 @@
     },
     {
       "char": "I",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:stone_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "J",
-      "block": "embellishcraft:spruce_plain_door[hinge=right,half=lower,facing=west,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=right,facing=west]"
     },
     {
       "char": "K",
@@ -156,30 +156,30 @@
     },
     {
       "char": "Q",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:stone_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "R",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
       "char": "S",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
       "char": "T",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
       "char": "U",
-      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
       "char": "V",
-      "block": "quark:red_nether_brick_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:red_nether_brick_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "W",
@@ -187,19 +187,19 @@
     },
     {
       "char": "X",
-      "block": "quark:red_nether_brick_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:red_nether_brick_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "Y",
-      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
       "char": "Z",
-      "block": "minecraft:redstone_wall_torch[lit=true,facing=west]"
+      "block": "minecraft:redstone_wall_torch[facing=west,lit=true]"
     },
     {
       "char": "0",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,facing=south,open=false]"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=south]"
     },
     {
       "char": "1",
@@ -207,7 +207,7 @@
     },
     {
       "char": "2",
-      "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=west,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
       "char": "3",
@@ -215,7 +215,7 @@
     },
     {
       "char": "4",
-      "block": "minecraft:redstone_wall_torch[lit=true,facing=east]"
+      "block": "minecraft:redstone_wall_torch[facing=east,lit=true]"
     },
     {
       "char": "5",
@@ -231,7 +231,7 @@
     },
     {
       "char": "8",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "9",
@@ -239,7 +239,7 @@
     },
     {
       "char": "@",
-      "block": "minecraft:stone_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "minecraft:stone_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "#",
@@ -247,7 +247,7 @@
     },
     {
       "char": "$",
-      "block": "create:cut_limestone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "create:cut_limestone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "%",

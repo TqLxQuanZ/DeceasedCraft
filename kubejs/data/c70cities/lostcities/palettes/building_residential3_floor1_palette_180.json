@@ -11,7 +11,7 @@
     },
     {
       "char": "c",
-      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "d",
@@ -31,15 +31,15 @@
     },
     {
       "char": "h",
-      "block": "minecraft:dark_oak_slab[waterlogged=false,type=top]"
+      "block": "minecraft:dark_oak_slab[type=top,waterlogged=false]"
     },
     {
       "char": "i",
-      "block": "minecraft:dark_oak_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "k",
@@ -47,12 +47,12 @@
     },
     {
       "char": "l",
-      "block": "farmersdelight:dark_oak_cabinet[facing=south,open=false]",
+      "block": "farmersdelight:dark_oak_cabinet[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "m",
-      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     }
   ]
 }

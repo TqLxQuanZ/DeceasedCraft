@@ -3,11 +3,11 @@
   "palette": [
     {
       "char": "a",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=south]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "b",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "c",
@@ -27,11 +27,11 @@
     },
     {
       "char": "g",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:stone_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "h",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:stone_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "i",
@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "k",
@@ -55,19 +55,19 @@
     },
     {
       "char": "n",
-      "block": "embellishcraft:steel_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:steel_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "o",
-      "block": "embellishcraft:steel_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:steel_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "p",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:stone_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "q",
-      "block": "embellishcraft:steel_door[hinge=right,half=lower,facing=west,open=false]"
+      "block": "embellishcraft:steel_door[half=lower,open=false,hinge=right,facing=west]"
     },
     {
       "char": "r",
@@ -79,7 +79,7 @@
     },
     {
       "char": "t",
-      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "u",
@@ -115,7 +115,7 @@
     },
     {
       "char": "E",
-      "block": "quark:iron_button[face=floor,facing=south]"
+      "block": "quark:iron_button[facing=south,face=floor]"
     },
     {
       "char": "F",
@@ -123,11 +123,11 @@
     },
     {
       "char": "I",
-      "block": "embellishcraft:steel_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:steel_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "J",
-      "block": "embellishcraft:steel_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:steel_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "K",
@@ -135,15 +135,15 @@
     },
     {
       "char": "L",
-      "block": "embellishcraft:steel_door[hinge=right,half=upper,facing=west,open=false]"
+      "block": "embellishcraft:steel_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
       "char": "M",
-      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,shape=straight,facing=north]"
+      "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "N",
-      "block": "minecraft:redstone_wall_torch[lit=true,facing=north]"
+      "block": "minecraft:redstone_wall_torch[facing=north,lit=true]"
     },
     {
       "char": "O",
@@ -151,7 +151,7 @@
     },
     {
       "char": "P",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     }
   ]
 }

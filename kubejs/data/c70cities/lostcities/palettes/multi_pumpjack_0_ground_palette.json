@@ -1,0 +1,278 @@
+{
+  "name": "multi_pumpjack_0_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:water[level=0]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "f",
+      "block": "pfm:dark_concrete_kitchen_counter[facing=north]"
+    },
+    {
+      "char": "g",
+      "block": "pfm:dark_concrete_kitchen_sink[facing=north,level=3]"
+    },
+    {
+      "char": "h",
+      "block": "pfm:dark_concrete_kitchen_sink[facing=north,level=0]"
+    },
+    {
+      "char": "i",
+      "block": "createdeco:cast_iron_support[waterlogged=false,facing=up]"
+    },
+    {
+      "char": "j",
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "l",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "m",
+      "block": "embellishcraft:gray_corrugated_metal_plate"
+    },
+    {
+      "char": "n",
+      "block": "createdeco:andesite_door[half=lower,open=false,hinge=right,facing=east]"
+    },
+    {
+      "char": "o",
+      "block": "apocalypsenow:iron_locker[facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "p",
+      "block": "quark:smooth_stone_vertical_slab[type=east,waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "apocalypsenow:iron_locker[facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "r",
+      "block": "createdeco:andesite_door[half=lower,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "s",
+      "block": "createdeco:andesite_door[half=lower,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "t",
+      "block": "pfm:deepslate_table_dinner[facing=north]"
+    },
+    {
+      "char": "u",
+      "block": "immersiveengineering:crate"
+    },
+    {
+      "char": "w",
+      "block": "pfm:basic_toilet[facing=south,toilet=dirty]"
+    },
+    {
+      "char": "x",
+      "block": "pfm:basic_toilet[facing=south,toilet=clean]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:dark_oak_log[axis=y]"
+    },
+    {
+      "char": "B",
+      "block": "another_furniture:dark_oak_drawer[open=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "C",
+      "block": "apocalypsenow:iron_locker[facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "D",
+      "block": "immersiveengineering:sheetmetal_colored_gray"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:crafting_table"
+    },
+    {
+      "char": "F",
+      "block": "another_furniture:dark_oak_table[waterlogged=false,facing=south,update=false]"
+    },
+    {
+      "char": "I",
+      "block": "another_furniture:dark_oak_chair[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:smithing_table"
+    },
+    {
+      "char": "K",
+      "block": "another_furniture:dark_oak_table[waterlogged=false,facing=east,update=false]"
+    },
+    {
+      "char": "L",
+      "block": "another_furniture:dark_oak_chair[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "M",
+      "block": "another_furniture:dark_oak_drawer[open=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "N",
+      "block": "another_furniture:dark_oak_table[waterlogged=false,facing=west,update=true]"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "P",
+      "block": "minecraft:smooth_stone_slab[type=double,waterlogged=false]"
+    },
+    {
+      "char": "Q",
+      "block": "immersiveengineering:metal_barrel"
+    },
+    {
+      "char": "R",
+      "block": "createdeco:andesite_door[half=lower,open=false,hinge=left,facing=east]"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:potted_cactus"
+    },
+    {
+      "char": "T",
+      "block": "pfm:gray_mirror[facing=north]"
+    },
+    {
+      "char": "U",
+      "block": "quark:potted_rose"
+    },
+    {
+      "char": "V",
+      "block": "createdeco:andesite_door[half=upper,open=false,hinge=right,facing=east]"
+    },
+    {
+      "char": "W",
+      "block": "createdeco:andesite_door[half=upper,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "X",
+      "block": "createdeco:andesite_door[half=upper,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "Y",
+      "block": "another_furniture:dark_oak_shelf[type=right,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "Z",
+      "block": "pfm:wall_toilet_paper[facing=south]"
+    },
+    {
+      "char": "0",
+      "block": "another_furniture:dark_oak_shelf[type=left,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "1",
+      "block": "another_furniture:white_lamp[waterlogged=false,facing=up,lit=true,level=3]"
+    },
+    {
+      "char": "2",
+      "block": "storagedrawers:spruce_half_drawers_4[facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "3",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "4",
+      "block": "another_furniture:dark_oak_shelf[type=single,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "5",
+      "block": "ag_day_counter:calendar[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "6",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "7",
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "8",
+      "block": "another_furniture:service_bell[waterlogged=false]"
+    },
+    {
+      "char": "9",
+      "block": "storagedrawers:spruce_half_drawers_4[facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "@",
+      "block": "createdeco:andesite_door[half=upper,open=false,hinge=left,facing=east]"
+    },
+    {
+      "char": "#",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "$",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "%",
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "^",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=false]"
+    },
+    {
+      "char": "&",
+      "block": "minecraft:spruce_log[axis=x]"
+    },
+    {
+      "char": "*",
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "(",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=east,face=wall]"
+    }
+  ]
+}

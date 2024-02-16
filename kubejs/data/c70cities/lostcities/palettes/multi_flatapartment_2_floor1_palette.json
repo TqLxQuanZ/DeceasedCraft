@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "embellishcraft:spruce_plain_door[hinge=right,half=lower,facing=west,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=right,facing=west]"
     },
     {
       "char": "g",
@@ -35,15 +35,15 @@
     },
     {
       "char": "i",
-      "block": "embellishcraft:white_couch[waterlogged=false,shape=straight,facing=north]"
+      "block": "embellishcraft:white_couch[waterlogged=false,facing=north,shape=straight]"
     },
     {
       "char": "j",
-      "block": "pfm:basic_sink[facing=west]"
+      "block": "pfm:basic_sink[facing=west,level=0]"
     },
     {
       "char": "k",
-      "block": "pfm:basic_bathtub[part=foot,facing=south,occupied=false]"
+      "block": "pfm:basic_bathtub[occupied=false,part=foot,facing=south,level=0]"
     },
     {
       "char": "l",
@@ -51,80 +51,80 @@
     },
     {
       "char": "m",
-      "block": "pfm:basic_toilet[facing=south]"
+      "block": "pfm:basic_toilet[facing=south,toilet=empty]"
     },
     {
       "char": "n",
-      "block": "pfm:basic_bathtub[part=head,facing=south,occupied=false]"
+      "block": "pfm:basic_bathtub[occupied=false,part=head,facing=south,level=0]"
     },
     {
       "char": "o",
-      "block": "another_furniture:spruce_drawer[facing=east,open=false]",
+      "block": "another_furniture:spruce_drawer[open=false,facing=east]",
       "loot": "chestloot"
     },
     {
       "char": "p",
-      "block": "embellishcraft:white_couch[waterlogged=false,shape=straight,facing=east]"
+      "block": "embellishcraft:white_couch[waterlogged=false,facing=east,shape=straight]"
     },
     {
       "char": "q",
-      "block": "another_furniture:spruce_drawer[facing=north,open=false]",
+      "block": "another_furniture:spruce_drawer[open=false,facing=north]",
       "loot": "chestloot"
     },
     {
       "char": "r",
-      "block": "embellishcraft:spruce_plain_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=right,facing=east]"
     },
     {
       "char": "s",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=lower,facing=east,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=left,facing=east]"
     },
     {
       "char": "t",
-      "block": "cfm:stripped_spruce_bedside_cabinet[waterlogged=false,facing=east,open=false]",
+      "block": "cfm:stripped_spruce_bedside_cabinet[waterlogged=false,open=false,facing=east]",
       "loot": "chestloot"
     },
     {
       "char": "u",
-      "block": "pfm:oak_white_simple_bed[part=foot,facing=south,occupied=false]",
+      "block": "pfm:oak_white_simple_bed[occupied=false,part=foot,facing=south]",
       "tag": {
         "id": "pfm:bed_block_entity"
       }
     },
     {
       "char": "w",
-      "block": "pfm:oak_white_simple_bed[part=foot,facing=east,occupied=false]",
+      "block": "pfm:oak_white_simple_bed[occupied=false,part=foot,facing=east]",
       "tag": {
         "id": "pfm:bed_block_entity"
       }
     },
     {
       "char": "x",
-      "block": "pfm:oak_white_simple_bed[part=head,facing=east,occupied=false]",
+      "block": "pfm:oak_white_simple_bed[occupied=false,part=head,facing=east]",
       "tag": {
         "id": "pfm:bed_block_entity"
       }
     },
     {
       "char": "y",
-      "block": "cfm:stripped_spruce_bedside_cabinet[waterlogged=false,facing=south,open=false]",
+      "block": "cfm:stripped_spruce_bedside_cabinet[waterlogged=false,open=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "A",
-      "block": "pfm:oak_white_simple_bed[part=head,facing=south,occupied=false]",
+      "block": "pfm:oak_white_simple_bed[occupied=false,part=head,facing=south]",
       "tag": {
         "id": "pfm:bed_block_entity"
       }
     },
     {
       "char": "B",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
       "char": "C",
-      "block": "cfm:white_kitchen_counter[facing=north,type=default]"
+      "block": "cfm:white_kitchen_counter[type=default,facing=north]"
     },
     {
       "char": "D",
@@ -132,7 +132,7 @@
     },
     {
       "char": "E",
-      "block": "cfm:white_kitchen_drawer[facing=north,open=false]",
+      "block": "cfm:white_kitchen_drawer[open=false,facing=north]",
       "loot": "chestloot"
     },
     {
@@ -141,19 +141,19 @@
     },
     {
       "char": "I",
-      "block": "pfm:basic_toilet[facing=north]"
+      "block": "pfm:basic_toilet[facing=north,toilet=empty]"
     },
     {
       "char": "J",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=lower,facing=west,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
       "char": "K",
-      "block": "pfm:basic_bathtub[part=foot,facing=east,occupied=false]"
+      "block": "pfm:basic_bathtub[occupied=false,part=foot,facing=east,level=0]"
     },
     {
       "char": "L",
-      "block": "pfm:basic_bathtub[part=head,facing=east,occupied=false]"
+      "block": "pfm:basic_bathtub[occupied=false,part=head,facing=east,level=0]"
     },
     {
       "char": "M",
@@ -161,7 +161,7 @@
     },
     {
       "char": "N",
-      "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=west,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
       "char": "O",
@@ -181,11 +181,11 @@
     },
     {
       "char": "S",
-      "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
       "char": "T",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
       "char": "U",
@@ -193,7 +193,7 @@
     },
     {
       "char": "V",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=west,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
       "char": "W",
@@ -205,7 +205,7 @@
     },
     {
       "char": "Y",
-      "block": "minecraft:quartz_slab[waterlogged=false,type=top]"
+      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
     },
     {
       "char": "Z",
@@ -213,11 +213,11 @@
     },
     {
       "char": "0",
-      "block": "embellishcraft:polished_marble_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:polished_marble_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "1",
-      "block": "embellishcraft:smooth_marble_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:smooth_marble_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

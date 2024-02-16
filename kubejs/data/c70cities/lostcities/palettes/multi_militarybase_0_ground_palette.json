@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -40,7 +40,7 @@
     },
     {
       "char": "j",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "k",
@@ -52,7 +52,7 @@
     },
     {
       "char": "m",
-      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:stone_brick_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "n",
@@ -60,11 +60,11 @@
     },
     {
       "char": "o",
-      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:stone_brick_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "p",
-      "block": "embellishcraft:sturdy_steel_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:sturdy_steel_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "q",
@@ -100,23 +100,23 @@
     },
     {
       "char": "A",
-      "block": "embellishcraft:sturdy_steel_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "B",
-      "block": "minecraft:lever[face=floor,facing=west]"
+      "block": "minecraft:lever[facing=west,face=floor]"
     },
     {
       "char": "C",
-      "block": "minecraft:lever[face=floor,facing=south]"
+      "block": "minecraft:lever[facing=south,face=floor]"
     },
     {
       "char": "D",
-      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "E",
-      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=top]"
+      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "F",

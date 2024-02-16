@@ -3,11 +3,11 @@
   "palette": [
     {
       "char": "a",
-      "block": "embellishcraft:gneiss_paving_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:gneiss_paving_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "b",
-      "block": "quark:andesite_bricks_slab[waterlogged=false,type=bottom]"
+      "block": "quark:andesite_bricks_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "c",
@@ -27,11 +27,11 @@
     },
     {
       "char": "g",
-      "block": "embellishcraft:gneiss_large_bricks_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "embellishcraft:gneiss_large_bricks_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "h",
-      "block": "embellishcraft:gneiss_large_bricks_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+      "block": "embellishcraft:gneiss_large_bricks_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "i",
@@ -47,23 +47,23 @@
     },
     {
       "char": "l",
-      "block": "quark:oak_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "m",
-      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=north,type=left]"
+      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=north]"
     },
     {
       "char": "n",
-      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=north,type=right]"
+      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=north]"
     },
     {
       "char": "o",
-      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=south,type=right]"
+      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=south]"
     },
     {
       "char": "p",
-      "block": "cfm:stripped_birch_park_bench[waterlogged=false,facing=south,type=left]"
+      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=south]"
     },
     {
       "char": "q",

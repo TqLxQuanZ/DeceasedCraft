@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "e",
@@ -55,11 +55,11 @@
     },
     {
       "char": "n",
-      "block": "minecraft:stone_button[face=floor,facing=south]"
+      "block": "minecraft:stone_button[facing=south,face=floor]"
     },
     {
       "char": "o",
-      "block": "minecraft:stone_button[face=floor,facing=west]"
+      "block": "minecraft:stone_button[facing=west,face=floor]"
     },
     {
       "char": "p",
@@ -67,7 +67,7 @@
     },
     {
       "char": "q",
-      "block": "minecraft:command_block[conditional=false,facing=north]",
+      "block": "minecraft:command_block[facing=north,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
@@ -80,7 +80,7 @@
     },
     {
       "char": "s",
-      "block": "quark:spruce_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:spruce_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "t",
@@ -88,7 +88,7 @@
     },
     {
       "char": "u",
-      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     }
   ]
 }

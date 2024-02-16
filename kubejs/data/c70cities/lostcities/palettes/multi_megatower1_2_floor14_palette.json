@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "quark:azalea_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:azalea_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "l",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:calcite_bricks_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "n",
@@ -63,7 +63,7 @@
     },
     {
       "char": "p",
-      "block": "cfm:stripped_spruce_park_bench[waterlogged=false,facing=east,type=left]"
+      "block": "cfm:stripped_spruce_park_bench[type=left,waterlogged=false,facing=east]"
     },
     {
       "char": "q",
@@ -71,15 +71,15 @@
     },
     {
       "char": "r",
-      "block": "cfm:stripped_spruce_park_bench[waterlogged=false,facing=east,type=middle]"
+      "block": "cfm:stripped_spruce_park_bench[type=middle,waterlogged=false,facing=east]"
     },
     {
       "char": "s",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:calcite_bricks_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "t",
-      "block": "cfm:stripped_spruce_park_bench[waterlogged=false,facing=east,type=right]"
+      "block": "cfm:stripped_spruce_park_bench[type=right,waterlogged=false,facing=east]"
     },
     {
       "char": "u",
@@ -95,7 +95,7 @@
     },
     {
       "char": "y",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
     },
     {
       "char": "A",
@@ -107,11 +107,11 @@
     },
     {
       "char": "C",
-      "block": "create:cut_limestone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "create:cut_limestone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "D",
-      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=bottom]"
+      "block": "create:polished_cut_limestone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "E",
@@ -119,7 +119,7 @@
     },
     {
       "char": "F",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:spruce_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "I",
@@ -131,19 +131,19 @@
     },
     {
       "char": "K",
-      "block": "immersiveengineering:slab_steel_scaffolding_standard[waterlogged=false,type=top]"
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[type=top,waterlogged=false]"
     },
     {
       "char": "L",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:spruce_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "M",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:spruce_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "N",
-      "block": "quark:spruce_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:spruce_vertical_slab[type=west,waterlogged=false]"
     }
   ]
 }

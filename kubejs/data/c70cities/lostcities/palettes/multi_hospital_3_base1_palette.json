@@ -23,31 +23,31 @@
     },
     {
       "char": "f",
-      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=west]"
+      "block": "quark:stone_brick_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "g",
-      "block": "create:polished_cut_limestone_slab[waterlogged=false,type=top]"
+      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "h",
-      "block": "quark:stone_brick_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:stone_brick_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "i",
-      "block": "embellishcraft:polished_marble_slab[waterlogged=false,type=bottom]"
+      "block": "embellishcraft:polished_marble_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "embellishcraft:white_pillow[waterlogged=false,part=head,facing=east,occupied=false]"
+      "block": "embellishcraft:white_pillow[waterlogged=false,occupied=false,part=head,facing=east]"
     },
     {
       "char": "k",
-      "block": "embellishcraft:polished_marble_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:polished_marble_slab[type=top,waterlogged=false]"
     },
     {
       "char": "l",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     }
   ]
 }

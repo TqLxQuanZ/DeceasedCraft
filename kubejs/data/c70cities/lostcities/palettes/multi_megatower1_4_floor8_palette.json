@@ -30,15 +30,15 @@
     },
     {
       "char": "g",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,shape=straight,facing=west]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "h",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "i",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,shape=outer_right,facing=west]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,facing=west,shape=outer_right]"
     },
     {
       "char": "j",
@@ -58,7 +58,7 @@
     },
     {
       "char": "n",
-      "block": "minecraft:cobblestone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "o",
@@ -74,31 +74,31 @@
     },
     {
       "char": "r",
-      "block": "quark:calcite_bricks_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:calcite_bricks_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "s",
-      "block": "quark:iron_button[face=wall,facing=south]"
+      "block": "quark:iron_button[facing=south,face=wall]"
     },
     {
       "char": "t",
-      "block": "create:framed_glass_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "u",
-      "block": "create:framed_glass_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "w",
-      "block": "quark:polished_calcite_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:polished_calcite_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "x",
-      "block": "cfm:stripped_spruce_blinds[waterlogged=false,facing=north,open=true]"
+      "block": "cfm:stripped_spruce_blinds[waterlogged=false,open=true,facing=north]"
     },
     {
       "char": "y",
-      "block": "quark:stripped_spruce_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:stripped_spruce_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "A",
@@ -106,7 +106,7 @@
     },
     {
       "char": "B",
-      "block": "minecraft:spruce_button[face=floor,facing=west]"
+      "block": "minecraft:spruce_button[facing=west,face=floor]"
     },
     {
       "char": "C",
@@ -122,7 +122,7 @@
     },
     {
       "char": "F",
-      "block": "minecraft:spruce_button[face=floor,facing=east]"
+      "block": "minecraft:spruce_button[facing=east,face=floor]"
     },
     {
       "char": "I",
@@ -138,7 +138,7 @@
     },
     {
       "char": "L",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:spruce_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "M",
@@ -150,7 +150,7 @@
     },
     {
       "char": "O",
-      "block": "biomesoplenty:dead_button[face=floor,facing=north]"
+      "block": "biomesoplenty:dead_button[facing=north,face=floor]"
     },
     {
       "char": "P",
@@ -162,11 +162,11 @@
     },
     {
       "char": "R",
-      "block": "create:framed_glass_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "S",
-      "block": "create:framed_glass_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "T",
@@ -189,7 +189,7 @@
     },
     {
       "char": "X",
-      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "Y",
@@ -205,7 +205,7 @@
     },
     {
       "char": "1",
-      "block": "minecraft:spruce_slab[waterlogged=false,type=top]"
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
     },
     {
       "char": "2",

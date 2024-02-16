@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "g",
@@ -39,15 +39,15 @@
     },
     {
       "char": "j",
-      "block": "minecraft:cobblestone_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:cobblestone_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "k",
-      "block": "minecraft:cobblestone_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+      "block": "minecraft:cobblestone_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "l",
-      "block": "minecraft:cobblestone_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:cobblestone_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "m",
@@ -55,63 +55,63 @@
     },
     {
       "char": "n",
-      "block": "minecraft:mossy_cobblestone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:mossy_cobblestone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "o",
-      "block": "minecraft:mossy_cobblestone_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:mossy_cobblestone_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "p",
-      "block": "minecraft:cobblestone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "q",
-      "block": "quark:mossy_cobblestone_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:mossy_cobblestone_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "r",
-      "block": "quark:cobblestone_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:cobblestone_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "s",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:stone_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "t",
-      "block": "quark:mossy_cobblestone_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:mossy_cobblestone_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "u",
-      "block": "quark:mossy_cobblestone_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:mossy_cobblestone_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "w",
-      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,shape=straight,facing=east]"
+      "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "x",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:stone_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "y",
-      "block": "quark:cobblestone_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:cobblestone_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "A",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:stone_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "B",
-      "block": "quark:cobblestone_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:cobblestone_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "C",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "D",
-      "block": "minecraft:stone_slab[waterlogged=false,type=bottom]"
+      "block": "minecraft:stone_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

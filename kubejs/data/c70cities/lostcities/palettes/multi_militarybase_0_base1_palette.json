@@ -27,33 +27,33 @@
     },
     {
       "char": "g",
-      "block": "minecraft:green_bed[part=head,facing=north,occupied=false]",
+      "block": "minecraft:green_bed[occupied=false,part=head,facing=north]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "h",
-      "block": "minecraft:green_bed[part=foot,facing=north,occupied=false]",
+      "block": "minecraft:green_bed[occupied=false,part=foot,facing=north]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
       "char": "i",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "j",
-      "block": "embellishcraft:spruce_plain_door[hinge=right,half=lower,facing=south,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "k",
-      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=north]"
+      "block": "quark:smooth_stone_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "l",
-      "block": "minecraft:oak_door[hinge=left,half=lower,facing=north,open=true]"
+      "block": "minecraft:oak_door[half=lower,open=true,hinge=left,facing=north]"
     },
     {
       "char": "m",
@@ -61,24 +61,24 @@
     },
     {
       "char": "n",
-      "block": "minecraft:barrel[facing=south,open=false]"
+      "block": "minecraft:barrel[open=false,facing=south]"
     },
     {
       "char": "o",
-      "block": "another_furniture:oak_drawer[facing=south,open=false]",
+      "block": "another_furniture:oak_drawer[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "p",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=east]"
+      "block": "quark:stone_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "q",
-      "block": "embellishcraft:sturdy_steel_door[hinge=right,half=lower,facing=east,open=false]"
+      "block": "embellishcraft:sturdy_steel_door[half=lower,open=false,hinge=right,facing=east]"
     },
     {
       "char": "r",
-      "block": "quark:stone_vertical_slab[waterlogged=false,type=south]"
+      "block": "quark:stone_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "s",
@@ -86,36 +86,36 @@
     },
     {
       "char": "t",
-      "block": "quark:acacia_post[waterlogged=false,chain_up=false,axis=y]"
+      "block": "quark:acacia_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "u",
-      "block": "embellishcraft:spruce_plain_door[hinge=left,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "w",
-      "block": "embellishcraft:spruce_plain_door[hinge=right,half=upper,facing=south,open=false]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "x",
-      "block": "minecraft:oak_door[hinge=left,half=upper,facing=north,open=true]"
+      "block": "minecraft:oak_door[half=upper,open=true,hinge=left,facing=north]"
     },
     {
       "char": "y",
-      "block": "minecraft:lever[face=floor,facing=north]"
+      "block": "minecraft:lever[facing=north,face=floor]"
     },
     {
       "char": "A",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "B",
-      "block": "quark:iron_button[face=floor,facing=north]"
+      "block": "quark:iron_button[facing=north,face=floor]"
     },
     {
       "char": "C",
-      "block": "embellishcraft:sturdy_steel_door[hinge=right,half=upper,facing=east,open=false]"
+      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
       "char": "D",
@@ -127,22 +127,22 @@
     },
     {
       "char": "F",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "I",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "J",
-      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "K",
-      "block": "embellishcraft:damaged_paving_slab[waterlogged=false,type=top]"
+      "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
     }
   ]
 }
