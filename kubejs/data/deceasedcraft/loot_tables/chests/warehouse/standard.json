@@ -359,16 +359,6 @@
               "tag": "{blueprint:\"components\"}"
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "immersiveengineering:blueprint",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{blueprint:\"electrode\"}"
-            }
-          ]
         }
       ]
     }

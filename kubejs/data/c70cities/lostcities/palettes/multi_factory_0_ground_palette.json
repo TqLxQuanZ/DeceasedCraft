@@ -109,15 +109,11 @@
     },
     {
       "char": "C",
-      "block": "immersiveengineering:light_engineering"
+      "block": "immersiveengineering:rs_engineering"
     },
     {
       "char": "D",
-      "block": "minecraft:cobweb"
-    },
-    {
-      "char": "E",
-      "block": "minecraft:repeating_command_block[facing=south,conditional=false]",
+      "block": "minecraft:repeating_command_block[facing=up,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
@@ -125,57 +121,62 @@
       }
     },
     {
-      "char": "F",
-      "block": "immersiveengineering:rs_engineering"
-    },
-    {
-      "char": "I",
+      "char": "E",
       "block": "embellishcraft:steel_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
-      "char": "J",
+      "char": "F",
       "block": "biomesoplenty:dead_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
-      "char": "K",
+      "char": "I",
       "block": "biomesoplenty:dead_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
     },
     {
-      "char": "L",
+      "char": "J",
       "block": "create:vertical_framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "M",
+      "char": "K",
       "block": "minecraft:redstone_torch[lit=true]"
     },
     {
-      "char": "N",
+      "char": "L",
       "block": "biomesoplenty:dead_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
-      "char": "O",
+      "char": "M",
       "block": "minecraft:comparator[facing=east]"
     },
     {
-      "char": "P",
+      "char": "N",
       "block": "minecraft:repeater[facing=west]"
     },
     {
-      "char": "Q",
+      "char": "O",
       "block": "embellishcraft:steel_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
-      "char": "R",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
+      "char": "P",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
+      "char": "Q",
+      "block": "immersiveengineering:conveyor_basic[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:piston[facing=down]"
+    },
+    {
       "char": "S",
-      "block": "immersiveengineering:conveyor_basic[waterlogged=false,facing=south]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "T",
-      "block": "clickmachine:auto_clicker[facing=east]",
+      "block": "clickmachine:auto_clicker[facing=north]",
       "tag": {
         "speed_index": 8,
         "right_click": 1,
@@ -194,35 +195,35 @@
     },
     {
       "char": "U",
-      "block": "minecraft:piston[facing=down]"
-    },
-    {
-      "char": "V",
       "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
-      "char": "W",
+      "char": "V",
       "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "X",
+      "char": "W",
       "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
-      "char": "Y",
-      "block": "quark:smooth_stone_vertical_slab[type=west,waterlogged=false]"
-    },
-    {
-      "char": "Z",
+      "char": "X",
       "block": "immersiveengineering:heavy_engineering"
     },
     {
+      "char": "Y",
+      "block": "createdeco:white_decal[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "Z",
+      "block": "createdeco:magenta_decal[waterlogged=false,facing=east]"
+    },
+    {
       "char": "0",
-      "block": "embellishcraft:gray_corrugated_metal_plate_slab[type=bottom,waterlogged=false]"
+      "block": "quark:smooth_stone_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "1",
-      "block": "biomesoplenty:stripped_dead_log[axis=z]"
+      "block": "embellishcraft:gray_corrugated_metal_plate_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "2",
@@ -230,7 +231,15 @@
     },
     {
       "char": "3",
+      "block": "biomesoplenty:stripped_dead_log[axis=z]"
+    },
+    {
+      "char": "4",
       "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "5",
+      "block": "minecraft:cobweb"
     }
   ]
 }

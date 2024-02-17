@@ -56,6 +56,38 @@
       {
         "factor": 0.05,
         "value": "c70cities:building_factory1_270"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_factory2"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_factory2_90"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_factory2_180"
+      },
+      {
+        "factor": 0.0125,
+        "value": "c70cities:building_factory2_270"
+      },
+      {
+        "factor": 0.00625,
+        "value": "c70cities:building_bunker1"
+      },
+      {
+        "factor": 0.00625,
+        "value": "c70cities:building_bunker1_90"
+      },
+      {
+        "factor": 0.00625,
+        "value": "c70cities:building_bunker1_180"
+      },
+      {
+        "factor": 0.00625,
+        "value": "c70cities:building_bunker1_270"
       }
     ],
     "multibuildings": [
@@ -68,8 +100,12 @@
         "value": "c70cities:multi_factory"
       },
       {
-        "factor": 0.3,
+        "factor": 0.2,
         "value": "c70cities:multi_pumpjack"
+      },
+      {
+        "factor": 0.3,
+        "value": "c70cities:multi_derrick"
       },
       {
         "factor": 0.5,

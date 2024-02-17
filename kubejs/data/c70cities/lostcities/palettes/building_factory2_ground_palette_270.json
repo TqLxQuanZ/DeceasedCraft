@@ -1,0 +1,235 @@
+{
+  "name": "building_factory2_ground_palette_270",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "b",
+      "block": "biomesoplenty:dead_grass"
+    },
+    {
+      "char": "c",
+      "block": "biomesoplenty:dead_leaves"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:dead_bush"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "f",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate"
+    },
+    {
+      "char": "g",
+      "block": "immersiveengineering:crate"
+    },
+    {
+      "char": "h",
+      "block": "create:blaze_burner[facing=west,blaze=smouldering]",
+      "tag": {
+        "id": "create:blaze_heater"
+      }
+    },
+    {
+      "char": "i",
+      "block": "rocks:granite_rock[variation=tiny]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "k",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:sturdy_steel_door[half=lower,open=false,hinge=left,facing=north]"
+    },
+    {
+      "char": "m",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "n",
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "char": "o",
+      "block": "embellishcraft:gray_corrugated_metal_plate"
+    },
+    {
+      "char": "p",
+      "block": "immersiveengineering:conveyor_extract[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "q",
+      "block": "quark:smooth_stone_vertical_slab[type=north,waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "rocks:rock[variation=medium]"
+    },
+    {
+      "char": "s",
+      "block": "immersiveengineering:conveyor_basic[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "t",
+      "block": "immersiveengineering:conveyor_vertical[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "u",
+      "block": "immersiveengineering:rs_engineering"
+    },
+    {
+      "char": "w",
+      "block": "create:blaze_burner[facing=south,blaze=smouldering]",
+      "tag": {
+        "id": "create:blaze_heater"
+      }
+    },
+    {
+      "char": "x",
+      "block": "rocks:gravel_rock[variation=medium]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:piston[facing=north]"
+    },
+    {
+      "char": "A",
+      "block": "rocks:granite_rock[variation=large]"
+    },
+    {
+      "char": "B",
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    {
+      "char": "C",
+      "block": "rocks:gravel_rock[variation=large]"
+    },
+    {
+      "char": "D",
+      "block": "rocks:andesite_rock[variation=small]"
+    },
+    {
+      "char": "E",
+      "block": "immersiveengineering:capacitor_lv"
+    },
+    {
+      "char": "F",
+      "block": "create:blaze_burner[facing=east,blaze=smouldering]",
+      "tag": {
+        "id": "create:blaze_heater"
+      }
+    },
+    {
+      "char": "I",
+      "block": "apocalypsenow:iron_grid[waterlogged=false]"
+    },
+    {
+      "char": "J",
+      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=left,facing=north]"
+    },
+    {
+      "char": "K",
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
+    },
+    {
+      "char": "L",
+      "block": "clickmachine:auto_clicker[facing=south]",
+      "tag": {
+        "speed_index": 8,
+        "right_click": 1,
+        "inv": {
+          "Size": 1,
+          "Items": [
+            {
+              "Slot": 0,
+              "id": "immersiveengineering:hammer",
+              "Count": 1
+            }
+          ]
+        },
+        "id": "clickmachine:tile"
+      }
+    },
+    {
+      "char": "M",
+      "block": "immersiveengineering:conveyor_basic[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "N",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "O",
+      "block": "create:blaze_burner[facing=south,blaze=none]",
+      "tag": {
+        "id": "create:blaze_heater"
+      }
+    },
+    {
+      "char": "P",
+      "block": "immersiveengineering:connector_lv[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "Q",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:hopper[facing=down]"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:repeating_command_block[facing=north,conditional=false]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "execute if block ~1 ~ ~ immersiveengineering:crusher run fill ~ ~-1 ~ ~ ~ ~ air"
+      }
+    },
+    {
+      "char": "T",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=false]"
+    },
+    {
+      "char": "U",
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "V",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "W",
+      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "X",
+      "block": "immersiveengineering:connector_lv_relay[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "Y",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "Z",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "0",
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
+    }
+  ]
+}

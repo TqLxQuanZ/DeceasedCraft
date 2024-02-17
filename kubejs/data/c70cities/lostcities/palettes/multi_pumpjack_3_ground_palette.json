@@ -23,30 +23,42 @@
     },
     {
       "char": "f",
-      "block": "immersiveengineering:fluid_pipe[waterlogged=false]"
+      "block": "rocks:andesite_rock[variation=medium]"
     },
     {
       "char": "g",
-      "block": "minecraft:stone_brick_wall[waterlogged=false,up=false]"
+      "block": "immersiveengineering:fluid_pipe[waterlogged=false]"
     },
     {
       "char": "h",
-      "block": "minecraft:black_carpet"
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=false]"
     },
     {
       "char": "i",
-      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
     },
     {
       "char": "j",
-      "block": "immersiveengineering:metal_barrel"
+      "block": "rocks:andesite_rock[variation=small]"
     },
     {
       "char": "k",
-      "block": "immersiveengineering:light_engineering"
+      "block": "minecraft:black_carpet"
     },
     {
       "char": "l",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "m",
+      "block": "immersiveengineering:metal_barrel"
+    },
+    {
+      "char": "n",
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "char": "o",
       "block": "minecraft:repeating_command_block[facing=up,conditional=false]",
       "tag": {
         "conditionMet": 1,
@@ -55,27 +67,27 @@
       }
     },
     {
-      "char": "m",
-      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
-    },
-    {
-      "char": "n",
-      "block": "minecraft:iron_bars[waterlogged=false]"
-    },
-    {
-      "char": "o",
-      "block": "immersiveengineering:treated_fence[waterlogged=false]"
-    },
-    {
       "char": "p",
-      "block": "immersiveengineering:heavy_engineering"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "q",
-      "block": "immersiveengineering:rs_engineering"
+      "block": "minecraft:iron_bars[waterlogged=false]"
     },
     {
       "char": "r",
+      "block": "immersiveengineering:treated_fence[waterlogged=false]"
+    },
+    {
+      "char": "s",
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    {
+      "char": "t",
+      "block": "immersiveengineering:rs_engineering"
+    },
+    {
+      "char": "u",
       "block": "clickmachine:auto_clicker[facing=north]",
       "tag": {
         "speed_index": 8,
@@ -94,19 +106,19 @@
       }
     },
     {
-      "char": "s",
+      "char": "w",
       "block": "immersiveengineering:storage_steel"
     },
     {
-      "char": "t",
+      "char": "x",
       "block": "immersiveengineering:connector_mv[waterlogged=false,facing=down]"
     },
     {
-      "char": "u",
+      "char": "y",
       "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "w",
+      "char": "A",
       "block": "immersiveengineering:sheetmetal_steel"
     }
   ]

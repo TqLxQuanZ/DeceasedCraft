@@ -767,8 +767,43 @@
     },
     {
       "factor": 500,
-      "value": "deceasedcraft:chests/factory/standard",
+      "value": "deceasedcraft:chests/factory_furnace/standard",
       "inbuilding": "c70cities:multi_factory_0"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/factory_furnace/standard",
+      "inbuilding": "c70cities:multi_factory_1"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/factory_pumpjack/standard",
+      "inpart": "c70cities:multi_pumpjack_0_ground"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/factory_pumpjack/standard",
+      "inpart": "c70cities:multi_pumpjack_1_ground"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/factory_pumpjack/fridge",
+      "inpart": "c70cities:multi_pumpjack_1_floor1"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/factory_pumpjack/office",
+      "inpart": "c70cities:multi_pumpjack_0_floor1"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/factory_pumpjack/standard",
+      "inbuilding": "c70cities:multi_derrick_0"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/factory_pumpjack/standard",
+      "inbuilding": "c70cities:multi_derrick_1"
     },
     {
       "factor": 500,
