@@ -324,82 +324,87 @@
     },
     {
       "char": "'",
-      "block": "pfm:dark_concrete_kitchen_cabinet[open=false,facing=east]",
-      "loot": "chestloot"
-    },
-    {
-      "char": ",",
-      "block": "pfm:spruce_kitchen_wall_small_drawer[open=false,facing=east]",
-      "loot": "chestloot"
-    },
-    {
-      "char": ".",
-      "block": "pfm:spruce_kitchen_wall_small_drawer[open=false,facing=south]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "/",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
+      "char": ",",
+      "block": "pfm:dark_concrete_kitchen_cabinet[open=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": ".",
+      "block": "pfm:spruce_kitchen_wall_small_drawer[open=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "/",
+      "block": "pfm:spruce_kitchen_wall_small_drawer[open=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
       "char": "<",
-      "block": "simplylight:wall_lamp[waterlogged=false,facing=north]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
+      "loot": "chestloot"
     },
     {
       "char": ">",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "?",
       "block": "pfm:spruce_kitchen_cabinet[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
-      "char": "?",
+      "char": "\u00a3",
       "block": "pfm:white_oven_range_hood[facing=west,down=false]"
     },
     {
-      "char": "\u00a3",
+      "char": "\u00a4",
       "block": "pfm:stripped_spruce_kitchen_wall_counter[facing=west]"
     },
     {
-      "char": "\u00a4",
+      "char": "\u00a5",
       "block": "simplylight:wall_lamp[waterlogged=false,facing=south]"
     },
     {
-      "char": "\u00a5",
+      "char": "\u00a7",
       "block": "another_furniture:light_gray_curtain[type=left,waterlogged=false,open=false,facing=north,top=true]",
       "tag": {
         "id": "another_furniture:light_gray_curtain"
       }
     },
     {
-      "char": "\u00a7",
+      "char": "\u00c0",
       "block": "pfm:spruce_kitchen_wall_small_drawer[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
-      "char": "\u00c0",
+      "char": "\u00c1",
       "block": "another_furniture:light_gray_curtain[type=right,waterlogged=false,open=false,facing=north,top=true]",
       "tag": {
         "id": "another_furniture:light_gray_curtain"
       }
     },
     {
-      "char": "\u00c1",
+      "char": "\u00c2",
       "block": "pfm:basic_shower_head[facing=west]"
     },
     {
-      "char": "\u00c2",
+      "char": "\u00c3",
       "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "\u00c3",
+      "char": "\u00c4",
       "block": "minecraft:smooth_stone_slab[type=double,waterlogged=false]"
     },
     {
-      "char": "\u00c4",
+      "char": "\u00c5",
       "block": "embellishcraft:air_duct"
     },
     {
-      "char": "\u00c5",
+      "char": "\u00c6",
       "block": "embellishcraft:vent_air_duct[facing=down]"
     }
   ]

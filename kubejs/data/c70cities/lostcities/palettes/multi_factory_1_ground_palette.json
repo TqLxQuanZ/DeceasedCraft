@@ -134,7 +134,7 @@
       "tag": {
         "conditionMet": 1,
         "auto": 1,
-        "Command": "execute if block ~ ~1 ~-1 immersiveengineering:arc_furnace run fill ~ ~1 ~ ~ ~ ~ air"
+        "Command": "execute if block ~ ~1 ~-1 immersiveengineering:arc_furnace run fill ~ ~-1 ~ ~ ~ ~ air"
       }
     },
     {
