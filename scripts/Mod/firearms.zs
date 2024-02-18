@@ -62,7 +62,7 @@ craftingTable.addShapeless("50bmg", <item:tac:50bmg>,
                                                       .loops(1)
                                                       .addOutput(<item:tac:50bmg> * 2, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:ingots/lead>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/uranium>))
 													  );
                                                       
 // 57x28
