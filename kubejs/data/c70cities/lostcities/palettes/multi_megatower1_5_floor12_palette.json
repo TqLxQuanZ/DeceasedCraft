@@ -55,7 +55,8 @@
     },
     {
       "char": "n",
-      "block": "cfm:freezer_light[open=false,facing=south]"
+      "block": "pfm:white_fridge[open=false,facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "o",
@@ -79,8 +80,7 @@
     },
     {
       "char": "t",
-      "block": "cfm:fridge_light[open=false,facing=south]",
-      "loot": "chestloot"
+      "block": "pfm:white_freezer[open=false,facing=south]"
     },
     {
       "char": "u",
