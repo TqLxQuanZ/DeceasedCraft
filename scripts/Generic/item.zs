@@ -40,15 +40,8 @@ craftingTable.addShapedMirrored("morphine", <constant:minecraft:mirroraxis:horiz
 // Fridge
 craftingTable.removeByName("cfm:fridge_light");
 craftingTable.removeByName("cfm:fridge_dark");
-craftingTable.addShaped("fridge_light", <item:cfm:fridge_light>,
-    [[<tag:items:forge:dyes/white>, <tag:items:forge:chests>, <tag:items:forge:ingots/steel>],
-    [<tag:items:forge:ingots/steel>, <item:immersiveengineering:component_electronic>, <tag:items:forge:ingots/steel>],
-	[<tag:items:forge:ingots/steel>, <item:cold_sweat:icebox>, <tag:items:forge:ingots/steel>]]);
-    
-craftingTable.addShaped("fridge_dark", <item:cfm:fridge_dark>,
-    [[<tag:items:forge:dyes/black>, <tag:items:forge:chests>, <tag:items:forge:ingots/steel>],
-    [<tag:items:forge:ingots/steel>, <item:immersiveengineering:component_electronic>, <tag:items:forge:ingots/steel>],
-	[<tag:items:forge:ingots/steel>, <item:cold_sweat:icebox>, <tag:items:forge:ingots/steel>]]);
+JEI.hideIngredient(<item:cfm:fridge_light>);
+JEI.hideIngredient(<item:cfm:fridge_dark>);
 
 // Everlasting Torch
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("everlasting_torches")

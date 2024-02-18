@@ -120,6 +120,9 @@ import crafttweaker.api.resource.ResourceLocation;
 <tag:items:create:seats>.add(<tag:items:another_furniture:benches>);
 <tag:items:create:seats>.add(<tag:items:another_furniture:stools>);
 
+<tag:blocks:create:non_movable>.add(<block:buildersdelight:laboratory_3>);
+<tag:blocks:create:non_movable>.add(<block:minecraft:bedrock>);
+
 // Plane upgrade tags
 <tag:items:simpleplanes:plane_upgrades>.add(<item:simpleplanes:floaty_bedding>);
 <tag:items:simpleplanes:plane_upgrades>.add(<item:simpleplanes:booster>);
