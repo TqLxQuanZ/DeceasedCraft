@@ -55,7 +55,10 @@
     },
     {
       "char": "n",
-      "block": "minecraft:iron_bars[waterlogged=false]"
+      "block": "create:blaze_burner[facing=east,blaze=smouldering]",
+      "tag": {
+        "id": "create:blaze_heater"
+      }
     },
     {
       "char": "o",
@@ -108,55 +111,51 @@
     },
     {
       "char": "C",
-      "block": "minecraft:redstone_torch[lit=true]"
-    },
-    {
-      "char": "D",
       "block": "immersiveengineering:connector_lv[waterlogged=false,facing=down]"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "immersiveengineering:concrete_sheet"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "embellishcraft:gray_corrugated_metal_plate_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "minecraft:lever[facing=west,face=wall]"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "immersiveengineering:concrete_quarter"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "quark:smooth_stone_vertical_slab[type=west,waterlogged=false]"
     },
     {
-      "char": "L",
+      "char": "K",
       "block": "create:mechanical_press[facing=east]",
       "tag": {
         "id": "create:mechanical_press"
       }
     },
     {
-      "char": "M",
+      "char": "L",
       "block": "create:deployer[axis_along_first=false,facing=down]",
       "tag": {
         "id": "create:deployer"
       }
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "create:hand_crank[waterlogged=false,facing=east]",
       "tag": {
         "id": "create:hand_crank"
       }
     },
     {
-      "char": "O",
+      "char": "N",
       "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     }
   ]
