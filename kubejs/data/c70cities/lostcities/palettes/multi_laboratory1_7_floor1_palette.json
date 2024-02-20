@@ -1,0 +1,29 @@
+{
+  "name": "multi_laboratory1_7_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:gray_corrugated_metal_plate"
+    },
+    {
+      "char": "c",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
+    },
+    {
+      "char": "d",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+    },
+    {
+      "char": "e",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
+    },
+    {
+      "char": "f",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
+    }
+  ]
+}

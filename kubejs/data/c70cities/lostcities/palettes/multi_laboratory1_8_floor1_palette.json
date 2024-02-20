@@ -1,0 +1,61 @@
+{
+  "name": "multi_laboratory1_8_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:gray_corrugated_metal_plate_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "d",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
+    },
+    {
+      "char": "e",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "f",
+      "block": "pfm:stripped_oak_simple_stool[facing=east]"
+    },
+    {
+      "char": "g",
+      "block": "pfm:stripped_oak_simple_stool[facing=west]"
+    },
+    {
+      "char": "h",
+      "block": "pfm:light_wood_table_dinner[facing=north]"
+    },
+    {
+      "char": "i",
+      "block": "pfm:stripped_oak_simple_stool[facing=north]"
+    },
+    {
+      "char": "j",
+      "block": "pfm:basic_plate[facing=north]"
+    },
+    {
+      "char": "k",
+      "block": "pfm:basic_plate[facing=west]"
+    },
+    {
+      "char": "l",
+      "block": "pfm:basic_plate[facing=south]"
+    },
+    {
+      "char": "m",
+      "block": "create:polished_cut_scoria_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "create:polished_cut_scoria"
+    }
+  ]
+}

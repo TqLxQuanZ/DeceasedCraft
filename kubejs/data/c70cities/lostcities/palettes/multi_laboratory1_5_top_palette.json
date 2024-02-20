@@ -1,0 +1,107 @@
+{
+  "name": "multi_laboratory1_5_top_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:cut_limestone"
+    },
+    {
+      "char": "b",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "d",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "e",
+      "block": "immersiveengineering:coil_hv"
+    },
+    {
+      "char": "f",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "g",
+      "block": "create:blaze_burner[facing=east,blaze=smouldering]",
+      "tag": {
+        "id": "create:blaze_heater"
+      }
+    },
+    {
+      "char": "h",
+      "block": "create:blaze_burner[facing=south,blaze=none]",
+      "tag": {
+        "id": "create:blaze_heater"
+      }
+    },
+    {
+      "char": "i",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "j",
+      "block": "create:blaze_burner[facing=east,blaze=none]",
+      "tag": {
+        "id": "create:blaze_heater"
+      }
+    },
+    {
+      "char": "k",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "l",
+      "block": "create:gearbox[axis=z]",
+      "tag": {
+        "id": "create:gearbox"
+      }
+    },
+    {
+      "char": "m",
+      "block": "create:shaft[waterlogged=false,axis=x]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "n",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "o",
+      "block": "create:elevator_pulley[facing=south]",
+      "tag": {
+        "id": "create:elevator_pulley"
+      }
+    },
+    {
+      "char": "p",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=north,face=wall]"
+    },
+    {
+      "char": "q",
+      "block": "embellishcraft:vent_air_duct[facing=up]"
+    },
+    {
+      "char": "r",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=south,face=wall]"
+    },
+    {
+      "char": "s",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=north,face=floor]"
+    },
+    {
+      "char": "t",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=west,face=floor]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:lightning_rod[waterlogged=false,facing=up]"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "name": "multi_laboratory1_3_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:cut_limestone"
+    },
+    {
+      "char": "b",
+      "block": "biomesoplenty:dead_trapdoor[waterlogged=false,half=top,open=false,facing=west]"
+    },
+    {
+      "char": "c",
+      "block": "create:polished_cut_scoria"
+    },
+    {
+      "char": "d",
+      "block": "biomesoplenty:dead_log[axis=y]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "f",
+      "block": "create:polished_cut_scoria_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "create:polished_cut_scoria_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    },
+    {
+      "char": "h",
+      "block": "create:polished_cut_limestone"
+    },
+    {
+      "char": "i",
+      "block": "create:cut_limestone_bricks"
+    },
+    {
+      "char": "j",
+      "block": "create:cut_limestone_brick_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+    },
+    {
+      "char": "k",
+      "block": "create:cut_limestone_brick_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "buildersdelight:dark_oak_glass_pane_8[waterlogged=false]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:dead_bush"
+    },
+    {
+      "char": "n",
+      "block": "biomesoplenty:dead_grass"
+    },
+    {
+      "char": "o",
+      "block": "biomesoplenty:dead_leaves"
+    },
+    {
+      "char": "p",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=false]"
+    },
+    {
+      "char": "q",
+      "block": "biomesoplenty:dead_button[facing=south,face=floor]"
+    },
+    {
+      "char": "r",
+      "block": "pfm:quartz_classic_stool[facing=north]"
+    },
+    {
+      "char": "s",
+      "block": "cfm:stripped_oak_table[waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "u",
+      "block": "pfm:quartz_classic_stool[facing=south]"
+    },
+    {
+      "char": "w",
+      "block": "pfm:basic_plate[facing=south]"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "multi_laboratory1_6_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "create:polished_cut_scoria"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:tinted_glass"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stone_button[facing=south,face=wall]"
+    },
+    {
+      "char": "e",
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "f",
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "g",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "h",
+      "block": "buildersdelight:dark_oak_glass_pane_8[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "j",
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "k",
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+    }
+  ]
+}

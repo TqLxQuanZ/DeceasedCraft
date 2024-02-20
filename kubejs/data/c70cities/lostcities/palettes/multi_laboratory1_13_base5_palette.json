@@ -1,0 +1,117 @@
+{
+  "name": "multi_laboratory1_13_base5_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "buildersdelight:laboratory_2"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "d",
+      "block": "quark:smooth_stone_vertical_slab[type=north,waterlogged=false]"
+    },
+    {
+      "char": "e",
+      "block": "create:layered_calcite"
+    },
+    {
+      "char": "f",
+      "block": "quark:polished_deepslate_vertical_slab[type=north,waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "create:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "embellishcraft:basalt_large_bricks"
+    },
+    {
+      "char": "i",
+      "block": "simplylight:illuminant_red_block_on"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:smooth_basalt"
+    },
+    {
+      "char": "k",
+      "block": "create:mechanical_drill[waterlogged=false,facing=north]",
+      "tag": {
+        "id": "create:drill"
+      }
+    },
+    {
+      "char": "l",
+      "block": "create:gearbox[axis=x]",
+      "tag": {
+        "id": "create:gearbox"
+      }
+    },
+    {
+      "char": "m",
+      "block": "create:shaft[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "n",
+      "block": "create:cogwheel[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "o",
+      "block": "createdeco:cast_iron_hull[facing=south]"
+    },
+    {
+      "char": "p",
+      "block": "apocalypsenow:metal_bars[facing=up]"
+    },
+    {
+      "char": "q",
+      "block": "biomesoplenty:flesh_tendons"
+    },
+    {
+      "char": "r",
+      "block": "biomesoplenty:flesh_tendons_strand"
+    },
+    {
+      "char": "s",
+      "block": "biomesoplenty:stripped_dead_log[axis=x]"
+    },
+    {
+      "char": "t",
+      "block": "create:polished_cut_calcite"
+    },
+    {
+      "char": "u",
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "w",
+      "block": "biomesoplenty:porous_flesh"
+    },
+    {
+      "char": "x",
+      "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+    },
+    {
+      "char": "y",
+      "block": "simplylight:illuminant_block_on"
+    },
+    {
+      "char": "A",
+      "block": "simplylight:illuminant_block"
+    }
+  ]
+}

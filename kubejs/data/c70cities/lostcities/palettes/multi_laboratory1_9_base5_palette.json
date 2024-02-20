@@ -1,0 +1,119 @@
+{
+  "name": "multi_laboratory1_9_base5_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "b",
+      "block": "biomesoplenty:bramble[up=true,down=true]"
+    },
+    {
+      "char": "c",
+      "block": "biomesoplenty:bramble[up=false,down=false]"
+    },
+    {
+      "char": "d",
+      "block": "create:shaft[waterlogged=false,axis=y]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "e",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=east]"
+    },
+    {
+      "char": "f",
+      "block": "biomesoplenty:flesh"
+    },
+    {
+      "char": "g",
+      "block": "buildersdelight:laboratory_2"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "i",
+      "block": "biomesoplenty:flesh_tendons"
+    },
+    {
+      "char": "j",
+      "block": "biomesoplenty:bramble[up=false,down=true]"
+    },
+    {
+      "char": "k",
+      "block": "biomesoplenty:bramble[up=true,down=false]"
+    },
+    {
+      "char": "l",
+      "block": "create:piston_extension_pole[waterlogged=false,facing=up]"
+    },
+    {
+      "char": "m",
+      "block": "biomesoplenty:porous_flesh"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:chiseled_quartz_block"
+    },
+    {
+      "char": "o",
+      "block": "biomesoplenty:flesh_tendons_strand"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "char": "q",
+      "block": "create:mechanical_arm",
+      "tag": {
+        "id": "create:mechanical_arm"
+      }
+    },
+    {
+      "char": "r",
+      "block": "biomesoplenty:cherry_button[facing=south,face=ceiling]"
+    },
+    {
+      "char": "s",
+      "block": "embellishcraft:smooth_basalt"
+    },
+    {
+      "char": "t",
+      "block": "buildersdelight:industrial_1[facing=north]"
+    },
+    {
+      "char": "u",
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "w",
+      "block": "create:encased_chain_drive[axis_along_first=false,part=middle,axis=y]"
+    },
+    {
+      "char": "x",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "y",
+      "block": "create:encased_chain_drive[axis_along_first=true,part=start,axis=y]"
+    },
+    {
+      "char": "A",
+      "block": "create:encased_chain_drive[axis_along_first=true,part=middle,axis=y]"
+    },
+    {
+      "char": "B",
+      "block": "create:encased_chain_drive[axis_along_first=true,part=end,axis=y]"
+    },
+    {
+      "char": "C",
+      "block": "create:encased_chain_drive[axis_along_first=false,part=end,axis=y]"
+    }
+  ]
+}

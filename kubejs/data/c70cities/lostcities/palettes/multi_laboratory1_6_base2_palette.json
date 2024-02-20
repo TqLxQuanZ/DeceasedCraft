@@ -1,0 +1,128 @@
+{
+  "name": "multi_laboratory1_6_base2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:polished_basalt"
+    },
+    {
+      "char": "b",
+      "block": "create:horizontal_framed_glass"
+    },
+    {
+      "char": "c",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "d",
+      "block": "create:shaft[waterlogged=false,axis=y]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "e",
+      "block": "minecraft:stone_button[facing=south,face=wall]"
+    },
+    {
+      "char": "f",
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "g",
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "h",
+      "block": "buildersdelight:dark_oak_chair_2"
+    },
+    {
+      "char": "i",
+      "block": "pfm:dark_concrete_kitchen_counter[facing=south]"
+    },
+    {
+      "char": "j",
+      "block": "pfm:dark_wood_kitchen_counter[facing=south]"
+    },
+    {
+      "char": "k",
+      "block": "pfm:dark_concrete_kitchen_counter[facing=east]"
+    },
+    {
+      "char": "l",
+      "block": "pfm:stripped_dead_biomesoplenty_chair[facing=south]"
+    },
+    {
+      "char": "m",
+      "block": "pfm:dark_concrete_kitchen_counter[facing=west]"
+    },
+    {
+      "char": "n",
+      "block": "pfm:quartz_table_classic"
+    },
+    {
+      "char": "o",
+      "block": "another_furniture:light_gray_stool[waterlogged=false]"
+    },
+    {
+      "char": "p",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "q",
+      "block": "another_furniture:gray_stool[waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "s",
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "t",
+      "block": "zombie_extreme:empty_cans[facing=south]"
+    },
+    {
+      "char": "u",
+      "block": "zombie_extreme:computer_monitor[facing=south]"
+    },
+    {
+      "char": "w",
+      "block": "buildersdelight:lantern_2[waterlogged=false,facing=south,face=floor]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:stone_button[facing=north,face=floor]"
+    },
+    {
+      "char": "y",
+      "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
+    },
+    {
+      "char": "A",
+      "block": "quark:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:heavy_weighted_pressure_plate"
+    },
+    {
+      "char": "C",
+      "block": "buildersdelight:chain_5[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "D",
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "E",
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "F",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    }
+  ]
+}

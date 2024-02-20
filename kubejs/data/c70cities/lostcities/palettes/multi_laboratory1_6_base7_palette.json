@@ -1,0 +1,151 @@
+{
+  "name": "multi_laboratory1_6_base7_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:deepslate[axis=y]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:deepslate[axis=x]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:deepslate[axis=z]"
+    },
+    {
+      "char": "d",
+      "block": "create:polished_cut_scoria"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:magma_block"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:chiseled_polished_blackstone"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:bedrock"
+    },
+    {
+      "char": "h",
+      "block": "biomesoplenty:blood[level=3]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:cobbled_deepslate_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "j",
+      "block": "biomesoplenty:blood[level=2]"
+    },
+    {
+      "char": "k",
+      "block": "biomesoplenty:blood[level=1]"
+    },
+    {
+      "char": "l",
+      "block": "biomesoplenty:blood[level=0]"
+    },
+    {
+      "char": "m",
+      "block": "quark:blaze_lantern"
+    },
+    {
+      "char": "n",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:cracked_deepslate_bricks"
+    },
+    {
+      "char": "p",
+      "block": "embellishcraft:granite_button[facing=north,face=floor]"
+    },
+    {
+      "char": "q",
+      "block": "embellishcraft:basalt_button[facing=east,face=floor]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:polished_blackstone_button[facing=south,face=floor]"
+    },
+    {
+      "char": "s",
+      "block": "embellishcraft:basalt_button[facing=south,face=floor]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:stone_button[facing=west,face=floor]"
+    },
+    {
+      "char": "u",
+      "block": "buildersdelight:laboratory_3[axis=y]"
+    },
+    {
+      "char": "w",
+      "block": "buildersdelight:laboratory_3[axis=x]"
+    },
+    {
+      "char": "x",
+      "block": "embellishcraft:granite_button[facing=west,face=floor]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:dripstone_block"
+    },
+    {
+      "char": "A",
+      "block": "create:mechanical_saw[axis_along_first=false,facing=east]"
+    },
+    {
+      "char": "B",
+      "block": "buildersdelight:laboratory_3[axis=z]"
+    },
+    {
+      "char": "C",
+      "block": "embellishcraft:basalt_button[facing=north,face=floor]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:pointed_dripstone[waterlogged=false]"
+    },
+    {
+      "char": "E",
+      "block": "embellishcraft:basalt_button[facing=west,face=floor]"
+    },
+    {
+      "char": "F",
+      "block": "create:shaft[waterlogged=false,axis=x]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "I",
+      "block": "create:gearbox[axis=z]",
+      "tag": {
+        "id": "create:gearbox"
+      }
+    },
+    {
+      "char": "J",
+      "block": "minecraft:cobbled_deepslate_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "K",
+      "block": "createdeco:cast_iron_mesh_fence[waterlogged=false]"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:stone_button[facing=south,face=floor]"
+    },
+    {
+      "char": "M",
+      "block": "create:piston_extension_pole[waterlogged=false,facing=down]"
+    }
+  ]
+}

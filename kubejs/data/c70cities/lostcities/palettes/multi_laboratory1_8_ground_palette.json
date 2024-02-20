@@ -1,0 +1,310 @@
+{
+  "name": "multi_laboratory1_8_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:gray_corrugated_metal_plate_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
+    },
+    {
+      "char": "d",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
+    },
+    {
+      "char": "e",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+    },
+    {
+      "char": "f",
+      "block": "embellishcraft:gray_corrugated_metal_plate"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:gray_wool"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:light_gray_wool"
+    },
+    {
+      "char": "i",
+      "block": "another_furniture:dark_oak_drawer[open=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "j",
+      "block": "quark:polished_calcite_vertical_slab[type=east,waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "quark:polished_calcite_vertical_slab[type=west,waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "buildersdelight:dark_oak_chair_1[facing=north]"
+    },
+    {
+      "char": "m",
+      "block": "pfm:dark_oak_table_classic"
+    },
+    {
+      "char": "n",
+      "block": "pfm:light_gray_simple_sofa[facing=east,shape=straight]"
+    },
+    {
+      "char": "o",
+      "block": "create:cut_limestone_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "p",
+      "block": "buildersdelight:dark_oak_chair_1[facing=south]"
+    },
+    {
+      "char": "q",
+      "block": "quark:polished_calcite"
+    },
+    {
+      "char": "r",
+      "block": "embellishcraft:dark_oak_fancy_door[half=lower,open=false,hinge=right,facing=north]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:stone_button[facing=east,face=wall]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:stone_button[facing=west,face=wall]"
+    },
+    {
+      "char": "u",
+      "block": "embellishcraft:dark_oak_fancy_door[half=lower,open=false,hinge=left,facing=north]"
+    },
+    {
+      "char": "w",
+      "block": "quark:potato_crate"
+    },
+    {
+      "char": "x",
+      "block": "apocalypsenow:construction_barricade[facing=south]"
+    },
+    {
+      "char": "y",
+      "block": "embellishcraft:gray_corrugated_metal_plate_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "A",
+      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "B",
+      "block": "apocalypsenow:construction_barricade[facing=west]"
+    },
+    {
+      "char": "C",
+      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "D",
+      "block": "embellishcraft:dark_oak_fancy_door[half=lower,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "E",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "F",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
+    },
+    {
+      "char": "I",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "J",
+      "block": "embellishcraft:dark_oak_fancy_door[half=lower,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "K",
+      "block": "pfm:concrete_kitchen_counter[facing=west]"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:gray_carpet"
+    },
+    {
+      "char": "M",
+      "block": "another_furniture:light_gray_stool[waterlogged=false]"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:light_gray_carpet"
+    },
+    {
+      "char": "O",
+      "block": "pfm:concrete_kitchen_counter[facing=east]"
+    },
+    {
+      "char": "P",
+      "block": "pfm:light_gray_arm_chair[facing=east,shape=straight]"
+    },
+    {
+      "char": "Q",
+      "block": "pfm:brown_arm_chair[facing=west,shape=straight]"
+    },
+    {
+      "char": "R",
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "S",
+      "block": "another_furniture:brown_stool[waterlogged=false]"
+    },
+    {
+      "char": "T",
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=east]"
+    },
+    {
+      "char": "U",
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "V",
+      "block": "another_furniture:white_stool[waterlogged=false]"
+    },
+    {
+      "char": "W",
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=east]"
+    },
+    {
+      "char": "X",
+      "block": "another_furniture:gray_stool[waterlogged=false]"
+    },
+    {
+      "char": "Y",
+      "block": "another_furniture:dark_oak_shelf[type=left,waterlogged=false,facing=west]"
+    },
+    {
+      "char": "Z",
+      "block": "another_furniture:dark_oak_shelf[type=right,waterlogged=false,facing=west]"
+    },
+    {
+      "char": "0",
+      "block": "minecraft:flower_pot"
+    },
+    {
+      "char": "1",
+      "block": "quark:dark_oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "2",
+      "block": "embellishcraft:dark_oak_fancy_door[half=upper,open=false,hinge=right,facing=north]"
+    },
+    {
+      "char": "3",
+      "block": "embellishcraft:dark_oak_fancy_door[half=upper,open=false,hinge=left,facing=north]"
+    },
+    {
+      "char": "4",
+      "block": "embellishcraft:dark_oak_fancy_door[half=upper,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "5",
+      "block": "embellishcraft:dark_oak_fancy_door[half=upper,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "6",
+      "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
+    },
+    {
+      "char": "7",
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "8",
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=east]"
+    },
+    {
+      "char": "9",
+      "block": "quark:iron_button[facing=south,face=floor]"
+    },
+    {
+      "char": "@",
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "#",
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=east]"
+    },
+    {
+      "char": "$",
+      "block": "biomesoplenty:dead_pressure_plate"
+    },
+    {
+      "char": "%",
+      "block": "apocalypsenow:brokenoldradio[facing=west]"
+    },
+    {
+      "char": "^",
+      "block": "buildersdelight:lantern_6[waterlogged=false,facing=west,face=wall]"
+    },
+    {
+      "char": "&",
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+    },
+    {
+      "char": "*",
+      "block": "another_furniture:dark_oak_shelf[type=right,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "(",
+      "block": "another_furniture:dark_oak_shelf[type=left,waterlogged=false,facing=east]"
+    },
+    {
+      "char": ")",
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+    },
+    {
+      "char": "+",
+      "block": "zombie_extreme:birdsnest[facing=west]"
+    },
+    {
+      "char": "-",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "[",
+      "block": "zombie_extreme:tube_tv[facing=east]"
+    },
+    {
+      "char": "]",
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "{",
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "}",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "\\",
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+    },
+    {
+      "char": "|",
+      "block": "quark:polished_calcite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "`",
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    }
+  ]
+}

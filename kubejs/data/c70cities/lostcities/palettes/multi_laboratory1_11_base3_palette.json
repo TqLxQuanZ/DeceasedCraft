@@ -1,0 +1,299 @@
+{
+  "name": "multi_laboratory1_11_base3_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:polished_basalt"
+    },
+    {
+      "char": "b",
+      "block": "buildersdelight:laboratory_2"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "d",
+      "block": "create:layered_calcite"
+    },
+    {
+      "char": "e",
+      "block": "create:horizontal_framed_glass"
+    },
+    {
+      "char": "f",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "g",
+      "block": "create:polished_cut_calcite"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:stripped_dark_oak_log[axis=y]"
+    },
+    {
+      "char": "i",
+      "block": "quark:dark_oak_bookshelf"
+    },
+    {
+      "char": "j",
+      "block": "another_furniture:dark_oak_shelf[type=right,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:dark_oak_button[facing=west,face=floor]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:dark_oak_button[facing=north,face=floor]"
+    },
+    {
+      "char": "m",
+      "block": "another_furniture:dark_oak_shelf[type=left,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:dark_oak_pressure_plate"
+    },
+    {
+      "char": "o",
+      "block": "biomesoplenty:hellbark_door[half=lower,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "p",
+      "block": "cfm:stripped_dark_oak_kitchen_counter[type=default,facing=south]"
+    },
+    {
+      "char": "q",
+      "block": "cfm:stripped_dark_oak_kitchen_drawer[open=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "r",
+      "block": "buildersdelight:dark_oak_chair_2"
+    },
+    {
+      "char": "s",
+      "block": "immersiveengineering:wooden_barrel"
+    },
+    {
+      "char": "t",
+      "block": "create:basin[facing=down]"
+    },
+    {
+      "char": "u",
+      "block": "create:fluid_pipe[waterlogged=false,up=true,down=true]"
+    },
+    {
+      "char": "w",
+      "block": "embellishcraft:basalt_button[facing=west,face=floor]"
+    },
+    {
+      "char": "x",
+      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "y",
+      "block": "embellishcraft:basalt_button[facing=south,face=floor]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "B",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "C",
+      "block": "embellishcraft:basalt_button[facing=north,face=floor]"
+    },
+    {
+      "char": "D",
+      "block": "immersiveengineering:redstone_acid_fluid_block[level=8]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:deepslate_bricks"
+    },
+    {
+      "char": "F",
+      "block": "immersiveengineering:fluid_pipe[waterlogged=false]"
+    },
+    {
+      "char": "I",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "J",
+      "block": "another_furniture:light_gray_stool[waterlogged=false]"
+    },
+    {
+      "char": "K",
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "char": "L",
+      "block": "apocalypsenow:iron_locker[facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:repeating_command_block[facing=south,conditional=false]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "execute if block ~ ~ ~-1 immersiveengineering:fermenter run fill ~ ~1 ~ ~ ~ ~ air"
+      }
+    },
+    {
+      "char": "N",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+    },
+    {
+      "char": "P",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "Q",
+      "block": "create:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:potted_dark_oak_sapling"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    },
+    {
+      "char": "T",
+      "block": "biomesoplenty:hellbark_door[half=upper,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "U",
+      "block": "minecraft:flower_pot"
+    },
+    {
+      "char": "V",
+      "block": "zombie_extreme:radio_installation[facing=north]"
+    },
+    {
+      "char": "W",
+      "block": "quark:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "X",
+      "block": "create:fluid_pipe[waterlogged=false,up=false,down=false]"
+    },
+    {
+      "char": "Y",
+      "block": "minecraft:cauldron"
+    },
+    {
+      "char": "Z",
+      "block": "immersiveengineering:rs_engineering"
+    },
+    {
+      "char": "0",
+      "block": "clickmachine:auto_clicker[facing=north]",
+      "tag": {
+        "speed_index": 8,
+        "right_click": 1,
+        "inv": {
+          "Size": 1,
+          "Items": [
+            {
+              "Slot": 0,
+              "id": "immersiveengineering:hammer",
+              "Count": 1
+            }
+          ]
+        },
+        "id": "clickmachine:tile"
+      }
+    },
+    {
+      "char": "1",
+      "block": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "2",
+      "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    },
+    {
+      "char": "3",
+      "block": "another_furniture:dark_oak_shelf[type=left,waterlogged=false,facing=west]"
+    },
+    {
+      "char": "4",
+      "block": "another_furniture:dark_oak_shelf[type=right,waterlogged=false,facing=west]"
+    },
+    {
+      "char": "5",
+      "block": "create:mechanical_mixer"
+    },
+    {
+      "char": "6",
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "char": "7",
+      "block": "apocalypsenow:brokenpremiunradio[facing=west]"
+    },
+    {
+      "char": "8",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=north,face=ceiling]"
+    },
+    {
+      "char": "9",
+      "block": "create:fluid_pipe[waterlogged=false,up=false,down=true]"
+    },
+    {
+      "char": "@",
+      "block": "immersiveengineering:redstone_acid_fluid_block[level=0]"
+    },
+    {
+      "char": "#",
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "$",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "%",
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "^",
+      "block": "simplylight:illuminant_block"
+    },
+    {
+      "char": "&",
+      "block": "simplylight:illuminant_block_on"
+    },
+    {
+      "char": "*",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "(",
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": ")",
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "+",
+      "block": "simplylight:illuminant_brown_block_on"
+    }
+  ]
+}

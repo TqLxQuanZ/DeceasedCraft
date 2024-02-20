@@ -1,0 +1,212 @@
+{
+  "name": "multi_laboratory1_11_base1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:polished_basalt"
+    },
+    {
+      "char": "b",
+      "block": "buildersdelight:laboratory_2"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "d",
+      "block": "create:layered_calcite"
+    },
+    {
+      "char": "e",
+      "block": "create:horizontal_framed_glass"
+    },
+    {
+      "char": "f",
+      "block": "simplylight:illuminant_red_block_on"
+    },
+    {
+      "char": "g",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:spruce_log[axis=y]"
+    },
+    {
+      "char": "i",
+      "block": "quark:spruce_bookshelf"
+    },
+    {
+      "char": "j",
+      "block": "pfm:spruce_kitchen_drawer[open=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "k",
+      "block": "pfm:spruce_kitchen_counter[facing=north]"
+    },
+    {
+      "char": "l",
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "m",
+      "block": "pfm:spruce_kitchen_drawer[open=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "n",
+      "block": "pfm:spruce_kitchen_counter[facing=east]"
+    },
+    {
+      "char": "o",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "p",
+      "block": "buildersdelight:oak_chair_2"
+    },
+    {
+      "char": "q",
+      "block": "create:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "buildersdelight:dark_oak_chair_1[facing=north]"
+    },
+    {
+      "char": "s",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "t",
+      "block": "another_furniture:gray_stool[waterlogged=false]"
+    },
+    {
+      "char": "u",
+      "block": "pfm:spruce_kitchen_drawer[open=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "w",
+      "block": "pfm:spruce_kitchen_counter[facing=south]"
+    },
+    {
+      "char": "x",
+      "block": "buildersdelight:dark_oak_chair_1[facing=south]"
+    },
+    {
+      "char": "y",
+      "block": "create:polished_cut_calcite"
+    },
+    {
+      "char": "A",
+      "block": "pfm:stripped_oak_kitchen_drawer[open=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "B",
+      "block": "pfm:stripped_oak_kitchen_drawer[open=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "C",
+      "block": "pfm:light_wood_modern_stool[facing=east]"
+    },
+    {
+      "char": "D",
+      "block": "pfm:light_wood_modern_stool[facing=north]"
+    },
+    {
+      "char": "E",
+      "block": "another_furniture:spruce_shelf[type=left,waterlogged=false,facing=south]"
+    },
+    {
+      "char": "F",
+      "block": "another_furniture:spruce_shelf[type=right,waterlogged=false,facing=south]"
+    },
+    {
+      "char": "I",
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "J",
+      "block": "another_furniture:spruce_shelf[type=left,waterlogged=false,facing=west]"
+    },
+    {
+      "char": "K",
+      "block": "another_furniture:spruce_shelf[type=right,waterlogged=false,facing=west]"
+    },
+    {
+      "char": "L",
+      "block": "quark:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "M",
+      "block": "pfm:light_switch[facing=north]"
+    },
+    {
+      "char": "N",
+      "block": "another_furniture:white_lamp[waterlogged=false,facing=up,lit=false,level=3]"
+    },
+    {
+      "char": "O",
+      "block": "pfm:light_switch[facing=south]"
+    },
+    {
+      "char": "P",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:spruce_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:potted_spruce_sapling"
+    },
+    {
+      "char": "S",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "T",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "U",
+      "block": "minecraft:oak_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "V",
+      "block": "create:polished_cut_calcite_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "W",
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "X",
+      "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    },
+    {
+      "char": "Y",
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "Z",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "0",
+      "block": "create:polished_cut_scoria"
+    },
+    {
+      "char": "1",
+      "block": "simplylight:illuminant_block_on"
+    }
+  ]
+}

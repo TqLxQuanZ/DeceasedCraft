@@ -1,0 +1,239 @@
+{
+  "name": "multi_laboratory1_12_base4_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:horizontal_framed_glass"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:polished_basalt"
+    },
+    {
+      "char": "c",
+      "block": "buildersdelight:laboratory_2"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "e",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "f",
+      "block": "create:layered_calcite"
+    },
+    {
+      "char": "g",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "h",
+      "block": "create:framed_glass_door[half=lower,open=true,hinge=right,facing=west]"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:basalt_button[facing=north,face=floor]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:basalt_button[facing=east,face=floor]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "l",
+      "block": "immersiveengineering:acetaldehyde_fluid_block[level=8]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:deepslate_bricks"
+    },
+    {
+      "char": "n",
+      "block": "create:framed_glass_door[half=lower,open=true,hinge=left,facing=west]"
+    },
+    {
+      "char": "o",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+    },
+    {
+      "char": "p",
+      "block": "embellishcraft:basalt_button[facing=south,face=floor]"
+    },
+    {
+      "char": "q",
+      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "create:polished_cut_calcite"
+    },
+    {
+      "char": "s",
+      "block": "pfm:stripped_dead_biomesoplenty_chair[facing=north]"
+    },
+    {
+      "char": "t",
+      "block": "another_furniture:brown_stool[waterlogged=false]"
+    },
+    {
+      "char": "u",
+      "block": "embellishcraft:basalt_button[facing=west,face=floor]"
+    },
+    {
+      "char": "w",
+      "block": "embellishcraft:smooth_basalt_pressure_plate"
+    },
+    {
+      "char": "x",
+      "block": "pfm:quartz_classic_nightstand[open=false,facing=north]"
+    },
+    {
+      "char": "y",
+      "block": "pfm:quartz_table_modern_dinner[axis=x]"
+    },
+    {
+      "char": "A",
+      "block": "pfm:quartz_classic_nightstand[open=false,facing=south]"
+    },
+    {
+      "char": "B",
+      "block": "pfm:stripped_dead_biomesoplenty_chair[facing=west]"
+    },
+    {
+      "char": "C",
+      "block": "zombie_extreme:tool_box[facing=east]"
+    },
+    {
+      "char": "D",
+      "block": "zombie_extreme:empty_cans[facing=east]"
+    },
+    {
+      "char": "E",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "F",
+      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "I",
+      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "J",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "K",
+      "block": "create:fluid_pipe[waterlogged=false,up=true,down=true]"
+    },
+    {
+      "char": "L",
+      "block": "zombie_extreme:shelf[facing=south]"
+    },
+    {
+      "char": "M",
+      "block": "pfm:trashcan[open=false]"
+    },
+    {
+      "char": "N",
+      "block": "pfm:dark_concrete_kitchen_counter[facing=east]"
+    },
+    {
+      "char": "O",
+      "block": "create:framed_glass_door[half=upper,open=true,hinge=right,facing=west]"
+    },
+    {
+      "char": "P",
+      "block": "create:framed_glass_door[half=upper,open=true,hinge=left,facing=west]"
+    },
+    {
+      "char": "Q",
+      "block": "quark:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "R",
+      "block": "create:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:brewing_stand"
+    },
+    {
+      "char": "T",
+      "block": "zombie_extreme:computer_monitor[facing=north]"
+    },
+    {
+      "char": "U",
+      "block": "zombie_extreme:computer_monitor[facing=south]"
+    },
+    {
+      "char": "V",
+      "block": "create:fluid_pipe[waterlogged=false,up=false,down=false]"
+    },
+    {
+      "char": "W",
+      "block": "zombie_extreme:computer_monitor[facing=west]"
+    },
+    {
+      "char": "X",
+      "block": "immersiveengineering:acetaldehyde_fluid_block[level=0]"
+    },
+    {
+      "char": "Y",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=west,face=ceiling]"
+    },
+    {
+      "char": "Z",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=south,face=ceiling]"
+    },
+    {
+      "char": "0",
+      "block": "create:fluid_pipe[waterlogged=false,up=false,down=true]"
+    },
+    {
+      "char": "1",
+      "block": "embellishcraft:vent_air_duct[facing=down]"
+    },
+    {
+      "char": "2",
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "3",
+      "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    },
+    {
+      "char": "4",
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "5",
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "6",
+      "block": "simplylight:illuminant_block"
+    },
+    {
+      "char": "7",
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "8",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "9",
+      "block": "embellishcraft:air_duct"
+    }
+  ]
+}

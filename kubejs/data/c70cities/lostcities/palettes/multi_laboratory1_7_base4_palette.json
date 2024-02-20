@@ -1,0 +1,96 @@
+{
+  "name": "multi_laboratory1_7_base4_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:shaft[waterlogged=false,axis=y]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "b",
+      "block": "create:horizontal_framed_glass"
+    },
+    {
+      "char": "c",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "d",
+      "block": "embellishcraft:polished_basalt"
+    },
+    {
+      "char": "e",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "f",
+      "block": "buildersdelight:dark_oak_chair_2"
+    },
+    {
+      "char": "g",
+      "block": "pfm:quartz_table_classic"
+    },
+    {
+      "char": "h",
+      "block": "another_furniture:gray_stool[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "pfm:dark_concrete_kitchen_counter[facing=north]"
+    },
+    {
+      "char": "j",
+      "block": "another_furniture:white_stool[waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "pfm:stripped_hellbark_biomesoplenty_chair[facing=south]"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
+    },
+    {
+      "char": "m",
+      "block": "quark:spruce_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "n",
+      "block": "quark:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "buildersdelight:lantern_2[waterlogged=false,facing=north,face=floor]"
+    },
+    {
+      "char": "p",
+      "block": "apocalypsenow:broken_plasma_tv[facing=south]"
+    },
+    {
+      "char": "q",
+      "block": "embellishcraft:basalt_button[facing=west,face=floor]"
+    },
+    {
+      "char": "r",
+      "block": "zombie_extreme:radio_installation[facing=south]"
+    },
+    {
+      "char": "s",
+      "block": "rocks:starfish[waterlogged=false,variation=red]"
+    },
+    {
+      "char": "t",
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "u",
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "w",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    }
+  ]
+}

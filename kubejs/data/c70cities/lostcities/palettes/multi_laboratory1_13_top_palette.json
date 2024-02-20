@@ -1,0 +1,57 @@
+{
+  "name": "multi_laboratory1_13_top_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:cut_limestone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "create:polished_cut_scoria"
+    },
+    {
+      "char": "c",
+      "block": "create:cut_limestone"
+    },
+    {
+      "char": "d",
+      "block": "embellishcraft:polished_paving"
+    },
+    {
+      "char": "e",
+      "block": "create:polished_cut_scoria_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+    },
+    {
+      "char": "f",
+      "block": "create:polished_cut_scoria_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "buildersdelight:dark_oak_glass_pane_8[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "i",
+      "block": "create:cut_limestone_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "j",
+      "block": "cfm:oak_park_bench[type=left,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "k",
+      "block": "cfm:oak_park_bench[type=middle,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "l",
+      "block": "cfm:oak_park_bench[type=right,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "m",
+      "block": "quark:oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
+    }
+  ]
+}

@@ -51,7 +51,7 @@
         "mod": "undead_revamp2",
         "dimension": "minecraft:overworld",
         "mincount": {
-          "amount": 20,
+          "amount": 40,
           "mod": "undead_revamp2",
           "perchunk": true
         },
@@ -88,13 +88,6 @@
         "amount": 2,
         "perchunk": true
       },
-      "result": "deny"
-    },
-    {
-      "mod": "undead_revamp2",
-      "dimension": "minecraft:overworld",
-      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
-      "onjoin": true,
       "result": "deny"
     },
     {
@@ -384,6 +377,220 @@
           }
         ]
       }
+    },
+    {
+        "mob": ["undead_revamp2:thebidy",
+                "undead_revamp2:thespitter",
+                "undead_revamp2:thepregnant",
+                "zombie_extreme:clicker",
+                "zombie_extreme:devastated"],
+        "building": [
+            "c70cities:multi_laboratory1_0",
+            "c70cities:multi_laboratory1_1",
+            "c70cities:multi_laboratory1_2",
+            "c70cities:multi_laboratory1_3",
+            "c70cities:multi_laboratory1_4",
+            "c70cities:multi_laboratory1_5",
+            "c70cities:multi_laboratory1_6",
+            "c70cities:multi_laboratory1_7",
+            "c70cities:multi_laboratory1_8",
+            "c70cities:multi_laboratory1_9",
+            "c70cities:multi_laboratory1_10",
+            "c70cities:multi_laboratory1_11",
+            "c70cities:multi_laboratory1_12",
+            "c70cities:multi_laboratory1_13",
+            "c70cities:multi_laboratory1_14"],
+        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+        "minlight": 0,
+        "maxlight": 3,
+        "seesky": false,
+        "result": "allow",
+        "healthadd": 30.0,
+        "damageadd": 10.0,
+        "nbt": {
+          "Attributes": [
+            {
+              "Base": 6.0,
+              "Name": "generic.armor"
+            }
+          ]
+        }
+    },
+    {
+        "mob": ["undead_revamp2:theheavy"],
+        "building": [
+            "c70cities:multi_laboratory1_0",
+            "c70cities:multi_laboratory1_1",
+            "c70cities:multi_laboratory1_2",
+            "c70cities:multi_laboratory1_3",
+            "c70cities:multi_laboratory1_4",
+            "c70cities:multi_laboratory1_5",
+            "c70cities:multi_laboratory1_6",
+            "c70cities:multi_laboratory1_7",
+            "c70cities:multi_laboratory1_8",
+            "c70cities:multi_laboratory1_9",
+            "c70cities:multi_laboratory1_10",
+            "c70cities:multi_laboratory1_11",
+            "c70cities:multi_laboratory1_12",
+            "c70cities:multi_laboratory1_13",
+            "c70cities:multi_laboratory1_14"],
+        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+        "minlight": 0,
+        "maxlight": 3,
+        "seesky": false,
+        "result": "allow",
+        "healthadd": 100.0,
+        "damageadd": 35.0,
+        "nbt": {
+          "Attributes": [
+            {
+              "Base": 30.0,
+              "Name": "generic.armor"
+            }
+          ]
+        }
+    },
+    {
+        "mob": ["undead_revamp2:clogger"],
+        "building": [
+            "c70cities:multi_laboratory1_0",
+            "c70cities:multi_laboratory1_1",
+            "c70cities:multi_laboratory1_2",
+            "c70cities:multi_laboratory1_3",
+            "c70cities:multi_laboratory1_4",
+            "c70cities:multi_laboratory1_5",
+            "c70cities:multi_laboratory1_6",
+            "c70cities:multi_laboratory1_7",
+            "c70cities:multi_laboratory1_8",
+            "c70cities:multi_laboratory1_9",
+            "c70cities:multi_laboratory1_10",
+            "c70cities:multi_laboratory1_11",
+            "c70cities:multi_laboratory1_12",
+            "c70cities:multi_laboratory1_13",
+            "c70cities:multi_laboratory1_14"],
+        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+        "minlight": 0,
+        "maxlight": 3,
+        "seesky": false,
+        "result": "allow",
+        "healthadd": 200.0,
+        "damageadd": 20.0,
+        "nbt": {
+          "Attributes": [
+            {
+              "Base": 40.0,
+              "Name": "generic.armor"
+            }
+          ]
+        }
+    },
+    {
+        "mob": ["undead_revamp2:thespectre"],
+        "building": [
+            "c70cities:multi_laboratory1_0",
+            "c70cities:multi_laboratory1_1",
+            "c70cities:multi_laboratory1_2",
+            "c70cities:multi_laboratory1_3",
+            "c70cities:multi_laboratory1_4",
+            "c70cities:multi_laboratory1_5",
+            "c70cities:multi_laboratory1_6",
+            "c70cities:multi_laboratory1_7",
+            "c70cities:multi_laboratory1_8",
+            "c70cities:multi_laboratory1_9",
+            "c70cities:multi_laboratory1_10",
+            "c70cities:multi_laboratory1_11",
+            "c70cities:multi_laboratory1_12",
+            "c70cities:multi_laboratory1_13",
+            "c70cities:multi_laboratory1_14"],
+        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+        "minlight": 0,
+        "maxlight": 3,
+        "seesky": false,
+        "result": "allow",
+        "healthadd": 50.0,
+        "damageadd": 25.0,
+        "nbt": {
+          "Attributes": [
+            {
+              "Base": 10.0,
+              "Name": "generic.armor"
+            }
+          ]
+        }
+    },
+    {
+        "mob": ["undead_revamp2:thegliter"],
+        "building": [
+            "c70cities:multi_laboratory1_0",
+            "c70cities:multi_laboratory1_1",
+            "c70cities:multi_laboratory1_2",
+            "c70cities:multi_laboratory1_3",
+            "c70cities:multi_laboratory1_4",
+            "c70cities:multi_laboratory1_5",
+            "c70cities:multi_laboratory1_6",
+            "c70cities:multi_laboratory1_7",
+            "c70cities:multi_laboratory1_8",
+            "c70cities:multi_laboratory1_9",
+            "c70cities:multi_laboratory1_10",
+            "c70cities:multi_laboratory1_11",
+            "c70cities:multi_laboratory1_12",
+            "c70cities:multi_laboratory1_13",
+            "c70cities:multi_laboratory1_14"],
+        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+        "minlight": 0,
+        "maxlight": 3,
+        "seesky": false,
+        "result": "allow",
+        "healthadd": 50.0,
+        "damageadd": 10.0,
+        "speedmultiply": 1.25,
+        "nbt": {
+          "Attributes": [
+            {
+              "Base": 16.0,
+              "Name": "generic.armor"
+            }
+          ]
+        }
+    },
+    {
+        "mob": ["zombie_extreme:infected_juggernaut",
+                "zombie_extreme:infected_hazmat",
+                "zombie_extreme:bomber",
+                "zombie_extreme:boomer",
+                "zombie_extreme:clicker",
+                "zombie_extreme:devastated"],
+        "building": [
+            "c70cities:multi_laboratory1_0",
+            "c70cities:multi_laboratory1_1",
+            "c70cities:multi_laboratory1_2",
+            "c70cities:multi_laboratory1_3",
+            "c70cities:multi_laboratory1_4",
+            "c70cities:multi_laboratory1_5",
+            "c70cities:multi_laboratory1_6",
+            "c70cities:multi_laboratory1_7",
+            "c70cities:multi_laboratory1_8",
+            "c70cities:multi_laboratory1_9",
+            "c70cities:multi_laboratory1_10",
+            "c70cities:multi_laboratory1_11",
+            "c70cities:multi_laboratory1_12",
+            "c70cities:multi_laboratory1_13",
+            "c70cities:multi_laboratory1_14"],
+        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+        "minlight": 0,
+        "maxlight": 3,
+        "seesky": false,
+        "result": "allow",
+        "healthadd": 40.0,
+        "damageadd": 15.0,
+        "nbt": {
+          "Attributes": [
+            {
+              "Base": 20.0,
+              "Name": "generic.armor"
+            }
+          ]
+        }
     },
     {
         "mob": ["zombie_extreme:crawler",
@@ -787,6 +994,72 @@
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "dimension": "minecraft:overworld",
+        "building": [
+          "c70cities:multi_laboratory1_0",
+          "c70cities:multi_laboratory1_1",
+          "c70cities:multi_laboratory1_2",
+          "c70cities:multi_laboratory1_3",
+          "c70cities:multi_laboratory1_4",
+          "c70cities:multi_laboratory1_5",
+          "c70cities:multi_laboratory1_6",
+          "c70cities:multi_laboratory1_7",
+          "c70cities:multi_laboratory1_8",
+          "c70cities:multi_laboratory1_9",
+          "c70cities:multi_laboratory1_10",
+          "c70cities:multi_laboratory1_11",
+          "c70cities:multi_laboratory1_12",
+          "c70cities:multi_laboratory1_13",
+          "c70cities:multi_laboratory1_14"],
+        "onjoin": true,
+        "result": "default",
+        "damageadd": 10.0,
+        "healthadd": 50.0,
+        "nbt": {
+          "Attributes": [
+            {
+              "Base": 20.0,
+              "Name": "generic.armor"
+            }
+          ]
+        }
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
+        "building": [
+          "c70cities:multi_laboratory1_0",
+          "c70cities:multi_laboratory1_1",
+          "c70cities:multi_laboratory1_2",
+          "c70cities:multi_laboratory1_3",
+          "c70cities:multi_laboratory1_4",
+          "c70cities:multi_laboratory1_5",
+          "c70cities:multi_laboratory1_6",
+          "c70cities:multi_laboratory1_7",
+          "c70cities:multi_laboratory1_8",
+          "c70cities:multi_laboratory1_9",
+          "c70cities:multi_laboratory1_10",
+          "c70cities:multi_laboratory1_11",
+          "c70cities:multi_laboratory1_12",
+          "c70cities:multi_laboratory1_13",
+          "c70cities:multi_laboratory1_14"],
+        "random": 0.10,
+        "onjoin": true,
+        "result": "default",
+        "nbt": {
+            "HandItems":[
+              {
+                "id":"air",
+                "Count":1
+              },
+              {
+                "id":"iron_pickaxe",
+                "Count":1
+              }]
+          }
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
         "incity": true,
         "onjoin": true,
         "minheight": 61,
@@ -810,6 +1083,27 @@
         "dimension": "minecraft:overworld",
         "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
         "minheight": 61,
+        "result": "deny"
+    },
+    {
+        "mod": "mutationcraft",
+        "building": [
+            "c70cities:multi_laboratory1_0",
+            "c70cities:multi_laboratory1_1",
+            "c70cities:multi_laboratory1_2",
+            "c70cities:multi_laboratory1_3",
+            "c70cities:multi_laboratory1_4",
+            "c70cities:multi_laboratory1_5",
+            "c70cities:multi_laboratory1_6",
+            "c70cities:multi_laboratory1_7",
+            "c70cities:multi_laboratory1_8",
+            "c70cities:multi_laboratory1_9",
+            "c70cities:multi_laboratory1_10",
+            "c70cities:multi_laboratory1_11",
+            "c70cities:multi_laboratory1_12",
+            "c70cities:multi_laboratory1_13",
+            "c70cities:multi_laboratory1_14"],
+        "onjoin": true,
         "result": "deny"
     },
     {

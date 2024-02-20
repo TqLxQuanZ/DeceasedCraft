@@ -1,0 +1,146 @@
+{
+  "name": "multi_laboratory1_9_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "create:polished_cut_scoria"
+    },
+    {
+      "char": "c",
+      "block": "biomesoplenty:dead_trapdoor[waterlogged=false,half=top,open=false,facing=south]"
+    },
+    {
+      "char": "d",
+      "block": "create:polished_cut_scoria_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+    },
+    {
+      "char": "e",
+      "block": "another_furniture:dark_oak_shelf[type=left,waterlogged=false,facing=south]"
+    },
+    {
+      "char": "f",
+      "block": "another_furniture:dark_oak_shelf[type=middle,waterlogged=false,facing=south]"
+    },
+    {
+      "char": "g",
+      "block": "another_furniture:dark_oak_shelf[type=right,waterlogged=false,facing=south]"
+    },
+    {
+      "char": "h",
+      "block": "create:polished_cut_scoria_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "another_furniture:dark_oak_shelf[type=right,waterlogged=false,facing=north]"
+    },
+    {
+      "char": "j",
+      "block": "another_furniture:dark_oak_shelf[type=middle,waterlogged=false,facing=north]"
+    },
+    {
+      "char": "k",
+      "block": "another_furniture:dark_oak_shelf[type=left,waterlogged=false,facing=north]"
+    },
+    {
+      "char": "l",
+      "block": "create:cut_limestone_brick_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "m",
+      "block": "create:cut_limestone_brick_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    },
+    {
+      "char": "n",
+      "block": "create:cut_limestone_bricks"
+    },
+    {
+      "char": "o",
+      "block": "create:polished_cut_limestone"
+    },
+    {
+      "char": "p",
+      "block": "create:cut_limestone"
+    },
+    {
+      "char": "q",
+      "block": "pfm:stripped_oak_simple_stool[facing=north]"
+    },
+    {
+      "char": "r",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "s",
+      "block": "create:cut_limestone_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "t",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
+    },
+    {
+      "char": "u",
+      "block": "pfm:light_wood_table_dinner[facing=west]"
+    },
+    {
+      "char": "w",
+      "block": "pfm:quartz_modern_stool[facing=north]"
+    },
+    {
+      "char": "x",
+      "block": "pfm:light_wood_kitchen_counter_oven[open=false,facing=south,lit=false]"
+    },
+    {
+      "char": "y",
+      "block": "pfm:light_wood_kitchen_counter[facing=north]"
+    },
+    {
+      "char": "A",
+      "block": "pfm:light_wood_kitchen_drawer[open=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "B",
+      "block": "buildersdelight:dark_oak_glass_pane_8[waterlogged=false]"
+    },
+    {
+      "char": "C",
+      "block": "embellishcraft:dark_oak_large_suspended_stairs[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "D",
+      "block": "embellishcraft:dark_oak_large_suspended_stairs[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "E",
+      "block": "quark:dark_oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "F",
+      "block": "pfm:basic_plate[facing=west]"
+    },
+    {
+      "char": "I",
+      "block": "pfm:basic_plate[facing=north]"
+    },
+    {
+      "char": "J",
+      "block": "buildersdelight:lantern_6[waterlogged=false,facing=north,face=floor]"
+    },
+    {
+      "char": "K",
+      "block": "farmersdelight:cutting_board[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "L",
+      "block": "quark:smooth_stone_vertical_slab[type=south,waterlogged=false]"
+    },
+    {
+      "char": "M",
+      "block": "quark:polished_andesite_vertical_slab[type=south,waterlogged=false]"
+    }
+  ]
+}

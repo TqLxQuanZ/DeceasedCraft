@@ -1,0 +1,28 @@
+{
+  "name": "multi_laboratory1_6_base5_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "b",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "c",
+      "block": "create:shaft[waterlogged=false,axis=y]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "d",
+      "block": "buildersdelight:chain_5[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "e",
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+    }
+  ]
+}

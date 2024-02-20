@@ -1,0 +1,169 @@
+{
+  "name": "multi_laboratory1_0_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:cut_limestone"
+    },
+    {
+      "char": "b",
+      "block": "create:polished_cut_limestone"
+    },
+    {
+      "char": "c",
+      "block": "biomesoplenty:dead_trapdoor[waterlogged=false,half=top,open=false,facing=north]"
+    },
+    {
+      "char": "d",
+      "block": "create:polished_cut_scoria_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "e",
+      "block": "create:polished_cut_scoria_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+    },
+    {
+      "char": "f",
+      "block": "biomesoplenty:dead_trapdoor[waterlogged=false,half=top,open=false,facing=west]"
+    },
+    {
+      "char": "g",
+      "block": "create:polished_cut_scoria"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "i",
+      "block": "create:polished_cut_scoria_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    },
+    {
+      "char": "j",
+      "block": "create:layered_calcite"
+    },
+    {
+      "char": "k",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "l",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=false]"
+    },
+    {
+      "char": "m",
+      "block": "create:elevator_pulley[facing=south]",
+      "tag": {
+        "id": "create:elevator_pulley"
+      }
+    },
+    {
+      "char": "n",
+      "block": "create:andesite_casing"
+    },
+    {
+      "char": "o",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "p",
+      "block": "create:blaze_burner[facing=south,blaze=none]",
+      "tag": {
+        "id": "create:blaze_heater"
+      }
+    },
+    {
+      "char": "q",
+      "block": "minecraft:daylight_detector"
+    },
+    {
+      "char": "r",
+      "block": "embellishcraft:steel_wall_ladder[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "s",
+      "block": "create:large_cogwheel[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "t",
+      "block": "immersiveengineering:thermoelectric_generator"
+    },
+    {
+      "char": "u",
+      "block": "create:cogwheel[waterlogged=false,axis=y]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "w",
+      "block": "quark:polished_calcite"
+    },
+    {
+      "char": "x",
+      "block": "embellishcraft:dark_oak_fancy_door[half=lower,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "y",
+      "block": "quark:dirty_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "A",
+      "block": "create:analog_lever[facing=south,face=wall]"
+    },
+    {
+      "char": "B",
+      "block": "immersiveengineering:connector_mv[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "C",
+      "block": "embellishcraft:dark_oak_fancy_door[half=upper,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "D",
+      "block": "create:cogwheel[waterlogged=false,axis=x]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "E",
+      "block": "createaddition:electric_motor[facing=west]"
+    },
+    {
+      "char": "F",
+      "block": "immersiveengineering:connector_mv[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "I",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "J",
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+    },
+    {
+      "char": "K",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "L",
+      "block": "create:large_cogwheel[waterlogged=false,axis=x]"
+    },
+    {
+      "char": "M",
+      "block": "create:shaft[waterlogged=false,axis=x]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "N",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+    }
+  ]
+}

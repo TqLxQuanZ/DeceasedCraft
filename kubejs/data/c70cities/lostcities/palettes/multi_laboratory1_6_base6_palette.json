@@ -1,0 +1,108 @@
+{
+  "name": "multi_laboratory1_6_base6_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:polished_basalt"
+    },
+    {
+      "char": "b",
+      "block": "buildersdelight:industrial_1[facing=north]"
+    },
+    {
+      "char": "c",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stone_button[facing=south,face=wall]"
+    },
+    {
+      "char": "e",
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "f",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=false,facing=south]"
+    },
+    {
+      "char": "g",
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "h",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "i",
+      "block": "pfm:light_gray_arm_chair[facing=north,shape=straight]"
+    },
+    {
+      "char": "j",
+      "block": "pfm:dark_concrete_kitchen_counter[facing=south]"
+    },
+    {
+      "char": "k",
+      "block": "refinedstorage:controller"
+    },
+    {
+      "char": "l",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "m",
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "n",
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "o",
+      "block": "create:controls[waterlogged=false,open=false,facing=north]"
+    },
+    {
+      "char": "p",
+      "block": "create:polished_cut_deepslate_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "create:cogwheel[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "r",
+      "block": "create:gearbox[axis=x]",
+      "tag": {
+        "id": "create:gearbox"
+      }
+    },
+    {
+      "char": "s",
+      "block": "create:shaft[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "t",
+      "block": "create:mechanical_drill[waterlogged=false,facing=south]",
+      "tag": {
+        "id": "create:drill"
+      }
+    },
+    {
+      "char": "u",
+      "block": "create:piston_extension_pole[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "w",
+      "block": "create:shaft[waterlogged=false,axis=y]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    }
+  ]
+}

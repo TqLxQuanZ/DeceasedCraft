@@ -1,0 +1,28 @@
+{
+  "name": "multi_laboratory1_10_top_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:cut_limestone"
+    },
+    {
+      "char": "b",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "d",
+      "block": "create:cogwheel[waterlogged=false,axis=x]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "e",
+      "block": "create:cut_limestone_slab[type=bottom,waterlogged=false]"
+    }
+  ]
+}

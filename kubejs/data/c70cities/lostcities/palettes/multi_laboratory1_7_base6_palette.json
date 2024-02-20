@@ -1,0 +1,106 @@
+{
+  "name": "multi_laboratory1_7_base6_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "buildersdelight:industrial_1[facing=north]"
+    },
+    {
+      "char": "b",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:polished_basalt"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:tinted_glass"
+    },
+    {
+      "char": "e",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "f",
+      "block": "zombie_extreme:dead_body[facing=south]"
+    },
+    {
+      "char": "g",
+      "block": "biomesoplenty:cherry_button[facing=west,face=floor]"
+    },
+    {
+      "char": "h",
+      "block": "biomesoplenty:cherry_pressure_plate"
+    },
+    {
+      "char": "i",
+      "block": "pfm:dark_concrete_kitchen_counter[facing=north]"
+    },
+    {
+      "char": "j",
+      "block": "refinedstorage:controller"
+    },
+    {
+      "char": "k",
+      "block": "pfm:light_gray_arm_chair[facing=south,shape=straight]"
+    },
+    {
+      "char": "l",
+      "block": "pfm:light_gray_arm_chair[facing=west,shape=straight]"
+    },
+    {
+      "char": "m",
+      "block": "zombie_extreme:radio_installation[facing=west]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:stone_button[facing=east,face=floor]"
+    },
+    {
+      "char": "o",
+      "block": "zombie_extreme:empty_cans[facing=north]"
+    },
+    {
+      "char": "p",
+      "block": "create:contraption_controls[waterlogged=false,open=false,facing=south]",
+      "tag": {
+        "id": "create:contraption_controls"
+      }
+    },
+    {
+      "char": "q",
+      "block": "quark:iron_button[facing=east,face=floor]"
+    },
+    {
+      "char": "r",
+      "block": "create:polished_cut_deepslate_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "s",
+      "block": "create:gearbox[axis=z]",
+      "tag": {
+        "id": "create:gearbox"
+      }
+    },
+    {
+      "char": "t",
+      "block": "create:shaft[waterlogged=false,axis=x]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "u",
+      "block": "create:mechanical_saw[axis_along_first=false,facing=east]"
+    },
+    {
+      "char": "w",
+      "block": "create:piston_extension_pole[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "x",
+      "block": "buildersdelight:chain_5[waterlogged=false,axis=y]"
+    }
+  ]
+}

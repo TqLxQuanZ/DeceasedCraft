@@ -1,0 +1,101 @@
+{
+  "name": "multi_laboratory1_4_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:cut_limestone_brick_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "create:polished_cut_scoria_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "create:polished_cut_scoria_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    },
+    {
+      "char": "d",
+      "block": "create:polished_cut_scoria"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "f",
+      "block": "biomesoplenty:dead_trapdoor[waterlogged=false,half=top,open=false,facing=west]"
+    },
+    {
+      "char": "g",
+      "block": "biomesoplenty:dead_trapdoor[waterlogged=false,half=top,open=false,facing=south]"
+    },
+    {
+      "char": "h",
+      "block": "create:polished_cut_scoria_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+    },
+    {
+      "char": "i",
+      "block": "create:cut_limestone_bricks"
+    },
+    {
+      "char": "j",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "k",
+      "block": "buildersdelight:dark_oak_glass_pane_8[waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "pfm:quartz_classic_stool[facing=north]"
+    },
+    {
+      "char": "m",
+      "block": "cfm:stripped_oak_table[waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "create:polished_cut_limestone"
+    },
+    {
+      "char": "o",
+      "block": "pfm:quartz_classic_stool[facing=south]"
+    },
+    {
+      "char": "p",
+      "block": "create:cut_limestone_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "q",
+      "block": "pfm:light_wood_kitchen_counter[facing=north]"
+    },
+    {
+      "char": "r",
+      "block": "pfm:light_wood_kitchen_sink[facing=west,level=0]"
+    },
+    {
+      "char": "s",
+      "block": "pfm:trashcan[open=false]"
+    },
+    {
+      "char": "t",
+      "block": "create:cut_limestone"
+    },
+    {
+      "char": "u",
+      "block": "buildersdelight:lantern_6[waterlogged=false,facing=east,face=floor]"
+    },
+    {
+      "char": "w",
+      "block": "quark:dark_oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "x",
+      "block": "farmersdelight:cutting_board[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "y",
+      "block": "pfm:kitchen_stovetop[facing=north,lit=true]"
+    }
+  ]
+}

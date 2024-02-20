@@ -1,0 +1,134 @@
+{
+  "name": "multi_laboratory1_14_base5_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "biomesoplenty:flesh"
+    },
+    {
+      "char": "b",
+      "block": "create:layered_calcite"
+    },
+    {
+      "char": "c",
+      "block": "create:gearbox[axis=x]",
+      "tag": {
+        "id": "create:gearbox"
+      }
+    },
+    {
+      "char": "d",
+      "block": "create:andesite_casing"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:smooth_basalt"
+    },
+    {
+      "char": "f",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=false,facing=west]"
+    },
+    {
+      "char": "g",
+      "block": "embellishcraft:basalt_large_bricks"
+    },
+    {
+      "char": "h",
+      "block": "create:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "apocalypsenow:metal_bars[facing=west]"
+    },
+    {
+      "char": "j",
+      "block": "apocalypsenow:metal_bars[facing=east]"
+    },
+    {
+      "char": "k",
+      "block": "createdeco:cast_iron_catwalk[waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "create:cogwheel[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "m",
+      "block": "create:shaft[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "n",
+      "block": "simplylight:illuminant_red_block"
+    },
+    {
+      "char": "o",
+      "block": "createdeco:cast_iron_sheet_slab_vert[type=bottom,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "p",
+      "block": "create:encased_fan[facing=south]"
+    },
+    {
+      "char": "q",
+      "block": "createdeco:cast_iron_sheet_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "createdeco:cast_iron_sheet_slab_vert[type=bottom,waterlogged=false,facing=west]"
+    },
+    {
+      "char": "s",
+      "block": "create:polished_cut_calcite"
+    },
+    {
+      "char": "t",
+      "block": "simplylight:lightbulb[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "u",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+    },
+    {
+      "char": "w",
+      "block": "buildersdelight:laboratory_2"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "y",
+      "block": "biomesoplenty:pus_bubble"
+    },
+    {
+      "char": "A",
+      "block": "apocalypsenow:metal_bars[facing=up]"
+    },
+    {
+      "char": "B",
+      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
+    },
+    {
+      "char": "C",
+      "block": "create:cyan_toolbox[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "D",
+      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=south]"
+    },
+    {
+      "char": "E",
+      "block": "simplylight:illuminant_block_on"
+    },
+    {
+      "char": "F",
+      "block": "simplylight:illuminant_block"
+    }
+  ]
+}

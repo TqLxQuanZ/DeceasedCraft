@@ -1,0 +1,112 @@
+{
+  "name": "multi_laboratory1_10_base5_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:deepslate_bricks"
+    },
+    {
+      "char": "c",
+      "block": "buildersdelight:laboratory_2"
+    },
+    {
+      "char": "d",
+      "block": "create:polished_cut_calcite"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:polished_basalt"
+    },
+    {
+      "char": "f",
+      "block": "create:layered_calcite"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "h",
+      "block": "createdeco:cast_iron_catwalk_stair[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "i",
+      "block": "biomesoplenty:hellbark_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+    },
+    {
+      "char": "j",
+      "block": "immersiveengineering:slab_concrete[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "immersiveengineering:slab_concrete[type=top,waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "pfm:dead_biomesoplenty_light_gray_simple_bed[occupied=false,part=head,facing=west]",
+      "tag": {
+        "id": "pfm:bed_block_entity"
+      }
+    },
+    {
+      "char": "m",
+      "block": "pfm:dead_biomesoplenty_light_gray_simple_bed[occupied=false,part=foot,facing=west]",
+      "tag": {
+        "id": "pfm:bed_block_entity"
+      }
+    },
+    {
+      "char": "n",
+      "block": "apocalypsenow:iron_locker[facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "o",
+      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=true,facing=south]"
+    },
+    {
+      "char": "p",
+      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=true,facing=north]"
+    },
+    {
+      "char": "q",
+      "block": "biomesoplenty:hellbark_door[half=lower,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "r",
+      "block": "createdeco:cast_iron_catwalk[waterlogged=false]"
+    },
+    {
+      "char": "s",
+      "block": "biomesoplenty:hellbark_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
+    },
+    {
+      "char": "t",
+      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=false,facing=south]"
+    },
+    {
+      "char": "u",
+      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=false,facing=north]"
+    },
+    {
+      "char": "w",
+      "block": "biomesoplenty:hellbark_door[half=upper,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "x",
+      "block": "zombie_extreme:tube_tv[facing=west]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:smooth_stone"
+    }
+  ]
+}

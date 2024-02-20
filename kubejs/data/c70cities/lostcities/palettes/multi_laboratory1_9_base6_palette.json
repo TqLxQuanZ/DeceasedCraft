@@ -1,0 +1,221 @@
+{
+  "name": "multi_laboratory1_9_base6_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:polished_basalt"
+    },
+    {
+      "char": "b",
+      "block": "buildersdelight:laboratory_2"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "d",
+      "block": "buildersdelight:industrial_1[facing=north]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:deepslate_bricks"
+    },
+    {
+      "char": "f",
+      "block": "biomesoplenty:flesh"
+    },
+    {
+      "char": "g",
+      "block": "biomesoplenty:blood[level=0]"
+    },
+    {
+      "char": "h",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=false,facing=east]"
+    },
+    {
+      "char": "i",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "j",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "k",
+      "block": "biomesoplenty:porous_flesh"
+    },
+    {
+      "char": "l",
+      "block": "biomesoplenty:cherry_pressure_plate"
+    },
+    {
+      "char": "m",
+      "block": "buildersdelight:industrial_1[facing=south]"
+    },
+    {
+      "char": "n",
+      "block": "biomesoplenty:cherry_button[facing=south,face=floor]"
+    },
+    {
+      "char": "o",
+      "block": "zombie_extreme:dead_body[facing=east]"
+    },
+    {
+      "char": "p",
+      "block": "embellishcraft:smooth_basalt"
+    },
+    {
+      "char": "q",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=false,facing=south]"
+    },
+    {
+      "char": "r",
+      "block": "biomesoplenty:cherry_button[facing=north,face=floor]"
+    },
+    {
+      "char": "s",
+      "block": "biomesoplenty:cherry_button[facing=west,face=floor]"
+    },
+    {
+      "char": "t",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "u",
+      "block": "biomesoplenty:bramble[up=false,down=true]"
+    },
+    {
+      "char": "w",
+      "block": "biomesoplenty:cherry_button[facing=east,face=floor]"
+    },
+    {
+      "char": "x",
+      "block": "biomesoplenty:hair"
+    },
+    {
+      "char": "y",
+      "block": "biomesoplenty:bramble[up=false,down=false]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:iron_block"
+    },
+    {
+      "char": "B",
+      "block": "embellishcraft:warning_white_steel_door[half=lower,open=false,hinge=left,facing=north]"
+    },
+    {
+      "char": "C",
+      "block": "embellishcraft:warning_white_steel_door[half=lower,open=false,hinge=right,facing=north]"
+    },
+    {
+      "char": "D",
+      "block": "embellishcraft:warning_white_steel_door[half=lower,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "E",
+      "block": "embellishcraft:warning_white_steel_door[half=lower,open=false,hinge=left,facing=east]"
+    },
+    {
+      "char": "F",
+      "block": "embellishcraft:warning_white_steel_door[half=lower,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "I",
+      "block": "embellishcraft:warning_white_steel_door[half=lower,open=false,hinge=right,facing=east]"
+    },
+    {
+      "char": "J",
+      "block": "simplylight:illuminant_block_on"
+    },
+    {
+      "char": "K",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=east]"
+    },
+    {
+      "char": "L",
+      "block": "embellishcraft:warning_white_steel_door[half=upper,open=false,hinge=left,facing=north]"
+    },
+    {
+      "char": "M",
+      "block": "embellishcraft:warning_white_steel_door[half=upper,open=false,hinge=right,facing=north]"
+    },
+    {
+      "char": "N",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=south]"
+    },
+    {
+      "char": "O",
+      "block": "pfm:light_switch[facing=west]"
+    },
+    {
+      "char": "P",
+      "block": "pfm:light_switch[facing=east]"
+    },
+    {
+      "char": "Q",
+      "block": "embellishcraft:warning_white_steel_door[half=upper,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "R",
+      "block": "embellishcraft:warning_white_steel_door[half=upper,open=false,hinge=left,facing=east]"
+    },
+    {
+      "char": "S",
+      "block": "embellishcraft:warning_white_steel_door[half=upper,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "T",
+      "block": "embellishcraft:warning_white_steel_door[half=upper,open=false,hinge=right,facing=east]"
+    },
+    {
+      "char": "U",
+      "block": "biomesoplenty:bramble[up=true,down=false]"
+    },
+    {
+      "char": "V",
+      "block": "biomesoplenty:flesh_tendons"
+    },
+    {
+      "char": "W",
+      "block": "biomesoplenty:bramble[up=true,down=true]"
+    },
+    {
+      "char": "X",
+      "block": "create:mechanical_drill[waterlogged=false,facing=west]",
+      "tag": {
+        "id": "create:drill"
+      }
+    },
+    {
+      "char": "Y",
+      "block": "create:shaft[waterlogged=false,axis=x]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "Z",
+      "block": "create:gearbox[axis=z]",
+      "tag": {
+        "id": "create:gearbox"
+      }
+    },
+    {
+      "char": "0",
+      "block": "create:mechanical_saw[axis_along_first=false,facing=east]"
+    },
+    {
+      "char": "1",
+      "block": "create:mechanical_arm",
+      "tag": {
+        "id": "create:mechanical_arm"
+      }
+    },
+    {
+      "char": "2",
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
+    }
+  ]
+}

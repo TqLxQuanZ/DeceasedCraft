@@ -1,0 +1,29 @@
+{
+  "name": "multi_laboratory1_2_base7_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:deepslate[axis=y]"
+    },
+    {
+      "char": "b",
+      "block": "create:polished_cut_scoria"
+    },
+    {
+      "char": "c",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:dripstone_block"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:pointed_dripstone[waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:cobbled_deepslate_slab[type=bottom,waterlogged=false]"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "name": "multi_laboratory1_10_base2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:deepslate_bricks"
+    },
+    {
+      "char": "c",
+      "block": "buildersdelight:laboratory_2"
+    },
+    {
+      "char": "d",
+      "block": "create:layered_calcite"
+    },
+    {
+      "char": "e",
+      "block": "createdeco:cast_iron_catwalk_stair[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "f",
+      "block": "biomesoplenty:hellbark_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+    },
+    {
+      "char": "g",
+      "block": "immersiveengineering:slab_concrete[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "immersiveengineering:slab_concrete[type=top,waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:polished_basalt"
+    },
+    {
+      "char": "j",
+      "block": "createdeco:cast_iron_catwalk_stair[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "k",
+      "block": "createdeco:cast_iron_catwalk[waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "create:polished_cut_calcite"
+    },
+    {
+      "char": "m",
+      "block": "immersiveengineering:metal_barrel"
+    },
+    {
+      "char": "n",
+      "block": "zombie_extreme:shelf[facing=east]"
+    },
+    {
+      "char": "o",
+      "block": "zombie_extreme:shelf[facing=north]"
+    },
+    {
+      "char": "p",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=west,face=wall]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:furnace[facing=west,lit=false]"
+    },
+    {
+      "char": "r",
+      "block": "zombie_extreme:tube_tv[facing=east]"
+    },
+    {
+      "char": "s",
+      "block": "immersiveengineering:generator"
+    },
+    {
+      "char": "t",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "u",
+      "block": "immersiveengineering:connector_hv[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "w",
+      "block": "immersiveengineering:capacitor_hv"
+    },
+    {
+      "char": "x",
+      "block": "immersiveengineering:capacitor_mv"
+    },
+    {
+      "char": "y",
+      "block": "immersiveengineering:radiator"
+    },
+    {
+      "char": "A",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "B",
+      "block": "immersiveengineering:fluid_pipe[waterlogged=false]"
+    },
+    {
+      "char": "C",
+      "block": "immersiveengineering:connector_lv[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "D",
+      "block": "immersiveengineering:capacitor_lv"
+    },
+    {
+      "char": "E",
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "char": "F",
+      "block": "zombie_extreme:radio_installation[facing=east]"
+    },
+    {
+      "char": "I",
+      "block": "biomesoplenty:hellbark_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:repeating_command_block[facing=south,conditional=false]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "execute if block ~ ~ ~-1 immersiveengineering:diesel_generator run fill ~ ~1 ~ ~ ~ ~ air"
+      }
+    },
+    {
+      "char": "K",
+      "block": "apocalypsenow:iron_locker[facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "L",
+      "block": "embellishcraft:warning_steel_door[half=lower,open=false,hinge=right,facing=east]"
+    },
+    {
+      "char": "M",
+      "block": "biomesoplenty:hellbark_door[half=lower,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "N",
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    {
+      "char": "O",
+      "block": "immersiveengineering:rs_engineering"
+    },
+    {
+      "char": "P",
+      "block": "clickmachine:auto_clicker[facing=north]",
+      "tag": {
+        "speed_index": 8,
+        "right_click": 1,
+        "inv": {
+          "Size": 1,
+          "Items": [
+            {
+              "Slot": 0,
+              "id": "immersiveengineering:hammer",
+              "Count": 1
+            }
+          ]
+        },
+        "id": "clickmachine:tile"
+      }
+    },
+    {
+      "char": "Q",
+      "block": "embellishcraft:warning_steel_door[half=upper,open=false,hinge=right,facing=east]"
+    },
+    {
+      "char": "R",
+      "block": "immersiveengineering:connector_lv[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "S",
+      "block": "biomesoplenty:hellbark_door[half=upper,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "T",
+      "block": "minecraft:redstone_wall_torch[facing=north,lit=true]"
+    },
+    {
+      "char": "U",
+      "block": "zombie_extreme:radio_installation[facing=west]"
+    },
+    {
+      "char": "V",
+      "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+    },
+    {
+      "char": "W",
+      "block": "embellishcraft:vent_air_duct[facing=west]"
+    },
+    {
+      "char": "X",
+      "block": "embellishcraft:grid_air_duct[facing=east]"
+    },
+    {
+      "char": "Y",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=east,face=wall]"
+    },
+    {
+      "char": "Z",
+      "block": "minecraft:smooth_stone"
+    }
+  ]
+}

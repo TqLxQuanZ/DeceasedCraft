@@ -1,0 +1,89 @@
+{
+  "name": "multi_laboratory1_0_base7_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:deepslate[axis=y]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:deepslate[axis=x]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:deepslate[axis=z]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:cobbled_deepslate_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:magma_block"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:dripstone_block"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:deepslate_bricks"
+    },
+    {
+      "char": "h",
+      "block": "zombie_extreme:shelf[facing=south]"
+    },
+    {
+      "char": "i",
+      "block": "zombie_extreme:tool_box[facing=south]"
+    },
+    {
+      "char": "j",
+      "block": "zombie_extreme:spotlight[facing=south]"
+    },
+    {
+      "char": "k",
+      "block": "create:polished_cut_calcite_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:smithing_table"
+    },
+    {
+      "char": "m",
+      "block": "embellishcraft:granite_button[facing=north,face=floor]"
+    },
+    {
+      "char": "n",
+      "block": "embellishcraft:granite_button[facing=west,face=floor]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:cobbled_deepslate_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "p",
+      "block": "embellishcraft:granite_button[facing=south,face=floor]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:pointed_dripstone[waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "create:red_toolbox[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "s",
+      "block": "quark:dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "t",
+      "block": "zombie_extreme:lamp[facing=north]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:cobbled_deepslate_slab[type=double,waterlogged=false]"
+    }
+  ]
+}

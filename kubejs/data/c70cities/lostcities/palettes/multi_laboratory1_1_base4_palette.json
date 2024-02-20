@@ -1,0 +1,237 @@
+{
+  "name": "multi_laboratory1_1_base4_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "b",
+      "block": "buildersdelight:laboratory_2"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:polished_basalt"
+    },
+    {
+      "char": "d",
+      "block": "create:layered_calcite"
+    },
+    {
+      "char": "e",
+      "block": "create:horizontal_framed_glass"
+    },
+    {
+      "char": "f",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:stripped_dark_oak_log[axis=y]"
+    },
+    {
+      "char": "h",
+      "block": "quark:dark_oak_bookshelf"
+    },
+    {
+      "char": "i",
+      "block": "create:polished_cut_calcite"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:dark_oak_pressure_plate"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:dark_oak_button[facing=south,face=floor]"
+    },
+    {
+      "char": "m",
+      "block": "embellishcraft:basalt_button[facing=north,face=floor]"
+    },
+    {
+      "char": "n",
+      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "embellishcraft:basalt_button[facing=east,face=floor]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:dark_oak_button[facing=west,face=floor]"
+    },
+    {
+      "char": "q",
+      "block": "biomesoplenty:hellbark_door[half=lower,open=false,hinge=left,facing=east]"
+    },
+    {
+      "char": "r",
+      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "s",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "t",
+      "block": "embellishcraft:basalt_button[facing=south,face=floor]"
+    },
+    {
+      "char": "u",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "w",
+      "block": "apocalypsenow:metal_shelves[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "x",
+      "block": "zombie_extreme:shelf[facing=south]"
+    },
+    {
+      "char": "y",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "A",
+      "block": "pfm:dark_concrete_kitchen_counter[facing=north]"
+    },
+    {
+      "char": "B",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "C",
+      "block": "zombie_extreme:wooden_chair[facing=north]"
+    },
+    {
+      "char": "D",
+      "block": "apocalypsenow:metal_shelves[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "E",
+      "block": "embellishcraft:smooth_basalt_pressure_plate"
+    },
+    {
+      "char": "F",
+      "block": "zombie_extreme:wooden_chair[facing=south]"
+    },
+    {
+      "char": "I",
+      "block": "embellishcraft:basalt_button[facing=west,face=floor]"
+    },
+    {
+      "char": "J",
+      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "K",
+      "block": "pfm:dark_concrete_kitchen_counter[facing=south]"
+    },
+    {
+      "char": "L",
+      "block": "another_furniture:brown_stool[waterlogged=false]"
+    },
+    {
+      "char": "M",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "N",
+      "block": "zombie_extreme:wooden_chair[facing=east]"
+    },
+    {
+      "char": "O",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
+    },
+    {
+      "char": "P",
+      "block": "create:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+    },
+    {
+      "char": "R",
+      "block": "biomesoplenty:hellbark_door[half=upper,open=false,hinge=left,facing=east]"
+    },
+    {
+      "char": "S",
+      "block": "quark:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "T",
+      "block": "zombie_extreme:computer_monitor[facing=south]"
+    },
+    {
+      "char": "U",
+      "block": "apocalypsenow:brokenpremiunradio[facing=south]"
+    },
+    {
+      "char": "V",
+      "block": "zombie_extreme:radio_installation[facing=south]"
+    },
+    {
+      "char": "W",
+      "block": "apocalypsenow:brokenoldradio[facing=north]"
+    },
+    {
+      "char": "X",
+      "block": "zombie_extreme:computer_monitor[facing=north]"
+    },
+    {
+      "char": "Y",
+      "block": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "Z",
+      "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+    },
+    {
+      "char": "0",
+      "block": "another_furniture:dark_oak_shelf[type=right,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "1",
+      "block": "another_furniture:dark_oak_shelf[type=left,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "2",
+      "block": "minecraft:potted_dark_oak_sapling"
+    },
+    {
+      "char": "3",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "4",
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "5",
+      "block": "simplylight:illuminant_block"
+    },
+    {
+      "char": "6",
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "7",
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "8",
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
+    }
+  ]
+}

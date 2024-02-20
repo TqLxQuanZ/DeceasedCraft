@@ -1,0 +1,64 @@
+{
+  "name": "multi_laboratory1_7_base5_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "buildersdelight:chain_5[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "b",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "c",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "d",
+      "block": "create:shaft[waterlogged=false,axis=y]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "e",
+      "block": "create:mechanical_drill[waterlogged=false,facing=north]",
+      "tag": {
+        "id": "create:drill"
+      }
+    },
+    {
+      "char": "f",
+      "block": "create:shaft[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "g",
+      "block": "create:gearbox[axis=x]",
+      "tag": {
+        "id": "create:gearbox"
+      }
+    },
+    {
+      "char": "h",
+      "block": "create:cogwheel[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "i",
+      "block": "simplylight:lightbulb[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "j",
+      "block": "create:piston_extension_pole[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "k",
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+    }
+  ]
+}

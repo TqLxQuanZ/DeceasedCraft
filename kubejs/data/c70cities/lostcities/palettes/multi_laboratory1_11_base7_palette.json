@@ -1,0 +1,65 @@
+{
+  "name": "multi_laboratory1_11_base7_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:deepslate[axis=y]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:deepslate[axis=x]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:deepslate[axis=z]"
+    },
+    {
+      "char": "d",
+      "block": "quark:blaze_lantern"
+    },
+    {
+      "char": "e",
+      "block": "create:polished_cut_scoria"
+    },
+    {
+      "char": "f",
+      "block": "biomesoplenty:cherry_button[facing=south,face=floor]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:cobbled_deepslate_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "biomesoplenty:blood[level=0]"
+    },
+    {
+      "char": "i",
+      "block": "biomesoplenty:blood[level=8]"
+    },
+    {
+      "char": "j",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "k",
+      "block": "biomesoplenty:cherry_button[facing=east,face=floor]"
+    },
+    {
+      "char": "l",
+      "block": "biomesoplenty:cherry_button[facing=west,face=floor]"
+    },
+    {
+      "char": "m",
+      "block": "biomesoplenty:blood[level=1]"
+    },
+    {
+      "char": "n",
+      "block": "biomesoplenty:blood[level=2]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:cobbled_deepslate_slab[type=top,waterlogged=false]"
+    }
+  ]
+}

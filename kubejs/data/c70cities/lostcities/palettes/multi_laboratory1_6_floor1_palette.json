@@ -1,0 +1,49 @@
+{
+  "name": "multi_laboratory1_6_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:stone_button[facing=south,face=wall]"
+    },
+    {
+      "char": "c",
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "d",
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "e",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "f",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
+    },
+    {
+      "char": "g",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
+    },
+    {
+      "char": "h",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+    },
+    {
+      "char": "i",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
+    },
+    {
+      "char": "j",
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "k",
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=south]"
+    }
+  ]
+}

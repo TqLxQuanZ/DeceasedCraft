@@ -1,0 +1,131 @@
+{
+  "name": "multi_laboratory1_5_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:cracked_stone_bricks"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:polished_paving"
+    },
+    {
+      "char": "d",
+      "block": "create:polished_cut_scoria"
+    },
+    {
+      "char": "e",
+      "block": "create:layered_calcite"
+    },
+    {
+      "char": "f",
+      "block": "quark:polished_calcite"
+    },
+    {
+      "char": "g",
+      "block": "immersiveengineering:metal_barrel"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "i",
+      "block": "biomesoplenty:dead_button[facing=south,face=floor]"
+    },
+    {
+      "char": "j",
+      "block": "biomesoplenty:dead_grass"
+    },
+    {
+      "char": "k",
+      "block": "quark:smooth_stone_vertical_slab[type=north,waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "create:cut_limestone_bricks"
+    },
+    {
+      "char": "m",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "n",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=false]"
+    },
+    {
+      "char": "o",
+      "block": "immersiveengineering:hempcrete"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "q",
+      "block": "quark:polished_andesite_vertical_slab[type=east,waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "quark:polished_andesite_vertical_slab[type=west,waterlogged=false]"
+    },
+    {
+      "char": "s",
+      "block": "create:contraption_controls[waterlogged=false,open=false,facing=west]",
+      "tag": {
+        "id": "create:contraption_controls"
+      }
+    },
+    {
+      "char": "t",
+      "block": "create:andesite_door[half=lower,open=false,hinge=left,facing=north]"
+    },
+    {
+      "char": "u",
+      "block": "create:andesite_door[half=lower,open=false,hinge=right,facing=north]"
+    },
+    {
+      "char": "w",
+      "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
+    },
+    {
+      "char": "x",
+      "block": "create:cogwheel[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "y",
+      "block": "create:large_cogwheel[waterlogged=false,axis=z]"
+    },
+    {
+      "char": "A",
+      "block": "create:andesite_door[half=upper,open=false,hinge=left,facing=north]"
+    },
+    {
+      "char": "B",
+      "block": "create:andesite_door[half=upper,open=false,hinge=right,facing=north]"
+    },
+    {
+      "char": "C",
+      "block": "create:polished_cut_limestone"
+    },
+    {
+      "char": "D",
+      "block": "create:cut_limestone"
+    },
+    {
+      "char": "E",
+      "block": "biomesoplenty:stripped_dead_log[axis=x]"
+    },
+    {
+      "char": "F",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+    }
+  ]
+}

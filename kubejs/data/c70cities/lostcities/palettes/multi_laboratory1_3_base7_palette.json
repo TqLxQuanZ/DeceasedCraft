@@ -1,0 +1,57 @@
+{
+  "name": "multi_laboratory1_3_base7_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:deepslate[axis=y]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "c",
+      "block": "simplylight:illuminant_block_on"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "e",
+      "block": "buildersdelight:laboratory_2"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
+    },
+    {
+      "char": "h",
+      "block": "pfm:dark_wood_kitchen_wall_counter[facing=north]"
+    },
+    {
+      "char": "i",
+      "block": "createdeco:iron_ladder[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "j",
+      "block": "pfm:dark_wood_kitchen_wall_counter[facing=south]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+    }
+  ]
+}

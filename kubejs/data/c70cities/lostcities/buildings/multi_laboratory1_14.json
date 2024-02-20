@@ -1,0 +1,80 @@
+{
+  "filler": "G",
+  "rubber": " ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "minfloors": 1,
+  "maxfloors": 1,
+  "mincellars": 15,
+  "maxcellars": 15,
+  "preferslonely": 0.9,
+  "parts": [
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "part": "c70cities:multi_laboratory1_14_base7",
+      "floor": -15
+    },
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "part": "c70cities:multi_laboratory1_14_base6",
+      "floor": -14
+    },
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "part": "c70cities:multi_laboratory1_14_base5",
+      "floor": -13
+    },
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "part": "c70cities:multi_laboratory1_14_base4",
+      "range": "-12,-2"
+    },
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "part": "c70cities:multi_laboratory1_14_base3",
+      "range": "-12,-2"
+    },
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "part": "c70cities:multi_laboratory1_14_base2",
+      "range": "-12,-2"
+    },
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "part": "c70cities:multi_laboratory1_14_base1",
+      "floor": -1
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": true,
+      "part": "c70cities:multi_laboratory1_14_ground"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_laboratory1_14_floor1"
+    },
+    {
+      "top": true,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_laboratory1_14_top"
+    }
+  ]
+}

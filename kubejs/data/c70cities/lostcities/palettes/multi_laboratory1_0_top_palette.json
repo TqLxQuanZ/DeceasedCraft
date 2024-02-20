@@ -1,0 +1,59 @@
+{
+  "name": "multi_laboratory1_0_top_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:cut_limestone"
+    },
+    {
+      "char": "b",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "d",
+      "block": "createdeco:andesite_trapdoor[waterlogged=false,half=bottom,open=false,facing=west]"
+    },
+    {
+      "char": "e",
+      "block": "create:large_cogwheel[waterlogged=false,axis=x]"
+    },
+    {
+      "char": "f",
+      "block": "create:shaft[waterlogged=false,axis=x]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "g",
+      "block": "create:cogwheel[waterlogged=false,axis=x]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "h",
+      "block": "create:cut_limestone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "j",
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "quark:iron_rod[facing=down]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:redstone_torch[lit=true]"
+    }
+  ]
+}

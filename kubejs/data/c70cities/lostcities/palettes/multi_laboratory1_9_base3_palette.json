@@ -1,0 +1,281 @@
+{
+  "name": "multi_laboratory1_9_base3_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:polished_basalt"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:polished_basalt_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "biomesoplenty:flesh"
+    },
+    {
+      "char": "d",
+      "block": "create:polished_cut_calcite"
+    },
+    {
+      "char": "e",
+      "block": "biomesoplenty:porous_flesh"
+    },
+    {
+      "char": "f",
+      "block": "buildersdelight:laboratory_2"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "h",
+      "block": "pfm:dark_concrete_kitchen_counter[facing=west]"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:smooth_basalt_pressure_plate"
+    },
+    {
+      "char": "j",
+      "block": "pfm:dark_concrete_kitchen_wall_counter[facing=east]"
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "pfm:stripped_dead_biomesoplenty_simple_stool[facing=west]"
+    },
+    {
+      "char": "m",
+      "block": "pfm:dark_concrete_kitchen_wall_counter[facing=north]"
+    },
+    {
+      "char": "n",
+      "block": "pfm:dark_concrete_kitchen_counter[facing=east]"
+    },
+    {
+      "char": "o",
+      "block": "pfm:dark_concrete_kitchen_wall_counter[facing=west]"
+    },
+    {
+      "char": "p",
+      "block": "create:polished_cut_calcite_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "embellishcraft:basalt_button[facing=north,face=floor]"
+    },
+    {
+      "char": "r",
+      "block": "biomesoplenty:cherry_button[facing=south,face=floor]"
+    },
+    {
+      "char": "s",
+      "block": "biomesoplenty:cherry_button[facing=east,face=floor]"
+    },
+    {
+      "char": "t",
+      "block": "biomesoplenty:cherry_pressure_plate"
+    },
+    {
+      "char": "u",
+      "block": "pfm:dark_concrete_kitchen_counter[facing=north]"
+    },
+    {
+      "char": "w",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "x",
+      "block": "biomesoplenty:hair"
+    },
+    {
+      "char": "y",
+      "block": "biomesoplenty:bramble[up=false,down=true]"
+    },
+    {
+      "char": "A",
+      "block": "zombie_extreme:empty_cans[facing=east]"
+    },
+    {
+      "char": "B",
+      "block": "zombie_extreme:decomposing_backpack[facing=north]"
+    },
+    {
+      "char": "C",
+      "block": "comforts:sleeping_bag_red[waterlogged=false,occupied=false,part=foot,facing=east]",
+      "tag": {
+        "id": "comforts:sleeping_bag"
+      }
+    },
+    {
+      "char": "D",
+      "block": "comforts:sleeping_bag_red[waterlogged=false,occupied=false,part=head,facing=east]",
+      "tag": {
+        "id": "comforts:sleeping_bag"
+      }
+    },
+    {
+      "char": "E",
+      "block": "zombie_extreme:empty_cans[facing=north]"
+    },
+    {
+      "char": "F",
+      "block": "zombie_extreme:shelf[facing=west]"
+    },
+    {
+      "char": "I",
+      "block": "pfm:dark_concrete_kitchen_drawer[open=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "J",
+      "block": "pfm:dark_concrete_kitchen_counter[facing=south]"
+    },
+    {
+      "char": "K",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "L",
+      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "M",
+      "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+    },
+    {
+      "char": "N",
+      "block": "biomesoplenty:cherry_button[facing=north,face=floor]"
+    },
+    {
+      "char": "O",
+      "block": "pfm:dark_concrete_kitchen_drawer[open=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "P",
+      "block": "pfm:dark_concrete_kitchen_sink[facing=north,level=0]"
+    },
+    {
+      "char": "Q",
+      "block": "pfm:white_fridge[open=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "R",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "S",
+      "block": "pfm:dark_wood_simple_stool[facing=north]"
+    },
+    {
+      "char": "T",
+      "block": "comforts:sleeping_bag_red[waterlogged=false,occupied=false,part=head,facing=west]",
+      "tag": {
+        "id": "comforts:sleeping_bag"
+      }
+    },
+    {
+      "char": "U",
+      "block": "comforts:sleeping_bag_red[waterlogged=false,occupied=false,part=foot,facing=west]",
+      "tag": {
+        "id": "comforts:sleeping_bag"
+      }
+    },
+    {
+      "char": "V",
+      "block": "zombie_extreme:decomposing_backpack[facing=south]"
+    },
+    {
+      "char": "W",
+      "block": "embellishcraft:dark_oak_terrace_table[waterlogged=false]"
+    },
+    {
+      "char": "X",
+      "block": "zombie_extreme:drinks_vending_machine[facing=north]"
+    },
+    {
+      "char": "Y",
+      "block": "apocalypsenow:brokenoldradio[facing=north]"
+    },
+    {
+      "char": "Z",
+      "block": "apocalypsenow:metal_shelves[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "0",
+      "block": "quark:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "1",
+      "block": "biomesoplenty:flesh_tendons"
+    },
+    {
+      "char": "2",
+      "block": "biomesoplenty:bramble[up=false,down=false]"
+    },
+    {
+      "char": "3",
+      "block": "minecraft:chiseled_quartz_block"
+    },
+    {
+      "char": "4",
+      "block": "pfm:dark_concrete_kitchen_cabinet[open=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "5",
+      "block": "pfm:dark_concrete_kitchen_wall_small_drawer[open=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "6",
+      "block": "pfm:dark_concrete_kitchen_wall_drawer[open=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "7",
+      "block": "biomesoplenty:flesh_tendons_strand"
+    },
+    {
+      "char": "8",
+      "block": "biomesoplenty:pus_bubble"
+    },
+    {
+      "char": "9",
+      "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+    },
+    {
+      "char": "@",
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "#",
+      "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+    },
+    {
+      "char": "$",
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "%",
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "^",
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "&",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    }
+  ]
+}

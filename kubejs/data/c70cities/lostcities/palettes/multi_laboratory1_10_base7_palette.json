@@ -1,0 +1,41 @@
+{
+  "name": "multi_laboratory1_10_base7_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:deepslate[axis=y]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:deepslate_bricks"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:deepslate[axis=x]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:deepslate[axis=z]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:cobbled_deepslate_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "g",
+      "block": "biomesoplenty:blood[level=0]"
+    },
+    {
+      "char": "h",
+      "block": "quark:blaze_lantern"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:cobbled_deepslate_slab[type=top,waterlogged=false]"
+    }
+  ]
+}

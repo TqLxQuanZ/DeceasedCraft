@@ -1,0 +1,152 @@
+{
+  "name": "multi_laboratory1_8_base5_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "quark:smooth_stone_vertical_slab[type=north,waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "create:layered_calcite"
+    },
+    {
+      "char": "c",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stone_button[facing=south,face=wall]"
+    },
+    {
+      "char": "e",
+      "block": "create:framed_glass"
+    },
+    {
+      "char": "f",
+      "block": "biomesoplenty:flesh"
+    },
+    {
+      "char": "g",
+      "block": "biomesoplenty:bramble[up=false,down=true]"
+    },
+    {
+      "char": "h",
+      "block": "create:mechanical_arm",
+      "tag": {
+        "id": "create:mechanical_arm"
+      }
+    },
+    {
+      "char": "i",
+      "block": "biomesoplenty:bramble[up=true,down=true]"
+    },
+    {
+      "char": "j",
+      "block": "biomesoplenty:bramble[up=true,down=false]"
+    },
+    {
+      "char": "k",
+      "block": "create:mechanical_drill[waterlogged=false,facing=north]",
+      "tag": {
+        "id": "create:drill"
+      }
+    },
+    {
+      "char": "l",
+      "block": "create:gearbox[axis=x]",
+      "tag": {
+        "id": "create:gearbox"
+      }
+    },
+    {
+      "char": "m",
+      "block": "create:shaft[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "n",
+      "block": "create:mechanical_saw[axis_along_first=true,facing=south]"
+    },
+    {
+      "char": "o",
+      "block": "create:shaft[waterlogged=false,axis=y]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "p",
+      "block": "biomesoplenty:porous_flesh"
+    },
+    {
+      "char": "q",
+      "block": "biomesoplenty:flesh_tendons"
+    },
+    {
+      "char": "r",
+      "block": "biomesoplenty:flesh_tendons_strand"
+    },
+    {
+      "char": "s",
+      "block": "biomesoplenty:cherry_button[facing=west,face=ceiling]"
+    },
+    {
+      "char": "t",
+      "block": "create:piston_extension_pole[waterlogged=false,facing=up]"
+    },
+    {
+      "char": "u",
+      "block": "biomesoplenty:stripped_dead_log[axis=x]"
+    },
+    {
+      "char": "w",
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "x",
+      "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+    },
+    {
+      "char": "y",
+      "block": "embellishcraft:smooth_basalt"
+    },
+    {
+      "char": "A",
+      "block": "buildersdelight:industrial_1[facing=north]"
+    },
+    {
+      "char": "B",
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "C",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "D",
+      "block": "create:encased_chain_drive[axis_along_first=false,part=start,axis=y]"
+    },
+    {
+      "char": "E",
+      "block": "create:encased_chain_drive[axis_along_first=true,part=start,axis=y]"
+    },
+    {
+      "char": "F",
+      "block": "create:encased_chain_drive[axis_along_first=true,part=middle,axis=y]"
+    },
+    {
+      "char": "I",
+      "block": "create:encased_chain_drive[axis_along_first=true,part=end,axis=y]"
+    },
+    {
+      "char": "J",
+      "block": "create:encased_chain_drive[axis_along_first=false,part=middle,axis=y]"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:redstone_block"
+    }
+  ]
+}

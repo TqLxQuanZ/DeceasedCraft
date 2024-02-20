@@ -1,0 +1,237 @@
+{
+  "name": "multi_laboratory1_9_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:light_gray_wool"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:gray_wool"
+    },
+    {
+      "char": "d",
+      "block": "embellishcraft:polished_marble"
+    },
+    {
+      "char": "e",
+      "block": "create:polished_cut_scoria"
+    },
+    {
+      "char": "f",
+      "block": "embellishcraft:polished_paving"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "h",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:light_gray_carpet"
+    },
+    {
+      "char": "j",
+      "block": "another_furniture:brown_stool[waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:gray_carpet"
+    },
+    {
+      "char": "l",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+    },
+    {
+      "char": "m",
+      "block": "create:cut_limestone_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "n",
+      "block": "quark:polished_calcite_vertical_slab[type=east,waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "another_furniture:white_stool[waterlogged=false]"
+    },
+    {
+      "char": "p",
+      "block": "quark:polished_calcite_vertical_slab[type=west,waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "quark:polished_calcite"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:stone_button[facing=east,face=wall]"
+    },
+    {
+      "char": "s",
+      "block": "another_furniture:gray_stool[waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "u",
+      "block": "pfm:basic_toilet[facing=north,toilet=empty]"
+    },
+    {
+      "char": "w",
+      "block": "quark:quartz_vertical_slab[type=east,waterlogged=false]"
+    },
+    {
+      "char": "x",
+      "block": "pfm:wall_toilet_paper[facing=north]"
+    },
+    {
+      "char": "y",
+      "block": "pfm:basic_sink[facing=north,level=0]"
+    },
+    {
+      "char": "A",
+      "block": "pfm:dark_wood_kitchen_wall_counter[facing=north]"
+    },
+    {
+      "char": "B",
+      "block": "embellishcraft:dark_oak_plain_door[half=lower,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "C",
+      "block": "quark:quartz_vertical_slab[type=south,waterlogged=false]"
+    },
+    {
+      "char": "D",
+      "block": "pfm:dark_wood_modern_stool[facing=north]"
+    },
+    {
+      "char": "E",
+      "block": "embellishcraft:dark_oak_plain_door[half=lower,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "F",
+      "block": "pfm:dark_wood_kitchen_counter[facing=south]"
+    },
+    {
+      "char": "I",
+      "block": "pfm:dark_oak_log_stool[facing=west]"
+    },
+    {
+      "char": "J",
+      "block": "pfm:dark_oak_log_stool[facing=north]"
+    },
+    {
+      "char": "K",
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=north]"
+    },
+    {
+      "char": "L",
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=north]"
+    },
+    {
+      "char": "M",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "N",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=false]"
+    },
+    {
+      "char": "O",
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
+    },
+    {
+      "char": "P",
+      "block": "create:cut_limestone_brick_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    },
+    {
+      "char": "Q",
+      "block": "create:cut_limestone_bricks"
+    },
+    {
+      "char": "R",
+      "block": "biomesoplenty:dead_grass"
+    },
+    {
+      "char": "S",
+      "block": "quark:dark_oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "T",
+      "block": "buildersdelight:dark_oak_glass_pane_8[waterlogged=false]"
+    },
+    {
+      "char": "U",
+      "block": "embellishcraft:dark_oak_plain_door[half=upper,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "V",
+      "block": "embellishcraft:dark_oak_plain_door[half=upper,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "W",
+      "block": "another_furniture:service_bell[waterlogged=false]"
+    },
+    {
+      "char": "X",
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=north]"
+    },
+    {
+      "char": "Y",
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=north]"
+    },
+    {
+      "char": "Z",
+      "block": "create:dark_oak_window_pane[waterlogged=false]"
+    },
+    {
+      "char": "0",
+      "block": "create:cut_limestone"
+    },
+    {
+      "char": "1",
+      "block": "create:polished_cut_limestone"
+    },
+    {
+      "char": "2",
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "3",
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+    },
+    {
+      "char": "4",
+      "block": "quark:polished_calcite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "5",
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    },
+    {
+      "char": "6",
+      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "7",
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "8",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "9",
+      "block": "simplylight:edge_light_top[waterlogged=false]"
+    }
+  ]
+}

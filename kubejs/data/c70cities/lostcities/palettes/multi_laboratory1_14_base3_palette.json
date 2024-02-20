@@ -1,0 +1,399 @@
+{
+  "name": "multi_laboratory1_14_base3_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:polished_basalt"
+    },
+    {
+      "char": "b",
+      "block": "create:layered_calcite"
+    },
+    {
+      "char": "c",
+      "block": "buildersdelight:laboratory_2"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "e",
+      "block": "biomesoplenty:porous_flesh"
+    },
+    {
+      "char": "f",
+      "block": "biomesoplenty:flesh"
+    },
+    {
+      "char": "g",
+      "block": "embellishcraft:polished_basalt_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "embellishcraft:polished_basalt_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:polished_marble"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:polished_basalt_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "k",
+      "block": "pfm:dark_concrete_kitchen_sink[facing=west,level=0]"
+    },
+    {
+      "char": "l",
+      "block": "create:polished_cut_calcite"
+    },
+    {
+      "char": "m",
+      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "biomesoplenty:cherry_button[facing=south,face=floor]"
+    },
+    {
+      "char": "o",
+      "block": "zombie_extreme:shelf[facing=west]"
+    },
+    {
+      "char": "p",
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "q",
+      "block": "pfm:brown_simple_sofa[facing=north,shape=left_edge]"
+    },
+    {
+      "char": "r",
+      "block": "pfm:brown_simple_sofa[facing=north,shape=right_edge]"
+    },
+    {
+      "char": "s",
+      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "t",
+      "block": "zombie_extreme:shelf[facing=south]"
+    },
+    {
+      "char": "u",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "w",
+      "block": "pfm:dark_concrete_kitchen_counter[facing=west]"
+    },
+    {
+      "char": "x",
+      "block": "biomesoplenty:hair"
+    },
+    {
+      "char": "y",
+      "block": "zombie_extreme:dead_body[facing=south]"
+    },
+    {
+      "char": "A",
+      "block": "pfm:arm_chair_leather[facing=west]"
+    },
+    {
+      "char": "B",
+      "block": "zombie_extreme:radio_installation[facing=south]"
+    },
+    {
+      "char": "C",
+      "block": "pfm:light_gray_arm_chair[facing=east,shape=straight]"
+    },
+    {
+      "char": "D",
+      "block": "pfm:dark_concrete_kitchen_wall_counter[facing=north]"
+    },
+    {
+      "char": "E",
+      "block": "biomesoplenty:cherry_button[facing=east,face=floor]"
+    },
+    {
+      "char": "F",
+      "block": "zombie_extreme:decomposing_backpack[facing=west]"
+    },
+    {
+      "char": "I",
+      "block": "cfm:stripped_dark_oak_coffee_table[waterlogged=false]"
+    },
+    {
+      "char": "J",
+      "block": "cfm:stripped_dark_oak_desk[type=right,waterlogged=false,facing=west]"
+    },
+    {
+      "char": "K",
+      "block": "comforts:sleeping_bag_red[waterlogged=false,occupied=false,part=foot,facing=south]",
+      "tag": {
+        "id": "comforts:sleeping_bag"
+      }
+    },
+    {
+      "char": "L",
+      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
+    },
+    {
+      "char": "M",
+      "block": "zombie_extreme:dead_body[facing=west]"
+    },
+    {
+      "char": "N",
+      "block": "pfm:brown_simple_sofa[facing=west,shape=right_edge]"
+    },
+    {
+      "char": "O",
+      "block": "pfm:light_gray_arm_chair[facing=north,shape=straight]"
+    },
+    {
+      "char": "P",
+      "block": "cfm:stripped_dark_oak_desk[type=left,waterlogged=false,facing=west]"
+    },
+    {
+      "char": "Q",
+      "block": "comforts:sleeping_bag_red[waterlogged=false,occupied=false,part=head,facing=south]",
+      "tag": {
+        "id": "comforts:sleeping_bag"
+      }
+    },
+    {
+      "char": "R",
+      "block": "minecraft:dark_oak_button[facing=east,face=floor]"
+    },
+    {
+      "char": "S",
+      "block": "zombie_extreme:empty_cans[facing=west]"
+    },
+    {
+      "char": "T",
+      "block": "biomesoplenty:hellbark_door[half=lower,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "U",
+      "block": "pfm:brown_simple_sofa[facing=west,shape=left_edge]"
+    },
+    {
+      "char": "V",
+      "block": "cfm:stripped_dark_oak_kitchen_drawer[open=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "W",
+      "block": "minecraft:dark_oak_button[facing=south,face=floor]"
+    },
+    {
+      "char": "X",
+      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "Y",
+      "block": "minecraft:dark_oak_pressure_plate"
+    },
+    {
+      "char": "Z",
+      "block": "apocalypsenow:metal_shelves[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "0",
+      "block": "zombie_extreme:shelf[facing=north]"
+    },
+    {
+      "char": "1",
+      "block": "pfm:dark_concrete_kitchen_cabinet[open=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "2",
+      "block": "another_furniture:dark_oak_shelf[type=right,waterlogged=false,facing=north]"
+    },
+    {
+      "char": "3",
+      "block": "another_furniture:dark_oak_shelf[type=left,waterlogged=false,facing=north]"
+    },
+    {
+      "char": "4",
+      "block": "quark:dark_oak_bookshelf"
+    },
+    {
+      "char": "5",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
+    },
+    {
+      "char": "6",
+      "block": "minecraft:stripped_dark_oak_log[axis=y]"
+    },
+    {
+      "char": "7",
+      "block": "pfm:dark_concrete_kitchen_wall_counter[facing=west]"
+    },
+    {
+      "char": "8",
+      "block": "biomesoplenty:cherry_button[facing=north,face=floor]"
+    },
+    {
+      "char": "9",
+      "block": "zombie_extreme:vending_machine[facing=north]"
+    },
+    {
+      "char": "@",
+      "block": "biomesoplenty:flesh_tendons"
+    },
+    {
+      "char": "#",
+      "block": "pfm:smooth_stone_kitchen_counter[facing=north]"
+    },
+    {
+      "char": "$",
+      "block": "pfm:smooth_stone_kitchen_sink[facing=north,level=0]"
+    },
+    {
+      "char": "%",
+      "block": "pfm:trashcan[open=false]"
+    },
+    {
+      "char": "^",
+      "block": "biomesoplenty:cherry_pressure_plate"
+    },
+    {
+      "char": "&",
+      "block": "biomesoplenty:bramble[up=false,down=true]"
+    },
+    {
+      "char": "*",
+      "block": "zombie_extreme:vending_machine[facing=west]"
+    },
+    {
+      "char": "(",
+      "block": "quark:quartz_vertical_slab[type=north,waterlogged=false]"
+    },
+    {
+      "char": ")",
+      "block": "embellishcraft:dark_oak_plain_door[half=lower,open=true,hinge=right,facing=north]"
+    },
+    {
+      "char": "+",
+      "block": "embellishcraft:dark_oak_plain_door[half=lower,open=false,hinge=right,facing=north]"
+    },
+    {
+      "char": "-",
+      "block": "quark:quartz_vertical_slab[type=west,waterlogged=false]"
+    },
+    {
+      "char": "[",
+      "block": "pfm:basic_toilet[facing=south,toilet=empty]"
+    },
+    {
+      "char": "]",
+      "block": "quark:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "{",
+      "block": "apocalypsenow:planksc[facing=east]"
+    },
+    {
+      "char": "}",
+      "block": "biomesoplenty:hellbark_door[half=upper,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "\\",
+      "block": "apocalypsenow:planks_a[facing=east]"
+    },
+    {
+      "char": "|",
+      "block": "pfm:light_gray_arm_chair[facing=west,shape=straight]"
+    },
+    {
+      "char": "`",
+      "block": "minecraft:dark_oak_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+    },
+    {
+      "char": ":",
+      "block": "pfm:white_mirror[facing=north]"
+    },
+    {
+      "char": ";",
+      "block": "biomesoplenty:pus_bubble"
+    },
+    {
+      "char": "'",
+      "block": "embellishcraft:dark_oak_plain_door[half=upper,open=true,hinge=right,facing=north]"
+    },
+    {
+      "char": ",",
+      "block": "embellishcraft:dark_oak_plain_door[half=upper,open=false,hinge=right,facing=north]"
+    },
+    {
+      "char": ".",
+      "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    },
+    {
+      "char": "/",
+      "block": "minecraft:flower_pot"
+    },
+    {
+      "char": "<",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": ">",
+      "block": "biomesoplenty:flesh_tendons_strand"
+    },
+    {
+      "char": "?",
+      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "\u00a3",
+      "block": "embellishcraft:vent_air_duct[facing=down]"
+    },
+    {
+      "char": "\u00a4",
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "\u00a5",
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "\u00a7",
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "\u00c0",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "\u00c1",
+      "block": "simplylight:illuminant_block"
+    },
+    {
+      "char": "\u00c2",
+      "block": "simplylight:illuminant_block_on"
+    },
+    {
+      "char": "\u00c3",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "\u00c4",
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "\u00c5",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "\u00c6",
+      "block": "biomesoplenty:bramble[up=true,down=true]"
+    }
+  ]
+}

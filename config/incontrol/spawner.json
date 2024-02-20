@@ -260,14 +260,42 @@
 		  "norestrictions": true,
 		  "mindist": 25,
 		  "maxdist": 200,
-		  "minheight": 45,
+		  "minheight": 0,
+		  "maxheight": 300
+		}
+	},
+	{
+		"mob": ["undead_revamp2:clogger"],
+		"persecond": 0.1,
+		"attempts": 10,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 10,
+		  "maxdist": 200,
+		  "minheight": -60,
+		  "maxheight": 300
+		}
+	},
+	{
+		"mob": ["undead_revamp2:theheavy",
+				"undead_revamp2:thespectre",
+				"undead_revamp2:thegliter"],
+		"persecond": 0.5,
+		"attempts": 30,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 10,
+		  "maxdist": 200,
+		  "minheight": -60,
 		  "maxheight": 300
 		}
 	},
 	{
 		"mob": ["undead_revamp2:thebidy"],
 		"persecond": 0.05,
-		"attempts": 15,
+		"attempts": 10,
 		"conditions": {
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
@@ -289,7 +317,7 @@
 		  "norestrictions": true,
 		  "mindist": 25,
 		  "maxdist": 165,
-		  "minheight": 45,
+		  "minheight": -20,
 		  "maxheight": 300
 		}
 	},

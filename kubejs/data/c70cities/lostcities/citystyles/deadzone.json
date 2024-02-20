@@ -108,12 +108,16 @@
         "value": "c70cities:multi_derrick"
       },
       {
-        "factor": 0.5,
+        "factor": 0.3,
         "value": "c70cities:multi_militarybase"
       },
       {
         "factor": 0.3,
         "value": "c70cities:multi_gasstation"
+      },
+      {
+        "factor": 2.0,
+        "value": "c70cities:multi_laboratory1"
       }
     ],
     "bridges": [
