@@ -29,11 +29,11 @@
 				"experience": [
 					{
 						"condition": "xpmobs",
-						"expression": "(dropped_xp / 30) + (max_health / 20)"
+						"expression": "(dropped_xp / 20) + (max_health / 10)"
 					}
 				],
 				"anti_farming": {
-					"limit_per_chunk": 100,
+					"limit_per_chunk": 300,
 					"reset_after_seconds": 300
 				}
 			}
