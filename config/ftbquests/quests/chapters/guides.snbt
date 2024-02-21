@@ -67,7 +67,7 @@
 		{
 			title: "{quest.guides.engineer.title}"
 			icon: "immersiveengineering:manual"
-			x: -1.5d
+			x: -2.25d
 			y: -1.5d
 			shape: "square"
 			subtitle: "{quest.guides.engineer.subtitle}"
@@ -91,7 +91,7 @@
 		{
 			title: "{quest.guides.encyclopedia.title}"
 			icon: "alexsmobs:animal_dictionary"
-			x: 1.5d
+			x: 0.0d
 			y: -1.5d
 			shape: "square"
 			subtitle: "{quest.guides.encyclopedia.subtitle}"
@@ -172,7 +172,7 @@
 		{
 			title: "{quest.guides.parkour.title}"
 			icon: "minecraft:player_head"
-			x: 4.5d
+			x: 2.25d
 			y: -1.5d
 			shape: "square"
 			subtitle: "{quest.guides.parkour.subtitle}"
@@ -240,7 +240,7 @@
 		{
 			title: "{quest.guides.blaze.title}"
 			icon: "minecraft:blaze_powder"
-			x: -4.5d
+			x: -3.0d
 			y: 9.75d
 			shape: "square"
 			subtitle: "{quest.guides.blaze.subtitle}"
@@ -264,7 +264,7 @@
 				Count: 1b
 				tag: { }
 			}
-			x: 4.5d
+			x: 3.0d
 			y: 9.75d
 			shape: "square"
 			subtitle: "{quest.guides.compass.subtitle}"
@@ -289,35 +289,9 @@
 			}]
 		}
 		{
-			title: "{quest.guides.villager.title}"
-			icon: "artifacts:villager_hat"
-			x: -1.5d
-			y: 9.75d
-			shape: "square"
-			subtitle: "{quest.guides.villager.subtitle}"
-			description: [
-				"{quest.guides.villager.description_1}"
-				""
-				"{quest.guides.villager.description_2}"
-			]
-			dependency_requirement: "one_started"
-			size: 1.5d
-			progression_mode: "flexible"
-			id: "70DC5AD38FB776CE"
-			tasks: [{
-				id: "5BCA5E99C2C682DF"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "4DD9DEB8BD86CDEF"
-				type: "xp"
-				xp: 10
-			}]
-		}
-		{
 			title: "{quest.guides.remnants.title}"
 			icon: "another_furniture:oak_bench"
-			x: 1.5d
+			x: 0.0d
 			y: 9.75d
 			shape: "square"
 			subtitle: "{quest.guides.remnants.subtitle}"
@@ -564,6 +538,33 @@
 				type: "item"
 				item: "drg_flares:drg_flare_yellow"
 				count: 64
+			}]
+		}
+		{
+			title: "{quest.guides.paladin.title}"
+			icon: "pfm:furniture_book"
+			x: 4.5d
+			y: -1.5d
+			shape: "square"
+			subtitle: "{quest.guides.paladin.subtitle}"
+			description: [
+				"{quest.guides.paladin.description_1}"
+				""
+				"{quest.guides.paladin.description_2}"
+			]
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			progression_mode: "flexible"
+			id: "6DD6F8B79319D27D"
+			tasks: [{
+				id: "73A6EE36F0AD1875"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "09298241B791FD0C"
+				type: "item"
+				item: "pfm:furniture_book"
 			}]
 		}
 	]
