@@ -50,14 +50,10 @@
     },
     {
       "char": "i",
-      "block": "simplylight:lightbulb[waterlogged=false,facing=south]"
-    },
-    {
-      "char": "j",
       "block": "create:piston_extension_pole[waterlogged=false,facing=down]"
     },
     {
-      "char": "k",
+      "char": "j",
       "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
     }
   ]

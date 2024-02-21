@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "simplylight:wall_lamp[waterlogged=false,facing=east]"
+      "block": "minecraft:stone_button[facing=east,face=wall]"
     },
     {
       "char": "j",
@@ -43,18 +43,22 @@
     },
     {
       "char": "k",
-      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=east]"
     },
     {
       "char": "l",
-      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
     },
     {
       "char": "m",
-      "block": "embellishcraft:vent_air_duct[facing=east]"
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
     },
     {
       "char": "n",
+      "block": "embellishcraft:vent_air_duct[facing=east]"
+    },
+    {
+      "char": "o",
       "block": "createaddition:seed_oil[level=0]"
     }
   ]
