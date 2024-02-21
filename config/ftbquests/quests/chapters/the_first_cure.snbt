@@ -170,7 +170,7 @@
 		}
 		{
 			title: "{quest.cure.origin.title}"
-			x: -3.75d
+			x: -1.5d
 			y: 4.5d
 			shape: "hexagon"
 			subtitle: "{quest.cure.origin.subtitle}"
@@ -181,12 +181,10 @@
 				""
 				"{quest.cure.origin.description_3}"
 			]
-			dependencies: [
-				"22113D22B765DBDB"
-				"7F507AF34DA3B2BC"
-			]
+			dependencies: ["6C0B6C51FE103AD3"]
 			hide: true
 			dependency_requirement: "one_started"
+			hide_text_until_complete: false
 			size: 1.5d
 			progression_mode: "linear"
 			id: "7B087BEE5A6B47E1"
@@ -204,7 +202,7 @@
 		}
 		{
 			title: "{quest.cure.brain.title}"
-			x: -1.5d
+			x: 1.0d
 			y: 4.5d
 			description: ["{quest.cure.brain.description_1}"]
 			dependencies: ["7B087BEE5A6B47E1"]
@@ -225,7 +223,7 @@
 		}
 		{
 			title: "{quest.cure.heart.title}"
-			x: -1.5d
+			x: 1.0d
 			y: 3.5d
 			description: ["{quest.cure.heart.description_1}"]
 			dependencies: ["7B087BEE5A6B47E1"]
@@ -246,7 +244,7 @@
 		}
 		{
 			title: "{quest.cure.flesh.title}"
-			x: -1.5d
+			x: 1.0d
 			y: 5.5d
 			description: ["{quest.cure.flesh.description_1}"]
 			dependencies: ["7B087BEE5A6B47E1"]
@@ -267,8 +265,9 @@
 		}
 		{
 			title: "{quest.cure.membrane.title}"
-			x: 0.5d
+			x: 3.0d
 			y: 4.5d
+			subtitle: "{quest.cure.membrane.subtitle}"
 			description: ["{quest.cure.membrane.description_1}"]
 			dependencies: [
 				"4A348EF15453D3CC"
@@ -297,7 +296,13 @@
 			y: 0.0d
 			shape: "square"
 			subtitle: "{quest.cure.finale.subtitle}"
-			description: ["{quest.cure.finale.description_1}"]
+			description: [
+				"{quest.cure.finale.description_1}"
+				""
+				"{quest.cure.finale.description_2}"
+				""
+				"{quest.cure.finale.description_3}"
+			]
 			dependencies: [
 				"17FED0C0673B0743"
 				"3868EB3CF99FB29F"
@@ -569,6 +574,37 @@
 					xp: 100
 				}
 			]
+		}
+		{
+			title: "{quest.cure.keycard.title}"
+			x: -3.75d
+			y: 4.5d
+			shape: "hexagon"
+			subtitle: "{quest.cure.keycard.subtitle}"
+			description: [
+				"{quest.cure.keycard.description_1}"
+				""
+				"{quest.cure.keycard.description_2}"
+			]
+			dependencies: [
+				"22113D22B765DBDB"
+				"7F507AF34DA3B2BC"
+			]
+			hide: true
+			dependency_requirement: "one_started"
+			size: 1.5d
+			progression_mode: "linear"
+			id: "6C0B6C51FE103AD3"
+			tasks: [{
+				id: "33C37FD86E71315A"
+				type: "item"
+				item: "zombie_extreme:magnetic_card"
+			}]
+			rewards: [{
+				id: "73B4F7A031C2CB68"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 		}
 	]
 	quest_links: [ ]
