@@ -573,6 +573,32 @@
 				}
 			]
 		}
+		{
+			title: "{quest.temperature.insulation_removal.title}"
+			x: -6.0d
+			y: -3.5d
+			subtitle: "{quest.temperature.insulation_removal.subtitle}"
+			description: ["{quest.temperature.insulation_removal.description_1}"]
+			dependencies: ["2ED4C94026456CCA"]
+			id: "06F2AF285065F264"
+			tasks: [{
+				id: "7FEEEF9F0136F67D"
+				type: "item"
+				item: {
+					id: "minecraft:shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "31840097B3E894A2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3132227616718337425L
+			}]
+		}
 	]
 	quest_links: [ ]
 }

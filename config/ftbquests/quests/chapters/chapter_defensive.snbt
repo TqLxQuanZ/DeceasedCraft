@@ -1228,9 +1228,10 @@
 				title: "Mending"
 			}]
 			rewards: [{
-				id: "0BF630B4120E6011"
-				type: "item"
-				item: "minecraft:cookie"
+				id: "07389C4AB689233D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3132227616718337425L
 			}]
 		}
 		{
@@ -1252,9 +1253,10 @@
 				title: "The Mechanical Age"
 			}]
 			rewards: [{
-				id: "7E5347F823380CDB"
-				type: "item"
-				item: "create:builders_tea"
+				id: "5E7ECD69CA422229"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3132227616718337425L
 			}]
 		}
 		{
