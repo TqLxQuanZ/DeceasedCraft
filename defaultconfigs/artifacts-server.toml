@@ -43,7 +43,7 @@
 		#Affects how many times the player can double jump before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 2048
 		#Affects double jump height while sprinting
 		#1 for no height bonus
 		#Range: 0.0 ~ Infinity
@@ -320,7 +320,7 @@
 		#Affects how many attacks can be blocked using the umbrella
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 2048
 		#Whether umbrellas can be used as a shield
 		is_shield = true
 
@@ -343,7 +343,7 @@
 		#Affects how many enemies can be hit using the vampiric glove
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 2048
 		#The ratio of dealt damage absorbed by the wearer
 		#Range: 0.0 ~ Infinity
 		absorption_ratio = 0.1
@@ -355,7 +355,7 @@
 		#Affects how many trades can be completed using the villager hat
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 360
 		#Affects how much prices are reduced by the villager hat
 		#Range: > 0
 		reputation_bonus = 30
