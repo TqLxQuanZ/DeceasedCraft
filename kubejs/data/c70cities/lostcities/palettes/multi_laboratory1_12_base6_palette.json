@@ -107,7 +107,8 @@
     },
     {
       "char": "C",
-      "block": "zombie_extreme:dead_body[facing=east]"
+      "block": "zombie_extreme:dead_body[facing=east]",
+      "loot": "chestloot"
     },
     {
       "char": "D",
@@ -189,18 +190,14 @@
     },
     {
       "char": "X",
-      "block": "biomesoplenty:pus_bubble"
-    },
-    {
-      "char": "Y",
       "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=south]"
     },
     {
-      "char": "Z",
+      "char": "Y",
       "block": "embellishcraft:grid_air_duct[facing=down]"
     },
     {
-      "char": "0",
+      "char": "Z",
       "block": "embellishcraft:air_duct"
     }
   ]

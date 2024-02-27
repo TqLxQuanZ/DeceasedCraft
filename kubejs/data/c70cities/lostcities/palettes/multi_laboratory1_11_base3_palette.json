@@ -136,11 +136,6 @@
     },
     {
       "char": "L",
-      "block": "apocalypsenow:iron_locker[facing=east]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "M",
       "block": "minecraft:repeating_command_block[facing=south,conditional=false]",
       "tag": {
         "conditionMet": 1,
@@ -149,40 +144,45 @@
       }
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
     },
     {
-      "char": "O",
+      "char": "N",
       "block": "minecraft:dark_oak_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
-      "char": "P",
+      "char": "O",
       "block": "minecraft:dark_oak_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
-      "char": "Q",
+      "char": "P",
       "block": "create:framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "R",
+      "char": "Q",
       "block": "minecraft:potted_dark_oak_sapling"
     },
     {
-      "char": "S",
+      "char": "R",
       "block": "minecraft:dark_oak_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
-      "char": "T",
+      "char": "S",
       "block": "biomesoplenty:hellbark_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
-      "char": "U",
+      "char": "T",
       "block": "minecraft:flower_pot"
     },
     {
-      "char": "V",
+      "char": "U",
       "block": "zombie_extreme:radio_installation[facing=north]"
+    },
+    {
+      "char": "V",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "W",

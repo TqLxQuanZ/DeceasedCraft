@@ -48,7 +48,8 @@
     },
     {
       "char": "l",
-      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=east]"
+      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=east]",
+      "loot": "chestloot"
     },
     {
       "char": "m",
@@ -73,175 +74,185 @@
     },
     {
       "char": "r",
-      "block": "create:polished_cut_calcite"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
     },
     {
       "char": "s",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
+      "block": "create:polished_cut_calcite"
     },
     {
       "char": "t",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=false,facing=east]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
     },
     {
       "char": "u",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=false,facing=east]"
     },
     {
       "char": "w",
-      "block": "minecraft:polished_deepslate_wall[waterlogged=false,up=true]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
     },
     {
       "char": "x",
-      "block": "biomesoplenty:hellbark_button[facing=north,face=floor]"
+      "block": "minecraft:polished_deepslate_wall[waterlogged=false,up=true]"
     },
     {
       "char": "y",
-      "block": "another_furniture:gray_stool[waterlogged=false]"
+      "block": "biomesoplenty:hellbark_button[facing=north,face=floor]"
     },
     {
       "char": "A",
-      "block": "biomesoplenty:hellbark_button[facing=west,face=floor]"
+      "block": "another_furniture:gray_stool[waterlogged=false]"
     },
     {
       "char": "B",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
+      "block": "biomesoplenty:hellbark_button[facing=west,face=floor]"
     },
     {
       "char": "C",
-      "block": "buildersdelight:dark_oak_chair_2"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
     },
     {
       "char": "D",
-      "block": "embellishcraft:white_steel_door[half=lower,open=false,hinge=left,facing=north]"
+      "block": "buildersdelight:dark_oak_chair_2"
     },
     {
       "char": "E",
-      "block": "embellishcraft:white_steel_door[half=lower,open=false,hinge=left,facing=west]"
+      "block": "embellishcraft:white_steel_door[half=lower,open=false,hinge=left,facing=north]"
     },
     {
       "char": "F",
-      "block": "zombie_extreme:iron_table[facing=east]"
+      "block": "embellishcraft:white_steel_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
       "char": "I",
-      "block": "quark:blossom_pressure_plate"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
     },
     {
       "char": "J",
-      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
+      "block": "zombie_extreme:iron_table[facing=east]"
     },
     {
       "char": "K",
-      "block": "embellishcraft:basalt_button[facing=south,face=floor]"
+      "block": "quark:blossom_pressure_plate"
     },
     {
       "char": "L",
-      "block": "quark:blossom_button[facing=west,face=floor]"
+      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "M",
-      "block": "embellishcraft:basalt_button[facing=west,face=floor]"
+      "block": "embellishcraft:basalt_button[facing=south,face=floor]"
     },
     {
       "char": "N",
-      "block": "embellishcraft:smooth_basalt_pressure_plate"
+      "block": "quark:blossom_button[facing=west,face=floor]"
     },
     {
       "char": "O",
-      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
+      "block": "embellishcraft:basalt_button[facing=west,face=floor]"
     },
     {
       "char": "P",
-      "block": "zombie_extreme:computer_monitor[facing=north]"
+      "block": "embellishcraft:smooth_basalt_pressure_plate"
     },
     {
       "char": "Q",
-      "block": "apocalypsenow:brokenoldradio[facing=north]"
+      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "R",
-      "block": "create:framed_glass_door[half=upper,open=true,hinge=left,facing=east]"
+      "block": "zombie_extreme:computer_monitor[facing=north]"
     },
     {
       "char": "S",
-      "block": "zombie_extreme:radio_installation[facing=south]"
+      "block": "apocalypsenow:brokenoldradio[facing=north]"
     },
     {
       "char": "T",
-      "block": "zombie_extreme:computer_monitor[facing=south]"
+      "block": "create:framed_glass_door[half=upper,open=true,hinge=left,facing=east]"
     },
     {
       "char": "U",
-      "block": "create:framed_glass_door[half=upper,open=true,hinge=right,facing=east]"
+      "block": "zombie_extreme:radio_installation[facing=south]"
     },
     {
       "char": "V",
-      "block": "quark:spruce_hedge[waterlogged=false]"
+      "block": "zombie_extreme:computer_monitor[facing=south]"
     },
     {
       "char": "W",
-      "block": "minecraft:end_rod[facing=up]"
+      "block": "create:framed_glass_door[half=upper,open=true,hinge=right,facing=east]"
     },
     {
       "char": "X",
-      "block": "quark:iron_rod[facing=up]"
+      "block": "quark:spruce_hedge[waterlogged=false]"
     },
     {
       "char": "Y",
-      "block": "create:framed_glass_pane[waterlogged=false]"
+      "block": "minecraft:end_rod[facing=up]"
     },
     {
       "char": "Z",
-      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=left,facing=north]"
+      "block": "quark:iron_rod[facing=up]"
     },
     {
       "char": "0",
-      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=left,facing=west]"
+      "block": "create:framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "1",
-      "block": "embellishcraft:white_pillow[waterlogged=false,occupied=false,part=head,facing=west]"
+      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
       "char": "2",
+      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "3",
+      "block": "embellishcraft:white_pillow[waterlogged=false,occupied=false,part=head,facing=west]"
+    },
+    {
+      "char": "4",
       "block": "apocalypsenow:medical_storage[waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
-      "char": "3",
+      "char": "5",
       "block": "minecraft:end_rod[facing=down]"
     },
     {
-      "char": "4",
+      "char": "6",
       "block": "quark:iron_rod[facing=down]"
     },
     {
-      "char": "5",
+      "char": "7",
       "block": "immersiveengineering:steel_fence[waterlogged=false]"
     },
     {
-      "char": "6",
+      "char": "8",
       "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "7",
+      "char": "9",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "8",
+      "char": "@",
       "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
     },
     {
-      "char": "9",
+      "char": "#",
       "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
-      "char": "@",
+      "char": "$",
       "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "#",
+      "char": "%",
       "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     }
   ]

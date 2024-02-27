@@ -271,17 +271,6 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "artifacts:aqua_dashers",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
           "name": "artifacts:bunny_hoppers",
           "conditions": [
             {
@@ -415,17 +404,6 @@
           "type": "minecraft:item",
           "weight": 2,
           "name": "artifacts:thorn_pendant",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "artifacts:charm_of_sinking",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -590,17 +568,6 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "nameless_trinkets:puffer_fish_liver",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
           "name": "nameless_trinkets:rage_mind",
           "conditions": [
             {
@@ -612,128 +579,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "nameless_trinkets:blaze_nucleus",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "nameless_trinkets:ice_cube",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "nameless_trinkets:tear_of_the_sea",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "nameless_trinkets:amphibious_hands",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "nameless_trinkets:gills",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
           "name": "nameless_trinkets:spider_legs",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "nameless_trinkets:electric_paddle",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "nameless_trinkets:miners_soul",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "nameless_trinkets:light_gloves",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "nameless_trinkets:four_leaf_clover",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "nameless_trinkets:nelumbo",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "nameless_trinkets:dark_nelumbo",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

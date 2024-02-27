@@ -132,7 +132,8 @@
     },
     {
       "char": "K",
-      "block": "zombie_extreme:dead_body[facing=east]"
+      "block": "zombie_extreme:dead_body[facing=east]",
+      "loot": "chestloot"
     },
     {
       "char": "L",
@@ -141,7 +142,8 @@
     },
     {
       "char": "M",
-      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=north]"
+      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "N",
@@ -197,8 +199,7 @@
     },
     {
       "char": "0",
-      "block": "zombie_extreme:vending_machine[facing=north]",
-      "loot": "chestloot"
+      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "1",
