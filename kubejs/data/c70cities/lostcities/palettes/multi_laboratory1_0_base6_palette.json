@@ -91,7 +91,8 @@
     },
     {
       "char": "x",
-      "block": "zombie_extreme:vending_machine[facing=east]"
+      "block": "zombie_extreme:vending_machine[facing=east]",
+      "loot": "chestloot"
     },
     {
       "char": "y",
@@ -103,7 +104,8 @@
     },
     {
       "char": "B",
-      "block": "zombie_extreme:vending_machine[facing=north]"
+      "block": "zombie_extreme:vending_machine[facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "C",

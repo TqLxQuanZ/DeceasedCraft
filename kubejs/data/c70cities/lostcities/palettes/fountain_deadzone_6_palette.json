@@ -1,0 +1,45 @@
+{
+  "name": "fountain_deadzone_6_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "createdeco:cast_iron_block"
+    },
+    {
+      "char": "g",
+      "block": "apocalypsenow:wire_fence[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "createdeco:cast_iron_mesh_fence[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "biomesoplenty:dead_grass"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:redstone_torch[lit=true]"
+    }
+  ]
+}

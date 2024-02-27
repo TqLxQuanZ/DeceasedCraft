@@ -103,31 +103,26 @@
     },
     {
       "char": "B",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "C",
       "block": "minecraft:jukebox"
     },
     {
-      "char": "D",
+      "char": "C",
       "block": "pfm:dark_oak_log_stool[facing=north]"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "minecraft:grindstone[facing=east,face=floor]"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     }
   ]

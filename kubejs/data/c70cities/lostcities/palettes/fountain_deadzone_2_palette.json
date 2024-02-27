@@ -1,0 +1,53 @@
+{
+  "name": "fountain_deadzone_2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:concrete_paving_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "d",
+      "block": "embellishcraft:concrete_paving"
+    },
+    {
+      "char": "e",
+      "block": "biomesoplenty:dead_log[axis=y]"
+    },
+    {
+      "char": "f",
+      "block": "biomesoplenty:dead_grass"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:stone_button[facing=south,face=floor]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:stone_button[facing=east,face=floor]"
+    },
+    {
+      "char": "i",
+      "block": "biomesoplenty:dead_leaves"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:stone_button[facing=west,face=floor]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:wither_rose"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:stone_button[facing=north,face=floor]"
+    }
+  ]
+}

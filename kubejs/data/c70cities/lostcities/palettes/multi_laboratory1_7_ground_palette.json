@@ -63,55 +63,60 @@
     },
     {
       "char": "p",
-      "block": "another_furniture:dark_oak_drawer[open=false,facing=west]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "q",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
+      "loot": "chestloot"
     },
     {
       "char": "r",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
     },
     {
       "char": "s",
-      "block": "minecraft:dark_oak_button[facing=north,face=floor]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
     },
     {
       "char": "t",
-      "block": "quark:dark_oak_hedge[waterlogged=false]"
+      "block": "minecraft:dark_oak_button[facing=north,face=floor]"
     },
     {
       "char": "u",
-      "block": "minecraft:cobweb"
+      "block": "quark:dark_oak_hedge[waterlogged=false]"
     },
     {
       "char": "w",
-      "block": "buildersdelight:lantern_6[waterlogged=false,facing=west,face=wall]"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "x",
-      "block": "minecraft:lectern[facing=south]"
+      "block": "buildersdelight:lantern_6[waterlogged=false,facing=west,face=wall]"
     },
     {
       "char": "y",
-      "block": "minecraft:potted_dark_oak_sapling"
+      "block": "minecraft:lectern[facing=south]"
     },
     {
       "char": "A",
-      "block": "minecraft:anvil[facing=east]"
+      "block": "minecraft:potted_dark_oak_sapling"
     },
     {
       "char": "B",
-      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
+      "block": "minecraft:anvil[facing=east]"
     },
     {
       "char": "C",
-      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
     },
     {
       "char": "D",
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "E",
       "block": "embellishcraft:light_gray_corrugated_metal_plate"
     }
   ]

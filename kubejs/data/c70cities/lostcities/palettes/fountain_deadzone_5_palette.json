@@ -1,0 +1,57 @@
+{
+  "name": "fountain_deadzone_5_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "c",
+      "block": "biomesoplenty:dead_grass"
+    },
+    {
+      "char": "d",
+      "block": "biomesoplenty:fir_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "e",
+      "block": "biomesoplenty:dead_leaves"
+    },
+    {
+      "char": "f",
+      "block": "biomesoplenty:dead_sapling"
+    },
+    {
+      "char": "g",
+      "block": "biomesoplenty:fir_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
+    },
+    {
+      "char": "h",
+      "block": "biomesoplenty:fir_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "j",
+      "block": "biomesoplenty:fir_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
+    },
+    {
+      "char": "k",
+      "block": "biomesoplenty:dead_log[axis=y]"
+    },
+    {
+      "char": "l",
+      "block": "biomesoplenty:dead_fence[waterlogged=false]"
+    },
+    {
+      "char": "m",
+      "block": "pfm:dead_biomesoplenty_log_stool[facing=north]"
+    }
+  ]
+}

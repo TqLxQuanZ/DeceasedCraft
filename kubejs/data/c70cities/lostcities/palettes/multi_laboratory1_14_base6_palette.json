@@ -139,11 +139,13 @@
     },
     {
       "char": "M",
-      "block": "apocalypsenow:metal_shelves[waterlogged=false,facing=north]"
+      "block": "apocalypsenow:metal_shelves[waterlogged=false,facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "N",
-      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=north]"
+      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "O",

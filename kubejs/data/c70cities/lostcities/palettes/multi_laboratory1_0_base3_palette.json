@@ -107,7 +107,8 @@
     },
     {
       "char": "C",
-      "block": "zombie_extreme:vending_machine[facing=west]"
+      "block": "zombie_extreme:vending_machine[facing=west]",
+      "loot": "chestloot"
     },
     {
       "char": "D",
@@ -195,7 +196,8 @@
     },
     {
       "char": "0",
-      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=west]"
+      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=west]",
+      "loot": "chestloot"
     },
     {
       "char": "1",
