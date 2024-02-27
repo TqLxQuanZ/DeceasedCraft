@@ -4,7 +4,7 @@ onEvent('postinit', (event => {
     CustomPortalBuilder.beginPortal()
         ['frameBlock(net.minecraft.resources.ResourceLocation)'](new ResourceLocation('buildersdelight', 'laboratory_3'))
         .destDimID(new ResourceLocation('deceasedcraft', 'abyss'))
-		.lightWithItem(new ResourceLocation('refinedstorage', 'advanced_processor'))
+		.lightWithItem(new ResourceLocation('zombie_extreme', 'magnetic_card'))
 		.flatPortal()
         .tintColor(61, 61, 61)
         .registerPortal();

@@ -136,7 +136,6 @@ villagerTrades.addTrade(<profession:minecraft:cleric>, 3, <item:apocalypsenow:mo
 villagerTrades.removeAllTrades(<profession:minecraft:cleric>, 4);
 
 villagerTrades.addTrade(<profession:minecraft:cleric>, 3, <item:apocalypsenow:money>, <item:minecraft:dragon_breath>, 64, 20, 0.2);
-villagerTrades.addTrade(<profession:minecraft:cleric>, 4, <item:apocalypsenow:money> * 32, <item:minecraft:shulker_shell>, 6, 8, 0.05);
 
 // Tier 5
 villagerTrades.removeAllTrades(<profession:minecraft:cleric>, 5);

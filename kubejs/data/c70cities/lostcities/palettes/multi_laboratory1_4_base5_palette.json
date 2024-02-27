@@ -47,83 +47,88 @@
     },
     {
       "char": "l",
-      "block": "zombie_extreme:wooden_chair[facing=north]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "m",
-      "block": "zombie_extreme:wooden_chair[facing=east]"
+      "block": "zombie_extreme:wooden_chair[facing=north]"
     },
     {
       "char": "n",
-      "block": "pfm:dark_concrete_kitchen_counter[facing=south]"
+      "block": "zombie_extreme:wooden_chair[facing=east]"
     },
     {
       "char": "o",
-      "block": "zombie_extreme:wooden_chair[facing=south]"
+      "block": "pfm:dark_concrete_kitchen_counter[facing=south]"
     },
     {
       "char": "p",
-      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=east]"
+      "block": "zombie_extreme:wooden_chair[facing=south]"
     },
     {
       "char": "q",
-      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=east]"
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=east]"
     },
     {
       "char": "r",
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=east]"
+    },
+    {
+      "char": "s",
       "block": "pfm:dark_concrete_kitchen_drawer[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
-      "char": "s",
+      "char": "t",
       "block": "zombie_extreme:computer_monitor[facing=south]"
     },
     {
-      "char": "t",
+      "char": "u",
       "block": "zombie_extreme:computer_monitor[facing=east]"
     },
     {
-      "char": "u",
+      "char": "w",
       "block": "zombie_extreme:radio_installation[facing=east]"
     },
     {
-      "char": "w",
+      "char": "x",
       "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
-      "char": "x",
+      "char": "y",
       "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
-      "char": "y",
+      "char": "A",
       "block": "apocalypsenow:broken_plasma_tv[facing=north]"
     },
     {
-      "char": "A",
+      "char": "B",
       "block": "zombie_extreme:radio_installation[facing=north]"
     },
     {
-      "char": "B",
+      "char": "C",
       "block": "embellishcraft:smooth_basalt"
     },
     {
-      "char": "C",
+      "char": "D",
       "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "D",
+      "char": "E",
       "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "E",
+      "char": "F",
       "block": "simplylight:illuminant_block"
     },
     {
-      "char": "F",
+      "char": "I",
       "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
     },
     {
-      "char": "I",
+      "char": "J",
       "block": "simplylight:illuminant_block_on"
     }
   ]

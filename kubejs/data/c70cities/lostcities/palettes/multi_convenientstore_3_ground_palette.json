@@ -276,14 +276,10 @@
     },
     {
       "char": "+",
-      "block": "bunker_down:broken_ceiling_lamp"
-    },
-    {
-      "char": "-",
       "block": "minecraft:oak_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
-      "char": "[",
+      "char": "-",
       "block": "embellishcraft:vent_air_duct[facing=down]"
     }
   ]

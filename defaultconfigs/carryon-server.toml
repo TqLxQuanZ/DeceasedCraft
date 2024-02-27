@@ -3,7 +3,7 @@
 [settings]
 	#Maximum distance from where Blocks and Entities can be picked up
 	#Range: 0.0 ~ 1.7976931348623157E308
-	maxDistance = 2.5
+	maxDistance = 1.5
 	#Max width of entities that can be picked up in survival mode
 	#Range: 0.0 ~ 10.0
 	maxEntityWidth = 1.5
@@ -18,7 +18,7 @@
 	entitySlownessMultiplier = 1.0
 	#Maximum stack limit for entities
 	#Range: > 1
-	maxEntityStackLimit = 10
+	maxEntityStackLimit = 3
 	#More complex Tile Entities slow down the player more
 	heavyTiles = true
 	#Allow all blocks to be picked up, not just Tile Entites
@@ -50,7 +50,7 @@
 	#Blocks that cannot be picked up
 	forbiddenTiles = ["minecraft:spawner", "clickmachine:auto_clicker", "minecraft:command_block", "minecraft:repeating_command_block", "cfm:freezer_light", "cfm:freezer_dark", "cfm:fridge_light", "cfm:fridge_dark", "lootr:*", "securitycraft:*", "minecraft:bee_nest", "minecraft:beehive", "immersivepetroleum:*", "minecraft:furnace", "#forge:immovable", "#forge:relocation_not_supported", "minecraft:end_portal", "minecraft:end_gateway", "minecraft:tall_grass", "minecraft:large_fern", "minecraft:peony", "minecraft:rose_bush", "minecraft:lilac", "minecraft:sunflower", "minecraft:*_bed", "minecraft:oak_door", "minecraft:iron_door", "minecraft:spruce_door", "minecraft:birch_door", "minecraft:jungle_door", "minecraft:acacia_door", "minecraft:dark_oak_door", "minecraft:waterlily", "minecraft:cake", "minecraft:nether_portal", "minecraft:tall_seagrass", "animania:block_trough", "animania:block_invisiblock", "colossalchests:*", "ic2:*", "bigreactors:*", "forestry:*", "tconstruct:*", "rustic:*", "botania:*", "astralsorcery:*", "quark:colored_bed_*", "immersiveengineering:*", "embers:block_furnace", "embers:ember_bore", "embers:ember_activator", "embers:mixer", "embers:heat_coil", "embers:large_tank", "embers:crystal_cell", "embers:alchemy_pedestal", "embers:boiler", "embers:combustor", "embers:catalzyer", "embers:field_chart", "embers:inferno_forge", "storagedrawers:framingtable", "skyresources:*", "lootbags:*", "exsartagine:*", "aquamunda:tank", "opencomputers:*", "malisisdoors:*", "industrialforegoing:*", "minecolonies:*", "thaumcraft:pillar*", "thaumcraft:infernal_furnace", "thaumcraft:placeholder*", "thaumcraft:infusion_matrix", "thaumcraft:golem_builder", "thaumcraft:thaumatorium*", "magneticraft:oil_heater", "magneticraft:solar_panel", "magneticraft:steam_engine", "magneticraft:shelving_unit", "magneticraft:grinder", "magneticraft:sieve", "magneticraft:solar_tower", "magneticraft:solar_mirror", "magneticraft:container", "magneticraft:pumpjack", "magneticraft:solar_panel", "magneticraft:refinery", "magneticraft:oil_heater", "magneticraft:hydraulic_press", "magneticraft:multiblock_gap", "refinedstorage:*", "mcmultipart:*", "enderstorage:*", "betterstorage:*", "practicallogistics2:*", "wearablebackpacks:*", "rftools:screen", "rftools:creative_screen", "create:*", "magic_doorknob:*", "iceandfire:*", "ftbquests:*", "waystones:*"]
 	#Entities that cannot be picked up
-	forbiddenEntities = ["alexsmobs:comb_jelly", "lootr:*", "securitycraft:*", "car:car", "minecraft:end_crystal", "minecraft:ender_dragon", "minecraft:ghast", "minecraft:shulker", "minecraft:leash_knot", "minecraft:armor_stand", "minecraft:item_frame", "minecraft:painting", "minecraft:shulker_bullet", "animania:hamster", "animania:ferret*", "animania:hedgehog*", "animania:cart", "animania:wagon", "mynko:*", "pixelmon:*", "mocreatures:*", "quark:totem", "vehicle:*"]
+	forbiddenEntities = ["alexsmobs:comb_jelly", "lootr:*", "securitycraft:*", "minecraft:end_crystal", "minecraft:ender_dragon", "minecraft:ghast", "minecraft:shulker", "minecraft:leash_knot", "minecraft:armor_stand", "minecraft:item_frame", "minecraft:painting", "minecraft:shulker_bullet", "animania:hamster", "animania:ferret*", "animania:hedgehog*", "animania:cart", "animania:wagon", "mynko:*", "pixelmon:*", "mocreatures:*", "quark:totem", "vehicle:*"]
 	#Entities that cannot have other entities stacked on top of them
 	forbiddenStacking = ["minecraft:horse"]
 

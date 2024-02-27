@@ -19,11 +19,15 @@
     },
     {
       "char": "e",
-      "block": "minecraft:pointed_dripstone[waterlogged=false]"
+      "block": "minecraft:pointed_dripstone[vertical_direction=up,waterlogged=false,thickness=base]"
     },
     {
       "char": "f",
       "block": "minecraft:cobbled_deepslate_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:pointed_dripstone[vertical_direction=up,waterlogged=false,thickness=frustum]"
     }
   ]
 }

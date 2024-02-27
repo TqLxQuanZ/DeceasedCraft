@@ -178,90 +178,86 @@
     },
     {
       "char": "V",
-      "block": "biomesoplenty:pus_bubble"
-    },
-    {
-      "char": "W",
       "block": "immersiveengineering:steel_slope[waterlogged=false,facing=west]"
     },
     {
-      "char": "X",
+      "char": "W",
       "block": "immersiveengineering:steel_slope[waterlogged=false,facing=east]"
     },
     {
-      "char": "Y",
+      "char": "X",
       "block": "quark:iron_button[facing=south,face=floor]"
     },
     {
-      "char": "Z",
+      "char": "Y",
       "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=false,facing=west]"
     },
     {
-      "char": "0",
+      "char": "Z",
       "block": "zombie_extreme:tube_tv[facing=west]"
     },
     {
-      "char": "1",
+      "char": "0",
       "block": "apocalypsenow:metal_bars[facing=down]"
     },
     {
-      "char": "2",
+      "char": "1",
       "block": "create:mechanical_drill[waterlogged=false,facing=north]",
       "tag": {
         "id": "create:drill"
       }
     },
     {
-      "char": "3",
+      "char": "2",
       "block": "create:gearbox[axis=x]",
       "tag": {
         "id": "create:gearbox"
       }
     },
     {
-      "char": "4",
+      "char": "3",
       "block": "create:cogwheel[waterlogged=false,axis=z]",
       "tag": {
         "id": "create:cogwheel"
       }
     },
     {
-      "char": "5",
+      "char": "4",
       "block": "create:shaft[waterlogged=false,axis=z]",
       "tag": {
         "id": "create:shaft"
       }
     },
     {
-      "char": "6",
+      "char": "5",
       "block": "createdeco:cast_iron_hull[facing=south]"
     },
     {
-      "char": "7",
+      "char": "6",
       "block": "minecraft:damaged_anvil[facing=south]"
     },
     {
-      "char": "8",
+      "char": "7",
       "block": "apocalypsenow:metal_bars[facing=west]"
     },
     {
-      "char": "9",
+      "char": "8",
       "block": "simplylight:rodlamp[waterlogged=false,axis=z]"
     },
     {
-      "char": "@",
+      "char": "9",
       "block": "apocalypsenow:metal_bars[facing=east]"
     },
     {
-      "char": "#",
+      "char": "@",
       "block": "createdeco:cast_iron_hull[facing=north]"
     },
     {
-      "char": "$",
+      "char": "#",
       "block": "createdeco:cast_iron_sheet_slab_vert[type=bottom,waterlogged=false,facing=east]"
     },
     {
-      "char": "%",
+      "char": "$",
       "block": "createdeco:cast_iron_sheet_slab_vert[type=bottom,waterlogged=false,facing=west]"
     }
   ]

@@ -67,22 +67,42 @@
     },
     {
       "char": "q",
-      "block": "minecraft:pointed_dripstone[waterlogged=false]"
+      "block": "minecraft:pointed_dripstone[vertical_direction=up,waterlogged=false,thickness=tip]"
     },
     {
       "char": "r",
-      "block": "create:red_toolbox[waterlogged=false,facing=east]"
+      "block": "minecraft:pointed_dripstone[vertical_direction=up,waterlogged=false,thickness=frustum]"
     },
     {
       "char": "s",
-      "block": "quark:dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
+      "block": "create:red_toolbox[waterlogged=false,facing=east]"
     },
     {
       "char": "t",
-      "block": "zombie_extreme:lamp[facing=north]"
+      "block": "quark:dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "u",
+      "block": "minecraft:pointed_dripstone[vertical_direction=up,waterlogged=false,thickness=tip_merge]"
+    },
+    {
+      "char": "w",
+      "block": "zombie_extreme:lamp[facing=north]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:pointed_dripstone[vertical_direction=down,waterlogged=false,thickness=tip]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:pointed_dripstone[vertical_direction=down,waterlogged=false,thickness=tip_merge]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:pointed_dripstone[vertical_direction=down,waterlogged=false,thickness=frustum]"
+    },
+    {
+      "char": "B",
       "block": "minecraft:cobbled_deepslate_slab[type=double,waterlogged=false]"
     }
   ]

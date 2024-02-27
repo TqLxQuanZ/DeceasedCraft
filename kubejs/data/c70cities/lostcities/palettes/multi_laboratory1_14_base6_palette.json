@@ -43,7 +43,8 @@
     },
     {
       "char": "k",
-      "block": "zombie_extreme:dead_body[facing=west]"
+      "block": "zombie_extreme:dead_body[facing=west]",
+      "loot": "chestloot"
     },
     {
       "char": "l",
@@ -135,143 +136,151 @@
     },
     {
       "char": "L",
-      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=north]"
+      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "M",
-      "block": "apocalypsenow:metal_shelves[waterlogged=false,facing=north]"
+      "block": "apocalypsenow:metal_shelves[waterlogged=false,facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "N",
-      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=north]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "O",
-      "block": "create:framed_glass_pane[waterlogged=false]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "P",
-      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=west]"
+      "block": "create:framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "Q",
-      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=east]"
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=west]"
     },
     {
       "char": "R",
-      "block": "biomesoplenty:bramble[up=false,down=true]"
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=east]"
     },
     {
       "char": "S",
-      "block": "biomesoplenty:porous_flesh"
+      "block": "biomesoplenty:bramble[up=false,down=true]"
     },
     {
       "char": "T",
-      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=west]"
+      "block": "biomesoplenty:porous_flesh"
     },
     {
       "char": "U",
-      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=west]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
       "char": "V",
-      "block": "createdeco:cast_iron_sheet_slab[type=top,waterlogged=false]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
       "char": "W",
-      "block": "apocalypsenow:metal_bars[facing=down]"
+      "block": "createdeco:cast_iron_sheet_slab[type=top,waterlogged=false]"
     },
     {
       "char": "X",
-      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=top,open=false,facing=south]"
+      "block": "apocalypsenow:metal_bars[facing=down]"
     },
     {
       "char": "Y",
-      "block": "biomesoplenty:hair"
+      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=top,open=false,facing=south]"
     },
     {
       "char": "Z",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+      "block": "biomesoplenty:hair"
     },
     {
       "char": "0",
-      "block": "biomesoplenty:flesh_tendons"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
     },
     {
       "char": "1",
-      "block": "createdeco:cast_iron_catwalk[waterlogged=false]"
+      "block": "biomesoplenty:flesh_tendons"
     },
     {
       "char": "2",
+      "block": "createdeco:cast_iron_catwalk[waterlogged=false]"
+    },
+    {
+      "char": "3",
       "block": "create:gearbox[axis=x]",
       "tag": {
         "id": "create:gearbox"
       }
     },
     {
-      "char": "3",
+      "char": "4",
       "block": "create:andesite_casing"
     },
     {
-      "char": "4",
+      "char": "5",
       "block": "apocalypsenow:metal_bars[facing=west]"
     },
     {
-      "char": "5",
+      "char": "6",
       "block": "apocalypsenow:metal_bars[facing=east]"
     },
     {
-      "char": "6",
+      "char": "7",
       "block": "minecraft:brown_shulker_box[facing=north]"
     },
     {
-      "char": "7",
+      "char": "8",
       "block": "create:cogwheel[waterlogged=false,axis=z]",
       "tag": {
         "id": "create:cogwheel"
       }
     },
     {
-      "char": "8",
+      "char": "9",
       "block": "create:shaft[waterlogged=false,axis=z]",
       "tag": {
         "id": "create:shaft"
       }
     },
     {
-      "char": "9",
+      "char": "@",
       "block": "createdeco:cast_iron_sheet_slab_vert[type=bottom,waterlogged=false,facing=east]"
     },
     {
-      "char": "@",
+      "char": "#",
       "block": "create:encased_fan[facing=south]"
     },
     {
-      "char": "#",
+      "char": "$",
       "block": "createdeco:cast_iron_sheet_slab_vert[type=bottom,waterlogged=false,facing=west]"
     },
     {
-      "char": "$",
+      "char": "%",
       "block": "simplylight:lightbulb[waterlogged=false,facing=south]"
     },
     {
-      "char": "%",
+      "char": "^",
       "block": "biomesoplenty:flesh_tendons_strand"
     },
     {
-      "char": "^",
+      "char": "&",
       "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
     },
     {
-      "char": "&",
+      "char": "*",
       "block": "createdeco:andesite_bars[waterlogged=false]"
     },
     {
-      "char": "*",
+      "char": "(",
       "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
     },
     {
-      "char": "(",
+      "char": ")",
       "block": "create:large_cogwheel[waterlogged=false,axis=z]"
     }
   ]

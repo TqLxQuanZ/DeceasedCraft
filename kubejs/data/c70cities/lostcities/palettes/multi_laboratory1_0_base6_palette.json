@@ -91,7 +91,8 @@
     },
     {
       "char": "x",
-      "block": "zombie_extreme:vending_machine[facing=east]"
+      "block": "zombie_extreme:vending_machine[facing=east]",
+      "loot": "chestloot"
     },
     {
       "char": "y",
@@ -103,91 +104,88 @@
     },
     {
       "char": "B",
-      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+      "block": "zombie_extreme:vending_machine[facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "C",
-      "block": "zombie_extreme:vending_machine[facing=north]"
-    },
-    {
-      "char": "D",
       "block": "biomesoplenty:hellbark_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "embellishcraft:dark_oak_plain_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "embellishcraft:dark_oak_fancy_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "another_furniture:spruce_shelf[type=left,waterlogged=false,facing=south]"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "another_furniture:spruce_shelf[type=right,waterlogged=false,facing=south]"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "quark:spruce_hedge[waterlogged=false]"
     },
     {
-      "char": "L",
+      "char": "K",
       "block": "pfm:white_mirror[facing=south]"
     },
     {
-      "char": "M",
+      "char": "L",
       "block": "pfm:white_mirror[facing=north]"
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "quark:spruce_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
-      "char": "O",
+      "char": "N",
       "block": "embellishcraft:dark_oak_fancy_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
-      "char": "P",
+      "char": "O",
       "block": "embellishcraft:dark_oak_plain_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
-      "char": "Q",
+      "char": "P",
       "block": "biomesoplenty:hellbark_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
-      "char": "R",
+      "char": "Q",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
-      "char": "S",
+      "char": "R",
       "block": "minecraft:flower_pot"
     },
     {
-      "char": "T",
+      "char": "S",
       "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
-      "char": "U",
+      "char": "T",
       "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "V",
+      "char": "U",
       "block": "embellishcraft:vent_air_duct[facing=down]"
     },
     {
-      "char": "W",
+      "char": "V",
       "block": "createdeco:cast_iron_catwalk_stair[waterlogged=false,facing=east]"
     },
     {
-      "char": "X",
+      "char": "W",
       "block": "createdeco:cast_iron_catwalk[waterlogged=false]"
     },
     {
-      "char": "Y",
+      "char": "X",
       "block": "embellishcraft:air_duct"
     }
   ]

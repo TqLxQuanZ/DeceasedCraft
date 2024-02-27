@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "minecraft:pointed_dripstone[waterlogged=false]"
+      "block": "minecraft:pointed_dripstone[vertical_direction=up,waterlogged=false,thickness=tip]"
     },
     {
       "char": "j",
@@ -43,23 +43,23 @@
     },
     {
       "char": "k",
-      "block": "buildersdelight:laboratory_3[axis=y]"
+      "block": "minecraft:magma_block"
     },
     {
       "char": "l",
-      "block": "buildersdelight:laboratory_3[axis=x]"
+      "block": "buildersdelight:laboratory_3[axis=y]"
     },
     {
       "char": "m",
-      "block": "embellishcraft:basalt_button[facing=south,face=floor]"
+      "block": "buildersdelight:laboratory_3[axis=x]"
     },
     {
       "char": "n",
-      "block": "embellishcraft:granite_button[facing=west,face=floor]"
+      "block": "embellishcraft:basalt_button[facing=south,face=floor]"
     },
     {
       "char": "o",
-      "block": "minecraft:magma_block"
+      "block": "embellishcraft:granite_button[facing=west,face=floor]"
     },
     {
       "char": "p",
@@ -75,7 +75,7 @@
     },
     {
       "char": "s",
-      "block": "zombie_extreme:dead_body[facing=east]"
+      "block": "minecraft:pointed_dripstone[vertical_direction=up,waterlogged=false,thickness=frustum]"
     },
     {
       "char": "t",
@@ -119,46 +119,50 @@
     },
     {
       "char": "F",
-      "block": "createdeco:andesite_catwalk[waterlogged=false]"
+      "block": "minecraft:pointed_dripstone[vertical_direction=up,waterlogged=false,thickness=base]"
     },
     {
       "char": "I",
-      "block": "embellishcraft:warning_white_steel_door[half=lower,open=false,hinge=right,facing=south]"
+      "block": "createdeco:andesite_catwalk[waterlogged=false]"
     },
     {
       "char": "J",
-      "block": "embellishcraft:warning_white_steel_door[half=lower,open=false,hinge=left,facing=south]"
+      "block": "embellishcraft:warning_white_steel_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "K",
-      "block": "pfm:dark_wood_kitchen_wall_counter[facing=west]"
+      "block": "embellishcraft:warning_white_steel_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "L",
-      "block": "pfm:dark_wood_kitchen_wall_counter[facing=east]"
+      "block": "pfm:dark_wood_kitchen_wall_counter[facing=west]"
     },
     {
       "char": "M",
-      "block": "embellishcraft:warning_white_steel_door[half=upper,open=false,hinge=right,facing=south]"
+      "block": "pfm:dark_wood_kitchen_wall_counter[facing=east]"
     },
     {
       "char": "N",
-      "block": "embellishcraft:warning_white_steel_door[half=upper,open=false,hinge=left,facing=south]"
+      "block": "embellishcraft:warning_white_steel_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "O",
-      "block": "createdeco:orange_decal[waterlogged=false,facing=north]"
+      "block": "embellishcraft:warning_white_steel_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "P",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+      "block": "createdeco:orange_decal[waterlogged=false,facing=north]"
     },
     {
       "char": "Q",
-      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "R",
+      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "S",
       "block": "minecraft:quartz_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     }
   ]

@@ -406,7 +406,7 @@
         "seesky": false,
         "result": "allow",
         "healthadd": 30.0,
-        "damageadd": 10.0,
+        "damageadd": 5.0,
         "nbt": {
           "Attributes": [
             {
@@ -1321,7 +1321,7 @@
       "onjoin": true,
       "instreet": true,
       "nodespawn": true,
-      "healthadd": 1500.0,
+      "healthadd": 3000.0,
       "damageadd": 500.0,
       "result": "allow",
       "nbt": {

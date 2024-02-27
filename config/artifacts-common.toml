@@ -45,5 +45,5 @@ artifact_rarity = 10000.0
 	#List of biome IDs in which campsites are not allowed to generate
 	#End and nether biomes are excluded by default and do not have to be in this list
 	#To blacklist all biomes from a single mod, use "modid:*"
-	biome_blacklist = ["minecraft:void", "undergarden:*", "the_bumblezone:*", "twilightforest:*"]
+	biome_blacklist = ["minecraft:void", "undergarden:*", "the_bumblezone:*", "twilightforest:*", "biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland", "deceasedcraft:*"]
 

@@ -51,54 +51,62 @@
     },
     {
       "char": "m",
-      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=south]"
+      "block": "createdeco:magenta_decal[waterlogged=false,facing=north]"
     },
     {
       "char": "n",
-      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=south]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "o",
-      "block": "create:controls[waterlogged=false,open=false,facing=north]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "p",
-      "block": "create:polished_cut_deepslate_slab[type=bottom,waterlogged=false]"
+      "block": "create:controls[waterlogged=false,open=false,facing=north]"
     },
     {
       "char": "q",
+      "block": "create:polished_cut_deepslate_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "simplylight:lightbulb[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "s",
       "block": "create:cogwheel[waterlogged=false,axis=z]",
       "tag": {
         "id": "create:cogwheel"
       }
     },
     {
-      "char": "r",
+      "char": "t",
       "block": "create:gearbox[axis=x]",
       "tag": {
         "id": "create:gearbox"
       }
     },
     {
-      "char": "s",
+      "char": "u",
       "block": "create:shaft[waterlogged=false,axis=z]",
       "tag": {
         "id": "create:shaft"
       }
     },
     {
-      "char": "t",
+      "char": "w",
       "block": "create:mechanical_drill[waterlogged=false,facing=south]",
       "tag": {
         "id": "create:drill"
       }
     },
     {
-      "char": "u",
+      "char": "x",
       "block": "create:piston_extension_pole[waterlogged=false,facing=down]"
     },
     {
-      "char": "w",
+      "char": "y",
       "block": "create:shaft[waterlogged=false,axis=y]",
       "tag": {
         "id": "create:shaft"

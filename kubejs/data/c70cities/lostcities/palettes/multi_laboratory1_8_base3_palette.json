@@ -115,7 +115,8 @@
     },
     {
       "char": "E",
-      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=south]"
+      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "F",
@@ -123,7 +124,8 @@
     },
     {
       "char": "I",
-      "block": "zombie_extreme:vending_machine[facing=south]"
+      "block": "zombie_extreme:vending_machine[facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "J",
@@ -171,20 +173,22 @@
     },
     {
       "char": "T",
-      "block": "biomesoplenty:pus_bubble"
+      "block": "zombie_extreme:dead_body[facing=west]",
+      "loot": "chestloot"
     },
     {
       "char": "U",
-      "block": "zombie_extreme:dead_body[facing=west]"
-    },
-    {
-      "char": "V",
       "block": "pfm:dark_concrete_kitchen_cabinet[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
-      "char": "W",
+      "char": "V",
       "block": "pfm:stripped_dead_biomesoplenty_simple_stool[facing=east]"
+    },
+    {
+      "char": "W",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
+      "loot": "chestloot"
     },
     {
       "char": "X",
@@ -232,38 +236,43 @@
     },
     {
       "char": "8",
-      "block": "apocalypsenow:planks_a[facing=south]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "9",
-      "block": "biomesoplenty:flesh_tendons_strand"
+      "block": "apocalypsenow:planks_a[facing=south]"
     },
     {
       "char": "@",
-      "block": "biomesoplenty:bramble[up=false,down=false]"
+      "block": "biomesoplenty:flesh_tendons_strand"
     },
     {
       "char": "#",
-      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+      "block": "biomesoplenty:bramble[up=false,down=false]"
     },
     {
       "char": "$",
-      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
     },
     {
       "char": "%",
-      "block": "minecraft:chain[waterlogged=false,axis=y]"
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     },
     {
       "char": "^",
-      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "&",
-      "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
     },
     {
       "char": "*",
+      "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+    },
+    {
+      "char": "(",
       "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     }
   ]

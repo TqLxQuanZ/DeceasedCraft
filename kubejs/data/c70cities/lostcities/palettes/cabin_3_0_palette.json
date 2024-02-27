@@ -124,68 +124,64 @@
     },
     {
       "char": "E",
-      "block": "create:sand_filter"
-    },
-    {
-      "char": "F",
       "block": "thirst:sand_filter"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "create:hand_crank[waterlogged=false,facing=up]",
       "tag": {
         "id": "create:hand_crank"
       }
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "embellishcraft:oak_plain_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "minecraft:oak_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "L",
+      "char": "K",
       "block": "create:fluid_pipe[waterlogged=false,up=false,down=true]"
     },
     {
-      "char": "M",
+      "char": "L",
       "block": "create:spout",
       "tag": {
         "id": "create:spout"
       }
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "minecraft:polished_andesite_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "O",
+      "char": "N",
       "block": "minecraft:polished_deepslate_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "P",
+      "char": "O",
       "block": "minecraft:stone"
     },
     {
-      "char": "Q",
+      "char": "P",
       "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "R",
+      "char": "Q",
       "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
-      "char": "S",
+      "char": "R",
       "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "T",
+      "char": "S",
       "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
-      "char": "U",
+      "char": "T",
       "block": "minecraft:stone_slab[type=bottom,waterlogged=false]"
     }
   ]

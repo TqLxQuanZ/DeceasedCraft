@@ -59,7 +59,8 @@
     },
     {
       "char": "o",
-      "block": "zombie_extreme:dead_body[facing=east]"
+      "block": "zombie_extreme:dead_body[facing=east]",
+      "loot": "chestloot"
     },
     {
       "char": "p",
@@ -127,22 +128,18 @@
     },
     {
       "char": "J",
-      "block": "biomesoplenty:pus_bubble"
-    },
-    {
-      "char": "K",
       "block": "biomesoplenty:bramble[up=true,down=false]"
     },
     {
-      "char": "L",
+      "char": "K",
       "block": "biomesoplenty:flesh_tendons"
     },
     {
-      "char": "M",
+      "char": "L",
       "block": "biomesoplenty:bramble[up=false,down=false]"
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "quark:smooth_stone_vertical_slab[type=east,waterlogged=false]"
     }
   ]

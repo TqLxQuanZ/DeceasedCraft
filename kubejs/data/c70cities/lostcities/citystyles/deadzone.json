@@ -108,15 +108,15 @@
         "value": "c70cities:multi_derrick"
       },
       {
-        "factor": 0.3,
+        "factor": 0.5,
         "value": "c70cities:multi_militarybase"
       },
       {
-        "factor": 0.3,
-        "value": "c70cities:multi_gasstation"
+        "factor": 0.5,
+        "value": "c70cities:multi_militarycamp1"
       },
       {
-        "factor": 2.0,
+        "factor": 1.5,
         "value": "c70cities:multi_laboratory1"
       }
     ],
@@ -142,12 +142,56 @@
       {
         "factor": 1.0,
         "value": "c70cities:fountain_deadzone_1"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_deadzone_2"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_deadzone_3"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_deadzone_4"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_deadzone_5"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_deadzone_6"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:fountain_deadzone_7"
       }
     ],
     "parks": [
       {
         "factor": 1.0,
         "value": "c70cities:park_deadzone_1"
+      },
+      {
+        "factor": 0.3,
+        "value": "c70cities:park_deadzone_2"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:park_deadzone_3"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:park_deadzone_4"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:park_deadzone_5"
+      },
+      {
+        "factor": 1.0,
+        "value": "c70cities:park_deadzone_6"
       }
     ],
     "raildungeons": [

@@ -132,11 +132,13 @@
     },
     {
       "char": "J",
-      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=east]"
+      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=east]",
+      "loot": "chestloot"
     },
     {
       "char": "K",
-      "block": "apocalypsenow:metal_shelves[waterlogged=false,facing=east]"
+      "block": "apocalypsenow:metal_shelves[waterlogged=false,facing=east]",
+      "loot": "chestloot"
     },
     {
       "char": "L",
@@ -188,62 +190,58 @@
     },
     {
       "char": "X",
-      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=west]"
-    },
-    {
-      "char": "Y",
       "block": "another_furniture:spruce_shelf[type=right,waterlogged=false,facing=north]"
     },
     {
-      "char": "Z",
+      "char": "Y",
       "block": "another_furniture:spruce_shelf[type=left,waterlogged=false,facing=north]"
     },
     {
-      "char": "0",
+      "char": "Z",
       "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=east]"
     },
     {
-      "char": "1",
+      "char": "0",
       "block": "minecraft:bookshelf"
     },
     {
-      "char": "2",
+      "char": "1",
       "block": "minecraft:flower_pot"
     },
     {
-      "char": "3",
+      "char": "2",
       "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "4",
+      "char": "3",
       "block": "minecraft:cobweb"
     },
     {
-      "char": "5",
+      "char": "4",
       "block": "embellishcraft:vent_air_duct[facing=down]"
     },
     {
-      "char": "6",
+      "char": "5",
       "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "7",
+      "char": "6",
       "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
-      "char": "8",
+      "char": "7",
       "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "9",
+      "char": "8",
       "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
     },
     {
-      "char": "@",
+      "char": "9",
       "block": "create:polished_cut_calcite_slab[type=double,waterlogged=false]"
     },
     {
-      "char": "#",
+      "char": "@",
       "block": "embellishcraft:air_duct"
     }
   ]

@@ -55,84 +55,80 @@
     },
     {
       "char": "n",
-      "block": "zombie_extreme:shelf[facing=west]"
-    },
-    {
-      "char": "o",
       "block": "pfm:concrete_kitchen_counter[facing=east]"
     },
     {
-      "char": "p",
+      "char": "o",
       "block": "pfm:white_arm_chair[facing=west,shape=straight]"
     },
     {
-      "char": "q",
+      "char": "p",
       "block": "minecraft:stone_button[facing=west,face=floor]"
     },
     {
-      "char": "r",
+      "char": "q",
       "block": "create:framed_glass"
     },
     {
-      "char": "s",
+      "char": "r",
       "block": "refinedstorage:crafting_grid"
     },
     {
-      "char": "t",
+      "char": "s",
       "block": "create:blaze_burner[facing=east,blaze=none]",
       "tag": {
         "id": "create:blaze_heater"
       }
     },
     {
-      "char": "u",
+      "char": "t",
       "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=east,face=wall]"
     },
     {
-      "char": "w",
+      "char": "u",
       "block": "create:blaze_burner[facing=east,blaze=smouldering]",
       "tag": {
         "id": "create:blaze_heater"
       }
     },
     {
-      "char": "x",
+      "char": "w",
       "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=south,face=wall]"
     },
     {
-      "char": "y",
+      "char": "x",
       "block": "refinedstorage:controller"
     },
     {
-      "char": "A",
+      "char": "y",
       "block": "minecraft:repeater[facing=north]"
     },
     {
-      "char": "B",
+      "char": "A",
       "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=north,face=wall]"
     },
     {
-      "char": "C",
+      "char": "B",
       "block": "create:polished_cut_deepslate_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "D",
+      "char": "C",
       "block": "zombie_extreme:computer_monitor[facing=west]"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "minecraft:stone_button[facing=south,face=floor]"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "quark:iron_button[facing=west,face=floor]"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "zombie_extreme:radio_installation[facing=west]"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "embellishcraft:grid_air_duct[facing=down]"
     }
   ]

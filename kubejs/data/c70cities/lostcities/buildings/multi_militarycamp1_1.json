@@ -1,0 +1,37 @@
+{
+  "filler": "G",
+  "rubber": " ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "minfloors": 2,
+  "maxfloors": 2,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "top": false,
+      "cellar": false,
+      "ground": true,
+      "part": "c70cities:multi_militarycamp1_1_ground"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_militarycamp1_1_floor2",
+      "floor": 1
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_militarycamp1_1_floor1",
+      "floor": 2
+    },
+    {
+      "top": true,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_militarycamp1_1_top"
+    }
+  ]
+}

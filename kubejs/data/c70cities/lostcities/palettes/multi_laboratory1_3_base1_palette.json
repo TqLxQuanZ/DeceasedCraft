@@ -193,7 +193,8 @@
     },
     {
       "char": "Y",
-      "block": "apocalypsenow:metal_shelves[waterlogged=false,facing=north]"
+      "block": "apocalypsenow:metal_shelves[waterlogged=false,facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "Z",
@@ -242,26 +243,31 @@
     },
     {
       "char": "@",
-      "block": "create:display_board[waterlogged=false,up=false,facing=north,down=true]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
     },
     {
       "char": "#",
-      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+      "block": "create:display_board[waterlogged=false,up=false,facing=north,down=true]"
     },
     {
       "char": "$",
-      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
     },
     {
       "char": "%",
-      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
     },
     {
       "char": "^",
-      "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     },
     {
       "char": "&",
+      "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+    },
+    {
+      "char": "*",
       "block": "create:polished_cut_calcite_slab[type=double,waterlogged=false]"
     }
   ]
