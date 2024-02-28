@@ -65,14 +65,12 @@
 	{
 		"mob": ["zombie_extreme:infected_police"],
 		"player": true,
-		"random" : 0.3,
 		"item": "tac:9mm_round",
 		"itemcount": "4/7/10"
 	},
 	{
 		"mob": ["zombie_extreme:infected_police"],
 		"player": true,
-		"random" : 0.15,
 		"item": "tac:round45",
 		"itemcount": "2/3/4"
 	},
@@ -90,7 +88,6 @@
 				"zombie_extreme:fetus",
 				"zombie_extreme:inflated"],
 		"player": true,
-		"random" : 0.3,
 		"item": "tac:nato_556_bullet",
 		"itemcount": "4-8/9-12/12-15"
 	},
@@ -100,7 +97,6 @@
 				"zombie_extreme:fetus",
 				"zombie_extreme:inflated"],
 		"player": true,
-		"random" : 0.3,
 		"item": "tac:762x39",
 		"itemcount": "4-8/9-12/12-15"
 	},
@@ -142,7 +138,6 @@
 		"mob": ["zombie_extreme:rat_king",
 				"zombie_extreme:patient_zero"],
 		"player": true,
-		"random": 0.5,
 		"item": "contenttweaker:high_carbon_steel_alloy",
 		"itemcount": "1/2/3"
 	},
@@ -433,7 +428,6 @@
 		"mob": ["mutationcraft:assimilated_jockey",
 				"mutationcraft:reductor"],
 		"player": true,
-		"random" : 0.4,
 		"item": "minecraft:gunpowder",
 		"itemcount": "4/5/6"
 	},
@@ -441,14 +435,12 @@
 		"mob": ["mutationcraft:assimilated_jockey",
 				"mutationcraft:reductor"],
 		"player": true,
-		"random" : 0.3,
 		"item": "tac:nato_556_bullet",
 		"itemcount": "1-4/5-6/7-8"
 	},
 	{
 		"mob": "mutationcraft:assimilated_jockey",
 		"player": true,
-		"random" : 0.4,
 		"item": "tac:762x39",
 		"itemcount": "1-4/5-6/7-8"
 	},
@@ -467,28 +459,24 @@
 	{
 		"mob": "mutationcraft:human_herder",
 		"player": true,
-		"random": 0.3,
 		"item": "contenttweaker:high_carbon_steel_alloy",
 		"itemcount": "1/1/1"
 	},
 	{
 		"mob": "mutationcraft:human_herder",
 		"player": true,
-		"random": 0.6,
 		"item": "quark:gunpowder_sack",
 		"itemcount": "2/3/4"
 	},
 	{
 		"mob": "mutationcraft:human_herder",
 		"player": true,
-		"random": 0.75,
 		"item": "tac:nato_556_bullet",
 		"itemcount": "24-27/32-35/40-45"
 	},
 	{
 		"mob": "mutationcraft:human_herder",
 		"player": true,
-		"random": 0.75,
 		"item": "tac:762x39",
 		"itemcount": "24-27/32-35/40-45"
 	},
@@ -519,14 +507,12 @@
 	{
 		"mob": "mutationcraft:resenter",
 		"player": true,
-		"random" : 0.5,
 		"item": "tac:nato_556_bullet",
 		"itemcount": "24-27/32-35/40-45"
 	},
 	{
 		"mob": "mutationcraft:resenter",
 		"player": true,
-		"random" : 0.5,
 		"item": "tac:762x39",
 		"itemcount": "24-27/32-35/40-45"
 	},
@@ -557,28 +543,25 @@
 	{
 		"mob": "mutationcraft:the_intoxicator",
 		"player": true,
-		"random" : 0.15,
+		"random" : 0.1,
 		"item": "minecraft:golden_apple",
 		"itemcount": "1/1/1"
 	},
 	{
 		"mob": "mutationcraft:the_intoxicator",
 		"player": true,
-		"random" : 0.3,
 		"item": "minecraft:nether_star",
 		"itemcount": "1/1/1"
 	},
 	{
 		"mob": "mutationcraft:the_intoxicator",
 		"player": true,
-		"random" : 0.75,
 		"item": "tac:nato_556_bullet",
 		"itemcount": "48-54/55-59/60-64"
 	},
 	{
 		"mob": "mutationcraft:the_intoxicator",
 		"player": true,
-		"random" : 0.75,
 		"item": "tac:762x39",
 		"itemcount": "48-54/55-59/60-64"
 	}
