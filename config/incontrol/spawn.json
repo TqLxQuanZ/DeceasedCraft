@@ -1010,18 +1010,20 @@
           "c70cities:multi_laboratory1_12",
           "c70cities:multi_laboratory1_13",
           "c70cities:multi_laboratory1_14"],
+        "random": 0.10,
         "onjoin": true,
         "result": "default",
-        "damageadd": 10.0,
-        "healthadd": 50.0,
         "nbt": {
-          "Attributes": [
-            {
-              "Base": 20.0,
-              "Name": "generic.armor"
-            }
-          ]
-        }
+            "HandItems":[
+              {
+                "id":"air",
+                "Count":1
+              },
+              {
+                "id":"iron_pickaxe",
+                "Count":1
+              }]
+          }
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -1042,20 +1044,72 @@
           "c70cities:multi_laboratory1_12",
           "c70cities:multi_laboratory1_13",
           "c70cities:multi_laboratory1_14"],
-        "random": 0.10,
+        "random": 0.25,
         "onjoin": true,
         "result": "default",
+        "armorhelmet": "apocalypsenow:hazmat_suit_helmet",
+        "armorchest": "apocalypsenow:hazmat_suit_chestplate",
+        "armorlegs": "apocalypsenow:hazmat_suit_leggings",
+        "armorboots": "apocalypsenow:hazmat_suit_boots"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
+        "building": [
+          "c70cities:multi_laboratory1_0",
+          "c70cities:multi_laboratory1_1",
+          "c70cities:multi_laboratory1_2",
+          "c70cities:multi_laboratory1_3",
+          "c70cities:multi_laboratory1_4",
+          "c70cities:multi_laboratory1_5",
+          "c70cities:multi_laboratory1_6",
+          "c70cities:multi_laboratory1_7",
+          "c70cities:multi_laboratory1_8",
+          "c70cities:multi_laboratory1_9",
+          "c70cities:multi_laboratory1_10",
+          "c70cities:multi_laboratory1_11",
+          "c70cities:multi_laboratory1_12",
+          "c70cities:multi_laboratory1_13",
+          "c70cities:multi_laboratory1_14"],
+        "random": 0.25,
+        "onjoin": true,
+        "result": "default",
+        "armorhelmet": "apocalypsenow:biohazard_helmet",
+        "armorchest": "apocalypsenow:biohazard_chestplate",
+        "armorlegs": "apocalypsenow:biohazard_leggings",
+        "armorboots": "apocalypsenow:biohazard_boots"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
+        "building": [
+          "c70cities:multi_laboratory1_0",
+          "c70cities:multi_laboratory1_1",
+          "c70cities:multi_laboratory1_2",
+          "c70cities:multi_laboratory1_3",
+          "c70cities:multi_laboratory1_4",
+          "c70cities:multi_laboratory1_5",
+          "c70cities:multi_laboratory1_6",
+          "c70cities:multi_laboratory1_7",
+          "c70cities:multi_laboratory1_8",
+          "c70cities:multi_laboratory1_9",
+          "c70cities:multi_laboratory1_10",
+          "c70cities:multi_laboratory1_11",
+          "c70cities:multi_laboratory1_12",
+          "c70cities:multi_laboratory1_13",
+          "c70cities:multi_laboratory1_14"],
+        "onjoin": true,
+        "result": "default",
+        "damageadd": 10.0,
+        "healthadd": 50.0,
         "nbt": {
-            "HandItems":[
-              {
-                "id":"air",
-                "Count":1
-              },
-              {
-                "id":"iron_pickaxe",
-                "Count":1
-              }]
-          }
+          "Attributes": [
+            {
+              "Base": 20.0,
+              "Name": "generic.armor"
+            }
+          ]
+        }
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
