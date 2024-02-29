@@ -171,54 +171,6 @@
       "result": "allow"
     },
     {
-      "mob": ["apocalypsenow:survivor_1",
-				"apocalypsenow:survivor_2",
-				"apocalypsenow:survivor_3",
-				"apocalypsenow:survivor_4",
-				"apocalypsenow:survivor_5",
-				"apocalypsenow:survivor_6",
-				"apocalypsenow:survivor_7",
-				"apocalypsenow:survivor_8",
-				"apocalypsenow:survivor_9",
-				"apocalypsenow:survivor_10",
-				"apocalypsenow:survivor_11"],
-      "dimension": "minecraft:overworld",
-      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
-      "result": "deny"
-    },
-    {
-      "mob": ["apocalypsenow:survivor_1",
-				"apocalypsenow:survivor_2",
-				"apocalypsenow:survivor_3",
-				"apocalypsenow:survivor_4",
-				"apocalypsenow:survivor_5",
-				"apocalypsenow:survivor_6",
-				"apocalypsenow:survivor_7",
-				"apocalypsenow:survivor_8",
-				"apocalypsenow:survivor_9",
-				"apocalypsenow:survivor_10",
-				"apocalypsenow:survivor_11"],
-      "dimension": "minecraft:overworld",
-      "inbuilding": true,
-      "minlight": 0,
-      "maxlight": 3,
-      "minheight": 71,
-      "result": "allow",
-      "healthadd": 20.0,
-      "nbt": {
-        "Attributes": [
-          {
-            "Base": 4.0,
-            "Name": "generic.armor"
-          },
-          {
-            "Base": 4.0,
-            "Name": "generic.armor_toughness"
-          }
-        ]
-      }
-    },
-    {
       "mob": ["minecraft:pillager", "minecraft:vindicator"],
       "dimension": "minecraft:overworld",
       "minspawndist": 10000,
