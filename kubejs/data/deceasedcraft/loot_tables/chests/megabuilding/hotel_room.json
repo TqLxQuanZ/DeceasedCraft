@@ -553,39 +553,6 @@
               "chance": 0.025
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "nameless_trinkets:speed_force",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "nameless_trinkets:rage_mind",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "nameless_trinkets:spider_legs",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ]
         }
       ]
     },

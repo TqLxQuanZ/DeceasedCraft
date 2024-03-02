@@ -25,30 +25,35 @@
     },
     {
       "char": "f",
-      "block": "create:andesite_bars[waterlogged=false]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "g",
-      "block": "minecraft:polished_deepslate"
+      "block": "create:andesite_bars[waterlogged=false]"
     },
     {
       "char": "h",
-      "block": "embellishcraft:air_duct"
+      "block": "minecraft:polished_deepslate"
     },
     {
       "char": "i",
-      "block": "apocalypsenow:wire_fence[waterlogged=false]"
+      "block": "embellishcraft:air_duct"
     },
     {
       "char": "j",
-      "block": "immersiveengineering:steel_fence[waterlogged=false]"
+      "block": "apocalypsenow:wire_fence[waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=east,face=floor]"
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
     },
     {
       "char": "l",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=east,face=floor]"
+    },
+    {
+      "char": "m",
       "block": "minecraft:redstone_torch[lit=true]"
     }
   ]

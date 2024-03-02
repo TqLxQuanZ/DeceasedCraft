@@ -57,16 +57,16 @@
     },
     {
       "char": "m",
+      "block": "immersiveengineering:sheetmetal_steel"
+    },
+    {
+      "char": "n",
       "block": "apocalypsenow:iron_locker[facing=north]",
       "loot": "chestloot"
     },
     {
-      "char": "n",
-      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
-    },
-    {
       "char": "o",
-      "block": "immersiveengineering:sheetmetal_steel"
+      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
     },
     {
       "char": "p",
@@ -91,12 +91,12 @@
     },
     {
       "char": "u",
-      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=top,open=true,facing=north]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "w",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
-      "loot": "chestloot"
+      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=top,open=true,facing=north]"
     },
     {
       "char": "x",
@@ -110,7 +110,7 @@
     },
     {
       "char": "A",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
@@ -120,18 +120,38 @@
     },
     {
       "char": "C",
-      "block": "quark:framed_glass_pane[waterlogged=false]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "D",
-      "block": "embellishcraft:air_duct"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "E",
-      "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "F",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "I",
+      "block": "quark:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "J",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "K",
+      "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "L",
       "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     }
   ]

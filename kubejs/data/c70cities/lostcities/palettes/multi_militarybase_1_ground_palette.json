@@ -103,70 +103,74 @@
     },
     {
       "char": "B",
-      "block": "create:polished_cut_limestone"
+      "block": "minecraft:crafting_table"
     },
     {
       "char": "C",
-      "block": "quark:gray_framed_glass_pane[waterlogged=false]"
+      "block": "create:polished_cut_limestone"
     },
     {
       "char": "D",
-      "block": "zombie_extreme:radio_installation[facing=east]"
+      "block": "quark:gray_framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "E",
-      "block": "create:analog_lever[facing=north,face=floor]"
+      "block": "zombie_extreme:radio_installation[facing=east]"
     },
     {
       "char": "F",
-      "block": "minecraft:redstone_torch[lit=true]"
+      "block": "create:analog_lever[facing=north,face=floor]"
     },
     {
       "char": "I",
-      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=left,facing=north]"
+      "block": "minecraft:redstone_torch[lit=true]"
     },
     {
       "char": "J",
-      "block": "immersiveengineering:slab_hempcrete[type=bottom,waterlogged=false]"
+      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
       "char": "K",
-      "block": "create:andesite_bars[waterlogged=false]"
+      "block": "immersiveengineering:slab_hempcrete[type=bottom,waterlogged=false]"
     },
     {
       "char": "L",
-      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
+      "block": "create:andesite_bars[waterlogged=false]"
     },
     {
       "char": "M",
-      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "N",
-      "block": "minecraft:lever[facing=west,face=wall]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "O",
-      "block": "createbigcannons:cannon_mount[facing=east]"
+      "block": "minecraft:lever[facing=west,face=wall]"
     },
     {
       "char": "P",
-      "block": "minecraft:hopper[facing=north]"
+      "block": "createbigcannons:cannon_mount[facing=east]"
     },
     {
       "char": "Q",
-      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=south]"
+      "block": "minecraft:hopper[facing=north]"
     },
     {
       "char": "R",
-      "block": "immersiveengineering:steel_fence[waterlogged=false]"
+      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=south]"
     },
     {
       "char": "S",
-      "block": "immersiveengineering:razor_wire[waterlogged=false,facing=north]"
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
     },
     {
       "char": "T",
+      "block": "immersiveengineering:razor_wire[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "U",
       "block": "create:gearbox[axis=y]",
       "tag": {
         "id": "create:gearbox"

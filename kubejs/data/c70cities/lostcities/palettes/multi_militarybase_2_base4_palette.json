@@ -95,58 +95,63 @@
     },
     {
       "char": "x",
-      "block": "apocalypsenow:broken_plasma_tv[facing=south]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "y",
-      "block": "pfm:andesite_chair[facing=south]"
+      "block": "apocalypsenow:broken_plasma_tv[facing=south]"
     },
     {
       "char": "A",
-      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+      "block": "pfm:andesite_chair[facing=south]"
     },
     {
       "char": "B",
-      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "C",
-      "block": "create:display_board[waterlogged=false,up=false,facing=north,down=false]"
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "D",
-      "block": "simplylight:illuminant_slab[waterlogged=false,facing=south]"
+      "block": "create:display_board[waterlogged=false,up=false,facing=north,down=false]"
     },
     {
       "char": "E",
-      "block": "simplylight:illuminant_panel[waterlogged=false,facing=south]"
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=south]"
     },
     {
       "char": "F",
-      "block": "zombie_extreme:computer_monitor[facing=south]"
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=south]"
     },
     {
       "char": "I",
-      "block": "zombie_extreme:empty_cans[facing=west]"
+      "block": "zombie_extreme:computer_monitor[facing=south]"
     },
     {
       "char": "J",
-      "block": "zombie_extreme:radio_installation[facing=south]"
+      "block": "zombie_extreme:empty_cans[facing=west]"
     },
     {
       "char": "K",
-      "block": "zombie_extreme:radio_installation[facing=east]"
+      "block": "zombie_extreme:radio_installation[facing=south]"
     },
     {
       "char": "L",
-      "block": "zombie_extreme:empty_cans[facing=south]"
+      "block": "zombie_extreme:radio_installation[facing=east]"
     },
     {
       "char": "M",
-      "block": "zombie_extreme:radio_installation[facing=west]"
+      "block": "zombie_extreme:empty_cans[facing=south]"
     },
     {
       "char": "N",
+      "block": "zombie_extreme:radio_installation[facing=west]"
+    },
+    {
+      "char": "O",
       "block": "minecraft:polished_deepslate_slab[type=top,waterlogged=false]"
     }
   ]

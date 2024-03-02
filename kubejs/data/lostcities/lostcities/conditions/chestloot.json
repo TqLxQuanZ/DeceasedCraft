@@ -852,33 +852,123 @@
     },
     {
       "factor": 500,
-      "value": "deceasedcraft:chests/military/standard",
+      "value": "deceasedcraft:chests/military/ground",
+      "inbuilding": "c70cities:multi_militarycamp1_0"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/military/ground",
+      "inbuilding": "c70cities:multi_militarycamp1_1"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/military/cannon",
+      "inpart": "c70cities:multi_militarybase_0_floor1"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/military/cannon",
+      "inpart": "c70cities:multi_militarybase_1_floor1"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/military/cannon",
+      "inpart": "c70cities:multi_militarybase_2_floor1"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/military/cannon",
+      "inpart": "c70cities:multi_militarybase_3_floor1"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/military/ground",
       "inpart": "c70cities:multi_militarybase_2_ground"
     },
     {
       "factor": 500,
-      "value": "deceasedcraft:chests/military/special",
-      "inpart": "c70cities:multi_militarybase_0_ground"
+      "value": "deceasedcraft:chests/military/ground",
+      "inpart": "c70cities:multi_militarybase_3_ground"
     },
     {
       "factor": 500,
-      "value": "deceasedcraft:chests/military/cabinet",
+      "value": "deceasedcraft:chests/military/ground",
+      "inpart": "c70cities:multi_militarybase_4_ground"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/military/medical",
       "inpart": "c70cities:multi_militarybase_0_base1"
     },
     {
       "factor": 500,
-      "value": "deceasedcraft:chests/military/special",
+      "value": "deceasedcraft:chests/military/medical",
       "inpart": "c70cities:multi_militarybase_1_base1"
     },
     {
       "factor": 500,
-      "value": "deceasedcraft:chests/military/standard",
-      "inpart": "c70cities:multi_militarybase_1_base1"
+      "value": "deceasedcraft:chests/military/office",
+      "inpart": "c70cities:multi_militarybase_5_base1"
     },
     {
       "factor": 500,
-      "value": "deceasedcraft:chests/military/aid",
-      "inpart": "c70cities:multi_militarybase_3_base1"
+      "value": "deceasedcraft:chests/military/cabinet",
+      "inpart": "c70cities:multi_militarybase_0_base2"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/military/cabinet",
+      "inpart": "c70cities:multi_militarybase_2_base2"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/military/cabinet",
+      "inpart": "c70cities:multi_militarybase_3_base2"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/military/cabinet",
+      "inpart": "c70cities:multi_militarybase_4_base2"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/military/blaze",
+      "inpart": "c70cities:multi_militarybase_0_base3"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/military/power_room",
+      "inpart": "c70cities:multi_militarybase_1_base3"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/military/kitchen_storage",
+      "inpart": "c70cities:multi_militarybase_4_base3"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/military/kitchen_cabinet",
+      "inpart": "c70cities:multi_militarybase_5_base3"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/military/armory_ammunitions",
+      "inpart": "c70cities:multi_militarybase_0_base4"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/military/armory_weapons",
+      "inpart": "c70cities:multi_militarybase_2_base4"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/military/armory_weapons",
+      "inpart": "c70cities:multi_militarybase_3_base4"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/military/armory_ammunitions",
+      "inpart": "c70cities:multi_militarybase_4_base4"
     },
     {
       "factor": 500,

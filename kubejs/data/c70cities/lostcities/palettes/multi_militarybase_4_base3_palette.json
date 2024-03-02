@@ -103,8 +103,7 @@
     },
     {
       "char": "B",
-      "block": "zombie_extreme:vending_machine[facing=west]",
-      "loot": "chestloot"
+      "block": "immersiveengineering:sheetmetal_steel"
     },
     {
       "char": "C",
@@ -122,27 +121,22 @@
     },
     {
       "char": "F",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "I",
       "block": "minecraft:cobweb"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "quark:framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "embellishcraft:air_duct"
     },
     {
-      "char": "L",
+      "char": "K",
       "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "M",
+      "char": "L",
       "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     }
   ]

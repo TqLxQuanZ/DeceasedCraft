@@ -143,74 +143,88 @@
     },
     {
       "char": "N",
-      "block": "embellishcraft:light_gray_pillow[waterlogged=false,occupied=false,part=head,facing=west]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "O",
-      "block": "apocalypsenow:medical_storage[waterlogged=false,facing=east]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
       "char": "P",
-      "block": "pfm:iron_fridge[open=false,facing=west]",
-      "loot": "chestloot"
+      "block": "embellishcraft:light_gray_pillow[waterlogged=false,occupied=false,part=head,facing=west]"
     },
     {
       "char": "Q",
+      "block": "apocalypsenow:medical_storage[waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "R",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "S",
       "block": "comforts:sleeping_bag_red[waterlogged=false,occupied=false,part=foot,facing=south]",
       "tag": {
         "id": "comforts:sleeping_bag"
       }
     },
     {
-      "char": "R",
+      "char": "T",
       "block": "comforts:sleeping_bag_white[waterlogged=false,occupied=false,part=foot,facing=south]"
     },
     {
-      "char": "S",
+      "char": "U",
       "block": "comforts:sleeping_bag_red[waterlogged=false,occupied=false,part=head,facing=south]",
       "tag": {
         "id": "comforts:sleeping_bag"
       }
     },
     {
-      "char": "T",
+      "char": "V",
       "block": "comforts:sleeping_bag_white[waterlogged=false,occupied=false,part=head,facing=south]"
     },
     {
-      "char": "U",
+      "char": "W",
       "block": "create:mechanical_arm",
       "tag": {
         "id": "create:mechanical_arm"
       }
     },
     {
-      "char": "V",
+      "char": "X",
       "block": "minecraft:redstone_wall_torch[facing=west,lit=true]"
     },
     {
-      "char": "W",
+      "char": "Y",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "Z",
       "block": "pfm:stripped_spruce_kitchen_cabinet[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
-      "char": "X",
+      "char": "0",
       "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "Y",
+      "char": "1",
       "block": "embellishcraft:air_duct"
     },
     {
-      "char": "Z",
+      "char": "2",
       "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "0",
+      "char": "3",
       "block": "minecraft:polished_deepslate_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "1",
+      "char": "4",
       "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
     }
   ]

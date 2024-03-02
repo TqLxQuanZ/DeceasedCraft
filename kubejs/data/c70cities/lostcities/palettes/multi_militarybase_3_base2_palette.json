@@ -121,17 +121,17 @@
     },
     {
       "char": "E",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
       "char": "F",
-      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=top,open=true,facing=south]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "I",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
-      "loot": "chestloot"
+      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=top,open=true,facing=south]"
     },
     {
       "char": "J",
@@ -140,58 +140,63 @@
     },
     {
       "char": "K",
-      "block": "createdeco:andesite_door[half=upper,open=false,hinge=left,facing=north]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "L",
-      "block": "createdeco:andesite_door[half=upper,open=false,hinge=right,facing=north]"
+      "block": "createdeco:andesite_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
       "char": "M",
-      "block": "createdeco:andesite_door[half=upper,open=false,hinge=right,facing=east]"
+      "block": "createdeco:andesite_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
       "char": "N",
-      "block": "pfm:light_gray_shower_towel[facing=south]"
+      "block": "createdeco:andesite_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
       "char": "O",
-      "block": "createdeco:andesite_door[half=upper,open=false,hinge=right,facing=west]"
+      "block": "pfm:light_gray_shower_towel[facing=south]"
     },
     {
       "char": "P",
-      "block": "pfm:white_mirror[facing=south]"
+      "block": "createdeco:andesite_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
       "char": "Q",
-      "block": "pfm:basic_shower_handle[facing=north]"
+      "block": "pfm:white_mirror[facing=south]"
     },
     {
       "char": "R",
-      "block": "pfm:basic_shower_head[facing=south]"
+      "block": "pfm:basic_shower_handle[facing=north]"
     },
     {
       "char": "S",
-      "block": "quark:framed_glass_pane[waterlogged=false]"
+      "block": "pfm:basic_shower_head[facing=south]"
     },
     {
       "char": "T",
-      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
+      "block": "quark:framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "U",
-      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
     },
     {
       "char": "V",
-      "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "W",
-      "block": "embellishcraft:air_duct"
+      "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
     },
     {
       "char": "X",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "Y",
       "block": "minecraft:cobweb"
     }
   ]

@@ -174,26 +174,31 @@
     },
     {
       "char": "P",
-      "block": "buildersdelight:lantern_6[waterlogged=false,facing=north,face=floor]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "Q",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+      "block": "buildersdelight:lantern_6[waterlogged=false,facing=north,face=floor]"
     },
     {
       "char": "R",
-      "block": "quark:framed_glass_pane[waterlogged=false]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "S",
-      "block": "embellishcraft:air_duct"
+      "block": "quark:framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "T",
-      "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
+      "block": "embellishcraft:air_duct"
     },
     {
       "char": "U",
+      "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "V",
       "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     }
   ]

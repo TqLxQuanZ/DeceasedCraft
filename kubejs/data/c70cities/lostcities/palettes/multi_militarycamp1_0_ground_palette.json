@@ -47,7 +47,10 @@
     },
     {
       "char": "l",
-      "block": "comforts:sleeping_bag_green[waterlogged=false,occupied=false,part=head,facing=north]"
+      "block": "comforts:sleeping_bag_red[waterlogged=false,occupied=false,part=head,facing=north]",
+      "tag": {
+        "id": "comforts:sleeping_bag"
+      }
     },
     {
       "char": "m",
@@ -63,7 +66,10 @@
     },
     {
       "char": "p",
-      "block": "comforts:sleeping_bag_green[waterlogged=false,occupied=false,part=foot,facing=north]"
+      "block": "comforts:sleeping_bag_red[waterlogged=false,occupied=false,part=foot,facing=north]",
+      "tag": {
+        "id": "comforts:sleeping_bag"
+      }
     },
     {
       "char": "q",
