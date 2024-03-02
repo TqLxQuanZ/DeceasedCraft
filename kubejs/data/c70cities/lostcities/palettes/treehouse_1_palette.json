@@ -132,7 +132,7 @@
     },
     {
       "char": "K",
-      "block": "minecraft:oak_leaves"
+      "block": "minecraft:oak_leaves[persistent=false]"
     },
     {
       "char": "L",
@@ -140,20 +140,24 @@
     },
     {
       "char": "M",
+      "block": "minecraft:oak_leaves[persistent=true]"
+    },
+    {
+      "char": "N",
       "block": "minecraft:brown_bed[occupied=false,part=head,facing=north]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "N",
+      "char": "O",
       "block": "minecraft:brown_bed[occupied=false,part=foot,facing=north]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "O",
+      "char": "P",
       "block": "minecraft:cobweb"
     }
   ]

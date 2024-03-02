@@ -35,96 +35,118 @@
     },
     {
       "char": "i",
-      "block": "biomesoplenty:dead_button[facing=south,face=floor]"
+      "block": "create:redstone_contact[facing=south]"
     },
     {
       "char": "j",
-      "block": "biomesoplenty:dead_grass"
+      "block": "create:redstone_contact[facing=north]"
     },
     {
       "char": "k",
-      "block": "quark:smooth_stone_vertical_slab[type=north,waterlogged=false]"
+      "block": "create:display_link[facing=east]",
+      "tag": {
+        "id": "create:display_link"
+      }
     },
     {
       "char": "l",
-      "block": "create:cut_limestone_bricks"
+      "block": "create:display_link[facing=north]",
+      "tag": {
+        "id": "create:display_link"
+      }
     },
     {
       "char": "m",
-      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+      "block": "biomesoplenty:dead_button[facing=south,face=floor]"
     },
     {
       "char": "n",
-      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=false]"
+      "block": "biomesoplenty:dead_grass"
     },
     {
       "char": "o",
-      "block": "immersiveengineering:hempcrete"
+      "block": "quark:smooth_stone_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "p",
-      "block": "minecraft:polished_deepslate"
+      "block": "create:cut_limestone_bricks"
     },
     {
       "char": "q",
-      "block": "quark:polished_andesite_vertical_slab[type=east,waterlogged=false]"
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
     },
     {
       "char": "r",
-      "block": "quark:polished_andesite_vertical_slab[type=west,waterlogged=false]"
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=false]"
     },
     {
       "char": "s",
+      "block": "immersiveengineering:hempcrete"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "u",
+      "block": "quark:polished_andesite_vertical_slab[type=east,waterlogged=false]"
+    },
+    {
+      "char": "w",
+      "block": "quark:polished_andesite_vertical_slab[type=west,waterlogged=false]"
+    },
+    {
+      "char": "x",
       "block": "create:contraption_controls[waterlogged=false,open=false,facing=west]",
       "tag": {
         "id": "create:contraption_controls"
       }
     },
     {
-      "char": "t",
+      "char": "y",
       "block": "create:andesite_door[half=lower,open=false,hinge=left,facing=north]"
     },
     {
-      "char": "u",
+      "char": "A",
       "block": "create:andesite_door[half=lower,open=false,hinge=right,facing=north]"
     },
     {
-      "char": "w",
+      "char": "B",
       "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
     },
     {
-      "char": "x",
+      "char": "C",
       "block": "create:cogwheel[waterlogged=false,axis=z]",
       "tag": {
         "id": "create:cogwheel"
       }
     },
     {
-      "char": "y",
+      "char": "D",
       "block": "create:large_cogwheel[waterlogged=false,axis=z]"
     },
     {
-      "char": "A",
+      "char": "E",
       "block": "create:andesite_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
-      "char": "B",
+      "char": "F",
       "block": "create:andesite_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
-      "char": "C",
+      "char": "I",
       "block": "create:polished_cut_limestone"
     },
     {
-      "char": "D",
+      "char": "J",
       "block": "create:cut_limestone"
     },
     {
-      "char": "E",
+      "char": "K",
       "block": "biomesoplenty:stripped_dead_log[axis=x]"
     },
     {
-      "char": "F",
+      "char": "L",
       "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
     }
   ]

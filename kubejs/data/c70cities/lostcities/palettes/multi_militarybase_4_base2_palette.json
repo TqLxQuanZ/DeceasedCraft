@@ -1,0 +1,177 @@
+{
+  "name": "multi_militarybase_4_base2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:cut_tuff_bricks"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "c",
+      "block": "create:cut_tuff_brick_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "d",
+      "block": "create:andesite_ladder[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:moist_paving"
+    },
+    {
+      "char": "f",
+      "block": "pfm:dead_biomesoplenty_light_gray_classic_bed[occupied=false,part=head,facing=north]",
+      "tag": {
+        "id": "pfm:bed_block_entity"
+      }
+    },
+    {
+      "char": "g",
+      "block": "apocalypsenow:iron_locker[facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "h",
+      "block": "immersiveengineering:sheetmetal_steel"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "j",
+      "block": "pfm:dead_biomesoplenty_light_gray_classic_bed[occupied=false,part=foot,facing=north]",
+      "tag": {
+        "id": "pfm:bed_block_entity"
+      }
+    },
+    {
+      "char": "k",
+      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=true,facing=south]"
+    },
+    {
+      "char": "l",
+      "block": "createdeco:cast_iron_door[half=lower,open=false,hinge=left,facing=east]"
+    },
+    {
+      "char": "m",
+      "block": "apocalypsenow:iron_locker[facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "n",
+      "block": "quark:polished_andesite_vertical_slab[type=south,waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "p",
+      "block": "createdeco:cast_iron_door[half=lower,open=false,hinge=right,facing=north]"
+    },
+    {
+      "char": "q",
+      "block": "quark:polished_andesite_vertical_slab[type=west,waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=true,facing=west]"
+    },
+    {
+      "char": "s",
+      "block": "pfm:dead_biomesoplenty_white_simple_bed[occupied=false,part=foot,facing=east]",
+      "tag": {
+        "id": "pfm:bed_block_entity"
+      }
+    },
+    {
+      "char": "t",
+      "block": "pfm:dead_biomesoplenty_white_simple_bed[occupied=false,part=head,facing=east]",
+      "tag": {
+        "id": "pfm:bed_block_entity"
+      }
+    },
+    {
+      "char": "u",
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "w",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "x",
+      "block": "pfm:green_simple_sofa[facing=north,shape=left_edge]"
+    },
+    {
+      "char": "y",
+      "block": "pfm:green_simple_sofa[facing=north,shape=right_edge]"
+    },
+    {
+      "char": "A",
+      "block": "cfm:stripped_spruce_table[waterlogged=false]"
+    },
+    {
+      "char": "B",
+      "block": "pfm:green_simple_sofa[facing=east,shape=left_edge]"
+    },
+    {
+      "char": "C",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "D",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "E",
+      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=false,facing=south]"
+    },
+    {
+      "char": "F",
+      "block": "createdeco:cast_iron_door[half=upper,open=false,hinge=left,facing=east]"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "J",
+      "block": "createdeco:cast_iron_door[half=upper,open=false,hinge=right,facing=north]"
+    },
+    {
+      "char": "K",
+      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=false,facing=west]"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "M",
+      "block": "buildersdelight:lantern_2[waterlogged=false,facing=east,face=floor]"
+    },
+    {
+      "char": "N",
+      "block": "quark:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "O",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "P",
+      "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+    }
+  ]
+}

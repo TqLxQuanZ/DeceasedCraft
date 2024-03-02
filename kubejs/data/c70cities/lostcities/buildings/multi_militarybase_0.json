@@ -5,13 +5,35 @@
   "allowFillers": false,
   "minfloors": 1,
   "maxfloors": 1,
-  "mincellars": 1,
-  "maxcellars": 1,
+  "mincellars": 4,
+  "maxcellars": 4,
   "parts": [
     {
       "top": false,
       "cellar": true,
       "ground": false,
+      "floor": -4,
+      "part": "c70cities:multi_militarybase_0_base4"
+    },
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "floor": -3,
+      "part": "c70cities:multi_militarybase_0_base3"
+    },
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "floor": -2,
+      "part": "c70cities:multi_militarybase_0_base2"
+    },
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "floor": -1,
       "part": "c70cities:multi_militarybase_0_base1"
     },
     {

@@ -15,15 +15,15 @@
     },
     {
       "char": "d",
-      "block": "minecraft:stone_button[facing=south,face=wall]"
-    },
-    {
-      "char": "e",
       "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
-      "char": "f",
+      "char": "e",
       "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=false,facing=south]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:stone_button[facing=south,face=wall]"
     },
     {
       "char": "g",

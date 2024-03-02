@@ -1,0 +1,153 @@
+{
+  "name": "multi_militarybase_2_base4_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:cut_tuff_bricks"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "c",
+      "block": "quark:polished_limestone"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "e",
+      "block": "immersiveengineering:storage_steel"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:netherite_block"
+    },
+    {
+      "char": "g",
+      "block": "immersiveengineering:storage_lead"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:iron_block"
+    },
+    {
+      "char": "i",
+      "block": "immersiveengineering:storage_aluminum"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:slate_button[facing=north,face=floor]"
+    },
+    {
+      "char": "k",
+      "block": "quark:iron_button[facing=north,face=floor]"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:slate_button[facing=west,face=floor]"
+    },
+    {
+      "char": "m",
+      "block": "quark:iron_button[facing=east,face=floor]"
+    },
+    {
+      "char": "n",
+      "block": "apocalypsenow:iron_locker[facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "o",
+      "block": "immersiveengineering:sheetmetal_steel"
+    },
+    {
+      "char": "p",
+      "block": "pfm:concrete_kitchen_counter[facing=north]"
+    },
+    {
+      "char": "q",
+      "block": "pfm:stripped_hellbark_biomesoplenty_chair[facing=south]"
+    },
+    {
+      "char": "r",
+      "block": "pfm:stripped_hellbark_biomesoplenty_chair[facing=east]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:polished_deepslate_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "u",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "w",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "x",
+      "block": "apocalypsenow:broken_plasma_tv[facing=south]"
+    },
+    {
+      "char": "y",
+      "block": "pfm:andesite_chair[facing=south]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+    },
+    {
+      "char": "C",
+      "block": "create:display_board[waterlogged=false,up=false,facing=north,down=false]"
+    },
+    {
+      "char": "D",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "E",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "F",
+      "block": "zombie_extreme:computer_monitor[facing=south]"
+    },
+    {
+      "char": "I",
+      "block": "zombie_extreme:empty_cans[facing=west]"
+    },
+    {
+      "char": "J",
+      "block": "zombie_extreme:radio_installation[facing=south]"
+    },
+    {
+      "char": "K",
+      "block": "zombie_extreme:radio_installation[facing=east]"
+    },
+    {
+      "char": "L",
+      "block": "zombie_extreme:empty_cans[facing=south]"
+    },
+    {
+      "char": "M",
+      "block": "zombie_extreme:radio_installation[facing=west]"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:polished_deepslate_slab[type=top,waterlogged=false]"
+    }
+  ]
+}

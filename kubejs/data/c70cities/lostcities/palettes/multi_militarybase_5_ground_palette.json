@@ -1,0 +1,114 @@
+{
+  "name": "multi_militarybase_5_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "b",
+      "block": "buildersdelight:cobblestone_6"
+    },
+    {
+      "char": "c",
+      "block": "create:layered_tuff"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "f",
+      "block": "biomesoplenty:dead_grass"
+    },
+    {
+      "char": "g",
+      "block": "createdeco:cast_iron_mesh_fence[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "embellishcraft:basalt_button[facing=north,face=floor]"
+    },
+    {
+      "char": "i",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "l",
+      "block": "createdeco:andesite_support[waterlogged=false,facing=up]"
+    },
+    {
+      "char": "m",
+      "block": "embellishcraft:basalt_button[facing=west,face=floor]"
+    },
+    {
+      "char": "n",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "o",
+      "block": "embellishcraft:polished_basalt"
+    },
+    {
+      "char": "p",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "q",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "r",
+      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:command_block[facing=up,conditional=false]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "spawnRandomCar"
+      }
+    },
+    {
+      "char": "t",
+      "block": "apocalypsenow:wire_fence[waterlogged=false]"
+    },
+    {
+      "char": "u",
+      "block": "createdeco:andesite_catwalk[waterlogged=false]"
+    },
+    {
+      "char": "w",
+      "block": "immersiveengineering:razor_wire[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "x",
+      "block": "createbigcannons:cannon_mount[facing=east]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:hopper[facing=north]"
+    },
+    {
+      "char": "A",
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
+    },
+    {
+      "char": "B",
+      "block": "immersiveengineering:razor_wire[waterlogged=false,facing=north]"
+    }
+  ]
+}

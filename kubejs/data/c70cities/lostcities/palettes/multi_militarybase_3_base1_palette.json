@@ -3,7 +3,7 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:dirt"
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=north]"
     },
     {
       "char": "b",
@@ -15,73 +15,151 @@
     },
     {
       "char": "d",
-      "block": "create:cut_tuff_bricks"
+      "block": "create:cut_tuff_brick_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "e",
-      "block": "quark:smooth_stone_vertical_slab[type=north,waterlogged=false]"
+      "block": "create:cut_tuff_bricks"
     },
     {
       "char": "f",
-      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+      "block": "embellishcraft:skyblue_tiles"
     },
     {
       "char": "g",
-      "block": "quark:acacia_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
+      "block": "create:andesite_bars[waterlogged=false]"
     },
     {
       "char": "h",
-      "block": "immersiveengineering:concrete_sheet"
+      "block": "quark:polished_andesite_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "i",
-      "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=north]"
+      "block": "minecraft:polished_andesite"
     },
     {
       "char": "j",
-      "block": "minecraft:iron_door[half=lower,open=false,hinge=right,facing=north]"
+      "block": "immersiveengineering:radiator"
     },
     {
       "char": "k",
-      "block": "cfm:andesite_table[waterlogged=false]"
+      "block": "cfm:stripped_spruce_park_bench[type=left,waterlogged=false,facing=south]"
     },
     {
       "char": "l",
-      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
+      "block": "cfm:stripped_spruce_park_bench[type=right,waterlogged=false,facing=south]"
     },
     {
       "char": "m",
-      "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=north]"
+      "block": "cfm:stripped_spruce_park_bench[type=middle,waterlogged=false,facing=south]"
     },
     {
       "char": "n",
-      "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=north]"
+      "block": "createdeco:andesite_door[half=lower,open=false,hinge=left,facing=north]"
     },
     {
       "char": "o",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
-      "loot": "chestloot"
+      "block": "createdeco:andesite_door[half=lower,open=false,hinge=right,facing=east]"
     },
     {
       "char": "p",
-      "block": "apocalypsenow:medical_storage[waterlogged=false,facing=north]",
-      "loot": "chestloot"
+      "block": "pfm:mesh_trashcan[facing=north]"
     },
     {
       "char": "q",
-      "block": "embellishcraft:light_gray_pillow[waterlogged=false,occupied=false,part=head,facing=south]"
+      "block": "quark:polished_andesite_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "r",
-      "block": "create:framed_glass_pane[waterlogged=false]"
+      "block": "quark:polished_andesite_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "s",
-      "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
+      "block": "quark:polished_andesite_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "t",
+      "block": "createdeco:andesite_door[half=lower,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "u",
+      "block": "pfm:basic_toilet[facing=east,toilet=empty]"
+    },
+    {
+      "char": "w",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "x",
+      "block": "pfm:basic_sink[facing=south,level=0]"
+    },
+    {
+      "char": "y",
+      "block": "createdeco:andesite_door[half=upper,open=false,hinge=left,facing=north]"
+    },
+    {
+      "char": "A",
+      "block": "createdeco:andesite_door[half=upper,open=false,hinge=right,facing=east]"
+    },
+    {
+      "char": "B",
+      "block": "createdeco:andesite_door[half=upper,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "C",
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    {
+      "char": "D",
+      "block": "refinedstorage:machine_casing"
+    },
+    {
+      "char": "E",
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "char": "F",
+      "block": "pfm:white_mirror[facing=south]"
+    },
+    {
+      "char": "I",
+      "block": "quark:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "K",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=south,face=wall]"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:polished_deepslate_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "N",
       "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "O",
+      "block": "embellishcraft:damaged_paving_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+    },
+    {
+      "char": "P",
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+    },
+    {
+      "char": "Q",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "R",
+      "block": "minecraft:cobweb"
     }
   ]
 }

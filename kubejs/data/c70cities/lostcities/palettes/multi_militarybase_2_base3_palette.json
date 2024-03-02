@@ -1,0 +1,65 @@
+{
+  "name": "multi_militarybase_2_base3_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:display_board[waterlogged=false,up=false,facing=north,down=false]"
+    },
+    {
+      "char": "b",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "c",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "d",
+      "block": "zombie_extreme:empty_cans[facing=east]"
+    },
+    {
+      "char": "e",
+      "block": "zombie_extreme:computer_monitor[facing=south]"
+    },
+    {
+      "char": "f",
+      "block": "zombie_extreme:radio_installation[facing=south]"
+    },
+    {
+      "char": "g",
+      "block": "zombie_extreme:radio_installation[facing=east]"
+    },
+    {
+      "char": "h",
+      "block": "pfm:concrete_kitchen_counter[facing=north]"
+    },
+    {
+      "char": "i",
+      "block": "pfm:andesite_chair[facing=south]"
+    },
+    {
+      "char": "j",
+      "block": "zombie_extreme:empty_cans[facing=south]"
+    },
+    {
+      "char": "k",
+      "block": "quark:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "m",
+      "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+    }
+  ]
+}

@@ -4,6 +4,52 @@
     {
       "char": "a",
       "block": "create:polished_cut_limestone"
+    },
+    {
+      "char": "b",
+      "block": "createdeco:andesite_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
+    },
+    {
+      "char": "c",
+      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
+    },
+    {
+      "char": "d",
+      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "e",
+      "block": "apocalypsenow:metal_shelves[waterlogged=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "f",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "h",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "i",
+      "block": "apocalypsenow:wire_fence[waterlogged=false]"
+    },
+    {
+      "char": "j",
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=east,face=floor]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:redstone_torch[lit=true]"
     }
   ]
 }

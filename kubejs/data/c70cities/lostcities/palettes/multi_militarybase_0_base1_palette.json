@@ -3,146 +3,195 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:dirt"
-    },
-    {
-      "char": "b",
       "block": "create:cut_tuff_bricks"
     },
     {
-      "char": "c",
+      "char": "b",
       "block": "minecraft:smooth_stone"
     },
     {
+      "char": "c",
+      "block": "create:andesite_ladder[waterlogged=false,facing=west]"
+    },
+    {
       "char": "d",
-      "block": "embellishcraft:moist_paving"
+      "block": "create:cut_tuff_brick_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "e",
-      "block": "quark:polished_limestone"
+      "block": "embellishcraft:moist_paving"
     },
     {
       "char": "f",
-      "block": "quark:spruce_ladder[waterlogged=false,facing=south]"
+      "block": "minecraft:gray_wool"
     },
     {
       "char": "g",
-      "block": "minecraft:green_bed[occupied=false,part=head,facing=north]",
-      "tag": {
-        "id": "minecraft:bed"
-      }
+      "block": "minecraft:light_gray_wool"
     },
     {
       "char": "h",
-      "block": "minecraft:green_bed[occupied=false,part=foot,facing=north]",
+      "block": "pfm:dead_biomesoplenty_white_simple_bed[occupied=false,part=head,facing=north]",
       "tag": {
-        "id": "minecraft:bed"
+        "id": "pfm:bed_block_entity"
       }
     },
     {
       "char": "i",
-      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=left,facing=south]"
+      "block": "createdeco:cast_iron_bars_overlay[waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=right,facing=south]"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "k",
-      "block": "quark:smooth_stone_vertical_slab[type=north,waterlogged=false]"
+      "block": "minecraft:polished_andesite"
     },
     {
       "char": "l",
-      "block": "minecraft:oak_door[half=lower,open=true,hinge=left,facing=north]"
+      "block": "pfm:dead_biomesoplenty_white_simple_bed[occupied=false,part=foot,facing=north]",
+      "tag": {
+        "id": "pfm:bed_block_entity"
+      }
     },
     {
       "char": "m",
-      "block": "minecraft:smithing_table"
+      "block": "apocalypsenow:sandbags"
     },
     {
       "char": "n",
-      "block": "minecraft:barrel[open=false,facing=south]"
-    },
-    {
-      "char": "o",
-      "block": "another_furniture:oak_drawer[open=false,facing=south]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "p",
-      "block": "quark:stone_vertical_slab[type=east,waterlogged=false]"
-    },
-    {
-      "char": "q",
-      "block": "embellishcraft:sturdy_steel_door[half=lower,open=false,hinge=right,facing=east]"
-    },
-    {
-      "char": "r",
-      "block": "quark:stone_vertical_slab[type=south,waterlogged=false]"
-    },
-    {
-      "char": "s",
-      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
-    },
-    {
-      "char": "t",
       "block": "quark:acacia_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
+      "char": "o",
+      "block": "createdeco:cast_iron_door[half=lower,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:white_wool"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:white_carpet"
+    },
+    {
+      "char": "r",
+      "block": "quark:polished_andesite_vertical_slab[type=south,waterlogged=false]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "t",
+      "block": "createdeco:cast_iron_bars[waterlogged=false]"
+    },
+    {
       "char": "u",
-      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=left,facing=south]"
+      "block": "zombie_extreme:iron_table[facing=south]"
     },
     {
       "char": "w",
-      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=right,facing=south]"
+      "block": "quark:framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "x",
-      "block": "minecraft:oak_door[half=upper,open=true,hinge=left,facing=north]"
+      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "y",
-      "block": "minecraft:lever[facing=north,face=floor]"
+      "block": "quark:blossom_pressure_plate"
     },
     {
       "char": "A",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "B",
-      "block": "quark:iron_button[facing=north,face=floor]"
-    },
-    {
-      "char": "C",
-      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=right,facing=east]"
-    },
-    {
-      "char": "D",
       "block": "minecraft:target"
     },
     {
+      "char": "B",
+      "block": "quark:blossom_button[facing=west,face=floor]"
+    },
+    {
+      "char": "C",
+      "block": "createdeco:andesite_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
+    },
+    {
+      "char": "D",
+      "block": "createdeco:andesite_support[waterlogged=false,facing=up]"
+    },
+    {
       "char": "E",
-      "block": "minecraft:redstone_torch[lit=true]"
+      "block": "zombie_extreme:iron_table[facing=east]"
     },
     {
       "char": "F",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
-      "loot": "chestloot"
+      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=south]"
     },
     {
       "char": "I",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
-      "loot": "chestloot"
+      "block": "zombie_extreme:iron_table[facing=north]"
     },
     {
       "char": "J",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
-      "loot": "chestloot"
+      "block": "quark:blossom_button[facing=south,face=floor]"
     },
     {
       "char": "K",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:barrel[open=false,facing=east]"
+    },
+    {
+      "char": "M",
+      "block": "apocalypsenow:sandbagsstar[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "N",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "O",
+      "block": "createdeco:cast_iron_door[half=upper,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "P",
+      "block": "apocalypsenow:sandbagsslab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "R",
+      "block": "embellishcraft:light_gray_pillow[waterlogged=false,occupied=false,part=head,facing=west]"
+    },
+    {
+      "char": "S",
+      "block": "embellishcraft:sandstone_button[facing=west,face=floor]"
+    },
+    {
+      "char": "T",
+      "block": "apocalypsenow:medical_storage[waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "U",
+      "block": "minecraft:redstone_wall_torch[facing=west,lit=true]"
+    },
+    {
+      "char": "V",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "W",
       "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "X",
+      "block": "minecraft:polished_deepslate_slab[type=top,waterlogged=false]"
     }
   ]
 }
