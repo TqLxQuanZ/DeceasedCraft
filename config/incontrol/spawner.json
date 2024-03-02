@@ -141,8 +141,7 @@
 		}
 	},
 	{
-		"mob": ["mutationcraft:assimilated_jockey",
-				"mutationcraft:reductor"],
+		"mob": ["mutationcraft:reductor"],
 		"persecond": 0.15,
 		"attempts": 25,
 		"conditions": {
@@ -390,6 +389,19 @@
 			"dimension": "deceasedcraft:abyss",
 		  "norestrictions": true,
 		  "inair": true,
+		  "mindist": 30,
+		  "maxdist": 200,
+		  "minheight": -60,
+		  "maxheight": 350
+		}
+	},
+	{
+		"mob": ["mutationcraft:assimilated_jockey"],
+		"persecond": 0.15,
+		"attempts": 25,
+		"conditions": {
+		"dimension": "deceasedcraft:abyss",
+		  "norestrictions": true,
 		  "mindist": 30,
 		  "maxdist": 200,
 		  "minheight": -60,
