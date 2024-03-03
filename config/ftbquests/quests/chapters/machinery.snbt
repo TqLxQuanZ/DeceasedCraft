@@ -19,8 +19,10 @@
 				"{quest.material.arc_furnace.description_3}"
 				"{quest.material.arc_furnace.description_4}"
 			]
-			dependencies: ["4A1A36DD335F7F72"]
-			dependency_requirement: "one_started"
+			dependencies: [
+				"4A1A36DD335F7F72"
+				"18BCFEEA3BBC95E8"
+			]
 			progression_mode: "linear"
 			id: "735FD75967EE7FF2"
 			tasks: [{
@@ -420,12 +422,16 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: -10.5d
+			x: 6.0d
+			y: -12.0d
 			shape: "hexagon"
 			subtitle: "{quest.guns.aluminum_ingot.subtitle}"
 			description: ["{quest.guns.aluminum_ingot.description_1}"]
-			dependencies: ["735FD75967EE7FF2"]
+			min_required_dependencies: 1
+			dependencies: [
+				"735FD75967EE7FF2"
+				"1FFA9E02C93303E5"
+			]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "linear"
@@ -866,6 +872,50 @@
 				id: "515E4AE2CB4ECEB6"
 				type: "xp"
 				xp: 300
+			}]
+		}
+		{
+			title: "{quest.material.bauxite.title}"
+			x: 3.0d
+			y: -12.0d
+			subtitle: "{quest.material.bauxite.subtitle}"
+			description: ["{quest.material.bauxite.description_1}"]
+			id: "18BCFEEA3BBC95E8"
+			tasks: [{
+				id: "38F4A7751E3E8028"
+				type: "item"
+				item: "immersiveengineering:ore_aluminum"
+			}]
+			rewards: [{
+				id: "11D35C97CB9A26E5"
+				type: "item"
+				item: "immersiveengineering:ore_aluminum"
+				count: 3
+			}]
+		}
+		{
+			title: "{quest.material.aluminium_nugget.title}"
+			x: 4.5d
+			y: -12.0d
+			subtitle: "{quest.material.aluminium_nugget.subtitle}"
+			description: [
+				"{quest.material.aluminium_nugget.description_1}"
+				""
+				"{quest.material.aluminium_nugget.description_2}"
+			]
+			dependencies: ["18BCFEEA3BBC95E8"]
+			dependency_requirement: "one_started"
+			progression_mode: "linear"
+			id: "1FFA9E02C93303E5"
+			tasks: [{
+				id: "472B252F90114BED"
+				type: "item"
+				item: "immersiveengineering:nugget_aluminum"
+			}]
+			rewards: [{
+				id: "202BDBE46025A382"
+				type: "item"
+				item: "immersiveengineering:ingot_aluminum"
 			}]
 		}
 	]

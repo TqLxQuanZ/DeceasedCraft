@@ -192,6 +192,12 @@
 				type: "item"
 				item: "securitycraft:remote_access_mine"
 			}]
+			rewards: [{
+				id: "12F7A4A1AA79F56C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3132227616718337425L
+			}]
 		}
 		{
 			title: "{quest.defense.bouncy_mine.title}"
@@ -475,6 +481,32 @@
 				id: "339C9C67C05113B9"
 				type: "item"
 				item: "immersivepetroleum:napalm_bucket"
+			}]
+		}
+		{
+			title: "{quest.defense.wirecutter.title}"
+			x: 2.5d
+			y: -1.0d
+			shape: "gear"
+			subtitle: "{quest.defense.wirecutter.subtitle}"
+			description: ["{quest.defense.wirecutter.description_1}"]
+			id: "7B4B719C21EE7453"
+			tasks: [{
+				id: "3B87090BFDF71263"
+				type: "item"
+				item: {
+					id: "immersiveengineering:wirecutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "66DF9B74BE61EF3A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3132227616718337425L
 			}]
 		}
 	]
