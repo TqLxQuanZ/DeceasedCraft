@@ -1,0 +1,182 @@
+{
+  "name": "multi_militarybase_0_base3_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:cut_tuff_bricks"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:moist_paving"
+    },
+    {
+      "char": "d",
+      "block": "create:andesite_ladder[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "e",
+      "block": "create:blaze_burner[facing=south,blaze=none]",
+      "tag": {
+        "id": "create:blaze_heater"
+      }
+    },
+    {
+      "char": "f",
+      "block": "create:blaze_burner[facing=south,blaze=smouldering]",
+      "tag": {
+        "id": "create:blaze_heater"
+      }
+    },
+    {
+      "char": "g",
+      "block": "pfm:concrete_kitchen_counter[facing=north]"
+    },
+    {
+      "char": "h",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "i",
+      "block": "another_furniture:spruce_drawer[open=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "j",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "m",
+      "block": "pfm:andesite_chair[facing=east]"
+    },
+    {
+      "char": "n",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "p",
+      "block": "quark:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "pfm:concrete_kitchen_counter[facing=west]"
+    },
+    {
+      "char": "r",
+      "block": "pfm:light_gray_arm_chair[facing=north,shape=straight]"
+    },
+    {
+      "char": "s",
+      "block": "pfm:concrete_kitchen_counter[facing=south]"
+    },
+    {
+      "char": "t",
+      "block": "pfm:light_gray_arm_chair[facing=west,shape=straight]"
+    },
+    {
+      "char": "u",
+      "block": "pfm:concrete_kitchen_counter[facing=east]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "x",
+      "block": "pfm:light_gray_arm_chair[facing=east,shape=straight]"
+    },
+    {
+      "char": "y",
+      "block": "pfm:concrete_kitchen_drawer[open=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "A",
+      "block": "create:blaze_burner[facing=east,blaze=smouldering]",
+      "tag": {
+        "id": "create:blaze_heater"
+      }
+    },
+    {
+      "char": "B",
+      "block": "create:analog_lever[facing=north,face=floor]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:heavy_weighted_pressure_plate"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:green_shulker_box[facing=up]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:light_gray_shulker_box[facing=up]"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "I",
+      "block": "buildersdelight:lantern_2[waterlogged=false,facing=west,face=floor]"
+    },
+    {
+      "char": "J",
+      "block": "rocks:geyser"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:bell[facing=west]"
+    },
+    {
+      "char": "L",
+      "block": "biomesoplenty:dead_pressure_plate"
+    },
+    {
+      "char": "M",
+      "block": "alexsmobs:bison_carpet"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:daylight_detector"
+    },
+    {
+      "char": "O",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "P",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "Q",
+      "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "R",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+    }
+  ]
+}

@@ -343,23 +343,17 @@ craftingTable.addShapedMirrored("knife_spear", <constant:minecraft:mirroraxis:ho
 	[<item:minecraft:air>, <item:apocalypsenow:log_with_stone>]]);
 
 craftingTable.remove(<item:apocalypsenow:spear>);
-craftingTable.remove(<item:apocalypsenow:wooden_spear>);
-JEI.hideIngredient(<item:apocalypsenow:spear>);
-JEI.hideIngredient(<item:apocalypsenow:wooden_spear>);
-
-/*
-craftingTable.remove(<item:apocalypsenow:spear>);
 craftingTable.addShapedMirrored("spear", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:spear>,
-    [[<item:minecraft:air>, <tag:items:forge:nuggets/steel>],
-    [<item:minecraft:air>, <tag:items:forge:rods/aluminum>],
-	[<item:minecraft:air>, <item:apocalypsenow:log_with_stone>]]);
+    [[<item:minecraft:air>, <tag:items:forge:ingots/steel>],
+    [<item:minecraft:air>, <tag:items:forge:rods/steel>],
+	[<item:minecraft:air>, <tag:items:forge:rods/steel>]]);
     
-craftingTable.remove(<item:apocalypsenow:wooden_spear>);
-craftingTable.addShapedMirrored("wooden_spear", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:wooden_spear>,
+craftingTable.remove(<item:apocalypsenow:woddenspear>);
+craftingTable.addShapedMirrored("wooden_spear", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:woddenspear>,
     [[<item:minecraft:air>, <tag:items:forge:rods/wooden>],
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>],
 	[<item:minecraft:air>, <item:apocalypsenow:log_with_stone>]]);
-*/
+
 
 // Misc
 craftingTable.remove(<item:apocalypsenow:pipe>);

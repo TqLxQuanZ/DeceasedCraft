@@ -1,0 +1,160 @@
+{
+  "name": "multi_militarybase_5_base2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:moist_paving"
+    },
+    {
+      "char": "c",
+      "block": "create:cut_tuff_bricks"
+    },
+    {
+      "char": "d",
+      "block": "create:cut_tuff_brick_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
+    },
+    {
+      "char": "e",
+      "block": "create:andesite_ladder[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "f",
+      "block": "embellishcraft:skyblue_tiles"
+    },
+    {
+      "char": "g",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "pfm:green_simple_sofa[facing=east,shape=right_edge]"
+    },
+    {
+      "char": "i",
+      "block": "pfm:green_simple_sofa[facing=south,shape=right_edge]"
+    },
+    {
+      "char": "j",
+      "block": "pfm:green_simple_sofa[facing=south,shape=left_edge]"
+    },
+    {
+      "char": "k",
+      "block": "cfm:stripped_spruce_table[waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "m",
+      "block": "quark:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "create:contraption_controls[waterlogged=false,open=false,facing=east]",
+      "tag": {
+        "id": "create:contraption_controls"
+      }
+    },
+    {
+      "char": "o",
+      "block": "immersiveengineering:conveyor_basic[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "p",
+      "block": "quark:polished_andesite_vertical_slab[type=north,waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:jukebox"
+    },
+    {
+      "char": "r",
+      "block": "create:cogwheel[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "s",
+      "block": "create:brown_seat[waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "pfm:white_mirror[facing=east]"
+    },
+    {
+      "char": "u",
+      "block": "quark:iron_rod[facing=down]"
+    },
+    {
+      "char": "w",
+      "block": "create:schematic_table[facing=north]"
+    },
+    {
+      "char": "x",
+      "block": "create:cogwheel[waterlogged=false,axis=y]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "y",
+      "block": "pfm:light_gray_shower_towel[facing=south]"
+    },
+    {
+      "char": "A",
+      "block": "create:cogwheel[waterlogged=false,axis=x]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "B",
+      "block": "create:shaft[waterlogged=false,axis=x]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "C",
+      "block": "create:large_cogwheel[waterlogged=false,axis=x]"
+    },
+    {
+      "char": "D",
+      "block": "pfm:basic_shower_handle[facing=north]"
+    },
+    {
+      "char": "E",
+      "block": "pfm:white_shower_towel[facing=north]"
+    },
+    {
+      "char": "F",
+      "block": "pfm:basic_shower_head[facing=south]"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "K",
+      "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "L",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:cobweb"
+    }
+  ]
+}

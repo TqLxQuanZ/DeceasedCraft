@@ -506,9 +506,10 @@
 				type: "checkmark"
 			}]
 			rewards: [{
-				id: "1DAE43D6EAA21BC6"
-				type: "item"
-				item: "minecraft:cookie"
+				id: "651B442B1C3DEE53"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3132227616718337425L
 			}]
 		}
 		{

@@ -3,15 +3,11 @@
   "palette": [
     {
       "char": "a",
-      "block": "biomesoplenty:dead_leaves"
+      "block": "biomesoplenty:dead_leaves[persistent=true]"
     },
     {
       "char": "b",
-      "block": "minecraft:cracked_stone_bricks"
-    },
-    {
-      "char": "c",
-      "block": "biomesoplenty:dead_grass"
+      "block": "minecraft:dead_bush"
     }
   ]
 }

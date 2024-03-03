@@ -97,7 +97,8 @@
     },
     {
       "char": "y",
-      "block": "zombie_extreme:dead_body[facing=south]"
+      "block": "zombie_extreme:dead_body[facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "A",
@@ -144,7 +145,8 @@
     },
     {
       "char": "M",
-      "block": "zombie_extreme:dead_body[facing=west]"
+      "block": "zombie_extreme:dead_body[facing=west]",
+      "loot": "chestloot"
     },
     {
       "char": "N",
@@ -192,7 +194,8 @@
     },
     {
       "char": "X",
-      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=north]"
+      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "Y",

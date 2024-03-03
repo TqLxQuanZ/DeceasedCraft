@@ -1,0 +1,272 @@
+{
+	id: "749410AA8A7D835F"
+	group: "410F2D717CE3690A"
+	order_index: 3
+	filename: "survivors_and_trade"
+	title: "Villager Trades"
+	icon: {
+		id: "artifacts:villager_hat"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{quest.guides.villager.title}"
+			icon: {
+				id: "artifacts:villager_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -1.0d
+			shape: "hexagon"
+			subtitle: "{quest.guides.villager.subtitle}"
+			description: [
+				"{quest.guides.villager.description_1}"
+				""
+				"{quest.guides.villager.description_2}"
+			]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			progression_mode: "flexible"
+			id: "70DC5AD38FB776CE"
+			tasks: [{
+				id: "5BCA5E99C2C682DF"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4DD9DEB8BD86CDEF"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "{quest.guides.villager.armorer.title}"
+			x: -2.5d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["70DC5AD38FB776CE"]
+			id: "3F6D8A0302012C97"
+			tasks: [{
+				id: "3A153CC0B9F8E58F"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+		}
+		{
+			title: "{quest.guides.villager.butcher.title}"
+			x: -2.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["70DC5AD38FB776CE"]
+			id: "53E0E65AF9C3E312"
+			tasks: [{
+				id: "736D216D5FDEE50A"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+		}
+		{
+			title: "{quest.guides.villager.cartographer.title}"
+			x: -1.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["70DC5AD38FB776CE"]
+			id: "1CDA8FA0E462245C"
+			tasks: [{
+				id: "3F7B88B0BEC511D9"
+				type: "item"
+				item: "minecraft:cartography_table"
+			}]
+		}
+		{
+			title: "{quest.guides.villager.cleric.title}"
+			x: 0.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["70DC5AD38FB776CE"]
+			id: "375AD1FBD17FC167"
+			tasks: [{
+				id: "662457DEE98F1801"
+				type: "item"
+				item: "minecraft:brewing_stand"
+			}]
+		}
+		{
+			title: "{quest.guides.villager.farmer.title}"
+			x: 1.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["70DC5AD38FB776CE"]
+			id: "6CC6209F532ECF10"
+			tasks: [{
+				id: "79910709172FE199"
+				type: "item"
+				item: "minecraft:composter"
+			}]
+		}
+		{
+			title: "{quest.guides.villager.fisherman.title}"
+			x: 2.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["70DC5AD38FB776CE"]
+			id: "413529CA5531B094"
+			tasks: [{
+				id: "754692B92040871B"
+				type: "item"
+				item: "minecraft:barrel"
+			}]
+		}
+		{
+			title: "{quest.guides.villager.fletcher.title}"
+			x: -0.5d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["70DC5AD38FB776CE"]
+			id: "63C266401080B639"
+			tasks: [{
+				id: "29DD9D9932689BD3"
+				type: "item"
+				item: "minecraft:fletching_table"
+			}]
+		}
+		{
+			title: "{quest.guides.villager.leatherworker.title}"
+			x: -3.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["70DC5AD38FB776CE"]
+			id: "52736C3DBD91113E"
+			tasks: [{
+				id: "1461F8E33DCC4031"
+				type: "item"
+				item: "minecraft:cauldron"
+			}]
+		}
+		{
+			title: "{quest.guides.villager.librarian.title}"
+			x: 2.5d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["70DC5AD38FB776CE"]
+			id: "15BAD685D408033E"
+			tasks: [{
+				id: "45E95D01DA704AE6"
+				type: "item"
+				item: "minecraft:lectern"
+			}]
+		}
+		{
+			title: "{quest.guides.villager.mason.title}"
+			x: -1.5d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["70DC5AD38FB776CE"]
+			id: "599F2784A273EC15"
+			tasks: [{
+				id: "52E60DA254254E23"
+				type: "item"
+				item: "minecraft:stonecutter"
+			}]
+		}
+		{
+			title: "{quest.guides.villager.shepherd.title}"
+			x: 0.5d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["70DC5AD38FB776CE"]
+			id: "0CDE07C2EF623C82"
+			tasks: [{
+				id: "01714CFBB5BDA004"
+				type: "item"
+				item: "minecraft:loom"
+			}]
+		}
+		{
+			title: "{quest.guides.villager.toolsmith.title}"
+			x: 1.5d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["70DC5AD38FB776CE"]
+			id: "56A2314E4CAF34CD"
+			tasks: [{
+				id: "3616492B1A2A15DE"
+				type: "item"
+				item: "minecraft:smithing_table"
+			}]
+		}
+		{
+			title: "{quest.guides.villager.weaponsmith.title}"
+			x: 3.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["70DC5AD38FB776CE"]
+			id: "6975E24AD4CC6698"
+			tasks: [{
+				id: "0ECB86AE8BF11E77"
+				type: "item"
+				item: "minecraft:grindstone"
+			}]
+		}
+		{
+			title: "{quest.guides.villager.engineer.title}"
+			x: -1.5d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["70DC5AD38FB776CE"]
+			id: "7A84DD67FA14A0F8"
+			tasks: [{
+				id: "54F927A43E61FC42"
+				type: "item"
+				item: "immersiveengineering:turntable"
+			}]
+		}
+		{
+			title: "{quest.guides.villager.machinist.title}"
+			x: 0.5d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["70DC5AD38FB776CE"]
+			id: "27C158005785771F"
+			tasks: [{
+				id: "5FC3BFFD1B2CA96F"
+				type: "item"
+				item: "immersiveengineering:craftingtable"
+			}]
+		}
+		{
+			title: "{quest.guides.villager.electrician.title}"
+			x: -0.5d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["70DC5AD38FB776CE"]
+			id: "16455ECBC89E06F2"
+			tasks: [{
+				id: "43E4A56AC67F093B"
+				type: "item"
+				item: "immersiveengineering:circuit_table"
+			}]
+		}
+		{
+			title: "{quest.guides.villager.gunsmith.title}"
+			x: 1.5d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["70DC5AD38FB776CE"]
+			id: "53E59B77241A31C2"
+			tasks: [{
+				id: "42153614424AC52D"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

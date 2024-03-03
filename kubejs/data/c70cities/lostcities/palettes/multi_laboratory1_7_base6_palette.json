@@ -23,7 +23,8 @@
     },
     {
       "char": "f",
-      "block": "zombie_extreme:dead_body[facing=south]"
+      "block": "zombie_extreme:dead_body[facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "g",
@@ -31,75 +32,80 @@
     },
     {
       "char": "h",
-      "block": "biomesoplenty:cherry_pressure_plate"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
     },
     {
       "char": "i",
-      "block": "pfm:dark_concrete_kitchen_counter[facing=north]"
+      "block": "biomesoplenty:cherry_pressure_plate"
     },
     {
       "char": "j",
-      "block": "refinedstorage:controller"
+      "block": "pfm:dark_concrete_kitchen_counter[facing=north]"
     },
     {
       "char": "k",
-      "block": "pfm:light_gray_arm_chair[facing=south,shape=straight]"
+      "block": "refinedstorage:controller"
     },
     {
       "char": "l",
-      "block": "pfm:light_gray_arm_chair[facing=west,shape=straight]"
+      "block": "pfm:light_gray_arm_chair[facing=south,shape=straight]"
     },
     {
       "char": "m",
-      "block": "zombie_extreme:radio_installation[facing=west]"
+      "block": "pfm:light_gray_arm_chair[facing=west,shape=straight]"
     },
     {
       "char": "n",
-      "block": "minecraft:stone_button[facing=east,face=floor]"
+      "block": "zombie_extreme:radio_installation[facing=west]"
     },
     {
       "char": "o",
-      "block": "zombie_extreme:empty_cans[facing=north]"
+      "block": "minecraft:stone_button[facing=east,face=floor]"
     },
     {
       "char": "p",
+      "block": "zombie_extreme:empty_cans[facing=north]"
+    },
+    {
+      "char": "q",
       "block": "create:contraption_controls[waterlogged=false,open=false,facing=south]",
       "tag": {
         "id": "create:contraption_controls"
       }
     },
     {
-      "char": "q",
+      "char": "r",
       "block": "quark:iron_button[facing=east,face=floor]"
     },
     {
-      "char": "r",
+      "char": "s",
       "block": "create:polished_cut_deepslate_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "s",
+      "char": "t",
       "block": "create:gearbox[axis=z]",
       "tag": {
         "id": "create:gearbox"
       }
     },
     {
-      "char": "t",
+      "char": "u",
       "block": "create:shaft[waterlogged=false,axis=x]",
       "tag": {
         "id": "create:shaft"
       }
     },
     {
-      "char": "u",
+      "char": "w",
       "block": "create:mechanical_saw[axis_along_first=false,facing=east]"
     },
     {
-      "char": "w",
+      "char": "x",
       "block": "create:piston_extension_pole[waterlogged=false,facing=down]"
     },
     {
-      "char": "x",
+      "char": "y",
       "block": "buildersdelight:chain_5[waterlogged=false,axis=y]"
     }
   ]

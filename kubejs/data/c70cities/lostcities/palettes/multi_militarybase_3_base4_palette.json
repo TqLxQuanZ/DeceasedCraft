@@ -1,0 +1,49 @@
+{
+  "name": "multi_militarybase_3_base4_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "quark:polished_limestone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "c",
+      "block": "apocalypsenow:iron_locker[facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "d",
+      "block": "immersiveengineering:sheetmetal_steel"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "f",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "g",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "h",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:polished_deepslate_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+    }
+  ]
+}

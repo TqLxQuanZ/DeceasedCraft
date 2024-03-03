@@ -111,54 +111,59 @@
     },
     {
       "char": "C",
-      "block": "zombie_extreme:drinks_vending_machine[facing=south]",
+      "block": "minecraft:trapped_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "D",
-      "block": "quark:spruce_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
+      "block": "zombie_extreme:drinks_vending_machine[facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "E",
-      "block": "minecraft:chiseled_quartz_block"
+      "block": "quark:spruce_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "F",
+      "block": "minecraft:chiseled_quartz_block"
+    },
+    {
+      "char": "I",
       "block": "pfm:dark_concrete_kitchen_cabinet[open=false,facing=north]",
       "loot": "chestloot"
     },
     {
-      "char": "I",
+      "char": "J",
       "block": "pfm:dark_concrete_kitchen_wall_small_drawer[open=false,facing=north]",
       "loot": "chestloot"
     },
     {
-      "char": "J",
+      "char": "K",
       "block": "pfm:dark_concrete_kitchen_wall_drawer[open=false,facing=north]",
       "loot": "chestloot"
     },
     {
-      "char": "K",
+      "char": "L",
       "block": "pfm:dark_concrete_kitchen_wall_counter[facing=north]"
     },
     {
-      "char": "L",
+      "char": "M",
       "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "M",
+      "char": "N",
       "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "N",
+      "char": "O",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "O",
+      "char": "P",
       "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "P",
+      "char": "Q",
       "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
     }
   ]

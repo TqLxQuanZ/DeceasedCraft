@@ -111,7 +111,7 @@
     },
     {
       "char": "D",
-      "block": "minecraft:pointed_dripstone[waterlogged=false]"
+      "block": "minecraft:pointed_dripstone[vertical_direction=up,waterlogged=false,thickness=tip]"
     },
     {
       "char": "E",
@@ -119,33 +119,41 @@
     },
     {
       "char": "F",
+      "block": "minecraft:pointed_dripstone[vertical_direction=up,waterlogged=false,thickness=frustum]"
+    },
+    {
+      "char": "I",
       "block": "create:shaft[waterlogged=false,axis=x]",
       "tag": {
         "id": "create:shaft"
       }
     },
     {
-      "char": "I",
+      "char": "J",
       "block": "create:gearbox[axis=z]",
       "tag": {
         "id": "create:gearbox"
       }
     },
     {
-      "char": "J",
+      "char": "K",
       "block": "minecraft:cobbled_deepslate_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "K",
+      "char": "L",
       "block": "createdeco:cast_iron_mesh_fence[waterlogged=false]"
     },
     {
-      "char": "L",
+      "char": "M",
       "block": "minecraft:stone_button[facing=south,face=floor]"
     },
     {
-      "char": "M",
+      "char": "N",
       "block": "create:piston_extension_pole[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "O",
+      "block": "minecraft:pointed_dripstone[vertical_direction=up,waterlogged=false,thickness=base]"
     }
   ]
 }

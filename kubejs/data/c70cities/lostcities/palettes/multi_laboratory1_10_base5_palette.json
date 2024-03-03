@@ -70,42 +70,56 @@
     },
     {
       "char": "p",
-      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=true,facing=north]"
+      "block": "immersiveengineering:sheetmetal_iron"
     },
     {
       "char": "q",
-      "block": "biomesoplenty:hellbark_door[half=lower,open=false,hinge=left,facing=south]"
+      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=true,facing=north]"
     },
     {
       "char": "r",
-      "block": "createdeco:cast_iron_catwalk[waterlogged=false]"
+      "block": "biomesoplenty:hellbark_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "s",
-      "block": "biomesoplenty:hellbark_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
+      "block": "createdeco:cast_iron_catwalk[waterlogged=false]"
     },
     {
       "char": "t",
-      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=false,facing=south]"
+      "block": "biomesoplenty:hellbark_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
     },
     {
       "char": "u",
-      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=false,facing=north]"
+      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=false,facing=south]"
     },
     {
       "char": "w",
-      "block": "biomesoplenty:hellbark_door[half=upper,open=false,hinge=left,facing=south]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
+      "loot": "chestloot"
     },
     {
       "char": "x",
-      "block": "zombie_extreme:tube_tv[facing=west]"
+      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=false,facing=north]"
     },
     {
       "char": "y",
-      "block": "minecraft:cobweb"
+      "block": "biomesoplenty:hellbark_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "A",
+      "block": "zombie_extreme:tube_tv[facing=west]"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "C",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "D",
       "block": "minecraft:smooth_stone"
     }
   ]

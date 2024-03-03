@@ -1,0 +1,240 @@
+{
+  "name": "multi_militarybase_0_base4_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:cut_tuff_bricks"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:moist_paving"
+    },
+    {
+      "char": "d",
+      "block": "quark:polished_limestone"
+    },
+    {
+      "char": "e",
+      "block": "immersiveengineering:sheetmetal_steel"
+    },
+    {
+      "char": "f",
+      "block": "apocalypsenow:iron_locker[facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "g",
+      "block": "apocalypsenow:pallet[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "i",
+      "block": "apocalypsenow:iron_locker[facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "j",
+      "block": "quark:polished_andesite_vertical_slab[type=east,waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "l",
+      "block": "immersiveengineering:slab_sheetmetal_steel[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "m",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "n",
+      "block": "apocalypsenow:metal_shelves[waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "o",
+      "block": "quark:polished_andesite_vertical_slab[type=west,waterlogged=false]"
+    },
+    {
+      "char": "p",
+      "block": "createdeco:cast_iron_door[half=lower,open=false,hinge=left,facing=east]"
+    },
+    {
+      "char": "q",
+      "block": "quark:polished_andesite_vertical_slab[type=south,waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "apocalypsenow:metal_shelves[waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "s",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "t",
+      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:cartography_table"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:loom[facing=north]"
+    },
+    {
+      "char": "x",
+      "block": "immersiveengineering:storage_steel"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:loom[facing=west]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:crafting_table"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:loom[facing=east]"
+    },
+    {
+      "char": "C",
+      "block": "create:andesite_ladder[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "D",
+      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:loom[facing=south]"
+    },
+    {
+      "char": "F",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "I",
+      "block": "quark:stone_vertical_slab[type=west,waterlogged=false]"
+    },
+    {
+      "char": "J",
+      "block": "immersiveengineering:slab_sheetmetal_steel[type=double,waterlogged=false]"
+    },
+    {
+      "char": "K",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "L",
+      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "M",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "N",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "O",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "P",
+      "block": "pfm:concrete_kitchen_counter[facing=north]"
+    },
+    {
+      "char": "Q",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "R",
+      "block": "createdeco:cast_iron_door[half=upper,open=false,hinge=left,facing=east]"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:polished_deepslate_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "T",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "U",
+      "block": "alexsmobs:bison_carpet"
+    },
+    {
+      "char": "V",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "W",
+      "block": "buildersdelight:lantern_5[waterlogged=false,facing=north,face=floor]"
+    },
+    {
+      "char": "X",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "Y",
+      "block": "another_furniture:spruce_shelf[type=right,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "Z",
+      "block": "apocalypsenow:broken_plasma_tv[facing=south]"
+    },
+    {
+      "char": "0",
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+    },
+    {
+      "char": "1",
+      "block": "minecraft:polished_deepslate_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+    },
+    {
+      "char": "2",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "3",
+      "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "4",
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "5",
+      "block": "minecraft:polished_deepslate_slab[type=top,waterlogged=false]"
+    }
+  ]
+}

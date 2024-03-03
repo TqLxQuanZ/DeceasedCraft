@@ -3,11 +3,11 @@
   "pools": [
     {
       "rolls": {
-        "min": 1,
+        "min": 0,
         "max": 3
       },
       "bonus_rolls": {
-        "min": 1,
+        "min": 0,
         "max": 2
       },
       "entries": [
@@ -24,9 +24,12 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
       "bonus_rolls": {
-        "min": 1,
+        "min": 0,
         "max": 2
       },
       "entries": [
@@ -43,16 +46,30 @@
               "add": true
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "contenttweaker:resistant_fiber",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              },
+              "add": true
+            }
+          ]
         }
       ]
     },
     {
       "rolls": {
-        "min": 1,
+        "min": 0,
         "max": 2
       },
       "bonus_rolls": {
-        "min": 1,
+        "min": 0,
         "max": 2
       },
       "entries": [
@@ -75,9 +92,12 @@
     {
       "rolls": {
         "min": 1,
-        "max": 2
+        "max": 3
       },
-      "bonus_rolls": 1,
+      "bonus_rolls": {
+        "min": 1,
+        "max": 3
+      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -86,21 +106,36 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 0,
                 "max": 3
               },
               "add": true
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "camera:album"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper"
         }
       ]
     },
     {
       "rolls": {
-        "min": 0,
-        "max": 1
+        "min": 1,
+        "max": 2
       },
-      "bonus_rolls": 1,
+      "bonus_rolls": {
+        "min": 1,
+        "max": 2
+      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -108,7 +143,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.025
+              "chance": 0.01
             }
           ]
         },
@@ -118,7 +153,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.015
             }
           ]
         },
@@ -128,7 +163,17 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:electrical_tactical_mace",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
             }
           ]
         },
@@ -138,7 +183,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.015
             }
           ]
         },
@@ -148,7 +193,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.015
             }
           ]
         },
@@ -158,7 +203,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.015
             }
           ]
         },
@@ -168,7 +213,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.015
             }
           ]
         },
@@ -178,7 +223,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.015
             }
           ]
         },
@@ -188,7 +233,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.015
             }
           ]
         },
@@ -198,7 +243,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.015
             }
           ]
         }
@@ -209,45 +254,260 @@
         "min": 0,
         "max": 1
       },
-      "bonus_rolls": 1,
+      "bonus_rolls": {
+        "min": 0,
+        "max": 2
+      },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "apocalypsenow:military_urban_helmet",
+          "name": "apocalypsenow:u_sarmy_helmet",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.015
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "apocalypsenow:military_urban_chestplate",
+          "name": "apocalypsenow:u_sarmy_chestplate",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.015
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "apocalypsenow:military_urban_leggings",
+          "name": "apocalypsenow:u_sarmy_leggings",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.015
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "apocalypsenow:military_urban_boots",
+          "name": "apocalypsenow:u_sarmy_boots",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:canadian_army_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:canadian_army_chestplate",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:canadian_army_leggings",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:canadian_army_boots",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:mexican_army_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:mexican_army_chestplate",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:mexican_army_leggings",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:mexican_army_boots",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:japanese_army_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:japanese_army_chestplate",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:japanese_army_leggings",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:japanese_army_boots",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:chinese_army_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:chinese_army_chestplate",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:chinese_army_leggings",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:chinese_army_boots",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:russian_army_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:russian_army_chestplate",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:russian_army_leggings",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apocalypsenow:russian_army_boots",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.015
             }
           ]
         }

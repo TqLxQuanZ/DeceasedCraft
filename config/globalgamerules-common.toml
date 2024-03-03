@@ -166,6 +166,12 @@
 	bloodparticle = true
 	#No comment
 	hunternibling = true
+	#No comment
+	dohumanfleshdrop = true
+	#No comment
+	dohumansspawn = false
+	#No comment
+	doinfectionoff = true
 
 #Configs related to difficult changes
 [difficulty]
@@ -188,5 +194,5 @@
 	save_gamerules = true
 	#A comma separated list of commands to run on world join, @p is replaced with joining player name, command is run by the server
 	#Example: default_commands = ["/tellraw @p [\"\",{\"text\":\"Hi \"},{\"text\":\"@p\",\"color\":\"aqua\"}]"]
-	default_commands = ["/tellraw @p [\"\",{\"text\":\"Press Y to open the quest book for more informations about the game!\",\"color\":\"gold\"}]"]
+	default_commands = ["/tellraw @p {\"translate\":\"login.message\",\"color\":\"gold\"}"]
 

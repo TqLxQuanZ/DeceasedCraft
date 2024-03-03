@@ -46,38 +46,57 @@
     },
     {
       "char": "k",
-      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
+      "block": "create:polished_cut_calcite"
     },
     {
       "char": "l",
-      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=false]"
+      "block": "create:redstone_contact[facing=north]"
     },
     {
       "char": "m",
-      "block": "quark:polished_calcite"
+      "block": "create:display_link[facing=east]",
+      "tag": {
+        "id": "create:display_link"
+      }
     },
     {
       "char": "n",
-      "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
+      "block": "minecraft:cracked_stone_bricks"
     },
     {
       "char": "o",
-      "block": "minecraft:polished_andesite"
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=true]"
     },
     {
       "char": "p",
-      "block": "immersiveposts:postbase[waterlogged=false]"
+      "block": "create:polished_cut_scoria_wall[waterlogged=false,up=false]"
     },
     {
       "char": "q",
-      "block": "minecraft:smooth_stone"
+      "block": "quark:polished_calcite"
     },
     {
       "char": "r",
-      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+      "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
     },
     {
       "char": "s",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "t",
+      "block": "immersiveposts:postbase[waterlogged=false]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "x",
       "block": "create:gearbox[axis=z]",
       "tag": {
         "id": "create:gearbox"

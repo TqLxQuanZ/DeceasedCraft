@@ -3,8 +3,7 @@ import crafttweaker.api.events.CTEventManager;
 import crafttweaker.api.event.entity.player.interact.RightClickItemEvent;
 
 val DisabledRightClickItems = [
-    <item:apocalypsenow:spear>,
-    <item:apocalypsenow:wooden_spear>
+    <item:apocalypsenow:spear>
 ] as IItemStack[];
 
 for Item in DisabledRightClickItems

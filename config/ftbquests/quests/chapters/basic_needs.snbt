@@ -286,6 +286,7 @@
 			y: -4.0d
 			subtitle: "{quest.healthwater.water.subtitle}"
 			description: ["{quest.healthwater.water.description_1}"]
+			min_required_dependencies: 1
 			dependencies: [
 				"73DFEE0495437E8B"
 				"6895B7261404F5C2"

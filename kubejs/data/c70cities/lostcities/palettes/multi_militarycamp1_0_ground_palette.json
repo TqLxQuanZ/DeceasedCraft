@@ -47,7 +47,10 @@
     },
     {
       "char": "l",
-      "block": "comforts:sleeping_bag_green[waterlogged=false,occupied=false,part=head,facing=north]"
+      "block": "comforts:sleeping_bag_red[waterlogged=false,occupied=false,part=head,facing=north]",
+      "tag": {
+        "id": "comforts:sleeping_bag"
+      }
     },
     {
       "char": "m",
@@ -63,7 +66,10 @@
     },
     {
       "char": "p",
-      "block": "comforts:sleeping_bag_green[waterlogged=false,occupied=false,part=foot,facing=north]"
+      "block": "comforts:sleeping_bag_red[waterlogged=false,occupied=false,part=foot,facing=north]",
+      "tag": {
+        "id": "comforts:sleeping_bag"
+      }
     },
     {
       "char": "q",
@@ -113,11 +119,17 @@
     },
     {
       "char": "D",
-      "block": "comforts:sleeping_bag_green[waterlogged=false,occupied=false,part=head,facing=west]"
+      "block": "comforts:sleeping_bag_red[waterlogged=false,occupied=false,part=head,facing=west]",
+      "tag": {
+        "id": "comforts:sleeping_bag"
+      }
     },
     {
       "char": "E",
-      "block": "comforts:sleeping_bag_green[waterlogged=false,occupied=false,part=foot,facing=west]"
+      "block": "comforts:sleeping_bag_red[waterlogged=false,occupied=false,part=foot,facing=west]",
+      "tag": {
+        "id": "comforts:sleeping_bag"
+      }
     },
     {
       "char": "F",
@@ -135,7 +147,8 @@
     },
     {
       "char": "K",
-      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=north]"
+      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "L",

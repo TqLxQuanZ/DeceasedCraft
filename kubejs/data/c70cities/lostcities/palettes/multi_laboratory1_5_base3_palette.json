@@ -19,18 +19,40 @@
     },
     {
       "char": "e",
-      "block": "create:polished_cut_calcite"
+      "block": "create:redstone_contact[facing=north]"
     },
     {
       "char": "f",
-      "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
+      "block": "create:display_link[facing=east]",
+      "tag": {
+        "id": "create:display_link"
+      }
     },
     {
       "char": "g",
-      "block": "minecraft:polished_andesite"
+      "block": "minecraft:cracked_stone_bricks"
     },
     {
       "char": "h",
+      "block": "create:display_link[facing=north]",
+      "tag": {
+        "id": "create:display_link"
+      }
+    },
+    {
+      "char": "i",
+      "block": "create:polished_cut_calcite"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "l",
       "block": "createdeco:cast_iron_catwalk[waterlogged=false]"
     }
   ]

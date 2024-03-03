@@ -171,54 +171,6 @@
       "result": "allow"
     },
     {
-      "mob": ["apocalypsenow:survivor_1",
-				"apocalypsenow:survivor_2",
-				"apocalypsenow:survivor_3",
-				"apocalypsenow:survivor_4",
-				"apocalypsenow:survivor_5",
-				"apocalypsenow:survivor_6",
-				"apocalypsenow:survivor_7",
-				"apocalypsenow:survivor_8",
-				"apocalypsenow:survivor_9",
-				"apocalypsenow:survivor_10",
-				"apocalypsenow:survivor_11"],
-      "dimension": "minecraft:overworld",
-      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
-      "result": "deny"
-    },
-    {
-      "mob": ["apocalypsenow:survivor_1",
-				"apocalypsenow:survivor_2",
-				"apocalypsenow:survivor_3",
-				"apocalypsenow:survivor_4",
-				"apocalypsenow:survivor_5",
-				"apocalypsenow:survivor_6",
-				"apocalypsenow:survivor_7",
-				"apocalypsenow:survivor_8",
-				"apocalypsenow:survivor_9",
-				"apocalypsenow:survivor_10",
-				"apocalypsenow:survivor_11"],
-      "dimension": "minecraft:overworld",
-      "inbuilding": true,
-      "minlight": 0,
-      "maxlight": 3,
-      "minheight": 71,
-      "result": "allow",
-      "healthadd": 20.0,
-      "nbt": {
-        "Attributes": [
-          {
-            "Base": 4.0,
-            "Name": "generic.armor"
-          },
-          {
-            "Base": 4.0,
-            "Name": "generic.armor_toughness"
-          }
-        ]
-      }
-    },
-    {
       "mob": ["minecraft:pillager", "minecraft:vindicator"],
       "dimension": "minecraft:overworld",
       "minspawndist": 10000,
@@ -385,6 +337,12 @@
                 "zombie_extreme:clicker",
                 "zombie_extreme:devastated"],
         "building": [
+            "c70cities:multi_militarybase_0",
+            "c70cities:multi_militarybase_1",
+            "c70cities:multi_militarybase_2",
+            "c70cities:multi_militarybase_3",
+            "c70cities:multi_militarybase_4",
+            "c70cities:multi_militarybase_5",
             "c70cities:multi_laboratory1_0",
             "c70cities:multi_laboratory1_1",
             "c70cities:multi_laboratory1_2",
@@ -419,6 +377,12 @@
     {
         "mob": ["undead_revamp2:theheavy"],
         "building": [
+            "c70cities:multi_militarybase_0",
+            "c70cities:multi_militarybase_1",
+            "c70cities:multi_militarybase_2",
+            "c70cities:multi_militarybase_3",
+            "c70cities:multi_militarybase_4",
+            "c70cities:multi_militarybase_5",
             "c70cities:multi_laboratory1_0",
             "c70cities:multi_laboratory1_1",
             "c70cities:multi_laboratory1_2",
@@ -440,7 +404,7 @@
         "seesky": false,
         "result": "allow",
         "healthadd": 100.0,
-        "damageadd": 35.0,
+        "damageadd": 25.0,
         "nbt": {
           "Attributes": [
             {
@@ -473,7 +437,7 @@
         "maxlight": 3,
         "seesky": false,
         "result": "allow",
-        "healthadd": 200.0,
+        "healthadd": 300.0,
         "damageadd": 20.0,
         "nbt": {
           "Attributes": [
@@ -521,6 +485,12 @@
     {
         "mob": ["undead_revamp2:thegliter"],
         "building": [
+            "c70cities:multi_militarybase_0",
+            "c70cities:multi_militarybase_1",
+            "c70cities:multi_militarybase_2",
+            "c70cities:multi_militarybase_3",
+            "c70cities:multi_militarybase_4",
+            "c70cities:multi_militarybase_5",
             "c70cities:multi_laboratory1_0",
             "c70cities:multi_laboratory1_1",
             "c70cities:multi_laboratory1_2",
@@ -749,21 +719,23 @@
     {
         "mob": ["zombie_extreme:infected_juggernaut"],
         "building": [
-            "c70cities:multi_militarybase_0",
-            "c70cities:multi_militarybase_1",
-            "c70cities:multi_militarybase_2",
-            "c70cities:multi_militarybase_3"],
+          "c70cities:multi_militarybase_0",
+          "c70cities:multi_militarybase_1",
+          "c70cities:multi_militarybase_2",
+          "c70cities:multi_militarybase_3",
+          "c70cities:multi_militarybase_4",
+          "c70cities:multi_militarybase_5"],
         "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
         "minlight": 0,
         "maxlight": 3,
         "minheight": 61,
         "result": "allow",
-        "healthadd": 50.0,
+        "healthadd": 150.0,
         "damageadd": 25.0,
         "nbt": {
           "Attributes": [
             {
-              "Base": 30.0,
+              "Base": 20.0,
               "Name": "generic.armor"
             }
           ]
@@ -930,10 +902,12 @@
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "dimension": "minecraft:overworld",
         "building": [
-            "c70cities:multi_militarybase_0",
-            "c70cities:multi_militarybase_1",
-            "c70cities:multi_militarybase_2",
-            "c70cities:multi_militarybase_3"],
+          "c70cities:multi_militarybase_0",
+          "c70cities:multi_militarybase_1",
+          "c70cities:multi_militarybase_2",
+          "c70cities:multi_militarybase_3",
+          "c70cities:multi_militarybase_4",
+          "c70cities:multi_militarybase_5"],
         "onjoin": true,
         "minheight": 61,
         "random": 0.75,
@@ -1010,18 +984,20 @@
           "c70cities:multi_laboratory1_12",
           "c70cities:multi_laboratory1_13",
           "c70cities:multi_laboratory1_14"],
+        "random": 0.10,
         "onjoin": true,
         "result": "default",
-        "damageadd": 10.0,
-        "healthadd": 50.0,
         "nbt": {
-          "Attributes": [
-            {
-              "Base": 20.0,
-              "Name": "generic.armor"
-            }
-          ]
-        }
+            "HandItems":[
+              {
+                "id":"air",
+                "Count":1
+              },
+              {
+                "id":"iron_pickaxe",
+                "Count":1
+              }]
+          }
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -1042,20 +1018,78 @@
           "c70cities:multi_laboratory1_12",
           "c70cities:multi_laboratory1_13",
           "c70cities:multi_laboratory1_14"],
-        "random": 0.10,
+        "random": 0.25,
         "onjoin": true,
         "result": "default",
+        "armorhelmet": "apocalypsenow:hazmat_suit_helmet",
+        "armorchest": "apocalypsenow:hazmat_suit_chestplate",
+        "armorlegs": "apocalypsenow:hazmat_suit_leggings",
+        "armorboots": "apocalypsenow:hazmat_suit_boots"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
+        "building": [
+          "c70cities:multi_laboratory1_0",
+          "c70cities:multi_laboratory1_1",
+          "c70cities:multi_laboratory1_2",
+          "c70cities:multi_laboratory1_3",
+          "c70cities:multi_laboratory1_4",
+          "c70cities:multi_laboratory1_5",
+          "c70cities:multi_laboratory1_6",
+          "c70cities:multi_laboratory1_7",
+          "c70cities:multi_laboratory1_8",
+          "c70cities:multi_laboratory1_9",
+          "c70cities:multi_laboratory1_10",
+          "c70cities:multi_laboratory1_11",
+          "c70cities:multi_laboratory1_12",
+          "c70cities:multi_laboratory1_13",
+          "c70cities:multi_laboratory1_14"],
+        "random": 0.25,
+        "onjoin": true,
+        "result": "default",
+        "armorhelmet": "apocalypsenow:biohazard_helmet",
+        "armorchest": "apocalypsenow:biohazard_chestplate",
+        "armorlegs": "apocalypsenow:biohazard_leggings",
+        "armorboots": "apocalypsenow:biohazard_boots"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
+        "building": [
+          "c70cities:multi_militarybase_0",
+          "c70cities:multi_militarybase_1",
+          "c70cities:multi_militarybase_2",
+          "c70cities:multi_militarybase_3",
+          "c70cities:multi_militarybase_4",
+          "c70cities:multi_militarybase_5",
+          "c70cities:multi_laboratory1_0",
+          "c70cities:multi_laboratory1_1",
+          "c70cities:multi_laboratory1_2",
+          "c70cities:multi_laboratory1_3",
+          "c70cities:multi_laboratory1_4",
+          "c70cities:multi_laboratory1_5",
+          "c70cities:multi_laboratory1_6",
+          "c70cities:multi_laboratory1_7",
+          "c70cities:multi_laboratory1_8",
+          "c70cities:multi_laboratory1_9",
+          "c70cities:multi_laboratory1_10",
+          "c70cities:multi_laboratory1_11",
+          "c70cities:multi_laboratory1_12",
+          "c70cities:multi_laboratory1_13",
+          "c70cities:multi_laboratory1_14"],
+        "onjoin": true,
+        "result": "default",
+        "damageadd": 10.0,
+        "healthadd": 50.0,
         "nbt": {
-            "HandItems":[
-              {
-                "id":"air",
-                "Count":1
-              },
-              {
-                "id":"iron_pickaxe",
-                "Count":1
-              }]
-          }
+          "Attributes": [
+            {
+              "Base": 20.0,
+              "Name": "generic.armor"
+            }
+          ]
+        }
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -1287,30 +1321,6 @@
       "onjoin": true,
       "damageadd": 50.0,
       "healthadd": 250.0
-    },
-    {
-      "mob": "mutationcraft:assimilated_jockey",
-      "dimension": "minecraft:overworld",
-      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
-      "minlight": 0,
-      "maxlight": 3,
-      "building": [
-          "c70cities:multi_militarybase_0",
-          "c70cities:multi_militarybase_1",
-          "c70cities:multi_militarybase_2",
-          "c70cities:multi_militarybase_3"
-      ],
-      "onjoin": true,
-      "result": "allow",
-      "damageadd": 20.0,
-      "speedmultiply": 2.0
-    },
-    {
-      "mob": "mutationcraft:assimilated_jockey",
-      "incontrol": false,
-      "onjoin": true,
-      "damageadd": 20.0,
-      "speedmultiply": 2.0
     },
     {
       "mob": "mutationcraft:the_intoxicator",
@@ -1630,11 +1640,21 @@
       "nbt": {
         "Attributes": [
           {
-            "Base": 4.0,
+            "Base": 20.0,
             "Name": "generic.armor"
           }
         ]
       }
+    },
+    {
+      "mob": "mutationcraft:assimilated_jockey",
+      "dimension": "deceasedcraft:abyss",
+      "minlight": 0,
+      "maxlight": 3,
+      "onjoin": true,
+      "result": "allow",
+      "damageadd": 20.0,
+      "speedmultiply": 2.0
     },
     {
       "mob": ["alexsmobs:centipede_body", "alexsmobs:centipede_tail"],

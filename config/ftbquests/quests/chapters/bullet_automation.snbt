@@ -206,7 +206,11 @@
 			x: 2.0d
 			y: -6.0d
 			shape: "hexagon"
-			description: ["{quest.bullet_automation.assemble.description_1}"]
+			description: [
+				"{quest.bullet_automation.assemble.description_1}"
+				""
+				"{quest.bullet_automation.assemble.description_2}"
+			]
 			dependencies: [
 				"1B552AB170A166EA"
 				"4F204B23AAD4BA49"
@@ -304,8 +308,7 @@
 			y: -9.0d
 			shape: "hexagon"
 			subtitle: "{quest.treated.sandstone.subtitle}"
-			description: [""]
-			dependencies: ["0F5AF0C0223B7331"]
+			description: ["{quest.treated.sandstone.description_1}"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "07EC69DFF4EBD8DC"

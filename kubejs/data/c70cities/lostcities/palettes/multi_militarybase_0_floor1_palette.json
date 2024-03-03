@@ -3,11 +3,102 @@
   "palette": [
     {
       "char": "a",
-      "block": "create:polished_cut_limestone"
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
     },
     {
       "char": "b",
-      "block": "minecraft:bell[facing=west]"
+      "block": "create:polished_cut_limestone"
+    },
+    {
+      "char": "c",
+      "block": "createdeco:andesite_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
+    },
+    {
+      "char": "d",
+      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+    },
+    {
+      "char": "e",
+      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
+    },
+    {
+      "char": "f",
+      "block": "apocalypsenow:sandbagsslab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "h",
+      "block": "createdeco:andesite_trapdoor[waterlogged=false,half=bottom,open=false,facing=north]"
+    },
+    {
+      "char": "i",
+      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "j",
+      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "k",
+      "block": "apocalypsenow:sandbags"
+    },
+    {
+      "char": "l",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "m",
+      "block": "embellishcraft:rusty_wall_ladder[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "n",
+      "block": "apocalypsenow:brokenoldradio[facing=east]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:redstone_torch[lit=true]"
+    },
+    {
+      "char": "p",
+      "block": "apocalypsenow:wire_fence[waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "createbigcannons:steel_autocannon_barrel[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "r",
+      "block": "createbigcannons:steel_autocannon_recoil_spring[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "s",
+      "block": "createbigcannons:steel_autocannon_breech[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "t",
+      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=top,open=true,facing=west]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "w",
+      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
+    },
+    {
+      "char": "x",
+      "block": "pfm:stripped_hellbark_biomesoplenty_chair_dinner[facing=east]"
+    },
+    {
+      "char": "y",
+      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
     }
   ]
 }

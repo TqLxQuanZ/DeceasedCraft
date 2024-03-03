@@ -11,7 +11,7 @@
     },
     {
       "char": "c",
-      "block": "biomesoplenty:dead_leaves"
+      "block": "biomesoplenty:dead_leaves[persistent=true]"
     },
     {
       "char": "d",
@@ -145,90 +145,62 @@
     },
     {
       "char": "L",
-      "block": "clickmachine:auto_clicker[facing=north]",
-      "tag": {
-        "speed_index": 8,
-        "right_click": 1,
-        "inv": {
-          "Size": 1,
-          "Items": [
-            {
-              "Slot": 0,
-              "id": "immersiveengineering:hammer",
-              "Count": 1
-            }
-          ]
-        },
-        "id": "clickmachine:tile"
-      }
-    },
-    {
-      "char": "M",
       "block": "immersiveengineering:conveyor_basic[waterlogged=false,facing=north]"
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
-      "char": "O",
+      "char": "N",
       "block": "create:blaze_burner[facing=north,blaze=none]",
       "tag": {
         "id": "create:blaze_heater"
       }
     },
     {
-      "char": "P",
+      "char": "O",
       "block": "immersiveengineering:connector_lv[waterlogged=false,facing=down]"
     },
     {
-      "char": "Q",
+      "char": "P",
       "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
-      "char": "R",
+      "char": "Q",
       "block": "minecraft:hopper[facing=down]"
     },
     {
-      "char": "S",
-      "block": "minecraft:repeating_command_block[facing=south,conditional=false]",
-      "tag": {
-        "conditionMet": 1,
-        "auto": 1,
-        "Command": "execute if block ~ ~ ~-1 immersiveengineering:crusher run fill ~ ~-1 ~ ~ ~ ~ air"
-      }
-    },
-    {
-      "char": "T",
+      "char": "R",
       "block": "minecraft:stone_brick_wall[waterlogged=false,up=false]"
     },
     {
-      "char": "U",
+      "char": "S",
       "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
-      "char": "V",
+      "char": "T",
       "block": "embellishcraft:air_duct"
     },
     {
-      "char": "W",
+      "char": "U",
       "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "X",
+      "char": "V",
       "block": "immersiveengineering:connector_lv_relay[waterlogged=false,facing=north]"
     },
     {
-      "char": "Y",
+      "char": "W",
       "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "Z",
+      "char": "X",
       "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
     },
     {
-      "char": "0",
+      "char": "Y",
       "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     }
   ]

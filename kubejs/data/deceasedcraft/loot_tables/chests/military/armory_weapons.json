@@ -1,0 +1,646 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apocalypsenow:military_urban_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apocalypsenow:military_urban_chestplate",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apocalypsenow:military_urban_leggings",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apocalypsenow:military_urban_boots",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apocalypsenow:swat_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apocalypsenow:swat_chestplate",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apocalypsenow:swat_leggings",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apocalypsenow:swat_boots",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apocalypsenow:swatriotcontrol_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apocalypsenow:swatriotcontrol_chestplate",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apocalypsenow:swatriotcontrol_leggings",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apocalypsenow:swatriotcontrol_boots",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apocalypsenow:bombsquad_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apocalypsenow:bombsquad_chestplate",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apocalypsenow:bombsquad_leggings",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "apocalypsenow:bombsquad_boots",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:coyote_sight"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:aimpoint_t2"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:aimpoint_t1"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:eotech_n"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:vortex_uh_1"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:eotech_short"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:srs_red_dot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tac:acog_4x_scope"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tac:qmk152"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tac:elcan_14x"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tac:lpvo_1_6"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tac:8x_scope"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tac:old_8x_scope"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tac:old_4x_scope"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tac:mini_dot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tac:sro_dot"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:silencer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:muzzle_brake"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:muzzle_compensator"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:pistol_silencer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:light_stock"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:tactical_stock"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:weighted_stock"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:light_grip"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:specialised_grip"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:basic_laser"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:ir_laser"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:small_extended_mag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:medium_extended_mag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tac:large_extended_mag"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:m1911"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:glock_17"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:sti2011"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:m92fs"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:deagle_357"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:glock_18"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:cz75"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:cz75_auto"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:mk23"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:tti_g34"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:timeless_50"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:tec_9"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:vector45"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:micro_uzi"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:m1a1_smg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:hk_mp5a5"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:mp7"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:mp9"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:udp_9"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:p90"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:uzi"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:m4"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:qbz_95"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:mk14"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:hk416_a5"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:sig_mcx_spear"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:sks_tactical"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:qbz_191"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:m16a4"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:scar_h"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:scar_l"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:mk47"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:spr15"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:hk_g3"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:mk18_mod1"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "tac:aa_12"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "tac:m870_classic"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "tac:m1014"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:m249"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:dp28"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "tac:rpk"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tac:m60"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:mrad"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:scar_mk20"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:ai_awp"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tac:m24"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tac:m82a2"
+        }
+      ]
+    }
+  ]
+}

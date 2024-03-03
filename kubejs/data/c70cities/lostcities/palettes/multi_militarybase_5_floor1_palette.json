@@ -1,0 +1,25 @@
+{
+  "name": "multi_militarybase_5_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "createbigcannons:steel_autocannon_breech[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "c",
+      "block": "createbigcannons:steel_autocannon_recoil_spring[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "d",
+      "block": "createbigcannons:steel_autocannon_barrel[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:redstone_torch[lit=true]"
+    }
+  ]
+}

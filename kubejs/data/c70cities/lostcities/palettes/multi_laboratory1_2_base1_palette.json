@@ -215,39 +215,44 @@
     },
     {
       "char": "3",
-      "block": "rocks:netherrack_rock[variation=small]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "4",
-      "block": "minecraft:potted_cactus"
+      "block": "rocks:netherrack_rock[variation=small]"
     },
     {
       "char": "5",
+      "block": "minecraft:potted_cactus"
+    },
+    {
+      "char": "6",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
-      "char": "6",
+      "char": "7",
       "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "7",
+      "char": "8",
       "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "8",
+      "char": "9",
       "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
-      "char": "9",
+      "char": "@",
       "block": "create:polished_cut_scoria"
     },
     {
-      "char": "@",
+      "char": "#",
       "block": "simplylight:illuminant_block_on"
     },
     {
-      "char": "#",
+      "char": "$",
       "block": "create:polished_cut_calcite_slab[type=double,waterlogged=false]"
     }
   ]

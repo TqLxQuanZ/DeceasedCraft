@@ -63,7 +63,7 @@
     },
     {
       "char": "p",
-      "block": "minecraft:pointed_dripstone[waterlogged=false]"
+      "block": "minecraft:pointed_dripstone[vertical_direction=up,waterlogged=false,thickness=tip]"
     },
     {
       "char": "q",
@@ -71,34 +71,54 @@
     },
     {
       "char": "r",
-      "block": "minecraft:cobweb"
+      "block": "minecraft:pointed_dripstone[vertical_direction=up,waterlogged=false,thickness=frustum]"
     },
     {
       "char": "s",
-      "block": "buildersdelight:chain_4[waterlogged=false,axis=y]"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "t",
-      "block": "biomesoplenty:cherry_button[facing=south,face=floor]"
+      "block": "buildersdelight:chain_4[waterlogged=false,axis=y]"
     },
     {
       "char": "u",
-      "block": "embellishcraft:granite_button[facing=south,face=floor]"
+      "block": "biomesoplenty:cherry_button[facing=south,face=floor]"
     },
     {
       "char": "w",
-      "block": "minecraft:cracked_deepslate_bricks"
+      "block": "embellishcraft:granite_button[facing=south,face=floor]"
     },
     {
       "char": "x",
-      "block": "apocalypsenow:iron_grid[waterlogged=false]"
+      "block": "minecraft:pointed_dripstone[vertical_direction=down,waterlogged=false,thickness=tip]"
     },
     {
       "char": "y",
-      "block": "zombie_extreme:wooden_barricades[facing=north]"
+      "block": "minecraft:cracked_deepslate_bricks"
     },
     {
       "char": "A",
+      "block": "apocalypsenow:iron_grid[waterlogged=false]"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:pointed_dripstone[vertical_direction=up,waterlogged=false,thickness=tip_merge]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:pointed_dripstone[vertical_direction=down,waterlogged=false,thickness=frustum]"
+    },
+    {
+      "char": "D",
+      "block": "zombie_extreme:wooden_barricades[facing=north]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:pointed_dripstone[vertical_direction=down,waterlogged=false,thickness=tip_merge]"
+    },
+    {
+      "char": "F",
       "block": "minecraft:cobbled_deepslate_slab[type=top,waterlogged=false]"
     }
   ]

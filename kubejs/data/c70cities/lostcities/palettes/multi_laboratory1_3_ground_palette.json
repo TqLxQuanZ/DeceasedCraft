@@ -92,7 +92,7 @@
     },
     {
       "char": "x",
-      "block": "biomesoplenty:dead_leaves"
+      "block": "biomesoplenty:dead_leaves[persistent=true]"
     },
     {
       "char": "y",
@@ -100,7 +100,8 @@
     },
     {
       "char": "A",
-      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=east]"
+      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=east]",
+      "loot": "chestloot"
     },
     {
       "char": "B",
@@ -116,74 +117,78 @@
     },
     {
       "char": "E",
-      "block": "rocks:acacia_stick[variation=medium]"
+      "block": "biomesoplenty:dead_button[facing=west,face=floor]"
     },
     {
       "char": "F",
-      "block": "pfm:light_gray_arm_chair[facing=north,shape=straight]"
+      "block": "rocks:acacia_stick[variation=medium]"
     },
     {
       "char": "I",
-      "block": "pfm:concrete_kitchen_counter[facing=east]"
+      "block": "pfm:light_gray_arm_chair[facing=north,shape=straight]"
     },
     {
       "char": "J",
-      "block": "pfm:concrete_kitchen_counter[facing=south]"
+      "block": "pfm:concrete_kitchen_counter[facing=east]"
     },
     {
       "char": "K",
-      "block": "pfm:light_gray_arm_chair[facing=west,shape=straight]"
+      "block": "pfm:concrete_kitchen_counter[facing=south]"
     },
     {
       "char": "L",
-      "block": "minecraft:polished_deepslate"
+      "block": "pfm:light_gray_arm_chair[facing=west,shape=straight]"
     },
     {
       "char": "M",
-      "block": "biomesoplenty:dead_sapling"
+      "block": "minecraft:polished_deepslate"
     },
     {
       "char": "N",
-      "block": "pfm:concrete_kitchen_counter[facing=north]"
+      "block": "biomesoplenty:dead_sapling"
     },
     {
       "char": "O",
-      "block": "create:polished_cut_limestone"
+      "block": "pfm:concrete_kitchen_counter[facing=north]"
     },
     {
       "char": "P",
-      "block": "create:dark_oak_window_pane[waterlogged=false]"
+      "block": "create:polished_cut_limestone"
     },
     {
       "char": "Q",
-      "block": "create:display_board[waterlogged=false,up=true,facing=north,down=false]"
+      "block": "create:dark_oak_window_pane[waterlogged=false]"
     },
     {
       "char": "R",
-      "block": "minecraft:cobweb"
+      "block": "create:display_board[waterlogged=false,up=true,facing=north,down=false]"
     },
     {
       "char": "S",
-      "block": "biomesoplenty:dead_pressure_plate"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "T",
-      "block": "minecraft:stone_button[facing=south,face=floor]"
+      "block": "biomesoplenty:dead_pressure_plate"
     },
     {
       "char": "U",
-      "block": "create:cut_limestone"
+      "block": "minecraft:stone_button[facing=south,face=floor]"
     },
     {
       "char": "V",
-      "block": "create:display_board[waterlogged=false,up=false,facing=north,down=true]"
+      "block": "create:cut_limestone"
     },
     {
       "char": "W",
-      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+      "block": "create:display_board[waterlogged=false,up=false,facing=north,down=true]"
     },
     {
       "char": "X",
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "Y",
       "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     }
   ]

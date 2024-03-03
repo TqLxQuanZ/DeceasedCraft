@@ -54,7 +54,7 @@
     },
     {
       "char": "m",
-      "block": "biomesoplenty:dead_leaves"
+      "block": "biomesoplenty:dead_leaves[persistent=true]"
     },
     {
       "char": "n",
@@ -174,7 +174,7 @@
     },
     {
       "char": "U",
-      "block": "minecraft:spruce_leaves"
+      "block": "minecraft:spruce_leaves[persistent=true]"
     },
     {
       "char": "V",

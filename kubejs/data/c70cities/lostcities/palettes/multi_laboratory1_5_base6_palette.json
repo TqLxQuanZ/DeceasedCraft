@@ -39,97 +39,116 @@
     },
     {
       "char": "j",
-      "block": "minecraft:polished_deepslate"
+      "block": "create:redstone_contact[facing=south]"
     },
     {
       "char": "k",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+      "block": "create:display_link[facing=east]",
+      "tag": {
+        "id": "create:display_link"
+      }
     },
     {
       "char": "l",
-      "block": "embellishcraft:basalt_button[facing=north,face=floor]"
+      "block": "minecraft:cracked_stone_bricks"
     },
     {
       "char": "m",
-      "block": "quark:polished_andesite_vertical_slab[type=west,waterlogged=false]"
+      "block": "create:redstone_contact[facing=north]"
     },
     {
       "char": "n",
-      "block": "quark:polished_andesite_vertical_slab[type=east,waterlogged=false]"
+      "block": "minecraft:polished_deepslate"
     },
     {
       "char": "o",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+    },
+    {
+      "char": "p",
+      "block": "embellishcraft:basalt_button[facing=north,face=floor]"
+    },
+    {
+      "char": "q",
+      "block": "quark:polished_andesite_vertical_slab[type=west,waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "quark:polished_andesite_vertical_slab[type=east,waterlogged=false]"
+    },
+    {
+      "char": "s",
       "block": "create:contraption_controls[waterlogged=false,open=false,facing=west]",
       "tag": {
         "id": "create:contraption_controls"
       }
     },
     {
-      "char": "p",
+      "char": "t",
       "block": "embellishcraft:basalt_button[facing=east,face=floor]"
     },
     {
-      "char": "q",
+      "char": "u",
       "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
-      "char": "r",
+      "char": "w",
       "block": "create:andesite_door[half=lower,open=false,hinge=right,facing=north]"
     },
     {
-      "char": "s",
+      "char": "x",
       "block": "create:andesite_door[half=lower,open=false,hinge=left,facing=north]"
     },
     {
-      "char": "t",
+      "char": "y",
       "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
     },
     {
-      "char": "u",
+      "char": "A",
       "block": "embellishcraft:dark_oak_wooden_crate"
     },
     {
-      "char": "w",
+      "char": "B",
       "block": "embellishcraft:andesite_button[facing=north,face=floor]"
     },
     {
-      "char": "x",
+      "char": "C",
       "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
-      "char": "y",
+      "char": "D",
       "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
-      "char": "A",
+      "char": "E",
       "block": "create:andesite_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
-      "char": "B",
+      "char": "F",
       "block": "create:andesite_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
-      "char": "C",
+      "char": "I",
       "block": "embellishcraft:andesite_button[facing=north,face=wall]"
     },
     {
-      "char": "D",
+      "char": "J",
       "block": "minecraft:polished_deepslate_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "E",
+      "char": "K",
       "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
     },
     {
-      "char": "F",
+      "char": "L",
       "block": "embellishcraft:andesite_button[facing=north,face=ceiling]"
     },
     {
-      "char": "I",
+      "char": "M",
       "block": "embellishcraft:andesite_button[facing=west,face=floor]"
     },
     {
-      "char": "J",
+      "char": "N",
       "block": "minecraft:polished_andesite_slab[type=top,waterlogged=false]"
     }
   ]
