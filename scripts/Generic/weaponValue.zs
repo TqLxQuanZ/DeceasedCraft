@@ -582,11 +582,11 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:apocalypsenow:karambit>.maxDamage = 484;
 
  
-<item:apocalypsenow:wooden_spear>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:wooden_spear>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:wooden_spear>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:wooden_spear>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -3.2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:wooden_spear>.maxDamage = 42;
+<item:apocalypsenow:woddenspear>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:woddenspear>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:woddenspear>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:woddenspear>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -3.2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:woddenspear>.maxDamage = 42;
 
  
 <item:apocalypsenow:gardening_spade>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -979,5 +979,12 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:minecraft:netherite_hoe>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:minecraft:netherite_hoe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.4, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:minecraft:netherite_hoe>.maxDamage = 2031;
+
+ 
+<item:apocalypsenow:tactical_saber>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:tactical_saber>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 8.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:tactical_saber>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:tactical_saber>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:tactical_saber>.maxDamage = 1364;
 
  
