@@ -4,89 +4,47 @@
     {
       "rolls": {
         "min": 0,
-        "max": 1
+        "max": 2
       },
       "bonus_rolls": {
         "min": 0,
-        "max": 1
+        "max": 2
       },
       "entries": [
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "tac:sks_tactical",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ]
+          "name": "tac:sks_tactical"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "tac:fn_fal",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ]
+          "name": "tac:fn_fal"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "tac:type81_x",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ]
+          "name": "tac:type81_x"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "tac:mk47",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ]
+          "name": "tac:mk47"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "tac:hk_g3",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ]
+          "name": "tac:hk_g3"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "tac:mk14",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ]
+          "name": "tac:mk14"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "tac:scar_h",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ]
+          "name": "tac:scar_h"
         }
       ]
     },
@@ -160,67 +118,37 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "tac:m1014",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ]
+          "name": "tac:m1014"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "tac:aa_12",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ]
+          "name": "tac:aa_12"
         },
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "tac:m249",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ]
+          "name": "tac:m249"
         },
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "tac:rpk",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ]
+          "name": "tac:rpk"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "tac:m60",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ]
+          "name": "tac:m60"
         }
       ]
     },
     {
       "rolls": {
-        "min": 0,
+        "min": 1,
         "max": 5
       },
       "bonus_rolls": {
-        "min": 0,
+        "min": 1,
         "max": 5
       },
       "entries": [
