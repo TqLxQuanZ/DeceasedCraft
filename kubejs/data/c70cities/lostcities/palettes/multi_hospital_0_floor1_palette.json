@@ -115,54 +115,58 @@
     },
     {
       "char": "E",
-      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=left,facing=east]"
+      "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "F",
-      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=right,facing=east]"
+      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
       "char": "I",
-      "block": "quark:iron_button[facing=east,face=wall]"
+      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
       "char": "J",
-      "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=east]"
+      "block": "quark:iron_button[facing=east,face=wall]"
     },
     {
       "char": "K",
-      "block": "embellishcraft:white_pillow[waterlogged=false,occupied=false,part=head,facing=east]"
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
       "char": "L",
-      "block": "quark:quartz_vertical_slab[type=west,waterlogged=false]"
+      "block": "embellishcraft:white_pillow[waterlogged=false,occupied=false,part=head,facing=east]"
     },
     {
       "char": "M",
-      "block": "quark:smooth_stone_vertical_slab[type=east,waterlogged=false]"
+      "block": "quark:quartz_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "N",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
+      "block": "quark:smooth_stone_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "O",
-      "block": "minecraft:lantern[waterlogged=false,hanging=true]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "P",
-      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+      "block": "minecraft:lantern[waterlogged=false,hanging=true]"
     },
     {
       "char": "Q",
-      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "R",
-      "block": "create:redstone_contact[facing=north]"
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
     },
     {
       "char": "S",
+      "block": "create:redstone_contact[facing=north]"
+    },
+    {
+      "char": "T",
       "block": "minecraft:smooth_quartz"
     }
   ]
