@@ -63,46 +63,54 @@
     },
     {
       "char": "p",
-      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=north]"
+      "block": "zombie_extreme:empty_cans[facing=north]"
     },
     {
       "char": "q",
-      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=north]"
     },
     {
       "char": "r",
-      "block": "another_furniture:oak_planter_box[type=right,attached=false,facing=east]"
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "s",
-      "block": "another_furniture:oak_planter_box[type=right,attached=false,facing=west]"
+      "block": "biomesoplenty:hellbark_button[facing=east,face=floor]"
     },
     {
       "char": "t",
-      "block": "create:framed_glass_pane[waterlogged=false]"
+      "block": "another_furniture:oak_planter_box[type=right,attached=false,facing=east]"
     },
     {
       "char": "u",
-      "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
+      "block": "another_furniture:oak_planter_box[type=right,attached=false,facing=west]"
     },
     {
       "char": "w",
-      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+      "block": "create:framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "x",
-      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+      "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "y",
-      "block": "minecraft:stripped_oak_log[axis=z]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "A",
-      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
     },
     {
       "char": "B",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "C",
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "D",
       "block": "minecraft:stripped_oak_log[axis=x]"
     }
   ]

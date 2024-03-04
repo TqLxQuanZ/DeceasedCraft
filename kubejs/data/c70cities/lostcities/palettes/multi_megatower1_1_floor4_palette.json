@@ -100,59 +100,51 @@
     },
     {
       "char": "A",
-      "block": "pfm:basic_shower_handle[facing=west]"
-    },
-    {
-      "char": "B",
       "block": "another_furniture:white_lamp[waterlogged=false,facing=east,lit=false,level=3]"
     },
     {
-      "char": "C",
+      "char": "B",
       "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
-      "char": "D",
+      "char": "C",
       "block": "minecraft:redstone_wall_torch[facing=north,lit=true]"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=west]"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "another_furniture:oak_shelf[type=single,waterlogged=false,facing=south]"
     },
     {
-      "char": "I",
-      "block": "pfm:basic_shower_head[facing=east]"
-    },
-    {
-      "char": "J",
+      "char": "F",
       "block": "create:andesite_bars[waterlogged=false]"
     },
     {
-      "char": "K",
+      "char": "I",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
-      "char": "L",
+      "char": "J",
       "block": "minecraft:cobweb"
     },
     {
-      "char": "M",
+      "char": "K",
       "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
-      "char": "N",
+      "char": "L",
       "block": "minecraft:stripped_oak_log[axis=x]"
     },
     {
-      "char": "O",
+      "char": "M",
       "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "P",
+      "char": "N",
       "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     }
   ]

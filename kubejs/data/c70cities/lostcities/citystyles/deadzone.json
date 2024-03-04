@@ -27,20 +27,36 @@
   "selectors": {
     "buildings": [
       {
-        "factor": 0.05,
+        "factor": 0.0375,
         "value": "c70cities:building_warehouse1"
       },
       {
-        "factor": 0.05,
+        "factor": 0.0375,
         "value": "c70cities:building_warehouse1_90"
       },
       {
-        "factor": 0.05,
+        "factor": 0.0375,
         "value": "c70cities:building_warehouse1_180"
       },
       {
-        "factor": 0.05,
+        "factor": 0.0375,
         "value": "c70cities:building_warehouse1_270"
+      },
+      {
+        "factor": 0.0375,
+        "value": "c70cities:building_warehouse2"
+      },
+      {
+        "factor": 0.0375,
+        "value": "c70cities:building_warehouse2_90"
+      },
+      {
+        "factor": 0.0375,
+        "value": "c70cities:building_warehouse2_180"
+      },
+      {
+        "factor": 0.0375,
+        "value": "c70cities:building_warehouse2_270"
       },
       {
         "factor": 0.05,

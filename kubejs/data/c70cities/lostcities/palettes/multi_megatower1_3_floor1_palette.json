@@ -91,34 +91,30 @@
     },
     {
       "char": "x",
-      "block": "pfm:basic_shower_head[facing=west]"
-    },
-    {
-      "char": "y",
       "block": "quark:polished_calcite_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "A",
+      "char": "y",
       "block": "quark:polished_calcite"
     },
     {
-      "char": "B",
+      "char": "A",
       "block": "minecraft:stripped_oak_log[axis=x]"
     },
     {
-      "char": "C",
+      "char": "B",
       "block": "minecraft:smooth_stone"
     },
     {
-      "char": "D",
+      "char": "C",
       "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "create:andesite_bars[waterlogged=false]"
     }
   ]

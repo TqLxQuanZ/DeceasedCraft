@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "minecraft:cauldron"
+      "block": "pfm:basic_toilet[facing=south,toilet=empty]"
     },
     {
       "char": "j",
@@ -43,69 +43,73 @@
     },
     {
       "char": "k",
-      "block": "minecraft:dark_oak_door[half=lower,open=false,hinge=left,facing=west]"
+      "block": "pfm:wall_toilet_paper[facing=east]"
     },
     {
       "char": "l",
-      "block": "quark:framed_glass_pane[waterlogged=false]"
+      "block": "minecraft:dark_oak_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
       "char": "m",
+      "block": "quark:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "n",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
-      "char": "n",
+      "char": "o",
       "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
-      "char": "o",
+      "char": "p",
       "block": "minecraft:bookshelf"
     },
     {
-      "char": "p",
+      "char": "q",
       "block": "minecraft:light_gray_bed[occupied=false,part=head,facing=east]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "q",
+      "char": "r",
       "block": "minecraft:light_gray_bed[occupied=false,part=foot,facing=east]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "r",
+      "char": "s",
       "block": "quark:iron_rod[facing=up]"
     },
     {
-      "char": "s",
+      "char": "t",
       "block": "embellishcraft:smooth_basalt_wall[waterlogged=false,up=true]"
     },
     {
-      "char": "t",
+      "char": "u",
       "block": "minecraft:dark_oak_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
-      "char": "u",
+      "char": "w",
       "block": "minecraft:brewing_stand"
     },
     {
-      "char": "w",
+      "char": "x",
       "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
     },
     {
-      "char": "x",
+      "char": "y",
       "block": "minecraft:dark_oak_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
-      "char": "y",
+      "char": "A",
       "block": "immersiveengineering:concrete_quarter"
     },
     {
-      "char": "A",
+      "char": "B",
       "block": "minecraft:quartz_block"
     }
   ]

@@ -11,98 +11,102 @@
     },
     {
       "char": "c",
-      "block": "minecraft:water[level=0]"
+      "block": "minecraft:ice"
     },
     {
       "char": "d",
-      "block": "minecraft:dirt"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "e",
-      "block": "minecraft:fern"
+      "block": "minecraft:dirt"
     },
     {
       "char": "f",
-      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+      "block": "minecraft:fern"
     },
     {
       "char": "g",
-      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "h",
-      "block": "quark:oak_hedge[waterlogged=false]"
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
     },
     {
       "char": "i",
-      "block": "minecraft:lily_pad"
+      "block": "quark:oak_hedge[waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "minecraft:orange_tulip"
+      "block": "minecraft:lily_pad"
     },
     {
       "char": "k",
-      "block": "minecraft:red_tulip"
+      "block": "minecraft:orange_tulip"
     },
     {
       "char": "l",
-      "block": "immersiveengineering:concrete_sheet"
+      "block": "minecraft:red_tulip"
     },
     {
       "char": "m",
-      "block": "minecraft:white_tulip"
+      "block": "immersiveengineering:concrete_sheet"
     },
     {
       "char": "n",
-      "block": "minecraft:pink_tulip"
+      "block": "minecraft:white_tulip"
     },
     {
       "char": "o",
-      "block": "minecraft:acacia_log[axis=y]"
+      "block": "minecraft:pink_tulip"
     },
     {
       "char": "p",
-      "block": "minecraft:grass"
+      "block": "minecraft:acacia_log[axis=y]"
     },
     {
       "char": "q",
-      "block": "quark:smooth_quartz_vertical_slab[type=south,waterlogged=false]"
+      "block": "minecraft:grass"
     },
     {
       "char": "r",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
+      "block": "quark:smooth_quartz_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "s",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "t",
-      "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "u",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+      "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "w",
-      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "x",
-      "block": "quark:smooth_quartz_vertical_slab[type=north,waterlogged=false]"
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "y",
-      "block": "minecraft:acacia_leaves[persistent=false]"
+      "block": "quark:smooth_quartz_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "A",
-      "block": "minecraft:smooth_quartz"
+      "block": "minecraft:acacia_leaves[persistent=false]"
     },
     {
       "char": "B",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "C",
       "block": "minecraft:smooth_quartz_slab[type=top,waterlogged=false]"
     }
   ]

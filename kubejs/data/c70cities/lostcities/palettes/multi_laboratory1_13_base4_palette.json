@@ -139,129 +139,137 @@
     },
     {
       "char": "M",
-      "block": "minecraft:water[level=0]"
+      "block": "minecraft:water[level=2]"
     },
     {
       "char": "N",
-      "block": "minecraft:bubble_column"
+      "block": "minecraft:water[level=1]"
     },
     {
       "char": "O",
-      "block": "pfm:dark_concrete_kitchen_counter[facing=south]"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "P",
-      "block": "pfm:dark_concrete_kitchen_counter[facing=west]"
+      "block": "minecraft:bubble_column"
     },
     {
       "char": "Q",
-      "block": "embellishcraft:red_sandstone_button[facing=west,face=floor]"
+      "block": "pfm:dark_concrete_kitchen_counter[facing=south]"
     },
     {
       "char": "R",
-      "block": "pfm:dark_concrete_kitchen_sink[facing=west,level=0]"
+      "block": "pfm:dark_concrete_kitchen_counter[facing=west]"
     },
     {
       "char": "S",
-      "block": "immersiveengineering:connector_hv[waterlogged=false,facing=down]"
+      "block": "embellishcraft:red_sandstone_button[facing=west,face=floor]"
     },
     {
       "char": "T",
-      "block": "embellishcraft:warning_steel_door[half=upper,open=false,hinge=right,facing=east]"
+      "block": "pfm:dark_concrete_kitchen_sink[facing=west,level=0]"
     },
     {
       "char": "U",
-      "block": "immersiveengineering:connector_lv[waterlogged=false,facing=down]"
+      "block": "immersiveengineering:connector_hv[waterlogged=false,facing=down]"
     },
     {
       "char": "V",
-      "block": "zombie_extreme:computer_monitor[facing=west]"
+      "block": "embellishcraft:warning_steel_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
       "char": "W",
-      "block": "create:framed_glass_pane[waterlogged=false]"
+      "block": "immersiveengineering:connector_lv[waterlogged=false,facing=down]"
     },
     {
       "char": "X",
+      "block": "zombie_extreme:computer_monitor[facing=west]"
+    },
+    {
+      "char": "Y",
+      "block": "create:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "Z",
       "block": "create:blaze_burner[facing=west,blaze=smouldering]",
       "tag": {
         "id": "create:blaze_heater"
       }
     },
     {
-      "char": "Y",
+      "char": "0",
       "block": "embellishcraft:red_sandstone_button[facing=south,face=floor]"
     },
     {
-      "char": "Z",
+      "char": "1",
       "block": "create:display_board[waterlogged=false,up=true,facing=west,down=false]"
     },
     {
-      "char": "0",
+      "char": "2",
       "block": "rocks:starfish[waterlogged=false,variation=red]"
     },
     {
-      "char": "1",
+      "char": "3",
       "block": "createdeco:red_decal[waterlogged=false,facing=south]"
     },
     {
-      "char": "2",
+      "char": "4",
       "block": "create:display_board[waterlogged=false,up=false,facing=west,down=true]"
     },
     {
-      "char": "3",
+      "char": "5",
       "block": "immersiveengineering:connector_hv_relay[waterlogged=false,facing=west]"
     },
     {
-      "char": "4",
+      "char": "6",
       "block": "immersiveengineering:connector_hv[waterlogged=false,facing=west]"
     },
     {
-      "char": "5",
+      "char": "7",
       "block": "immersiveengineering:connector_mv_relay[waterlogged=false,facing=west]"
     },
     {
-      "char": "6",
+      "char": "8",
       "block": "immersiveengineering:connector_mv[waterlogged=false,facing=west]"
     },
     {
-      "char": "7",
+      "char": "9",
       "block": "immersiveengineering:connector_lv_relay[waterlogged=false,facing=west]"
     },
     {
-      "char": "8",
+      "char": "@",
       "block": "immersiveengineering:connector_lv[waterlogged=false,facing=west]"
     },
     {
-      "char": "9",
+      "char": "#",
       "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "@",
+      "char": "$",
       "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
-      "char": "#",
+      "char": "%",
       "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "$",
+      "char": "^",
       "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "%",
+      "char": "&",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "^",
+      "char": "*",
       "block": "embellishcraft:vent_air_duct[facing=down]"
     },
     {
-      "char": "&",
+      "char": "(",
       "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
-      "char": "*",
+      "char": ")",
       "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
     }
   ]

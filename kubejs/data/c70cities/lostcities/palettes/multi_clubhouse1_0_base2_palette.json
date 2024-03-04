@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+      "block": "pfm:basic_toilet[facing=north,toilet=empty]"
     },
     {
       "char": "e",
@@ -35,14 +35,10 @@
     },
     {
       "char": "i",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=south]"
-    },
-    {
-      "char": "j",
       "block": "minecraft:moss_block"
     },
     {
-      "char": "k",
+      "char": "j",
       "block": "embellishcraft:smooth_andesite_slab[type=bottom,waterlogged=false]"
     }
   ]

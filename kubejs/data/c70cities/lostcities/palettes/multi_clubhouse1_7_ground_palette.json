@@ -27,51 +27,63 @@
     },
     {
       "char": "g",
-      "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
+      "block": "minecraft:dirt"
     },
     {
       "char": "h",
-      "block": "minecraft:spruce_leaves[persistent=true]"
+      "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "i",
-      "block": "cfm:spruce_park_bench[type=left,waterlogged=false,facing=east]"
+      "block": "minecraft:spruce_leaves[persistent=true]"
     },
     {
       "char": "j",
-      "block": "cfm:spruce_park_bench[type=right,waterlogged=false,facing=east]"
+      "block": "cfm:spruce_park_bench[type=left,waterlogged=false,facing=east]"
     },
     {
       "char": "k",
-      "block": "minecraft:stripped_spruce_log[axis=y]"
+      "block": "cfm:spruce_park_bench[type=right,waterlogged=false,facing=east]"
     },
     {
       "char": "l",
-      "block": "minecraft:spruce_sapling"
+      "block": "minecraft:stripped_spruce_log[axis=y]"
     },
     {
       "char": "m",
-      "block": "cfm:spruce_park_bench[type=right,waterlogged=false,facing=west]"
+      "block": "minecraft:spruce_sapling"
     },
     {
       "char": "n",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+      "block": "cfm:spruce_park_bench[type=right,waterlogged=false,facing=west]"
     },
     {
       "char": "o",
-      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "p",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
     },
     {
       "char": "q",
-      "block": "cfm:spruce_park_bench[type=left,waterlogged=false,facing=west]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "r",
+      "block": "cfm:spruce_park_bench[type=left,waterlogged=false,facing=west]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:spruce_log[axis=y]"
+    },
+    {
+      "char": "t",
       "block": "minecraft:lantern[waterlogged=false,hanging=false]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:spruce_leaves[persistent=false]"
     }
   ]
 }

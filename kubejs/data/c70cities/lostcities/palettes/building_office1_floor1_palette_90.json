@@ -35,11 +35,11 @@
     },
     {
       "char": "i",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+      "block": "pfm:andesite_chair[facing=west]"
     },
     {
       "char": "j",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
+      "block": "pfm:andesite_chair[facing=south]"
     },
     {
       "char": "k",
@@ -47,11 +47,11 @@
     },
     {
       "char": "l",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+      "block": "pfm:stripped_spruce_chair[facing=north]"
     },
     {
       "char": "m",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+      "block": "pfm:andesite_chair[facing=east]"
     },
     {
       "char": "n",
@@ -60,11 +60,11 @@
     },
     {
       "char": "o",
-      "block": "minecraft:dark_oak_door[half=lower,open=true,hinge=left,facing=west]"
+      "block": "minecraft:dark_oak_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
       "char": "p",
-      "block": "minecraft:dark_oak_door[half=lower,open=true,hinge=right,facing=west]"
+      "block": "minecraft:dark_oak_door[half=lower,open=false,hinge=right,facing=west]"
     },
     {
       "char": "q",
@@ -84,77 +84,81 @@
     },
     {
       "char": "u",
-      "block": "minecraft:bookshelf"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "w",
-      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+      "block": "minecraft:bookshelf"
     },
     {
       "char": "x",
-      "block": "minecraft:cyan_terracotta"
+      "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "y",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "A",
       "block": "cfm:cyan_kitchen_drawer[open=false,facing=north]",
       "loot": "chestloot"
     },
     {
-      "char": "A",
+      "char": "B",
       "block": "embellishcraft:smooth_slate_stairs[waterlogged=false,half=bottom,facing=east,shape=inner_left]"
     },
     {
-      "char": "B",
+      "char": "C",
       "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
-      "char": "C",
+      "char": "D",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
-      "char": "D",
+      "char": "E",
       "block": "immersiveengineering:concrete_quarter"
     },
     {
-      "char": "E",
+      "char": "F",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
-      "char": "F",
-      "block": "minecraft:dark_oak_door[half=upper,open=true,hinge=left,facing=west]"
-    },
-    {
       "char": "I",
-      "block": "minecraft:dark_oak_door[half=upper,open=true,hinge=right,facing=west]"
+      "block": "minecraft:dark_oak_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
       "char": "J",
-      "block": "minecraft:dark_oak_door[half=upper,open=false,hinge=left,facing=north]"
+      "block": "minecraft:dark_oak_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
       "char": "K",
-      "block": "minecraft:potted_bamboo"
+      "block": "minecraft:dark_oak_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
       "char": "L",
-      "block": "minecraft:heavy_weighted_pressure_plate"
+      "block": "minecraft:potted_bamboo"
     },
     {
       "char": "M",
-      "block": "quark:iron_button[facing=south,face=floor]"
+      "block": "minecraft:heavy_weighted_pressure_plate"
     },
     {
       "char": "N",
-      "block": "minecraft:flower_pot"
+      "block": "quark:iron_button[facing=south,face=floor]"
     },
     {
       "char": "O",
-      "block": "minecraft:quartz_block"
+      "block": "minecraft:flower_pot"
     },
     {
       "char": "P",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "Q",
       "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     }
   ]

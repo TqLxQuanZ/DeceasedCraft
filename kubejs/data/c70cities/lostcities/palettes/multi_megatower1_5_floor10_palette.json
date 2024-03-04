@@ -47,7 +47,7 @@
     },
     {
       "char": "l",
-      "block": "embellishcraft:polished_slate_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+      "block": "embellishcraft:polished_slate_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "m",
@@ -80,58 +80,62 @@
     },
     {
       "char": "t",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
+      "block": "pfm:iron_microwave[open=false,facing=south]"
     },
     {
       "char": "u",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=south]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
     },
     {
       "char": "w",
-      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=south]"
     },
     {
       "char": "x",
-      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "y",
-      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     },
     {
       "char": "A",
-      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "B",
-      "block": "create:framed_glass_pane[waterlogged=false]"
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
     },
     {
       "char": "C",
-      "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
+      "block": "create:framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "D",
-      "block": "minecraft:stripped_oak_log[axis=z]"
+      "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "E",
-      "block": "minecraft:cobweb"
+      "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
       "char": "F",
-      "block": "minecraft:chain[waterlogged=false,axis=y]"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "I",
-      "block": "embellishcraft:air_duct"
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "J",
-      "block": "minecraft:stripped_oak_log[axis=x]"
+      "block": "embellishcraft:air_duct"
     },
     {
       "char": "K",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    },
+    {
+      "char": "L",
       "block": "immersiveengineering:slab_steel_scaffolding_standard[type=top,waterlogged=false]"
     }
   ]

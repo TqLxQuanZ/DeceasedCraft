@@ -31,19 +31,20 @@
     },
     {
       "char": "h",
-      "block": "cfm:cyan_kitchen_sink[facing=south]"
-    },
-    {
-      "char": "i",
       "block": "cfm:cyan_kitchen_counter[type=default,facing=south]"
     },
     {
-      "char": "j",
+      "char": "i",
       "block": "quark:polished_calcite_vertical_slab[type=south,waterlogged=false]"
     },
     {
-      "char": "k",
+      "char": "j",
       "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
+    },
+    {
+      "char": "k",
+      "block": "zombie_extreme:drinks_vending_machine[facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "l",

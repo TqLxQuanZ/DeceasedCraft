@@ -87,50 +87,54 @@
     },
     {
       "char": "w",
-      "block": "minecraft:dark_oak_planks"
+      "block": "minecraft:ice"
     },
     {
       "char": "x",
-      "block": "create:dark_oak_window_pane[waterlogged=false]"
+      "block": "minecraft:dark_oak_planks"
     },
     {
       "char": "y",
-      "block": "minecraft:smooth_quartz"
+      "block": "create:dark_oak_window_pane[waterlogged=false]"
     },
     {
       "char": "A",
-      "block": "minecraft:bookshelf"
+      "block": "minecraft:smooth_quartz"
     },
     {
       "char": "B",
-      "block": "minecraft:heavy_weighted_pressure_plate"
+      "block": "minecraft:bookshelf"
     },
     {
       "char": "C",
-      "block": "minecraft:rose_bush[half=upper]"
+      "block": "minecraft:heavy_weighted_pressure_plate"
     },
     {
       "char": "D",
-      "block": "minecraft:tall_grass[half=upper]"
+      "block": "minecraft:rose_bush[half=upper]"
     },
     {
       "char": "E",
-      "block": "minecraft:stripped_dark_oak_log[axis=y]"
+      "block": "minecraft:tall_grass[half=upper]"
     },
     {
       "char": "F",
-      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+      "block": "minecraft:stripped_dark_oak_log[axis=y]"
     },
     {
       "char": "I",
-      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "J",
-      "block": "quark:smooth_quartz_vertical_slab[type=north,waterlogged=false]"
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "K",
+      "block": "quark:smooth_quartz_vertical_slab[type=north,waterlogged=false]"
+    },
+    {
+      "char": "L",
       "block": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]"
     }
   ]

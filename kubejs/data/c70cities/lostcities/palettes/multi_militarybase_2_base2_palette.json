@@ -41,53 +41,54 @@
     },
     {
       "char": "i",
-      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=true,facing=south]"
-    },
-    {
-      "char": "j",
       "block": "quark:polished_andesite_vertical_slab[type=south,waterlogged=false]"
     },
     {
-      "char": "k",
+      "char": "j",
       "block": "minecraft:iron_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
-      "char": "l",
+      "char": "k",
       "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
-      "char": "m",
+      "char": "l",
       "block": "immersiveengineering:sheetmetal_steel"
     },
     {
-      "char": "n",
+      "char": "m",
       "block": "apocalypsenow:iron_locker[facing=north]",
       "loot": "chestloot"
     },
     {
-      "char": "o",
+      "char": "n",
       "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
     },
     {
-      "char": "p",
+      "char": "o",
       "block": "another_furniture:spruce_drawer[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
-      "char": "q",
+      "char": "p",
       "block": "create:andesite_bars[waterlogged=false]"
     },
     {
-      "char": "r",
-      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=false,facing=south]"
-    },
-    {
-      "char": "s",
+      "char": "q",
       "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
-      "char": "t",
+      "char": "r",
       "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "s",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "t",
+      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=top,open=true,facing=north]"
     },
     {
       "char": "u",
@@ -96,7 +97,8 @@
     },
     {
       "char": "w",
-      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=top,open=true,facing=north]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
     },
     {
       "char": "x",
@@ -105,12 +107,12 @@
     },
     {
       "char": "y",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "A",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -130,28 +132,18 @@
     },
     {
       "char": "E",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "F",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "I",
       "block": "quark:framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "J",
+      "char": "F",
       "block": "embellishcraft:air_duct"
     },
     {
-      "char": "K",
+      "char": "I",
       "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "L",
+      "char": "J",
       "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     }
   ]

@@ -50,127 +50,111 @@
     },
     {
       "char": "k",
-      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=true,facing=south]"
-    },
-    {
-      "char": "l",
       "block": "createdeco:cast_iron_door[half=lower,open=false,hinge=left,facing=east]"
     },
     {
-      "char": "m",
+      "char": "l",
       "block": "apocalypsenow:iron_locker[facing=west]",
       "loot": "chestloot"
     },
     {
-      "char": "n",
+      "char": "m",
       "block": "quark:polished_andesite_vertical_slab[type=south,waterlogged=false]"
     },
     {
-      "char": "o",
+      "char": "n",
       "block": "minecraft:iron_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
-      "char": "p",
+      "char": "o",
       "block": "createdeco:cast_iron_door[half=lower,open=false,hinge=right,facing=north]"
     },
     {
-      "char": "q",
+      "char": "p",
       "block": "quark:polished_andesite_vertical_slab[type=west,waterlogged=false]"
     },
     {
-      "char": "r",
-      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=true,facing=west]"
-    },
-    {
-      "char": "s",
+      "char": "q",
       "block": "pfm:dead_biomesoplenty_white_simple_bed[occupied=false,part=foot,facing=east]",
       "tag": {
         "id": "pfm:bed_block_entity"
       }
     },
     {
-      "char": "t",
+      "char": "r",
       "block": "pfm:dead_biomesoplenty_white_simple_bed[occupied=false,part=head,facing=east]",
       "tag": {
         "id": "pfm:bed_block_entity"
       }
     },
     {
-      "char": "u",
+      "char": "s",
       "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
-      "char": "w",
+      "char": "t",
       "block": "create:andesite_bars[waterlogged=false]"
     },
     {
-      "char": "x",
+      "char": "u",
       "block": "pfm:green_simple_sofa[facing=north,shape=left_edge]"
     },
     {
-      "char": "y",
+      "char": "w",
       "block": "pfm:green_simple_sofa[facing=north,shape=right_edge]"
     },
     {
-      "char": "A",
+      "char": "x",
       "block": "cfm:stripped_spruce_table[waterlogged=false]"
     },
     {
-      "char": "B",
+      "char": "y",
       "block": "pfm:green_simple_sofa[facing=east,shape=left_edge]"
     },
     {
-      "char": "C",
+      "char": "A",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
-      "char": "D",
+      "char": "B",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
-      "char": "E",
-      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=false,facing=south]"
-    },
-    {
-      "char": "F",
+      "char": "C",
       "block": "createdeco:cast_iron_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
-      "char": "I",
+      "char": "D",
       "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
-      "char": "J",
+      "char": "E",
       "block": "createdeco:cast_iron_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
-      "char": "K",
-      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=false,facing=west]"
-    },
-    {
-      "char": "L",
+      "char": "F",
       "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
-      "char": "M",
+      "char": "I",
       "block": "buildersdelight:lantern_2[waterlogged=false,facing=east,face=floor]"
     },
     {
-      "char": "N",
+      "char": "J",
       "block": "quark:framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "O",
+      "char": "K",
       "block": "embellishcraft:air_duct"
     },
     {
-      "char": "P",
+      "char": "L",
       "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "Q",
+      "char": "M",
       "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     }
   ]

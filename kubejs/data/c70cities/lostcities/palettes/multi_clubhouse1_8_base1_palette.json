@@ -64,11 +64,12 @@
     },
     {
       "char": "p",
-      "block": "quark:spruce_bookshelf"
+      "block": "another_furniture:white_sofa[type=left,waterlogged=false,facing=west]"
     },
     {
       "char": "q",
-      "block": "another_furniture:white_sofa[type=left,waterlogged=false,facing=west]"
+      "block": "zombie_extreme:vending_machine[facing=east]",
+      "loot": "chestloot"
     },
     {
       "char": "r",
@@ -84,12 +85,12 @@
     },
     {
       "char": "u",
-      "block": "pfm:white_freezer[open=false,facing=west]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
     },
     {
       "char": "w",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
-      "loot": "chestloot"
+      "block": "pfm:white_freezer[open=false,facing=west]"
     },
     {
       "char": "x",

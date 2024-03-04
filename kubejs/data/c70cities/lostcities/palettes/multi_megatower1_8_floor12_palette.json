@@ -63,34 +63,38 @@
     },
     {
       "char": "p",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
+      "block": "pfm:iron_microwave[open=false,facing=south]"
     },
     {
       "char": "q",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=east]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
     },
     {
       "char": "r",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=south]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=east]"
     },
     {
       "char": "s",
-      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=south]"
     },
     {
       "char": "t",
-      "block": "embellishcraft:air_duct"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "u",
-      "block": "minecraft:stripped_oak_log[axis=z]"
+      "block": "embellishcraft:air_duct"
     },
     {
       "char": "w",
-      "block": "minecraft:stripped_oak_log[axis=x]"
+      "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
       "char": "x",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    },
+    {
+      "char": "y",
       "block": "immersiveengineering:slab_steel_scaffolding_standard[type=top,waterlogged=false]"
     }
   ]

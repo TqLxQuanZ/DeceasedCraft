@@ -31,11 +31,11 @@
     },
     {
       "char": "h",
-      "block": "minecraft:cauldron"
+      "block": "pfm:basic_toilet[facing=east,toilet=empty]"
     },
     {
       "char": "i",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+      "block": "pfm:basic_sink[facing=east,level=0]"
     },
     {
       "char": "j",
@@ -135,86 +135,82 @@
     },
     {
       "char": "L",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=east]"
-    },
-    {
-      "char": "M",
       "block": "embellishcraft:oak_plain_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
-      "char": "O",
+      "char": "N",
       "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
-      "char": "P",
+      "char": "O",
       "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
-      "char": "Q",
+      "char": "P",
       "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
-      "char": "R",
+      "char": "Q",
       "block": "another_furniture:service_bell[waterlogged=false]"
     },
     {
-      "char": "S",
+      "char": "R",
       "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
-      "char": "T",
+      "char": "S",
       "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
-      "char": "U",
+      "char": "T",
       "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
-      "char": "V",
+      "char": "U",
       "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
     },
     {
-      "char": "W",
+      "char": "V",
       "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
-      "char": "X",
+      "char": "W",
       "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
-      "char": "Y",
+      "char": "X",
       "block": "minecraft:birch_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "Z",
+      "char": "Y",
       "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
-      "char": "0",
+      "char": "Z",
       "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
-      "char": "1",
+      "char": "0",
       "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
-      "char": "2",
+      "char": "1",
       "block": "minecraft:quartz_block"
     },
     {
-      "char": "3",
+      "char": "2",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "4",
+      "char": "3",
       "block": "simplylight:illuminant_block_on"
     },
     {
-      "char": "5",
+      "char": "4",
       "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     }
   ]

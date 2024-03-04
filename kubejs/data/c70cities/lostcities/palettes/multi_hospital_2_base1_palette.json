@@ -40,43 +40,51 @@
     },
     {
       "char": "j",
-      "block": "quark:stone_brick_vertical_slab[type=south,waterlogged=false]"
+      "block": "apocalypsenow:corpsecloth[facing=south]"
     },
     {
       "char": "k",
-      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
+      "block": "apocalypsenow:corpsesack[facing=south]"
     },
     {
       "char": "l",
-      "block": "embellishcraft:polished_marble_slab[type=bottom,waterlogged=false]"
+      "block": "quark:stone_brick_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "m",
-      "block": "minecraft:potted_dead_bush"
+      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "n",
-      "block": "embellishcraft:white_pillow[waterlogged=false,occupied=false,part=head,facing=east]"
+      "block": "embellishcraft:polished_marble_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "o",
-      "block": "embellishcraft:polished_marble_slab[type=top,waterlogged=false]"
+      "block": "minecraft:potted_dead_bush"
     },
     {
       "char": "p",
+      "block": "embellishcraft:white_pillow[waterlogged=false,occupied=false,part=head,facing=east]"
+    },
+    {
+      "char": "q",
+      "block": "embellishcraft:polished_marble_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "r",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
-      "char": "q",
+      "char": "s",
       "block": "minecraft:oak_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "r",
+      "char": "t",
       "block": "minecraft:stone_brick_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
-      "char": "s",
+      "char": "u",
       "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     }
   ]

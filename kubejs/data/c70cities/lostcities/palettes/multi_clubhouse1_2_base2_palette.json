@@ -133,55 +133,43 @@
     },
     {
       "char": "J",
-      "block": "minecraft:tall_grass[half=lower]"
-    },
-    {
-      "char": "K",
-      "block": "minecraft:fern"
-    },
-    {
-      "char": "L",
       "block": "minecraft:large_fern[half=lower]"
     },
     {
-      "char": "M",
+      "char": "K",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
-      "char": "N",
+      "char": "L",
       "block": "minecraft:spruce_leaves[persistent=true]"
     },
     {
-      "char": "O",
+      "char": "M",
       "block": "minecraft:peony[half=upper]"
     },
     {
-      "char": "P",
+      "char": "N",
       "block": "another_furniture:spruce_planter_box[type=right,attached=false,facing=north]"
     },
     {
-      "char": "Q",
+      "char": "O",
       "block": "another_furniture:spruce_planter_box[type=middle,attached=false,facing=north]"
     },
     {
-      "char": "R",
+      "char": "P",
       "block": "another_furniture:spruce_planter_box[type=left,attached=false,facing=north]"
     },
     {
-      "char": "S",
-      "block": "minecraft:tall_grass[half=upper]"
-    },
-    {
-      "char": "T",
+      "char": "Q",
       "block": "minecraft:large_fern[half=upper]"
     },
     {
-      "char": "U",
+      "char": "R",
       "block": "cfm:spruce_hedge[waterlogged=false]"
     },
     {
-      "char": "V",
+      "char": "S",
       "block": "embellishcraft:smooth_andesite_slab[type=bottom,waterlogged=false]"
     }
   ]

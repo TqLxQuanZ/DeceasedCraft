@@ -61,7 +61,7 @@
     },
     {
       "char": "n",
-      "block": "pfm:white_fridge[open=false,facing=south]",
+      "block": "zombie_extreme:vending_machine[facing=north]",
       "loot": "chestloot"
     },
     {
@@ -118,7 +118,7 @@
     },
     {
       "char": "D",
-      "block": "cfm:birch_kitchen_sink_light[facing=east]"
+      "block": "pfm:basic_toilet[facing=east,toilet=empty]"
     },
     {
       "char": "E",
@@ -126,15 +126,15 @@
     },
     {
       "char": "F",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+      "block": "pfm:wall_toilet_paper[facing=east]"
     },
     {
       "char": "I",
-      "block": "car:gas_station_top[facing=east]"
+      "block": "pfm:basic_sink[facing=north,level=0]"
     },
     {
       "char": "J",
-      "block": "pfm:white_freezer[open=false,facing=south]"
+      "block": "car:gas_station_top[facing=east]"
     },
     {
       "char": "K",
@@ -163,47 +163,43 @@
     },
     {
       "char": "Q",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=west]"
-    },
-    {
-      "char": "R",
       "block": "simplylight:illuminant_yellow_block_on"
     },
     {
-      "char": "S",
+      "char": "R",
       "block": "minecraft:yellow_terracotta"
     },
     {
-      "char": "T",
+      "char": "S",
       "block": "another_furniture:oak_shelf[type=left,waterlogged=false,facing=north]"
     },
     {
-      "char": "U",
+      "char": "T",
       "block": "another_furniture:oak_shelf[type=right,waterlogged=false,facing=north]"
     },
     {
-      "char": "V",
+      "char": "U",
       "block": "create:vertical_framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "W",
+      "char": "V",
       "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
     },
     {
-      "char": "X",
+      "char": "W",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
-      "char": "Y",
+      "char": "X",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "Z",
+      "char": "Y",
       "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "0",
+      "char": "Z",
       "block": "embellishcraft:gray_corrugated_metal_plate_slab[type=bottom,waterlogged=false]"
     }
   ]

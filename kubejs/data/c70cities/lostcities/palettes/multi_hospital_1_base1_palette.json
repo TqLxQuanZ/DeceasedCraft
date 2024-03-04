@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "cfm:stone_table[waterlogged=false]"
+      "block": "zombie_extreme:iron_table[facing=east]"
     },
     {
       "char": "l",
@@ -51,64 +51,67 @@
     },
     {
       "char": "m",
-      "block": "minecraft:bookshelf"
+      "block": "zombie_extreme:iron_table[facing=west]"
     },
     {
       "char": "n",
-      "block": "cfm:cyan_kitchen_drawer[open=false,facing=south]",
-      "loot": "chestloot"
+      "block": "zombie_extreme:iron_table[facing=north]"
     },
     {
       "char": "o",
-      "block": "quark:stone_brick_vertical_slab[type=north,waterlogged=false]"
+      "block": "minecraft:bookshelf"
     },
     {
       "char": "p",
-      "block": "quark:quartz_vertical_slab[type=east,waterlogged=false]"
+      "block": "quark:stone_brick_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "q",
-      "block": "quark:quartz_vertical_slab[type=north,waterlogged=false]"
+      "block": "quark:quartz_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "r",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+      "block": "quark:quartz_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "s",
-      "block": "minecraft:rail[waterlogged=false,shape=north_south]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "t",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+      "block": "minecraft:rail[waterlogged=false,shape=north_south]"
     },
     {
       "char": "u",
-      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "w",
-      "block": "embellishcraft:white_pillow[waterlogged=false,occupied=false,part=head,facing=west]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "x",
+      "block": "embellishcraft:white_pillow[waterlogged=false,occupied=false,part=head,facing=west]"
+    },
+    {
+      "char": "y",
       "block": "apocalypsenow:medical_storage[waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
-      "char": "y",
+      "char": "A",
       "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
     },
     {
-      "char": "A",
+      "char": "B",
       "block": "minecraft:redstone_torch[lit=true]"
     },
     {
-      "char": "B",
+      "char": "C",
       "block": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "C",
+      "char": "D",
       "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
     }
   ]

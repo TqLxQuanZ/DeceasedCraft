@@ -55,50 +55,90 @@
     },
     {
       "char": "n",
-      "block": "minecraft:gray_terracotta"
+      "block": "pfm:brown_simple_sofa[facing=south,shape=right_edge]"
     },
     {
       "char": "o",
-      "block": "embellishcraft:polished_marble_slab[type=bottom,waterlogged=false]"
+      "block": "cfm:stripped_spruce_coffee_table[waterlogged=false]"
     },
     {
       "char": "p",
-      "block": "embellishcraft:smooth_marble"
+      "block": "pfm:brown_simple_sofa[facing=north,shape=left_edge]"
     },
     {
       "char": "q",
-      "block": "quark:spruce_ladder[waterlogged=false,facing=north]"
+      "block": "pfm:brown_simple_sofa[facing=south,shape=middle]"
     },
     {
       "char": "r",
-      "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=north]"
+      "block": "pfm:brown_simple_sofa[facing=north,shape=middle]"
     },
     {
       "char": "s",
-      "block": "minecraft:iron_door[half=lower,open=false,hinge=right,facing=north]"
+      "block": "embellishcraft:smooth_marble"
     },
     {
       "char": "t",
-      "block": "cfm:oak_hedge[waterlogged=false]"
+      "block": "quark:spruce_ladder[waterlogged=false,facing=north]"
     },
     {
       "char": "u",
-      "block": "another_furniture:service_bell[waterlogged=false]"
+      "block": "pfm:brown_simple_sofa[facing=south,shape=left_edge]"
     },
     {
       "char": "w",
-      "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=north]"
+      "block": "pfm:brown_simple_sofa[facing=north,shape=right_edge]"
     },
     {
       "char": "x",
-      "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=north]"
+      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=north]"
     },
     {
       "char": "y",
-      "block": "minecraft:quartz_block"
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=north]"
     },
     {
       "char": "A",
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=right,facing=north]"
+    },
+    {
+      "char": "B",
+      "block": "cfm:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "C",
+      "block": "another_furniture:service_bell[waterlogged=false]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:potted_spruce_sapling"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=north]"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=north]"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "J",
+      "block": "another_furniture:spruce_shelf[type=right,waterlogged=false,facing=north]"
+    },
+    {
+      "char": "K",
+      "block": "another_furniture:spruce_shelf[type=left,waterlogged=false,facing=north]"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:flower_pot"
+    },
+    {
+      "char": "M",
       "block": "embellishcraft:smooth_slate"
     }
   ]

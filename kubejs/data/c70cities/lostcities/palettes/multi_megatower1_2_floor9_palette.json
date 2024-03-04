@@ -63,26 +63,30 @@
     },
     {
       "char": "p",
-      "block": "create:framed_glass_pane[waterlogged=false]"
+      "block": "biomesoplenty:hellbark_button[facing=west,face=floor]"
     },
     {
       "char": "q",
-      "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
+      "block": "create:framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "r",
-      "block": "minecraft:stripped_oak_log[axis=z]"
+      "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "s",
-      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+      "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
       "char": "t",
-      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "u",
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "w",
       "block": "minecraft:stripped_oak_log[axis=x]"
     }
   ]

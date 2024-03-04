@@ -11,30 +11,26 @@
     },
     {
       "char": "c",
-      "block": "minecraft:fern"
-    },
-    {
-      "char": "d",
       "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "e",
+      "char": "d",
       "block": "car:line_side_long_left[facing=north]"
     },
     {
-      "char": "f",
+      "char": "e",
       "block": "car:line_side_long_left[facing=west]"
     },
     {
-      "char": "g",
+      "char": "f",
       "block": "rocks:oak_stick[variation=small]"
     },
     {
-      "char": "h",
+      "char": "g",
       "block": "rocks:rock[variation=tiny]"
     },
     {
-      "char": "i",
+      "char": "h",
       "block": "minecraft:command_block[facing=up,conditional=false]",
       "tag": {
         "conditionMet": 1,
@@ -43,63 +39,63 @@
       }
     },
     {
-      "char": "j",
+      "char": "i",
       "block": "car:line_side_long_left[facing=east]"
     },
     {
-      "char": "k",
+      "char": "j",
       "block": "car:line_side_long_left[facing=south]"
     },
     {
-      "char": "l",
+      "char": "k",
       "block": "rocks:rock[variation=small]"
     },
     {
-      "char": "m",
+      "char": "l",
       "block": "rocks:rock[variation=medium]"
     },
     {
-      "char": "n",
+      "char": "m",
       "block": "rocks:oak_stick[variation=medium]"
     },
     {
-      "char": "o",
+      "char": "n",
       "block": "minecraft:iron_bars[waterlogged=false]"
     },
     {
-      "char": "p",
+      "char": "o",
       "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "q",
+      "char": "p",
       "block": "quark:limestone_vertical_slab[type=west,waterlogged=false]"
     },
     {
-      "char": "r",
+      "char": "q",
       "block": "quark:smooth_quartz_vertical_slab[type=west,waterlogged=false]"
     },
     {
-      "char": "s",
+      "char": "r",
       "block": "cfm:gray_picket_fence[waterlogged=false]"
     },
     {
-      "char": "t",
+      "char": "s",
       "block": "embellishcraft:smooth_marble"
     },
     {
-      "char": "u",
+      "char": "t",
       "block": "minecraft:smooth_quartz"
     },
     {
-      "char": "w",
+      "char": "u",
       "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "x",
+      "char": "w",
       "block": "minecraft:smooth_quartz_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "y",
+      "char": "x",
       "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     }
   ]

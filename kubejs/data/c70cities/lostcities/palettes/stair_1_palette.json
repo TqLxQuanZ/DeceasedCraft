@@ -31,22 +31,26 @@
     },
     {
       "char": "h",
-      "block": "quark:oak_hedge[waterlogged=false]"
+      "block": "minecraft:ice"
     },
     {
       "char": "i",
-      "block": "minecraft:water[level=8]"
+      "block": "quark:oak_hedge[waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "minecraft:water[level=1]"
+      "block": "minecraft:water[level=8]"
     },
     {
       "char": "k",
-      "block": "minecraft:water[level=2]"
+      "block": "minecraft:water[level=1]"
     },
     {
       "char": "l",
+      "block": "minecraft:water[level=2]"
+    },
+    {
+      "char": "m",
       "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     }
   ]

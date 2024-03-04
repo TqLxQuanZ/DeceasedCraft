@@ -73,132 +73,116 @@
     },
     {
       "char": "o",
-      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=true,facing=south]"
-    },
-    {
-      "char": "p",
       "block": "createdeco:cast_iron_door[half=lower,open=false,hinge=left,facing=north]"
     },
     {
-      "char": "q",
+      "char": "p",
       "block": "quark:polished_andesite_vertical_slab[type=south,waterlogged=false]"
     },
     {
-      "char": "r",
+      "char": "q",
       "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
-      "char": "s",
+      "char": "r",
       "block": "pfm:dead_biomesoplenty_white_simple_bed[occupied=false,part=head,facing=west]",
       "tag": {
         "id": "pfm:bed_block_entity"
       }
     },
     {
-      "char": "t",
+      "char": "s",
       "block": "pfm:dead_biomesoplenty_white_simple_bed[occupied=false,part=foot,facing=west]",
       "tag": {
         "id": "pfm:bed_block_entity"
       }
     },
     {
-      "char": "u",
-      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=true,facing=east]"
-    },
-    {
-      "char": "w",
+      "char": "t",
       "block": "quark:polished_andesite_vertical_slab[type=east,waterlogged=false]"
     },
     {
-      "char": "x",
+      "char": "u",
       "block": "apocalypsenow:iron_locker[facing=north]",
       "loot": "chestloot"
     },
     {
-      "char": "y",
+      "char": "w",
       "block": "minecraft:iron_door[half=lower,open=false,hinge=right,facing=east]"
     },
     {
-      "char": "A",
+      "char": "x",
       "block": "buildersdelight:spruce_chair_2"
     },
     {
-      "char": "B",
+      "char": "y",
       "block": "another_furniture:spruce_drawer[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
-      "char": "C",
+      "char": "A",
       "block": "cfm:andesite_table[waterlogged=false]"
     },
     {
-      "char": "D",
+      "char": "B",
       "block": "create:andesite_bars[waterlogged=false]"
     },
     {
-      "char": "E",
+      "char": "C",
       "block": "quark:spruce_bookshelf"
     },
     {
-      "char": "F",
+      "char": "D",
       "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
-      "char": "I",
+      "char": "E",
       "block": "createdeco:cast_iron_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
-      "char": "J",
-      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=false,facing=south]"
-    },
-    {
-      "char": "K",
+      "char": "F",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
-      "char": "L",
+      "char": "I",
       "block": "createdeco:cast_iron_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
-      "char": "M",
+      "char": "J",
       "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
-      "char": "N",
-      "block": "pfm:dead_biomesoplenty_simple_bunk_ladder[waterlogged=false,up=false,facing=east]"
-    },
-    {
-      "char": "O",
+      "char": "K",
       "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
-      "char": "P",
+      "char": "L",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
-      "char": "Q",
+      "char": "M",
       "block": "buildersdelight:lantern_6[waterlogged=false,facing=north,face=floor]"
     },
     {
-      "char": "R",
+      "char": "N",
       "block": "minecraft:spruce_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
-      "char": "S",
+      "char": "O",
       "block": "quark:framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "T",
+      "char": "P",
       "block": "embellishcraft:air_duct"
     },
     {
-      "char": "U",
+      "char": "Q",
       "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "V",
+      "char": "R",
       "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     }
   ]

@@ -65,113 +65,113 @@
     },
     {
       "char": "o",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+      "block": "pfm:wall_toilet_paper[facing=east]"
     },
     {
       "char": "p",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+      "block": "pfm:basic_toilet[facing=west,toilet=empty]"
     },
     {
       "char": "q",
-      "block": "car:line_side_long_left_yellow[facing=south]"
+      "block": "pfm:basic_toilet[facing=east,toilet=empty]"
     },
     {
       "char": "r",
-      "block": "car:line_side_long_left_yellow[facing=east]"
+      "block": "pfm:wall_toilet_paper[facing=west]"
     },
     {
       "char": "s",
-      "block": "embellishcraft:birch_plain_door[half=lower,open=false,hinge=left,facing=north]"
+      "block": "car:line_side_long_left_yellow[facing=south]"
     },
     {
       "char": "t",
-      "block": "embellishcraft:birch_plain_door[half=lower,open=false,hinge=right,facing=north]"
+      "block": "car:line_side_long_left_yellow[facing=east]"
     },
     {
       "char": "u",
-      "block": "cfm:birch_kitchen_sink_light[facing=north]"
+      "block": "embellishcraft:birch_plain_door[half=lower,open=false,hinge=left,facing=north]"
     },
     {
       "char": "w",
-      "block": "embellishcraft:birch_plain_door[half=lower,open=false,hinge=right,facing=south]"
+      "block": "embellishcraft:birch_plain_door[half=lower,open=false,hinge=right,facing=north]"
     },
     {
       "char": "x",
-      "block": "create:vertical_framed_glass"
+      "block": "cfm:birch_kitchen_sink_light[facing=north]"
     },
     {
       "char": "y",
-      "block": "immersiveengineering:sheetmetal_iron"
+      "block": "embellishcraft:birch_plain_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "A",
+      "block": "create:vertical_framed_glass"
+    },
+    {
+      "char": "B",
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "char": "C",
+      "block": "zombie_extreme:vending_machine[facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "D",
       "block": "pfm:white_fridge[open=false,facing=north]",
       "loot": "chestloot"
     },
     {
-      "char": "B",
+      "char": "E",
       "block": "car:gas_station_top[facing=west]"
     },
     {
-      "char": "C",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=west]"
-    },
-    {
-      "char": "D",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=east]"
-    },
-    {
-      "char": "E",
+      "char": "F",
       "block": "embellishcraft:birch_plain_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
-      "char": "F",
+      "char": "I",
       "block": "embellishcraft:birch_plain_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
-      "char": "I",
+      "char": "J",
       "block": "embellishcraft:birch_plain_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
-      "char": "J",
+      "char": "K",
       "block": "pfm:white_freezer[open=false,facing=north]"
     },
     {
-      "char": "K",
+      "char": "L",
       "block": "minecraft:red_terracotta"
     },
     {
-      "char": "L",
+      "char": "M",
       "block": "create:vertical_framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "M",
+      "char": "N",
       "block": "another_furniture:oak_shelf[type=left,waterlogged=false,facing=south]"
     },
     {
-      "char": "N",
+      "char": "O",
       "block": "another_furniture:oak_shelf[type=middle,waterlogged=false,facing=south]"
     },
     {
-      "char": "O",
+      "char": "P",
       "block": "another_furniture:oak_shelf[type=right,waterlogged=false,facing=south]"
     },
     {
-      "char": "P",
+      "char": "Q",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "Q",
+      "char": "R",
       "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "R",
-      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
-    },
-    {
       "char": "S",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
-      "loot": "chestloot"
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
     },
     {
       "char": "T",
@@ -180,6 +180,11 @@
     },
     {
       "char": "U",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "V",
       "block": "embellishcraft:gray_corrugated_metal_plate_slab[type=bottom,waterlogged=false]"
     }
   ]

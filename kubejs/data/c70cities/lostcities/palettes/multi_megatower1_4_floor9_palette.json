@@ -30,306 +30,343 @@
     },
     {
       "char": "g",
-      "block": "minecraft:bricks"
+      "block": "create:polished_cut_calcite"
     },
     {
       "char": "h",
-      "block": "embellishcraft:steel_door[half=lower,open=false,hinge=left,facing=east]"
+      "block": "minecraft:bricks"
     },
     {
       "char": "i",
-      "block": "minecraft:brick_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+      "block": "embellishcraft:steel_door[half=lower,open=false,hinge=left,facing=east]"
     },
     {
       "char": "j",
-      "block": "minecraft:brick_slab[type=top,waterlogged=false]"
+      "block": "minecraft:brick_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "k",
-      "block": "minecraft:brick_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+      "block": "minecraft:brick_slab[type=top,waterlogged=false]"
     },
     {
       "char": "l",
-      "block": "embellishcraft:steel_door[half=lower,open=false,hinge=right,facing=east]"
+      "block": "minecraft:brick_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "m",
-      "block": "quark:polished_calcite_vertical_slab[type=east,waterlogged=false]"
+      "block": "embellishcraft:steel_door[half=lower,open=false,hinge=right,facing=east]"
     },
     {
       "char": "n",
-      "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
+      "block": "quark:polished_calcite_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "o",
-      "block": "quark:calcite_bricks_vertical_slab[type=south,waterlogged=false]"
+      "block": "embellishcraft:gray_corrugated_metal_plate_pressure_plate"
     },
     {
       "char": "p",
-      "block": "quark:iron_button[facing=south,face=wall]"
+      "block": "quark:calcite_bricks_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "q",
-      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=south]"
+      "block": "quark:iron_button[facing=south,face=wall]"
     },
     {
       "char": "r",
-      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=south]"
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "s",
-      "block": "quark:polished_calcite_vertical_slab[type=south,waterlogged=false]"
+      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "t",
-      "block": "minecraft:iron_door[half=lower,open=false,hinge=right,facing=south]"
+      "block": "quark:polished_calcite_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "u",
-      "block": "minecraft:iron_door[half=lower,open=false,hinge=right,facing=west]"
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "w",
-      "block": "minecraft:smooth_quartz"
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=right,facing=west]"
     },
     {
       "char": "x",
-      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=right,facing=south]"
+      "block": "minecraft:smooth_quartz"
     },
     {
       "char": "y",
-      "block": "cfm:cyan_kitchen_counter[type=default,facing=west]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "A",
-      "block": "quark:polished_calcite_vertical_slab[type=west,waterlogged=false]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=west]"
     },
     {
       "char": "B",
-      "block": "another_furniture:light_gray_tall_stool[waterlogged=false]"
+      "block": "quark:polished_calcite_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "C",
+      "block": "pfm:mesh_trashcan[facing=north]"
+    },
+    {
+      "char": "D",
+      "block": "pfm:dark_wood_modern_stool[facing=west]"
+    },
+    {
+      "char": "E",
       "block": "cfm:cyan_kitchen_drawer[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
-      "char": "D",
-      "block": "embellishcraft:birch_plain_door[half=lower,open=false,hinge=right,facing=east]"
-    },
-    {
-      "char": "E",
-      "block": "cfm:cyan_kitchen_sink[facing=west]"
-    },
-    {
       "char": "F",
-      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=east]"
+      "block": "pfm:concrete_kitchen_counter[facing=west]"
     },
     {
       "char": "I",
-      "block": "cfm:stripped_oak_table[waterlogged=false]"
+      "block": "embellishcraft:birch_plain_door[half=lower,open=false,hinge=right,facing=east]"
     },
     {
       "char": "J",
-      "block": "embellishcraft:light_gray_couch[waterlogged=false,facing=east,shape=straight]"
+      "block": "pfm:concrete_kitchen_sink[facing=west,level=0]"
     },
     {
       "char": "K",
-      "block": "quark:polished_calcite"
+      "block": "biomesoplenty:hellbark_button[facing=east,face=floor]"
     },
     {
       "char": "L",
-      "block": "create:polished_cut_dripstone_wall[waterlogged=false,up=true]"
+      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=east]"
     },
     {
       "char": "M",
-      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=left,facing=north]"
+      "block": "cfm:stripped_oak_table[waterlogged=false]"
     },
     {
       "char": "N",
-      "block": "embellishcraft:white_couch[waterlogged=false,facing=east,shape=straight]"
+      "block": "embellishcraft:light_gray_couch[waterlogged=false,facing=east,shape=straight]"
     },
     {
       "char": "O",
-      "block": "embellishcraft:light_gray_couch[waterlogged=false,facing=west,shape=straight]"
+      "block": "quark:polished_calcite"
     },
     {
       "char": "P",
-      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=west]"
+      "block": "biomesoplenty:hellbark_button[facing=south,face=floor]"
     },
     {
       "char": "Q",
-      "block": "another_furniture:oak_shelf[type=left,waterlogged=false,facing=south]"
+      "block": "create:polished_cut_dripstone_wall[waterlogged=false,up=true]"
     },
     {
       "char": "R",
-      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=south]"
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=left,facing=north]"
     },
     {
       "char": "S",
-      "block": "farmersdelight:cutting_board[waterlogged=false,facing=east]"
+      "block": "embellishcraft:white_couch[waterlogged=false,facing=east,shape=straight]"
     },
     {
       "char": "T",
-      "block": "embellishcraft:steel_door[half=upper,open=false,hinge=left,facing=east]"
+      "block": "embellishcraft:light_gray_couch[waterlogged=false,facing=west,shape=straight]"
     },
     {
       "char": "U",
-      "block": "another_furniture:spruce_shelf[type=right,waterlogged=false,facing=east]"
+      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=west]"
     },
     {
       "char": "V",
-      "block": "farmersdelight:roast_chicken_block[servings=4,facing=east]"
+      "block": "pfm:trashcan[open=false]"
     },
     {
       "char": "W",
-      "block": "farmersdelight:honey_glazed_ham_block[servings=4,facing=south]"
+      "block": "zombie_extreme:vending_machine[facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "X",
-      "block": "embellishcraft:steel_door[half=upper,open=false,hinge=right,facing=east]"
+      "block": "biomesoplenty:hellbark_button[facing=west,face=floor]"
     },
     {
       "char": "Y",
-      "block": "another_furniture:spruce_shelf[type=middle,waterlogged=false,facing=east]"
+      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=south]"
     },
     {
       "char": "Z",
-      "block": "another_furniture:spruce_shelf[type=left,waterlogged=false,facing=east]"
+      "block": "biomesoplenty:hellbark_button[facing=north,face=floor]"
     },
     {
       "char": "0",
-      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=south]"
+      "block": "farmersdelight:cutting_board[waterlogged=false,facing=east]"
     },
     {
       "char": "1",
-      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=south]"
+      "block": "embellishcraft:steel_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
       "char": "2",
-      "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=south]"
+      "block": "another_furniture:spruce_shelf[type=right,waterlogged=false,facing=east]"
     },
     {
       "char": "3",
-      "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=west]"
+      "block": "farmersdelight:roast_chicken_block[servings=4,facing=east]"
     },
     {
       "char": "4",
-      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=right,facing=south]"
+      "block": "farmersdelight:honey_glazed_ham_block[servings=4,facing=south]"
     },
     {
       "char": "5",
-      "block": "minecraft:flower_pot"
+      "block": "embellishcraft:steel_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
       "char": "6",
-      "block": "quark:polished_andesite_vertical_slab[type=west,waterlogged=false]"
+      "block": "another_furniture:spruce_shelf[type=middle,waterlogged=false,facing=east]"
     },
     {
       "char": "7",
-      "block": "embellishcraft:birch_plain_door[half=upper,open=false,hinge=right,facing=east]"
+      "block": "another_furniture:spruce_shelf[type=left,waterlogged=false,facing=east]"
     },
     {
       "char": "8",
-      "block": "another_furniture:oak_planter_box[type=left,attached=false,facing=west]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "9",
-      "block": "another_furniture:oak_planter_box[type=right,attached=false,facing=west]"
+      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "@",
-      "block": "quark:spruce_hedge[waterlogged=false]"
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "#",
-      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=left,facing=north]"
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
       "char": "$",
-      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "%",
+      "block": "minecraft:flower_pot"
+    },
+    {
+      "char": "^",
+      "block": "quark:polished_andesite_vertical_slab[type=west,waterlogged=false]"
+    },
+    {
+      "char": "&",
+      "block": "pfm:white_mirror[facing=west]"
+    },
+    {
+      "char": "*",
+      "block": "embellishcraft:birch_plain_door[half=upper,open=false,hinge=right,facing=east]"
+    },
+    {
+      "char": "(",
+      "block": "another_furniture:oak_planter_box[type=left,attached=false,facing=west]"
+    },
+    {
+      "char": ")",
+      "block": "zombie_extreme:empty_cans[facing=north]"
+    },
+    {
+      "char": "+",
+      "block": "another_furniture:oak_planter_box[type=right,attached=false,facing=west]"
+    },
+    {
+      "char": "-",
+      "block": "quark:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "[",
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=left,facing=north]"
+    },
+    {
+      "char": "]",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
-      "char": "^",
+      "char": "{",
       "block": "farmersdelight:spruce_cabinet[open=false,facing=east]",
       "loot": "chestloot"
     },
     {
-      "char": "&",
+      "char": "}",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
-      "char": "*",
+      "char": "\\",
       "block": "create:nixie_tube[waterlogged=false,double_face=ceiling,facing=east]",
       "tag": {
         "id": "create:nixie_tube"
       }
     },
     {
-      "char": "(",
+      "char": "|",
       "block": "quark:spruce_vertical_slab[type=south,waterlogged=false]"
     },
     {
-      "char": ")",
+      "char": "`",
       "block": "farmersdelight:oak_cabinet[open=false,facing=east]",
       "loot": "chestloot"
     },
     {
-      "char": "+",
+      "char": ":",
       "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "-",
+      "char": ";",
       "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
-      "char": "[",
+      "char": "'",
       "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "]",
+      "char": ",",
       "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
-      "char": "{",
+      "char": ".",
       "block": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "}",
+      "char": "/",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "\\",
+      "char": "<",
       "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
-      "char": "|",
+      "char": ">",
       "block": "minecraft:cobweb"
     },
     {
-      "char": "`",
+      "char": "?",
       "block": "embellishcraft:polished_basalt"
     },
     {
-      "char": ":",
+      "char": "\u00a3",
       "block": "minecraft:stripped_oak_log[axis=x]"
     },
     {
-      "char": ";",
+      "char": "\u00a4",
       "block": "simplylight:illuminant_block"
     },
     {
-      "char": "'",
+      "char": "\u00a5",
       "block": "embellishcraft:air_duct"
     },
     {
-      "char": ",",
+      "char": "\u00a7",
       "block": "simplylight:illuminant_slab[waterlogged=false,facing=up]"
     }
   ]

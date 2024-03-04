@@ -15,43 +15,43 @@
     },
     {
       "char": "d",
-      "block": "minecraft:stripped_oak_log[axis=y]"
+      "block": "create:polished_cut_calcite"
     },
     {
       "char": "e",
-      "block": "minecraft:spruce_planks"
+      "block": "minecraft:stripped_oak_log[axis=y]"
     },
     {
       "char": "f",
-      "block": "minecraft:spruce_fence[waterlogged=false]"
+      "block": "minecraft:spruce_planks"
     },
     {
       "char": "g",
-      "block": "minecraft:cyan_terracotta"
+      "block": "minecraft:spruce_fence[waterlogged=false]"
     },
     {
       "char": "h",
-      "block": "quark:polished_calcite_vertical_slab[type=east,waterlogged=false]"
+      "block": "minecraft:cyan_terracotta"
     },
     {
       "char": "i",
-      "block": "cfm:stripped_spruce_coffee_table[waterlogged=false]"
+      "block": "quark:polished_calcite_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "embellishcraft:light_gray_couch[waterlogged=false,facing=south,shape=straight]"
+      "block": "cfm:stripped_spruce_coffee_table[waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "create:polished_cut_dripstone_wall[waterlogged=false,up=true]"
+      "block": "embellishcraft:light_gray_couch[waterlogged=false,facing=south,shape=straight]"
     },
     {
       "char": "l",
-      "block": "minecraft:smooth_quartz"
+      "block": "create:polished_cut_dripstone_wall[waterlogged=false,up=true]"
     },
     {
       "char": "m",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+      "block": "minecraft:smooth_quartz"
     },
     {
       "char": "n",
@@ -59,62 +59,70 @@
     },
     {
       "char": "o",
-      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=west]"
+      "block": "pfm:basic_toilet[facing=east,toilet=empty]"
     },
     {
       "char": "p",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
+      "block": "zombie_extreme:empty_cans[facing=south]"
     },
     {
       "char": "q",
-      "block": "quark:spruce_hedge[waterlogged=false]"
+      "block": "pfm:trashcan[open=false]"
     },
     {
       "char": "r",
-      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=west]"
     },
     {
       "char": "s",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=east]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
     },
     {
       "char": "t",
-      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+      "block": "quark:spruce_hedge[waterlogged=false]"
     },
     {
       "char": "u",
-      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=east]"
     },
     {
       "char": "w",
-      "block": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "x",
-      "block": "embellishcraft:vent_air_duct[facing=down]"
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     },
     {
       "char": "y",
-      "block": "embellishcraft:polished_basalt_slab[type=bottom,waterlogged=false]"
+      "block": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "A",
-      "block": "embellishcraft:air_duct"
+      "block": "embellishcraft:vent_air_duct[facing=down]"
     },
     {
       "char": "B",
-      "block": "minecraft:stripped_oak_log[axis=z]"
+      "block": "embellishcraft:polished_basalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "C",
-      "block": "minecraft:cobweb"
+      "block": "embellishcraft:air_duct"
     },
     {
       "char": "D",
-      "block": "minecraft:chain[waterlogged=false,axis=y]"
+      "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
       "char": "E",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "I",
       "block": "minecraft:stripped_oak_log[axis=x]"
     }
   ]

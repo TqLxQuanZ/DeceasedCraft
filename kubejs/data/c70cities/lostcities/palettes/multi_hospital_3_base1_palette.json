@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "cfm:stone_table[waterlogged=false]"
+      "block": "zombie_extreme:iron_table[facing=south]"
     },
     {
       "char": "f",
@@ -27,26 +27,38 @@
     },
     {
       "char": "g",
-      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
+      "block": "apocalypsenow:corpsecloth[facing=north]"
     },
     {
       "char": "h",
-      "block": "quark:stone_brick_vertical_slab[type=north,waterlogged=false]"
+      "block": "apocalypsenow:corpsesack[facing=north]"
     },
     {
       "char": "i",
-      "block": "embellishcraft:polished_marble_slab[type=bottom,waterlogged=false]"
+      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "embellishcraft:white_pillow[waterlogged=false,occupied=false,part=head,facing=east]"
+      "block": "zombie_extreme:iron_table[facing=west]"
     },
     {
       "char": "k",
-      "block": "embellishcraft:polished_marble_slab[type=top,waterlogged=false]"
+      "block": "quark:stone_brick_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "l",
+      "block": "embellishcraft:polished_marble_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "m",
+      "block": "embellishcraft:white_pillow[waterlogged=false,occupied=false,part=head,facing=east]"
+    },
+    {
+      "char": "n",
+      "block": "embellishcraft:polished_marble_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "o",
       "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     }
   ]

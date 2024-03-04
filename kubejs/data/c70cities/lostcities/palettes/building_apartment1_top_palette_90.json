@@ -63,42 +63,58 @@
     },
     {
       "char": "p",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+      "block": "minecraft:polished_deepslate"
     },
     {
       "char": "q",
-      "block": "minecraft:smooth_quartz"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "r",
-      "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=west]"
+      "block": "minecraft:smooth_quartz"
     },
     {
       "char": "s",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
       "char": "t",
-      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "u",
-      "block": "embellishcraft:vent_air_duct[facing=north]"
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
     },
     {
       "char": "w",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+      "block": "embellishcraft:vent_air_duct[facing=north]"
     },
     {
       "char": "x",
-      "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=west]"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
       "char": "y",
-      "block": "minecraft:water_cauldron[level=3]"
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=west,face=floor]"
     },
     {
       "char": "A",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=north,face=floor]"
+    },
+    {
+      "char": "B",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=south,face=floor]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:cauldron"
+    },
+    {
+      "char": "E",
       "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     }
   ]

@@ -55,7 +55,7 @@
     },
     {
       "char": "n",
-      "block": "cfm:cyan_kitchen_drawer[open=false,facing=south]",
+      "block": "pfm:stripped_spruce_kitchen_drawer[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -81,6 +81,14 @@
     {
       "char": "t",
       "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "u",
+      "block": "another_furniture:spruce_shelf[type=left,waterlogged=false,facing=north]"
+    },
+    {
+      "char": "w",
+      "block": "another_furniture:spruce_shelf[type=right,waterlogged=false,facing=north]"
     }
   ]
 }

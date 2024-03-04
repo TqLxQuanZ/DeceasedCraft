@@ -63,74 +63,102 @@
     },
     {
       "char": "p",
-      "block": "minecraft:water[level=0]"
+      "block": "minecraft:water[level=3]"
     },
     {
       "char": "q",
-      "block": "create:fluid_pipe[waterlogged=false,up=true,down=true]"
+      "block": "minecraft:water[level=2]"
     },
     {
       "char": "r",
-      "block": "minecraft:cauldron"
+      "block": "minecraft:water[level=1]"
     },
     {
       "char": "s",
-      "block": "biomesoplenty:dead_button[facing=south,face=floor]"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "t",
-      "block": "quark:polished_calcite"
+      "block": "minecraft:water[level=4]"
     },
     {
       "char": "u",
-      "block": "embellishcraft:dark_oak_fancy_door[half=lower,open=false,hinge=right,facing=south]"
+      "block": "minecraft:water[level=5]"
     },
     {
       "char": "w",
-      "block": "create:polished_cut_limestone"
+      "block": "create:fluid_pipe[waterlogged=false,up=true,down=true]"
     },
     {
       "char": "x",
-      "block": "embellishcraft:rusty_door[half=upper,open=false,hinge=right,facing=east]"
+      "block": "minecraft:cauldron"
     },
     {
       "char": "y",
-      "block": "embellishcraft:rusty_door[half=upper,open=false,hinge=right,facing=north]"
+      "block": "biomesoplenty:dead_button[facing=south,face=floor]"
     },
     {
       "char": "A",
-      "block": "quark:dirty_glass_pane[waterlogged=false]"
+      "block": "minecraft:water[level=6]"
     },
     {
       "char": "B",
-      "block": "create:fluid_tank[shape=window,top=false]"
+      "block": "minecraft:water[level=7]"
     },
     {
       "char": "C",
-      "block": "create:fluid_pipe[waterlogged=false,up=false,down=false]"
+      "block": "quark:polished_calcite"
     },
     {
       "char": "D",
-      "block": "embellishcraft:dark_oak_fancy_door[half=upper,open=false,hinge=right,facing=south]"
+      "block": "embellishcraft:dark_oak_fancy_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "E",
-      "block": "create:cut_limestone"
+      "block": "create:polished_cut_limestone"
     },
     {
       "char": "F",
-      "block": "create:fluid_pipe[waterlogged=false,up=false,down=true]"
+      "block": "embellishcraft:rusty_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
       "char": "I",
-      "block": "create:fluid_tank[shape=window,top=true]"
+      "block": "embellishcraft:rusty_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
       "char": "J",
-      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+      "block": "quark:dirty_glass_pane[waterlogged=false]"
     },
     {
       "char": "K",
+      "block": "create:fluid_tank[shape=window,top=false]"
+    },
+    {
+      "char": "L",
+      "block": "create:fluid_pipe[waterlogged=false,up=false,down=false]"
+    },
+    {
+      "char": "M",
+      "block": "embellishcraft:dark_oak_fancy_door[half=upper,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "N",
+      "block": "create:cut_limestone"
+    },
+    {
+      "char": "O",
+      "block": "create:fluid_pipe[waterlogged=false,up=false,down=true]"
+    },
+    {
+      "char": "P",
+      "block": "create:fluid_tank[shape=window,top=true]"
+    },
+    {
+      "char": "Q",
+      "block": "quark:polished_calcite_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+    },
+    {
+      "char": "R",
       "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     }
   ]

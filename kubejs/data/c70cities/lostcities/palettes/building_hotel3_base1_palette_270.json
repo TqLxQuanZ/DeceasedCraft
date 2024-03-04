@@ -33,7 +33,7 @@
     },
     {
       "char": "h",
-      "block": "minecraft:water_cauldron[level=3]"
+      "block": "minecraft:cauldron"
     },
     {
       "char": "i",
@@ -109,27 +109,59 @@
     },
     {
       "char": "C",
-      "block": "immersiveengineering:concrete_quarter"
+      "block": "pfm:basic_plate[facing=north]"
     },
     {
       "char": "D",
-      "block": "minecraft:lantern[waterlogged=false,hanging=true]"
+      "block": "farmersdelight:roast_chicken_block[servings=4,facing=east]"
     },
     {
       "char": "E",
-      "block": "another_furniture:oak_shelf[type=single,waterlogged=false,facing=north]"
+      "block": "farmersdelight:stuffed_pumpkin_block[servings=4,facing=east]"
     },
     {
       "char": "F",
-      "block": "minecraft:chain[waterlogged=false,axis=y]"
+      "block": "farmersdelight:honey_glazed_ham_block[servings=4,facing=north]"
     },
     {
       "char": "I",
+      "block": "farmersdelight:shepherds_pie_block[servings=4,facing=south]"
+    },
+    {
+      "char": "J",
+      "block": "farmersdelight:roast_chicken_block[servings=4,facing=west]"
+    },
+    {
+      "char": "K",
+      "block": "farmersdelight:stuffed_pumpkin_block[servings=4,facing=south]"
+    },
+    {
+      "char": "L",
+      "block": "pfm:basic_plate[facing=west]"
+    },
+    {
+      "char": "M",
+      "block": "immersiveengineering:concrete_quarter"
+    },
+    {
+      "char": "N",
+      "block": "minecraft:lantern[waterlogged=false,hanging=true]"
+    },
+    {
+      "char": "O",
+      "block": "another_furniture:oak_shelf[type=single,waterlogged=false,facing=north]"
+    },
+    {
+      "char": "P",
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "Q",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
-      "char": "J",
+      "char": "R",
       "block": "minecraft:quartz_block"
     }
   ]

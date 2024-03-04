@@ -146,7 +146,7 @@
     },
     {
       "char": "N",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+      "block": "pfm:basic_toilet[facing=east,toilet=empty]"
     },
     {
       "char": "O",
@@ -186,43 +186,39 @@
     },
     {
       "char": "X",
-      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,open=false,facing=west]"
-    },
-    {
-      "char": "Y",
       "block": "create:dark_oak_window_pane[waterlogged=false]"
     },
     {
-      "char": "Z",
+      "char": "Y",
       "block": "minecraft:smooth_quartz_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "0",
+      "char": "Z",
       "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
-      "char": "1",
+      "char": "0",
       "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
     },
     {
-      "char": "2",
+      "char": "1",
       "block": "farmersdelight:spruce_cabinet[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
-      "char": "3",
+      "char": "2",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "4",
+      "char": "3",
       "block": "minecraft:cobweb"
     },
     {
-      "char": "5",
+      "char": "4",
       "block": "minecraft:cauldron"
     },
     {
-      "char": "6",
+      "char": "5",
       "block": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]"
     }
   ]

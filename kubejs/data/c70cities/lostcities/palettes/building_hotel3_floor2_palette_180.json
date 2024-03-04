@@ -39,60 +39,64 @@
     },
     {
       "char": "j",
-      "block": "minecraft:cauldron"
+      "block": "pfm:basic_toilet[facing=south,toilet=empty]"
     },
     {
       "char": "k",
-      "block": "minecraft:dark_oak_door[half=lower,open=false,hinge=left,facing=east]"
+      "block": "pfm:wall_toilet_paper[facing=east]"
     },
     {
       "char": "l",
-      "block": "quark:framed_glass_pane[waterlogged=false]"
+      "block": "minecraft:dark_oak_door[half=lower,open=false,hinge=left,facing=east]"
     },
     {
       "char": "m",
+      "block": "quark:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "n",
       "block": "minecraft:brown_bed[occupied=false,part=head,facing=south]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "n",
+      "char": "o",
       "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
-      "char": "o",
+      "char": "p",
       "block": "minecraft:brown_bed[occupied=false,part=foot,facing=south]",
       "tag": {
         "id": "minecraft:bed"
       }
     },
     {
-      "char": "p",
+      "char": "q",
       "block": "quark:iron_rod[facing=up]"
     },
     {
-      "char": "q",
+      "char": "r",
       "block": "embellishcraft:smooth_basalt_wall[waterlogged=false,up=true]"
     },
     {
-      "char": "r",
+      "char": "s",
       "block": "minecraft:dark_oak_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
-      "char": "s",
+      "char": "t",
       "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
     },
     {
-      "char": "t",
+      "char": "u",
       "block": "minecraft:dark_oak_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
-      "char": "u",
+      "char": "w",
       "block": "immersiveengineering:concrete_quarter"
     },
     {
-      "char": "w",
+      "char": "x",
       "block": "minecraft:quartz_block"
     }
   ]

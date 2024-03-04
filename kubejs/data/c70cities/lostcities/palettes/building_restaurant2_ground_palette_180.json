@@ -148,50 +148,54 @@
     },
     {
       "char": "O",
-      "block": "cfm:birch_kitchen_sink_light[facing=north]"
+      "block": "pfm:wall_toilet_paper[facing=west]"
     },
     {
       "char": "P",
-      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
+      "block": "pfm:basic_sink[facing=north,level=0]"
     },
     {
       "char": "Q",
-      "block": "another_furniture:oak_planter_box[type=left,attached=true,facing=north]"
+      "block": "pfm:basic_toilet[facing=north,toilet=empty]"
     },
     {
       "char": "R",
-      "block": "another_furniture:oak_planter_box[type=middle,attached=true,facing=north]"
+      "block": "another_furniture:oak_planter_box[type=left,attached=true,facing=north]"
     },
     {
       "char": "S",
-      "block": "another_furniture:oak_planter_box[type=right,attached=true,facing=north]"
+      "block": "another_furniture:oak_planter_box[type=middle,attached=true,facing=north]"
     },
     {
       "char": "T",
-      "block": "cfm:birch_hedge[waterlogged=false]"
+      "block": "another_furniture:oak_planter_box[type=right,attached=true,facing=north]"
     },
     {
       "char": "U",
-      "block": "create:birch_window_pane[waterlogged=false]"
+      "block": "cfm:birch_hedge[waterlogged=false]"
     },
     {
       "char": "V",
-      "block": "another_furniture:birch_shelf[type=left,waterlogged=false,facing=north]"
+      "block": "create:birch_window_pane[waterlogged=false]"
     },
     {
       "char": "W",
-      "block": "another_furniture:birch_shelf[type=right,waterlogged=false,facing=north]"
+      "block": "another_furniture:birch_shelf[type=left,waterlogged=false,facing=north]"
     },
     {
       "char": "X",
-      "block": "quark:stripped_birch_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
+      "block": "another_furniture:birch_shelf[type=right,waterlogged=false,facing=north]"
     },
     {
       "char": "Y",
-      "block": "minecraft:birch_door[half=upper,open=false,hinge=right,facing=south]"
+      "block": "quark:stripped_birch_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "Z",
+      "block": "minecraft:birch_door[half=upper,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "0",
       "block": "immersiveengineering:conveyor_basic[waterlogged=false,facing=west]",
       "tag": {
         "conveyorBeltSubtypeNBT": {
@@ -201,7 +205,7 @@
       }
     },
     {
-      "char": "0",
+      "char": "1",
       "block": "immersiveengineering:conveyor_basic[waterlogged=false,facing=north]",
       "tag": {
         "conveyorBeltSubtypeNBT": {
@@ -211,7 +215,7 @@
       }
     },
     {
-      "char": "1",
+      "char": "2",
       "block": "immersiveengineering:conveyor_basic[waterlogged=false,facing=south]",
       "tag": {
         "conveyorBeltSubtypeNBT": {
@@ -221,31 +225,31 @@
       }
     },
     {
-      "char": "2",
+      "char": "3",
       "block": "farmersdelight:rice_roll_medley_block[servings=8,facing=west]"
     },
     {
-      "char": "3",
+      "char": "4",
       "block": "minecraft:birch_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
-      "char": "4",
+      "char": "5",
       "block": "farmersdelight:cutting_board[waterlogged=false,facing=west]"
     },
     {
-      "char": "5",
+      "char": "6",
       "block": "farmersdelight:cooking_pot[waterlogged=false,support=none,facing=east]"
     },
     {
-      "char": "6",
+      "char": "7",
       "block": "minecraft:birch_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
-      "char": "7",
+      "char": "8",
       "block": "farmersdelight:skillet[support=false,facing=west]"
     },
     {
-      "char": "8",
+      "char": "9",
       "block": "immersiveengineering:conveyor_basic[waterlogged=false,facing=east]",
       "tag": {
         "conveyorBeltSubtypeNBT": {
@@ -255,12 +259,8 @@
       }
     },
     {
-      "char": "9",
-      "block": "pfm:white_freezer[open=false,facing=west]"
-    },
-    {
       "char": "@",
-      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
+      "block": "pfm:white_freezer[open=false,facing=west]"
     },
     {
       "char": "#",
@@ -336,6 +336,10 @@
     },
     {
       "char": ":",
+      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": ";",
       "block": "minecraft:stripped_birch_log[axis=x]"
     }
   ]

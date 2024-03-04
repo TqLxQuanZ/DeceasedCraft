@@ -11,66 +11,114 @@
     },
     {
       "char": "c",
-      "block": "simplylight:illuminant_block"
+      "block": "zombie_extreme:shelf[facing=north]"
     },
     {
       "char": "d",
-      "block": "refinedstorage:disk_drive"
+      "block": "minecraft:stone_button[facing=west,face=floor]"
     },
     {
       "char": "e",
-      "block": "minecraft:stone"
+      "block": "zombie_extreme:shelf[facing=south]"
     },
     {
       "char": "f",
-      "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
+      "block": "minecraft:blast_furnace[facing=north,lit=false]"
     },
     {
       "char": "g",
-      "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=west]"
+      "block": "simplylight:illuminant_block"
     },
     {
       "char": "h",
-      "block": "minecraft:iron_door[half=lower,open=false,hinge=right,facing=west]"
+      "block": "minecraft:blast_furnace[facing=south,lit=false]"
     },
     {
       "char": "i",
-      "block": "quark:iron_ladder[waterlogged=false,facing=north]"
+      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=top,open=false,facing=north]"
     },
     {
       "char": "j",
-      "block": "minecraft:gray_terracotta"
+      "block": "minecraft:stone_button[facing=north,face=floor]"
     },
     {
       "char": "k",
-      "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=west]"
+      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=top,open=false,facing=south]"
     },
     {
       "char": "l",
-      "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=west]"
+      "block": "minecraft:stone_button[facing=south,face=floor]"
     },
     {
       "char": "m",
-      "block": "refinedstorage:storage_monitor"
+      "block": "refinedstorage:disk_drive"
     },
     {
       "char": "n",
-      "block": "refinedstorage:network_receiver"
+      "block": "minecraft:stone_button[facing=east,face=floor]"
     },
     {
       "char": "o",
-      "block": "refinedstorage:wireless_transmitter"
+      "block": "minecraft:stone"
     },
     {
       "char": "p",
-      "block": "minecraft:quartz_block"
+      "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
     },
     {
       "char": "q",
-      "block": "minecraft:chain[waterlogged=false,axis=y]"
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
       "char": "r",
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "s",
+      "block": "quark:iron_ladder[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:gray_terracotta"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "x",
+      "block": "refinedstorage:storage_monitor"
+    },
+    {
+      "char": "y",
+      "block": "refinedstorage:network_receiver"
+    },
+    {
+      "char": "A",
+      "block": "refinedstorage:wireless_transmitter"
+    },
+    {
+      "char": "B",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "C",
+      "block": "embellishcraft:vent_air_duct[facing=down]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "F",
       "block": "simplylight:illuminant_block_on"
     }
   ]

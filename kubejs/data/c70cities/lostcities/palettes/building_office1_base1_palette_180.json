@@ -19,15 +19,75 @@
     },
     {
       "char": "e",
-      "block": "minecraft:stone"
+      "block": "minecraft:oak_pressure_plate"
     },
     {
       "char": "f",
+      "block": "minecraft:oak_button[facing=south,face=floor]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:oak_button[facing=east,face=floor]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:oak_button[facing=north,face=floor]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:oak_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:oak_button[facing=west,face=floor]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:oak_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:oak_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "n",
       "block": "cfm:cyan_kitchen_drawer[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
-      "char": "g",
+      "char": "o",
+      "block": "minecraft:oak_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    },
+    {
+      "char": "p",
+      "block": "another_furniture:oak_shelf[type=right,waterlogged=false,facing=west]"
+    },
+    {
+      "char": "q",
+      "block": "another_furniture:oak_shelf[type=left,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "r",
+      "block": "another_furniture:oak_shelf[type=middle,waterlogged=false,facing=west]"
+    },
+    {
+      "char": "s",
+      "block": "another_furniture:oak_shelf[type=middle,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "t",
+      "block": "another_furniture:oak_shelf[type=left,waterlogged=false,facing=west]"
+    },
+    {
+      "char": "u",
+      "block": "another_furniture:oak_shelf[type=right,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "w",
       "block": "minecraft:quartz_block"
     }
   ]

@@ -59,7 +59,8 @@
     },
     {
       "char": "o",
-      "block": "cfm:freezer_light[open=false,facing=south]"
+      "block": "pfm:white_fridge[open=false,facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "p",
@@ -79,47 +80,50 @@
     },
     {
       "char": "t",
-      "block": "cfm:fridge_light[open=false,facing=south]",
-      "loot": "chestloot"
+      "block": "pfm:white_freezer[open=false,facing=south]"
     },
     {
       "char": "u",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
+      "block": "zombie_extreme:empty_cans[facing=north]"
     },
     {
       "char": "w",
-      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=south]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
     },
     {
       "char": "x",
-      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+      "block": "create:framed_glass_trapdoor[waterlogged=false,half=top,open=true,facing=south]"
     },
     {
       "char": "y",
-      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "A",
-      "block": "create:framed_glass_pane[waterlogged=false]"
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     },
     {
       "char": "B",
-      "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
+      "block": "create:framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "C",
-      "block": "minecraft:stripped_oak_log[axis=z]"
+      "block": "create:horizontal_framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "D",
-      "block": "minecraft:chain[waterlogged=false,axis=y]"
+      "block": "minecraft:stripped_oak_log[axis=z]"
     },
     {
       "char": "E",
-      "block": "minecraft:cobweb"
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "F",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "I",
       "block": "minecraft:stripped_oak_log[axis=x]"
     }
   ]

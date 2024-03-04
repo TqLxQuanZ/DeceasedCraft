@@ -99,74 +99,78 @@
     },
     {
       "char": "A",
-      "block": "quark:smooth_quartz_vertical_slab[type=east,waterlogged=false]"
+      "block": "pfm:trashcan[open=false]"
     },
     {
       "char": "B",
-      "block": "minecraft:chain[waterlogged=false,axis=y]"
+      "block": "quark:smooth_quartz_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "C",
-      "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=east]"
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "D",
-      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
+      "block": "minecraft:iron_door[half=lower,open=false,hinge=left,facing=east]"
     },
     {
       "char": "E",
-      "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
+      "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "F",
-      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=left,facing=east]"
+      "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "I",
-      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=right,facing=east]"
+      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
       "char": "J",
-      "block": "quark:iron_button[facing=east,face=wall]"
+      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
       "char": "K",
-      "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=east]"
+      "block": "quark:iron_button[facing=east,face=wall]"
     },
     {
       "char": "L",
-      "block": "embellishcraft:white_pillow[waterlogged=false,occupied=false,part=head,facing=east]"
+      "block": "minecraft:iron_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
       "char": "M",
-      "block": "quark:quartz_vertical_slab[type=west,waterlogged=false]"
+      "block": "embellishcraft:white_pillow[waterlogged=false,occupied=false,part=head,facing=east]"
     },
     {
       "char": "N",
-      "block": "quark:smooth_stone_vertical_slab[type=east,waterlogged=false]"
+      "block": "quark:quartz_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "O",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
+      "block": "quark:smooth_stone_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "P",
-      "block": "minecraft:lantern[waterlogged=false,hanging=true]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
       "char": "Q",
-      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+      "block": "minecraft:lantern[waterlogged=false,hanging=true]"
     },
     {
       "char": "R",
-      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "S",
-      "block": "create:redstone_contact[facing=north]"
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
     },
     {
       "char": "T",
+      "block": "create:redstone_contact[facing=north]"
+    },
+    {
+      "char": "U",
       "block": "minecraft:smooth_quartz"
     }
   ]

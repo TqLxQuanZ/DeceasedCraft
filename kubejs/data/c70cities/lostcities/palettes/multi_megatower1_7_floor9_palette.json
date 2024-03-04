@@ -19,47 +19,47 @@
     },
     {
       "char": "e",
-      "block": "minecraft:stripped_oak_log[axis=y]"
+      "block": "create:polished_cut_calcite"
     },
     {
       "char": "f",
-      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+      "block": "minecraft:stripped_oak_log[axis=y]"
     },
     {
       "char": "g",
-      "block": "minecraft:spruce_planks"
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "h",
-      "block": "minecraft:spruce_fence[waterlogged=false]"
+      "block": "minecraft:spruce_planks"
     },
     {
       "char": "i",
-      "block": "minecraft:cobweb"
+      "block": "minecraft:spruce_fence[waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "farmersdelight:cabbage_crate"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "k",
-      "block": "quark:polished_calcite_vertical_slab[type=east,waterlogged=false]"
+      "block": "farmersdelight:cabbage_crate"
     },
     {
       "char": "l",
-      "block": "farmersdelight:tomato_crate"
+      "block": "quark:polished_calcite_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "m",
-      "block": "farmersdelight:rice_bag"
+      "block": "farmersdelight:tomato_crate"
     },
     {
       "char": "n",
-      "block": "minecraft:smooth_quartz"
+      "block": "farmersdelight:rice_bag"
     },
     {
       "char": "o",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+      "block": "minecraft:smooth_quartz"
     },
     {
       "char": "p",
@@ -67,19 +67,20 @@
     },
     {
       "char": "q",
-      "block": "another_furniture:oak_shelf[type=right,waterlogged=false,facing=south]"
+      "block": "pfm:basic_toilet[facing=east,toilet=empty]"
     },
     {
       "char": "r",
-      "block": "create:polished_cut_dripstone_wall[waterlogged=false,up=true]"
+      "block": "zombie_extreme:vending_machine[facing=south]",
+      "loot": "chestloot"
     },
     {
       "char": "s",
-      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=south]"
+      "block": "create:polished_cut_dripstone_wall[waterlogged=false,up=true]"
     },
     {
       "char": "t",
-      "block": "minecraft:birch_trapdoor[waterlogged=false,half=bottom,open=false,facing=west]"
+      "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=south]"
     },
     {
       "char": "u",
