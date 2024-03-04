@@ -3,55 +3,23 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
-    },
-    {
-      "char": "b",
-      "block": "minecraft:dirt_path"
-    },
-    {
-      "char": "c",
-      "block": "minecraft:stripped_dark_oak_log[axis=y]"
-    },
-    {
-      "char": "d",
-      "block": "minecraft:dirt"
-    },
-    {
-      "char": "e",
-      "block": "minecraft:smooth_stone"
-    },
-    {
-      "char": "f",
-      "block": "minecraft:lily_of_the_valley"
-    },
-    {
-      "char": "g",
-      "block": "minecraft:pink_tulip"
-    },
-    {
-      "char": "h",
-      "block": "minecraft:white_tulip"
-    },
-    {
-      "char": "i",
       "block": "minecraft:oak_leaves[persistent=true]"
     },
     {
-      "char": "j",
-      "block": "minecraft:water[level=0]"
+      "char": "b",
+      "block": "minecraft:polished_deepslate_wall[waterlogged=false,up=true]"
     },
     {
-      "char": "k",
-      "block": "minecraft:lilac[half=lower]"
+      "char": "c",
+      "block": "embellishcraft:gray_corrugated_metal_plate_fence[waterlogged=false]"
     },
     {
-      "char": "l",
-      "block": "simplylight:rodlamp[waterlogged=false,axis=y]"
+      "char": "d",
+      "block": "simplylight:illuminant_yellow_block"
     },
     {
-      "char": "m",
-      "block": "minecraft:lilac[half=upper]"
+      "char": "e",
+      "block": "minecraft:daylight_detector"
     }
   ]
 }

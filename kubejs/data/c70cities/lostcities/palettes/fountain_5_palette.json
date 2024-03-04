@@ -3,39 +3,19 @@
   "palette": [
     {
       "char": "a",
-      "block": "create:cut_limestone_brick_slab[type=bottom,waterlogged=false]"
+      "block": "minecraft:oak_leaves[persistent=true]"
     },
     {
       "char": "b",
-      "block": "create:cut_limestone_bricks"
+      "block": "cfm:rock_path[waterlogged=false]"
     },
     {
       "char": "c",
-      "block": "minecraft:oak_sapling"
+      "block": "minecraft:azalea"
     },
     {
       "char": "d",
-      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=west]"
-    },
-    {
-      "char": "e",
-      "block": "quark:acacia_hedge[waterlogged=false]"
-    },
-    {
-      "char": "f",
-      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=west]"
-    },
-    {
-      "char": "g",
-      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=east]"
-    },
-    {
-      "char": "h",
-      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=east]"
-    },
-    {
-      "char": "i",
-      "block": "cfm:stripped_birch_park_bench[type=middle,waterlogged=false,facing=east]"
+      "block": "minecraft:dead_bush"
     }
   ]
 }

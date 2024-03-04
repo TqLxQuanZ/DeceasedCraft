@@ -1,0 +1,125 @@
+{
+  "name": "park_12_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:polished_paving_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:oak_log[axis=y]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,facing=east,shape=straight]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:quartz_stairs[waterlogged=true,half=bottom,facing=south,shape=straight]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:oak_leaves[persistent=true]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:dandelion"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:azure_bluet"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:oxeye_daisy"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:poppy"
+    },
+    {
+      "char": "s",
+      "block": "cfm:light_gray_picket_fence[waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:lantern[waterlogged=false,hanging=true]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,open=false,facing=south]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,open=false,facing=east]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,open=false,facing=west]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,open=false,facing=north]"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=north]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:stone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=west]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=east]"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=south]"
+    }
+  ]
+}

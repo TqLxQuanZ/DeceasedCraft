@@ -3,43 +3,43 @@
   "palette": [
     {
       "char": "a",
-      "block": "quark:oak_leaf_carpet"
+      "block": "quark:mossy_stone_brick_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "b",
-      "block": "minecraft:oak_leaves[persistent=true]"
+      "block": "quark:stone_brick_vertical_slab[type=north,waterlogged=false]"
     },
     {
       "char": "c",
-      "block": "minecraft:stripped_oak_log[axis=y]"
+      "block": "quark:stone_brick_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "d",
-      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+      "block": "minecraft:chiseled_stone_bricks"
     },
     {
       "char": "e",
-      "block": "minecraft:oak_planks"
+      "block": "quark:mossy_stone_brick_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "f",
-      "block": "minecraft:sunflower[half=lower]"
+      "block": "quark:mossy_stone_brick_vertical_slab[type=west,waterlogged=false]"
     },
     {
       "char": "g",
-      "block": "minecraft:lilac[half=lower]"
+      "block": "quark:stone_brick_vertical_slab[type=east,waterlogged=false]"
     },
     {
       "char": "h",
-      "block": "minecraft:fern"
+      "block": "quark:stone_brick_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "i",
-      "block": "minecraft:sunflower[half=upper]"
+      "block": "quark:mossy_stone_brick_vertical_slab[type=south,waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "minecraft:lilac[half=upper]"
+      "block": "minecraft:acacia_sapling"
     }
   ]
 }

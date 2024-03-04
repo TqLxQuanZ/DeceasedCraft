@@ -3,63 +3,44 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+      "block": "cfm:rock_path[waterlogged=false]"
     },
     {
       "char": "b",
-      "block": "minecraft:quartz_block"
+      "block": "minecraft:mossy_cobblestone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "c",
-      "block": "minecraft:stone"
+      "block": "minecraft:stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "d",
-      "block": "embellishcraft:smooth_slate"
+      "block": "minecraft:cobblestone"
     },
     {
       "char": "e",
-      "block": "embellishcraft:smooth_marble"
+      "block": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "f",
-      "block": "embellishcraft:smooth_basalt"
+      "block": "createbigcannons:traffic_cone[facing=up]"
     },
     {
       "char": "g",
-      "block": "minecraft:cyan_terracotta"
+      "block": "apocalypsenow:construction_barricade[facing=north]"
     },
     {
       "char": "h",
-      "block": "minecraft:stripped_dark_oak_log[axis=y]"
+      "block": "minecraft:command_block[facing=west,conditional=false]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "spawnRandomCar"
+      }
     },
     {
       "char": "i",
-      "block": "minecraft:water[level=0]"
-    },
-    {
-      "char": "j",
-      "block": "embellishcraft:smooth_marble_slab[type=bottom,waterlogged=false]"
-    },
-    {
-      "char": "k",
-      "block": "minecraft:glowstone"
-    },
-    {
-      "char": "l",
-      "block": "minecraft:oak_leaves[persistent=true]"
-    },
-    {
-      "char": "m",
-      "block": "minecraft:water[level=1]"
-    },
-    {
-      "char": "n",
-      "block": "minecraft:water[level=2]"
-    },
-    {
-      "char": "o",
-      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
+      "block": "apocalypsenow:construction_barricade[facing=west]"
     }
   ]
 }

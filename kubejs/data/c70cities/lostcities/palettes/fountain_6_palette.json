@@ -3,75 +3,19 @@
   "palette": [
     {
       "char": "a",
-      "block": "embellishcraft:gneiss_paving_slab[type=bottom,waterlogged=false]"
+      "block": "cfm:rock_path[waterlogged=false]"
     },
     {
       "char": "b",
-      "block": "quark:andesite_bricks_slab[type=bottom,waterlogged=false]"
+      "block": "apocalypsenow:construction_barricade[facing=east]"
     },
     {
       "char": "c",
-      "block": "minecraft:oak_log[axis=y]"
+      "block": "apocalypsenow:construction_barricade[facing=north]"
     },
     {
       "char": "d",
-      "block": "minecraft:stripped_oak_log[axis=x]"
-    },
-    {
-      "char": "e",
-      "block": "minecraft:stripped_oak_log[axis=z]"
-    },
-    {
-      "char": "f",
-      "block": "embellishcraft:gneiss_large_bricks"
-    },
-    {
-      "char": "g",
-      "block": "embellishcraft:gneiss_large_bricks_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
-    },
-    {
-      "char": "h",
-      "block": "embellishcraft:gneiss_large_bricks_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
-    },
-    {
-      "char": "i",
-      "block": "minecraft:oak_leaves[persistent=true]"
-    },
-    {
-      "char": "j",
-      "block": "minecraft:oak_sapling"
-    },
-    {
-      "char": "k",
-      "block": "minecraft:grass"
-    },
-    {
-      "char": "l",
-      "block": "quark:oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
-    },
-    {
-      "char": "m",
-      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=north]"
-    },
-    {
-      "char": "n",
-      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=north]"
-    },
-    {
-      "char": "o",
-      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=south]"
-    },
-    {
-      "char": "p",
-      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=south]"
-    },
-    {
-      "char": "q",
-      "block": "minecraft:fern"
-    },
-    {
-      "char": "r",
-      "block": "quark:paper_lantern_sakura"
+      "block": "apocalypsenow:bear_trap"
     }
   ]
 }

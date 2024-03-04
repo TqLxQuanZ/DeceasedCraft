@@ -3,27 +3,51 @@
   "palette": [
     {
       "char": "a",
-      "block": "quark:oak_hedge[waterlogged=false]"
+      "block": "minecraft:stripped_dark_oak_log[axis=y]"
     },
     {
       "char": "b",
-      "block": "minecraft:green_stained_glass"
+      "block": "minecraft:dark_oak_leaves[persistent=true]"
     },
     {
       "char": "c",
-      "block": "minecraft:melon"
+      "block": "cfm:stripped_dark_oak_park_bench[type=right,waterlogged=false,facing=west]"
     },
     {
       "char": "d",
-      "block": "quark:dark_oak_hedge[waterlogged=false]"
+      "block": "cfm:stripped_dark_oak_park_bench[type=left,waterlogged=false,facing=east]"
     },
     {
       "char": "e",
-      "block": "minecraft:lime_stained_glass"
+      "block": "cfm:stripped_dark_oak_park_bench[type=left,waterlogged=false,facing=west]"
     },
     {
       "char": "f",
-      "block": "minecraft:yellow_stained_glass"
+      "block": "cfm:stripped_dark_oak_park_bench[type=right,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "quark:potted_large_fern"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:potted_dead_bush"
+    },
+    {
+      "char": "j",
+      "block": "quark:potted_tall_grass"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:potted_fern"
+    },
+    {
+      "char": "l",
+      "block": "quark:stripped_dark_oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     }
   ]
 }

@@ -3,23 +3,43 @@
   "palette": [
     {
       "char": "a",
-      "block": "quark:birch_leaf_carpet"
+      "block": "minecraft:oak_leaves[persistent=true]"
     },
     {
       "char": "b",
-      "block": "minecraft:birch_leaves[persistent=true]"
+      "block": "minecraft:stripped_oak_log[axis=y]"
     },
     {
       "char": "c",
-      "block": "minecraft:birch_log[axis=y]"
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "d",
-      "block": "minecraft:fern"
+      "block": "minecraft:oak_planks"
     },
     {
       "char": "e",
-      "block": "minecraft:birch_sapling"
+      "block": "quark:oak_leaf_carpet"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:sunflower[half=lower]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:lilac[half=lower]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:fern"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:sunflower[half=upper]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:lilac[half=upper]"
     }
   ]
 }

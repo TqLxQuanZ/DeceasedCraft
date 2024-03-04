@@ -11,11 +11,11 @@
     },
     {
       "char": "c",
-      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
+      "block": "minecraft:dirt"
     },
     {
       "char": "d",
-      "block": "minecraft:dirt"
+      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "e",
@@ -23,26 +23,30 @@
     },
     {
       "char": "f",
-      "block": "minecraft:water[level=0]"
+      "block": "minecraft:void_air"
     },
     {
       "char": "g",
-      "block": "quark:oak_hedge[waterlogged=false]"
+      "block": "minecraft:water[level=0]"
     },
     {
       "char": "h",
-      "block": "minecraft:water[level=8]"
+      "block": "quark:oak_hedge[waterlogged=false]"
     },
     {
       "char": "i",
-      "block": "minecraft:water[level=1]"
+      "block": "minecraft:water[level=8]"
     },
     {
       "char": "j",
-      "block": "minecraft:water[level=2]"
+      "block": "minecraft:water[level=1]"
     },
     {
       "char": "k",
+      "block": "minecraft:water[level=2]"
+    },
+    {
+      "char": "l",
       "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     }
   ]

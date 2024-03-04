@@ -3,131 +3,35 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+      "block": "minecraft:oak_leaves[persistent=true]"
     },
     {
       "char": "b",
-      "block": "minecraft:stone"
+      "block": "minecraft:polished_deepslate_wall[waterlogged=false,up=true]"
     },
     {
       "char": "c",
-      "block": "minecraft:dirt_path"
+      "block": "embellishcraft:gray_corrugated_metal_plate_fence[waterlogged=false]"
     },
     {
       "char": "d",
-      "block": "minecraft:fern"
+      "block": "simplylight:illuminant_green_block_on"
     },
     {
       "char": "e",
-      "block": "minecraft:white_tulip"
+      "block": "simplylight:illuminant_green_block"
     },
     {
       "char": "f",
-      "block": "minecraft:red_tulip"
+      "block": "simplylight:illuminant_yellow_block"
     },
     {
       "char": "g",
-      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
+      "block": "simplylight:illuminant_red_block"
     },
     {
       "char": "h",
-      "block": "quark:dark_oak_hedge[waterlogged=false]"
-    },
-    {
-      "char": "i",
-      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
-    },
-    {
-      "char": "j",
-      "block": "minecraft:water[level=0]"
-    },
-    {
-      "char": "k",
-      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
-    },
-    {
-      "char": "l",
-      "block": "minecraft:orange_tulip"
-    },
-    {
-      "char": "m",
-      "block": "minecraft:smooth_stone"
-    },
-    {
-      "char": "n",
-      "block": "minecraft:pink_tulip"
-    },
-    {
-      "char": "o",
-      "block": "minecraft:spruce_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
-    },
-    {
-      "char": "p",
-      "block": "minecraft:stripped_dark_oak_log[axis=y]"
-    },
-    {
-      "char": "q",
-      "block": "minecraft:sweet_berry_bush"
-    },
-    {
-      "char": "r",
-      "block": "quark:spruce_leaf_carpet"
-    },
-    {
-      "char": "s",
-      "block": "minecraft:campfire[waterlogged=false,facing=north,lit=true]"
-    },
-    {
-      "char": "t",
-      "block": "minecraft:spruce_sapling"
-    },
-    {
-      "char": "u",
-      "block": "minecraft:lily_pad"
-    },
-    {
-      "char": "w",
-      "block": "minecraft:spruce_fence[waterlogged=false]"
-    },
-    {
-      "char": "x",
-      "block": "cfm:andesite_table[waterlogged=false]"
-    },
-    {
-      "char": "y",
-      "block": "cfm:stripped_oak_park_bench[type=left,waterlogged=false,facing=north]"
-    },
-    {
-      "char": "A",
-      "block": "cfm:stripped_oak_park_bench[type=right,waterlogged=false,facing=north]"
-    },
-    {
-      "char": "B",
-      "block": "cfm:stripped_oak_park_bench[type=right,waterlogged=false,facing=west]"
-    },
-    {
-      "char": "C",
-      "block": "cfm:stripped_oak_park_bench[type=left,waterlogged=false,facing=west]"
-    },
-    {
-      "char": "D",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
-    },
-    {
-      "char": "E",
-      "block": "embellishcraft:brown_table_lamp[waterlogged=false,lit=false]"
-    },
-    {
-      "char": "F",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
-    },
-    {
-      "char": "I",
-      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
-    },
-    {
-      "char": "J",
-      "block": "minecraft:spruce_slab[type=bottom,waterlogged=false]"
+      "block": "simplylight:illuminant_red_block_on"
     }
   ]
 }

@@ -3,27 +3,31 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+      "block": "minecraft:oak_leaves[persistent=true]"
     },
     {
       "char": "b",
-      "block": "minecraft:dirt"
+      "block": "simplylight:illuminant_green_block"
     },
     {
       "char": "c",
-      "block": "minecraft:white_wool"
+      "block": "minecraft:polished_deepslate_wall[waterlogged=false,up=true]"
     },
     {
       "char": "d",
-      "block": "minecraft:gray_wool"
+      "block": "embellishcraft:gray_corrugated_metal_plate_fence[waterlogged=false]"
     },
     {
       "char": "e",
-      "block": "simplylight:rodlamp[waterlogged=false,axis=y]"
+      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
     },
     {
       "char": "f",
-      "block": "minecraft:white_stained_glass"
+      "block": "simplylight:illuminant_yellow_block_on"
+    },
+    {
+      "char": "g",
+      "block": "simplylight:illuminant_red_block"
     }
   ]
 }

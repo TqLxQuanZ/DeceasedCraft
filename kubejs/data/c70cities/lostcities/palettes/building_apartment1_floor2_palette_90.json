@@ -317,69 +317,61 @@
     },
     {
       "char": "}",
-      "block": "pfm:glass_modern_pendant[up=true,lit=false,down=false]"
-    },
-    {
-      "char": "\\",
       "block": "create:display_board[waterlogged=false,up=false,facing=south,down=true]"
     },
     {
-      "char": "|",
+      "char": "\\",
       "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
-      "char": "`",
+      "char": "|",
       "block": "another_furniture:light_gray_curtain[type=right,waterlogged=false,open=false,facing=west,top=true]",
       "tag": {
         "id": "another_furniture:light_gray_curtain"
       }
     },
     {
-      "char": ":",
+      "char": "`",
       "block": "another_furniture:light_gray_curtain[type=right,waterlogged=false,open=true,facing=west,top=true]",
       "tag": {
         "id": "another_furniture:light_gray_curtain"
       }
     },
     {
-      "char": ";",
+      "char": ":",
       "block": "another_furniture:light_gray_curtain[type=middle,waterlogged=false,open=true,facing=west,top=true]",
       "tag": {
         "id": "another_furniture:light_gray_curtain"
       }
     },
     {
-      "char": "'",
+      "char": ";",
       "block": "another_furniture:light_gray_curtain[type=left,waterlogged=false,open=true,facing=west,top=true]",
       "tag": {
         "id": "another_furniture:light_gray_curtain"
       }
     },
     {
-      "char": ",",
+      "char": "'",
       "block": "another_furniture:light_gray_curtain[type=left,waterlogged=false,open=false,facing=west,top=true]",
       "tag": {
         "id": "another_furniture:light_gray_curtain"
       }
     },
     {
-      "char": ".",
+      "char": ",",
       "block": "minecraft:birch_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "/",
+      "char": ".",
       "block": "minecraft:birch_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
-      "char": "<",
-      "block": "pfm:glass_modern_pendant[up=false,lit=false,down=true]"
-    },
-    {
-      "char": ">",
+      "char": "/",
       "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
-      "char": "?",
+      "char": "<",
       "block": "minecraft:quartz_block"
     }
   ]

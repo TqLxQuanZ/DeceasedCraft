@@ -1,0 +1,85 @@
+{
+  "name": "park_10_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:gneiss_paving_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "quark:andesite_bricks_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:oak_log[axis=y]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:stripped_oak_log[axis=x]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "g",
+      "block": "embellishcraft:gneiss_large_bricks"
+    },
+    {
+      "char": "h",
+      "block": "embellishcraft:gneiss_large_bricks_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:gneiss_large_bricks_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:oak_leaves[persistent=true]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:grass"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:oak_sapling"
+    },
+    {
+      "char": "m",
+      "block": "quark:oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "n",
+      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=north]"
+    },
+    {
+      "char": "o",
+      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=north]"
+    },
+    {
+      "char": "p",
+      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=south]"
+    },
+    {
+      "char": "q",
+      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=south]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:fern"
+    },
+    {
+      "char": "s",
+      "block": "quark:paper_lantern_sakura"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:oak_leaves[persistent=false]"
+    }
+  ]
+}
