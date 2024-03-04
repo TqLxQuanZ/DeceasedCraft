@@ -123,46 +123,50 @@
     },
     {
       "char": "I",
-      "block": "createdeco:andesite_catwalk[waterlogged=false]"
+      "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=false,east=false,south=false,north=true]"
     },
     {
       "char": "J",
-      "block": "embellishcraft:warning_white_steel_door[half=lower,open=false,hinge=right,facing=south]"
+      "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=false,east=true,south=false,north=false]"
     },
     {
       "char": "K",
-      "block": "embellishcraft:warning_white_steel_door[half=lower,open=false,hinge=left,facing=south]"
+      "block": "embellishcraft:warning_white_steel_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
       "char": "L",
-      "block": "pfm:dark_wood_kitchen_wall_counter[facing=west]"
+      "block": "embellishcraft:warning_white_steel_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
       "char": "M",
-      "block": "pfm:dark_wood_kitchen_wall_counter[facing=east]"
+      "block": "pfm:dark_wood_kitchen_wall_counter[facing=west]"
     },
     {
       "char": "N",
-      "block": "embellishcraft:warning_white_steel_door[half=upper,open=false,hinge=right,facing=south]"
+      "block": "pfm:dark_wood_kitchen_wall_counter[facing=east]"
     },
     {
       "char": "O",
-      "block": "embellishcraft:warning_white_steel_door[half=upper,open=false,hinge=left,facing=south]"
+      "block": "embellishcraft:warning_white_steel_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
       "char": "P",
-      "block": "createdeco:orange_decal[waterlogged=false,facing=north]"
+      "block": "embellishcraft:warning_white_steel_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
       "char": "Q",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+      "block": "createdeco:orange_decal[waterlogged=false,facing=north]"
     },
     {
       "char": "R",
-      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
+      "block": "minecraft:quartz_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "S",
+      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "T",
       "block": "minecraft:quartz_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     }
   ]

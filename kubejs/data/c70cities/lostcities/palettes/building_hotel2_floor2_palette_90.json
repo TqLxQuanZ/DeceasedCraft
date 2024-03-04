@@ -49,15 +49,15 @@
     },
     {
       "char": "k",
-      "block": "pfm:basic_bathtub[occupied=false,part=head,facing=west,level=0]"
+      "block": "pfm:basic_bathtub[occupied=false,part=head,facing=south,level=0]"
     },
     {
       "char": "l",
-      "block": "pfm:basic_sink[facing=west,level=0]"
+      "block": "pfm:basic_bathtub[occupied=false,part=foot,facing=south,level=0]"
     },
     {
       "char": "m",
-      "block": "pfm:basic_bathtub[occupied=false,part=foot,facing=west,level=0]"
+      "block": "pfm:basic_toilet[facing=south,toilet=empty]"
     },
     {
       "char": "n",
@@ -66,7 +66,7 @@
     },
     {
       "char": "o",
-      "block": "pfm:basic_toilet[facing=south,toilet=empty]"
+      "block": "pfm:basic_sink[facing=south,level=0]"
     },
     {
       "char": "p",
@@ -130,7 +130,7 @@
     },
     {
       "char": "E",
-      "block": "pfm:basic_shower_handle[facing=east]"
+      "block": "pfm:basic_shower_handle[facing=north]"
     },
     {
       "char": "F",
@@ -150,7 +150,7 @@
     },
     {
       "char": "L",
-      "block": "pfm:basic_shower_head[facing=west]"
+      "block": "pfm:basic_shower_head[facing=south]"
     },
     {
       "char": "M",

@@ -177,14 +177,18 @@
     },
     {
       "char": "U",
-      "block": "createdeco:andesite_catwalk[waterlogged=false]"
+      "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=false,east=false,south=true,north=false]"
     },
     {
       "char": "V",
-      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=north]"
+      "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=false,east=false,south=false,north=false]"
     },
     {
       "char": "W",
+      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "X",
       "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     }
   ]

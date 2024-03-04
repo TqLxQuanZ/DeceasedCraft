@@ -15,18 +15,34 @@
     },
     {
       "char": "d",
-      "block": "embellishcraft:gray_corrugated_metal_plate_fence[waterlogged=false]"
+      "block": "rocks:oak_stick[variation=medium]"
     },
     {
       "char": "e",
-      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+      "block": "rocks:oak_stick[variation=small]"
     },
     {
       "char": "f",
-      "block": "simplylight:illuminant_yellow_block_on"
+      "block": "quark:oak_leaf_carpet"
     },
     {
       "char": "g",
+      "block": "rocks:oak_stick[variation=large]"
+    },
+    {
+      "char": "h",
+      "block": "embellishcraft:gray_corrugated_metal_plate_fence[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+    },
+    {
+      "char": "j",
+      "block": "simplylight:illuminant_yellow_block_on"
+    },
+    {
+      "char": "k",
       "block": "simplylight:illuminant_red_block"
     }
   ]

@@ -7,19 +7,15 @@
     },
     {
       "char": "b",
-      "block": "minecraft:polished_deepslate_wall[waterlogged=false,up=true]"
+      "block": "simplylight:lamp_post[waterlogged=false,position=bottom]"
     },
     {
       "char": "c",
-      "block": "embellishcraft:gray_corrugated_metal_plate_fence[waterlogged=false]"
+      "block": "simplylight:lamp_post[waterlogged=false,position=middle]"
     },
     {
       "char": "d",
-      "block": "simplylight:illuminant_yellow_block"
-    },
-    {
-      "char": "e",
-      "block": "minecraft:daylight_detector"
+      "block": "simplylight:lamp_post[waterlogged=false,position=top]"
     }
   ]
 }

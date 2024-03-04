@@ -100,11 +100,11 @@
     },
     {
       "char": "y",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=north,shape=inner_right]"
+      "block": "pfm:basic_toilet[facing=east,toilet=empty]"
     },
     {
       "char": "A",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=east,shape=inner_right]"
+      "block": "pfm:basic_bathtub[occupied=false,part=head,facing=east,level=0]"
     },
     {
       "char": "B",
@@ -115,43 +115,43 @@
     },
     {
       "char": "C",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=west,shape=inner_right]"
+      "block": "pfm:basic_bathtub[occupied=false,part=foot,facing=east,level=0]"
     },
     {
       "char": "D",
-      "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=inner_right]"
-    },
-    {
-      "char": "E",
       "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "F",
-      "block": "minecraft:water_cauldron[level=3]"
+      "char": "E",
+      "block": "pfm:basic_sink[facing=south,level=0]"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "immersiveengineering:concrete_quarter"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "minecraft:stone_pressure_plate"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "minecraft:dark_oak_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
-      "char": "L",
+      "char": "K",
       "block": "minecraft:flower_pot"
     },
     {
-      "char": "M",
+      "char": "L",
       "block": "cfm:oak_hedge[waterlogged=false]"
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "minecraft:lantern[waterlogged=false,hanging=false]"
+    },
+    {
+      "char": "N",
+      "block": "pfm:basic_shower_handle[facing=west]"
     },
     {
       "char": "O",
@@ -159,10 +159,14 @@
     },
     {
       "char": "P",
-      "block": "minecraft:chain[waterlogged=false,axis=y]"
+      "block": "pfm:basic_shower_head[facing=east]"
     },
     {
       "char": "Q",
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "R",
       "block": "minecraft:quartz_block"
     }
   ]

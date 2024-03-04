@@ -3,34 +3,62 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:oak_leaves[persistent=true]"
+      "block": "rocks:andesite_rock[variation=tiny]"
     },
     {
       "char": "b",
-      "block": "minecraft:polished_deepslate_wall[waterlogged=false,up=true]"
+      "block": "minecraft:oak_leaves[persistent=true]"
     },
     {
       "char": "c",
-      "block": "embellishcraft:gray_corrugated_metal_plate_fence[waterlogged=false]"
+      "block": "rocks:diorite_rock[variation=large]"
     },
     {
       "char": "d",
-      "block": "simplylight:illuminant_green_block_on"
+      "block": "minecraft:polished_deepslate_wall[waterlogged=false,up=true]"
     },
     {
       "char": "e",
-      "block": "simplylight:illuminant_green_block"
+      "block": "rocks:andesite_rock[variation=small]"
     },
     {
       "char": "f",
-      "block": "simplylight:illuminant_yellow_block"
+      "block": "rocks:oak_stick[variation=large]"
     },
     {
       "char": "g",
-      "block": "simplylight:illuminant_red_block"
+      "block": "quark:oak_leaf_carpet"
     },
     {
       "char": "h",
+      "block": "rocks:oak_stick[variation=medium]"
+    },
+    {
+      "char": "i",
+      "block": "rocks:diorite_rock[variation=tiny]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:gray_corrugated_metal_plate_fence[waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "simplylight:illuminant_green_block_on"
+    },
+    {
+      "char": "l",
+      "block": "simplylight:illuminant_green_block"
+    },
+    {
+      "char": "m",
+      "block": "simplylight:illuminant_yellow_block"
+    },
+    {
+      "char": "n",
+      "block": "simplylight:illuminant_red_block"
+    },
+    {
+      "char": "o",
       "block": "simplylight:illuminant_red_block_on"
     }
   ]

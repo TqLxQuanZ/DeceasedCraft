@@ -1,0 +1,41 @@
+{
+  "name": "fountain_7_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "quark:oak_leaf_carpet"
+    },
+    {
+      "char": "b",
+      "block": "zombie_extreme:empty_cans[facing=east]"
+    },
+    {
+      "char": "c",
+      "block": "cfm:rock_path[waterlogged=false]"
+    },
+    {
+      "char": "d",
+      "block": "trashcans:item_trash_can[waterlogged=false]"
+    },
+    {
+      "char": "e",
+      "block": "zombie_extreme:empty_cans[facing=west]"
+    },
+    {
+      "char": "f",
+      "block": "rocks:oak_stick[variation=small]"
+    },
+    {
+      "char": "g",
+      "block": "rocks:oak_stick[variation=large]"
+    },
+    {
+      "char": "h",
+      "block": "cfm:post_box[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "i",
+      "block": "zombie_extreme:empty_cans[facing=north]"
+    }
+  ]
+}

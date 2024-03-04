@@ -1,0 +1,65 @@
+{
+  "name": "front_3_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "quark:oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "b",
+      "block": "cfm:post_box[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:oak_leaves[persistent=true]"
+    },
+    {
+      "char": "d",
+      "block": "create:polished_cut_limestone"
+    },
+    {
+      "char": "e",
+      "block": "create:polished_cut_limestone_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "f",
+      "block": "pfm:trashcan[open=false]"
+    },
+    {
+      "char": "g",
+      "block": "cfm:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "create:brown_seat[waterlogged=false]"
+    },
+    {
+      "char": "j",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "k",
+      "block": "create:polished_cut_scoria_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+    },
+    {
+      "char": "l",
+      "block": "create:polished_cut_scoria_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+    },
+    {
+      "char": "n",
+      "block": "create:polished_cut_scoria_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
+    }
+  ]
+}

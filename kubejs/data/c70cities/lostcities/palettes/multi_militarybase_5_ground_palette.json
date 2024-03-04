@@ -88,7 +88,7 @@
     },
     {
       "char": "u",
-      "block": "createdeco:andesite_catwalk[waterlogged=false]"
+      "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=true,east=false,south=false,north=false]"
     },
     {
       "char": "w",
@@ -104,10 +104,18 @@
     },
     {
       "char": "A",
-      "block": "immersiveengineering:steel_fence[waterlogged=false]"
+      "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=false,east=false,south=false,north=true]"
     },
     {
       "char": "B",
+      "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=false,east=false,south=false,north=false]"
+    },
+    {
+      "char": "C",
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
+    },
+    {
+      "char": "D",
       "block": "immersiveengineering:razor_wire[waterlogged=false,facing=north]"
     }
   ]

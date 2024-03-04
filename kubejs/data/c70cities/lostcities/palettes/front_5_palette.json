@@ -1,0 +1,45 @@
+{
+  "name": "front_5_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:oak_leaves[persistent=true]"
+    },
+    {
+      "char": "b",
+      "block": "rocks:oak_stick[variation=small]"
+    },
+    {
+      "char": "c",
+      "block": "rocks:oak_stick[variation=large]"
+    },
+    {
+      "char": "d",
+      "block": "quark:oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
+    },
+    {
+      "char": "e",
+      "block": "quark:oak_leaf_carpet"
+    },
+    {
+      "char": "f",
+      "block": "rocks:oak_stick[variation=medium]"
+    },
+    {
+      "char": "g",
+      "block": "rocks:rock[variation=tiny]"
+    },
+    {
+      "char": "h",
+      "block": "rocks:rock[variation=medium]"
+    },
+    {
+      "char": "i",
+      "block": "quark:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "j",
+      "block": "cfm:oak_hedge[waterlogged=false]"
+    }
+  ]
+}

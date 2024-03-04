@@ -291,14 +291,22 @@
     },
     {
       "char": "{",
-      "block": "createdeco:andesite_catwalk[waterlogged=false]"
+      "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=false,east=false,south=true,north=false]"
     },
     {
       "char": "}",
-      "block": "immersiveengineering:razor_wire[waterlogged=false,facing=west]"
+      "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=false,east=false,south=false,north=false]"
     },
     {
       "char": "\\",
+      "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=true,east=false,south=false,north=false]"
+    },
+    {
+      "char": "|",
+      "block": "immersiveengineering:razor_wire[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "`",
       "block": "embellishcraft:basalt_button[facing=east,face=floor]"
     }
   ]

@@ -23,14 +23,22 @@
     },
     {
       "char": "f",
-      "block": "createbigcannons:traffic_cone[facing=up]"
+      "block": "cfm:post_box[waterlogged=false,facing=west]"
     },
     {
       "char": "g",
-      "block": "apocalypsenow:construction_barricade[facing=north]"
+      "block": "createbigcannons:traffic_cone[facing=up]"
     },
     {
       "char": "h",
+      "block": "rocks:diorite_rock[variation=small]"
+    },
+    {
+      "char": "i",
+      "block": "apocalypsenow:construction_barricade[facing=north]"
+    },
+    {
+      "char": "j",
       "block": "minecraft:command_block[facing=west,conditional=false]",
       "tag": {
         "conditionMet": 1,
@@ -39,8 +47,12 @@
       }
     },
     {
-      "char": "i",
+      "char": "k",
       "block": "apocalypsenow:construction_barricade[facing=west]"
+    },
+    {
+      "char": "l",
+      "block": "rocks:andesite_rock[variation=medium]"
     }
   ]
 }

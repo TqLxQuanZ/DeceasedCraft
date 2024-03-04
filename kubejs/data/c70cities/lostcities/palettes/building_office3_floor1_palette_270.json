@@ -68,22 +68,26 @@
     },
     {
       "char": "q",
-      "block": "minecraft:gray_stained_glass_pane[waterlogged=false]"
+      "block": "pfm:arm_chair_leather[facing=west]"
     },
     {
       "char": "r",
-      "block": "immersiveengineering:concrete_quarter"
+      "block": "minecraft:gray_stained_glass_pane[waterlogged=false]"
     },
     {
       "char": "s",
-      "block": "minecraft:bookshelf"
+      "block": "immersiveengineering:concrete_quarter"
     },
     {
       "char": "t",
-      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
+      "block": "minecraft:bookshelf"
     },
     {
       "char": "u",
+      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "w",
       "block": "minecraft:quartz_block"
     }
   ]

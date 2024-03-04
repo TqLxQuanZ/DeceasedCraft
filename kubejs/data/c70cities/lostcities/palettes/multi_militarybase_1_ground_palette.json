@@ -91,7 +91,7 @@
     },
     {
       "char": "x",
-      "block": "createdeco:andesite_catwalk[waterlogged=false]"
+      "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=true,west=false,east=false,south=false,north=false]"
     },
     {
       "char": "y",
@@ -147,30 +147,42 @@
     },
     {
       "char": "O",
-      "block": "minecraft:lever[facing=west,face=wall]"
+      "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=false,east=true,south=false,north=false]"
     },
     {
       "char": "P",
-      "block": "createbigcannons:cannon_mount[facing=east]"
+      "block": "minecraft:lever[facing=west,face=wall]"
     },
     {
       "char": "Q",
-      "block": "minecraft:hopper[facing=north]"
+      "block": "createbigcannons:cannon_mount[facing=east]"
     },
     {
       "char": "R",
-      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=south]"
+      "block": "minecraft:hopper[facing=north]"
     },
     {
       "char": "S",
-      "block": "immersiveengineering:steel_fence[waterlogged=false]"
+      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=south]"
     },
     {
       "char": "T",
-      "block": "immersiveengineering:razor_wire[waterlogged=false,facing=north]"
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
     },
     {
       "char": "U",
+      "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=false,east=false,south=false,north=false]"
+    },
+    {
+      "char": "V",
+      "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=false,east=false,south=false,north=true]"
+    },
+    {
+      "char": "W",
+      "block": "immersiveengineering:razor_wire[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "X",
       "block": "create:gearbox[axis=y]",
       "tag": {
         "id": "create:gearbox"

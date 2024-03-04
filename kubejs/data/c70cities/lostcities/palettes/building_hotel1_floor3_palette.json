@@ -91,7 +91,7 @@
     },
     {
       "char": "w",
-      "block": "pfm:basic_sink[facing=north,level=0]"
+      "block": "pfm:basic_toilet[facing=north,toilet=empty]"
     },
     {
       "char": "x",
@@ -114,7 +114,7 @@
     },
     {
       "char": "C",
-      "block": "pfm:basic_toilet[facing=east,toilet=empty]"
+      "block": "pfm:basic_sink[facing=east,level=0]"
     },
     {
       "char": "D",
