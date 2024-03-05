@@ -1,0 +1,65 @@
+{
+  "name": "park_deadzone_9_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "e",
+      "block": "biomesoplenty:dead_grass"
+    },
+    {
+      "char": "f",
+      "block": "apocalypsenow:wire_fence[waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "createaddition:barbed_wire[facing=north]"
+    },
+    {
+      "char": "h",
+      "block": "createaddition:barbed_wire[facing=east]"
+    },
+    {
+      "char": "i",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:iron_block"
+    },
+    {
+      "char": "m",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "n",
+      "block": "createaddition:barbed_wire[facing=south]"
+    },
+    {
+      "char": "o",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=north]"
+    }
+  ]
+}

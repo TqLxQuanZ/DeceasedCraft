@@ -68,19 +68,19 @@
     },
     {
       "char": "q",
-      "block": "apocalypsenow:construction_barricade[facing=south]"
-    },
-    {
-      "char": "r",
       "block": "minecraft:stone_button[facing=south,face=wall]"
     },
     {
-      "char": "s",
+      "char": "r",
       "block": "minecraft:polished_blackstone_button[facing=south,face=wall]"
     },
     {
-      "char": "t",
+      "char": "s",
       "block": "embellishcraft:steel_rungs[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "t",
+      "block": "apocalypsenow:construction_barricade[facing=north]"
     },
     {
       "char": "u",
@@ -88,46 +88,50 @@
     },
     {
       "char": "w",
-      "block": "apocalypsenow:construction_barricade[facing=east]"
+      "block": "apocalypsenow:construction_barricade[facing=south]"
     },
     {
       "char": "x",
-      "block": "minecraft:polished_blackstone_pressure_plate"
+      "block": "apocalypsenow:construction_barricade[facing=east]"
     },
     {
       "char": "y",
-      "block": "minecraft:polished_blackstone_slab[type=bottom,waterlogged=false]"
+      "block": "minecraft:polished_blackstone_pressure_plate"
     },
     {
       "char": "A",
-      "block": "minecraft:tinted_glass"
+      "block": "minecraft:polished_blackstone_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "B",
-      "block": "minecraft:polished_blackstone_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+      "block": "minecraft:tinted_glass"
     },
     {
       "char": "C",
-      "block": "minecraft:polished_blackstone_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+      "block": "minecraft:polished_blackstone_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "D",
-      "block": "biomesoplenty:magic_button[facing=east,face=wall]"
+      "block": "minecraft:polished_blackstone_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "E",
-      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,open=false,facing=west]"
+      "block": "biomesoplenty:magic_button[facing=east,face=wall]"
     },
     {
       "char": "F",
-      "block": "biomesoplenty:cherry_button[facing=east,face=wall]"
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,open=false,facing=west]"
     },
     {
       "char": "I",
-      "block": "embellishcraft:blue_pillow[waterlogged=false,occupied=false,part=head,facing=east]"
+      "block": "biomesoplenty:cherry_button[facing=east,face=wall]"
     },
     {
       "char": "J",
+      "block": "embellishcraft:blue_pillow[waterlogged=false,occupied=false,part=head,facing=east]"
+    },
+    {
+      "char": "K",
       "block": "embellishcraft:red_pillow[waterlogged=false,occupied=false,part=head,facing=east]"
     }
   ]

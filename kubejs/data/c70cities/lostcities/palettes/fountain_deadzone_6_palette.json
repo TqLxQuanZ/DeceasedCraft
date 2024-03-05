@@ -3,43 +3,35 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
+      "block": "rocks:netherrack_rock[variation=tiny]"
     },
     {
       "char": "b",
-      "block": "minecraft:cobblestone"
+      "block": "rocks:netherrack_rock[variation=small]"
     },
     {
       "char": "c",
-      "block": "minecraft:cobweb"
+      "block": "apocalypsenow:construction_barricade[facing=south]"
     },
     {
       "char": "d",
-      "block": "minecraft:smooth_stone"
+      "block": "apocalypsenow:construction_barricade[facing=east]"
     },
     {
       "char": "e",
-      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+      "block": "buildersdelight:industrial_flat_3[waterlogged=false,facing=south,face=floor]"
     },
     {
       "char": "f",
-      "block": "createdeco:cast_iron_block"
+      "block": "apocalypsenow:construction_barricade[facing=west]"
     },
     {
       "char": "g",
-      "block": "apocalypsenow:wire_fence[waterlogged=false]"
+      "block": "apocalypsenow:construction_barricade[facing=north]"
     },
     {
       "char": "h",
-      "block": "createdeco:cast_iron_mesh_fence[waterlogged=false]"
-    },
-    {
-      "char": "i",
-      "block": "biomesoplenty:dead_grass"
-    },
-    {
-      "char": "j",
-      "block": "minecraft:redstone_torch[lit=true]"
+      "block": "rocks:netherrack_rock[variation=medium]"
     }
   ]
 }

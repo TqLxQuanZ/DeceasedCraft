@@ -3,51 +3,31 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
+      "block": "immersiveengineering:razor_wire[waterlogged=false,facing=south]"
     },
     {
       "char": "b",
-      "block": "embellishcraft:concrete_paving_slab[type=bottom,waterlogged=false]"
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
     },
     {
       "char": "c",
-      "block": "minecraft:cobblestone"
+      "block": "buildersdelight:industrial_flat_1[waterlogged=false,facing=south,face=floor]"
     },
     {
       "char": "d",
-      "block": "embellishcraft:concrete_paving"
+      "block": "immersiveengineering:razor_wire[waterlogged=false,facing=north]"
     },
     {
       "char": "e",
-      "block": "biomesoplenty:dead_log[axis=y]"
+      "block": "createdeco:white_decal[waterlogged=false,facing=south]"
     },
     {
       "char": "f",
-      "block": "biomesoplenty:dead_grass"
+      "block": "simplylight:illuminant_light_gray_block_on"
     },
     {
       "char": "g",
-      "block": "minecraft:stone_button[facing=south,face=floor]"
-    },
-    {
-      "char": "h",
-      "block": "minecraft:stone_button[facing=east,face=floor]"
-    },
-    {
-      "char": "i",
-      "block": "biomesoplenty:dead_leaves[persistent=true]"
-    },
-    {
-      "char": "j",
-      "block": "minecraft:stone_button[facing=west,face=floor]"
-    },
-    {
-      "char": "k",
-      "block": "minecraft:wither_rose"
-    },
-    {
-      "char": "l",
-      "block": "minecraft:stone_button[facing=north,face=floor]"
+      "block": "createdeco:white_decal[waterlogged=false,facing=north]"
     }
   ]
 }

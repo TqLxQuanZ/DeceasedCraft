@@ -11,99 +11,35 @@
     },
     {
       "char": "c",
-      "block": "quark:blaze_lantern"
-    },
-    {
-      "char": "d",
-      "block": "biomesoplenty:white_sandstone"
-    },
-    {
-      "char": "e",
-      "block": "minecraft:tinted_glass"
-    },
-    {
-      "char": "f",
-      "block": "biomesoplenty:dead_grass"
-    },
-    {
-      "char": "g",
-      "block": "biomesoplenty:dead_button[facing=east,face=floor]"
-    },
-    {
-      "char": "h",
-      "block": "biomesoplenty:dead_button[facing=north,face=floor]"
-    },
-    {
-      "char": "i",
-      "block": "biomesoplenty:dead_log[axis=y]"
-    },
-    {
-      "char": "j",
-      "block": "biomesoplenty:dead_leaves[persistent=true]"
-    },
-    {
-      "char": "k",
-      "block": "biomesoplenty:dead_button[facing=south,face=floor]"
-    },
-    {
-      "char": "l",
       "block": "minecraft:cobweb"
     },
     {
-      "char": "m",
-      "block": "biomesoplenty:dead_button[facing=west,face=floor]"
+      "char": "d",
+      "block": "minecraft:smooth_stone"
     },
     {
-      "char": "n",
-      "block": "create:cogwheel[waterlogged=false,axis=x]",
-      "tag": {
-        "id": "create:cogwheel"
-      }
+      "char": "e",
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "o",
-      "block": "create:gearbox[axis=y]",
-      "tag": {
-        "id": "create:gearbox"
-      }
+      "char": "f",
+      "block": "createdeco:cast_iron_block"
     },
     {
-      "char": "p",
-      "block": "biomesoplenty:white_sandstone_wall[waterlogged=false,up=true]"
+      "char": "g",
+      "block": "apocalypsenow:wire_fence[waterlogged=false]"
     },
     {
-      "char": "q",
-      "block": "biomesoplenty:white_sandstone_slab[type=bottom,waterlogged=false]"
+      "char": "h",
+      "block": "createdeco:cast_iron_mesh_fence[waterlogged=false]"
     },
     {
-      "char": "r",
-      "block": "create:cogwheel[waterlogged=false,axis=z]",
-      "tag": {
-        "id": "create:cogwheel"
-      }
+      "char": "i",
+      "block": "biomesoplenty:dead_grass"
     },
     {
-      "char": "s",
-      "block": "create:shaft[waterlogged=false,axis=z]",
-      "tag": {
-        "id": "create:shaft"
-      }
-    },
-    {
-      "char": "t",
-      "block": "minecraft:chain[waterlogged=false,axis=y]"
-    },
-    {
-      "char": "u",
-      "block": "pfm:dead_biomesoplenty_log_stool[facing=east]"
-    },
-    {
-      "char": "w",
-      "block": "biomesoplenty:white_sandstone_slab[type=top,waterlogged=false]"
-    },
-    {
-      "char": "x",
-      "block": "pfm:dead_biomesoplenty_log_stool[facing=south]"
+      "char": "j",
+      "block": "minecraft:redstone_torch[lit=true]"
     }
   ]
 }

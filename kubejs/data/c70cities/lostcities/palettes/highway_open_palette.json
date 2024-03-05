@@ -52,46 +52,42 @@
     },
     {
       "char": "d",
-      "block": "embellishcraft:smooth_marble"
+      "block": "immersiveengineering:slab_concrete[type=bottom,waterlogged=false]"
     },
     {
       "char": "e",
-      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+      "block": "embellishcraft:smooth_marble"
     },
     {
       "char": "f",
-      "block": "minecraft:smooth_stone"
+      "block": "minecraft:oak_leaves[persistent=true]"
     },
     {
       "char": "g",
-      "block": "immersiveengineering:concrete_quarter"
-    },
-    {
-      "char": "h",
-      "block": "quark:framed_glass_pane[waterlogged=false]"
-    },
-    {
-      "char": "i",
       "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
     },
     {
-      "char": "j",
+      "char": "h",
+      "block": "immersiveengineering:concrete_quarter"
+    },
+    {
+      "char": "i",
       "block": "quark:iron_rod[facing=up]"
     },
     {
-      "char": "k",
+      "char": "j",
       "block": "quark:iron_rod[facing=down]"
     },
     {
-      "char": "l",
+      "char": "k",
       "block": "minecraft:iron_bars[waterlogged=false]"
     },
     {
-      "char": "m",
+      "char": "l",
       "block": "simplylight:illuminant_block_on"
     },
     {
-      "char": "n",
+      "char": "m",
       "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
     }
   ]

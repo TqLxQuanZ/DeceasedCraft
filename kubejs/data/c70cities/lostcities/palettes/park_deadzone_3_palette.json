@@ -3,63 +3,55 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
-    },
-    {
-      "char": "b",
-      "block": "minecraft:cobblestone"
-    },
-    {
-      "char": "c",
       "block": "minecraft:polished_andesite"
     },
     {
-      "char": "d",
-      "block": "minecraft:polished_deepslate"
+      "char": "b",
+      "block": "embellishcraft:concrete_paving"
     },
     {
-      "char": "e",
-      "block": "biomesoplenty:dead_grass"
-    },
-    {
-      "char": "f",
-      "block": "apocalypsenow:wire_fence[waterlogged=false]"
-    },
-    {
-      "char": "g",
-      "block": "createaddition:barbed_wire[facing=north]"
-    },
-    {
-      "char": "h",
-      "block": "createaddition:barbed_wire[facing=east]"
-    },
-    {
-      "char": "i",
-      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=south]"
-    },
-    {
-      "char": "j",
+      "char": "c",
       "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
     },
     {
+      "char": "d",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "f",
+      "block": "biomesoplenty:dead_grass"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:dead_bush"
+    },
+    {
+      "char": "h",
+      "block": "biomesoplenty:stripped_dead_log[axis=y]"
+    },
+    {
+      "char": "i",
+      "block": "immersiveengineering:concrete_three_quarter"
+    },
+    {
+      "char": "j",
+      "block": "immersiveengineering:slab_concrete[type=bottom,waterlogged=false]"
+    },
+    {
       "char": "k",
-      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=east]"
+      "block": "immersiveengineering:concrete_quarter"
     },
     {
       "char": "l",
-      "block": "minecraft:iron_block"
+      "block": "immersiveengineering:concrete_sheet"
     },
     {
       "char": "m",
-      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=west]"
-    },
-    {
-      "char": "n",
-      "block": "createaddition:barbed_wire[facing=south]"
-    },
-    {
-      "char": "o",
-      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=north]"
+      "block": "biomesoplenty:dead_leaves[persistent=true]"
     }
   ]
 }

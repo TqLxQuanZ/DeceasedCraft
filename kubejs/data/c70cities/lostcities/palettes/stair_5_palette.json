@@ -1,0 +1,45 @@
+{
+  "name": "stair_5_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:void_air"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:oak_leaves[persistent=true]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "f",
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:stone_brick_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
+    },
+    {
+      "char": "i",
+      "block": "quark:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+    }
+  ]
+}

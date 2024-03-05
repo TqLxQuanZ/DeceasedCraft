@@ -3,39 +3,19 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
-    },
-    {
-      "char": "b",
-      "block": "minecraft:cobblestone"
-    },
-    {
-      "char": "c",
       "block": "biomesoplenty:dead_leaves[persistent=true]"
     },
     {
-      "char": "d",
-      "block": "biomesoplenty:dead_grass"
-    },
-    {
-      "char": "e",
-      "block": "biomesoplenty:dead_sapling"
-    },
-    {
-      "char": "f",
+      "char": "b",
       "block": "biomesoplenty:dead_log[axis=y]"
     },
     {
-      "char": "g",
-      "block": "biomesoplenty:dead_fence[waterlogged=false]"
+      "char": "c",
+      "block": "biomesoplenty:dead_log[axis=x]"
     },
     {
-      "char": "h",
-      "block": "pfm:dead_biomesoplenty_log_stool[facing=west]"
-    },
-    {
-      "char": "i",
-      "block": "biomesoplenty:dead_log[axis=z]"
+      "char": "d",
+      "block": "pfm:dead_biomesoplenty_log_stool[facing=north]"
     }
   ]
 }

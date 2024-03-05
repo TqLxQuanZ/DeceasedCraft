@@ -3,55 +3,23 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
-    },
-    {
-      "char": "b",
-      "block": "minecraft:cobblestone"
-    },
-    {
-      "char": "c",
-      "block": "biomesoplenty:dead_grass"
-    },
-    {
-      "char": "d",
-      "block": "biomesoplenty:fir_slab[type=top,waterlogged=false]"
-    },
-    {
-      "char": "e",
       "block": "biomesoplenty:dead_leaves[persistent=true]"
     },
     {
-      "char": "f",
-      "block": "biomesoplenty:dead_sapling"
+      "char": "b",
+      "block": "apocalypsenow:bear_trap"
     },
     {
-      "char": "g",
-      "block": "biomesoplenty:fir_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
+      "char": "c",
+      "block": "createaddition:barbed_wire[facing=west]"
     },
     {
-      "char": "h",
-      "block": "biomesoplenty:fir_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
+      "char": "d",
+      "block": "createdeco:cast_iron_mesh_fence[waterlogged=false]"
     },
     {
-      "char": "i",
-      "block": "minecraft:chain[waterlogged=false,axis=y]"
-    },
-    {
-      "char": "j",
-      "block": "biomesoplenty:fir_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
-    },
-    {
-      "char": "k",
-      "block": "biomesoplenty:dead_log[axis=y]"
-    },
-    {
-      "char": "l",
-      "block": "biomesoplenty:dead_fence[waterlogged=false]"
-    },
-    {
-      "char": "m",
-      "block": "pfm:dead_biomesoplenty_log_stool[facing=north]"
+      "char": "e",
+      "block": "createaddition:barbed_wire[facing=east]"
     }
   ]
 }

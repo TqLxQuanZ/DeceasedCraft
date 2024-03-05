@@ -23,15 +23,15 @@
     },
     {
       "char": "f",
-      "block": "cfm:post_box[waterlogged=false,facing=west]"
-    },
-    {
-      "char": "g",
       "block": "createbigcannons:traffic_cone[facing=up]"
     },
     {
+      "char": "g",
+      "block": "rocks:rock[variation=tiny]"
+    },
+    {
       "char": "h",
-      "block": "rocks:diorite_rock[variation=small]"
+      "block": "rocks:rock[variation=small]"
     },
     {
       "char": "i",
@@ -52,7 +52,7 @@
     },
     {
       "char": "l",
-      "block": "rocks:andesite_rock[variation=medium]"
+      "block": "rocks:rock[variation=medium]"
     }
   ]
 }

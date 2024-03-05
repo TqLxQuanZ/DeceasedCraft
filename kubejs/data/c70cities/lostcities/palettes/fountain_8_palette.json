@@ -3,43 +3,43 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
-    },
-    {
-      "char": "b",
-      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
-    },
-    {
-      "char": "c",
-      "block": "rocks:oak_stick[variation=large]"
-    },
-    {
-      "char": "d",
       "block": "quark:oak_leaf_carpet"
     },
     {
+      "char": "b",
+      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
+    },
+    {
+      "char": "d",
+      "block": "rocks:oak_stick[variation=large]"
+    },
+    {
       "char": "e",
-      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+      "block": "rocks:rock[variation=small]"
     },
     {
       "char": "f",
-      "block": "minecraft:moss_block"
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "g",
-      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+      "block": "minecraft:moss_block"
     },
     {
       "char": "h",
-      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "i",
-      "block": "rocks:rock[variation=tiny]"
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "j",
-      "block": "rocks:diorite_rock[variation=large]"
+      "block": "rocks:rock[variation=tiny]"
     },
     {
       "char": "k",
@@ -47,35 +47,23 @@
     },
     {
       "char": "l",
-      "block": "rocks:diorite_rock[variation=medium]"
-    },
-    {
-      "char": "m",
       "block": "rocks:oak_stick[variation=small]"
     },
     {
-      "char": "n",
+      "char": "m",
       "block": "cfm:rock_path[waterlogged=false]"
     },
     {
-      "char": "o",
-      "block": "rocks:oak_stick[variation=medium]"
-    },
-    {
-      "char": "p",
+      "char": "n",
       "block": "quark:oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
-      "char": "q",
+      "char": "o",
       "block": "quark:oak_hedge[waterlogged=false]"
     },
     {
-      "char": "r",
+      "char": "p",
       "block": "minecraft:oak_leaves[persistent=true]"
-    },
-    {
-      "char": "s",
-      "block": "cfm:oak_hedge[waterlogged=false]"
     }
   ]
 }

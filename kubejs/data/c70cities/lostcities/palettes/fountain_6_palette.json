@@ -3,51 +3,43 @@
   "palette": [
     {
       "char": "a",
-      "block": "zombie_extreme:spotlight[facing=north]"
-    },
-    {
-      "char": "b",
-      "block": "apocalypsenow:construction_barricade[facing=east]"
-    },
-    {
-      "char": "c",
-      "block": "rocks:andesite_rock[variation=small]"
-    },
-    {
-      "char": "d",
       "block": "rocks:oak_stick[variation=medium]"
     },
     {
+      "char": "b",
+      "block": "rocks:rock[variation=medium]"
+    },
+    {
+      "char": "c",
+      "block": "rocks:oak_stick[variation=small]"
+    },
+    {
+      "char": "d",
+      "block": "rocks:rock[variation=small]"
+    },
+    {
       "char": "e",
-      "block": "rocks:diorite_rock[variation=small]"
+      "block": "apocalypsenow:construction_barricade[facing=east]"
     },
     {
       "char": "f",
-      "block": "quark:oak_leaf_carpet"
+      "block": "cfm:rock_path[waterlogged=false]"
     },
     {
       "char": "g",
-      "block": "rocks:oak_stick[variation=large]"
-    },
-    {
-      "char": "h",
-      "block": "rocks:andesite_rock[variation=tiny]"
-    },
-    {
-      "char": "i",
       "block": "apocalypsenow:bear_trap"
     },
     {
-      "char": "j",
+      "char": "h",
       "block": "apocalypsenow:construction_barricade[facing=north]"
     },
     {
-      "char": "k",
-      "block": "rocks:andesite_rock[variation=medium]"
+      "char": "i",
+      "block": "rocks:rock[variation=tiny]"
     },
     {
-      "char": "l",
-      "block": "zombie_extreme:lamp[facing=west]"
+      "char": "j",
+      "block": "rocks:oak_stick[variation=large]"
     }
   ]
 }

@@ -3,27 +3,27 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:oak_leaves[persistent=true]"
+      "block": "quark:oak_leaf_carpet"
     },
     {
       "char": "b",
-      "block": "simplylight:illuminant_green_block"
+      "block": "minecraft:oak_leaves[persistent=true]"
     },
     {
       "char": "c",
-      "block": "minecraft:polished_deepslate_wall[waterlogged=false,up=true]"
+      "block": "simplylight:illuminant_green_block"
     },
     {
       "char": "d",
-      "block": "rocks:oak_stick[variation=medium]"
+      "block": "minecraft:polished_deepslate_wall[waterlogged=false,up=true]"
     },
     {
       "char": "e",
-      "block": "rocks:oak_stick[variation=small]"
+      "block": "rocks:oak_stick[variation=medium]"
     },
     {
       "char": "f",
-      "block": "quark:oak_leaf_carpet"
+      "block": "rocks:oak_stick[variation=small]"
     },
     {
       "char": "g",

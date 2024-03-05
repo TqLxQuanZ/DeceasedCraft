@@ -11,11 +11,11 @@
     },
     {
       "char": "c",
-      "block": "biomesoplenty:dead_log[axis=y]"
+      "block": "biomesoplenty:dead_grass"
     },
     {
       "char": "d",
-      "block": "minecraft:dirt_path"
+      "block": "biomesoplenty:fir_slab[type=top,waterlogged=false]"
     },
     {
       "char": "e",
@@ -23,27 +23,35 @@
     },
     {
       "char": "f",
-      "block": "apocalypsenow:cross[waterlogged=false,facing=east]"
+      "block": "biomesoplenty:dead_sapling"
     },
     {
       "char": "g",
-      "block": "apocalypsenow:cross[waterlogged=false,facing=south]"
+      "block": "biomesoplenty:fir_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
     },
     {
       "char": "h",
-      "block": "apocalypsenow:cross[waterlogged=false,facing=north]"
+      "block": "biomesoplenty:fir_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
     },
     {
       "char": "i",
-      "block": "apocalypsenow:cross[waterlogged=false,facing=west]"
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "j",
-      "block": "minecraft:potted_wither_rose"
+      "block": "biomesoplenty:fir_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
     },
     {
       "char": "k",
-      "block": "minecraft:potted_dead_bush"
+      "block": "biomesoplenty:dead_log[axis=y]"
+    },
+    {
+      "char": "l",
+      "block": "biomesoplenty:dead_fence[waterlogged=false]"
+    },
+    {
+      "char": "m",
+      "block": "pfm:dead_biomesoplenty_log_stool[facing=north]"
     }
   ]
 }

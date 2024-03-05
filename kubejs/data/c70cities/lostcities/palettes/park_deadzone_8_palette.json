@@ -1,0 +1,49 @@
+{
+  "name": "park_deadzone_8_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:mossy_stone_bricks"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:cracked_stone_bricks"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:chiseled_stone_bricks"
+    },
+    {
+      "char": "f",
+      "block": "biomesoplenty:dead_grass"
+    },
+    {
+      "char": "g",
+      "block": "biomesoplenty:dead_leaves[persistent=true]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:water[level=0]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:water[level=1]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:water[level=2]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:water[level=3]"
+    }
+  ]
+}

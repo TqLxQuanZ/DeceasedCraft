@@ -3,55 +3,27 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:polished_andesite"
+      "block": "biomesoplenty:dead_leaves[persistent=true]"
     },
     {
       "char": "b",
-      "block": "embellishcraft:concrete_paving"
+      "block": "rocks:netherrack_rock[variation=medium]"
     },
     {
       "char": "c",
-      "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
+      "block": "rocks:netherrack_rock[variation=small]"
     },
     {
       "char": "d",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+      "block": "rocks:nether_geyser"
     },
     {
       "char": "e",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+      "block": "minecraft:campfire[waterlogged=false,facing=west,lit=true]"
     },
     {
       "char": "f",
-      "block": "biomesoplenty:dead_grass"
-    },
-    {
-      "char": "g",
-      "block": "minecraft:dead_bush"
-    },
-    {
-      "char": "h",
-      "block": "biomesoplenty:stripped_dead_log[axis=y]"
-    },
-    {
-      "char": "i",
-      "block": "immersiveengineering:concrete_three_quarter"
-    },
-    {
-      "char": "j",
-      "block": "immersiveengineering:slab_concrete[type=bottom,waterlogged=false]"
-    },
-    {
-      "char": "k",
-      "block": "immersiveengineering:concrete_quarter"
-    },
-    {
-      "char": "l",
-      "block": "immersiveengineering:concrete_sheet"
-    },
-    {
-      "char": "m",
-      "block": "biomesoplenty:dead_leaves[persistent=true]"
+      "block": "rocks:netherrack_rock[variation=tiny]"
     }
   ]
 }

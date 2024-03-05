@@ -3,39 +3,51 @@
   "palette": [
     {
       "char": "a",
-      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
-    },
-    {
-      "char": "b",
-      "block": "minecraft:coarse_dirt"
-    },
-    {
-      "char": "c",
-      "block": "minecraft:dirt"
-    },
-    {
-      "char": "d",
-      "block": "minecraft:cobblestone"
-    },
-    {
-      "char": "e",
       "block": "biomesoplenty:dead_grass"
     },
     {
-      "char": "f",
-      "block": "minecraft:cracked_stone_bricks"
-    },
-    {
-      "char": "g",
+      "char": "b",
       "block": "biomesoplenty:dead_leaves[persistent=true]"
     },
     {
+      "char": "c",
+      "block": "minecraft:polished_deepslate_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "d",
+      "block": "rocks:rock[variation=small]"
+    },
+    {
+      "char": "e",
+      "block": "zombie_extreme:barbed_fence[facing=west]"
+    },
+    {
+      "char": "f",
+      "block": "zombie_extreme:concrete_fence[facing=east]"
+    },
+    {
+      "char": "g",
+      "block": "cfm:rock_path[waterlogged=false]"
+    },
+    {
       "char": "h",
-      "block": "minecraft:water[level=0]"
+      "block": "zombie_extreme:barbed_fence[facing=east]"
     },
     {
       "char": "i",
-      "block": "minecraft:ice"
+      "block": "rocks:rock[variation=tiny]"
+    },
+    {
+      "char": "j",
+      "block": "apocalypsenow:bear_trap"
+    },
+    {
+      "char": "k",
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:redstone_torch[lit=true]"
     }
   ]
 }

@@ -1,0 +1,45 @@
+{
+  "name": "stair_4_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "quark:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:void_air"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:oak_leaves[persistent=true]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:dead_bush"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:azalea"
+    },
+    {
+      "char": "h",
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:polished_paving_slab[type=bottom,waterlogged=false]"
+    }
+  ]
+}

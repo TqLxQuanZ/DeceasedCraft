@@ -1,0 +1,53 @@
+{
+  "name": "park_deadzone_12_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "c",
+      "block": "biomesoplenty:dead_log[axis=y]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:dirt_path"
+    },
+    {
+      "char": "e",
+      "block": "biomesoplenty:dead_grass"
+    },
+    {
+      "char": "f",
+      "block": "biomesoplenty:dead_leaves[persistent=true]"
+    },
+    {
+      "char": "g",
+      "block": "apocalypsenow:cross[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "h",
+      "block": "apocalypsenow:cross[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "i",
+      "block": "apocalypsenow:cross[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "j",
+      "block": "apocalypsenow:cross[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:potted_wither_rose"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:potted_dead_bush"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "stair_2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:oak_leaves[persistent=true]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "e",
+      "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:void_air"
+    },
+    {
+      "char": "g",
+      "block": "quark:oak_leaf_carpet"
+    },
+    {
+      "char": "h",
+      "block": "quark:oak_hedge[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "quark:framed_glass"
+    },
+    {
+      "char": "j",
+      "block": "simplylight:illuminant_block_on"
+    }
+  ]
+}

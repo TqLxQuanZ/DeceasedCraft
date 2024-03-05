@@ -3,75 +3,31 @@
   "palette": [
     {
       "char": "a",
-      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=east]"
+      "block": "biomesoplenty:dead_leaves[persistent=true]"
     },
     {
       "char": "b",
-      "block": "minecraft:polished_andesite"
+      "block": "rocks:netherrack_rock[variation=small]"
     },
     {
       "char": "c",
-      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=east]"
+      "block": "rocks:nether_geyser"
     },
     {
       "char": "d",
-      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=north]"
+      "block": "rocks:netherrack_rock[variation=tiny]"
     },
     {
       "char": "e",
-      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=north]"
+      "block": "rocks:netherrack_rock[variation=medium]"
     },
     {
       "char": "f",
-      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=south]"
-    },
-    {
-      "char": "g",
-      "block": "cfm:stripped_birch_park_bench[type=middle,waterlogged=false,facing=south]"
-    },
-    {
-      "char": "h",
-      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=south]"
-    },
-    {
-      "char": "i",
-      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=west]"
-    },
-    {
-      "char": "j",
-      "block": "cfm:stripped_birch_park_bench[type=middle,waterlogged=false,facing=west]"
-    },
-    {
-      "char": "k",
-      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=west]"
-    },
-    {
-      "char": "l",
-      "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
-    },
-    {
-      "char": "m",
-      "block": "quark:acacia_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
-    },
-    {
-      "char": "n",
       "block": "biomesoplenty:dead_sapling"
     },
     {
-      "char": "o",
-      "block": "biomesoplenty:dead_grass"
-    },
-    {
-      "char": "p",
-      "block": "buildersdelight:lantern_5[waterlogged=false,facing=east,face=ceiling]"
-    },
-    {
-      "char": "q",
-      "block": "biomesoplenty:dead_fence[waterlogged=false]"
-    },
-    {
-      "char": "r",
-      "block": "buildersdelight:lantern_5[waterlogged=false,facing=west,face=ceiling]"
+      "char": "g",
+      "block": "minecraft:dead_bush"
     }
   ]
 }
