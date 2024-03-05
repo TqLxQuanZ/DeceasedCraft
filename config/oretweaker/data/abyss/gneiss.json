@@ -1,13 +1,13 @@
 {
   "oreConfig": [
     {
-      "ore": "minecraft:deepslate_diamond_ore",
+      "ore": "embellishcraft:gneiss",
       "fillers": ["minecraft:deepslate"],
       "distribution": "UNIFORM",
       "minY": -54,
-      "maxY": 380,
-      "maxVeinSize": 12,
-      "spawnRate": 6.0,
+      "maxY": 64,
+      "maxVeinSize": 128,
+      "spawnRate": 4.0,
       "discardChanceOnAirExposure": 0.0,
       "biomeFilters": {
         "biomeBlacklist": [],

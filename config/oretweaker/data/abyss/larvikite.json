@@ -1,13 +1,13 @@
 {
   "oreConfig": [
     {
-      "ore": "minecraft:deepslate_diamond_ore",
+      "ore": "embellishcraft:larvikite",
       "fillers": ["minecraft:deepslate"],
       "distribution": "UNIFORM",
       "minY": -54,
-      "maxY": 380,
-      "maxVeinSize": 12,
-      "spawnRate": 6.0,
+      "maxY": 256,
+      "maxVeinSize": 46,
+      "spawnRate": 8.0,
       "discardChanceOnAirExposure": 0.0,
       "biomeFilters": {
         "biomeBlacklist": [],
