@@ -1,12 +1,12 @@
 {
 	"cities": {
 		"cityLevel3Height": 99,
-		"cityMinRadius": 100,
+		"cityMinRadius": 150,
 		"cityAvoidVoid": true,
 		"cityLevel1Height": 83,
 		"cityMaxRadius": 200,
 		"cityStyleThreshold": -1.0,
-		"cityChance": 0.1,
+		"cityChance": 0.003,
 		"cityThreshold": 0.2,
 		"cityLevel0Height": 75,
 		"cityStyleAlternative": "",
