@@ -3,62 +3,66 @@
   "palette": [
     {
       "char": "a",
-      "block": "quark:oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
+      "block": "minecraft:void_air"
     },
     {
       "char": "b",
-      "block": "cfm:post_box[waterlogged=false,facing=west]"
+      "block": "quark:oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
       "char": "c",
-      "block": "minecraft:oak_leaves[persistent=true]"
+      "block": "cfm:post_box[waterlogged=false,facing=west]"
     },
     {
       "char": "d",
-      "block": "create:polished_cut_limestone"
+      "block": "minecraft:oak_leaves[persistent=true]"
     },
     {
       "char": "e",
-      "block": "create:polished_cut_limestone_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+      "block": "create:polished_cut_limestone"
     },
     {
       "char": "f",
-      "block": "pfm:trashcan[open=false]"
+      "block": "create:polished_cut_limestone_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "g",
-      "block": "cfm:oak_hedge[waterlogged=false]"
+      "block": "pfm:trashcan[open=false]"
     },
     {
       "char": "h",
-      "block": "immersiveengineering:steel_fence[waterlogged=false]"
+      "block": "cfm:oak_hedge[waterlogged=false]"
     },
     {
       "char": "i",
-      "block": "create:brown_seat[waterlogged=false]"
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
     },
     {
       "char": "j",
-      "block": "simplylight:wall_lamp[waterlogged=false,facing=down]"
+      "block": "create:brown_seat[waterlogged=false]"
     },
     {
       "char": "k",
-      "block": "create:polished_cut_scoria_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=down]"
     },
     {
       "char": "l",
-      "block": "create:polished_cut_scoria_slab[type=top,waterlogged=false]"
+      "block": "create:polished_cut_scoria_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "m",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+      "block": "create:polished_cut_scoria_slab[type=top,waterlogged=false]"
     },
     {
       "char": "n",
-      "block": "create:polished_cut_scoria_slab[type=bottom,waterlogged=false]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "o",
+      "block": "create:polished_cut_scoria_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "p",
       "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
     }
   ]

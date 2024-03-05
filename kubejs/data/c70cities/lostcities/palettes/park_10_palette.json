@@ -23,23 +23,23 @@
     },
     {
       "char": "f",
-      "block": "minecraft:dirt"
-    },
-    {
-      "char": "g",
       "block": "embellishcraft:gneiss_large_bricks"
     },
     {
-      "char": "h",
+      "char": "g",
       "block": "embellishcraft:gneiss_large_bricks_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
-      "char": "i",
+      "char": "h",
       "block": "embellishcraft:gneiss_large_bricks_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
-      "char": "j",
+      "char": "i",
       "block": "minecraft:oak_leaves[persistent=true]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:oak_sapling"
     },
     {
       "char": "k",
@@ -47,39 +47,31 @@
     },
     {
       "char": "l",
-      "block": "minecraft:oak_sapling"
-    },
-    {
-      "char": "m",
       "block": "quark:oak_post[waterlogged=false,chain_down=false,chain_up=false,axis=y]"
     },
     {
-      "char": "n",
+      "char": "m",
       "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=north]"
     },
     {
-      "char": "o",
+      "char": "n",
       "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=north]"
     },
     {
-      "char": "p",
+      "char": "o",
       "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=south]"
     },
     {
-      "char": "q",
+      "char": "p",
       "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=south]"
     },
     {
-      "char": "r",
+      "char": "q",
       "block": "minecraft:fern"
     },
     {
-      "char": "s",
+      "char": "r",
       "block": "quark:paper_lantern_sakura"
-    },
-    {
-      "char": "t",
-      "block": "minecraft:oak_leaves[persistent=false]"
     }
   ]
 }

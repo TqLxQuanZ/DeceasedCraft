@@ -1,0 +1,134 @@
+{
+  "name": "fountain_10_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:stone_button[facing=north,face=wall]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:polished_blackstone_button[facing=north,face=wall]"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:steel_rungs[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "d",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:polished_blackstone"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:coal_block"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:polished_diorite"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:polished_blackstone_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:steel_wall_ladder[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:grid_air_duct[facing=west]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:anvil[facing=east]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:observer[facing=east]"
+    },
+    {
+      "char": "m",
+      "block": "pfm:black_simple_sofa[facing=east,shape=straight]"
+    },
+    {
+      "char": "n",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "o",
+      "block": "simplylight:illuminant_block_on"
+    },
+    {
+      "char": "p",
+      "block": "createbigcannons:cast_iron_cannon_barrel[facing=west]"
+    },
+    {
+      "char": "q",
+      "block": "apocalypsenow:construction_barricade[facing=south]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:stone_button[facing=south,face=wall]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:polished_blackstone_button[facing=south,face=wall]"
+    },
+    {
+      "char": "t",
+      "block": "embellishcraft:steel_rungs[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "u",
+      "block": "apocalypsenow:construction_barricade[facing=west]"
+    },
+    {
+      "char": "w",
+      "block": "apocalypsenow:construction_barricade[facing=east]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:polished_blackstone_pressure_plate"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:polished_blackstone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:tinted_glass"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:polished_blackstone_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:polished_blackstone_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+    },
+    {
+      "char": "D",
+      "block": "biomesoplenty:magic_button[facing=east,face=wall]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=top,open=false,facing=west]"
+    },
+    {
+      "char": "F",
+      "block": "biomesoplenty:cherry_button[facing=east,face=wall]"
+    },
+    {
+      "char": "I",
+      "block": "embellishcraft:blue_pillow[waterlogged=false,occupied=false,part=head,facing=east]"
+    },
+    {
+      "char": "J",
+      "block": "embellishcraft:red_pillow[waterlogged=false,occupied=false,part=head,facing=east]"
+    }
+  ]
+}

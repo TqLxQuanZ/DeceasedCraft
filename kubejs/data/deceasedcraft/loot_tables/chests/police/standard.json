@@ -368,35 +368,83 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "apocalypsenow:royal_canada_police_officer_helmet"
+          "name": "apocalypsenow:royal_canada_police_officer_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.03
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "apocalypsenow:royal_canada_police_officer_chestplate"
+          "name": "apocalypsenow:royal_canada_police_officer_chestplate",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.03
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "apocalypsenow:royal_canada_police_officer_leggings"
+          "name": "apocalypsenow:royal_canada_police_officer_leggings",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.03
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "apocalypsenow:royal_canada_police_officer_boots"
+          "name": "apocalypsenow:royal_canada_police_officer_boots",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.03
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "apocalypsenow:forestguard_helmet"
+          "name": "apocalypsenow:forestguard_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.03
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "apocalypsenow:forestguard_chestplate"
+          "name": "apocalypsenow:forestguard_chestplate",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.03
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "apocalypsenow:forestguard_leggings"
+          "name": "apocalypsenow:forestguard_leggings",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.03
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "apocalypsenow:forestguard_boots"
+          "name": "apocalypsenow:forestguard_boots",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.03
+            }
+          ]
         }
       ]
     },
@@ -417,7 +465,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.025
+              "chance": 0.02
             }
           ]
         }

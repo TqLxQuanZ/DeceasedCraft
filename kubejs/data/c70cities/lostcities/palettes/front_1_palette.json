@@ -11,26 +11,30 @@
     },
     {
       "char": "c",
-      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+      "block": "minecraft:void_air"
     },
     {
       "char": "d",
-      "block": "cfm:gray_picket_fence[waterlogged=false]"
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
     },
     {
       "char": "e",
-      "block": "minecraft:iron_bars[waterlogged=false]"
+      "block": "cfm:gray_picket_fence[waterlogged=false]"
     },
     {
       "char": "f",
-      "block": "simplylight:illuminant_block"
+      "block": "minecraft:iron_bars[waterlogged=false]"
     },
     {
       "char": "g",
-      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
+      "block": "simplylight:illuminant_block"
     },
     {
       "char": "h",
+      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "i",
       "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=east]"
     }
   ]
