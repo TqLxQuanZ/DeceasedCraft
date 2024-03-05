@@ -1,0 +1,42 @@
+{
+  "filler": "G",
+  "rubber": " ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "minfloors": 2,
+  "maxfloors": 5,
+  "mincellars": 1,
+  "maxcellars": 1,
+  "parts": [
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "part": "c70cities:multi_carservice_0_base1"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": true,
+      "part": "c70cities:multi_carservice_0_ground"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_carservice_0_floor2"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_carservice_0_floor1"
+    },
+    {
+      "top": true,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_carservice_0_top"
+    }
+  ]
+}

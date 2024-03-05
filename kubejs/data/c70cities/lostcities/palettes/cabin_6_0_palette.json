@@ -1,0 +1,131 @@
+{
+  "name": "cabin_6_0_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:oak_sapling"
+    },
+    {
+      "char": "c",
+      "block": "create:polished_cut_tuff"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:dirt_path"
+    },
+    {
+      "char": "e",
+      "block": "create:polished_cut_tuff_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "create:polished_cut_tuff_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "create:polished_cut_calcite"
+    },
+    {
+      "char": "h",
+      "block": "simplylight:illuminant_block_on"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:oak_plain_door[half=lower,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:oak_plain_door[half=lower,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:oak_leaves[persistent=true]"
+    },
+    {
+      "char": "m",
+      "block": "create:polished_cut_calcite_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "embellishcraft:oak_plain_door[half=upper,open=false,hinge=right,facing=south]"
+    },
+    {
+      "char": "p",
+      "block": "embellishcraft:oak_plain_door[half=upper,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "q",
+      "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:oak_fence[waterlogged=false]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:crafting_table"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:smoker[facing=west,lit=false]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:oak_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+    },
+    {
+      "char": "w",
+      "block": "another_furniture:oak_shelf[type=right,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "x",
+      "block": "another_furniture:oak_shelf[type=left,waterlogged=false,facing=west]"
+    },
+    {
+      "char": "y",
+      "block": "pfm:light_wood_kitchen_counter[facing=north]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:brown_bed[occupied=false,part=head,facing=north]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "B",
+      "block": "minecraft:brown_bed[occupied=false,part=foot,facing=north]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "C",
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,open=false,facing=south]"
+    }
+  ]
+}

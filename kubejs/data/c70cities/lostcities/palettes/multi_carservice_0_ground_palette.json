@@ -1,0 +1,113 @@
+{
+  "name": "multi_carservice_0_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:polished_marble"
+    },
+    {
+      "char": "d",
+      "block": "car:car_workshop_outter[position=0]"
+    },
+    {
+      "char": "e",
+      "block": "apocalypsenow:concrete_bricks"
+    },
+    {
+      "char": "f",
+      "block": "car:car_workshop_outter[position=4]"
+    },
+    {
+      "char": "g",
+      "block": "car:car_workshop_outter[position=5]"
+    },
+    {
+      "char": "h",
+      "block": "car:car_workshop_outter[position=3]"
+    },
+    {
+      "char": "i",
+      "block": "car:car_workshop"
+    },
+    {
+      "char": "j",
+      "block": "car:car_workshop_outter[position=7]"
+    },
+    {
+      "char": "k",
+      "block": "car:car_workshop_outter[position=1]"
+    },
+    {
+      "char": "l",
+      "block": "car:car_workshop_outter[position=8]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:oak_sapling"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:oak_leaves[persistent=true]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:gray_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "car:gas_station[facing=south]",
+      "tag": {
+        "fluid": {
+          "FluidName": "immersivepetroleum:gasoline",
+          "Amount": 4000
+        }
+      }
+    },
+    {
+      "char": "r",
+      "block": "minecraft:chipped_anvil[facing=east]"
+    },
+    {
+      "char": "s",
+      "block": "embellishcraft:steel_rungs[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "t",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "u",
+      "block": "pfm:smooth_stone_kitchen_drawer[open=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "w",
+      "block": "pfm:smooth_stone_kitchen_counter[facing=west]"
+    },
+    {
+      "char": "x",
+      "block": "car:gas_station_top[facing=south]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
+    }
+  ]
+}

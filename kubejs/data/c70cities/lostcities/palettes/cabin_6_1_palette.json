@@ -1,0 +1,142 @@
+{
+  "name": "cabin_6_1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "b",
+      "block": "create:polished_cut_tuff"
+    },
+    {
+      "char": "c",
+      "block": "create:polished_cut_tuff_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "g",
+      "block": "create:polished_cut_tuff_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:barrel[open=false,facing=east]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:furnace[facing=west,lit=false]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:blast_furnace[facing=west,lit=false]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:oak_fence[waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:moss_carpet"
+    },
+    {
+      "char": "n",
+      "block": "pfm:white_simple_sofa[facing=west,shape=right_edge]"
+    },
+    {
+      "char": "o",
+      "block": "pfm:white_simple_sofa[facing=east,shape=left_edge]"
+    },
+    {
+      "char": "p",
+      "block": "pfm:white_simple_sofa[facing=west,shape=left_edge]"
+    },
+    {
+      "char": "q",
+      "block": "pfm:white_simple_sofa[facing=east,shape=right_edge]"
+    },
+    {
+      "char": "r",
+      "block": "another_furniture:oak_shelf[type=single,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "s",
+      "block": "another_furniture:oak_shelf[type=single,waterlogged=false,facing=west]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "u",
+      "block": "another_furniture:oak_shelf[type=middle,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "w",
+      "block": "another_furniture:oak_shelf[type=middle,waterlogged=false,facing=west]"
+    },
+    {
+      "char": "x",
+      "block": "another_furniture:oak_shelf[type=left,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "y",
+      "block": "another_furniture:oak_shelf[type=right,waterlogged=false,facing=west]"
+    },
+    {
+      "char": "A",
+      "block": "create:polished_cut_tuff_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "B",
+      "block": "buildersdelight:lantern_6[waterlogged=false,facing=east,face=wall]"
+    },
+    {
+      "char": "C",
+      "block": "buildersdelight:lantern_6[waterlogged=false,facing=west,face=wall]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:potted_dead_bush"
+    },
+    {
+      "char": "E",
+      "block": "quark:potted_sugar_cane"
+    },
+    {
+      "char": "F",
+      "block": "create:polished_cut_calcite"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
+    },
+    {
+      "char": "J",
+      "block": "create:polished_cut_calcite_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,open=false,facing=north]"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,open=false,facing=south]"
+    }
+  ]
+}

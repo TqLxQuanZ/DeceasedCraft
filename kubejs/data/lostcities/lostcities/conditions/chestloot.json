@@ -713,22 +713,12 @@
     {
       "factor": 500,
       "value": "deceasedcraft:chests/car_service/standard",
-      "inbuilding": "c70cities:building_carservice1"
+      "inbuilding": "c70cities:multi_carservice_0"
     },
     {
       "factor": 500,
       "value": "deceasedcraft:chests/car_service/standard",
-      "inbuilding": "c70cities:building_carservice1_90"
-    },
-    {
-      "factor": 500,
-      "value": "deceasedcraft:chests/car_service/standard",
-      "inbuilding": "c70cities:building_carservice1_180"
-    },
-    {
-      "factor": 500,
-      "value": "deceasedcraft:chests/car_service/standard",
-      "inbuilding": "c70cities:building_carservice1_270"
+      "inbuilding": "c70cities:multi_carservice_1"
     },
     {
       "factor": 500,
@@ -1544,6 +1534,11 @@
       "factor": 500,
       "value": "deceasedcraft:chests/scattered/cabin_1",
       "inpart": "c70cities:cabin_5"
+    },
+    {
+      "factor": 500,
+      "value": "deceasedcraft:chests/scattered/cabin_2",
+      "inpart": "c70cities:cabin_6_1"
     },
     {
       "factor": 500,

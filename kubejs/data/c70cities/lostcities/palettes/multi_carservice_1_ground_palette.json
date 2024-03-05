@@ -1,0 +1,141 @@
+{
+  "name": "multi_carservice_1_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:polished_marble"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "d",
+      "block": "immersiveengineering:concrete_three_quarter"
+    },
+    {
+      "char": "e",
+      "block": "immersiveengineering:slab_concrete[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "immersiveengineering:concrete_quarter"
+    },
+    {
+      "char": "g",
+      "block": "pfm:smooth_stone_kitchen_drawer[open=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:gray_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:observer[facing=east]"
+    },
+    {
+      "char": "j",
+      "block": "immersiveengineering:razor_wire[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "k",
+      "block": "zombie_extreme:shelf[facing=north]"
+    },
+    {
+      "char": "l",
+      "block": "pfm:smooth_stone_kitchen_drawer[open=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "m",
+      "block": "quark:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:stone_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "p",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "q",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:command_block[facing=up,conditional=false]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "spawnRandomCar"
+      }
+    },
+    {
+      "char": "s",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "t",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "u",
+      "block": "embellishcraft:smooth_basalt_pressure_plate"
+    },
+    {
+      "char": "w",
+      "block": "immersiveengineering:connector_lv[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "x",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "y",
+      "block": "quark:smooth_stone_vertical_slab[type=south,waterlogged=false]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:stone_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+    },
+    {
+      "char": "B",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "D",
+      "block": "biomesoplenty:stripped_dead_log[axis=x]"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:stone_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+    },
+    {
+      "char": "F",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "I",
+      "block": "embellishcraft:grid_air_duct[facing=down]"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+    }
+  ]
+}

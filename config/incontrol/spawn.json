@@ -632,32 +632,16 @@
         }
     },
     {
-      "mob": "zombie_extreme:demolisher",
+      "mob": ["zombie_extreme:rat_king", "zombie_extreme:demolisher", "zombie_extreme:patient_zero"],
       "dimension": "minecraft:overworld",
       "incontrol": false,
       "onjoin": true,
-      "healthadd": 250.0,
+      "healthadd": 500.0,
       "damageadd": 50.0,
       "nbt": {
         "Attributes": [
           {
-            "Base": 40.0,
-            "Name": "generic.armor"
-          }
-        ]
-      }
-    },
-    {
-      "mob": ["zombie_extreme:rat_king"],
-      "dimension": "minecraft:overworld",
-      "incontrol": false,
-      "onjoin": true,
-      "healthadd": 250.0,
-      "damageadd": 50.0,
-      "nbt": {
-        "Attributes": [
-          {
-            "Base": 40.0,
+            "Base": 60.0,
             "Name": "generic.armor"
           }
         ]

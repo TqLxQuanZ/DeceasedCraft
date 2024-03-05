@@ -10,11 +10,11 @@
 	#List of helmets that the mobs can have together with their rarity
 	randomHelmets = [".3=null"]
 	#List of chestplates that the mobs can have together with their rarity
-	randomChestplates = [".3=null" ]
+	randomChestplates = [".3=null"]
 	#List of leggings that the mobs can have together with their rarity
-	randomLeggings = [".3=null" ]
+	randomLeggings = [".3=null"]
 	#List of boots that the mobs can have together with their rarity
-	randomBoots = [".3=null" ]
+	randomBoots = [".3=null"]
 	#List of effects that a mob can have. Note that multiple effects are possible
 	randomEffects = ["2.5=minecraft:regeneration,1", ".3=minecraft:speed,1", ".1=minecraft:speed,2"]
 	#List of console commands to execute the first time a building is entered
@@ -82,4 +82,6 @@
 	lockChestsUntilCleared = false
 	#This option is only useful when 'lockChestsUntilCleared'. If true only vanilla chests will be locked. Otherwise all tile entities are locked
 	lockOnlyChests = false
+	#If this is true then mobs will only spawn on blocks but not on air
+	spawnOnBlock = true
 

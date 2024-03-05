@@ -235,22 +235,6 @@
       },
       {
         "factor": 0.0125,
-        "value": "c70cities:building_carservice1"
-      },
-      {
-        "factor": 0.0125,
-        "value": "c70cities:building_carservice1_90"
-      },
-      {
-        "factor": 0.0125,
-        "value": "c70cities:building_carservice1_180"
-      },
-      {
-        "factor": 0.0125,
-        "value": "c70cities:building_carservice1_270"
-      },
-      {
-        "factor": 0.0125,
         "value": "c70cities:building_gasstation1"
       },
       {
@@ -276,6 +260,10 @@
         "value": "c70cities:multi_gasstation"
       },
       {
+        "factor": 0.3,
+        "value": "c70cities:multi_carservice"
+      },
+      {
         "factor": 0.4,
         "value": "c70cities:multi_gallery"
       },
@@ -296,7 +284,7 @@
         "value": "c70cities:multi_clubhouse1"
       },
       {
-        "factor": 0.5,
+        "factor": 0.3,
         "value": "c70cities:multi_megatower1"
       }
     ],
