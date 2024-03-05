@@ -1,20 +1,16 @@
 [
 	{
 		"entity": "minecraft:zombie",
-		"weight": 15
+		"weight": 10,
+		"nbt": "{HandItems:[{id:air,Count:1},{id:iron_pickaxe,Count:1}]}"
 	},
 	{
 		"entity": "zombie_extreme:bomber",
 		"weight": 5
 	},
 	{
-		"entity": "zombie_extreme:inflated",
+		"entity": "undead_revamp2:theheavy",
 		"weight": 5
-	},
-	{
-		"entity": "minecraft:zombie",
-		"weight": 5,
-		"nbt": "{HandItems:[{id:air,Count:1},{id:iron_pickaxe,Count:1}]}"
 	},
 	{
 		"entity": "undead_revamp2:thepregnant",
