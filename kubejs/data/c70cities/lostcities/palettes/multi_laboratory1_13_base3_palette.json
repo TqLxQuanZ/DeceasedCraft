@@ -39,67 +39,71 @@
     },
     {
       "char": "j",
-      "block": "create:polished_cut_calcite"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=east]"
     },
     {
       "char": "k",
-      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=north,face=wall]"
+      "block": "create:polished_cut_calcite"
     },
     {
       "char": "l",
-      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=north,face=wall]"
     },
     {
       "char": "m",
-      "block": "refinedstorage:disk_drive"
+      "block": "embellishcraft:smooth_basalt_slab[type=bottom,waterlogged=false]"
     },
     {
       "char": "n",
-      "block": "embellishcraft:warning_steel_door[half=lower,open=false,hinge=left,facing=east]"
+      "block": "refinedstorage:disk_drive"
     },
     {
       "char": "o",
-      "block": "embellishcraft:basalt_button[facing=east,face=floor]"
+      "block": "embellishcraft:warning_steel_door[half=lower,open=false,hinge=left,facing=east]"
     },
     {
       "char": "p",
+      "block": "embellishcraft:basalt_button[facing=east,face=floor]"
+    },
+    {
+      "char": "q",
       "block": "apocalypsenow:iron_locker[facing=west]",
       "loot": "chestloot"
     },
     {
-      "char": "q",
+      "char": "r",
       "block": "pfm:stripped_dead_biomesoplenty_chair[facing=south]"
     },
     {
-      "char": "r",
+      "char": "s",
       "block": "pfm:dark_concrete_kitchen_wall_counter[facing=east]"
     },
     {
-      "char": "s",
+      "char": "t",
       "block": "zombie_extreme:shelf[facing=east]"
     },
     {
-      "char": "t",
+      "char": "u",
       "block": "pfm:stripped_dead_biomesoplenty_chair[facing=west]"
     },
     {
-      "char": "u",
+      "char": "w",
       "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
     },
     {
-      "char": "w",
+      "char": "x",
       "block": "pfm:trashcan[open=false]"
     },
     {
-      "char": "x",
+      "char": "y",
       "block": "immersiveengineering:metal_barrel"
     },
     {
-      "char": "y",
+      "char": "A",
       "block": "immersiveengineering:heavy_engineering"
     },
     {
-      "char": "A",
+      "char": "B",
       "block": "minecraft:repeating_command_block[facing=up,conditional=false]",
       "tag": {
         "conditionMet": 1,
@@ -108,62 +112,62 @@
       }
     },
     {
-      "char": "B",
+      "char": "C",
       "block": "pfm:dark_concrete_kitchen_counter[facing=south]"
     },
     {
-      "char": "C",
+      "char": "D",
       "block": "pfm:dark_concrete_kitchen_counter[facing=west]"
     },
     {
-      "char": "D",
+      "char": "E",
       "block": "create:mechanical_arm",
       "tag": {
         "id": "create:mechanical_arm"
       }
     },
     {
-      "char": "E",
+      "char": "F",
       "block": "pfm:dark_concrete_kitchen_sink[facing=west,level=0]"
     },
     {
-      "char": "F",
+      "char": "I",
       "block": "zombie_extreme:tool_box[facing=north]"
     },
     {
-      "char": "I",
+      "char": "J",
       "block": "zombie_extreme:computer_monitor[facing=west]"
     },
     {
-      "char": "J",
+      "char": "K",
       "block": "embellishcraft:warning_steel_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
-      "char": "K",
+      "char": "L",
       "block": "create:framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "L",
+      "char": "M",
       "block": "zombie_extreme:radio_installation[facing=west]"
     },
     {
-      "char": "M",
+      "char": "N",
       "block": "immersiveengineering:sheetmetal_iron"
     },
     {
-      "char": "N",
+      "char": "O",
       "block": "create:display_board[waterlogged=false,up=true,facing=west,down=false]"
     },
     {
-      "char": "O",
+      "char": "P",
       "block": "immersiveengineering:rs_engineering"
     },
     {
-      "char": "P",
+      "char": "Q",
       "block": "immersiveengineering:light_engineering"
     },
     {
-      "char": "Q",
+      "char": "R",
       "block": "clickmachine:auto_clicker[facing=north]",
       "tag": {
         "speed_index": 8,
@@ -182,39 +186,39 @@
       }
     },
     {
-      "char": "R",
+      "char": "S",
       "block": "embellishcraft:air_duct"
     },
     {
-      "char": "S",
+      "char": "T",
       "block": "create:display_board[waterlogged=false,up=false,facing=west,down=true]"
     },
     {
-      "char": "T",
+      "char": "U",
       "block": "embellishcraft:vent_air_duct[facing=down]"
     },
     {
-      "char": "U",
+      "char": "V",
       "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "V",
+      "char": "W",
       "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "W",
+      "char": "X",
       "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
-      "char": "X",
+      "char": "Y",
       "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "Y",
+      "char": "Z",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "Z",
+      "char": "0",
       "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     }
   ]

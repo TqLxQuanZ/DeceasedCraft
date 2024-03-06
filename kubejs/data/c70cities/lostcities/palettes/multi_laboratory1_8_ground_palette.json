@@ -162,7 +162,7 @@
     },
     {
       "char": "R",
-      "block": "create:framed_glass_door[half=lower,open=false,hinge=right,facing=west]"
+      "block": "create:framed_glass_door[half=lower,open=true,hinge=right,facing=west]"
     },
     {
       "char": "S",
@@ -174,7 +174,7 @@
     },
     {
       "char": "U",
-      "block": "create:framed_glass_door[half=lower,open=false,hinge=left,facing=west]"
+      "block": "create:framed_glass_door[half=lower,open=true,hinge=left,facing=west]"
     },
     {
       "char": "V",
@@ -226,7 +226,7 @@
     },
     {
       "char": "7",
-      "block": "create:framed_glass_door[half=upper,open=false,hinge=right,facing=west]"
+      "block": "create:framed_glass_door[half=upper,open=true,hinge=right,facing=west]"
     },
     {
       "char": "8",
@@ -238,7 +238,7 @@
     },
     {
       "char": "@",
-      "block": "create:framed_glass_door[half=upper,open=false,hinge=left,facing=west]"
+      "block": "create:framed_glass_door[half=upper,open=true,hinge=left,facing=west]"
     },
     {
       "char": "#",

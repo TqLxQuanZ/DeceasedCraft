@@ -43,182 +43,186 @@
     },
     {
       "char": "k",
-      "block": "pfm:stripped_dead_biomesoplenty_chair[facing=south]"
+      "block": "cfm:cyan_kitchen_counter[type=default,facing=east]"
     },
     {
       "char": "l",
-      "block": "create:polished_cut_calcite"
+      "block": "pfm:stripped_dead_biomesoplenty_chair[facing=south]"
     },
     {
       "char": "m",
-      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=north,face=wall]"
+      "block": "create:polished_cut_calcite"
     },
     {
       "char": "n",
-      "block": "embellishcraft:smooth_basalt_pressure_plate"
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=north,face=wall]"
     },
     {
       "char": "o",
-      "block": "refinedstorage:disk_drive"
+      "block": "embellishcraft:smooth_basalt_pressure_plate"
     },
     {
       "char": "p",
-      "block": "embellishcraft:warning_steel_door[half=lower,open=false,hinge=left,facing=east]"
+      "block": "refinedstorage:disk_drive"
     },
     {
       "char": "q",
-      "block": "zombie_extreme:shelf[facing=west]"
+      "block": "embellishcraft:warning_steel_door[half=lower,open=false,hinge=left,facing=east]"
     },
     {
       "char": "r",
-      "block": "zombie_extreme:shelf[facing=east]"
+      "block": "zombie_extreme:shelf[facing=west]"
     },
     {
       "char": "s",
-      "block": "pfm:stripped_dead_biomesoplenty_chair[facing=west]"
+      "block": "zombie_extreme:shelf[facing=east]"
     },
     {
       "char": "t",
-      "block": "zombie_extreme:tool_box[facing=west]"
+      "block": "pfm:stripped_dead_biomesoplenty_chair[facing=west]"
     },
     {
       "char": "u",
-      "block": "minecraft:basalt[axis=y]"
+      "block": "zombie_extreme:tool_box[facing=west]"
     },
     {
       "char": "w",
-      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=south]"
+      "block": "minecraft:basalt[axis=y]"
     },
     {
       "char": "x",
-      "block": "pfm:trashcan[open=false]"
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=south]"
     },
     {
       "char": "y",
-      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+      "block": "pfm:trashcan[open=false]"
     },
     {
       "char": "A",
-      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=east]"
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
     },
     {
       "char": "B",
-      "block": "biomesoplenty:flesh"
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=east]"
     },
     {
       "char": "C",
-      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=west]"
+      "block": "biomesoplenty:flesh"
     },
     {
       "char": "D",
-      "block": "biomesoplenty:porous_flesh"
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=west]"
     },
     {
       "char": "E",
-      "block": "pfm:dark_concrete_kitchen_counter[facing=south]"
+      "block": "biomesoplenty:porous_flesh"
     },
     {
       "char": "F",
-      "block": "pfm:dark_concrete_kitchen_counter[facing=west]"
+      "block": "pfm:dark_concrete_kitchen_counter[facing=south]"
     },
     {
       "char": "I",
-      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=north]"
+      "block": "pfm:dark_concrete_kitchen_counter[facing=west]"
     },
     {
       "char": "J",
-      "block": "pfm:dark_concrete_kitchen_sink[facing=west,level=0]"
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=north]"
     },
     {
       "char": "K",
-      "block": "zombie_extreme:computer_monitor[facing=west]"
+      "block": "pfm:dark_concrete_kitchen_sink[facing=west,level=0]"
     },
     {
       "char": "L",
-      "block": "zombie_extreme:radio_installation[facing=west]"
+      "block": "zombie_extreme:computer_monitor[facing=west]"
     },
     {
       "char": "M",
-      "block": "embellishcraft:warning_steel_door[half=upper,open=false,hinge=left,facing=east]"
+      "block": "zombie_extreme:radio_installation[facing=west]"
     },
     {
       "char": "N",
-      "block": "create:framed_glass_pane[waterlogged=false]"
+      "block": "embellishcraft:warning_steel_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
       "char": "O",
-      "block": "create:framed_glass"
+      "block": "create:framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "P",
-      "block": "create:display_board[waterlogged=false,up=true,facing=west,down=false]"
+      "block": "create:framed_glass"
     },
     {
       "char": "Q",
-      "block": "create:fluid_pipe[waterlogged=false,up=false,down=false]"
+      "block": "create:display_board[waterlogged=false,up=true,facing=west,down=false]"
     },
     {
       "char": "R",
-      "block": "biomesoplenty:flesh_tendons"
+      "block": "create:fluid_pipe[waterlogged=false,up=false,down=false]"
     },
     {
       "char": "S",
-      "block": "rocks:geyser"
+      "block": "biomesoplenty:flesh_tendons"
     },
     {
       "char": "T",
-      "block": "embellishcraft:air_duct"
+      "block": "rocks:geyser"
     },
     {
       "char": "U",
-      "block": "createdeco:white_decal[waterlogged=false,facing=south]"
+      "block": "embellishcraft:air_duct"
     },
     {
       "char": "V",
-      "block": "create:display_board[waterlogged=false,up=false,facing=west,down=true]"
+      "block": "createdeco:white_decal[waterlogged=false,facing=south]"
     },
     {
       "char": "W",
-      "block": "biomesoplenty:flesh_tendons_strand"
+      "block": "create:display_board[waterlogged=false,up=false,facing=west,down=true]"
     },
     {
       "char": "X",
-      "block": "create:fluid_pipe[waterlogged=false,up=true,down=false]"
+      "block": "biomesoplenty:flesh_tendons_strand"
     },
     {
       "char": "Y",
-      "block": "embellishcraft:vent_air_duct[facing=down]"
+      "block": "create:fluid_pipe[waterlogged=false,up=true,down=false]"
     },
     {
       "char": "Z",
-      "block": "create:fluid_pipe[waterlogged=false,up=false,down=true]"
+      "block": "embellishcraft:vent_air_duct[facing=down]"
     },
     {
       "char": "0",
-      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
+      "block": "create:fluid_pipe[waterlogged=false,up=false,down=true]"
     },
     {
       "char": "1",
-      "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+      "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
     },
     {
       "char": "2",
-      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
+      "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
       "char": "3",
-      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
+      "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     },
     {
       "char": "4",
-      "block": "minecraft:chain[waterlogged=false,axis=y]"
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     },
     {
       "char": "5",
-      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+      "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
       "char": "6",
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "7",
       "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     }
   ]

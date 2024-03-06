@@ -315,22 +315,6 @@
       }
     },
     {
-      "mob": "undead_revamp2:thebidy",
-      "dimension": "minecraft:overworld",
-      "minlight": 0,
-      "maxlight": 3,
-      "maxheight": 61,
-      "result": "allow",
-      "nbt": {
-        "Attributes": [
-          {
-            "Base": 2.0,
-            "Name": "generic.armor"
-          }
-        ]
-      }
-    },
-    {
         "mob": ["undead_revamp2:thebidy",
                 "undead_revamp2:thespitter",
                 "undead_revamp2:thepregnant",
@@ -524,13 +508,18 @@
         }
     },
     {
-        "mob": ["zombie_extreme:infected_juggernaut",
-                "zombie_extreme:infected_hazmat",
+        "mob": ["zombie_extreme:infected_hazmat",
                 "zombie_extreme:bomber",
                 "zombie_extreme:boomer",
                 "zombie_extreme:clicker",
                 "zombie_extreme:devastated"],
         "building": [
+            "c70cities:multi_militarybase_0",
+            "c70cities:multi_militarybase_1",
+            "c70cities:multi_militarybase_2",
+            "c70cities:multi_militarybase_3",
+            "c70cities:multi_militarybase_4",
+            "c70cities:multi_militarybase_5",
             "c70cities:multi_laboratory1_0",
             "c70cities:multi_laboratory1_1",
             "c70cities:multi_laboratory1_2",
@@ -1315,7 +1304,7 @@
       "onjoin": true,
       "instreet": true,
       "nodespawn": true,
-      "healthadd": 3000.0,
+      "healthadd": 2000.0,
       "damageadd": 500.0,
       "result": "allow",
       "nbt": {
@@ -1644,8 +1633,8 @@
       "mob": ["alexsmobs:centipede_body", "alexsmobs:centipede_tail"],
 		  "dimension": "deceasedcraft:abyss",
       "result": "default",
-      "damageadd": 25.0,
-      "healthadd": 200.0,
+      "damageadd": 50.0,
+      "healthadd": 300.0,
       "onjoin": true,
       "nbt": {
         "Attributes": [
@@ -1662,8 +1651,8 @@
       "minlight": 0,
       "maxlight": 3, 
       "result": "allow",
-      "damageadd": 25.0,
-      "healthadd": 200.0,
+      "damageadd": 50.0,
+      "healthadd": 300.0,
       "onjoin": true,
       "nbt": {
         "SegCount": 20,

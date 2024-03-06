@@ -1,0 +1,37 @@
+{
+  "name": "stair_deadzone_2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:mossy_stone_bricks"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:cracked_stone_bricks"
+    },
+    {
+      "char": "c",
+      "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "d",
+      "block": "biomesoplenty:dead_grass"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:dead_bush"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:iron_bars[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:redstone_torch[lit=true]"
+    }
+  ]
+}
