@@ -98,6 +98,7 @@ import crafttweaker.api.resource.ResourceLocation;
 <tag:blocks:lostcities:lights>.add(<block:quark:paper_lantern>);
 <tag:blocks:lostcities:lights>.add(<block:quark:blaze_lantern>);
 <tag:blocks:lostcities:lights>.add(<block:immersiveengineering:lantern>);
+<tag:blocks:lostcities:lights>.add(<block:buildersdelight:lantern_4>);
 <tag:blocks:lostcities:lights>.add(<tag:blocks:another_furniture:lamps>);
 
 <tag:blocks:car:drivable_blocks>.add(<block:immersivepetroleum:asphalt>);
