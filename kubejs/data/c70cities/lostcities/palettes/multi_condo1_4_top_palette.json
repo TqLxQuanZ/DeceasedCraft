@@ -1,0 +1,76 @@
+{
+  "name": "multi_condo1_4_top_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=west]"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "d",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:rusty_rungs[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "f",
+      "block": "create:gearbox[axis=x]",
+      "tag": {
+        "id": "create:gearbox"
+      }
+    },
+    {
+      "char": "g",
+      "block": "create:cogwheel[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "h",
+      "block": "embellishcraft:rusty_rungs[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "i",
+      "block": "create:shaft[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "j",
+      "block": "create:elevator_pulley[facing=east]",
+      "tag": {
+        "id": "create:elevator_pulley"
+      }
+    },
+    {
+      "char": "k",
+      "block": "create:gearbox[axis=y]",
+      "tag": {
+        "id": "create:gearbox"
+      }
+    },
+    {
+      "char": "l",
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    {
+      "char": "m",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=west,face=floor]"
+    },
+    {
+      "char": "n",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=south,face=floor]"
+    }
+  ]
+}

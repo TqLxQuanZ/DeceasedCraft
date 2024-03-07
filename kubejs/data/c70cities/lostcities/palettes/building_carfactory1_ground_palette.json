@@ -1,0 +1,289 @@
+{
+  "name": "building_carfactory1_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cobblestone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "apocalypsenow:concrete_bricks"
+    },
+    {
+      "char": "d",
+      "block": "car:car_workshop_outter[position=0]"
+    },
+    {
+      "char": "e",
+      "block": "buildersdelight:industrial_1[facing=south]"
+    },
+    {
+      "char": "f",
+      "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "car:car_workshop"
+    },
+    {
+      "char": "h",
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "char": "i",
+      "block": "buildersdelight:industrial_1[facing=east]"
+    },
+    {
+      "char": "j",
+      "block": "biomesoplenty:dead_grass"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:dead_bush"
+    },
+    {
+      "char": "l",
+      "block": "apocalypsenow:petrol_barrel"
+    },
+    {
+      "char": "m",
+      "block": "apocalypsenow:pallet_slab[waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "biomesoplenty:dead_leaves[persistent=true]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:stone_button[facing=north,face=wall]"
+    },
+    {
+      "char": "p",
+      "block": "apocalypsenow:pile_of_tires[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "r",
+      "block": "apocalypsenow:pallet[waterlogged=false]"
+    },
+    {
+      "char": "s",
+      "block": "apocalypsenow:pile_of_tires[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:coal_block"
+    },
+    {
+      "char": "u",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate"
+    },
+    {
+      "char": "w",
+      "block": "embellishcraft:gray_corrugated_metal_plate"
+    },
+    {
+      "char": "x",
+      "block": "apocalypsenow:pile_of_tires[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:stone_button[facing=south,face=wall]"
+    },
+    {
+      "char": "A",
+      "block": "zombie_extreme:empty_cans[facing=west]"
+    },
+    {
+      "char": "B",
+      "block": "zombie_extreme:tool_box[facing=east]"
+    },
+    {
+      "char": "C",
+      "block": "zombie_extreme:empty_cans[facing=east]"
+    },
+    {
+      "char": "D",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "E",
+      "block": "apocalypsenow:iron_locker[facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "F",
+      "block": "car:gas_station[facing=west]",
+      "tag": {
+        "fluid": {
+          "FluidName": "immersivepetroleum:gasoline",
+          "Amount": 4000
+        }
+      }
+    },
+    {
+      "char": "I",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "J",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "K",
+      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "L",
+      "block": "zombie_extreme:shelf[facing=east]"
+    },
+    {
+      "char": "M",
+      "block": "zombie_extreme:shelf[facing=west]"
+    },
+    {
+      "char": "N",
+      "block": "buildersdelight:industrial_3"
+    },
+    {
+      "char": "O",
+      "block": "buildersdelight:industrial_4[facing=north]"
+    },
+    {
+      "char": "P",
+      "block": "quark:smooth_stone_vertical_slab[type=south,waterlogged=false]"
+    },
+    {
+      "char": "Q",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "R",
+      "block": "quark:smooth_stone_vertical_slab[type=north,waterlogged=false]"
+    },
+    {
+      "char": "S",
+      "block": "apocalypsenow:iron_grid[waterlogged=false]"
+    },
+    {
+      "char": "T",
+      "block": "apocalypsenow:metal_shelves[waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "U",
+      "block": "apocalypsenow:pile_of_tires[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "V",
+      "block": "embellishcraft:steel_wall_ladder[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "W",
+      "block": "car:gas_station_top[facing=west]"
+    },
+    {
+      "char": "X",
+      "block": "minecraft:smooth_stone_slab[type=double,waterlogged=false]"
+    },
+    {
+      "char": "Y",
+      "block": "embellishcraft:steel_wall_ladder[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "Z",
+      "block": "buildersdelight:industrial_2"
+    },
+    {
+      "char": "0",
+      "block": "minecraft:stone_button[facing=east,face=floor]"
+    },
+    {
+      "char": "1",
+      "block": "quark:acacia_post[waterlogged=false,chain_down=false,chain_up=false,axis=z]"
+    },
+    {
+      "char": "2",
+      "block": "embellishcraft:larvikite_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "3",
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    {
+      "char": "4",
+      "block": "immersiveengineering:rs_engineering"
+    },
+    {
+      "char": "5",
+      "block": "quark:stone_brick_vertical_slab[type=north,waterlogged=false]"
+    },
+    {
+      "char": "6",
+      "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "7",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=false]"
+    },
+    {
+      "char": "8",
+      "block": "embellishcraft:smooth_larvikite_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+    },
+    {
+      "char": "9",
+      "block": "create:framed_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "@",
+      "block": "embellishcraft:larvikite_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "#",
+      "block": "embellishcraft:smooth_larvikite_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "$",
+      "block": "embellishcraft:smooth_larvikite_slab[type=double,waterlogged=false]"
+    },
+    {
+      "char": "%",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "^",
+      "block": "embellishcraft:smooth_larvikite_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "&",
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "*",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "(",
+      "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": ")",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "+",
+      "block": "embellishcraft:larvikite_slab[type=bottom,waterlogged=false]"
+    }
+  ]
+}

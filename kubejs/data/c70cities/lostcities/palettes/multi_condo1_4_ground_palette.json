@@ -1,0 +1,88 @@
+{
+  "name": "multi_condo1_4_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "f",
+      "block": "create:redstone_contact[facing=east]"
+    },
+    {
+      "char": "g",
+      "block": "create:display_link[facing=south]",
+      "tag": {
+        "id": "create:display_link"
+      }
+    },
+    {
+      "char": "h",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:black_stained_glass"
+    },
+    {
+      "char": "l",
+      "block": "create:train_door[half=lower,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "m",
+      "block": "create:train_door[half=lower,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "n",
+      "block": "embellishcraft:sturdy_steel_door[half=lower,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "create:train_door[half=upper,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "r",
+      "block": "create:train_door[half=upper,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "s",
+      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    }
+  ]
+}

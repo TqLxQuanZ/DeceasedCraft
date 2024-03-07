@@ -1,0 +1,101 @@
+{
+  "name": "building_carfactory1_floor1_palette_180",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:polished_deepslate"
+    },
+    {
+      "char": "b",
+      "block": "quark:stone_brick_vertical_slab[type=south,waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "quark:stone_brick_vertical_slab[type=east,waterlogged=false]"
+    },
+    {
+      "char": "d",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate"
+    },
+    {
+      "char": "e",
+      "block": "quark:stone_brick_vertical_slab[type=west,waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "g",
+      "block": "immersiveengineering:slab_steel_scaffolding_standard[type=top,waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "create:mechanical_piston[axis_along_first=true,facing=down]"
+    },
+    {
+      "char": "j",
+      "block": "create:mechanical_piston[axis_along_first=false,facing=down]"
+    },
+    {
+      "char": "k",
+      "block": "quark:stone_brick_vertical_slab[type=north,waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "m",
+      "block": "embellishcraft:gray_corrugated_metal_plate_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "embellishcraft:gray_corrugated_metal_plate_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "embellishcraft:gray_corrugated_metal_plate"
+    },
+    {
+      "char": "p",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[type=double,waterlogged=false]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:black_stained_glass"
+    },
+    {
+      "char": "r",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=false]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "u",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "w",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=north,face=floor]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "y",
+      "block": "embellishcraft:vent_air_duct[facing=up]"
+    }
+  ]
+}

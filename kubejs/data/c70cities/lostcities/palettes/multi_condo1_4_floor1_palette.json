@@ -1,0 +1,187 @@
+{
+  "name": "multi_condo1_4_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:andesite_paving_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:andesite_paving_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:andesite_paving"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=south,shape=outer_right]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "m",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "n",
+      "block": "create:redstone_contact[facing=east]"
+    },
+    {
+      "char": "o",
+      "block": "create:display_link[facing=south]",
+      "tag": {
+        "id": "create:display_link"
+      }
+    },
+    {
+      "char": "p",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=north,shape=outer_left]"
+    },
+    {
+      "char": "r",
+      "block": "createdeco:cast_iron_mesh_fence[waterlogged=false]"
+    },
+    {
+      "char": "s",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "embellishcraft:sturdy_steel_door[half=lower,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "u",
+      "block": "embellishcraft:steel_wall_ladder[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "w",
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "x",
+      "block": "create:cogwheel[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "y",
+      "block": "create:gearbox[axis=x]",
+      "tag": {
+        "id": "create:gearbox"
+      }
+    },
+    {
+      "char": "A",
+      "block": "minecraft:black_stained_glass"
+    },
+    {
+      "char": "B",
+      "block": "create:train_door[half=lower,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "C",
+      "block": "create:train_door[half=lower,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "D",
+      "block": "embellishcraft:sturdy_steel_door[half=lower,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "E",
+      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "F",
+      "block": "createdeco:yellow_decal[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "J",
+      "block": "create:hand_crank[waterlogged=false,facing=north]",
+      "tag": {
+        "id": "create:hand_crank"
+      }
+    },
+    {
+      "char": "K",
+      "block": "create:shaft[waterlogged=false,axis=y]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "L",
+      "block": "create:large_cogwheel[waterlogged=false,axis=z]"
+    },
+    {
+      "char": "M",
+      "block": "create:train_door[half=upper,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "N",
+      "block": "create:train_door[half=upper,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "O",
+      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "P",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    },
+    {
+      "char": "Q",
+      "block": "biomesoplenty:stripped_dead_log[axis=z]"
+    },
+    {
+      "char": "R",
+      "block": "createdeco:andesite_trapdoor[waterlogged=false,half=top,open=false,facing=west]"
+    },
+    {
+      "char": "S",
+      "block": "create:cogwheel[waterlogged=false,axis=y]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    }
+  ]
+}
