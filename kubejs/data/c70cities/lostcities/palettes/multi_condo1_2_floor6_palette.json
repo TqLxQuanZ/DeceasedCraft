@@ -11,23 +11,23 @@
     },
     {
       "char": "c",
-      "block": "create:polished_cut_diorite"
-    },
-    {
-      "char": "d",
       "block": "minecraft:polished_andesite"
     },
     {
-      "char": "e",
+      "char": "d",
       "block": "minecraft:spruce_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
-      "char": "f",
+      "char": "e",
       "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "g",
+      "char": "f",
       "block": "create:cut_limestone"
+    },
+    {
+      "char": "g",
+      "block": "create:polished_cut_diorite"
     },
     {
       "char": "h",
@@ -186,18 +186,22 @@
     },
     {
       "char": "V",
-      "block": "minecraft:smooth_stone"
+      "block": "embellishcraft:smooth_marble_slab[type=top,waterlogged=false]"
     },
     {
       "char": "W",
-      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+      "block": "minecraft:smooth_stone"
     },
     {
       "char": "X",
-      "block": "create:andesite_bars[waterlogged=false]"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "Y",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "Z",
       "block": "buildersdelight:industrial_flat_8[waterlogged=false,facing=north,face=ceiling]"
     }
   ]

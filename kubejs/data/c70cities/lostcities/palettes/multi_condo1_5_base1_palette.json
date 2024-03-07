@@ -43,15 +43,23 @@
     },
     {
       "char": "k",
-      "block": "embellishcraft:smooth_marble_slab[type=top,waterlogged=false]"
+      "block": "createdeco:magenta_decal[waterlogged=false,facing=east]"
     },
     {
       "char": "l",
-      "block": "embellishcraft:air_duct"
+      "block": "embellishcraft:smooth_marble_slab[type=top,waterlogged=false]"
     },
     {
       "char": "m",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "n",
       "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "o",
+      "block": "embellishcraft:smooth_marble_slab[type=bottom,waterlogged=false]"
     }
   ]
 }

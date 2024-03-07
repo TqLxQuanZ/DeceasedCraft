@@ -31,39 +31,39 @@
     },
     {
       "char": "h",
-      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=right,facing=east]"
-    },
-    {
-      "char": "i",
-      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=left,facing=west]"
-    },
-    {
-      "char": "j",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
-    },
-    {
-      "char": "k",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
-    },
-    {
-      "char": "l",
-      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=right,facing=east]"
-    },
-    {
-      "char": "m",
-      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=left,facing=west]"
-    },
-    {
-      "char": "n",
-      "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
-    },
-    {
-      "char": "o",
       "block": "minecraft:cyan_terracotta"
     },
     {
+      "char": "i",
+      "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=right,facing=east]"
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "m",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=right,facing=east]"
+    },
+    {
       "char": "p",
-      "block": "minecraft:gray_stained_glass_pane[waterlogged=false]"
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
       "char": "q",
@@ -71,11 +71,23 @@
     },
     {
       "char": "r",
-      "block": "minecraft:smooth_stone"
+      "block": "embellishcraft:air_duct"
     },
     {
       "char": "s",
-      "block": "create:andesite_bars[waterlogged=false]"
+      "block": "embellishcraft:vent_air_duct[facing=north]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "w",
+      "block": "simplylight:illuminant_block_on"
     }
   ]
 }

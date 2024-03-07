@@ -31,14 +31,23 @@
     },
     {
       "char": "h",
-      "block": "embellishcraft:andesite_button[facing=north,face=floor]"
+      "block": "minecraft:command_block[facing=south,conditional=false]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "spawnRandomCar"
+      }
     },
     {
       "char": "i",
-      "block": "embellishcraft:air_duct"
+      "block": "embellishcraft:andesite_button[facing=north,face=floor]"
     },
     {
       "char": "j",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "k",
       "block": "minecraft:smooth_stone"
     }
   ]

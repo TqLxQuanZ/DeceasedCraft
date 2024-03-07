@@ -50,94 +50,84 @@
     },
     {
       "char": "l",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "m",
       "block": "create:encased_fan[facing=west]"
     },
     {
-      "char": "n",
+      "char": "m",
       "block": "apocalypsenow:corpsecloth[facing=north]"
     },
     {
-      "char": "o",
+      "char": "n",
       "block": "quark:blossom_button[facing=east,face=floor]"
     },
     {
-      "char": "p",
+      "char": "o",
       "block": "minecraft:ancient_debris"
     },
     {
-      "char": "q",
+      "char": "p",
       "block": "create:gearbox[axis=y]",
       "tag": {
         "id": "create:gearbox"
       }
     },
     {
-      "char": "r",
+      "char": "q",
       "block": "create:shaft[waterlogged=false,axis=x]",
       "tag": {
         "id": "create:shaft"
       }
     },
     {
-      "char": "s",
+      "char": "r",
       "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "t",
+      "char": "s",
       "block": "minecraft:lantern[waterlogged=false,hanging=false]"
     },
     {
-      "char": "u",
+      "char": "t",
       "block": "quark:smooth_stone_vertical_slab[type=west,waterlogged=false]"
     },
     {
-      "char": "w",
+      "char": "u",
       "block": "create:large_cogwheel[waterlogged=false,axis=x]"
     },
     {
-      "char": "x",
+      "char": "w",
       "block": "embellishcraft:marble_wall[waterlogged=false,up=false]"
     },
     {
-      "char": "y",
+      "char": "x",
       "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=east,face=wall]"
     },
     {
-      "char": "A",
+      "char": "y",
       "block": "embellishcraft:air_duct"
     },
     {
-      "char": "B",
+      "char": "A",
       "block": "quark:blossom_button[facing=south,face=floor]"
     },
     {
-      "char": "C",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "D",
+      "char": "B",
       "block": "immersiveengineering:slab_cokebrick[type=bottom,waterlogged=false]"
     },
     {
-      "char": "E",
+      "char": "C",
       "block": "minecraft:soul_lantern[waterlogged=false,hanging=false]"
     },
     {
-      "char": "F",
+      "char": "D",
       "block": "embellishcraft:smooth_marble_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "I",
+      "char": "E",
       "block": "biomesoplenty:stripped_dead_log[axis=z]"
     },
     {
-      "char": "J",
+      "char": "F",
       "block": "minecraft:smooth_stone"
     }
   ]

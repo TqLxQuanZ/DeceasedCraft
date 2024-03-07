@@ -11,43 +11,44 @@
     },
     {
       "char": "c",
-      "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
-    },
-    {
-      "char": "d",
       "block": "minecraft:spruce_leaves[persistent=true]"
     },
     {
-      "char": "e",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
-    },
-    {
-      "char": "f",
+      "char": "d",
       "block": "embellishcraft:smooth_marble"
     },
     {
-      "char": "g",
+      "char": "e",
       "block": "minecraft:polished_andesite"
     },
     {
-      "char": "h",
+      "char": "f",
       "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "i",
+      "char": "g",
       "block": "minecraft:spruce_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
-      "char": "j",
+      "char": "h",
       "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "k",
+      "char": "i",
+      "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "j",
       "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
-      "char": "l",
+      "char": "k",
       "block": "pfm:deepslate_kitchen_drawer[open=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "l",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -80,28 +81,28 @@
     },
     {
       "char": "t",
-      "block": "another_furniture:dark_oak_shutter[type=none,waterlogged=false,open=false,facing=north]"
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
+      "loot": "chestloot"
     },
     {
       "char": "u",
-      "block": "another_furniture:light_gray_stool[waterlogged=false]"
+      "block": "another_furniture:dark_oak_shutter[type=none,waterlogged=false,open=false,facing=north]"
     },
     {
       "char": "w",
-      "block": "another_furniture:dark_oak_shutter[type=none,waterlogged=false,open=false,facing=west]"
+      "block": "another_furniture:light_gray_stool[waterlogged=false]"
     },
     {
       "char": "x",
-      "block": "minecraft:green_wool"
+      "block": "another_furniture:dark_oak_shutter[type=none,waterlogged=false,open=false,facing=west]"
     },
     {
       "char": "y",
-      "block": "another_furniture:dark_oak_shutter[type=none,waterlogged=false,open=false,facing=east]"
+      "block": "minecraft:green_wool"
     },
     {
       "char": "A",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
-      "loot": "chestloot"
+      "block": "another_furniture:dark_oak_shutter[type=none,waterlogged=false,open=false,facing=east]"
     },
     {
       "char": "B",
@@ -166,54 +167,58 @@
     },
     {
       "char": "S",
-      "block": "buildersdelight:industrial_flat_8[waterlogged=false,facing=south,face=ceiling]"
+      "block": "embellishcraft:smooth_marble_slab[type=top,waterlogged=false]"
     },
     {
       "char": "T",
-      "block": "create:andesite_bars[waterlogged=false]"
+      "block": "buildersdelight:industrial_flat_8[waterlogged=false,facing=south,face=ceiling]"
     },
     {
       "char": "U",
-      "block": "simplylight:illuminant_red_block_on"
+      "block": "create:andesite_bars[waterlogged=false]"
     },
     {
       "char": "V",
-      "block": "simplylight:illuminant_magenta_block_on"
+      "block": "simplylight:illuminant_red_block_on"
     },
     {
       "char": "W",
-      "block": "simplylight:illuminant_purple_block_on"
+      "block": "simplylight:illuminant_magenta_block_on"
     },
     {
       "char": "X",
-      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+      "block": "simplylight:illuminant_purple_block_on"
     },
     {
       "char": "Y",
-      "block": "simplylight:illuminant_blue_block_on"
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "Z",
-      "block": "simplylight:illuminant_light_blue_block_on"
+      "block": "simplylight:illuminant_blue_block_on"
     },
     {
       "char": "0",
-      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
+      "block": "simplylight:illuminant_light_blue_block_on"
     },
     {
       "char": "1",
-      "block": "simplylight:illuminant_lime_block_on"
+      "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
     },
     {
       "char": "2",
-      "block": "simplylight:illuminant_yellow_block_on"
+      "block": "simplylight:illuminant_lime_block_on"
     },
     {
       "char": "3",
-      "block": "simplylight:illuminant_orange_block_on"
+      "block": "simplylight:illuminant_yellow_block_on"
     },
     {
       "char": "4",
+      "block": "simplylight:illuminant_orange_block_on"
+    },
+    {
+      "char": "5",
       "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     }
   ]

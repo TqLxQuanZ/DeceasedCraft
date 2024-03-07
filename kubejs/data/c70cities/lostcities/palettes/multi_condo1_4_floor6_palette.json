@@ -111,102 +111,125 @@
     },
     {
       "char": "C",
-      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=west,face=wall]"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "D",
-      "block": "immersiveengineering:metal_barrel"
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=west,face=wall]"
     },
     {
       "char": "E",
-      "block": "minecraft:black_stained_glass"
+      "block": "immersiveengineering:metal_barrel"
     },
     {
       "char": "F",
-      "block": "create:train_door[half=lower,open=false,hinge=right,facing=west]"
+      "block": "minecraft:black_stained_glass"
     },
     {
       "char": "I",
-      "block": "create:train_door[half=lower,open=false,hinge=left,facing=west]"
+      "block": "create:train_door[half=lower,open=false,hinge=right,facing=west]"
     },
     {
       "char": "J",
-      "block": "embellishcraft:sturdy_steel_door[half=lower,open=false,hinge=left,facing=west]"
+      "block": "create:train_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
       "char": "K",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+      "block": "quark:iron_button[facing=west,face=wall]"
     },
     {
       "char": "L",
-      "block": "pfm:mesh_trashcan[facing=north]"
+      "block": "embellishcraft:sturdy_steel_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
       "char": "M",
-      "block": "pfm:basic_sink[facing=north,level=0]"
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
       "char": "N",
-      "block": "pfm:basic_toilet[facing=north,toilet=empty]"
+      "block": "pfm:mesh_trashcan[facing=north]"
     },
     {
       "char": "O",
-      "block": "quark:spruce_hedge[waterlogged=false]"
+      "block": "pfm:basic_sink[facing=north,level=0]"
     },
     {
       "char": "P",
-      "block": "ag_day_counter:calendar[waterlogged=false,facing=north]"
+      "block": "pfm:basic_toilet[facing=north,toilet=empty]"
     },
     {
       "char": "Q",
-      "block": "minecraft:heavy_weighted_pressure_plate"
+      "block": "quark:spruce_hedge[waterlogged=false]"
     },
     {
       "char": "R",
-      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=right,facing=west]"
+      "block": "ag_day_counter:calendar[waterlogged=false,facing=north]"
     },
     {
       "char": "S",
-      "block": "createdeco:yellow_decal[waterlogged=false,facing=west]"
+      "block": "minecraft:heavy_weighted_pressure_plate"
     },
     {
       "char": "T",
-      "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
+      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
       "char": "U",
-      "block": "embellishcraft:warning_steel_door[half=upper,open=false,hinge=left,facing=north]"
+      "block": "createdeco:yellow_decal[waterlogged=false,facing=west]"
     },
     {
       "char": "V",
-      "block": "embellishcraft:warning_steel_door[half=upper,open=false,hinge=right,facing=north]"
+      "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
     },
     {
       "char": "W",
-      "block": "embellishcraft:air_duct"
+      "block": "embellishcraft:warning_steel_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
       "char": "X",
-      "block": "create:train_door[half=upper,open=false,hinge=right,facing=west]"
+      "block": "embellishcraft:warning_steel_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
       "char": "Y",
-      "block": "create:train_door[half=upper,open=false,hinge=left,facing=west]"
+      "block": "embellishcraft:air_duct"
     },
     {
       "char": "Z",
-      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=left,facing=west]"
+      "block": "create:train_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
       "char": "0",
-      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+      "block": "create:train_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
       "char": "1",
-      "block": "immersiveengineering:connector_hv[waterlogged=false,facing=down]"
+      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
       "char": "2",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    },
+    {
+      "char": "3",
+      "block": "immersiveengineering:connector_hv[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "4",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "5",
+      "block": "create:nixie_tube[waterlogged=false,double_face=ceiling,facing=south]",
+      "tag": {
+        "id": "create:nixie_tube"
+      }
+    },
+    {
+      "char": "6",
+      "block": "embellishcraft:polished_marble_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "7",
       "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     }
   ]

@@ -180,18 +180,22 @@
     },
     {
       "char": "U",
-      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+      "block": "embellishcraft:smooth_marble_slab[type=top,waterlogged=false]"
     },
     {
       "char": "V",
-      "block": "minecraft:smooth_stone"
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
       "char": "W",
-      "block": "create:andesite_bars[waterlogged=false]"
+      "block": "minecraft:smooth_stone"
     },
     {
       "char": "X",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "Y",
       "block": "buildersdelight:industrial_flat_8[waterlogged=false,facing=north,face=ceiling]"
     }
   ]

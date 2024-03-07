@@ -47,26 +47,86 @@
     },
     {
       "char": "l",
-      "block": "createdeco:cast_iron_mesh_fence[waterlogged=false]"
+      "block": "immersiveengineering:metal_barrel"
     },
     {
       "char": "m",
-      "block": "create:cut_limestone_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+      "block": "createdeco:cast_iron_mesh_fence[waterlogged=false]"
     },
     {
       "char": "n",
-      "block": "create:cut_limestone_slab[type=bottom,waterlogged=false]"
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=south]"
     },
     {
       "char": "o",
-      "block": "create:cut_limestone_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+      "block": "create:cut_limestone_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
       "char": "p",
-      "block": "minecraft:lightning_rod[waterlogged=false,facing=up]"
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=east]"
     },
     {
       "char": "q",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "s",
+      "block": "create:cut_limestone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "t",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "u",
+      "block": "create:cut_limestone_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "w",
+      "block": "immersiveengineering:treated_fence[waterlogged=false]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:repeating_command_block[facing=west,conditional=false]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "execute if block ~1 ~1 ~ immersiveengineering:tank run fill ~ ~1 ~ ~ ~ ~ air"
+      }
+    },
+    {
+      "char": "y",
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "char": "A",
+      "block": "clickmachine:auto_clicker[facing=east]",
+      "tag": {
+        "speed_index": 8,
+        "right_click": 1,
+        "inv": {
+          "Size": 1,
+          "Items": [
+            {
+              "Slot": 0,
+              "id": "immersiveengineering:hammer",
+              "Count": 1
+            }
+          ]
+        },
+        "id": "clickmachine:tile"
+      }
+    },
+    {
+      "char": "B",
+      "block": "minecraft:lightning_rod[waterlogged=false,facing=up]"
+    },
+    {
+      "char": "C",
       "block": "minecraft:redstone_torch[lit=true]"
     }
   ]

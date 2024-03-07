@@ -161,15 +161,15 @@
     },
     {
       "char": "R",
-      "block": "minecraft:lantern[waterlogged=false,hanging=false]"
-    },
-    {
-      "char": "S",
       "block": "minecraft:smooth_stone"
     },
     {
-      "char": "T",
+      "char": "S",
       "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "T",
+      "block": "simplylight:edge_light_top[waterlogged=false]"
     }
   ]
 }
