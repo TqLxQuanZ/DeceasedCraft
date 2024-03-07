@@ -51,19 +51,19 @@
     },
     {
       "char": "m",
-      "block": "minecraft:barrel[open=false,facing=east]"
-    },
-    {
-      "char": "n",
       "block": "pfm:green_simple_sofa[facing=north,shape=left_edge]"
     },
     {
-      "char": "o",
+      "char": "n",
       "block": "pfm:green_simple_sofa[facing=north,shape=right_edge]"
     },
     {
-      "char": "p",
+      "char": "o",
       "block": "cfm:stripped_spruce_coffee_table[waterlogged=false]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
     },
     {
       "char": "q",
@@ -179,70 +179,74 @@
     },
     {
       "char": "V",
-      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=right,facing=north]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "W",
-      "block": "apocalypsenow:broken_tv[facing=south]"
+      "block": "embellishcraft:white_steel_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
       "char": "X",
-      "block": "pfm:gray_mirror[facing=north]"
+      "block": "apocalypsenow:broken_tv[facing=south]"
     },
     {
       "char": "Y",
-      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=left,facing=east]"
+      "block": "pfm:gray_mirror[facing=north]"
     },
     {
       "char": "Z",
-      "block": "createdeco:andesite_door[half=upper,open=false,hinge=left,facing=west]"
+      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
       "char": "0",
-      "block": "pfm:white_shower_towel[facing=west]"
+      "block": "createdeco:andesite_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
       "char": "1",
-      "block": "apocalypsenow:brokenpremiunradio[facing=north]"
+      "block": "pfm:white_shower_towel[facing=west]"
     },
     {
       "char": "2",
-      "block": "pfm:basic_shower_handle[facing=west]"
+      "block": "apocalypsenow:brokenpremiunradio[facing=north]"
     },
     {
       "char": "3",
-      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+      "block": "pfm:basic_shower_handle[facing=west]"
     },
     {
       "char": "4",
-      "block": "pfm:basic_shower_head[facing=east]"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
       "char": "5",
-      "block": "quark:framed_glass_pane[waterlogged=false]"
+      "block": "pfm:basic_shower_head[facing=east]"
     },
     {
       "char": "6",
-      "block": "minecraft:cobweb"
+      "block": "quark:framed_glass_pane[waterlogged=false]"
     },
     {
       "char": "7",
-      "block": "buildersdelight:lantern_2[waterlogged=false,facing=south,face=floor]"
+      "block": "minecraft:cobweb"
     },
     {
       "char": "8",
-      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
+      "block": "buildersdelight:lantern_2[waterlogged=false,facing=south,face=floor]"
     },
     {
       "char": "9",
-      "block": "embellishcraft:air_duct"
+      "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
     },
     {
       "char": "@",
-      "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
+      "block": "embellishcraft:air_duct"
     },
     {
       "char": "#",
+      "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "$",
       "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     }
   ]

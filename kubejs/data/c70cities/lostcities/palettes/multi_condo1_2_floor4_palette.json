@@ -136,11 +136,17 @@
     },
     {
       "char": "K",
-      "block": "pfm:oak_light_gray_simple_bed[occupied=false,part=foot,facing=east]"
+      "block": "pfm:oak_light_gray_simple_bed[occupied=false,part=foot,facing=east]",
+      "tag": {
+        "id": "pfm:bed_block_entity"
+      }
     },
     {
       "char": "L",
-      "block": "pfm:oak_light_gray_simple_bed[occupied=false,part=head,facing=east]"
+      "block": "pfm:oak_light_gray_simple_bed[occupied=false,part=head,facing=east]",
+      "tag": {
+        "id": "pfm:bed_block_entity"
+      }
     },
     {
       "char": "M",
