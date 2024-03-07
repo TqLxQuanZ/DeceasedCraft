@@ -1,13 +1,14 @@
 {
-  "configVersion": 7,
-  "animationSmoothingSpeed": 20.0,
+  "configVersion": 10,
+  "animationSmoothingSpeed": 0.5,
   "holdingItems": [
     "minecraft:clock",
     "minecraft:soul_lantern",
     "minecraft:compass",
     "minecraft:torch",
     "minecraft:lantern",
-    "minecraft:soul_torch"
+    "minecraft:soul_torch",
+    "minecraft:recovery_compass"
   ],
   "enableAnimationSmoothing": true,
   "enableInWorldMapRendering": true,
@@ -24,7 +25,7 @@
   "dontHoldItemsInBed": true,
   "freezeArmsInBed": true,
   "rotationLock": "NONE",
-  "showLastUsedSword": true,
+  "showLastUsedSword": false,
   "sheathSwords": [
     "minecraft:golden_sword",
     "minecraft:iron_sword",
@@ -34,7 +35,8 @@
     "minecraft:netherite_sword"
   ],
   "enableCrawlingAnimation": true,
-  "holdUpAllItems": false,
+  "holdUpItemsMode": "CONFIG",
+  "holdUpItemOffset": 0.0,
   "itemSwapAnimation": true,
   "tweakElytraAnimation": true,
   "petAnimation": true,
@@ -42,5 +44,7 @@
   "freezingAnimation": true,
   "huggingAnimation": false,
   "narutoRunning": false,
-  "enableInWorldBookRendering": false
+  "enableInWorldBookRendering": false,
+  "disableLegSmoothing": false,
+  "bowAnimation": "VANILLA"
 }
