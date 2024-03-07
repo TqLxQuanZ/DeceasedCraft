@@ -1,0 +1,16 @@
+{
+    "type":"immersiveengineering:mineral_mix",
+    "ores":[
+        {"chance":0.6,"output":{"item":"minecraft:smooth_quartz"}},
+        {"chance":0.3,"output":{"tag":"forge:gems/quartz"}},
+        {"chance":0.05,"output":{"tag":"forge:ores/gold"}},
+        {"chance":0.05,"output":{"tag":"forge:ores/silver"}}
+    ],
+    "spoils":[
+        {"chance":0.2,"output":{"item":"minecraft:calcite"}},
+        {"chance":0.8,"output":{"item":"biomesoplenty:white_sand"}}
+    ],
+    "dimensions":["minecraft:overworld"],
+    "weight":15,
+    "fail_chance":0.05
+}
