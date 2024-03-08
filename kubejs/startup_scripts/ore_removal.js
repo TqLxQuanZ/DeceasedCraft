@@ -17,5 +17,6 @@ onEvent('worldgen.remove', event => {
 					'zombie_extreme:deepslate_lead',
 					'zombie_extreme:deepslate_ruby',
 					'zombie_extreme:deepslate_thorium',
-					'zombie_extreme:deepslate_aluminum' ]
+					'zombie_extreme:deepslate_aluminum',
+					'zombie_extreme:deepslate_titan' ]
 })})

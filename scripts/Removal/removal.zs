@@ -5,23 +5,19 @@ import crafttweaker.api.recipe.CampFireRecipeManager;
 import mods.jei.JEI;
 
 // Cold Sweats
-craftingTable.remove(<item:cold_sweat:soulspring_lamp>);
+recipes.remove(<item:cold_sweat:soulspring_lamp>);
 JEI.hideIngredient(<item:cold_sweat:soulspring_lamp>);
 
 // Removing Zombie Extreme
-craftingTable.removeByModid("zombie_extreme");
-campfire.removeByModid("zombie_extreme");
-furnace.removeByModid("zombie_extreme");
+recipes.removeByModid("zombie_extreme");
 JEI.hideMod("zombie_extreme");
 
 // Removing Undead Revamp
-craftingTable.removeByModid("undead_revamp2");
-campfire.removeByModid("undead_revamp2");
-furnace.removeByModid("undead_revamp2");
+recipes.removeByModid("undead_revamp2");
 JEI.hideMod("undead_revamp2");
 
 // autoclicker
-craftingTable.removeByName("clickmachine:auto_clicker");
+recipes.removeByName("clickmachine:auto_clicker");
 JEI.hideIngredient(<item:clickmachine:auto_clicker>);
 
 // Jetpack
@@ -37,7 +33,7 @@ JEI.hideIngredient(<item:artifacts:everlasting_beef>);
 JEI.hideIngredient(<item:artifacts:eternal_steak>);
 
 // Removing mapperbase
-craftingTable.removeByModid("mapperbase");
+recipes.removeByModid("mapperbase");
 JEI.hideMod("mapperbase");
 
 // Removing aluminium from default smelting recipe
