@@ -320,7 +320,7 @@
 		#Affects how many attacks can be blocked using the umbrella
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 2048
+		durability = 512
 		#Whether umbrellas can be used as a shield
 		is_shield = true
 
