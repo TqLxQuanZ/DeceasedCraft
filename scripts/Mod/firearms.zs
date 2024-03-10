@@ -209,7 +209,7 @@ craftingTable.addShapeless("round45", <item:tac:round45> * 2,
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
 													  );
 
-// round45
+// win 3030
 craftingTable.addShapeless("win_30-30", <item:tac:win_30-30>,
     [<item:contenttweaker:bullet_casing_win3030>, <tag:items:forge:gunpowder>, <tag:items:forge:nuggets/lead>]);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("win_30-30")
@@ -219,6 +219,16 @@ craftingTable.addShapeless("win_30-30", <item:tac:win_30-30>,
                                                       .addOutput(<item:tac:win_30-30> * 2, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:gunpowder>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/lead>))
+													  );
+
+// rpg_missile
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("rpg_missile")
+                                                      .transitionTo(<item:contenttweaker:incomplete_bullet>)
+                                                      .require(<tag:items:forge:plates/steel>)
+                                                      .loops(1)
+                                                      .addOutput(<item:tac:rpg7_missile>, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:tnt>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/steel>))
 													  );
 
 // Advanced Bullet
