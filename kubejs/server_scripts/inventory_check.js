@@ -11,3 +11,12 @@ onEvent('player.inventory.changed', (event) => {
 		event.player.inventory.clear("clickmachine:auto_clicker")
 	}
 });
+
+onEvent('item.entity_interact', (event) => {
+	if (event.target.isPlayer() &&
+			event.item.id == "minecraft:golden_apple" &&
+			event.target.potionEffects.isActive("hordes:infected")) {
+		event.server.runCommandSilent('effect clear ' + event.target + ' hordes:infected')
+		event.item.count--;
+    }
+});
