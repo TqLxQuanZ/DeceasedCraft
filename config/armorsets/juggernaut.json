@@ -50,13 +50,6 @@
       "interactionType": "immunity",
       "description": "§6 Grants Weakness Immunity",
       "onlyImmuneToNewEffects": true
-    },
-    {
-      "type": "effect",
-      "name": "minecraft:slowness",
-      "interactionType": "immunity",
-      "description": "§6 Grants Slowness Immunity",
-      "onlyImmuneToNewEffects": true
     }
   ],
   "fullSetBonuses": [
@@ -86,7 +79,7 @@
       "interactionType": "self",
       "attributeOperation": 2,
       "modifierUUID": "01ef3ab2-92bd-11ee-b9d1-0242ac120002",
-      "description": "§c -30% Movement Speed",
+      "description": "§c -20% Movement Speed",
       "hideBonusDescription": false
     },
     {
@@ -94,13 +87,6 @@
       "name": "minecraft:weakness",
       "interactionType": "immunity",
       "description": "§6 Grants Weakness Immunity",
-      "onlyImmuneToNewEffects": true
-    },
-    {
-      "type": "effect",
-      "name": "minecraft:slowness",
-      "interactionType": "immunity",
-      "description": "§6 Grants Slowness Immunity",
       "onlyImmuneToNewEffects": true
     }
   ],
