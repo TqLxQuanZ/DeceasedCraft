@@ -364,17 +364,17 @@
 	},
 	{
 		"mob": "minecraft:blaze",
-		"persecond": 0.5,
+		"persecond": 1.0,
 		"attempts": 30,
 		"amount": {
 		  "minimum": 1,
-		  "maximum": 2,
+		  "maximum": 3,
 		  "groupdistance": 2
 		},
 		"conditions": {
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
-		  "mindist": 25,
+		  "mindist": 15,
 		  "maxdist": 180,
 		  "minheight": 45,
 		  "maxheight": 300,
