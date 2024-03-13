@@ -41,8 +41,6 @@ blastFurnace.remove(<item:immersiveengineering:ingot_aluminum>);
 furnace.remove(<item:immersiveengineering:ingot_aluminum>);
 
 // Turrets
-craftingTable.removeByName("immersiveengineering:crafting/empty_shell");
-<recipetype:immersiveengineering:bottling_machine>.removeByName("immersiveengineering:bottling/empty_shell");
 <recipetype:immersiveengineering:blueprint>.removeByName("immersiveengineering:blueprint/bullet_homing");
 <recipetype:immersiveengineering:blueprint>.removeByName("immersiveengineering:blueprint/bullet_wolfpack");
 JEI.hideIngredient(<item:immersiveengineering:homing>);
