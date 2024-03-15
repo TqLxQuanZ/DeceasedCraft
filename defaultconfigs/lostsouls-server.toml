@@ -26,11 +26,11 @@
 	#This message is given when the player tries to open a chest in a haunted building
 	messageUnsafeBuilding = "The building isn't safe enough!"
 	#This message is given when the player enters a haunted building for the first time
-	messageBuildingHaunted = "Hordes are showing up in this building!"
+	messageBuildingHaunted = "building.haunted.enter"
 	#This message is given when the player clears a building
-	messageBuildingCleared = "You don't see any new zombies in this building anymore."
+	messageBuildingCleared = "building.haunted.cleared"
 	#This message is given when the player is halfway clearing a building
-	messageBuildingHalfway = "It seems to be getting lesser..."
+	messageBuildingHalfway = "building.haunted.halfway"
 	#The amount of ticks that the server waits before checking for new spawns
 	#Range: 1 ~ 1000000
 	serverTickTimeout = 5
