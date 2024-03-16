@@ -1,5 +1,5 @@
 {
-  "armorSetName": "Military Beret",
+  "armorSetName": "armors.military_beret.title",
   "head": {
     "itemKey": "apocalypsenow:beret_helmet",
     "mixAndMatch": [
@@ -22,7 +22,7 @@
       "interactionType": "self",
       "attributeOperation": 2,
       "modifierUUID": "b11b2306-6d1c-4637-a88e-8989629d395e",
-      "description": "§a +10% Attack Speed",
+      "description": "armors.military_beret.description_as",
       "hideBonusDescription": false
     },
     {
@@ -32,7 +32,7 @@
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "80e9d88e-f319-4d5b-abe3-3f7bb5eee824",
-      "description": "§a +10% Jump Height",
+      "description": "armors.military_beret.description_jump",
       "hideBonusDescription": false
     },
     {
@@ -42,7 +42,7 @@
       "interactionType": "self",
       "attributeOperation": 0,
       "modifierUUID": "06e3e700-12e8-49d7-b853-4af35c5da5fc",
-      "description": "§a +1 Knockback Strength",
+      "description": "armors.military_beret.description_knockback",
       "hideBonusDescription": false
     }
   ],

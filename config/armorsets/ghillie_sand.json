@@ -1,5 +1,5 @@
 {
-  "armorSetName": "Sand Camo",
+  "armorSetName": "armors.sand_ghillie.title",
   "head": {
     "itemKey": "apocalypsenow:desertghillie_helmet"
   },
@@ -20,7 +20,7 @@
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "dbaf0673-2b98-438d-8dda-5fb677a797e9",
-      "description": "§a 50% Increased Movement Speed On Sand",
+      "description": "armors.sand_ghillie.description_movement",
       "hideBonusDescription": false,
       "conditions": [
         {

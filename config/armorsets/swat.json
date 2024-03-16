@@ -1,5 +1,5 @@
 {
-  "armorSetName": "SWAT",
+  "armorSetName": "armors.swat.title",
   "head": {
     "itemKey": "apocalypsenow:swat_helmet",
     "mixAndMatch": [
@@ -36,17 +36,17 @@
       "value": 0.0,
       "interactionType": "self",
       "interactionDuration": 300,
-      "description": "§a +10% Damage Reduction",
+      "description": "armors.swat.description_reduction",
       "hideBonusDescription": false
     },
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_speed",
-      "value": 0.1,
+      "value": 0.15,
       "interactionType": "self",
       "attributeOperation": 2,
       "modifierUUID": "0928c2d4-937c-11ee-b9d1-0242ac120002",
-      "description": "§a +10% Attack Speed",
+      "description": "armors.swat.description_as",
       "hideBonusDescription": false
     },
     {
@@ -56,14 +56,14 @@
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "0cfa21f0-937c-11ee-b9d1-0242ac120002",
-      "description": "§a +15% Movement Speed",
+      "description": "armors.swat.description_movement",
       "hideBonusDescription": false
     },
     {
       "type": "effect",
       "name": "minecraft:weakness",
       "interactionType": "immunity",
-      "description": "§6 Grants Weakness Immunity",
+      "description": "armors.swat.description_weakness",
       "onlyImmuneToNewEffects": true
     }
   ],
@@ -75,7 +75,7 @@
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "3023e3fa-937c-11ee-b9d1-0242ac120002",
-      "description": "§d +20% SMG Damage",
+      "description": "armors.swat.description_rifle",
       "hideBonusDescription": false
     },
     {
@@ -84,7 +84,7 @@
       "value": 0.0,
       "interactionType": "self",
       "interactionDuration": 300,
-      "description": "§a +10% Damage Reduction",
+      "description": "armors.swat.description_reduction",
       "hideBonusDescription": false
     },
     {
@@ -94,8 +94,15 @@
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "17bc5b58-937c-11ee-b9d1-0242ac120002",
-      "description": "§a +15% Movement Speed",
+      "description": "armors.swat.description_movement",
       "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "interactionType": "immunity",
+      "description": "armors.swat.description_weakness",
+      "onlyImmuneToNewEffects": true
     }
   ],
   "hideGeneratedTooltip": false

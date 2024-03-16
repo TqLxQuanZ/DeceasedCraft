@@ -1,5 +1,5 @@
 {
-  "armorSetName": "Radiation Protection",
+  "armorSetName": "armors.radiation.title",
   "head": {
     "itemKey": "apocalypsenow:soldier_helmet",
     "mixAndMatch": [
@@ -21,7 +21,7 @@
       "type": "effect",
       "name": "zombie_extreme:radiation_effect",
       "interactionType": "immunity",
-      "description": "§6 Grants Radiation Immunity",
+      "description": "armors.radiation.description_radiation",
       "onlyImmuneToNewEffects": true
     }
   ],

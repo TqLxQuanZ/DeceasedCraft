@@ -1,5 +1,5 @@
 {
-  "armorSetName": "Forest Guard",
+  "armorSetName": "armors.forest_guard.title",
   "head": {
     "itemKey": "apocalypsenow:forestguard_helmet"
   },
@@ -20,7 +20,7 @@
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "766b4e0a-13f3-4e4f-8a2c-49b4f41da5b9",
-      "description": "§d +15% Ranged Damage",
+      "description": "armors.forest_guard.description_ranged_damage",
       "hideBonusDescription": false
     }
   ],

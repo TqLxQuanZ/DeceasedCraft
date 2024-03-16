@@ -1,5 +1,5 @@
 {
-  "armorSetName": "Biohazard",
+  "armorSetName": "armors.biohazard.title",
   "head": {
     "itemKey": "apocalypsenow:biohazard_helmet",
     "mixAndMatch": [
@@ -35,49 +35,49 @@
       "type": "effect",
       "name": "minecraft:poison",
       "interactionType": "immunity",
-      "description": "§6 Grants Poison Immunity",
+      "description": "armors.biohazard.description_poison",
       "onlyImmuneToNewEffects": true
     },
     {
       "type": "effect",
       "name": "minecraft:blindness",
       "interactionType": "immunity",
-      "description": "§6 Grants Blindness Immunity",
+      "description": "armors.biohazard.description_blindness",
       "onlyImmuneToNewEffects": true
     },
     {
       "type": "effect",
       "name": "minecraft:nausea",
       "interactionType": "immunity",
-      "description": "§6 Grants Nausea Immunity",
+      "description": "armors.biohazard.description_nausea",
       "onlyImmuneToNewEffects": true
     },
     {
       "type": "effect",
       "name": "hordes:infected",
       "interactionType": "immunity",
-      "description": "§6 Grants Infection Immunity",
+      "description": "armors.biohazard.description_infection",
       "onlyImmuneToNewEffects": true
     },
     {
       "type": "effect",
       "name": "mutationcraft:mutagen_sickness",
       "interactionType": "immunity",
-      "description": "§6 Grants Mutagen Sickness Immunity",
+      "description": "armors.biohazard.description_mutagen",
       "onlyImmuneToNewEffects": true
     },
     {
       "type": "effect",
       "name": "undead_revamp2:toxicfumes",
       "interactionType": "immunity",
-      "description": "§6 Grants Toxic Fumes Immunity",
+      "description": "armors.biohazard.description_fumes",
       "onlyImmuneToNewEffects": true
     },
     {
       "type": "effect",
       "name": "undead_revamp2:gooed",
       "interactionType": "immunity",
-      "description": "§6 Grants Gooed Immunity",
+      "description": "armors.biohazard.description_gooed",
       "onlyImmuneToNewEffects": true
     }
   ],

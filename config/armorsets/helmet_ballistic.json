@@ -1,5 +1,5 @@
 {
-  "armorSetName": "Ballistic Protection",
+  "armorSetName": "armors.ballistic.title",
   "head": {
     "itemKey": "apocalypsenow:life_jacket_bullet_helmet_helmet"
   },
@@ -8,14 +8,14 @@
       "type": "effect",
       "name": "minecraft:nausea",
       "interactionType": "immunity",
-      "description": "§6 Grants Nausea Immunity",
+      "description": "armors.nausea",
       "onlyImmuneToNewEffects": true
     },
     {
       "type": "effect",
       "name": "minecraft:blindness",
       "interactionType": "immunity",
-      "description": "§6 Grants Blindness Immunity",
+      "description": "armors.blindness",
       "onlyImmuneToNewEffects": true
     }
   ],

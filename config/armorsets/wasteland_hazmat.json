@@ -1,5 +1,5 @@
 {
-  "armorSetName": "Hazmat",
+  "armorSetName": "armors.hazmat.title",
   "head": {
     "itemKey": "apocalypsenow:hazmat_suit_helmet"
   },
@@ -17,28 +17,28 @@
       "type": "effect",
       "name": "minecraft:poison",
       "interactionType": "immunity",
-      "description": "§6 Grants Poison Immunity",
+      "description": "armors.biohazard.description_poison",
       "onlyImmuneToNewEffects": true
     },
     {
       "type": "effect",
       "name": "hordes:infected",
       "interactionType": "immunity",
-      "description": "§6 Grants Infection Immunity",
+      "description": "armors.biohazard.description_infection",
       "onlyImmuneToNewEffects": true
     },
     {
       "type": "effect",
       "name": "undead_revamp2:toxicfumes",
       "interactionType": "immunity",
-      "description": "§6 Grants Toxic Fumes Immunity",
+      "description": "armors.biohazard.description_fumes",
       "onlyImmuneToNewEffects": true
     },
     {
       "type": "effect",
       "name": "undead_revamp2:gooed",
       "interactionType": "immunity",
-      "description": "§6 Grants Gooed Immunity",
+      "description": "armors.biohazard.description_gooed",
       "onlyImmuneToNewEffects": true
     }
   ],

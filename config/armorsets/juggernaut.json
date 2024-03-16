@@ -1,5 +1,5 @@
 {
-  "armorSetName": "Juggernaut",
+  "armorSetName": "armors.juggernaut.title",
   "head": {
     "itemKey": "apocalypsenow:juggernaut_helmet",
     "mixAndMatch": [
@@ -31,7 +31,7 @@
       "value": 2.0,
       "interactionType": "self",
       "interactionDuration": 300,
-      "description": "§a +30% Damage Reduction",
+      "description": "armors.juggernaut.description_reduction",
       "hideBonusDescription": false
     },
     {
@@ -41,14 +41,14 @@
       "interactionType": "self",
       "attributeOperation": 2,
       "modifierUUID": "fd9402a4-92bc-11ee-b9d1-0242ac120002",
-      "description": "§c -30% Movement Speed",
+      "description": "armors.juggernaut.description_movement",
       "hideBonusDescription": false
     },
     {
       "type": "effect",
       "name": "minecraft:weakness",
       "interactionType": "immunity",
-      "description": "§6 Grants Weakness Immunity",
+      "description": "armors.juggernaut.description_weakness",
       "onlyImmuneToNewEffects": true
     }
   ],
@@ -60,7 +60,7 @@
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "162b057e-92bd-11ee-b9d1-0242ac120002",
-      "description": "§d +20% Shotgun Damage",
+      "description": "armors.juggernaut.description_shotgun",
       "hideBonusDescription": false
     },
     {
@@ -69,7 +69,7 @@
       "value": 2.0,
       "interactionType": "self",
       "interactionDuration": 300,
-      "description": "§a +30% Damage Reduction",
+      "description": "armors.juggernaut.description_reduction",
       "hideBonusDescription": false
     },
     {
@@ -79,14 +79,14 @@
       "interactionType": "self",
       "attributeOperation": 2,
       "modifierUUID": "01ef3ab2-92bd-11ee-b9d1-0242ac120002",
-      "description": "§c -20% Movement Speed",
+      "description": "armors.juggernaut.description_movement",
       "hideBonusDescription": false
     },
     {
       "type": "effect",
       "name": "minecraft:weakness",
       "interactionType": "immunity",
-      "description": "§6 Grants Weakness Immunity",
+      "description": "armors.juggernaut.description_weakness",
       "onlyImmuneToNewEffects": true
     }
   ],

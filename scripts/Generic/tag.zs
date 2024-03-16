@@ -94,6 +94,7 @@ import crafttweaker.api.resource.ResourceLocation;
 <tag:blocks:lostcities:lights>.add(<block:simplylight:illuminant_panel>);
 <tag:blocks:lostcities:lights>.add(<block:simplylight:edge_light_top>);
 <tag:blocks:lostcities:lights>.add(<block:simplylight:edge_light>);
+<tag:blocks:lostcities:lights>.add(<block:simplylight:illuminant_light_gray_block_on>);
 <tag:blocks:lostcities:lights>.add(<block:quark:paper_lantern_sakura>);
 <tag:blocks:lostcities:lights>.add(<block:quark:paper_lantern>);
 <tag:blocks:lostcities:lights>.add(<block:quark:blaze_lantern>);

@@ -1,5 +1,5 @@
 {
-  "armorSetName": "Motorcyclist",
+  "armorSetName": "armors.motorcyclist.title",
   "head": {
     "itemKey": "apocalypsenow:black_motorcycle_helmet_helmet",
     "mixAndMatch": [
@@ -11,14 +11,14 @@
       "type": "effect",
       "name": "minecraft:nausea",
       "interactionType": "immunity",
-      "description": "§6 Grants Nausea Immunity",
+      "description": "armors.nausea",
       "onlyImmuneToNewEffects": true
     },
     {
       "type": "effect",
       "name": "minecraft:blindness",
       "interactionType": "immunity",
-      "description": "§6 Grants Blindness Immunity",
+      "description": "armors.blindness",
       "onlyImmuneToNewEffects": true
     }
   ],
