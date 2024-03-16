@@ -130,7 +130,7 @@
     },
     {
       "char": "E",
-      "block": "minecraft:repeating_command_block[facing=north,conditional=false]",
+      "block": "minecraft:repeating_command_block[facing=south,conditional=false]",
       "tag": {
         "conditionMet": 1,
         "auto": 1,
