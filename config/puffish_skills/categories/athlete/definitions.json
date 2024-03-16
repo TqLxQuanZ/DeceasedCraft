@@ -1,7 +1,7 @@
 {
 	"root_sprint_speed+5%": {
-		"title": "+5% Movement Speed",
-		"description": "Gain skill points by walking, running and swimming!",
+		"title": ["§6+5% ", {"translate":"skills.athlete.movement_speed", "color":"gold"}],
+		"description": {"translate":"skills.athlete.description", "color":"white"},
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -21,7 +21,7 @@
 		]
 	},
 	"sprint_speed+2.5%": {
-		"title": "+2.5% Movement Speed",
+		"title": ["+2.5% ", {"translate":"skills.athlete.movement_speed", "color":"white"}],
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -40,7 +40,7 @@
 		]
 	},
 	"sprint_speed+5%": {
-		"title": "+5% Movement Speed",
+		"title": ["§6+5% ", {"translate":"skills.athlete.movement_speed", "color":"gold"}],
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -66,7 +66,7 @@
 		]
 	},
 	"swim_speed+5%": {
-		"title": "+5% Swim Speed",
+		"title": ["+5% ", {"translate":"skills.athlete.swim_speed", "color":"white"}],
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -85,7 +85,7 @@
 		]
 	},
 	"swim_speed+10%": {
-		"title": "+10% Swim Speed",
+		"title": ["§6+10% ", {"translate":"skills.athlete.swim_speed", "color":"gold"}],
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -111,7 +111,7 @@
 		]
 	},
 	"stamina+3%": {
-		"title": "+3% Stamina",
+		"title": ["+3% ", {"translate":"skills.athlete.stamina", "color":"white"}],
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -130,7 +130,7 @@
 		]
 	},
 	"stamina+5%": {
-		"title": "+5% Stamina",
+		"title": ["§6+5% ", {"translate":"skills.athlete.stamina", "color":"gold"}],
 		"frame": {
 			"type": "advancement",
 			"data": {

@@ -1,7 +1,7 @@
 {
 	"root_resistance+5%": {
-		"title": "+10% Natural Healing and 5% Armor Bonus",
-		"description": "Gain skill points by eating variety of foods! Larger foods give more xp!",
+		"title": ["§6+10% ", {"translate":"skills.defense.natural_healing", "color":"gold"}, {"translate":"skills.defense.and", "color":"gold"}, "§6+5% ",{"translate":"skills.defense.total_armor_bonus", "color":"gold"} ],
+		"description": {"translate":"skills.defense.description", "color":"white"},
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -35,7 +35,7 @@
 		]
 	},
 	"healing+25%": {
-		"title": "+25% Natural Healing",
+		"title": ["+25% ", {"translate":"skills.defense.natural_healing", "color":"white"}],
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -54,7 +54,7 @@
 		]
 	},
 	"healing+50%": {
-		"title": "+50% Natural Healing",
+		"title": ["§6+50% ", {"translate":"skills.defense.natural_healing", "color":"gold"}],
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -80,7 +80,7 @@
 		]
 	},
 	"armor+2.5%": {
-		"title": "+2.5% Armor Bonus",
+		"title": ["+2.5% ", {"translate":"skills.defense.total_armor_bonus", "color":"white"}],
 		"icon": {
 			"type": "item",
 			"data": {
@@ -99,7 +99,7 @@
 		]
 	},
 	"armor+5%": {
-		"title": "+5% Armor Bonus",
+		"title": ["§6+5% ", {"translate":"skills.defense.total_armor_bonus", "color":"gold"}],
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -125,7 +125,7 @@
 		]
 	},
 	"health+1": {
-		"title": "+0.5 Heart",
+		"title": ["+0.5 ", {"translate":"skills.defense.health", "color":"white"}],
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -144,7 +144,7 @@
 		]
 	},
 	"health+2": {
-		"title": "+1 Heart",
+		"title": ["§6+1 ", {"translate":"skills.defense.health", "color":"gold"}],
 		"frame": {
 			"type": "advancement",
 			"data": {
