@@ -1,16 +1,34 @@
 {
   "armorSetName": "Biohazard",
   "head": {
-    "itemKey": "apocalypsenow:biohazard_helmet"
+    "itemKey": "apocalypsenow:biohazard_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:contamination_suit_white_helmet",
+      "apocalypsenow:contamination_suit_blue_helmet",
+      "apocalypsenow:contamination_suit_green_helmet"
+    ]
   },
   "chest": {
-    "itemKey": "apocalypsenow:biohazard_chestplate"
+    "itemKey": "apocalypsenow:biohazard_chestplate",
+    "mixAndMatch": [
+      "apocalypsenow:contamination_suit_white_chestplate",
+      "apocalypsenow:contamination_suit_blue_chestplate",
+      "apocalypsenow:contamination_suit_green_chestplate"
+    ]
   },
   "legs": {
-    "itemKey": "apocalypsenow:biohazard_leggings"
+    "itemKey": "apocalypsenow:biohazard_leggings",
+    "mixAndMatch": [
+      "apocalypsenow:contamination_suit_white_leggings",
+      "apocalypsenow:contamination_suit_blue_leggings",
+      "apocalypsenow:contamination_suit_green_leggings"
+    ]
   },
   "boots": {
-    "itemKey": "apocalypsenow:biohazard_boots"
+    "itemKey": "apocalypsenow:biohazard_boots",
+    "mixAndMatch": [
+      "apocalypsenow:contamination_suit_white_boots"
+    ]
   },
   "fullSetBonuses": [
     {

@@ -228,6 +228,56 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:apocalypsenow:balaclava_helmet>.maxDamage = 120;
 
  
+<item:apocalypsenow:white_balaclava_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:white_balaclava_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:white_balaclava_helmet>.maxDamage = 120;
+
+ 
+<item:apocalypsenow:red_balaclava_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:red_balaclava_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:red_balaclava_helmet>.maxDamage = 120;
+
+ 
+<item:apocalypsenow:blue_balaclava_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:blue_balaclava_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:blue_balaclava_helmet>.maxDamage = 120;
+
+ 
+<item:apocalypsenow:green_balaclava_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:green_balaclava_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:green_balaclava_helmet>.maxDamage = 120;
+
+ 
+<item:apocalypsenow:forest_camo_balaclava_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:forest_camo_balaclava_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:forest_camo_balaclava_helmet>.maxDamage = 120;
+
+ 
+<item:apocalypsenow:snow_camo_balaclava_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:snow_camo_balaclava_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:snow_camo_balaclava_helmet>.maxDamage = 120;
+
+ 
+<item:apocalypsenow:urbancamobalaclava_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:urbancamobalaclava_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:urbancamobalaclava_helmet>.maxDamage = 120;
+
+ 
+<item:apocalypsenow:desert_camo_balaclava_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:desert_camo_balaclava_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:desert_camo_balaclava_helmet>.maxDamage = 120;
+
+ 
+<item:apocalypsenow:pink_balaclava_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:pink_balaclava_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:pink_balaclava_helmet>.maxDamage = 120;
+
+ 
+<item:apocalypsenow:visor_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:visor_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:visor_helmet>.maxDamage = 120;
+
+ 
 <item:alexsmobs:frontier_cap>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, []);
 <item:alexsmobs:frontier_cap>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 2.0, AttributeOperation.ADDITION, []);
 <item:alexsmobs:frontier_cap>.maxDamage = 135;
@@ -529,6 +579,11 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:apocalypsenow:red_motorcycle_helmet_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
 <item:apocalypsenow:red_motorcycle_helmet_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
 <item:apocalypsenow:red_motorcycle_helmet_helmet>.maxDamage = 195;
+
+ 
+<item:apocalypsenow:bluemotorcyclehelmet_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:bluemotorcyclehelmet_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:bluemotorcyclehelmet_helmet>.maxDamage = 195;
 
  
 <item:apocalypsenow:gasmask_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
@@ -912,7 +967,7 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
  
 <item:apocalypsenow:biohazard_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
 <item:apocalypsenow:biohazard_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:biohazard_helmet>.maxDamage = 350;
+<item:apocalypsenow:biohazard_helmet>.maxDamage = 500;
 <item:apocalypsenow:biohazard_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:head>]);
 <item:apocalypsenow:biohazard_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
 
@@ -938,6 +993,76 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:apocalypsenow:biohazard_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
 
  
+<item:apocalypsenow:contamination_suit_white_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:contamination_suit_white_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:contamination_suit_white_helmet>.maxDamage = 500;
+<item:apocalypsenow:contamination_suit_white_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:contamination_suit_white_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+
+ 
+<item:apocalypsenow:contamination_suit_white_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:chest>]);
+<item:apocalypsenow:contamination_suit_white_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:apocalypsenow:contamination_suit_white_chestplate>.maxDamage = 336;
+<item:apocalypsenow:contamination_suit_white_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:chest>]);
+<item:apocalypsenow:contamination_suit_white_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+
+ 
+<item:apocalypsenow:contamination_suit_white_leggings>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:legs>]);
+<item:apocalypsenow:contamination_suit_white_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 5.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:apocalypsenow:contamination_suit_white_leggings>.maxDamage = 315;
+<item:apocalypsenow:contamination_suit_white_leggings>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:legs>]);
+<item:apocalypsenow:contamination_suit_white_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+
+ 
+<item:apocalypsenow:contamination_suit_white_boots>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:feet>]);
+<item:apocalypsenow:contamination_suit_white_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+<item:apocalypsenow:contamination_suit_white_boots>.maxDamage = 273;
+<item:apocalypsenow:contamination_suit_white_boots>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:feet>]);
+<item:apocalypsenow:contamination_suit_white_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+
+ 
+<item:apocalypsenow:contamination_suit_blue_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:contamination_suit_blue_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:contamination_suit_blue_helmet>.maxDamage = 500;
+<item:apocalypsenow:contamination_suit_blue_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:contamination_suit_blue_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+
+ 
+<item:apocalypsenow:contamination_suit_blue_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:chest>]);
+<item:apocalypsenow:contamination_suit_blue_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:apocalypsenow:contamination_suit_blue_chestplate>.maxDamage = 336;
+<item:apocalypsenow:contamination_suit_blue_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:chest>]);
+<item:apocalypsenow:contamination_suit_blue_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+
+ 
+<item:apocalypsenow:contamination_suit_blue_leggings>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:legs>]);
+<item:apocalypsenow:contamination_suit_blue_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 5.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:apocalypsenow:contamination_suit_blue_leggings>.maxDamage = 315;
+<item:apocalypsenow:contamination_suit_blue_leggings>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:legs>]);
+<item:apocalypsenow:contamination_suit_blue_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+
+ 
+<item:apocalypsenow:contamination_suit_green_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:contamination_suit_green_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:contamination_suit_green_helmet>.maxDamage = 500;
+<item:apocalypsenow:contamination_suit_green_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:head>]);
+<item:apocalypsenow:contamination_suit_green_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+
+ 
+<item:apocalypsenow:contamination_suit_green_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:chest>]);
+<item:apocalypsenow:contamination_suit_green_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:apocalypsenow:contamination_suit_green_chestplate>.maxDamage = 336;
+<item:apocalypsenow:contamination_suit_green_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:chest>]);
+<item:apocalypsenow:contamination_suit_green_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+
+ 
+<item:apocalypsenow:contamination_suit_green_leggings>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:legs>]);
+<item:apocalypsenow:contamination_suit_green_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 5.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:apocalypsenow:contamination_suit_green_leggings>.maxDamage = 315;
+<item:apocalypsenow:contamination_suit_green_leggings>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:legs>]);
+<item:apocalypsenow:contamination_suit_green_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+
+ 
 <item:create_sa:brass_exoskeleton_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:chest>]);
 <item:create_sa:brass_exoskeleton_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
 <item:create_sa:brass_exoskeleton_chestplate>.maxDamage = 460;
@@ -948,76 +1073,6 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 <item:apocalypsenow:officer_beret_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:chest>]);
 <item:apocalypsenow:officer_beret_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 7.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
 <item:apocalypsenow:officer_beret_chestplate>.maxDamage = 580;
-
- 
-<item:apocalypsenow:officer_beret_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:officer_beret_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:officer_beret_helmet>.maxDamage = 231;
-<item:apocalypsenow:officer_beret_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:officer_beret_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
-
- 
-<item:apocalypsenow:military_beret_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:chest>]);
-<item:apocalypsenow:military_beret_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 7.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
-<item:apocalypsenow:military_beret_chestplate>.maxDamage = 580;
-<item:apocalypsenow:military_beret_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:chest>]);
-<item:apocalypsenow:military_beret_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
-
- 
-<item:apocalypsenow:military_beret_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:military_beret_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:military_beret_helmet>.maxDamage = 231;
-<item:apocalypsenow:military_beret_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:military_beret_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
-
- 
-<item:apocalypsenow:military_pilot_headset_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:chest>]);
-<item:apocalypsenow:military_pilot_headset_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 7.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
-<item:apocalypsenow:military_pilot_headset_chestplate>.maxDamage = 580;
-<item:apocalypsenow:military_pilot_headset_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:chest>]);
-<item:apocalypsenow:military_pilot_headset_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
-
- 
-<item:apocalypsenow:military_pilot_headset_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:military_pilot_headset_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:military_pilot_headset_helmet>.maxDamage = 231;
-<item:apocalypsenow:military_pilot_headset_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:military_pilot_headset_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
-
- 
-<item:apocalypsenow:atlast_7_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:chest>]);
-<item:apocalypsenow:atlast_7_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 7.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
-<item:apocalypsenow:atlast_7_chestplate>.maxDamage = 580;
-<item:apocalypsenow:atlast_7_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:chest>]);
-<item:apocalypsenow:atlast_7_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
-
- 
-<item:apocalypsenow:atlast_7_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:atlast_7_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:atlast_7_helmet>.maxDamage = 231;
-<item:apocalypsenow:atlast_7_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:atlast_7_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
-
- 
-<item:apocalypsenow:life_jacket_bullet_helmet_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:life_jacket_bullet_helmet_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 5.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:life_jacket_bullet_helmet_helmet>.maxDamage = 526;
-<item:apocalypsenow:life_jacket_bullet_helmet_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:life_jacket_bullet_helmet_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
-
- 
-<item:apocalypsenow:beret_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:chest>]);
-<item:apocalypsenow:beret_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 7.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
-<item:apocalypsenow:beret_chestplate>.maxDamage = 580;
-<item:apocalypsenow:beret_chestplate>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:chest>]);
-<item:apocalypsenow:beret_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
-
- 
-<item:apocalypsenow:beret_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor>, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:beret_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "generic.armor", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:beret_helmet>.maxDamage = 231;
-<item:apocalypsenow:beret_helmet>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.armor_toughness>, [<constant:minecraft:equipmentslot:head>]);
-<item:apocalypsenow:beret_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "generic.armor_toughness", 1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
 
  
 #--------------------------- Tier 4 ------------------------------

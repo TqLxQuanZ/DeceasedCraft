@@ -23,6 +23,17 @@ craftingTable.addShapeless("an_money", <item:apocalypsenow:money> * 9, [<item:ap
 													  );
 
 // Apocalypse Now
+craftingTable.removeByName("apocalypsenow:ventblockrecipe");
+craftingTable.addShaped("ventblock", <item:apocalypsenow:ventblock>,
+    [[<item:minecraft:air>, <tag:items:forge:plates/iron>, <item:minecraft:air>],
+    [<tag:items:forge:plates/iron>, <item:minecraft:air>, <tag:items:forge:plates/iron>],
+	[<item:minecraft:air>, <tag:items:forge:plates/iron>, <item:minecraft:air>]]);
+    
+craftingTable.removeByName("apocalypsenow:corpsesackrecipe");
+craftingTable.addShaped("corpsesack", <item:apocalypsenow:corpsesack>,
+    [[<tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>, <tag:items:forge:plates/plastic>],
+	[<item:apocalypsenow:human_flesh>, <item:apocalypsenow:human_flesh>, <item:apocalypsenow:human_flesh>]]);
+
 craftingTable.remove(<item:apocalypsenow:medicalkit>);
 craftingTable.addShaped("medicalkit", <item:apocalypsenow:medicalkit>,
     [[<item:minecraft:air>, <tag:items:forge:plates/aluminum>, <item:minecraft:air>],
