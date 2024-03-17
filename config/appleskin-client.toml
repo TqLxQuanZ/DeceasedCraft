@@ -16,7 +16,7 @@
 	#If true, shows the hunger and saturation values of food in its tooltip automatically (without needing to hold SHIFT)
 	showFoodValuesInTooltipAlways = true
 	#If true, shows estimated health restored by food on the health bar
-	showFoodHealthHudOverlay = true
+	showFoodHealthHudOverlay = false
 	#If true, shows your current saturation level overlayed on the hunger bar
 	showSaturationHudOverlay = true
 	#If true, enables the hunger/saturation/health overlays for food in your off-hand

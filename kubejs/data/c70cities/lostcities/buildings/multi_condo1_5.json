@@ -1,0 +1,88 @@
+{
+  "filler": "G",
+  "rubber": " ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "minfloors": 17,
+  "maxfloors": 17,
+  "mincellars": 5,
+  "maxcellars": 5,
+  "preferslonely": 0.9,
+  "parts": [
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "part": "c70cities:multi_condo1_5_base2",
+      "floor": -5
+    },
+    {
+      "top": false,
+      "cellar": true,
+      "ground": false,
+      "part": "c70cities:multi_condo1_5_base1",
+      "range": "-4,-1"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": true,
+      "part": "c70cities:multi_condo1_5_ground"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_condo1_5_floor7",
+      "floor": 1
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_condo1_5_floor6",
+      "floor": 2
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_condo1_5_floor5",
+      "range": "3,14"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_condo1_5_floor4",
+      "range": "3,14"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_condo1_5_floor3",
+      "range": "3,14"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_condo1_5_floor2",
+      "floor": 15
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_condo1_5_floor1",
+      "floor": 16
+    },
+    {
+      "top": true,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:multi_condo1_5_top"
+    }
+  ]
+}

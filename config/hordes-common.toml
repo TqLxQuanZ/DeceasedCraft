@@ -32,7 +32,7 @@
 	#Set to true to disable natural horde spawns (hordes can only be spawned with commands).
 	hordesCommandOnly = false
 	#How many ticks does the horde pathing ai take before recalculating? (Increase this if you are having server slowdown during horde events.)
-	hordePathingInterval = 10
+	hordePathingInterval = 40
 
 [Infection]
 	#Set to false to completely disable mob infection and anything related to it.

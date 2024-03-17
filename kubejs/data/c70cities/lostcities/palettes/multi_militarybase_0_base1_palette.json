@@ -146,7 +146,7 @@
     },
     {
       "char": "M",
-      "block": "minecraft:barrel[open=false,facing=east]"
+      "block": "quark:spruce_bookshelf"
     },
     {
       "char": "N",
@@ -188,14 +188,18 @@
     },
     {
       "char": "W",
-      "block": "embellishcraft:air_duct"
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
       "char": "X",
-      "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
+      "block": "embellishcraft:air_duct"
     },
     {
       "char": "Y",
+      "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "Z",
       "block": "minecraft:polished_deepslate_slab[type=top,waterlogged=false]"
     }
   ]

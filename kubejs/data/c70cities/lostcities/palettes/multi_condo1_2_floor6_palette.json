@@ -1,0 +1,208 @@
+{
+  "name": "multi_condo1_2_floor6_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "create:cut_limestone"
+    },
+    {
+      "char": "g",
+      "block": "create:polished_cut_diorite"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:spruce_leaves[persistent=true]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "l",
+      "block": "createdeco:andesite_door[half=lower,open=false,hinge=left,facing=north]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:gray_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "pfm:basic_toilet[facing=north,toilet=empty]"
+    },
+    {
+      "char": "o",
+      "block": "pfm:basic_sink[facing=north,level=0]"
+    },
+    {
+      "char": "p",
+      "block": "another_furniture:spruce_shelf[type=single,waterlogged=false,facing=west]"
+    },
+    {
+      "char": "q",
+      "block": "create:cogwheel[waterlogged=false,axis=y]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "r",
+      "block": "quark:iron_rod[facing=down]"
+    },
+    {
+      "char": "s",
+      "block": "create:cogwheel[waterlogged=false,axis=x]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "t",
+      "block": "apocalypsenow:iron_locker[facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "u",
+      "block": "create:schematic_table[facing=east]"
+    },
+    {
+      "char": "w",
+      "block": "create:light_gray_seat[waterlogged=false]"
+    },
+    {
+      "char": "x",
+      "block": "pfm:white_mirror[facing=west]"
+    },
+    {
+      "char": "y",
+      "block": "another_furniture:light_gray_tall_stool[waterlogged=false]"
+    },
+    {
+      "char": "A",
+      "block": "create:encased_fan[facing=south]"
+    },
+    {
+      "char": "B",
+      "block": "another_furniture:spruce_bench[waterlogged=false,type_1=right,facing=north,type_2=right]"
+    },
+    {
+      "char": "C",
+      "block": "another_furniture:spruce_bench[waterlogged=false,type_1=left,facing=north,type_2=left]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "E",
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "I",
+      "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "J",
+      "block": "createdeco:andesite_door[half=upper,open=false,hinge=left,facing=north]"
+    },
+    {
+      "char": "K",
+      "block": "create:large_cogwheel[waterlogged=false,axis=z]"
+    },
+    {
+      "char": "L",
+      "block": "pfm:basic_shower_handle[facing=east]"
+    },
+    {
+      "char": "M",
+      "block": "pfm:light_gray_shower_towel[facing=east]"
+    },
+    {
+      "char": "N",
+      "block": "create:shaft[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "O",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "P",
+      "block": "create:turntable"
+    },
+    {
+      "char": "Q",
+      "block": "quark:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "R",
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+    },
+    {
+      "char": "S",
+      "block": "pfm:basic_shower_head[facing=west]"
+    },
+    {
+      "char": "T",
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+    },
+    {
+      "char": "U",
+      "block": "minecraft:smooth_quartz_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "V",
+      "block": "embellishcraft:smooth_marble_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "W",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "X",
+      "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "Y",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "Z",
+      "block": "buildersdelight:industrial_flat_8[waterlogged=false,facing=north,face=ceiling]"
+    }
+  ]
+}

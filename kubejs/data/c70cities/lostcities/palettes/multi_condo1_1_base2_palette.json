@@ -1,0 +1,54 @@
+{
+  "name": "multi_condo1_1_base2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "b",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "c",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "d",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "e",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "f",
+      "block": "embellishcraft:andesite_button[facing=south,face=floor]"
+    },
+    {
+      "char": "g",
+      "block": "immersiveengineering:concrete_quarter"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:command_block[facing=south,conditional=false]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "spawnRandomCar"
+      }
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:andesite_button[facing=north,face=floor]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:smooth_stone"
+    }
+  ]
+}

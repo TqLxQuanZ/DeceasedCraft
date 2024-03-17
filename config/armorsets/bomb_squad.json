@@ -32,7 +32,7 @@
       "interactionType": "self",
       "attributeOperation": 2,
       "modifierUUID": "e5eed144-92ba-11ee-b9d1-0242ac120002",
-      "description": "§c -50% Movement Speed",
+      "description": "§c -40% Movement Speed",
       "hideBonusDescription": false
     },
     {
@@ -40,13 +40,6 @@
       "name": "minecraft:weakness",
       "interactionType": "immunity",
       "description": "§6 Grants Weakness Immunity",
-      "onlyImmuneToNewEffects": true
-    },
-    {
-      "type": "effect",
-      "name": "minecraft:slowness",
-      "interactionType": "immunity",
-      "description": "§6 Grants Slowness Immunity",
       "onlyImmuneToNewEffects": true
     }
   ],

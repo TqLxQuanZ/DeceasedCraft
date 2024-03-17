@@ -95,7 +95,11 @@
 			y: -1.5d
 			shape: "square"
 			subtitle: "{quest.guides.encyclopedia.subtitle}"
-			description: ["{quest.guides.encyclopedia.description_1}"]
+			description: [
+				"{quest.guides.encyclopedia.description_1}"
+				""
+				"{quest.guides.encyclopedia.description_2}"
+			]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			optional: true
@@ -164,9 +168,20 @@
 				type: "checkmark"
 			}]
 			rewards: [{
-				id: "738E7F57C6407F71"
-				type: "xp"
-				xp: 10
+				id: "69B8DD8F8109487A"
+				type: "item"
+				item: {
+					id: "minecraft:leather_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -224,18 +239,11 @@
 				type: "checkmark"
 				title: "Fallout"
 			}]
-			rewards: [
-				{
-					id: "3335D0C5BC075516"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "272D04C323514B70"
-					type: "item"
-					item: "farmersdelight:melon_popsicle"
-				}
-			]
+			rewards: [{
+				id: "272D04C323514B70"
+				type: "item"
+				item: "farmersdelight:melon_popsicle"
+			}]
 		}
 		{
 			title: "{quest.guides.blaze.title}"
@@ -252,9 +260,9 @@
 				type: "checkmark"
 			}]
 			rewards: [{
-				id: "4F187BF1F22218C1"
-				type: "xp"
-				xp: 10
+				id: "70FAA5FA4F31D11E"
+				type: "item"
+				item: "farmersdelight:honey_cookie"
 			}]
 		}
 		{
@@ -299,6 +307,7 @@
 				"{quest.guides.remnants.description_1}"
 				""
 				"{quest.guides.remnants.description_2}"
+				""
 				"{quest.guides.remnants.description_3}"
 			]
 			dependency_requirement: "one_started"
@@ -310,18 +319,11 @@
 				type: "checkmark"
 				title: "City"
 			}]
-			rewards: [
-				{
-					id: "4F8982C7648B8712"
-					type: "xp"
-					xp: 30
-				}
-				{
-					id: "695A64A7B8CE1938"
-					type: "item"
-					item: "farmersdelight:apple_cider"
-				}
-			]
+			rewards: [{
+				id: "695A64A7B8CE1938"
+				type: "item"
+				item: "farmersdelight:apple_cider"
+			}]
 		}
 		{
 			title: "{quest.guides.cure.title}"
@@ -347,7 +349,7 @@
 				{
 					id: "3DCBA65373B26E6B"
 					type: "xp"
-					xp: 600
+					xp: 500
 				}
 				{
 					id: "16665A904F9A5F67"
@@ -377,19 +379,12 @@
 				id: "38F7E93853FF6AC5"
 				type: "checkmark"
 			}]
-			rewards: [
-				{
-					id: "6B96FFED02194672"
-					type: "xp"
-					xp: 20
-				}
-				{
-					id: "52F9505A7E84B7E7"
-					type: "item"
-					item: "firstaid:plaster"
-					count: 3
-				}
-			]
+			rewards: [{
+				id: "52F9505A7E84B7E7"
+				type: "item"
+				item: "firstaid:plaster"
+				count: 3
+			}]
 		}
 		{
 			title: "{quest.guides.forgotten.title}"
@@ -440,18 +435,17 @@
 				id: "7757AA674A7668AD"
 				type: "checkmark"
 			}]
-			rewards: [
-				{
-					id: "271DE06984E0D9D0"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				id: "7C0D2E7F8E7389CC"
+				type: "item"
+				item: {
+					id: "apocalypsenow:baseball_bat"
+					Count: 1b
+					tag: {
+						Damage: 87
+					}
 				}
-				{
-					id: "56D4936A5296EF3F"
-					type: "item"
-					item: "immersiveengineering:seed"
-				}
-			]
+			}]
 		}
 		{
 			title: "{quest.guides.bodyhealth.title}"

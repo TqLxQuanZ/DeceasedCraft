@@ -108,84 +108,85 @@
     },
     {
       "char": "C",
-      "block": "embellishcraft:oak_plain_door[half=lower,open=true,hinge=left,facing=south]"
-    },
-    {
-      "char": "D",
       "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "quark:stone_vertical_slab[type=west,waterlogged=false]"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "create:vertical_framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "minecraft:iron_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "minecraft:potted_oxeye_daisy"
     },
     {
-      "char": "L",
+      "char": "K",
       "block": "minecraft:heavy_weighted_pressure_plate"
     },
     {
-      "char": "M",
+      "char": "L",
       "block": "minecraft:iron_bars[waterlogged=false]"
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "apocalypsenow:medical_storage[waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
-      "char": "O",
+      "char": "N",
       "block": "embellishcraft:oak_plain_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
-      "char": "P",
-      "block": "embellishcraft:oak_plain_door[half=upper,open=true,hinge=left,facing=south]"
-    },
-    {
-      "char": "Q",
+      "char": "O",
       "block": "minecraft:large_fern[half=lower]"
     },
     {
-      "char": "R",
+      "char": "P",
       "block": "quark:polished_limestone_vertical_slab[type=east,waterlogged=false]"
     },
     {
-      "char": "S",
+      "char": "Q",
       "block": "quark:smooth_stone_vertical_slab[type=west,waterlogged=false]"
     },
     {
-      "char": "T",
+      "char": "R",
       "block": "another_furniture:oak_shelf[type=right,waterlogged=false,facing=north]"
     },
     {
-      "char": "U",
+      "char": "S",
       "block": "another_furniture:oak_shelf[type=left,waterlogged=false,facing=north]"
     },
     {
-      "char": "V",
+      "char": "T",
       "block": "quark:smooth_stone_vertical_slab[type=south,waterlogged=false]"
     },
     {
-      "char": "W",
+      "char": "U",
       "block": "minecraft:large_fern[half=upper]"
     },
     {
-      "char": "X",
+      "char": "V",
       "block": "minecraft:potted_oak_sapling"
+    },
+    {
+      "char": "W",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "X",
+      "block": "minecraft:flower_pot"
     },
     {
       "char": "Y",
@@ -194,19 +195,10 @@
     },
     {
       "char": "Z",
-      "block": "minecraft:flower_pot"
-    },
-    {
-      "char": "0",
-      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "1",
       "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,facing=west,shape=inner_left]"
     },
     {
-      "char": "2",
+      "char": "0",
       "block": "minecraft:stone_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     }
   ]

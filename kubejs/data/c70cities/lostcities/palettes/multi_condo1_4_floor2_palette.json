@@ -1,0 +1,235 @@
+{
+  "name": "multi_condo1_4_floor2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:spruce_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "d",
+      "block": "create:polished_cut_diorite"
+    },
+    {
+      "char": "e",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=south,shape=outer_right]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "l",
+      "block": "create:redstone_contact[facing=east]"
+    },
+    {
+      "char": "m",
+      "block": "create:display_link[facing=south]",
+      "tag": {
+        "id": "create:display_link"
+      }
+    },
+    {
+      "char": "n",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=north,shape=outer_left]"
+    },
+    {
+      "char": "q",
+      "block": "pfm:wall_toilet_paper[facing=west]"
+    },
+    {
+      "char": "r",
+      "block": "pfm:mesh_trashcan[facing=south]"
+    },
+    {
+      "char": "s",
+      "block": "pfm:basic_sink[facing=south,level=0]"
+    },
+    {
+      "char": "t",
+      "block": "pfm:basic_bathtub[occupied=false,part=head,facing=south,level=0]"
+    },
+    {
+      "char": "u",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "w",
+      "block": "embellishcraft:sturdy_steel_door[half=lower,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "x",
+      "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "y",
+      "block": "embellishcraft:warning_steel_door[half=lower,open=false,hinge=left,facing=north]"
+    },
+    {
+      "char": "A",
+      "block": "embellishcraft:warning_steel_door[half=lower,open=false,hinge=right,facing=north]"
+    },
+    {
+      "char": "B",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=west,face=wall]"
+    },
+    {
+      "char": "C",
+      "block": "immersiveengineering:metal_barrel"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:black_stained_glass"
+    },
+    {
+      "char": "E",
+      "block": "create:train_door[half=lower,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "F",
+      "block": "create:train_door[half=lower,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "I",
+      "block": "quark:iron_button[facing=west,face=wall]"
+    },
+    {
+      "char": "J",
+      "block": "embellishcraft:sturdy_steel_door[half=lower,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+    },
+    {
+      "char": "L",
+      "block": "pfm:mesh_trashcan[facing=north]"
+    },
+    {
+      "char": "M",
+      "block": "pfm:wall_toilet_paper[facing=north]"
+    },
+    {
+      "char": "N",
+      "block": "pfm:basic_toilet[facing=north,toilet=empty]"
+    },
+    {
+      "char": "O",
+      "block": "pfm:basic_bathtub[occupied=false,part=head,facing=north,level=0]"
+    },
+    {
+      "char": "P",
+      "block": "pfm:basic_shower_handle[facing=north]"
+    },
+    {
+      "char": "Q",
+      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "R",
+      "block": "createdeco:yellow_decal[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "S",
+      "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
+    },
+    {
+      "char": "T",
+      "block": "embellishcraft:warning_steel_door[half=upper,open=false,hinge=left,facing=north]"
+    },
+    {
+      "char": "U",
+      "block": "embellishcraft:warning_steel_door[half=upper,open=false,hinge=right,facing=north]"
+    },
+    {
+      "char": "V",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "W",
+      "block": "create:train_door[half=upper,open=false,hinge=right,facing=west]"
+    },
+    {
+      "char": "X",
+      "block": "create:train_door[half=upper,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "Y",
+      "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=left,facing=west]"
+    },
+    {
+      "char": "Z",
+      "block": "pfm:basic_shower_handle[facing=south]"
+    },
+    {
+      "char": "0",
+      "block": "pfm:basic_shower_head[facing=south]"
+    },
+    {
+      "char": "1",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    },
+    {
+      "char": "2",
+      "block": "immersiveengineering:connector_hv[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "3",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "4",
+      "block": "create:nixie_tube[waterlogged=false,double_face=ceiling,facing=south]",
+      "tag": {
+        "id": "create:nixie_tube"
+      }
+    },
+    {
+      "char": "5",
+      "block": "pfm:basic_shower_head[facing=north]"
+    },
+    {
+      "char": "6",
+      "block": "embellishcraft:polished_marble_wall[waterlogged=false,up=true]"
+    },
+    {
+      "char": "7",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+    }
+  ]
+}

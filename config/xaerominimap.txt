@@ -10,8 +10,8 @@ allowInternetAccess:true
 #INGAME SETTINGS (DO NOT EDIT!)
 updateNotification:false
 minimap:true
-caveMaps:2
-caveZoom:1
+caveMaps:0
+caveZoom:0
 showWaypoints:true
 showIngameWaypoints:true
 displayRedstone:true
@@ -82,7 +82,7 @@ minimapFrameColor:0
 compassColor:9
 northCompassColor:-1
 displayMultipleWaypointInfo:1
-entityRadar:true
+entityRadar:false
 adjustHeightForCarpetLikeBlocks:true
 autoConvertWaypointDistanceToKmThreshold:10000
 waypointDistancePrecision:1

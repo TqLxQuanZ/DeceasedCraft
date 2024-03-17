@@ -401,6 +401,12 @@
     {
         "mob": ["undead_revamp2:clogger"],
         "building": [
+            "c70cities:multi_militarybase_0",
+            "c70cities:multi_militarybase_1",
+            "c70cities:multi_militarybase_2",
+            "c70cities:multi_militarybase_3",
+            "c70cities:multi_militarybase_4",
+            "c70cities:multi_militarybase_5",
             "c70cities:multi_laboratory1_0",
             "c70cities:multi_laboratory1_1",
             "c70cities:multi_laboratory1_2",
@@ -419,7 +425,7 @@
         "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
         "minlight": 0,
         "maxlight": 3,
-        "seesky": false,
+        "onjoin": true,
         "result": "allow",
         "healthadd": 300.0,
         "damageadd": 20.0,
@@ -431,6 +437,11 @@
             }
           ]
         }
+    },
+    {
+        "mob": ["undead_revamp2:clogger"],
+        "onjoin": true,
+        "result": "deny"
     },
     {
         "mob": ["undead_revamp2:thespectre"],

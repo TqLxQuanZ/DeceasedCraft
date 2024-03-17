@@ -1,0 +1,161 @@
+{
+  "name": "multi_condo1_3_floor1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:cut_limestone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=north,shape=inner_right]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:andesite_paving_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:andesite_paving_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:andesite_paving"
+    },
+    {
+      "char": "l",
+      "block": "create:cut_limestone_stairs[waterlogged=false,half=bottom,facing=west,shape=straight]"
+    },
+    {
+      "char": "m",
+      "block": "create:cut_limestone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "n",
+      "block": "createdeco:cast_iron_mesh_fence[waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "p",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "q",
+      "block": "immersiveengineering:steel_scaffolding_standard[waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "s",
+      "block": "embellishcraft:vent_air_duct[facing=north]"
+    },
+    {
+      "char": "t",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "u",
+      "block": "immersiveengineering:steel_slope[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "w",
+      "block": "embellishcraft:grid_air_duct[facing=south]"
+    },
+    {
+      "char": "x",
+      "block": "create:cut_limestone_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
+    },
+    {
+      "char": "y",
+      "block": "immersiveengineering:capacitor_hv"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:repeating_command_block[facing=west,conditional=false]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "execute if block ~1 ~1 ~ immersiveengineering:lightning_rod run fill ~ ~1 ~ ~ ~ ~ air"
+      }
+    },
+    {
+      "char": "B",
+      "block": "immersiveengineering:coil_hv"
+    },
+    {
+      "char": "C",
+      "block": "buildersdelight:industrial_flat_4[waterlogged=false,facing=east,face=floor]"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:lightning_rod[waterlogged=false,facing=up]"
+    },
+    {
+      "char": "E",
+      "block": "immersiveengineering:treated_fence[waterlogged=false]"
+    },
+    {
+      "char": "F",
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "char": "I",
+      "block": "clickmachine:auto_clicker[facing=east]",
+      "tag": {
+        "speed_index": 8,
+        "right_click": 1,
+        "inv": {
+          "Size": 1,
+          "Items": [
+            {
+              "Slot": 0,
+              "id": "immersiveengineering:hammer",
+              "Count": 1
+            }
+          ]
+        },
+        "id": "clickmachine:tile"
+      }
+    },
+    {
+      "char": "J",
+      "block": "minecraft:redstone_torch[lit=true]"
+    },
+    {
+      "char": "K",
+      "block": "immersiveengineering:coil_lv"
+    },
+    {
+      "char": "L",
+      "block": "immersiveengineering:steel_fence[waterlogged=false]"
+    }
+  ]
+}

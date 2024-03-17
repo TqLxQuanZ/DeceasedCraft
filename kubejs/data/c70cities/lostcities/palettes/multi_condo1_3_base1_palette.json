@@ -1,0 +1,118 @@
+{
+  "name": "multi_condo1_3_base1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "b",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "c",
+      "block": "immersiveengineering:concrete_tile"
+    },
+    {
+      "char": "d",
+      "block": "immersivepetroleum:asphalt_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "e",
+      "block": "immersivepetroleum:asphalt_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "create:andesite_casing"
+    },
+    {
+      "char": "g",
+      "block": "quark:smooth_stone_vertical_slab[type=west,waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:spruce_button[facing=east,face=floor]"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:andesite_button[facing=north,face=floor]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:spruce_button[facing=north,face=floor]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "l",
+      "block": "immersiveengineering:cokebrick"
+    },
+    {
+      "char": "m",
+      "block": "create:encased_fan[facing=west]"
+    },
+    {
+      "char": "n",
+      "block": "create:cogwheel[waterlogged=false,axis=x]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "o",
+      "block": "minecraft:redstone_torch[lit=true]"
+    },
+    {
+      "char": "p",
+      "block": "create:gearbox[axis=y]",
+      "tag": {
+        "id": "create:gearbox"
+      }
+    },
+    {
+      "char": "q",
+      "block": "create:shaft[waterlogged=false,axis=x]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "r",
+      "block": "embellishcraft:andesite_button[facing=east,face=floor]"
+    },
+    {
+      "char": "s",
+      "block": "create:large_cogwheel[waterlogged=false,axis=x]"
+    },
+    {
+      "char": "t",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=east,face=wall]"
+    },
+    {
+      "char": "u",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "w",
+      "block": "immersiveengineering:slab_cokebrick[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "x",
+      "block": "embellishcraft:smooth_marble_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "y",
+      "block": "biomesoplenty:stripped_dead_log[axis=z]"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "B",
+      "block": "embellishcraft:smooth_marble_slab[type=bottom,waterlogged=false]"
+    }
+  ]
+}

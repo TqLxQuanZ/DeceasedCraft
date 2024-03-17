@@ -48,6 +48,7 @@
 			subtitle: "{quest.cure.x_factor.subtitle}"
 			description: [
 				"{quest.cure.x_factor.description_1}"
+				""
 				"{quest.cure.x_factor.description_2}"
 				""
 				"{quest.cure.x_factor.description_3}"
@@ -140,6 +141,8 @@
 				"{quest.cure.source.description_1}"
 				""
 				"{quest.cure.source.description_2}"
+				""
+				"{quest.cure.source.description_3}"
 			]
 			dependencies: ["4F5B6A50948691EE"]
 			hide: true
@@ -585,6 +588,8 @@
 				"{quest.cure.keycard.description_1}"
 				""
 				"{quest.cure.keycard.description_2}"
+				""
+				"{quest.cure.keycard.description_3}"
 			]
 			dependencies: [
 				"22113D22B765DBDB"

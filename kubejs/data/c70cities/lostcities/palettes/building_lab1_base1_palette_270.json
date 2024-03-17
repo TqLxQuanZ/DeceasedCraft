@@ -1,0 +1,360 @@
+{
+  "name": "building_lab1_base1_palette_270",
+  "palette": [
+    {
+      "char": "a",
+      "block": "biomesoplenty:glowing_moss_block"
+    },
+    {
+      "char": "b",
+      "block": "create:clutch[axis=y]"
+    },
+    {
+      "char": "c",
+      "block": "embellishcraft:marble_tiles"
+    },
+    {
+      "char": "d",
+      "block": "embellishcraft:gray_corrugated_metal_plate"
+    },
+    {
+      "char": "e",
+      "block": "apocalypsenow:pallet[waterlogged=false]"
+    },
+    {
+      "char": "f",
+      "block": "apocalypsenow:pallet_slab[waterlogged=false]"
+    },
+    {
+      "char": "g",
+      "block": "quark:stone_brick_vertical_slab[type=west,waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "create:blaze_burner[facing=south,blaze=smouldering]",
+      "tag": {
+        "id": "create:blaze_heater"
+      }
+    },
+    {
+      "char": "i",
+      "block": "create:blaze_burner[facing=west,blaze=none]",
+      "tag": {
+        "id": "create:blaze_heater"
+      }
+    },
+    {
+      "char": "j",
+      "block": "embellishcraft:steel_wall_ladder[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "k",
+      "block": "embellishcraft:sturdy_white_steel_door[half=lower,open=false,hinge=right,facing=north]"
+    },
+    {
+      "char": "l",
+      "block": "quark:glow_shroom"
+    },
+    {
+      "char": "m",
+      "block": "create:blaze_burner[facing=south,blaze=none]",
+      "tag": {
+        "id": "create:blaze_heater"
+      }
+    },
+    {
+      "char": "n",
+      "block": "immersiveengineering:reinforced_crate"
+    },
+    {
+      "char": "o",
+      "block": "quark:glow_shroom_block[up=true,down=true]"
+    },
+    {
+      "char": "p",
+      "block": "zombie_extreme:empty_cans[facing=west]"
+    },
+    {
+      "char": "q",
+      "block": "quark:glow_shroom_block[up=false,down=true]"
+    },
+    {
+      "char": "r",
+      "block": "create:mechanical_arm",
+      "tag": {
+        "id": "create:mechanical_arm"
+      }
+    },
+    {
+      "char": "s",
+      "block": "pfm:dark_wood_table_dinner[facing=east]"
+    },
+    {
+      "char": "t",
+      "block": "apocalypsenow:iron_locker[facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "u",
+      "block": "quark:glow_lichen_growth"
+    },
+    {
+      "char": "w",
+      "block": "biomesoplenty:glowshroom_block[up=true,down=true]"
+    },
+    {
+      "char": "x",
+      "block": "create:cogwheel[waterlogged=false,axis=y]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "y",
+      "block": "pfm:dark_wood_simple_stool[facing=north]"
+    },
+    {
+      "char": "A",
+      "block": "createdeco:andesite_door[half=lower,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "B",
+      "block": "biomesoplenty:glowshroom"
+    },
+    {
+      "char": "C",
+      "block": "createdeco:andesite_door[half=lower,open=true,hinge=left,facing=north]"
+    },
+    {
+      "char": "D",
+      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "E",
+      "block": "zombie_extreme:empty_cans[facing=east]"
+    },
+    {
+      "char": "F",
+      "block": "apocalypsenow:metal_shelves_three[waterlogged=false,facing=east]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "I",
+      "block": "pfm:dark_wood_table_dinner[facing=south]"
+    },
+    {
+      "char": "J",
+      "block": "apocalypsenow:metal_shelvels_two[waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "K",
+      "block": "apocalypsenow:petrol_barrel"
+    },
+    {
+      "char": "L",
+      "block": "createdeco:andesite_door[half=lower,open=false,hinge=right,facing=east]"
+    },
+    {
+      "char": "M",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "N",
+      "block": "pfm:dark_wood_simple_stool[facing=south]"
+    },
+    {
+      "char": "O",
+      "block": "pfm:dark_concrete_kitchen_drawer[open=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "P",
+      "block": "pfm:basic_toilet[facing=south,toilet=empty]"
+    },
+    {
+      "char": "Q",
+      "block": "minecraft:lapis_block"
+    },
+    {
+      "char": "R",
+      "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=west]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "S",
+      "block": "pfm:birch_white_classic_bed[occupied=false,part=foot,facing=west]"
+    },
+    {
+      "char": "T",
+      "block": "pfm:dark_concrete_kitchen_sink[facing=north,level=0]"
+    },
+    {
+      "char": "U",
+      "block": "zombie_extreme:empty_cans[facing=north]"
+    },
+    {
+      "char": "V",
+      "block": "pfm:dark_wood_table_dinner[facing=west]"
+    },
+    {
+      "char": "W",
+      "block": "pfm:birch_white_classic_bed[occupied=false,part=head,facing=west]"
+    },
+    {
+      "char": "X",
+      "block": "pfm:basic_bathtub[occupied=false,part=foot,facing=south,level=0]"
+    },
+    {
+      "char": "Y",
+      "block": "pfm:basic_bathtub[occupied=false,part=head,facing=south,level=0]"
+    },
+    {
+      "char": "Z",
+      "block": "zombie_extreme:dead_body[facing=south]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "0",
+      "block": "zombie_extreme:empty_cans[facing=south]"
+    },
+    {
+      "char": "1",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate"
+    },
+    {
+      "char": "2",
+      "block": "minecraft:glow_lichen[waterlogged=false,up=false,down=false]"
+    },
+    {
+      "char": "3",
+      "block": "create:fluid_tank[shape=plain,top=false]"
+    },
+    {
+      "char": "4",
+      "block": "embellishcraft:sturdy_white_steel_door[half=upper,open=false,hinge=right,facing=north]"
+    },
+    {
+      "char": "5",
+      "block": "quark:glow_shroom_block[up=true,down=false]"
+    },
+    {
+      "char": "6",
+      "block": "minecraft:brewing_stand"
+    },
+    {
+      "char": "7",
+      "block": "create:shaft[waterlogged=false,axis=y]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "8",
+      "block": "createdeco:andesite_door[half=upper,open=false,hinge=left,facing=south]"
+    },
+    {
+      "char": "9",
+      "block": "createdeco:andesite_door[half=upper,open=true,hinge=left,facing=north]"
+    },
+    {
+      "char": "@",
+      "block": "ag_day_counter:calendar[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "#",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
+    },
+    {
+      "char": "$",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
+    },
+    {
+      "char": "%",
+      "block": "createdeco:andesite_door[half=upper,open=false,hinge=right,facing=east]"
+    },
+    {
+      "char": "^",
+      "block": "biomesoplenty:glowshroom_block[up=true,down=false]"
+    },
+    {
+      "char": "&",
+      "block": "pfm:white_mirror[facing=north]"
+    },
+    {
+      "char": "*",
+      "block": "another_furniture:birch_shelf[type=right,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "(",
+      "block": "another_furniture:birch_shelf[type=middle,waterlogged=false,facing=east]"
+    },
+    {
+      "char": ")",
+      "block": "another_furniture:birch_shelf[type=left,waterlogged=false,facing=east]"
+    },
+    {
+      "char": "+",
+      "block": "pfm:basic_shower_handle[facing=north]"
+    },
+    {
+      "char": "-",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
+    },
+    {
+      "char": "[",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
+    },
+    {
+      "char": "]",
+      "block": "create:steam_engine[waterlogged=false,facing=west,face=wall]"
+    },
+    {
+      "char": "{",
+      "block": "create:powered_shaft[waterlogged=false,axis=y]"
+    },
+    {
+      "char": "}",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
+    },
+    {
+      "char": "\\",
+      "block": "pfm:dark_concrete_kitchen_cabinet[open=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "|",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "`",
+      "block": "biomesoplenty:potted_glowshroom"
+    },
+    {
+      "char": ":",
+      "block": "pfm:basic_shower_head[facing=south]"
+    },
+    {
+      "char": ";",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "'",
+      "block": "create:fluid_tank[shape=plain,top=true]"
+    },
+    {
+      "char": ",",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": ".",
+      "block": "embellishcraft:vent_air_duct[facing=down]"
+    },
+    {
+      "char": "/",
+      "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[type=double,waterlogged=false]"
+    }
+  ]
+}

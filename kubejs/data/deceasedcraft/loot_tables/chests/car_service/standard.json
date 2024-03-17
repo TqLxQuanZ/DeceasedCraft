@@ -8,7 +8,7 @@
       },
       "bonus_rolls": {
         "min": 0,
-        "max": 2
+        "max": 3
       },
       "entries": [
         {
@@ -92,7 +92,7 @@
       },
       "bonus_rolls": {
         "min": 0,
-        "max": 2
+        "max": 3
       },
       "entries": [
         {
@@ -134,6 +134,21 @@
           "type": "minecraft:item",
           "weight": 5,
           "name": "immersiveengineering:component_steel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "immersiveengineering:ingot_electrum",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              },
+              "add": true
+            }
+          ]
         }
       ]
     },

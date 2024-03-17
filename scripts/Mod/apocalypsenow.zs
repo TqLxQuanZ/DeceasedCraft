@@ -10,7 +10,17 @@ import mods.jei.JEI;
 <tag:items:forge:modern_materials>.add(<tag:items:forge:ingots/iron>);
 <tag:items:forge:modern_materials>.add(<tag:items:forge:ingots/copper>);
 
+// Money Printing
+craftingTable.remove(<item:apocalypsenow:money>);
 craftingTable.addShapeless("an_money", <item:apocalypsenow:money> * 9, [<item:apocalypsenow:money_block>]);
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("an_money_assembly")
+                                                      .transitionTo(<item:minecraft:paper>)
+                                                      .require(<item:minecraft:paper>)
+                                                      .loops(1)
+                                                      .addOutput(<item:apocalypsenow:money>, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:emerald>))
+                                                      .addStep<mods.createtweaker.PressingRecipe>()
+													  );
 
 // Apocalypse Now
 craftingTable.remove(<item:apocalypsenow:medicalkit>);

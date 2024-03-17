@@ -37,11 +37,11 @@ partialYTeleportation:true
 displayStainedGlass:true
 caveModeDepth:30
 caveModeStart:2147483647
-autoCaveMode:-1
+autoCaveMode:0
 legibleCaveMaps:false
-displayCaveModeStart:true
-caveModeToggleTimer:1000
-defaultCaveModeType:1
+displayCaveModeStart:false
+caveModeToggleTimer:10000
+defaultCaveModeType:0
 biomeBlending:true
 trackedPlayers:true
 multipleImagesExport:false

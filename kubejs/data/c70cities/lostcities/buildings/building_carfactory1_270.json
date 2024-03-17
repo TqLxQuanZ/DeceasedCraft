@@ -1,0 +1,29 @@
+{
+  "filler": "G",
+  "rubber": " ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "minfloors": 1,
+  "maxfloors": 1,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "top": false,
+      "cellar": false,
+      "ground": true,
+      "part": "c70cities:building_carfactory1_ground_270"
+    },
+    {
+      "top": false,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:building_carfactory1_floor1_270"
+    },
+    {
+      "top": true,
+      "cellar": false,
+      "ground": false,
+      "part": "c70cities:building_carfactory1_top_270"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 
 ["Horde Event"]
 	#How do players get notified of a horde event. 0: Off, 1: Chat, 2:Action Bar, 3:Title
-	eventNotifyMode = 2
+	eventNotifyMode = 1
 	#How long in ticks does the horde notification appear? (Only applies to modes 2 and 3)
 	eventNotifyDuration = 60
 	#Play a sound when a horde wave spawns.

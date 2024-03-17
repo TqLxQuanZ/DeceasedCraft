@@ -1,0 +1,102 @@
+{
+  "name": "multi_condo1_4_top_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "create:hand_crank[waterlogged=false,facing=north]",
+      "tag": {
+        "id": "create:hand_crank"
+      }
+    },
+    {
+      "char": "b",
+      "block": "create:andesite_bars[waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "d",
+      "block": "biomesoplenty:stripped_dead_log[axis=z]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:polished_andesite"
+    },
+    {
+      "char": "f",
+      "block": "embellishcraft:air_duct"
+    },
+    {
+      "char": "g",
+      "block": "create:cogwheel[waterlogged=false,axis=y]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "h",
+      "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "i",
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    {
+      "char": "j",
+      "block": "create:cogwheel[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:cogwheel"
+      }
+    },
+    {
+      "char": "k",
+      "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=west]"
+    },
+    {
+      "char": "l",
+      "block": "embellishcraft:rusty_rungs[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "m",
+      "block": "create:gearbox[axis=x]",
+      "tag": {
+        "id": "create:gearbox"
+      }
+    },
+    {
+      "char": "n",
+      "block": "embellishcraft:rusty_rungs[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "o",
+      "block": "create:shaft[waterlogged=false,axis=z]",
+      "tag": {
+        "id": "create:shaft"
+      }
+    },
+    {
+      "char": "p",
+      "block": "create:elevator_pulley[facing=east]",
+      "tag": {
+        "id": "create:elevator_pulley"
+      }
+    },
+    {
+      "char": "q",
+      "block": "create:gearbox[axis=y]",
+      "tag": {
+        "id": "create:gearbox"
+      }
+    },
+    {
+      "char": "r",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=west,face=floor]"
+    },
+    {
+      "char": "s",
+      "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=south,face=floor]"
+    }
+  ]
+}

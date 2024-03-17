@@ -47,9 +47,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -0.5d
+			x: 4.0d
+			y: 0.0d
 			description: ["{quest.guns.barrel.description_1}"]
+			dependencies: ["23C7010AC01986C1"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "68F47F7416B6010E"
@@ -59,15 +60,16 @@
 				item: "immersiveengineering:gunpart_barrel"
 			}]
 			rewards: [{
-				id: "30A5F1252DE2D03F"
-				type: "xp"
-				xp: 300
+				id: "712C92560D1DB743"
+				type: "item"
+				item: "immersiveengineering:gunpart_barrel"
 			}]
 		}
 		{
-			x: 1.5d
-			y: -4.0d
+			x: 6.5d
+			y: -1.0d
 			description: ["{quest.guns.steel_mechanical.description_1}"]
+			dependencies: ["2B210294E5EEA1D9"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "38FFA4C29ED0DB83"
@@ -77,15 +79,17 @@
 				item: "immersiveengineering:component_steel"
 			}]
 			rewards: [{
-				id: "5A0065FF848B8B19"
-				type: "xp"
-				xp: 300
+				id: "6F21194EB2C7FDC6"
+				type: "item"
+				item: "immersiveengineering:component_steel"
+				count: 3
 			}]
 		}
 		{
-			x: 5.0d
+			x: 3.0d
 			y: -0.5d
 			description: ["{quest.guns.steel_rod.description_1}"]
+			dependencies: ["2B210294E5EEA1D9"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "23C7010AC01986C1"
@@ -95,16 +99,18 @@
 				item: "immersiveengineering:stick_steel"
 			}]
 			rewards: [{
-				id: "4F6E44393FDBC661"
-				type: "xp"
-				xp: 300
+				id: "42FA0F5A914BA980"
+				type: "item"
+				item: "immersiveengineering:stick_steel"
+				count: 2
 			}]
 		}
 		{
 			title: "{quest.guns.spring.title}"
-			x: 4.0d
+			x: 5.0d
 			y: -5.0d
 			description: ["{quest.guns.spring.description_1}"]
+			dependencies: ["7631AE41B8A6F765"]
 			dependency_requirement: "one_started"
 			progression_mode: "flexible"
 			id: "516FDD676D28100E"
@@ -114,14 +120,14 @@
 				item: "createbigcannons:recoil_spring"
 			}]
 			rewards: [{
-				id: "2D6AFC45992620B0"
-				type: "xp"
-				xp: 500
+				id: "662E7B9B307ECCDC"
+				type: "item"
+				item: "createbigcannons:recoil_spring"
 			}]
 		}
 		{
-			x: 2.0d
-			y: -2.5d
+			x: 5.0d
+			y: -0.5d
 			description: ["{quest.guns.steel_plate.description_1}"]
 			dependencies: ["2B210294E5EEA1D9"]
 			dependency_requirement: "one_started"
@@ -133,14 +139,15 @@
 				item: "immersiveengineering:plate_steel"
 			}]
 			rewards: [{
-				id: "21190F890FD107DB"
-				type: "xp"
-				xp: 100
+				id: "073CDE29993FB35E"
+				type: "item"
+				item: "immersiveengineering:plate_steel"
+				count: 3
 			}]
 		}
 		{
-			x: 6.0d
-			y: -2.5d
+			x: 3.0d
+			y: -5.0d
 			description: ["{quest.guns.aluminum_plate.description_1}"]
 			dependencies: ["5A03F43381D2CB75"]
 			dependency_requirement: "one_started"
@@ -152,17 +159,34 @@
 				item: "immersiveengineering:plate_aluminum"
 			}]
 			rewards: [{
-				id: "31B0C5ABD97A6A41"
-				type: "xp"
-				xp: 500
+				id: "5DAF9299305ADAE2"
+				type: "item"
+				item: "immersiveengineering:plate_aluminum"
+				count: 3
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.5d
+			description: ["{quest.guns.springwire.description_1}"]
+			id: "7631AE41B8A6F765"
+			tasks: [{
+				id: "02E8504FD18C867E"
+				type: "item"
+				item: "createbigcannons:spring_wire"
+			}]
+			rewards: [{
+				id: "5E878844C2CA3855"
+				type: "item"
+				item: "createbigcannons:spring_wire"
 			}]
 		}
 	]
 	quest_links: [
 		{
 			linked_quest: "5A03F43381D2CB75"
-			x: 7.5d
-			y: -2.5d
+			x: 3.0d
+			y: -6.5d
 			id: "39DA3C88B410C39D"
 		}
 		{
@@ -173,8 +197,8 @@
 		}
 		{
 			linked_quest: "1D87E5535012EEDF"
-			x: 6.5d
-			y: -1.0d
+			x: 1.5d
+			y: -4.0d
 			id: "02D0C335AFF83E99"
 		}
 		{
@@ -185,8 +209,8 @@
 		}
 		{
 			linked_quest: "2B210294E5EEA1D9"
-			x: 0.5d
-			y: -2.5d
+			x: 4.0d
+			y: 2.0d
 			id: "186A1EE9BE0576F1"
 		}
 	]
