@@ -44,7 +44,7 @@
       "value": 0.0,
       "interactionType": "self",
       "interactionDuration": 300,
-      "description": "§a 10% Damage Reduction",
+      "description": "armors.spec_ops.description_reduction",
       "hideBonusDescription": false
     },
     {
@@ -54,7 +54,7 @@
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "5152b1da-92c0-11ee-b9d1-0242ac120002",
-      "description": "§a +15% Movement Speed",
+      "description": "armors.spec_ops.description_movement",
       "hideBonusDescription": false
     },
     {
@@ -64,14 +64,14 @@
       "interactionType": "self",
       "attributeOperation": 0,
       "modifierUUID": "599a07e8-937f-11ee-b9d1-0242ac120002",
-      "description": "§a +0.5 Step Height",
+      "description": "armors.spec_ops.description_height",
       "hideBonusDescription": false
     },
     {
       "type": "effect",
       "name": "minecraft:weakness",
       "interactionType": "immunity",
-      "description": "§6 Grants Weakness Immunity",
+      "description": "armors.spec_ops.description_weakness",
       "onlyImmuneToNewEffects": true
     }
   ],
@@ -83,7 +83,7 @@
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "a807d064-92c0-11ee-b9d1-0242ac120002",
-      "description": "§d +15% Rifle Damage",
+      "description": "armors.spec_ops.description_rifle",
       "hideBonusDescription": false
     },
     {
@@ -92,7 +92,7 @@
       "value": 0.0,
       "interactionType": "self",
       "interactionDuration": 300,
-      "description": "§a 10% Damage Reduction",
+      "description": "armors.spec_ops.description_reduction",
       "hideBonusDescription": false
     },
     {
@@ -102,7 +102,7 @@
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "ac4d70ac-92c0-11ee-b9d1-0242ac120002",
-      "description": "§a +15% Movement Speed",
+      "description": "armors.spec_ops.description_movement",
       "hideBonusDescription": false
     },
     {
@@ -112,8 +112,15 @@
       "interactionType": "self",
       "attributeOperation": 0,
       "modifierUUID": "54c46b1e-937f-11ee-b9d1-0242ac120002",
-      "description": "§a +0.5 Step Height",
+      "description": "armors.spec_ops.description_height",
       "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "interactionType": "immunity",
+      "description": "armors.spec_ops.description_weakness",
+      "onlyImmuneToNewEffects": true
     }
   ],
   "hideGeneratedTooltip": false

@@ -29,11 +29,11 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_damage",
-      "value": 0.1,
+      "value": 0.15,
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "8e956211-b9cc-4e23-8c06-60a34e429cde",
-      "description": "§a +10% Melee Damage",
+      "description": "armors.military_urban.description_damage",
       "hideBonusDescription": false
     },
     {
@@ -43,7 +43,7 @@
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "8b1d17a1-eaca-4a65-8eda-4fef98fb6927",
-      "description": "§a +15% Movement Speed",
+      "description": "armors.military_urban.description_movement",
       "hideBonusDescription": false
     },
     {
@@ -53,14 +53,14 @@
       "interactionType": "self",
       "attributeOperation": 0,
       "modifierUUID": "d5940a2d-ee1e-421d-9c3c-a4b7bda9cae1",
-      "description": "§a +0.5 Step Height",
+      "description": "armors.military_urban.description_height",
       "hideBonusDescription": false
     },
     {
       "type": "effect",
       "name": "minecraft:weakness",
       "interactionType": "immunity",
-      "description": "§6 Grants Weakness Immunity",
+      "description": "armors.military_urban.description_weakness",
       "onlyImmuneToNewEffects": true
     }
   ],
@@ -68,11 +68,11 @@
       {
         "type": "attribute",
         "name": "puffish_skills:player.ranged_damage",
-        "value": 0.1,
+        "value": 0.15,
         "interactionType": "self",
         "attributeOperation": 1,
         "modifierUUID": "8d9f62a4-92b7-11ee-b9d1-0242ac120002",
-        "description": "§d +10% Sniper Damage",
+        "description": "armors.military_urban.description_sniper",
         "hideBonusDescription": false
       },
       {
@@ -82,7 +82,7 @@
         "interactionType": "self",
         "attributeOperation": 1,
         "modifierUUID": "1b295580-92b8-11ee-b9d1-0242ac120002",
-        "description": "§a +15% Movement Speed",
+        "description": "armors.military_urban.description_movement",
         "hideBonusDescription": false
       },
       {
@@ -92,7 +92,7 @@
         "interactionType": "self",
         "attributeOperation": 0,
         "modifierUUID": "1b295774-92b8-11ee-b9d1-0242ac120002",
-        "description": "§a +0.5 Step Height",
+        "description": "armors.military_urban.description_height",
         "hideBonusDescription": false
       }
   ],

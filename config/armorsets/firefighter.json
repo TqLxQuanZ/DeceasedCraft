@@ -27,7 +27,7 @@
       "value": 0.0,
       "interactionType": "self",
       "interactionDuration": 100.0,
-      "description": "§6 Grants Fire Resistance",
+      "description": "armors.fire_fighter.description_fire",
       "hideBonusDescription": false
     }
   ],
@@ -39,7 +39,7 @@
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "203074d0-c4ed-41ea-9954-1b588a17aadf",
-      "description": "§a +150% Melee Damage",
+      "description": "armors.fire_fighter.description_damage",
       "hideBonusDescription": false
     },
     {
@@ -48,7 +48,7 @@
       "value": 0.0,
       "interactionType": "self",
       "interactionDuration": 100.0,
-      "description": "§6 Grants Fire Resistance",
+      "description": "armors.fire_fighter.description_fire",
       "hideBonusDescription": false
     }
   ],

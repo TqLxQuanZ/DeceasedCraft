@@ -8,7 +8,7 @@
 	# The maximum amount of times light tries to refresh in a second. Higher values attempt to refresh more often. This number can be decreased if you experience poor performance.
 	# Default: 40
 	#Range: 1 ~ 240
-	lightRefreshRate = 10
+	lightRefreshRate = 6
 	#
 	# Determines how far away you should be able to see light from an entity (measured in blocks). 0 for infinite distance. Use this to prevent far away entities from causing light updates.
 	# Default: 128

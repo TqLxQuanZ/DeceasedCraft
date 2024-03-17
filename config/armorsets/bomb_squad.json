@@ -22,7 +22,7 @@
       "value": 4.0,
       "interactionType": "self",
       "interactionDuration": 300,
-      "description": "§a +50% Damage Reduction",
+      "description": "armors.bombsquad.description_reduction",
       "hideBonusDescription": false
     },
     {
@@ -32,14 +32,14 @@
       "interactionType": "self",
       "attributeOperation": 2,
       "modifierUUID": "e5eed144-92ba-11ee-b9d1-0242ac120002",
-      "description": "§c -40% Movement Speed",
+      "description": "armors.bombsquad.description_movement",
       "hideBonusDescription": false
     },
     {
       "type": "effect",
       "name": "minecraft:weakness",
       "interactionType": "immunity",
-      "description": "§6 Grants Weakness Immunity",
+      "description": "armors.bombsquad.description_weakness",
       "onlyImmuneToNewEffects": true
     }
   ],

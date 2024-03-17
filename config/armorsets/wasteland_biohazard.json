@@ -1,65 +1,83 @@
 {
   "armorSetName": "Biohazard",
   "head": {
-    "itemKey": "apocalypsenow:biohazard_helmet"
+    "itemKey": "apocalypsenow:biohazard_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:contamination_suit_white_helmet",
+      "apocalypsenow:contamination_suit_blue_helmet",
+      "apocalypsenow:contamination_suit_green_helmet"
+    ]
   },
   "chest": {
-    "itemKey": "apocalypsenow:biohazard_chestplate"
+    "itemKey": "apocalypsenow:biohazard_chestplate",
+    "mixAndMatch": [
+      "apocalypsenow:contamination_suit_white_chestplate",
+      "apocalypsenow:contamination_suit_blue_chestplate",
+      "apocalypsenow:contamination_suit_green_chestplate"
+    ]
   },
   "legs": {
-    "itemKey": "apocalypsenow:biohazard_leggings"
+    "itemKey": "apocalypsenow:biohazard_leggings",
+    "mixAndMatch": [
+      "apocalypsenow:contamination_suit_white_leggings",
+      "apocalypsenow:contamination_suit_blue_leggings",
+      "apocalypsenow:contamination_suit_green_leggings"
+    ]
   },
   "boots": {
-    "itemKey": "apocalypsenow:biohazard_boots"
+    "itemKey": "apocalypsenow:biohazard_boots",
+    "mixAndMatch": [
+      "apocalypsenow:contamination_suit_white_boots"
+    ]
   },
   "fullSetBonuses": [
     {
       "type": "effect",
       "name": "minecraft:poison",
       "interactionType": "immunity",
-      "description": "§6 Grants Poison Immunity",
+      "description": "armors.biohazard.description_poison",
       "onlyImmuneToNewEffects": true
     },
     {
       "type": "effect",
       "name": "minecraft:blindness",
       "interactionType": "immunity",
-      "description": "§6 Grants Blindness Immunity",
+      "description": "armors.biohazard.description_blindness",
       "onlyImmuneToNewEffects": true
     },
     {
       "type": "effect",
       "name": "minecraft:nausea",
       "interactionType": "immunity",
-      "description": "§6 Grants Nausea Immunity",
+      "description": "armors.biohazard.description_nausea",
       "onlyImmuneToNewEffects": true
     },
     {
       "type": "effect",
       "name": "hordes:infected",
       "interactionType": "immunity",
-      "description": "§6 Grants Infection Immunity",
+      "description": "armors.biohazard.description_infection",
       "onlyImmuneToNewEffects": true
     },
     {
       "type": "effect",
       "name": "mutationcraft:mutagen_sickness",
       "interactionType": "immunity",
-      "description": "§6 Grants Mutagen Sickness Immunity",
+      "description": "armors.biohazard.description_mutagen",
       "onlyImmuneToNewEffects": true
     },
     {
       "type": "effect",
       "name": "undead_revamp2:toxicfumes",
       "interactionType": "immunity",
-      "description": "§6 Grants Toxic Fumes Immunity",
+      "description": "armors.biohazard.description_fumes",
       "onlyImmuneToNewEffects": true
     },
     {
       "type": "effect",
       "name": "undead_revamp2:gooed",
       "interactionType": "immunity",
-      "description": "§6 Grants Gooed Immunity",
+      "description": "armors.biohazard.description_gooed",
       "onlyImmuneToNewEffects": true
     }
   ],

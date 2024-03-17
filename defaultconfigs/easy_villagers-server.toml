@@ -2,7 +2,7 @@
 [breeder]
 	#The time in ticks the breeder takes to create a new villager
 	#Range: > 20
-	breeding_time = 72000
+	breeding_time = 36000
 
 [converter]
 	#The time in ticks the converter takes to convert a villager
@@ -54,5 +54,5 @@
 [incubator]
 	#The speed at which the incubator ages the villagers
 	#Range: 1 ~ 1024
-	speed = 2
+	speed = 4
 

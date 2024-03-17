@@ -1,7 +1,7 @@
 {
 	"root_melee_damage+5%": {
-		"title": "+5% Melee Damage",
-		"description": "Gain skill points by killing zombies!",
+		"title": ["§6+5% ", {"translate":"skills.combat.melee_damage", "color":"gold"}],
+		"description": {"translate":"skills.combat.description", "color":"white"},
 		"size": 1.5,
 		"frame": {
 			"type": "advancement",
@@ -30,7 +30,7 @@
 		}
 	},
 	"melee_damage+2.5%": {
-		"title": "+2.5% Melee Damage",
+		"title": ["+2.5% ", {"translate":"skills.combat.melee_damage", "color":"white"}],
 		"icon": {
 			"type": "item",
 			"data": {
@@ -52,7 +52,7 @@
 		}
 	},
 	"melee_damage+4%": {
-		"title": "+4% Melee Damage",
+		"title": ["§6+4% ", {"translate":"skills.combat.melee_damage", "color":"gold"}],
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -81,7 +81,7 @@
 		}
 	},
 	"ranged_damage+1%": {
-		"title": "+1% Ranged Damage",
+		"title": ["+1% ", {"translate":"skills.combat.ranged_damage", "color":"white"}],
 		"icon": {
 			"type": "item",
 			"data": {
@@ -103,7 +103,7 @@
 		}
 	},
 	"ranged_damage+2.5%": {
-		"title": "+2.5% Ranged Damage",
+		"title": ["§6+2.5% ", {"translate":"skills.combat.ranged_damage", "color":"gold"}],
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -132,7 +132,7 @@
 		}
 	},
 	"attack_speed+2%": {
-		"title": "+2% Attack Speed",
+		"title": ["+2% ", {"translate":"skills.combat.attack_speed", "color":"white"}],
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -154,7 +154,7 @@
 		}
 	},
 	"attack_speed+2.5%": {
-		"title": "+2.5% Attack Speed",
+		"title": ["§6+2.5% ", {"translate":"skills.combat.attack_speed", "color":"gold"}],
 		"frame": {
 			"type": "advancement",
 			"data": {

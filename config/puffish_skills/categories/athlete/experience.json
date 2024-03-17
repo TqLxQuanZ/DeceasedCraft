@@ -2,7 +2,7 @@
 	"experience_per_level": {
 		"type": "expression",
 		"data": {
-			"expression": "min(10000 + (level * 2500), 10000000)"
+			"expression": "min(7500 + (level * 2500), 10000000)"
 		}
 	},
 	"sources": [
@@ -34,10 +34,10 @@
 			"type": "puffish_skills:increase_stat",
 			"data": {
 				"conditions": {
-					"is_walking": {
+					"is_jumping": {
 						"type": "stat",
 						"data": {
-							"stat": "minecraft.custom:minecraft.walk_one_cm"
+							"stat": "minecraft.custom:minecraft.jump"
 						}
 					}
 				},
@@ -48,8 +48,8 @@
 				},
 				"experience": [
 					{
-						"condition": "is_walking",
-						"expression": "amount * 0.05"
+						"condition": "is_jumping",
+						"expression": "amount * 15"
 					}
 				]
 			}

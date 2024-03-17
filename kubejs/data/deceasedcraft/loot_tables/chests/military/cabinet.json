@@ -26,6 +26,40 @@
     {
       "rolls": {
         "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "artifacts:night_vision_goggles",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.035
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "nameless_trinkets:reforger",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.005
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
         "max": 2
       },
       "bonus_rolls": {

@@ -163,8 +163,6 @@
 	#Range: > 0
 	blizzard_strength = 0
 	#No comment
-	bloodparticle = true
-	#No comment
 	hunternibling = true
 	#No comment
 	dohumanfleshdrop = true
@@ -172,6 +170,8 @@
 	dohumansspawn = false
 	#No comment
 	doinfectionoff = true
+	#No comment
+	doambientspawn = true
 
 #Configs related to difficult changes
 [difficulty]

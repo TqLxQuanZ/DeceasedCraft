@@ -16,7 +16,10 @@ global.changetarget = event => {
     let { entity, entity: { persistentData }, originalTarget, newTarget } = event
     if (!entity.type.toString().includes("entity.mutationcraft")) return
     if (newTarget == null) return
-    if (newTarget.type.toString().includes("entity.hordes")) {
+    if (newTarget.type.toString().includes("entity.hordes") ||
+        newTarget.type.toString().includes("zombie") ||
+        newTarget.type.toString().includes("husk") ||
+        newTarget.type.toString().includes("drowned")) {
         event.setNewTarget(null)
     }
 }

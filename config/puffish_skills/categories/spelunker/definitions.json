@@ -1,7 +1,7 @@
 {
 	"root_mining_speed+5%": {
-		"title": "+5% Mining Speed",
-		"description": "Gain skill points by mining ores!",
+		"title": ["§6+5% ", {"translate":"skills.spelunker.mining", "color":"gold"}],
+		"description": {"translate":"skills.spelunker.description", "color":"gold"},
 		"size": 1.5,
 		"frame": {
 			"type": "advancement",
@@ -27,7 +27,7 @@
 		]
 	},
 	"mining_speed+2.5%": {
-		"title": "+2.5% Mining Speed",
+		"title": ["+2.5% ", {"translate":"skills.spelunker.mining", "color":"white"}],
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -46,7 +46,7 @@
 		]
 	},
 	"mining_speed+5%": {
-		"title": "+5% Mining Speed",
+		"title":  ["§6+5% ", {"translate":"skills.spelunker.mining", "color":"gold"}],
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -72,7 +72,7 @@
 		]
 	},
 	"fortune+0.1": {
-		"title": "+0.1 Fortune",
+		"title":  ["+0.1 ", {"translate":"skills.spelunker.fortune", "color":"white"}],
 		"icon": {
 			"type": "item",
 			"data": {
@@ -91,7 +91,7 @@
 		]
 	},
 	"fortune+0.25": {
-		"title": "+0.25 Fortune",
+		"title": ["§6+0.25 ", {"translate":"skills.spelunker.fortune", "color":"gold"}],
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -117,7 +117,7 @@
 		]
 	},
 	"luck+0.05": {
-		"title": "+0.05 Luck",
+		"title": ["+0.05 ", {"translate":"skills.spelunker.luck", "color":"white"}],
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -136,7 +136,7 @@
 		]
 	},
 	"luck+0.1": {
-		"title": "+0.1 Luck",
+		"title": ["§6+0.1 ", {"translate":"skills.spelunker.luck", "color":"gold"}],
 		"frame": {
 			"type": "advancement",
 			"data": {

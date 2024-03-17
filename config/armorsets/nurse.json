@@ -27,7 +27,7 @@
       "value": 1.0,
       "interactionType": "self",
       "interactionDuration": 100.0,
-      "description": "§6 Increased Max Health",
+      "description": "armors.nurse.description_health",
       "hideBonusDescription": false
     }
   ],
@@ -39,7 +39,7 @@
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "a1e9f5a6-4e36-4c87-b7f1-0268329dc30b",
-      "description": "§a 150% Increased Melee Damage",
+      "description": "armors.nurse.description_damage",
       "hideBonusDescription": false
     },
     {
@@ -48,7 +48,7 @@
       "value": 1.0,
       "interactionType": "self",
       "interactionDuration": 100.0,
-      "description": "§6 Increased Max Health",
+      "description": "armors.nurse.description_health",
       "hideBonusDescription": false
     }
   ],

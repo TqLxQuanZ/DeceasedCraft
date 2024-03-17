@@ -144,74 +144,70 @@
     },
     {
       "char": "C",
-      "block": "cfm:white_sofa[type=single,waterlogged=false,facing=east]"
+      "block": "create:red_seat[waterlogged=false]"
     },
     {
       "char": "D",
-      "block": "cfm:white_sofa[type=single,waterlogged=false,facing=west]"
-    },
-    {
-      "char": "E",
       "block": "create:controls[waterlogged=false,open=false,facing=west]"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "create:train_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "create:train_door[half=upper,open=true,hinge=left,facing=north]"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "create:train_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "simplylight:wall_lamp[waterlogged=false,facing=south]"
     },
     {
-      "char": "L",
+      "char": "K",
       "block": "minecraft:barrel[open=false,facing=south]"
     },
     {
-      "char": "M",
+      "char": "L",
       "block": "minecraft:barrel[open=false,facing=north]"
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "simplylight:wall_lamp[waterlogged=false,facing=north]"
     },
     {
-      "char": "O",
+      "char": "N",
       "block": "create:mechanical_plough[waterlogged=false,facing=north]"
     },
     {
-      "char": "P",
+      "char": "O",
       "block": "create:mechanical_plough[waterlogged=false,facing=south]"
     },
     {
-      "char": "Q",
+      "char": "P",
       "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "R",
+      "char": "Q",
       "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=south,shape=straight]"
     },
     {
-      "char": "S",
+      "char": "R",
       "block": "minecraft:quartz_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
-      "char": "T",
+      "char": "S",
       "block": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "U",
+      "char": "T",
       "block": "minecraft:gray_stained_glass"
     },
     {
-      "char": "V",
+      "char": "U",
       "block": "minecraft:light_gray_stained_glass"
     }
   ]

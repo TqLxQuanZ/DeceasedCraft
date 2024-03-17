@@ -763,6 +763,7 @@ craftingTable.remove(<item:apocalypsenow:pink_bikers_helmet>);
 craftingTable.remove(<item:apocalypsenow:bikers_helmet>);
 craftingTable.remove(<item:apocalypsenow:black_motorcycle_helmet_helmet>);
 craftingTable.remove(<item:apocalypsenow:red_motorcycle_helmet_helmet>);
+craftingTable.remove(<item:apocalypsenow:bluemotorcyclehelmet_helmet>);
 
 craftingTable.addShapedMirrored("t2_red_biker_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:red_bikers_helmet>,
     [[<tag:items:forge:string>, <tag:items:forge:dyes/red>, <tag:items:forge:string>],
@@ -791,6 +792,11 @@ craftingTable.addShapedMirrored("t2_black_motorcycle_helmet", <constant:minecraf
     
 craftingTable.addShapedMirrored("t2_red_motorcycle_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:red_motorcycle_helmet_helmet>,
     [[<tag:items:forge:string>, <tag:items:forge:dyes/red>, <tag:items:forge:string>],
+    [<tag:items:forge:plates/iron>, <item:minecraft:chainmail_helmet>, <tag:items:forge:plates/iron>],
+    [<item:minecraft:air>, <tag:items:forge:glass_panes>, <item:minecraft:air>]]);
+    
+craftingTable.addShapedMirrored("t2_blue_motorcycle_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:bluemotorcyclehelmet_helmet>,
+    [[<tag:items:forge:string>, <tag:items:forge:dyes/blue>, <tag:items:forge:string>],
     [<tag:items:forge:plates/iron>, <item:minecraft:chainmail_helmet>, <tag:items:forge:plates/iron>],
     [<item:minecraft:air>, <tag:items:forge:glass_panes>, <item:minecraft:air>]]);
     
@@ -1154,6 +1160,69 @@ craftingTable.remove(<item:apocalypsenow:biohazard_boots>);
 <recipetype:create:mechanical_crafting>.addRecipe("t3_biohazard_boots", <item:apocalypsenow:biohazard_boots>,
     [[<item:contenttweaker:resistant_fabric>, <item:apocalypsenow:hazmat_suit_boots>, <item:contenttweaker:resistant_fabric>],
     [<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>]]);
+
+// White Contamination Suit
+craftingTable.remove(<item:apocalypsenow:contamination_suit_white_helmet>);
+craftingTable.remove(<item:apocalypsenow:contamination_suit_white_chestplate>);
+craftingTable.remove(<item:apocalypsenow:contamination_suit_white_leggings>);
+craftingTable.remove(<item:apocalypsenow:contamination_suit_white_boots>);
+
+craftingTable.addShapedMirrored("t3_contamination_suit_white_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:contamination_suit_white_helmet>,
+    [[<tag:items:forge:dyes/white>, <tag:items:forge:dyes/white>, <tag:items:forge:dyes/white>],
+    [<tag:items:forge:dyes/white>, <item:apocalypsenow:biohazard_helmet>, <tag:items:forge:dyes/white>]]);
+
+craftingTable.addShapedMirrored("t3_contamination_suit_white_chestplate", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:contamination_suit_white_chestplate>,
+    [[<tag:items:forge:dyes/white>, <item:minecraft:air>, <tag:items:forge:dyes/white>],
+    [<tag:items:forge:dyes/white>, <item:apocalypsenow:biohazard_chestplate>, <tag:items:forge:dyes/white>],
+    [<tag:items:forge:dyes/white>, <tag:items:forge:dyes/white>, <tag:items:forge:dyes/white>]]);
+
+craftingTable.addShapedMirrored("t3_contamination_suit_white_leggings", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:contamination_suit_white_leggings>,
+    [[<tag:items:forge:dyes/white>, <tag:items:forge:dyes/white>, <tag:items:forge:dyes/white>],
+    [<tag:items:forge:dyes/white>, <item:apocalypsenow:biohazard_leggings>, <tag:items:forge:dyes/white>],
+    [<tag:items:forge:dyes/white>, <item:minecraft:air>, <tag:items:forge:dyes/white>]]);
+
+craftingTable.addShapedMirrored("t3_contamination_suit_white_boots", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:contamination_suit_white_boots>,
+    [[<tag:items:forge:dyes/white>, <item:apocalypsenow:biohazard_boots>, <tag:items:forge:dyes/white>],
+    [<tag:items:forge:dyes/white>, <item:minecraft:air>, <tag:items:forge:dyes/white>]]);
+
+// Blue Contamination Suit
+craftingTable.remove(<item:apocalypsenow:contamination_suit_blue_helmet>);
+craftingTable.remove(<item:apocalypsenow:contamination_suit_blue_chestplate>);
+craftingTable.remove(<item:apocalypsenow:contamination_suit_blue_leggings>);
+
+craftingTable.addShapedMirrored("t3_contamination_suit_blue_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:contamination_suit_blue_helmet>,
+    [[<tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>],
+    [<tag:items:forge:dyes/blue>, <item:apocalypsenow:biohazard_helmet>, <tag:items:forge:dyes/blue>]]);
+
+craftingTable.addShapedMirrored("t3_contamination_suit_blue_chestplate", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:contamination_suit_blue_chestplate>,
+    [[<tag:items:forge:dyes/blue>, <item:minecraft:air>, <tag:items:forge:dyes/blue>],
+    [<tag:items:forge:dyes/blue>, <item:apocalypsenow:biohazard_chestplate>, <tag:items:forge:dyes/blue>],
+    [<tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>]]);
+
+craftingTable.addShapedMirrored("t3_contamination_suit_blue_leggings", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:contamination_suit_blue_leggings>,
+    [[<tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>],
+    [<tag:items:forge:dyes/blue>, <item:apocalypsenow:biohazard_leggings>, <tag:items:forge:dyes/blue>],
+    [<tag:items:forge:dyes/blue>, <item:minecraft:air>, <tag:items:forge:dyes/blue>]]);
+
+// Green Contamination Suit
+craftingTable.remove(<item:apocalypsenow:contamination_suit_green_helmet>);
+craftingTable.remove(<item:apocalypsenow:contamination_suit_green_chestplate>);
+craftingTable.remove(<item:apocalypsenow:contamination_suit_green_leggings>);
+
+craftingTable.addShapedMirrored("t3_contamination_suit_green_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:contamination_suit_green_helmet>,
+    [[<tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>],
+    [<tag:items:forge:dyes/green>, <item:apocalypsenow:biohazard_helmet>, <tag:items:forge:dyes/green>]]);
+
+craftingTable.addShapedMirrored("t3_contamination_suit_green_chestplate", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:contamination_suit_green_chestplate>,
+    [[<tag:items:forge:dyes/green>, <item:minecraft:air>, <tag:items:forge:dyes/green>],
+    [<tag:items:forge:dyes/green>, <item:apocalypsenow:biohazard_chestplate>, <tag:items:forge:dyes/green>],
+    [<tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>]]);
+
+craftingTable.addShapedMirrored("t3_contamination_suit_green_leggings", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:contamination_suit_green_leggings>,
+    [[<tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>],
+    [<tag:items:forge:dyes/green>, <item:apocalypsenow:biohazard_leggings>, <tag:items:forge:dyes/green>],
+    [<tag:items:forge:dyes/green>, <item:minecraft:air>, <tag:items:forge:dyes/green>]]);
+
 
 // Officer Beret Set - +0.5 ATK Damage, 0.2 ATK Speed, +0.25 ATK Knockback
 craftingTable.remove(<item:apocalypsenow:officer_beret_helmet>);
