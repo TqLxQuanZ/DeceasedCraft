@@ -236,39 +236,6 @@
               "chance": 0.05
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "nameless_trinkets:miners_soul",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "nameless_trinkets:light_gloves",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "nameless_trinkets:four_leaf_clover",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ]
         }
       ]
     },
