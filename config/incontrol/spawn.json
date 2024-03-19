@@ -627,6 +627,10 @@
             {
               "Base": 40.0,
               "Name": "generic.armor"
+            },
+            {
+              "Base": 2.0,
+              "Name": "forge:step_height_addition"
             }
           ]
         }
@@ -643,6 +647,10 @@
           {
             "Base": 60.0,
             "Name": "generic.armor"
+          },
+          {
+            "Base": 3.0,
+            "Name": "forge:step_height_addition"
           }
         ]
       }
@@ -1609,6 +1617,10 @@
           {
             "Base": 30.0,
             "Name": "generic.armor"
+          },
+          {
+            "Base": 3.0,
+            "Name": "forge:step_height_addition"
           }
         ]
       }
