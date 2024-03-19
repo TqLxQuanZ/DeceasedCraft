@@ -246,6 +246,11 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 10,
+          "name": "contenttweaker:mold_bullet_casing_nato556"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 5,
           "name": "contenttweaker:mold_bullet_casing_46x30"
         },
@@ -291,13 +296,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
-          "name": "contenttweaker:mold_bullet_casing_nato556"
+          "weight": 3,
+          "name": "contenttweaker:mold_bullet_casing_win3030"
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "name": "contenttweaker:mold_bullet_casing_win3030"
+          "weight": 1,
+          "name": "contenttweaker:mold_bullet_casing_50bmg"
         }
       ]
     },

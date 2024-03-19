@@ -7,10 +7,10 @@ JEI.addDescription(<item:pipez:energy_pipe>, new TranslatableComponent("descript
 
 // Mold Descriptions
 JEI.addDescription(<item:contenttweaker:mold_bullet_casing_9mm_round>, new TranslatableComponent("description.molds.gunsmith"));
-JEI.addDescription(<item:contenttweaker:mold_bullet_casing_10_gauge_round>, new TranslatableComponent("description.molds.gunsmith"));
 JEI.addDescription(<item:contenttweaker:mold_bullet_casing_round45>, new TranslatableComponent("description.molds.gunsmith"));
 JEI.addDescription(<item:contenttweaker:mold_bullet_casing_ae50>, new TranslatableComponent("description.molds.gunsmith"));
 JEI.addDescription(<item:contenttweaker:mold_bullet_casing_bmagnum>, new TranslatableComponent("description.molds.gunsmith"));
+JEI.addDescription(<item:contenttweaker:mold_bullet_casing_10_gauge_round>, new TranslatableComponent("description.molds.exclusive"));
 JEI.addDescription(<item:contenttweaker:mold_bullet_casing_46x30>, new TranslatableComponent("description.molds.exclusive"));
 JEI.addDescription(<item:contenttweaker:mold_bullet_casing_50bmg>, new TranslatableComponent("description.molds.exclusive"));
 JEI.addDescription(<item:contenttweaker:mold_bullet_casing_57x28>, new TranslatableComponent("description.molds.exclusive"));
