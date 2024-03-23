@@ -9,19 +9,19 @@
 	#
 	#Determines whether or not Jockeys spawn (Just splits the entities if false).
 	#
-	vmhDoJockeysSpawn = true
+	vmhDoJockeysSpawn = false
 
 ["Do Scale By Breeding"]
 	#
 	#Determines whether or not to scale an entity upon breeding by their respective breeding values.
 	#
-	vmhDoScaleByBreeding = true
+	vmhDoScaleByBreeding = false
 
 ["Do Scale Noise"]
 	#
 	#Determines whether or not to scale noise by the scale value.
 	#
-	vmhDoScaleNoise = true
+	vmhDoScaleNoise = false
 
 ["Entities Blacklist"]
 	#
