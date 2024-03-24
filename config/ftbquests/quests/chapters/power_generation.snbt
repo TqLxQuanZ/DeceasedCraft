@@ -1,0 +1,342 @@
+{
+	id: "28732170711FBD04"
+	group: "06797646CDBF2AAC"
+	order_index: 2
+	filename: "power_generation"
+	title: "{quest.power}"
+	icon: "immersiveengineering:capacitor_creative"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{quest.power.introduction.title}"
+			icon: "create:creative_motor"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "{quest.power.introduction.subtitle}"
+			description: [
+				"{quest.power.introduction.description_1}"
+				""
+				"{quest.power.introduction.description_2}"
+			]
+			size: 2.0d
+			id: "462F03EBB60A2A5A"
+			tasks: [{
+				id: "0AA8716E73910B9F"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2F919B5BA05AB11C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3132227616718337425L
+			}]
+		}
+		{
+			title: "{quest.power.immersive_waterwheel.title}"
+			x: 3.0d
+			y: -0.5d
+			subtitle: "{quest.power.immersive_waterwheel.subtitle}"
+			description: ["{quest.power.immersive_waterwheel.description_1}"]
+			dependencies: ["50D898A9FBE071EA"]
+			id: "26AA82BE4290A52B"
+			tasks: [{
+				id: "542276263036F023"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+			rewards: [{
+				id: "656EE2D8E1E4544E"
+				type: "item"
+				item: {
+					id: "minecraft:water_bucket"
+					Count: 1b
+					tag: {
+						Purity: -1
+					}
+				}
+			}]
+		}
+		{
+			title: "{quest.power.create_waterwheel.title}"
+			x: -3.0d
+			y: -0.5d
+			subtitle: "{quest.power.create_waterwheel.subtitle}"
+			description: ["{quest.power.create_waterwheel.description_1}"]
+			dependencies: ["1352363934028012"]
+			id: "2AEF2B96BD74B502"
+			tasks: [{
+				id: "4841582671DF8648"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "64E25BFCD965886D"
+				type: "item"
+				item: {
+					id: "minecraft:water_bucket"
+					Count: 1b
+					tag: {
+						Purity: -1
+					}
+				}
+			}]
+		}
+		{
+			title: "{quest.power.motor.title}"
+			x: 1.5d
+			y: 1.0d
+			subtitle: "{quest.power.motor.subtitle}"
+			description: ["{quest.power.motor.description_1}"]
+			dependencies: ["462F03EBB60A2A5A"]
+			id: "120122188BBE6D80"
+			tasks: [{
+				id: "17C408686E0ED1F1"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+			rewards: [{
+				id: "61E99846CFC8B0D9"
+				type: "item"
+				item: "createaddition:connector"
+				count: 4
+			}]
+		}
+		{
+			title: "{quest.power.alternator.title}"
+			x: -1.5d
+			y: 1.0d
+			subtitle: "{quest.power.alternator.subtitle}"
+			description: ["{quest.power.alternator.description_1}"]
+			dependencies: ["462F03EBB60A2A5A"]
+			id: "4FBB9038C8D5DF36"
+			tasks: [{
+				id: "07730ADBC76B1F54"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+			rewards: [{
+				id: "7937480839315CF6"
+				type: "item"
+				item: "createaddition:connector"
+				count: 4
+			}]
+		}
+		{
+			title: "{quest.power.kinetic_dynamo.title}"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "{quest.power.kinetic_dynamo.subtitle}"
+			description: ["{quest.power.kinetic_dynamo.description_1}"]
+			dependencies: ["462F03EBB60A2A5A"]
+			id: "50D898A9FBE071EA"
+			tasks: [{
+				id: "602020342EEC7EF1"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+			rewards: [{
+				id: "5D30170A00B1B52B"
+				type: "item"
+				item: "immersiveengineering:connector_lv"
+				count: 2
+			}]
+		}
+		{
+			title: "{quest.power.immersive_windmill.title}"
+			x: 3.0d
+			y: 0.5d
+			subtitle: "{quest.power.immersive_windmill.subtitle}"
+			description: ["{quest.power.immersive_windmill.description_1}"]
+			dependencies: ["50D898A9FBE071EA"]
+			id: "094634B25E908EDB"
+			tasks: [{
+				id: "0C9BB576186829A3"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+			rewards: [{
+				id: "24D855707C4E4829"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper"
+				count: 4
+			}]
+		}
+		{
+			title: "{quest.power.create_large_waterwheel.title}"
+			x: -4.0d
+			y: -0.5d
+			subtitle: "{quest.power.create_large_waterwheel.subtitle}"
+			description: ["{quest.power.create_large_waterwheel.description_1}"]
+			dependencies: ["2AEF2B96BD74B502"]
+			id: "07843DD15A0C12C2"
+			tasks: [{
+				id: "53676B8C31DA371D"
+				type: "item"
+				item: "create:large_water_wheel"
+			}]
+			rewards: [{
+				id: "6603B8516657C08B"
+				type: "item"
+				item: "create:large_cogwheel"
+				count: 4
+			}]
+		}
+		{
+			title: "{quest.power.immersive_windmill_sail.title}"
+			x: 4.0d
+			y: 0.5d
+			subtitle: "{quest.power.immersive_windmill_sail.subtitle}"
+			description: ["{quest.power.immersive_windmill_sail.description_1}"]
+			dependencies: ["094634B25E908EDB"]
+			id: "77E27E39B559DA3E"
+			tasks: [{
+				id: "115577F22C725321"
+				type: "item"
+				item: "immersiveengineering:windmill_sail"
+			}]
+			rewards: [{
+				id: "0F08CB9590CBF45D"
+				type: "item"
+				item: "immersiveengineering:hemp_fabric"
+				count: 4
+			}]
+		}
+		{
+			title: "{quest.power.create_windmill.title}"
+			x: -3.0d
+			y: 0.5d
+			subtitle: "{quest.power.create_windmill.subtitle}"
+			description: ["{quest.power.create_windmill.description_1}"]
+			dependencies: ["1352363934028012"]
+			id: "584A2B5D82519ED7"
+			tasks: [{
+				id: "26E55C3A2F4F9AC6"
+				type: "item"
+				item: "create:windmill_bearing"
+			}]
+			rewards: [{
+				id: "2F1862760F5AA28D"
+				type: "item"
+				item: "create:radial_chassis"
+				count: 2
+			}]
+		}
+		{
+			title: "{quest.power.create_windmill_sail.title}"
+			x: -4.0d
+			y: 0.5d
+			subtitle: "{quest.power.create_windmill_sail.subtitle}"
+			description: ["{quest.power.create_windmill_sail.description_1}"]
+			dependencies: ["584A2B5D82519ED7"]
+			id: "7E8370E800E8EA80"
+			tasks: [{
+				id: "0FF62C0E6FF2F45B"
+				type: "item"
+				item: "create:white_sail"
+			}]
+			rewards: [{
+				id: "7B1129ED92DBBE1E"
+				type: "item"
+				item: "create:white_sail"
+				count: 4
+			}]
+		}
+		{
+			title: "{quest.power.steam_engine.title}"
+			x: -1.0d
+			y: 2.5d
+			shape: "hexagon"
+			subtitle: "{quest.power.steam_engine.subtitle}"
+			description: [
+				"{quest.power.steam_engine.description_1}"
+				""
+				"{quest.power.steam_engine.description_2}"
+			]
+			dependencies: ["462F03EBB60A2A5A"]
+			size: 1.5d
+			id: "52A10DEFB049BDE2"
+			tasks: [{
+				id: "3B0C0CAE03334D53"
+				type: "item"
+				item: "create:steam_engine"
+			}]
+			rewards: [{
+				id: "4D494572724BAA90"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+		}
+		{
+			title: "{quest.power.thermoelectric_generator.title}"
+			x: 1.5d
+			y: -1.0d
+			subtitle: "{quest.power.thermoelectric_generator.subtitle}"
+			description: [
+				"{quest.power.thermoelectric_generator.description_1}"
+				""
+				"{quest.power.thermoelectric_generator.description_2}"
+			]
+			dependencies: ["462F03EBB60A2A5A"]
+			id: "2393D68AEC3DB439"
+			tasks: [{
+				id: "1962BE8B7DC81CD0"
+				type: "item"
+				item: "immersiveengineering:thermoelectric_generator"
+			}]
+			rewards: [{
+				id: "1589DA1398DC302A"
+				type: "item"
+				item: "minecraft:ice"
+			}]
+		}
+		{
+			title: "{quest.power.diesel_generator.title}"
+			x: 1.0d
+			y: 2.5d
+			shape: "hexagon"
+			subtitle: "{quest.power.diesel_generator.subtitle}"
+			description: [
+				"{quest.power.diesel_generator.description_1}"
+				""
+				"{quest.power.diesel_generator.description_2}"
+			]
+			dependencies: ["462F03EBB60A2A5A"]
+			size: 1.5d
+			id: "2A9739B23DEDEA80"
+			tasks: [{
+				id: "70A343D569A9CCDA"
+				type: "advancement"
+				advancement: "immersiveengineering:multiblocks/mb_dieselgen"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "01BBFC63AE4F4B5E"
+				type: "item"
+				item: "immersivepetroleum:diesel_bucket"
+			}]
+		}
+		{
+			title: "{quest.power.engineer_goggles.title}"
+			x: -2.0d
+			y: 0.0d
+			subtitle: "{quest.power.engineer_goggles.subtitle}"
+			description: ["{quest.power.engineer_goggles.description_1}"]
+			dependencies: ["462F03EBB60A2A5A"]
+			id: "1352363934028012"
+			tasks: [{
+				id: "41D5404C8BC73EF6"
+				type: "item"
+				item: "create:goggles"
+			}]
+			rewards: [{
+				id: "6D79FCB2F4349348"
+				type: "item"
+				item: "create:cogwheel"
+				count: 4
+			}]
+		}
+	]
+	quest_links: [ ]
+}

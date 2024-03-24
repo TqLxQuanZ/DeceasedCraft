@@ -1,0 +1,9 @@
+#Make fov scale at shoulder surfing view constant, ignoring scopes on current gun
+constant_aiming_fov_scale = true
+#FOV scale for constant_aiming_fov_scale
+#Range: 0.0 ~ 1.7976931348623157E308
+constant_aiming_fov_scale_value = 0.32
+#(Locked) ads speed for constant_aiming_fov_scale
+#Range: 0.0 ~ 1.7976931348623157E308
+constant_aiming_ads_speed = 1.0
+

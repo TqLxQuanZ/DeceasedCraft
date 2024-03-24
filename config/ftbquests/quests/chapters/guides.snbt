@@ -508,8 +508,8 @@
 		}
 		{
 			title: "{quest.guides.flare.title}"
-			x: 0.0d
-			y: 14.5d
+			x: -1.5d
+			y: 14.25d
 			shape: "square"
 			subtitle: "{quest.guides.flare.subtitle}"
 			description: ["{quest.guides.flare.description_1}"]
@@ -561,6 +561,82 @@
 				type: "item"
 				item: "pfm:furniture_book"
 			}]
+		}
+		{
+			title: "{quest.chalk.title}"
+			x: 1.5d
+			y: 14.25d
+			shape: "square"
+			subtitle: "{quest.chalk.subtitle}"
+			description: ["{quest.chalk.description_1}"]
+			size: 1.5d
+			id: "2D2F4B75C8F96B9A"
+			tasks: [{
+				id: "46DF82700AD1071E"
+				type: "item"
+				item: {
+					id: "chalk:chalk_box"
+					Count: 1b
+					tag: {
+						Items: [
+							{
+								id: "minecraft:air"
+								Count: 1b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "111CEA8B1FD0C57E"
+					type: "item"
+					item: {
+						id: "chalk:white_chalk"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "78861876AD5CF7E1"
+					type: "item"
+					item: "minecraft:glow_ink_sac"
+				}
+			]
 		}
 	]
 	quest_links: [ ]

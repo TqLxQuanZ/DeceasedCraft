@@ -1,0 +1,124 @@
+
+[perspective]
+	#The distance multiplier on whether or not to hide the player model if the camera gets too close to it. Set to 0 to disable.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	keep_camera_out_of_head_distance_multiplier = 0.75
+	#The default perspective when you load the game.
+	#Allowed Values: FIRST_PERSON, THIRD_PERSON_BACK, THIRD_PERSON_FRONT, SHOULDER_SURFING
+	default_perspective = "FIRST_PERSON"
+	#Whether or not to remember the last perspective used.
+	remember_last_perspective = true
+	#Whether or not to replace the default third person perspective.
+	replace_default_perspective = false
+	#Whether or not to skip the third person front perspective.
+	skip_third_person_front_perspective = false
+	#Whether or not to limit the player reach depending on the crosshair location (perspective offset).
+	limit_player_reach = true
+	#Size of the camera adjustment per step.
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	camera_step_size = 0.025
+	#Whether or not to temporarily center the camera when climbing.
+	center_camera_when_climbing = true
+	#The speed multiplier at which the camera transitions between positions.
+	#Range: 0.05 ~ 1.0
+	camera_transition_speed_multiplier = 0.25
+	#The angle at which the camera will be centered when looking down. Set to 0 to disable.
+	#Range: 0.0 ~ 90.0
+	center_camera_when_looking_down_angle = 15.0
+	#The angle at which the player will no longer be rendered when looking up. Set to 0 to disable.
+	#Range: 0.0 ~ 90.0
+	hide_player_when_looking_up_angle = 15.0
+	#Whether or not to dynamically adjust camera offsets depending on space constraints.
+	dynamically_adjust_offsets = true
+
+	[perspective.offset]
+		#Third person camera x-offset.
+		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		offset_x = -0.75
+		#Third person camera y-offset.
+		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		offset_y = 0.0
+		#Third person camera z-offset.
+		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		offset_z = 3.0
+
+		[perspective.offset.min]
+			#If x-offset is limited this is the minimum amount.
+			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+			min_offset_x = -3.0
+			#If y-offset is limited this is the minimum amount.
+			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+			min_offset_y = -1.0
+			#If z-offset is limited this is the minimum amount.
+			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+			min_offset_z = -3.0
+
+		[perspective.offset.max]
+			#If x-offset is limited this is the maximum amount.
+			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+			max_offset_x = 3.0
+			#If y-offset is limited this is the maximum amount.
+			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+			max_offset_y = 1.5
+			#If z-offset is limited this is the maximum amount.
+			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+			max_offset_z = 5.0
+
+		[perspective.offset.limits]
+			#Whether or not x-offset adjustment has limits.
+			unlimited_offset_x = false
+			#Whether or not y-offset adjustment has limits.
+			unlimited_offset_y = false
+			#Whether or not z-offset adjustment has limits.
+			unlimited_offset_z = false
+
+		[perspective.offset.multiplier]
+
+			[perspective.offset.multiplier.passenger]
+				#x-offset multiplier for when the player is a passenger.
+				#Range: 0.0 ~ 1.7976931348623157E308
+				multiplier_offset_x = 1.0
+				#y-offset multiplier for when the player is a passenger.
+				#Range: 0.0 ~ 1.7976931348623157E308
+				multiplier_offset_y = 1.0
+				#z-offset multiplier for when the player is a passenger.
+				#Range: 0.0 ~ 1.7976931348623157E308
+				multiplier_offset_z = 1.0
+
+			[perspective.offset.multiplier.sprint]
+				#x-offset multiplier for when the player is sprinting.
+				#Range: 0.0 ~ 1.7976931348623157E308
+				multiplier_offset_x = 1.0
+				#y-offset multiplier for when the player is sprinting.
+				#Range: 0.0 ~ 1.7976931348623157E308
+				multiplier_offset_y = 1.0
+				#z-offset multiplier for when the player is sprinting.
+				#Range: 0.0 ~ 1.7976931348623157E308
+				multiplier_offset_z = 1.0
+
+[crosshair]
+	#Crosshair type to use for shoulder surfing.
+	#Allowed Values: ADAPTIVE, DYNAMIC, STATIC, STATIC_WITH_1PP, DYNAMIC_WITH_1PP
+	crosshair_type = "ADAPTIVE"
+	#The raytrace distance used for the dynamic crosshair.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	custom_raytrace_distance = 400.0
+	#Whether or not to use the custom raytrace distance used for the dynamic crosshair.
+	use_custom_raytrace_distance = true
+	#Additional items that trigger the dynamic crosshair when in apative mode.
+	adaptive_crosshair_items = ["minecraft:snowball", "minecraft:egg", "minecraft:experience_bottle", "minecraft:ender_pearl", "minecraft:splash_potion", "minecraft:fishing_rod", "minecraft:lingering_potion"]
+
+	[crosshair.visibility]
+		#Crosshair visibility for first_person.
+		#Allowed Values: ALWAYS, NEVER, WHEN_AIMING, WHEN_IN_RANGE, WHEN_AIMING_OR_IN_RANGE
+		first_person = "ALWAYS"
+		#Crosshair visibility for third_person_back.
+		#Allowed Values: ALWAYS, NEVER, WHEN_AIMING, WHEN_IN_RANGE, WHEN_AIMING_OR_IN_RANGE
+		third_person_back = "NEVER"
+		#Crosshair visibility for third_person_front.
+		#Allowed Values: ALWAYS, NEVER, WHEN_AIMING, WHEN_IN_RANGE, WHEN_AIMING_OR_IN_RANGE
+		third_person_front = "NEVER"
+		#Crosshair visibility for shoulder_surfing.
+		#Allowed Values: ALWAYS, NEVER, WHEN_AIMING, WHEN_IN_RANGE, WHEN_AIMING_OR_IN_RANGE
+		shoulder_surfing = "ALWAYS"
+
