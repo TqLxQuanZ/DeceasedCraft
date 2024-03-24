@@ -10,6 +10,7 @@ recipes.remove(<item:tac:light_armor>);
 recipes.remove(<item:tac:medium_steel_armor>);
 recipes.remove(<item:tac:light_armor_plate>);
 recipes.remove(<item:tac:module_item>);
+recipes.removeByName("tac:gun_powder");
 
 JEI.hideIngredient(<item:tac:uncommon_material>);
 JEI.hideIngredient(<item:tac:rare_material>);

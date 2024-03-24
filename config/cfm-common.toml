@@ -6,5 +6,5 @@
 	maxMailQueue = 5
 	#The interval in ticks for mail boxes to pull mail from the player's queue
 	#Range: > 1
-	pullMailInterval = 20
+	pullMailInterval = 600
 
