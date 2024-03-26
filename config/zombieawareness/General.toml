@@ -3,22 +3,22 @@
 [general]
 	#Max awareness range for zombies
 	#Range: > 0
-	maxPFRangeSense = 64
+	maxPFRangeSense = 48
 	#Prevent non zombies from being attracted to light
 	awareness_Light_OnlyZombies = true
 	#Custom targetting sight range on top of vanilla sight based targetting
 	#Range: > 0
-	sightRange = 16
+	sightRange = 12
 	#Always target closest player [performance sensitive]
 	omniscient = false
 	#skips line of sight check on targetting [performance sensitive]
 	seeThroughWalls = false
 	#Effects how far monsters will sense scents from
 	#Range: > 0
-	scentStrength = 64
+	scentStrength = 24
 	#Effects how far monsters will sense sound sources from
 	#Range: > 0
-	soundStrength = 128
+	soundStrength = 48
 	#max rate of spawning sound sources in milliseconds
 	#Range: > 0
 	frequentSoundThreshold = 1000
@@ -27,10 +27,10 @@
 	zombieRandSpeedBoost = 0.1
 	#The amount of delay in game ticks between processing mobs with enhanced AI, less is more frequent [performance sensitive]
 	#Range: > 0
-	tickRateAILoop = 20
+	tickRateAILoop = 40
 	#how frequently the mod iterates all players, effects rates, less is more frequent
 	#Range: > 0
-	tickRatePlayerLoop = 20
+	tickRatePlayerLoop = 40
 	#How long before a mob can move around again to track a light source, or scent, or sound, increase number to reduce performance impact of mod if needed
 	#Range: > 0
 	tickCooldownBetweenPathfinds = 300

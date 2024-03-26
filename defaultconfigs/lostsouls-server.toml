@@ -54,7 +54,7 @@
 	maxDamageBonus = 1.0
 	#The chance that a building is haunted
 	#Range: 0.0 ~ 1.0
-	hauntedChance = 0.2
+	hauntedChance = 0.15
 	#The minimum amount of mobs that are spawned by a haunted building
 	#Range: 1 ~ 10000
 	minMobs = 10
@@ -63,7 +63,7 @@
 	maxMobs = 20
 	#The chance that a building is haunted. This version is used in case the building is in a Lost City sphere
 	#Range: 0.0 ~ 1.0
-	sphereHauntedChance = 0.2
+	sphereHauntedChance = 0.15
 	#The minimum amount of mobs that are spawned by a haunted building. This version is used in case the building is in a Lost City sphere
 	#Range: 1 ~ 10000
 	sphereMinMobs = 10
