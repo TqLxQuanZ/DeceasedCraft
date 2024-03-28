@@ -138,6 +138,22 @@ val LeadSet = [
 ] as IItemStack[];
 val LeadIngredient = <tag:items:forge:plates/lead>;
 
+val GasMaskSet = [
+    <item:apocalypsenow:soldier_helmet>,
+    <item:apocalypsenow:gasmask_helmet>,
+    <item:apocalypsenow:pkm_4gasmask_helmet>,
+    <item:apocalypsenow:pbf_hamstergasmask_helmet>,
+    <item:apocalypsenow:mcu2p_gasmask_helmet>,
+    <item:apocalypsenow:rusty_helmet>,
+    <item:apocalypsenow:hazmat_suit_helmet>,
+    <item:apocalypsenow:biohazard_helmet>,
+    <item:apocalypsenow:contamination_suit_white_helmet>,
+    <item:apocalypsenow:contamination_suit_blue_helmet>,
+    <item:apocalypsenow:contamination_suit_green_helmet>
+] as IItemStack[];
+val GasMaskIngredient = <item:apocalypsenow:breathingfiltermodule>;
+
+
 val ExoskeletonSet = [
     <item:create_sa:copper_exoskeleton_chestplate>,
     <item:create_sa:andesite_exoskeleton_chestplate>,
@@ -326,7 +342,8 @@ val AllEquipments = [
 	NetheriteSet,
     SteelIngotSet,
     SteelNuggetSet,
-    CarbonSteelSet
+    CarbonSteelSet,
+    GasMaskSet
 ] as IItemStack[][];
 
 val TagEquipments = [
@@ -350,7 +367,8 @@ val AllIngredients = [
 	NetheriteIngredient,
     SteelIngotIngredient,
     SteelNuggetIngredient,
-    CarbonSteelIngredient
+    CarbonSteelIngredient,
+    GasMaskIngredient
 ] as IItemStack[];
 
 val TagIngredients = [
