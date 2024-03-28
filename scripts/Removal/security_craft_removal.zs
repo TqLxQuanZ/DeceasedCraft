@@ -35,13 +35,13 @@ JEI.hideIngredient(<item:securitycraft:remote_access_sentry>);
 craftingTable.remove(<item:securitycraft:sentry>);
 JEI.hideIngredient(<item:securitycraft:sentry>);
 
-craftingTable.removeByRegex("securitycraft:reinforced_.*");
-JEI.hideRegex("securitycraft:reinforced_.*");
+craftingTable.remove(<item:securitycraft:universal_block_reinforcer_lvl2>);
+JEI.hideIngredient(<item:securitycraft:universal_block_reinforcer_lvl2>);
+
+craftingTable.remove(<item:securitycraft:universal_block_reinforcer_lvl3>);
+JEI.hideIngredient(<item:securitycraft:universal_block_reinforcer_lvl3>);
 
 craftingTable.removeByRegex("securitycraft:crystal_quartz_.*");
 JEI.hideRegex("securitycraft:crystal_quartz_.*");
 craftingTable.removeByRegex("securitycraft:.*_crystal_quartz");
 JEI.hideRegex("securitycraft:.*_crystal_quartz");
-
-craftingTable.removeByRegex("securitycraft:universal_block_reinforcer_.*");
-JEI.hideRegex("securitycraft:universal_block_reinforcer_.*");

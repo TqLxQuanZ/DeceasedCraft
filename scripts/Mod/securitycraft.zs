@@ -199,3 +199,11 @@ craftingTable.addShaped("security_camera", <item:securitycraft:security_camera>,
     [[<tag:items:forge:plates/aluminum>, <tag:items:refinedstorage:wireless_transmitter>, <tag:items:forge:plates/aluminum>],
     [<item:immersiveengineering:component_electronic_adv>, <tag:items:forge:wires/electrum>, <tag:items:forge:glass_panes>],
 	[<item:refinedstorage:advanced_processor>, <tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>]]);
+
+
+// Universal Block Reinforcer
+craftingTable.remove(<item:securitycraft:universal_block_reinforcer_lvl1>);
+craftingTable.addShaped("universal_block_reinforcer_lvl1", <item:securitycraft:universal_block_reinforcer_lvl1>,
+    [[<tag:items:forge:plates/aluminum>, <item:immersiveengineering:component_electronic_adv>, <item:minecraft:nether_star>],
+    [<tag:items:forge:wires/electrum>, <item:refinedstorage:advanced_processor>, <item:immersiveengineering:component_electronic_adv>],
+	[<tag:items:forge:rods/wooden>, <tag:items:forge:wires/electrum>, <tag:items:forge:plates/aluminum>]]);
