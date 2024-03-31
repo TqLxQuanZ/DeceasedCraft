@@ -635,6 +635,51 @@ craftingTable.addShapedMirrored("t2_black_football_armor_boots", <constant:minec
     [<tag:items:forge:string>, <tag:items:forge:dyes/black>, <tag:items:forge:string>]]);
 
 <tag:items:forge:football_chestplate>.add(<item:apocalypsenow:black_football_armor_chestplate>);
+
+// Red Fighter Set
+
+craftingTable.remove(<item:apocalypsenow:red_fighting_helmet>);
+craftingTable.remove(<item:apocalypsenow:red_fighting_chestplate>);
+craftingTable.remove(<item:apocalypsenow:red_fighting_leggings>);
+
+craftingTable.addShapedMirrored("t2_red_fighting_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:red_fighting_helmet>,
+    [[<tag:items:forge:string>, <item:contenttweaker:rubber>, <tag:items:forge:string>],
+    [<item:apocalypsenow:cloth>, <item:minecraft:chainmail_helmet>, <tag:items:forge:dyes/red>]]);
+
+craftingTable.addShaped("t2_red_fighting_chestplate", <item:apocalypsenow:red_fighting_chestplate>,
+    [[<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>],
+    [<tag:items:forge:string>, <item:minecraft:chainmail_chestplate>, <tag:items:forge:string>],
+    [<item:contenttweaker:rubber>, <tag:items:forge:dyes/red>, <item:contenttweaker:rubber>]]);
+
+craftingTable.addShaped("t2_red_fighting_leggings", <item:apocalypsenow:red_fighting_leggings>,
+    [[<tag:items:forge:string>, <tag:items:forge:dyes/red>, <tag:items:forge:string>],
+    [<item:contenttweaker:rubber>, <item:minecraft:chainmail_leggings>, <item:contenttweaker:rubber>],
+    [<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>]]);
+
+<tag:items:forge:fighting_chestplate>.add(<item:apocalypsenow:red_fighting_chestplate>);
+
+// blue Fighter Set
+
+craftingTable.remove(<item:apocalypsenow:blue_fighting_helmet>);
+craftingTable.remove(<item:apocalypsenow:blue_fighting_chestplate>);
+craftingTable.remove(<item:apocalypsenow:blue_fighting_leggings>);
+
+craftingTable.addShapedMirrored("t2_blue_fighting_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:blue_fighting_helmet>,
+    [[<tag:items:forge:string>, <item:contenttweaker:rubber>, <tag:items:forge:string>],
+    [<item:apocalypsenow:cloth>, <item:minecraft:chainmail_helmet>, <tag:items:forge:dyes/blue>]]);
+
+craftingTable.addShaped("t2_blue_fighting_chestplate", <item:apocalypsenow:blue_fighting_chestplate>,
+    [[<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>],
+    [<tag:items:forge:string>, <item:minecraft:chainmail_chestplate>, <tag:items:forge:string>],
+    [<item:contenttweaker:rubber>, <tag:items:forge:dyes/blue>, <item:contenttweaker:rubber>]]);
+
+craftingTable.addShaped("t2_blue_fighting_leggings", <item:apocalypsenow:blue_fighting_leggings>,
+    [[<tag:items:forge:string>, <tag:items:forge:dyes/blue>, <tag:items:forge:string>],
+    [<item:contenttweaker:rubber>, <item:minecraft:chainmail_leggings>, <item:contenttweaker:rubber>],
+    [<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>]]);
+
+<tag:items:forge:fighting_chestplate>.add(<item:apocalypsenow:blue_fighting_chestplate>);
+
 // General Army Set - + 1.5 ATK Damage
 
 craftingTable.remove(<item:apocalypsenow:army_helmet>);
@@ -878,22 +923,22 @@ craftingTable.remove(<item:apocalypsenow:canadian_army_leggings>);
 craftingTable.remove(<item:apocalypsenow:canadian_army_boots>);
 
 craftingTable.addShapedMirrored("t3_canadian_army_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:canadian_army_helmet>,
-    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:canadatag>, <tag:items:forge:wires/steel>],
+    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:canada_tag>, <tag:items:forge:wires/steel>],
     [<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_head>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShaped("t3_canadian_army_chestplate", <item:apocalypsenow:canadian_army_chestplate>,
     [[<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>],
     [<tag:items:forge:wires/steel>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:wires/steel>],
-    [<item:apocalypsenow:cloth>, <item:apocalypsenow:canadatag>, <item:apocalypsenow:cloth>]]);
+    [<item:apocalypsenow:cloth>, <item:apocalypsenow:canada_tag>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShaped("t3_canadian_army_leggings", <item:apocalypsenow:canadian_army_leggings>,
-    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:canadatag>, <tag:items:forge:wires/steel>],
+    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:canada_tag>, <tag:items:forge:wires/steel>],
     [<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_legs>, <item:apocalypsenow:cloth>],
     [<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShapedMirrored("t3_canadian_army_boots", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:canadian_army_boots>,
     [[<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_feet>, <item:apocalypsenow:cloth>],
-    [<tag:items:forge:wires/steel>, <item:apocalypsenow:canadatag>, <tag:items:forge:wires/steel>]]);
+    [<tag:items:forge:wires/steel>, <item:apocalypsenow:canada_tag>, <tag:items:forge:wires/steel>]]);
 
 <tag:items:forge:army_chestplate>.add(<item:apocalypsenow:canadian_army_chestplate>);
 
@@ -905,22 +950,22 @@ craftingTable.remove(<item:apocalypsenow:mexican_army_leggings>);
 craftingTable.remove(<item:apocalypsenow:mexican_army_boots>);
 
 craftingTable.addShapedMirrored("t3_mexican_army_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:mexican_army_helmet>,
-    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:mexicotag>, <tag:items:forge:wires/steel>],
+    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:mexico_tag>, <tag:items:forge:wires/steel>],
     [<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_head>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShaped("t3_mexican_army_chestplate", <item:apocalypsenow:mexican_army_chestplate>,
     [[<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>],
     [<tag:items:forge:wires/steel>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:wires/steel>],
-    [<item:apocalypsenow:cloth>, <item:apocalypsenow:mexicotag>, <item:apocalypsenow:cloth>]]);
+    [<item:apocalypsenow:cloth>, <item:apocalypsenow:mexico_tag>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShaped("t3_mexican_army_leggings", <item:apocalypsenow:mexican_army_leggings>,
-    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:mexicotag>, <tag:items:forge:wires/steel>],
+    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:mexico_tag>, <tag:items:forge:wires/steel>],
     [<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_legs>, <item:apocalypsenow:cloth>],
     [<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShapedMirrored("t3_mexican_army_boots", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:mexican_army_boots>,
     [[<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_feet>, <item:apocalypsenow:cloth>],
-    [<tag:items:forge:wires/steel>, <item:apocalypsenow:mexicotag>, <tag:items:forge:wires/steel>]]);
+    [<tag:items:forge:wires/steel>, <item:apocalypsenow:mexico_tag>, <tag:items:forge:wires/steel>]]);
 
 <tag:items:forge:army_chestplate>.add(<item:apocalypsenow:mexican_army_chestplate>);
 
@@ -932,22 +977,22 @@ craftingTable.remove(<item:apocalypsenow:russian_army_leggings>);
 craftingTable.remove(<item:apocalypsenow:russian_army_boots>);
 
 craftingTable.addShapedMirrored("t3_russian_army_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:russian_army_helmet>,
-    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:russiantag>, <tag:items:forge:wires/steel>],
+    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:russian_tag>, <tag:items:forge:wires/steel>],
     [<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_head>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShaped("t3_russian_army_chestplate", <item:apocalypsenow:russian_army_chestplate>,
     [[<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>],
     [<tag:items:forge:wires/steel>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:wires/steel>],
-    [<item:apocalypsenow:cloth>, <item:apocalypsenow:russiantag>, <item:apocalypsenow:cloth>]]);
+    [<item:apocalypsenow:cloth>, <item:apocalypsenow:russian_tag>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShaped("t3_russian_army_leggings", <item:apocalypsenow:russian_army_leggings>,
-    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:russiantag>, <tag:items:forge:wires/steel>],
+    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:russian_tag>, <tag:items:forge:wires/steel>],
     [<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_legs>, <item:apocalypsenow:cloth>],
     [<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShapedMirrored("t3_russian_army_boots", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:russian_army_boots>,
     [[<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_feet>, <item:apocalypsenow:cloth>],
-    [<tag:items:forge:wires/steel>, <item:apocalypsenow:russiantag>, <tag:items:forge:wires/steel>]]);
+    [<tag:items:forge:wires/steel>, <item:apocalypsenow:russian_tag>, <tag:items:forge:wires/steel>]]);
 
 <tag:items:forge:army_chestplate>.add(<item:apocalypsenow:russian_army_chestplate>);
 
@@ -959,22 +1004,22 @@ craftingTable.remove(<item:apocalypsenow:chinese_army_leggings>);
 craftingTable.remove(<item:apocalypsenow:chinese_army_boots>);
 
 craftingTable.addShapedMirrored("t3_chinese_army_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:chinese_army_helmet>,
-    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:chinatag>, <tag:items:forge:wires/steel>],
+    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:china_tag>, <tag:items:forge:wires/steel>],
     [<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_head>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShaped("t3_chinese_army_chestplate", <item:apocalypsenow:chinese_army_chestplate>,
     [[<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>],
     [<tag:items:forge:wires/steel>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:wires/steel>],
-    [<item:apocalypsenow:cloth>, <item:apocalypsenow:chinatag>, <item:apocalypsenow:cloth>]]);
+    [<item:apocalypsenow:cloth>, <item:apocalypsenow:china_tag>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShaped("t3_chinese_army_leggings", <item:apocalypsenow:chinese_army_leggings>,
-    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:chinatag>, <tag:items:forge:wires/steel>],
+    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:china_tag>, <tag:items:forge:wires/steel>],
     [<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_legs>, <item:apocalypsenow:cloth>],
     [<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShapedMirrored("t3_chinese_army_boots", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:chinese_army_boots>,
     [[<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_feet>, <item:apocalypsenow:cloth>],
-    [<tag:items:forge:wires/steel>, <item:apocalypsenow:chinatag>, <tag:items:forge:wires/steel>]]);
+    [<tag:items:forge:wires/steel>, <item:apocalypsenow:china_tag>, <tag:items:forge:wires/steel>]]);
 
 <tag:items:forge:army_chestplate>.add(<item:apocalypsenow:chinese_army_chestplate>);
 
@@ -986,22 +1031,22 @@ craftingTable.remove(<item:apocalypsenow:japanese_army_leggings>);
 craftingTable.remove(<item:apocalypsenow:japanese_army_boots>);
 
 craftingTable.addShapedMirrored("t3_japanese_army_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:japanese_army_helmet>,
-    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:japantag>, <tag:items:forge:wires/steel>],
+    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:japan_tag>, <tag:items:forge:wires/steel>],
     [<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_head>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShaped("t3_japanese_army_chestplate", <item:apocalypsenow:japanese_army_chestplate>,
     [[<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>],
     [<tag:items:forge:wires/steel>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:wires/steel>],
-    [<item:apocalypsenow:cloth>, <item:apocalypsenow:japantag>, <item:apocalypsenow:cloth>]]);
+    [<item:apocalypsenow:cloth>, <item:apocalypsenow:japan_tag>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShaped("t3_japanese_army_leggings", <item:apocalypsenow:japanese_army_leggings>,
-    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:japantag>, <tag:items:forge:wires/steel>],
+    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:japan_tag>, <tag:items:forge:wires/steel>],
     [<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_legs>, <item:apocalypsenow:cloth>],
     [<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShapedMirrored("t3_japanese_army_boots", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:japanese_army_boots>,
     [[<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_feet>, <item:apocalypsenow:cloth>],
-    [<tag:items:forge:wires/steel>, <item:apocalypsenow:japantag>, <tag:items:forge:wires/steel>]]);
+    [<tag:items:forge:wires/steel>, <item:apocalypsenow:japan_tag>, <tag:items:forge:wires/steel>]]);
 
 <tag:items:forge:army_chestplate>.add(<item:apocalypsenow:japanese_army_chestplate>);
 
@@ -1014,22 +1059,22 @@ craftingTable.remove(<item:apocalypsenow:british_army_leggings>);
 craftingTable.remove(<item:apocalypsenow:british_army_boots>);
 
 craftingTable.addShapedMirrored("t3_british_army_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:british_army_helmet>,
-    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:britishtag>, <tag:items:forge:wires/steel>],
+    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:british_tag>, <tag:items:forge:wires/steel>],
     [<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_head>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShaped("t3_british_army_chestplate", <item:apocalypsenow:british_army_chestplate>,
     [[<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>],
     [<tag:items:forge:wires/steel>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:wires/steel>],
-    [<item:apocalypsenow:cloth>, <item:apocalypsenow:britishtag>, <item:apocalypsenow:cloth>]]);
+    [<item:apocalypsenow:cloth>, <item:apocalypsenow:british_tag>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShaped("t3_british_army_leggings", <item:apocalypsenow:british_army_leggings>,
-    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:britishtag>, <tag:items:forge:wires/steel>],
+    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:british_tag>, <tag:items:forge:wires/steel>],
     [<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_legs>, <item:apocalypsenow:cloth>],
     [<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShapedMirrored("t3_british_army_boots", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:british_army_boots>,
     [[<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_feet>, <item:apocalypsenow:cloth>],
-    [<tag:items:forge:wires/steel>, <item:apocalypsenow:britishtag>, <tag:items:forge:wires/steel>]]);
+    [<tag:items:forge:wires/steel>, <item:apocalypsenow:british_tag>, <tag:items:forge:wires/steel>]]);
 
 <tag:items:forge:army_chestplate>.add(<item:apocalypsenow:british_army_chestplate>);
 
@@ -1042,24 +1087,79 @@ craftingTable.remove(<item:apocalypsenow:usa_armor_leggings>);
 craftingTable.remove(<item:apocalypsenow:usa_armor_boots>);
 
 craftingTable.addShapedMirrored("t3_usa_armor_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:usa_armor_helmet>,
-    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:usatag>, <tag:items:forge:wires/steel>],
+    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:usa_tag>, <tag:items:forge:wires/steel>],
     [<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_head>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShaped("t3_usa_armor_chestplate", <item:apocalypsenow:usa_armor_chestplate>,
     [[<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>],
     [<tag:items:forge:wires/steel>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:wires/steel>],
-    [<item:apocalypsenow:cloth>, <item:apocalypsenow:usatag>, <item:apocalypsenow:cloth>]]);
+    [<item:apocalypsenow:cloth>, <item:apocalypsenow:usa_tag>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShaped("t3_usa_armor_leggings", <item:apocalypsenow:usa_armor_leggings>,
-    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:usatag>, <tag:items:forge:wires/steel>],
+    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:usa_tag>, <tag:items:forge:wires/steel>],
     [<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_legs>, <item:apocalypsenow:cloth>],
     [<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>]]);
 
 craftingTable.addShapedMirrored("t3_usa_armor_boots", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:usa_armor_boots>,
     [[<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_feet>, <item:apocalypsenow:cloth>],
-    [<tag:items:forge:wires/steel>, <item:apocalypsenow:usatag>, <tag:items:forge:wires/steel>]]);
+    [<tag:items:forge:wires/steel>, <item:apocalypsenow:usa_tag>, <tag:items:forge:wires/steel>]]);
 
 <tag:items:forge:army_chestplate>.add(<item:apocalypsenow:usa_armor_chestplate>);
+
+// Italian Set - +2.0 ATK Damage
+
+craftingTable.remove(<item:apocalypsenow:italian_bersaglieri_army_helmet>);
+craftingTable.remove(<item:apocalypsenow:italian_bersaglieri_army_chestplate>);
+craftingTable.remove(<item:apocalypsenow:italian_bersaglieri_army_leggings>);
+craftingTable.remove(<item:apocalypsenow:italian_bersaglieri_army_boots>);
+
+craftingTable.addShapedMirrored("t3_italian_bersaglieri_army_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:italian_bersaglieri_army_helmet>,
+    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:italian_tag>, <tag:items:forge:wires/steel>],
+    [<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_head>, <item:apocalypsenow:cloth>]]);
+
+craftingTable.addShaped("t3_italian_bersaglieri_army_chestplate", <item:apocalypsenow:italian_bersaglieri_army_chestplate>,
+    [[<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>],
+    [<tag:items:forge:wires/steel>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:wires/steel>],
+    [<item:apocalypsenow:cloth>, <item:apocalypsenow:italian_tag>, <item:apocalypsenow:cloth>]]);
+
+craftingTable.addShaped("t3_italian_bersaglieri_army_leggings", <item:apocalypsenow:italian_bersaglieri_army_leggings>,
+    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:italian_tag>, <tag:items:forge:wires/steel>],
+    [<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_legs>, <item:apocalypsenow:cloth>],
+    [<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>]]);
+
+craftingTable.addShapedMirrored("t3_italian_bersaglieri_army_boots", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:italian_bersaglieri_army_boots>,
+    [[<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_feet>, <item:apocalypsenow:cloth>],
+    [<tag:items:forge:wires/steel>, <item:apocalypsenow:italian_tag>, <tag:items:forge:wires/steel>]]);
+
+<tag:items:forge:army_chestplate>.add(<item:apocalypsenow:italian_bersaglieri_army_chestplate>);
+
+// brazilian Set - +2.0 ATK Damage
+
+craftingTable.remove(<item:apocalypsenow:brazilian_army_helmet>);
+craftingTable.remove(<item:apocalypsenow:brazilian_army_chestplate>);
+craftingTable.remove(<item:apocalypsenow:brazilian_army_leggings>);
+craftingTable.remove(<item:apocalypsenow:brazilian_army_boots>);
+
+craftingTable.addShapedMirrored("t3_brazilian_army_helmet", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:brazilian_army_helmet>,
+    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:brazilian_tag>, <tag:items:forge:wires/steel>],
+    [<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_head>, <item:apocalypsenow:cloth>]]);
+
+craftingTable.addShaped("t3_brazilian_army_chestplate", <item:apocalypsenow:brazilian_army_chestplate>,
+    [[<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>],
+    [<tag:items:forge:wires/steel>, <item:immersiveengineering:armor_steel_chest>, <tag:items:forge:wires/steel>],
+    [<item:apocalypsenow:cloth>, <item:apocalypsenow:brazilian_tag>, <item:apocalypsenow:cloth>]]);
+
+craftingTable.addShaped("t3_brazilian_army_leggings", <item:apocalypsenow:brazilian_army_leggings>,
+    [[<tag:items:forge:wires/steel>, <item:apocalypsenow:brazilian_tag>, <tag:items:forge:wires/steel>],
+    [<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_legs>, <item:apocalypsenow:cloth>],
+    [<item:apocalypsenow:cloth>, <item:minecraft:air>, <item:apocalypsenow:cloth>]]);
+
+craftingTable.addShapedMirrored("t3_brazilian_army_boots", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:brazilian_army_boots>,
+    [[<item:apocalypsenow:cloth>, <item:immersiveengineering:armor_steel_feet>, <item:apocalypsenow:cloth>],
+    [<tag:items:forge:wires/steel>, <item:apocalypsenow:brazilian_tag>, <tag:items:forge:wires/steel>]]);
+
+<tag:items:forge:army_chestplate>.add(<item:apocalypsenow:brazilian_army_chestplate>);
+
 
 // UN Set - + 1.0 ATK Damage, 0.4 ATK Speed
 

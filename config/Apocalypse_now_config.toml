@@ -1,4 +1,9 @@
 
 ["Structures Spawn"]
+	#disables the structure spawn from apocalypse now
 	structure_spawn = false
+
+["Increase in Population Density"]
+	#Change from 0.1 to 0.5 to increase the number of walkers that appear
+	population_density = 0.0
 
