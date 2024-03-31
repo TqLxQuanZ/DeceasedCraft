@@ -1,0 +1,93 @@
+{
+  "armorSetName": "armors.fighter.title",
+  "head": {
+    "itemKey": "apocalypsenow:red_fighting_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:blue_fighting_helmet"
+    ]
+  },
+  "chest": {
+    "itemKey": "apocalypsenow:red_fighting_chestplate",
+    "mixAndMatch": [
+      "apocalypsenow:blue_fighting_chestplate"
+    ]
+  },
+  "legs": {
+    "itemKey": "apocalypsenow:red_fighting_leggings",
+    "mixAndMatch": [
+      "apocalypsenow:blue_fighting_leggings"
+    ]
+  },
+  "mainHand": {
+    "itemKey": "apocalypsenow:red_boxing_gloves",
+    "mixAndMatch": [
+      "apocalypsenow:blue_boxing_gloves",
+      "apocalypsenow:reiforced_blue_boxing_gloves",
+      "apocalypsenow:reiforced_red_boxing_gloves"
+    ]
+  },
+  "offHand": {
+    "itemKey": "apocalypsenow:red_boxing_gloves",
+    "mixAndMatch": [
+      "apocalypsenow:blue_boxing_gloves",
+      "apocalypsenow:reiforced_blue_boxing_gloves",
+      "apocalypsenow:reiforced_red_boxing_gloves"
+    ]
+  },
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.15,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "e88644db-0612-4cf4-9dfe-942ff9a667d6",
+      "description": "armors.fighter_t1.description_damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.15,
+      "interactionType": "self",
+      "attributeOperation": 2,
+      "modifierUUID": "a14688ca-3dae-4d19-b43e-66bc13efb467",
+      "description": "armors.fighter_t1.description_as",
+      "hideBonusDescription": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.45,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "e20c1384-0a09-49cd-b5bf-84a17ef24b5a",
+      "description": "armors.fighter_t2.description_damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.45,
+      "interactionType": "self",
+      "attributeOperation": 2,
+      "modifierUUID": "e0f319c1-f495-49a0-bea3-49c2ca7ece3f",
+      "description": "armors.fighter_t2.description_as",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "4ee84c65-6692-47d8-86bf-5fba55f44a8a",
+      "description": "armors.fighter_t2.description_movement",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}
