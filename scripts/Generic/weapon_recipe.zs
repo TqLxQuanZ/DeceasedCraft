@@ -128,6 +128,28 @@ craftingTable.remove(<item:apocalypsenow:electrical_combat_axe>);
 craftingTable.addShapeless("electrical_combat_axe", <item:apocalypsenow:electrical_combat_axe>,
     [<item:apocalypsenow:combat_axe>, <item:immersiveengineering:component_electronic>, <tag:items:forge:wires/copper>, <item:car:battery>]);
 
+// Boxing Gloves
+craftingTable.remove(<item:apocalypsenow:red_boxing_gloves>);
+craftingTable.addShapedMirrored("red_boxing_gloves", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:red_boxing_gloves>,
+    [[<item:apocalypsenow:cloth>, <tag:items:forge:leather>],
+    [<item:minecraft:string>, <tag:items:forge:dyes/red>]]);
+    
+craftingTable.remove(<item:apocalypsenow:blue_boxing_gloves>);
+craftingTable.addShapedMirrored("blue_boxing_gloves", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:blue_boxing_gloves>,
+    [[<item:apocalypsenow:cloth>, <tag:items:forge:leather>],
+    [<item:minecraft:string>, <tag:items:forge:dyes/blue>]]);
+    
+craftingTable.remove(<item:apocalypsenow:reiforced_red_boxing_gloves>);
+craftingTable.addShapedMirrored("reiforced_red_boxing_gloves", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:reiforced_red_boxing_gloves>,
+    [[<item:apocalypsenow:red_boxing_gloves>, <item:contenttweaker:rubber>],
+    [<item:minecraft:string>, <tag:items:forge:plates/iron>]]);
+    
+craftingTable.remove(<item:apocalypsenow:reiforced_blue_boxing_gloves>);
+craftingTable.addShapedMirrored("reiforced_blue_boxing_gloves", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:reiforced_blue_boxing_gloves>,
+    [[<item:apocalypsenow:blue_boxing_gloves>, <item:contenttweaker:rubber>],
+    [<item:minecraft:string>, <tag:items:forge:plates/iron>]]);
+
+
 // Machete
 craftingTable.remove(<item:apocalypsenow:machete>);
 craftingTable.addShapedMirrored("machete", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:machete>,

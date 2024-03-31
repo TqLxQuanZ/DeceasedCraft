@@ -1400,6 +1400,13 @@
 			x: 11.0d
 			y: -3.0d
 			subtitle: "{quest.armor.t2_fighter.subtitle}"
+			description: [
+				"{quest.armor.t2_fighter.description_1}"
+				""
+				"{quest.armor.t2_fighter.description_2}"
+			]
+			dependencies: ["1B1EB334C4561997"]
+			dependency_requirement: "one_started"
 			id: "70A7261F8896F924"
 			tasks: [{
 				id: "08E46B8F7731C8EE"
