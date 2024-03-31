@@ -1395,6 +1395,25 @@
 				xp: 300
 			}]
 		}
+		{
+			title: "{quest.armor.t2_fighter.title}"
+			x: 11.0d
+			y: -3.0d
+			subtitle: "{quest.armor.t2_fighter.subtitle}"
+			id: "70A7261F8896F924"
+			tasks: [{
+				id: "08E46B8F7731C8EE"
+				type: "item"
+				title: "Any #forge:fighting_chestplate"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:fighting_chestplate"
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

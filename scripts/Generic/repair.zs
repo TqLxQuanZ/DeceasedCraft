@@ -36,7 +36,13 @@ val FabricSet = [
     <item:apocalypsenow:royal_canada_police_officer_chestplate>,
     <item:apocalypsenow:royal_canada_police_officer_leggings>,
     <item:apocalypsenow:royal_canada_police_officer_boots>,
-    <item:apocalypsenow:officer_helmet>
+    <item:apocalypsenow:officer_helmet>,
+    <item:apocalypsenow:red_fighting_helmet>,
+    <item:apocalypsenow:red_fighting_chestplate>,
+    <item:apocalypsenow:red_fighting_leggings>,
+    <item:apocalypsenow:blue_fighting_helmet>,
+    <item:apocalypsenow:blue_fighting_chestplate>,
+    <item:apocalypsenow:blue_fighting_leggings>
 ] as IItemStack[];
 val FabricIngredient = <item:apocalypsenow:cloth>;
 

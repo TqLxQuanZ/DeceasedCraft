@@ -996,30 +996,30 @@ import crafttweaker.api.entity.attribute.AttributeOperation;
 
  
 <item:apocalypsenow:red_boxing_gloves>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:red_boxing_gloves>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:red_boxing_gloves>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:red_boxing_gloves>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:red_boxing_gloves>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:red_boxing_gloves>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:red_boxing_gloves>.maxDamage = 200;
 
  
 <item:apocalypsenow:reiforced_red_boxing_gloves>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:reiforced_red_boxing_gloves>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:reiforced_red_boxing_gloves>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:reiforced_red_boxing_gloves>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:reiforced_red_boxing_gloves>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:reiforced_red_boxing_gloves>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:reiforced_red_boxing_gloves>.maxDamage = 250;
 
  
 <item:apocalypsenow:blue_boxing_gloves>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:blue_boxing_gloves>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:blue_boxing_gloves>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:blue_boxing_gloves>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:blue_boxing_gloves>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:blue_boxing_gloves>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:blue_boxing_gloves>.maxDamage = 200;
 
  
 <item:apocalypsenow:reiforced_blue_boxing_gloves>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_damage>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:reiforced_blue_boxing_gloves>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:reiforced_blue_boxing_gloves>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "generic.attack_damage", 3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:reiforced_blue_boxing_gloves>.anyDamage().removeGlobalAttribute(<attribute:minecraft:generic.attack_speed>, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:apocalypsenow:reiforced_blue_boxing_gloves>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -2.2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:apocalypsenow:reiforced_blue_boxing_gloves>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "generic.attack_speed", -1.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:apocalypsenow:reiforced_blue_boxing_gloves>.maxDamage = 250;
 
  
