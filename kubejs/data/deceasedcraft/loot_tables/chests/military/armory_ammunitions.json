@@ -149,21 +149,6 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "tac:762x25",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 24,
-                "max": 32
-              },
-              "add": true
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
           "name": "tac:762x54",
           "functions": [
             {
