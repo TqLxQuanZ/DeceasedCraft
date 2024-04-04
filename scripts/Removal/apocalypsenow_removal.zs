@@ -306,6 +306,7 @@ recipes.remove(<item:apocalypsenow:thincan>);
 recipes.remove(<item:apocalypsenow:blackhockeymask_helmet>);
 recipes.remove(<item:apocalypsenow:ballistic_mask_helmet>);
 recipes.remove(<item:apocalypsenow:energy_drink>);
+recipes.remove(<item:apocalypsenow:tank_helmet>);
 recipes.remove(<item:apocalypsenow:desertcamo_6b_chestplate>);
 recipes.remove(<item:apocalypsenow:advanced_hazmat_suit_helmet>);
 recipes.remove(<item:apocalypsenow:advanced_hazmat_suit_chestplate>);
