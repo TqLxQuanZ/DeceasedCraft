@@ -33,7 +33,7 @@
 	#"item_id": The item's ID (i.e. "minecraft:iron_ingot"). Accepts tags with "#" (i.e. "#minecraft:wool").
 	#"insulation": The amount of insulation the item provides. Will adjust to hot/cold based on the environment.
 	#"adaptSpeed": The speed at which the item adapts to the current temperature. Higher values mean faster adaptation (from 0 to 1).
-	"Adaptive Insulation Ingredients" = [["immersiveengineering:ersatz_leather", 2.0, 0.03], ["farmersdelight:canvas", 0.5, 0.005], ["cold_sweat:chameleon_molt", 1, 0.015]]
+	"Adaptive Insulation Ingredients" = [["immersiveengineering:ersatz_leather", 1.5, 0.05], ["farmersdelight:canvas", 0.5, 0.005], ["cold_sweat:chameleon_molt", 1, 0.025]]
 	#Defines the items that provide insulation when worn
 	#Format: [["item_id", cold, hot], ["item_id", cold, hot], ...etc]
 	#"item_id": The item's ID (i.e. "minecraft:iron_ingot"). Accepts tags with "#" (i.e. "#minecraft:wool").
