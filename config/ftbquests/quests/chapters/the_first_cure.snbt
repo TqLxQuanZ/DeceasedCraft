@@ -57,10 +57,10 @@
 				"22113D22B765DBDB"
 				"7F507AF34DA3B2BC"
 			]
-			hide: true
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "linear"
+			hide_details_until_startable: true
 			id: "098A5B821B569511"
 			tasks: [{
 				id: "75D8259DD92C4BD0"
@@ -89,9 +89,9 @@
 				"{quest.cure.find_wooded_wasteland.description_2}"
 			]
 			dependencies: ["7F3B97A92A7071E4"]
-			hide: true
 			dependency_requirement: "one_started"
 			progression_mode: "linear"
+			hide_details_until_startable: true
 			id: "7F507AF34DA3B2BC"
 			tasks: [{
 				id: "2207FBD5CE85F8AB"
@@ -115,9 +115,9 @@
 				"{quest.cure.find_wasteland.description_2}"
 			]
 			dependencies: ["7F3B97A92A7071E4"]
-			hide: true
 			dependency_requirement: "one_started"
 			progression_mode: "linear"
+			hide_details_until_startable: true
 			id: "22113D22B765DBDB"
 			tasks: [{
 				id: "2400C8391D10316E"
@@ -145,9 +145,10 @@
 				"{quest.cure.source.description_3}"
 			]
 			dependencies: ["4F5B6A50948691EE"]
-			hide: true
+			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "linear"
+			hide_details_until_startable: true
 			id: "7F3B97A92A7071E4"
 			tasks: [{
 				id: "1E082A3D0F33ED6B"
@@ -310,6 +311,7 @@
 				"17FED0C0673B0743"
 				"3868EB3CF99FB29F"
 			]
+			dependency_requirement: "one_started"
 			size: 2.0d
 			progression_mode: "linear"
 			hide_details_until_startable: true
@@ -381,8 +383,9 @@
 				"{quest.cure.info_residential.description_2}"
 			]
 			dependencies: ["40A8DA280F2434B5"]
-			hide: true
+			dependency_requirement: "one_started"
 			progression_mode: "linear"
+			hide_details_until_startable: true
 			id: "4B0AB2212F4EFC57"
 			tasks: [{
 				id: "31FDD6FD7A363256"
@@ -400,8 +403,9 @@
 				"{quest.cure.info_police.description_2}"
 			]
 			dependencies: ["40A8DA280F2434B5"]
-			hide: true
+			dependency_requirement: "one_started"
 			progression_mode: "linear"
+			hide_details_until_startable: true
 			id: "498A69A82C40A1AC"
 			tasks: [{
 				id: "5EF1FBD07C7FECB9"
@@ -419,8 +423,9 @@
 				"{quest.cure.info_military.description_2}"
 			]
 			dependencies: ["40A8DA280F2434B5"]
-			hide: true
+			dependency_requirement: "one_started"
 			progression_mode: "linear"
+			hide_details_until_startable: true
 			id: "7FD4332FA85977DA"
 			tasks: [{
 				id: "7533CAADDD31CB9B"
@@ -438,8 +443,9 @@
 				"{quest.cure.info_megatower.description_2}"
 			]
 			dependencies: ["40A8DA280F2434B5"]
-			hide: true
+			dependency_requirement: "one_started"
 			progression_mode: "linear"
+			hide_details_until_startable: true
 			id: "5854BB940F8A1E4E"
 			tasks: [{
 				id: "4253EEF6C734C452"
@@ -457,8 +463,9 @@
 				"{quest.cure.info_hospital.description_2}"
 			]
 			dependencies: ["40A8DA280F2434B5"]
-			hide: true
+			dependency_requirement: "one_started"
 			progression_mode: "linear"
+			hide_details_until_startable: true
 			id: "5A6BB344DC912E24"
 			tasks: [{
 				id: "0F8BA824D84AA686"
@@ -525,6 +532,7 @@
 				"4F5B6A50948691EE"
 			]
 			hide: false
+			dependency_requirement: "one_started"
 			hide_text_until_complete: false
 			size: 2.0d
 			progression_mode: "linear"
@@ -553,23 +561,24 @@
 				"{quest.cure.basic.description_2}"
 			]
 			dependencies: ["4F5B6A50948691EE"]
-			hide: true
+			dependency_requirement: "one_started"
 			hide_text_until_complete: false
 			size: 1.5d
 			progression_mode: "linear"
+			hide_details_until_startable: true
 			id: "40A8DA280F2434B5"
 			tasks: [{
 				id: "5747F9E4418F5F10"
 				type: "item"
 				item: "minecraft:golden_apple"
-				count: 4L
+				count: 2L
 			}]
 			rewards: [
 				{
 					id: "55485C3EDD08654C"
 					type: "item"
 					item: "minecraft:golden_apple"
-					count: 4
+					count: 2
 				}
 				{
 					id: "25776BFD9485A9C2"
@@ -595,10 +604,10 @@
 				"22113D22B765DBDB"
 				"7F507AF34DA3B2BC"
 			]
-			hide: true
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "linear"
+			hide_details_until_startable: true
 			id: "6C0B6C51FE103AD3"
 			tasks: [{
 				id: "33C37FD86E71315A"
