@@ -255,6 +255,29 @@
 				item: "immersiveengineering:workbench"
 			}]
 		}
+		{
+			title: "{quest.guides.villager.pickup.title}"
+			icon: "sophisticatedbackpacks:backpack"
+			x: 1.5d
+			y: -1.0d
+			subtitle: "{quest.guides.villager.pickup.subtitle}"
+			description: [
+				"{quest.guides.villager.pickup.description_1}"
+				""
+				"{quest.guides.villager.pickup.description_2}"
+			]
+			id: "7A795778639A1553"
+			tasks: [{
+				id: "3F73295C569C7BE2"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5EE80047FFDCF9A7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3132227616718337425L
+			}]
+		}
 	]
 	quest_links: [ ]
 }
