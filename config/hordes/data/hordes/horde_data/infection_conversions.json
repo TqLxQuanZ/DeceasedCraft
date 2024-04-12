@@ -1,0 +1,102 @@
+[
+	{
+		"entity": "minecraft:vindicator",
+		"converts_to": "minecraft:zombie_villager",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:pillager",
+		"converts_to": "minecraft:zombie_villager",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:villager",
+		"converts_to": "minecraft:zombie_villager",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:horse",
+		"converts_to": "zombiemobs:zombie_horsee",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:cat",
+		"converts_to": "zombiemobs:zombie_cat",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:chicken",
+		"converts_to": "zombiemobs:zombie_chicken",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:cow",
+		"converts_to": "zombiemobs:zombie_cow",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:dolphin",
+		"converts_to": "zombiemobs:zombie_dolphin",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:donkey",
+		"converts_to": "zombiemobs:zombie_donkey",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:fox",
+		"converts_to": "zombiemobs:zombie_fox",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:goat",
+		"converts_to": "zombiemobs:zombie_goat",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:llama",
+		"converts_to": "zombiemobs:zombie_llama",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:mooshroom",
+		"converts_to": "zombiemobs:zombie_mooshroom",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:ocelot",
+		"converts_to": "zombiemobs:zombie_ocelot",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:panda",
+		"converts_to": "zombiemobs:zombie_panda",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:pig",
+		"converts_to": "zombiemobs:zombie_pig",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:sheep",
+		"converts_to": "zombiemobs:zombie_sheep",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:turtle",
+		"converts_to": "zombiemobs:zombie_turtle",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:squid",
+		"converts_to": "zombiemobs:zombie_squid",
+		"chance": 0.3
+	},
+	{
+		"entity": "minecraft:wolf",
+		"converts_to": "zombiemobs:zombie_wolf",
+		"chance": 0.3
+	}
+]

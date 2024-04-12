@@ -13,7 +13,6 @@
 	#What time of day does the horde event start? eg 18000 is midnight with default day length.
 	hordeStartTime = 13000
 	#Amount of days between horde spawns.
-	#Range: > 1
 	hordeSpawnDays = 15
 	#Amount of days a horde event can be randomly delayed by
 	hordeSpawnVariation = 0
@@ -33,26 +32,28 @@
 	hordesCommandOnly = false
 	#How many ticks does the horde pathing ai take before recalculating? (Increase this if you are having server slowdown during horde events.)
 	hordePathingInterval = 40
+	#How fast do horde mobs move towards their tracked player?
+	hordeEntitySpeed = 1.0
+	#Are horde events tracked by player play time instead of world time.
+	hordeEventByPlayerTime = true
 
 [Infection]
 	#Set to false to completely disable mob infection and anything related to it.
 	enableMobInfection = true
 	#Can villagers be infected.
 	infectVillagers = true
-	#Chance out of 100 for a villager to get infected
-	villagerInfectChance = 2
+	#Chance for a villager to get infected, a value of 1 or higher makes it guaranteed
+	villagerInfectChance = 0.02
 	#Can players be infected.
 	infectPlayers = true
 	#Whether later levels of infected should slightly slow movement speed? 
 	infectSlowness = true
-	#Whether later levels of infected should depleet hunger quicker? 
+	#Whether later levels of infected should deplete hunger quicker? 
 	infectHunger = true
-	#Chance out of 100 for a player to get infected
-	playerInfectChance = 2
+	#Chance for a player to get infected, a value of 1 or higher makes it guaranteed
+	playerInfectChance = 0.02
 	#How long do each of the 4 effect phases last for before the next phase is activated?
 	ticksForEffectStage = 8000
-	#A list of entities that can be infected, followed by the chance out of 100 to infect, then the entity to convert them to, entities can have nbt attached to them.(e.g. minecraft:villager-85-minecraft:zombie_villager{ActiveEffects:[{Id:12,Amplifier:0,Duration:10000}]}), note: players and villagers have special code accociated with them, and should not be in this list
-	customConversionList = ["apocalypsenow:survivor_10-100-minecraft:zombie", "apocalypsenow:survivor_9-100-minecraft:zombie", "apocalypsenow:survivor_8-100-minecraft:zombie", "apocalypsenow:survivor_7-100-minecraft:zombie", "apocalypsenow:survivor_6-100-minecraft:zombie", "apocalypsenow:survivor_5-100-minecraft:zombie", "apocalypsenow:survivor_4-100-minecraft:zombie", "apocalypsenow:survivor_3-100-minecraft:zombie", "apocalypsenow:survivor_2-100-minecraft:zombie", "apocalypsenow:survivor_1-100-minecraft:zombie", "minecraft:vindicator-20-minecraft:zombie_villager", "minecraft:pillager-20-minecraft:zombie_villager", "minecraft:horse-20-zombiemobs:zombie_horsee", "minecraft:cat-20-zombiemobs:zombie_cat", "minecraft:chicken-20-zombiemobs:zombie_chicken", "minecraft:cow-20-zombiemobs:zombie_cow", "minecraft:dolphin-20-zombiemobs:zombie_dolphin", "minecraft:donkey-20-zombiemobs:zombie_donkey", "minecraft:fox-20-zombiemobs:zombie_fox", "minecraft:goat-20-zombiemobs:zombie_goat", "minecraft:llama-20-zombiemobs:zombie_llama", "minecraft:mooshroom-20-zombiemobs:zombie_mooshroom", "minecraft:ocelot-20-zombiemobs:zombie_ocelot", "minecraft:panda-20-zombiemobs:zombie_panda", "minecraft:pig-20-zombiemobs:zombie_pig", "minecraft:sheep-20-zombiemobs:zombie_sheep", "minecraft:squid-20-zombiemobs:zombie_squid", "minecraft:turtle-20-zombiemobs:zombie_turtle", "minecraft:wolf-20-zombiemobs:zombie_wolf"]
 	#Do entities on the infectionEntities list automatically target entities on the infectionConversionList
 	infectionEntitiesAggroConversions = true
 	#Do players who die to infection spawn a zombie?
@@ -61,17 +62,7 @@
 	effectStageTickReduction = 0.95
 
 [Misc]
-	#Whether to use zombie players as graves all the time. (Even if infection is disabled)
-	zombieGraves = false
-	#Whether to always spawn a drowned if a player dies underwater. (Even if infection or zombieGraves are disabled)
-	drownedGraves = false
-	#Whether to spawn drowned players when a player dies underwater instead of a zombie player. (Whether the zombie is spawned from infection or zombieGraves being true)
-	drownedPlayers = true
-	#Whether zombie players and drowned players should be immune to fire damage
-	zombiePlayersFireImmune = false
-	#Whether zombie players and drowned players burn in sunlight.
-	zombiePlayersBurn = false
-	#Whether zombies and drowneds burn in sunlight.
+	#Whether zombies and drowned burn in sunlight.
 	zombiesBurn = false
 	#Whether skeletons and strays burn in sunlight.
 	skeletonsBurn = false
@@ -85,8 +76,6 @@
 	skeletonHorsesBurn = false
 	#Whether unmounted horses are scared of zombies.
 	zombiesScareHorses = true
-	#Whether zombie players and drowned players are immune to all damage from non player sources.
-	zombiePlayersOnlyHurtByPlayers = false
 	#Whether piglins and hoglins automatically convert to zombies in the overworld
 	piglinsHoglinsConvert = false
 	#Whether zombie piglins are hostile by default
@@ -97,4 +86,24 @@
 	piglinsCureThemself = true
 	#Whether zoglins are agressive towards other undead mobs
 	zoglinsAttackUndead = false
+	#Whether illagers kill zombie mobs
+	illagersHuntZombies = true
+	#Whether zoglins are agressive towards non-undead monsters
+	zoglinsAttackMobs = true
+
+	[Misc."Zombie Players"]
+		#Whether to use zombie players as graves all the time. (Even if infection is disabled)
+		zombieGraves = false
+		#Whether to spawn drowned players when a player dies underwater instead of a zombie player. (Whether the zombie is spawned from infection or zombieGraves being true)
+		drownedPlayers = true
+		#Whether to spawn husk players when a player dies in a desert biome instead of a zombie player. (Whether the zombie is spawned from infection or zombieGraves being true)
+		huskPlayers = true
+		#Whether zombie players, drowned players and husk players should be immune to fire damage
+		zombiePlayersFireImmune = false
+		#Whether zombie players and drowned players burn in sunlight.
+		zombiePlayersBurn = false
+		#Whether zombie players, drowned players and husk players are immune to all damage from non player sources.
+		zombiePlayersOnlyHurtByPlayers = false
+		#Whether zombie players, drowned players and husk players store items dropped by the player that spawned them.
+		zombiePlayersStoreItems = true
 
