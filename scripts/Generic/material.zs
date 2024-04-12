@@ -68,6 +68,30 @@ craftingTable.addShapeless("ie_gold_wire", <item:createaddition:gold_wire>,
 // Iron Wire
 craftingTable.addShapeless("ie_iron_wire", <item:createaddition:iron_wire>,
     [<tag:items:forge:plates/iron>, <item:immersiveengineering:wirecutter>.anyDamage().transformDamage(1)]);
+    
+// Iron Sheet (Create Addition)
+craftingTable.addShapeless("create_iron_sheet", <item:create:iron_sheet>,
+    [<tag:items:forge:ingots/iron>, <item:immersiveengineering:hammer>.anyDamage().transformDamage(1)]);
+    
+// Copper Sheet (Create Addition)
+craftingTable.addShapeless("create_copper_sheet", <item:create:copper_sheet>,
+    [<tag:items:forge:ingots/copper>, <item:immersiveengineering:hammer>.anyDamage().transformDamage(1)]);
+    
+// Brass Sheet (Create Addition)
+craftingTable.addShapeless("create_brass_sheet", <item:create:brass_sheet>,
+    [<tag:items:forge:ingots/brass>, <item:immersiveengineering:hammer>.anyDamage().transformDamage(1)]);
+
+// Golden Sheet (Create Addition)
+craftingTable.addShapeless("create_golden_sheet", <item:create:golden_sheet>,
+    [<tag:items:forge:ingots/gold>, <item:immersiveengineering:hammer>.anyDamage().transformDamage(1)]);
+    
+// Zinc Sheet (Create Addition)
+craftingTable.addShapeless("create_zinc_sheet", <item:createaddition:zinc_sheet>,
+    [<tag:items:forge:ingots/zinc>, <item:immersiveengineering:hammer>.anyDamage().transformDamage(1)]);
+
+// Zinc Sheet (Create Addition)
+craftingTable.addShapeless("create_electrum_sheet", <item:createaddition:electrum_sheet>,
+    [<tag:items:forge:ingots/electrum>, <item:immersiveengineering:hammer>.anyDamage().transformDamage(1)]);
 
 // Steel for mixing
 <recipetype:create:mixing>.addRecipe("steel_ingot", <constant:create:heat_condition:superheated>, [<item:immersiveengineering:ingot_steel>], [<tag:items:forge:dusts/coal_coke>, <tag:items:forge:ingots/iron>], [], 256);
