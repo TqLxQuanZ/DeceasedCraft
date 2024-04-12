@@ -600,38 +600,6 @@ villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, <item:apocalypsen
 
 
 
-
-// Wandering Trader
-villagerTrades.removeAllWanderingTrades(1);
-villagerTrades.removeAllWanderingTrades(2);
-
-// Tier 1
-villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money>, <item:minecraft:gunpowder> * 2, 64, 10);
-villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money>, <item:farmersdelight:mutton_wrap> * 2, 8, 10);
-villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money>, <item:farmersdelight:bacon_sandwich> * 2, 8, 10);
-villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money>, <item:firstaid:bandage> * 3, 8, 10);
-villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 3, <item:immersiveengineering:stick_steel>, 3, 10);
-villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 4, <item:immersiveengineering:ingot_aluminum>, 3, 10);
-villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 3, <item:immersiveengineering:ingot_steel>, 3, 10);
-villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 4, <item:tac:9mm_round> * 12, 8, 10);
-villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 4, <item:tac:10_gauge_round> * 12, 8, 10);
-villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 4, <item:tac:b_magnum> * 8, 8, 10);
-villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 4, <item:tac:ae50> * 8, 8, 10);
-villagerTrades.addWanderingTrade(1, <item:apocalypsenow:money> * 4, <item:tac:round45> * 8, 8, 10);
-
-// Tier 2
-villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 8, <item:tac:nato_556_bullet> * 12, 8, 10);
-villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 8, <item:tac:762x54> * 12, 8, 10);
-villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 8, <item:tac:762x39> * 12, 8, 10);
-villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 8, <item:tac:762x25> * 12, 8, 10);
-villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 8, <item:tac:58x42> * 12, 8, 10);
-villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 24, <item:create:precision_mechanism>, 2, 30);
-villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 7, <item:contenttweaker:rubber>, 4, 30);
-villagerTrades.addWanderingTrade(2, <item:apocalypsenow:money> * 7, <item:immersiveengineering:plate_duroplast>, 4, 30);
-
-
-
-
 // Machinist
 // Tier 1
 villagerTrades.removeAllTrades(<profession:immersiveengineering:machinist>, 1);
