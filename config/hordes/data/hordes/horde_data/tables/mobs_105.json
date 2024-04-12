@@ -1,0 +1,37 @@
+[
+	{
+		"entity": "minecraft:zombie",
+		"weight": 15
+	},
+	{
+		"entity": "zombie_extreme:bomber",
+		"weight": 5,
+		"min_spawns": 1,
+		"max_spawns": 3
+	},
+	{
+		"entity": "zombie_extreme:inflated",
+		"weight": 5,
+		"min_spawns": 1,
+		"max_spawns": 3
+	},
+	{
+		"entity": "undead_revamp2:thesmoker",
+		"weight": 5,
+		"min_spawns": 1,
+		"max_spawns": 3
+	},
+	{
+		"entity": "minecraft:zombie",
+		"weight": 5,
+		"nbt": "{HandItems:[{id:air,Count:1},{id:iron_pickaxe,Count:1}]}",
+		"min_spawns": 1,
+		"max_spawns": 5
+	},
+	{
+		"entity": "undead_revamp2:thepregnant",
+		"weight": 3,
+		"min_spawns": 1,
+		"max_spawns": 3
+	}
+]

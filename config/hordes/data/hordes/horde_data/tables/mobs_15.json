@@ -1,0 +1,18 @@
+[
+	{
+		"entity": "minecraft:zombie",
+		"weight": 30
+	},
+	{
+		"entity": "undead_revamp2:bomber",
+		"weight": 5,
+		"min_spawns": 1,
+		"max_spawns": 3
+	},
+	{
+		"entity": "undead_revamp2:thesmoker",
+		"weight": 5,
+		"min_spawns": 1,
+		"max_spawns": 3
+	}
+]

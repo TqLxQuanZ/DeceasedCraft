@@ -1,0 +1,37 @@
+[
+	{
+		"entity": "minecraft:zombie",
+		"weight": 15,
+		"nbt": "{HandItems:[{id:air,Count:1},{id:iron_pickaxe,Count:1}]}"
+	},
+	{
+		"entity": "zombie_extreme:bomber",
+		"weight": 5,
+		"min_spawns": 3,
+		"max_spawns": 5
+	},
+	{
+		"entity": "zombie_extreme:patient_zero",
+		"weight": 5,
+		"min_spawns": 1,
+		"max_spawns": 2
+	},
+	{
+		"entity": "zombie_extreme:rat_king",
+		"weight": 5,
+		"min_spawns": 1,
+		"max_spawns": 2
+	},
+	{
+		"entity": "undead_revamp2:thepregnant",
+		"weight": 5,
+		"min_spawns": 1,
+		"max_spawns": 2
+	},
+	{
+		"entity": "mutationcraft:human_herder",
+		"weight": 5,
+		"min_spawns": 1,
+		"max_spawns": 2
+	}
+]
