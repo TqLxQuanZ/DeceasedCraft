@@ -58,7 +58,7 @@
 	#Whether creepers, zombies, endermen, ghasts, withers, ender dragons, rabbits, sheep, villagers, silverfish, snow golems, and end crystals should be able to change blocks and whether mobs can pick up items, which also disables bartering. This also affects the capability of zombie-like creatures like zombified piglins and drowned to pathfind to turtle eggs
 	mob_griefing = true
 	#Whether the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
-	natural_regeneration = true
+	natural_regeneration = false
 	#What percentage of players must sleep to skip the night
 	#Range: > 0
 	players_sleeping_percentage = 10
