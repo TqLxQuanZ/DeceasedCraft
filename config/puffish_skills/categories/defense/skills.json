@@ -5,66 +5,6 @@
 		"y": -256,
 		"root": true
 	},
-	"ir1ohl5rd9xq61mo": {
-		"definition": "healing+25%",
-		"x": -64,
-		"y": -32,
-		"root": false
-	},
-	"jzyzivfwhac3m4mp": {
-		"definition": "healing+25%",
-		"x": 64,
-		"y": -96,
-		"root": false
-	},
-	"mw6cgnr7le59k9yx": {
-		"definition": "healing+25%",
-		"x": 64,
-		"y": 32,
-		"root": false
-	},
-	"d0u8912x458e9sae": {
-		"definition": "healing+25%",
-		"x": 64,
-		"y": -32,
-		"root": false
-	},
-	"dum0jsq3t07aq8rp": {
-		"definition": "healing+25%",
-		"x": -64,
-		"y": 32,
-		"root": false
-	},
-	"u1549nbfr91j7h3t": {
-		"definition": "healing+25%",
-		"x": -64,
-		"y": -96,
-		"root": false
-	},
-	"pos3yga5yzpag7rb": {
-		"definition": "healing+25%",
-		"x": 64,
-		"y": 96,
-		"root": false
-	},
-	"tmxq6ix3jrkao3ds": {
-		"definition": "healing+25%",
-		"x": -64,
-		"y": 96,
-		"root": false
-	},
-	"ayvdl9sr9kghtz4b": {
-		"definition": "healing+25%",
-		"x": 0,
-		"y": -160,
-		"root": false
-	},
-	"a8xcnswgoqdm9htv": {
-		"definition": "healing+25%",
-		"x": 0,
-		"y": -32,
-		"root": false
-	},
 	"ae2ul7aehtljlibd": {
 		"definition": "armor+2.5%",
 		"x": 192,
@@ -167,30 +107,6 @@
 		"y": 32,
 		"root": false
 	},
-	"x9eo2mf1znuygw0h": {
-		"definition": "healing+50%",
-		"x": -64,
-		"y": 160,
-		"root": false
-	},
-	"lzhe8p8kb6bc5g7f": {
-		"definition": "healing+50%",
-		"x": 64,
-		"y": 224,
-		"root": false
-	},
-	"kxpi8eciggqqvjrz": {
-		"definition": "healing+50%",
-		"x": 64,
-		"y": 160,
-		"root": false
-	},
-	"q8ffkqk2n6hlr27e": {
-		"definition": "healing+50%",
-		"x": -64,
-		"y": 224,
-		"root": false
-	},
 	"zbrcrftj873n35hw": {
 		"definition": "armor+5%",
 		"x": 128,
@@ -255,6 +171,84 @@
 		"definition": "health+1",
 		"x": -192,
 		"y": -32,
+		"root": false
+	},
+	"z9qmn092zp4qjbim": {
+		"definition": "dual_dampening+10%",
+		"x": 0,
+		"y": -160,
+		"root": false
+	},
+	"7ua8j5va7dwcbhny": {
+		"definition": "cold_dampening+10%",
+		"x": -64,
+		"y": -96,
+		"root": false
+	},
+	"21t3wp8u4datn524": {
+		"definition": "cold_dampening+10%",
+		"x": -64,
+		"y": -32,
+		"root": false
+	},
+	"6twarn089w697qbc": {
+		"definition": "cold_dampening+10%",
+		"x": -64,
+		"y": 32,
+		"root": false
+	},
+	"thnptu0lt9ybhuwq": {
+		"definition": "cold_dampening+10%",
+		"x": -64,
+		"y": 96,
+		"root": false
+	},
+	"gttyojcs6o5m0t5r": {
+		"definition": "cold_dampening+10%",
+		"x": -64,
+		"y": 160,
+		"root": false
+	},
+	"ls4unmgmntl657gf": {
+		"definition": "cold_dampening+10%",
+		"x": -64,
+		"y": 224,
+		"root": false
+	},
+	"2lnne66xm0yuirtz": {
+		"definition": "heat_dampening+10%",
+		"x": 64,
+		"y": -96,
+		"root": false
+	},
+	"kh5khtx1klkiz99x": {
+		"definition": "heat_dampening+10%",
+		"x": 64,
+		"y": -32,
+		"root": false
+	},
+	"nbn36qho866qdp3g": {
+		"definition": "heat_dampening+10%",
+		"x": 64,
+		"y": 32,
+		"root": false
+	},
+	"fsfn9mx5amy5qi9d": {
+		"definition": "heat_dampening+10%",
+		"x": 64,
+		"y": 96,
+		"root": false
+	},
+	"605xud4tsc44mxul": {
+		"definition": "heat_dampening+10%",
+		"x": 64,
+		"y": 160,
+		"root": false
+	},
+	"rd5c485opti0xbun": {
+		"definition": "heat_dampening+10%",
+		"x": 64,
+		"y": 224,
 		"root": false
 	}
 }

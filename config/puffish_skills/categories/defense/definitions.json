@@ -1,6 +1,6 @@
 {
 	"root_resistance+5%": {
-		"title": ["§6+10% ", {"translate":"skills.defense.natural_healing", "color":"gold"}, {"translate":"skills.defense.and", "color":"gold"}, "§6+5% ",{"translate":"skills.defense.total_armor_bonus", "color":"gold"} ],
+		"title": ["§6+5% ",{"translate":"skills.defense.total_armor_bonus", "color":"gold"} ],
 		"description": {"translate":"skills.defense.description", "color":"white"},
 		"frame": {
 			"type": "advancement",
@@ -19,14 +19,6 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.healing",
-					"value": 0.1,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
 					"attribute": "generic.armor",
 					"value": 0.05,
 					"operation": "multiply_base"
@@ -34,47 +26,99 @@
 			}
 		]
 	},
-	"healing+25%": {
-		"title": ["+25% ", {"translate":"skills.defense.natural_healing", "color":"white"}],
+	"dual_dampening+10%": {
+		"title": ["§6+10% ", {"translate":"skills.defense.cold_dampening", "color":"gold"}, " §6+10% ", {"translate":"skills.defense.heat_dampening", "color":"gold"}],
 		"icon": {
 			"type": "effect",
 			"data": {
-				"effect": "saturation"
+				"effect": "cold_sweat:grace"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.healing",
-					"value": 0.25,
-					"operation": "multiply_base"
+					"attribute": "cold_sweat:cold_dampening",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "cold_sweat:heat_dampening",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "cold_sweat:cold_resistance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "cold_sweat:heat_resistance",
+					"value": 0.1,
+					"operation": "addition"
 				}
 			}
 		]
 	},
-	"healing+50%": {
-		"title": ["§6+50% ", {"translate":"skills.defense.natural_healing", "color":"gold"}],
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "goal"
-			}
-		},
-		"size": 1.5,
+	"cold_dampening+10%": {
+		"title": ["+10% ", {"translate":"skills.defense.cold_dampening", "color":"white"}],
 		"icon": {
 			"type": "effect",
 			"data": {
-				"effect": "saturation"
+				"effect": "cold_sweat:ice_resistance"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.healing",
-					"value": 0.5,
-					"operation": "multiply_base"
+					"attribute": "cold_sweat:cold_dampening",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "cold_sweat:cold_resistance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"heat_dampening+10%": {
+		"title": ["+10% ", {"translate":"skills.defense.heat_dampening", "color":"white"}],
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "cold_sweat:insulated"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "cold_sweat:heat_dampening",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "cold_sweat:heat_resistance",
+					"value": 0.1,
+					"operation": "addition"
 				}
 			}
 		]
