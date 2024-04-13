@@ -119,7 +119,7 @@
 	sleepHealPercentage = 0.5
 	#The value external regen will be multiplied with. Has no effect if "allowOtherHealingItems" is disabled
 	#Range: 0.0 ~ 20.0
-	otherRegenMultiplier = 0.75
+	otherRegenMultiplier = 0.8
 	#The value vanilla's natural regeneration will be multiplied with. Has no effect if "allowNaturalRegeneration" is disabled
 	#Range: 0.0 ~ 20.0
 	naturalRegenMultiplier = 0.1
