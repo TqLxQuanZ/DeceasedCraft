@@ -14,3 +14,12 @@ onEvent('player.inventory.changed', (event) => {
 		event.player.inventory.clear("clickmachine:auto_clicker")
 	}
 });
+
+onEvent('item.right_click', (event) => {
+	if (event.player &&
+		event.item.id == "contenttweaker:horde_beacon")
+		{
+			event.server.runCommandSilent('hordes start ' + event.player + ' 10000')
+			event.item.count--;
+		}
+});

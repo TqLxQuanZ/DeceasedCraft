@@ -3,6 +3,13 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.ItemCooldowns;
 import mods.jei.JEI;
 
+// Horde Beacon
+craftingTable.remove(<item:contenttweaker:horde_beacon>);
+craftingTable.addShaped("horde_beacon", <item:contenttweaker:horde_beacon>,
+    [[<item:minecraft:redstone_torch>, <tag:items:forge:plates/aluminum>],
+    [<tag:items:forge:plates/aluminum>, <item:minecraft:nether_star>],
+    [<tag:items:forge:wires/copper>, <item:immersiveengineering:component_electronic>]]);
+
 // XP Tome
 craftingTable.remove(<item:xpbook:xp_tome>);
 craftingTable.addShaped("xp_tome", <item:xpbook:xp_tome>,

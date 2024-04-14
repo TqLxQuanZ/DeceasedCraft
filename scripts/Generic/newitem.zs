@@ -6,6 +6,12 @@ import contenttweaker.object.vanilla.property.StandardItemProperties;
 val deceasedCreativeTab = <factory:creative_tab>.create("deceasedTab", <item:minecraft:zombie_head>);
 val deceasedTab = <tab:deceasedTab>;
 
+// Usable
+val horde_beacon = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+    .rarity(<constant:minecraft:item/rarity:epic>)
+    .build("horde_beacon");
+
 // Misc
 val incomplete_solar_panel = <factory:item>.typed<Basic>()
     .tab(deceasedTab)

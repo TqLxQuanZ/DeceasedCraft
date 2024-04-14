@@ -52,11 +52,11 @@ onEvent('block.right_click', (event) => {
     const { block } = event;
 	if (block == "ag_day_counter:calendar")
     {
-		let hordeDay = 15 - (Math.round(event.player.getFullNBT().playtime / 24000.0) % 15);
-		let survivedData = event.player.getFullNBT().ForgeCaps["ag_day_counter:player_variables"]
+        let playTime = Math.round(event.player.getFullNBT().playtime / 24000.0)
+		let hordeDay = 15 - (playTime % 15);
         let serverDays = parseInt(event.level.getLocalTime() / 24000.0);
         event.player.tell(Component.translate('days.server_day_start').append(' ').append(Component.yellow(serverDays)).append(" ").append(Component.translate('days.server_day_end')))
-        event.player.tell(Component.translate('days.ingame_day_start').append(' ').append(Component.yellow(survivedData.Days)).append(" ").append(Component.translate('days.ingame_day_end')))
+        event.player.tell(Component.translate('days.ingame_day_start').append(' ').append(Component.yellow(playTime)).append(" ").append(Component.translate('days.ingame_day_end')))
         event.player.tell(Component.translate('days.horde_day_start').append(' ').append(Component.red(hordeDay)).append(" ").append(Component.translate('days.horde_day_end')))
 		return
     }
