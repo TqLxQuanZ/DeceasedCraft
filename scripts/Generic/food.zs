@@ -16,16 +16,16 @@ import crafttweaker.api.item.IItemStack;
 
 craftingTable.remove(<item:apocalypsenow:apple_juice>);
 
-<item:apocalypsenow:apple_juice>.setFood(<item:apocalypsenow:apple_juice>.getFood().setNutrition(2));
-<item:apocalypsenow:orange_juice>.setFood(<item:apocalypsenow:orange_juice>.getFood().setNutrition(2));
-<item:apocalypsenow:grape_juice>.setFood(<item:apocalypsenow:grape_juice>.getFood().setNutrition(2));
-<item:apocalypsenow:peach_juice>.setFood(<item:apocalypsenow:peach_juice>.getFood().setNutrition(2));
-<item:apocalypsenow:large_soda>.setFood(<item:apocalypsenow:large_soda>.getFood().setNutrition(2));
-<item:apocalypsenow:porpsi>.setFood(<item:apocalypsenow:porpsi>.getFood().setNutrition(0));
-<item:apocalypsenow:coke>.setFood(<item:apocalypsenow:coke>.getFood().setNutrition(0));
-<item:apocalypsenow:coffee>.setFood(<item:apocalypsenow:coffee>.getFood().setNutrition(0));
-<item:apocalypsenow:whisky>.setFood(<item:apocalypsenow:whisky>.getFood().setNutrition(0));
-<item:apocalypsenow:vodka>.setFood(<item:apocalypsenow:vodka>.getFood().setNutrition(0));
+<item:apocalypsenow:apple_juice>.setFood(<item:apocalypsenow:apple_juice>.getFood().setNutrition(2).setCanAlwaysEat(true));
+<item:apocalypsenow:orange_juice>.setFood(<item:apocalypsenow:orange_juice>.getFood().setNutrition(2).setCanAlwaysEat(true));
+<item:apocalypsenow:grape_juice>.setFood(<item:apocalypsenow:grape_juice>.getFood().setNutrition(2).setCanAlwaysEat(true));
+<item:apocalypsenow:peach_juice>.setFood(<item:apocalypsenow:peach_juice>.getFood().setNutrition(2).setCanAlwaysEat(true));
+<item:apocalypsenow:large_soda>.setFood(<item:apocalypsenow:large_soda>.getFood().setNutrition(2).setCanAlwaysEat(true));
+<item:apocalypsenow:porpsi>.setFood(<item:apocalypsenow:porpsi>.getFood().setNutrition(0).setCanAlwaysEat(true));
+<item:apocalypsenow:coke>.setFood(<item:apocalypsenow:coke>.getFood().setNutrition(0).setCanAlwaysEat(true));
+<item:apocalypsenow:coffee>.setFood(<item:apocalypsenow:coffee>.getFood().setNutrition(0).setCanAlwaysEat(true));
+<item:apocalypsenow:whisky>.setFood(<item:apocalypsenow:whisky>.getFood().setNutrition(0).setCanAlwaysEat(true));
+<item:apocalypsenow:vodka>.setFood(<item:apocalypsenow:vodka>.getFood().setNutrition(0).setCanAlwaysEat(true));
 
 
 <item:apocalypsenow:open_canned_carrot>.setFood(<item:apocalypsenow:open_canned_carrot>.getFood().setNutrition(3));
