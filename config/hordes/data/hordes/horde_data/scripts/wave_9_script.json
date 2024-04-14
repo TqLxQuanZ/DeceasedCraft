@@ -5,11 +5,6 @@
 			"function": "hordes:set_spawntable",
 			"value": ["hordes:mobs_240"],
 			"conditions": []
-		},
-		{
-			"function": "hordes:set_entity_loot_table",
-			"value": "deceasedcraft:entity/t3_ammunitions",
-			"conditions": []
 		}
 	],
 	"conditions": [

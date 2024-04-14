@@ -2,15 +2,15 @@
 	"function": "hordes:multiple",
 	"value": [
 		{
-			"function": "hordes:set_spawntable",
-			"value": ["hordes:mobs_45"],
+			"function": "hordes:set_entity_loot_table",
+			"value": "deceasedcraft:entity/t2_ammunitions",
 			"conditions": []
 		}
 	],
 	"conditions": [
 		{     
 			"name": "hordes:player_day",     
-			"value": 45
+			"value": 135
 		}
 	]
 }
