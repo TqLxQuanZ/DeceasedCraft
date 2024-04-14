@@ -53,7 +53,7 @@ JEI.hideIngredient(<item:cfm:fridge_dark>);
 <item:minecraft:flint_and_steel>.maxDamage = 256;
 
 // Torch
-craftingTable.addShaped("wool_torch", <item:minecraft:torch> * 2,
+craftingTable.addShaped("wool_torch", <item:minecraft:torch> * 6,
     [[<tag:items:minecraft:coals>],
     [<tag:items:minecraft:wool>],
     [<tag:items:forge:rods/wooden>]]);
