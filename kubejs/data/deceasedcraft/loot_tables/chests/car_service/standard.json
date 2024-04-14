@@ -3,18 +3,18 @@
   "pools": [
     {
       "rolls": {
-        "min": 0,
-        "max": 3
+        "min": 1,
+        "max": 4
       },
       "bonus_rolls": {
-        "min": 0,
-        "max": 3
+        "min": 1,
+        "max": 4
       },
       "entries": [
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "create:andesite_alloy",
+          "name": "immersiveengineering:treated_wood_horizontal",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -28,14 +28,14 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
-          "name": "immersiveengineering:component_electronic",
+          "weight": 15,
+          "name": "minecraft:nether_brick",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 3
+                "min": 4,
+                "max": 8
               },
               "add": true
             }
@@ -43,7 +43,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 15,
           "name": "immersiveengineering:ingot_steel",
           "functions": [
             {
@@ -58,12 +58,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "immersiveengineering:electron_tube"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
+          "weight": 2,
           "name": "immersiveengineering:blueprint",
           "functions": [
             {
@@ -87,11 +82,11 @@
     },
     {
       "rolls": {
-        "min": 0,
+        "min": 1,
         "max": 3
       },
       "bonus_rolls": {
-        "min": 0,
+        "min": 1,
         "max": 3
       },
       "entries": [
@@ -149,6 +144,26 @@
               "add": true
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "immersiveengineering:component_electronic",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              },
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "immersiveengineering:electron_tube"
         }
       ]
     },
@@ -206,6 +221,11 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 20,
+          "name": "car:big_wheel"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 2,
           "name": "car:engine_3_cylinder"
         },
@@ -213,16 +233,6 @@
           "type": "minecraft:item",
           "weight": 2,
           "name": "car:engine_6_cylinder"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 20,
-          "name": "car:big_wheel"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "create:precision_mechanism"
         }
       ]
     },
