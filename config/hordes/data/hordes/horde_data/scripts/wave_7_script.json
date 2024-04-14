@@ -1,0 +1,21 @@
+{
+	"function": "hordes:multiple",
+	"value": [
+		{
+			"function": "hordes:set_spawntable",
+			"value": ["hordes:mobs_165"],
+			"conditions": []
+		},
+		{
+			"function": "hordes:set_entity_loot_table",
+			"value": "deceasedcraft:entity/t2_ammunitions",
+			"conditions": []
+		}
+	],
+	"conditions": [
+		{     
+			"name": "hordes:player_day",     
+			"value": 165
+		}
+	]
+}
