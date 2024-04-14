@@ -612,7 +612,6 @@ JEI.hideIngredient(<item:apocalypsenow:bunker_hatch>);
 JEI.hideIngredient(<item:apocalypsenow:dynamite>);
 JEI.hideIngredient(<item:apocalypsenow:dynamite_roll>);
 JEI.hideIngredient(<item:apocalypsenow:improvised_dynamite_roll>);
-JEI.hideIngredient(<item:apocalypsenow:small_can>);
 JEI.hideIngredient(<item:apocalypsenow:water>);
 JEI.hideIngredient(<item:apocalypsenow:macandcheese>);
 JEI.hideIngredient(<item:apocalypsenow:tank_trap>);

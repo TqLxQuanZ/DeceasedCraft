@@ -5,8 +5,12 @@ import crafttweaker.api.recipe.Replacer;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 import crafttweaker.api.misc.Composter;
 
+
+// Aluminum Nugget
 <recipetype:create:splashing>.removeByName("create:splashing/immersiveengineering/crushed_raw_aluminum");
 <recipetype:create:splashing>.addRecipe("aluminum_nugget", [<item:immersiveengineering:nugget_aluminum> * 4], <item:create:crushed_raw_aluminum>);
+
+furnace.addRecipe("small_can_aluminum_nugget", <item:immersiveengineering:nugget_aluminum> * 2, <item:apocalypsenow:small_can>, 1.0, 100);
 
 // High Carbon Steel Alloy
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_high_carbon_steel_alloy", <tag:items:forge:ingots/steel>, [<item:contenttweaker:polyethylene>], 600, 102400, [<item:contenttweaker:high_carbon_steel_alloy>], <item:minecraft:air> );
