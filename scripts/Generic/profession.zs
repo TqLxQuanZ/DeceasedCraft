@@ -449,6 +449,7 @@ villagerTrades.removeAllTrades(<profession:minecraft:mason>, 2);
 
 villagerTrades.addTrade(<profession:minecraft:mason>, 2, <item:minecraft:andesite> * 20, <item:apocalypsenow:money>, 16, 2, 0.05);
 villagerTrades.addTrade(<profession:minecraft:mason>, 2, <item:apocalypsenow:money>, <item:minecraft:andesite> * 12, 16, 2, 0.05);
+villagerTrades.addTrade(<profession:minecraft:mason>, 2, <item:apocalypsenow:money>, <item:minecraft:netherrack> * 4, 16, 2, 0.05);
 
 // Tier 3
 villagerTrades.removeAllTrades(<profession:minecraft:mason>, 3);
