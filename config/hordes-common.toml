@@ -38,6 +38,8 @@
 	hordeEventByPlayerTime = true
 	#How many ticks after a hordes scheduled time can it start?
 	hordeStartBuffer = 1200
+	#How many attempts should horde events make to avoid spawning mobs in light areas or outside their spawn type.
+	hordeSpawnChecks = 25
 
 [Infection]
 	#Set to false to completely disable mob infection and anything related to it.
