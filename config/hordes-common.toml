@@ -17,7 +17,7 @@
 	#Amount of days a horde event can be randomly delayed by
 	hordeSpawnVariation = 0
 	#Max cap for the number of entities that can exist from the horde at once.
-	hordeSpawnMax = 60
+	hordeSpawnMax = 75
 	#Length of a day (use only if you have another day that changes the length of the day/night cycle) Default is 24000
 	dayLength = 24000
 	#Set to true to enable the horde spawning on the first day. (Game day 0)
