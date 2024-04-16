@@ -87,7 +87,7 @@
     },
     {
       "char": "w",
-      "block": "apocalypsenow:metal_shelves[waterlogged=false,facing=west]",
+      "block": "apocalypsenow:metalshelvesfive[waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -222,99 +222,95 @@
     },
     {
       "char": "5",
-      "block": "rocks:geyser"
-    },
-    {
-      "char": "6",
       "block": "buildersdelight:lantern_2[waterlogged=false,facing=south,face=floor]"
     },
     {
-      "char": "7",
+      "char": "6",
       "block": "create:mechanical_saw[axis_along_first=false,facing=down]"
     },
     {
-      "char": "8",
+      "char": "7",
       "block": "create:display_board[waterlogged=false,up=false,facing=east,down=true]"
     },
     {
-      "char": "9",
+      "char": "8",
       "block": "create:mechanical_press[facing=east]",
       "tag": {
         "id": "create:mechanical_press"
       }
     },
     {
-      "char": "@",
+      "char": "9",
       "block": "create:shaft[waterlogged=false,axis=y]",
       "tag": {
         "id": "create:shaft"
       }
     },
     {
-      "char": "#",
+      "char": "@",
       "block": "create:mechanical_drill[waterlogged=false,facing=down]",
       "tag": {
         "id": "create:drill"
       }
     },
     {
-      "char": "$",
+      "char": "#",
       "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=north,face=wall]"
     },
     {
-      "char": "%",
+      "char": "$",
       "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "^",
+      "char": "%",
       "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "&",
+      "char": "^",
       "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
-      "char": "*",
+      "char": "&",
       "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "(",
+      "char": "*",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": ")",
+      "char": "(",
       "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
     },
     {
-      "char": "+",
+      "char": ")",
       "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
-      "char": "-",
+      "char": "+",
       "block": "create:gearshift[axis=y]"
     },
     {
-      "char": "[",
+      "char": "-",
       "block": "create:encased_chain_drive[axis_along_first=true,part=start,axis=y]"
     },
     {
-      "char": "]",
+      "char": "[",
       "block": "create:encased_chain_drive[axis_along_first=true,part=middle,axis=y]"
     },
     {
-      "char": "{",
+      "char": "]",
       "block": "create:encased_chain_drive[axis_along_first=true,part=end,axis=y]"
     },
     {
-      "char": "}",
+      "char": "{",
       "block": "create:encased_chain_drive[axis_along_first=false,part=start,axis=y]"
     },
     {
-      "char": "\\",
+      "char": "}",
       "block": "create:encased_chain_drive[axis_along_first=false,part=middle,axis=y]"
     },
     {
-      "char": "|",
+      "char": "\\",
       "block": "create:encased_chain_drive[axis_along_first=false,part=end,axis=y]"
     }
   ]
