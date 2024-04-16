@@ -1,0 +1,81 @@
+{
+	"entity_type": "minecraft:chicken",
+	"entity_data": {
+		"min": 1,
+		"max": 1,
+		"median": 1.0,
+		"distribution_type": 0,
+		"scaleByBreeding": true,
+		"scaleTruncationCoefficent": 1.0,
+		"useDifferentScalingValuesForEachAttribute": true,
+		"useRealisticScalingValuesForEachAttribute": true,
+		"invertRealisticScalingValuesForEachAttribute": false,
+		"scale_Override": {
+			"isModified": false,
+			"doOverride": false,
+			"min": 1,
+			"max": 1,
+			"median": 1.0,
+			"distribution_type": 0
+		},
+		"attack_Damage_Overrides": {
+			"isModified": false,
+			"doOverride": false,
+			"min": 1,
+			"max": 1,
+			"median": 1.0,
+			"distribution_type": 0
+		},
+		"attack_Knockback_Overrides": {
+			"isModified": false,
+			"doOverride": false,
+			"min": 1,
+			"max": 1,
+			"median": 1.0,
+			"distribution_type": 0
+		},
+		"attack_speed_Overrides": {
+			"isModified": false,
+			"doOverride": false,
+			"min": 1,
+			"max": 1,
+			"median": 1.0,
+			"distribution_type": 0
+		},
+		"defense_Overrides": {
+			"isModified": false,
+			"doOverride": false,
+			"min": 1,
+			"max": 1,
+			"median": 1.0,
+			"distribution_type": 0
+		},
+		"speed_Overrides": {
+			"isModified": false,
+			"doOverride": false,
+			"min": 1,
+			"max": 1,
+			"median": 1.0,
+			"distribution_type": 0
+		},
+		"jump_Overrides": {
+			"isModified": false,
+			"doOverride": false,
+			"min": 1,
+			"max": 1,
+			"median": 1.0,
+			"distribution_type": 0
+		},
+		"health_Overrides": {
+			"isModified": false,
+			"doOverride": false,
+			"min": 1,
+			"max": 1,
+			"median": 1.0,
+			"distribution_type": 0
+		},
+		"dimensional_variant_overrides": {},
+		"biome_variant_overrides": {},
+		"name_variant_overrides": {}
+	}
+}
