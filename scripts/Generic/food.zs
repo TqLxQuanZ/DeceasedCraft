@@ -53,6 +53,7 @@ craftingTable.remove(<item:apocalypsenow:apple_juice>);
 													  );
 													  
 // Coke
+recipes.remove(<item:apocalypsenow:can>);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("coke")
                                                       .transitionTo(<item:apocalypsenow:can>)
                                                       .require(<item:apocalypsenow:can>)
