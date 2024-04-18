@@ -33,7 +33,7 @@
     {
       "type": "effect",
       "name": "minecraft:resistance",
-      "value": 0.0,
+      "value": 1.0,
       "interactionType": "self",
       "interactionDuration": 300,
       "description": "armors.swat.description_reduction",
@@ -71,7 +71,7 @@
     {
       "type": "attribute",
       "name": "puffish_skills:player.ranged_damage",
-      "value": 0.2,
+      "value": 0.25,
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "3023e3fa-937c-11ee-b9d1-0242ac120002",
@@ -81,7 +81,7 @@
     {
       "type": "effect",
       "name": "minecraft:resistance",
-      "value": 0.0,
+      "value": 1.0,
       "interactionType": "self",
       "interactionDuration": 300,
       "description": "armors.swat.description_reduction",

@@ -41,7 +41,7 @@
     {
       "type": "effect",
       "name": "minecraft:resistance",
-      "value": 0.0,
+      "value": 1.0,
       "interactionType": "self",
       "interactionDuration": 300,
       "description": "armors.spec_ops.description_reduction",
@@ -79,7 +79,7 @@
     {
       "type": "attribute",
       "name": "puffish_skills:player.ranged_damage",
-      "value": 0.15,
+      "value": 0.25,
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "a807d064-92c0-11ee-b9d1-0242ac120002",
@@ -89,7 +89,7 @@
     {
       "type": "effect",
       "name": "minecraft:resistance",
-      "value": 0.0,
+      "value": 1.0,
       "interactionType": "self",
       "interactionDuration": 300,
       "description": "armors.spec_ops.description_reduction",

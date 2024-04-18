@@ -28,7 +28,7 @@
     {
       "type": "effect",
       "name": "minecraft:resistance",
-      "value": 2.0,
+      "value": 3.0,
       "interactionType": "self",
       "interactionDuration": 300,
       "description": "armors.juggernaut.description_reduction",
@@ -56,7 +56,7 @@
     {
       "type": "attribute",
       "name": "puffish_skills:player.ranged_damage",
-      "value": 0.2,
+      "value": 0.25,
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "162b057e-92bd-11ee-b9d1-0242ac120002",
@@ -66,7 +66,7 @@
     {
       "type": "effect",
       "name": "minecraft:resistance",
-      "value": 2.0,
+      "value": 3.0,
       "interactionType": "self",
       "interactionDuration": 300,
       "description": "armors.juggernaut.description_reduction",
