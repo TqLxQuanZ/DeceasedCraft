@@ -21,7 +21,6 @@
 				"minecraft:drowned",
 				"zombie_extreme:crawler",
 				"zombie_extreme:runner"],
-		"player": true,
 		"random" : 0.4,
 		"item": "minecraft:string",
 		"itemcount": "2/3/4"
@@ -32,7 +31,6 @@
 				"minecraft:drowned",
 				"zombie_extreme:crawler",
 				"zombie_extreme:runner"],
-		"player": true,
 		"random" : 0.1,
 		"item": "tac:9mm_round",
 		"itemcount": "1/1/2"
@@ -43,7 +41,6 @@
 				"minecraft:drowned",
 				"zombie_extreme:crawler",
 				"zombie_extreme:runner"],
-		"player": true,
 		"random" : 0.05,
 		"item": "tac:round45",
 		"itemcount": "1/1/2"
@@ -60,20 +57,17 @@
 	},
 	{
 		"mob": ["zombie_extreme:infected_police"],
-		"player": true,
 		"item": "tac:9mm_round",
 		"itemcount": "4/7/10"
 	},
 	{
 		"mob": ["zombie_extreme:infected_police"],
-		"player": true,
 		"item": "tac:round45",
 		"itemcount": "2/3/4"
 	},
 	{
 		"mob": ["zombie_extreme:faceless",
 				"zombie_extreme:revived"],
-		"player": true,
 		"random" : 0.25,
 		"item": "tac:nato_556_bullet",
 		"itemcount": "4-8/9-12/12-15"
@@ -83,7 +77,6 @@
 				"zombie_extreme:divided",
 				"zombie_extreme:fetus",
 				"zombie_extreme:inflated"],
-		"player": true,
 		"item": "tac:nato_556_bullet",
 		"itemcount": "4-8/9-12/12-15"
 	},
@@ -92,7 +85,6 @@
 				"zombie_extreme:divided",
 				"zombie_extreme:fetus",
 				"zombie_extreme:inflated"],
-		"player": true,
 		"item": "tac:762x39",
 		"itemcount": "4-8/9-12/12-15"
 	},
@@ -102,7 +94,7 @@
 				"zombie_extreme:fetus",
 				"zombie_extreme:inflated"],
 		"player": true,
-		"random" : 0.2,
+		"random" : 0.5,
 		"item": "mutationcraft:putrid_claw",
 		"itemcount": "2/3/4"
 	},
@@ -112,110 +104,82 @@
 				"zombie_extreme:fetus",
 				"zombie_extreme:inflated"],
 		"player": true,
-		"random" : 0.01,
+		"random" : 0.25,
 		"item": "mutationcraft:putrid_heart",
 		"itemcount": "1/1/1"
 	},
 	{
 		"mob": ["zombie_extreme:rat_king",
 				"zombie_extreme:patient_zero"],
-		"player": true,
 		"item": "contenttweaker:resistant_fabric",
-		"itemcount": "1/2/3"
+		"itemcount": "3/4/5"
 	},
 	{
 		"mob": ["zombie_extreme:rat_king",
 				"zombie_extreme:patient_zero"],
-		"player": true,
 		"item": "contenttweaker:rubber",
-		"itemcount": "2/3/4"
+		"itemcount": "3/4/5"
 	},
 	{
 		"mob": ["zombie_extreme:rat_king",
 				"zombie_extreme:patient_zero"],
-		"player": true,
 		"item": "contenttweaker:high_carbon_steel_alloy",
 		"itemcount": "1/2/3"
 	},
 	{
 		"mob": ["zombie_extreme:rat_king",
 				"zombie_extreme:patient_zero"],
-		"player": true,
 		"item": "quark:gunpowder_sack",
 		"itemcount": "2/3/4"
 	},
 	{
 		"mob": ["zombie_extreme:rat_king",
 				"zombie_extreme:patient_zero"],
-		"player": true,
 		"item": "tac:nato_556_bullet",
 		"itemcount": "24-30/31-36/37-45"
 	},
 	{
 		"mob": ["zombie_extreme:rat_king",
 				"zombie_extreme:patient_zero"],
-		"player": true,
 		"item": "tac:762x39",
 		"itemcount": "24-30/31-36/37-45"
 	},
 	{
-		"mob": ["zombie_extreme:rat_king",
-				"zombie_extreme:patient_zero"],
-		"player": true,
-		"item": "mutationcraft:putrid_heart",
-		"itemcount": "3/4/5"
-	},
-	{
-		"mob": ["zombie_extreme:rat_king",
-				"zombie_extreme:patient_zero"],
-		"player": true,
-		"item": "mutationcraft:putrid_claw",
-		"itemcount": "7/8/9"
-	},
-	{
 		"mob": ["zombie_extreme:demolisher"],
-		"player": true,
-		"random": 0.5,
+		"random": 0.75,
 		"item": "contenttweaker:resistant_fabric",
-		"itemcount": "1/1/2"
+		"itemcount": "2/3/4"
 	},
 	{
 		"mob": ["zombie_extreme:demolisher"],
-		"player": true,
-		"random": 0.5,
 		"item": "contenttweaker:rubber",
-		"itemcount": "1/1/2"
+		"itemcount": "1/2/3"
 	},
 	{
 		"mob": ["zombie_extreme:demolisher"],
-		"player": true,
-		"random": 0.4,
+		"random": 0.5,
 		"item": "quark:gunpowder_sack",
 		"itemcount": "2/3/4"
 	},
 	{
 		"mob": ["zombie_extreme:demolisher"],
-		"player": true,
 		"item": "tac:round45",
 		"itemcount": "24-30/31-36/37-45"
 	},
 	{
 		"mob": ["zombie_extreme:demolisher"],
-		"player": true,
 		"item": "tac:9mm_round",
 		"itemcount": "24-30/31-36/37-45"
 	},
 	{
 		"mob": ["zombie_extreme:demolisher"],
-		"player": true,
-		"random": 0.05,
+		"random": 0.25,
 		"item": "tac:nato_556_bullet",
 		"itemcount": "24-30/31-36/37-45"
 	},
 	{
 		"mob": ["zombie_extreme:demolisher"],
-		"player": true,
-		"random": 0.05,
+		"random": 0.25,
 		"item": "tac:762x39",
 		"itemcount": "24-30/31-36/37-45"
 	},
@@ -235,7 +199,6 @@
 				"mutationcraft:human_stage_2",
 				"mutationcraft:human_stage_3"],
 		"minspawndist": 15000,
-		"player": true,
 		"random" : 0.07,
 		"item": "tac:nato_556_bullet",
 		"itemcount": "2/3/4"
@@ -256,7 +219,6 @@
 				"mutationcraft:human_stage_2",
 				"mutationcraft:human_stage_3"],
 		"minspawndist": 15000,
-		"player": true,
 		"random" : 0.03,
 		"item": "tac:762x39",
 		"itemcount": "2/3/4"
@@ -279,7 +241,7 @@
 		"mob": ["minecraft:pillager",
 				"minecraft:vindicator",
 				"minecraft:villager"],
-		"random" : 0.35,
+		"random" : 0.75,
 		"item": "apocalypsenow:money",
 		"itemcount": "1-2/1-3/2-4"
 	},
@@ -297,14 +259,12 @@
 	},
 	{
 		"mob": "undead_revamp2:bomber",
-		"player": true,
 		"random" : 0.6,
 		"item": "minecraft:gunpowder",
 		"itemcount": "1-2/2-3/3-4"
 	},
 	{
 		"mob": "undead_revamp2:theordure",
-		"player": true,
 		"random" : 0.3,
 		"item": "minecraft:gunpowder",
 		"itemcount": "1/2/3"
@@ -335,7 +295,6 @@
 				"mutationcraft:human_stage_1",
 				"mutationcraft:human_stage_2",
 				"mutationcraft:human_stage_3"],
-		"player": true,
 		"random" : 0.05,
 		"item": "contenttweaker:resistant_fabric",
 		"itemcount": "1/2/3"
@@ -345,7 +304,6 @@
 				"mutationcraft:human_stage_1",
 				"mutationcraft:human_stage_2",
 				"mutationcraft:human_stage_3"],
-		"player": true,
 		"random" : 0.5,
 		"item": "minecraft:gunpowder",
 		"itemcount": "3/4/5"
@@ -355,26 +313,22 @@
 				"mutationcraft:human_stage_1",
 				"mutationcraft:human_stage_2",
 				"mutationcraft:human_stage_3"],
-		"player": true,
 		"random" : 0.3,
 		"item": "tac:nato_556_bullet",
 		"itemcount": "2/3/4"
 	},
 	{
 		"mob": "mutationcraft:parasitic_shooter",
-		"player": true,
 		"item": "contenttweaker:resistant_fabric",
 		"itemcount": "1/2/3"
 	},
 	{
 		"mob": "mutationcraft:parasitic_shooter",
-		"player": true,
 		"item": "minecraft:phantom_membrane",
 		"itemcount": "3/4/5"
 	},
 	{
 		"mob": "mutationcraft:parasitic_shooter",
-		"player": true,
 		"item": "mutationcraft:putrid_brain",
 		"itemcount": "2/3/4"
 	},
@@ -382,7 +336,6 @@
 		"mob": ["mutationcraft:assimilated_jockey",
 				"mutationcraft:reductor",
 				"mutationcraft:carnivorae"],
-		"player": true,
 		"random" : 0.2,
 		"item": "contenttweaker:rubber",
 		"itemcount": "1/2/3"
@@ -390,92 +343,78 @@
 	{
 		"mob": ["mutationcraft:assimilated_jockey",
 				"mutationcraft:reductor"],
-		"player": true,
 		"item": "minecraft:gunpowder",
 		"itemcount": "4/5/6"
 	},
 	{
 		"mob": ["mutationcraft:assimilated_jockey",
 				"mutationcraft:reductor"],
-		"player": true,
 		"item": "tac:nato_556_bullet",
 		"itemcount": "1-4/5-6/7-8"
 	},
 	{
 		"mob": "mutationcraft:assimilated_jockey",
-		"player": true,
 		"item": "tac:762x39",
 		"itemcount": "1-4/5-6/7-8"
 	},
 	{
 		"mob": "mutationcraft:human_herder",
-		"player": true,
 		"item": "contenttweaker:resistant_fabric",
-		"itemcount": "1/1/2"
+		"itemcount": "2/3/4"
 	},
 	{
 		"mob": "mutationcraft:human_herder",
-		"player": true,
 		"item": "contenttweaker:rubber",
-		"itemcount": "1/1/2"
+		"itemcount": "2/3/4"
 	},
 	{
 		"mob": "mutationcraft:human_herder",
-		"player": true,
 		"item": "contenttweaker:high_carbon_steel_alloy",
 		"itemcount": "1/1/1"
 	},
 	{
 		"mob": "mutationcraft:human_herder",
-		"player": true,
 		"item": "quark:gunpowder_sack",
 		"itemcount": "2/3/4"
 	},
 	{
 		"mob": "mutationcraft:human_herder",
-		"player": true,
 		"item": "tac:nato_556_bullet",
 		"itemcount": "24-27/32-35/40-45"
 	},
 	{
 		"mob": "mutationcraft:human_herder",
-		"player": true,
 		"item": "tac:762x39",
 		"itemcount": "24-27/32-35/40-45"
 	},
 	{
 		"mob": "mutationcraft:resenter",
-		"player": true,
 		"item": "contenttweaker:resistant_fabric",
-		"itemcount": "1/2/3"
+		"itemcount": "3/4/5"
 	},
 	{
 		"mob": "mutationcraft:resenter",
 		"player": true,
 		"item": "contenttweaker:high_carbon_steel_alloy",
-		"itemcount": "1/1/2"
+		"itemcount": "2/3/4"
 	},
 	{
 		"mob": "mutationcraft:resenter",
-		"player": true,
 		"item": "contenttweaker:rubber",
-		"itemcount": "1/2/3"
+		"itemcount": "3/4/5"
 	},
 	{
 		"mob": "mutationcraft:resenter",
-		"player": true,
 		"item": "quark:gunpowder_sack",
 		"itemcount": "2/3/4"
 	},
 	{
 		"mob": "mutationcraft:resenter",
-		"player": true,
 		"item": "tac:nato_556_bullet",
 		"itemcount": "24-27/32-35/40-45"
 	},
 	{
 		"mob": "mutationcraft:resenter",
-		"player": true,
 		"item": "tac:762x39",
 		"itemcount": "24-27/32-35/40-45"
 	},
