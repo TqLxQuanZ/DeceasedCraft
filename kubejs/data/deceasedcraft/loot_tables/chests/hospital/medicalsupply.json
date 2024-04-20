@@ -136,6 +136,21 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "immersiveengineering:plate_duroplast"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "apocalypsenow:breathingfiltermodule",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              },
+              "add": true
+            }
+          ]
         }
       ]
     }
