@@ -237,7 +237,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.025
+              "chance": 0.05
             }
           ],
           "functions": [
@@ -257,27 +257,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.025
-            }
-          ],
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.2,
-                "max": 0.8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "apocalypsenow:gasmask_helmet",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.025
+              "chance": 0.05
             }
           ],
           "functions": [
@@ -304,8 +284,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 3
+                "min": 2,
+                "max": 4
               },
               "add": true
             }
