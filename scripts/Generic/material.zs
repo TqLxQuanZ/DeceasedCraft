@@ -22,6 +22,8 @@ craftingTable.addShapeless("resistant_fabric", <item:contenttweaker:resistant_fa
 
 // Resistant Fiber
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_resistant_fiber", <item:contenttweaker:polyethylene>, [<item:minecraft:air>], 200, 102400, [<item:contenttweaker:resistant_fiber>], <item:minecraft:air> );
+craftingTable.addShapeless("resistant_fiber_cutter", <item:contenttweaker:resistant_fiber> * 4,
+    [<item:contenttweaker:resistant_fabric>, <item:immersiveengineering:wirecutter>.anyDamage().transformDamage(1)]);
 
 // Poison Potato for Potion of Harming
 <recipetype:create:mixing>.addRecipe("poison_potato_healing", <constant:create:heat_condition:heated>, [<fluid:create:potion>.withTag({Potion:"minecraft:harming"}) * 1000], [<item:minecraft:poisonous_potato>], [<fluid:create:potion>.withTag({Potion:"minecraft:healing"}) * 1000], 100);
