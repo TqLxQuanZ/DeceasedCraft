@@ -16,6 +16,11 @@ furnace.addRecipe("food_can_aluminum_nugget", <item:immersiveengineering:nugget_
 // High Carbon Steel Alloy
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_high_carbon_steel_alloy", <tag:items:forge:ingots/steel>, [<item:contenttweaker:polyethylene>], 600, 102400, [<item:contenttweaker:high_carbon_steel_alloy>], <item:minecraft:air> );
 
+// Netherite Scrap
+craftingTable.addShapeless("netherite_scrap_uncraft", <item:minecraft:netherite_scrap> * 2,
+    [<item:minecraft:netherite_ingot>, <item:immersiveengineering:hammer>.anyDamage().transformDamage(5)]);
+<recipetype:create:crushing>.addRecipe("netherite_scrap_uncraft_crusher_create", [<item:minecraft:netherite_scrap> * 3, <item:minecraft:gold_ingot> * 3], <item:minecraft:netherite_ingot>, 250);
+
 // Resistant Fabric
 craftingTable.addShapeless("resistant_fabric", <item:contenttweaker:resistant_fabric>,
     [<item:contenttweaker:resistant_fiber>, <item:contenttweaker:resistant_fiber>, <item:contenttweaker:resistant_fiber>, <item:contenttweaker:resistant_fiber>]);

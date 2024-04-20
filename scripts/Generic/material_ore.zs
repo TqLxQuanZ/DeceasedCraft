@@ -206,7 +206,7 @@ blastFurnace.addRecipe("blast_deepslate_aluminum_ore", <item:immersiveengineerin
 <recipetype:immersiveengineering:crusher>.addRecipe("ie_deepslate_nickel_ore_crusher", <item:immersiveengineering:deepslate_ore_nickel>, 512, <item:immersiveengineering:dust_nickel> * 2, <item:immersiveengineering:dust_nickel> % 50);
 
 // Netherite
-<recipetype:immersiveengineering:crusher>.addRecipe("ie_netherite_ingot", <item:minecraft:netherite_ingot>, 1024, <item:minecraft:netherite_scrap> * 3, <item:minecraft:gold_ingot> * 3);
+<recipetype:immersiveengineering:crusher>.addRecipe("ie_netherite_ingot", <item:minecraft:netherite_ingot>, 1024, <item:minecraft:netherite_scrap> * 4, <item:minecraft:gold_ingot> * 4);
 
 // Arc Furnace from IE
 // Iron
