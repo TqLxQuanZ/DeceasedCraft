@@ -8,9 +8,6 @@ import mods.jei.JEI;
 recipes.remove(<item:cold_sweat:soulspring_lamp>);
 JEI.hideIngredient(<item:cold_sweat:soulspring_lamp>);
 
-// Laboratory Block
-recipes.remove(<item:buildersdelight:laboratory_3>);
-
 // Removing Zombie Extreme
 recipes.removeByModid("zombie_extreme");
 JEI.hideMod("zombie_extreme");
