@@ -180,6 +180,36 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 1,
+          "name": "apocalypsenow:energy_drink",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              },
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "apocalypsenow:beer",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              },
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 3,
           "name": "apocalypsenow:vodka",
           "functions": [

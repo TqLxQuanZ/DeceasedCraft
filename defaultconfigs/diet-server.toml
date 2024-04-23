@@ -1,0 +1,32 @@
+
+[death_penalty]
+	#The minimum percentage that diet groups can be reduced to upon death.
+	#Range: 0.0 ~ 1.0
+	deathPenaltyMin = 0.0
+	#The reduction in percentage applied to all diet groups upon death.
+	#Range: 0.0 ~ 1.0
+	deathPenaltyLoss = 1.0
+	#The method to apply for losses due to death penalties.
+	#AMOUNT = Reduce by a flat percentage amount
+	#PERCENT = Reduce by a percent of the current value
+	#RESET = Reset value to defaults
+	#Allowed Values: AMOUNT, PERCENT, RESET
+	deathPenaltyMethod = "AMOUNT"
+
+[calculation]
+	#The percent reduction in total gain for each diet group consumed at once.
+	#Range: 0.0 ~ 1.0
+	gainPenaltyPerGroup = 0.15000000596046448
+	#The percent reduction in total decay for each diet group decayed at once.
+	#Range: 0.0 ~ 1.0
+	decayPenaltyPerGroup = 0.15000000596046448
+	#List of food quality overrides for diet gain values.
+	#Format: "modid:name;quality"
+	foodOverrides = ["apocalypsenow:nonalcoholic_beer;2.0","apocalypsenow:beer;2.0","apocalypsenow:whisky;2.0","apocalypsenow:vodka;2.0","apocalypsenow:energy_drink;4.0","apocalypsenow:coke;3.0","apocalypsenow:porpsi;3.0","apocalypsenow:orange_juice;6.0","apocalypsenow:grape_juice;6.0","apocalypsenow:apple_juice;6.0","apocalypsenow:peach_juice;6.0"]
+	#Set to true to assign food groups to unclassified items based on its component items
+	generateGroupsForEmptyItems = true
+
+[management]
+	#Hide diet food group tooltips on food until player has eaten it at least once.
+	hideTooltipsUntilEaten = false
+

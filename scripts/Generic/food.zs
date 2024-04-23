@@ -1,9 +1,25 @@
 import crafttweaker.api.food.FoodData;
 import crafttweaker.api.item.IItemStack;
 
+craftingTable.remove(<item:apocalypsenow:apple_juice>);
+
+<tag:items:diet:sugars>.add(<item:apocalypsenow:porpsi>);
+<tag:items:diet:sugars>.add(<item:apocalypsenow:coke>);
+<tag:items:diet:sugars>.add(<item:apocalypsenow:orange_juice>);
+<tag:items:diet:sugars>.add(<item:apocalypsenow:grape_juice>);
+<tag:items:diet:sugars>.add(<item:apocalypsenow:apple_juice>);
+<tag:items:diet:sugars>.add(<item:apocalypsenow:peach_juice>);
+<tag:items:diet:sugars>.add(<item:apocalypsenow:large_soda>);
+<tag:items:diet:sugars>.add(<item:apocalypsenow:energy_drink>);
+<tag:items:diet:sugars>.add(<item:apocalypsenow:beer>);
+<tag:items:diet:sugars>.add(<item:apocalypsenow:nonalcoholic_beer>);
+<tag:items:diet:sugars>.add(<item:apocalypsenow:vodka>);
 <tag:items:diet:grains>.add(<item:apocalypsenow:cereal>);
-<tag:items:diet:proteins>.add(<item:apocalypsenow:chips>);
+<tag:items:diet:grains>.add(<item:apocalypsenow:beer>);
+<tag:items:diet:grains>.add(<item:apocalypsenow:nonalcoholic_beer>);
+<tag:items:diet:grains>.add(<item:apocalypsenow:vodka>);
 <tag:items:diet:fruits>.add(<item:apocalypsenow:open_canned_melon>);
+<tag:items:diet:proteins>.add(<item:apocalypsenow:chips>);
 <tag:items:diet:proteins>.add(<item:apocalypsenow:open_canned_fish>);
 <tag:items:diet:proteins>.add(<item:apocalypsenow:open_canned_pork>);
 <tag:items:diet:proteins>.add(<item:apocalypsenow:open_canned_rabbit_soup>);
@@ -14,18 +30,20 @@ import crafttweaker.api.item.IItemStack;
 <tag:items:diet:vegetables>.add(<item:apocalypsenow:open_canned_beetroot>);
 <tag:items:diet:vegetables>.add(<item:apocalypsenow:open_canned_tomatos>);
 
-craftingTable.remove(<item:apocalypsenow:apple_juice>);
 
 <item:apocalypsenow:apple_juice>.setFood(<item:apocalypsenow:apple_juice>.getFood().setNutrition(2).setCanAlwaysEat(true));
 <item:apocalypsenow:orange_juice>.setFood(<item:apocalypsenow:orange_juice>.getFood().setNutrition(2).setCanAlwaysEat(true));
 <item:apocalypsenow:grape_juice>.setFood(<item:apocalypsenow:grape_juice>.getFood().setNutrition(2).setCanAlwaysEat(true));
 <item:apocalypsenow:peach_juice>.setFood(<item:apocalypsenow:peach_juice>.getFood().setNutrition(2).setCanAlwaysEat(true));
-<item:apocalypsenow:large_soda>.setFood(<item:apocalypsenow:large_soda>.getFood().setNutrition(2).setCanAlwaysEat(true));
-<item:apocalypsenow:porpsi>.setFood(<item:apocalypsenow:porpsi>.getFood().setNutrition(0).setCanAlwaysEat(true));
-<item:apocalypsenow:coke>.setFood(<item:apocalypsenow:coke>.getFood().setNutrition(0).setCanAlwaysEat(true));
-<item:apocalypsenow:coffee>.setFood(<item:apocalypsenow:coffee>.getFood().setNutrition(0).setCanAlwaysEat(true));
-<item:apocalypsenow:whisky>.setFood(<item:apocalypsenow:whisky>.getFood().setNutrition(0).setCanAlwaysEat(true));
-<item:apocalypsenow:vodka>.setFood(<item:apocalypsenow:vodka>.getFood().setNutrition(0).setCanAlwaysEat(true));
+<item:apocalypsenow:large_soda>.setFood(<item:apocalypsenow:large_soda>.getFood().setNutrition(1).setCanAlwaysEat(true));
+<item:apocalypsenow:porpsi>.setFood(<item:apocalypsenow:porpsi>.getFood().setNutrition(1).setCanAlwaysEat(true));
+<item:apocalypsenow:coke>.setFood(<item:apocalypsenow:coke>.getFood().setNutrition(1).setCanAlwaysEat(true));
+<item:apocalypsenow:coffee>.setFood(<item:apocalypsenow:coffee>.getFood().setNutrition(1).setCanAlwaysEat(true));
+<item:apocalypsenow:whisky>.setFood(<item:apocalypsenow:whisky>.getFood().setNutrition(1).setCanAlwaysEat(true));
+<item:apocalypsenow:vodka>.setFood(<item:apocalypsenow:vodka>.getFood().setNutrition(1).setCanAlwaysEat(true));
+<item:apocalypsenow:energy_drink>.setFood(<item:apocalypsenow:energy_drink>.getFood().setNutrition(1).setCanAlwaysEat(true));
+<item:apocalypsenow:beer>.setFood(<item:apocalypsenow:vodka>.getFood().setNutrition(1).setCanAlwaysEat(true));
+<item:apocalypsenow:nonalcoholic_beer>.setFood(<item:apocalypsenow:vodka>.getFood().setNutrition(1).setCanAlwaysEat(true));
 
 
 <item:apocalypsenow:open_canned_carrot>.setFood(<item:apocalypsenow:open_canned_carrot>.getFood().setNutrition(3));
