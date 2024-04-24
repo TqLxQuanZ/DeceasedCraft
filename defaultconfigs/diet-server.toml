@@ -22,7 +22,7 @@
 	decayPenaltyPerGroup = 0.15000000596046448
 	#List of food quality overrides for diet gain values.
 	#Format: "modid:name;quality"
-	foodOverrides = ["apocalypsenow:nonalcoholic_beer;2.0","apocalypsenow:beer;2.0","apocalypsenow:whisky;2.0","apocalypsenow:vodka;2.0","apocalypsenow:energy_drink;4.0","apocalypsenow:coke;3.0","apocalypsenow:porpsi;3.0","apocalypsenow:orange_juice;6.0","apocalypsenow:grape_juice;6.0","apocalypsenow:apple_juice;6.0","apocalypsenow:peach_juice;6.0"]
+	foodOverrides = ["apocalypsenow:nonalcoholic_beer;2.0","apocalypsenow:beer;2.0","apocalypsenow:whisky;2.0","apocalypsenow:vodka;2.0","apocalypsenow:energy_drink;4.0","apocalypsenow:coke;3.0","apocalypsenow:porpsi;3.0","apocalypsenow:orange_juice;4.0","apocalypsenow:grape_juice;4.0","apocalypsenow:apple_juice;4.0","apocalypsenow:peach_juice;4.0"]
 	#Set to true to assign food groups to unclassified items based on its component items
 	generateGroupsForEmptyItems = true
 
