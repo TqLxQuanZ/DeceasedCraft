@@ -1338,8 +1338,12 @@
             "Name": "generic.armor_toughness"
           },
           {
-            "Base": 7.0,
+            "Base": 10.0,
             "Name": "forge:step_height_addition"
+          },
+          {
+            "Base": 128.0,
+            "Name": "generic.follow_range"
           }
         ]
       }
