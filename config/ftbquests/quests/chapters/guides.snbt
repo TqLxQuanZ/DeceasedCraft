@@ -220,7 +220,7 @@
 		{
 			title: "{quest.guides.wasteland.title}"
 			icon: "biomesoplenty:dead_sapling"
-			x: -1.5d
+			x: 3.0d
 			y: 12.0d
 			shape: "square"
 			subtitle: "{quest.guides.wasteland.subtitle}"
@@ -228,7 +228,10 @@
 				"{quest.guides.wasteland.description_1}"
 				""
 				"{quest.guides.wasteland.description_2}"
+				""
 				"{quest.guides.wasteland.description_3}"
+				""
+				"{quest.guides.wasteland.description_4}"
 			]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -249,7 +252,7 @@
 			title: "{quest.guides.blaze.title}"
 			icon: "minecraft:blaze_powder"
 			x: -3.0d
-			y: 9.75d
+			y: 12.0d
 			shape: "square"
 			subtitle: "{quest.guides.blaze.subtitle}"
 			description: ["{quest.guides.blaze.description_1}"]
@@ -272,11 +275,15 @@
 				Count: 1b
 				tag: { }
 			}
-			x: 3.0d
+			x: 0.0d
 			y: 9.75d
 			shape: "square"
 			subtitle: "{quest.guides.compass.subtitle}"
-			description: ["{quest.guides.compass.description_1}"]
+			description: [
+				"{quest.guides.compass.description_1}"
+				""
+				"{quest.guides.compass.description_2}"
+			]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			progression_mode: "flexible"
@@ -300,7 +307,7 @@
 			title: "{quest.guides.remnants.title}"
 			icon: "another_furniture:oak_bench"
 			x: 0.0d
-			y: 9.75d
+			y: 12.0d
 			shape: "square"
 			subtitle: "{quest.guides.remnants.subtitle}"
 			description: [
@@ -389,8 +396,8 @@
 		{
 			title: "{quest.guides.forgotten.title}"
 			icon: "minecraft:skeleton_skull"
-			x: 1.5d
-			y: 12.0d
+			x: 0.0d
+			y: 16.5d
 			shape: "square"
 			subtitle: "{quest.guides.forgotten.subtitle}"
 			description: [
@@ -508,7 +515,7 @@
 		}
 		{
 			title: "{quest.guides.flare.title}"
-			x: -1.5d
+			x: -3.0d
 			y: 14.25d
 			shape: "square"
 			subtitle: "{quest.guides.flare.subtitle}"
@@ -564,7 +571,7 @@
 		}
 		{
 			title: "{quest.chalk.title}"
-			x: 1.5d
+			x: 3.0d
 			y: 14.25d
 			shape: "square"
 			subtitle: "{quest.chalk.subtitle}"
@@ -637,6 +644,32 @@
 					item: "minecraft:glow_ink_sac"
 				}
 			]
+		}
+		{
+			title: "{quest.backpack.title}"
+			x: 0.0d
+			y: 14.25d
+			shape: "square"
+			subtitle: "{quest.backpack.subtitle}"
+			description: [
+				"{quest.backpack.description_1}"
+				""
+				"{quest.backpack.description_2}"
+				"{quest.backpack.description_3}"
+			]
+			size: 1.5d
+			id: "383BC8B7DAB18413"
+			tasks: [{
+				id: "36CE9AE72663B13C"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "3F16920099D6351F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3132227616718337425L
+			}]
 		}
 	]
 	quest_links: [ ]
