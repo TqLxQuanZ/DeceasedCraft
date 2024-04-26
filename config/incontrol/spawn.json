@@ -425,6 +425,7 @@
         "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
         "minlight": 0,
         "maxlight": 3,
+        "minheight": 30,
         "onjoin": true,
         "result": "allow",
         "healthadd": 300.0,
