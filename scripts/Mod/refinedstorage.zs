@@ -30,7 +30,9 @@ craftingTable.addShaped("storage_housing", <item:refinedstorage:storage_housing>
 <recipetype:immersiveengineering:crusher>.addRecipe("silica_dust_quartz_ore", <item:minecraft:nether_quartz_ore>, 4800, <item:minecraft:quartz> * 3, <item:contenttweaker:silica_dust> * 2, <item:immersiveengineering:dust_sulfur> % 25);
 
 // Silicon
-<recipetype:immersiveengineering:arc_furnace>.addRecipe("silicon", <item:contenttweaker:silica_dust>, [<item:immersiveengineering:coal_coke>], 100, 51200, [<item:refinedstorage:silicon>], <item:immersiveengineering:slag>);
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("silicon_coal_coke", <item:contenttweaker:silica_dust>, [<item:immersiveengineering:coal_coke>], 100, 51200, [<item:refinedstorage:silicon>], <item:immersiveengineering:slag>);
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("silicon_petcoke", <item:contenttweaker:silica_dust>, [<item:immersivepetroleum:petcoke>], 100, 51200, [<item:refinedstorage:silicon>], <item:immersiveengineering:slag>);
+
 
 // Redstone Acid - MixingManager
 <recipetype:create:mixing>.addRecipe("redstone_acid", <constant:create:heat_condition:heated>, [<fluid:minecraft:water> * 250], [<tag:items:forge:dusts/redstone>], [<fluid:immersiveengineering:redstone_acid> * 250], 256);
