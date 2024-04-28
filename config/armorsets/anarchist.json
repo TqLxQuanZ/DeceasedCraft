@@ -1,7 +1,10 @@
 {
   "armorSetName": "armors.anarchist.title",
   "head": {
-    "itemKey": "apocalypsenow:anarchy_helmet"
+    "itemKey": "apocalypsenow:anarchy_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:gasmask_helmet"
+    ]
   },
   "chest": {
     "itemKey": "apocalypsenow:anarchy_chestplate"

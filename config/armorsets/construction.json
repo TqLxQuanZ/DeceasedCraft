@@ -1,7 +1,10 @@
 {
   "armorSetName": "armors.construction.title",
   "head": {
-    "itemKey": "apocalypsenow:construction_helmet"
+    "itemKey": "apocalypsenow:construction_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:gasmask_helmet"
+    ]
   },
   "chest": {
     "itemKey": "apocalypsenow:construction_chestplate"

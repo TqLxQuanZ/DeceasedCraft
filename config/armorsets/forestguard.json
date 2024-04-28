@@ -1,7 +1,10 @@
 {
   "armorSetName": "armors.forest_guard.title",
   "head": {
-    "itemKey": "apocalypsenow:forestguard_helmet"
+    "itemKey": "apocalypsenow:forestguard_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:gasmask_helmet"
+    ]
   },
   "chest": {
     "itemKey": "apocalypsenow:forestguard_chestplate"
@@ -16,7 +19,7 @@
     {
       "type": "attribute",
       "name": "puffish_skills:player.ranged_damage",
-      "value": 0.15,
+      "value": 0.2,
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "766b4e0a-13f3-4e4f-8a2c-49b4f41da5b9",

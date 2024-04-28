@@ -1,7 +1,10 @@
 {
   "armorSetName": "armors.army_general.title",
   "head": {
-    "itemKey": "apocalypsenow:army_helmet"
+    "itemKey": "apocalypsenow:army_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:gasmask_helmet"
+    ]
   },
   "chest": {
     "itemKey": "apocalypsenow:army_chestplate"

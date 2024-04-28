@@ -1,7 +1,10 @@
 {
   "armorSetName": "armors.un_army.title",
   "head": {
-    "itemKey": "apocalypsenow:un_armor_helmet"
+    "itemKey": "apocalypsenow:un_armor_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:pkm_4gasmask_helmet"
+    ]
   },
   "chest": {
     "itemKey": "apocalypsenow:un_armor_chestplate"
@@ -26,7 +29,7 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_speed",
-      "value": 0.2,
+      "value": 0.3,
       "interactionType": "self",
       "attributeOperation": 2,
       "modifierUUID": "7fade7aa-0fe5-4016-97ba-8c0821f15612",
