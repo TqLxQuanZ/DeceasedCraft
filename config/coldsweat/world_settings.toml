@@ -41,9 +41,9 @@
 #Format: [season-start, season-mid, season-end]
 #Applied as an offset to the world's temperature
 ["Season Temperatures"]
-	Summer = [0.2, 0.4, 0.2]
+	Summer = [0.3, 0.5, 0.3]
 	Autumn = [0.1, 0, -0.1]
-	Winter = [-0.2, -0.4, -0.2]
+	Winter = [-0.3, -0.5, -0.3]
 	Spring = [-0.1, 0, 0.1]
 
 [Misc]
