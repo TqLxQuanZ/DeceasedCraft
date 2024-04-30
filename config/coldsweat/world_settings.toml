@@ -41,10 +41,10 @@
 #Format: [season-start, season-mid, season-end]
 #Applied as an offset to the world's temperature
 ["Season Temperatures"]
-	Summer = [0.4, 0.6, 0.4]
-	Autumn = [0.2, 0, -0.2]
-	Winter = [-0.4, -0.6, -0.4]
-	Spring = [-0.2, 0, 0.2]
+	Summer = [0.2, 0.4, 0.2]
+	Autumn = [0.1, 0, -0.1]
+	Winter = [-0.2, -0.4, -0.2]
+	Spring = [-0.1, 0, 0.1]
 
 [Misc]
 	#The amount of temperature normalization from being deep underground
