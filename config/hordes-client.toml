@@ -8,14 +8,30 @@
 	hordeSpawnSound = true
 	#Colour of horde notification messages in the rgb format.
 	hordeMessageColour = [135, 0, 0]
+	#Whether the sky and moon should be tinted on a horde night
+	hordeEventTintsSky = true
+	#Colour of horde notification messages in the rgb format.
+	hordeEventSkyColour = [102, 0, 0]
+	#Colour of horde notification messages in the rgb format.
+	hordeEventMoonColour = [193, 57, 15]
+
+[Infection]
+	#Play a sound when the player becomes infected?
+	playerInfectSound = true
+	#Tint the player's screen and display other visual effects if they are infected.
+	playerInfectionVisuals = false
+	#Play a sound when infection gets prevented?
+	infectionProtectSound = false
+	#Show a tooltip on items that can cure infection?
+	cureTooltip = true
+	#Show a tooltip on items that give infection immunity?
+	immunityTooltip = true
+	#Show a tooltip on wearable items that grant some protection against infection?
+	wearableProtectionTooltip = true
 	#Colour tint for zombie players.
 	zombiePlayerColour = [121, 156, 101]
 	#Colour tint for drowned players.
 	drownedPlayerColour = [144, 255, 255]
-
-[Infection]
-	#Play a sound when the player beomes infected.
-	playerInfectSound = true
-	#Tint the player's screen and display other visual effects if they are infected.
-	playerInfectionVisuals = true
+	#Colour tint for husk players.
+	huskPlayerColour = [193, 168, 5]
 
