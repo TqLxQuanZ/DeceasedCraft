@@ -38,13 +38,13 @@ craftingTable.remove(<item:apocalypsenow:medicalkit>);
 craftingTable.addShaped("medicalkit", <item:apocalypsenow:medicalkit>,
     [[<item:minecraft:air>, <tag:items:forge:plates/aluminum>, <item:minecraft:air>],
     [<item:firstaid:plaster>, <item:firstaid:bandage>, <item:apocalypsenow:scalpel>],
-	[<item:minecraft:air>, <item:apocalypsenow:scissors>, <item:firstaid:morphine>]]);
+	[<item:minecraft:air>, <item:apocalypsenow:scissors>.anyDamage(), <item:firstaid:morphine>]]);
     
 craftingTable.remove(<item:apocalypsenow:suturekit>);
 craftingTable.addShaped("suturekit", <item:apocalypsenow:suturekit>,
     [[<item:minecraft:string>, <tag:items:forge:plates/aluminum>, <item:apocalypsenow:bloodbag>],
     [<item:firstaid:plaster>, <item:firstaid:bandage>, <item:apocalypsenow:scalpel>],
-	[<tag:items:minecraft:wool>, <item:apocalypsenow:scissors>, <item:firstaid:morphine>]]);
+	[<tag:items:minecraft:wool>, <item:apocalypsenow:scissors>.anyDamage(), <item:firstaid:morphine>]]);
 
 craftingTable.remove(<item:apocalypsenow:emptybloodbag>);
 craftingTable.addShapedMirrored("emptybloodbag", <constant:minecraft:mirroraxis:horizontal>, <item:apocalypsenow:emptybloodbag>,
