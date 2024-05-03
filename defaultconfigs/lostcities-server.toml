@@ -5,4 +5,7 @@
 	specialBedBlock = "minecraft:diamond_block"
 	selectedProfile = "deceasedcraft"
 	selectedCustomJson = ""
+	#The size of the todo queues for the lost city generator
+	#Range: 1 ~ 100000
+	todoQueueSize = 90000
 
