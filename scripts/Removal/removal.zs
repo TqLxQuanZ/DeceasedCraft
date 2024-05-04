@@ -8,6 +8,9 @@ import mods.jei.JEI;
 recipes.remove(<item:cold_sweat:soulspring_lamp>);
 JEI.hideIngredient(<item:cold_sweat:soulspring_lamp>);
 
+// Duplicate Recipe
+recipes.removeByName("createbigcannons:cutting/spring_wire_iron");
+
 // Removing Zombie Extreme
 recipes.removeByModid("zombie_extreme");
 JEI.hideMod("zombie_extreme");
