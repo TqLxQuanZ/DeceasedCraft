@@ -39,11 +39,11 @@ import crafttweaker.api.item.IItemStack;
 <tag:items:forge:corundum/cluster>.add(<item:quark:white_corundum_cluster>);
 
 // Furnace
-furnace.addRecipe("furnace_raw_bauxite", <item:immersiveengineering:nugget_aluminum>, <item:immersiveengineering:raw_aluminum>, 0.3, 200);
-furnace.addRecipe("furnace_aluminum_ore", <item:immersiveengineering:nugget_aluminum>, <item:immersiveengineering:ore_aluminum>, 0.3, 200);
-blastFurnace.addRecipe("blast_aluminum_ore", <item:immersiveengineering:nugget_aluminum> * 2, <item:immersiveengineering:ore_aluminum>, 0.3, 200);
-furnace.addRecipe("furnace_deepslate_aluminum_ore", <item:immersiveengineering:nugget_aluminum> * 2, <item:immersiveengineering:deepslate_ore_aluminum>, 0.3, 200);
-blastFurnace.addRecipe("blast_deepslate_aluminum_ore", <item:immersiveengineering:nugget_aluminum> * 3, <item:immersiveengineering:deepslate_ore_aluminum>, 0.3, 200);
+furnace.addRecipe("furnace_raw_bauxite", <item:immersiveengineering:nugget_aluminum> * 2, <item:immersiveengineering:raw_aluminum>, 0.3, 200);
+furnace.addRecipe("furnace_aluminum_ore", <item:immersiveengineering:nugget_aluminum> * 4, <item:immersiveengineering:ore_aluminum>, 0.3, 200);
+furnace.addRecipe("furnace_deepslate_aluminum_ore", <item:immersiveengineering:nugget_aluminum> * 3, <item:immersiveengineering:deepslate_ore_aluminum>, 0.3, 200);
+blastFurnace.addRecipe("blast_aluminum_ore", <item:immersiveengineering:nugget_aluminum> * 4, <item:immersiveengineering:ore_aluminum>, 0.3, 200);
+blastFurnace.addRecipe("blast_deepslate_aluminum_ore", <item:immersiveengineering:nugget_aluminum> * 5, <item:immersiveengineering:deepslate_ore_aluminum>, 0.3, 200);
 
 
 // Crusher from Create

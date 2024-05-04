@@ -10,6 +10,7 @@ import crafttweaker.api.misc.Composter;
 <recipetype:create:splashing>.removeByName("create:splashing/immersiveengineering/crushed_raw_aluminum");
 <recipetype:create:splashing>.addRecipe("aluminum_nugget", [<item:immersiveengineering:nugget_aluminum> * 4], <item:create:crushed_raw_aluminum>);
 
+furnace.addRecipe("thin_can_aluminum_nugget", <item:immersiveengineering:nugget_aluminum>, <item:apocalypsenow:thincan>, 1.0, 100);
 furnace.addRecipe("small_can_aluminum_nugget", <item:immersiveengineering:nugget_aluminum> * 2, <item:apocalypsenow:small_can>, 1.0, 100);
 furnace.addRecipe("food_can_aluminum_nugget", <item:immersiveengineering:nugget_aluminum> * 2, <item:apocalypsenow:can>, 1.0, 100);
 
