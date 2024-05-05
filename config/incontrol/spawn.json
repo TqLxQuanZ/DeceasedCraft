@@ -925,6 +925,19 @@
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "dimension": "minecraft:overworld",
+        "incity": true,
+        "onjoin": true,
+        "minheight": 61,
+        "random": 0.1,
+        "result": "default",
+        "armorhelmet": "apocalypsenow:construction_helmet",
+        "armorchest": "apocalypsenow:construction_chestplate",
+        "armorlegs": "apocalypsenow:construction_leggings",
+        "armorboots": "apocalypsenow:construction_boots"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
         "building": [
           "c70cities:multi_militarybase_0",
           "c70cities:multi_militarybase_1",
@@ -934,7 +947,6 @@
           "c70cities:multi_militarybase_5"],
         "onjoin": true,
         "minheight": 40,
-        "random": 0.75,
         "result": "default",
         "damageadd": 30.0,
         "healthadd": 80.0,
@@ -950,19 +962,6 @@
             }
           ]
         }
-    },
-    {
-        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
-        "dimension": "minecraft:overworld",
-        "incity": true,
-        "onjoin": true,
-        "minheight": 61,
-        "random": 0.1,
-        "result": "default",
-        "armorhelmet": "apocalypsenow:construction_helmet",
-        "armorchest": "apocalypsenow:construction_chestplate",
-        "armorlegs": "apocalypsenow:construction_leggings",
-        "armorboots": "apocalypsenow:construction_boots"
     },
     {
         "mob": ["zombie_extreme:infected_hazmat"],
