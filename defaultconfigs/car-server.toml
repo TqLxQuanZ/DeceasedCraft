@@ -120,9 +120,9 @@
 			#Range: 0.001 ~ 10.0
 			fuel_efficiency = 0.25
 			#Range: 0.001 ~ 10.0
-			acceleration = 0.04
+			acceleration = 0.03
 			#Range: 0.001 ~ 10.0
-			max_speed = 0.75
+			max_speed = 0.85
 			#Range: 0.001 ~ 10.0
 			max_reverse_speed = 0.2
 
@@ -130,7 +130,7 @@
 			#Range: 0.001 ~ 10.0
 			fuel_efficiency = 0.5
 			#Range: 0.001 ~ 10.0
-			acceleration = 0.035
+			acceleration = 0.05
 			#Range: 0.001 ~ 10.0
 			max_speed = 0.65
 			#Range: 0.001 ~ 10.0
@@ -138,7 +138,7 @@
 
 		[car.parts.engine_truck]
 			#Range: 0.001 ~ 10.0
-			fuel_efficiency = 0.7
+			fuel_efficiency = 0.8
 			#Range: 0.001 ~ 10.0
 			acceleration = 0.032
 			#Range: 0.001 ~ 10.0
@@ -152,7 +152,7 @@
 			#Range: 0.001 ~ 10.0
 			acceleration = 0.95
 			#Range: 0.001 ~ 10.0
-			max_speed = 0.85
+			max_speed = 0.9
 
 		[car.parts.body_wood]
 			#Range: 0.001 ~ 10.0
@@ -160,7 +160,7 @@
 			#Range: 0.001 ~ 10.0
 			acceleration = 1.0
 			#Range: 0.001 ~ 10.0
-			max_speed = 0.9
+			max_speed = 1.0
 
 		[car.parts.body_sport]
 			#Range: 0.001 ~ 10.0
@@ -168,7 +168,7 @@
 			#Range: 0.001 ~ 10.0
 			acceleration = 1.0
 			#Range: 0.001 ~ 10.0
-			max_speed = 1.2
+			max_speed = 1.4
 
 		[car.parts.body_suv]
 			#Range: 0.001 ~ 10.0
@@ -184,5 +184,5 @@
 			#Range: 0.001 ~ 10.0
 			acceleration = 0.8
 			#Range: 0.001 ~ 10.0
-			max_speed = 0.765
+			max_speed = 0.8
 
