@@ -152,7 +152,7 @@
 			#Range: 0.001 ~ 10.0
 			acceleration = 0.95
 			#Range: 0.001 ~ 10.0
-			max_speed = 0.9
+			max_speed = 0.8
 
 		[car.parts.body_wood]
 			#Range: 0.001 ~ 10.0
@@ -160,7 +160,7 @@
 			#Range: 0.001 ~ 10.0
 			acceleration = 1.0
 			#Range: 0.001 ~ 10.0
-			max_speed = 1.0
+			max_speed = 0.9
 
 		[car.parts.body_sport]
 			#Range: 0.001 ~ 10.0
@@ -168,7 +168,7 @@
 			#Range: 0.001 ~ 10.0
 			acceleration = 1.0
 			#Range: 0.001 ~ 10.0
-			max_speed = 1.4
+			max_speed = 1.2
 
 		[car.parts.body_suv]
 			#Range: 0.001 ~ 10.0
