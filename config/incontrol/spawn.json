@@ -1,14 +1,12 @@
 [
     {
       "onjoin": true,
-      "continue": true,
       "difficulty": "easy",
       "healthmultiply": 0.5,
       "damagemultiply": 0.5
     },
     {
       "onjoin": true,
-      "continue": true,
       "difficulty": "normal",
       "speedmultiply": 1.0,
       "healthmultiply": 1.0,
@@ -16,7 +14,6 @@
     },
     {
       "onjoin": true,
-      "continue": true,
       "difficulty": "hard",
       "speedmultiply": 1.25,
       "healthmultiply": 2.0,
@@ -949,7 +946,7 @@
         "minheight": 40,
         "result": "default",
         "damageadd": 20.0,
-        "healthadd": 80.0,
+        "healthadd": 40.0,
         "armorhelmet": "apocalypsenow:canadian_army_helmet",
         "armorchest": "apocalypsenow:canadian_army_chestplate",
         "armorlegs": "apocalypsenow:canadian_army_leggings",
