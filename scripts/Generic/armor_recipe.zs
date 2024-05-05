@@ -1622,5 +1622,5 @@ craftingTable.remove(<item:apocalypsenow:soldier_boots>);
 // T4 Gas Mask
 craftingTable.remove(<item:apocalypsenow:pbf_hamstergasmask_helmet>);
 <recipetype:create:mechanical_crafting>.addRecipe("t4_pbf_hamstergasmask_helmet", <item:apocalypsenow:pbf_hamstergasmask_helmet>,
-    [[<item:contenttweaker:rubber>, <item:apocalypsenow:cloth>, <item:contenttweaker:rubber>],
-    [<item:contenttweaker:resistant_fabric>, <item:apocalypsenow:gasmask_helmet>, <item:contenttweaker:resistant_fabric>]]);
+    [[<item:contenttweaker:rubber>, <item:minecraft:netherite_scrap>, <item:contenttweaker:rubber>],
+    [<item:contenttweaker:resistant_fabric>, <item:apocalypsenow:pkm_4gasmask_helmet>, <item:contenttweaker:resistant_fabric>]]);
