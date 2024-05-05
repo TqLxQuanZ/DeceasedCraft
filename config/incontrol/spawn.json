@@ -1014,41 +1014,7 @@
           "c70cities:multi_laboratory1_12",
           "c70cities:multi_laboratory1_13",
           "c70cities:multi_laboratory1_14"],
-        "random": 0.10,
-        "onjoin": true,
-        "result": "default",
-        "nbt": {
-            "HandItems":[
-              {
-                "id":"air",
-                "Count":1
-              },
-              {
-                "id":"iron_pickaxe",
-                "Count":1
-              }]
-          }
-    },
-    {
-        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
-        "dimension": "minecraft:overworld",
-        "building": [
-          "c70cities:multi_laboratory1_0",
-          "c70cities:multi_laboratory1_1",
-          "c70cities:multi_laboratory1_2",
-          "c70cities:multi_laboratory1_3",
-          "c70cities:multi_laboratory1_4",
-          "c70cities:multi_laboratory1_5",
-          "c70cities:multi_laboratory1_6",
-          "c70cities:multi_laboratory1_7",
-          "c70cities:multi_laboratory1_8",
-          "c70cities:multi_laboratory1_9",
-          "c70cities:multi_laboratory1_10",
-          "c70cities:multi_laboratory1_11",
-          "c70cities:multi_laboratory1_12",
-          "c70cities:multi_laboratory1_13",
-          "c70cities:multi_laboratory1_14"],
-        "random": 0.25,
+        "random": 0.15,
         "onjoin": true,
         "result": "default",
         "armorhelmet": "apocalypsenow:hazmat_suit_helmet",
@@ -1075,7 +1041,7 @@
           "c70cities:multi_laboratory1_12",
           "c70cities:multi_laboratory1_13",
           "c70cities:multi_laboratory1_14"],
-        "random": 0.25,
+        "random": 0.15,
         "onjoin": true,
         "result": "default",
         "armorhelmet": "apocalypsenow:biohazard_helmet",
@@ -1104,8 +1070,8 @@
           "c70cities:multi_laboratory1_14"],
         "onjoin": true,
         "result": "default",
-        "damageadd": 10.0,
-        "healthadd": 50.0,
+        "damageadd": 20.0,
+        "healthadd": 80.0,
         "nbt": {
           "Attributes": [
             {
@@ -1119,7 +1085,6 @@
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "dimension": "minecraft:overworld",
         "onjoin": true,
-        "minheight": 61,
         "random": 0.01,
         "difficulty": "hard",
         "result": "default",
@@ -1677,7 +1642,7 @@
       "maxlight": 3,
       "result": "allow",
       "healthadd": 250.0,
-      "damageadd": 100.0,
+      "damageadd": 200.0,
       "nbt": {
         "Attributes": [
           {
@@ -1701,7 +1666,7 @@
       "minlight": 0,
       "maxlight": 3, 
       "result": "allow",
-      "damageadd": 30.0,
+      "damageadd": 50.0,
       "healthadd": 100.0,
       "nbt": {
         "Attributes": [
@@ -1773,7 +1738,7 @@
       "maxlight": 3,
       "onjoin": true,
       "result": "allow",
-      "damageadd": 150.0,
+      "damageadd": 200.0,
       "healthadd": 750.0,
       "nbt": {
         "Attributes": [

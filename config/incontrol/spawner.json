@@ -250,10 +250,22 @@
 	},
 	{
 		"mob": ["undead_revamp2:theheavy",
-				"undead_revamp2:thespectre",
-				"undead_revamp2:thegliter"],
+				"undead_revamp2:thespectre"],
 		"persecond": 0.5,
-		"attempts": 30,
+		"attempts": 20,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 10,
+		  "maxdist": 200,
+		  "minheight": -60,
+		  "maxheight": 300
+		}
+	},
+	{
+		"mob": ["undead_revamp2:thegliter"],
+		"persecond": 0.5,
+		"attempts": 20,
 		"conditions": {
 		  "dimension": "minecraft:overworld",
 		  "norestrictions": true,
