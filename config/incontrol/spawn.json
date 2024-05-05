@@ -20,7 +20,15 @@
       "difficulty": "hard",
       "speedmultiply": 1.25,
       "healthmultiply": 2.0,
-      "damagemultiply": 2.0
+      "damagemultiply": 2.0,
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 128.0,
+            "Name": "generic.follow_range"
+          }
+        ]
+      }
     },
     {
       "phase": "after_day1",
@@ -925,13 +933,23 @@
           "c70cities:multi_militarybase_4",
           "c70cities:multi_militarybase_5"],
         "onjoin": true,
-        "minheight": 61,
+        "minheight": 40,
         "random": 0.75,
         "result": "default",
+        "damageadd": 30.0,
+        "healthadd": 80.0,
         "armorhelmet": "apocalypsenow:canadian_army_helmet",
         "armorchest": "apocalypsenow:canadian_army_chestplate",
         "armorlegs": "apocalypsenow:canadian_army_leggings",
-        "armorboots": "apocalypsenow:canadian_army_boots"
+        "armorboots": "apocalypsenow:canadian_army_boots",
+        "nbt": {
+          "Attributes": [
+            {
+              "Base": 20.0,
+              "Name": "generic.armor"
+            }
+          ]
+        }
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
@@ -1073,12 +1091,6 @@
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "dimension": "minecraft:overworld",
         "building": [
-          "c70cities:multi_militarybase_0",
-          "c70cities:multi_militarybase_1",
-          "c70cities:multi_militarybase_2",
-          "c70cities:multi_militarybase_3",
-          "c70cities:multi_militarybase_4",
-          "c70cities:multi_militarybase_5",
           "c70cities:multi_laboratory1_0",
           "c70cities:multi_laboratory1_1",
           "c70cities:multi_laboratory1_2",
