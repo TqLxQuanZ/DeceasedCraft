@@ -1678,7 +1678,7 @@
 		  "dimension": "deceasedcraft:abyss",
       "result": "default",
       "damageadd": 50.0,
-      "healthadd": 300.0,
+      "healthadd": 500.0,
       "onjoin": true,
       "nbt": {
         "Attributes": [
@@ -1695,8 +1695,8 @@
       "minlight": 0,
       "maxlight": 3, 
       "result": "allow",
-      "damageadd": 50.0,
-      "healthadd": 300.0,
+      "damageadd": 100.0,
+      "healthadd": 500.0,
       "onjoin": true,
       "nbt": {
         "SegCount": 20,
@@ -1704,6 +1704,10 @@
           {
             "Base": 30.0,
             "Name": "generic.armor"
+          },
+          {
+            "Base": 128.0,
+            "Name": "generic.follow_range"
           }
         ]
       }
