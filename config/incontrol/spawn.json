@@ -1,5 +1,29 @@
 [
     {
+      "onjoin": true,
+      "continue": true,
+      "difficulty": "easy",
+      "speedmultiply": 0.5,
+      "healthmultiply": 0.5,
+      "damagemultiply": 0.5
+    },
+    {
+      "onjoin": true,
+      "continue": true,
+      "difficulty": "normal",
+      "speedmultiply": 1.0,
+      "healthmultiply": 1.0,
+      "damagemultiply": 1.0
+    },
+    {
+      "onjoin": true,
+      "continue": true,
+      "difficulty": "hard",
+      "speedmultiply": 1.5,
+      "healthmultiply": 2.0,
+      "damagemultiply": 2.0
+    },
+    {
       "phase": "after_day1",
       "hostile": true,
       "result": "deny"
@@ -1083,6 +1107,26 @@
             }
           ]
         }
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
+        "onjoin": true,
+        "minheight": 61,
+        "random": 0.01,
+        "difficulty": "hard",
+        "result": "default",
+        "nbt": {
+            "HandItems":[
+              {
+                "id":"air",
+                "Count":1
+              },
+              {
+                "id":"iron_pickaxe",
+                "Count":1
+              }]
+          }
     },
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],

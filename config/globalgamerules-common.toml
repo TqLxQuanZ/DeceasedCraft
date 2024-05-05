@@ -179,7 +179,7 @@
 [difficulty]
 	#If the difficulty should be set on world load
 	#If true difficulty changes in game will also be saved to the config
-	set_difficulty = false
+	set_difficulty = true
 	#The difficulty to set if 'set_difficulty' is true, respects if the difficulty is locked or not for the world
 	#Allowed Values: PEACEFUL, EASY, NORMAL, HARD
 	difficulty = "NORMAL"
