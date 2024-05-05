@@ -1240,7 +1240,8 @@
       "onjoin": true,
       "minspawndist": 15000,
       "result": "allow",
-      "damageadd": 6.0
+      "damageadd": 20.0,
+      "healthadd": 40.0
     },
     {
       "mob": ["mutationcraft:reductor"],
@@ -1250,7 +1251,8 @@
       "onjoin": true,
       "minspawndist": 15000,
       "result": "allow",
-      "damageadd": 10.0
+      "damageadd": 20.0,
+      "healthadd": 40.0
     },
     {
       "mob": "mutationcraft:resenter",
