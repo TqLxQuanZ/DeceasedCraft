@@ -588,6 +588,22 @@
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "dimension": "minecraft:overworld",
+        "incity": false,
+        "onjoin": true,
+        "continue": true,
+        "minheight": 61,
+        "random": 0.15,
+        "result": "default",
+        "armorhelmet": ["apocalypsenow:black_motorcycle_helmet_helmet",
+                        "apocalypsenow:red_motorcycle_helmet_helmet",
+                        "apocalypsenow:bikers_helmet",
+                        "apocalypsenow:red_bikers_helmet",
+                        "apocalypsenow:black_bikers_helmet",
+                        "apocalypsenow:green_bikers_helmet"]
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
         "biome": ["minecraft:beach"],
         "onjoin": true,
         "continue": true,

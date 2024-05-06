@@ -84,4 +84,9 @@
 	lockOnlyChests = false
 	#If this is true then mobs will only spawn on blocks but not on air
 	spawnOnBlock = true
+	#This message is given when the player enters a haunted building after at least 'messageInterval' ticks have passed. Use <same> to have the same message as the first time
+	messageBuildingHauntedRepeat = "<same>"
+	#The delay (in ticks) before a new 'haunted' message is given to the player
+	#Range: 1 ~ 1000000
+	messageInterval = 6000
 
