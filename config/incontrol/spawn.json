@@ -330,11 +330,6 @@
         "armoradd": 40.0
     },
     {
-        "mob": ["undead_revamp2:clogger"],
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
         "mob": ["undead_revamp2:thespectre"],
         "building": [
             "c70cities:multi_laboratory1_0",
