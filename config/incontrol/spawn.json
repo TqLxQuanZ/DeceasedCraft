@@ -1084,8 +1084,42 @@
     {
         "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
         "dimension": "minecraft:overworld",
+        "building": [
+          "c70cities:multi_laboratory1_0",
+          "c70cities:multi_laboratory1_1",
+          "c70cities:multi_laboratory1_2",
+          "c70cities:multi_laboratory1_3",
+          "c70cities:multi_laboratory1_4",
+          "c70cities:multi_laboratory1_5",
+          "c70cities:multi_laboratory1_6",
+          "c70cities:multi_laboratory1_7",
+          "c70cities:multi_laboratory1_8",
+          "c70cities:multi_laboratory1_9",
+          "c70cities:multi_laboratory1_10",
+          "c70cities:multi_laboratory1_11",
+          "c70cities:multi_laboratory1_12",
+          "c70cities:multi_laboratory1_13",
+          "c70cities:multi_laboratory1_14"],
         "onjoin": true,
-        "random": 0.01,
+        "random": 0.02,
+        "result": "default",
+        "nbt": {
+            "HandItems":[
+              {
+                "id":"air",
+                "Count":1
+              },
+              {
+                "id":"iron_pickaxe",
+                "Count":1
+              }]
+          }
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
+        "onjoin": true,
+        "random": 0.02,
         "difficulty": "hard",
         "result": "default",
         "nbt": {
