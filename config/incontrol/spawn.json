@@ -1480,6 +1480,7 @@
     {
       "dimension": "minecraft:overworld",
       "onjoin": true,
+      "hostile": true,
       "difficulty": "easy",
       "result": "default",
       "healthmultiply": 0.5,
@@ -1488,6 +1489,7 @@
     {
       "dimension": "minecraft:overworld",
       "onjoin": true,
+      "hostile": true,
       "difficulty": "normal",
       "result": "default",
       "speedmultiply": 1.0,
@@ -1497,6 +1499,7 @@
     {
       "dimension": "minecraft:overworld",
       "onjoin": true,
+      "hostile": true,
       "difficulty": "hard",
       "result": "default",
       "speedmultiply": 1.2,
@@ -1666,6 +1669,7 @@
     {
       "dimension": "deceasedcraft:abyss",
       "onjoin": true,
+      "hostile": true,
       "difficulty": "easy",
       "healthmultiply": 0.5,
       "damagemultiply": 0.5
@@ -1673,6 +1677,7 @@
     {
       "dimension": "deceasedcraft:abyss",
       "onjoin": true,
+      "hostile": true,
       "difficulty": "normal",
       "speedmultiply": 1.0,
       "healthmultiply": 1.0,
@@ -1681,6 +1686,7 @@
     {
       "dimension": "deceasedcraft:abyss",
       "onjoin": true,
+      "hostile": true,
       "difficulty": "hard",
       "speedmultiply": 1.2,
       "damagemultiply": 1.2,
