@@ -1415,7 +1415,7 @@ craftingTable.addShapedMirrored("t3_ballistic_helmet", <constant:minecraft:mirro
 craftingTable.remove(<item:apocalypsenow:pkm_4gasmask_helmet>);
 <recipetype:create:mechanical_crafting>.addRecipe("t3_pkm_4gasmask_helmet", <item:apocalypsenow:pkm_4gasmask_helmet>,
     [[<tag:items:forge:plates/plastic>, <item:apocalypsenow:cloth>, <tag:items:forge:plates/plastic>],
-    [<item:contenttweaker:resistant_fabric>, <item:apocalypsenow:gasmask_helmet>, <item:contenttweaker:resistant_fabric>]]);
+    [<item:contenttweaker:resistant_fabric>, <item:apocalypsenow:gasmask_helmet>.anyDamage(), <item:contenttweaker:resistant_fabric>]]);
     
 #------------------ Tier 4 --------------------------
 #----------------------------------------------------
@@ -1623,4 +1623,4 @@ craftingTable.remove(<item:apocalypsenow:soldier_boots>);
 craftingTable.remove(<item:apocalypsenow:pbf_hamstergasmask_helmet>);
 <recipetype:create:mechanical_crafting>.addRecipe("t4_pbf_hamstergasmask_helmet", <item:apocalypsenow:pbf_hamstergasmask_helmet>,
     [[<item:contenttweaker:rubber>, <item:minecraft:netherite_scrap>, <item:contenttweaker:rubber>],
-    [<item:contenttweaker:resistant_fabric>, <item:apocalypsenow:pkm_4gasmask_helmet>, <item:contenttweaker:resistant_fabric>]]);
+    [<item:contenttweaker:resistant_fabric>, <item:apocalypsenow:pkm_4gasmask_helmet>.anyDamage(), <item:contenttweaker:resistant_fabric>]]);
