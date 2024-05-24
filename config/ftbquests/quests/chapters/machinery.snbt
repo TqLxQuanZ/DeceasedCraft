@@ -223,9 +223,10 @@
 			progression_mode: "linear"
 			id: "0E055A2041D2A050"
 			tasks: [{
-				id: "2CD3978AFB7DAFFA"
-				type: "item"
-				item: "immersivepetroleum:pumpjack"
+				id: "57823BEBF3731104"
+				type: "advancement"
+				advancement: "immersivepetroleum:main/mb_pumpjack"
+				criterion: ""
 			}]
 			rewards: [{
 				id: "108A02499C42A03C"
